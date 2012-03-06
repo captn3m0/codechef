@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Codechef Practice Problems</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+    </style>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">Codechef Practice Problem Viewer</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="#easy">Easy</a></li>
+              <li><a href="#medium">Medium</a></li>
+              <li><a href="#hard">Hard</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span3">
+          <div class="well sidebar-nav">
+            <ul class="nav nav-list">
+              <li id="easy" class="nav-header">Easy</li>
+              <li id="medium" class="nav-header">Medium</li>
+              <li id="hard" class="nav-header">Hard</li>
+            </ul>
+          </div><!--/.well -->
+        </div><!--/span-->
+        <div class="span9">
+            <div id="content" class="row-fluid">
+                Click on a problem on the left, and it will load here.
+          </div><!--/row-->
+        </div>
+     </div>
+
+      <hr>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	  <script src="./assets/js/davis.min.js"></script>
+	  <script>
+		  /**
+		   * Setup the app
+		   */
+		  var app = Davis(function () {
+		    this.get('/problems/:category/:name', function (req) {
+			  $('#content').load(req.params['name']);
+			  $('body,html').animate({
+				scrollTop: 0
+			  }, 200);
+		    })
+		  })
+		  $('document').ready(function(){
+			  category = ['EASY','MEDIUM','HARD']
+			  for(i in category){
+			    (function(){
+				  console.log(category[i]);
+				  $.get('./list/'+category[i],function(e,j,x){
+					var cat = this.url.split('/')[2];
+					var arr = e.split("\n");
+					for(i in arr.reverse()){
+					  $('#'+cat.toLowerCase()).after('<li><a href="/problems/'+cat+'/'+arr[i]+'">'+arr[i]+'</a></li>');
+					}
+				  });
+			    })()
+			  }
+		  });
+	  </script>
+      <footer>
+        <p>Made using styles from Bootswatch, and content from Codechef</p>
+      </footer>
+
+    </div>
+
+
+  </body>
+</html>
+
