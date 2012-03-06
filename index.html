@@ -36,13 +36,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">Codechef Practice Problem Viewer</a>
+          <a class="brand" class="prefix-link">Codechef Practice Problem Viewer</a>
           <div class="nav-collapse">
             <ul class="nav">
-              <li class="active"><a href="index.html">Home</a></li>
-              <li><a href="#easy">Easy</a></li>
-              <li><a href="#medium">Medium</a></li>
-              <li><a href="#hard">Hard</a></li>
+              <li class="active"><a class="prefix-link" href="">Home</a></li>
+              <li><a class="prefix-link" href="easy">Easy</a></li>
+              <li><a class="prefix-link" href="medium">Medium</a></li>
+              <li><a class="prefix-link" href="hard">Hard</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -74,13 +74,26 @@
 		  /**
 		   * Setup the app
 		   */
+		  window.root = location.origin+location.pathname;
+		  $('.prefix-link').each(function(i,l){
+			var href=l.getAttribute('href');
+		    $(l).attr('href',window.root+href);
+		  });
+		  //attr('href',window.root);
+		  console.log(window.root);
 		  var app = Davis(function () {
-		    this.get('/problems/:category/:name', function (req) {
-			  $('#content').load(req.params['name']);
+		    this.get(location.pathname+'problems/:category/:name', function (req) {
+			  $('#content').load(window.root+'problems/'+req.params['category'].toUpperCase()+'/'+req.params['name']);
 			  $('body,html').animate({
 				scrollTop: 0
 			  }, 200);
 		    })
+		    this.get(location.pathname,function(req){
+				$('#content').load(window.root+'home.html');
+			})
+			this.get(location.pathname+':cat',function(req){
+				$('html,body').animate({scrollTop: $("#"+req.params['cat']).offset().top-50},200);
+			})
 		  })
 		  $('document').ready(function(){
 			  category = ['EASY','MEDIUM','HARD']
@@ -91,7 +104,7 @@
 					var cat = this.url.split('/')[2];
 					var arr = e.split("\n");
 					for(i in arr.reverse()){
-					  $('#'+cat.toLowerCase()).after('<li><a href="/problems/'+cat+'/'+arr[i]+'">'+arr[i]+'</a></li>');
+					  $('#'+cat.toLowerCase()).after('<li><a href="'+window.root+'problems/'+cat+'/'+arr[i]+'">'+arr[i]+'</a></li>');
 					}
 				  });
 			    })()
