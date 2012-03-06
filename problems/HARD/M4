@@ -1,0 +1,30 @@
+
+<h3> All submissions for this problem are available. </h3><p><b>The problem statement has been updated. </b></p>
+<p>Johnny has gone on a short excursion to the island of Bitland, and found himself with plenty of time to spare for sight-seeing. As a matter of fact, he does really have any itinerary at hand. All he would like to do is to walk around a bit, without spending too much money in the process.</p>
+<p>The cities of Bitland are connected by a network of one way streets. If there exists a road leading directly from city A to city B, then there also exists a road directly from city B to city A. <b>There maybe any number (possibly zero) of parallel roads between any two  cities. However</b>, it is possible to reach any city starting from any other city (possibly indirectly, going through other cities on the way).</p>
+<p>Now, the trouble is that all of the roads in Bitland are privately owned, and toll trolls have been hired to guard them and collect the dues. What's worse, the trolls are moody and will in some circumstances change the sum of the toll charged for using a road...</p>
+<p>Johnny starts his sight-seeing tour from the capital of Bitland. He always leaves each city by the cheapest outgoing road, i.e. the one which currently has the lowest toll. However, as soon as Johnny has used the road from A to B, the toll troll in charge of it increases the toll for the road, setting it at exactly 1 Bitlandian dinar more than the toll currently being charged on the <i>most expensive</i> of the roads leaving city A.</p>
+<p>Johnny has been walking around the towns of Bitland for a while, and he is getting a little bored. Help him answer the following question: what is the toll he is going to pay when traversing the <i>k</i>-th road of his tour?</p>
+<h3>Input</h3>
+<p>The first line of input contains two integers: <i>n</i>, the number of towns in Bitland and <i>m</i>, the number of pairs of roads connecting them  (1 &lt;= <i>n</i> &lt;= 10<sup>5</sup>, 0&lt;= <i>m</i> &lt;=10<sup>5</sup>). Each of the <i>m</i>-th following lines contains four integers A B <i>c</i><sub>AB</sub> <i>c</i><sub>BA</sub>, denoting the identifier of city A, the identifier of city B, the initial toll on the road from A to B, and the initial toll on the road from B to A (1 &lt;= A &lt; B&lt;= <i>n</i>, 1 &lt;= <i>c</i><sub>AB</sub>, <i>c</i><sub>BA</sub> &lt;= 10<sup>9</sup>). All tolls are expressed in dinars. You may assume that the initial toll values for all of the roads are different, and that the city labeled 1 is the capital of Bitland.</p>
+<p>The next line of input contains the number <i>t</i> of queries asked by Johnny, <i>t</i> &lt;= 10<sup>4</sup>. Each of the following <i>t</i> lines contains a single integer <i>k</i> (1 &lt;= <i>k</i> &lt;= 10<sup>12</sup>).</p>
+<h3>Output</h3>
+<p>For each of the values of <i>k</i> given at input, print a line containing the toll paid by Johnny when traversing the  <i>k</i>-th road along his route.</p>
+<h3>Example</h3>
+<pre><b>Input:</b>
+3 2
+1 2 5 10
+1 3 11 7
+4
+1
+2
+3
+5
+
+<b>Output:</b>
+5
+10
+11
+12
+</pre>
+<p></p>    

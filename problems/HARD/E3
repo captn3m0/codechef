@@ -1,0 +1,26 @@
+
+<h3> All submissions for this problem are available. </h3><p>Johny the Farmer has decided to plant potatoes. He quickly realized that he must build a net fence to keep animals from eating his precious plantation. But he only has 3 sticks which can act as vertical poles supporting fence; on the other hand, his supply of net is unlimited. Moreover, since the ground is extremely rocky, the poles can only be positioned in some special places on the field. So, he has decided that the fence must be triangular in shape, with vertices in the distinguished points. Quite naturally, he would also like to maximize the area of the field inside fence -- please help him achieve this goal!</p>
+<h3>Task</h3>
+<p>Write a program which:</p>
+<ul>
+<li>reads from the input the coordinates of the points which can hold the poles,</li>
+<li>calculates the maximal possible area of the potato plantation.</li>
+</ul>
+<h3>Input</h3>
+<p>First, an integer t, representing the number of test cases.</p>
+<p>Each test case starts with an integer n (n   10<sup>6</sup>). In each of the next n lines there is pair of <strong>integers</strong> separated by spaces, x<sub>i</sub>, y<sub>i</sub>, which are the coordinates for i-th point where a pole can potentially be located (0   x<sub>i</sub>,y<sub>i</sub>   10000).</p>
+<h3>Output</h3>
+<p>For each test case output a single integer - the area of the field surrounded by the fence, <strong>multiplied by 2</strong>.</p>
+<h3>Example</h3>
+<pre><strong>Input</strong>
+1
+5
+0 0
+1 0 
+0 1
+1 2
+1 1
+
+<strong>Output</strong>
+2
+</pre>    

@@ -1,0 +1,18 @@
+
+<h3> All submissions for this problem are available. </h3><p><b>The problem statement has been updated. </b></p>
+<p><b>The time limit for this problem is now 5 seconds. <br /></b></p>
+<p>You are given n discs on plane, of the same radius (r=1). Output the area of the part of the plane which is covered by <b>each</b> disc.</p>
+<h3>Input</h3>
+<p>First, 1&lt;=t&lt;=10, the number of tests. Each testcase is of the following form: 1&lt;=n&lt;=100000, then n pairs of floating point coordinates follow: -1000&lt;=x<sub>i</sub>,y<sub>i</sub>&lt;=1000, representing the location of the i-th disc.</p>
+<h3>Output</h3>
+<p>For each testcase, output the total area covered by the intersection of all discs. Round the answer to 6 decimal digits after the point.</p>
+<h3>Example</h3>
+<pre><b>Input:</b>
+1
+2
+0 0
+0 1
+
+<b>Output:</b>
+1.228370
+</pre>    

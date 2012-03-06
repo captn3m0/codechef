@@ -1,0 +1,55 @@
+
+<h3> All submissions for this problem are available. </h3><p>
+The Chef is having a dinner party and invited over all his friends.  His guests
+being fairly health conscious have <strong>exact protein requirements</strong>, and The Chef wishes to oblige them all.
+
+</p><p>
+The Chef will cook dishes for each individual guest using the ingredients in his kitchen.  Each ingredient has a specific amount of protein. The complete dish will have a protein content value equal to the sum of the protein
+contents of the individual ingredients. To cook a dish, The Chef can use any of the ingredients which appear on his shelf, <strong>but only in the order which they appear on the shelf</strong>.  The same ingredient may appear multiple times, and can also be used as many times as it appears.  
+</p>
+
+<p>
+There are multiple ways to choose ingredients following the rules given above. However, The Chef is only interested in choosing the set of ingredients that appear first in a <strong>lexicographically ordered</strong> list of ingredients which satisfy the protein constraints.  Your job is to write a program that helps The Chef figure out which dish to serve!
+</p>
+
+<h3>Input</h3>
+<p>The first line of input contains <em>t</em>, the number of guests invited by The Chef (about 200). 
+
+</p><p>
+Each test consists of three lines:
+<ul>
+<li>The first line consists of one integer 1 &lt;= <em>k</em> &lt;= 26 (the number of <strong> unique </strong> ingredients on the shelf) and than <em>k</em>
+space-separated positive integers from the set {1, 2, ... ,15} describing the protein content for each ingredient in an alphabetically sorted list of unique ingredients.  (the first protein value corresponds with ingredient a, the second corresponds with the protein value for ingredient b, and so on).
+</li><li>The second line contains <em>L</em> - a sequence of lower-case letters of the Latin alphabet (at most 1000) which signify the name of the ingredient.
+</li><li>The third line contains one positive integer S which specifies the exact protein requirement of this guest (<em>1 &lt; S &lt; 500</em>).
+</li></ul>
+
+<h3>Output</h3>
+</p><p>For each testcase either output the sequence of ingredients as described above, or the word 'IMPOSSIBLE' if no such subsequence exists.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3
+5 12 1 12 4 4
+acccdadceb
+2
+3 5 4 6
+abcbacbabcc
+15
+2 3 4
+baba
+7
+
+<b>Output:</b>
+IMPOSSIBLE
+aaa
+ab
+</pre>
+<br />
+</p><p><b>Comments:</b>
+</p><p>For the first guest we have five ingredients: a, b, c, d, e with protein values 12 1 12 4 4 respectively. To achieve a total protein value equal to 2 we need two ingredients b. But there is only one, thus the answer is IMPOSSIBLE.   
+</p><p>For the second guest we can achieve a total protein value of 15 with the ingredients taken as: abc, bca, acb, cab, cba, bac, or aaa. Of these, the first according to lexicographic order is aaa.
+</p><p>  
+For the third guest, out of the two possibilities, ab is the correct answer.</p>    

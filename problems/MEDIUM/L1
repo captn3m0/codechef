@@ -1,0 +1,35 @@
+
+<h3> All submissions for this problem are available. </h3><p>Byteline is currently the largest mobile phone operator in Byteland.  They have N cellphone towers at different places in Byteland.</p>
+<p>Byteland can be viewed as a two dimensional plane, with each tower or skyscraper described by a point in that plane. Of course, no two points have the same coordinates.</p>
+<p>Two towers can only communicate with each other if there is no tower nor skyscraper lying on the straight line segment connecting them.</p>
+<p>As the most skillful programmer in the company, Johnny's job is to write a program to help Byteland compute the number of pairs of towers which can communicate with each other.</p>
+<p>And once again, Johnny has asked for your help!</p>
+<h3>Input</h3>
+<p>The first line contains a number t (about 15) which is the number of test cases. Then t test cases follow. Each test case has the following form.</p>
+<p>The first line contains two numbers N and M (1 &lt;=     N, M     &lt;= 1000), the number of towers and skyscrapers in Byteland.</p>
+<p>Each line in the next N lines contains two integers representing the coordinates of the cellphone towers.</p>
+<p>Finally, each line in the next M lines contains two integers representing the coordinates of the skyscrapers.</p>
+<p>All coordinates have absolute values not larger than 10000.</p>
+<h3>Output</h3>
+<p>For each test case, print a single number, describing the number of pairs of towers which can communicate with each other.</p>
+<h3>Example</h3>
+<pre><b>Input</b>
+1
+5 4
+-1 -1
+1 -1
+0 -2
+-2 -2
+0 0
+-1 -2
+1 0
+-1 1
+0 -1
+
+<b>Output</b>
+6
+</pre>
+<h3>Output details</h3>
+<p><img src="/download/celltwr.png" /></p>
+<p>In the above figure, the blue points represent the cell towers and the red points represent the skyscrapers as in the example input. The 6 segments AE, BE, BC, AC, AD and BD correspond to the 6 pairs of towers that can communicate with each other.</p>
+<p></p>    

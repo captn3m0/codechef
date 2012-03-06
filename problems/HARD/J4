@@ -1,0 +1,17 @@
+
+<h3> All submissions for this problem are available. </h3><p>Johnny has been hired to write a program to analyse strategic data for the Bytelandian Navy. His task is described below.</p>
+<p>There are N battleships represented as N points on the plane. The <b>radius</b> of a ship is defined to be the distance from that ship to the ship closest to it. The <b>effective set</b> for a ship is defined to be the set of all ships (excluding itself) which are at a distance from that ship of <b>no more than twice</b> its radius. The number of elements in the effective set of a ship is called the <b>effective value</b> of that ship.</p>
+<p>Johnny needs to write a program to calculate the radius and the effective value of each battleship. This task is so tough that without your help, Johnny could never finish it. Let's help him!</p>
+<h3>Input</h3>
+<p>The first line contains t, the number of test cases (about 5). Then t test cases follow. Each test case has the following form:</p>
+<ul>
+<li>The first line contains an integer N, the number of battleships (1 &lt; N &lt;= 30000).</li>
+<li>Each line in the next N lines contains two integers X, Y (0 &lt;= X, Y &lt;= 10000) represents the coordinates of a battleship.</li>
+</ul>
+<p>Each test case's input is separated by a blank line. There may be more than one ships located at the same place.</p>
+<h3>Output</h3>
+<p>For each test case, print N lines. Each line should contain two numbers which are the radius and the effective value of the corresponding battleship. The radius should be rounded to 2 decimal points.</p>
+<p>Print a blank line after each test case's output.</p>
+<h3>Example</h3>
+<pre><b></b><b>Input</b><br />2<br /><br />3<br />0 0<br />0 0<br />3 4<br /><br />5<br />5 3<br />7 8<br />0 9<br />3 1<br />4 4<br /><br /><b>Output</b><br />0.00 1<br />0.00 1<br />5.00 2<br /><br />1.41 2<br />5.00 4<br />6.40 4<br />2.83 2<br />1.41 1<br /></pre>
+<p></p>    

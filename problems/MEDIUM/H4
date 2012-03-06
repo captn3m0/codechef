@@ -1,0 +1,25 @@
+
+<h3> All submissions for this problem are available. </h3><p>Given n and m, calculate 1<sup>1</sup> +  2<sup>2</sup> + 3<sup>3</sup> + ... + n<sup>n</sup> modulo m.</p>
+<h3>Input</h3>
+<p>The first line contains 1 ≤ t ≤ 10, the number of test cases. Then the test case definitions follow. Each test case is of the form: 1 ≤ n ≤ 10<sup>18</sup>, 1 ≤ m ≤ 200000</p>
+<h3>Output</h3>
+<p>For each test case simply write a single line containing the answer to the problem.</p>
+<h3>Example</h3>
+<pre><b>Input:</b>
+6
+1 100000
+2 100000
+3 100000
+4 100000
+5 100000
+6 100000
+
+<b>Output:</b>
+1
+5
+32
+288
+3413
+50069
+</pre>
+<p></p>    

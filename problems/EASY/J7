@@ -1,0 +1,22 @@
+
+<h3> All submissions for this problem are available. </h3><p>Johnny needs to make a rectangular box for his physics class project. He has bought P cm of wire and S cm<sup>2</sup> of special paper. He would like to use all the wire (for the 12 edges) and paper (for the 6 sides) to make the box.</p>
+<p>What is the largest volume of the box that Johnny can make?</p>
+<h3>Input</h3>
+<p>The first line contains t, the number of test cases (about 10). Then t test cases follow.</p>
+<p>Each test case contains two integers P and S in a line (1 ≤ P ≤ 40000, 1 ≤ S ≤ 20000). You may assume that there always exists an optimal solution for the given input cases.</p>
+<h3>Output</h3>
+<p>For each test case, print a real number that is the largest volume of the box that Johnny can make, rounded to two decimal places.</p>
+<h3>Example</h3>
+<pre><b>Input:</b>
+2
+20 14
+20 16
+
+<b>Output:</b>
+3.00
+4.15
+
+<b>Output details</b>
+First case: the dimensions of the largest box may be 3, 1 and 1.
+Second case: the dimensions of the largest box may be 7/3, 4/3 and 4/3.
+</pre>    

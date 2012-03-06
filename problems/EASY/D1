@@ -1,0 +1,28 @@
+
+<h3> All submissions for this problem are available. </h3><p><b>A tutorial for this problem is available <a href="/wiki/tutorial-product-divisors" title="here">here</a></b></p>
+<p>Being in love with number theory, Johnny decided to take a number theory course. On the first day, he was challenged by his teacher with the following problem: given a number N, compute the product of its positive divisors. Johnny is desperate to impress his new teacher so he asks you for help.</p>
+<p>In this problem, the divisors of N do not include the number N itself. For example, if N=12, the divisors of N (excluding N) are 1, 2, 3, 4, and 6. Thus, the product of divisors is 1x2x3x4x6=144. Since the result may be very large, if the result has more than 4 decimal digits, Johnny only needs to compute the <b>last 4 digits</b> of it.</p>
+<h3>Input</h3>
+<p>The first line contains t, the number of test cases (about 300,000). Then t test cases follow.</p>
+<p>Each test case contains a single integer N (1&lt;=N&lt;=500,000) whose product of divisors needs to be computed.</p>
+<h3>Output</h3>
+<p>For each test case, print a single line containing the corresponding result of that test case.</p>
+<h3>Example</h3>
+<pre><b>Input</b>
+6
+3
+4
+12
+25
+957
+10000
+
+<b>Output</b>
+1
+2
+144
+5
+7493
+0000
+</pre>
+<p></p>    

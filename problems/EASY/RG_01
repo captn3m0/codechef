@@ -1,0 +1,32 @@
+
+<h3> All submissions for this problem are available. </h3><p>
+
+<h3>Problem Statement</h3> Given a weighted and undirected graph G = (V, E), let us define the score of an edge as its weight, and the score of a path as the minimum of the scores of its edges. For each pair of vertices (u, v), let us define a best path as a path with the maximal score, that starts at u and ends at v. Your task is to find out the score of a best path over all pairs of distinct vertices (u, v) given the description of the graph G.
+
+<h3>Input</h3>
+</p><p> The first line contains V, the number of vertices, and E, the number of edges in the graph. The graph will be weighted, undirected, simple (no self loops and no parallel edges), and connected. Each of the next E lines contains three non-negative integers u, v, and w, denoting that there is an edge (u, v) in the graph with a score of w. u and v are guaranteed to be distinct, and no edge will repeat in the input.
+
+<h3>Output</h3>
+</p><p> Output a total of V lines each containing V integers. The vth integer on the uth line should be 0 if u = v, or the score of a best path that starts at vertex u and ends at vertex v.
+
+<h3>Constraints</h3>
+2 ≤ V ≤ 1000
+<br />V - 1 ≤ E ≤ V(V - 1)/2
+<br />0 ≤ u, v ≤ V - 1
+<br />0 ≤ w ≤ 10^8
+
+<h3>Example</h3>
+
+<pre>
+<b>Input:</b>
+3 3
+0 1 1
+1 2 2
+0 2 3
+
+<b>Output:</b>
+0 2 3
+2 0 2
+3 2 0
+
+<h3> Warning</h3> Large Input/Output. Use faster Input/Output techniques.</pre></p>    

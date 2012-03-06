@@ -1,0 +1,67 @@
+
+<h3> All submissions for this problem are available. </h3><p>You are given a set of N strings S<sub>0</sub>, S<sub>1</sub>, &#8230;, S<sub>N-1</sub>. These strings consist of only lower case characters a..z and have the same length L. 
+
+</p><p>A string H is said to be K-important if there are at least K strings in the given set of N strings appearing at K different positions in H. These K strings need not to be distinct.
+
+</p><p>Your task is to find the shortest K-important string. If there are more than one possible solution, your program can output any of them.
+
+<h3>Input</h3>
+</p><p>The first line contains a number t (about 10) which is the number of test cases.
+
+</p><p>Each test case has the following form.
+
+</p><p>The first line contains three integers N, L and K. The next N lines contain the strings in the given set.
+
+</p><p>Each test case's input is separated by a blank line.
+
+<h3>Constraints</h3>
+<ul>
+<li>1 &#8804; N &#8804; 150</li>
+<li>1 &#8804; L &#8804; 300</li>
+<li>1 &#8804; K &#8804; 500</li>
+</ul>
+
+<h3>Output</h3>
+</p><p>For each test case, output the following information. </p><p>The first line contains the length of the shortest K-important strings. 
+</p><p>The second line contains H, one of the K-important strings. 
+</p><p>Each line in the next K lines contains the index of one string in the given set that appears in H and the corresponding position (0-based) in H.
+
+</p><p>Print a blank line after each test case's output.
+
+<h3>Example</h3>
+
+<pre>
+<b>Input</b>
+3
+
+3 3 1
+abc
+cde
+bcf
+
+3 3 2
+abc
+cde
+bcf
+
+3 3 3
+abc
+cde
+bcf
+
+<b>Output</b>
+3
+abc
+0 0
+
+4
+abcf
+0 0
+2 1
+
+7
+abcfabc
+0 0
+2 1
+0 4
+</pre></p>    

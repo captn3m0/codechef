@@ -1,0 +1,58 @@
+
+<h3> All submissions for this problem are available. </h3><p><b>Problem Statement Updated. </b></p>
+<p>Johnny is the author of the famous open source software ByteDict (Bytelandian electronic dictionary).</p>
+<p>Being a fan of the word game Scrabble, Johnny would like to make ByteDict useful for Scrabble training. Therefore, he has decided to implement the "Wildcard Matching" feature.</p>
+<p>Wildcard matching allows ByteDict's users to search for words matching a given wildcard pattern. A wildcard pattern may include the characters '*' or '?' in addition to the characters of the alphabet. A '*' matches any sequence of characters (including the empty sequence) and a '?' matches any single character.</p>
+<p>To be more precise, a wildcard pattern is matched with a word if we can replace each '?' with an alphabet character and each '*' with a sequence of alphabet characters so that after replacement, the pattern becomes identical to the word.</p>
+<p>Now, as usual, please help Johnny implement the feature!</p>
+<h3>Input</h3>
+<p>The first line contains a number t (about 2) which is the number of test cases. Then t test cases follow. Each test case has the following form.</p>
+<p>The first line contains two integers N and Q (1 &lt;= N &lt;= 55000, 1 &lt;= Q &lt;= 300) which are the number of words in the dictionary and the number of wildcard queries.</p>
+<p>Each line in the next N lines contains a word from the dictionary. The alphabet consists of lower and uppercase characters as well as digits.</p>
+<p>Each line in the next Q lines contains a wildcard pattern.</p>
+<p>The length of each word does not exceed 25 and the length of each wildcard pattern does not exceed 5.</p>
+<p>Each test case is separated by a blank line.</p>
+<h3>Output</h3>
+<p>For each wildcard query print a line containing the query itself and the number of words in the dictionary that match the query.</p>
+<p>Print a blank line after each test case's output.</p>
+<h3>Example</h3>
+<pre><b>Input:</b>
+2
+1 7
+abc
+abc
+cba
+a??
+??a
+*?a
+***
+**a
+
+7 4
+spoj
+codechef
+uva
+tju
+onlinejudge
+Acmicpc
+Worldcup2010
+*a*
+sp?*
+*c*
+uvc
+
+<b>Output:</b>
+abc 1
+cba 0
+a?? 1
+??a 0
+*?a 0
+*** 1
+**a 0
+
+*a* 1
+sp?* 1
+*c* 3
+uvc 0
+</pre>
+<p></p>    
