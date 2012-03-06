@@ -61,8 +61,8 @@
           </div><!--/.well -->
         </div><!--/span-->
         <div class="span9">
+			<h2 id="title">Codechef Repository Viewer</h2>
             <div id="content" class="row-fluid">
-                Click on a problem on the left, and it will load here.
           </div><!--/row-->
         </div>
      </div>
@@ -75,14 +75,11 @@
 		   * Setup the app
 		   */
 		  window.root = location.origin+location.pathname;
-		  $('.prefix-link').each(function(i,l){
-			var href=l.getAttribute('href');
-		    $(l).attr('href',window.root+href);
-		  });
+
 		  //attr('href',window.root);
-		  console.log(window.root);
 		  var app = Davis(function () {
-		    this.get(location.pathname+'problems/:category/:name', function (req) {
+            this.get(location.pathname+'problems/:category/:name', function (req) {
+              $('#title').text(req.params['name']);
 			  $('#content').load(window.root+'problems/'+req.params['category'].toUpperCase()+'/'+req.params['name']);
 			  $('body,html').animate({
 				scrollTop: 0
@@ -94,7 +91,14 @@
 			this.get(location.pathname+':cat',function(req){
 				$('html,body').animate({scrollTop: $("#"+req.params['cat']).offset().top-50},200);
 			})
-		  })
+        })
+        $('.prefix-link').each(function(i,l){
+			var href=l.getAttribute('href');
+		    $(l).attr('href',window.root+href);
+		    console.log($('.nav a').first());
+		    $('.nav a').first().click();
+		  });
+
 		  $('document').ready(function(){
 			  category = ['EASY','MEDIUM','HARD']
 			  for(i in category){
@@ -109,6 +113,7 @@
 				  });
 			    })()
 			  }
+			  $('#content').load(window.root+'home.html');
 		  });
 	  </script>
       <footer>
