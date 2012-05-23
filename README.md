@@ -1,6 +1,6 @@
 Codechef Problem Viewer is an offline browser for codechef problems, which comes with all the practice problems of Codechef. 
 
-Visit <http://captnemo.in/codechef-dump/> for more details
+Visit <http://captnemo.in/codechef/> for more details
 
 ##Todo List
 Images do not work as of now
