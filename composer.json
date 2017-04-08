@@ -1,0 +1,7 @@
+{
+    "require": {
+        "league/html-to-markdown": "^4.4",
+        "consolidation/robo": "~1",
+        "sunra/php-simple-html-dom-parser": "^1.5"
+    }
+}
