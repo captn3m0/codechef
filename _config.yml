@@ -1,0 +1,21 @@
+markdown: kramdown
+kramdown:
+  input: GFM
+
+exclude:
+  - .editorconfig
+  - .gitignore
+  - .travis.yml
+  - CNAME
+  - README.md
+  - Gemfile*
+  - vendor
+collections:
+  problems:
+    output: true
+    permalink: /problems/:path.html
+defaults:
+  - scope:
+      type: problems
+    values:
+      layout: problem
