@@ -84,11 +84,16 @@ class RoboFile extends \Robo\Tasks
         }
     }
 
-    protected function _cleanEmptyFiles($category) {
-        foreach (glob("_problems/$category/*") as $file) {
+    protected function _cleanFiles($category) {
+        foreach (glob("_problems/$category/*.json") as $file) {
             $size = stat($file)['size'];
             if($size === 0) {
                 unlink($file);
+            }
+            else if($json = json_decode(file_get_contents($file))) {
+                if ($json->status === 'error') {
+                    unlink($file);
+                }
             }
         }
     }
@@ -97,7 +102,7 @@ class RoboFile extends \Robo\Tasks
         $filename = "_problems/$category/$problem.json";
         if (file_exists($filename)) {
             $json = json_decode(file_get_contents($filename));
-            return (bool) $json;
+            return ($json and $json->status === 'success');
         }
 
         return false;
@@ -143,7 +148,7 @@ class RoboFile extends \Robo\Tasks
         foreach ($categories as $category) {
 
             @mkdir("_problems/$category");
-            $this->_cleanEmptyFiles($category);
+            $this->_cleanFiles($category);
 
             $problems = json_decode(file_get_contents("_data/$category.json"));
 
