@@ -1,0 +1,8 @@
+---
+---
+{
+	"easy": {{site.data.easy | jsonify}},
+	"hard": {{site.data.hard | jsonify}},
+	"medium": {{site.data.medium | jsonify}},
+	"school": {{site.data.school | jsonify}}
+}

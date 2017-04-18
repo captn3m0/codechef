@@ -54,6 +54,7 @@
         <div class="span3">
           <div class="well sidebar-nav">
             <ul class="nav nav-list">
+              <li id="school" class="nav-header">Practice</li>
               <li id="easy" class="nav-header">Easy</li>
               <li id="medium" class="nav-header">Medium</li>
               <li id="hard" class="nav-header">Hard</li>
@@ -68,7 +69,7 @@
      </div>
 
       <hr>
-	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	  <script src="./assets/js/jquery.min.js"></script>
 	  <script src="./assets/js/davis.min.js"></script>
 	  <script>
 		  /**
@@ -76,22 +77,21 @@
 		   */
 		  window.root = location.origin+location.pathname;
 
-		  //attr('href',window.root);
 		  var app = Davis(function () {
             this.get(location.pathname+'problems/:category/:name', function (req) {
-              $('#title').text(req.params['name']);
-			  $('#content').load(window.root+'problems/'+req.params['category'].toUpperCase()+'/'+req.params['name']);
+              $('#title').text(req.params.name);
+			  $('#content').load(window.root+'problems/'+req.params.category+'/'+req.params.name);
 			  $('body,html').animate({
 				scrollTop: 0
 			  }, 200);
-		    })
-		    this.get(location.pathname,function(req){
+		    });
+		    this.get(location.pathname,function(req) {
 				$('#content').load(window.root+'home.html');
-			})
-			this.get(location.pathname+':cat',function(req){
-				$('html,body').animate({scrollTop: $("#"+req.params['cat']).offset().top-50},200);
-			})
-        })
+			});
+			this.get(location.pathname+':cat',function(req) {
+				$('html,body').animate({scrollTop: $("#"+req.params.cat).offset().top-50},200);
+			});
+        });
         $('.prefix-link').each(function(i,l){
 			var href=l.getAttribute('href');
 		    $(l).attr('href',window.root+href);
@@ -100,29 +100,24 @@
 		  });
 
 		  $('document').ready(function(){
-			  category = ['EASY','MEDIUM','HARD']
-			  for(i in category){
-			    (function(){
-				  console.log(category[i]);
-				  $.get('./list/'+category[i],function(e,j,x){
-					var cat = this.url.split('/')[2];
-					var arr = e.split("\n");
-					for(i in arr.reverse()){
-					  $('#'+cat.toLowerCase()).after('<li><a href="'+window.root+'problems/'+cat+'/'+arr[i]+'">'+arr[i]+'</a></li>');
-					}
-				  });
-			    })()
-			  }
+        $.getJSON('./list.json', function(list) {
+          for (var category in list) {
+            console.info("Loading: " + category);
+            var arr = list[category];
+            for(var i in arr.reverse()) {
+              var cat = category.toLowerCase();
+              $('#' + category.toLowerCase()).after('<li><a href="'+window.root+'problems/'+cat+'/'+arr[i]+'.html">'+arr[i]+'</a></li>');
+            }
+          }
+        });
+
 			  $('#content').load(window.root+'home.html');
 		  });
 	  </script>
       <footer>
         <p>Made using styles from Bootswatch, and content from Codechef</p>
       </footer>
-
     </div>
-
-
   </body>
 </html>
 
