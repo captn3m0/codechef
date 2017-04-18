@@ -1,6 +1,9 @@
 <?php
 
 use Sunra\PhpSimple\HtmlDomParser;
+use KzykHys\FrontMatter\Document;
+use KzykHys\FrontMatter\FrontMatter;
+use League\HTMLToMarkdown\HtmlConverter;
 
 class RoboFile extends \Robo\Tasks
 {
@@ -9,6 +12,21 @@ class RoboFile extends \Robo\Tasks
         // This breaks at the moment because of memory limits
         //'extcontest'
     ];
+
+    const FIELDS_TO_DROP = [
+        'problem_author_html_handle',
+        'problem_tester_html_handle',
+        'user',
+        'todo',
+        'problem_status',
+        'body',
+        'status'
+    ];
+
+
+    public function __construct() {
+        $this->converter = new HtmlConverter(['strip_tags' => true]);
+    }
 
     private function getKey() {
         $json = json_decode(`curl --silent 'https://www.codechef.com/api/user/key'`, true);
@@ -83,6 +101,40 @@ class RoboFile extends \Robo\Tasks
         }
 
         return false;
+    }
+
+    public function generateCollection($category = 'all') {
+        $categories = $this->setCategories($category);
+
+        foreach ($categories as $category) {
+            $dir = "_problems/$category";
+            foreach (glob("$dir/*.json") as $file) {
+                $json = json_decode(file_get_contents($file), true);
+                $body = $json['body'];
+
+                $eraser = array_flip(self::FIELDS_TO_DROP);
+
+                $json = array_diff_key($json, $eraser);
+
+                $json['languages_supported'] = explode(', ', $json['languages_supported']);
+                preg_match_all('/\/tags\/problems\/(\w*)/', $json['tags'], $matches);
+                if (isset($matches[1]) and count($matches) >= 1) {
+                    $json['tags'] = $matches[1];
+                }
+
+                $json['layout'] = 'problem';
+
+                $basename = basename($file, '.json');
+                $newFileName = "$dir/$basename.md";
+
+                $body = $this->converter->convert($body);
+
+                $doc = new Document($body, $json);
+                $contents = FrontMatter::dump($doc);
+
+                file_put_contents($newFileName, $contents);
+            }
+        }
     }
 
     public function downloadProblems($category = 'all') {
