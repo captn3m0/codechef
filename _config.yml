@@ -1,6 +1,4 @@
 markdown: kramdown
-kramdown:
-  input: GFM
 
 exclude:
   - .editorconfig

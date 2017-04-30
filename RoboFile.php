@@ -23,9 +23,15 @@ class RoboFile extends \Robo\Tasks
         'status'
     ];
 
+    const MARKDOWN_OPTIONS = [
+        'strip_tags' => true,
+        'hard_break' => true,
+        'header_style' => 'atx'
+    ];
+
 
     public function __construct() {
-        $this->converter = new HtmlConverter(['strip_tags' => true]);
+        $this->converter = new HtmlConverter(self::MARKDOWN_OPTIONS);
     }
 
     private function getKey() {
@@ -108,11 +114,51 @@ class RoboFile extends \Robo\Tasks
         return false;
     }
 
+    /**
+     * Generates JSON files from the old data we had
+     */
+    public function generateFromOld($category = 'all') {
+        $categories = $this->setCategories($category);
+
+        foreach ($categories as $category) {
+            @mkdir("_problems/$category");
+            $cat = strtoupper($category);
+            $dir = "problems/$cat/*";
+            foreach (glob($dir) as $file) {
+                $this->say($file);
+                $html = file_get_contents($file);
+
+                $problem = basename($file);
+
+                $json = [
+                    'body'  =>  $html,
+                    'languages_supported'   =>  'NA',
+                    'title' => $problem,
+                    'category'  => 'NA',
+                    'old_version'   => true,
+                    'problem_code'  => $problem,
+                ];
+
+                $contents = json_encode($json);
+
+                $jsonFile = "_problems/$category/$problem.json";
+                if (! file_exists($jsonFile)) {
+                    $this->say("Writing $jsonFile");
+                    file_put_contents($jsonFile, $contents);
+                }
+
+            }
+
+
+        }
+    }
+
     public function generateCollection($category = 'all') {
         $categories = $this->setCategories($category);
 
         foreach ($categories as $category) {
             $dir = "_problems/$category";
+
             foreach (glob("$dir/*.json") as $file) {
                 $json = json_decode(file_get_contents($file), true);
                 $body = $json['body'];
@@ -125,6 +171,9 @@ class RoboFile extends \Robo\Tasks
                 preg_match_all('/\/tags\/problems\/(\w*)/', $json['tags'], $matches);
                 if (isset($matches[1]) and count($matches) >= 1) {
                     $json['tags'] = $matches[1];
+                }
+                else {
+                    $json['tags'] = ['NA'];
                 }
 
                 $json['layout'] = 'problem';
