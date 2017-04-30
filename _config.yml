@@ -3,11 +3,12 @@ markdown: kramdown
 exclude:
   - .editorconfig
   - .gitignore
-  - .travis.yml
-  - CNAME
   - README.md
   - Gemfile*
   - vendor
+  - RoboFile.php
+  - LICENSE
+  - composer.*
 collections:
   problems:
     output: true
