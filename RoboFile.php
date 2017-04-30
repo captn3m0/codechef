@@ -200,7 +200,7 @@ class RoboFile extends \Robo\Tasks
 
             $cat = strtoupper($category);
 
-            if (in_array($cat, ['SCHOOL', 'HARD'])) {
+            if (in_array($cat, ['SCHOOL', 'HARD', 'MEDIUM'])) {
                 $cat = 'PRACTICE';
             }
 
@@ -211,7 +211,9 @@ class RoboFile extends \Robo\Tasks
 
             $this->say('Downloading ' . count($problems) . ' problems from category:'. $category);
 
-            $chunks = array_chunk($problems, 5);
+            $chunks = array_chunk($problems, 8);
+
+            $key = $this->getKey();
 
             foreach ($chunks as $chunk) {
                 $task = $this->taskParallelExec();
@@ -219,7 +221,6 @@ class RoboFile extends \Robo\Tasks
                 foreach ($chunk as $problemname) {
                     $url = "https://www.codechef.com/api/contests/$cat/problems/$problemname";
                     $time = (time() * 1000) - 200;
-                    $key = $this->getKey();
                     $filepath = "_problems/$category/$problemname.json";
                     if (! file_exists($filepath)) {
                         $task = $task->process("wget --output-document '$filepath' --header 'Cookie:poll_time=$time;userkey=$key;notification=0' $url");

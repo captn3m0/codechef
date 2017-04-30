@@ -22,6 +22,7 @@ time:
     visible_start_date: 1453546800
     end_date: 1735669800
     current: 1493556647
+hand_edited: true
 layout: problem
 ---
 All submissions for this problem are available.Malvika was sad because Animesh, the miser, did not buy her even a chocolate bar on her birthday. Animesh, feeling sorry about his behavior, repented and asked Malvika how he could make up for this catastrophic mistake. Enraged as she was, Malvika gave him an empty graph **H** of **n** vertices and asked him to add edges into it and convert the graph into a graph that she likes.
@@ -76,4 +77,4 @@ Note that adjacency matrix of a graph **G** containing **n** vertices is a matri
 
 **In the first example**, the graph **G** has an edge between 1 and 2. Animesh has to add only one edge in the graph **H** between vertices 1 and 2 to please her. This is the only graph he has to come up with.
 
-**In the second example**, the graph **G** has edges {1, 3} and {2, 3}. Animesh can come up with the following graphs {{1, 3}, {2, 3}}, {{2, 1}, {3, 1}}, {{1, 2}, {3, 2}}. Malvika likes all of these graphs. In this representation, {{1, 3}, {2, 3}} means that a graph has 3 vertices and two edges — between 1 and 3, and between 2 and 3.
+**In the second example**, the graph **G** has edges {1, 3} and {2, 3}. Animesh can come up with the following graphs `({1, 3}, {2, 3}), ({2, 1}, {3, 1}), ({1, 2}, {3, 2})`. Malvika likes all of these graphs. In this representation, `({1, 3}, {2, 3})` means that a graph has 3 vertices and two edges — between 1 and 3, and between 2 and 3.
