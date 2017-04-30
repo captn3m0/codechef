@@ -69,6 +69,7 @@ time:
     visible_start_date: 1440923400
     end_date: 1735669800
     current: 1493557777
+hand_edited: true
 layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME28/mandarin/MANYLIST.pdf) , [Russian](http://www.codechef.com/download/translated/LTIME28/russian/MANYLIST.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME28/vietnamese/MANYLIST.pdf)
@@ -119,9 +120,9 @@ For each query of type **1**, output the size of the specified set.
 
 Have a look at the sets during the operations:
 
-- Initially, all the sets are empty: {{}, {}, {}, {}, {}}.
-- In the first query we add **4** to sets numbered 2 to 4 to get: {{}, {4}, {4}, {4}, {}}.
-- In the second query we add **5** to the sets numbered 3 to 5 to get: {{}, {4}, {4, 5}, {4, 5}, {5}}.
-- In the third query we add **5** to all the sets to get: {{5}, {4, 5}, {4, 5}, {4, 5}, {5}}.
+- Initially, all the sets are empty: ({}, {}, {}, {}, {}).
+- In the first query we add **4** to sets numbered 2 to 4 to get: ({}, {4}, {4}, {4}, {}).
+- In the second query we add **5** to the sets numbered 3 to 5 to get: ({}, {4}, {4, 5}, {4, 5}, {5}).
+- In the third query we add **5** to all the sets to get: ({5}, {4, 5}, {4, 5}, {4, 5}, {5}).
 - The **5**th set is {5}, its size is **1**.
 - The **3**rd set is {4, 5}, and its size is **2**.

@@ -67,6 +67,7 @@ time:
     visible_start_date: 1432954800
     end_date: 1735669800
     current: 1493557702
+hand_edited: true
 layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/SNCK151B/mandarin/ISONUM.pdf) , [Russian](http://www.codechef.com/download/translated/SNCK151B/russian/ISONUM.pdf) and [Vietnamese](http://www.codechef.com/download/translated/SNCK151B/vietnamese/ISONUM.pdf)
@@ -74,7 +75,7 @@ All submissions for this problem are available.###  Read problems statements in 
 Let's call two numbers isomorphic if they have same number of digits and set of places having equal digits is same. We consider that all the numbers are in decimal notation and don't have leading zeroes. Consider some examples:
 
 - 12321 is isomorphic to 83538 and 45654.
-- 1232 is not isomorphically equal to 2342 because set of places having equal digits are {{1}, {2, 4}, {3}} and {{1, 4}, {2}, {3}} (digits are numbered from left to right using 1 based indexing). In other words, the digits order has to remain the same.
+- 1232 is not isomorphically equal to 2342 because set of places having equal digits are ({1}, {2, 4}, {3}) and ({1, 4}, {2}, {3}) (digits are numbered from left to right using 1 based indexing). In other words, the digits order has to remain the same.
 - 12 isomorphic to 10,13,14, 92, but not isomorphic to 1, because their lengths are not equal and not isomorphic to 01, because leading zeroes are not allowed.
 
 Let **F(X)** denote the smallest integer (without leading zeroes) isomorphic to **X** where **X** is a positive integer. For example, **F(12)** = 10, **F(213)** = 102.
