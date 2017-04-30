@@ -191,6 +191,20 @@ class RoboFile extends \Robo\Tasks
         }
     }
 
+    public function stats($category = 'all') {
+        $categories = $this->setCategories($category);
+
+        foreach ($categories as $category) {
+            $problems = json_decode(file_get_contents("_data/$category.json"));
+            $count = count($problems);
+
+            $actualCount = count(glob("_problems/$category/*.json"));
+
+            $this->say("[$category] Download Status: $actualCount/$count");
+        }
+
+    }
+
     public function downloadProblems($category = 'all') {
         $categories = $this->setCategories($category);
 
