@@ -13,6 +13,13 @@ class RoboFile extends \Robo\Tasks
         //'extcontest'
     ];
 
+    const PRACTICE_CATEGORIES = [
+        'SCHOOL',
+        'HARD',
+        'MEDIUM',
+        'EASY'
+    ];
+
     const FIELDS_TO_DROP = [
         'problem_author_html_handle',
         'problem_tester_html_handle',
@@ -200,7 +207,7 @@ class RoboFile extends \Robo\Tasks
 
             $cat = strtoupper($category);
 
-            if (in_array($cat, ['SCHOOL', 'HARD', 'MEDIUM'])) {
+            if (in_array($cat, self::PRACTICE_CATEGORIES)) {
                 $cat = 'PRACTICE';
             }
 

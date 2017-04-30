@@ -1,0 +1,146 @@
+---
+category_name: easy
+problem_code: LIGHTHSE
+problem_name: Lighthouses
+languages_supported:
+    - ADA
+    - ASM
+    - BASH
+    - BF
+    - C
+    - 'C99 strict'
+    - CAML
+    - CLOJ
+    - CLPS
+    - 'CPP 4.3.2'
+    - 'CPP 4.9.2'
+    - CPP14
+    - CS2
+    - D
+    - ERL
+    - FORT
+    - FS
+    - GO
+    - HASK
+    - ICK
+    - ICON
+    - JAVA
+    - JS
+    - 'LISP clisp'
+    - 'LISP sbcl'
+    - LUA
+    - NEM
+    - NICE
+    - NODEJS
+    - 'PAS fpc'
+    - 'PAS gpc'
+    - PERL
+    - PERL6
+    - PHP
+    - PIKE
+    - PRLG
+    - PYPY
+    - PYTH
+    - 'PYTH 3.4'
+    - RUBY
+    - SCALA
+    - 'SCM chicken'
+    - 'SCM guile'
+    - 'SCM qobi'
+    - ST
+    - TCL
+    - TEXT
+    - WSPC
+max_timelimit: '2'
+source_sizelimit: '50000'
+problem_author: eartemov
+problem_tester: kevinsogo
+date_added: 23-07-2015
+tags:
+    - ad
+    - eartemov
+    - easy
+    - sept15
+editorial_url: 'http://discuss.codechef.com/problems/LIGHTHSE'
+time:
+    view_start_date: 1442223000
+    submit_start_date: 1442223000
+    visible_start_date: 1442223000
+    end_date: 1735669800
+    current: 1493558164
+layout: problem
+---
+All submissions for this problem are available.###  Read problems statements in [Mandarin](http://www.codechef.com/download/translated/SEPT15/mandarin/LIGHTHSE.pdf) and [Russian](http://www.codechef.com/download/translated/SEPT15/russian/LIGHTHSE.pdf). Translations in Vietnamese to be uploaded soon.
+
+There are **N** islands in the sea, enumerated from **1** to **N**. Each of them is so small that we can consider them as points on a plane. You are given the Cartesian coordinates of all islands. X-axis is directed towards East and Y-axis is directed towards North.
+
+You need to illuminate all the islands. To do this, you can place lighthouses on some of the islands. You can't place more than one lighthouse on any single island. Each lighthouse can light only one of the 4 quadrants: North-Western, North-Eastern, South-Western or South-Eastern. If some island is located on the border of an illuminated quadrant, it is considered to be illuminated as well. Note that this means that a lighthouse always illuminates it's own island as well.
+
+Find the smallest possible number of lighthouses required to illuminate all the islands (say **L**). Describe their configurations — positions and quadrants illuminated — as well.
+
+### Input
+
+The first line of input contains an integer **T** denoting the number of test cases. The description of **T** test cases follows.
+
+The first line of each test case contains a single integer **N** denoting the number of islands.
+
+The **ith** of the following **N** lines contains two integers **Xi** and **Yi** denoting the coordinates of the **ith** island.
+
+### Output
+
+For each test case, first line of output must contain minimum number of lighthouses required to illuminate all islands, **L**.
+
+Following **L** lines must describe configuration of the lighthouses, one configuration per line. Description of a lighthouse configuration consists of the number of the island where the lighthouse is placed, and the direction of the quadrant (NW for North-Western, NE for North-Eastern, SW for South-Western, SE for South-Eastern) illuminated by it, separated by a single space.
+
+If there are many possible placements, output any one of them.
+
+### Constraints
+
+- **1** ≤ **T** ≤ **1000**
+- **1** ≤ **N** ≤ **105**
+- The sum of **N** over all test cases doesn't exceed **5\*105**
+- Absolute value of each coordinate doesn't exceed **109**
+- No two given islands coincide.
+
+### Subtasks
+
+**Subtask 1: (15 points)**
+
+- **1** ≤ **N** ≤ **8**
+- Absolute value of each coordinate doesn't exceed **50**
+
+**Subtask 2: (85 points)**
+
+- Original constraints
+
+### Example
+
+```
+<b>Input:</b>
+2
+5
+0 0
+1 0
+2 0
+0 -1
+0 -2
+4
+5 0
+-5 0
+0 5
+0 -5
+
+<b>Output:</b>
+1
+3 SW
+2
+4 NE
+2 NE
+
+
+```
+### Explanation
+
+**Example case 1.** Also we can place lighthouse on **1st** or **5th** island.
+
+**Example case 2.** Notice that some islands can be illuminated by more than 1 lighthouse.
