@@ -97,7 +97,7 @@ class RoboFile extends \Robo\Tasks
                 unlink($file);
             }
             else if($json = json_decode(file_get_contents($file))) {
-                if ($json->status === 'error') {
+                if (isset($json->status) and ($json->status === 'error')) {
                     unlink($file);
                 }
             }
@@ -108,7 +108,7 @@ class RoboFile extends \Robo\Tasks
         $filename = "_problems/$category/$problem.json";
         if (file_exists($filename)) {
             $json = json_decode(file_get_contents($filename));
-            return ($json and $json->status === 'success');
+            return ($json and ((isset($json->status) and $json->status === 'success') or (isset($json->old_version))));
         }
 
         return false;
@@ -170,6 +170,24 @@ class RoboFile extends \Robo\Tasks
 
     }
 
+    public function statsRemaining($category) {
+        $problems = json_decode(file_get_contents("_data/$category.json"));
+        foreach ($problems as $problem) {
+            if (!$this->_verifyProblem($category, $problem)) {
+                echo $problem . PHP_EOL;
+            }
+        }
+    }
+
+    public function downloadClean($category = 'all') {
+        $categories = $this->setCategories($category);
+
+        foreach ($categories as $category) {
+            $this->_cleanFiles($category);
+        }
+
+    }
+
     public function downloadProblems($category = 'all') {
         $categories = $this->setCategories($category);
 
@@ -182,7 +200,7 @@ class RoboFile extends \Robo\Tasks
 
             $cat = strtoupper($category);
 
-            if ($cat === 'SCHOOL') {
+            if (in_array($cat, ['SCHOOL', 'HARD'])) {
                 $cat = 'PRACTICE';
             }
 
