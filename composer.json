@@ -4,5 +4,8 @@
         "consolidation/robo": "~1",
         "sunra/php-simple-html-dom-parser": "^1.5",
         "kzykhys/yaml-front-matter": "^1.0"
+    },
+    "scripts": {
+    	"run": "robo"
     }
 }
