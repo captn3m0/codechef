@@ -8,7 +8,11 @@ use League\HTMLToMarkdown\HtmlConverter;
 class RoboFile extends \Robo\Tasks
 {
     const CATEGORIES = [
-        'school', 'easy', 'medium', 'hard', 'challenge',
+        'school',
+        'easy',
+        'medium',
+        'hard',
+        'challenge',
         // This breaks at the moment because of memory limits
         //'extcontest'
     ];
@@ -108,7 +112,18 @@ class RoboFile extends \Robo\Tasks
                     unlink($file);
                 }
             }
+
+            else if($this->fileIsUnlisted($file)) {
+                unlink($file);
+            }
         }
+    }
+
+    protected function fileIsUnlisted($file, $category): bool {
+        $problemName = basename($file, '.json');
+
+        // Not implemented yet
+        return false;
     }
 
     private function _verifyProblem($category, $problem) {
