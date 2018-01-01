@@ -75,7 +75,7 @@ Little Petya likes integer numbers a lot. Recently he has received a sequence of
 
 - At least one number **Bi** differs from 0.
 - For every **j** from 0 to **N**-1 the following holds: 
-  **A0\* Bj** + **A1\* B(j + 1) mod N** + ... + **AN-1\* B(j + N - 1) mod N** = 0.
+   **A0\* Bj** + **A1\* B(j + 1) mod N** + ... + **AN-1\* B(j + N - 1) mod N** = 0.
 
 
 
@@ -100,8 +100,7 @@ Sum of N for all test cases in a single input file will not exceed 150 000.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 3
 1 0 0
@@ -117,9 +116,7 @@ YES
 YES
 NO
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 2.** One of the possible sequences B is (1, -1, 0).
 
 **Example case 3.** One of the possible sequences B is (1, 1, 1, 1).

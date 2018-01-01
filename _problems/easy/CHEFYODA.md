@@ -109,8 +109,7 @@ For each test case, output a line containing the answer for task. The output mus
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 2 3 2 3
 2 2 5 5
@@ -118,4 +117,4 @@ For each test case, output a line containing the answer for task. The output mus
 0.500000
 1.000000
 
-```
+</pre>

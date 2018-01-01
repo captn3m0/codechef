@@ -89,8 +89,7 @@ For each _question_ query output the answer on a single line.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 5 7
 1 2
@@ -110,9 +109,7 @@ q 1 3
 0
 15
 
-```
-### Explanation
-
+</pre>### Explanation
 As you can see, the tree in the sample is like a line. Let's denote the first state of integers **0 0 0 0 0**, where the **i**-th integer means the integer associated with the node **i**.
 
 In the first _changing_ query **"c 1 4 2 3"**, the actual numbers are **X = (1 + 0) modulo 5 + 1 = 2, Y = (4 + 0) modulo 5 + 1 = 5**. Hence the state will be **0 2 5 8 11** after this query.

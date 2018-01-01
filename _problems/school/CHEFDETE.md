@@ -104,17 +104,14 @@ Output a list of space-separated integers in ascending order — the indices of 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 6
 0 1 1 2 2 3
 
 <b>Output:</b>
 4 5 6
 
-```
-### Explanation
-
+</pre>### Explanation
 The reporting structure:
 
 ![](https://lh3.googleusercontent.com/UrdUW05iT_LOZiLTYN51Khch-mIuc8NjhtOISQZZ1y_N24kkUZxFvGGNGKSE9sh_Qxxa3MqcI0o6ppT0J8YsQ9UYMP7GGA9mrASzAhErKZq5ALY5doBsDUGxndatF2dNKxpJdvD4xKpEpmhl_yLGjfU_cLPf4ylKSH01v_-w_xv7b5H_DokIRpIJSW7sUmLkVG7uYCVSR9Es8QwFZO5FBJpC-DPo4liLZYhHPpcWt1rZq2afrajg6gwrKzMYlDVT1TcXa2IUGZSfXL_jqgkGOEVIHweFh9nouuqEfPfapchv_hFxa3CqeXcK9sa8HEvr4EUW3kx0cmDAGjWH4xDzMzEsWiVyZINbQeocOKaledrfspyXZyaL1Pls7vKKH5OkUwKuzMG0jc24iCuq2M7kJgLoVmld5Wn-AsYTpaGYpn3oMnudnfJG5jUkdZ0rC7Ak_n-N5G2MuyH93gA_MGLMf-ko3s22LFGqTnSf1dTipyEgU1KiX9k5c2hyjfHVP6WMtoITZk0usFiKPbqkh0EDKa-fl5KYuWoMVr9ag5lPxQk=w412-h416-no)

@@ -116,8 +116,7 @@ Output a single line containing **C** space-separated integers **D1**, **D2**, .
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>3 4 3
 1 2 3
 1 1 3 2</tt>
@@ -125,9 +124,7 @@ Output a single line containing **C** space-separated integers **D1**, **D2**, .
 <b>Output:</b>
 <tt>5 2 0</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 We can build spheres with such radii:
 
 **R**=1 and there are 2 ways to do it. (We can choose any of 2 lower hemispheres with **R**=1)

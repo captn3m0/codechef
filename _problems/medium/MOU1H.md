@@ -75,8 +75,7 @@ All submissions for this problem are available.Some time ago, Chef discovered th
 Next to every place, is some mountain. A Mountain is a sequence of points **(0,height0), (1,height1), ... (n-1,heightn-1)**, where every two adjacent points are connected with a segment. For example, consider the mountain
 
 
-```
-
+<pre>
 (0,0), (1,2), (2,1), (3,2), (4,1), (5,3), (6,0), (7,1), (8,0)
 
        /\
@@ -84,9 +83,7 @@ Next to every place, is some mountain. A Mountain is a sequence of points **(0,h
  /        \/\
 
 
-```
-Visitors may start their climbing from some position **i** and finish in position **j**, where **(i < j)**.They calculate the attractiveness of a mountain, as the number of different climbs that it offers. Of course, so does our Chef!
-
+</pre>Visitors may start their climbing from some position **i** and finish in position **j**, where **(i < j)**.They calculate the attractiveness of a mountain, as the number of different climbs that it offers. Of course, so does our Chef!
 A climb from position **i** to position **j** is the sequence **(i,heighti), ... (j,heightj)**.Two climbs, say **i1** to **j1** and **i2** to **j2,** are different if and only if
 
 **(j1 – i1 != j2 – i2)** or
@@ -94,8 +91,7 @@ A climb from position **i** to position **j** is the sequence **(i,heighti), ...
 
 Let us consider two climbs from the mountain we considered above
 
-```
-
+<pre>
 
   /\/
  /
@@ -107,9 +103,7 @@ and
      \
 
 
-```
-The first one is the climb from **(0 to 3)**, and the second one is the climb from **(4 to 6)**. They are different because **(3 - 0 != 6 - 4)**. On the other hand, climbs such as **(0 to 1)** and **(4 to 5)** are the same.
-
+</pre>The first one is the climb from **(0 to 3)**, and the second one is the climb from **(4 to 6)**. They are different because **(3 - 0 != 6 - 4)**. On the other hand, climbs such as **(0 to 1)** and **(4 to 5)** are the same.
 Given the array, **heights**, find the number of different climbs that exist on the mountain which is described by the sequence of these heights. Because answer can be very large, output it modulo **1,000,000,009**.
 
 ### Input
@@ -130,8 +124,7 @@ For each test case, output a single number, the **number of unique climbs**.
 
 ### Sample
 
-```
-
+<pre>
 <b>Input</b>
 3
 6
@@ -147,7 +140,5 @@ For each test case, output a single number, the **number of unique climbs**.
 20
 
 
-```
-### Explanation
-
+</pre>### Explanation
 The second test case is taken from the problem statement.

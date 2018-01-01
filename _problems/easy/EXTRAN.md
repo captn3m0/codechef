@@ -105,8 +105,7 @@ For each test case, output a single line containing one integer — a number tha
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>4
 5
 45 42 46 48 47
@@ -123,9 +122,7 @@ For each test case, output a single line containing one integer — a number tha
 12
 10</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 **Test case 1.** The sequence **A** is (45, 42, 46, 48, 47). We should remove the number 42, and the remaining numbers will form a nice sequence (45, 46, 48, 47).
 
 **Test case 2.** We should remove one of two 7's to get the sequence (7, 8), which is nice.

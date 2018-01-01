@@ -27,8 +27,7 @@ For every query of a test case, you have to output the position of the postman n
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 5
 1 24 28 34 94 
@@ -42,4 +41,4 @@ For every query of a test case, you have to output the position of the postman n
 -8 0
 
 
-```
+</pre>

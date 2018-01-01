@@ -51,61 +51,46 @@ Generate one line output saying "READY FOR BATTLE", if the army satisfies the co
 
 ### Example 1
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 1
 
 <b>Output:</b>
 NOT READY
 
-```
-### Example 2
-
-```
-<b>Input:</b>
+</pre>### Example 2
+<pre><b>Input:</b>
 1
 2
 
 <b>Output:</b>
 READY FOR BATTLE
 
-```
-### Example 3
-
-```
-<b>Input:</b>
+</pre>### Example 3
+<pre><b>Input:</b>
 4
 11 12 13 14
 
 <b>Output:</b>
 NOT READY
 
-```
-### Example 4
-
-```
-<b>Input:</b>
+</pre>### Example 4
+<pre><b>Input:</b>
 3
 2 3 4
 
 <b>Output:</b>
 READY FOR BATTLE
 
-```
-### Example 5
-
-```
-<b>Input:</b>
+</pre>### Example 5
+<pre><b>Input:</b>
 5
 1 2 3 4 5
 
 <b>Output:</b>
 NOT READY
 
-```
-### Explanation
-
+</pre>### Explanation
 - **Example 1**: For the first example, **N = 1** and the array **A = \[1\]**. There is only 1 soldier and he is holding 1 weapon, which is odd. The number of soldiers holding an even number of weapons = 0, and number of soldiers holding an odd number of weapons = 1. Hence, the answer is "NOT READY" since the number of soldiers holding an even number of weapons is not greater than the number of soldiers holding an odd number of weapons.
 - **Example 2**: For the second example, **N = 1** and the array **A = \[2\]**. There is only 1 soldier and he is holding 2 weapons, which is even. The number of soldiers holding an even number of weapons = 1, and number of soldiers holding an odd number of weapons = 0. Hence, the answer is "READY FOR BATTLE" since the number of soldiers holding an even number of weapons is greater than the number of soldiers holding an odd number of weapons.
 - **Example 3**: For the third example, **N = 4** and the array **A = \[11, 12, 13, 14\]**. The 1st soldier is holding 11 weapons (which is odd), the 2nd soldier is holding 12 weapons (which is even), the 3rd soldier is holding 13 weapons (which is odd), and the 4th soldier is holding 14 weapons (which is even). The number of soldiers holding an even number of weapons = 2, and number of soldiers holding an odd number of weapons = 2. Notice that we have an **equal** number of people holding even number of weapons and odd number of weapons. The answer here is "NOT READY" since the number of soldiers holding an even number of weapons is **not strictly greater than** the number of soldiers holding an odd number of weapons.

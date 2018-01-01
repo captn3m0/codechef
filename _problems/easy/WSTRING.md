@@ -72,8 +72,7 @@ All submissions for this problem are available.Kira likes to play with strings v
 
 For example, the _W string_ can be formed from "aaaaa#bb#cc#dddd" such as:
 
-```
-<pre class="text-monospace" style="font-family: Courier, 'Courier New', monospace">
+<pre><pre class="text-monospace" style="font-family: Courier, 'Courier New', monospace">
     a
      a             d
       a     #     d
@@ -81,9 +80,7 @@ For example, the _W string_ can be formed from "aaaaa#bb#cc#dddd" such as:
         a b   c d
          #     #
 
-```
-He also call the strings which can generate a 'W' shape (satisfying the above conditions) _W strings_.
-
+</pre>He also call the strings which can generate a 'W' shape (satisfying the above conditions) _W strings_.
 More formally, a string **S** is a _W string_ if and only if it satisfies the following conditions (some terms and notations are explained in **Note**, please see it if you cannot understand):
 
 - The string **S** contains **exactly** **3** '#' characters. Let the indexes of all '#' be **P1 < P2 < P3** (indexes are -origin).
@@ -117,8 +114,7 @@ Output an integer, denoting the length of the longest _W string_ as explained be
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 aaaaa#bb#cc#dddd
@@ -130,9 +126,7 @@ abc#dda#bb#bb#aca
 10
 11
 
-```
-### Explanation
-
+</pre>### Explanation
 In the first case: the whole string forms a _W String_.
 
 In the second case: acb#aab#bab#accba, the longest _W string_ is ac**b#aa**b**\#b**a**b#a**ccb**a**

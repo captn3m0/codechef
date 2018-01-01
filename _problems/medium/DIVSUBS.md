@@ -99,8 +99,7 @@ If there are several such subsets, you can output any.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 3
 4 6 10
@@ -110,7 +109,5 @@ If there are several such subsets, you can output any.
 2
 
 
-```
-### Explanation
-
+</pre>### Explanation
 We can pick {6} as the subset, then its sum is 6 and this is divisible by 3 - the size of the initial multiset.

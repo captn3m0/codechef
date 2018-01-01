@@ -25,11 +25,10 @@ Your output must consist of a single integer, the smallest prime palindrome grea
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 31
 <b>Output:</b>
 101
 
-```
+</pre>

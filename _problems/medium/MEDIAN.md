@@ -93,8 +93,7 @@ In **T** lines print the results for each test case, one per line.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 3
@@ -106,4 +105,4 @@ In **T** lines print the results for each test case, one per line.
 2
 1
 
-```
+</pre>

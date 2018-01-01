@@ -112,8 +112,7 @@ You should add edges one by one (with same order as they follows in input), and 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 5 4
 1 2 1
@@ -127,4 +126,4 @@ You should add edges one by one (with same order as they follows in input), and 
 1
 2
 
-```
+</pre>

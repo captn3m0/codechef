@@ -36,16 +36,11 @@ Output in a single line the exit code found.
 ### Example
 
 **Input:**
-```
-3 11 111 92
+<pre>3 11 111 92
 
-```
-**Output:**```
-084
+</pre>**Output:**</pre>084
 
-```
-### Limitations
-
+<pre>### Limitations
 \* 1<=n<=12
 
 \* 10<=A,B<=1015

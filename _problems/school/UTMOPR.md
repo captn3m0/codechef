@@ -76,7 +76,7 @@ All submissions for this problem are available.###  Read problems statements in 
 Given an array consisting of **N** integers, you have to do the following operation **K** times.
 
 - Find out the sum of all the elements in the array. Denote it by **S**. Insert an integer in the array strictly greater than **S**. Hence, size of the array will increase by one.
-
+ 
 Thus, at the end of the **K** operations, the array will have **N** + **K** elements. Find out the smallest possible value of the last number inserted in the array. Since this number can be very large, you just have to tell whether it will be odd or even.
 
 ### Input
@@ -99,18 +99,14 @@ Thus, at the end of the **K** operations, the array will have **N** + **K** elem
 
 ### Example
 
-```
-<b>Sample Input:</b>
+<pre><b>Sample Input:</b>
 1
 2 3
 5 7
 
-```
-**Sample Output:**
-
-```
-
+</pre>**Sample Output:**
+<pre>
 even
 
 
-```
+</pre>

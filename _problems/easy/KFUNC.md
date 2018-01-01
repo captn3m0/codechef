@@ -116,8 +116,7 @@ Example:
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 1 1 1 3
 14 7 2 4
@@ -127,9 +126,7 @@ Example:
 12
 
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.**
 
 **A** = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, ...}

@@ -35,8 +35,7 @@ For each test case, you are to output a single line consisting of either "yes" o
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 
 3
@@ -69,4 +68,4 @@ no
 yes
 yes
 
-```
+</pre>

@@ -39,8 +39,7 @@ For each count operation print four integers: the number of each of the bases in
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 CTCGC
 TGCGG
@@ -56,4 +55,4 @@ COUNT 4 3 6
 0 2 0 2
 
 
-```
+</pre>

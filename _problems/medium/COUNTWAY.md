@@ -90,8 +90,7 @@ Output the required answer modulo **13313** in one line.
 
 ### Example
 
-```
-<b>Input 1:</b>
+<pre><b>Input 1:</b>
 4 2
 3 2 2 3 
 
@@ -105,9 +104,7 @@ Output the required answer modulo **13313** in one line.
 <b>Output 2:</b>
 1
 
-```
-### Explanation
-
+</pre>### Explanation
 Input 1:
 Three possible ways are:
 

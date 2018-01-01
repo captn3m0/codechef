@@ -23,8 +23,7 @@ For each test case output one line containing the required number.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 1 5
 2 5
@@ -35,5 +34,4 @@ For each test case output one line containing the required number.
 
 <b>Explanation:</b>
 
-```
-In the first test case, the only sought pairs are (2,2) and (3,3). In the second one, they are (3,3), (3,4) and (4,3).
+</pre>In the first test case, the only sought pairs are (2,2) and (3,3). In the second one, they are (3,3), (3,4) and (4,3).

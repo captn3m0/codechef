@@ -27,8 +27,7 @@ For each test case, output a single line containing the word **"Yes"** followed 
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 3
@@ -49,4 +48,4 @@ Yes 3
 No
 No
 
-```
+</pre>

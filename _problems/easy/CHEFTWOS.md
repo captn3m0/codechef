@@ -109,8 +109,7 @@ For each test case, output a single line containing answer of the problem.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 1111
 2211
@@ -121,9 +120,7 @@ For each test case, output a single line containing answer of the problem.
 8
 0
 
-```
-### Explanation
-
+</pre>### Explanation
 **Test case 1.**Possible subsets are: **{}**, **{1, 2}**, **{1, 2, 3}**, **{1, 2, 4}**, **{1, 2, 3, 4}**, **{3}**, **{4}**, **{3, 4}**.
 
 **Test case 2.** There are no possible sets **S** which can make both the strings good.

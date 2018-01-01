@@ -88,8 +88,7 @@ Output for each test case should contain a single integer in a separate line, th
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 4
@@ -106,9 +105,7 @@ Output for each test case should contain a single integer in a separate line, th
 3700
 2000
 
-```
-### Explanation
-
+</pre>### Explanation
 **Case 1.** The best choice here is to conduct **3**rd and **4**th events. The total compensation is equal to **1600 + 2100 = 3700**. These events do not overlap since **3**rd event starts just after the finish of the **4**th one. Alternatively we can conduct first three events that also do not overlap. But in this case compensation will be only **100 + 200 + 1600 = 1900**.
 
 **Case 2.** Note that first event overlaps with both second and third events, while the last two events do not overlap. Hence there are two reasonable choices available for Chef. One is to take just the first order with total compensation **2000** and the second one is to take the last two orders with total compensation **100 + 400 = 500**. Clearly the first choice is better. Hence the answer is **2000**.

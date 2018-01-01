@@ -25,8 +25,7 @@ For each test case print the maximal number of happy children.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 3 3
@@ -61,4 +60,4 @@ For each test case print the maximal number of happy children.
 3
 2
 
-```
+</pre>

@@ -31,8 +31,7 @@ The placement P described by this string should minimize the maximum of dS(P) an
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 3
@@ -46,9 +45,7 @@ The placement P described by this string should minimize the maximum of dS(P) an
 ABA
 AABB
 
-```
-### Explanation of Sample Data
-
+</pre>### Explanation of Sample Data
 In the first test case, following the first permutation 1 0 2 results in the sequence of objects being BAA while following the second permutation results in the sequence of objects being ABA. In either case, the maximum difference between the number of As seen and the number of Bs seen over the whole trip is at most 1.
 
 In the second test case, following permutation 0 2 1 3 results in the sequence being ABAB wherease following permutation 1 2 3 0 results in the sequence being ABBA. Again, the maximum difference in either case is at most 1.

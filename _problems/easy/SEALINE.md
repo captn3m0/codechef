@@ -97,8 +97,7 @@ For each test case, output a single line with the answer — the minimal number 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 1
 0
@@ -112,9 +111,7 @@ For each test case, output a single line with the answer — the minimal number 
 0
 3
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 3.**
 
 - First three persons don't need any steps to sit. The line after the arrangement of these persons will look like **\[1, 2, 3\]**.

@@ -114,8 +114,7 @@ Output **Q** lines each containing distance for **i**th query. Print '-1' (witho
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 8 7
 tom is brother of ron
 ron is brother of john
@@ -138,9 +137,7 @@ john anne
 1
 1
 
-```
-### Explanation
-
+</pre>### Explanation
 Consider the first query: kel is son of john, so the distance = 1
 
 Consider the second query: ron is brother of father of kel, so the distance = 2

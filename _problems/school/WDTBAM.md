@@ -112,8 +112,7 @@ For each test case, output a single line containing the value of maximum possibl
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>3
 5
 ABCDE
@@ -134,9 +133,7 @@ ABABABAB
 100</tt>
 
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** If questions will be placed in order: **2nd** (Chef's answer is B, which is correct), **3rd** (Chef's answer is C, and it is correct as well), **4th** (Chef's answer is D, and he is right), **5th** (Chef's answer is A but correct answer is E and the game is over), **1st**, Chef will correctly answer **3** questions, and therefore win **30** dollars.
 
 **Example case 2.** Chef's answers for all questions are incorrect, so his winnings are **W0** dollars.

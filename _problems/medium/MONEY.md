@@ -38,8 +38,7 @@ For each value of N output the total number of valid sets on a separate line.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 7
 111212121
@@ -50,4 +49,4 @@ For each value of N output the total number of valid sets on a separate line.
 75
 13
 
-```
+</pre>

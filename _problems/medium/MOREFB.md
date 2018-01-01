@@ -115,15 +115,12 @@ Print a single integer representing the answer.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3 1
 1 2 3
 
 <b>Output:</b>
 4
 
-```
-### Explanation
-
+</pre>### Explanation
 **FIBOSUM(S)**  = Fib(1) + Fib(2) + Fib(3) = 4.

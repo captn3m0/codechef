@@ -79,7 +79,7 @@ A _balanced_ bracket-pair sequence can be defined recursively as follows:
 - The empty sequence is a balanced bracket-pair sequence.
 - If **S** is a balanced bracket-pair sequence, then **-x S x** is a balanced bracket-pair sequence for any positive integer **x**.
 - If **S** and **T** are balanced bracket-pair sequences, then **S T** is a balanced bracket-pair sequence.
-
+ 
 For example, "-1 -2 2 -3 -4 4 3 1" is a balanced bracket-pair sequence, but "-1 -2 1 2" is not.
 
 Chef has a bracket-pair sequence (which may or may not be balanced) consisting of **N** integers. There are 2**N** ways to form a [subsequence](http://en.wikipedia.org/wiki/Subsequence) of his sequence. He wants to know how many of these subsequences are balanced.
@@ -102,13 +102,13 @@ In a single line print the required answer.
 - **-109** ≤ **Ai** ≤ **109**
 - **Ai** ≠ 0
 - It is **not** guaranteed that each opening bracket has a closing bracket of same type and vice-versa.
-
+ 
 ### Subtasks
 
 - Subtask **N** ≤ **10** Points: 10
 - Subtask **N** ≤ **20** Points: 15
 - Subtask **N** ≤ **100** Points: 75
-
+ 
 ### Example
 
  ```
@@ -120,4 +120,4 @@ In a single line print the required answer.
 12
 
 
-```
+<pre>

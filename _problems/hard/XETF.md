@@ -98,8 +98,7 @@ Subtask 4 (55 points):
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 10 1
 7 0
@@ -108,9 +107,7 @@ Subtask 4 (55 points):
 20
 6
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** The numbers that are coprime to **10** are **1, 3, 7, 9**. Their sum is **20**.
 
 **Example case 2.** **7** is a prime number, so any integer that is less than **7** is coprime to it.

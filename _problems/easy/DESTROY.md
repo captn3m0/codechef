@@ -100,8 +100,7 @@ For each test case, output the required answer in a new line.
 **1. sum of N over all test cases does not exceed 5 × 105** 
 ###  Example
 
-```
-
+<pre>
 <b>Input</b>
 3
 2
@@ -117,8 +116,6 @@ For each test case, output the required answer in a new line.
 2
 
 
-```
-### Explanation
-
+</pre>### Explanation
 - Test 1: In an operation, Chef can choose **2** elements **X** and **Y** such that **X = 1** and **Y = 2** and can destroy them as **X != Y**.
 - Test 2: Chef cannot choose **2** elements **X** and **Y** such that **X != Y**. So, he has to use the second operation twice in order to destroy the array.

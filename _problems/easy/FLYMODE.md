@@ -106,24 +106,19 @@ Output a single maximum integer **K** in one line, such that the plane was at so
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5
 1 2 3 2 3
 
 <b>Output:</b>
 3
 
-```
-### Explanation
-
+</pre>### Explanation
 The flight can be draw as:
 
-```
-
+<pre>
 3  /\/
 2 /
 1
 
-```
-There are infinitely many heights at which the plane was 3 times during the flight, for example 2.5, 2.1. Notice that the plane was only 2 times at height 2. Moreover, there are no height at which the plane was more than 3 times, so the answer is 3.
+</pre>There are infinitely many heights at which the plane was 3 times during the flight, for example 2.5, 2.1. Notice that the plane was only 2 times at height 2. Moreover, there are no height at which the plane was more than 3 times, so the answer is 3.

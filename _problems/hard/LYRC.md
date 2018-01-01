@@ -96,8 +96,7 @@ All the characters will be either uppercase or lowercase english alphabets or nu
 
 ### Examples
 
-```
-
+<pre>
 <b>Sample Input 1</b>
 5
 he
@@ -132,4 +131,4 @@ Whoa-W-W-Whoa-Shawtyyyyy
 3
 
 
-```
+</pre>

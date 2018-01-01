@@ -89,7 +89,7 @@ For each test case, print the required answer in one line.
 - **1** ≤ **K**, **Ai** ≤ **1000**
 - Subtask 1 (30 points):**1** ≤ **N** ≤ **20**
 - Subtask 2 (70 points):**1** ≤ **N** ≤ **1000**
-
+ 
 ### Example
 
  ```
@@ -101,9 +101,7 @@ For each test case, print the required answer in one line.
 <b>Output:</b>
 7
 
-```
-### Explanation
-
+<pre>### Explanation
 Considering all subsets:
 
  F({}) = 0 ⇒ 4 **⊕** 0 = 4

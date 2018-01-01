@@ -106,16 +106,13 @@ Original Constraints
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 2 2
 
 <b>Output:</b>
 Yes
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.**
 Chef can start from (1,1), move down to (2,1), then move right to (2,2) and finally move upwards to reach (1,2). As, he is able to visit all the cells exactly once and sum of absolute differences of corresponding x and y dimension is 1, we can call this path a _magical_ path.

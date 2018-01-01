@@ -95,8 +95,7 @@ Print a single line corresponding to the answer of the problem.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 aab
 ab
@@ -106,9 +105,7 @@ aba
 ab
 -1
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** He can arrange the balloons in the order given by the following string "aba".
 
 **Example case 2.** He can arrange the balloons in the order given by the following string "ab"

@@ -33,8 +33,7 @@ For each test case, output the number of characters Michael has to write down (e
 
 ### Example
 
-```
-
+<pre>
 <b>Sample input:</b>
 2
 1 1
@@ -44,5 +43,4 @@ For each test case, output the number of characters Michael has to write down (e
 7
 8
 
-```
-(In the first case Michael has to write '1 1 first', in the second case '2 1 second'.)
+</pre>(In the first case Michael has to write '1 1 first', in the second case '2 1 second'.)

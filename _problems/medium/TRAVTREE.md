@@ -103,8 +103,7 @@ For each day output one integer on a separate line - the number of previous rout
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5
 1 2
 1 3
@@ -122,9 +121,7 @@ For each day output one integer on a separate line - the number of previous rout
 2
 2
 
-```
-### Explanation
-
+</pre>### Explanation
 **Day 1**. As there is no previous route, the route from **4** to **5** can't intersect with any round. Hence answer is .
 
 **Day 2**. Route from **4** to **2** intersects with route 1 (at vertices **3** and **4**), So the answer is **1**.

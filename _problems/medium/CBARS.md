@@ -81,8 +81,7 @@ Print in output a single integer which is the answer. Answer can be a very big n
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2 2
 
@@ -95,23 +94,16 @@ Print in output a single integer which is the answer. Answer can be a very big n
 <b>Output:</b>
 322
 
-```
-### Explanation
-
+</pre>### Explanation
 In the first sample, there are 2^(2\*2) = 16 ways coloring the chocolate in total, and the only following 2 chocolates are not good
 
-```
-
+<pre>
 <b>WW</b>
 <b>WW</b>
 
-```
-The bar contains a totally white rectangle of length = 2 and width = 2.
-
-```
-
+</pre>The bar contains a totally white rectangle of length = 2 and width = 2.
+<pre>
 <b>BB</b>
 <b>BB</b>
 
-```
-The bar contains a totally black rectangle of length = 2 and width = 2.
+</pre>The bar contains a totally black rectangle of length = 2 and width = 2.

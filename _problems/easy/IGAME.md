@@ -36,21 +36,15 @@ For each test case print a string - either "Alice" or "Bob" (without the quotes)
 
 ### Sample Input
 
-```
-2
+<pre>2
 1 1 0 0
 2 4 1 2
 
 
-```
-### Sample Output
-
-```
-Alice
+</pre>### Sample Output
+<pre>Alice
 Bob
 
 
-```
-### Explanation
-
+</pre>### Explanation
 In the second test case, initially the vehicle is at co-ordinate (2, 4). Alice now has four possible moves. Alice can move the vehicle to position (1, 4), (1, 3), (2, 3) and (2, 2). For all moves that Alice can do, Bob can move the vehicle to the position (1, 2), winning the game.

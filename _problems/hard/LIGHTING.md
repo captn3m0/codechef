@@ -39,8 +39,7 @@ Print a blank line after each test case's output.
 
 ### Example
 
-```
-<b>Input</b>
+<pre><b>Input</b>
 1
 
 4 4
@@ -56,4 +55,4 @@ Print a blank line after each test case's output.
 3 0 1 4 
 4 0 0 1 
 
-```
+</pre>

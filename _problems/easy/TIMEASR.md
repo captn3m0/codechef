@@ -108,8 +108,7 @@ For each test case print all valid values of time as described in the statement 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>2
 0
 30</tt>
@@ -118,4 +117,4 @@ For each test case print all valid values of time as described in the statement 
 <tt>00:00
 01:00
 11:00</tt>
-```
+</pre>

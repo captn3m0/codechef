@@ -97,8 +97,7 @@ For each test case, output a single line containing the answer to the correspond
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 4
 DCBA
@@ -109,9 +108,7 @@ XYZZYZZ
 ADCB
 XYYZZZZ
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** The optimal solution here is to choose the last character and put it in the beginning of the string. So the answer will be **ADCB**
 
 **Example case 2.** The optimal solution here is to choose the 5-th character (1-based index) and put it between the 2-nd and the 3-rd characters. So the answer will be **XYYZZZZ**

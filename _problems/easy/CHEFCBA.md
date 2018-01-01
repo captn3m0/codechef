@@ -87,7 +87,7 @@ Print "Possible" if it is possible to shuffle **a, b, c, d** to make proportion,
 ### Constraints
 
 - 1 ≤ **a, b, c, d**  ≤ 1000
-
+ 
 ### Example
 
  ```
@@ -97,7 +97,5 @@ Print "Possible" if it is possible to shuffle **a, b, c, d** to make proportion,
 <b>Output:</b>
 Possible
 
-```
-### Explanation
-
+<pre>### Explanation
 By swapping 4 and the second 2, we get 1 2 2 4. Note that 1 2 2 4 make proportion as 1 : 2 = 2 : 4. Hence answer is "Possible"

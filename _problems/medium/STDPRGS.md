@@ -106,8 +106,7 @@ For each query, output one integer — the result of the progress analysis for t
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>5
 1 3 2 4 5
 5
@@ -125,8 +124,6 @@ For each query, output one integer — the result of the progress analysis for t
 5</tt>
 
 
-```
-**Explanation**
-The first query: sorted array looks like **(1, 2, 3, 4, 5)** and the answer is calculated as **(2-1)2 + (3-2)2 + (4-3)2 + (5-4)2 = 4**
+</pre>**Explanation**The first query: sorted array looks like **(1, 2, 3, 4, 5)** and the answer is calculated as **(2-1)2 + (3-2)2 + (4-3)2 + (5-4)2 = 4**
 The second query: sorted array looks like **(1, 2, 3, 4)** and the answer is calculated as **(2-1)2 + (3-2)2 + (4-3)2 = 3**
 The last query: sorted array looks like **(2, 4, 5)** and the answer is calculated as **(4-2)2 + (5-4)2 = 5**

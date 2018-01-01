@@ -108,8 +108,7 @@ Output **Q** lines: the answer for each friend.
 
 ### Example
 
-```
-<b>Input:</b><tt>
+<pre><b>Input:</b><tt>
 7 7
 3 1
 2 1
@@ -134,9 +133,7 @@ Output **Q** lines: the answer for each friend.
 22
 5</tt>
 
-```
-### Subtasks
-
+</pre>### Subtasks
 - **Subtask #1 (10 points) : N, M, Q ≤ 102, wi ≤ 105**
 - **Subtask #2 (15 points) : N, M, Q ≤ 103, wi ≤ 108**
 - **Subtask #3 (25 points) : N, M, Q ≤ 5\*104, wi ≤ 109**

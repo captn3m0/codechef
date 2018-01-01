@@ -92,8 +92,7 @@ For each test case output optimal time in separated line. On the next **N** line
 13. Subtask #3: **1** ≤ **N** ≤  **10000** (63 points)
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 1
 1 1
@@ -113,4 +112,4 @@ For each test case output optimal time in separated line. On the next **N** line
 
 .
 
-```
+</pre>

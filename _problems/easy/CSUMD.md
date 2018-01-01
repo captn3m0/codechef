@@ -95,20 +95,16 @@ For each case the output should be a single integer representing the number of s
 
 **Sample Input**
 
-```
-
+<pre>
 3
 1
 2
 3
 
-```
-
-**Sample Output**
-```
-
+</pre>**Sample Output**
+<pre>
 1
 3
 8
 
-```
+</pre>

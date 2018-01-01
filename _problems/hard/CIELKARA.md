@@ -104,8 +104,7 @@ For each test case, output a single line containing the minimum value of the int
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 2 1
@@ -123,9 +122,7 @@ For each test case, output a single line containing the minimum value of the int
 1250.0000000000
 625.0000000000
 
-```
-### Explanation
-
+</pre>### Explanation
 The following figure corresponds to the example case 1. Here the bold red line denotes the correct pitch **f(t)** and the blue line denotes the optimal Ciel's pitch **g(t)**. The answer is the area of the green region.
 
 ![](http://www.codechef.com/download/CIELKARA.png)

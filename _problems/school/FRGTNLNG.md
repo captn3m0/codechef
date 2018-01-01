@@ -100,8 +100,7 @@ For each test case, output a single line containing **N** tokens (space-separate
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 3 2
 piygu ezyfo rzotm
@@ -116,4 +115,4 @@ YES YES NO
 NO NO NO YES 
 
 
-```
+</pre>

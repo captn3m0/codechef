@@ -112,8 +112,7 @@ For each test case, output a single line containing two integers **numer** and *
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>2
 6 2
 1 3 1
@@ -134,4 +133,4 @@ For each test case, output a single line containing two integers **numer** and *
 <tt>4 1
 29 6</tt>
 
-```
+</pre>

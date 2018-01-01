@@ -96,8 +96,7 @@ If Chef cannot arrive at the bus station **N** before or at the time **T**, outp
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 5 10 5
 1 2 1 2
@@ -109,9 +108,7 @@ If Chef cannot arrive at the bus station **N** before or at the time **T**, outp
 <b>Output:</b>
 2
 
-```
-### Explanation
-
+</pre>### Explanation
 There are three different traveling plans:
 
 - **bus 1 → bus 3 → bus 5**. His waiting time for each bus is 1, 2, 1, respectively.

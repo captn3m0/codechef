@@ -96,8 +96,7 @@ So, print a single integer - the sum of answers for all operations (the sum of *
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 8
 + a
 + b
@@ -111,9 +110,7 @@ So, print a single integer - the sum of answers for all operations (the sum of *
 <b>Output:</b>
 27
 
-```
-### Explanation
-
+</pre>### Explanation
 In the first test case the string **S** transforms as follows:
 
 - After the first operation **S** = a. The number of distinct substrings is 1: a.

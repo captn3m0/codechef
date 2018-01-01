@@ -23,8 +23,7 @@ For every test case print all prime numbers p such that m <= p <= n, one number 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 1 10
 3 5
@@ -38,5 +37,4 @@ For every test case print all prime numbers p such that m <= p <= n, one number 
 3
 5
 
-```
-**Warning: large Input/Output data, be careful with certain languages (though most should be OK if the algorithm is well designed)**
+</pre>**Warning: large Input/Output data, be careful with certain languages (though most should be OK if the algorithm is well designed)**

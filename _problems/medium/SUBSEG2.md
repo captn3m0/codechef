@@ -100,7 +100,7 @@ Output **Q** lines - each containing an integer corresponding to the maximum num
 - **1** ≤ **N, Q** ≤ **105**
 - **1** ≤ **starti** ≤ **endi** ≤ **106**
 - **1** ≤ **plan\_startj** ≤ **plan\_endj** ≤ **106**
-
+ 
 ### Example
 
  ```
@@ -118,9 +118,7 @@ Output **Q** lines - each containing an integer corresponding to the maximum num
 1
 0
 </tt>
-```
-### Explanation
-
+<pre>### Explanation
 **Plan #1.** Chef stays on the campus from the first day till the sixth day. During this time, he can complete maximum two courses. He can complete either the **1**st and the **2**nd or the **2**nd and the **3**rd courses..
 
 **Plan #2.** Chef can complete no more than one course and this course can be only the first one.

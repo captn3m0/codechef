@@ -107,8 +107,7 @@ For each test case, print the minimum sum of entries, possible for **P**. If it 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 2
 1 0
@@ -121,9 +120,7 @@ For each test case, print the minimum sum of entries, possible for **P**. If it 
 -1
 2
 
-```
-**Explanation:**
-
+</pre>**Explanation:**
 In the first sample case, there are only two choices of choosing P, one is a zero-matrix, for a zero matrx, we will never be able to make **P + P2 + ... + PS** all positive. Another choice is to chose P = M, for this case also, we can never make the sum with all positive values for any S.
 
 In the second case, if one selects P such that we eliminate diagonal elements from M, we get all sum positive for S=2 itself. One can check that this is the minimum sum value for P possible to satisfy all constraints.

@@ -103,24 +103,19 @@ answer for the problem with given **N, P** and **M = i**.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2 3 3
 
 <b>Output:</b>
 1 1 1 5
 
-```
-```
-<b>Input:</b>
+</pre><pre><b>Input:</b>
 2 4 4
 
 <b>Output:</b>
 1 1 2 3 5
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example #1.** 
 For M = 0, we can have only one lock, ie. all zeros 00, it is divisible by 3. 
 For M = 1, we can have only one lock, ie. all zeros 00, it is divisible by 3. 

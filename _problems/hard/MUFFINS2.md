@@ -25,8 +25,7 @@ For each test case, output on a single line the minimum total energy consumption
 
 ### Sample input
 
-```
-4
+<pre>4
 5 0
 1 2 3 4 5
 5 1
@@ -36,18 +35,13 @@ For each test case, output on a single line the minimum total energy consumption
 5 2
 2 0 0 0 0
 
-```
-### Sample output
-
-```
-3.66667
+</pre>### Sample output
+<pre>3.66667
 0.62500
 0.40000
 2.00000
 
-```
-### Constraints
-
+</pre>### Constraints
 T<50
 1≤N≤30000
 0≤S≤30000

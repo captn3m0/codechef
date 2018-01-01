@@ -104,8 +104,7 @@ For each test case, output a single line containing the maximal possible points.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 4 2 1
 1 1 2 2
@@ -121,9 +120,7 @@ For each test case, output a single line containing the maximal possible points.
 <b>Output:</b>
 5
 
-```
-**Explanation:**
-
+</pre>**Explanation:**
  For this sample, we can repaint only once, since **K = 1**. We should repaint **4**th cell with color **1**. We will pay **1** for this, and receive:
 
 **1** (**1**st cell - **1**st color) + 

@@ -51,16 +51,13 @@ Output a single line containing the answer, which is the minimum Cost over all v
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>3 5
 1 3 2 1 2</tt>
 <b>Output:</b>
 <tt>5</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 For **N** = 3, there are 5 valid BSTs possible: ```
 
 <b>T<sub>1</sub></b>:
@@ -120,5 +117,4 @@ Cost(T<sub>4</sub>, S) = Depth(1) + Distance(1, 3) + Distance(3, 2) + Distance(2
 Cost(T<sub>5</sub>, S) = Depth(1) + Distance(1, 3) + Distance(3, 2) + Distance(2, 1) + Distance(1, 2)
                      = 1 + 1 + 2 + 1 + 1 = 6</b>
 
-```
-We see that the minimum **Cost** is attained by **T2**, and it is **5**. Hence the answer is **5**.
+<pre>We see that the minimum **Cost** is attained by **T2**, and it is **5**. Hence the answer is **5**.

@@ -122,8 +122,7 @@ For each query of type 1, output the answer for such a query in a single line. M
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 10 5
 1 1 1 1 1 1 1 1 1 1
 1 2
@@ -147,9 +146,7 @@ For each query of type 1, output the answer for such a query in a single line. M
 -1
 
 
-```
-### Explanation
-
+</pre>### Explanation
 The input tree has 10 nodes and each of them has assigned value of 1 at the beginning. Initial tree can be drawn as follows:
 
 ![](https://codechef_shared.s3.amazonaws.com/download/Images/LTIME43/15750153_1301041666620483_2119272736_n.png)

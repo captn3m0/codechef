@@ -106,8 +106,7 @@ For each test case, print the answer in a separate line.
 
 ### Example
 
-```
-
+<pre>
 <b>Input</b>
 <tt>3
 2 2 0
@@ -124,7 +123,5 @@ For each test case, print the answer in a separate line.
 2
 12</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 ![](https://s3.amazonaws.com/hr-challenge-images/15909/1461164061-a8af760fd8-C.png "C.png")

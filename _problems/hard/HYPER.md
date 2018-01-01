@@ -29,8 +29,7 @@ For each test case output one line containing the requested number. It's guarant
 
 ### Examples
 
-```
-
+<pre>
 <b>Input:</b>
 4
 3
@@ -46,5 +45,4 @@ For each test case output one line containing the requested number. It's guarant
 
 <b>Explanation:</b>
 
-```
-There is just one 3-uniform hypertree on 3 vertices: {(1,2,3)}. There are six of them on 4 vertices: {(1,2,3), (1,2,4)}, {(1,2,3), (1,3,4)}, {(1,2,3), (2,3,4)}, {(1,2,4), (1,3,4)}, {(1,2,4), (2,3,4)}, {(1,3,4), (2,3,4)}. Two of the 25 possible hypertrees on 5 vertices are {(1,2,3), (3,4,5)} and {(1,2,3), (1,2,4), (1,2,5)}.
+</pre>There is just one 3-uniform hypertree on 3 vertices: {(1,2,3)}. There are six of them on 4 vertices: {(1,2,3), (1,2,4)}, {(1,2,3), (1,3,4)}, {(1,2,3), (2,3,4)}, {(1,2,4), (1,3,4)}, {(1,2,4), (2,3,4)}, {(1,3,4), (2,3,4)}. Two of the 25 possible hypertrees on 5 vertices are {(1,2,3), (3,4,5)} and {(1,2,3), (1,2,4), (1,2,5)}.

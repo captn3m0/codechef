@@ -94,8 +94,7 @@ For each test output permutation **p**. If there is more than one solution - out
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 3
 1 2
@@ -106,4 +105,4 @@ For each test output permutation **p**. If there is more than one solution - out
 1 2 3
 
 
-```
+</pre>

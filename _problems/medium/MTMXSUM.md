@@ -78,8 +78,7 @@ Devu and Churu love to play with numbers. Today, each of them has an **1 - based
 
 For example, consider the following arrays **A** and **B** each containing **3** elements.
 
-```
-
+<pre>
 <b>A = [4, 1, 9]</b>
 <b>B = [3, 4, 1]</b>
 
@@ -89,24 +88,19 @@ C = [12, 18, 12],
        [48, 72, 48],
 </b>
 
-```
-Then, for a given **K**, they will create a list **LK** of all sub-matrices of size **K x K** from the constructed matrix **C** and compute the following expression over the created list **LK**.
-
+</pre>Then, for a given **K**, they will create a list **LK** of all sub-matrices of size **K x K** from the constructed matrix **C** and compute the following expression over the created list **LK**.
 ![](https://s3.amazonaws.com/hr-challenge-images/0/1454483411-9199f9c2a5-image1.JPG "image1.JPG")where **max( X )** denotes the maximum element present in the matrix **X**.
 
 
 For example, consider the above matrix **C** and **K = 2**. Here, **LK** contains following **4** sub-matrices of size **2 x 2**.
 
-```
-<b>
+<pre><b>
 [20, 30]      [30, 20]      [12, 18]      [18, 12]
 [12, 18]      [18, 12]      [48, 72]      [72, 48]
 
 M<sub>1</sub> = 30      M<sub>2</sub> = 30      M<sub>3</sub> = 72      M<sub>4</sub> = 72</b>
 
-```
-
-Therefore, for **K = 2**, **S = M1 + M2 + M3 + M4 = (30 + 30 + 72 + 72) % (109 + 7) = 204.**
+</pre>Therefore, for **K = 2**, **S = M1 + M2 + M3 + M4 = (30 + 30 + 72 + 72) % (109 + 7) = 204.**
 
 Devu and Churu like the task very much and decided to compute the above expression for all possible values of **K** such that **1 ≤ K ≤ N** but suddenly their mom called them for some urgent work and they had to leave the task in between. Can you help them completing this task?
 
@@ -126,8 +120,7 @@ Output **N** space-separated integers, where the **ith** integer in the output d
 **1. 1 ≤ N ≤ 104 : ( 40 pts )** **1. 1 ≤ N ≤ 105 : ( 60 pts )** 
 ###  Example 
 
-```
-
+<pre>
 <b>Input</b>
 3
 4 1 9
@@ -137,4 +130,4 @@ Output **N** space-separated integers, where the **ith** integer in the output d
 280 204 72
 
 
-```
+</pre>

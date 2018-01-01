@@ -29,8 +29,7 @@ For each test case, output a single line containing the name of the winner of th
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 codechef
@@ -52,9 +51,7 @@ Tracy
 Tracy
 Teddy
 
-```
-### Constraints
-
+</pre>### Constraints
 - 1 <= _T_ <= 5
 - 1 <= _N_ <= 30
 - 1 <= |_S_| <= 30

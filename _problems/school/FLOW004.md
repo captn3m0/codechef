@@ -83,8 +83,7 @@ Display the sum of first and last digit of **N**.
 
 ### Example
 
-```
-
+<pre>
 <b>Input</b>
 3 
 1234
@@ -96,4 +95,4 @@ Display the sum of first and last digit of **N**.
 5
 5
 
-```
+</pre>

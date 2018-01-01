@@ -99,8 +99,7 @@ A single integer denoting the number of pair of houses. ### Constraints
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4 2
 1 3 4
 1 2 4
@@ -109,7 +108,5 @@ A single integer denoting the number of pair of houses. ### Constraints
 <b>Output:</b>
 6
 
-```
-### Explanation
-
+</pre>### Explanation
 If we multiply the lengths of the roads on the path between any pair of the vertices, it will be divisible by 2.

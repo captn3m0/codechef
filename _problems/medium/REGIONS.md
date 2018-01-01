@@ -112,8 +112,7 @@ The hash function is calculated this way:
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>2
 5 1 2 3 4 5
 89 189 111 34 7 200</tt>
@@ -122,9 +121,7 @@ The hash function is calculated this way:
 <tt>99116027
 515191750</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** The roads are:
 
 - Road connecting cities **1** and **2** with length **2**;

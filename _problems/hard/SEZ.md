@@ -101,8 +101,7 @@ Print a single integer corresponding to the maximal value of **(x - y)**.
 ### Example
 
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 6 5
 1 2
 2 3
@@ -113,7 +112,5 @@ Print a single integer corresponding to the maximal value of **(x - y)**.
 <b>Output:</b>
 1
 
-```
-### Explanation
-
+</pre>### Explanation
 Ciel will select city **1** and **3** as SEZ. So **x = 2** (city **1** and **3**), **y = 1** (city **2**), **x - y = 1**.

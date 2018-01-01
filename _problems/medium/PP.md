@@ -99,8 +99,7 @@ In each test case,
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 3
 a
@@ -110,7 +109,5 @@ abb
 <b>Output:</b>
 2
 
-```
-### Explanation
-
+</pre>### Explanation
 ab|a and abb|a

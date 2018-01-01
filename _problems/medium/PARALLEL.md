@@ -81,8 +81,7 @@ Output the number of steps in your program. In the following lines describe thes
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 6
 
@@ -92,9 +91,7 @@ Output the number of steps in your program. In the following lines describe thes
 2 2+3=3 5+6=6
 3 3+4=4 3+5=5 3+6=6
 
-```
-### Explanation
-
+</pre>### Explanation
 Lets name values in the array with letters from a to f. The table below describes contents of the array after each step:
 
  123456initial values:abcdefafter step 1:aa+bcdd+efafter step 2:aa+ba+b+cdd+ed+e+fafter step 3:aa+ba+b+ca+b+c+da+b+c+d+ea+b+c+d+e+f

@@ -108,8 +108,7 @@ Please help Chef in enjoying the game!!
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 1
 10
@@ -126,9 +125,7 @@ Please help Chef in enjoying the game!!
 21
 -1
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.**
 The only option in first example is to make **10** fall on **20**. As we have only one element condition of equality is satisfied.
 

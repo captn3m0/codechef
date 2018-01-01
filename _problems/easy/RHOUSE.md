@@ -34,8 +34,7 @@ Sum over all M in a single input file will not exceed 400000.
 It is guaranteed that you can reach every building from any other building.
 There is at least one resturant in the city. ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 
 3
@@ -61,4 +60,4 @@ HRR
 0
 1
 
-```
+</pre>

@@ -31,8 +31,7 @@ For each test case output in the first line the word **"IMPOSSIBLE"** without qu
 
 ### Sample input
 
-```
-5
+<pre>5
 1 1
 2 2
 2 3
@@ -40,11 +39,8 @@ For each test case output in the first line the word **"IMPOSSIBLE"** without qu
 5 5
 
 
-```
-### Sample output
-
-```
-IMPOSSIBLE
+</pre>### Sample output
+<pre>IMPOSSIBLE
 1 2
 ab
 ab
@@ -58,4 +54,4 @@ baa
 bcc
 IMPOSSIBLE
 
-```
+</pre>

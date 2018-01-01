@@ -103,8 +103,7 @@ Output should contain a single real number rounded to exactly **13** digits afte
 
 ### Example
 
-```
-
+<pre>
 <b>Input 1:</b>
 3 2
 0 0
@@ -128,9 +127,7 @@ Output should contain a single real number rounded to exactly **13** digits afte
 
 <b>Output 2:</b>
 7.8416192529638
-```
-### Explanation:
-
+</pre>### Explanation:
 **Case 1.** Here the optimal way is to use the 1st and the 3rd spell cards. The new coordinates of the point **A** will be **(1, 2)**. So the circumference of the new triangle **ABC** is: **|(1, 2) − (1, 0)| + |(1, 0) − (-1, 0)| + |(-1, 0) − (1, 2)| = 4 + 2 \* sqrt(2)**.
 
 **Case 2.** Here the optimal way is to use all of the spell cards. The new coordinates of the point **A** will be **(2, 2)**. So the circumference of the new triangle **ABC** is: **|(2, 2) − (1, 0)| + |(1, 0) − (-1, 0)| + |(-1, 0) − (2, 2)| = 2 + sqrt(5) + sqrt(13)**.

@@ -34,8 +34,7 @@ For each test case, print the number of squares that conform to the definition i
 
 **Sample input**
 
-```
-3
+<pre>3
 2 2
 aa
 aA
@@ -50,18 +49,13 @@ bbaa
 bbaa
 
 
-```
-**Sample output**
-
-```
-0
+</pre>**Sample output**
+<pre>0
 1
 4
 
 
-```
-**Explanation**
-
+</pre>**Explanation**
 In the first case the only avaliable square does not conform to the definition in the problem statement because 'a' and 'A' describes different colors.
 
 In the second case, you can select the 4 a's at the corners of the garden.

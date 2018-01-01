@@ -118,8 +118,7 @@ For each test case, output a single real number denoting the probability of a su
 26. The sum of the **N**s in a single test file is ≤ **520000**
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>2
 5
 10000000 -10000000
@@ -140,7 +139,5 @@ For each test case, output a single real number denoting the probability of a su
 <tt>0.25
 0.00045</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 The second example is depicted by the image above.

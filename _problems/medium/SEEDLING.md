@@ -107,8 +107,7 @@ For each test case, output a single line containing the number of ways to buy se
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>1
 2 2
 1 45 8668081
@@ -117,9 +116,7 @@ For each test case, output a single line containing the number of ways to buy se
 <b>Output:</b>
 <tt>3</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** There are three possible options:
 
 - Buy one seedling of the first kind.

@@ -23,8 +23,7 @@ layout: problem
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 5 6
 0 4 0
@@ -40,4 +39,4 @@ layout: problem
 0.782376860
 
 
-```
+</pre>

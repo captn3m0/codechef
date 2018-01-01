@@ -27,8 +27,7 @@ For each of the Q file names, print on a line the media type of the file. If the
 
 ### Sample Input
 
-```
-5 6
+<pre>5 6
 html text/html
 htm text/html
 png image/png
@@ -41,15 +40,12 @@ virus.exe
 dont.let.the.png.fool.you
 case.matters.TXT
 
-```
-### Sample Output
-
-```
-text/html
+</pre>### Sample Output
+<pre>text/html
 text/plain
 unknown
 unknown
 unknown
 unknown
 
-```
+</pre>

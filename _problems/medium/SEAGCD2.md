@@ -99,8 +99,7 @@ For each test case output required answer modulo **10^9 + 7**.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 1 1
 3 3
@@ -110,4 +109,4 @@ For each test case output required answer modulo **10^9 + 7**.
 13
 
 
-```
+</pre>

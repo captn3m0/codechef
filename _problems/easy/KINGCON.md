@@ -104,8 +104,7 @@ For each test case, output the minimum amount of money required to fulfill the k
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 1
 7 6 5
@@ -119,7 +118,5 @@ For each test case, output the minimum amount of money required to fulfill the k
 <b>Output:</b>
 15
 
-```
-### Explanation
-
+</pre>### Explanation
 In the sample, the cities **1**, **2**, and **4** must be protected by the shields.

@@ -126,8 +126,7 @@ No additional constraint
 **Input**
 />
 
-```
-
+<pre>
 10 5
 1 2 1 2 1 2 2 1 2 3
 1 2
@@ -137,14 +136,11 @@ No additional constraint
 9 10
 2
 
-```
-
-
+</pre>
 **Output**
 />/>
 
-```
-
+<pre>
 -1
 -1
 2 1
@@ -156,4 +152,4 @@ No additional constraint
 -1
 -1
 
-```
+</pre>

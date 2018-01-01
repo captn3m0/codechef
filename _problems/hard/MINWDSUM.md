@@ -54,8 +54,7 @@ For each test case, output a single line containing the required sum.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 6
 1
@@ -79,9 +78,7 @@ For each test case, output a single line containing the required sum.
 10
 6500672892792
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** Here **M = 1**. So we need to find **F(Nmin(0))**. Since **Smin(0) = Nmin(0) = 0** and **F(0) = 0**, the answer is .
 
 **Example case 2.** Here **M = 2** and **W\[0\] = 0**, **W\[1\] = 2**, **W\[9\] = 1**, while all remaining **W\[D\] = 9**. As mentioned above **Smin(0) = Nmin(0) = 0**. For **R = 1** we have **Smin(1) = 1** and **Nmin(1) = 9** since **W\[9\] = 1**. Therefore, the answer is **F(0) + F(9) = 0 + 9 = 9**.

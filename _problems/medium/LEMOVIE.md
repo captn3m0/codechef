@@ -100,8 +100,7 @@ For each test case, print the number of different watching orders having at most
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 3 1
@@ -113,9 +112,7 @@ For each test case, print the number of different watching orders having at most
 2
 24
 
-```
-### Explanation
-
+</pre>### Explanation
 In the first case, there are two boring watching orders whose _excitingness_ not greater than **K=1**: **\[3, 1, 2\]**, **\[3, 2, 1\]**. Both watching orders have one _exciting_ watching: the first watching.
 
 In the second case, every watching order has at most **3** _excitingness_.

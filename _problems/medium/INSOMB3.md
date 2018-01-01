@@ -60,8 +60,7 @@ Line 1: The number of I's in the given figure. />/>/>
 
 **Sample Input:**/>/>
 
-```
-
+<pre>
 10 10
 # # # # # # # # # #
 # # # # # # # # # #
@@ -74,18 +73,13 @@ Line 1: The number of I's in the given figure. />/>/>
 # # # # # # # # # #
 # # # # # # # # # #
 
-```
-
-
+</pre>
 **Sample Output:**/>
 
-```
-
+<pre>
 0
 
-```
-
-
+</pre>
 Explanation: The given I is invalid because of 2 reasons:
 
 

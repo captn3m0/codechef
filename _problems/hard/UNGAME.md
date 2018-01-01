@@ -99,8 +99,7 @@ For each test case, output a single line containing **m** space separated intege
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 3 2
 2 3
@@ -111,9 +110,7 @@ For each test case, output a single line containing **m** space separated intege
 2 1
 1 1
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.**
 
 There are three cells in the horizontal strip.

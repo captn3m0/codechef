@@ -117,8 +117,7 @@ Subtask 3 (62 points):
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 zxqfd
 aba
@@ -127,9 +126,7 @@ aba
 5
 5
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1:** There is no palindrome that occurs as the substring of **zxqfd** and has the length more than **1**. The individual characters are palindromes of the palindromeness of **1**.
 
 **Example case 2:** The palindromeness of **aba** is **2** and the sum of the palindromenesses of single characters is **3**.

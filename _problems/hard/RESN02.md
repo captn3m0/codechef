@@ -23,8 +23,7 @@ Output T lines, one per test case. For each test case, output a space seperated 
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 3 1
@@ -37,4 +36,4 @@ Output T lines, one per test case. For each test case, output a space seperated 
 11117 101 1075 12127 12081
 
 
-```
+</pre>

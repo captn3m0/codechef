@@ -101,8 +101,7 @@ For each test case, output a single line containing a real number corresponding 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 2 5
 1 1000000000
@@ -111,7 +110,5 @@ For each test case, output a single line containing a real number corresponding 
 0.266667
 0.0000001
 
-```
-### Explanation
-
+</pre>### Explanation
 Due to the triangle being very small, but the dogs running extremely fast, they will meet after less than 1e-6 seconds. Thus, due to remark about absolute or relative error in the output section, any answer within \[0, 1e-6\] will be considered correct.

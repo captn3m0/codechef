@@ -31,8 +31,7 @@ The output for each test case is a single line containing a single integer that 
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 
@@ -50,4 +49,4 @@ The output for each test case is a single line containing a single integer that 
 2
 1
 
-```
+</pre>

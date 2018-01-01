@@ -117,8 +117,7 @@ Please note that sub-matrix of a matrix is a **continuous** rectangular block of
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3 4
 1 8 3 4
 5 2 3 1
@@ -135,36 +134,27 @@ Please note that sub-matrix of a matrix is a **continuous** rectangular block of
 15
 9
 
-```
-### Explanation
-
+</pre>### Explanation
 **Question #1:**
 Chef can choose any 1 × 1 submatrix and it will take his 0 minutes to make it beautiful.
 
 **Question #2:**
 The best variant is submatrix
 
-```
-
+<pre>
 3 1
 2 2
 
-```
-**Question #3:**
-The next submatrix Chef can make equal in 15 minutes
+</pre>**Question #3:**The next submatrix Chef can make equal in 15 minutes
 
-```
-
+<pre>
 5 2 3
 3 6 2
 
-```
-**Question #4:**
-
-```
-
+</pre>**Question #4:**
+<pre>
 3 4
 3 1
 2 2
 
-```
+</pre>

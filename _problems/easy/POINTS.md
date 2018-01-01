@@ -23,8 +23,7 @@ For each test case, print the total distance traveled by you from start to finis
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 
@@ -54,4 +53,4 @@ For the third test case above, the following is the path you must take:
 1,5 -> 2,2
 = 18.21
 
-```
+</pre>

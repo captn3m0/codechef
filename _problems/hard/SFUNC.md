@@ -93,15 +93,12 @@ The first line of contains the only integer, denoting _SuperFuntion_ of **N** an
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5 2 100
 <b>Output:</b>
 30
 
-```
-### Explanation
-
+</pre>### Explanation
 In the test case **N** equals to 5, **K** equals to 2, **M** equals to 100. The answer is (12 + 22 + 32 + 42) mod 100 = 30.
 
 ### Scoring

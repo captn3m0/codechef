@@ -97,8 +97,7 @@ For each **T** test cases print sequence of integers - answer for corresponding 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 2 4 7
 0
@@ -108,4 +107,4 @@ For each **T** test cases print sequence of integers - answer for corresponding 
 <b>Output:</b>
 -1
 1 7 7
-```
+</pre>

@@ -124,8 +124,7 @@ For each query of type 4, output the required answer.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 10 20
@@ -139,13 +138,12 @@ For each query of type 4, output the required answer.
 -30 1
 4
 -30
-<br></br><b>Output:</b>
+<br></br>
+<b>Output:</b>
 30
 38
 
-```
-### Explanation
-
+</pre>### Explanation
 **Query #1**
 
 **type** = 4 **encoded\_key** = 0

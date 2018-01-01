@@ -97,8 +97,7 @@ Output **K** lines: each line contain an integer, corresponding to the minimal c
 2 N 1 M 1 K **S**\[i\] != **T**\[i\], 1 S\[i\], **T**\[i\] N 
 1 V\[i\] 1 C Note that: there may be more than 1 road between a certain pair of cities. ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 6 5 3
 1 3 2
@@ -115,9 +114,7 @@ Output **K** lines: each line contain an integer, corresponding to the minimal c
 21
 32
 
-```
-
-**Explanation**
+</pre>**Explanation**
 In the first year, since **C** is very small, an optimal solution is: no hero travel, we pay 1 dollar for each city as compensate. 
 In the second year, an optimal solution is: One hero traveling in the path: 1->3->4->5. We pay 2+2+2=6 dollars for the roads, 5 dollars for taking him back to city 1, and pay 5 dollars for city 2 and 6 as compensate. 
 In the third year, one optimal solution is: One hero traveling in the path: 1->3->4->5, and another hero traveling in the path: 2->3->4->6.

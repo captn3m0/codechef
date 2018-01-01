@@ -29,8 +29,7 @@ For each test case, print the number of initial configurations of N \* M board t
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 1 1
@@ -42,8 +41,6 @@ For each test case, print the number of initial configurations of N \* M board t
 2
 32
 
-```
-
-**Description :** 
+</pre>**Description :** 
 In first case 1 \* 1 board can have 2 configurations - off or on. Both can be solved. 
 In second case we've a row of 3 lights. There are total of 8 configurations. Out of these only 2 configurations can be solved (one with all lights on and one with all lights off)

@@ -11,7 +11,7 @@ layout: problem
 ---
 ###  All submissions for this problem are available. 
 
-<a id="x1-6r5" name="x1-6r5"></a> EAlgebra ExpressInput file:stdinOutput file:stdout
+ <a id="x1-6r5" name="x1-6r5"></a> E Algebra Express Input file:stdinOutput file:stdout
 
 
 
@@ -33,9 +33,9 @@ Input
 
 First line contains T, the number of test cases.
 
-Each test case starts with three integers N(2 ≤ N ≤ 12), l, h (−1012≤ l ≤ h ≤ 1012), the number of variables, lower limit and the upper limit of the acceptable expression values.
+Each test case starts with three integers N(2 ≤ N ≤ 12), l, h (−1012 ≤ l ≤ h ≤ 1012), the number of variables, lower limit and the upper limit of the acceptable expression values.
 
-Next line contains N integers ai(0 ≤ ai≤ 9), the value of the variables she will be using in the exam.
+Next line contains N integers ai(0 ≤ ai ≤ 9), the value of the variables she will be using in the exam.
 
 Next line contains the expression, where each variable is represented as ‘x’. The expression will be well formed, and will contain only the symbols ‘+’, ‘-’, ‘\*’,‘(’,‘)’ and ‘x’.
 
@@ -47,7 +47,7 @@ Note that, you will be replacing each ‘x’ with a value aj(1 ≤ j ≤ N). Ea
 
 Sample input and output
 
-- - - - - -
+ - - - - - -
 
 - - - - - -
 

@@ -94,8 +94,7 @@ Output the answer for each test-case in a single line. If it is not possible to 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>4
 5 6
 6 10
@@ -109,4 +108,4 @@ Output the answer for each test-case in a single line. If it is not possible to 
 285168.817674 546189.769984 616153.000000
 </tt>
 
-```
+</pre>

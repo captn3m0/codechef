@@ -60,8 +60,7 @@ For each test case output **N** lines. The **i**-th line among them should conta
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 1 2
@@ -86,9 +85,7 @@ For each test case output **N** lines. The **i**-th line among them should conta
 1 3
 0 31415
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** Here **R = 1** and **N = 2**. Let's check that provided output is consistent. The first guest comes at time 0 and asks for room 0 for 31 minutes. Since the hotel is initially empty we settle him at this room causing zero inconvenience. The second guest comes at time 314 and asks for room 0 for 31415 minutes. The first guest made this room free at time 31 so at time 314 it is free and we settle the second guest at room 0 causing zero inconvenience.
 
 **Example case 2.** Here **R = 5** and **N = 3**. Again let's check that provided output is consistent. The first guest comes at time 3 and asks for room 4 for 31 minutes. Since the hotel is initially empty we settle him at this room causing zero inconvenience. The second guest comes at time 31 and asks for room 4 for 314 minutes. But the first guest is still living in this room (he will free it at time 34). Therefore, we settle the second guest at the room 0 (the next after 4 in cyclic manner) causing inconvenience 1. Finally the third guest comes at time 314 and asks for room 2 for 3141 minutes. This room is free and we settle him at this room causing zero inconvenience.

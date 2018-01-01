@@ -135,8 +135,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 ###  Example
 
-```
-
+<pre>
 <b>Input:</b>
 <tt>2
 4
@@ -151,7 +150,5 @@ All submissions for this problem are available.###  Read problems statements in 
 <b>Output:</b>
 <tt>6
 31</tt>
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1**. In this test case the distance between the node **A** and the node **B** will be equal to one for all pairs **(A, B)**. So for all six pairs we get the distance **1** and the final sum **6**.

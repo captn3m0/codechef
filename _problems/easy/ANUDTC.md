@@ -107,8 +107,7 @@ Answers for 3 questions (in the order above) must be space separated on the same
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 4
 7
@@ -117,9 +116,7 @@ Answers for 3 questions (in the order above) must be space separated on the same
 y y y
 n y y
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.**
 
 Is it possible to make **N** equal pieces?

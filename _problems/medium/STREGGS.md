@@ -29,24 +29,18 @@ For each test case, print the minimal number of taps for the worst-case.
 
 ### Sample Input
 
-```
-3
+<pre>3
 2 1
 5 8
 2 1
 5 58
 3 2
 1 2 3
-```
-### Sample Output
-
-```
-8
+</pre>### Sample Output
+<pre>8
 10
 5
-```
-### Output details
-
+</pre>### Output details
 In the first case, if a egg isn't broken after 5 taps, she should continue to tap the same egg.
 
 In the second case, if a egg isn't broken after 5 taps, she should tap another egg 5 times.

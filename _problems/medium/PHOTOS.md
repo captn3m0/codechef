@@ -29,8 +29,7 @@ For each input you are to output a single line. If you are unable to take photos
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 5
 3
@@ -60,4 +59,4 @@ No Photos
 1 12
 
 
-```
+</pre>

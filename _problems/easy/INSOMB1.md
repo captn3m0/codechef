@@ -23,12 +23,11 @@ Line 1: PRIME or COMPOSITE
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2760727302517
 
 <b>Output:</b>
 PRIME
 
-```
+</pre>

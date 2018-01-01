@@ -28,8 +28,7 @@ Print the answer to each test case on a separate line.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 
 4
@@ -45,4 +44,4 @@ Print the answer to each test case on a separate line.
 233
 178
 
-```
+</pre>

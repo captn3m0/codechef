@@ -25,8 +25,7 @@ Line 1: A single value C >= 0 representing the number of true parenthesizations 
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 T.F+T*F
 
@@ -34,6 +33,4 @@ T.F+T*F
 5
 
 
-```
-**Description**
-The 5 values correspond to the parenthesizations (((T.F)+T)\*F), ((T.F)+(T\*F)), ((T.(F+T))\*F, (T.((F+T)\*F)), (T.(F+(T\*F))) - all of which evaluate to true.
+</pre>**Description**The 5 values correspond to the parenthesizations (((T.F)+T)\*F), ((T.F)+(T\*F)), ((T.(F+T))\*F, (T.((F+T)\*F)), (T.(F+(T\*F))) - all of which evaluate to true.

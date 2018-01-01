@@ -96,8 +96,7 @@ For each test case, output a single line containing the word "Tuzik" or "Vanka" 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 1 1
 1 2
@@ -106,9 +105,7 @@ For each test case, output a single line containing the word "Tuzik" or "Vanka" 
 Vanka
 Tuzik
 
-```
-### Explanation
-
+</pre>### Explanation
 In the **first test case** Tuzik can't finish even the first move, so Vanka wins.
 
 In the **second test case** Tuzik eats the first stack (with 1 nut), then splits the second stack (with 2 nuts) into two stacks, and Vanka loses.

@@ -23,8 +23,7 @@ For a given positive integer **N** find the number of all positive integers **X*
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 6
@@ -36,9 +35,7 @@ For a given positive integer **N** find the number of all positive integers **X*
 1
 -1
 
-```
-### Explanation
-
+</pre>### Explanation
 In the first test case only numbers 12 and 18 have 6 divisors and are divisible by 6. 
 
 In the second test case the only number is 113^112. 

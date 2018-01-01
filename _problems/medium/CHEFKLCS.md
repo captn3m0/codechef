@@ -47,8 +47,7 @@ Output lexicographically **k**th longest common subsequence. If such a sequence 
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 <tt>3 3
 abc
@@ -75,9 +74,7 @@ ab
 <b>Output:</b>
 <tt>-1</tt>
 
-```
-### Explanation:
-
+</pre>### Explanation:
 **Example case 1.**L = LCS(**A**, **B**) = 1. There are three common sequences with length L, S = {"a", "b", "c"}. Answer is "c".
 
 **Example case 2.**L = LCS(**A**, **B**) = 3. There are four common sequences with length L, S = {"aca", "acb", "bca", "bcb"}. Answer is "-1".

@@ -92,8 +92,7 @@ For each query, output one integer on a line which denotes the number of the giv
 
 ### Sample
 
-```
-
+<pre>
 <b>Input 1:</b>
 5 3
 1 3
@@ -122,4 +121,4 @@ For each query, output one integer on a line which denotes the number of the giv
 0
 
 
-```
+</pre>

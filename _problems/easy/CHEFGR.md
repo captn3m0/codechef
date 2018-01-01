@@ -50,8 +50,7 @@ Chef wants to spend **exactly** **M** cubes. Can he make this in such way that t
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 5 7
 3 3 4 2 1
@@ -65,9 +64,7 @@ Yes
 No
 No
 
-```
-### Explanation
-
+</pre>### Explanation
 In the first case we can put cubes on columns in such count: **1, 1, 0, 2, 3**. The sum equals **M**.
 
 In the second case we can't make the columns equal as we will receive something like **44443**.

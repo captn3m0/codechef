@@ -131,8 +131,7 @@ For each query, print a single integer - the number Chef would like to find out 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 3 3
 1 2
@@ -165,9 +164,7 @@ For each query, print a single integer - the number Chef would like to find out 
 22
 915822
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.**
 Starts from: (ways of play with length in range \[1, 4\]) 
 **1:**  (1,2,1), (1,3,1), (1,2,3,1), (1,3,2,1), (1,2,3,2,1), 

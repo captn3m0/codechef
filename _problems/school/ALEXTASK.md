@@ -104,8 +104,7 @@ For each test case, output a single line containing the number of milliseconds u
 17. Subtask #3 (70 points) **original constraints**
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>3
 3
 2 3 5
@@ -119,9 +118,7 @@ For each test case, output a single line containing the number of milliseconds u
 7
 4</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 **Case 1: in 6 milliseconds, the third reading will be attempted from the 1st sensor and the second reading will be attempted from the 2nd sensor**.
 
 **Case 2: in 7 milliseconds the seventh reading will be attempted from the 1st sensor and the first reading will be attempted from the 3rd sensor**.

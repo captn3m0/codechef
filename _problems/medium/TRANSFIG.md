@@ -77,8 +77,7 @@ She then realizes that her spell is capable of transfiguring tree **T** into ano
 We give the explicit pseudocode of the preorder and postorder traversals of rooted **K**-ary trees:
 
 
-```
-
+<pre>
 class node
 	int label;
 	node children[K];
@@ -96,58 +95,44 @@ void postorder(node subroot)
 			postorder(subroot.children[i]);
 	output subroot.label;
 
-```
-Two rooted **K**-ary trees **T1** and **T2** are considered different if there is some node **n**, such that the **children\[\]** array of node **n** is different in **T1** and in **T2**.
+</pre>Two rooted **K**-ary trees **T1** and **T2** are considered different if there is some node **n**, such that the **children\[\]** array of node **n** is different in **T1** and in **T2**.
 
-```
-
+<pre>
 Some examples of differences:
 K=2.
-```
-
+</pre>
    1 : (1.children = [2, 3])
   / \
  2   3
 
-```
-is different from
-```
-
+<pre>is different from
+</pre>
    1 : (1.children = [3, 2])
   / \
  3   2
 
-```
-
+<pre>
 Also,
 K=2.
-```
-
+</pre>
    1 : (1.children = [null, 2])
     \
      2
 
-```
-is different from
-```
-
+<pre>is different from
+</pre>
    1 : (1.children = [2, null])
   /
  2
 
-```
-is different from
-```
-
+<pre>is different from
+</pre>
    2
     \
      1 : (1.children = [null, null], 2.children = [null, 1])
 
-```
-
-```
-### Input
-
+<pre>
+</pre>### Input
 The first line contains **T**, the number of test-cases. 
 
 Each test-case, begins with a line consisting of two integers **N** and **K**, **N** is the number of nodes of the tree, and **K** is the maximum number of children of each node. 
@@ -169,8 +154,7 @@ For each testcase, output the possible number of rooted **K**-ary trees having t
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 4
 2 2
@@ -192,27 +176,21 @@ For each testcase, output the possible number of rooted **K**-ary trees having t
 1
 0
 
-```
-### Explanation
-
+</pre>### Explanation
 The first case has two possibilities:
 
 
-```
-
+<pre>
   1
  /
 2
 
-```
-and
-```
-
+</pre>and
+<pre>
   1
    \
     2
 
-```
-The second case gives us a tree where the root 1 has 2, 3 and 4 as its children. Since **K = 2**, this violates the condition that each node has **atmost K children**.
+</pre>The second case gives us a tree where the root 1 has 2, 3 and 4 as its children. Since **K = 2**, this violates the condition that each node has **atmost K children**.
 
 The fourth case is impossible for any tree to have the given preorder and postorder traversals.

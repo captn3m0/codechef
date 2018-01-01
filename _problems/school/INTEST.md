@@ -77,8 +77,7 @@ Write a single integer to output, denoting how many integers ti are divisible by
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 7 3
 1
@@ -92,4 +91,4 @@ Write a single integer to output, denoting how many integers ti are divisible by
 <b>Output:</b>
 4
 
-```
+</pre>

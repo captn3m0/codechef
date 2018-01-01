@@ -102,8 +102,7 @@ For each test case, output a single line containing the number of bases **b**, o
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>4
 6
 9
@@ -116,7 +115,5 @@ For each test case, output a single line containing the number of bases **b**, o
 8
 14</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 In the first test case, **6** has a leading digit **1** in bases **2**, **4**, **5** and **6**: **610 = 1102 = 124 = 115 = 106**.

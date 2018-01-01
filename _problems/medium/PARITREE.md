@@ -120,8 +120,7 @@ As the answer could be quite large, print your answer modulo **109 + 7**.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 3 2
 1 2
@@ -141,9 +140,7 @@ As the answer could be quite large, print your answer modulo **109 + 7**.
 4
 2
 
-```
-### Explanation
-
+</pre>### Explanation
 **In the first example**,
 You can only set the weight of each edge equal to 0 for satisfying the given condition. So, there is exactly one way of doing this. Hence answer is 1.
 

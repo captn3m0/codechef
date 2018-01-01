@@ -102,8 +102,7 @@ For each test case, output a single line containing the minimum number of roses 
 18. Subtask #4 (50 points) **original constraints**
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>2
 8 4
 1 2 2 3 4 5 5 6
@@ -115,9 +114,7 @@ For each test case, output a single line containing the minimum number of roses 
 1
 </tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 **Case 1:** Alexey cut two roses of length 5 to length 2 and get the first bouquet with each rose length being 2. The other roses with length 3,4,6 can be cut to length 1 and he gets the second bouquet in which each rose will be of length 1.
 
 **Case 2:** The last rose can be cut to length 1. There will be a bouquet with each rose of length 1.

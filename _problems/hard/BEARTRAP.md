@@ -122,12 +122,11 @@ In the provided example, there are **T** = 2 test cases and in each of them you 
 
 You can run the visualizer to see the simulation of the first test case. For your convenience, the grid below shows the final situation, assuming that the size of the grid is N = 4 (but remember that N = 20 in all tests).
 
-```
-   . , . , 
+<pre>   . , . , 
   , . , . , 
  . , # # # , 
 , . # c , # , 
  , . # # # . 
   , . , . , 
    , . , .
-```
+</pre>

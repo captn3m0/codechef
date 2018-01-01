@@ -91,8 +91,7 @@ For each test case, output the required answer.
 **1. Subtask 1: 1 ≤ N ≤ 6 ( 25 pts )** **1. Subtask 2: 1 ≤ N ≤ 50 ( 25 pts )** **1. Subtask 3: 1 ≤ N ≤ 100, M is prime ( 25 pts )** **1. Subtask 4: Original Constraints ( 25 pts )** 
 ### Example:
 
-```
-
+<pre>
 <b>Input:</b>
 5
 2 2 3
@@ -109,7 +108,5 @@ For each test case, output the required answer.
 7
 
 
-```
-### Explanation:
-
+</pre>### Explanation:
 ![](https://s3.amazonaws.com/hr-challenge-images/3194/1448608384-4e93622266-final_image.png "final_image.png")

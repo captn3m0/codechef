@@ -95,8 +95,7 @@ Now the Sheriff asks the question: How many times has he whistled?
 
 ### Example
 
-```
- <p>
+<pre> <p>
 <b>Input:</b>
 
 2
@@ -111,11 +110,8 @@ Now the Sheriff asks the question: How many times has he whistled?
 6
 </p>
 
-```
-### Explanation
-
-```
- <p>
+</pre>### Explanation
+<pre> <p>
 <b>Example case 2.</b>
 the bandits positions are:
 0. 1 2 3 4 5
@@ -126,4 +122,4 @@ the bandits positions are:
 5. 2 3 1 5 4
 6. 1 2 3 4 5.
 </p>
-```
+</pre>

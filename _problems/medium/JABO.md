@@ -76,8 +76,7 @@ A Jam Board is a large plastic board, with lots of holes in it. The holes are ar
 
 For illustration, consider a Jam Board Having 6 Columns and 2 Rows-
 
-```
-
+<pre>
 A B C D E F
 A B C D E F
 A B C D E F
@@ -89,8 +88,7 @@ G H I J K L
 G <b>3</b> I J K L
 G H I J K L
 
-```All A's are in a group, and share same voltage. Notice the **3** above, it is basically in H group. How can we refer to the point **3** on Jam Board, using coordinate system? Candy for taking a guess! It is (2, 9), from Top Left.
-
+</pre>All A's are in a group, and share same voltage. Notice the **3** above, it is basically in H group. How can we refer to the point **3** on Jam Board, using coordinate system? Candy for taking a guess! It is (2, 9), from Top Left.
 Now if Jimmy plugs one end of copper wire in **1** and the other in **2**, then C and E will become a single group and start sharing voltage. Jimmy can apply a high voltage to any hole, and that group becomes "high". The Jam Board is grounded, thus each group is initially at low voltage. When an LED is connected across two points, it glows up if there is a potential difference between the two points, i.e. when one end is "high" and the other is "low".
 
 The lab assistant must leave, but he allows Jimmy to stay with one Jam Board, one LED, one Voltage sources (with several output points) and lots of wires. So Jimmy gets down to work, he connects wires, applies (high) voltage, and occasionally connects the LED between two points. Sometimes he removes a voltage source as well. At times he connects a wire(or voltage source) to the point, which already has a wire(or voltage source) connected to it. This is not a good practice, but Jimmy is excused because he is new to electrical stuff. And when he removes voltage source from a point, he removes only one of it at a time.
@@ -121,8 +119,7 @@ For each input line starting with 'L' output "ON" if the LED is on, and "OFF" ot
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 9 2 10
 WADAEAFAG
@@ -142,13 +139,10 @@ OFF
 OFF
 OFF
 
-```
-### Explanation
-
+</pre>### Explanation
 The input is to interpreted as
 
-```
-
+<pre>
 9 2 10
 W 3 4 5 6
 V 6 3
@@ -160,4 +154,4 @@ L 1 1 2 1
 R 10 10
 L 9 10 10 9
 
-```
+</pre>

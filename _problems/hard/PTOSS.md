@@ -92,8 +92,7 @@ For each test case, output a single line containing the expected number of addit
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 1 a
@@ -108,9 +107,7 @@ For each test case, output a single line containing the expected number of addit
 8
 254
 
-```
-### Explanation
-
+</pre>### Explanation
 In the third case, for the lucky sequence, 'A' stands for 26 and its 5-bit binary number is 11010. 'n' stands for 13 and its 5-bit binary number is 01101. Concatenate them to get 1101001101. The decoded string will be BBFBFFBBFB. Chef's lucky sequence is the first eight characters, i.e., BBFBFFBB.
 
 ### Constraints

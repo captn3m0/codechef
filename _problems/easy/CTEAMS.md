@@ -29,8 +29,7 @@ Every time a new chef joins the kitchen, output the absolute difference between 
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 5
 2 3
@@ -46,4 +45,4 @@ Every time a new chef joins the kitchen, output the absolute difference between 
 4
 9
 
-```
+</pre>

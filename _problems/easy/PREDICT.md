@@ -92,22 +92,19 @@ For each test case output single line containing the expected amount of money Da
 ### Constraints
 
 - **1** ≤ **T** ≤ **100001 (105+1)**
-- **0.0** ≤  **PA** ≤ **1.0**
+- **0.0** ≤  **PA**  ≤ **1.0**
 - **PA** has at most **5** digits after the decimal point.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 0.510
 
 <b>Output:</b>
 10098
 
-```
-### Example bet:
-
+</pre>### Example bet:
 Look at the following situation:
 
 

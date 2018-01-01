@@ -92,17 +92,13 @@ The next line contains a single number W, the number of roads that can be warped
 
 Print T lines, one for each test case. Output either "YES" if Chef's dream can be fulfilled, "NO" otherwise. ### Constraints
 
-```
-1 ≤ T ≤ 100
+<pre>1 ≤ T ≤ 100
 2 ≤ N ≤ 50
 1 ≤ M ≤ 200
 1 ≤ W ≤ M
 
-```
-### Sample Input
-
-```
-2
+</pre>### Sample Input
+<pre>2
 3 3
 1 2
 2 3
@@ -120,14 +116,9 @@ Print T lines, one for each test case. Output either "YES" if Chef's dream can b
 2
 2 4
 
-```
-### Sample Output
-
-```
-YES
+</pre>### Sample Output
+<pre>YES
 NO
 
-```
-### Explanation
-
+</pre>### Explanation
 In the first Sample Input, warping either one of Road 1 or Road 2 is sufficient. In the second Sample Input, warping both of Road 1 and Road 2 create a road that connects a house to itself and all other possibilities of warping roads are insufficient to fulfil Chef's dream.

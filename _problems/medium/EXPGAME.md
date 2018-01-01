@@ -96,8 +96,7 @@ Output description.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 1
 4
@@ -105,9 +104,7 @@ Output description.
 <b>Output:</b>
 Little Chef
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** Little Chef can remove all the four stones and Head Chef will lose.
 
 ###  Scoring 

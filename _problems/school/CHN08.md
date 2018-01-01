@@ -48,8 +48,7 @@ She'll give an integer **N**, and you have to find out what **f(N)** is. Output 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 10 17 3
 23 17 3
@@ -59,9 +58,7 @@ She'll give an integer **N**, and you have to find out what **f(N)** is. Output 
 7
 1000000001
 
-```
-### Explanation
-
+</pre>### Explanation
 In the first test case, **f(3)** = 7, and so that is the output.
 
 In the second test case, **f(3)** = -6 and the answer modulo **109+7** is 1000000001.

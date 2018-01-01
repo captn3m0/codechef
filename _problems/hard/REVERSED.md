@@ -41,8 +41,7 @@ For each test case, print the solution in a single line. If there is no solution
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 
@@ -60,4 +59,4 @@ For each test case, print the solution in a single line. If there is no solution
 -1
 353
 
-```
+</pre>

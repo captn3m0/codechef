@@ -89,20 +89,16 @@ For each test case output the required probability. Your answer must have an abs
 
 ### Sample Input
 
-```
-5
+<pre>5
 2 2 0.5
 3 2 0.7
 2 3 0.7
 1 1 0.2
 7 7 0.8
-```
-### Sample Output
-
-```
-0.4375
+</pre>### Sample Output
+<pre>0.4375
 0.0768204
 0.0768204
 1
 0.000003962379607
-```
+</pre>

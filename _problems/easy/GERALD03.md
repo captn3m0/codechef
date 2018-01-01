@@ -102,8 +102,7 @@ The total sum of **N** values for all test cases doesn't exceed 1000.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 3
 -1 0
@@ -131,4 +130,4 @@ R+
 13
 L-R-L-L-L-L-R-R-R-R-L+R+L+
 
-```
+</pre>

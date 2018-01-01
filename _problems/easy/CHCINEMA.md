@@ -106,8 +106,7 @@ For each test case, output a line containing the answer for the task.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>2
 2 2 3 2 1 1
 3 3 1 2 0 9</tt>
@@ -116,9 +115,7 @@ For each test case, output a line containing the answer for the task.
 <tt>4
 8</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 'L' - needs left
 'R - needs right
 'Z' - doesn't need any

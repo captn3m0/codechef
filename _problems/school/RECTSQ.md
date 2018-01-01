@@ -84,8 +84,7 @@ Output is a single line which denotes the minimum number of square plots that ca
 1<=M<=10000 
 1<=N<=10000
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 10 15
 4 6
@@ -94,4 +93,4 @@ Output is a single line which denotes the minimum number of square plots that ca
 6
 6
 
-```
+</pre>

@@ -78,28 +78,19 @@ only if it is different, print "NO". The output for each case must be on a singl
 
 ### Constraints
 
-```
-1 ≤ T ≤ 100
+<pre>1 ≤ T ≤ 100
 There is only one unique valid output that you can print
 
-```
-### Sample Input
-
-```
-2
+</pre>### Sample Input
+<pre>2
 NO
 NO
 NO
 YES
 
-```
-### Sample Output
-
-```
-NO
+</pre>### Sample Output
+<pre>NO
 YES
 
-```
-### Explanation
-
+</pre>### Explanation
 Your output clearly matches the input for the second case. No other output can be valid for this file.

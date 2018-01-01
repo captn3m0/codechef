@@ -117,8 +117,7 @@ It's guaranteed that **A** is symmetric.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 4
 0 0 0 1
@@ -138,32 +137,24 @@ It's guaranteed that **A** is symmetric.
 -1
 0 1
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.**
 
 Matrix which is determined by vector y is
 
-```
-
+<pre>
 0 0 1 1
 0 0 1 1
 1 1 0 0
 1 1 0 0
 
-```
- 
-Then **A → X = ¬ O** and **X → A** is
+</pre> Then **A → X = ¬ O** and **X → A** is
 
-```
-
+<pre>
 1 1 0 1
 1 1 0 1
 0 0 1 1
 1 1 1 1
 
-```
-**Example case 2.**
-
+</pre>**Example case 2.**
 **A11 = 1** and **X11 = y1 xor y1 = 0**. So **A11 → X11 = 0** and condition **A → X = ¬ O** can not be satisfied.

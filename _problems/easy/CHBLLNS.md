@@ -102,8 +102,7 @@ For each test case, output a single line containing one integer - the minimum nu
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 3 3 3
 1
@@ -114,7 +113,5 @@ For each test case, output a single line containing one integer - the minimum nu
 1
 4
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 2.** In the worst-case scenario first three balloons will be of the three different colors and only after fourth balloon Chef will have two balloons of the same color. So, Chef might need to fetch 4 balloons

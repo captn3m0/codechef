@@ -27,8 +27,7 @@ For each test case, output a line containing the number of shortest paths to the
 
 ### Sample input:
 
-```
-3
+<pre>3
 
 2 2 1
 1 1
@@ -41,17 +40,12 @@ For each test case, output a line containing the number of shortest paths to the
 1 0
 4 1
 
-```
-### Sample output:
-
-```
-2
+</pre>### Sample output:
+<pre>2
 0
 6
 
-```
-### Constraints
-
+</pre>### Constraints
 1<=T<=30
  1<=W,H<=107
  0<=xi<=W

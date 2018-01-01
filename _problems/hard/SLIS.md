@@ -97,8 +97,7 @@ For each test case, output the answer per line.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 3
 1 1 2
@@ -111,7 +110,5 @@ For each test case, output the answer per line.
 4
 5
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** **L** = 2. There are 3 different length-1 IS's.

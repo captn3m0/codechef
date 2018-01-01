@@ -81,8 +81,7 @@ First line of input contains an integer **N** denoting the size of the vertex se
 
 For every find query, print the answer to that query in one line by itself. ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 6
 0 4
@@ -103,9 +102,7 @@ F 2 5
 7
 1
 
-```
-
-### Constraints
+</pre>### Constraints
 
 1 N 1 Q 0 u, **v** N-1 
-1 vi0 d
+1 vi 0 d

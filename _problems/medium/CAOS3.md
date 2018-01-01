@@ -113,8 +113,7 @@ For each test case, output a single line containing the the name of the winner. 
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 1
 7 7
@@ -129,9 +128,7 @@ For each test case, output a single line containing the the name of the winner. 
 <b>Output:</b>
 Asuna
 
-```
-### Explanation
-
+</pre>### Explanation
 This is the intial configuration, you can see the positions of monsters at CPC's.
 
 ![](//www.codechef.com/download/caos3-1.png)

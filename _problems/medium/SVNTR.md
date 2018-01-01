@@ -106,8 +106,7 @@ For each testcase, output a single line containing one integer - the number of r
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>2
 2 3 7
 1 2 3
@@ -121,9 +120,7 @@ For each testcase, output a single line containing one integer - the number of r
 <tt>11
 27</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 **Test case 1**: we have the following matrix **A**:
 1 2 3
 4 5 6

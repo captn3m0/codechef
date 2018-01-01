@@ -104,8 +104,7 @@ Subtask 2 (50 points):
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 ABABAB
 ABC
@@ -114,4 +113,4 @@ ABC
 YES
 NO
 
-```
+</pre>

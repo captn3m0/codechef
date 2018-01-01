@@ -95,8 +95,7 @@ For each test case, output a single line containing either "Yes" or "No" (withou
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 10 3 2
 1 4
@@ -114,9 +113,7 @@ For each test case, output a single line containing either "Yes" or "No" (withou
 Yes
 No
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1:** To achieve his goal Chef should divide the first part (1-5) in two by separating segments 4 and 5 one from another.
 
 **Example case 2:** The boy didn't left the tangerine as it was (though you may thought that way), he separated segments 1 and 10 one from another. But segments 1 and 10 are in one part in Chef's division, so he is unable to achieve his goal.

@@ -76,9 +76,7 @@ All submissions for this problem are available.### Read problems statements in [
  ```
 <b>|a+b-c-d| + |a+c-b-d| + |a+d-b-c| + |c+d-a-b| + |b+d-a-c| + |b+c-a-d|</b>
 
-```
-where **|x|** denotes absolute value of **x**.
-
+<pre>where **|x|** denotes absolute value of **x**.
 ### Read problems statements in [Mandarin Chinese](/download/translated/COOK60/mandarin/COMB4SUM.pdf) and [Russian](/download/translated/COOK60/russian/COMB4SUM.pdf) as well.
 
 **Special Sum** of **4** numbers **(a, b, c, d)** is defined as:
@@ -86,11 +84,9 @@ where **|x|** denotes absolute value of **x**.
  ```
 <b>|a+b-c-d| + |a+c-b-d| + |a+d-b-c| + |c+d-a-b| + |b+d-a-c| + |b+c-a-d|</b>
 
-```
-where **|x|** denotes absolute value of **x**.
-
+</pre>where **|x|** denotes absolute value of **x**.
 Given an array **A** of size **N**, you need to find the sum of **Special Sum** of numbers taken over all quadruples of different indices of the array. 
-![](https://s3.amazonaws.com/codechef_shared/download/specialsum.png)
+ ![](https://s3.amazonaws.com/codechef_shared/download/specialsum.png)
 
 ### Input
 
@@ -110,7 +106,7 @@ For each test case output the sum as explained above.
 - 4 ≤ **N** ≤ 1000
 - 1 ≤ Elements of the array ≤ 105
 - 1 ≤ Sum of **N** over all test case ≤ 2000
-
+ 
 ### Example
 
  ```
@@ -128,9 +124,7 @@ For each test case output the sum as explained above.
 76
 1176
 
-```
-### Explanation:
-
+<pre>### Explanation:
 Test Case 1: SpecialSum(1,2,3,3) = 10 .
 
 Test Case 2: SpecialSum(1,2,3,4) + SpecialSum(1,2,3,5) + SpecialSum(1,2,4,5)+ SpecialSum(1,3,4,5) + SpecialSum(2,3,4,5) are called.

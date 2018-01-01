@@ -88,8 +88,7 @@ For each test case, output a single line containing an answer to the correspondi
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 5
 Kouta 1
@@ -105,9 +104,7 @@ Nana 2
 Lucy
 Nobody wins.
 
-```
-### Scoring
-
+</pre>### Scoring
 Subtask 1 (17 points): **T** = 10000, 1 <= **N** <= 10, 1 <= **Ai** <= 10 
 
 Subtask 2 (19 points): **T** = 10000, 1 <= **N** <= 10, 1 <= **Ai** <= 2\*109

@@ -97,8 +97,7 @@ For each test case, output **Q** lines containing the optimal team size for the 
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 6 3 3 1 1 1
@@ -114,9 +113,7 @@ For each test case, output **Q** lines containing the optimal team size for the 
 1 6
 2 0
 
-```
-### Explanation
-
+</pre>### Explanation
 **Case 1.**
 With team size 2, we have 4 candidate teams: {2, 4}, {4, 5}, {5, 6}, and {6, 3}. Here numbers denote the cooks' skills. With any other team size, the number of candidate teams is either less than 4 or greater than 4. Similarly, with team size 3, we have 3 candidate teams, which are {2, 4, 5}, {4, 5, 6} and {5, 6, 3}.
 With team size 1, we have 6 candidate teams with one member in each team.

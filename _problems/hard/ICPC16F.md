@@ -46,8 +46,7 @@ For each test case, output **-1** if there is no bipartite graph satisfying this
 
 ### Example
 
-```
-<b>Input</b>
+<pre><b>Input</b>
 2
 2 3 1 2
 2 3 1 1    
@@ -58,4 +57,4 @@ For each test case, output **-1** if there is no bipartite graph satisfying this
 1 2
 -1
 
-```
+</pre>

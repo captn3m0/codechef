@@ -99,8 +99,7 @@ If there's no 1-concave polygon, print -1. Otherwise, print one integer: twice t
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 5
 2 2
@@ -117,4 +116,4 @@ If there's no 1-concave polygon, print -1. Otherwise, print one integer: twice t
 28
 -1
 
-```
+</pre>

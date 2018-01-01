@@ -81,8 +81,7 @@ Output one integer, the number of right triangles among the given triangles. ###
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5
 0 5 19 5 0 0
 17 19 12 16 19 0
@@ -93,7 +92,5 @@ Output one integer, the number of right triangles among the given triangles. ###
 <b>Output:</b>
 3
 
-```
-### Explanation
-
+</pre>### Explanation
 The first triangle and the last two triangles of the example are right triangles.

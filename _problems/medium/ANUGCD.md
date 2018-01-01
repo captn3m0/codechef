@@ -97,8 +97,7 @@ For each query output the required Answer.
 
 ### Example
 
-```
-<b>Input</b>
+<pre><b>Input</b>
 6 5
 1 2 3 4 5 4
 2 1 5
@@ -114,9 +113,7 @@ For each query output the required Answer.
 5 1
 4 2
 
-```
-### Explanation
-
+</pre>### Explanation
 **Query #1**
 GCD(2,1)=1, GCD(2,2)=2, GCD(2,3)=1, GCD(2,4)=2, GCD(2,5)=1
 

@@ -96,32 +96,23 @@ such that the overall set of strings represent the substrings for 1 or more pass
 
 ### Constraints
 
-```
-1 ≤ T ≤ 100
+<pre>1 ≤ T ≤ 100
 1 ≤ N ≤ 1000
 1 ≤ M ≤ 1000
 All characters would be upper case or lower case English letters. Passwords are case sensitive.
 
-```
-### Sample Input
-
-```
-2
+</pre>### Sample Input
+<pre>2
 4 aB aB Ca Bc
 6 aB Ca ca ab ba bc
 4 aB aB Ca Bc
 3 Ba aC bc
 
-```
-### Sample Output
-
-```
-YES
+</pre>### Sample Output
+<pre>YES
 NO
 
-```
-### Explanation
-
+</pre>### Explanation
 In the first Sample Input, you can construct "aBaC" from (**aB** **aB** **Ca** Ca) and
 "aBc" from (**Bc** aB ca). Strings selected from A are shown in bold. Remember that substrings can be reversed. Note
 that although there are repeated strings, each string is used in at most one of the passwords.

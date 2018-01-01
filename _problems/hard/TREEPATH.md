@@ -117,8 +117,7 @@ Subtask 3 (69 points):
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>1
 4
 1 10 5 -1
@@ -129,9 +128,7 @@ Subtask 3 (69 points):
 <b>Output:</b>
 <tt>4</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 Let's list all the four possible decompositions:
 
 - The whole tree is one path. Then, the sum of nodes' associated numbers is 1 + 10 + 5 + (-1) = 15.

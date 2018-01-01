@@ -101,8 +101,7 @@ For each query you print out one number which is the index of the country that c
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 4 1 4 1 7 7 7 7 4
 3 1 1 5 3 7 1
@@ -115,9 +114,7 @@ For each query you print out one number which is the index of the country that c
 1
 2
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** The test case is represented in figure below.
 The first country is the rectangle ABCD and the second country is a triangle EFG. Notice that the point J at coordinate (6, 2) is considered to be inside the second country when it is on the boundary of this country
 

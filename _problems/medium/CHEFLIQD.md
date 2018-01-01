@@ -110,8 +110,7 @@ For each test case, output a single line containing the maximum amount of total 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 5 10 1
 9
@@ -131,7 +130,5 @@ For each test case, output a single line containing the maximum amount of total 
 17
 19
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** In the first case, Hari buys 5th ingredient. In second case, Hari buys 2nd and 5th ingredient. In third case, Hari buys 1st, 2nd and 4th ingredients.

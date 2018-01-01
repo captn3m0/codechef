@@ -91,8 +91,7 @@ Output one integer - the solution to the problem described above or a string "**
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 1 1000000000 4 2
 62
@@ -101,10 +100,7 @@ Output one integer - the solution to the problem described above or a string "**
 <b>Output:</b>
 163
 
-```
-
-```
-
+</pre><pre>
 <b>Input:</b>
 1 1 1 1
 2
@@ -112,10 +108,7 @@ Output one integer - the solution to the problem described above or a string "**
 <b>Output:</b>
 no such number
 
-```
-
-```
-
+</pre><pre>
 <b>Input:</b>
 1 1000 15 2
 6
@@ -124,4 +117,4 @@ no such number
 <b>Output:</b>
 67
 
-```
+</pre>

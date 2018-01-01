@@ -25,8 +25,7 @@ Output :
 
 Output 1 line for each of the queries of the form "1 A B" containing the required answer for the corresponding query.
 
-```
-
+<pre>
 Sample Input :
 4 7
 1 0 3
@@ -38,9 +37,7 @@ Sample Input :
 1 0 3
 
 
-```
-```
-
+</pre><pre>
 Sample Output :
 4
 1
@@ -48,12 +45,10 @@ Sample Output :
 2
 
 
-```
-```
-
+</pre><pre>
 Constraints :
 1 <= N <= 100000
 1 <= Q <= 100000
 0 <= A <= B <= N - 1
 
-```
+</pre>

@@ -98,8 +98,7 @@ For each test case, output a single line containing the probability that **Team 
 
 ### Sample
 
-```
-
+<pre>
 <b>Input</b>
 2
 4
@@ -119,9 +118,7 @@ For each test case, output a single line containing the probability that **Team 
 0.4
 
 
-```
-### Explanation
-
+</pre>### Explanation
 **Test 1:** There are 4 ways TR may be placed. Each one of them has the probability 0.25, of occuring.
 
 - { (-1,0), (0,0), (0,1) }, Ash is at (1,0). Ash cannot be killed even though TR has a valid and unique "kill circle".

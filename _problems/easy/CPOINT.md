@@ -26,8 +26,7 @@ For each test case, output on a line a real number (with exactly 6 decimal place
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 1 1
@@ -45,4 +44,4 @@ For each test case, output on a line a real number (with exactly 6 decimal place
 2.828427
 9.640986
 
-```
+</pre>

@@ -97,9 +97,7 @@ ababc
 
 
 
-```
-**Output:**```
-
+<pre>**Output:**<pre>
 YES
 NO
 YES
@@ -108,4 +106,4 @@ NO
 NO
 
 
-```
+</pre>

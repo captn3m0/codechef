@@ -25,26 +25,20 @@ For each test case, output the expected number of shots to hit all targets, roun
 
 ### Sample Input
 
-```
-4
+<pre>4
 3 25 50 25
 3 10 10 80
 5 25 50 25
 8 30 35 35
 
-```
-### Sample Output
-
-```
-4.666667
+</pre>### Sample Output
+<pre>4.666667
 10.361111
 7.541667
 13.107725
 
 
-```
-In the first example, Chef shoots at the center target until any 2 targets have been hit, then he shoots at the remaining target.
-
+</pre>In the first example, Chef shoots at the center target until any 2 targets have been hit, then he shoots at the remaining target.
 ### Constraints
 
 - T≤30

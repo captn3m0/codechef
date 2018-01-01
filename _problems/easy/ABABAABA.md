@@ -100,8 +100,7 @@ For each test case, output a string that occurs **exactly twice** as a subsequen
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 AAAA
 BAB
@@ -110,9 +109,7 @@ BAB
 -1
 B
 
-```
-### Explanation
-
+</pre>### Explanation
 **Test case #1**:
 
 - The string "AAAA" appears once as a subsequence in itself.

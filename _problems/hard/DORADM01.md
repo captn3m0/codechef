@@ -31,8 +31,7 @@ For each test case, print YES if there is a solution, otherwise print NO.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 
@@ -54,4 +53,4 @@ For each test case, print YES if there is a solution, otherwise print NO.
 NO
 YES
 
-```
+</pre>

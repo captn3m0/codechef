@@ -106,8 +106,7 @@ Also Chef has a list of words. He asks you what is the probability that after **
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 4 1
 abc
@@ -144,14 +143,11 @@ zz
 <b>Output:</b>
 0.125000000000000
 
-```
-### Explanation
-
-```
-
+</pre>### Explanation
+<pre>
 daa (a->d) * (b->a) * (c->a) | 0.25*0.5*0.1 = 0,0125
 bbb (a->b) * (b->b) * (c->b) | 0.25*0.5*0.9 = 0,1125
 ccc (a->c) * (b->c) * (c->c) | 0
 zz (a->z) * (b->z) * (c can't transform to empty space as it is not allowed).
 
-```
+</pre>

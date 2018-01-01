@@ -90,8 +90,7 @@ For each line of input produce one line of output. This line contains any one of
 12. 1 ≤ **A**, **B** ≤ 1000000001
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 10 20
 20 10
@@ -102,7 +101,5 @@ For each line of input produce one line of output. This line contains any one of
 ≻
 =
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** In this example 1 as 10 is lesser than 20.

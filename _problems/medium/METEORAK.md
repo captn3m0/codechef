@@ -98,8 +98,7 @@ In the output file, print **Q** lines, where i-th line contains the answer for *
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4 5 5
 2 1
 3 2
@@ -118,4 +117,4 @@ In the output file, print **Q** lines, where i-th line contains the answer for *
 3
 6
 
-```
+</pre>

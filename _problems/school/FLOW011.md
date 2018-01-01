@@ -86,8 +86,7 @@ Output the gross salary of the employee.
 
 ### Example
 
-```
-
+<pre>
 <b>Input</b>
 
 3 
@@ -101,4 +100,4 @@ Output the gross salary of the employee.
 20383.2
 2624
 
-```
+</pre>

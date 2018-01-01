@@ -86,8 +86,7 @@ For each test case, output a line containing the required probability. The answe
 
 ### Constraints:
 
-```
-
+<pre>
 1 ≤ <b>T</b> ≤ 100
 1 ≤ <b>S</b> ≤ 1000
 1 ≤ <b>N</b> ≤ <b>S</b>
@@ -95,13 +94,10 @@ For each test case, output a line containing the required probability. The answe
 0 ≤ <b>K</b> < <b>M</b>
 
 
-```
-### Example:
-
+</pre>### Example:
 **Input:**
 
-```
-
+<pre>
 3
 10 10 5 3
 10 4 6 4
@@ -109,18 +105,13 @@ For each test case, output a line containing the required probability. The answe
 
 
 
-```
-**Output:**
-
-```
-
+</pre>**Output:**
+<pre>
 1.000000
 0.000000
 0.500000
 
-```
-### Explanation:
-
+</pre>### Explanation:
 **Case #1:**
 Every student will be taken to the trip. So all her 4 friends will accompany her to the trip no matter what. 
 

@@ -109,8 +109,7 @@ For each test case, print **"Chef"** if chef should move first otherwise print *
 
 ### Example
 
-```
-
+<pre>
 <b>Input</b>
 2
 5 2
@@ -121,9 +120,7 @@ For each test case, print **"Chef"** if chef should move first otherwise print *
 Mom
 Chef
 
-```
-### Explanation
-
+</pre>### Explanation
 For test case 1.
 
 - Mom can choose {1} to make 1.

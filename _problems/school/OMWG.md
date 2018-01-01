@@ -101,17 +101,14 @@ For each test case, output a single line containing an integer corresponding to 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 2 2
 
 <b>Output:</b>
 4
 
-```
-### Explanation
-
+</pre>### Explanation
 Leha can obtain total score 4 in the following way.
 
 - In the first step, he colors down left cell, all the neighboring cells of this cell are uncolored. So, it adds  to total score.

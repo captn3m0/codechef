@@ -131,8 +131,7 @@ For each test case, output a single integer — the answer for the given query.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>3
 2 1
 0 0 3
@@ -143,9 +142,7 @@ For each test case, output a single integer — the answer for the given query.
 3
 6</tt>
 
-```
-```
-<b>Input:</b>
+</pre><pre><b>Input:</b>
 <tt>4
 5 2
 2 3 6
@@ -176,4 +173,4 @@ For each test case, output a single integer — the answer for the given query.
 <b>4th query</b> - (1 + (6*2 + 3) mod 6, 1 + (6*3 + 2) mod n) = (4,1).
       <b>Answer</b> = lcm(F(4,1)) = 4
 </p>
-```
+</pre>

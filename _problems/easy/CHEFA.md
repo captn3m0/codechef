@@ -98,8 +98,7 @@ For each test case, output a single line containg the maximum number of stones t
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 3
@@ -111,4 +110,4 @@ For each test case, output a single line containg the maximum number of stones t
 4
 3
 
-```
+</pre>

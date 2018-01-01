@@ -93,8 +93,7 @@ For each test case, print the winner of each of the **Q** games, one per line.
 
 ### Sample Input
 
-```
-1
+<pre>1
 2
 1 1
 4 2
@@ -104,18 +103,13 @@ For each test case, print the winner of each of the **Q** games, one per line.
 3 4
 6 5
 
-```
-### Sample Output
-
-```
-Alice
+</pre>### Sample Output
+<pre>Alice
 Bob
 Alice
 Bob
 
-```
-### Explanation
-
+</pre>### Explanation
 In the first game, the pawn is at cell (2, 2). In order to win Alice can begin by moving the pawn to (1, 2). Bob's only available move is to (0, 2) since (1, 1) is impassable. Alice then moves the pawn to (0, 0), leaving Bob with no available moves.
 
 Here is the small portion of the table of winning and losing positions. Here X-direction goes from the left to the right and Y-direction goes from the top to the bottom. Letter **'A'** at the cell **(X, Y)** means that Alice will win when **(X, Y)** is the starting position of the pawn and **'B'** means that Bob will win. We use different background color for Alice and Bob cells for convenience. Impassable cells have black background color.

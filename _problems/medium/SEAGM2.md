@@ -89,15 +89,15 @@ For each test case, output the probability Sereja is interested in, with 6 digit
 - **1** ≤ **N** ≤ **13**
 - **1** ≤ **M** ≤ **10000**
 - it is guaranteed that for each **j**, the sum **p\[1\]\[j\] + p\[2\]\[j\] + ... + p\[N\]\[j\] is 1**
-
+ 
 **Subtask 1 (10 points)**
 
 - **1 ≤ N, M ≤ 4**
-
+ 
 **Subtask 2 (90 points)**
 
 - Original constrains
-
+ 
 ### Example
 
  ```
@@ -114,4 +114,4 @@ For each test case, output the probability Sereja is interested in, with 6 digit
 1.000000
 0.500000
 
-```
+<pre>

@@ -94,8 +94,7 @@ For each test case, output a single line containing one integer: the number of s
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 2 3
 90 95
@@ -106,7 +105,5 @@ For each test case, output a single line containing one integer: the number of s
 0
 3
 
-```
-### Explanation
-
+</pre>### Explanation
 **In the first example**, 2 is a super number while 3 is not (as explained in the statement). So, the number of super numbers in the range \[2, 3\] will be equal to 1.

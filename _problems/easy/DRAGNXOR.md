@@ -19,7 +19,7 @@ Did you ever hear about 'Dragon Food' ? Its used to refer to the chocolates boug
 
  Given N, A and B, please help Po in opening the dragon scroll.
 
-**Notes**
+ **Notes**
  1. xor operator takes two bit strings of equal length and performs the logical XOR operation on each pair of corresponding bits. The result in each position is 1 if only the first bit is 1 OR only the second bit is 1, but will be 0 if both are 1 or both are 0. For eg: 5 (0101) xor 3(0011) = 6(0110). In most languages it is represented using ^ symbol. 5 ^ 3 = 6.
  2. If the integer actually needs less than N bits to represent in binary, append sufficient number of leading 0 bits. For eg. as shown in the problem statement for N = 5, A = 6 = (00110)2
 
@@ -33,8 +33,7 @@ For each case, output the maximum possible value of (shuffle-A xor shuffle-B) in
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 3 5 4
 5 0 1
@@ -46,9 +45,7 @@ For each case, output the maximum possible value of (shuffle-A xor shuffle-B) in
 16
 14
 
-```
-
-**Explanation:**
+</pre> **Explanation:**
 
 Case 1: 5 and 4 as 3-bit binary strings are (101)2 and (100)2 respectively. After shuffling, xor can be maximum for (110)2 ^ (001)2 = (111)2 = 7
  Case 2: Maximum Possible result can be for (00000)2 ^ (10000)2 = (10000)2 = 16

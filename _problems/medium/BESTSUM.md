@@ -17,14 +17,11 @@ layout: problem
 
 For example, consider the following sequence of integers:
 
-```
-
+<pre>
     12     13     15     11     16     26     11
 
 
-```
- Here _N_ = 7. Suppose _K_ = 2 and _P_ = 17. Then, the answer is 2 because 11+16+26 = 53 and 53 mod 17 is 2. On the other hand, if _K_ = 0 the answer is 0 since 15 + 11 + 16 + 26 = 68 and 68 mod 17 is 0.
-
+</pre> Here _N_ = 7. Suppose _K_ = 2 and _P_ = 17. Then, the answer is 2 because 11+16+26 = 53 and 53 mod 17 is 2. On the other hand, if _K_ = 0 the answer is 0 since 15 + 11 + 16 + 26 = 68 and 68 mod 17 is 0.
 Input format
 
 The first line contains three integers _N_, _K_ and _P_. This is followed by _N_ lines each containing a single integer.
@@ -39,8 +36,7 @@ Example:
 
 Sample Input
 
-```
-
+<pre>
 7 2 17
 12
 13
@@ -50,11 +46,8 @@ Sample Input
 26
 11
 
-```
-Sample Output
-
-```
-
+</pre>Sample Output
+<pre>
 2
 
-```
+</pre>

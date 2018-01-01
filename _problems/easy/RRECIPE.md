@@ -84,8 +84,7 @@ For each test case, output a single line containing the number of valid ways the
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 5
 ?
@@ -101,9 +100,7 @@ aba
 0
 1
 
-```
-### Constraints
-
+</pre>### Constraints
 1 ≤ T ≤ 20
 
 1 ≤ sum of length of all input strings ≤ 1,000,000

@@ -85,8 +85,7 @@ Output “Yes” (quotes exclusive) if there exist four distinct indices **i1, i
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 
 5
@@ -97,4 +96,4 @@ Output “Yes” (quotes exclusive) if there exist four distinct indices **i1, i
 
 Yes
 
-```
+</pre>

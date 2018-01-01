@@ -85,20 +85,16 @@ For each test case, output on a separate line the total number of factors of the
 
 ### Constraints:
 
-```
-
+<pre>
 1 ≤ <b>T</b> ≤ 100
 1 ≤ <b>N</b> ≤ 10
 2 ≤ <b>A<sub>i</sub></b> ≤ 1000000
 
 
-```
-### Example:
-
+</pre>### Example:
 **Input:**
 
-```
-
+<pre>
 3
 3
 3 5 7
@@ -108,19 +104,14 @@ For each test case, output on a separate line the total number of factors of the
 5 5
 
 
-```
-**Output:**
-
-```
-
+</pre>**Output:**
+<pre>
 8
 10
 3
 
 
-```
-### Scoring:
-
+</pre>### Scoring:
 You will be awarded **40** points for correctly solving for **Ai** ≤ 100.
 
 You will be awarded another **30** points for correctly solving for **Ai** ≤ 10000.

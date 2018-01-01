@@ -92,8 +92,7 @@ In **T** lines print **T** real numbers - the answers for the corresponding test
 14. ≤ **M** ≤ **K**, where **K** is the number of different colors in the test case.
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 2 2
@@ -108,4 +107,4 @@ In **T** lines print **T** real numbers - the answers for the corresponding test
 7.333333333
 
 
-```
+</pre>

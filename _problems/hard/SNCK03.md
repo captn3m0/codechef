@@ -49,8 +49,7 @@ Time Limit : 20 seconds.
 
 ### Sample Input :
 
-```
-3
+<pre>3
 3 3
 1 2 3
 4 3
@@ -58,17 +57,12 @@ Time Limit : 20 seconds.
 10 6
 1 2 5 7 8 10
 
-```
-### Sample Output :
-
-```
-2
+</pre>### Sample Output :
+<pre>2
 3
 6166
 
-```
-### Note :
-
+</pre>### Note :
 For the first test case,
 
 (1 3 2) and (2 3 1) are the valid permutations.

@@ -90,7 +90,7 @@ Output a single floating point number corresponding to the minimal radius of a c
 
 - 1 ≤ **M** ≤ **N** ≤ 500
 - -103 ≤ **Xi**, **Yi** ≤ 103
-
+ 
 ### Subtasks
 
 - **Subtask #1 (35 points):** 1 ≤ **N** ≤ 200
@@ -98,8 +98,7 @@ Output a single floating point number corresponding to the minimal radius of a c
 
 ### Example
 
-```
-
+<pre>
  <b>Input:</b>
 3 3
 -1 -1
@@ -108,4 +107,4 @@ Output a single floating point number corresponding to the minimal radius of a c
 
 <b>Output:</b>
 1.250000
-```
+</pre>

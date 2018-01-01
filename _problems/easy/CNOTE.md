@@ -104,8 +104,7 @@ For each test case, Print "**LuckyChef**" if Chef can select such a notebook, ot
 
 ### Sample
 
-```
-
+<pre>
 <b>Input</b>
 3
 3 1 2 2
@@ -123,9 +122,7 @@ LuckyChef
 UnluckyChef
 UnluckyChef
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** In this case, Chef wants to write **X = 3** pages long poetry, but his notebook has only **Y = 1** page. And his budget is **K = 2** rubles, and there are **N = 2** notebooks in the shop. The first notebook has **P1 = 3** pages, but Chef cannot buy it, because its price is **C1 = 4** rubles. The second notebook has **P2 = 2** pages, and its price is **C2 = 2** rubles. Thus Chef can select the second notebook to accomplish the task. He will write **1** page of poetry in the old notebook, and **2** page of poetry in the new notebook.
 
 **Example case 2.** Chef cannot buy any notebook, because the prices exceed the Chef's budget.

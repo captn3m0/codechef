@@ -25,16 +25,12 @@ Output T lines, one for each test case, containing the required string. Use only
 
 ### Sample Input
 
-```
-2
+<pre>2
 1
 2
 
-```
-### Sample Output
-
-```
-ba
+</pre>### Sample Output
+<pre>ba
 cba
 
-```
+</pre>

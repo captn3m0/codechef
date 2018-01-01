@@ -105,8 +105,7 @@ Output **M** lines: for each cell of the path (**except the starting cell**), ou
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2 3
 1 2
 0 1
@@ -117,9 +116,7 @@ RDL
 6
 6
 
-```
-### Explanation
-
+</pre>### Explanation
 Initially Tuzik stays at cell **(0, 0)**. Let's consider his path:
 
 - Move **'R'** to the cell (1, 0). Distance to the catcher **(1, 2)** equals 2, distance to the catcher **(0, 1)** equals 2, so the total distance equals 4

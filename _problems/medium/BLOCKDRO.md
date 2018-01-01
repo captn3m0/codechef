@@ -23,8 +23,7 @@ For each test case print the total number of different ways to solve the task.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 3 3
 3 1
@@ -37,4 +36,4 @@ For each test case print the total number of different ways to solve the task.
 152
 
 <span></span>
-```
+</pre>

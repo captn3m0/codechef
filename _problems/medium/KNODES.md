@@ -107,8 +107,7 @@ For each query, output **Yes** if there is a path containing the **K** query nod
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 
 1
 10
@@ -139,9 +138,7 @@ Yes
 No
 
 
-```
-### Explanation: 
-
+</pre>### Explanation: 
 Query 1: The path corresponding to it is 8->5->3->4->10.
 
 Query 2: There does not exists any path joining all 4.

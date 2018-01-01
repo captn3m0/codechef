@@ -112,25 +112,19 @@ For each test case, output a single integer on a new line corresponding to the n
 
 **Input:**
 
-```
-
+<pre>
 2
 10
 0 1 1 1 0 1 1 0 1 1
 5
 0 1 0 1 1
 
-```
-**Output:**
-
-```
-
+</pre>**Output:**
+<pre>
 7
 3
 
-```
-### Explanation
-
+</pre>### Explanation
 **Test case 1:**
 
 Initially, student's arrangement is **\[0 1 1 1 0 1 1 0 1 1\]**

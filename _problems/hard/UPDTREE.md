@@ -104,8 +104,7 @@ For each query, print the required answer in one line.
 12. **1** ≤ **Ai, Bi, Ci, Di, Ei, Fi** ≤ **N**
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5 2 2
 1 2
 2 4
@@ -120,9 +119,7 @@ For each query, print the required answer in one line.
 2
 4
 
-```
-### Explanation
-
+</pre>### Explanation
 On first operation, value of edge (2-4) is increased by one. On second operation, value of edges (1-3), (1-2), (2-4) are increased by one.
 
 **Warning:**Use fast input/output. Large input files.

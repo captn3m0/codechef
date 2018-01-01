@@ -107,8 +107,7 @@ For each operation of type **Q**, output the required answer modulo **109 + 7**.
 
 **Input**
 
-```
-
+<pre>
 5 10
 1
 1
@@ -137,6 +136,7 @@ Q 5
 4
 <h3>Explanation</h3>
 <p>
-<img src="https://s3.amazonaws.com/hr-challenge-images/3194/1452931833-352a82ea85-image7.jpg" title="image7.jpg"></img></p>
+<img src="https://s3.amazonaws.com/hr-challenge-images/3194/1452931833-352a82ea85-image7.jpg" title="image7.jpg"></img>
+</p>
 
-```
+</pre>

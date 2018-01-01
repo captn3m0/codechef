@@ -88,8 +88,7 @@ For each test case, output on a line a space separated list of all possible valu
 
 ### Sample Input
 
-```
-2
+<pre>2
 1
 4 0
 6
@@ -100,20 +99,14 @@ For each test case, output on a line a space separated list of all possible valu
 5 5
 6 5
 
-```
-### Sample Output
-
-```
-4
+</pre>### Sample Output
+<pre>4
 6
 
-```
-### Explanation
-
+</pre>### Explanation
 In the first sample test case, there is only one node, which is clearly the root. In the second test case, there are two non-isomorphic trees that satisfy the constraints, as seen in the following picture:
 
-```
-  6           6
+<pre>  6           6
    \         / \
     5       1   4
    / \       \
@@ -121,4 +114,4 @@ In the first sample test case, there is only one node, which is clearly the root
  / \         / \
 2   3       2   3
 
-```
+</pre>

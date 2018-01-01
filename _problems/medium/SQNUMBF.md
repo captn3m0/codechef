@@ -103,8 +103,7 @@ For each test case, output a single integer **P** deoting the answer for this te
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 3
 21 11 6
@@ -112,7 +111,5 @@ For each test case, output a single integer **P** deoting the answer for this te
 <b>Output:</b>
 3
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** **X = 21 \* 11 \* 6 = 1386**. It's divisible by 9 which is a square number, as **9 = 32**. So **P = 3**.

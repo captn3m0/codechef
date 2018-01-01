@@ -101,8 +101,7 @@ For each test case, output a single line containing the integer **L**: the maxim
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 3
 1 3 2
@@ -115,9 +114,7 @@ For each test case, output a single line containing the integer **L**: the maxim
 2
 4
 
-```
-### Explanation
-
+</pre>### Explanation
 **First Example :**  
 
 One of the possible card arrangements is: 

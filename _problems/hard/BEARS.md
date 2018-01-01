@@ -34,8 +34,7 @@ For each test case output just one line containing two integers -- the number of
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 3 3
@@ -54,5 +53,4 @@ For each test case output just one line containing two integers -- the number of
 
 <b>Explanation:</b>
 
-```
-In the first test case the given graph is a "triangle". It's easy to see that a simple transformation on a triangle results in the same triangle (as it contains three pairwise connected vertices and three pairwise "connected" edges).
+</pre>In the first test case the given graph is a "triangle". It's easy to see that a simple transformation on a triangle results in the same triangle (as it contains three pairwise connected vertices and three pairwise "connected" edges).

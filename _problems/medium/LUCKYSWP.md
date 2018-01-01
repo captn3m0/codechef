@@ -110,8 +110,7 @@ For each test case, output a single line containing the answer for this test cas
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 5
 7474
@@ -128,9 +127,7 @@ For each test case, output a single line containing the answer for this test cas
 11
 
 
-```
-### Explanation
-
+</pre>### Explanation
 In the first test case all different swap permutations of **S = 7474** are **4747, 4774, 7447, 7474, 7744**. Corresponding values of **F(T)** are **3, 3, 3, 2, 2**. Hence the answer is **3**.
 
 In the second, third and fourth test cases there exists a non-decreasing swap permutation and hence the answer is equal to the length of the string. Namely, **S = 47** is itself non-decreasing, for **S = 47744** we can obtain the non-decreasing **T = 44477** if we delete the substring **S\[2,3\] = 77** and then insert it back into the end of the string, finally, for **S = 7744** we can obtain the non-decreasing **T = 4477** if we delete the substring **S\[1,2\] = 77** and then insert it back into the end of the string.

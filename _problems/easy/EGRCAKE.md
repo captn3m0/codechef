@@ -105,8 +105,7 @@ For each of the **T** test cases, output a single line:
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 2 0
 2 1
@@ -118,9 +117,7 @@ Yes
 No 2
 
 
-```
-### Explanation
-
+</pre>### Explanation
 In test case 1, we have two robots indexed 1 and 2. They are arranged as (1 2). Chef goes to the first robot, gives him a cake, and moves to position 1. In the next step, he sees that robot at this position already has a has cake. So Chef stops moving, and our **answer** is **"No 1"**.
 
 In test case 2, we again have two robots indexed 1 and 2. Initially, they are arranged as (1 2). Then, Chef moves robot#1 to the end of the row, and thus the arrangement becomes (2 1). Chef goes to the robot at the first position, which is robot#2. Chef hands him a cake, and moves to position 2. Then, he hands a cake to robot#1 at position 2, and moves back to the first position. Since, robot#2 at the first position already ahs a cake, Chef stops moving. All **N** robots have cakes, so Chef is satisfied, and our **answer** is **"Yes"**.

@@ -73,8 +73,7 @@ All submissions for this problem are available.###  Read problems statements in 
 Now you want to sort these subarrays in descending order. You can compare two subarrays **B**, **C**, as follows.
 
 
-```
-
+<pre>
     <b>compare</b>(B, C):
         Append <b>N</b> - |B| zeros at the end of the array B.
         Append <b>N</b> - |C| zeros at the end of the array C.
@@ -84,8 +83,7 @@ Now you want to sort these subarrays in descending order. You can compare two su
                 <b>return</b> B is greater than C
         <b>return</b> B and C are equal.
 
-```
-You are given **M** queries asking for the maximum element in the **pth** subarray (1-based indexing).
+</pre>You are given **M** queries asking for the maximum element in the **pth** subarray (1-based indexing).
 
 ### Input
 
@@ -122,8 +120,7 @@ Output a single integer corresponding to the maximum element in the **pth** suba
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>1
 4 2
 3 1 2 4
@@ -134,4 +131,4 @@ Output a single integer corresponding to the maximum element in the **pth** suba
 <tt>4
 3</tt>
 
-```
+</pre>

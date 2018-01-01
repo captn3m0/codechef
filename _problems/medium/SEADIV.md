@@ -99,8 +99,7 @@ Output the answer in _7_-ary system. ### Constraints
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>3
 21
 5
@@ -117,4 +116,4 @@ Output the answer in _7_-ary system. ### Constraints
 3
 13</tt>
 
-```
+</pre>

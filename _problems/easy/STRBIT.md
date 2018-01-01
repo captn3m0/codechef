@@ -103,8 +103,7 @@ For each test case, output a single line containing the answer to the correspond
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 7 3
 RGGRGRG
@@ -112,9 +111,7 @@ RGGRGRG
 <b>Output:</b>
 4
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** One optimal solution (with 4 steps) looks like this:
 
 - Choose the 1-st character (1-based index) and get "GRRRGRG".

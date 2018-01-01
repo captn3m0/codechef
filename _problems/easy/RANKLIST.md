@@ -101,8 +101,7 @@ For each test case, print a single line containing a single integer correspondin
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 1 1
 3 6
@@ -116,9 +115,7 @@ For each test case, print a single line containing a single integer correspondin
 2
 
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.**
 Only possible rank list in this case is {1}, As it is already an ideal rank list, hence you need zero operations.
 

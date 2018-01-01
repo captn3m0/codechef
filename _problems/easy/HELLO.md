@@ -92,8 +92,7 @@ For each test case, output one integer- the number of the best plan (from 1 to N
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 4
 1.00 200 1
@@ -114,9 +113,7 @@ For each test case, output one integer- the number of the best plan (from 1 to N
 0
 2
 
-```
-### Explanation
-
+</pre>### Explanation
 **Test Case 1:** This test case is same as the example in the problem statement.
 **Test Case 2:** This is for you to work out!
 **Test Case 3:** Chef's monthly usage is only 50 Rokdas and none of the 2 plans are advantageous, hence the answer is zero '0'.

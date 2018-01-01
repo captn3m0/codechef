@@ -74,8 +74,7 @@ Output a single line containing **N** space separated integers. The **i**-th num
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 6
 9 0 7 1 314 100
@@ -83,7 +82,5 @@ Output a single line containing **N** space separated integers. The **i**-th num
 <b>Output:</b>
 3 2 5 1 15 12
 
-```
-### Explanation
-
+</pre>### Explanation
 The cracking process of first 4 servers explained in the problem statement.

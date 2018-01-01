@@ -97,8 +97,7 @@ The total number of digits in all numbers **N** in the input file does not excee
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 4
 2
@@ -112,9 +111,7 @@ The total number of digits in all numbers **N** in the input file does not excee
 1458 1460
 18895680 18900000
 
-```
-### Explanation
-
+</pre>### Explanation
 **Case 1.** The number **2** is the largest integer which is not greater than **N = 2**, the number **3** is the smallest integer which is greater than **N = 2**, and they both are Cool Numbers, which can be shown similar to the case of **10n** in the example above.
 
 **Case 2.** It is very similar to the first test case and we already know that **1000** is a Cool Number. So we just have to show that **999** is a Cool number. But it is clear, since we can select all the three digits so ((**9** + **9** + **9**) – (**9** + **9** + **9**))**9** + **9** + **9** = **027** =  which is divisible by **999**.

@@ -110,8 +110,7 @@ Your target is to handle the queries of the following two types:
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5
 1 2 2
 2 3 4
@@ -127,8 +126,6 @@ Your target is to handle the queries of the following two types:
 6
 
 
-```
-### Explanation
-
+</pre>### Explanation
 The path from 5 to 3 is 5 -> 4 -> 2 -> 3. Initially this path has the length of 1 + 3 + 4 = 8.
 After the weight of the edge connect 4 and 2 was changed to 1, the new length of the path is 1 + 1 + 4 = 6.

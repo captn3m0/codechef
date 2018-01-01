@@ -23,22 +23,16 @@ For each test case, output a single integer indicating the corresponding sum.
 
 ### Sample Input
 
-```
-3
+<pre>3
 1 8
 28 138
 314159 314159
 
-```
-### Sample Output
-
-```
-36
+</pre>### Sample Output
+<pre>36
 495
 7
 
-```
-### Constraints
-
+</pre>### Constraints
 - T ≤ 1000
 - 0 ≤ A ≤ B ≤ 400,000,000

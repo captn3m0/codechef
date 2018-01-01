@@ -35,8 +35,7 @@ The output for each test case consists of a single integer indicating the maximu
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 1
 
@@ -50,9 +49,7 @@ The output for each test case consists of a single integer indicating the maximu
 <b>Output:</b>
 7
 
-```
-### Explanation of Sample Output
-
+</pre>### Explanation of Sample Output
 In the given test case, a profit of 7 can be obtained by satisfying the first and last request in the input. Time 0 has 2 free racks and both are used by these requests. Times 1 and 2 have only 1 free rack but these times are not required by the first request so there are enough racks to accommodate the requests at these times.
 
 Now, the last time 3 has a free rack that is not being used. The second last request requires a rack at this time, but it cannot be added because it also requires a rack at time 2, which is already being used by the last request.

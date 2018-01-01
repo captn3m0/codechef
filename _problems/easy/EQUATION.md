@@ -25,16 +25,12 @@ Output T lines, one for each test case.
 
 ### Sample Input
 
-```
-2
+<pre>2
 4 3 2 1
 1 1 1 1
 
-```
-### Sample Output
-
-```
-20
+</pre>### Sample Output
+<pre>20
 4
 
-```
+</pre>

@@ -105,8 +105,7 @@ The first line of the input file contains two space separated integers **N** and
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3 2
 4447
@@ -117,7 +116,5 @@ The first line of the input file contains two space separated integers **N** and
 5
 
 
-```
-### Explanation
-
+</pre>### Explanation
 For the sample input all different CNSes are **4**, **7**, **44**, **47** and **447**. Note, that **444** is not a CNS since it requires at least 3 replacements of the question marks.

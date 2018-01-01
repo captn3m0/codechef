@@ -44,8 +44,7 @@ Output one and only integer denoting the required answer.
 
 ### Example
 
-```
-<b>Input 1:</b>
+<pre><b>Input 1:</b>
 3 1
 1 0 1
 0
@@ -69,7 +68,8 @@ Batons held by robots at <b>t = 1</b>: [1]
 Batons held by robots at <b>t = 2</b>: [2]
 
 Note that at <b>t = 0, 2</b> all robots have special batons held.
-<br></br><b>Example input 2.</b> <br></br>
+<br></br>
+<b>Example input 2.</b> <br></br>
 Batons numbered 0 and 2 are <i>special</i>.
 Batons held by robots at <b>t = 0</b>: [1, 3]
 Batons held by robots at <b>t = 1</b>: [2, 0]
@@ -78,4 +78,4 @@ Batons held by robots at <b>t = 3</b>: [0, 2]
 
 Note that at <b>t = 1, 3</b> all robots have special batons held.
 </p>
-```
+</pre>

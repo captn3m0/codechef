@@ -115,8 +115,7 @@ For each query, print the required answer in a single line.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 8 2 3
 01110000
@@ -129,9 +128,7 @@ For each query, print the required answer in a single line.
 5
 7
 
-```
-### Explanation
-
+</pre>### Explanation
 **Query 1:** Consider substring **P = S\[1, 4\] = "0111"**.
 Out of **10** total substrings of **P**, substrings **P\[1, 4\]** and **P\[2, 4\]** are not valid because both contain more than two **1**s.
  Other substrings contains at most two s and at most two **1**s, thus the answer is **8**./>/>

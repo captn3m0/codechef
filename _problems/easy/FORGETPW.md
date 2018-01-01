@@ -107,8 +107,7 @@ For each test case, output a single line containing the real password.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 4
 2
@@ -131,4 +130,4 @@ d 3
 .001
 321.33098
 
-```
+</pre>

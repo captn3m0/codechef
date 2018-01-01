@@ -118,8 +118,7 @@ It is guaranteed that -1010 ≤ Q ≤ 1010.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1 1 5
 4 5
 
@@ -127,7 +126,5 @@ It is guaranteed that -1010 ≤ Q ≤ 1010.
 0.28125
 
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** In this case, **a\_1** = 4, **b\_1** = 5, and **s** = 5. Cthulhu's code in this case is (**a\_1** + **b\_1**) / (2s) = 9/32 = 0.28125.

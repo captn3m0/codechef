@@ -98,8 +98,7 @@ Chef remembers the game, but forgot the answer. Please, help him!
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 10 3
 0324152397
 1
@@ -112,9 +111,7 @@ Chef remembers the game, but forgot the answer. Please, help him!
 9
 
 
-```
-```
-
+</pre><pre>
 <p> </p>
 <h3>Explanation</h3>
 <p>For index <b>1</b> there are no indexes which are less, so <b>B1 = B2 = 0</b> and the answer is <b>0</b>.</p>
@@ -139,4 +136,4 @@ so <b>B1 = 2 + 1 = 3</b>,
      <b>B2 = -1 -2 -3 = -6</b> 
 and the answer is <b>9</b>.</p>
 
-```
+</pre>

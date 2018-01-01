@@ -107,8 +107,7 @@ If the answer is "**YES**", then you must print the chosen directions in the nex
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>2
 2
 RD D
@@ -125,9 +124,7 @@ U L
 NO</tt>
 
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** Chef can keep the direction **R** for cell **(1, 1)**, **D** for **(1, 2)**, **U** for **(2, 1)** and **L** for **(2, 2)**. Then he can go **(1,1) -> (1,2) -> (2,2) -> (2,1) -> (1,1)**. It means that from any cell he always can go back to that cell.
 
 **Example case 2.** There is no way to keep only 1 direction for each cell to satisfy the condition.

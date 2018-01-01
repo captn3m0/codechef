@@ -38,8 +38,7 @@ For each test case output exactly one line containing either a single integer -1
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 6 4 3
@@ -54,9 +53,7 @@ For each test case output exactly one line containing either a single integer -1
 2 5 9 0 9 9 4 1
 -1
 
-```
-### Explanation
-
+</pre>### Explanation
 There are 6 sequences of 3 consecutive numbers in (2 5 9 0 9 9 4 1). Formally:
 
 - (2 5 9), sum = 16, which is divisible by 2

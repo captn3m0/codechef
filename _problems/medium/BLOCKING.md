@@ -74,8 +74,7 @@ First line contains a single integer **n** (1 ≤ **n**≤ 100), indicating the 
 
 If there exists a sequence **block** that satisfies the constraints, then output **block\[1\] block\[2\] ... block\[n\]** in one line, separated by a single space. Otherwise if there is no such sequence, output **-1** in one line. If there are multiple answers, then anyone will do. ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 1 2 3
@@ -85,4 +84,4 @@ If there exists a sequence **block** that satisfies the constraints, then output
 <b>Output:</b>
 3 2 1
 
-```
+</pre>

@@ -82,17 +82,13 @@ For each test case output a single line containing the range of the new data set
 
 ### Constraints:
 
-```
-1 ≤ T ≤ 20
+<pre>1 ≤ T ≤ 20
 1 ≤ M ≤ 10000
 1 ≤ N ≤ 1000000
 1 ≤ x ≤ y ≤ N
 0 ≤ z ≤ 100000
-```
-### Example:
-
-```
-
+</pre>### Example:
+<pre>
 <b>Input</b>
 1
 10 2
@@ -103,5 +99,4 @@ For each test case output a single line containing the range of the new data set
 11
 
 
-```
-**Explanation:** Initially the papers are as follows: 1 2 3 4 5 6 7 8 9 10. First operation decreases the numbers on paper number 3,4,5 and 6 by 4. Now, the papers look like: 1 2 -1 0 1 2 7 8 9 10. The second operation increases the numbers on papers 5 to 9 by 1. The numbers will now be 1 2 -1 0 2 3 8 9 10 10. Thus, the range is 10 - (-1) = 11.
+</pre>**Explanation:** Initially the papers are as follows: 1 2 3 4 5 6 7 8 9 10. First operation decreases the numbers on paper number 3,4,5 and 6 by 4. Now, the papers look like: 1 2 -1 0 1 2 7 8 9 10. The second operation increases the numbers on papers 5 to 9 by 1. The numbers will now be 1 2 -1 0 2 3 8 9 10 10. Thus, the range is 10 - (-1) = 11.

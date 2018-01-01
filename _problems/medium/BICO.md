@@ -103,8 +103,7 @@ It is guaranteed that a solution exists. And if there are multiple solutions, pr
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 3 2 5
 3 3 10
@@ -118,9 +117,7 @@ It is guaranteed that a solution exists. And if there are multiple solutions, pr
 3
 5 1 1
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** We first pick 3 coins from \[3, 2\] then we pick 2 coins from \[2, 1\]
 **Example case 2.** As 3rd column contains 10 coins in cell \[5, 3\] we pick it.
 **Example case 3.** We first pick 5 coins from \[5, 4\] then we pick 1 coin from \[3, 3\] and again we pick 1 coin from \[2, 2\]./>/>

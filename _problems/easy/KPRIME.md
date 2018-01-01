@@ -91,8 +91,7 @@ For each game, output on a separate line the number of **K**-primes between **A*
 
 ### Example:
 
-```
-
+<pre>
 <b>Input</b>
 4
 2 5 1
@@ -107,4 +106,4 @@ For each game, output on a separate line the number of **K**-primes between **A*
 0
 
 
-```
+</pre>

@@ -91,8 +91,7 @@ Output the number of marriage line pairs that intersect with each other on a sin
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 2 3
 3 6
@@ -112,9 +111,7 @@ Output the number of marriage line pairs that intersect with each other on a sin
 6
 
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** Only marriage lines (3, 6) and (5, 4) intersect with each other.
 
 **Example case 2.** All the marriage lines intersect with each other.

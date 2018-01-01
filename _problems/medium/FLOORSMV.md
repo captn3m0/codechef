@@ -31,8 +31,7 @@ For each test case, output the sum of the shortest time it takes from (bq,fq) to
 1 ≤ bi,bj,bq ≤ N and 1 ≤ fi,fj,fq ≤ F
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2 4 1
 1 3 1 2 3
@@ -46,7 +45,5 @@ For each test case, output the sum of the shortest time it takes from (bq,fq) to
 10
 8
 
-```
-
-
+</pre>
 _**Note :** There are multiple test sets, and the judge shows the sum of the time taken over all test sets of your submission, if Accepted._

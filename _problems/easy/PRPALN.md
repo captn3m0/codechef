@@ -98,8 +98,7 @@ For each test case, print **YES** or **NO** depending on the answer of the probl
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 aaa
 abc
@@ -112,9 +111,7 @@ NO
 YES
 YES
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** Delete any one 'a', resulting string is "aa" which is a palindrome.
 
 **Example case 2.** It is not possible to delete exactly one character and having a palindrome.

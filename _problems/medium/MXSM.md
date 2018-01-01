@@ -103,8 +103,7 @@ For each test case, output **2** space separated integers (second integer modulo
 
 **Input**
 
-```
-
+<pre>
 2
 2
 2 3 4
@@ -117,9 +116,7 @@ For each test case, output **2** space separated integers (second integer modulo
 63 1
 12 2
 
-```
-### Explanation
-
+</pre>### Explanation
 ![](https://s3.amazonaws.com/hr-challenge-images/3194/1452934896-d5e873b4f2-image1.jpg "image1.jpg")
 
 All the matrices with maximum sum are highlighted with coloured fencing.

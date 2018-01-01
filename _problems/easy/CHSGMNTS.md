@@ -108,8 +108,7 @@ Help Chef to find this number.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 3
 1 2 3
@@ -120,9 +119,7 @@ Help Chef to find this number.
 5
 4
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.**
 All possible variants are correct: {\[1, 1\], \[2, 2\]}, {\[1, 1\], \[2, 3\]}, {\[1, 2\], \[3, 3\]}, {\[2, 2\], \[3, 3\]}, {\[1,1\], \[3, 3\]}.
 

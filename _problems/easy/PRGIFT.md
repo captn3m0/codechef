@@ -54,8 +54,7 @@ For each test case, print a single line containing "YES" or "NO" (without quotes
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 2 1
 1 2
@@ -72,17 +71,15 @@ YES
 NO
 YES
 
-```
-```
-<br></br>
+</pre><pre><br></br>
 for (int i = 0; i < n; i++)<br></br>
     if (i > 0) {<br></br>
        ans++;<br></br>
     } else {<br></br>
        ans--;<br></br>
     }<br></br>
-```
 
+</pre>
 ### Explanation
 
 For  **first**  test case, we can select a\[2, 2\] = {2}. 

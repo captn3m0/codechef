@@ -91,8 +91,7 @@ Output a single line containing the maximum number of pairs of chopsticks the Ch
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 
 5 2
 1
@@ -104,9 +103,7 @@ Output a single line containing the maximum number of pairs of chopsticks the Ch
 <b>Output:</b>
 2
 
-```
-### Explanation
-
+</pre>### Explanation
 The 5 sticks have lengths 1, 3, 3, 9 and 4 respectively. The maximum allowed difference in the lengths of two sticks forming a pair is at most 2.
 It is clear that the 4th stick (length 9) cannot be used with any other stick.
 The remaining 4 sticks can can be paired as (1st and 3rd) and (2nd and 5th) to form 2 pairs of usable chopsticks.

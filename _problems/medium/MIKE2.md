@@ -96,16 +96,13 @@ The first line should contain two integers: the number of failed packages and th
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3 10
 3 4 5
 <b>Output:</b>
 0 2
 
-```
-### Explanation
-
+</pre>### Explanation
 In the test case **N** equals to 3, **X** equals to 10, **A** equals to {3, 4, 5}. It is optimal to solve all the problems in the first and the second packages and to solve 3 problems in the third package.
 
 ### Scoring

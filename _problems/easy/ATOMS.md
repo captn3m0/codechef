@@ -27,8 +27,7 @@ For each test case you are to output a single integer indicating the minimum num
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 5 2
@@ -43,4 +42,4 @@ For each test case you are to output a single integer indicating the minimum num
 3
 4
 
-```
+</pre>

@@ -34,8 +34,7 @@ For each test case output M space separated integers, where the ith integer deno
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 3
 5
@@ -68,4 +67,4 @@ For each test case output M space separated integers, where the ith integer deno
 2 2 1
 5 1
 
-```
+</pre>

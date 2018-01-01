@@ -94,15 +94,12 @@ Output the required number of triples on the first line of the output.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 1 2 3 4
 
 <b>Output:</b>
 4
 
-```
-### Explanation
-
+</pre>### Explanation
 Any triple will be a coprime one.

@@ -97,8 +97,7 @@ For each test case, output one line with **N** space separated integers.
 
 ### Example
 
-```
-<b>Input</b>
+<pre><b>Input</b>
 2
 4 1
 1
@@ -110,4 +109,4 @@ For each test case, output one line with **N** space separated integers.
 3 2 1 1 2 3
 
 
-```
+</pre>

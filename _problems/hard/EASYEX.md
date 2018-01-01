@@ -97,7 +97,7 @@ Let the answer for a test case be an fraction **P / Q**, where **P** and **Q** a
 - < **L \* F** ≤ **50 000**
 - **Subtask #1\[39 points\]: F = 1**
 - **Subtask #2\[61 points\] : no additional constraints**
-
+ 
 ### Example
 
  ```
@@ -108,7 +108,5 @@ Let the answer for a test case be an fraction **P / Q**, where **P** and **Q** a
 <b>Output:</b>
 779
 
-```
-### Explanation
-
+<pre>### Explanation
 We roll the 6-face dice 2 times, and we are interested in the value **a1 \* a2**. The only two possible scenarios when this value is not zero are **(1, 2)** and **(2, 1)**. Both of them have **a1 \* a2 = 1** and happen with probability **1 / 36** each. It means that **P / Q = (1 + 1) / 36 = 1 / 18**, so the answer is, **X = 779**.

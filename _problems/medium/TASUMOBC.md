@@ -109,8 +109,7 @@ Since S(**n**) can be very large, please print it modulo **(109 + 7)**.
 22. **1** ≤ **n** ≤ **1018**
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5
 1
 2
@@ -126,4 +125,4 @@ Since S(**n**) can be very large, please print it modulo **(109 + 7)**.
 8
 
 
-```
+</pre>

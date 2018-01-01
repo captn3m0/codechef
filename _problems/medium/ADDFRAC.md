@@ -21,8 +21,7 @@ The first line contains T the number of test cases. T test cases follow. The fir
 
 For each test case, output N lines. The ith line contains the maximum fraction you can obtain by adding continuous fractions in the list starting at index i. The numerator and denominator of any fraction you output should have gcd 1. Output a blank line after each test case. ### Sample Input :
 
-```
-
+<pre>
 2
 4
 1/1
@@ -37,11 +36,8 @@ For each test case, output N lines. The ith line contains the maximum fraction y
 5/6
 6/5
 
-```
-### Sample Output :
-
-```
-
+</pre>### Sample Output :
+<pre>
 3/1
 7/2
 10/1
@@ -53,13 +49,10 @@ For each test case, output N lines. The ith line contains the maximum fraction y
 1/1
 6/5
 
-```
-### Constraints : 
-
-```
-
+</pre>### Constraints : 
+<pre>
 1 <= T <= 5
 1 <= n <= 100000
 1 <= a_k,b_k <= 100000
 
-```
+</pre>

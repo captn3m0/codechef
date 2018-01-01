@@ -29,8 +29,7 @@ For each test case, output just one line containing the smallest possible total 
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 5 3 5
@@ -44,7 +43,5 @@ For each test case, output just one line containing the smallest possible total 
 
 <b>Explanation:</b>
 
-```
-In the first test case, it's impossible to buy one candy per friend as three smallest packs contain 6 candies all together. Two candies per friend is possible though -- for example, if you buy packs with 1, 4 and 5 candies.
-
+</pre>In the first test case, it's impossible to buy one candy per friend as three smallest packs contain 6 candies all together. Two candies per friend is possible though -- for example, if you buy packs with 1, 4 and 5 candies.
 In the second test case, buying 3 packs implies buying an odd number of candies, which is impossible to distribute equally among 4 friends.

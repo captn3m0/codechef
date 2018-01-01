@@ -88,8 +88,7 @@ For all **Ts,e**, where **Ts,e** is balanced string such that starting index **s
 Just to make this problem little bit more interesting, given input is encoded. Instead of **L** and **R** in each query, you will be provided with two integers **X** and **Y**. Two keys **A** and **B** are used to decode the given input.
 
 
-```
-
+<pre>
 void decode(){
     A = 0 ; // initialising first key 
     B = 0 ; // initialising second key 
@@ -113,8 +112,7 @@ void decode(){
     } 
 }
 
-```
-
+</pre>
 />
 
 Smurf cannot accomplish this task alone. Can you help him ?
@@ -152,8 +150,7 @@ Two substrings **Ts1,e1** and **Ts2,e2** are considered to be different if eithe
 
 ### Example
 
-```
-
+<pre>
 <b>Input</b>
 1
 cchheeff
@@ -170,11 +167,8 @@ cchheeff
 10
 4
 
-```
-### Explanation
-
-```
-
+</pre>### Explanation
+<pre>
 <b>After decoding queries will take the following form : </b>
 1
 cchheeff
@@ -187,4 +181,4 @@ cchheeff
 <p>Q1 : "cc" is the only balanced string. Type = 0 and therefore answer = 1.<br></br>Q2 : "cc" , "hh" , "cchh" are the only balanced strings. Type = 1 and therefore answer = 2 + 2 + 4 = 8.<br></br>Q3 : "cc" , "hh" , "ee" , "cchh" , "hhee" , "cchhee" are the only balanced strings. Type = 2 and therefore answer = 2<sup>2</sup> + 2<sup>2</sup> + 2<sup>2</sup> + 4<sup>2</sup> + 4<sup>2</sup> + 6<sup>2</sup>= 80./>/></p>
 <h3>Warning</h3>
 <p>Large test data set, Prefer to use faster input/output methods .</p>
-```
+</pre>

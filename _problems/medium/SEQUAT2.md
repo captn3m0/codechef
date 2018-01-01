@@ -81,8 +81,7 @@ There are four integers **A, B, C, N**. Consider the following equation in two n
 <b>x * y = (x | y) * (x & y) + A * x + B * y + C</b>
 </pre>
 
-```where **|** denotes [bitwise OR](https://en.wikipedia.org/wiki/Bitwise_operation#OR) and **&** denotes [bitwise AND](https://en.wikipedia.org/wiki/Bitwise_operation#AND) operation.
-
+<pre>where **|** denotes [bitwise OR](https://en.wikipedia.org/wiki/Bitwise_operation#OR) and **&** denotes [bitwise AND](https://en.wikipedia.org/wiki/Bitwise_operation#AND) operation.
 Sebi's father asks him to consider solutions such that **x, y** don't exceed **N**. Let **X** be the sum of **x**'s for all solutions **(x, y)** and **Y** be the sum of **y**'s for all solutions **(x, y)**.
 
 Its already very late in night. He is very sleepy, he thinks that if you can help him in telling the answer of the problem, he will just tell the answer to his father and sleep. Can you please help him?
@@ -105,28 +104,22 @@ Output a **T** line containing two space separated integers **X** and **Y**.
 
 ### Example 1
 
-```
-<b>Input:</b>
+</pre><b>Input:</b>
 1
 1 1 4 9
 
 <b>Output:</b>
 12 12
 
-```
-### Example 2
-
-```
-<b>Input:</b>
+<pre>### Example 2
+</pre><b>Input:</b>
 1 
 1 1 3 5
 
 <b>Output:</b>
 7 7
 
-```
-### Explanation
-
+<pre>### Explanation
 **Example 1.**
 
 There are two solutions - (3, 9) and (9, 3). For example, (9, 3) is a solution because: 9 | 3 = 11 and 9 & 3 = 1, so 9 \* 3 = 11 \* 1 + 1 \* 9 + 1 \* 3 + 4.

@@ -27,8 +27,7 @@ The number of ways to build the network, for every test case in a separate line.
 
 ### Example
 
-```
-<b><tt>Sample input:</tt></b>
+<pre><b><tt>Sample input:</tt></b>
 4
 4 5
 3 4
@@ -54,4 +53,4 @@ The number of ways to build the network, for every test case in a separate line.
 3
 
 
-```
+</pre>

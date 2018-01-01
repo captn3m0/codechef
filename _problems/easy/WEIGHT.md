@@ -14,8 +14,7 @@ layout: problem
 ### Statement
 
 Let us denote an **n** digit decimal number by a1a2a3...an with the condition that each ai should be between 0 and 9 inclusive except a1 which should be between 1 and 9 inclusive. The weight of such a number is defined as the sum of absolute difference between adjacent numbers. Precisely the weight can be defined as,
-```
-
+<pre>
 
 	weight = 0
 	For i = 1 to n-1
@@ -23,9 +22,7 @@ Let us denote an **n** digit decimal number by a1a2a3...an with the condition th
 
 
 
-```
-Here ABS is the absolute value of the argument.
-Given _n_ and a weight _w_, find all the _n_ digit numbers having a weight _w_. Since the answer could be very large, print the answer modulo 1000007.
+</pre>Here ABS is the absolute value of the argument.Given _n_ and a weight _w_, find all the _n_ digit numbers having a weight _w_. Since the answer could be very large, print the answer modulo 1000007.
 
 ### Input Format:
 
@@ -48,19 +45,15 @@ For each test case print the answer modulo 1000007 in a separate line.
 ### Sample Input:
 
 
-```
-
+<pre>
 2
 10 0
 2 1
 
-```
-### Sample Output:
+</pre>### Sample Output:
 
-
-```
-
+<pre>
 9
 17
 
-```
+</pre>

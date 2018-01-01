@@ -95,8 +95,7 @@ For each test case, output in one line **YES** or **NO** denoting if array **A**
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 4
 3 2 2 3 
@@ -107,9 +106,7 @@ For each test case, output in one line **YES** or **NO** denoting if array **A**
 YES
 NO
 
-```
-### Explanation
-
+</pre>### Explanation
 Test case 1:
 No need to reorganise. 
 

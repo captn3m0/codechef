@@ -103,8 +103,7 @@ Output exactly _Q_ lines, each containing the result of corresponding query as _
 
 **Sample Input:**
 
-```
-
+<pre>
 ababa
 4
 2 3 3 4
@@ -113,19 +112,14 @@ ababa
 2 4 1 5
 
 
-```
-**Sample Output:**
-
-```
-
+</pre>**Sample Output:**
+<pre>
 Yes
 No
 Yes
 Yes
 
-```
-### Explanation:
-
+</pre>### Explanation:
 **Query 1:**The string becomes a**ab**ba. The queried substring is _bb_, which is a palindrome.
 
 **Query 2:**The string becomes **ba**aba. The queried substring is _ab_, which is not a palindrome.

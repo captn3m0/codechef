@@ -104,8 +104,7 @@ The first line of the input contains an integer **T** denoting the number of tes
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 4
 2 0
@@ -119,9 +118,7 @@ The first line of the input contains an integer **T** denoting the number of tes
 486
 2349595
 
-```
-###  Explanation
-
+</pre>###  Explanation
 **Example case 1.** No 2-digit number has **DIVPRO** value of  (as leading zeros are not allowed). Hence the answer is zero.
 
 **Example case 2.** The only 3-digit numbers having **DIVPRO** value of **27** are **319**, **629**, **913**, **926** and **939**. So there are 5 such numbers in all.

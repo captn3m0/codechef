@@ -31,8 +31,7 @@ For each test case output one line containing the requested minimal time for Bob
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 3 2
@@ -46,5 +45,4 @@ For each test case output one line containing the requested minimal time for Bob
 
 <b>Explanation:</b>
 
-```
-In the first example Bob can move the coin from cell 7 consequently to cells 6, 5, 3 and 1, then move the coin from cell 4 to cell 3. In the second example there is nothing to move.
+</pre>In the first example Bob can move the coin from cell 7 consequently to cells 6, 5, 3 and 1, then move the coin from cell 4 to cell 3. In the second example there is nothing to move.

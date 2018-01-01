@@ -29,8 +29,7 @@ To be clear, we say that two transceivers are close enough to communicate direct
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 1
@@ -52,4 +51,4 @@ yes
 yes
 no
 
-```
+</pre>

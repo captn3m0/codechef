@@ -21,8 +21,7 @@ Output :
 
 Output T lines, one corresponding to each test case. For a test case, output "YES" if there is a sequence of operations as described, and "NO" otherwise.
 
-```
-
+<pre>
 Sample Input :
 3
 2 1
@@ -33,22 +32,18 @@ Sample Input :
 1 2 3
 
 
-```
-```
-
+</pre><pre>
 Sample Output :
 YES
 YES
 NO
 
 
-```
-```
-
+</pre><pre>
 Constraints :
 1 <= T <= 1000
 2 <= n <= 100
 1 <= K <= 10
 0 <= a_i <= 1000
 
-```
+</pre>

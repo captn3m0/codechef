@@ -93,8 +93,7 @@ First line of input contains **T**, number of test cases which is at most 10000.
 
 Number of ways Ciel can reach her restaurant modulo 1000000007 (109+7).
 
-```
-
+<pre>
 <b>Sample Input:</b>
 2
 3
@@ -104,4 +103,4 @@ Number of ways Ciel can reach her restaurant modulo 1000000007 (109+7).
 18
 44
 
-```
+</pre>

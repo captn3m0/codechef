@@ -75,7 +75,7 @@ Recently they came to know about Khana-Academy, a non-profit organization stream
 
 ### Input
 
-The first line has an integer **N**. Each of the following **N** lines has two integers **S**_i_**E**_i_. The next line has an integer **Q**, the number of groups. Each of the following **Q** lines has information of a group of aliens. The first integer is **K**, the number of aliens in that group, followed by **K** integers in the same line, the integer visiting times **t** of the aliens.
+The first line has an integer **N**. Each of the following **N** lines has two integers **S**_i_ **E**_i_. The next line has an integer **Q**, the number of groups. Each of the following **Q** lines has information of a group of aliens. The first integer is **K**, the number of aliens in that group, followed by **K** integers in the same line, the integer visiting times **t** of the aliens.
 
 1 ≤ **N** ≤ 100000 (105)
 1 ≤ **Q** ≤ 5000 (5 · 103)
@@ -89,8 +89,7 @@ For each of the **Q** groups, output the number of different recipes that group 
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 4
 1 4
@@ -107,9 +106,7 @@ For each of the **Q** groups, output the number of different recipes that group 
 4
 2
 
-```
-
-**Explanation:**
+</pre>**Explanation:**
 Given videos of 4 recipes in the following closed intervals.
 1. \[ 1 , 4 \]
 2. \[ 3 , 10 \]

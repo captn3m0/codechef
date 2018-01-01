@@ -96,8 +96,7 @@ For each test case, output a single line containing the required answer. Answers
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 2 2
 1 6
@@ -106,9 +105,7 @@ For each test case, output a single line containing the required answer. Answers
 3.000000
 6.000000
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1**
 
 Probability matrix P for N=2, M=2 is

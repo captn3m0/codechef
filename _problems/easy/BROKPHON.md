@@ -107,8 +107,7 @@ Please help Chef to find the number of players that could mishear the message or
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 7
 1 1 1 3 3 3 2
@@ -122,8 +121,6 @@ Please help Chef to find the number of players that could mishear the message or
 3
 0
 
-```
-### Explanation
-
+</pre>### Explanation
 - **Example 1**: The **3-rd**, **4-th**, **6-th** and **7-th** player could mishear the message or whisper it wrongly.
 - **Example 2**: First **3** players could mishear the message or whisper it wrongly.

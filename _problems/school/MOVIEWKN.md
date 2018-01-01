@@ -97,8 +97,7 @@ For each test case, output a single integer **i** denoting the index of the movi
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 2
 1 2
@@ -111,9 +110,7 @@ For each test case, output a single integer **i** denoting the index of the movi
 1
 2
 
-```
-### Explanation
-
+</pre>### Explanation
 In the first example case, both films have the same value of **L × R**, but the first film has a better rating.
 
 In the second example case, the second and the fourth movies are equally good, but the second movie has a smaller index.

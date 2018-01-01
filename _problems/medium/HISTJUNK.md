@@ -118,8 +118,7 @@ If it is impossible to accomplish the requirement, print "-1 -1" (without quotes
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 4 4
 1 2
@@ -142,9 +141,7 @@ If it is impossible to accomplish the requirement, print "-1 -1" (without quotes
 4 8
 0 0
 
-```
-### Explanation
-
+</pre>### Explanation
 **In the first example**, the obtained road system satisfies the required constraints. Please note that you don't need to minimize the number of added roads and junctions.
 
 **In the second example**, you can leave everything as it is because the given graph already satisfies the constraints.

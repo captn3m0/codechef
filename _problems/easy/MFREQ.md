@@ -96,7 +96,7 @@ Output M lines where each line contains the answer to the **i**-th query.
 
 - **1** ≤ **Ai** ≤ **3**
 - **1** ≤ **M** ≤ **10**
-
+ 
 **Subtask #2 (30 points):**
 
 - **1** ≤ **N** ≤ **1000**
@@ -107,8 +107,7 @@ Output M lines where each line contains the answer to the **i**-th query.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>5 1
 1 2 2 2 2
 1 5 3
@@ -117,7 +116,5 @@ Output M lines where each line contains the answer to the **i**-th query.
 <b>Output:</b>
 <tt>2</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 The element 2 occurs more than 3 times in the range \[1,5\].

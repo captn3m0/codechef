@@ -104,8 +104,7 @@ After each query, print the area of the convex hull of points which are in multi
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 <tt>1
 6
@@ -124,4 +123,4 @@ After each query, print the area of the convex hull of points which are in multi
 16.0
 8.0</tt>
 
-```
+</pre>

@@ -27,8 +27,7 @@ For each test case print the number of days Johnny will be happy in this situati
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 1
 4
@@ -44,4 +43,4 @@ For each test case print the number of days Johnny will be happy in this situati
 4
 
 
-```
+</pre>

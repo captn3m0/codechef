@@ -91,8 +91,7 @@ Anytime **ai** <= 2 \* **N** holds.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5 5
 1 4 3 5 2
 2 2
@@ -109,9 +108,7 @@ Anytime **ai** <= 2 \* **N** holds.
 2
 2
 
-```
-### Scoring
-
+</pre>### Scoring
 1 <= **N** <= 100, 1 <= **M** <= 1000 : 20 points. 
 
 1 <= **N**, **M** <= 5000 : 26 points. 

@@ -77,7 +77,7 @@ Now since chef is not that great in deciphering binary strings, he has decided t
 />/>
 
 If the string contains the substring **"010"** or **"101"**, then the feedback is **Good**, else it is **Bad**. Note that, to be **Good** it is not necessary to have both of them as substring.
-
+ 
 />/>
 
  So given some binary strings, you need to output whether according to the chef, the strings are **Good** or **Bad**.
@@ -103,18 +103,17 @@ Sum of length of all strings in one test file will not exceed **6\*106**.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 11111110
 10101010101010
-<br></br><b>Output:</b>
+<br></br>
+<b>Output:</b>
 Bad
 Good
-<br></br>/>/>
-```
-### Explanation
-
+<br></br>
+/>/>
+</pre>### Explanation
 **Example case 1.**
 
 The string doesn't contain **010** or **101** as substrings. />

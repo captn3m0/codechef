@@ -120,8 +120,7 @@ For each test case output the lexicographically smallest valid arrangement of th
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 7
 1
@@ -148,9 +147,7 @@ NO
 01012
 012
 
-```
-### Explanation
-
+</pre>### Explanation
 **Case 2.** The only possible replacement here is **10**. Note that we output **10** since we **can not rotate the answer** to obtain **01** which is smaller.
 
 **Case 3.** Arrangement is impossible because cherries at the first and the last positions are already of the same color. Note that **K = 10** but the string has length **9**. It is normal. **K** and **|S|** don't have any connection.

@@ -92,8 +92,7 @@ For each test case, output a single line containing **"YES"** if the string sati
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 acab
 zzqzqq
@@ -105,4 +104,4 @@ YES
 NO
 YES
 
-```
+</pre>

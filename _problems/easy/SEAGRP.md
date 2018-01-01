@@ -89,8 +89,7 @@ For each test case print **"YES"**, if you can remove the edges so that the degr
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 2 2
 1 2
@@ -111,4 +110,4 @@ YES
 NO
 YES
 
-```
+</pre>

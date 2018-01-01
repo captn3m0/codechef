@@ -104,8 +104,7 @@ Subtask 2 (75 points): No additional constraints
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 4 3
 1 2
@@ -124,9 +123,7 @@ Subtask 2 (75 points): No additional constraints
 2
 
 
-```
-### Explanation
-
+</pre>### Explanation
 In the second case, the figure describes the initial map, where white cells denote empty cells and brown cells denote soil cells.
 
 ![](http://www.codechef.com/download/AUG15/bef.png)

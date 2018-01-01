@@ -93,16 +93,13 @@ The first line should contain an integer, denoting the number of perfect subarra
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4 2
 1 2 3 -1
 <b>Output:</b>
 4
 
-```
-### Explanation
-
+</pre>### Explanation
 In the test case **N** equals to 4, **K** equals to 2, **A** equals to {1, 2, 3, -1}. The following subarrays are perfect: \[2..2\], \[3..3\], \[2..3\], \[1..3\].
 
 ### Scoring

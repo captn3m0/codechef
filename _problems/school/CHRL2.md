@@ -87,25 +87,20 @@ Output a single line containing the maximal possible number of moves.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 CHEFCHEFFFF
 
 <b>Output:</b>
 2
 
 
-```
-```
-<b>Input:</b>
+</pre><pre><b>Input:</b>
 CHHHEEEFFCC
 
 <b>Output:</b>
 1
 
 
-```
-### Scoring
-
+</pre>### Scoring
 Subtask 1 (25 points): **|S|** ≤ 2000 
 Subtask 2 (75 points): See the constraints.

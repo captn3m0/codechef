@@ -104,8 +104,7 @@ For each "**Q S**" query, output the sum of skill values of all the soldiers und
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 5 8
 7 2 0 5 8
@@ -130,4 +129,4 @@ Q 2
 19
 9
 
-```
+</pre>

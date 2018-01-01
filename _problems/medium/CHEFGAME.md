@@ -102,8 +102,7 @@ For each test case, output the maximal score modulo **747474747**.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 1
 3 2
@@ -114,9 +113,7 @@ For each test case, output the maximal score modulo **747474747**.
 <b>Output:</b>
 8
 
-```
-### Explanation
-
+</pre>### Explanation
 The distance between the first point and the second point is **((0−(−1))2+(0−(−1))2)1/2 = 21/2**.
 The distance between the first point and the third point is **((0−1)2+(0−(−1))2)1/2 = 21/2**.
 The distance between the second point and the third point is **(((−1)−1)2+((−1)−(−1))2)1/2 = 2**.

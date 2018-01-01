@@ -94,8 +94,7 @@ The first and only line of the output should contain the total length of all the
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 1 2
@@ -116,4 +115,4 @@ Here we have <b>S(2)=S(3)=1</b> and <b>S(1)=10 (1 + 3<sup>2)</sup></b>, so the f
 The (1, 1) trip is not interesting. 
 
 
-```
+</pre>

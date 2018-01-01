@@ -97,8 +97,7 @@ Output a single line containing the productivity value of the kingdom.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>2 2 2
 1 2
 3 4</tt>
@@ -106,33 +105,20 @@ Output a single line containing the productivity value of the kingdom.
 <b>Output:</b>
 <tt>504</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 Here are all the provinces:
 
 Province **1**, population **4**:
 
-```
-<tt><b>1</b> 2
+<pre><tt><b>1</b> 2
 <b>3</b> 4</tt>
-```
-Province **2**, population **3**:
-
-```
-<tt><b>1 2</b>
+</pre>Province **2**, population **3**:
+<pre><tt><b>1 2</b>
 3 4</tt>
-```
-Province **3**, population **6**:
-
-```
-<tt>1 <b>2</b>
+</pre>Province **3**, population **6**:
+<pre><tt>1 <b>2</b>
 3 <b>4</b></tt>
-```
-Province **4**, population **7**:
-
-```
-<tt>1 2
+</pre>Province **4**, population **7**:
+<pre><tt>1 2
 <b>3 4</b></tt>
-```
-Since the productivity number is a product of all the populations, we get **4 × 3 × 6 × 7 = 504**.
+</pre>Since the productivity number is a product of all the populations, we get **4 × 3 × 6 × 7 = 504**.

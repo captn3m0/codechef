@@ -113,8 +113,7 @@ Output integers **A1**, **A2**, … , **AR** each in a separate line. Here **Ai*
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5 14
 1 1 1 2
 1 1 2 5
@@ -141,4 +140,4 @@ Output integers **A1**, **A2**, … , **AR** each in a separate line. Here **Ai*
 49
 56
 
-```
+</pre>

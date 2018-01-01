@@ -89,12 +89,11 @@ A single integer, the size of the largest collection of dragons that can be safe
 
 Example
 
-```
- 
+<pre> 
 <b>Sample Input:</b> 
 12 3 
 1 5 6 1 8 3 12 2 13 7 9 11 
 
 <b>Sample Output:</b>
  4<font face="sans-serif, Arial, Verdana, Trebuchet MS"><span style="white-space: normal;"> </span></font>
-```
+</pre>

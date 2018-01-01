@@ -94,8 +94,7 @@ For each test case output the answer on the separate line.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 4
 1 0
@@ -109,9 +108,7 @@ For each test case output the answer on the separate line.
 1
 7
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** We have **C(1, 0) = C(1, 1) = 1**. Hence **C(1, K) mod 2 ≠ 0** for all **K**. Therefore, the answer is **-1**.
 
 **Example case 2.** Since **C(1, 0) mod 2 = 1**, the answer is .

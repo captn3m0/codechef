@@ -99,8 +99,7 @@ For each test case, output "safe" (without quotes) or "unsafe" (without quotes) 
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 5
 1 1
@@ -121,9 +120,7 @@ unsafe
 safe
 safe
 
-```
-### Explanation
-
+</pre>### Explanation
 For the first case, there is only one grid square, so we must place our robot there. When the robot follows the command, it'll fall off, so it is unsafe.
 
 For the second case, we can place the robot on the bottom right grid square. Here is an image denoting the moves that the robot will make. ![](https://snag.gy/l4krZU.jpg)

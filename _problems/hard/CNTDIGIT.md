@@ -88,11 +88,10 @@ Output the answer to the problem on the first line.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 7
 
 <b>Output:</b>
 84
 
-```
+</pre>

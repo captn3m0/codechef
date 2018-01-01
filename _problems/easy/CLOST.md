@@ -96,8 +96,7 @@ Print **T** lines, with the **i**th one containing the solution string for the *
 
 - **1 ≤ T ≤ 5, 2 ≤ N ≤ 2000, 1 ≤ K ≤ 30, x ≤ y**
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 4 1
 0 3
@@ -109,7 +108,5 @@ Print **T** lines, with the **i**th one containing the solution string for the *
 ()()
 (())
 
-```
-### Explanation
-
+</pre>### Explanation
 For the first sample case, "(())" are "()()" are two possible outputs. Printing anyone will do.

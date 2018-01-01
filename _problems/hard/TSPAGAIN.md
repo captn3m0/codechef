@@ -19,8 +19,7 @@ The first line contains T the number of test cases. T test cases follow. The fir
 
 Output T lines, one for each test case, containing the required answer. ### Sample Input :
 
-```
-
+<pre>
 2
 3 2
 2 0
@@ -33,22 +32,16 @@ Output T lines, one for each test case, containing the required answer. ### Samp
 1 2
 
 
-```
-### Sample Output :
-
-```
-
+</pre>### Sample Output :
+<pre>
 3
 6
 
 
-```
-### Constraints :
-
-```
-
+</pre>### Constraints :
+<pre>
 1 <= T <= 50
 2 <= n <= 1000
 1 <= K <= 10000
 
-```
+</pre>

@@ -110,8 +110,7 @@ For each test case output the cardinality of the largest perfect subset in a sin
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>1
 5
 1 0 0
@@ -123,7 +122,5 @@ For each test case output the cardinality of the largest perfect subset in a sin
 <b>Output:</b>
 <tt>2</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 Lines **3\*x + 4\*y + 5 = 0** and **30\*x + 40\*y + 0 = 0** form a biggest perfect subset.

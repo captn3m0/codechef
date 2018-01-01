@@ -85,8 +85,7 @@ For each test case, output on a newline, the number of possible positions to pla
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 2 4 3 6 7
@@ -116,4 +115,4 @@ that are reachable by both the chefs in one or more moves.
 
 
 
-```
+</pre>

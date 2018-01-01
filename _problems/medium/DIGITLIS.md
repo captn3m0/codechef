@@ -101,8 +101,7 @@ For each test case, output a single integer ― count of different **n**-digit n
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 1 
 1
@@ -119,9 +118,7 @@ For each test case, output a single integer ― count of different **n**-digit n
 54
 84
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** All one-digit numbers have the same **LIS** array, so the answer is **10**: **0, 1, 2, 3, ..., 9**.
 
 **Example cases 2 & 3.** Overall we have **90** two-digit numbers (from **10** to **99**). Numbers with second digit strictly greater than first digit have **LIS** array **\[1, 2\]** and there are **36** such numbers. All the other two-digit numbers have **LIS** array **\[1, 1\]**.
@@ -130,4 +127,4 @@ An example of how array **LIS** is constructed
 
 We will take **7**-digit number **1730418**, its **LIS** array is **\[1, 2, 2, 1, 3, 2, 4\]**:
 
-index LIS length 1 **1**730418 1 2 **17**30418 2 3 **1**7**3**0418 2 4 173418 1 5 **1**7**3**0**4**18 3 6 1734**1**8 2 7 **1**7**3**0**4**1**8** 4
+  index LIS length   1 **1**730418 1   2 **17**30418 2   3 **1**7**3**0418 2   4 173418 1   5 **1**7**3**0**4**18 3   6 1734**1**8 2   7 **1**7**3**0**4**1**8** 4

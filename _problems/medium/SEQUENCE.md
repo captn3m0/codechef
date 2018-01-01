@@ -27,8 +27,7 @@ The output for each test case is a single line consisting of a sequence of 2n in
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 2 0 1
@@ -41,4 +40,4 @@ The output for each test case is a single line consisting of a sequence of 2n in
 1 3 7 6 2 0 4 5
 
 
-```
+</pre>

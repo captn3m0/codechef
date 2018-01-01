@@ -98,8 +98,7 @@ Output should contain the only integer, denoting the maximal number of the offer
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4 3
 2 1 2
 2 2 3
@@ -108,7 +107,5 @@ Output should contain the only integer, denoting the maximal number of the offer
 <b>Output:</b>
 2
 
-```
-### Explanation
-
+</pre>### Explanation
 In the example test Mike should accept the first and the third offer.

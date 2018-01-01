@@ -105,8 +105,7 @@ For each query of second type (i.e. **GET**) output the number that you've found
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>7 8
 UNION 1 2
 UNION 8 3
@@ -124,9 +123,7 @@ GET 9 1</tt>
 2
 1</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 - Initially, the sets are: {1}, {2}, {3}, {4}, {5}, {6}, {7}.
 - After the first query: {}, {}, {3}, {4}, {5}, {6}, {7}, {1, 2}.
 - After the second query the configuration of sets is: {}, {}, {}, {4}, {5}, {6}, {7}, {}, {1, 2, 3}.

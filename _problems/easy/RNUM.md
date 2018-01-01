@@ -93,8 +93,7 @@ Princess Rupsa wants to find out the minimum and maximum number of moves that ca
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 3
 1 2 3
@@ -102,8 +101,6 @@ Princess Rupsa wants to find out the minimum and maximum number of moves that ca
 <b>Output:</b>
 1 2
 
-```
-### Explanation
-
+</pre>### Explanation
 - For minimum moves, you could aim for **2**, killing **1**, **2** and **3** in the same move.
 - For maximum moves, you could aim for **1**, killing **1** and **2** in the first move and then aim for **3** in the second move.

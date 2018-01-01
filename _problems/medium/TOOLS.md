@@ -29,8 +29,7 @@ The output for each test case consists of a single line. This line should displa
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 2
 1 0 0 1
@@ -49,9 +48,7 @@ The output for each test case consists of a single line. This line should displa
 10
 6
 
-```
-### Notes
-
+</pre>### Notes
 In the second case, the Chef dropped of the first tool to the first cook and then picked up the tool for the third cook.
 
 In the last test case, there are three different cooks requesting three different tools. It just so happens that all three tools are at the same location. Still, the Chef can only carry two of the tools from this location at once.

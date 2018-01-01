@@ -99,8 +99,7 @@ Next day, he lost the original array. But he still remembered the **E** and **O*
 14. Subtask #3 (60 points) : **1** ≤ sum of **N** over all test cases ≤ **106**
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 3
 2 4
@@ -114,9 +113,7 @@ Next day, he lost the original array. But he still remembered the **E** and **O*
 1 2 2
 -1
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** There are total 6 subarrays : {2},{1},{2},{2,1},{1,2},{2,1,2}. Their sums {2, 1, 2, 3, 3, 5} are respectively. As 2 of them are even and 4 of them are odd. So, this is one possible answer which satisfies Akhil's requirements.
 
 **Example case 3.** There is no array of length 3 whose all the subarrays have odd sum. Akhil might have remembered something incorrectly. Hence, you should print -1.

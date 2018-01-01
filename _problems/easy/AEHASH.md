@@ -15,8 +15,7 @@ Chef Ash and Chef Elsh invented a new hash function! Their hash function will ma
 
 The pseudocode of the hash function is as below. hash(S) is the hash value of a binary string S. |S| denotes the length of S.
 
-```
-function hash(S):
+<pre>function hash(S):
 	result = number of characters 'A' in S
 	if |S| > 1:
 		(S1, S2) = split(S)
@@ -24,9 +23,7 @@ function hash(S):
 	end if
 	return result
 end function
-```
-The function split in the above pseudocode takes a binary string S as the parameter and returns a pair of binary strings (S1, S2) such that:
-
+</pre>The function split in the above pseudocode takes a binary string S as the parameter and returns a pair of binary strings (S1, S2) such that:
 - |S1| <= |S2|.
 - The difference of |S1| and |S2| is at most 1.
 - The concatenation of S1 and S2 (in that order) is S.
@@ -52,8 +49,7 @@ For each test case, output a single line consisting the number of different bina
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 4
 0 0 0
@@ -67,9 +63,7 @@ For each test case, output a single line consisting the number of different bina
 3
 4
 
-```
-### Explanation
-
+</pre>### Explanation
 For the last test case, the solutions are: - AAEAAE
 - AEAAAE
 - AAEAEA

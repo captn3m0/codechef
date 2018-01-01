@@ -21,8 +21,7 @@ Output some form of these numbers: 137, 1315, 73, 136, 255, 1384, 16385, one per
 
 ### Example
 
-```
-
+<pre>
 <b>Output:</b>
 The first two lines of the CORRECT output file are:
 
@@ -31,4 +30,4 @@ The first two lines of the CORRECT output file are:
 
 The correct output file should contain 7 lines.
 
-```
+</pre>

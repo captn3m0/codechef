@@ -23,8 +23,7 @@ A string is called beautiful if it has the form **AArAAr** where **A** is some n
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 6
 aaaa
@@ -42,4 +41,4 @@ xxyyxxxxyyxx
 0
 2
 
-```
+</pre>

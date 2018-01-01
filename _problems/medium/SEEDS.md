@@ -31,8 +31,7 @@ Finally, if there is only one way to assign values to the missing xi values, the
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 2 2
 1 1
@@ -53,4 +52,4 @@ multiple solutions
 no solution
 
 
-```
+</pre>

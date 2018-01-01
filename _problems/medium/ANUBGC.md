@@ -95,8 +95,7 @@ For each test case, output the required probability **P/Q**. **P/Q** is an irred
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 1
 5
@@ -105,7 +104,5 @@ For each test case, output the required probability **P/Q**. **P/Q** is an irred
 1/10
 1/10
 
-```
-### Explanation
-
+</pre>### Explanation
 Chef can choose any **Secret Digit** from  to **9**. But you can only open page with number **1**. Probability that the **Secret Digit** is **1** after you opened the page with number **1** is **1/10**.

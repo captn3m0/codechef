@@ -15,16 +15,13 @@ Amortized analysis deals with analyzing the average amount of work done per oper
 
 A typical example is counting the number of times a bit is flipped in a ripple-carry counter. A ripple-carry counter is an implementation of a binary counter where incrementing from B to B+1 is done in the following manner. Say the binary number is represented as B = bn-1b\_n-2...b\_1b0 where bi is the bit corresponding to 2i. B is increased to B+1 in the following manner:
 
-```
-i := 0
+<pre>i := 0
 while b<sub>i</sub> == 1
     b<sub>i</sub> := 0
     i := i+1
 b<sub>i</sub> := 1
 
-```
-This doesn't account for overflow when increasing from 2n-1 to 2n, but we'll ignore that error for this problem.
-
+</pre>This doesn't account for overflow when increasing from 2n-1 to 2n, but we'll ignore that error for this problem.
 Each time a bit is changed from 0 to 1 or from 1 to 0 we say the bit is "flipped". In the worst case, we may have to flip every bit. However, a standard result says the average number of bits flipped per increment when counting from 0 to 2n-1 is less than 2.
 
 Being the curious sort, you decide to explore this result in a slightly more general setting. That is, you want to know how many bits are flipped when the counter is incremented from a number a to b where a < b.

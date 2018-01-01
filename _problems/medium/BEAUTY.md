@@ -107,8 +107,7 @@ For each query, output a single integer in a separate line denoting the beauty o
 21. **1** ≤ **Q** ≤ **262,143**
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>7 4
 acabada
 2
@@ -119,9 +118,7 @@ ac
 <tt>8
 2</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 **First** judge is allergic to ingredient denoted by 'b'. So Chef has to remove this ingredient from the judge's sandwich. After that, the sandwich will be "acaada". Its beauty will be 1\*1 + 1\*1 + 2\*2 + 1\*1 + 1\*1 = 8
 
 **Second** judge is allergic to ingredients denoted by characters 'a' and 'c'. After removing these ingredients, the sandwich will become "bd" and its beauty will be 2.

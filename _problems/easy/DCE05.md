@@ -29,8 +29,7 @@ Display t lines, each containg a single integer, the place where you would stand
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 5
@@ -41,4 +40,4 @@ Display t lines, each containg a single integer, the place where you would stand
 4
 8
 
-```
+</pre>

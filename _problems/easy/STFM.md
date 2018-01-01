@@ -94,14 +94,13 @@ As answer could be large, help him, calculate value modulo **m**.
 ###  Subtasks 
 
 - Subtask #1: **1** ≤ ****pi**** ≤  **6**  (10 points)
-- Subtask #2: **1** ≤ ****pi**** ≤  **7 \* 103** (25 points)
+- Subtask #2: **1** ≤ ****pi**** ≤  **7 \* 103**  (25 points)
 - Subtask #3: **m** - prime number (25 points)
 - Subtask #4: original constraints (40 points)
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5 7
 1 2 3 4 5
 
@@ -110,9 +109,7 @@ As answer could be large, help him, calculate value modulo **m**.
 
 <h3>Explanation</h3>
 
-```
-18. F(1) = 1 \* (1! + 1) = 2
-19. F(2) = 1 \* (1! + 2) + 2 \* (2! + 2) = 3 + 8 = 11
+</pre>18. F(1) = 1 \* (1! + 1) = 219. F(2) = 1 \* (1! + 2) + 2 \* (2! + 2) = 3 + 8 = 11
 20. F(3) = 1 \* (1! + 3) + 2 \* (2! + 3) + 3 \* (3! + 3) = 4 + 10 + 27 = 41
 21. F(4) = 1 \* (1! + 4) + 2 \* (2! + 4) + 3 \* (3! + 4) + 4 \* (4! + 4) = 5 + 12 + 30 + 112 = 159
 22. F(5) = 1 \* (1! + 5) + 2 \* (2! + 5) + 3 \* (3! + 5) + 4 \* (4! + 5) + 5 \* (5! + 5) = 794

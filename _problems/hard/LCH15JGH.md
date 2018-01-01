@@ -110,8 +110,7 @@ For each third type query output one integer per line - answer for this query.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 1 4
 3 2
@@ -129,4 +128,4 @@ For each third type query output one integer per line - answer for this query.
 3
 4
 
-```
+</pre>

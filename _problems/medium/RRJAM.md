@@ -92,8 +92,7 @@ You should output the answer for each jar separated by space. If it already cont
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5
 5 4 4 2 1
 7 7 4 7 7
@@ -107,4 +106,4 @@ You should output the answer for each jar separated by space. If it already cont
 
 
 
-```
+</pre>

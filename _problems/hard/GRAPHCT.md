@@ -31,8 +31,7 @@ Output :
 
 Output T lines, one corresponding to each test case. For a test case, output the number of graphs as described in the question. Output the answer modulo 1000000007.
 
-```
-Sample Input :
+<pre>Sample Input :
 5
 1 0
 3 2
@@ -41,9 +40,7 @@ Sample Input :
 5 10
 
 
-```
-```
-Sample Output :
+</pre><pre>Sample Output :
 1
 0
 1
@@ -51,11 +48,9 @@ Sample Output :
 0
 
 
-```
-```
-Constraints :
+</pre><pre>Constraints :
 1 <= T <= 2000
 1 <= n <= 100
 0 <= m <= 10000
 
-```
+</pre>

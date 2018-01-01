@@ -94,8 +94,7 @@ Print out the minimum sadness of the country with absolute error less than **10-
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 1 1
 2 2
@@ -105,7 +104,5 @@ Print out the minimum sadness of the country with absolute error less than **10-
 <b>Output:</b>
 0
 
-```
-### Explanation
-
+</pre>### Explanation
 The first road goes through the first two cities and the second road goes through the last two cities.

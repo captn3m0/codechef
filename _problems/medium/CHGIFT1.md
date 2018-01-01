@@ -92,8 +92,7 @@ For each test case, output a single line containing the minimal value of given e
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 3
 1 2 3
@@ -104,9 +103,7 @@ For each test case, output a single line containing the minimal value of given e
 -4
 9
 
-```
-### Explanation
-
+</pre>### Explanation
 Example case 1: **1-2-3 = -4**
 
 ###  Scoring 
@@ -117,6 +114,6 @@ Subtask 2 (10 points):  **1 ≤ N ≤ 3**
 
 Subtask 3 (20 points):  **1 ≤ Ai ≤ 5**. 
 
-Subtask 4 (35 points): **1 ≤ T ≤ 104** 
+Subtask 4 (35 points): **1 ≤ T ≤ 104**  
 
 Subtask 5 (20 points): Look at constraints.

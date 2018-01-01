@@ -94,8 +94,7 @@ For each test case, output an integer corresponding to the number of _good_ sub-
 13. **1** ≤ Sum over all values of **N** in the input in a single test file ≤ **100,000**
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 3 3
 1 2 3
@@ -106,4 +105,4 @@ For each test case, output an integer corresponding to the number of _good_ sub-
 4
 2
 
-```
+</pre>

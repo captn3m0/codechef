@@ -109,8 +109,7 @@ For each question, output an integer in a separate line containing the answer of
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 48 48 1
@@ -122,7 +121,5 @@ For each question, output an integer in a separate line containing the answer of
 1
 11
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1 and 2**. 48 is both **1** and **2** special as explained in the problem statement. Hence answer is 1.

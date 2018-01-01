@@ -97,9 +97,7 @@ for <b>i</b> from 1 to <b>N</b> do
 end
 
 
-```
-Vidhi's boyfriend got jealous when he saw her getting impressed by Mandwarf, the brown's wisdom. He wants to learn the trick to gain her undivided admiration. How about you help him?
-
+<pre>Vidhi's boyfriend got jealous when he saw her getting impressed by Mandwarf, the brown's wisdom. He wants to learn the trick to gain her undivided admiration. How about you help him?
 ### Constraints:
 
 1 ≤ **T** ≤ 100 
@@ -118,8 +116,7 @@ For each test case you've to output **N** space separated integers - the numbers
 
 ### Example
 
-```
-
+</pre>
 <b>Input:</b>
 2
 3
@@ -135,4 +132,4 @@ AMAM
 3 3 9
 1 2 3 4
 
-```
+<pre>

@@ -103,8 +103,7 @@ You should number vertices in graph **G** from **1** to **K**. If there are mult
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 4 6
 1 2
@@ -136,4 +135,4 @@ You should number vertices in graph **G** from **1** to **K**. If there are mult
 1 5
 2 3
 
-```
+</pre>

@@ -102,8 +102,7 @@ For each QUERY operation, print the answer in a line.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 bbabaaaaab
 12
@@ -123,13 +122,10 @@ DELETE_MIDDLE
 <b>Output:</b>
 1
 
-```
-### Explanation
-
+</pre>### Explanation
 In the sample, the string **|S|** will be changed as follows:
 
-```
-
+<pre>
 bbabaaaaab (<b>S<sub>Init</sub></b>)
 bbababaaaab (after INSERT_MIDDLE b)
 bbbababaaaab (after INSERT_LEFT b)
@@ -143,5 +139,4 @@ aabbbababab<b>bbaaa</b>aba (after INSERT_MIDDLE a)
 aabbbababbbbaaaaba (after DELETE_MIDDLE)
 aabbbababbbaaaaba (after DELETE_MIDDLE)
 
-```
-For QUERY bbaaa, this string occurs once. It is shown in boldface type.
+</pre>For QUERY bbaaa, this string occurs once. It is shown in boldface type.

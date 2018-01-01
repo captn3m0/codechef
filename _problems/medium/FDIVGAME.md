@@ -98,8 +98,7 @@ For each test case, output a single line containing either “Henry” or “Der
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>2
 2
 3 4
@@ -112,9 +111,7 @@ For each test case, output a single line containing either “Henry” or “Der
 Derek
 </tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** In this test case, the numbers on the board are \[3,4\]. Henry can win by selecting 4 and then dividing it by 2. The integers on the board are now \[3,2\]. Derek now has a couple of choices:
 
 - Derek can divide 2 by 3, 4, 5 or 6, making it 0 and removing it. Now only one integer remains on the board, 3, and Henry can just divide it by 6 to finish, and win, the game.

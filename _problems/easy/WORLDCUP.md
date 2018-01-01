@@ -105,8 +105,7 @@ For each test cases output the number of ways modulo 1e9+7 (i.e. 1000000007)
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b><br></br>
 6
 10 2 9
@@ -114,7 +113,8 @@ For each test cases output the number of ways modulo 1e9+7 (i.e. 1000000007)
 6 1 9
 4 1 9
 5 1 9
-10 3 9<br></br><b>Output:</b><br></br>
+10 3 9<br></br>
+<b>Output:</b><br></br>
 2
 4
 1
@@ -122,11 +122,8 @@ For each test cases output the number of ways modulo 1e9+7 (i.e. 1000000007)
 0
 12
 
-```
-###  Explanation 
-
-```
-
+</pre>###  Explanation 
+<pre>
 Explanation for the sample input 1:
 
 All possible ways to face 2 deliveries:
@@ -154,4 +151,4 @@ You need to consider all sample space i.e. 4^B
 
 Note that the answer to R = 0 , B = 2 , W =1 is 3  [ 00 , 0W , W0 ]
 
-```
+</pre>

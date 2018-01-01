@@ -85,14 +85,13 @@ For each query output the result in one line.
 ### Constraints
 
 - **1** ≤ **N, Q**  ≤ **100000 (105)**
-- **1** ≤ **Ai** ≤ **100000 (105)**
+- **1** ≤ **Ai**  ≤ **100000 (105)**
 - **1** ≤ **L** ≤ **R** ≤ **N**
 - **1** ≤ **K**  ≤ **100000 (105)**
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 8 5
 3 5 1 4 6 9 12 6
 3 6 2
@@ -108,4 +107,4 @@ For each query output the result in one line.
 0
 1
 
-```
+</pre>

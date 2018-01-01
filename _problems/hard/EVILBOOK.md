@@ -93,8 +93,7 @@ For each test case, print the minimum total effort (rounded to the nearest integ
 
 ### Sample Input
 
-```
-4
+<pre>4
 4 10
 1 30
 110 500
@@ -109,17 +108,12 @@ For each test case, print the minimum total effort (rounded to the nearest integ
 2 10
 1000000000 1000000000
 0 130
-```
-### Sample Output
-
-```
-168
+</pre>### Sample Output
+<pre>168
 impossible
 1000000000
 1882
-```
-### Output details
-
+</pre>### Output details
 In the first case, the optimal way is the following.
 
 Initially, Ciel's magical power = 0, Total effort = 0

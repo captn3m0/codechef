@@ -93,8 +93,7 @@ For each test case, output one line with **N** space separated integers in non-d
 
 ### Example
 
-```
-<b>Input</b>
+<pre><b>Input</b>
 2
 1
 0 10
@@ -105,8 +104,6 @@ For each test case, output one line with **N** space separated integers in non-d
 10
 1 1
 
-```
-### Explanation
-
+</pre>### Explanation
 **Test case #2**
 For the array \[1,1\], possible subsets are {}, {1}, {1}, {1,1}, respective sums are 0, 1, 1, 2.

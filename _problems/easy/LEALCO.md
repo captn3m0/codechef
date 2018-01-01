@@ -97,8 +97,7 @@ For each test case, output a single line containing the minimum number of operat
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 4
 5 3 2
@@ -116,9 +115,7 @@ For each test case, output a single line containing the minimum number of operat
 1
 -1
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** Let's follow the poor math definition of arrest. We will consider all values of **i** from  to **N-K = 2**, inclusive, and should count the number of values of **j** described in the definition. If it less than **M = 2** then this value of **i** does not cause the arrest, otherwise causes.
 
 **i****{R\[i\],...,R\[i+K-1\]}****max{R\[i\],...,R\[i+K-1\]}**For which **j = i, ..., i+K-1**

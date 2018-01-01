@@ -101,8 +101,6 @@ For each test case, output the minimum possible difference between the number of
 2
 0
 
-```
-### Explanation
-
+<pre>### Explanation
 - **Test 1:** Chef will buy 1 apple by paying 1 gold coin and will have equal number of apples and oranges.
 - **Test 2:** Chef will buy 1 orange by paying 1 gold coin and will have 5 apples and 3 oranges.

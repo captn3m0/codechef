@@ -98,8 +98,7 @@ For each testcase print expected number of inversions.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 5 3
 1 5 4 3 2
@@ -111,9 +110,7 @@ For each testcase print expected number of inversions.
 13.833333333
 87.818181818
 
-```
-### Note
-
+</pre>### Note
 **Test #0-1 (25 points): n,m ≤ 10**
 
 **Test #2 (25 points): n,m ≤ 1000**

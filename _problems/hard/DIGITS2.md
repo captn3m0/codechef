@@ -31,20 +31,16 @@ For each test case, output a single integer on a line, giving the minimum value 
 
 ### Sample Input
 
-```
-4
+<pre>4
 9
 11
 7Q2
 PIES
 
-```
-### Sample Output
-
-```
-9
+</pre>### Sample Output
+<pre>9
 8
 15227
 7845414
 
-```
+</pre>

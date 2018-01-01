@@ -114,8 +114,7 @@ For each test case, print a single line containing the integer corresponding to 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 2
 5 -5
@@ -128,9 +127,7 @@ For each test case, print a single line containing the integer corresponding to 
 5
 4
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** Each villager in village 1, need to walk 1 km to reach to the dinosaur in 2nd village.
 
 **Example case 2.** Each villager in village 2, need to walk 1 km to reach to the dinosaur 1st village.

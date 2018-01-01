@@ -25,8 +25,7 @@ Output the answer to each test case on a separate line.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 2
 4
@@ -39,4 +38,4 @@ Output the answer to each test case on a separate line.
 171
 1958
 
-```
+</pre>

@@ -84,8 +84,7 @@ There are two operations that Chef implemented on the machine.
 		a[i] = a[i] / LeastPrimeDivisor(a[i])
 </pre>
 
-```
-
+<pre>
 **Type 1 Operation**```
 
 <pre>
@@ -96,8 +95,7 @@ There are two operations that Chef implemented on the machine.
 	return result;
 </pre>
 
-```
-
+</pre>
 The function **LeastPrimeDivisor(x)** finds the smallest prime divisor of a number. If the number does not have any prime divisors, then it returns 1.
 
 Chef has provided you an array of size **N**, on which you have to apply **M** operations using the special machine. Each operation will be one of the above given two types. Your task is to implement the _special dividing machine_ operations designed by Chef. Chef finds this task quite easy using his machine, do you too?
@@ -139,8 +137,7 @@ For each test case, output answer of each query of type 1 (**Get** query) separa
 
 ### Example
 
-```
-<b>Input:</b><tt>
+<pre><b>Input:</b><tt>
 2
 6 7
 2 5 8 10 3 44
@@ -160,15 +157,12 @@ For each test case, output answer of each query of type 1 (**Get** query) separa
 5 3 5 11
 1
 </tt>
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.**The states of array A after each **Update**-operation:
 
-```
-
+<pre>
 <b>A:</b> = [2 1 4 10 3 44]
 <b>A:</b> = [2 1 4 5 1 22]
 <b>A:</b> = [1 1 2 1 1 11]
 
-```
+</pre>

@@ -46,8 +46,7 @@ Find out the minimum number of hours needed so that each person learns all the *
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 2 1
 3 2
@@ -56,9 +55,7 @@ Find out the minimum number of hours needed so that each person learns all the *
 1
 4
 
-```
-### Explanation
-
+</pre>### Explanation
 **In the first example**, there are two people. Second person is Malvika and she has to teach only one topic to the first person. It will take only one hour to do so.
 
 **In the second example**, there are three people. The 3rd person is Malvika and she has to teach only two topics to 1st and 2nd person. In the 1st hour, she teaches the 1st topic to the 2nd person. Now, in the 2nd hour, the 2nd person will teach the 1st topic to the 1st person. In the 3rd hour, Malvika will teach the 2nd topic to the 2nd person. Now the 2nd person will teach that topic to the 1st in the 4th hour. So, it takes a total of 4 hours for all the people to know all the topics.

@@ -108,8 +108,7 @@ For each test case, output a single line containing the integer: the answer for 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>2
 4 1 2 3 4 0 1 2 3
 1 1
@@ -127,9 +126,7 @@ For each test case, output a single line containing the integer: the answer for 
 153
 </tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 In both test cases, we have **Fk = k** for **0 ≤ k ≤ 3** and **Fk = Fk-1 + 2·Fk-2 + 3·Fk-3 + 4·Fk-4**. So you can check that **F4 = 10**, **F5 = 26** and **F6 = 63**
 
 - In the first test case, Chef will harvest all spaghetti strands in the locations **(1, 1)**, **(1, 2)**, **(2, 1)**, **(2, 2)**. The total number is **F1+1 + F1+2 + F2+1 + F2+2** = **F2 + F3 + F3 + F4** = **18**

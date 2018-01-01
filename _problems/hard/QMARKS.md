@@ -89,8 +89,7 @@ For each test case, output a two lines. The first line should contain the maxima
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 7 4
 ???????
@@ -116,9 +115,7 @@ bacde
 1
 aaabecxd
 
-```
-### Scoring
-
+</pre>### Scoring
 Subtask 1 (16 points): **T** = 50, 1 <= **N** <= 8, 1 <= **M** <= 10. Only the characters a, b and c and question marks occur in the string. Only the characters a, b, and c occur in the dictionary words. All the words in the dictionary consist of no more than 10 letters.
 
 Subtask 2 (32 points): **T** = 50, 1 <= **N** <= 100, 1 <= **M** <= 100. Only the characters a, b and question marks occur in the string. Only the characters a and b occur in the dictionary words. All the words in the dictionary consist of no more than 10 letters.

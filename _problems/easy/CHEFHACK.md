@@ -132,8 +132,7 @@ For each test case, output a single line containing the number of unsuccessful t
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 3
@@ -148,9 +147,7 @@ For each test case, output a single line containing the number of unsuccessful t
 20
 13
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.**
 
 The type of each server can be found in the following table.

@@ -87,8 +87,7 @@ For each test case on different lines print the answer to the problem.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 10
 1
 2
@@ -114,4 +113,4 @@ For each test case on different lines print the answer to the problem.
 0
 
 
-```
+</pre>

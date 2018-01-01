@@ -99,8 +99,7 @@ For each test case, output a single line containing **N** space separated intege
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>2
 6 3 2
 4 3 3</tt>
@@ -109,9 +108,7 @@ For each test case, output a single line containing **N** space separated intege
 <tt>3 5 1 6 2 4
 -1</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** In the array **\[3, 5, 1, 6, 2, 4\]**, the longest increasing subsequence has length **3** (e.g. **\[3,5,6\]**), and the longest decreasing subsequence has length **2** (e.g. **\[3, 2\]**).
 
 **Example case 2.** You can check that no permutation of **\[1, 2, 3, 4\]** has longest increasing subsequence and longest decreasing subsequence of length **3** at the same time.

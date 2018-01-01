@@ -92,8 +92,7 @@ Output a single integer, the number of sub rectangles which contains even number
 
 ### Example 1
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>2 2
 01
 10
@@ -101,11 +100,8 @@ Output a single integer, the number of sub rectangles which contains even number
 <b>Output:</b>
 <tt>3</tt>
 
-```
-### Example 2
-
-```
-
+</pre>### Example 2
+<pre>
 <b>Input:</b>
 <tt>3 4
 1010
@@ -115,4 +111,4 @@ Output a single integer, the number of sub rectangles which contains even number
 <b>Output:</b>
 <tt>26</tt>
 
-```
+</pre>

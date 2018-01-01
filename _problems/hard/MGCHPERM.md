@@ -103,8 +103,7 @@ For each test case, output a single line containing a single integer — the sol
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 <tt>5
 3 3
@@ -120,9 +119,7 @@ For each test case, output a single line containing a single integer — the sol
 989165211
 930411765</tt>
 
-```
-### Explanation:
-
+</pre>### Explanation:
 **Example case 1.** There is only one subset: {1, 2, 3}. Since, **F**(1, 2, 3) = 0, the answer is 0.
 
 **Example case 2.** There are C(6, 4) = 15 possible subsets. **F**(1, 2, 3, 6) = 0, and the value of **F** on all other subsets equals 1. Therefore, the answer is 15 - 1 = 14.

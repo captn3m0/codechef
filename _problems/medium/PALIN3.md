@@ -97,14 +97,11 @@ Your output should contain the only integer, denoting the number of substrings o
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1045003
 
 <b>Output:</b>
 4
 
-```
-### Explanation
-
+</pre>### Explanation
 In the example you should count **S**\[2..2\] = "0", **S**\[5..5\] = "0", **S**\[6..6\] = "0" and **S**\[7..7\] = "3".

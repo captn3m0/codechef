@@ -100,8 +100,7 @@ For each test case, output a single line containing the answer to the correspond
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 2
 1 2
@@ -119,4 +118,4 @@ For each test case, output a single line containing the answer to the correspond
 5
 1
 
-```
+</pre>

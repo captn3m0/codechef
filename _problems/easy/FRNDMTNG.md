@@ -116,8 +116,7 @@ For each test case, output one the single real number - probability of meeting C
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 2 2 1 1
 1 1 1 1
@@ -125,4 +124,4 @@ For each test case, output one the single real number - probability of meeting C
 0.750000
 1.000000
 
-```
+</pre>

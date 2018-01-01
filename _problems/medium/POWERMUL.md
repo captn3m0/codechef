@@ -107,8 +107,7 @@ For every test case , output **Q** lines , each line containing the answer.
 - Subtask 2: N ≤ 500 , M is a prime number , rest of the constraints are same. Points - 31
 - Subtask 3: Refer to constraints above : Points-60
 
-```
-<h3>Sample Input</h3>
+<pre><h3>Sample Input</h3>
 1
 5 24 2
 2
@@ -117,9 +116,7 @@ For every test case , output **Q** lines , each line containing the answer.
 8
 8
 
-```
-### Explanation
-
+</pre>### Explanation
 f\[1\] = 1
 
 f\[2\] = 4

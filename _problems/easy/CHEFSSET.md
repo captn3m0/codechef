@@ -119,8 +119,7 @@ For each test case, output a single integer corresponding to minimum number of o
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 3
 2 2 2
@@ -134,9 +133,7 @@ For each test case, output a single integer corresponding to minimum number of o
 1
 2
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** If you multiply any pair of integers in the array, the product is 4, which is square. So, the array is _w0w_ already.
 
 **Example case 2.** You can multiply the first number by 2, then the array will become _w0w_. So the minimum number of operations required will be 1.

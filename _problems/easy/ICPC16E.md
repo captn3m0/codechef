@@ -45,8 +45,7 @@ For each test case, output a single line containing the required answer modulo *
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 1 1
 1 2
@@ -56,14 +55,11 @@ For each test case, output a single line containing the required answer modulo *
 12
 
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** The only way is to fill all cells with same color.
 **Example case 2.** Assume that the two colors are 1 and 2. The 12 distinct ways are:
 
-```
-
+<pre>
 
      2     
   2 2 2  
@@ -125,4 +121,4 @@ _______
      1     
 
 
-```
+</pre>

@@ -118,8 +118,7 @@ For each query of the zeroth type you should to output one integer: the maximum 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 6 6
 1 2 1
 4 5 8
@@ -141,4 +140,4 @@ For each query of the zeroth type you should to output one integer: the maximum 
 2
 7
 
-```
+</pre>

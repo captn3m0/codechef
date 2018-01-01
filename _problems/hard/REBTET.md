@@ -107,8 +107,7 @@ For each test case, output a single line. It must contain the number of ways to 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 1 1
 2 1
@@ -118,4 +117,4 @@ For each test case, output a single line. It must contain the number of ways to 
 2439
 
 
-```
+</pre>

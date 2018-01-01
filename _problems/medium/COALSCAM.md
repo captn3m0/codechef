@@ -88,8 +88,7 @@ Output a single line for each test case. If it is impossible to choose a subset 
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 3 2 1
@@ -104,9 +103,7 @@ Output a single line for each test case. If it is impossible to choose a subset 
 10 14
 Impossible
 
-```
-### Constraints
-
+</pre>### Constraints
 1 ≤ T ≤ 5
 2 ≤ N ≤ 5,000
 1 ≤ M1 ≤ 20,000

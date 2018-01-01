@@ -105,8 +105,7 @@ Output a single line denoting the answer of the problem. Your answer will be con
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 0 0 11
 10 10 1
@@ -120,7 +119,5 @@ Output a single line denoting the answer of the problem. Your answer will be con
 49.087385212341
 
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** Two circles that are not intersecting each other.

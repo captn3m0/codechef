@@ -102,8 +102,7 @@ For each test case, output a single line containing the maximal **bitwise XOR** 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>1
 3
 1 4 3
@@ -113,17 +112,13 @@ For each test case, output a single line containing the maximal **bitwise XOR** 
 <b>Output:</b>
 <tt>15</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 Chef can pick the following submatrix in order to make the XOR of elements equal to **15**:
 
-```
-
+<pre>
 <tt><b>1 4</b> 3
 <b>1 8</b> 6
 <b>1 2</b> 3
 </tt>
 
-```
-This submatrix can be defined by **x1 = 1**, **y1 = 1**, **x2 = 3**, **y2 = 2**.
+</pre>This submatrix can be defined by **x1 = 1**, **y1 = 1**, **x2 = 3**, **y2 = 2**.

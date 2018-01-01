@@ -99,8 +99,8 @@ For each query of type **2** print the required value asked in the question.
 
 ### Constraints
 
-1 <= **N** <= 105
-1 <= **Q** <= 105
+1 <= **N** <= 105 
+1 <= **Q** <= 105 
 1 <= **A** <= **N**
 
 1 <= **U, V** <= **N**, **U** ≠ **V**
@@ -110,8 +110,7 @@ For each query of type **2** print the required value asked in the question.
 
 ### Example
 
-```
-
+<pre>
 <b>Sample Input</b>
 4
 2
@@ -130,9 +129,7 @@ For each query of type **2** print the required value asked in the question.
 1
 3
 
-```
-### Explanation
-
+</pre>### Explanation
 Path from Capital to City 1 : 1
 
 Path from Capital to City 2 : 1 <--> 2

@@ -23,18 +23,14 @@ For each test case, output on a single line the smallest positive integer that c
 
 ### Sample input:
 
-```
-3
+<pre>3
 2 1 1 4 0 6 3 2 2 2
 0 1 1 1 1 1 1 1 1 1
 2 2 1 2 1 1 3 1 1 1
  
-```
-### Sample output:
-
-```
-4
+</pre>### Sample output:
+<pre>4
 10
 22
  
-```
+</pre>

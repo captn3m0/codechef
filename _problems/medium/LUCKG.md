@@ -94,8 +94,7 @@ Extra spaces at the end of the line are not allowed./>
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 1 1
 0
@@ -108,6 +107,4 @@ No Solution
 3 4 8
 1 5 9
 
-```
-**Explanation**
-For second test case, probability is 5/9 for each player to get a point.
+</pre>**Explanation**For second test case, probability is 5/9 for each player to get a point.

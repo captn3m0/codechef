@@ -97,8 +97,7 @@ For each test case, output a single line containing one integer - number of cell
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 3 2 
 1 2
@@ -107,7 +106,5 @@ For each test case, output a single line containing one integer - number of cell
 <b>Output:</b>
 5
 
-```
-### Sample explanation
-
+</pre>### Sample explanation
 We have cells **(2, 1) (2, 3)** on the same diagonals with **(1, 2) or (3, 2)**. Thus 4 cells are occupied by cats and 5 are free of cats.

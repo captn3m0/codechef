@@ -97,8 +97,7 @@ For each test, print the required number of pairs in a single line.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 3
 3 4 5
@@ -109,9 +108,7 @@ For each test, print the required number of pairs in a single line.
 3
 0
 
-```
-### Explanation
-
+</pre>### Explanation
 /> **Example case 1.**
 
 All pairs of numbers satisfy the criteria. Total number of pairs equals **3**. />

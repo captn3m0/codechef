@@ -83,8 +83,7 @@ Output the answer to the problem on the first line of the output.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5
 1 2 3 4 5
 
@@ -92,9 +91,7 @@ Output the answer to the problem on the first line of the output.
 9
 
 
-```
-### Scoring
-
+</pre>### Scoring
 Subtask 1 (13 points): **N** <= 1000, **Ai** <= 1. 
 
 Subtask 2 (39 points): **N** <= 1000, **Ai** <= 109. 

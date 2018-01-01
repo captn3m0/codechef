@@ -25,8 +25,7 @@ For each test case output a single line containing the requested number of ways 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 3 2 1
 4 2 1
@@ -38,6 +37,4 @@ For each test case output a single line containing the requested number of ways 
 6
 
 
-```
-**Explanation:**
- In the second test case there are 3 ways to place the advertisements: using the 1st and the 3rd, the 2nd and the 3rd, or the 2nd and the 4th billboards.
+</pre>**Explanation:** In the second test case there are 3 ways to place the advertisements: using the 1st and the 3rd, the 2nd and the 3rd, or the 2nd and the 4th billboards.

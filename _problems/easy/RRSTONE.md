@@ -89,12 +89,11 @@ Output **N** numbers on a single line. It should be the array **A** after **K** 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4 1
 5 -1 7 0
 
 <b>Output:</b>
 2 8 0 7
 
-```
+</pre>

@@ -98,8 +98,7 @@ Each string in the input file consists only of the lucky digits **4** and **7**.
 
 ### Example
 
-```
-
+<pre>
 
 <b>Input:</b>
 2 4
@@ -117,9 +116,7 @@ Bad
 Good
 
 
-```
-### Explanation
-
+</pre>### Explanation
 The string **S = 7444** is good since the favorite string **744** is its substring.
 
 The string **S = 447** is good since the favorite string **47** is its substring.

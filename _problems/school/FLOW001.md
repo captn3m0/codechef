@@ -87,8 +87,7 @@ Add **A** and **B** and display it.
 
 ### Example
 
-```
-
+<pre>
 <b>Input</b>
 3 
 1 2
@@ -101,4 +100,4 @@ Add **A** and **B** and display it.
 50
 
 
-```
+</pre>

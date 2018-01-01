@@ -92,8 +92,7 @@ Print **N** lines, where **i**-th line will contain two space separated integers
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 abcab
 
 <b>Output:</b>
@@ -104,9 +103,7 @@ abcab
 3 3
 
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** 
 
 i = 1, shortest unique substring is "abc"

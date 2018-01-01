@@ -38,8 +38,7 @@ For each test case output one line describing the type of a hand, exactly like i
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 AH KH QH TH JH
@@ -51,4 +50,4 @@ royal flush
 pair
 full house
 
-```
+</pre>

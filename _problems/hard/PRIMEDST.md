@@ -92,8 +92,7 @@ The input must be a tree.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5
 1 2
 2 3
@@ -103,9 +102,7 @@ The input must be a tree.
 <b>Output:</b>
 0.5
 
-```
-### Explanation
-
+</pre>### Explanation
 We have C(5, 2) = 10 choices, and these 5 of them have a prime distance:
 
 1-3, 2-4, 3-5: 2

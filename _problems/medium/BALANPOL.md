@@ -121,8 +121,7 @@ For each test case, output a single integer corresponding to the number of _w00t
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 4 4
 0 0
@@ -151,7 +150,5 @@ For each test case, output a single integer corresponding to the number of _w00t
 1
 10
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** The entire rectangle is _w00t_.

@@ -87,8 +87,7 @@ The author is pretty lazy and he does not want to write checking program. So, if
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 010
 000
@@ -99,4 +98,4 @@ The author is pretty lazy and he does not want to write checking program. So, if
 1 3
 2 3
 
-```
+</pre>

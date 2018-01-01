@@ -25,8 +25,7 @@ Your output should be exactly '2T-1' lines. The output for each test case should
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 4
 
@@ -78,4 +77,4 @@ Your output should be exactly '2T-1' lines. The output for each test case should
 
 229 230
 
-```
+</pre>

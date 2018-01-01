@@ -82,7 +82,7 @@ For example,
 
  **f**(2, 3, **X**) = **P**(0) **P**(3**X**) + **P**(**X**) **P**(2**X**) + **P**(2**X**) **P**(**X**) + **P**(3**X**) **P**(0) = 2 **P**(**X**) **P**(2**X**) + 2 **P**(0) **P**(3**X**)
 
- **f**(3, 1, **X**) = **P**(0) **P**(0) **P**(**X**) + **P**(0) **P**(**X**) **P**(0) + **P**(**X**) **P**(0) **P**(0) = 3 **P**(0)2**P**(**X**)
+ **f**(3, 1, **X**) = **P**(0) **P**(0) **P**(**X**) + **P**(0) **P**(**X**) **P**(0) + **P**(**X**) **P**(0) **P**(0) = 3 **P**(0)2 **P**(**X**)
 
 Ciel is a great chef. However, she is not very good at arithmetic. So she needs your help to make her win the contest. For the given values of **P**, **M**, **N** and **X**, your work is to calculate the value of **f**(**M**, **N**, **X**). The answer can be very large, so you should print the answer modulo 1000000007 (109+7), that is, you need to find the remainder of division of **f**(**M**, **N**, **X**) by 1000000007 (109+7).
 
@@ -106,22 +106,16 @@ If **D** ≠ 0, then **C****D** ≠ 0
 
 ### Sample Input
 
-```
-3
+<pre>3
 1 3 2
 2 0 1 2
 2 3 0
 1 1 1
 3 1 1
 3 1 2 3 4
-```
-### Sample Output
-
-```
-78
+</pre>### Sample Output
+<pre>78
 4
 30
-```
-### Explanation
-
+</pre>### Explanation
 In the first case, the polynomial is **P**(**x**) = 2 · **x**2 + **x**. The answer is **P**(3**X**) = **P**(6) = 2 · 36 + 6 = 78.

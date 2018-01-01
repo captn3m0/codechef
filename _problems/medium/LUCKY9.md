@@ -89,8 +89,7 @@ The first line of the input contains one integer **T**, the number of test cases
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 47
@@ -100,4 +99,4 @@ The first line of the input contains one integer **T**, the number of test cases
 1
 4
 
-```
+</pre>

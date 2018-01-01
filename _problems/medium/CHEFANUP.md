@@ -74,7 +74,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 Chef Anup is making dishes. Each dish consists of **N** ingredients, and quantity of each ingredient is an integer between 1 and **K** inclusive.
 
-Relative quality of 2 dishes is determined by their lexicographic order. Dish **A** is of lower quality than dish **B** if there is a position i (1Aj = **Bj** for all j AiBi. 
+Relative quality of 2 dishes is determined by their lexicographic order. Dish **A** is of lower quality than dish **B** if there is a position i (1Aj = **Bj** for all j Ai Bi. 
 E.g., if N = 2 and K = 2, then the possible dishes in lexicographic order are (1,1), (1,2), (2,1), (2,2).
 
 Given an integer **L**, determine the **L**th possible dish in increasing order of quality.
@@ -98,8 +98,7 @@ Given an integer **L**, determine the **L**th possible dish in increasing order 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 3 3 1
 3 3 2
@@ -112,13 +111,10 @@ Given an integer **L**, determine the **L**th possible dish in increasing order 
 1 1 3
 1 2 1
 
-```
-### Explanation
-
+</pre>### Explanation
 First 4 dishes in order have ingredients (1,1,1), (1,1,2), (1,1,3), and (1,2,1).
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 4 3 1
 4 3 2
@@ -131,7 +127,5 @@ First 4 dishes in order have ingredients (1,1,1), (1,1,2), (1,1,3), and (1,2,1).
 1 1 1 3
 1 1 2 1
 
-```
-### Explanation
-
+</pre>### Explanation
 First 4 dishes in order have ingredients (1,1,1,1), (1,1,1,2), (1,1,1,3), and (1,1,2,1).

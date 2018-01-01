@@ -107,8 +107,7 @@ For each test case for each node in range from 1 to **N**, output its ugliness i
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>1
 5
 1 2 3 4 5
@@ -125,4 +124,4 @@ For each test case for each node in range from 1 to **N**, output its ugliness i
 4
 5</tt>
 
-```
+</pre>

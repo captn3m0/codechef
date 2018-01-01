@@ -105,8 +105,7 @@ For each query, output a single line containing the sum accurate up to **10-6**.
 
 ### Example
 
-```
-
+<pre>
  <b>Input:</b>
  10 5
  45 70 41
@@ -133,8 +132,6 @@ For each query, output a single line containing the sum accurate up to **10-6**.
  5.816449269601737
  
 
-```
-### Subtasks
-
-- **Subtask 1:** **Q**\***N2**≤ 77777777. **Points - 15**
+</pre>### Subtasks
+- **Subtask 1:** **Q**\***N2** ≤ 77777777. **Points - 15**
 - **Subtask 2:** Original constraints. **Points - 85**

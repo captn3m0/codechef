@@ -110,10 +110,7 @@ Once you are finished asking questions, and are ready to answer the main questio
 
 ### Example
 
-```
+<pre>
 
-
-```
-your program the system4 3 1 1 ab bc cd de ab bc bc cd cd de w y x z x w y x y zA cdxA bcyB xcdA abzB wdeC No### Explanation
-
+</pre>your program the system4 3 1 1 ab bc cd de ab bc bc cd cd de w y x z x w y x y zA cdxA bcyB xcdA abzB wdeC No### Explanation
 Here, we have 4 cities and 3 roads. Alice's map has cities with labels "ab", "bc", "cd", "de". Bob's map has cities with labels "w", "y", "x", "z". Alice visits cities {"ab"}. Bob visits cities {"w"}. Here, we show an example of the interaction. The translation function in this case is "ab" = "z", "bc" = "y", "cd" = "x", "de" = "w". In this case, we can see that Alice and Bob don't visit any cities in common, so the final answer is No.

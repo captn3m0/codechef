@@ -74,9 +74,9 @@ All submissions for this problem are available.###  Read problems statements in 
 ### Problem Statement
 
 Sereja has a sequence of **n** integers **a\[1\], a\[2\], ..., a\[n\]**. Sereja can do following transformation of the array:
-5. create a new sequence of **n** integers **b\[1\], b\[2\], ..., b\[n\]**in this way: ![](http://latex.codecogs.com/gif.latex?b[i] =\min\limits_{j=1}^{n} a[j]- a[i] + \sum\limits_{j=1}^{n} a[j])**(1 ≤ i ≤ n)**
+5. create a new sequence of **n** integers **b\[1\], b\[2\], ..., b\[n\]**in this way: ![](http://latex.codecogs.com/gif.latex?b[i] =\min\limits_{j=1}^{n} a[j]- a[i] + \sum\limits_{j=1}^{n} a[j]) **(1 ≤ i ≤ n)**
 6. Replace the sequence a by b, i.e., a\[i\] = b\[i\] for all i in \[1, n\]
-Sereja decided to use his transformation **k** times. Then he computed the value of ![](http://latex.codecogs.com/gif.latex?q(r)=\max\limits_{i=1}^{n} r_i - )![](http://latex.codecogs.com/gif.latex?\min\limits_{i=1}^{n} r_i) , where **r** — the sequence obtained after **k** transformations of sequence **a**, as described above.
+Sereja decided to use his transformation **k** times. Then he computed the value of ![](http://latex.codecogs.com/gif.latex?q(r)=\max\limits_{i=1}^{n} r_i - ) ![](http://latex.codecogs.com/gif.latex?\min\limits_{i=1}^{n} r_i) , where **r** — the sequence obtained after **k** transformations of sequence **a**, as described above.
 
 Sereja lost sequence **a**, but he was left with the numbers **q(r)** and **k**. Now Sereja is interested in the question : what is the number of the sequences of the integers **с\[1\], с\[2\], ..., с\[n\]**, such that **1 ≤ c\[i\] ≤ m** and **q(d) = q(r)**, where **d** — the sequence obtained after **k** transformations of sequence **c**, as described above.
 
@@ -93,8 +93,7 @@ In a single line print the remainder of division the answer of the problem on nu
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 1 1 1 1
 2 2 1 1
@@ -106,4 +105,4 @@ In a single line print the remainder of division the answer of the problem on nu
 4
 
 
-```
+</pre>

@@ -26,8 +26,7 @@ For each test case print the output on a single line.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 1
@@ -39,4 +38,4 @@ For each test case print the output on a single line.
 1
 3
 
-```
+</pre>

@@ -75,8 +75,7 @@ Output given numbers in non decreasing order.
 
 **Input:**
 
-```
-
+<pre>
 5
 5
 3
@@ -84,15 +83,12 @@ Output given numbers in non decreasing order.
 7
 1
 
-```
-**Output:**
-
-```
-
+</pre>**Output:**
+<pre>
 1
 3
 5
 6
 7
 
-```
+</pre>

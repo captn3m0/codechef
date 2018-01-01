@@ -104,8 +104,7 @@ For each test case, print a single integer denoting the answer of the problem.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 1 1 1 1
 1
@@ -124,7 +123,5 @@ For each test case, print a single integer denoting the answer of the problem.
 4
 4
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** Magical girl can pick the blue potion and make its liquid amount half. So the potions will now have amounts 1 2 1. Maximum of these values is 2. Hence answer is 2.

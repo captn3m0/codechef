@@ -35,8 +35,7 @@ The output for each test case consists of a single integer on a single line. Thi
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 2
@@ -57,4 +56,4 @@ The output for each test case consists of a single integer on a single line. Thi
 500
 497
 
-```
+</pre>

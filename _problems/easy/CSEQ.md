@@ -99,8 +99,7 @@ For each test case print the answer modulo **106+3** in a single line.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 1 4 5
 2 4 5
@@ -109,9 +108,7 @@ For each test case print the answer modulo **106+3** in a single line.
 2
 5
 
-```
-### Explanation
-
+</pre>### Explanation
 **test #1:** \[4\] and \[5\] are the two sequences.
 
 **test #2:** \[4\], \[5\], \[4, 4\], \[4, 5\] and \[5, 5\] are the five sequences.

@@ -100,8 +100,7 @@ For each test case, output a single integer corresponding to the answer for that
 
 **Sample input:**
 
-```
-
+<pre>
 2
 3
 1 1 2
@@ -109,18 +108,13 @@ For each test case, output a single integer corresponding to the answer for that
 2 3
 
 
-```
-**Sample Output:**
-
-```
-
+</pre>**Sample Output:**
+<pre>
 2
 2
 
 
-```
-**Explanation:**
-
+</pre>**Explanation:**
 **Case 1:**
 The following different orders are possible:
 

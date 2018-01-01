@@ -89,8 +89,7 @@ All submissions for this problem are available.Chef loves to cook pies. But more
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 3
 1 2 3
@@ -101,9 +100,7 @@ All submissions for this problem are available.Chef loves to cook pies. But more
 0
 3
 
-```
-### Scoring
-
+</pre>### Scoring
 Subtask 1 (15 points): **3 ≤ N ≤ 100** 
 
 Subtask 2 (10 points): **1 ≤ Ai ≤ 50** 

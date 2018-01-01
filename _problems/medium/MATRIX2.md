@@ -82,8 +82,7 @@ Output should consist of a single integer - the answer to the problem.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2 3
 011
 111
@@ -91,9 +90,7 @@ Output should consist of a single integer - the answer to the problem.
 <b>Output:</b>
 6
 
-```
-### Scoring
-
+</pre>### Scoring
 Subtask 1 (9 points): 1 <= **N,M** <= 2000, All the numbers in the matrix are equal to one.
 
 Subtask 2 (12 points): 1 <= **N,M** <= 10. 

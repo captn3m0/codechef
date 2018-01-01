@@ -92,8 +92,7 @@ For each test case, output a single line containing the content of the signboard
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 5
 ????CIELIS???E?
@@ -109,9 +108,7 @@ TAKEITEASY
 CHEFCHEF
 AAACHEF
 
-```
-### Explanation 
-
+</pre>### Explanation 
 **Example Case 1.** Here the resulting string can have at most 2 substrings equal to **"CHEF"**. For example, some possible such strings are:
 
 - **CHEF**CIELISA**CHEF**

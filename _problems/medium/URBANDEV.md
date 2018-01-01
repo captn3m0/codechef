@@ -107,8 +107,7 @@ The output consists of two lines. The first line contains a single integer indic
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>4
 2 1 2 6
 1 3 5 3
@@ -118,4 +117,4 @@ The output consists of two lines. The first line contains a single integer indic
 <tt>3
 2 2 1 1</tt>
 
-```
+</pre>

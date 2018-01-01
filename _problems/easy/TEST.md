@@ -17,8 +17,7 @@ Your program is to use the brute-force approach in order to _find the Answer to 
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 1
 2
@@ -31,4 +30,4 @@ Your program is to use the brute-force approach in order to _find the Answer to 
 2
 88
 
-```
+</pre>

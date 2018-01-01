@@ -101,8 +101,7 @@ String **T** consists only of lowercase English letters.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 aba
 4
@@ -110,4 +109,4 @@ aba
 <b>Output:</b>
 21
 
-```
+</pre>

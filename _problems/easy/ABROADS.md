@@ -110,8 +110,7 @@ Output **Q** lines. On the **i**th line, output the size of the most populated r
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>3 3 6
 1 2 3
 1 2
@@ -132,9 +131,7 @@ D 3</tt>
 13
 10</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 - After the first query, the populations are **(3, 2, 3)** and the most populated region is **{1, 2, 3}**.
 - After the second query the populations and the regions remain the same.
 - After the third query the populations are **(3, 3, 3)** and the most populated region is again **{1, 2, 3}**.

@@ -93,8 +93,7 @@ For each case print the minimum number of attacks that are needed to kill all th
 
 ### Example
 
-```
-
+<pre>
 <b>Input</b>
 1
 3
@@ -105,4 +104,4 @@ For each case print the minimum number of attacks that are needed to kill all th
 <b>Output</b>
 2
 
-```
+</pre>

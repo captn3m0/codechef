@@ -102,12 +102,11 @@ For each test case, output a single line containing word "YES" (without quotes) 
 
 **Subtask #1 (30 pts)**- **1** ≤ **N** ≤ **10**
 
-**Subtask #2 (70 pts)**- Original constraints
+ **Subtask #2 (70 pts)**- Original constraints
 
 ### Example
 
-```
-<b>Input:</b><tt>
+<pre><b>Input:</b><tt>
 3
 3 2
 1 2
@@ -130,9 +129,7 @@ YES
 NO
 YES
 </tt>
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.**
 
 Table 1: Person 1. Table 2: Persons 2 and 3.

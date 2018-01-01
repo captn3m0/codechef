@@ -93,29 +93,22 @@ For each test case, output a single line containing the answer.
 
 ### Example
 
-```
-<b>Input:</b>
-```
-4
+<pre><b>Input:</b>
+</pre>4
 1989
 86236
 90210
 99999999999999999999999999999999999999988
 
-```
-
+<pre>
 <b>Output:</b>
-```
-0
+</pre>0
 2
 3
 2
 
-```
-
-```
-### Explanation
-
+<pre>
+</pre>### Explanation
 **Example case 1.** 1989 is already divisible by 9, so no operations are needed to be performed.
 
 **Example case 2.** 86236 can be turned into a multiple of 9 by incrementing the first and third digit (from the left), to get 96336. This takes 2 seconds.

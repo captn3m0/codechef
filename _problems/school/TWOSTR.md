@@ -92,8 +92,7 @@ For each test case, output a single line with the word **Yes** if the strings ca
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 s?or?
 sco??
@@ -104,9 +103,7 @@ sco??
 Yes
 No
 
-```
-### Explanation
-
+</pre>### Explanation
 **First Example:**  There are several ways the two strings can be matched, one of those is "score".
 
 **Second Example:**  There is no way to match the strings.

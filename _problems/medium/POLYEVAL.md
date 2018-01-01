@@ -96,8 +96,7 @@ For each query, output a single line containing the answer to the corresponding 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>2
 1 2 3
 3
@@ -110,9 +109,7 @@ For each query, output a single line containing the answer to the corresponding 
 209
 262</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.**
 
 - Query 1: 1 + 2 × 7 + 3 × 7 × 7 = 162

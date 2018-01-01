@@ -100,8 +100,7 @@ For each test case, output a single line containing the required answer.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 1 1
 10 10
@@ -117,9 +116,7 @@ For each test case, output a single line containing the required answer.
 25
 4
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1**
 
 Abhijeet has only one rectangle. He can remove it, but then the area will be 0. Optimal way is not to remove it. Area = 10 \* 10 = 100

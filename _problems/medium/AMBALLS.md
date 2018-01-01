@@ -90,8 +90,7 @@ For each test case, output an integer, denoting the number of ways that he arran
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 2
@@ -103,9 +102,7 @@ For each test case, output an integer, denoting the number of ways that he arran
 1
 10
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1**: There is only one way to arrange all balls as follows
 color-**2** color-**1** color-**2**
 

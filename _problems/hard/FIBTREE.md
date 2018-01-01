@@ -82,19 +82,19 @@ The queries are as follows:
 - **A x y**
 Add **F\[1\]** to the integer, associated with the node **x**, then add **F\[2\]** to the integer, associated with the second node on the way from **x** to **y**, then add **F\[3\]** to the integer, associated with the third node on the way from **x** to **y**, and so on. As you know, there is only one simple path from **x** to **y**.
 
-
+ 
 - **QS x y**
 Let node **x** be the root of the tree, output the sum of all integers, associated with the nodes in the subtree of the node **y**, modulo **1000000009(109+9)**.
 
-
+ 
 - **QC x y**
 Output the sum of all the integers, associated with the nodes on the way from **x** to **y**, modulo **1000000009(109+9)**.
 
-
+ 
 - **R x**
 All the integers associated with the nodes return to the state after the **x**-th query. If **x** is , then all of them become equal to , as in the very beginning.
 
-
+ 
 
 ### Input
 
@@ -105,13 +105,13 @@ Then, **N-1** lines follow. These **N-1** lines describe the tree structure. Eac
 Then, **M** lines follow. Every single line denotes a single query, which has one of the following forms: (See the sample for the detailed explanation)
 
 - **A x1 y**
-
+ 
 - **QS x1 y**
-
+ 
 - **QC x1 y**
-
+ 
 - **R x1**
-
+ 
 As you can see, the number **x** isn't given to you directly. For all queries, actual number **x** will be equal to **x1** xor **lastans**, where lastans denotes the last number that you have output, or  if you haven't output any numbers yet.
 
 
@@ -127,8 +127,7 @@ For each query of the type **QS** or **QC**, output the answer modulo **109+9**
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5 6
 1 2
 1 3
@@ -146,9 +145,7 @@ QC 6 4
 7
 4
 
-```
-### Explanation
-
+</pre>### Explanation
 Let’s denote the first state of integers as **0 0 0 0 0**, where the **i**-th interger means the integer associated with the node **i**.
 
 In the first query “**A 4 2**”, the actual number is **x = 4 xor 0 = 4**. Hence the state will be **2 3 1 1 0** after this query.

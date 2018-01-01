@@ -91,12 +91,11 @@ Now Sereja wants to know how many pairs of arc with different color intersect?
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 1 2 1 2
 
 <b>Output:</b>
 1
 
-```
+</pre>

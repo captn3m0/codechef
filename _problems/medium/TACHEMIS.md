@@ -95,8 +95,7 @@ For each test case, output a single line containing the corresponding answer.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 2
 A 2
@@ -114,9 +113,7 @@ A 11
 66
 
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1:** 
 The original string is AABB so the sub-strings
 (represented by positions of the first and the last character) which are palindromes are (1, 1), (1, 2), (2, 2), (3, 3), (3, 4) and (4, 4).

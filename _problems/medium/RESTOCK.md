@@ -33,8 +33,7 @@ Output a line with a single integer, the cost of the cheapest assignment of work
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 1 5
@@ -52,4 +51,4 @@ Output a line with a single integer, the cost of the cheapest assignment of work
 6
 4
 
-```
+</pre>

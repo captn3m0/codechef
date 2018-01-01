@@ -111,8 +111,7 @@ Subtask 2 (77 points)
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 3 3
 AbC
@@ -125,9 +124,7 @@ AbC
 5
 6
 
-```
-### Explanation
-
+</pre>### Explanation
 The first test case is explained in the problem statement.
 
 In the second test case we can only take two given subsets and can't find anything less.

@@ -97,8 +97,7 @@ For each test case, output a single line containing the number of **valid** (see
 
 ### Sample
 
-```
-
+<pre>
 <b>Input:</b>
 4
 2 2 1
@@ -113,15 +112,12 @@ For each test case, output a single line containing the number of **valid** (see
 11
 
 
-```
-### Explanation
-
+</pre>### Explanation
 **Test Case 1:** Chef has to place a single rook on a 2\*2 board. Of course the Sous Chef can always make sure that the rooks are not under attack from each other (since there is only 1). Hence the Chef cannot place the rook in any way in which the Sous Chef may not win.
 
 **Test Case 2:** There are 9 ways the chef can place the rooks initially. The ways that are marked in bold below are those in which the Sous Chef cannot win. The notation used below is simply the number of rooks placed on each of the 2\*2 cells.
 
-```
-
+<pre>
 <b>1 1
 0 0</b>
 
@@ -149,12 +145,9 @@ For each test case, output a single line containing the number of **valid** (see
 0 0
 0 2
 
-```
-Note that the following way to place the rooks was invalid.
-
-```
-
+</pre>Note that the following way to place the rooks was invalid.
+<pre>
 0 1
 1 0
 
-```
+</pre>

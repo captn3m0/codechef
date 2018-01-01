@@ -31,8 +31,7 @@ For each test case output the number of k-gons that can be formed modulo 1000000
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 4 3 1 2 2 191
@@ -44,4 +43,4 @@ For each test case output the number of k-gons that can be formed modulo 1000000
 
 
 
-```
+</pre>

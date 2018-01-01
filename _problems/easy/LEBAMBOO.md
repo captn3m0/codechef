@@ -98,8 +98,7 @@ In **T** lines print **T** integers - the answers for the corresponding test cas
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 1
@@ -119,4 +118,4 @@ In **T** lines print **T** integers - the answers for the corresponding test cas
 5
 
 
-```
+</pre>

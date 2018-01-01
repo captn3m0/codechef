@@ -95,8 +95,7 @@ For each test case, output a single line containing number of solutions for the 
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 2 2 3 5
@@ -107,9 +106,7 @@ For each test case, output a single line containing number of solutions for the 
 1
 
 
-```
-### Explanation
-
+</pre>### Explanation
 The first equation has 4 solutions:
 
 - (0,2,2)

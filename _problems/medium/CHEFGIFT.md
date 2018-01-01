@@ -44,7 +44,7 @@ Output a single integer: the maximum amount they will be able to spend on a cara
  0<=toll<=200
  0<=C\[i\]\[j\]<=100
 
-**Input:**
+ **Input:**
  3
  40 5 4
  10 9 8 7 6
@@ -65,7 +65,7 @@ Output a single integer: the maximum amount they will be able to spend on a cara
  5 7 2
  0 5
  2 0
-**Output:**
+ **Output:**
  20
  -1
  0

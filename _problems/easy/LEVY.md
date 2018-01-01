@@ -91,8 +91,7 @@ For each test case, output the number of ordered pairs **(p, q)** of primes such
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 2
@@ -104,9 +103,7 @@ For each test case, output the number of ordered pairs **(p, q)** of primes such
 1
 2
 
-```
-### Explanation
-
+</pre>### Explanation
 **Case #1:** There are no ordered pairs **(p, q)** such that **p + 2q = 2**.
 
 **Case #2:** There is only one ordered pair **(p, q) = (3, 2)** such that **p + 2q = 7**.

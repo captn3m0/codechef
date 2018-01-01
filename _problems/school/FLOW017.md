@@ -83,8 +83,7 @@ Display the second largest among **A**, **B** and **C**.
 
 ### Example
 
-```
-
+<pre>
 <b>Input</b>
 3 
 120 11 400
@@ -97,4 +96,4 @@ Display the second largest among **A**, **B** and **C**.
 312
 10
 
-```
+</pre>

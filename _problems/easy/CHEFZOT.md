@@ -94,8 +94,7 @@ Product of subarray **Aij** is product of all its elements (from **ith** to **jt
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 6
 1 0 2 3 0 4
 
@@ -116,9 +115,7 @@ Product of subarray **Aij** is product of all its elements (from **ith** to **jt
 <b>Output:</b>
 1
 
-```
-### Explanation
-
+</pre>### Explanation
 For the first sample subarray is: {2, 3}.
 
 For the second sample there are no subbarays with non-zero product.

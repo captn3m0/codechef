@@ -101,8 +101,7 @@ For each test case, output a single line containing two strings: the name of the
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5
 1
 2
@@ -123,4 +122,4 @@ Ksen Ksen
 Ksen Chef
 Chef Chef
 
-```
+</pre>

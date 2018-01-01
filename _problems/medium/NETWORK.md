@@ -28,8 +28,7 @@ For each test case, output C lines, where the i'th line contains the greatest di
 
 ### Sample Input
 
-```
-3
+<pre>3
 
 2 3
 5 5 2
@@ -50,11 +49,8 @@ For each test case, output C lines, where the i'th line contains the greatest di
 10 5 1
 6 8 1
 3 3
-```
-### Sample Output
-
-```
-2.000
+</pre>### Sample Output
+<pre>2.000
 3.000
 5.000
 
@@ -64,9 +60,7 @@ For each test case, output C lines, where the i'th line contains the greatest di
 7.071
 
 5.831
-```
-### Constraints
-
+</pre>### Constraints
 T is between 1 and 15, inclusive.
  S is between 1 and 30, inclusive.
  Each access point supports between 1 and 30 connections, inclusive.

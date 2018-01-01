@@ -85,8 +85,7 @@ Both these values must be on the same line separated by a single space.
 
 ### Constraints:
 
-```
-
+<pre>
 
 1 ≤ <b>N</b> ≤ 250
 1 ≤ <b>M</b> ≤ 10000
@@ -94,9 +93,7 @@ Both these values must be on the same line separated by a single space.
 0 ≤ <b>S</b>,<b>G</b>,<b>D</b> ≤ <b>N</b>-1
 
 
-```
-### Example:
-
+</pre>### Example:
 **Input:**```
 
 4
@@ -111,13 +108,11 @@ Both these values must be on the same line separated by a single space.
 3 0 1
 
 
-```
-**Output:**```
-
+<pre>**Output:**<pre>
 2 0
 1 0
 3 2
 3 2
 
 
-```
+</pre>

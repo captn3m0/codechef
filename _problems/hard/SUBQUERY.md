@@ -94,8 +94,7 @@ For each query output the answer at the corresponding line of the output.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 abacaba
 1
 3 2
@@ -103,7 +102,5 @@ abacaba
 <b>Output:</b>
 1
 
-```
-### Explanation
-
+</pre>### Explanation
 The only such string is **aba**.

@@ -98,8 +98,7 @@ For each test case, output a single number each in separate line denoting number
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>1
 2 3 3 4</tt>
 
@@ -113,4 +112,4 @@ For each test case, output a single number each in separate line denoting number
 <b>Output:</b>
 <tt>499998500001</tt>
 
-```
+</pre>

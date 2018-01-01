@@ -105,8 +105,7 @@ For each test case, output a single line containing two integers: the number of 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 7 4 6
 1 4 6 7
@@ -120,9 +119,7 @@ For each test case, output a single line containing two integers: the number of 
 1 1
 
 
-```
-### Explanation
-
+</pre>### Explanation
  In the first test case, the source files {1, 4, 6, 7} are both tracked and ignored, the source file {5} is both untracked and unignored.
 
  In the second test case, the source file {4} is both tracked and ignored, the source file {2} is both untracked and unignored.

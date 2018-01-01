@@ -91,8 +91,7 @@ Note also that the answer could be , which means that two Ciel's restaurants sho
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 4
 15 15 50
@@ -106,9 +105,7 @@ Note also that the answer could be , which means that two Ciel's restaurants sho
 69.00000
 0
 
-```
-### Explanation 
-
+</pre>### Explanation 
 **Example case 1.** The distance between markets **S** and **T** is **50**. Assume for simplicity that **S** has coordinates **(0, 0)** and **T** has coordinates **(50, 0)**. Then Ciel could build her first restaurant **RS** at the point **(15, 0)** and the second restaurant **RT** at the point **(35, 0)**. This will ensure that the distance between **S** and **RS** is **DS = 15** and the distance between **T** and **RT** is **DT = 15**. The distance between restaurants appear to be **20** in this scenario. One can prove that this is the minimum possible distance.
 
 **Example case 2.** Here Ciel can locate both her restaurants at the same place. Indeed, if **S = (0, 0)** and **T = (18, 0)** then Ciel could locate both her restaurants at the point **R = (9, 12)**. To check this note that **Dist(R, S) = ((9 − 0)2 + (12 − 0)2)1/2 = (81 + 144)1/2 = 2251/2 = 15**. Similarly it can be verified that **Dist(R, T) = 15**.

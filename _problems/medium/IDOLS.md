@@ -116,8 +116,7 @@ For each query of the second type, output a single line containing two integers,
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5 2
 1 2 3 4 5
 1 2 3 4
@@ -127,9 +126,7 @@ For each query of the second type, output a single line containing two integers,
 <b>Output:</b>
 5 5
 
-```
-### Explanations
-
+</pre>### Explanations
 In the input, before the second query, **F**'s and **G's** equals to the following:
 
 **ID****F****G**111222333444555After the second query, **F**'s and **G's** equals to the following:

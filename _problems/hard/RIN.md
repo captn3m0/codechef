@@ -107,7 +107,7 @@ Output one real number: the maximal average score, rounded to 2 digits after the
 - For each **i**, **A\[i\]** ≠ **B\[i\]**.
 - For different **i** and **j**, (**A\[i\]**, **B\[i\]**) ≠ (**A\[j\]**, **B\[j\]**).
 - We guarantee there exists a way to take these **N** courses in **M** semesters.
-
+ 
 ### Subtasks
 
 **Subtask 1**: (20 Points) A course can have at most 1 pre request course.
@@ -142,9 +142,7 @@ Output one real number: the maximal average score, rounded to 2 digits after the
 <b>Output 2:</b>
 32.50
 
-```
-### Explanation
-
+<pre>### Explanation
 **Example case 1**
 
 The only way she can finish these 3 courses is: take course 1 in the first semester, then take courses 2 and 3 in the second semester. The average score is (70 + 80 + 90) / 3 = 80.00.

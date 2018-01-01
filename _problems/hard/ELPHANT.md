@@ -92,7 +92,7 @@ A single camera can take a picture of a group of elephants if and only if all th
 In the following act, the elephant at position 15 dances to position 32. After this act, we need at least two cameras
  to take the snapshot.
 
-![elephant_2](http://www.codechef.com/download/elephant_2.png)
+![elephant_2](http://www.codechef.com/download/elephant_2.png) 
 />
 
 In the next act, the elephant at position 10 moves to position 7. For the new arrangement of elephants, we need three
@@ -128,8 +128,7 @@ Output should consist of **M** integers in separate lines, denoting the **minimu
 **Input**
 />
 
-```
-
+<pre>
 4 10 5
 10
 15
@@ -141,27 +140,21 @@ Output should consist of **M** integers in separate lines, denoting the **minimu
 0 38
 2 0
 
-```
-**Output**
-/>
+</pre>**Output**/>
 
-```
-
+<pre>
 1
 2
 2
 2
 3
 
-```
-**Example 2:**
-/>
+</pre>**Example 2:**/>
 
 **Input**
 />
 
-```
-
+<pre>
 2 12321 3
 2
 123
@@ -169,19 +162,14 @@ Output should consist of **M** integers in separate lines, denoting the **minimu
 0 66321
 0 78754
 
-```
-**Output**
-/>
+</pre>**Output**/>
 
-```
-
+<pre>
 2
 1
 1
 
-```
-### Subtasks
-
+</pre>### Subtasks
 **Subtask 1 (10 points)**
 
 - There are exactly **N** = 2 elephants.

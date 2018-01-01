@@ -92,8 +92,7 @@ For each test case, output "Yes" if possible somehow to gum up triangles into bi
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 3 4 5
 5 4 3
@@ -119,9 +118,7 @@ No
 Yes
 
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** We can obtain (6, 8, 10).
 
 **Example case 2.** We can obtain (182, 303, 472).

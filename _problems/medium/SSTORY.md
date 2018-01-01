@@ -116,8 +116,7 @@ On the case where there are multiple answers, the first common event to be found
 
 ### Example
 
-```
-<b>Input 1:</b>
+<pre><b>Input 1:</b>
 adsyufsfdsfdsf
 fdyusgfdfyu
 
@@ -125,18 +124,14 @@ fdyusgfdfyu
 fd
 2
 
-```
-```
-<b>Input 2:</b>
+</pre><pre><b>Input 2:</b>
 adsyufsfdsfdsf
 bbbbbbbbb
 
 <b>Output 2:</b>
 0
 
-```
-```
-<b>Input 3:</b>
+</pre><pre><b>Input 3:</b>
 abcdef
 defabc
 
@@ -144,9 +139,7 @@ defabc
 def
 3
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.**The longest life event is **"fd"** whose length is 2.
 
 **Example case 2.**The girls will follow separate lives.

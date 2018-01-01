@@ -29,8 +29,7 @@ You can assume that this number fits into a signed 64 bit integer.
 
 ### Example
 
-```
-<b><tt>Input:</tt></b>
+<pre><b><tt>Input:</tt></b>
 2
 10 10
 30 7
@@ -39,4 +38,4 @@ You can assume that this number fits into a signed 64 bit integer.
 1
 475020
 
-```
+</pre>

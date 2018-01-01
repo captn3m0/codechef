@@ -29,8 +29,7 @@ For each test case output just one line containing the required number modulo 10
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 2 1
@@ -47,5 +46,4 @@ ababab
 
 <b>Explanation:</b>
 
-```
-In the first test case, the password is definitely "aa". In the second test case, it can be "abc", "abd", "acd" or "bcd", so in the worst case Chef will guess the correct option from the fourth attempt, thus making 3 unsuccessful attempts.
+</pre>In the first test case, the password is definitely "aa". In the second test case, it can be "abc", "abd", "acd" or "bcd", so in the worst case Chef will guess the correct option from the fourth attempt, thus making 3 unsuccessful attempts.

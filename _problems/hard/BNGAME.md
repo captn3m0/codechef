@@ -98,8 +98,7 @@ Output the minimal possible penalty on the first line.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5 3
 1 5
 2 4
@@ -110,4 +109,4 @@ Output the minimal possible penalty on the first line.
 <b>Output:</b>
 9
 
-```
+</pre>

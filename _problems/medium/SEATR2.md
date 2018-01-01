@@ -94,8 +94,7 @@ For each test case, output a single integer corresponding to the answer in separ
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 3 2
 1 2
@@ -106,7 +105,5 @@ For each test case, output a single integer corresponding to the answer in separ
 5
 100
 
-```
-### Explanation
-
+</pre>### Explanation
 In first test case there are five possible assigns of numbers: \[1, 1, 1\], \[1, 1, 2\], \[1, 2, 1\], \[1, 2, 2\], \[2, 2, 2\]. In second test case there are hundred possible assigns: \[1\], \[2\], \[3\], ..., \[100\].

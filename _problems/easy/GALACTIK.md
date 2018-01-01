@@ -105,8 +105,7 @@ Print the minimum amount needed for the GFA to fulfill their plan if it can be f
 
 ### Sample
 
-```
-
+<pre>
 <b>Input 1</b>
 6 6
 1 2
@@ -137,4 +136,4 @@ Print the minimum amount needed for the GFA to fulfill their plan if it can be f
 -1
 
 
-```
+</pre>

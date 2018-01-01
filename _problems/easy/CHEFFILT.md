@@ -118,8 +118,7 @@ Chef is extremely interested in knowing how many **different subsets** of all th
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 wwwwwwwwww
 3
@@ -141,9 +140,7 @@ bbbbbbbbbb
 2
 4
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** There is no filter or combination of filters transforming the picture to whole black.
 
 **Example case 2.** Chef can either apply the first filter (and invert all whites) or apply the second and third filters in any order.

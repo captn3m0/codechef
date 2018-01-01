@@ -25,7 +25,7 @@ layout: problem
 ---
 All submissions for this problem are available.Today, you finally have a chance to compete with a famous coder like Chef and prove your mettle.
 
-Chef has **n** distinct points in 2-D plane, i.e. there are never two points with both **x** and **y** coordinate equal and there are no two points with same **x** coordinate. Consider a subset of above **n** points which can be arranged as a sequence **p1**,..**pk**, such that **xp1**xp2xpk and each point **pi**, where **i** is in range between 3 and **k** (both inclusive) lies below or on the line passing between points **pi-1** and **pi-2**. Chef likes these kind of subsets. So he wants to find the size of largest of such subsets.
+Chef has **n** distinct points in 2-D plane, i.e. there are never two points with both **x** and **y** coordinate equal and there are no two points with same **x** coordinate. Consider a subset of above **n** points which can be arranged as a sequence **p1**,..**pk**, such that **xp1**xp2 xpk and each point **pi**, where **i** is in range between 3 and **k** (both inclusive) lies below or on the line passing between points **pi-1** and **pi-2**. Chef likes these kind of subsets. So he wants to find the size of largest of such subsets.
 
 ### Input
 
@@ -43,11 +43,10 @@ For a each test case, output a single integer in separate line corresponding to 
 
 - 1 ≤ **T, N**, sum over all **N** over all test cases ≤ 2000
 - 1 ≤ **xi**, **yi** ≤ 109
-
+ 
 ### Example
 
-```
-
+<pre>
  <b>Input:</b>
  3
  3
@@ -70,9 +69,7 @@ For a each test case, output a single integer in separate line corresponding to 
  3
  4
 
-```
-### Explanation
-
+</pre>### Explanation
 **Explanation case 1.**
 
  We can get sequence (1, 1) - (4, 2) - (9, 3), point (9, 3) lies below line between point (1, 1) and (4, 2). **Explanation case 2.**

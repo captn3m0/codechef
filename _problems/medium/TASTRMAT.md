@@ -121,8 +121,7 @@ So overall, your output should be **K** lines, each containing the hash value co
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 10101
 3
 101
@@ -134,9 +133,7 @@ So overall, your output should be **K** lines, each containing the hash value co
 993599731
 400004
 
-```
-### Explanation:
-
+</pre>### Explanation:
 **First test case:**  **A** = "10101", **B** = "101".
 The Hamming distances sequence will be (0, 3, 0) and the hash value of this sequence is 300003.
 

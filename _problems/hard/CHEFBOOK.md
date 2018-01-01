@@ -77,7 +77,7 @@ The Chief Chef has built a new social network call **Chefbook**. Everyone who is
 
 In Chefbook, a chef can be a friend with other chefs (one or more). The friendship is not bidirectional that means if chef **A** is a friend of chef **B**, not necessarily chef **B** is a friend of chef **A**. Every chef **x** in Chefbook will give a likeness value **Lxy** to each of his Chefbook friend **y**. Likeness indicates how much he like his friend.
 
-The Chief Chef wants that every chef in Chefbook should have friends with moderate likeness only. He does not like the fact one chef likes another chef too much or one chef does not like another chef at all. As he is the admin of the Chefbook, he decided to change the likeness value of some chef’s such that all the likeness value resides between a lower value and upper value. But changing likeness value for each friendship could be tedious and boring job. So Chief Chef comes up with a new idea. He will choose a chef **x** of Chefbook and increase likeness **Lxy** by **Px** for all of his friends **y**. Another option is he will choose a chef **y** and decrease likeness **Lxy** by **Qy** for all chef **x** such that **y** is a friend of **x**. The increase operation on **x** or decrease operation on **y** can be done only once. During any operation the intermediate value of **Lxy** can have any value but the final value of **Lxy** (for all **x** and **y**) should be in between **Sxy** and **Txy** (inclusive), where **Sxy** and **Txy** are the lower limit and upper limit respectively of the new likeness value **Wxy** of chef **x** for his friend **y**.
+The Chief Chef wants that every chef in Chefbook should have friends with moderate likeness only. He does not like the fact one chef likes another chef too much or one chef does not like another chef at all. As he is the admin of the Chefbook, he decided to change the likeness value of some chef’s such that all the likeness value resides between a lower value and upper value. But changing likeness value for each friendship could be tedious and boring job. So Chief Chef comes up with a new idea. He will choose a chef **x** of Chefbook and increase likeness **Lxy** by **Px** for all of his friends **y**. Another option is he will choose a chef **y** and decrease likeness **Lxy** by **Qy** for all chef **x** such that **y** is a friend of **x**. The increase operation on **x** or decrease operation on **y** can be done only once. During any operation the intermediate value of **Lxy** can have any value but the final value of **Lxy** (for all **x** and **y**) should be in between **Sxy** and **Txy**  (inclusive), where **Sxy** and **Txy** are the lower limit and upper limit respectively of the new likeness value **Wxy** of chef **x** for his friend **y**.
 
 **Wxy = Lxy + Px - Qy**
 
@@ -116,8 +116,7 @@ First line of each test case will contain a single line with a single word "**Un
 
 ### Example
 
-```
-<b>Sample Input</b>
+<pre><b>Sample Input</b>
 2
 2 4
 1 1 2 5 10
@@ -137,4 +136,4 @@ First line of each test case will contain a single line with a single word "**Un
 Unlike
 
 
-```
+</pre>

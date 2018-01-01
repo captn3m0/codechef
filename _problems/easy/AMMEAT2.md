@@ -91,8 +91,7 @@ For each test case, output **K** distinct integers, denoting the number of selec
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 100 3
 100 100
@@ -101,9 +100,7 @@ For each test case, output **K** distinct integers, denoting the number of selec
 45 63 35
 -1
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1**: One of the possible choices is that he takes **45**th plate, **63**rd plate, and **35**th plate. Because
 **GCD(45, 63) = 9**,
 **GCD(45, 35) = 5**,

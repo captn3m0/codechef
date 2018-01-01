@@ -84,34 +84,34 @@ Na2a has **N** numbers in his bag which are denoted by array **A**. For each num
 - There is a single test case.
 - First line contains a single integer **N** as stated in the problem.
 - The second line contains **N** space-separated integers **A**1, **A**2, ... , **A****N** where **A**i denotes the **i**th number in the bag.
-
+ 
 ### Output
 
 - Output **N** lines, in which **i**th line contains the answer corresponding to the number **A**i.
-
+ 
 ### Constraints
 
 - 1 ≤ **N** ≤ 105
 - 1 ≤ **A**i ≤ 109
-
+ 
 ### Subtasks
 
  **Subtask 1(8 points)**
 
 - 1 ≤ **N** ≤ 10
 - 1 ≤ **A**i ≤ 10
+ 
 
-
- **Subtask 2(22 points)**
+  **Subtask 2(22 points)**
 
 - 1 ≤ **N** ≤ 102
 - 1 ≤ **A**i ≤ 103
+ 
 
-
- **Subtask 3(70 points)**
+  **Subtask 3(70 points)**
 
 - Original constraints
-
+ 
 ### Example
 
  ```
@@ -123,9 +123,7 @@ Na2a has **N** numbers in his bag which are denoted by array **A**. For each num
 2
 60
 
-```
-### Explanation
-
+<pre>### Explanation
 **Example case 1.** You can't get any number having zeros at the end multiplying 2 by lucky numbers.
 
 **Example case 2.** You can multiply 15 by 4 and get 60, which has one trailing zero.

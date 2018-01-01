@@ -103,8 +103,7 @@ For each test case print the remainder of the division the answer on **100000000
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 1
 1
@@ -116,4 +115,4 @@ For each test case print the remainder of the division the answer on **100000000
 1
 
 
-```
+</pre>

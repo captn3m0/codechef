@@ -23,8 +23,7 @@ For a given positive integers **B** and **X** find the number of positive intege
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 5 1
@@ -37,7 +36,5 @@ For a given positive integers **B** and **X** find the number of positive intege
 63
 
 
-```
-### Explanation
-
+</pre>### Explanation
 In the second test case required numbers are 1, 2, 3, 4, 6.

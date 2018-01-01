@@ -122,8 +122,7 @@ For each test case, print a single line containing the answer of the test case, 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 8
 0
 BB
@@ -152,9 +151,7 @@ BGB
 1
 0
 
-```
-### Explanation
-
+</pre>### Explanation
 Note **type** of the first **3** test cases is . So **c(i, j) = 1**. Hence we just have to count minimum number of swaps needed.
 
 **Example case 1.** There is no way to make sure that both the boys does not stand nearby. So answer is **-1**.

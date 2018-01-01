@@ -102,8 +102,7 @@ For each test case, output a single integer corresponding to the answer of the p
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>3
 2
 ab
@@ -121,9 +120,7 @@ baab</tt>
 0
 2</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 **In the first example**, the minimum value of LCS of all the strings is 1, the string by oracle can be one of these {aa, ab, ba, bb}.
 
 **In the second example**, whatever string oracle has does not matter, LCS will always be zero.

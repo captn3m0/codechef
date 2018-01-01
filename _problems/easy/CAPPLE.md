@@ -105,8 +105,7 @@ For each of the **T** test cases, output a single line - the minimum time to plu
 
 ### Example
 
-```
-
+<pre>
 <b>Input</b>
 2
 3
@@ -118,9 +117,7 @@ For each of the **T** test cases, output a single line - the minimum time to plu
 1
 3
 
-```
-### Explanation
-
+</pre>### Explanation
 For test 1, Chef can select all the trees and can pluck all the apples in 1 minute.
 
 For test 2, there are many ways Chef can pluck all of the apples in 3 minutes. Here is one example:

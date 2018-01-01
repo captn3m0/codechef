@@ -94,8 +94,7 @@ For each test case, output a line with the string **Yes** or **No**, denoting th
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 0 0 
 1 0
@@ -122,9 +121,7 @@ For each test case, output a line with the string **Yes** or **No**, denoting th
 Yes
 No
 
-```
-### Explanation
-
+</pre>### Explanation
 The figures from the first test case of the sample:
 
 ![](https://s3.amazonaws.com/codechef_shared/download/COOK67/1.png)

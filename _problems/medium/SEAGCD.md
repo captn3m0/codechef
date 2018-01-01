@@ -95,8 +95,7 @@ For each test case output the required sum, modulo **109+7**.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 5 5 1 5
@@ -107,4 +106,4 @@ For each test case output the required sum, modulo **109+7**.
 2
 
 
-```
+</pre>

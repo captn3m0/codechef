@@ -123,8 +123,7 @@ For each test case, Print "Lucky Chef" (without quotes) in first line and minimu
 **1. Subtask #2 (60 points) : Sum of |A| & |B| over all test cases does not exceed 106** 
 ### Example
 
-```
-
+<pre>
 <b>Input</b>
 2
 101
@@ -137,9 +136,7 @@ Lucky Chef
 Unlucky Chef
 
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.**
 
 - Applying XOR operation with indices i = 1 and j = 2. Resulting string will be 011.

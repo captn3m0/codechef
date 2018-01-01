@@ -31,8 +31,7 @@ Output the minimum sum of modifications as a reduced fraction "X/Y" - greatest c
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 4 4
 0 1 1
@@ -44,7 +43,5 @@ Output the minimum sum of modifications as a reduced fraction "X/Y" - greatest c
 5/1
 
 
-```
-### Explanation
-
+</pre>### Explanation
 One possible scenario is to decrease the length of flight (0,3) by 1, increase (0,1) by 3 and (1,2) by 1.

@@ -94,8 +94,7 @@ For each test case, output a single line containing the total sum to the corresp
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 2
 1 2
@@ -103,9 +102,7 @@ For each test case, output a single line containing the total sum to the corresp
 <b>Output:</b>
 6
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** **F(1, 1) = A\[1\] = 1**, **F(2, 2) = A\[2\] = 2** and **F(1, 2) = A\[1\]** XOR **A\[2\] = 1** XOR **2 = 3**. Hence the answer is **1 + 2 + 3 = 6**.
 
 <a name="NOTE">

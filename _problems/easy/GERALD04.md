@@ -100,8 +100,7 @@ For each test case output a single line containing two real numbers - the time f
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 10:00
 09:00
@@ -118,4 +117,4 @@ For each test case output a single line containing two real numbers - the time f
 90.0 60.0
 120.0 90.0
 
-```
+</pre>

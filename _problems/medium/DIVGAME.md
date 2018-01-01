@@ -99,8 +99,7 @@ Your output should contain exactly **T** lines, each contains the name of the wi
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4 
 5 
 3 
@@ -113,4 +112,4 @@ Tom
 Mike
 Mike
 
-```
+</pre>

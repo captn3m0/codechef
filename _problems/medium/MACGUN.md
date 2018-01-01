@@ -96,8 +96,7 @@ The sum of MxN does not exceed 490000 in one judge file.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3 4
 FPFP
@@ -116,4 +115,4 @@ FPF
 6
 
 
-```
+</pre>

@@ -99,8 +99,7 @@ For each test case, output a single line containing a single integer, the number
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>3
 2 3
 1 0
@@ -114,7 +113,5 @@ For each test case, output a single line containing a single integer, the number
 94
 100</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 In the first case, the following initial states result in a win for Henry: \[1,1,1\], \[0,0,1\], \[0,1,0\], \[1,0,0\].

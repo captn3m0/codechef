@@ -96,8 +96,7 @@ Output the maximum height you can reach. The value must have an absolute error l
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2 3.2 7.3
 3.2 4.7 28
@@ -107,4 +106,4 @@ Output the maximum height you can reach. The value must have an absolute error l
 3.300759642
 
 
-```
+</pre>

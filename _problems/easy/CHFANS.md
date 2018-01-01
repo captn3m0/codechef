@@ -95,8 +95,7 @@ Print **T** lines with each containing the required answer.
 14. -100000 ≤ **S1,S2** ≤ 100000.
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 1 2
 6 5
@@ -107,4 +106,4 @@ Print **T** lines with each containing the required answer.
 1
 3
 
-```
+</pre>

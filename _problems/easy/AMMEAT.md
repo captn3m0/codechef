@@ -89,8 +89,7 @@ For each test case, output an integer, denoting the minimum number of plates. If
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 4 7
 1 2 3 4
@@ -98,7 +97,5 @@ For each test case, output an integer, denoting the minimum number of plates. If
 <b>Output:</b>
 2
 
-```
-### Explanation
-
+</pre>### Explanation
 If he takes **3**rd and **4**th plates, then we may eat **P3 + P4 = 7** meatballs in Las Vegas. This is the only way for eating at least **M = 7** meatballs with **2** plates.

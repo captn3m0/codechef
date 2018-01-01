@@ -97,8 +97,7 @@ For each test case, **output a single integer** - the number of **sub-sequences*
 
 ### Sample
 
-```
-
+<pre>
 <b>Input</b>
 3
 4
@@ -114,9 +113,7 @@ For each test case, **output a single integer** - the number of **sub-sequences*
 1
 
 
-```
-### Explanation
-
+</pre>### Explanation
 **Test Case 1:** The following 11 sub-sequences are counted.
 
 - { 2, 3 }

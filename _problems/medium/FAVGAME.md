@@ -123,8 +123,7 @@ For each test case, output a single integer ― the minimum number of working da
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>2
 5 24
 13 24 22 12 16
@@ -151,9 +150,7 @@ For each test case, output a single integer ― the minimum number of working da
 4</tt>
 
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1:** Chef has to complete every level during separate working days, and so to complete all **5** levels he needs **5** working days.
 
 **Example case 2:** Chef will complete the Game if he will always push unlocked levels into stack starting with the largest indexed one and ending with the smallest indexed one. That is, after Chef completes level **1** he first pushes level **10** (**S = \[10\]**), then level **5** (**S = \[10, 5\]**) and then level **2** (**S = \[10, 5, 2\]**). So the second level Chef will play is **2**.

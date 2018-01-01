@@ -90,17 +90,14 @@ The first line of input contains two space separated integers **N** and **Q** de
  Each of the next **Q** lines contains five integers **ai**, **bi**, **ci**, **di**, **ki**.
  We will generate **li**, **ri** indices for this query as follows:
 
-```
-
+<pre>
 Let answer for <b>i - 1<sup>th</sup></b> query equal <b>ans<sub>i - 1</sub></b>. 
 For <b>0<sup>th</sup></b> query <b>ans<sub>0</sub></b> = 0. 
 Define <b>l<sub>i</sub></b> = (<b>a<sub>i</sub></b> x <b>max(ans<sub>i - 1</sub>, 0)</b> + <b>b<sub>i</sub></b>) mod <b>N</b> + 1, 
 <b>r<sub>i</sub></b> = (<b>c<sub>i</sub></b> x <b>max(ans<sub>i-1</sub>, 0)</b> + <b>d<sub>i</sub></b>) mod <b>N</b> + 1. 
 If <b>l<sub>i</sub></b> > <b>r<sub>i</sub></b>, then swap <b>l<sub>i</sub></b> and <b>r<sub>i</sub></b>.
 	
-```
-### Output
-
+</pre>### Output
 For each query, output the answer to the query in a single line. If such a number doesn't exist, output **-1**.
 
 ### Constraints
@@ -113,8 +110,7 @@ For each query, output the answer to the query in a single line. If such a numbe
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4 4
 3 2 1 2
 0 1 0 3 2
@@ -154,9 +150,7 @@ For each query, output the answer to the query in a single line. If such a numbe
 6
 4
 
-```
-### Subtasks
-
+</pre>### Subtasks
 - **Subtask #1 (10 points) :** **Q** x **N** ≤ 107
 - **Subtask #2 (20 points) :** **ki** = 1
 - **Subtask #3 (30 points) :** **ai** = 0, **ci** = 0

@@ -77,7 +77,7 @@ You are given a function f which is defined as :
 
 Your task is to find the value of
 
-![](https://codechef_shared.s3.amazonaws.com/download/COOK55/fraction.png)
+![](https://codechef_shared.s3.amazonaws.com/download/COOK55/fraction.png) 
 
 where **M** is given in input.
 
@@ -107,8 +107,7 @@ For each test case, output **Q** lines, each line containing the required answer
 
 1 < **r** < **N**
 
-```
-
+<pre>
 <b>Sample Input</b>
 2
 5 114 1
@@ -125,9 +124,7 @@ For each test case, output **Q** lines, each line containing the required answer
 1144
 
 
-```
-### Explanation for first test case
-
+</pre>### Explanation for first test case
 f\[1\] = 1
 
 f\[2\] = 2

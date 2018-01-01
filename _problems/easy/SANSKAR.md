@@ -95,8 +95,7 @@ For each test case, output "yes" if it is possible to divide his sanskars equall
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 5 3
 1 2 4 5 6
@@ -107,7 +106,5 @@ For each test case, output "yes" if it is possible to divide his sanskars equall
 yes
 no
 
-```
-### Explanation
-
+</pre>### Explanation
 In the first case, sanskars can be allocated as follows, each follower receiving a total intensity of 6: {1,5}, {2,4}, {6}.

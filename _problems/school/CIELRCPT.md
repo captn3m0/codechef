@@ -92,23 +92,17 @@ There exists combinations of menus whose total price is exactly **p**.
 
 ### Sample Input
 
-```
-4
+<pre>4
 10
 256
 255
 4096
-```
-### Sample Output
-
-```
-2
+</pre>### Sample Output
+<pre>2
 1
 8
 2
-```
-### Explanations
-
+</pre>### Explanations
 In the first sample, examples of the menus whose total price is 10 are the following:
 1+1+1+1+1+1+1+1+1+1 = 10 (10 menus)
 1+1+1+1+1+1+1+1+2 = 10 (9 menus)

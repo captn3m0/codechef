@@ -111,8 +111,7 @@ For each test case, output a single line containing one integer denoting amount 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>3
 3
 1 2
@@ -144,4 +143,4 @@ For each test case, output a single line containing one integer denoting amount 
 1
 24</tt>
 
-```
+</pre>

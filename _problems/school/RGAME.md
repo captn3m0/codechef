@@ -106,8 +106,7 @@ Princess Rupsa wants to find out the sum of scores obtained by all possible diff
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 1
 1 2
@@ -118,7 +117,5 @@ Princess Rupsa wants to find out the sum of scores obtained by all possible diff
 4
 14
 
-```
-### Explanation
-
+</pre>### Explanation
 - There are **2** possible gameplays. **A0A1** which gives score of **2** and **A1A0** which also gives score of **2**. So the answer is **2 + 2 = 4**

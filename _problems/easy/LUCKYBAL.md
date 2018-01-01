@@ -95,8 +95,7 @@ For each test case output a single line containing the answer for this test case
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 4
 47
@@ -111,9 +110,7 @@ For each test case output a single line containing the answer for this test case
 23
 
 
-```
-### Explanation
-
+</pre>### Explanation
 In the first test case balance substrings are **S\[1, 1\] = 4** and **S\[1, 2\] = 47**.
 
 In the second test case balance substrings are **S\[2, 2\] = 4** and **S\[1, 2\] = 74**.

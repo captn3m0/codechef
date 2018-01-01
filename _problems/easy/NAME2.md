@@ -92,8 +92,7 @@ For each test case print `"YES"` if they are allowed to marry, else print `"NO"`
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 john johanna
@@ -105,9 +104,7 @@ YES
 YES
 NO
 
-```
-### Explanation
-
+</pre>### Explanation
 **Case 1:** Consider **S = "johanna"**. So, **S\[0\] = 'j', S\[1\] = 'o', S\[2\] = 'h'** and so on. If we remove the indices \[3, 4, 6\] or \[3, 5, 6\] from S, it becomes **"john"**. Hence **"john"** is a subsequence of **S**, so the answer is "YES".
 
 **Case 2:** Any string is a subsequence of it self, as it is formed after removing **"0"** characters. Hence the answer is **"YES"**.

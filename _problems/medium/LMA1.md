@@ -73,7 +73,7 @@ All submissions for this problem are available.###  Read problems statements in 
 Lucy is taking math analysis classes in her school. She always has a lot of homework and she always spends a considerable amount of time in order to do it, but today she had completely forgotten about it for some reason. So, please, help her!
 
 Lucy asks you to solve to following problem: calculate the following:
-![](//www.codechef.com/download/CodeCogsEqn-7.gif)
+ ![](//www.codechef.com/download/CodeCogsEqn-7.gif)
  Output the result till the **D-th** digit after the decimal point. We're asking you to output truncated result, but not rounded!
 
 ### Input
@@ -88,8 +88,7 @@ For each test case, output a single line containing the answer to the correspond
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 0.62 2.71 3.14 42
 0.91 4.70 6.67 18
@@ -100,9 +99,7 @@ For each test case, output a single line containing the answer to the correspond
 796.867901234567901234
 0.187143148658300173451688603203754718906234057749209264360779512294
 
-```
-### Scoring
-
+</pre>### Scoring
 In all the test cases, 0.01 <= **a** < 1.00, 0.00 <= **p** <= 10.00, 0.00 <= **q** <= 10.00
 
 Output will not exceed 1 MB

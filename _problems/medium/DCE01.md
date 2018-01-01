@@ -19,27 +19,21 @@ The captain has assigned you the job of finding the total time in sinking of the
 The ship is considered sunk only when all the sectors at all levels are drowned completely in water. 
 A ship is represented in sectors as below:
 
-```
-
+<pre>
 + + + + +     
  + + + +
   + + +
 
-```
-
-n is the number of sectors in the topmost level, k is the number of levels. 
+</pre>n is the number of sectors in the topmost level, k is the number of levels. 
 The first(topmost) level contains n sectors, 2nd contains n-1 sectors, and the k-th(lowermost) sector contains n-k+1 sectors.
 A sector can only drown when one of the following conditions are met: 
 \* a neighbor of the sector is completely drowned. 
 \* both the sectors under a sector are completely drowned. 
-```
-
+<pre>
    +  a  +
      b  c  
 
-```
- "a" will drown when both "b" and "c" are drowned.
-### Input
+</pre> "a" will drown when both "b" and "c" are drowned.### Input
 
 The first line contains the number of test cases (about 10). t test cases follow. 
 For each test case, the first line contains three integers n(<=1000), k( The next k lines contain the integers denoting the time taken for the sectors in k-th level to drown completely.
@@ -50,8 +44,7 @@ Display t lines each having the single integer, the total time after which, the 
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 1
 7 2 3
@@ -62,14 +55,10 @@ Display t lines each having the single integer, the total time after which, the 
 <b>Output:</b>
 33
 
-```
-
-
+</pre>
 **Explanation:**The sinking time of all the sectors for this example are: ```
 
 17  15  12 16 21  27  33
   15  11   5   9  16  18
 
-```
-
-Hence the answer 33.
+<pre>Hence the answer 33.

@@ -102,7 +102,7 @@ For each test case, output a single line containing **N** integers: the maximal 
 - 1 ≤ **T** ≤ 10
 - 1 ≤ **N** ≤ 5000
 - 0 ≤ **Ai**, **Bi** ≤ 109
-
+ 
 ### Example
 
  ```
@@ -120,4 +120,4 @@ For each test case, output a single line containing **N** integers: the maximal 
 6 17 36 61 91
 
 
-```
+<pre>

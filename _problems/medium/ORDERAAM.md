@@ -73,7 +73,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 Chef gets **N** orders. The orders are numbered from **1** to **N**. He gets order **i** at **Si** time, and this order contains **Xi** number of items. Chef needs to serve each of these **Xi** items before **Di** time and for each unit of items he cannot cook before this deadline he needs to pay **Pi** unit of money as penalty. Given all of the orders, help the Chef to minimize the penalty he will have to pay. 
 
-**Important Note**: Chef can cook at most one item at a unit time and for each item he needs exactly one unit of time to cook. Also Chef can serve an item instantly, when the item is cooked. If Chef wants to serve an item at time **t**, then the latest he can cook that item is at time time **t**. In another words, for order **i** Chef can cook the items at time units **Si**, **Si+1**, **Si+2**, ..., **Di-1**. Please note, that Chef can not cook items from order **i** exactly at time unit **Di**.
+ **Important Note**: Chef can cook at most one item at a unit time and for each item he needs exactly one unit of time to cook. Also Chef can serve an item instantly, when the item is cooked. If Chef wants to serve an item at time **t**, then the latest he can cook that item is at time time **t**. In another words, for order **i** Chef can cook the items at time units **Si**, **Si+1**, **Si+2**, ..., **Di-1**. Please note, that Chef can not cook items from order **i** exactly at time unit **Di**.
 
 ### Input
 
@@ -95,8 +95,7 @@ For each test case, output a single line containing the minimum amount of penalt
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5
 1
 1 5 6 10
@@ -123,9 +122,7 @@ For each test case, output a single line containing the minimum amount of penalt
 147
 
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example 1:** There is only 1 order and all of the items from this order can be served. So zero penalty
 
 **Example 2:** There are two orders and you cannot serve 5 items. You can select these 5 items from any order.

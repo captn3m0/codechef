@@ -23,12 +23,10 @@ Consists of K numbers on one line followed by a newline. The first number is the
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3 1 3
 <b>Output:</b>
 1 1 0
 
-```
-**Explanation**Total of 3 particles are bombarded. After particle 1 is bombarded, the chambers have particle distribution as "1 0 0". After second particle is bombarded, number of particles in chamber 0 becomes 2 which is greater than 1. So, num of particles in chamber 0 becomes 0 and in chamber 1 becomes 1. So now distribution is "0 1 0". After the 3rd particle is bombarded, chamber 0 gets 1 particle and so distribution is "1 1 0" after all particles are bombarded one by one.
+</pre>**Explanation**Total of 3 particles are bombarded. After particle 1 is bombarded, the chambers have particle distribution as "1 0 0". After second particle is bombarded, number of particles in chamber 0 becomes 2 which is greater than 1. So, num of particles in chamber 0 becomes 0 and in chamber 1 becomes 1. So now distribution is "0 1 0". After the 3rd particle is bombarded, chamber 0 gets 1 particle and so distribution is "1 1 0" after all particles are bombarded one by one.

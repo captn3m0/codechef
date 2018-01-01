@@ -103,8 +103,7 @@ For each test case print a line containing two numbers: **CMAX** and **CNT32**. 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 6
 6 7
 1 3 1
@@ -157,9 +156,7 @@ For each test case print a line containing two numbers: **CMAX** and **CNT32**. 
 3 3
 18 1
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** The maximum cost of a part P which satisfies the restrictions is 11. There are two such maximum cost parts, both of them containing all the cities and the following roads:
 
 - **(1,5), (2,5), (2,4), (3,5), (4,6)**

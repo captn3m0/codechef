@@ -88,8 +88,7 @@ Output **M** lines. The **i**-th line should contain the number of unsafe pairs 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 10 10
 6 7
 1 10
@@ -115,9 +114,7 @@ Output **M** lines. The **i**-th line should contain the number of unsafe pairs 
 35
 
 
-```
-### Scoring
-
+</pre>### Scoring
 Subtask 1 (22 points): 1 <= **N** <= 5, 1 <= **M** <= 5.
 
 Subtask 2 (13 points): 1 <= **N** <= 100, 1 <= **M** <= 100.

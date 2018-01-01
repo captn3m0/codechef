@@ -27,8 +27,7 @@ For each test case, output Q integers on a line, one per query, indicating the r
 
 ### Sample Input
 
-```
-3
+<pre>3
 
 3 4
 3 3 3
@@ -42,17 +41,12 @@ For each test case, output Q integers on a line, one per query, indicating the r
 5 6 5 6 5
 6 14 22 29
 
-```
-### Sample Output
-
-```
-3 3 3 3
+</pre>### Sample Output
+<pre>3 3 3 3
 3 4 4 5 3 4 4 4 4 4 4
 5 5 5 5
 
-```
-### Constraints
-
+</pre>### Constraints
 - T≤100
 - 0<N≤100000
 - 0<Q≤100000

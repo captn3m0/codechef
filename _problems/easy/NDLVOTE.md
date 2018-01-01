@@ -25,8 +25,7 @@ For each test case, output the minimum number of users that could have possibly 
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 P 1
@@ -42,9 +41,7 @@ M -2
 1
 1
 
-```
-
-
+</pre>
 **Explanation:**
 
 Case 1 :

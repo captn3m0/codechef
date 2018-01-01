@@ -105,8 +105,7 @@ For each test case, output a single line containing the minimal amount of number
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>2
 3 4
 1 2 3
@@ -119,9 +118,7 @@ For each test case, output a single line containing the minimal amount of number
 <tt>1
 0</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** If Alice throws away the number **3** from her collection, she would obtain **{1, 2}** which is disjoint with **{3, 4, 5, 6}**.
 
 **Example case 2.** Girls don't have any number in common initially. So there is no need to throw away any number.

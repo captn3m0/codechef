@@ -107,8 +107,7 @@ For each test case output a single line containing a single integer, the maximal
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 2 2
@@ -123,53 +122,37 @@ For each test case output a single line containing a single integer, the maximal
 3
 5
 
-```
-### Explanation
-
+</pre>### Explanation
 **Case 1.** The board already has a sequence of **3** cells that satisfies all required constraints (without applying any operation). For example, one can choose, the sequence **(1; 1), (1; 2), (2; 2)**. It is also shown in the figure below (chosen cells are made bold):
 
-```
-
+<pre>
 <b>11</b>
 1<b>0</b>
 
-```
-Let's formally validate this sequence of cells. Inequality **1** ≤ **i1** ≤ ... ≤ **iK** ≤ **N** takes the form **1** ≤ **1** ≤ **2**. Inequality **1** ≤ **j1** ≤ ... ≤ **jK** ≤ **M** takes the form **1** ≤ **2** ≤ **2**. Finally, inequality **A\[i1\]\[j1\]** ≥ **A\[i2\]\[j2\]** ≥ ... ≥ **A\[iK\]\[jK\]** takes the form **1** ≥ **1** ≥ . So all of them is satisfied, which means that the level of this board is at least **3**. But clearly, we can't have the required sequence of cells of length more than **3**. So **3** is the actual level of this board.
-
+</pre>Let's formally validate this sequence of cells. Inequality **1** ≤ **i1** ≤ ... ≤ **iK** ≤ **N** takes the form **1** ≤ **1** ≤ **2**. Inequality **1** ≤ **j1** ≤ ... ≤ **jK** ≤ **M** takes the form **1** ≤ **2** ≤ **2**. Finally, inequality **A\[i1\]\[j1\]** ≥ **A\[i2\]\[j2\]** ≥ ... ≥ **A\[iK\]\[jK\]** takes the form **1** ≥ **1** ≥ . So all of them is satisfied, which means that the level of this board is at least **3**. But clearly, we can't have the required sequence of cells of length more than **3**. So **3** is the actual level of this board.
 **Case 2.** The desired sequence of length **5** can be achieved by several values of **P**. Consider, for example, **P = 3**. At first let's apply the magic operation to the 1st row. We get the following transformation:
 
-```
-
+<pre>
 3478  →  <b>6701</b>
 4268  →  4268
 7173  →  7173
 
-```
-Now let's transform the 1st column by the magic operation. We get:
-
-```
-
+</pre>Now let's transform the 1st column by the magic operation. We get:
+<pre>
 6701  →  <b>9</b>701
 4268  →  <b>7</b>268
 7173  →  <b>0</b>173
 
-```
-Finally we modify the 2nd column:
-
-```
-
+</pre>Finally we modify the 2nd column:
+<pre>
 9701  →  9<b>0</b>01
 7268  →  7<b>5</b>68
 0173  →  0<b>4</b>73
 
-```
-Now we can take the following sequence of 5 cells to satisfy all needed constraints: **(1; 1), (2; 1), (2; 2), (3; 2), (3; 4)** (see the figure below):
-
-```
-
+</pre>Now we can take the following sequence of 5 cells to satisfy all needed constraints: **(1; 1), (2; 1), (2; 2), (3; 2), (3; 4)** (see the figure below):
+<pre>
 <b>9</b>001
 <b>75</b>68
 0<b>4</b>7<b>3</b>
 
-```
-Just to reiterate we note that the inequality **A\[i1\]\[j1\]** ≥ **A\[i2\]\[j2\]** ≥ ... ≥ **A\[iK\]\[jK\]** takes the form **9 ≥ 7 ≥ 5 ≥ 4 ≥ 3** for this sequence. One can check (for example, by brute force), that sequences of length more than **5** can't be achieved. So **5** is the answer.
+</pre>Just to reiterate we note that the inequality **A\[i1\]\[j1\]** ≥ **A\[i2\]\[j2\]** ≥ ... ≥ **A\[iK\]\[jK\]** takes the form **9 ≥ 7 ≥ 5 ≥ 4 ≥ 3** for this sequence. One can check (for example, by brute force), that sequences of length more than **5** can't be achieved. So **5** is the answer.

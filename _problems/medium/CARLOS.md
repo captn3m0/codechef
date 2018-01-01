@@ -118,8 +118,7 @@ Subtask 3 (22 points):
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 3 3 3
 1 2
@@ -133,9 +132,7 @@ Subtask 3 (22 points):
 2
 -1
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** It's possible to transform the first letter to 1 and the last letter to 2. The resulting word has letters 1 2 2.
 
 **Example case 2.** This word can only be transformed to 2 1 or 3 1.

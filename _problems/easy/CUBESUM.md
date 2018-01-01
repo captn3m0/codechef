@@ -23,8 +23,7 @@ For each test case print the numbers of A in exactly the same fashion as the inp
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 3 1 1
@@ -42,4 +41,4 @@ For each test case print the numbers of A in exactly the same fashion as the inp
 0 9 4 
 18 18 2 
 
-```
+</pre>

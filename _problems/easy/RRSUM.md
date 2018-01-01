@@ -88,8 +88,7 @@ Output the answer for each query in separate lines as in example.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3 5
 6
 2
@@ -103,4 +102,4 @@ Output the answer for each query in separate lines as in example.
 3
 1
 
-```
+</pre>

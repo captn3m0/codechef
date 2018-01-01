@@ -106,8 +106,7 @@ For example, "..##.." represents 6 coordinates, (0, 0) (1, 0) .. (5.0) out of wh
 
 ### Example
 
-```
-<b>Input</b>
+<pre><b>Input</b>
 4
 1 3 1
 6 9 3
@@ -120,9 +119,7 @@ For example, "..##.." represents 6 coordinates, (0, 0) (1, 0) .. (5.0) out of wh
 3 ....
 -1
 
-```
-### Explanation
-
+</pre>### Explanation
 **Testcase #1** 
 Good numbers in range \[1,3\] are 1, 2, 3. 1st of those is 1. There is one way to reach (0, 0) from (0, 0).
 

@@ -92,8 +92,7 @@ For each test case, output a single line containing the number of ways to erase 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 5
 1 0 0 0 0
@@ -104,9 +103,7 @@ For each test case, output a single line containing the number of ways to erase 
 1
 5
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** If you erase the first number on the blackboard, then the XOR of the rest of numbers will be equal to zero.
 
 **Example case 2.** You can erase any of the given 5 numbers, it will make the XOR of the rest equal to zero.

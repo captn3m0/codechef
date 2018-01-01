@@ -79,15 +79,12 @@ For example, a matrix with all zeros will have its bandwith equal to zero. Simil
 
 For example, for the below given matrix, the bandwith of this matrix is 2.
 
-```
-
+<pre>
 1 0 0
 0 1 1
 1 1 0 
 
-```
-Bandwidth of the below matrix is 1. ![](https://codechef_shared.s3.amazonaws.com/download/upload/MARCH17/bandmatr1.png)
-
+</pre>Bandwidth of the below matrix is 1. ![](https://codechef_shared.s3.amazonaws.com/download/upload/MARCH17/bandmatr1.png)
 Bandwidth of the below matrix is 2. ![](https://codechef_shared.s3.amazonaws.com/download/upload/MARCH17/bandmatr2.png)
 
 Bandwidth of the below matrix is also 2. ![](https://codechef_shared.s3.amazonaws.com/download/upload/MARCH17/bandmatr3.png)
@@ -119,8 +116,7 @@ For each test case, output a single integer corresponding to the minimum bandwid
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 6
 2
 0 0
@@ -152,9 +148,7 @@ For each test case, output a single integer corresponding to the minimum bandwid
 1
 3
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** The bandwidth of a matrix will all zero entries will be zero. This is the minimum bandwidth you can get, so there is no need of performing any swap operation.
 
 **Example case 2.** The bandwidth of a diagonal matrix will also be zero.
@@ -165,11 +159,9 @@ For each test case, output a single integer corresponding to the minimum bandwid
 
 **Example case 5.** Bandwidth of the given matrix is 2. You can make it equal to be 1 by swapping **A(3, 1)** and **A(3, 3)**, i.e. the matrix after the operation will look like
 
-```
-
+<pre>
 1 0 0
 0 1 1
 0 1 1
 
-```
-The bandwidth of this matrix is 1. **Example case 6.** The swap operations won't have any effect on the matrix. Its bandwidth is equal to 3.
+</pre>The bandwidth of this matrix is 1. **Example case 6.** The swap operations won't have any effect on the matrix. Its bandwidth is equal to 3.

@@ -94,8 +94,7 @@ Output the answer to the query in a single line.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5
 1 2 1 2 1
 
@@ -110,9 +109,7 @@ Output the answer to the query in a single line.
 11
 
 
-```
-### Subtasks
-
+</pre>### Subtasks
 - **Subtask 1:**  **N** ≤ 102. **Points - 10**
 - **Subtask 2:**  **N** ≤ 104. **Points - 20**
 - **Subtask 3:**  **N** ≤ 105. **Points - 30**

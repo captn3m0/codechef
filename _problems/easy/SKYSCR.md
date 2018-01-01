@@ -115,16 +115,12 @@ For each testcase, print the minimum number of moves on a new line.
 
 **Sample Input**
 
-```
-
+<pre>
 1
 2 3
 
-```
-**Sample Output**
-
-```
-
+</pre>**Sample Output**
+<pre>
 1
 
-```
+</pre>

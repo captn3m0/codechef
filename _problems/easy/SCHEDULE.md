@@ -111,8 +111,7 @@ For each test case, output a single line containing a single integer, which is t
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>
 2
 9 2
@@ -127,9 +126,7 @@ For each test case, output a single line containing a single integer, which is t
 2
 </tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1:** The answer is 2 because we can change the string to: 110101011
 
 **Example case 2:** If we don't change the input string at all, the answer will be 2. It is the best value we can achieve under the given conditions.

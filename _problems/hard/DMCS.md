@@ -97,15 +97,12 @@ For each test case output a single line containing the answer for the problem mo
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 1
 
 <b>Output:</b>
 272
 
-```
-### Explanation
-
+</pre>### Explanation
 I have discovered a truly marvellous enumeration of this, which this margin is too narrow to contain.

@@ -101,8 +101,7 @@ For each query of type **1**, output the size of the specified set.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>5 5
 0 2 4 4
 0 3 5 5
@@ -115,9 +114,7 @@ For each query of type **1**, output the size of the specified set.
 2</tt>
 
 
-```
-### Explanation
-
+</pre>### Explanation
 Have a look at the sets during the operations:
 
 - Initially, all the sets are empty: ({}, {}, {}, {}, {}).

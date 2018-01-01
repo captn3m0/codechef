@@ -86,33 +86,26 @@ Output should consist of a single integer - the answer for the problem.
 
 ### Constraints:
 
-```
-
+<pre>
 1 ≤ <b>N</b> ≤ 2*10<sup>5</sup>
 1 ≤ <b>K</b> ≤ 10<sup>9</sup>
 1 ≤ <b>beauty value</b> ≤ 10<sup>9</sup>
-```
-### Example:
 
+
+</pre>### Example:
 **Input:**
 
-```
-
+<pre>
 4 2
 1 2 3 4
 
 
-```
-**Output:**
-
-```
-
+</pre>**Output:**
+<pre>
 2
 
 
-```
-### Scoring:
-
+</pre>### Scoring:
 1 ≤ **N** ≤ 1000, this subtask is worth **21** point.
 
 1 ≤ **K** ≤ 100, this subtask is worth **39** points.

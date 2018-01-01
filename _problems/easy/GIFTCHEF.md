@@ -100,8 +100,7 @@ For each test case, output a single line indicating the number of ways Charlie c
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>3
 chefandcharliethebest
 charliethebest
@@ -115,9 +114,7 @@ aa</tt>
 3
 7</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.**
 chefand|**charliethebest**|
 1 way to cut 1 string "charliethebest" from the string S:

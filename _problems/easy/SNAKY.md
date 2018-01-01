@@ -27,8 +27,7 @@ In the middle of a game, the Chef leaves the computer but does not shut down the
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 10 10 3 2 6
@@ -41,4 +40,4 @@ WALL 2
 BODY 1
 
 
-```
+</pre>

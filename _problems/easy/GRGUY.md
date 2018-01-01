@@ -128,8 +128,7 @@ For each test case, print **"Yes"** (without quotes) in the first line if Chef i
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 #...#
 .###.
@@ -145,17 +144,14 @@ Yes
 5
 No
 
-```
-### Explanation
-
+</pre>### Explanation
 - **Test 1:** Chef will start his journey from **L2**, switch from **L2** to **L1** and finally land up at last block of **L2** by switching from **L1** to **L2**. Therefore, he requires total 2 gravity switches to reach the destination.
 - **Test 3:** Chef cannot start his journey as starting block of both the lanes **L1 & L2** are dirty and he cannot step over them.
 
 
 In Subtask 1 and Subtask 3, only "Yes"/"No" response will be evaluated. Thus, for example, the output
 
-```
-
+<pre>
 Yes
 1
 Yes
@@ -163,5 +159,4 @@ Yes
 No
 
 
-```
-is considered as a correct output for the example input.
+</pre>is considered as a correct output for the example input.

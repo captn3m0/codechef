@@ -107,8 +107,7 @@ For each test case, output a single line containing number of times Fenwick tree
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 001 100 011 4
 1000 1101 100 3
@@ -121,4 +120,4 @@ For each test case, output a single line containing number of times Fenwick tree
 8
 10
 
-```
+</pre>

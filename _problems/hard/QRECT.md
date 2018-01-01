@@ -112,14 +112,11 @@ Q 3 3 4 4
 <strong>Output:</strong>
 1
 0  
-```
-
-
+<pre>
 ### Explanation
 
 
 
-```
-In the third operation, the rectangle (2, 2)-(3, 3) has a common point with the given rectangle.
+</pre>In the third operation, the rectangle (2, 2)-(3, 3) has a common point with the given rectangle.
 But in the fifth operation, as the rectangle (2, 2)-(3, 3) has been removed, so there are no rectangles that has the common area with the given rectangle.
-```
+<pre>

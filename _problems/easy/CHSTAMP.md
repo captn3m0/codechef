@@ -115,8 +115,7 @@ For each test case, output a single line containing maximum possible value of Ch
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 
 1
 3 4
@@ -131,7 +130,5 @@ For each test case, output a single line containing maximum possible value of Ch
 16
 
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** Chef can use **2nd** offer to exchange the stamp of type **1** with an stamp of type **3**. After that he can use **1st** offer to exchange his 2 stamps of type **3** with 2 stamps of type **4**. Finally, on **3rd** day Chef uses the offer to exchange the stamp of type **5** with an stamp of type **8**. After this transaction, value of his collection becomes **4 + 4 + 8 = 16**.

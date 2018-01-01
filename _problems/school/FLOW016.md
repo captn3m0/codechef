@@ -83,8 +83,7 @@ Display the GCD and LCM of **A** and **B** separated by space respectively.
 
 ### Example
 
-```
-
+<pre>
 <b>Input</b>
 3 
 120 11
@@ -98,4 +97,4 @@ Display the GCD and LCM of **A** and **B** separated by space respectively.
 1 30
 
 
-```
+</pre>

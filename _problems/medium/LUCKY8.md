@@ -88,8 +88,7 @@ All submissions for this problem are available. A Little Elephant from the Zoo o
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 1 10
@@ -101,7 +100,5 @@ All submissions for this problem are available. A Little Elephant from the Zoo o
 1
 1
 
-```
-### Explanation
-
+</pre>### Explanation
 In both second and third test cases the maximal product is achieved at the numbers **47** and **74**.

@@ -114,8 +114,7 @@ If there is no path at all, output just **-1** on the corresponding line of the 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>2
 3 3
 1 2 1
@@ -132,7 +131,5 @@ If there is no path at all, output just **-1** on the corresponding line of the 
 <tt>1.5
 1.0</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** The walk 1 -> 2 and 2 -> 3 has average length of 3/2 = 1.5. Any other walks in the graph will have more or equal average length than this.

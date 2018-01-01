@@ -37,8 +37,7 @@ For each **T** test cases print one integer, the minimum number of operations th
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 25
@@ -51,4 +50,4 @@ For each **T** test cases print one integer, the minimum number of operations th
 2
 
 
-```
+</pre>

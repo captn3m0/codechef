@@ -107,8 +107,7 @@ Output exactly **T** lines, each containing the answer for the corresponding tes
 
 **Sample Input:**
 
-```
-
+<pre>
 2
 3
 1 2 3
@@ -120,17 +119,12 @@ Output exactly **T** lines, each containing the answer for the corresponding tes
 2 4 8
 
 
-```
-**Sample Output:**
-
-```
-
+</pre>**Sample Output:**
+<pre>
 2.333333
 1.000000
 
-```
-**Explanation:**
-
+</pre>**Explanation:**
 **Test 1:**
 Award 0 to student 1, 2 to student 2 and 5 to student 3.
 Total score of the class = 7

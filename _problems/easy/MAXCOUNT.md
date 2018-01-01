@@ -23,8 +23,7 @@ For each test case, output two space separated integers V & C. V is the value wh
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 5
@@ -40,4 +39,4 @@ For each test case, output two space separated integers V & C. V is the value wh
 In first case 2 occurs twice whereas all other elements occur only once. 
 In second case, both 1 and 2 occur 3 times but 1 is smaller than 2.
 
-```
+</pre>

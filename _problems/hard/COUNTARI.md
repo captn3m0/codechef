@@ -71,8 +71,7 @@ Output the number of ways to choose a triplet such that they are three consecuti
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 10
 3 5 3 6 3 4 10 4 5 2
@@ -81,13 +80,10 @@ Output the number of ways to choose a triplet such that they are three consecuti
 9
 
 
-```
-### Explanation
-
+</pre>### Explanation
 The followings are all 9 ways to choose a triplet
 
-```
-
+<pre>
 1 : <b>(i, j, k)</b> = (1, 3, 5), <b>(A<sub>i</sub>, A<sub>j</sub>, A<sub>k</sub>)</b> = (3, 3, 3)
 2 : <b>(i, j, k)</b> = (1, 6, 9), <b>(A<sub>i</sub>, A<sub>j</sub>, A<sub>k</sub>)</b> = (3, 4, 5)
 3 : <b>(i, j, k)</b> = (1, 8, 9), <b>(A<sub>i</sub>, A<sub>j</sub>, A<sub>k</sub>)</b> = (3, 4, 5)
@@ -98,4 +94,4 @@ The followings are all 9 ways to choose a triplet
 8 : <b>(i, j, k)</b> = (5, 6, 9), <b>(A<sub>i</sub>, A<sub>j</sub>, A<sub>k</sub>)</b> = (3, 4, 5)
 9 : <b>(i, j, k)</b> = (5, 8, 9), <b>(A<sub>i</sub>, A<sub>j</sub>, A<sub>k</sub>)</b> = (3, 4, 5)
 
-```
+</pre>

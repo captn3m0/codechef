@@ -95,8 +95,7 @@ For each query output answer for it in separate line.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 5 3
 1 2 3 2 1
@@ -109,4 +108,4 @@ For each query output answer for it in separate line.
 3
 
 
-```
+</pre>

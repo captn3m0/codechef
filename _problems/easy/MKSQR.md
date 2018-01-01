@@ -15,7 +15,7 @@ layout: problem
 
 You are give a set of 2-d vectors (x,y) \[ -10^8 ≤ x,y ≤ 10^8, x ≠ y \] of size n (1 ≤ n ≤ 50000 ). Lets denote the ith vector as vi. 
 You are to determine if the following system of equations has a solution : 
-a1\*v1 + a2\*v2 + a3\*v3 + ... ai\*v1 + ... an\*vn = (k,k) for some arbitrary k. 
+ a1\*v1 + a2\*v2 + a3\*v3 + ... ai\*v1 + ... an\*vn = (k,k) for some arbitrary k.  
 All ai's are non-negative integers \[ 0 ≤ ai ≤ 10^16 \] and 
 ALL ai's CANNOT BE ZERO ;). 
 In other words, you need to find some linear combination of these vectors with positive coefficient such that you end up with a vector(a,b) with a=b.
@@ -31,8 +31,7 @@ Output should contain exactly t lines, with "YES" or "NO" ( without the quotes -
 
 ### Sample Input
 
-```
-
+<pre>
 2
 3
 0 1
@@ -45,16 +44,11 @@ Output should contain exactly t lines, with "YES" or "NO" ( without the quotes -
 -5 -1
 1 -1
 
-```
-### Sample Output
-
-```
-
+</pre>### Sample Output
+<pre>
 YES
 YES
 
-```
-### Explanation
-
+</pre>### Explanation
 Test case 1 : a1 = 0 , a2 = 1, a3 = 1. 
 Test case 2 : a1 = 2 , a2 = 0 , a3 = 1, a4 = 3.

@@ -93,8 +93,7 @@ For each test case, print a single integer, the minimum cost to build the new ro
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 2
 5 10
@@ -105,4 +104,4 @@ For each test case, print a single integer, the minimum cost to build the new ro
 50
 266
 
-```
+</pre>

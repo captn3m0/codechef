@@ -23,8 +23,7 @@ Output T lines, one corresponding to each test case. Since the answers can get v
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 1
@@ -35,4 +34,4 @@ Output T lines, one corresponding to each test case. Since the answers can get v
 7
 31
 
-```
+</pre>

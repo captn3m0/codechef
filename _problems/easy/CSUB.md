@@ -89,8 +89,7 @@ For each testcase, print the required answer in one line.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 4
 1111
@@ -101,8 +100,6 @@ For each testcase, print the required answer in one line.
 10
 3
 
-```
-### Explanation
-
+</pre>### Explanation
 \#test1: All substrings satisfy.
 \#test2: Three substrings S\[1,1\], S\[5,5\] and S\[1,5\] satisfy.

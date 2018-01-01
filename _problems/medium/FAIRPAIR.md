@@ -108,8 +108,7 @@ The second line should describes assignment. It should contain **N** space separ
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>2
 4
 100 200 300 400
@@ -124,9 +123,7 @@ The second line should describes assignment. It should contain **N** space separ
 1
 2 3 1</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** Here, there exists an assignment where no student is assigned to the topic he/she studied for:
 
 - Student **1** gets task **2**,

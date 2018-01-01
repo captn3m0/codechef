@@ -114,8 +114,7 @@ The **j**'th number on the **i**'th line of the **k**'th block should describe t
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3 6 6
 1 2 0 0
 2 1 1 1
@@ -135,7 +134,5 @@ The **j**'th number on the **i**'th line of the **k**'th block should describe t
 0 10
 1 2
 
-```
-### Explanation
-
+</pre>### Explanation
 I have discovered a truly marvellous enumeration of this, which this margin is too narrow to contain.

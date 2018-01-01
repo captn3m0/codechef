@@ -96,8 +96,7 @@ For each test case, output a single line corresponding to the answer of the prob
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 6
 24 60
 34 50
@@ -114,9 +113,7 @@ For each test case, output a single line corresponding to the answer of the prob
 10
 1
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** A clock shows two identical digits at times _0:0_, _1:1_, .., _9:9_, three identical digits at times _11:1_, _22:2_, _1:11_, _2:22_, _3:33_, _4:44_, _5:55_, and four identical digits at times _11:11_ and _22:22_. So, there are 19 minutes during which the time displayed by the clock will have identical digits.
 
 **Example case 2.** Compared to the previous case, the clock doesn't show _5:55_, but can show _33:3_ and _33:33_.

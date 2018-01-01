@@ -75,8 +75,8 @@ Chef is an advocate for Go Green Initiative. Today he had **n** trees planted in
 
 Chef knows that trees will look beautiful if they form a _zig-zag_ sequence. The trees will be said to be in _Zig-zag_ sequence if the heights of tree first increases or decreases, then alternates between decreasing/increasing respectively. Formally, the trees will be said to in _Zig-zag_ sequence if one of the following two conditions holds.
 
-- **h12 > h34** and so on..
-- **h1 > h23 > h4** and so on..
+- **h1 2 > h3 4** and so on..
+- **h1 > h2 3 > h4** and so on..
 
 Chef wants to know intervals of time when the heights of the trees will form a _zig-zag_ sequence.
 
@@ -106,8 +106,7 @@ The test cases are designed in such a way that the total output won't exceed 2 M
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>3
 3
 0 1
@@ -129,7 +128,5 @@ The test cases are designed in such a way that the total output won't exceed 2 M
 2 Inf
 0</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** In the first case **0 2 0** is already a _zig-zag_ sequence, but on the 2nd second it will become **2 6 6** and will never turn back into _zig-zag_

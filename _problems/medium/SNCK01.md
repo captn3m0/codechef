@@ -51,8 +51,7 @@ Time limit : 2 seconds.
 
 ### Sample Input :
 
-```
-3
+<pre>3
 2 2
 1 1
 1 1
@@ -65,12 +64,9 @@ Time limit : 2 seconds.
 3 2
 
 
-```
-### Sample Output:
-
-```
-SECOND
+</pre>### Sample Output:
+<pre>SECOND
 FIRST
 SECOND
 <br></br><br></br><br></br>
-```
+</pre>

@@ -111,8 +111,7 @@ The restrictions for the output sequence are:
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>1
 4
 4 3 2 1</tt>
@@ -121,9 +120,7 @@ The restrictions for the output sequence are:
 <tt>6
 1 3 2 3 1 2</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** Let's perform these operations one-by-one. The positions having **Ai = i** will be highlighted in bold:
 
 - Initially we have A = (4, 3, 2, 1)

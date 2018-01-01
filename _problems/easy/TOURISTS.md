@@ -114,8 +114,7 @@ The **ith** line of output should represent the **ith** road in the input. It sh
 
 ### Example 1
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3 3
 1 2
 2 3
@@ -127,11 +126,8 @@ YES
 2 3
 3 1
 
-```
-### Example 2
-
-```
-<b>Input:</b>
+</pre>### Example 2
+<pre><b>Input:</b>
 3 2
 1 2
 2 3
@@ -139,11 +135,8 @@ YES
 <b>Output:</b>
 NO
 
-```
-### Example 3
-
-```
-<b>Input:</b>
+</pre>### Example 3
+<pre><b>Input:</b>
 5 6
 1 2
 2 3
@@ -161,4 +154,4 @@ YES
 2 5
 5 1
 
-```
+</pre>

@@ -94,8 +94,7 @@ For each testcase, output one integer on a separate line.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 1 4
 2 3
@@ -104,9 +103,7 @@ For each testcase, output one integer on a separate line.
 10
 21
 
-```
-### Explanation:
-
+</pre>### Explanation:
 The first test case: sum(1, 4) = sum(4) = 1 + 2 + 3 + 4 = 10.
 
 The second test case: sum(2, 3) = sum(sum(3)) = sum(1 + 2 + 3) = sum(6) = 1 + 2 + 3 + 4 + 5 + 6 = 21.

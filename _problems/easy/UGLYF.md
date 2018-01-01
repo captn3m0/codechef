@@ -86,9 +86,7 @@ X X B C  Z  Q
           F
 </span>
 
-```
-Length of petals in the above flower are 2, 2, 3 and 3.
-
+<pre>Length of petals in the above flower are 2, 2, 3 and 3.
 A flower's ugliness is sum of absolute difference of adjacent petal lengths _i.e._ _i.e._ if adjacent petal lengths are **L1, L2, L3, L4**, then ugliness of flower is **|L1 - L2| + |L2 - L3| + |L3 - L4| + |L4 - L1|.**
 
 Sherlock wants to find minimum value of ugliness if we consider all possible flower configurations. Note that a configuration is valid even if any of the petal length is 0.
@@ -108,8 +106,7 @@ For each test case, output in one line the required answer.
 
 ### Example
 
-```
-<b>Input:</b>
+</pre><b>Input:</b>
 2
 ABCDE
 XXBCZQ
@@ -120,17 +117,14 @@ BBBBBB
 2
 6
 
-```
-### Explanation
-
+<pre>### Explanation
 Test case 1:
 If we keep the configuration shown in statement, the ugliness is 2, which is minimum possible. 
 
 Test case 2:
 One of the best configurations is
 
-```
-
+</pre>
 <span class="inner-pre" style="font-size: 20px">
        B 
 B B B  B  B B
@@ -138,4 +132,4 @@ B B B  B  B B
 </span>
 where petal lengths are 1, 3, 1, 2.
 
-```
+<pre>

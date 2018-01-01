@@ -103,8 +103,7 @@ For each test case, output in a single line the required answer.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>2
 4
 1 4 2 3
@@ -115,9 +114,7 @@ For each test case, output in a single line the required answer.
 <tt>6
 1</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.**
 All valid subarrays are **A\[1, 1\], A\[1, 2\], A\[2, 2\], A\[3, 3\], A\[3, 4\], A\[4, 4\]**.
 Note that singleton subarrays are identically non-decreasing.

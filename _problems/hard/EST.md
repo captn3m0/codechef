@@ -91,8 +91,7 @@ For each test case output just one line containing the sought number modulo 4242
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 5
 a
@@ -110,5 +109,4 @@ helloworld
 
 <b>Explanation:</b>
 
-```
-In the first test case every string of length 1 satisfies the condition. In the second test case every string consisting of two equal letters is fine. In the third test case every string comprising three pairwise distinct letters adds 1 to the answer. In the fourth test case string 'bee' is one of the 1300 good strings.
+</pre>In the first test case every string of length 1 satisfies the condition. In the second test case every string consisting of two equal letters is fine. In the third test case every string comprising three pairwise distinct letters adds 1 to the answer. In the fourth test case string 'bee' is one of the 1300 good strings.

@@ -88,15 +88,12 @@ Output single integer — minimal wire length required to connect all the server
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3 2
 1 2
 1 3
 <b>Output:</b>
 2
 
-```
-### Explanation
-
+</pre>### Explanation
 One of the optimal arrangements is **\[2, 1, 3\]**

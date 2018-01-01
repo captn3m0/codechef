@@ -77,8 +77,7 @@ Output for each test case, a single integer, the number of jewels mined.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 4
 abc
@@ -96,4 +95,4 @@ none
 1
 0
 
-```
+</pre>

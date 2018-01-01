@@ -99,8 +99,7 @@ For each test case, you have to print a single line containing the absolute stre
 3. 0 ≤ a, b, c, d ≤ 100** 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 1 1 1 1 1
 2 1 1 1 1
@@ -113,4 +112,4 @@ For each test case, you have to print a single line containing the absolute stre
 763
 74896
 
-```
+</pre>

@@ -97,8 +97,7 @@ For each test case, output a single line containing **N** space separated intege
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 2 2
 3 0
@@ -109,9 +108,7 @@ For each test case, output a single line containing **N** space separated intege
 1 2 3
 2 3 1
 
-```
-### Explanation
-
+</pre>### Explanation
 **For the first test case**, **N = 2** and **K = 2**. It is impossible to permute **\[1, 2\]** in any way such that **abs(P\[1\]-1) >= 2** and **abs(P\[2\]-2) >= 2**. Hence, output is **-1**.
 
 **For the second test case**, **N = 3** and **K = 0**. We can just set **P\[i\] = i**, and hence the answer is **1 2 3**

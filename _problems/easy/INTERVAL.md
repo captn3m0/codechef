@@ -107,8 +107,7 @@ For each test case, output a single integer in a separate line corresponding to 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>1
 8 3
 3 7 5 4 9 6 1 3
@@ -117,9 +116,7 @@ For each test case, output a single integer in a separate line corresponding to 
 <b>Output:</b>
 <tt>20</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** Chef chooses the interval **\[1, 6\]** (i.e. **(3, 7, 5, 4, 9, 6)**). The score now is 34 points.
 
 In the next turn, Chefu chooses the interval **\[3, 5\]** (i.e. **(5, 4, 9)**). The score now is 34 - 18 = 16 points.

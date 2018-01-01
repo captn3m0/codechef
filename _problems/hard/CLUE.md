@@ -27,8 +27,7 @@ For each test case output a single integer, on a line by itself, indicating the 
 
 ### Sample Input:
 
-```
-2
+<pre>2
 
 6 10 16
 3 2 11
@@ -41,15 +40,10 @@ For each test case output a single integer, on a line by itself, indicating the 
 3 6 9
 12 14 15
 16 17 18
-```
-### Sample Output:
-
-```
-1
+</pre>### Sample Output:
+<pre>1
 2
-```
-### Explanation:
-
+</pre>### Explanation:
 In the first example, the cards in the envelope are 1, 7, and 13. All of the logicians immediately know this, however the first logician wins because it must be one's turn in order to win.
 
 In the second example, the cards in the envelope are 2, 8, and 13. Note that initially the second player does not have enough information to determine which cards are in the envelope. However, the fact that the first player passes is enough for the second player deduce the first player's cards (if the first player had been holding 2 3 5, for example, he would have won instead of pass), which in turn allows him to determine the secret cards and win.

@@ -123,8 +123,7 @@ For each expression you should output the length of the longest prefix that is v
 29. The total size all the input expressions is no more than **5\*106**
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 <<>>
 ><
@@ -135,4 +134,4 @@ For each expression you should output the length of the longest prefix that is v
 2
 
 
-```
+</pre>

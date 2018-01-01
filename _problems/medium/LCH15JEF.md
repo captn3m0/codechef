@@ -103,8 +103,7 @@ For each test case, output a single line containing one integer corresponding to
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 1000 2**3*3**1
 100000 11**2*2**4
@@ -112,4 +111,4 @@ For each test case, output a single line containing one integer corresponding to
 24
 1936
 
-```
+</pre>

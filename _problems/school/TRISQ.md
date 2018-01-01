@@ -93,8 +93,7 @@ Output exactly T lines, each line containing the required answer.
 
 1 ≤ **B** ≤ 104
 
-```
-
+<pre>
 <h3>Sample Input</h3>
 11
 1
@@ -121,4 +120,4 @@ Output exactly T lines, each line containing the required answer.
 10
 10
 
-```
+</pre>

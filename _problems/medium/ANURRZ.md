@@ -98,8 +98,7 @@ For each test case, output a single line containing the required answer modulo 1
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 2
 2 2
@@ -110,9 +109,7 @@ For each test case, output a single line containing the required answer modulo 1
 2
 1
 
-```
-### Explanation
-
+</pre>### Explanation
 **Test case 1**
 
 {1, 1} and {1, 2} are valid.

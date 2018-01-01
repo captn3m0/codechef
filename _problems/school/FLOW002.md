@@ -83,8 +83,7 @@ Find remainder when **A** is divided by **B**.
 
 ### Example
 
-```
-
+<pre>
 <b>Input</b>
 3 
 1 2
@@ -96,4 +95,4 @@ Find remainder when **A** is divided by **B**.
 100
 10
 
-```
+</pre>

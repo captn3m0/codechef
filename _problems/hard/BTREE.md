@@ -124,13 +124,11 @@ For each day, output the answer in one line.
 2 3 4 10 2 
 5 5 4 11 2 16 2 18 1 19 2
 
-```
-`<strong>Output:</strong>````
-
+<pre>`<strong>Output:</strong><pre>`
 16
 16
 13
 16
 18
 
-```
+</pre>

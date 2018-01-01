@@ -101,8 +101,7 @@ Output **M** lines. The **i**th line should contain the number of good permutati
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3 3
 1 2 3
 2
@@ -114,7 +113,5 @@ Output **M** lines. The **i**th line should contain the number of good permutati
 2
 
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** After the first replacement operation, all permutations will be good. However, after the second operation, **P\[1\]** must be **3**.

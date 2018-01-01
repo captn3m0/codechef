@@ -142,8 +142,7 @@ Every real value has at most 6 digits after the decimal point.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 4
 
@@ -179,9 +178,7 @@ Every real value has at most 6 digits after the decimal point.
 182.333333333333333333333
 12938.4586699
 
-```
-### Explanation
-
+</pre>### Explanation
 **Case 1.** Here Ciel has no choice other than she goes to the first computer center and cracks the password for the only piece by using 1 computer, then Ciel back to her restaurant. The answer is 1 (going to the computer center) + 50.5 (cracking) + 1 (back to her restaurant) = 52.5. In the cracking phase since Ciel uses only one computer the time for connection is not needed. The program will check passwords one by one and 1 nanosecond is needed for checking one password. So the running time will be **k** nanoseconds with probability 1% for 1 ≤ **k** ≤ 100. Therefore the expected time for the cracking phase is 1 \* 0.01 + 2 \* 0.01 + ... + 100 \* 0.01 = 50.5.
 
 **Case 2.** Here Ciel has 3 choices.

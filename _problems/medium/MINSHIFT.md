@@ -111,8 +111,7 @@ For each query of the type **1 L R P**, output a single line containing the **P*
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>codechef
 5
 0 6 q
@@ -125,9 +124,7 @@ For each query of the type **1 L R P**, output a single line containing the **P*
 <tt>c
 e
 o</tt>
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** Let's perform all the queries one-by-one:
 
 - Initially **S = "codechef"**.

@@ -32,20 +32,16 @@ For each test case, output the state of the game that precedes the given state. 
 
 ### Sample Input
 
-```
-4
+<pre>4
 00011101
 000
 000001
 11110
 
-```
-### Sample Output
-
-```
-01100101
+</pre>### Sample Output
+<pre>01100101
 Multiple solutions
 No solution
 10010
 
-```
+</pre>

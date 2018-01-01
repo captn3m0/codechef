@@ -92,8 +92,7 @@ The first line of the input contains an integer **q**. The next line contains an
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 201
 5
 1 2 10 5 10000
@@ -110,9 +109,7 @@ The first line of the input contains an integer **q**. The next line contains an
 10636
 10654 
 
-```
-### Scoring
-
+</pre>### Scoring
 Subtask 1 (30 points): **200 ≤ q ≤ 109**. 
 
 Subtask 2 (70 points): Look at constraints

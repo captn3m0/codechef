@@ -111,8 +111,7 @@ For each test case, output a single line containing the sum of answers of all th
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 5 5
 2 4 3 5 5
@@ -125,9 +124,7 @@ For each test case, output a single line containing the sum of answers of all th
 <b>Output:</b>
 5
 
-```
-### Explanation
-
+</pre>### Explanation
 Array: **\[2, 4, 3, 5, 5\]**
 
 - 1st query: **\[4, 3, 5\]**, 4 \* 3 \* 5 = 60 : answer 1.

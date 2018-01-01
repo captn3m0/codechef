@@ -94,8 +94,7 @@ For each test case output the number of ways to construct B as described above. 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 2 2 1
 1 2
@@ -107,9 +106,7 @@ For each test case output the number of ways to construct B as described above. 
 11
 
 
-```
-### Explanation
-
+</pre>### Explanation
 **First Example** : There are total three possible valid sequences **B** : \[1, 1\], \[2, 2\] and \[2, 1\]. LCS of these sequences with sequence **A** is equal to 1. Note that \[1, 2\] is not a valid sequence as LCS of this and sequence **A** is equal to 2.
 
 **Second Example**: The 11 ways are: \[1, 1, 2\], \[1, 2, 1\], \[1, 2, 3\], \[1, 3, 2\], \[2, 1, 2\], \[2, 2, 1\], \[2, 2, 2\], \[2, 2, 3\], \[2, 3, 2\], \[3, 1, 2\], \[3, 2, 2\].

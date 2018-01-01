@@ -91,21 +91,17 @@ For each test case, output a line containing the required probability. The answe
 
 ### Constraints:
 
-```
-
+<pre>
 1 ≤ <b>T</b> ≤ 100
 1 ≤ <b>N</b> ≤ 100
 1 ≤ <b>a<sub>i</sub></b> ≤ 100
 0 ≤ <b>p<sub>i</sub></b> ≤ 100
 
 
-```
-### Example:
-
+</pre>### Example:
 **Input:**
 
-```
-
+<pre>
 2
 5
 1 2 3 4 4
@@ -115,17 +111,12 @@ For each test case, output a line containing the required probability. The answe
 50 60
 
 
-```
-**Output:**
-
-```
-
+</pre>**Output:**
+<pre>
 0.5000000
 0.8000000
 
 
 
-```
-**Update:**
-
+</pre>**Update:**
 Difference in answer upto 1e-6 will be ignored.

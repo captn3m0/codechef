@@ -114,8 +114,7 @@ In next **N - 1** lines, **i**-th line should contain the updated cost of **i**-
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 1
 5
@@ -130,4 +129,4 @@ In next **N - 1** lines, **i**-th line should contain the updated cost of **i**-
 15
 10
 10
-```
+</pre>

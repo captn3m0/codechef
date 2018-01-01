@@ -98,8 +98,7 @@ Output exactly **Q** integers on separate lines, where the output on the **ith**
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 3 2 1 4
 2
@@ -110,9 +109,7 @@ Output exactly **Q** integers on separate lines, where the output on the **ith**
 10
 3
 
-```
-### Explanation
-
+</pre>### Explanation
 **For the first query**, **K = 0**. Hence, Bhallaladeva cannot take gold plates from any of the houses for free. It will cost him 3 + 2 + 1 + 4 = **10** nimbdas.
 
 **For the second query**, **K = 2**. In the first step Bhallaladeva can pay **2** nimbdas for gold plates in house number 2, and take the gold in houses 1 and 4 for free (Note that house 1 has 3 gold plates and house 4 has 4 gold plates). Now, he has looted houses 1, 2 & 4. Now in the second step, he loots house 3, by paying **1** nimbda. Hence, the total cost = 1 + 2 = **3**. Note that there might be multiple ways to achieve the minimum cost, and we have explained only one of them.

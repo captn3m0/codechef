@@ -32,8 +32,7 @@ For each test case print "YES" (quotes for clarity) if Johnny can reach the sout
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 2 2
@@ -54,7 +53,5 @@ YES
 NO
 
 
-```
-### Explanation
-
+</pre>### Explanation
 In the first test case Johnny can pass the trial making the following steps: South-east, North, West, East, West, South-east, out. In the second test case: East, West, South, East, out. It's impossible to pass the trial in the third test case.

@@ -117,8 +117,7 @@ Output a single integer - sum of the rent and support costs per month.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2 4 5 5 3
 1 2 1 3
 1 2 2 2
@@ -131,9 +130,7 @@ Output a single integer - sum of the rent and support costs per month.
 <b>Output:</b>
 48
 
-```
-### Explanation
-
+</pre>### Explanation
 Here's the scheme of the floor
 
 ![](https://lh3.googleusercontent.com/Kf814fLVhIDx-8ZczUSmJAqNDTWpVLHBD6lwZr3HMxxk5OUb1xOU01vCTSIAcgD9Vpo4fYhVwIfRLc9VNDE_g0kVnbFrZRfKkDyfdUJjXaP2VhsYwy1nGXTOwGpsgXNcoOpkpLc4Qs_rDsX23T56BGkTX4M4Z0Q8gcP0T7UqYGI4x2luDAw5MSSgdJlg186Rgo0YATY8HW4HIDUbvWa_zPITOJojByg62rWs8HcKfTxg4T5hD1QVTNfUUxTkyv9b9jivONq2RWxFPAcOt_o2WNmMYAFiEHkkZ-h6hLxWwrb2LA4VLa92xIvLV8mG3W_ZOD8ZGFCG-F6GXskHW8jhq8IppGi9Hp2dGJ2I4PvWIT9yY8R-9h3BbNk6YoC9iYkuge2ghzuJ2N-Q5CogdnnZ-wUh6WK0yC37E7MLKAEKWyy4LGRTlq0689T_OVOKkIHBHKSUvUgYmbwGbtbkO71HXPIYUXgX0xtrnEWxKYuHtmM1KMmV8gY4f55vCnd3Hc1Mw5LqMphYfI1eWOFVBITsbHwmt41TomOyJIXboRpSfcxFst_o-Cd1TiCHpFpNiBEi52oT=w426-h210-no)

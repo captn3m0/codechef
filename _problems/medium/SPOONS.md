@@ -92,8 +92,7 @@ All submissions for this problem are available. Lo and Behold! For you may be su
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 2
 3
@@ -102,9 +101,7 @@ All submissions for this problem are available. Lo and Behold! For you may be su
 2
 3
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.**
 
 Each spoon caters to a different city. Since there are two spoons, two cities are sufficient. />

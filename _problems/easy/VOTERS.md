@@ -17,22 +17,16 @@ layout: problem
 
  On receiving the lists, the Collector realised that there were discrepancies - the three lists were not identical. He decided to go with the majority. That is, he decided to construct the final list including only those ID numbers that appeared in at least 2 out of the 3 lists. For example if the three lists were
 
-```
-
+<pre>
 23  30  42  57  90
 21  23  35  57  90  92
 21  23  30  57  90 
 
-```
-then the final list compiled by the collector would be:
-
-```
-
+</pre>then the final list compiled by the collector would be:
+<pre>
 21  23  30  57  90
 
-```
- The ID numbers 35, 42 and 92 which appeared in only one list each do not figure in the final list.
-
+</pre> The ID numbers 35, 42 and 92 which appeared in only one list each do not figure in the final list.
  Your task is to help the collector by writing a program that produces the final list from the three given lists.
 
 Input format
@@ -51,8 +45,7 @@ Example
 
 Sample input:
 
-```
-
+<pre>
 5 6 5
 23
 30
@@ -71,11 +64,8 @@ Sample input:
 57 
 90 
 
-```
-Sample output:
-
-```
-
+</pre>Sample output:
+<pre>
 5
 21 
 23 
@@ -83,4 +73,4 @@ Sample output:
 57 
 90
 
-```
+</pre>

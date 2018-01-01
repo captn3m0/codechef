@@ -90,8 +90,7 @@ For each testcase print the answer modulo **10^9+7**.
 12. **1** ≤ **a\[i\]** ≤ **10^5**
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 1
 1
@@ -103,9 +102,7 @@ For each testcase print the answer modulo **10^9+7**.
 3
 
 
-```
-### Note
-
+</pre>### Note
 **Test #0-1(25 points) n ≤** 20
 
 **Test #2(25 points) n ≤** 1000

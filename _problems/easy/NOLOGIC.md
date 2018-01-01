@@ -56,8 +56,7 @@ For each test case, output a single line containing the answer to this question 
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 4
 Father, what is the lack of logic?
@@ -71,9 +70,7 @@ Day
 ~
 You Can output aLoMsT anytihng HERE
 
-```
-### Explanation
-
+</pre>### Explanation
 Example cases 1 and 2 correspond to the dialog in the problem statement. Note that we don't print dots since it is allowed to have only spaces and letters in the answer.
 
 In example case 3 each letter of English alphabet is used in the question. Hence we can't produce the answer that has no logic.

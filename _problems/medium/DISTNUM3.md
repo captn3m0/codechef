@@ -103,8 +103,7 @@ For each query of **type 1**, output the answer to the query in a single line.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 6 7
 1 2 3 4 5 6
 1 2
@@ -127,4 +126,4 @@ For each query of **type 1**, output the answer to the query in a single line.
 3
 3
 
-```
+</pre>

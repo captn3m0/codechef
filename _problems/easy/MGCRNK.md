@@ -101,8 +101,7 @@ Your code will be judged against several input files.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 2
@@ -117,4 +116,4 @@ Your code will be judged against several input files.
 8.000000
 Bad Judges
 
-```
+</pre>

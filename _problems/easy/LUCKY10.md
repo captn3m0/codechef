@@ -95,8 +95,7 @@ Sum of |**A**| across all the tests in the input does not exceed **200000**.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 4
 4
@@ -114,9 +113,7 @@ Sum of |**A**| across all the tests in the input does not exceed **200000**.
 
 777744
 
-```
-### Explanation
-
+</pre>### Explanation
 **Case 1.** In this case the only possible string **C** we can get is **"7"** and it is the lucky string.
 
 **Case 2.** If we reorder **A** and **B** as **A = "543"** and **B = "749"** the string **C** will be at first **"749"** and then becomes **"74"**. It can be shown that this is the lexicographically greatest string for the given **A** and **B**.

@@ -28,8 +28,7 @@ For each test case output the expected amount of shuffles needed for the improve
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 2
@@ -42,4 +41,4 @@ For each test case output the expected amount of shuffles needed for the improve
 877318/35343
 
 
-```
+</pre>

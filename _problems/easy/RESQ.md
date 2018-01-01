@@ -91,8 +91,7 @@ Output **T** lines, each indicating the minimum possible difference between the 
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 4
 20
@@ -106,9 +105,7 @@ Output **T** lines, each indicating the minimum possible difference between the 
 2
 0
 
-```
-### Explanation 
-
+</pre>### Explanation 
 **Case 1**: 20 cupcakes can be arranged in 6 possible ways - 1 x 20, 2 x 10, 4 x 5, 5 x 4, 10 x 2 and 20 x 1. The corresponding differences between the length and the width are 19, 8, 1, 1, 8 and 19 respectively. Hence, 1 is the answer.
 
 **Case 4**: 4 cupcakes can be arranged as a 2 x 2 square. Difference between the length and the width is 0. You can't do anything better than 0.

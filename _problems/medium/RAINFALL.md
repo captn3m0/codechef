@@ -73,8 +73,7 @@ You are given an **n\*m** matrix **A**. **A\[1\]\[1\]** is the top-left cell, an
 `randomInt(a, b)` returns an uniform random integer between a and b (both inclusive). That is, all the b-a+1 integers have an equal probability of being returned.
 
 
-```
-
+<pre>
 For x = 1 to n:
   For y = 1 to m:
     I = randomInt(1, x)
@@ -86,8 +85,7 @@ For x = 1 to n:
     is within this rectangle.
     This means B[p][q] += A[x][y] if I <= p <= K and J <= q <= L.
 
-```
-A city is constructed, which has **n \* m** houses. The house located at **(i, j)** has height **B\[i\]\[j\]** above sea level. After **X** amount of rainfall, all houses whose height is less than or equal to **X** are submerged in water.
+</pre>A city is constructed, which has **n \* m** houses. The house located at **(i, j)** has height **B\[i\]\[j\]** above sea level. After **X** amount of rainfall, all houses whose height is less than or equal to **X** are submerged in water.
 
 Note than in the above construction, the heights of houses inside the city are not constant, but vary based on outcome of the previous algorithm.
 
@@ -118,8 +116,7 @@ For each test case, for each query, output a single line containing the smallest
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 1 2 1
 2 3
@@ -128,13 +125,10 @@ For each test case, for each query, output a single line containing the smallest
 <b>Output:</b>
 3
 
-```
-### Explanation
-
+</pre>### Explanation
 These are the following possible values of B:
 
-```
-
+<pre>
 2 3
 
 5 3
@@ -143,6 +137,4 @@ These are the following possible values of B:
 
 5 5
 
-```
-All these four values of **B** appear with same probability, 1/4. The expected number of houses submerged when X = 3 is (2 \* 1/4 + 1 \* 1/4 + 1 \* 1/4 + 0 \* 1/4) = 1.
-if rainfall is less than 3, then the expected number of submerged houses is less than 1.
+</pre>All these four values of **B** appear with same probability, 1/4. The expected number of houses submerged when X = 3 is (2 \* 1/4 + 1 \* 1/4 + 1 \* 1/4 + 0 \* 1/4) = 1.if rainfall is less than 3, then the expected number of submerged houses is less than 1.

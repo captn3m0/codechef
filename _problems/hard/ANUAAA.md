@@ -74,8 +74,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 Anup recently visited Amrithapuri for ACM ICPC regional contest. A student walked up to Anup, gave him a paper which had a long programming question on it and asked him to solve it by 18th of January, 2015. As Anup was busy with school kids, he posted the question as cook off question, asking wider community to solve that question. Following is the question:
 
-```
-
+<pre>
 function f(A[0..N-1], L, R, P):
 	if L > R:
 		return f(A, R, L, P)
@@ -88,9 +87,7 @@ function f(A[0..N-1], L, R, P):
 				ANSWER = MAX(ANSWER, SIZE(S))
 	return ANSWER
 
-```
-
-Clarifications:
+</pre>Clarifications:
 Line 5 loops over all 2^(R-L+1) subsets.
 GCD(S) returns the Greatest common divisor of all the elements in S.
 SIZE(S) returns the number of elements in S.
@@ -120,8 +117,7 @@ Output single integer which is the required answer modulo 1000000007
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5 2
 1 2 3 4 5
 1 2
@@ -129,9 +125,7 @@ Output single integer which is the required answer modulo 1000000007
 <b>Output:</b>
 34
 
-```
-### Explanation
-
+</pre>### Explanation
 Here are the answers of few calls to function f()
 f(A, 2, 0, 2) = 1
 f(A, 2, 0, 5) = 0

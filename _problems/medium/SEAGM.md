@@ -106,8 +106,7 @@ Output the integer part of the answer to the first question and the answer to th
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 5
 6 10 15 22 28
@@ -125,4 +124,4 @@ Output the integer part of the answer to the first question and the answer to th
 1 0.5833
 
 
-```
+</pre>

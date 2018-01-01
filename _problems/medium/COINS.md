@@ -29,8 +29,7 @@ For each test case output a single line, containing the maximum amount of Americ
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 12
 2
 
@@ -38,5 +37,4 @@ For each test case output a single line, containing the maximum amount of Americ
 13
 2
 
-```
-You can change 12 into 6, 4 and 3, and then change these into $6+$4+$3 = $13. If you try changing the coin 2 into 3 smaller coins, you will get 1, 0 and 0, and later you can get no more than $1 out of them. It is better just to change the 2 coin directly into $2.
+</pre>You can change 12 into 6, 4 and 3, and then change these into $6+$4+$3 = $13. If you try changing the coin 2 into 3 smaller coins, you will get 1, 0 and 0, and later you can get no more than $1 out of them. It is better just to change the 2 coin directly into $2.

@@ -106,8 +106,7 @@ For each test case output a single line with a single integer - the answer to th
 19. Subtask 3: **T = 2**, **3** ≤ **N** ≤ **1000**. The time limit is 5 seconds - 63 points.
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 4
 1 2 1024 1025
@@ -115,7 +114,5 @@ For each test case output a single line with a single integer - the answer to th
 <b>Output:</b>
 1048576
 
-```
-### Explanation
-
+</pre>### Explanation
 The first and the fourth girl will form the first group; the second and the third will form the second group.

@@ -30,8 +30,7 @@ Output a single line containing the minumum number of clicks necessary to close 
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 3 8
@@ -45,4 +44,4 @@ Output a single line containing the minumum number of clicks necessary to close 
 9
 2
 
-```
+</pre>

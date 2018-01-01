@@ -90,13 +90,12 @@ Each test case contain a number made of only digits 1's and 0's on newline
 **Subtask #1: (40 points)**- **1** ≤ **T** ≤ **50**
 - **1** ≤ **Length of the number D** ≤ **50**
 
-**Subtask #2: (60 points)**- **1** ≤ **T** ≤ **10**
+ **Subtask #2: (60 points)**- **1** ≤ **T** ≤ **10**
 - **1** ≤ **Length of the number D** ≤ **105**
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 101
 11
@@ -104,9 +103,7 @@ Each test case contain a number made of only digits 1's and 0's on newline
 Yes
 No
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** In 101, the 0 can be flipped to make it all 1..
 
 **Example case 2.** No matter whichever digit you flip, you will not get the desired string.

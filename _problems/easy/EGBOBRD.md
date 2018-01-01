@@ -113,8 +113,7 @@ For each of the **T** test cases, output a single line - minimum number of packa
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 3 4
 3 1 2
@@ -128,9 +127,7 @@ For each of the **T** test cases, output a single line - minimum number of packa
 1
 4
 
-```
-### Explanation
-
+</pre>### Explanation
 Test case **1** has already been explained in the statement.
 
 In test case **2**, we have one day tour and packages with one piece each. In the first day, we have to eat one piece of bread, so we open a package and eat one piece. Tour ended, and our answer is 1.

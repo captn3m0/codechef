@@ -15,7 +15,7 @@ layout: problem
 
 ### Input
 
- The first line contains a single integer **T** denoting the number of test cases (at most **20**). Each test case begins with three integers **N**, **M** and **K**. Here, **N** is the number of employees (between **1** and **10000**), **M** is the number of compatible pairs of employees (between  and **20000**) and **K** is the number of friendly groups that you need to find (between **1** and **50**). The employees are numbered from  to **N-1**. The next line contains **N** integers  **c0, c1, ..., cN-1** described in the problem statement. These numbers are different non-negative integers not greater than **109**. The next **M** lines describe pairs of compatible employees, one per line. The **i**'th such line contains two distinct integers **ui, vi** between  and **N-1**.
+ The first line contains a single integer **T** denoting the number of test cases (at most **20**). Each test case begins with three integers **N**, **M** and **K**. Here, **N** is the number of employees (between **1** and **10000**), **M** is the number of compatible pairs of employees (between  and **20000**) and **K** is the number of friendly groups that you need to find (between **1** and **50**). The employees are numbered from  to **N-1**. The next line contains **N** integers  **c0, c1, ..., cN-1**  described in the problem statement. These numbers are different non-negative integers not greater than **109**. The next **M** lines describe pairs of compatible employees, one per line. The **i**'th such line contains two distinct integers **ui, vi** between  and **N-1**.
 
  No pair of employees will be given more than once in the input. That is, for distinct indices **i** and **j**, we do not have both **ui = uj** and **vi = vj**, nor do we have both **ui = vj** and **vi = uj**.
 
@@ -25,8 +25,7 @@ layout: problem
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 4 5 11
@@ -55,4 +54,4 @@ layout: problem
 0
 
 
-```
+</pre>

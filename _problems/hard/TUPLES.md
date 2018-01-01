@@ -112,8 +112,7 @@ For each test case, output a single line containing the answer. Since the answer
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>1
 3
 300 3000 30000
@@ -121,4 +120,4 @@ For each test case, output a single line containing the answer. Since the answer
 <b>Output:</b>
 <tt>234</tt>
 
-```
+</pre>

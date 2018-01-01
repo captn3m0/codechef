@@ -103,8 +103,7 @@ Output **T** lines. Each of these lines should contain the number of occurences 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5
 447474
 228
@@ -119,4 +118,4 @@ Output **T** lines. Each of these lines should contain the number of occurences 
 1
 0
 
-```
+</pre>

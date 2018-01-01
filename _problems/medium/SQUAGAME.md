@@ -30,8 +30,7 @@ For each test case print "Fat x", where x - is the number of square which needs 
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 5
@@ -49,4 +48,4 @@ Fat 2
 Fit
 
 
-```
+</pre>

@@ -69,8 +69,7 @@ layout: problem
 ---
 All submissions for this problem are available.You are given a simple code of a function and you would like to know what it will return.
 
-```
-
+<pre>
  F(<b>N, K, Answer, Operator, A[N]</b>) returns int;
   begin
       for <b>i</b>=1..<b>K</b> do
@@ -79,8 +78,7 @@ All submissions for this problem are available.You are given a simple code of a 
        return <b>Answer</b>
   end
 
-```
-
+</pre>
 />
 
 Here **N, K, Answer** and the value returned by the function **F** are integers; **A** is an array of **N** integers numbered from **1** to **N**; **Operator** can be one of the binary operators **XOR, AND** or **OR**. If you are not familiar with these terms then better have a look at following articles: [XOR](http://en.wikipedia.org/wiki/Bitwise_operation#XOR), [OR](http://en.wikipedia.org/wiki/Bitwise_operation#OR), [AND](http://en.wikipedia.org/wiki/Bitwise_operation#AND).
@@ -101,8 +99,7 @@ Output one line for each test case - the value that is returned by described fun
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 3 1 0
 1 2 3
@@ -118,9 +115,7 @@ OR
 0
 3
 
-```
-### Explanation
-
+</pre>### Explanation
 0 xor 1 xor 2 xor 3 = 0
 
 0 and 1 and 2 and 3 = 0

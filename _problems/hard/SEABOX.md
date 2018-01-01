@@ -77,14 +77,12 @@ All submissions for this problem are available.###  Read problems statements in 
 Sereja has a box **A** with size **N\*N\*N**, where **N=2Q** for some integer **Q**. Each cell **A(i, j, k)** contains some binary value (zero or one). Sereja now has C++ function **F(A)** (where the box **A** is parameter of the function **F**):
 
 
-```
-
+<pre>
 int F(box A, int dx = 0, int dy = 0, int dz = 0, int size = N) {
    vector<bool> B = {};
    for (int i = dx; i 
 </bool>
-```This function computes compression level of the box. Sereja now wants to know minimal and maximal value of **F(D)** among all boxes **D** which has same dimensions as **A** and differ in no more than **K** cells with **A**.
-
+</pre>This function computes compression level of the box. Sereja now wants to know minimal and maximal value of **F(D)** among all boxes **D** which has same dimensions as **A** and differ in no more than **K** cells with **A**.
 ### Input
 
 First line contains integers **N** and **K**.
@@ -110,8 +108,7 @@ Output two numbers in a single line - minimal and maximal value of **F(D)**.
 
 ### Example 1
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2 0
 0 0
 0 0
@@ -121,11 +118,8 @@ Output two numbers in a single line - minimal and maximal value of **F(D)**.
 <b>Output:</b>
 1 1
 
-```
-### Example 2
-
-```
-<b>Input:</b>
+</pre>### Example 2
+<pre><b>Input:</b>
 2 1
 0 0
 0 0
@@ -135,4 +129,4 @@ Output two numbers in a single line - minimal and maximal value of **F(D)**.
 <b>Output:</b>
 1 8
 
-```
+</pre>

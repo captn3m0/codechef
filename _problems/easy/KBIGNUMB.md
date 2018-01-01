@@ -106,8 +106,7 @@ For each test case, output a single line containing an integer denoting the valu
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 12 2 17
 523 3 11
@@ -116,9 +115,7 @@ For each test case, output a single line containing an integer denoting the valu
 5
 6
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example 1:** As **A = 12, N = 2, X = 1212**, **1212 modulo 17 = 5**
 
 **Example 2.** As **A = 523, N = 3, X = 523523523**, **523523523 modulo 11 = 6**

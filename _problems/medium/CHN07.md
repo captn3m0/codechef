@@ -48,8 +48,7 @@ The player who is not able to make any move in his/her turn loses. Find out the 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 R
 BB
@@ -58,9 +57,7 @@ BB
 Malvika
 Animesh
 
-```
-### Explanation
-
+</pre>### Explanation
 **In the first example**, Malvika will flip the red faced card in the first move, so it will now be blue faced. Now Animesh can't make any move, so he will lose. Hence Malvika is the winner.
 
 **In the second example**, Malvika can not make any move in the first turn itself, and therefore she loses. Hence Animesh is the winner.

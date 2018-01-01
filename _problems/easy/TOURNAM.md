@@ -49,8 +49,7 @@ For each test case output exactly one line containing the required probability i
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 4
 2 1 42
@@ -68,4 +67,4 @@ For each test case output exactly one line containing the required probability i
 73.18080000000000
 75.47784648840000
 
-```
+</pre>

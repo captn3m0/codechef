@@ -104,17 +104,14 @@ Output a single line containing the number of strings corresponding to the given
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4 2
 1 2 3
 0 3 4
 <b>Output:</b>
 4
 
-```
-### Explanation
-
+</pre>### Explanation
 The initial array is (1, 2, 3, 4).
 After the first operation the array becomes (1, 3, 2, 4).
 After the second operation the array becomes (2, 4, 1, 3).

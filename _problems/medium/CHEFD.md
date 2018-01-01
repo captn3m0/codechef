@@ -105,8 +105,7 @@ Each of the following **M** lines describes a single query in the format given i
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 1 2 3
@@ -120,4 +119,4 @@ Each of the following **M** lines describes a single query in the format given i
 <b>Output:</b>
 5 1 1
 
-```
+</pre>

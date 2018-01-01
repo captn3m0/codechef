@@ -140,8 +140,7 @@ Find out number of ways in which bunnies can get from cell (1, 1) to cell (**N**
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 2 3 0 0 10
 2 3 1 0 16
@@ -158,9 +157,7 @@ Find out number of ways in which bunnies can get from cell (1, 1) to cell (**N**
 1
 0
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.**
 
 \*\*\*

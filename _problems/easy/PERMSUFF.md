@@ -99,8 +99,7 @@ For each test case, output a single line containing the answer to the correspond
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 7 4
 3 1 2 4 5 7 6
@@ -118,4 +117,4 @@ Possible
 Impossible
 
 
-```
+</pre>

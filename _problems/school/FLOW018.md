@@ -83,8 +83,7 @@ Display the factorial of the given number **N** .
 
 ### Example
 
-```
-
+<pre>
 <b>Input</b>
 3 
 3 
@@ -97,4 +96,4 @@ Display the factorial of the given number **N** .
 24
 120
 
-```
+</pre>

@@ -99,8 +99,7 @@ For each test case, output the maximum sum obtained using the constraints above.
 - **1 ≤ Abs(value of the integer array) ≤ 109**
 - **Character array contains chars from this set: \[,\],{,},<,>,(,)**
 
-```
-
+<pre>
 <b>Sample Input</b>
 3
 4
@@ -118,9 +117,7 @@ For each test case, output the maximum sum obtained using the constraints above.
 1
 0
 
-```
-### Explanation
-
+</pre>### Explanation
 For first test case take last 2 elements: 3 + 4 = 7. 
 For second test case take the middle 2 elements: -2 + 3 = 1
 

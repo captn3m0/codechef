@@ -91,16 +91,13 @@ Output the number of nice sequences on the first line of the output modulo **109
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 10 4 1
 
 <b>Output:</b>
 1
 
-```
-### Explanation
-
+</pre>### Explanation
 The only suitable sequence is (1, 2, 3, 4).
 
 ### Scoring

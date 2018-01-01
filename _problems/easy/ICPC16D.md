@@ -50,8 +50,7 @@ For each test case, output a single line containing the corresponding answer.
 
 ### Example
 
-```
-<b>Input</b>
+<pre><b>Input</b>
 2
 2
 1 2
@@ -62,9 +61,7 @@ For each test case, output a single line containing the corresponding answer.
 3
 5
 
-```
-### Explanation
-
+</pre>### Explanation
 **Test case 1.** There are three sets which are good **{1}**, **{2}**, **{1, 2}**.
 
 **Test case 2.** There are five sets which are good **{6}**, **{2}**, **{3}**, **{6 2}**, **{6, 3}**.

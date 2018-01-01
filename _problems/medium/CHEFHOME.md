@@ -93,8 +93,7 @@ The number of possible locations (grid points) where houses can be built.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 5
@@ -118,4 +117,4 @@ The number of possible locations (grid points) where houses can be built.
 1
 4
 
-```
+</pre>

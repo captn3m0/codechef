@@ -25,8 +25,7 @@ You are given positive integers **L, R, k** such that **k <= R - L**. Consider a
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 2 6 2 1
@@ -38,4 +37,4 @@ You are given positive integers **L, R, k** such that **k <= R - L**. Consider a
 3 0 0
 4 5 14
 
-```
+</pre>

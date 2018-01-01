@@ -126,8 +126,7 @@ If the player uses "pass" at that step, then output "0 0", otherwise output the 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 12
 
 <b>Output:</b>
@@ -144,9 +143,7 @@ If the player uses "pass" at that step, then output "0 0", otherwise output the 
 9 9
 2 2
 
-```
-### Examples
-
+</pre>### Examples
 Here are some examples: 
 You can see the image at this [link](/download/extimages/dff1e253b0a327c9f60f79ec80e10fb1.png) if itis not properly visible in your browser.
 

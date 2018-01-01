@@ -79,8 +79,7 @@ For each instruction in the given order, output the number of cells that are pai
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 5
 R 100
@@ -97,9 +96,7 @@ R 200
 10
 99
 
-```
-
-**Explanation:**
+</pre>**Explanation:**
 R 100 : all 100 cells from (1,0) to (100,0) are painted white
 
 U 10 : all 10 cells from (100,1) to (100,10) are painted white

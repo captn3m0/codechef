@@ -92,8 +92,7 @@ For each test case, output a single line containing the expected number of songs
 10. **1** ≤ **N** ≤  **3000**
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 1
 2
@@ -107,7 +106,5 @@ For each test case, output a single line containing the expected number of songs
 
 
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 2** After playing the first song there is **1/2** chance to finish the album each time new song is played. So the expected number of songs is **2/2 + 3/4 + 4/8... = 3**

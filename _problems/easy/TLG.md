@@ -19,8 +19,7 @@ The Siruseri Sports Club organises an annual billiards game where the top two pl
 
 Consider the following score sheet for a game with 5 rounds:
 
-```
-    Round     Player 1       Player 2
+<pre>    Round     Player 1       Player 2
 
       1             140                 82
       2              89                 134 
@@ -28,11 +27,8 @@ Consider the following score sheet for a game with 5 rounds:
       4              112              106
       5              88                  90 
 
-```
-The total scores of both players, the leader and the lead after each round for this game is given below:
-
-```
-    Round      Player 1       Player 2     Leader     Lead
+</pre>The total scores of both players, the leader and the lead after each round for this game is given below:
+<pre>    Round      Player 1       Player 2     Leader     Lead
 
       1               140           	 82        Player 1     58
       2               229           	216       Player 1     13
@@ -40,9 +36,7 @@ The total scores of both players, the leader and the lead after each round for t
       4               431           	432       Player 2      1
       5               519           	522       Player 2      3
 
-```
-The winner of this game is Player 1 as he had the maximum lead (58 at the end of round 1) during the game.
-
+</pre>The winner of this game is Player 1 as he had the maximum lead (58 at the end of round 1) during the game.
 Your task is to help the Manager find the winner and the winning lead. You may assume that the scores will be such that there will always be a single winner. That is, there are no ties.
 
 Input
@@ -57,18 +51,14 @@ Example
 
 Input:
 
-```
-5
+<pre>5
 140 82
 89 134
 90 110
 112 106
 88 90
 
-```
-Output:
+</pre>Output:
+<pre>1 58
 
-```
-1 58
-
-```
+</pre>

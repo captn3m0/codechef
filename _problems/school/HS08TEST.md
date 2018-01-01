@@ -72,34 +72,27 @@ Output the account balance after the attempted transaction, given as a number wi
 
 ### Example - Successful Transaction
 
-```
-
+<pre>
 <b>Input:</b>
 30 120.00
 
 <b>Output:</b>
 89.50
 
-```
-### Example - Incorrect Withdrawal Amount (not multiple of 5)
-
-```
-
+</pre>### Example - Incorrect Withdrawal Amount (not multiple of 5)
+<pre>
 <b>Input:</b>
 42 120.00
 
 <b>Output:</b>
 120.00
 
-```
-### Example - Insufficient Funds
-
-```
-
+</pre>### Example - Insufficient Funds
+<pre>
 <b>Input:</b>
 300 120.00
 
 <b>Output:</b>
 120.00
 
-```
+</pre>

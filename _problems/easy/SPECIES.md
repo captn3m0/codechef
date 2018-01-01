@@ -111,10 +111,8 @@ For each test case, output a single line containing one integer — the number o
 
 ### Example
 
-```
-<b>Input:</b>
-```
-6
+<pre><b>Input:</b>
+</pre>6
 3
 ..?
 .?B
@@ -141,8 +139,7 @@ GG
 2
 PP
 PP
-```
-
+<pre>
 <b>Output:</b>
 1
 0
@@ -151,18 +148,14 @@ PP
 288603514
 1
 
-```
-### Explanation
-
+</pre>### Explanation
 **Test case 1.** We are given the grid of size 3 × 3. One of the already fixed cells is inhabited by brown bears. They would fight with bears of any species other than brown bears, so adjacent cells with question marks must by inhabited by brown bears as well. Hence, there is only 1 way to replace question marks (both of them must be replaced by 'B').
 
 **Test case 2.** In the given grid, there are two adjacent cells both inhabited by grizzly bears. They will fight with each other, so the answer is 0 — it's impossible to replace question marks so that there would be no fights (it doesn't matter that there are no question marks at all).
 
 **Test case 3.** There are 6 ways:
 
-```
-B.. B.. G.. G.. P.. P..
+<pre>B.. B.. G.. G.. P.. P..
 .BB .PP .BB .PP .BB .PP
 BB. PP. BB. PP. BB. PP.
-```
-**Test case 4.** No matter how we replace question marks, bears in some two adjacent cells will start a fight. The answer is 0.
+</pre>**Test case 4.** No matter how we replace question marks, bears in some two adjacent cells will start a fight. The answer is 0.

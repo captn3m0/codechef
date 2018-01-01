@@ -23,8 +23,7 @@ Chef develops his own computer program for playing chess. He is at the very begi
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 4
 a1-b3
@@ -38,4 +37,4 @@ No
 Error
 Error
 
-```
+</pre>

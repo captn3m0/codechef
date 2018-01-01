@@ -27,8 +27,7 @@ For each test case, output on a single line the maximum number of knights that m
 
 ### Sample input:
 
-```
-2
+<pre>2
 2 4
 ....
 ....
@@ -39,16 +38,12 @@ For each test case, output on a single line the maximum number of knights that m
 ...##
 .....
 
-```### Sample output:
-
-```
-4
+</pre>### Sample output:
+<pre>4
 11
 
 
-```
-The following image represents the chessboard and a possible solution to the second test case:
-![nn#_n
+</pre>The following image represents the chessboard and a possible solution to the second test case:![nn#_n
 #n_#n
 ##__n
 _n_##

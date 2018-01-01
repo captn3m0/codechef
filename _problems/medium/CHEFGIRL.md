@@ -109,8 +109,7 @@ Chef can perform operations of the following kind: take some edge, and extend it
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5 4
 1 2 10 15
 1 3 10 16
@@ -120,9 +119,7 @@ Chef can perform operations of the following kind: take some edge, and extend it
 <b>Output:</b>
 50
 
-```
-```
-
+</pre><pre>
 <h3>Explanation</h3>
 <p><b>Example case 1.</b></p>
 Without any changes made by Chef, we will have the following knowledge propagation:
@@ -144,4 +141,4 @@ Here is the solution:
 Now, all secrets in the range <b>[1-9]</b> will go through <b>1-2-4</b> and all secrets in the range <b>[10-32]</b> will go through <b>1-3-5</b>, finally reaching Chef.
 And the total cost is <b>50</b>.
 
-```
+</pre>

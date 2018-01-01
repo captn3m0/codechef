@@ -96,8 +96,7 @@ For each test case, output on a separate line an integer **K** denoting the numb
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 2 Hi
@@ -121,9 +120,7 @@ He 2
 0
 0
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** The complete article is
 He is
 in He

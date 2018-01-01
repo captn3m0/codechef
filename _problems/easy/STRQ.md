@@ -105,8 +105,7 @@ For each chef's query, print the required answer.
 
 ### Example
 
-```
-
+<pre>
 <b>Input</b>
 checfcheff
 5
@@ -123,9 +122,7 @@ c f 6 10
 2
 2
 
-```
-### Explanation
-
+</pre>### Explanation
 - Q1 : good strings are **ch** , **checfch** , **cfch** , **ch**
 - Q2 : good strings are **checf** , **checfchef** , **checfcheff** , **cf** , **cfchef** , **cfcheff** , **chef** , **cheff**
 

@@ -75,13 +75,12 @@ All submissions for this problem are available.###  Read problems statements in 
 
 Chef has an array **A** consisting of **N** integers (1-based indexing). He asks you to perform the following operation **M** times:
 
-```
-
+<pre>
 <pre>	<b>for</b> i = 2 to <b>N</b>:
-		<b>A</b><sub>i</sub> = <b>A</b><sub>i</sub> + <b>A</b><sub>i-1</sub></pre>
+		<b>A</b><sub>i</sub> = <b>A</b><sub>i</sub> + <b>A</b><sub>i-1</sub>
+</pre>
 
-```
-
+</pre>
 Your task is to find the **xth** element of the array (i.e., **Ax**) after performing the above operation **M** times. As the answer could be large, please output it modulo 109 + 7.
 
 ### Input
@@ -98,18 +97,17 @@ For each test case, output a single line containing one integer: **Ax** modulo 1
 - **1** ≤ **T** ≤ **10**
 - **1** ≤ **x** ≤ **N** ≤ **105**
 - **1** ≤ **M** ≤ **1018**
-- **1** ≤ **Ai** ≤ **1018**
+- **1** ≤ **Ai**  ≤ **1018**
 
 ### Subtasks
 
 **Subtask 1 (8 points):**- **1 ≤ x ≤ min{2, N}**
 
-**Subtask 2 (24 points):**- **1 ≤ N \* M ≤ 106**
+ **Subtask 2 (24 points):**- **1 ≤ N \* M ≤ 106**
 
 **Subtask 3 (68 points):**  No additional constraints ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 3 2 3
 1 2 3
@@ -120,9 +118,7 @@ For each test case, output a single line containing one integer: **Ax** modulo 1
 5
 15
 
-```
-### Explanation
-
+</pre>### Explanation
 Values in the array **A**:
 
 - Before the operations: **\[1, 2, 3\]**

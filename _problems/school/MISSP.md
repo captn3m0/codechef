@@ -86,19 +86,17 @@ Find the type of doll that doesn't have a pair
 1<=N<=100000 (10^5) 
 1<=ti<=100000
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 3
 1 
 2
 1
-<br></br><b>Output:</b>
+<br></br>
+<b>Output:</b>
 2
 
-```
-```
-<b>Input:</b>
+</pre><pre><b>Input:</b>
 1
 5
 1
@@ -109,4 +107,4 @@ Find the type of doll that doesn't have a pair
 <b>Output:</b>
 3
 
-```
+</pre>

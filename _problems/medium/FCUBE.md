@@ -99,8 +99,7 @@ For each test case, output a single line containing the first term of the sequen
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 2
 2 2
@@ -110,9 +109,7 @@ For each test case, output a single line containing the first term of the sequen
 8
 216
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** First few numbers in the infinite sequence 4, 8, 12, 16, 20, , etc. In this sequence, 8 is the first number which is also a cube (as **23 = 8**).
 
 **Example case 2.** First few numbers in the infinite sequence 6, 12, 18, 24, , etc. In this sequence, 216 is the first number which is also a cube (as **63 = 216**).

@@ -93,8 +93,7 @@ In a single line, print the minimum number of edges we need to revert. If there 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 7 7
 1 2 
 3 2
@@ -107,9 +106,7 @@ In a single line, print the minimum number of edges we need to revert. If there 
 <b>Output:</b>
 2
 
-```
-### Explanation
-
+</pre>### Explanation
 We can consider two paths from **1** to **7**:
 
 - **1-2-3-4-7**

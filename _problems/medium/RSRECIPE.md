@@ -33,8 +33,7 @@ If there is a solution output **N** space separated integer numbers - the sequen
 
 ### Example
 
-```
-
+<pre>
 <b>Input 1:</b>
 4 4
 1 2 3
@@ -54,9 +53,7 @@ If there is a solution output **N** space separated integer numbers - the sequen
 <b>Output 2:</b>
 -1
 
-```
-### Explanation
-
+</pre>### Explanation
 In the first test case the answer is not unique. Possible answers are also **{0, 3, -2, 0}**, **{2, 1, 0, -2}** and many others. 
 
 In the second test case first two conditions imply **A\[1\] + A\[2\] + A\[3\] = 4** and **A\[4\] + A\[5\] = 6** and hence **A\[1\] + A\[2\] + A\[3\] + A\[4\] + A\[5\] = (A\[1\] + A\[2\] + A\[3\]) + (A\[4\] + A\[5\]) = 4 + 6 = 10**. And it contradicts to the third condition. Hence it is impossible to restore the recipe.

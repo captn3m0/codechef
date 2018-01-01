@@ -109,8 +109,7 @@ Print a single integer denoting value of **AN**.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3 5
 1 2 3
 4 5 6
@@ -118,9 +117,7 @@ Print a single integer denoting value of **AN**.
 <b>Output:</b>
 139
 
-```
-### Explanation
-
+</pre>### Explanation
 **A1 = 1.**
 **A2 = 2.**
 **A3 = 3.**

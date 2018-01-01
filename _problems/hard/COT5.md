@@ -99,8 +99,7 @@ For each distance query, print the distance between **u** and **v**.
 
 ### Example
 
-```
-<strong>Input:</strong>
+<pre><strong>Input:</strong>
 12
 0 4 17535
 0 10 38964
@@ -122,4 +121,4 @@ For each distance query, print the distance between **u** and **v**.
 1
 1
 
-```
+</pre>

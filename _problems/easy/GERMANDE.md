@@ -113,8 +113,7 @@ For all subtasks you may assume that:
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 5 1
 1 0 0 1 1
@@ -131,9 +130,7 @@ For all subtasks you may assume that:
 1
 0
 
-```
-### Explanation
-
+</pre>### Explanation
 In the first testcase, each state should have only 1 district, and hence, there is no actual choice in constructing the states. There will be three One Governors, and two Zero Governors, and hence the President will be a One.
 
 In the second testcase, each of the three states should should have 3 districts each. Consider the following partitioning of the districts into states: {2,3,4}, {5,6,7} and {8,9,1}. So, the first state consists of the districts {2,3,4}, and the representatives of these correspond to {0,1,1}. The majority is One, and hence the first state will have a One Governor. The representatives corresponding to the second state are {0,1,1}, and so again, this will have a One Governor. The third state has representatives {0,0,0}, and hence will have a Zero Governor. On the whole, there are two One Governors, and one Zero Governor, and hence the President will be a One. And since there is a way to partition the districts into states, in which the President is a One, the answer is 1.

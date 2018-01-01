@@ -90,8 +90,7 @@ For each test case output a single line containing the value of **103993/33102**
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 0
@@ -103,9 +102,7 @@ For each test case output a single line containing the value of **103993/33102**
 3.141592
 3.14159265301190260407
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** Here **K = 0** so we don't need to output any digits after the decimal point. The decimal point itself also should not be output.
 
 **Example case 2.** Note that here we **truncate** (not round) the actual value of **103993/33102** to **6** digits after the decimal point. As you see from example case 3 rounded value here differs from truncated one.

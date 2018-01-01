@@ -95,8 +95,7 @@ For each testcase output a single line containing the string **"YES"** (without 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>3
 LTIMEAZAZAITLME
 LLLTTTIIIMMMEEEAHA
@@ -108,9 +107,7 @@ YES
 NO</tt>
 
 
-```
-### Explanation
-
+</pre>### Explanation
 **Test case 1**: we can permute the last 5 letters and get LTIMEAZAZAEMITL
 
 **Test case 2**: we have 3 copies of each of the letters 'L', 'T', 'I', 'M', 'E' so we can leave 5 of them in the beginning and move 5 of them to the end.

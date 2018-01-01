@@ -90,25 +90,19 @@ For each test case, output a single line containing number of pairs for correspo
 
 ### Example
 
-```
-
+<pre>
 2
 2
 2 1
 3
 3 1 2
 
-```
-**Output:**
-
-```
-
+</pre>**Output:**
+<pre>
 1
 3
 
-```
-### Explanation
-
+</pre>### Explanation
 Case 1: Only one such pair: (2,1)
 
 Case 2: 3 possible pairs: (2,1), (2,3), (3,1)

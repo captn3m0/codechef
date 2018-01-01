@@ -31,8 +31,7 @@ Chef is interested in knowing how many ways he can choose the window. But since 
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 4 2 3 1 1
@@ -44,9 +43,7 @@ Chef is interested in knowing how many ways he can choose the window. But since 
 4
 579415965
 
-```
-### Explanation
-
+</pre>### Explanation
 In the first case we need calculate the number of rectangles which lie in triangle with vertices **(0; 0), (4; 0), (4; 8/3)**. There exist 5 such rectangles. Among them 3 have size **1 x 1**. One has size **2 x 1** and one have size **1 x 2**. 
 
 In the second case we have two rectangles **2 x 2** and one rectangle **2 x 3** where we can choose middle horizontal segment in two ways. So we have in total 4 possible choices.

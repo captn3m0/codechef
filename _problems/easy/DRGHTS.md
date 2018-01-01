@@ -89,8 +89,7 @@ In a single line print two numbers, denoting the answers to Furik and Rubik ques
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 6 5
 1 1 1 1 1 0
@@ -111,4 +110,4 @@ In a single line print two numbers, denoting the answers to Furik and Rubik ques
 <b>Output:</b>
 0 0
 
-```
+</pre>

@@ -87,8 +87,7 @@ Output a single line containing the minimal number of moves required to remove a
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3 
 1 2 3
 
@@ -96,9 +95,7 @@ Output a single line containing the minimal number of moves required to remove a
 1
 
 
-```
-```
-<b>Input:</b>
+</pre><pre><b>Input:</b>
 4
 4 1 2 3
 
@@ -106,9 +103,7 @@ Output a single line containing the minimal number of moves required to remove a
 2
 
 
-```
-### Scoring
-
+</pre>### Scoring
 Subtask 1 (10 points):  **N = 10**  
 
 Subtask 2 (40 points):  **N = 2000**  

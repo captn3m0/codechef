@@ -97,8 +97,7 @@ For each test case, output a single line containing the number of different coun
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>2
 INBY
 BYBY</tt>
@@ -107,9 +106,7 @@ BYBY</tt>
 <tt>3
 2</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** The codes are **IN**, **NB** and **BY**.
 
 **Example case 2.** The codes are **BY** and **YB**.

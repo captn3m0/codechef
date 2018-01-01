@@ -36,8 +36,7 @@ For each query in the input print how many n-ary function are in the set describ
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 6
@@ -57,4 +56,4 @@ AvZvP\A
 2
 
 
-```
+</pre>

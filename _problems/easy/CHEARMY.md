@@ -80,7 +80,7 @@ The number **n** will be called magical if sum of **prod(s)** for all elements *
 For example, consider a number 246, its all possible non-empty subsequence will be **S = {2, 4, 6, 24, 46, 26, 246}**. Products of digits of these subsequences will be **{prod(2) = 2, prod(4) = 4, prod(6) = 6, prod(24) = 8, prod(46) = 24, prod(26) = 12, prod(246) = 48**, i.e. **{2, 4, 6, 8, 24, 12, 48}**. Sum of all of these is 104, which is even. Hence 246 is a _magical_ number.
 
 Please note that multi-set **S** can contain repeated elements, e.g. if number is 55, then **S = {5, 5, 55}**. Products of digits of these subsequences will be **{prod(5) = 5, prod(5) = 5, prod(55) = 25}**, i.e. **{5, 5, 25}**. Sum of all of these is 35 which is odd. Hence 55 is not a
-_magical_ number.
+ _magical_ number.
 
 Consider a number 204, then **S = {2, 0, 4, 20, 04, 24, 204}**. Products of digits of these subsequences will be **{2, 0, 4, 0, 0, 8, 0}**. Sum of all these elements will be 14 which is even. So 204 is a _magical_ number.
 
@@ -112,8 +112,7 @@ For each test case, print a single integer corresponding to the **Kth** magical 
 Original Constraints
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 2
 5
@@ -122,8 +121,6 @@ Original Constraints
 2
 8
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.**
 2 is the 2nd magical number, since it satisfies the property of the magical number. The first magical number will be of course 0.

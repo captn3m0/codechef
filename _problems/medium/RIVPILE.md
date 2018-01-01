@@ -98,8 +98,7 @@ For each test case, print the minimum cost to make it possible to move from **y 
 
 ### Sample
 
-```
-
+<pre>
 <b>Input</b>
 3
 11 4 13
@@ -144,9 +143,7 @@ For each test case, print the minimum cost to make it possible to move from **y 
 impossible
 
 
-```
-### Explanation
-
+</pre>### Explanation
 The following figure indicates the optimal way for the first case.
 
 ![](//www.codechef.com/download/RIVPILE.png)

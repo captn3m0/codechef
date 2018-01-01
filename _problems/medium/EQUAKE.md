@@ -83,7 +83,7 @@ Major of Bytetown got some ideas how to protect residents, so sometimes he needs
 
 - _Type 0_, described by **0 Li Ri Fi**: Shake occurred on interval **\[Li, Ri\]** with force **Fi**.
 - _Type 1_, described by **1 Li Ri**: The major wants to know the biggest height on interval **\[Li, Ri\]**.
-
+ 
 Here, of course, the interval **\[L, R\]** contains all the building **k** such that **L ≤ k ≤ R**.
 
 You want to get a promotion and promised to complete this task. Now it's time to do it!
@@ -102,15 +102,14 @@ For each _Type 1_ query, output an integer denoting the answer for the query wit
 
 - **1 ≤ N ≤ 800000 = 8 × 105**
 - **1 ≤ M ≤ 200000 = 2 × 105**
-- **0 ≤ Ai4**
+- **0 ≤ Ai 4**
 - **0 ≤ Li ≤ Ri**
 - **0 ≤ Fi ≤ 60**
 - **Ai** does not have leading zeroes
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 17 3140 832
 8
@@ -129,9 +128,7 @@ For each _Type 1_ query, output an integer denoting the answer for the query wit
 832
 3140
 
-```
-### Explanation
-
+</pre>### Explanation
 The initial array: **\[17, 3140, 832\]**.
 
 The first query is a _Type 1_ query with numbers of buildings  and **2**, so the answer is the maximum of the array: **3140**.

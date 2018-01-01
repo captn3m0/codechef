@@ -89,8 +89,7 @@ Only one line contains the minimum cost to finish the task. If the task is impos
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3 3 3
 0 0 1 
@@ -102,4 +101,4 @@ Only one line contains the minimum cost to finish the task. If the task is impos
 <b>Output:</b>
 8
 
-```
+</pre>

@@ -116,8 +116,7 @@ Subtask 2: No additional constraints.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2 
 TTTT
 1
@@ -129,7 +128,5 @@ TTSTTTS
 36
 
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** In the first case there is only one octave and Chef can play scale (not in cycle each time) starting with notes _C, C#, D, D#_ - four together.

@@ -24,8 +24,7 @@ For each test case, output on a line an integer which is the result calculated. 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4 2
 4 3
 5 3
@@ -36,5 +35,4 @@ For each test case, output on a line an integer which is the result calculated. 
 8
 18
 
-```
-Explanation for the first sample test case: 4 ways are **RRDDDR, RDDDRR, DRRRDD, DDRRRD** ('R' or 'D' represents a right or down move respectively).
+</pre>Explanation for the first sample test case: 4 ways are **RRDDDR, RDDDRR, DRRRDD, DDRRRD** ('R' or 'D' represents a right or down move respectively).

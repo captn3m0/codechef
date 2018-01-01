@@ -52,8 +52,7 @@ Two arrangements of the army — **A** and **B** — are said to be distinct if 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 2
 1 2
@@ -67,9 +66,7 @@ Two arrangements of the army — **A** and **B** — are said to be distinct if 
 4
 1
 
-```
-### Explanation
-
+</pre>### Explanation
 **In the first example**, the strength of the army is zero irrespective of the way she arranges her army. There are two ways of arranging the army, namely {1, 2} and {2, 1}.
 
 **In the second example**, she can arrange a maximum strength army in four ways. Those are {1, 2, 1, 2}, {1, 2, 2, 1}, {2, 1, 1, 2}, {2, 1, 2, 1}. Strength of her army in all the four cases will be 4, the maximum possible strength of the army that she can get.

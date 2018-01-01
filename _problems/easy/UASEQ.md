@@ -94,12 +94,11 @@ In the given test data, it is always possible to recover at least one arithmetic
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4 2
 1 2 1 4
 
 <b>Output:</b>
 -5 -2 1 4 
 
-```
+</pre>

@@ -104,8 +104,7 @@ For each test case, output a single line containing the minimum number of moves 
 Original Constraints 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 4 4 1 1
 0 1 1 0
@@ -122,9 +121,7 @@ Original Constraints
 5
 -1
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** Robot 1 can move (1, 1) -> (2, 1) -> (3, 1) -> (4, 1) -> (4, 2) -> (4, 3), and robot 2 can move (1, 4) -> (2, 4) -> (3, 4) -> (4, 4) -> (4, 3) -> (4, 3), they meet at cell (4, 3) after 5 moves.
 
 **Example case 2.** Because the movable range of both robots is 1, robot 1 can not move from (3, 1) to (4, 2), and robot 2 can not move from (3, 4) to (4, 3. Hence, they can not meet each other.

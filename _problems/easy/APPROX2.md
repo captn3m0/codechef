@@ -97,8 +97,7 @@ For each test case, output a single line containing two single space separated i
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1   
 4 9
 4 4 2 6
@@ -106,7 +105,5 @@ For each test case, output a single line containing two single space separated i
 <b>Output:</b>
 1 4
 
-```
-### Explanation:
-
+</pre>### Explanation:
 The minimal possible absolute difference of **1** can be obtained by taking the pairs of **a1** and **a2**, **a1** and **a4**, **a2** and **a4**, **a3** and **a4**.

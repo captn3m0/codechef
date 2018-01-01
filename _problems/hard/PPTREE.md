@@ -97,8 +97,7 @@ For each test case, output a single line containing the answer to the correspond
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 3
 1 2 3
@@ -112,9 +111,7 @@ For each test case, output a single line containing the answer to the correspond
 3
 3
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** In this case there are tree ways to choose pair of vertices:
 
 - **(1, 2)**: The only edge you path is edge **(1, 2)** with weight **3**. The XOR-sum is simply **3**.

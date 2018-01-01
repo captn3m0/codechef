@@ -99,8 +99,7 @@ Now you will be given an integer **Q**, followed by **Q** operations: Each query
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 1 3
 2 2
@@ -113,9 +112,7 @@ Now you will be given an integer **Q**, followed by **Q** operations: Each query
 E
 E
 
-```
-### Explanation
-
+</pre>### Explanation
 The given array is:
 1 1 1
 0 1 0

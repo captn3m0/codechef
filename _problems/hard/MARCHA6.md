@@ -35,8 +35,7 @@ For each test case, print a line containing exactly _p_ space-separated numbers,
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 1
 9
@@ -45,9 +44,7 @@ For each test case, print a line containing exactly _p_ space-separated numbers,
 <b>Output:</b>
 1 2 4 4 8 8 8 -1 -1
 
-```
-**Explanation:**
-
+</pre>**Explanation:**
 The first 16 elements of b are:
 _0 1 1 0 1 0 0 1 1 0 0 1 0 1 1 0_
 

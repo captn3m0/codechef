@@ -106,8 +106,7 @@ Output **N** lines. The **i**-th line should contain the square of the diameter 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5
 20 20
 40 30
@@ -122,9 +121,7 @@ Output **N** lines. The **i**-th line should contain the square of the diameter 
 2000
 999999980000029000
 
-```
-### Explanation
-
+</pre>### Explanation
 1. After the first query, the set contains only one point **(20, 20)**. You should print  because there are no two points with positive distance between them.
 2. After the second query, the set contains points **(20, 20)** and **(40, 30)**. The distance between them is **sqrt((40-20)^2+(30-20)^2) = sqrt(500)** so the squared distance is **500**.
 3. After the third query, the set is **{(20,20), (40,30), (35,35)}**. The maximum distance is **sqrt(500)**.

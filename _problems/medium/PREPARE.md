@@ -31,8 +31,7 @@ The output for each test case consists of a single integer t which is the minimu
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 7
 10 1
@@ -51,4 +50,4 @@ The output for each test case consists of a single integer t which is the minimu
 4
 1
 
-```
+</pre>

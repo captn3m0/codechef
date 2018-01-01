@@ -99,8 +99,7 @@ For each test case, - If there is no real voting corresponding to given distribu
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 3
 1 1 1
@@ -114,9 +113,7 @@ For each test case, - If there is no real voting corresponding to given distribu
 -1
 -1
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example 1:** In this example, each person has received one vote. One possible example of real voting leading to this distribution is {2, 3, 1}. In this distribution, number of votes of all three persons are equal to 1. Also it is real voting because no person votes himself as his best friend. You can also output another possible distribution {3, 1, 2} too.
 
 **Example 2:** There is no real voting corresponding to this voting distribution.

@@ -110,8 +110,7 @@ For each query of the second type, print out the answer sub-string in one line.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5
 + 0 ab
 + 1 c
@@ -123,9 +122,7 @@ For each query of the second type, print out the answer sub-string in one line.
 acb
 acddb
 
-```
-### Explanation
-
+</pre>### Explanation
 - "+ 0 ab": S = "ab"
 - "+ 1 c": S = "acb"
 - "+ 2 dd": S = "acddb"

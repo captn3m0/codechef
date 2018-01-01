@@ -27,8 +27,7 @@ Output just one integer -- the requested number of ways.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 1 3
 100101110000001011000001111110010011110010010111000101
@@ -57,5 +56,4 @@ Output just one integer -- the requested number of ways.
 
 <b>Explanation:</b>
 
-```
-In the first test case, any of the free places can be sold. In the second test case, the only free compartment in the train is compartment 3 in the first car (places 9, 10, 11, 12, 49 and 50 are all free). In the third test case, the train is still absolutely free; as there are 20 ways to sell 3 tickets in an empty compartment, the answer is 2 \* 9 \* 20 = 360.
+</pre>In the first test case, any of the free places can be sold. In the second test case, the only free compartment in the train is compartment 3 in the first car (places 9, 10, 11, 12, 49 and 50 are all free). In the third test case, the train is still absolutely free; as there are 20 ways to sell 3 tickets in an empty compartment, the answer is 2 \* 9 \* 20 = 360.

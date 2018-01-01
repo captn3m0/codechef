@@ -106,8 +106,7 @@ Output should consists of **M** lines. The **i**'th line should contains the ans
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5
 1 2 4 9 10
 5
@@ -124,9 +123,7 @@ Output should consists of **M** lines. The **i**'th line should contains the ans
 8
 8
 
-```
-### Explanation
-
+</pre>### Explanation
 In the example test there are **M**=5 questions. We won't describe all of them, only two ones.
 
 **The first question**

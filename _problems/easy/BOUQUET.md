@@ -102,8 +102,7 @@ For each test case, output a single line containing the maximal amount of flower
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>1
 1 2 3
 3 2 1
@@ -112,7 +111,5 @@ For each test case, output a single line containing the maximal amount of flower
 <b>Output:</b>
 <tt>7</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** We can create a bouquet with **7** leaves, for example, by collecting all yellow leaves. This is not the only way to create the nice bouquet with **7** leaves (for example, Sergey can use all but one red leaves), but it is impossible to create a nice bouquet with more than **7** leaves.

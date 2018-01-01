@@ -98,8 +98,7 @@ For each query of type **R** output the answer on a separate line.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5 5
 5 4 3 3 9
 R 1
@@ -112,9 +111,7 @@ R 2
 3
 3
 
-```
-### Explanation
-
+</pre>### Explanation
 The initial array : 5 4 3 3 9
 
 The answer for **R 1** : 5

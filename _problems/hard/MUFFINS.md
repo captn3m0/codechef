@@ -29,8 +29,7 @@ The output for each test case consists of a single line containing "Possible" if
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 3 2 2
 0 1
@@ -44,4 +43,4 @@ The output for each test case consists of a single line containing "Possible" if
 Possible
 Impossible
 
-```
+</pre>

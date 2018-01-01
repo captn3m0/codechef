@@ -23,8 +23,7 @@ t lines, each consisting of a real number given with four digits decimal precisi
 
 ### Example
 
-```
-Input:
+<pre>Input:
 2
 1 1 1 1 1 1
 1000 999 998 5 5 6
@@ -33,4 +32,4 @@ Output:
 0.2041
 1.4189
 
-```
+</pre>

@@ -132,8 +132,7 @@ Your solution must not output more than **1000** operations.
 **Subtask #2** \[75 points\]: maximum constraints 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 -679.6073275406 -315.6362656580
 -844.0655568007 -298.0169842162
 -841.1364219780 -292.6039079355
@@ -153,9 +152,7 @@ Circle -843.3504692364 -292.2882079766 -844.0655568007 -298.0169842162 -843.3504
 Line -848.6692787746 -294.5333120998 -838.7467472625 -295.7718800931
 Answer
 -843.7080130185 -295.1525960964
-```
-_There are other acceptable solutions._
-
+</pre>_There are other acceptable solutions._
 _The line breaks inside the second to last coordinates for each circle are for website display reasons only, and should not exist in your output._
 
 ### Explanation

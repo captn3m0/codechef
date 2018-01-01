@@ -83,8 +83,7 @@ Output the given string or -1 depending on conditions.
 
 ### Example
 
-```
-
+<pre>
 <b>Input</b>
 3 
 1
@@ -95,4 +94,4 @@ What an obedient servant you are!
 -1
 What an obedient servant you are!
 
-```
+</pre>

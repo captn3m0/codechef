@@ -23,7 +23,7 @@ time:
     current: 1493556745
 layout: problem
 ---
-All submissions for this problem are available.It is now 2050 AD. A city will be built under large protective circular dome. A nuclear power plant **(NPP)** built outside the city will power the whole city. For safety reasons the **NPP** must be at least **dmin**distance away from the dome. The radius of the dome has not been fixed yet. The houses inside the dome will be built after building the dome. So for simplicity it can be assumed that each location under the dome is equally likely to have a house. In other words houses will be uniformly distributed in the land inside the dome. As the houses are full of modern electrical equipments, so the power consumption per house is quite high. So each house is connected with the **NPP** with the shortest possible cable underground. In the figure below you can see four houses (Blue circles) and their shortest connection with **NPP** (dotted line). For wiring cost and line-loss issues the average distance of the houses (assuming they are uniformly distributed under then dome) from the **NPP** cannot be more than **Davg**.
+All submissions for this problem are available.It is now 2050 AD. A city will be built under large protective circular dome. A nuclear power plant **(NPP)** built outside the city will power the whole city. For safety reasons the **NPP** must be at least **dmin** distance away from the dome. The radius of the dome has not been fixed yet. The houses inside the dome will be built after building the dome. So for simplicity it can be assumed that each location under the dome is equally likely to have a house. In other words houses will be uniformly distributed in the land inside the dome. As the houses are full of modern electrical equipments, so the power consumption per house is quite high. So each house is connected with the **NPP** with the shortest possible cable underground. In the figure below you can see four houses (Blue circles) and their shortest connection with **NPP** (dotted line). For wiring cost and line-loss issues the average distance of the houses (assuming they are uniformly distributed under then dome) from the **NPP** cannot be more than **Davg**.
 
 ![](https://www.codechef.com/download/upload/ACM16KOL/G.png)Given the value of **Davg, dmin** your job is to find the maximum possible value of the radius of the land under dome.
 
@@ -47,4 +47,4 @@ For each test case produce one line of output. This line contains a floating-poi
 72.6679
 4.7114
 
-```
+<pre>

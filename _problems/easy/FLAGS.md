@@ -104,8 +104,7 @@ For each testcase, output a single line containing an integer - the answer for t
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 1
 2
@@ -116,9 +115,7 @@ For each testcase, output a single line containing an integer - the answer for t
 4
 42
 
-```
-### Explanations:
-
+</pre>### Explanations:
 There are **four** different well-painted flags for **N** = 2 different colors :
 
 ![](/download/extimages/57c2f54761cda108c18bd840f4638fda.jpg)

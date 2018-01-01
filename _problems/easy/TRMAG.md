@@ -29,8 +29,7 @@ Number of printed Sides<=2000. All other values abide by the number of printed s
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 10
@@ -44,4 +43,4 @@ Number of printed Sides<=2000. All other values abide by the number of printed s
 31.2000
 47.0000
 
-```
+</pre>

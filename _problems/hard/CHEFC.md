@@ -87,17 +87,14 @@ Then the function **F** can be calculated by following code.
 
 ``
 
-```
-
+<pre>
 X = 1;
 for (i = 2; i <= |B|; i++)
     if (B[i] != B[i - 1])
         X++;
 X is the output of the function F(B).
 
-```
-### Input
-
+</pre>### Input
 The first line of the input contains an integer **T** denoting the number of test cases. The description of **T** test cases follows.
 
 The first line of each test case contains a single integer **N** denoting the number of the elements in given array.
@@ -123,8 +120,7 @@ For each query of the first type output a single line containing a single intege
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 5
 1 1 2 1 3
@@ -140,4 +136,4 @@ For each query of the first type output a single line containing a single intege
 3
 4
 
-```
+</pre>

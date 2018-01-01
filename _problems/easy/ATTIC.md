@@ -103,8 +103,7 @@ For each case, output the number of days it takes them to cross the passage.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 4
 ####
@@ -118,9 +117,7 @@ For each case, output the number of days it takes them to cross the passage.
 1
 2
 
-```
-### Explanation
-
+</pre>### Explanation
 For the first example, they do not need to learn any jump size. They are able to cross the entire passage by "jumping" lengths 1-1-1.
 
 For the second example case, they get stuck at the first '.', and take one day learning to jump length 2. When they come back the next day, they get stuck at '..' and take one day to learn to jump length 3.

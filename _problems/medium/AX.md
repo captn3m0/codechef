@@ -68,8 +68,7 @@ You are given a large square area with an edge length of 2n, subdivided into uni
 
 For example, if n=3, the mine "\*" placed on the square at position (1,1) will destroy all the fields which are not marked with dots below:
 
-```
-<tt>
+<pre><tt>
 .#......
 .#......
 .#......
@@ -79,9 +78,7 @@ For example, if n=3, the mine "\*" placed on the square at position (1,1) will d
 #*######
 ####....
 </tt>
-```
-### Input
-
+</pre>### Input
 The first line will contain integer 8nn is the size of the area). The second line will contain 0n, the number of already planted mines. The next m lines will contain the 0-based x and y coordinates of the existing mines.
 
 ### Output
@@ -92,8 +89,7 @@ The first line should contain t - the number of mines to be added. The next t li
 
 For each test case, you will receive (2n-m)/t-1 points, provided you destroy all the fields of the area. ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 1
@@ -104,7 +100,5 @@ For each test case, you will receive (2n-m)/t-1 points, provided you destroy all
 0 1
 2 2
 
-```
-You will receive (4-1)/2 - 1 = 0.5 pts for such a mine placement.
-
+</pre>You will receive (4-1)/2 - 1 = 0.5 pts for such a mine placement.
 **Note:**There will be some tests with no initially placed mines, and some tests with initial placements covering most of the area pretty well. Good luck!

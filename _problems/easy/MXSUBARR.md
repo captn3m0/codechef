@@ -108,8 +108,7 @@ For each test case, output a single line corresponding to maximum number of grou
 
 ### Example
 
-```
-<b>Input</b>
+<pre><b>Input</b>
 3
 2
 3 4
@@ -123,9 +122,7 @@ For each test case, output a single line corresponding to maximum number of grou
 3
 18
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** **M** will be equal to 2. The subarrays will be {\[1, 1\], \[2, 2\]}.
 
 **Example case 2.** **M** will be equal to 3. The subarrays will be {\[1, 1\], \[2, 2\]}, {\[1, 1\], \[3, 3\]} and {\[1, 1\], \[2, 3\]}. Note that {\[2, 2\], \[3, 3\]} won't be a non-intersecting subarray as A\[2\] = 2 and A\[3\] = 2. So, 2 is common in both these subarrays.

@@ -97,8 +97,7 @@ For each test case, output a single line containing the sum of the perimeters of
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 8 10 8
 2.00 2.00 1.00
@@ -118,9 +117,7 @@ For each test case, output a single line containing the sum of the perimeters of
 33.6404284
 17.2058395
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** The answer is the length of the bold lines on the following picture:
 
 ![](http://www.codechef.com/download/ANDOOR_Ex2.jpg)

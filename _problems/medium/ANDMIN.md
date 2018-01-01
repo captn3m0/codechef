@@ -98,8 +98,7 @@ For each query of the type , output a single line containing the answer of the q
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>5 5
 1 5 2 3 4
 0 2 5
@@ -113,4 +112,4 @@ For each query of the type , output a single line containing the answer of the q
 4
 0</tt>
 
-```
+</pre>

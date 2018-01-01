@@ -104,8 +104,7 @@ For each test case, output a single line containing a single integer - the minim
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 3 2 1
 1 2
@@ -119,7 +118,5 @@ For each test case, output a single line containing a single integer - the minim
 7
 3
 
-```
-### Explanation
-
+</pre>### Explanation
 The first example is the original version of the problem.

@@ -103,8 +103,7 @@ As answer could be quite large, print it modulo **109 + 7**.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 1 3
 100
@@ -118,9 +117,7 @@ As answer could be quite large, print it modulo **109 + 7**.
 3
 4
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.**Chef has only one element and must apply the operation 3 times to it. After applying the operations, he will end up with -100. That is the only array he will get.
 
 **Example case 2.**Chef can apply operation to one of three elements. So, he can obtain three different arrays.
@@ -129,11 +126,10 @@ As answer could be quite large, print it modulo **109 + 7**.
 
 In summary, Chef can get following four arrays.
 
-```
-
+<pre>
 [1, 2, 1]
 [-1, -2, 1]
 [-1, 2, -1]
 [1, -2, -1]
 
-```
+</pre>

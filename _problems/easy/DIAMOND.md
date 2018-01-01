@@ -89,8 +89,7 @@ Output for each test case should contain a single real number in a separate line
 
 ### Example
 
-```
-
+<pre>
 <b>Input</b>
 4
 1
@@ -108,9 +107,7 @@ Output for each test case should contain a single real number in a separate line
 9.500
 10.000
 
-```
-### Explanation
-
+</pre>### Explanation
 **Case 1:** In the first move Alice has to take **100**, and this is the only move. Hence, the expected value Alice will get is **100**.
 
 **Case 2:**  It is quite clear that Alice will make only 1 move. As she can get **42** or  with

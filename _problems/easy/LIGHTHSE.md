@@ -115,8 +115,7 @@ If there are many possible placements, output any one of them.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 5
 0 0
@@ -138,9 +137,7 @@ If there are many possible placements, output any one of them.
 2 NE
 
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** Also we can place lighthouse on **1st** or **5th** island.
 
 **Example case 2.** Notice that some islands can be illuminated by more than 1 lighthouse.

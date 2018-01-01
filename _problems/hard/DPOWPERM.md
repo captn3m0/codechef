@@ -25,8 +25,7 @@ You are given some bijection **f : S --> S** and a positive integer **D**. You n
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 3 6
@@ -38,7 +37,5 @@ You are given some bijection **f : S --> S** and a positive integer **D**. You n
 6
 3
 
-```
-### Explanation
-
+</pre>### Explanation
 In the second case the appropriate values of **d** is 1, 5 and 7.

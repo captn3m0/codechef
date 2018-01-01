@@ -95,21 +95,17 @@ For each test case, output on a separate line the least amount that has to be sp
 
 ### Constraints:
 
-```
-
+<pre>
 1 ≤ <b>T</b> ≤ 10
 2 ≤ <b>N, M</b> ≤ 100000
 0 ≤ Prices, Discounts ≤ 1000000
 1 ≤ <b>T * N * M</b> ≤ 1000000
 
 
-```
-### Example:
-
+</pre>### Example:
 **Input:**
 
-```
-
+<pre>
 2
 2 2
 3 4
@@ -124,18 +120,13 @@ For each test case, output on a separate line the least amount that has to be sp
 
 
 
-```
-**Output:**
-
-```
-
+</pre>**Output:**
+<pre>
 3
 2
 
 
-```
-### Scoring:
-
+</pre>### Scoring:
 You will be awarded **40** points for solving the problem correctly for **M = 2**.
 
 Another **20** points for solving the problem correctly for **M <= 100**.

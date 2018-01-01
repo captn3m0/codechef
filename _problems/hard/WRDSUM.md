@@ -101,8 +101,7 @@ For each test case, output a single line containing one integer — the above su
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 6
 120
 121
@@ -119,7 +118,5 @@ For each test case, output a single line containing one integer — the above su
 2741
 382417086
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 2.** **F(121) = 11**, thus the answer for this case is by eleven more than for the previous one. **Example case 3.** **F(122) = 122; F(123) = 123; F(124) = 124**, thus the answer for this case is **6866 + 122 + 123 + 124 = 7235**. **Example case 4.** **F(125) = 5**, thus the answer for this case is by five more than for the previous one. **Example case 5.** Here the actual sum is **998247094** that is equal to **2741** modulo **998244353**. **Example case 6.** This case corresponds to the last two subtasks, where the value of **N** doesn't fit into 64-bit integer.

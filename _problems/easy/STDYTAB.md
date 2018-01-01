@@ -94,8 +94,7 @@ For each test case, print a single integer corresponding to the answer.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 1 1
@@ -106,7 +105,5 @@ For each test case, print a single integer corresponding to the answer.
 25
 273
 
-```
-### Explanation
-
+</pre>### Explanation
 Test case 1 : There are only 2 such grids possible 0 and 1.

@@ -51,8 +51,7 @@ For each test case, output an single integer on a separate line denoting the ans
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 1
 1
@@ -66,9 +65,7 @@ For each test case, output an single integer on a separate line denoting the ans
 2
 8
 
-```
-### Explanation
-
+</pre>### Explanation
 **For the first test case**, **N = 1**, and **A = \[1\]**. There are 2 possible subsets => **{}, {1}** and both have a gcd of 1. Hence, the answer is 1 \* 1 = **1**.
 
 **For the second test case**, **N = 2**, and **A = \[1, 2\]**. There are 4 possible subsets => **{}, {1}, {2}, {1, 2}**, having a gcd of 1, 1, 2 and 1 respectively. Hence, the answer is 1 \* 1 \* 2 \* 1 = **2**.

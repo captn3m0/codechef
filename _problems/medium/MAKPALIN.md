@@ -92,8 +92,7 @@ Print **T** lines, each containing an integer: the solution for the correspondin
 
 - **1 ≤ T ≤ 5, 1 ≤ length of string ≤ 105**
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 aaa
 aca
@@ -102,7 +101,5 @@ aca
 4
 2
 
-```
-### Explanation
-
+</pre>### Explanation
 First sample has been explained in the problem statement.

@@ -107,8 +107,7 @@ For each test case, output answer modulo 1000000007 (109 + 7) in separate line.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 z
 abcd
@@ -117,4 +116,4 @@ abcd
 0
 144
 
-```
+</pre>

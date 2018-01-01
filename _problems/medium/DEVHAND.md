@@ -98,8 +98,7 @@ For each test case, print a single line corresponding to the answer of the probl
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 1 2
 1 3
@@ -110,9 +109,7 @@ For each test case, print a single line corresponding to the answer of the probl
 6
 36
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example #1.** 
 There is no valid arrangement of three strings to the watches, because at least one of the string will be equal to other which will violate the property stated in the problem.
 

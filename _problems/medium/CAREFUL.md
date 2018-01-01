@@ -29,8 +29,7 @@ For each test case output just one line containing the required smallest positiv
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 2
 2 2
@@ -41,5 +40,4 @@ For each test case output just one line containing the required smallest positiv
 
 <b>Explanation:</b>
 
-```
-In the example test case **N** = 22\*31 = 12. Then **N1** = 4, **N2** = 2 and **NX** = 1 for **X** ≥ 3, so the answer is 3.
+</pre>In the example test case **N** = 22\*31 = 12. Then **N1** = 4, **N2** = 2 and **NX** = 1 for **X** ≥ 3, so the answer is 3.

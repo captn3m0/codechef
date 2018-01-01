@@ -101,8 +101,7 @@ For each test case you should output decrypted with the given frequency sequence
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 qwrtyuipasdfgjkzxcvbnmheol
@@ -118,4 +117,4 @@ have a nice day!
 Hello!
 
 
-```
+</pre>

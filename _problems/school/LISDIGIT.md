@@ -99,8 +99,7 @@ For each test case, output a single **n**-digit number (without leading zeroes) 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5
 1 
 1
@@ -120,9 +119,7 @@ For each test case, output a single **n**-digit number (without leading zeroes) 
 1531
 1730418
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** All one-digit numbers have the same **LIS** array, so any answer from  to **9** will be accepted.
 
 **Example cases 2 & 3.** For a two digit number we always have **LIS1 = 1**, but the value of **LIS2** depends on whether the first digit is strictly less than the second one. If this is the case (like for number **36**), **LIS2 = 2**, otherwise (like for numbers **54** or **77**) the values of **LIS2** is **1**.
@@ -131,4 +128,4 @@ For each test case, output a single **n**-digit number (without leading zeroes) 
 
 **Example case 5.** **7**-digit number **1730418** has **LIS** array **\[1, 2, 2, 1, 3, 2, 4\]**:
 
-index LIS length 1 **1**730418 1 2 **17**30418 2 3 **1**7**3**0418 2 4 173418 1 5 **1**7**3**0**4**18 3 6 1734**1**8 2 7 **1**7**3**0**4**1**8** 4
+  index LIS length   1 **1**730418 1   2 **17**30418 2   3 **1**7**3**0418 2   4 173418 1   5 **1**7**3**0**4**18 3   6 1734**1**8 2   7 **1**7**3**0**4**1**8** 4

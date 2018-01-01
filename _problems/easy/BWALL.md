@@ -28,13 +28,13 @@ Print T lines one for each test case, containing an integer that represents the 
 
 ### Example:
 
-```
-<b>Sample Input:</b>
+<pre><b>Sample Input:</b>
 3
 7
 2
 13
-<br></br><b>Sample Output:</b>
+<br></br>
+<b>Sample Output:</b>
 655
 5
 272767
@@ -59,4 +59,4 @@ X#
 XX
 #X
 
-```
+</pre>

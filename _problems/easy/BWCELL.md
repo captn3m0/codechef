@@ -89,8 +89,7 @@ For each test case, output **"Chef"** if chef wins the game for the given config
 **1. Subtask 1: 1 ≤ T ≤ 10, 1 ≤ |S| ≤ 10 : ( 30 pts )** **1. Subtask 2: 1 ≤ T ≤ 10, 1 ≤ |S| ≤ 100 : ( 30 pts )** **1. Subtask 3: 1 ≤ T ≤ 10, 1 ≤ |S| ≤ 10000 : ( 40 pts )** 
 ### Example
 
-```
-
+<pre>
 <b>Input</b>
 3
 W
@@ -102,9 +101,7 @@ Chef
 Aleksa
 Aleksa
 
-```
-###  Explanation
-
+</pre>###  Explanation
 - **Test 1 :** Aleksa cannot make a move in her first turn as there is no black cell in the given configuration.
 - **Test 2 :** Aleksa can remove 1 black cell lying on the left of white cell in her turn. But then, Chef cannot make a move in his turn as there will be no black cells left.
 - **Test 3 :** Figure out yourself.

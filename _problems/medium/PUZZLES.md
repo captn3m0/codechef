@@ -36,8 +36,7 @@ If an integer k between 1 and V does not have either k or -k appearing in a grou
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 3 3
 1 2 3
@@ -51,7 +50,5 @@ If an integer k between 1 and V does not have either k or -k appearing in a grou
 TFF
 TFTFFTF
 
-```
-### Explanation of Output
-
+</pre>### Explanation of Output
 In the first case, the first two groups include 1 which is assigned 'T', and the last group contains -3 and 3 is assigned 'F' so all groups meet the criteria. In the second case, the first group has 1 which is assigned 'T' and the second group has 3 which is also assigned 'T' so all groups in this test case also meet the criteria.

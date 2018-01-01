@@ -25,18 +25,14 @@ For each test case, output the expected difference in prize tokens, rounded to 6
 
 ### Sample Input
 
-```
-3
+<pre>3
 3 1 1 1
 3 1 1 2
 4 10 10 10 30
 
-```
-### Sample Output
-
-```
-1.000000
+</pre>### Sample Output
+<pre>1.000000
 1.333333
 26.666667
 
-```
+</pre>

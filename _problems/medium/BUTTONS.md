@@ -28,8 +28,7 @@ Output "-1" if it is impossible to achieve the final configuration from the init
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 1
 3
@@ -46,4 +45,4 @@ Output "-1" if it is impossible to achieve the final configuration from the init
 1
 2 
 
-```
+</pre>

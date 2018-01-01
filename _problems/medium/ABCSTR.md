@@ -97,14 +97,11 @@ The answer can go above a 32-bit integer. Please, use 64-bit integers for storin
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 ABACABA
 
 <b>Output:</b>
 2
 
-```
-### Explanation
-
+</pre>### Explanation
 In the example you should count **S**\[2..4\] = "BAC" and **S**\[4..6\] = "CAB".

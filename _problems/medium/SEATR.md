@@ -96,8 +96,7 @@ Output answer in single line. ### Constraints
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 1 1 2 2
 
@@ -118,4 +117,4 @@ Output answer in single line. ### Constraints
 <b>Output:</b>
 0
 
-```
+</pre>

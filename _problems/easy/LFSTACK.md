@@ -127,8 +127,7 @@ For each test case, output a single line containing **Yes**, if Sergey could hav
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>2
 2
 2 1 2
@@ -143,9 +142,7 @@ For each test case, output a single line containing **Yes**, if Sergey could hav
 <tt>Yes
 No</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** First, the integers of the first thread were added: **1, 2**. Then, the integers of the second thread were added: **3, 4**. So the sequence of the additions is **1, 2, 3, 4**. Since it is a LIFO stack, when we pop, we get **4, 3, 2, 1**. This way, the given sequence is reachable.
 
 **Example case 2.** We need to get the following sequence of pushes to the stack: **3, 2, 1, 4**. So, **2** should be added before **1**. But only the first thread in the example can add these integers, and it will add **2** only **after** it has added **1**. So, the given configuration is impossible to obtain.

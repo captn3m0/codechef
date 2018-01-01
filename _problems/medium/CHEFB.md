@@ -97,8 +97,7 @@ For each test case, output a single line containing one integer - the minimum nu
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 3
 1 2 4
@@ -106,4 +105,4 @@ For each test case, output a single line containing one integer - the minimum nu
 <b>Output:</b>
 2
 
-```
+</pre>

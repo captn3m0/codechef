@@ -109,8 +109,7 @@ Should contain all the constraints on the input data that you may have. Format i
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>2
 3
 1 10 15
@@ -123,9 +122,7 @@ Should contain all the constraints on the input data that you may have. Format i
 <tt>2
 1</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** The first student has **1** unit of time - the moment . It will be enough for her to cook. The second student has **9** units of time, but wants to cook for **10** units of time, and won't fit in time. The third student has **5** units of time and will fit in time, because needs to cook only for **3** units of time.
 
 **Example case 2.** Each of students has **10** units of time, but only the second one will be able to fit in time.

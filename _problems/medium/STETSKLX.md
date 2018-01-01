@@ -116,8 +116,7 @@ For each test case, output a single line containing the shortest Chef length amo
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 6 2 3
 1 3 3
@@ -135,9 +134,7 @@ For each test case, output a single line containing the shortest Chef length amo
 1
 2
 
-```
-### Explanation
-
+</pre>### Explanation
 **Test #1**
 
 Let's look at all correct simple paths:

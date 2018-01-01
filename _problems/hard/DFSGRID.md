@@ -75,8 +75,7 @@ All submissions for this problem are available.There is a **RxC** grid where the
 
 Chef uses an algorithm which starts at a cell **(sr,sc)** of the grid and visits the unvisited adjacent cells inside the grid recursively. The order in which the adjacent cells are looked for are: right, down, left and up. Your job is to find out the number of different cells that would be visited when the cell **(tr,tc)** is found. Given below is the pseudocode of the algorithm:/>/>
 
-```
-
+<pre>
 // A 2D boolean array to mark the visited cells
 Let seen[1...R][1...C] be a 2D array initialized to false
 
@@ -115,8 +114,7 @@ VISIT(R, C, r, c, tr, tc)
 	     VISIT(R,C,r-1,c,tr,tc)
 
 
-``` The above algorithm is both time and memory inefficient. Your task is to produce the same output but more efficiently. That is to print the value of `visitcount` when the cell **(tr,tc)** is found, if the above algorithm is called with `VISIT(R,C,sr,sc,tr,tc)`.
-
+</pre> The above algorithm is both time and memory inefficient. Your task is to produce the same output but more efficiently. That is to print the value of `visitcount` when the cell **(tr,tc)** is found, if the above algorithm is called with `VISIT(R,C,sr,sc,tr,tc)`.
 ### Input
 
 The first line of the input contains an integer **T** denoting the number of test cases. Each of the following **T** lines contain six separated integers **R, C, sr, sc, tr and tc.**
@@ -134,8 +132,7 @@ The first line of the input contains an integer **T** denoting the number of tes
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5
 4 4 3 2 3 4
 4 4 3 2 4 4
@@ -150,4 +147,4 @@ The first line of the input contains an integer **T** denoting the number of tes
 3
 1
 
-```
+</pre>

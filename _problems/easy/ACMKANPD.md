@@ -11,7 +11,7 @@ layout: problem
 ---
 ###  All submissions for this problem are available. 
 
-<a id="x1-5r4" name="x1-5r4"></a> DA New Number SystemInput file:stdinOutput file:stdout
+ <a id="x1-5r4" name="x1-5r4"></a> D A New Number System Input file:stdinOutput file:stdout
 
 
 
@@ -44,7 +44,7 @@ For each test case, output a single line with the decimal equivalent value of yo
 
 Sample input and output
 
-- - - - - -
+ - - - - - -
 
 - - - - - -
 

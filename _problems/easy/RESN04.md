@@ -23,8 +23,7 @@ Output T lines, one per test case. For each test case, output "ALICE" if Alice w
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 1
@@ -36,4 +35,4 @@ Output T lines, one per test case. For each test case, output "ALICE" if Alice w
 ALICE
 ALICE
 
-```
+</pre>

@@ -91,8 +91,7 @@ Print a single line containing one integer, denoting the number of the sequences
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3 3
 1 1
@@ -102,7 +101,5 @@ Print a single line containing one integer, denoting the number of the sequences
 <b>Output:</b>
 8
 
-```
-### Explanation
-
+</pre>### Explanation
 In the example case, all the sequences **(0,0,0)**, **(0,0,1)**, **(0,1,0)**, **(1,0,0)**, **(0,1,1)**, **(1,0,1)**, **(1,1,0)**, **(1,1,1)** can be created by Chef.

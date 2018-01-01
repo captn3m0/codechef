@@ -95,8 +95,7 @@ That is, the delivery boy always can fill a fuel tank exactly 2 \* **Hi** liters
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 
 1
@@ -109,9 +108,7 @@ That is, the delivery boy always can fill a fuel tank exactly 2 \* **Hi** liters
 7
 
 
-```
-### Explanation:
-
+</pre>### Explanation:
 Here is one possible solution.
 
 For the first order, the delivery boy must ride 1 + 1 = 2 km long. Fill the tank twice in the first fuel station.

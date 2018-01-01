@@ -107,8 +107,7 @@ For each test case, output a single line containing the minimum number of satell
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 3
@@ -124,9 +123,7 @@ For each test case, output a single line containing the minimum number of satell
 0
 0
 
-```
-### Sub tasks
-
+</pre>### Sub tasks
 - Sub task #1: N = 3 (10 points)
 - Sub task #2: N ≤ 20 (30 points)
 - Sub task #3: N ≤ 50 (60 points)

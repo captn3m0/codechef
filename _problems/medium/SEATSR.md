@@ -96,8 +96,7 @@ For each test case on different lines print the answer to the problem - minimum 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 aaa
 bbbb
@@ -119,4 +118,4 @@ bbbbbb
 -1
 
 
-```
+</pre>

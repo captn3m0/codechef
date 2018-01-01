@@ -120,8 +120,7 @@ Time limit for the first subtask is 2 s. Time limit for the second and the third
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 5 4
@@ -139,9 +138,7 @@ Time limit for the first subtask is 2 s. Time limit for the second and the third
 8
 
 
-```
-### Explanation of the example test
-
+</pre>### Explanation of the example test
 In the first case, the following set of valid Ghariyal-paths is one of the optimal ones:
 
 25. (1, 1), (1, 2), (1, 3), (1, 4), (2, 4), (3, 4), (4, 4), (5, 4)

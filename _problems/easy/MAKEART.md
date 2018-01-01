@@ -96,7 +96,7 @@ For each test case, output a single line containing either “Yes” or “No”
 - **3** ≤ **N** ≤ **105**
 - The sum of the **N**s over all the test cases in a single test file is ≤ **5×105**
 - **1** ≤ **Ci** ≤ **105**
-
+ 
 ### Example
 
  ```
@@ -114,9 +114,7 @@ For each test case, output a single line containing either “Yes” or “No”
 Yes
 No
 </tt>
-```
-### Explanation
-
+<pre>### Explanation
 **Example case 1.** Chef's canvas initially contains the colors \[0,0,0,0\]. Chef can finish the painting by first painting the first three millimeters with color 1, so the colors become \[1,1,1,0\], and then the last three millimeters with color 5 so that it becomes \[1,5,5,5\].
 
 **Example case 2.** Chef's canvas initially contains the colors \[0,0,0,0\]. Chef can finish the painting by first painting the last three millimeters by color 5 so the colors become \[0,5,5,5\], and then the first three millimeters by color 1 so it becomes \[1,1,1,5\].

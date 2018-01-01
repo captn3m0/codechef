@@ -105,20 +105,16 @@ The sum of the length of **N** in one judge input file does not exceed 1000000 (
 
 ### Sample Input
 
-```
-5
+<pre>5
 0 58600
 2 128
 1 5354389
 1 1
 2 1
-```
-### Sample Output
-
-```
-58588
+</pre>### Sample Output
+<pre>58588
 128
 5354388
 1
 -1
-```
+</pre>

@@ -37,8 +37,7 @@ The enemies are calculating a value **PEB (Probability that Enigma has been brok
 
 **PEB** is calculated as an average from results of all previous battles using the following method.
 
-```
-
+<pre>
 total := 0
 foreach Battle, b<sub>i</sub>
 	if Allies win
@@ -47,9 +46,7 @@ foreach Battle, b<sub>i</sub>
 		total -= probability of Allies winning in b<sub>i</sub>
 PEB = max(total / no. of battles, 0)
 
-```
-As the Allies already deciphered Enigma, they can choose to win or lose any battle they want. Consider the following scenario as example:
-
+</pre>As the Allies already deciphered Enigma, they can choose to win or lose any battle they want. Consider the following scenario as example:
 ![](https://www.codechef.com/download/upload/ACM16KOL/A.png)
 Some battles are more important than others; the ith battle has an Impact Factor **Fi**. As a war analyst, your job is to maximize the sum of Impact Factors of all the battles won. But the enemies must not know that Allies have deciphered Enigma, so you must keep PEB less than a certain **threshold, S**; throughout the whole war.
 
@@ -69,8 +66,7 @@ For each test case, print case number and the maximum sum of impact factors.
 
 ### Sample 
 
-```
-<b>Input</b>     
+<pre><b>Input</b>     
 
 2
 2
@@ -86,4 +82,4 @@ For each test case, print case number and the maximum sum of impact factors.
 Case 1: 300
 Case 2: 9
 
-```
+</pre>

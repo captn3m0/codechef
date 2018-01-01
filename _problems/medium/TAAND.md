@@ -96,8 +96,7 @@ Contains a single integer which is the largest value of **Au** and **Av** where 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 2
 4
@@ -108,9 +107,7 @@ Contains a single integer which is the largest value of **Au** and **Av** where 
 8
 
 
-```
-### Explanation
-
+</pre>### Explanation
 - 2 and 4 = 0
 - 2 and 8 = 0
 - 2 and 10 = 2

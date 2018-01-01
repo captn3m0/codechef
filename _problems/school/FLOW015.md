@@ -84,8 +84,7 @@ Display the day on the 1st January of that year in lowercase letter.
 
 ### Example
 
-```
-
+<pre>
 <b>Input</b>
 
 3 
@@ -99,4 +98,4 @@ saturday
 tuesday
 wednesday
 
-```
+</pre>

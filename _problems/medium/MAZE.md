@@ -104,8 +104,7 @@ For each test case, output either "Chefland is doomed" (without quotes), or a si
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 4 4 2
 1 2 1 3
@@ -119,9 +118,7 @@ For each test case, output either "Chefland is doomed" (without quotes), or a si
 2
 0
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.**
 
 ![](https://s3.amazonaws.com/codechef_shared/download/upload/COOK70/example_1_city_before.png)

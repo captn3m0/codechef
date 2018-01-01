@@ -97,8 +97,7 @@ For each "query L R" request, output the number of ways, asked in the statement,
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 8
 2 1 1 2 1 2 2 2 5
@@ -115,4 +114,4 @@ query 4 4
 1
 
 
-```
+</pre>

@@ -82,8 +82,7 @@ For each line of input output the square root of the input integer.
 
 1 1
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 10
 5
@@ -94,4 +93,4 @@ For each line of input output the square root of the input integer.
 2
 100
 
-```
+</pre>

@@ -110,8 +110,7 @@ Output **N** lines. The **i**th line must contain a single integer, the number o
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>7 6
 1 3 3 1 1 3 1
 1 2
@@ -130,9 +129,7 @@ Output **N** lines. The **i**th line must contain a single integer, the number o
 7
 7
 </tt>
-```
-### Explanation
-
+</pre>### Explanation
 In the given network, residents 1, 4, 5 and 7 all have team 1 as their favorite, and 2, 3 and 6 all have team 3 as their favorite.
 
 - If resident 1 is disconnected, then there are 5 sad pairs: (1,4), (1,5), (1,7), (2,6), (3,6).

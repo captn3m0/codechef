@@ -42,20 +42,16 @@ For each test case, print the value of **f**(**M**, **N**, **X**). This value mu
 
 ### Sample Input
 
-```
-5
+<pre>5
 1 3 1.57
 2 3 0
 3 1 2.12
 1 1 5
 1 30 0.3
-```
-### Sample Output
-
-```
--0.99999714638
+</pre>### Sample Output
+<pre>-0.99999714638
 0
 0
 -0.959
 0.412
-```
+</pre>

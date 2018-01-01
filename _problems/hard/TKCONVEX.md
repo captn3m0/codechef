@@ -90,8 +90,7 @@ If such solution exists, you should output a plan in the second line. Print **2k
 
 ### Example
 
-```
-
+<pre>
 <b>Input 1:</b>
 6 3
 1 1 1 2 2 2
@@ -108,9 +107,7 @@ Yes
 <b>Output 2:</b>
 No
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1:** 1 1 1 and 2 2 2 form two triangles.
 
 **Example case 2:** Please be careful that convex polygons must be non-degenerated.

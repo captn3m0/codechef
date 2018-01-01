@@ -31,8 +31,7 @@ For each test case output exactly **N**+1 lines. The first of them should contai
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 
@@ -66,4 +65,4 @@ For each test case output exactly **N**+1 lines. The first of them should contai
 -2 -3
 -7 5
 
-```
+</pre>

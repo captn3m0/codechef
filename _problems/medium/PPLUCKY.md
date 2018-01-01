@@ -97,8 +97,7 @@ For each test case, output a single line containing the answer to the correspond
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
   2
   4
   4747
@@ -109,9 +108,7 @@ For each test case, output a single line containing the answer to the correspond
   4
   20
 
-```
-###  
-
+</pre>###  
 ### Explanation
 
 **Example case 1.** In this case, there is just a single iteration. Since **P = {1, 3}**, the answer is **1 + 3 = 4**.

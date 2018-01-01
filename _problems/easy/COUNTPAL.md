@@ -32,11 +32,10 @@ The value of function CountPal(s), taking the modulo of 1 000 000 007 (109+7)
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 bobseesanna
 
 <b>Output:</b>
 18
 
-```
+</pre>

@@ -25,25 +25,19 @@ For each test case, output on a single line the expected number of guests who wi
 
 ### Sample Input
 
-```
-4
+<pre>4
 2 1
 2 2
 4 2
 5 3
 
-```
-### Sample Output
-
-```
-0.00000
+</pre>### Sample Output
+<pre>0.00000
 2.00000
 1.33333
 1.36364
 
-```
-### Constraints
-
+</pre>### Constraints
 T≤300
 2≤N≤50
 1≤R≤1000000

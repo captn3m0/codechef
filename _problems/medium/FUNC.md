@@ -73,14 +73,14 @@ All submissions for this problem are available.###  Read problems statements in 
 
  Chef has just been introduced to functions and he has been experimenting a lot with the different kinds of functions. In the process, the chef has come up with an interesting problem for you.
 
- Chef defines a function  **root(i, x)**  which gives the greatest integer less than or equal to the  **i th** root of a positive integer  **x** . For example,  **root(2, 4)**  is  **2**  and  **root(2, 2)**  is  **1** .
+ Chef defines a function  **root(i, x)**  which gives the greatest integer less than or equal to the  **i th**  root of a positive integer  **x** . For example,  **root(2, 4)**  is  **2**  and  **root(2, 2)**  is  **1** .
 
  Now the chef defines another function  **val(x, A, N)**  as follows : 
-
+ 
 />/>
 
  **val(x, A, N) = root(1, x)\*A\[1\] + root(2, x)\*A\[2\] + ... + root(N, x)\*A\[N\]**  
-
+ 
 />/>
 
 where  **A**  is an array of integers of size  **N**  (indexed from 1 onwards) and  **x**  is a positive integer.
@@ -100,34 +100,33 @@ where  **A**  is an array of integers of size  **N**  (indexed from 1 onwards) a
 - **1** ≤ **T** ≤  **10**
 - **1**  ≤  **N** ≤  **104**
 - **1**  ≤  **Q** ≤  **15000**
-- **-109** ≤  **A\[i\]**  ≤  **109**
-- **1**  ≤  **x**  ≤  **1018** for each number in the query.
+- **-109**  ≤  **A\[i\]**  ≤  **109**
+- **1**  ≤  **x**  ≤  **1018**  for each number in the query.
 
 
 />
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 3 2
 4 5 6
 8 30
-<br></br><b>Output:</b>
+<br></br>
+<b>Output:</b>
 54 163
-<br></br>/>/>
-```
-### Explanation
-
+<br></br>
+/>/>
+</pre>### Explanation
 **Query 1.**
 
  **(root(1,8)\*4 + root(2,8)\*5 + root(3,8)\*6) % 1000000007 = (8\*4 + 2\*5 + 2\*6) % 1000000007 = 54 % 1000000007 = 54 
 
-/>** />
+ />** />
 
 **Query 2.**
 
  **(root(1,30)\*4 + root(2,30)\*5 + root(3,30)\*6) % 1000000007 = (30\*4 + 5\*5 + 3\*6) % 1000000007 = 163 % 1000000007 = 163 
 
-/>**/>
+ />**/>

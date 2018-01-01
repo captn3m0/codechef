@@ -104,8 +104,7 @@ If there are multiple possible answers, output any one of them.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 1
 2
@@ -117,9 +116,7 @@ YES
 1 1 1 -1
 
 
-```
-### Subtasks
-
+</pre>### Subtasks
 **Subtask 1:(10 points)**
 
 - **1** ≤ **N** ≤ **8**

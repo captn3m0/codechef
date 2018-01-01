@@ -11,11 +11,11 @@ layout: problem
 ---
 ###  All submissions for this problem are available. 
 
-  <a id="x1-3r2" name="x1-3r2"></a> B  Bonus  Input file: stdin Output file: stdout  
-
-  
+    <a id="x1-3r2" name="x1-3r2"></a> B    Bonus      Input file: stdin   Output file: stdout      
 
     
+
+        
 
 Kinku is a project manager in his company. Recently, the executives decided to give bonus to everyone in his team, so Kinku was asked to give a list to them how much bonus each should get.
 
@@ -37,19 +37,19 @@ If comparisons are inconsistent, and it’s not possible distribute bonus among 
 
 Sample input and output
 
- - - - - - -
-
- - - - - - -
-
-  stdin 
-
-   stdout 
+   - - - - - -
 
   - - - - - -
 
- - - - - - -
+     stdin 
 
- 2
+   stdout 
+
+    - - - - - -
+
+  - - - - - -
+
+    2
 
 4 4 100
 
@@ -79,6 +79,6 @@ Inconsistent analysis.
 
  
 
-  - - - - - -
+    - - - - - -
 
- - - - - - -
+  - - - - - -

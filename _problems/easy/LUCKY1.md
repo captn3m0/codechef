@@ -31,8 +31,7 @@ layout: problem
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 3
@@ -44,4 +43,4 @@ layout: problem
 31
 1266
 
-```
+</pre>

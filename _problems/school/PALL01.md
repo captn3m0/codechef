@@ -83,8 +83,7 @@ For each input output "wins" if the number is a palindrome and "losses" if not.
 1<=T<=20 
 1<=N<=10000
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 331
 666
@@ -95,4 +94,4 @@ losses
 wins
 wins
 
-```
+</pre>

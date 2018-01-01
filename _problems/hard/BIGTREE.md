@@ -76,8 +76,7 @@ Each node is connected by **edges** to at most two other nodes below it, called 
 
 To grow a binary search tree, you insert a new node to it. The exact rules for inserting a new node are specified by the following pseudocode:
 
-```
-def insert(x, y)
+<pre>def insert(x, y)
     if x == null
         return y
 
@@ -88,30 +87,25 @@ def insert(x, y)
 
     return x
 
-```To insert a new node y to the tree with root x, simply call insert(x, y). The value returned is the root of the new tree.
-
+</pre>To insert a new node y to the tree with root x, simply call insert(x, y). The value returned is the root of the new tree.
 The following is an example of a binary search tree:
 
-```
-  3
+<pre>  3
  / \
 1   5
      \
       7
 
-```The root of this tree has label **3**.
-
+</pre>The root of this tree has label **3**.
 After inserting a new node with a label of **3**, the binary search tree becomes:
 
-```
-  3
+<pre>  3
  / \
 1   5
    / \
   3   7
 
-```The **depth** of a node is the number of edges in the path from that node to the root. For example, the node with label **7** above has a depth of **2**, while the node with label **1** has a depth of **1**.
-
+</pre>The **depth** of a node is the number of edges in the path from that node to the root. For example, the node with label **7** above has a depth of **2**, while the node with label **1** has a depth of **1**.
 Chef has a total of **T** binary search trees in his garden. Each tree has four numbers associated with it: **a**, **b**, **m** and **N**. This means that the tree has a total of **N** nodes, and the **kth** inserted node has label **(a + bk) mod m**. So the root, being the first inserted node, has label **(a + b) mod m**.
 
 For each of Chef's binary search trees, can you determine the depth of the node that was inserted last?
@@ -134,8 +128,7 @@ For each test case, output a single line containing a single integer, denoting t
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>5
 1 2 8 1
 1 2 8 2
@@ -150,7 +143,5 @@ For each test case, output a single line containing a single integer, denoting t
 1
 2</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 The sample input is illustrated by the image above.

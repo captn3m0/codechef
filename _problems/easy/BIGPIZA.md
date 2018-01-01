@@ -31,8 +31,7 @@ For each test case, output the name of the winner ( either "Arjuna" or "Bhima" (
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 4
 2
@@ -46,9 +45,7 @@ Arjuna
 Bhima
 Arjuna
 
-```
-
-**Explanation:**
+</pre>**Explanation:**
 
 Let the people around the table are numbered 1, 2, ... , N in clock-wise order as shown in the image 
 

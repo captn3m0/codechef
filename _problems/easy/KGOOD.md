@@ -98,8 +98,7 @@ For each test case, output a single line containing a single integer: the minimu
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 glaciological 1
 teammate 0
@@ -112,9 +111,7 @@ defenselessness 3
 1
 2
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** The word “**glaciological**” is already 1-good, so the Chef doesn't have to remove any letter.
 
 **Example case 2.** Similarly, “**teammate**” is already 0-good.

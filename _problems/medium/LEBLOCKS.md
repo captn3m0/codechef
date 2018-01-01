@@ -103,8 +103,7 @@ There will be no three or more blocks of the same color in a single test case.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 1
 7 5
@@ -120,4 +119,4 @@ There will be no three or more blocks of the same color in a single test case.
 0.9095238
 
 
-```
+</pre>

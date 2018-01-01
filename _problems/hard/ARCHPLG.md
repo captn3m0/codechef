@@ -31,8 +31,7 @@ You can also assume that the ferry departures nearly immediately after John arri
 In the first line t - the number of tests, then for each test:
 in next line n - the number of islands. Description of each island is as follows:
 
-```
-
+<pre>
 name
 w h [island dimensions]
 b - [number of terminals]
@@ -42,13 +41,10 @@ F [number of restricted areas F<20]
 xl, yd, xr, yu [coordinates of each restricted area,
 0 <=xl < xr<=250 0<=yd < yu<=250.]
 
-```
-All coordinates are nonnegative integers measured in BM according to upper left corner of an island.
-
+</pre>All coordinates are nonnegative integers measured in BM according to upper left corner of an island.
 You can assume that any two restricted areas are disjoint. After the description of all islands all ferry connections are given (each connection is bi-directional).
 
-```
-
+<pre>
 m  [number of connections]
 [description of each connection]
 NB1 NW1 NB2 NW2 time [name of a first terminal, its island, the second respectively
@@ -58,13 +54,10 @@ and communiaction time]
 ...
 NBS NWS NBC NWC [start and goal terminal for John]
 
-```
-### Output
-
+</pre>### Output
 For each test describe the shortest route for John from terminal NBS on NWS island to terminal NBC on NWC island in the following format:
 
-```
-
+<pre>
 case nr Y [nr - test number]
 T [travel time in BH]
 NBS  NWS
@@ -75,15 +68,12 @@ NBC NWC
 [empty line]
 [consecutive tests]
 
-```
-If two consecutive terminals are located on the same island and John must take some walk you must give all middle point like in an example.
-
+</pre>If two consecutive terminals are located on the same island and John must take some walk you must give all middle point like in an example.
 ![](/content/kuszi:trectarch_example.png)
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 1
 3
@@ -117,11 +107,8 @@ Kamejros W1 Knossos W2 100
 Malia W2 Korkyra W3 100
 Korkyra W3 Lindos W1
 
-```
-An example of a correct answer:
-
-```
-
+</pre>An example of a correct answer:
+<pre>
 <b>Output:</b>
 case 1 Y
 230
@@ -136,4 +123,4 @@ Kamejros W1
 2 1
 Lindos W1
 
-```
+</pre>

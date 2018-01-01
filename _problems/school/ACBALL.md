@@ -100,8 +100,7 @@ Other than these two rows of balls, Akhil has an infinite supply of extra balls 
 17. Subtask #3 (70 points) : **1** ≤ **N** ≤ **105**
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 WBWB
 WBBB
@@ -112,4 +111,4 @@ BWBW
 <h3>Explanation</h3>
 <p><b>Example case 1.</b> As we know, Hamming Distance(WBWB, BWBW) + Hamming Distance(WBBB, BWBW) = 4 + 3 = 7.
 You can try any other value for string <b>Z</b>, it will never exceed 6. </p>
-```
+</pre>

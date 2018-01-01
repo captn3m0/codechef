@@ -110,8 +110,7 @@ We will use additional integer variables **M**, **A**, **B** and **IND**. Also, 
 
 Here's a pseudocode, which generates array **X**:
 
-```
-
+<pre>
 X[0] = 0
 for i from 1 to N - 1:
 begin
@@ -119,8 +118,7 @@ begin
       IND = (A * IND + B) % M
 end
 
-```### Note
-
+</pre>### Note
 Maybe, some of you aren't familiar with definitions from the statement. Here're some articles that could help you to understand the problem correctly:
 
 - Cartesian plane: [http://en.wikipedia.org/wiki/Cartesian\_plane](http://en.wikipedia.org/wiki/Cartesian_plane)
@@ -160,8 +158,7 @@ Also, do not add any newlines between different testcases.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 5
 2 2
@@ -176,4 +173,4 @@ Also, do not add any newlines between different testcases.
 25.0
 140.0
 
-```
+</pre>

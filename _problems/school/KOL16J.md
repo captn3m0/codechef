@@ -49,8 +49,7 @@ For each test case, output "yes" or "no" in a separate line.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 3
 2 3 1
@@ -67,7 +66,5 @@ no
 no
 no
 
-```
-### Explanation
-
+</pre>### Explanation
 All the examples are explained in the problem statement.

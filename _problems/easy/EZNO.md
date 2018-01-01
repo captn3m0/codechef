@@ -103,8 +103,7 @@ For each test case, output a single integer denoting the number of _easy_ number
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 2 2
 10 3
@@ -113,7 +112,5 @@ For each test case, output a single integer denoting the number of _easy_ number
 1
 150
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** There are 2 numbers in base 2 consisting of 2 digits. Those are 2 (represented as 10 in base 2) and 3 (represented as 11 in base 2). 2 is an easy number, whereas 3 is not (see the explanation about it in the problem statement). Hence the number of easy numbers consisting of 2 digits in base 2 are 1.

@@ -93,9 +93,9 @@ Print "Yes" if the sequence contains the favourite sequence int it otherwise pri
 22 5 6 33 1 4
 2
 4 15
-<br></br><b>Output:</b>
+<br></br>
+<b>Output:</b>
 Yes
 No
 
-```
-(f)(n)<1000>
+<pre>(f)(n)<1000>

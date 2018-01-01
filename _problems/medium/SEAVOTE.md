@@ -102,8 +102,7 @@ For each test case, output **YES** or **NO** denoting the answer of the problem,
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 3
 30 30 30
@@ -116,9 +115,7 @@ NO
 YES
 YES
 
-```
-### Explanation
-
+</pre>### Explanation
 - In test case 1, There can not be any **A** which could be rounded up to get **B**. Hence answer is NO.
 - In test case 2, In this case **A** = {25, 25, 25, 25}. After rounding we get {25, 25, 25, 25} which is equal to **B**. Hence answer is YES.
 - In test case 3, **A** = {49.5, 50.5}. After rounding up we get {50, 51} which is equal to **B**. Hence answer is YES.

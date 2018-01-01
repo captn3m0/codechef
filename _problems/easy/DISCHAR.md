@@ -88,8 +88,7 @@ For each testcase, print the required answer in one line.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 abc
 aba
@@ -99,8 +98,6 @@ aba
 2
 
 
-```
-### Explanation
-
+</pre>### Explanation
 For first testcase, the whole string is a subsequence which has all distinct characters.
 In second testcase, the we can delete last or first 'a' to get the required subsequence.

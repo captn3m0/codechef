@@ -117,8 +117,7 @@ For each of the **T** test cases, output a single line - "Yes" (without quotes) 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 5
 3 5 4 4 3
@@ -129,9 +128,7 @@ For each of the **T** test cases, output a single line - "Yes" (without quotes) 
 No
 Yes
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** Student's average grade point score is 3.8 which makes him/her unqualified for obtaining the stipend.
 
 **Example case 2.** Student satisfies all the criteria for getting stipend.

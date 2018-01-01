@@ -83,13 +83,13 @@ In the **j**-th move:
 - He chooses a number **xj** such that **1 ≤ xj ≤ m**, and removes **xj** stones from both the piles (this is only possible when both the piles have ≥ **xj** stones).
 - The number chosen must be unique over all the moves in the game. That is, for all **k j ≠ xk**.
  
-The game stops when Chef is unable to make any more moves. Chef wants to make the moves in such a way that the sum of the number of stones remaining in the two piles is minimized. Please help Chef find this.
+ The game stops when Chef is unable to make any more moves. Chef wants to make the moves in such a way that the sum of the number of stones remaining in the two piles is minimized. Please help Chef find this.
 
 ### Input
 
 - The first line of input contains an integer **T** denoting the number of test cases.
 - Each test case consists of 1 line with three integers — **n1, n2** and **m** — separated by single spaces.
-
+ 
 ### Output
 
 For each test case, output a single line containing the minimum sum of the number of stones of two piles.
@@ -116,8 +116,7 @@ For each test case, output a single line containing the minimum sum of the numbe
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>3
 1 1 1
 1 2 1
@@ -128,9 +127,7 @@ For each test case, output a single line containing the minimum sum of the numbe
 1
 3</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** : Remove 1 stone from each of the piles. Now 0 stones are remaining, so chef cannot remove any more stones from the piles. Hence, answer is 0+0 = 0
 
 **Example case 2.** : Again, remove 1 stone from both the piles to get (0,1) stones. Now chef cannot remove any more stones from pile 1, so he stops. Hence, answer is 0+1 = 1.

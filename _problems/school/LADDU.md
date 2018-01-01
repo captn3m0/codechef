@@ -116,8 +116,7 @@ There is only a single subtask with 100 points.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 4 INDIAN
 CONTEST_WON 1
@@ -134,9 +133,7 @@ CONTEST_HOSTED
 3
 1
 
-```
-### Explanation
-
+</pre>### Explanation
 **In the first example**,
 
 - For winning contest with rank 1, user gets 300 + 20 - 1 = 319 laddus.

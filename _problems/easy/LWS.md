@@ -83,17 +83,13 @@ For every test case, output the length of the LWS of the given string.
 
 ### Constraints
 
-```
-
+<pre>
 1 ≤ <b>T</b> ≤ 10
 1 ≤ length of <b>S</b> ≤ 2000
 
 
-```
-### Example
-
-```
-
+</pre>### Example
+<pre>
 <b>Input</b>
 3
 abc
@@ -106,9 +102,7 @@ ddaabbaacc
 10
 
 
-```
-### Explanation
-
+</pre>### Explanation
 **First case:** The string itself is LWS since it can be split into non-decreasing subsequence **"abc"** and non-increasing empty subsequence.
 
 **Second case:** One of the possible LWS is **"cbaabc"** since it can be split as **"cbaABC"**. Here we indicate by capital letters non-decreasing subsequence and by lowercase letters non-increasing one. Other possible LWS's are **"cbaZZa", "AzyaBC"**.

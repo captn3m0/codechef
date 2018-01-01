@@ -94,8 +94,7 @@ Output "yes" without a quotes if Chef can arrive at point **a** or "no" without 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 0
 
 <b>Output:</b>
@@ -138,7 +137,5 @@ yes
 no
 
 
-```
-### Explanation
-
+</pre>### Explanation
  The first reached points are: 0 (+1) 1 (+2) 3 (+3) 6 (+1) 7, and so on.

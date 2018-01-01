@@ -99,8 +99,7 @@ If for a query no recipe matches print **"NO"**. (Without quotes)
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 4
 flour-with-eggs 100
@@ -124,4 +123,4 @@ flour-without-eggs
 NO
 
 
-```
+</pre>

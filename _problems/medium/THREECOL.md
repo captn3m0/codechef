@@ -105,8 +105,7 @@ The task will be graded by a custom checker. Your program will be judged AC (acc
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 
 <b>Output:</b>
@@ -118,9 +117,7 @@ The task will be graded by a custom checker. Your program will be judged AC (acc
 4 3 4 4
 1 4 1 3
 
-```
-### Explanation
-
+</pre>### Explanation
 The provided output isn't correct because it doesn't solve all possible initial grids. Its only purpose is to show you a valid format. Below you can see how one example grid would change. Here we assume that columns are numbered from top to bottom, and rows are numbered from left to right. In every new grid two previously chosen cells are marked bold. Note that some moves don't affect the grid.
 
 AAAB **AA**AB AA**C**B AACB AACB AACB AA**AA**

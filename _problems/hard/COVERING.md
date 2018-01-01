@@ -102,8 +102,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 1 3 9 12
 0 5 1 2
@@ -113,9 +112,7 @@ All submissions for this problem are available.###  Read problems statements in 
 7680
 
 
-```
-### Explanations
-
+</pre>### Explanations
 Here's the table of what sets are covered by all the possible triples for **N** = 1:
 
 ABCD000{0}001{0, 1}010{0, 1}011{0, 1}100{0, 1}101{0, 1}110{0, 1}111{0, 1}

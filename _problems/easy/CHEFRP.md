@@ -101,8 +101,7 @@ She, being lazy, wants to know the maximum number of times she would need to pic
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 2
 2 2
@@ -113,8 +112,6 @@ She, being lazy, wants to know the maximum number of times she would need to pic
 4
 2
 
-```
-### Explanation
-
+</pre>### Explanation
 - **In Example 1,** she need to pick up all items.
 - **In Example 2,** since there is only one type of ingredient, picking two items is enough.

@@ -115,8 +115,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 10
 + 8 1
 - 1
@@ -137,13 +136,10 @@ All submissions for this problem are available.###  Read problems statements in 
 11
 
 
-```
-### Explanations
-
+</pre>### Explanations
 Here's a non-encrypted version of the example:
 
-```
-
+<pre>
 10
 + 8 1
 - 1
@@ -156,5 +152,4 @@ Here's a non-encrypted version of the example:
 ? 0 1
 - 2
 
-```
-The answers are the same.
+</pre>The answers are the same.

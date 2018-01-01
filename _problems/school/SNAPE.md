@@ -96,8 +96,7 @@ Output **T** lines, each containing minimum value of **RS** and maximum value of
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 4 5
@@ -109,4 +108,4 @@ Output **T** lines, each containing minimum value of **RS** and maximum value of
 6.63325 15.6205
 17.3205 22.3607
 
-```
+</pre>

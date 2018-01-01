@@ -103,8 +103,7 @@ Output the maximal possible sum of amounts of joy over all the chosen roads.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5 2 1
 1 2
 2 3
@@ -117,7 +116,5 @@ Output the maximal possible sum of amounts of joy over all the chosen roads.
 <b>Output:</b>
 25
 
-```
-### Explanation
-
+</pre>### Explanation
 If you take the only route of GTN, you'll not be able to take anything of BTS. So, it's better to take the both routes of BTS (a route of a company can cross with another route of this company as well) and to end up with the total sum of 25.

@@ -121,8 +121,7 @@ After each test case output an empty line.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 5
   A to D - 1 to 4 exactly 2 digits  
@@ -177,8 +176,6 @@ Invalid-ID
 Format does not conform
 
 
-```
-### Notes
-
+</pre>### Notes
 - "or" has the least precedence among all keywords. For example 1 or 2 3 times is interpreted as 1 or (2 3 times) instead of (1 or 2) 3 times.
 - "optional" and "times" have equal precedence, which is lower than all other keywords but higher than "or". Like 1 to 3 4 times is interpreted as (1 to 3) 4 times.

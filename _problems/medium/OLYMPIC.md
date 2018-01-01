@@ -89,8 +89,7 @@ Output **Q** lines, one for each query, the total number of different gift packs
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 5 3 12
@@ -106,9 +105,7 @@ Output **Q** lines, one for each query, the total number of different gift packs
 2320
 3
 
-```
-
-
+</pre>
 **Explanation:**
 In the last query, size of each box **S** = 12.
 

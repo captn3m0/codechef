@@ -93,8 +93,7 @@ Your answer will be accepted if the error is less than 10 -6.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 1
 2
@@ -106,9 +105,7 @@ Your answer will be accepted if the error is less than 10 -6.
 1.4445
 
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.**
 We have 10\*10 = 100 cases of adding two 1-digit number.
 The carry appears when adding 1 and 9, 2 and 9, 3 and 9 ... and so on,

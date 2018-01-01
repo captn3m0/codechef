@@ -98,8 +98,7 @@ Output correct ordering of posts in news feed in **M** lines. Output only the co
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2 4
 1 2
 1 1 WhoDoesntLoveChefBook
@@ -114,8 +113,6 @@ TheseViolentDelightsHaveViolentEnds
 ComeAtTheKingBestNotMiss
 
 
-```
-### Explanation
-
+</pre>### Explanation
 First we should show posts created by friends with identifiers **1** and **2**. Among the posts by these friends, the one with more popularity should be shown first.
 Among remaining posts, we show those which are more popular first.

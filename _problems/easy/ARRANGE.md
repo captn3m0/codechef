@@ -31,8 +31,7 @@ For each test case you are to output the scrambled message on a single line.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 2 chef
 4 enjoyourapplepie
@@ -41,4 +40,4 @@ For each test case you are to output the scrambled message on a single line.
 cehf
 eayejpuinpopolre
 
-```
+</pre>

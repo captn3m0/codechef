@@ -113,8 +113,7 @@ For each test case, output **Q** lines, each line should contain one integer - a
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 5 4
 ababa
@@ -128,9 +127,7 @@ ababa
 1
 0
 
-```
-### Explanation
-
+</pre>### Explanation
 **L** = {**"a", "b", "a", "b", "a", "ab", "ba", "ab", "ba", "aba", "bab", "aba", "abab", "baba", "ababa"**}.
 
 - **k1 = 2**: There are seven ways to choose two equal strings ("a", "a"), ("a", "a"), ("a", "a"), ("b", "b"), ("ab", "ab"), ("ba", "ba"), ("aba", "aba").

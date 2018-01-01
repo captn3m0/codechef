@@ -80,8 +80,7 @@ For each test case, output a single line containing probability as an irreducibl
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 1
 2
@@ -92,9 +91,7 @@ For each test case, output a single line containing probability as an irreducibl
 3/4
 5/9
 
-```
-### Constraints
-
+</pre>### Constraints
 1<=**T**<=103
 
 1<=**N**<=109

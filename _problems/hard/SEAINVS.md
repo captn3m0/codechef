@@ -68,7 +68,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/FEB17/mandarin/SEAINVS.pdf), [Russian](http://www.codechef.com/download/translated/FEB17/russian/SEAINVS.pdf) and [Vietnamese](http://www.codechef.com/download/translated/FEB17/vietnamese/SEAINVS.pdf) as well.
 
-Sereja has a permutation **P** of the **N** numbers in the range **1** to **N**. You have to answer **M** queries over it, where each query is given four numbers **l1, r1, l2, r2 (1 ≤ l1 ≤ r12 ≤ r2 ≤ N, r1 - l1 = r2 - l2)**. Your task is to calculate number of permutations **Q** of the **S** integers in the range **1** to **S**, such that **S = r1 - l1 + 1**, and for each **i** from **1** to **S**, the condition **PQi + l1 - 1i + l2 - 1** is satisfied.
+Sereja has a permutation **P** of the **N** numbers in the range **1** to **N**. You have to answer **M** queries over it, where each query is given four numbers **l1, r1, l2, r2 (1 ≤ l1 ≤ r1 2 ≤ r2 ≤ N, r1 - l1 = r2 - l2)**. Your task is to calculate number of permutations **Q** of the **S** integers in the range **1** to **S**, such that **S = r1 - l1 + 1**, and for each **i** from **1** to **S**, the condition **PQi + l1 - 1 i + l2 - 1** is satisfied.
 
 Please help Sereja in providing the answer for each query modulo **109 + 7**.
 
@@ -100,8 +100,7 @@ For each query, output the corresponding answer in single line.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 4 1
 1 2 3 4
@@ -120,4 +119,4 @@ For each query, output the corresponding answer in single line.
 1
 24
 
-```
+</pre>

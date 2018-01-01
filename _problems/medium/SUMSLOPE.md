@@ -21,8 +21,7 @@ Output :
 
 Output T lines one for each test case, containing the required sum for the corresponding test case.
 
-```
-
+<pre>
 Sample Input :
 3
 101 101
@@ -30,20 +29,16 @@ Sample Input :
 100 150
 
 
-```
-```
-
+</pre><pre>
 Sample Output :
 1
 0
 19
 
 
-```
-```
-
+</pre><pre>
 Constraints :
 1 <= T <= 50000
 1 <= A <= B <= 1000000000000000 (10^15)
 
-```
+</pre>

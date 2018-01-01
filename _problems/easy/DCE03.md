@@ -17,17 +17,14 @@ X1 X2 X3 .... Xn
 What is the number of ways to put parenthesis in the expression.
 For n=4, the different ways are
 
-```
-
+<pre>
 (((x1.x2).x3).x4)
 ((x1.x2).(x3.x4))
 (x1.((x2.x3).x4))
 (x1.(x2.(x3.x4)))
 ((x1.(x2.x3)).x4)
 
-```
-Hence the required answer would be 5.
-### Input
+</pre>Hence the required answer would be 5.### Input
 
 The first line contains the number of test cases t <=10. Each of the next t lines contain single integers <=1000 denoting n.
 
@@ -37,8 +34,7 @@ Display t lines containg the number of ways to put parenthesis in the expression
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 4
@@ -49,4 +45,4 @@ Display t lines containg the number of ways to put parenthesis in the expression
 5
 14
 
-```
+</pre>

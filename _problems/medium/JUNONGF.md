@@ -135,8 +135,7 @@ All N dimensions after calculation will be between 1 and 2^63 – 1.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <p></p>
 3
 1 2
@@ -153,9 +152,7 @@ All N dimensions after calculation will be between 1 and 2^63 – 1.
 729
 387420489
 
-```
-### Explanation
-
+</pre>### Explanation
 **Test case 1**: Since V is equal to 1, there is only way to open restaurants in the 2 dimensional city of dimensions 3\*3:
 
 | 0 0 0 |

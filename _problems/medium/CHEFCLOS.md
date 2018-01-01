@@ -102,14 +102,13 @@ For each test case, output a single line containing an integer corresponding to 
 
 **Subtask #1 (40 points), Time limit : 4 secs**- **1** ≤ **N, Ai, K, L ≤** **15**
 
-**Subtask #2 (40 points), Time limit : 4 secs**- **1** ≤ **N, Ai, K, L ≤** **25**
+ **Subtask #2 (40 points), Time limit : 4 secs**- **1** ≤ **N, Ai, K, L ≤** **25**
 
-**Subtask #3 (20 points), Time limit : 2 secs**- **1** ≤ **N, Ai, K, L ≤** **27**
+ **Subtask #3 (20 points), Time limit : 2 secs**- **1** ≤ **N, Ai, K, L ≤** **27**
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>2
 2 1 2
 2 1
@@ -120,9 +119,7 @@ For each test case, output a single line containing an integer corresponding to 
 <tt>2
 1</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 **In Test 1 :** The array **A = \[2, 1\]**. The array is already closed under gcd operation since gcd(2, 2) = 2, gcd(1, 1) = 1 and gcd(2, 1) = 2. So, the remaining element which needs to be added can be either **1** or **2**. So, answer is **2**.
 
 **In Test 2 :** The array **A = \[1, 4, 6\]**. gcd(1, 1), gcd(1, 4) and gcd(1, 6) = 1 which is present in the array. gcd(4, 6) is 2 which is not present in the array. We have to add only one element in the array and make it closed under gcd operation. So the number to be added can only be **2**. There is only one way of doing that. So, the answer is **1**.

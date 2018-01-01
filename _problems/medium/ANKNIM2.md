@@ -100,8 +100,7 @@ Output the results of each test case on a new line. For each test case, output t
 
 **Sample Input:**
 
-```
-
+<pre>
 2
 6
 1 2 3 2 1 3
@@ -109,20 +108,14 @@ Output the results of each test case on a new line. For each test case, output t
 1 1 1 1
 
 
-```
-**Sample Output:**
-
-```
-
+</pre>**Sample Output:**
+<pre>
 0 0 3 0 0 1
 0 3 0 1
 
 
-```
-**Explanation**
-
-```
-
+</pre>**Explanation**
+<pre>
 For the first test case and m = 3, required sub-arrays are [1,2,3], [3,2,1] and [2,1,3].
 
-```
+</pre>

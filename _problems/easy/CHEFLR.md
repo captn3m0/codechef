@@ -78,8 +78,7 @@ Chef has a nice _complete_ binary tree in his garden. _Complete_ means that each
 - Then, let's take all the nodes with the even level and enumerate them with consecutive even numbers, starting from the smallest levels and the leftmost nodes, going to the rightmost nodes and the highest levels.
 - For the better understanding there is an example:
 
-```
-
+<pre>
                              1
                         /           \
                   2                   4
@@ -88,9 +87,7 @@ Chef has a nice _complete_ binary tree in his garden. _Complete_ means that each
             / \      /  \          /  \       /  \
            6  8 10 12      14 16   18 20 
 
-```
-Here you can see the visualization of the process. For example, in odd levels, the root was enumerated first, then, there were enumerated roots' left sons' sons and roots' right sons' sons.
-
+</pre>Here you can see the visualization of the process. For example, in odd levels, the root was enumerated first, then, there were enumerated roots' left sons' sons and roots' right sons' sons.
 You are given the string of symbols, let's call it **S**. Each symbol is either **l** or **r**. Naturally, this sequence denotes some path from the root, where **l** means going to the left son and **r** means going to the right son.
 
 Please, help Chef to determine the number of the last node in this path.
@@ -113,8 +110,7 @@ Per each line output the number of the last node in the path, described by S, mo
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 lrl
 rll
@@ -127,7 +123,5 @@ lllr
 13
 
 
-```
-### Explanation
-
+</pre>### Explanation
 See the example in the statement for better understanding the samples.

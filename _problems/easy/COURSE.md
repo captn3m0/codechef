@@ -25,17 +25,14 @@ For each input, output on a single line the diameter of the largest car that can
 
 ### Sample input:
 
-```
-1
+<pre>1
 
 5 10
 3
 6 0
 5 7
 -2 -7
-```
-### Sample output:
-
+</pre>### Sample output:
 `2.720`### Explanation:
 
 The image below shows the course corresponding to the sample input. The black circles represent the boundaries of the racetrack, the small dots the cones, and the filled red circle the car. Also shown is one possible path of the car through the course.

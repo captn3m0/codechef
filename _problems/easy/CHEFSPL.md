@@ -108,8 +108,7 @@ For each of the **D** dishes, print a single line containing "**YES**" or "**NO*
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 aba
 abac
@@ -121,9 +120,7 @@ NO
 NO
 
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.**
 We can remove the character at position 1 (0-based index) to get "aa" which is a _double_ string. Hence, it is a _special_ dish.
 

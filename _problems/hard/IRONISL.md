@@ -124,8 +124,7 @@ Do not add any newlines between different testcases.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 2
 01
@@ -165,4 +164,4 @@ Do not add any newlines between different testcases.
 8
 
 
-```
+</pre>

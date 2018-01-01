@@ -105,8 +105,7 @@ For each test case, output a single integer denoting the total amount including 
 
 ### Example
 
-```
-
+<pre>
 <b>Input</b>
 4
 2
@@ -124,9 +123,7 @@ For each test case, output a single integer denoting the total amount including 
 2300
 1200
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** Chef paid maintenance fees for both the months. So, he does not have any dues left.
 
 **Example case 2.** Chef did not pay the maintenance fees for any of the months. For the first month, he has to pay 1000Rs, and 100Rs fine as a late payment. For second month payments, he just have to pay 1100Rs. So, in total he has a due of 1100 + 1100 = 2200 Rs.

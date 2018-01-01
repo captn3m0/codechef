@@ -110,8 +110,7 @@ For all queries of the third type: print "**Yes**" if your check returns a posit
 
 #### First
 
-```
-
+<pre>
 <b>Input:</b>
 <tt>5 10
 1 2 3 5 6
@@ -135,11 +134,8 @@ Yes
 No
 Yes</tt>
 
-```
-#### Second
-
-```
-
+</pre>#### Second
+<pre>
 <b>Input:</b>
 <tt>3 4
 2013 2015 2017
@@ -153,13 +149,10 @@ Yes</tt>
 No
 Yes</tt>
 
-```
-### Explanation:
-
+</pre>### Explanation:
 ##### First test explanation (step by step)
 
-```
-
+<pre>
 1 2 3 5 6
 3 2 3 3 (<b>[2, 3]</b> 3=3 => <b>Yes</b>)
 3 2 3 4 (<b>[2, 3]</b> can't make 4 => <b>No</b>)
@@ -172,4 +165,4 @@ Yes</tt>
 3 2 4 3 (<b>[5, 1, 1]</b> can't make 3 => <b>No</b>)
 3 1 5 7 (<b>[3, 5, 1, 1, 2]</b> 2+1+1+3=7 => <b>Yes</b>)
 
-```
+</pre>

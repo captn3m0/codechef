@@ -107,8 +107,7 @@ Output a single integer in a line - weight of **k**-th minimum cut of graph **G*
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4 8 2
 1 4
 1 2 4
@@ -124,9 +123,7 @@ Output a single integer in a line - weight of **k**-th minimum cut of graph **G*
 9
 
 
-```
-```
-<b>Input:</b>
+</pre><pre><b>Input:</b>
 5 19 6
 1 5
 1 2 1
@@ -154,4 +151,4 @@ Output a single integer in a line - weight of **k**-th minimum cut of graph **G*
 
 
 
-```
+</pre>

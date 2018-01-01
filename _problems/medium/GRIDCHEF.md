@@ -18,11 +18,11 @@ However, he suffered injury on his head ( people can get really angry when serve
 Unfortunately, due to short term memory loss, he throws away whatever he is given every alternate second. That is he throws away food given at t = 0 , keeps food given at t = 1, throws away food given at t = 2, and so forth. 
 The grid also has some added constraints. No hotel ( or cell ) can be visited more than once. Since, Chef has weak memory, he must return to his kitchen ( which is also his starting point ) after collecting the food. 
 You have to help the Chef choose a path such that the amount of food collected is maximized \[ The path should be such that no two cell in the path are same except for the start and end of the path which **have to be** the same \]. 
-**The Chef can choose the kitchen ( starting point ) to be located in any of the four corners of the grid.**
+ **The Chef can choose the kitchen ( starting point ) to be located in any of the four corners of the grid.**
 
 ###  Input 
 
-The first line contains t ( <= 100 ) which denotes the number of test cases. For each test case, the first line contains 2 space separared integers n,m which denote the dimension of the matrix. Then n lines follow, each containing m space separared integers. jth integer on the ith line denotes Gij
+The first line contains t ( <= 100 ) which denotes the number of test cases. For each test case, the first line contains 2 space separared integers n,m which denote the dimension of the matrix. Then n lines follow, each containing m space separared integers. jth integer on the ith line denotes Gij 
  **Warning : Enormous Input/Output.**
 
 ###  Output 
@@ -34,19 +34,15 @@ If there are multiple such optimal paths, any path would suffice.
 ###  Sample Input 
 
 
-```
-
+<pre>
 1 
 2 2
 2 3
 3 2
 
-```
-###  Sample Output 
+</pre>###  Sample Output 
 
-
-```
-
+<pre>
 6
 5
 0 0 
@@ -55,8 +51,6 @@ If there are multiple such optimal paths, any path would suffice.
 1 0
 0 0
 
-```
-###  Constraints 
-
+</pre>###  Constraints 
 1 < m\*n ≤ 100000 
 0 ≤ Gij ≤ 10000

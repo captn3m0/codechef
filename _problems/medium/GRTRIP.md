@@ -109,54 +109,39 @@ Output should contain a single integer on the first line - answer for the proble
 
 ### Constraints:
 
-```
-
+<pre>
 1 ≤ <b>N</b> ≤ 2000
 1 ≤ <b>M</b> ≤ 10000
 1 ≤ <b>u,v</b> ≤ <b>N</b>
 1 ≤ <b>w</b> ≤ 10000
 
 
-```
-### Example:
-
+</pre>### Example:
 **Input #1:**
 
-```
-
+<pre>
 2 0
 
 
-```
-**Output #1:**
-
-```
-
+</pre>**Output #1:**
+<pre>
 4
 
 
-```
-**Input#2:**
-
-```
-
+</pre>**Input#2:**
+<pre>
 3 3
 1 2 1
 1 3 2
 2 3 2
 
 
-```
-**Output#2:**
-
-```
-
+</pre>**Output#2:**
+<pre>
 8
 
 
-```
-**Explanation:**
-
+</pre>**Explanation:**
 For input#1 every possible pair is valid. for input#2 pair(1,3) is not valid, since Chef's algorithm will always go this way 1->2->3, while 1->3 is right way to get from 1 to 3. 
 
 />/>/>

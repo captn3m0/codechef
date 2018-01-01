@@ -86,8 +86,7 @@ Output one line per test case that gives the number of good permutations obeying
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>2
 3 0
 3 2
@@ -98,9 +97,7 @@ Output one line per test case that gives the number of good permutations obeying
 <tt>1
 0</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** The only good permutation is **3,2,1** (i = 1, j = 2).
 
 ### Sub tasks

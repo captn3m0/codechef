@@ -40,8 +40,7 @@ For each test case output a line containing a single integer **K** (0 ≤ **K** 
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 6
 4
@@ -95,9 +94,7 @@ For each test case output a line containing a single integer **K** (0 ≤ **K** 
 3 2 5 8
 3 3 6 9
 
-```
-### Explanation
-
+</pre>### Explanation
 In the first test case, the initial array is (5, 6, 7, 8). The array after the first operation is (5, 6.5, 6.5, 8). The array after the second operation is (6.5, 6.5, 6.5, 6.5).
 
 In the second test case, all the elements of the array become equal to 44/7 after the only operation.

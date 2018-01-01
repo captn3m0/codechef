@@ -25,8 +25,7 @@ Output the total quality.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 7 53
 5 8 2
@@ -44,4 +43,4 @@ Output the total quality.
 If there is no answer, output 0.
 There can be less than 6 items.
 
-```
+</pre>

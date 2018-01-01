@@ -111,8 +111,7 @@ For each of **Q** queries, output the sought minimal distance on a separate line
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>6 5
 3 5 1 1 4 2
 3 6
@@ -136,4 +135,4 @@ For each of **Q** queries, output the sought minimal distance on a separate line
 2
 2</tt>
 
-```
+</pre>

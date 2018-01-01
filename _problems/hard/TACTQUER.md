@@ -102,8 +102,7 @@ For each query print out the corresponding result in one line.
 
 ### Example
 
-```
-
+<pre>
 <b>Input 1</b>:
 4 3
 1 2 2
@@ -138,9 +137,7 @@ For each query print out the corresponding result in one line.
 2
 6
 
-```
-### Explaination
-
+</pre>### Explaination
 **Test 2:** the graph is shown in the picture below.
 
 ![](http://www.codechef.com/download/upload/tactquer-example-2.png)

@@ -96,17 +96,14 @@ Output description.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4 2
 1 2 1 2
 
 <b>Output:</b>
 2
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** Only the second chef has a junior in front of him and the fearfulness he causes to the head chef is 3 - 2 + 1 = 2. Every other chef causes a fearfulness of 1 for the Head Chef.
 
 ### Scoring

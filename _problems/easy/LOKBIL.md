@@ -51,8 +51,7 @@ There are atmost 100 groups.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 1
 6
@@ -66,4 +65,4 @@ There are atmost 100 groups.
 <b>Output:</b>
 4 1.166667
 
-```
+</pre>

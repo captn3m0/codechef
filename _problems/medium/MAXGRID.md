@@ -100,8 +100,7 @@ Output a single line containing two space separated integers: the maximum value 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>3 2
 1 1 1
 2 1 1
@@ -110,7 +109,5 @@ Output a single line containing two space separated integers: the maximum value 
 <b>Output:</b>
 <tt>6 2</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 In the given example, you can create a 2X2 sub-grid with top-left corner as (2,1) and bottom right corner as (3,2) with value 6. All other sub-grids have value lower than or equal to this sub-grid.

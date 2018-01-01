@@ -100,8 +100,7 @@ Any results within 10^-6 absolute error will be accepted.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 4 3 4
@@ -123,4 +122,4 @@ Any results within 10^-6 absolute error will be accepted.
 22.943125000
 
 
-```
+</pre>

@@ -93,8 +93,7 @@ For each testcase, print the maximum number of moves Mr. Yagami can make, in one
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 4
 2 5 6 14
@@ -108,9 +107,7 @@ For each testcase, print the maximum number of moves Mr. Yagami can make, in one
 0
 
 
-```
-### Explanation
-
+</pre>### Explanation
 First testcase:
 Following are the possible moves denoting by (i,j) and (p,q)
 1st move: (1,2) and (2,3)

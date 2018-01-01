@@ -103,8 +103,7 @@ For each test case, output **M** lines - the answer for each query.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>1
 5 3
 2 5 1 2 3
@@ -117,4 +116,4 @@ For each test case, output **M** lines - the answer for each query.
 2
 2</tt>
 
-```
+</pre>

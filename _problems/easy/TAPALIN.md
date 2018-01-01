@@ -106,8 +106,7 @@ For each test case, output a single line containing the answer for the correspon
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 5
 1
@@ -123,7 +122,5 @@ For each test case, output a single line containing the answer for the correspon
 1404
 508533804
 
-```
-### Explanation
-
+</pre>### Explanation
 The first three examples are explained in the problem statement above.

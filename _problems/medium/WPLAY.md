@@ -83,37 +83,27 @@ You are to say, if both **Alice** and **Bob** play optimally, who will win the g
 
 The alphabets need not be adjacent in any way.
 
-```
-<pre style="font-family:monospace">
+<pre><pre style="font-family:monospace">
 IBC
 DEF
 AJN
 
-```
-In the above configuration, **"CAN"**, is a valid word.
-
+</pre>In the above configuration, **"CAN"**, is a valid word.
 **Note 2:**
 
 Consider a **2 \* 2** of the grid
 
-```
-<pre style="font-family:monospace">
+<pre><pre style="font-family:monospace">
 BE
 ED
 
-```
-Let the dictionary be:
-
-```
-<pre style="font-family:monospace">
+</pre>Let the dictionary be:
+<pre><pre style="font-family:monospace">
 BED
 BEE
 
-```
-Say a player made the word **"BED"**. This word can be make in two ways:
-
-```
-<pre style="font-family:monospace">
+</pre>Say a player made the word **"BED"**. This word can be make in two ways:
+<pre><pre style="font-family:monospace">
 --
 E-
 
@@ -122,17 +112,12 @@ or
 -E
 --
 
-```
-Note that after making **"BED"**, not all the **E**(s) are inactive. However, after **"BEE"** is created, both **E**s are inactive, namely the board will be
-
-```
-<pre style="font-family:monospace">
+</pre>Note that after making **"BED"**, not all the **E**(s) are inactive. However, after **"BEE"** is created, both **E**s are inactive, namely the board will be
+<pre><pre style="font-family:monospace">
 --
 -D
 
-```
-### Input
-
+</pre>### Input
 The first line of input contains **D** denoting the number of words in the dictionally.
 The next **D** lines contain words in the dictionally.
 Then the next line contains 2 space-separated integers denoting **r** and **c**.
@@ -164,8 +149,7 @@ At least one of the following 3 conditions must be hold:
 
 ### Samples
 
-```
-
+<pre>
 <b>Input:</b>
 5
 BED
@@ -187,4 +171,4 @@ Bob
 Alice
 
 
-```
+</pre>

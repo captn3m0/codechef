@@ -46,8 +46,7 @@ p prime number
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 7
 10 2 2
@@ -68,4 +67,4 @@ p prime number
 1
 
 
-```
+</pre>

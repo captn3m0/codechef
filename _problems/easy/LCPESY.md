@@ -91,8 +91,7 @@ For each test case, output a single line containing a single integer, the _longe
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 abcd
 xyz
@@ -109,9 +108,7 @@ elfedcc
 3
 5
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** There is no common character.
 
 **Example case 2.** All the characters are same.

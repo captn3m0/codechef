@@ -114,8 +114,7 @@ For each query of type **2** and **3**, print the sought answer.
 
 ### Example
 
-```
-
+<pre>
 <b>Input</b>
 <tt>10 10
 2 3 5
@@ -138,4 +137,4 @@ For each query of type **2** and **3**, print the sought answer.
 5
 4</tt>
 
-```
+</pre>

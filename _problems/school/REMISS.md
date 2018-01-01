@@ -94,12 +94,11 @@ For each test case, output a single line containing two space separated integers
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 19 17
 
 <b>Output:</b>
 19 36
 
-```
+</pre>

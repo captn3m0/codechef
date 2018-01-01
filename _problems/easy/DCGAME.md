@@ -113,8 +113,7 @@ Output consists of a single line containing a string of length **M** made up fro
 
 ### Example:
 
-```
-
+<pre>
 <b>Input:</b>
 3 5
 1 2 3
@@ -127,9 +126,7 @@ Output consists of a single line containing a string of length **M** made up fro
 <b>Output:</b>
 DCDDC
 
-```
-### Explanation: 
-
+</pre>### Explanation: 
 **Subarray List :**
 
 **1. \[1\]** **1. \[2\]** **1. \[3\]** **1. \[1,2\]** **1. \[2,3\]** **1. \[1,2,3\]** 

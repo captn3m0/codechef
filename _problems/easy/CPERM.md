@@ -98,8 +98,7 @@ For each test case, output the answer modulo **109+7**.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 2
 3
@@ -109,9 +108,7 @@ For each test case, output the answer modulo **109+7**.
 2
 
 
-```
-### Explanation
-
+</pre>### Explanation
 Test case 1:
 No permutation satisfies.
 

@@ -38,8 +38,7 @@ The output must consist of n lines. You need to print the maximum surcharge incu
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 6 7
 
@@ -68,4 +67,4 @@ direzti
 25
 
 
-```
+</pre>

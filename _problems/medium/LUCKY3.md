@@ -37,8 +37,7 @@ For each **T** test cases print one integer - result for the corresponding test.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 2
@@ -50,4 +49,4 @@ For each **T** test cases print one integer - result for the corresponding test.
 3
 2
 
-```
+</pre>

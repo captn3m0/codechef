@@ -103,8 +103,7 @@ For each test case, output a single line containing the minimum score Sergey sho
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>1
 4 2 3 10
 7 7 7
@@ -115,7 +114,5 @@ For each test case, output a single line containing the minimum score Sergey sho
 <b>Output:</b>
 <tt>4</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** If Sergey gets 4 points at the last exam, his score will be equal to 9+9+4=22. This will be the second score among all the enrollees - the first one will get 21, the second one will get 20 and the third will have the total of 26. Thus, Sergey will enter the university.

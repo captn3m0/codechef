@@ -79,7 +79,7 @@ One day, during the excursion they've became bored. Especially Sergey. So he ask
 There is an **1**-indexed permutation **A** of the first **N** positive integers, which is not known. You can ask two following kinds of queries:
 
 - **1 X Y D** : is it true that |**AX - AY**| is divisible by **D** without remainder?
-- **2 X Y** : is it true that **AXY**
+- **2 X Y** : is it true that **AX Y**
 
 The task was to restore the permutation **A** by asking the queries of the following form. There are limits on the amount of queries of each type you can ask. Andrew and Kostya came up with the solution very quickly. But Sergey was really puzzled with this task. However, after thinking for some time, he came up with a solution too.
 
@@ -120,8 +120,7 @@ Please flush output buffer anytime you output a query.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>2
 2
 2</tt>
@@ -134,4 +133,4 @@ Please flush output buffer anytime you output a query.
 > (FEEDBACK) Yes
 3 1 2</tt>
 
-```
+</pre>

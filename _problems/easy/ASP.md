@@ -98,8 +98,7 @@ For each test case, output "YES" or "NO" (without quotes) to indicate whether th
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 3
 1 2 3
@@ -109,4 +108,4 @@ For each test case, output "YES" or "NO" (without quotes) to indicate whether th
 YES
 NO
 
-```
+</pre>

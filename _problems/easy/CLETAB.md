@@ -98,8 +98,7 @@ For each test case output the minimum number of times Haku must clean the table(
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 2 4
 1 2 3 4
@@ -116,9 +115,7 @@ For each test case output the minimum number of times Haku must clean the table(
 4
 4
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** In the starting all tables i.e. 2 tables are unoccupied. When customer 1 asks for table, he can be given any of the 2 tables. Haku has to clean either of the table. Next customer 2 can occupy the other free table. Haku must clean second time. When customer 3 comes Haku can ask either customer 1 or 2 to leave. Suppose he asks customer 1 to leave. Then he has to clean table for the third time. When customer 4 comes, Haku can ask customer 2 or 3 to leave. In either case Haku will have to clean the table for the fourth time. Phew!!
 
 **Example case 4.** Suppose the tables are listed as \[-, -, -\]. A possible optimal order of allocating tables can be \[1, -, -\] -> \[1, 2, -\] -> \[1, 2, -\] -> \[1, 2, 3\] -> \[4, 2, 3\]. So Haku will have to clean table for order no. 1, 2, 4 and 5. That is 4 times.

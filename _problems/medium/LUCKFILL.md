@@ -98,8 +98,7 @@ The first line of the input file contains a single positive integer **T**, the n
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 2 2
@@ -112,4 +111,4 @@ The first line of the input file contains a single positive integer **T**, the n
 4
 
 
-```
+</pre>

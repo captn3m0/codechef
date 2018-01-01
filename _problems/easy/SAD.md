@@ -92,8 +92,7 @@ First line contains two integers **R** and **C**, the number of rows and columns
 
 ### Example 1
 
-```
-
+<pre>
 <b>Input:</b>
 2 3
 9 8 8
@@ -102,11 +101,8 @@ First line contains two integers **R** and **C**, the number of rows and columns
 <b>Output:</b>
 8
 
-```
-### Example 2
-
-```
-
+</pre>### Example 2
+<pre>
 <b>Input:</b>
 3 3
 9 8 11
@@ -116,11 +112,8 @@ First line contains two integers **R** and **C**, the number of rows and columns
 <b>Output:</b>
 GUESS
 
-```
-### Example 3
-
-```
-
+</pre>### Example 3
+<pre>
 <b>Input:</b>
 2 2
 10 10
@@ -129,9 +122,7 @@ GUESS
 <b>Output:</b>
 10
 
-```
-### Explanation of Sample Cases
-
+</pre>### Explanation of Sample Cases
 **Example 1**: The first row contains 9, 8, 8. Observe that both 8 are the minimum. Considering the first 8, look at the corresponding column (containing 8 and 6). Here, 8 is the largest element in that column. So it will be chosen.
 
 **Example 2**: There is no value in the matrix that is smallest in its row but largest in its column.

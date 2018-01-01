@@ -90,8 +90,7 @@ For each test case, output a single line containing the number of required tripl
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 5
 3 3 3
@@ -107,9 +106,7 @@ For each test case, output a single line containing the number of required tripl
 578880
 0
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** We have the following triples composed of different numbers up to 3:
 (1, 2, 3)
 (1, 3, 2)

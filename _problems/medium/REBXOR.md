@@ -103,8 +103,7 @@ Output a single integer denoting the **maximum possible** value of the given exp
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5
 1 2 3 1 2
 
@@ -112,7 +111,5 @@ Output a single integer denoting the **maximum possible** value of the given exp
 6
 
 
-```
-### Explanation
-
+</pre>### Explanation
 Choose (**l1**, **r1**, **l2**, **r2**) = (1, 2, 3, 3) or (1, 2, 4, 5) or (3, 3, 4, 5).

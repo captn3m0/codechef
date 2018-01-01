@@ -108,8 +108,7 @@ For each test case, output a single line containing a integer corresponding to t
 
 ### Example
 
-```
-<b>Input</b>
+<pre><b>Input</b>
 2
 2
 01
@@ -121,9 +120,7 @@ For each test case, output a single line containing a integer corresponding to t
 1
 5
 
-```
-### Explanation
-
+</pre>### Explanation
 **In the first example**, first village does not have electricity. If we put a wire between village 1 and 2 of length 1, then both the villages will have electricity.
 
 **In the second example**,

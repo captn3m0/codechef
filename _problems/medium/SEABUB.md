@@ -101,8 +101,7 @@ For each test case output the minimal possible expected value of **f(A)**. Your 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 2 1
 2 1
@@ -114,4 +113,4 @@ For each test case output the minimal possible expected value of **f(A)**. Your 
 1.5000
 
 
-```
+</pre>

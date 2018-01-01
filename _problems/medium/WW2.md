@@ -106,8 +106,7 @@ For each testcase, print the required answer in one line.
 16. **1** ≤ **M** ≤ **30**
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 1 5
 2 5
@@ -116,9 +115,7 @@ For each testcase, print the required answer in one line.
 5
 8
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.**You can start at any of the 5 cells available.
 
 **Example case 2.**

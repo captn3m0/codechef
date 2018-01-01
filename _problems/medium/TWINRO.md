@@ -98,8 +98,7 @@ A single integer, the maximum combined score that the two robots can achieve. .
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 4
 6 0 3 -1
@@ -111,4 +110,4 @@ A single integer, the maximum combined score that the two robots can achieve. .
 56
 
 
-```
+</pre>

@@ -21,8 +21,7 @@ Output :
 
 Output T lines, one corresponding to each test case, containing the required answer.
 
-```
-
+<pre>
 Sample Input :
 2
 3 1
@@ -37,21 +36,17 @@ Sample Input :
 3 5
 
 
-```
-```
-
+</pre><pre>
 Sample Output :
 5
 23
 
 
-```
-```
-
+</pre><pre>
 Constraints :
 1 <= T <= 2000
 2 <= N <= 60
 0 <= ai,bi < N
 1 <= K <= N - 1
 
-```
+</pre>

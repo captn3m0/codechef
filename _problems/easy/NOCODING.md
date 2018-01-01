@@ -94,26 +94,17 @@ Assuming Chef writes the shortest code (with minimum instructions) to print the 
 
 ### Constraints
 
-```
-1 ≤ T ≤ 100
+<pre>1 ≤ T ≤ 100
 1 ≤ length of word ≤ 1000
 
-```
-### Sample Input
-
-```
-2
+</pre>### Sample Input
+<pre>2
 helloworld
 mississippi
 
-```
-### Sample Output
-
-```
-NO
+</pre>### Sample Output
+<pre>NO
 YES
 
-```
-### Explanation
-
+</pre>### Explanation
 The optimal program length for mississippi is 112 instructions and that is smaller than 121 (length of 'mississippi' \* 11)

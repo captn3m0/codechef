@@ -90,8 +90,7 @@ For each of the **Q** lines you must output the result for corresponding query i
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 12 6
 1 6
@@ -110,9 +109,7 @@ For each of the **Q** lines you must output the result for corresponding query i
 6
 
 
-```
-### Explanation
-
+</pre>### Explanation
 Numbers for each query: 
 {1,2,3,6} 
 {1,2} 

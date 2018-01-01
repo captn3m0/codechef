@@ -97,8 +97,7 @@ For each test case, you should output an integer, denoting the sum of the number
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 1
 2
@@ -107,4 +106,4 @@ For each test case, you should output an integer, denoting the sum of the number
 1
 3
 
-```
+</pre>

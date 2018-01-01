@@ -19,7 +19,7 @@ Clarification:
  j + x - 1<= n and A(i, j ... j + x - 1) are all 'X'
  and x2 = highest possible x such that
  j - x + 1 > 0 and A(i, j - x + 1...j) are all 'X'
-
+ 
  Similarily we can extend the definition for vertical and diagonal directions.
 
 ### Task
@@ -34,7 +34,7 @@ Given matrix A as input, calculate matrix B.
 ### Output
 
 Output n lines, each contains n integers, the j-th integer of the i-th line shows the value of B(i,j).
-**_(Each integer on a same line must be separated by exactly one space character)_**
+ **_(Each integer on a same line must be separated by exactly one space character)_**
 
 ### Example
 

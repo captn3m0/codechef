@@ -108,8 +108,7 @@ Output a single integer: the number of ways to reach the last layer from the ini
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4 2 2
 2 1 5 0
 0 0 4 0
@@ -117,7 +116,5 @@ Output a single integer: the number of ways to reach the last layer from the ini
 <b>Output:</b>
 19
 
-```
-### Explanation
-
+</pre>### Explanation
 Consider the graph without **2** edges added by Chef. There are **16** ways to get from the layer **\#0** to the layer **\#5**. Now recall added edges. There are **2** ways to get from the layer **\#0** to the layer **\#5** using the edge **2 1 5 0** (0, 0 -> 1, 0 -> 2, 1 -> 5, 0 and 0, 0 -> 1, 1 -> 2, 1 -> 5, 0) and also **1** way to do it using the edge **0 0 4 0** (0, 0 -> 4, 0 -> 5, 0). Note, that there is no path traversing both added edges.

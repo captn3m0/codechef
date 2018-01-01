@@ -25,8 +25,7 @@ For each test case output the number of ways for David to color the chain modulo
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 2 1
@@ -38,4 +37,4 @@ For each test case output the number of ways for David to color the chain modulo
 10
 132
 
-```
+</pre>

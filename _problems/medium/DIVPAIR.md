@@ -79,8 +79,7 @@ Output one line per testcase, the number of pairs **(a,b)** as described before.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 2 3
@@ -93,4 +92,4 @@ Output one line per testcase, the number of pairs **(a,b)** as described before.
 0
 
 
-```
+</pre>

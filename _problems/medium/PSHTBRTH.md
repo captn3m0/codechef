@@ -118,19 +118,18 @@ For each query of first type output a single line containing a string **"Pishty"
  Subtask 1 : 20 points
 
 - 1 ≤ N, M ≤ 10
-
+ 
  Subtask 2: 30 points
 
 - 1 ≤ N, M ≤ 1000
-
+ 
  Subtask 3 : 50 points
 
 - 1 ≤ N, M ≤ 105
-
+ 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>1
 3 6
 0110
@@ -166,4 +165,4 @@ Pishty
 Pishty
 Pishty</tt>
 
-```
+</pre>

@@ -108,8 +108,7 @@ For each query of the second type, print one integer as asked in the question.
 
 ### Example
 
-```
-
+<pre>
 <b>Sample Input</b>
 4
 1 0
@@ -126,9 +125,7 @@ For each query of the second type, print one integer as asked in the question.
 1
 1
 
-```
-### Example explanation
-
+</pre>### Example explanation
 In this sample, chef-**1** and chef-**2** have Chief Chef(chef-) as immediate superior and chef-**3** and chef-**4** have chef-**2** as immediate-superior.
 
 Immediate inferiors of the chefs are :

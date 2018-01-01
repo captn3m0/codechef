@@ -91,8 +91,7 @@ For each query output "Yes" or "No" (without quotess) in separate line.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4 2 3
 2 4
 2
@@ -104,9 +103,7 @@ Yes
 Yes
 No
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** 2 = 2
 
 **Example case 2.** 8 = 2 + 2 + 4

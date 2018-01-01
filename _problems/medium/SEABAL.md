@@ -96,8 +96,7 @@ For each test case, print **k** lines — the answers after every steps.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5 3
 1 1 1 1 1
 5 5
@@ -117,7 +116,5 @@ For each test case, print **k** lines — the answers after every steps.
 2
 3
 
-```
-**Update:**
-
+</pre>**Update:**
 You may assume that, y\[i\] <= n and k <= 100000

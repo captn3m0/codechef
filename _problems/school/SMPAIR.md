@@ -94,8 +94,7 @@ For each test case, output a single line containing a single integer - the small
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 4
 5 1 3 4
@@ -103,7 +102,5 @@ For each test case, output a single line containing a single integer - the small
 <b>Output:</b>
 4
 
-```
-### Explanation
-
+</pre>### Explanation
 Here we pick **a2** and **a3**. Their sum equals to 1 + 3 = 4.

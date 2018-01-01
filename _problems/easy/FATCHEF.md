@@ -104,8 +104,7 @@ The number of different complete fence colorings modulo 1000000009 for each case
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 
 3
@@ -122,4 +121,4 @@ B 6
 1
 4
 
-```
+</pre>

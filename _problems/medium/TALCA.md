@@ -102,8 +102,7 @@ For each query, write out the answer on a single line.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 1 2
 2 3
@@ -116,8 +115,6 @@ For each query, write out the answer on a single line.
 1
 2
 
-```
-### Explanation
-
+</pre>### Explanation
 - "1 4 2": if 1 is the root, it is parent of both 2 and 4 so LCA of 2 and 4 is 1.
 - "2 4 2": the root of the tree is at 2, according to the definition, LCA of any vertex with 2 is 2.

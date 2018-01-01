@@ -109,8 +109,7 @@ For each test case, output a single line containing “YES” (without quotes) i
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 3 3
 3 5
@@ -122,7 +121,5 @@ NO
 YES
 
 
-```
- **Explanation**
-
+</pre> **Explanation**
 The points **(0, 0)** and **(3, 3)** will be having trace of oil while point **(3, 5)** will not have any trace of oil because point **(3, 5)** does not lie on the trajectory of robot.

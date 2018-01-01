@@ -93,8 +93,7 @@ For each test case, output a single line containing the answer to the correspond
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 2 2 0
 2 2 1
@@ -105,9 +104,7 @@ For each test case, output a single line containing the answer to the correspond
 2
 1
 
-```
-### Notes
-
+</pre>### Notes
 XOR-sum of **n** integers **A\[1\], , , A\[n\]** will be **A\[1\] xor A\[2\] xor .. A\[n\]**. By xor, we mean [bit-wise xor](http://en.wikipedia.org/wiki/Bitwise_operation#XOR).
 
 ### Explanation

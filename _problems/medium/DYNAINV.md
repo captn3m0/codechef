@@ -97,8 +97,7 @@ Output **Q** lines. Output the number of inversions in the permutation (modulo 2
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5 1
 1 2 3 4 5
 2 3
@@ -106,4 +105,4 @@ Output **Q** lines. Output the number of inversions in the permutation (modulo 2
 <b>Output:</b>
 1
 
-```
+</pre>

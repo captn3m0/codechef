@@ -101,8 +101,7 @@ For each test case, output a single line containing answer for corresponding tes
 24. **1** ≤ **Bi** ≤ **109**
 ### Example
 
-```
-
+<pre>
 <b>Input</b>
 3
 1
@@ -122,7 +121,5 @@ For each test case, output a single line containing answer for corresponding tes
 
 
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** Game will have only 1 turn. Chef will choose 3, while Sasha will choose 4. Since 34>43 girl will kiss boy. Hence answer is 1.

@@ -108,8 +108,7 @@ For each test case, output a single line containing an integer corresponding to 
 
 ### Example
 
-```
-
+<pre>
 <b>Input</b>
 <tt>3
 3
@@ -121,9 +120,7 @@ For each test case, output a single line containing an integer corresponding to 
 2
 3</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 - **Test 1:** Chef can't form a triangle with height > 2 as it requires atleast 6 gold coins.
 - **Test 2:** Chef can't form a triangle with height > 2 as it requires atleast 6 gold coins.
 - **Test 3:** Chef can't form a triangle with height > 3 as it requires atleast 10 gold coins.

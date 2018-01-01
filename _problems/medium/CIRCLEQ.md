@@ -125,8 +125,7 @@ Output **Q** lines, the **i-th** line contains the total area covered by restaur
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2 4
 5 5 2
 2 2 1
@@ -141,4 +140,4 @@ Output **Q** lines, the **i-th** line contains the total area covered by restaur
 2.456739397217513
 0.000000000000000
 
-```
+</pre>

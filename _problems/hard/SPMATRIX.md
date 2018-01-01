@@ -81,27 +81,22 @@ All submissions for this problem are available.Let **N ≥ 3** be a fixed positi
 
 For example,
 
-```
-0 1 1
+<pre>0 1 1
 1 0 1
 1 1 0
 
-```is the only special matrix of order **3**.
-
+</pre>is the only special matrix of order **3**.
 The following matrices of order 3 are not special:
 
-```
-1 1 1    0 1 0    0 1 2
+<pre>1 1 1    0 1 0    0 1 2
 1 0 1    1 0 1    1 0 1
 1 1 0    1 1 0    2 1 0
 
-```The first one violates the first condition, the second one - the second condition, the third one - the third condition (as well as the fourth condition).
-
+</pre>The first one violates the first condition, the second one - the second condition, the third one - the third condition (as well as the fourth condition).
 It can be verified that there are **13** special matrices of order **4** in all.
  The full list of special matrices of order **4** looks as follows:/>
 
-```
-0 1 2 2    0 2 1 2    0 2 2 2    0 1 1 2    0 2 2 1    0 2 2 1    0 2 2 2
+<pre>0 1 2 2    0 2 1 2    0 2 2 2    0 1 1 2    0 2 2 1    0 2 2 1    0 2 2 2
 1 0 2 2    2 0 2 2    2 0 1 2    1 0 1 2    2 0 2 2    2 0 1 2    2 0 2 1
 2 2 0 2    1 2 0 2    2 1 0 2    1 1 0 2    2 2 0 2    2 1 0 2    2 2 0 2
 2 2 2 0    2 2 2 0    2 2 2 0    2 2 2 0    1 2 2 0    1 2 2 0    2 1 2 0
@@ -111,8 +106,7 @@ It can be verified that there are **13** special matrices of order **4** in all.
 1 2 0 2    2 2 0 2    2 2 0 1    2 2 0 1    1 2 0 1    2 1 0 1
 2 1 2 0    1 1 2 0    2 2 1 0    2 2 1 0    1 2 1 0    2 1 1 0
 
-```Your task is simple. For the given **N** count overall number of special matrices of order **N**.
- Since the answer could be extremely large output it modulo **109 + 7 = 1000000007**./>
+</pre>Your task is simple. For the given **N** count overall number of special matrices of order **N**. Since the answer could be extremely large output it modulo **109 + 7 = 1000000007**./>
 
 ### Input
 
@@ -131,8 +125,7 @@ For each test case output the overall number of special matrices of order **N** 
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 3
@@ -144,7 +137,5 @@ For each test case output the overall number of special matrices of order **N** 
 13
 719666144
 
-```
-### Explanation
-
+</pre>### Explanation
 Example cases 1 and 2 are explained above.

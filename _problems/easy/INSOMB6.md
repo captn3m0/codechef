@@ -35,8 +35,7 @@ Line 1: Yes/No.
 
 **Sample Input:**
 
-```
-
+<pre>
 4
 Divye
 Rohit
@@ -51,13 +50,10 @@ Chevrolet
 2 Scorpio Chevrolet
 1 Ford
 
-```
-
-
+</pre>
 **Sample Output:**/>
 
-```
-
+<pre>
 No
 
-```
+</pre>

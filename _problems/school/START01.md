@@ -41,15 +41,11 @@ Output the answer in a single line.
 
 ### Sample Input
 
-```
-
+<pre>
 123
 
-```
-### Sample Output
-
-```
-
+</pre>### Sample Output
+<pre>
 123
 
-```
+</pre>

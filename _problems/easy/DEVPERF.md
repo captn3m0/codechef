@@ -104,8 +104,7 @@ For each test case, output a single integer corresponding to the answer of the p
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 2 2
 <font face="monospace">*.</font>
@@ -119,9 +118,7 @@ For each test case, output a single integer corresponding to the answer of the p
 1
 2
 
-```
-### Explanation
-
+</pre>### Explanation
 **In the first example**, it will take Devu one second for putting the perfume at the only house. So, the answer is 1.
 
 **In the second example**, He will first put the perfume at the \* at cell (1, 1) (assuming 0-based indexing).

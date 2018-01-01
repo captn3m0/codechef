@@ -90,7 +90,7 @@ Each of the following **T** lines contain **2** space-separated integers - **N**
 As the answer can be very large, we ask you to output its hash which is computed in the following way:
 
 Let's consider the integer answer **Y** as a 0-indexed array starting from its leftmost digit. The hash function is calculated as:
-**p0\*Y\[0\] + p1\*Y\[1\] + ... + pM-1\*Y\[M-1\] modulo 109 + 7** 
+ **p0\*Y\[0\] + p1\*Y\[1\] + ... + pM-1\*Y\[M-1\] modulo 109 + 7** 
 where **M** is the length of the array representation of **Y** and **p** equals **23**.
 
 ### Constraints
@@ -104,8 +104,7 @@ where **M** is the length of the array representation of **Y** and **p** equals 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>3
 1 4
 3 6
@@ -117,7 +116,5 @@ where **M** is the length of the array representation of **Y** and **p** equals 
 32745632</tt>
 
 
-```
-### Explanation
-
+</pre>### Explanation
 In the first test case, **X = 4** and **Y = 16**. Its hash equals **1\*1 + 23\*6 = 139**.

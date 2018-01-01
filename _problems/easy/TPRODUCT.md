@@ -26,8 +26,7 @@ For each test case, output on a line an integer which is the respective value of
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 1 2 3
@@ -40,9 +39,7 @@ For each test case, output on a line an integer which is the respective value of
 105
 
 
-```
-Explanation:
-The second test case is constructed as follows: ```
+</pre>Explanation:The second test case is constructed as follows: ```
 
      3
     / \
@@ -51,4 +48,4 @@ The second test case is constructed as follows: ```
  / \   / \
 2   6 4   7
 
-```
+<pre>

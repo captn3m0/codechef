@@ -96,8 +96,7 @@ The sum of values of **N** in each test file does not exceed **100000**
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 3
@@ -110,9 +109,7 @@ The sum of values of **N** in each test file does not exceed **100000**
 -1
 
 
-```
-### Explanation
-
+</pre>### Explanation
 **Case 1.** Clearly 2 is a divisor of each of the numbers 2, 4 and 8. Since 2 is the least number greater than 1 then it is the answer.
 
 **Case 2.** Let's perform check for several first values of **x**.

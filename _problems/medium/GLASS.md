@@ -34,22 +34,17 @@ It is always possible to construct volume 0.
 8 1 10
 
 
-```
-###  Sample Output 
-
-```
-
+<pre>###  Sample Output 
+</pre>
 7
 1 1
 
-```
-###  Constraints 
-
+<pre>###  Constraints 
 1 < n ≤ 10 
-1 ≤ xi ≤ 107
+1 ≤ xi ≤ 107 
 MIN(xi) ≤ 100000 
 1 ≤ Q ≤ 1000000 
-1 ≤ a,c ≤ 1012
+1 ≤ a,c ≤ 1012 
 0 ≤ b ≤ 1012
 
  

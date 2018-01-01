@@ -99,8 +99,7 @@ For each test case, output a single line containing either "Dee" if Twedle-Dee w
 
 ### Example
 
-```
-<b>Input:</b><tt>
+<pre><b>Input:</b><tt>
 1
 2 Dee
 2 2
@@ -108,7 +107,5 @@ For each test case, output a single line containing either "Dee" if Twedle-Dee w
 <b>Output:</b><tt>
 Dum</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 Tweedle-Dee takes two stones from any of the heaps leaving just one non empty heap, next Tweedle-Dum takes one stone and the game finishes.

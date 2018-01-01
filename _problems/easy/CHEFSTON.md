@@ -108,8 +108,7 @@ Please help Chef to find the maximal possible profit.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 3 10
 3 4 5
@@ -118,9 +117,7 @@ Please help Chef to find the maximal possible profit.
 <b>Output:</b>
 12
 
-```
-### Explanation
-
+</pre>### Explanation
 If Chef picks stones of first kind he can pick **3** stones, he will get a profit of **3\*4 = 12** Rs. 
 If Chef picks stones of second kind he can pick **2** stones, he will get a profit of **2\*4 = 8** Rs. 
 If Chef picks stones of third kind he can pick **2** stones, he will get a profit of **2\*5 = 10** Rs.

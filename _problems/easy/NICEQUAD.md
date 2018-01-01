@@ -38,8 +38,7 @@ For each test case print the number of nice quadrangles that can be formed using
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 1
 6
@@ -54,4 +53,4 @@ For each test case print the number of nice quadrangles that can be formed using
 2
 
 
-```
+</pre>

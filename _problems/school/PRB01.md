@@ -86,8 +86,7 @@ For each test case output in a separate line, "yes" if the number is prime else 
 1<=N<=10000
 1<=M<=10000
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5
 23
 13
@@ -102,4 +101,4 @@ no
 no
 yes
 
-```
+</pre>

@@ -94,28 +94,22 @@ For each test case, output a single line containing "YES" (quotes for clarity) i
 **Input:**
 />
 
-```
-
+<pre>
 3
 alex axle
 paradise diapers
 alice bob
 
 
-```
-**Output:**
-/>
+</pre>**Output:**/>
 
-```
-
+<pre>
 YES
 NO
 YES
 
 
-```
-**Explanation:**
-/>
+</pre>**Explanation:**/>
 
 Example case 1: Chef declared them as granama recipes. They are actually granama because the sets of ingredients and the number of times each ingredient has been used are equal. The Chef got it right!
 

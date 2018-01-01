@@ -101,8 +101,7 @@ For each test case, output a single line corresponding to answer of the test cas
 
 ### Example
 
-```
-<b>Input</b>
+<pre><b>Input</b>
 2
 1 5
 6 10
@@ -111,9 +110,7 @@ For each test case, output a single line corresponding to answer of the test cas
 6
 30
 
-```
-### Explanation
-
+</pre>### Explanation
 - Following number in the range 1 to 10 are square free numbers : 1, 2, 3, 5, 6, 7, 10.
 - Sum of their divisors will be 1, 3, 4, 6, 12, 8, 18 respectively.
 - Number of prime divisors of their sum of divisors will be 0, 1, 1, 2, 2, 1, 2 respectively.

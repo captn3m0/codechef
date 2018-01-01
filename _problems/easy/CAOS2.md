@@ -116,8 +116,7 @@ For each test case, output a single line containing the number of monsters the m
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 3 10
 #^^^^^#^##
@@ -136,4 +135,4 @@ For each test case, output a single line containing the number of monsters the m
 0
 3
 
-```
+</pre>

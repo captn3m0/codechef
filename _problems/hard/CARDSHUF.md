@@ -36,8 +36,7 @@ In a single line output the cards in the deck after performing all the moves. Ca
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 10 2
 6 2 2
@@ -46,4 +45,4 @@ In a single line output the cards in the deck after performing all the moves. Ca
 <b>Output:</b>
 1 2 8 7 3 9 6 5 4 10
 
-```
+</pre>

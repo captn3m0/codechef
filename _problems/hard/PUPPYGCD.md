@@ -98,15 +98,12 @@ For each test case, output a single line containing the answer for this test cas
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 12 3
 
 <b>Output:</b>
 6
 
-```
-### Explanation
-
+</pre>### Explanation
 6 such pairs: (3, 3), (3, 6), (3, 9), (3, 12), (6, 9), and (9, 12).

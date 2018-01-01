@@ -102,8 +102,7 @@ For each query, output the number of guilds after the execution.
 
 ### Example
 
-```
-<b>Input:</b><tt>
+<pre><b>Input:</b><tt>
 9 3
 2 8 4 3 9 9 8 3 3
 1 6
@@ -115,9 +114,7 @@ For each query, output the number of guilds after the execution.
 2
 3</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 Initially there is just one guild.
 
 After the executions of the first query the guilds will be **{ {1, 2}, {3, 4}, {5},{6} }**.

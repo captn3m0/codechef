@@ -101,8 +101,7 @@ Output **Q** lines, one for each query. The **jth** line must contain a single i
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>7 7 5
 1 2 36
 2 4 16
@@ -124,7 +123,5 @@ Output **Q** lines, one for each query. The **jth** line must contain a single i
 0
 XIT</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 The sample input is illustrated by the image above.

@@ -86,8 +86,7 @@ For each test case output a single one line containing number of such permutatio
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 4 5
 5 8
@@ -95,7 +94,5 @@ For each test case output a single one line containing number of such permutatio
 4
 72
 
-```
-### Explanation
-
+</pre>### Explanation
 For the 1st case all permutations are: {2,3,1,4}, {3,2,1,4}, {4,1,2,3} and {4,1,3,2}.

@@ -102,8 +102,7 @@ For each test case, output a single line containing the answer — "YES" if Lima
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 7
 cookie milk milk cookie milk cookie milk
@@ -119,9 +118,7 @@ YES
 NO
 YES
 NO
-```
-### Explanation
-
+</pre>### Explanation
 **Test case 1.** Limak is in the kitchen for 7 minutes. He eats three cookies and after each of them he indeed drinks milk in the next minute. The answer is "YES".
 
 **Test case 2.** Limak is in the kitchen for 5 minutes. In the first minute he eats a cookie and in the second minute he eats a cookie again, instead of drinking milk. The answer is "NO".

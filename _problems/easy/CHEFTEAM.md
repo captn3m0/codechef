@@ -23,8 +23,7 @@ Chef has **N** subordinates. In order to complete a very important order he will
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 2 1
@@ -36,4 +35,4 @@ Chef has **N** subordinates. In order to complete a very important order he will
 1
 252
 
-```
+</pre>

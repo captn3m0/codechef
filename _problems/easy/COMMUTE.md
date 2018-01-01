@@ -33,8 +33,7 @@ For each test case you are to output a single integer denoting the minimum time 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 2
 0 4 7
@@ -52,4 +51,4 @@ For each test case you are to output a single integer denoting the minimum time 
 8
 5
 
-```
+</pre>

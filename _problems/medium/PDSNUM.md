@@ -81,8 +81,7 @@ For each test case, output on a line the respective PDS(N) calculated.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 1
 20
@@ -92,4 +91,4 @@ For each test case, output on a line the respective PDS(N) calculated.
 1
 66
 
-```
+</pre>

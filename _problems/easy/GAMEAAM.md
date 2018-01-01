@@ -91,8 +91,7 @@ For each test case, output a single line containing "YES" if the first player ca
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 1
 2 3
@@ -109,9 +108,7 @@ NO
 YES
 
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** The first player don't have any choice other subtracting 2 from 3. So during the turn of the second player integer pair will be (2,1). The second player will win by subtracting 1 from 2.
 
 **Example case 2.** If the first player choose to move (4,5) to (4,1) the second player will make it to (1,1). If the first player choose to move (5,6) to (5,1) the second player will make it to (1,1). So regardless of the move of the first player, the second will always win.

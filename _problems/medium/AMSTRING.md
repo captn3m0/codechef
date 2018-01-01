@@ -94,8 +94,7 @@ For each test case, output an integer, denoting the number of fours **(LA, RA, L
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 3 2
 aba
@@ -112,9 +111,7 @@ a
 13
 1
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1**: There are **14** fours as following:
 **(1, 1, 1, 1) : dist(A\[1, 1\], B\[1, 1\]) = dist(a, a) = 0 ≤ 2**
 **(1, 1, 2, 2) : dist(A\[1, 1\], B\[2, 2\]) = dist(a, b) = 1 ≤ 2**

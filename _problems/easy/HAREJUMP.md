@@ -23,8 +23,7 @@ Print T integers each denoting the number of ways the rabbit can perform jumps o
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 10
 1 1
@@ -40,4 +39,4 @@ Print T integers each denoting the number of ways the rabbit can perform jumps o
 415
 13624
 
-```
+</pre>

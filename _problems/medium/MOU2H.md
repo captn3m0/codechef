@@ -76,15 +76,12 @@ By your great helps, Chef could find to the best place to build a restaurant, no
 
 For example, the mountain described by **N = 9, H = \[0, 2, 1, 2, 1, 3, 0, 1, 0\]**  is like a following:
 
-```
-
+<pre>
        /\
   /\/\/  \
  /        \/\
 
-```
- In the mountain, all of the tourists will go from the point **1** to point **N**.
-
+</pre> In the mountain, all of the tourists will go from the point **1** to point **N**.
 For comfort of the tourists, Chef has bought teleports too. Using a teleport, a tourist can be transferred from point **i** to point **j**, for all **i** < **j**. Of course, tourists can also walk from point **i** to point **i+1** on foot.
 
 Now Chef wants to calculate the attractiveness of the mountain, as the number of the different climbs.
@@ -118,8 +115,7 @@ For each test case, output an integer denoting the number of the different climb
 
 ### Sample
 
-```
-
+<pre>
 <b>Input</b>
 3
 6
@@ -134,9 +130,7 @@ For each test case, output an integer denoting the number of the different climb
 199
 55
 
-```
-### Explanation
-
+</pre>### Explanation
 In the first test case, since height increases by one for each move on foot, there will be one unique climb for each length. So there are **5** climbs with length **1, 2, ..., 5**. Here length means the number of moves by foot.
 
 We can get the following **5** distinct climbs.

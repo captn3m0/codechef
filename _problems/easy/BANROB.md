@@ -107,8 +107,7 @@ For each test case, output a single line containing two space-separated doubles 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 1 0.5
 2 0.5
@@ -116,7 +115,5 @@ For each test case, output a single line containing two space-separated doubles 
 1000000000.0 0.0
 500000000.0 500000000.0
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** In the second case, if decision isn't made at **t = 0**, total amount of money decreases to 5\*108 at **t = 1** which leads to a situation worse than the given solution.

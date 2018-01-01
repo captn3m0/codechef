@@ -98,8 +98,7 @@ For each test case, output a single line containing the number of houses which a
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 4 7 8
 12 52 56 8
@@ -113,9 +112,7 @@ For each test case, output a single line containing the number of houses which a
 18
 9
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example 1 :** Cops in house 12 can cover houses 1 to 68, and cops in house 52 can cover the rest of the houses. So, there is no safe house.
 
 **Example 2 :** Cops in house 21 can cover houses 1 to 41, and cops in house 75 can cover houses 55 to 95, leaving houses numbered 42 to 54, and 96 to 100 safe. So, in total 18 houses are safe.

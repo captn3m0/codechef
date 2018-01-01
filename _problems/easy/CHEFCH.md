@@ -98,8 +98,7 @@ Chef had a hard day and want to play little bit. The game is called "Chain". Che
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 ---+-+-+++
 -------
@@ -107,9 +106,7 @@ Chef had a hard day and want to play little bit. The game is called "Chain". Che
 2
 3
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.**
 
 We can change symbol **2** from '**-**' to '**+**' and symbol **9** from '**+**' to '**-**' and receive '**-+-+-+-+-+**'.

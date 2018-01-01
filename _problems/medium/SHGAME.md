@@ -86,8 +86,7 @@ For each test case, output a single line containing the number of ways to choose
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 5 8
 6 7
@@ -96,9 +95,7 @@ For each test case, output a single line containing the number of ways to choose
 40
 42
 
-```
-### Scoring
-
+</pre>### Scoring
 **T** = 100, 1 <= **N**, **M** <= 10 : 25 points.
 
 **T** = 100, 1 <= **N**, **M** <= 1000 : 36 points.

@@ -31,8 +31,7 @@ For each test case output a single line with the word 'Yes' if there is a subset
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5
 3 3
 1
@@ -85,5 +84,4 @@ Yes
 No
 Yes
 
-```
-**Explanation:** For example, in the last case you have to pay up, since: 6+3+123=132.
+</pre>**Explanation:** For example, in the last case you have to pay up, since: 6+3+123=132.

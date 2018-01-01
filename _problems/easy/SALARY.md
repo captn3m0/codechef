@@ -86,8 +86,7 @@ For each test case, output a single line containing the minimum number of operat
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 3
@@ -99,9 +98,7 @@ For each test case, output a single line containing the minimum number of operat
 3
 0
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example Case 1.** Chief can equalize all salaries in 3 turns:
 
 Turn IDIDs of involved workersSalaries after the move1 1 2 2 3 32 1 2 3 4 33 1 3 4 4 4**Example Case 2.** All salaries are already equal. He doesn't need to do anything.

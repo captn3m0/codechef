@@ -39,8 +39,7 @@ Line 1: The disorderliness index of the street.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 6
 1 2 4 5 3 6
@@ -49,4 +48,4 @@ Line 1: The disorderliness index of the street.
 <b>Output:</b>
 2
 
-```
+</pre>

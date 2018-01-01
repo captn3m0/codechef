@@ -95,8 +95,7 @@ For each test case, output a single line containing one integer: the answer for 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 7 0 abacaba
 7 1 abacaba
@@ -105,9 +104,7 @@ For each test case, output a single line containing one integer: the answer for 
 28
 56
 
-```
-### Explanation
-
+</pre>### Explanation
 **Test case 1:**
  There are:
 

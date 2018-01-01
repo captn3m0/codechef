@@ -103,8 +103,7 @@ For each test case, output a single line containing the **maximum K-product** of
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>4
 4 2
 5 -3 -4 6
@@ -121,9 +120,7 @@ For each test case, output a single line containing the **maximum K-product** of
 999999937
 1000000006</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** The maximum 2-product of the array **\[5, -3, -4, 6\]** is **30** and is achieved by the subsequence **\[5, 6\]**.
 
 **Example case 2.** The maximum 2-product of the array **\[-5, 3, 4, -6\]** is **30** and is achieved by the subsequence **\[-5, -6\]**.

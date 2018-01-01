@@ -97,8 +97,7 @@ Help Chef to define the coordinate of the point he will put on the **K**-th step
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 10 1
 10 2
@@ -110,7 +109,5 @@ Help Chef to define the coordinate of the point he will put on the **K**-th step
 7.5000
 177375316.6198730500000000
 
-```
-### Explanation
-
+</pre>### Explanation
 You can see the points coordinates for the third sample from first two samples.

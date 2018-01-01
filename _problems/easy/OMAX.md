@@ -28,8 +28,7 @@ For each test case, output on a line an integer which is the respective maximal 
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3 3
 1 1 1
@@ -45,4 +44,4 @@ For each test case, output on a line an integer which is the respective maximal 
 6
 19
 
-```
+</pre>

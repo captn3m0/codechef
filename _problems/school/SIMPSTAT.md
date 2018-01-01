@@ -106,8 +106,7 @@ Your answer will be considered correct, in case it has absolute or relative erro
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 5 1
 2 9 -10 25 1
@@ -121,9 +120,7 @@ Your answer will be considered correct, in case it has absolute or relative erro
 5.400000
 1.000000
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** After removing **1** greatest and **1** lowest measurement, we get the set **{2, 9, 1}**. The average value in this set is **(2+9+1)/3=4**.
 
 **Example case 2.** The average value in the set **{2, 9, -10, 25, 1}** is **(2+9-10+25+1)/5=5.4**.

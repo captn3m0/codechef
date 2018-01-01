@@ -86,8 +86,7 @@ Output the number of different good trees. As the result may be very large, just
 
 ### Example
 
-```
-
+<pre>
 <b>Input 1:</b>
 2 2
 
@@ -107,4 +106,4 @@ Output the number of different good trees. As the result may be very large, just
 16
 
 
-```
+</pre>

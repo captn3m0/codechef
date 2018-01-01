@@ -94,8 +94,7 @@ For each test case, print the answer in one line.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 3
@@ -108,4 +107,4 @@ For each test case, print the answer in one line.
 5
 
 
-```
+</pre>

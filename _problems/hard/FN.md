@@ -108,8 +108,7 @@ For each test case, output a single line containing one integer indicates the sm
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 0 11
 16 19
@@ -133,4 +132,4 @@ F_n(mod 19)
 </p>
 
 
-```
+</pre>

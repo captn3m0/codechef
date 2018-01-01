@@ -34,18 +34,14 @@ For each test case, output a single line consisting the number of different ways
 
 **Input:**
 
-```
-4
+<pre>4
 1 1 1
 2 2 2
 4 3 2
 5 7 3
-```
-**Output:**
-
-```
-1
+</pre>**Output:**
+<pre>1
 4
 45
 5887
-```
+</pre>

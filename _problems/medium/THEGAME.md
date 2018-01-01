@@ -112,8 +112,7 @@ For each test case, output a single line containing one real number: the expecte
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 3 3
 o#o
@@ -128,7 +127,5 @@ oo
 1.000000000
 
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** With 5/6 chance, the first click you'll make will be on the only path from the start to the goal. With 1/6 chance, you'll click on the top right cell before that. The expected number of clicks is therefore 5/6\*1+1/6\*2.

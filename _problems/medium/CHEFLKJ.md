@@ -102,8 +102,7 @@ For each query of **type 2**, output the answer to the query in a single line.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5 8
 1 2 3 2 1
 2 1 5
@@ -122,9 +121,7 @@ Yes
 No
 Yes
 
-```
-### Explanation
-
+</pre>### Explanation
 For first query, we have to tell whether the entire array **A** is dominating or not. It turns out that it is not dominating, because occurrences of 1 and 2 are equal to 2 (which is not more than half the size of array, i.e. 2) and that of 3 is 1.
 
 For second query, the subarray **\[2, 3, 2\]** is dominating and 2 is the dominator of it. Number of occurrences of 2 is 2 which is strictly greater than half the size of subarray, i.e. **floor(3/2) = 1**.

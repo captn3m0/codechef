@@ -93,8 +93,7 @@ Next line contains 2 integer **source** and **sink**.
 
 For each test case, print the shortest walk satisfying the property. If no such walk exists then print "No Solution".
 
-```
-
+<pre>
 <h3>Constraints</h3>
 1 ≤ Sum of <b>N</b> over all test cases ≤ 100000 
 1 ≤ Sum of <b>M</b> over all test cases ≤ 500000 
@@ -139,5 +138,4 @@ No Solution
 For First Test Case: Shortest Valid Walk: 4->1->2->3  
 For Second Test Case: There is no valid Walk satisfying the constraints.
 
-```
-**Warning: Large Input files, some files are upto 10 MB**
+</pre>**Warning: Large Input files, some files are upto 10 MB**

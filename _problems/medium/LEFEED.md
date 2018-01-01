@@ -94,8 +94,7 @@ The output values will be considered as correct if and only if they have the abs
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 2 2
 0 0
@@ -106,9 +105,7 @@ The output values will be considered as correct if and only if they have the abs
 1.500000000
 2.285714286
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1**: There are **4** possibilities (with equal probability) of the serving as follows.
 **1 1** : maximal number of consecutive seats with the same type = **2**
 **1 2** : maximal number of consecutive seats with the same type = **1**

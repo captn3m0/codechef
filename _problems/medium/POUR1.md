@@ -37,8 +37,7 @@ For each set of input data, output the minimum number of steps required to obtai
 
 Sample input:
 
-```
-2
+<pre>2
 5
 2
 3
@@ -46,12 +45,9 @@ Sample input:
 3
 4
 
-```
-Sample output:
-
-```
-
+</pre>Sample output:
+<pre>
 2
 -1
 
-```
+</pre>

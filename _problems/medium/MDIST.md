@@ -110,8 +110,7 @@ For each query, print a single integer representing the answer of that query.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 10 10
 10 20
@@ -124,9 +123,7 @@ Q 0 3
 <b>Output:</b>
 20
 
-```
-### Explanation
-
+</pre>### Explanation
 After first updates points will be:
 
 10 10

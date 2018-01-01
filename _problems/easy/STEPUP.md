@@ -33,8 +33,7 @@ For each testcase output the maximum value m or "IMPOSSIBLE" if no assignment is
 
 ### SAMPLE INPUT
 
-```
-
+<pre>
 2
 2 2
 1 2
@@ -43,29 +42,20 @@ For each testcase output the maximum value m or "IMPOSSIBLE" if no assignment is
 1 2
 1 3
 
-```
-### SAMPLE OUTPUT
-
-```
-
+</pre>### SAMPLE OUTPUT
+<pre>
 IMPOSSIBLE
 2
 
-```
-### CONSTRAINTS
-
-```
-
+</pre>### CONSTRAINTS
+<pre>
 t <= 20
 N <= 10000
 M <= 20000
 1 <= a,b <= N
 
-```
-### EXPLANATION
-
-```
-
+</pre>### EXPLANATION
+<pre>
 A feasible assignment for the second testcase is: 
 
 Vertex	             Number
@@ -75,4 +65,4 @@ Vertex	             Number
 
 So the maximum value is 2
 
-```
+</pre>

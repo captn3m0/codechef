@@ -97,8 +97,7 @@ For each query of each test case print the required number of connected componen
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 3 5 4
 1 3
@@ -120,4 +119,4 @@ For each query of each test case print the required number of connected componen
 1
 1
 
-```
+</pre>

@@ -15,8 +15,7 @@ Your task is to write a program which computes exactly the same result as Chef's
 
 **C++**
 
-```
-#include <iostream>
+<pre>#include <iostream>
 #include <string>
 using namespace std;
 
@@ -46,11 +45,8 @@ int main() {
 	return 0;
 }
 
-```
-**Java**
-
-```
-import java.util.Scanner;
+</pre>**Java**
+<pre>import java.util.Scanner;
 
 public class Main {
 
@@ -82,11 +78,8 @@ public class Main {
 	}
 }
 
-```
-**Python**
-
-```
-a = raw_input()
+</pre>**Python**
+<pre>a = raw_input()
 na = len(a)
 b = raw_input()
 nb = len(b)
@@ -103,17 +96,14 @@ for i in range(nb):
 		if (f and d <= 2): r = (r + j*j) % 1000000007
 print r
 
-```
-### Input
-
+</pre>### Input
 The strings A, B and C are provided in a compressed form to keep the input small enough. Sequence 00000 is encoded with letter 'a', 00001 with 'b' and so on until 'z'. 11010 is represented by 'A' and 11111 by 'F'.
 
 The input consists of three lines of letters a-z, A-F. First line contains at most 200 characters and the second one at most 2 000 000. Third line has the same length as the first line and will contain at most 40 digits 1 when decompressed.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 aBFn
 ygFBg
 bbdb
@@ -121,7 +111,5 @@ bbdb
 <b>Output:</b>
 2990
 
-```
-### Explanation
-
+</pre>### Explanation
 After decompression we get strings 00000110111111101101, 1100000110111111101100110 and 00001000010001100001. If we run chef's program with this decompressed input, we will get 2990 as a result.

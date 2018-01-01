@@ -84,7 +84,7 @@ First line of the input contains an integer **T** denoting the number of test ca
 The description of **N** polygons is as follows:
 
 - The first line contains an integer **Mi** denoting the number of vertices in the **ith** polygon
-- The second line contains **Mi** pairs of integers **Xi, j, Yi, j** representing coordinates of vertices of **ith** polygon in clockwise or counterclockwise order
+- The second line contains **Mi** pairs of integers **Xi, j, Yi, j** representing coordinates of vertices of **ith**  polygon in clockwise or counterclockwise order
 
 ### Output
 
@@ -119,8 +119,7 @@ For each test case, output a single line containing **N** space-separated intege
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 3
 6
@@ -132,9 +131,7 @@ For each test case, output a single line containing **N** space-separated intege
 <b>Output:</b>
 1 0 2
 
-```
-### Explanation
-
+</pre>### Explanation
 In the picture the first polygon is marked in green, second - in red and third in blue color.
 
 ![explanation](http://www.codechef.com/download/JUNE15/CHPLGNS.jpg)

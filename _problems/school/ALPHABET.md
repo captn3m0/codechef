@@ -106,8 +106,7 @@ For each of the words, output "Yes" (without quotes) in case Jeff can read it, a
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>act
 2
 cat
@@ -117,9 +116,7 @@ dog</tt>
 <tt>Yes
 No</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 The first word can be read.
 
 The second word contains the letters d, o and g that aren't known by Jeff.

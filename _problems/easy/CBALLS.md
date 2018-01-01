@@ -97,8 +97,7 @@ For each test case, output a line containing a single integer — the answer for
 
 - **1 ≤ T ≤ 10, 1 ≤ N ≤ 10000, 1 ≤ number of balls in a bucket ≤ 10000**
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 3
 11 13 15
@@ -106,7 +105,5 @@ For each test case, output a line containing a single integer — the answer for
 <b>Output:</b>
 3
 
-```
-### Explanation
-
+</pre>### Explanation
 Add one ball to each of the buckets.

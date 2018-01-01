@@ -23,7 +23,7 @@ R2={ (x,y) : x and y belong to B **and** x is not a subset of y **and** y is not
 
 Now given the number N,Professor Eric wants to know how many relations of kind R1 and R2 exists.Help him. 
 
-**NOTE :** (x,y) is the same as (y,x) ,i.e the pairs are **unordered**.
+ **NOTE :** (x,y) is the same as (y,x) ,i.e the pairs are **unordered**.
 
 ### Input format:
 
@@ -35,8 +35,7 @@ Output T lines, one for each test case,containing two integers denoting the numb
 
 ### Example
 
-```
-
+<pre>
 <b>Sample Input:</b>
 3
 1
@@ -57,4 +56,4 @@ So R1=Either {({1},{2})} or {({2},{1})}
 and R2=No relation exists
 So,there is 1 relation of kind R1 and 0 relation of kind R2.
 
-```
+</pre>

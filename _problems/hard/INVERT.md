@@ -106,14 +106,13 @@ After each of the Devu's move, report the required answer for Churu.
 
 - **subtask 1:** 1 ≤ N, Q ≤ 2000 **( 30 pts )**, TL = 1 sec
 - **subtask 2:** 1 ≤ N, Q ≤ 105, K = |B|+1 where |B| denotes the current size of array B **( 30 pts )**
-- **subtask 3:** 1 ≤ N, Q ≤ 105**( 40 pts )**
+- **subtask 3:** 1 ≤ N, Q ≤ 105 **( 40 pts )**
 
 ### Example
 
 **Input**
 
-```
-
+<pre>
 5 4
 4 3 2 5 1
 1 2 1
@@ -121,19 +120,14 @@ After each of the Devu's move, report the required answer for Churu.
 2 2 3
 1 1 2
 
-```
-**Input**
-
-```
-
+</pre>**Input**
+<pre>
 1
 2
 3
 5
 
-```
-### Explanation
-
+</pre>### Explanation
 - After Q1, **A** = {2, 5, 1}, **B** = {4, 3}. Therefore, inversion count in **B** is 1.
 - After Q2, **A** = {2, 5}, **B** = {4, 1, 3}. Therefore, inversion count in **B** is 2.
 - After Q3, **A** = {2}, **B** = {4, 1, 5, 3}. Therefore, inversion count in **B** is 3.

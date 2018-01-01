@@ -84,8 +84,7 @@ Display the smallest number of notes that will combine to give **N**.
 
 ### Example
 
-```
-
+<pre>
 <b>Input</b>
 3 
 1200
@@ -97,4 +96,4 @@ Display the smallest number of notes that will combine to give **N**.
 5
 7
 
-```
+</pre>

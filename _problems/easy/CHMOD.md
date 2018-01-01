@@ -89,8 +89,7 @@ For each game, output a single line containing the answer for the respective seg
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 5
 1 2 3 4 5
@@ -107,4 +106,4 @@ For each game, output a single line containing the answer for the respective seg
 120
 
 
-```
+</pre>

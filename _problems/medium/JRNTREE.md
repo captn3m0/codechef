@@ -107,8 +107,7 @@ Output the total number of possible trips Sergey could have done, which do not c
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>5
 1 0 0 0 0
 1 2
@@ -119,9 +118,7 @@ Output the total number of possible trips Sergey could have done, which do not c
 <b>Output:</b>
 <tt>4</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 Sergey could have obtained the following sequences:
 
 - 1 2 3 4 5: 1 -> 2 -> 1 -> 3 -> 4 -> 3 -> 5 -> 3 -> 1.

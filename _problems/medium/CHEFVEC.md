@@ -50,8 +50,7 @@ Output a single line containing a single integer — the answer to Chef's proble
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 <tt>2
 0 22
@@ -61,7 +60,5 @@ Output a single line containing a single integer — the answer to Chef's proble
 <tt>6
 </tt>
 
-```
-### Explanation:
-
+</pre>### Explanation:
 There are 6 such vectors: (17, 30), (18, 29), (19, 28), (20, 27), (21, 26), (22, 25).

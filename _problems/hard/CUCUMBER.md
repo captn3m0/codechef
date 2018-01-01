@@ -117,8 +117,7 @@ The size of one input file does not exceed **1.5 megabytes = 1,572,864 bytes**.
 
 ### Sample
 
-```
-
+<pre>
 <b>Input:</b>
 3
 3 3
@@ -171,9 +170,7 @@ raw
 5
 1
 
-```
-### Explanation
-
+</pre>### Explanation
 In the first sample case, Cucumber Boy's objective will be accomplished if and only if he selects buildings **(i1, i2) = (1, 2)**. Let's call the pizza of the shop **x** of the building **1** collaborated with the shop **y** of the building **2** as pizza **(x, y)**. Then
 the price of the pizza **(1, 1)** is **82\*19+51\*84+44\*64 = 8658**,
 the price of the pizza **(1, 2)** is **82\*17+51\*43+44\*44 = 5523**,

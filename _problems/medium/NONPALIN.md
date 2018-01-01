@@ -16,7 +16,7 @@ For the given string **S** of length **N** you need to find for each **L** from 
  **100007N - 1 \* K(1) + 100007N - 2 \* K(2) + ... + 100007 \* K(N - 1) + K(N)**  
  modulo **264**. 
 
-**Remark.** The string is called a palindrome if it coincides with its reverse. So **abacaba** and **abba** are palindromes but **codechef** and **abbc** are not. ### Input
+ **Remark.** The string is called a palindrome if it coincides with its reverse. So **abacaba** and **abba** are palindromes but **codechef** and **abbc** are not. ### Input
 
 The first line contains a single integer **T**, the number of test cases. **T** test cases follow. The only line of each test case contains a non-empty string composed only of lowercase letters of the English alphabet.
 
@@ -31,8 +31,7 @@ For each test case, output a single line containing the corresponding sum constr
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 abacaba
 abba
@@ -45,9 +44,7 @@ aaaa
 18134494634143926857
 0
 
-```
-### Explanation
-
+</pre>### Explanation
 Actual values of **K(1), K(2), ..., K(N)** in the tests are: 
 abacaba: {0, 1, 2, 1, 1, 1, 0} 
 abba: {0, 1, 1, 0} 

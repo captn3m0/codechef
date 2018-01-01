@@ -104,8 +104,7 @@ For each test case, print a single integer representing the answer of that test 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 2 2
 3 5
@@ -116,9 +115,7 @@ For each test case, print a single integer representing the answer of that test 
 2
 8
 
-```
-### Explanation
-
+</pre>### Explanation
 For the first test case, add or remove 1 grape in each of the bucket.
 
 For the second test case, remove three grapes in the first bucket, remove two grapes from the second bucket and add three grapes in the third bucket.

@@ -91,8 +91,7 @@ It is guaranteed that the sequence **A\[1\]**, **A\[2\]**, ..., **A\[N\]** is a 
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 4
 1
@@ -110,9 +109,7 @@ YES
 NO
 YES
 
-```
-### Explanation
-
+</pre>### Explanation
 **Case 1.** Here **N = 1**, so we have no pairs **(i; j)** with **1 ≤ i < j ≤ N**. So the number of inversions is equal to zero. The number of local inversion is also equal to zero. Hence this permutation is good.
 
 **Case 2.** Here **N = 2**, and we have one pair **(i; j)** with **1 ≤ i < j ≤ N**, the pair **(1; 2)**. Since **A\[1\] = 2** and **A\[2\] = 1** then **A\[1\] > A\[2\]** and the number of inversions is equal to **1**. The number of local inversion is also equal to **1** since we have one value of **i** for which **1 ≤ i < N** (the value **i = 1**) and **A\[i\] > A\[i+1\]** for this value of **i** since **A\[1\] > A\[2\]**. Hence this permutation is also good.

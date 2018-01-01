@@ -39,25 +39,19 @@ For each test case, print the minimum number of turns in which the game can end.
 
 **Sample input**
 
-```
-2
+<pre>2
 3
 1 -1 2
 3
 4 -2 -1
 
 
-```
-**Sample output**
-
-```
-1
+</pre>**Sample output**
+<pre>1
 6
 
 
-```
-**Explanation**
-
+</pre>**Explanation**
 In the first case, cook 2 can take the first turn which converts the sequence into (0, 1, 1) and end the game.
 
 In the second case, the following sequence of moves are optimal.

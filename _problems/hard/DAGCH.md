@@ -78,8 +78,7 @@ Once again, Chef Hawlader is giving lecture to Chef Heickal about graph theory. 
 - "Then, for a given graph, can you number each vertex using DFS in pre-order?" asks Chef Heickal again.
 - "Too easy! It will be done by the following pseudo code:"
 
-```
-
+<pre>
 <b>
 	int C = 1;
 	void DFS(int u)
@@ -97,9 +96,7 @@ Once again, Chef Hawlader is giving lecture to Chef Heickal about graph theory. 
 	}
 </b>
 
-```
-- "Okey, I can give you a hard problem", says Chef Heickal with evil smile.
-- "What? Come on", replies Chef Hawlader with grinning face.
+</pre>- "Okey, I can give you a hard problem", says Chef Heickal with evil smile.- "What? Come on", replies Chef Hawlader with grinning face.
 - "I'll give you a directed graph with **N** vertices and **M** edges. Here each vertex of the graph is numbered by DFS in pre-order. Of course, every vertex other than vertex **1** are reachable from vertex **1**."
 - "Okey, so what's problem?"
 - "Wait, I give some definitions. A vertex **x** is a _supreme_ vertex of **y**, if there is a directed path **x = v0, v1, ..., vk = y**, where **x < y < vi** for all **0 < i < k**, that is a path from **x** to **y** with zero or more intermediate vertex **vi** and every intermediate vertex should be greater than **x** and **y** and **x** should be less than **y**. A vertex **v** is a _superior_ vertex of **w**, if **v** is the minimum numbered vertex among all the _supreme_ vertices of **w**. You will be given **Q** queries on the graph. On each query you will be given a vertex **v**, you have to find out how many vertices are there in the graph, which have vertex **v** as superior vertex."
@@ -131,8 +128,7 @@ For each test case, print a single line containing **Q** space-separated integer
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 3 3 3
 1 2
@@ -155,9 +151,7 @@ For each test case, print a single line containing **Q** space-separated integer
 2 0 0
 3 2 0 0 1 0 1 0
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** Vertex **3** has only vertex **1** as _supreme_ vertex as well as _superior_ vertex because there is a direct edge from **1** to **3** and vertex **2** has a _supreme_ vertex **1** (**1** → **3** → **2**). As vertex **2** has only one _supreme_ vertex, it is the _superior_ vertex also.
 
 **Example case 2.** Vertex **4** has three _supreme_ vertices **1** (**1** → **7** → **8** → **4**), **2** (**2** → **5** → **6** → **4**) and **3** (**3** → **4**). So vertex **1** is the _superior_ vertex of **4**.

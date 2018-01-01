@@ -99,8 +99,7 @@ For each testcase output an answer - the mininal number of steps necessary.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 5
 2 1 3 0 3
@@ -110,4 +109,4 @@ For each testcase output an answer - the mininal number of steps necessary.
 1
 
 
-```
+</pre>

@@ -111,8 +111,7 @@ It's guaranteed that the correct polynomial **P(x)** is not a zero polynomial.
 23. **tm** ≠ 0
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 1
 1 2
@@ -124,9 +123,7 @@ It's guaranteed that the correct polynomial **P(x)** is not a zero polynomial.
 -1.5 2
 
 
-```
-### Explanation
-
+</pre>### Explanation
 In the sample case, we are given the following data:
 
 ![](/download/extimages/fb9f4d56106bc391ad1a5869cae0793d.png)

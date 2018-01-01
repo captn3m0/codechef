@@ -48,8 +48,7 @@ For each test case, output a single line with the answer for the instance. ### C
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 <tt>3
 3
@@ -64,7 +63,5 @@ For each test case, output a single line with the answer for the instance. ### C
 5
 9</tt>
 
-```
-### Explanation:
-
+</pre>### Explanation:
 **Example case 1.** There are 4 such subarrays: **A**\[1..1\], **A**\[2..2\], **A**\[3..3\], **A**\[1..3\]. Consider **A**\[1..3\], sum = 1 + 3 + 2 = 6, product = 1 \* 3 \* 2 = 6.

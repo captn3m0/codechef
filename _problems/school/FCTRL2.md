@@ -87,14 +87,11 @@ Sample input: ```
 5
 3
 
-```
-Sample output:
-
-```
-
+<pre>Sample output:
+</pre>
 1
 2
 120
 6
 
-```
+<pre>

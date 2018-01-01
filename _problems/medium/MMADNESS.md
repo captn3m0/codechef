@@ -25,8 +25,7 @@ For each test case, your output should contain the least amount of money in doll
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 1
 
@@ -40,9 +39,7 @@ B D
 200
 
 
-```
-Explanation: In this case, the least cost you have to incur is $200 and it can be achieved by converting machines A and B to administrative machines.
-
+</pre>Explanation: In this case, the least cost you have to incur is $200 and it can be achieved by converting machines A and B to administrative machines.
 The diagrammatic representation for the example test case above:
 
 ![](http://careers.directi.com/download/attachments/25657412/puzzle_march09.png)

@@ -109,8 +109,7 @@ For each query of second type output your answer in a single line.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>5 8
 1 2 3 4 5
 1 2
@@ -132,4 +131,4 @@ Yes
 No
 Yes</tt>
 
-```
+</pre>

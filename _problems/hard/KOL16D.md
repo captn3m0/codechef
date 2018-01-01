@@ -48,12 +48,11 @@ For each line of input except the last one produce one line of output. This line
 
 ### Sample
 
-```
-<b>Input</b>   
+<pre><b>Input</b>   
 70 2 1 5 10
 0 0 0 0 0 
 
 <b>Output</b>
 49/5
 
-```
+</pre>

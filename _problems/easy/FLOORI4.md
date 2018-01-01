@@ -101,15 +101,12 @@ There are two types of datasets:
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 4 1000
 
 <b>Output:</b>
 373
 
-```
-### Explanation
-
+</pre>### Explanation
 14\*4 + 24\*2 + 34\*1 + 44\*1 = 373

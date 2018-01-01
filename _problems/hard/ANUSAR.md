@@ -98,8 +98,7 @@ For each query, output the required answer.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 aaeddf
 4
@@ -114,9 +113,7 @@ aaeddf
 0
 0
 
-```
-### Explanation
-
+</pre>### Explanation
 There are a total of 6\*(6+1)/2 substrings, all of them occur at least once. So for **F1=1** answer is equal to 21. Note that substring **"a"** is repeated 2 times in **S**, both the instances are added to the answer.
 
 Look at **F2=2**. Substring **"a"** and substring **"d"** occurs 2 times each in **S**. The answer for **F2** is 4, that is all the occurrences of **"a"** and **"d"**.

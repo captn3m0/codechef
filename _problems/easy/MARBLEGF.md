@@ -126,8 +126,7 @@ The output should contain as many lines as the number of queries S and it should
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <p>5 3
 1000 1002 1003 1004 1005
 S 0 2
@@ -138,4 +137,4 @@ S 0 2
 3005
 3008
 </p>
-```
+</pre>

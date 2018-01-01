@@ -72,8 +72,7 @@ The segment tree is a data structure that is capable of processing different que
 
 A segment tree is usually created with the following routine.
 
-```
-<tt>createTree(left, right):
+<pre><tt>createTree(left, right):
     currentNode = new node()
     currentNode->left = left
     currentNode->right = right
@@ -83,17 +82,12 @@ A segment tree is usually created with the following routine.
     return currentNode
 </tt>
 
-```
-The routine is called as:
-
+</pre>The routine is called as:
  ```
 <tt>    root = init(1, N)</tt>
 
-```
-Consider the following segment tree operations:
-
-```
-<tt>changeSegtree(currentNode, left, right):
+<pre>Consider the following segment tree operations:
+</pre><tt>changeSegtree(currentNode, left, right):
    currentNode->tag = 1
 
    if (left == currentNode->left) and (right == currentNode->right)
@@ -109,11 +103,8 @@ Consider the following segment tree operations:
 change(left, right):
     changeSegtree(root, left, right)</tt>
 
-```
-Finally, an in-order traversal of the tree can be done with the following routine:
-
-```
-<tt>traverse(currentNode):
+<pre>Finally, an in-order traversal of the tree can be done with the following routine:
+</pre><tt>traverse(currentNode):
     if (currentNode->leftSon != NULL)
         traverse(currentNode->leftSon)
     print currentNode->tag
@@ -123,9 +114,7 @@ Finally, an in-order traversal of the tree can be done with the following routin
 
 traverse(root)</tt>
 
-```
-You are given the value of **N**, denoting the length of the array on which the segment tree is built on (i.e. the second parameter to the init routine). You are also given **M** integers **T1**, **T2**, ..., **TM**. Here, **M** is the number of nodes in the segment tree and you'll have calculate it by yourself.
-
+<pre>You are given the value of **N**, denoting the length of the array on which the segment tree is built on (i.e. the second parameter to the init routine). You are also given **M** integers **T1**, **T2**, ..., **TM**. Here, **M** is the number of nodes in the segment tree and you'll have calculate it by yourself.
 Your task is to find the minimum number of **non-overlapping** segments, so that after calling the **change** routine for each of these segments successively, on a newly created segment tree, the **traverse** routine will output **T1**, **T2**, ..., **TM**, or state that such a set of segments doesn't exist.
 
 Two segments **(l1,r1)** and **(l2,r2)** are considered **overlapping** if there is some **i** such that **l1 ≤ i ≤ r1** and **l2 ≤ i ≤ r2**.
@@ -150,8 +139,7 @@ For each test case, output a single line containing the minimum number of segmen
 
 ### Example
 
-```
-<b>Input:</b>
+</pre><b>Input:</b>
 <tt>2
 2
 1 1 1
@@ -162,9 +150,7 @@ For each test case, output a single line containing the minimum number of segmen
 <tt>2
 -1</tt>
 
-```
-### Explanation
-
+<pre>### Explanation
 **Example case 1.** We can call **change(1, 1)** and **change(2, 2)**.
 
 **Example case 2.** There is no set of segments that would give the tree with such configuration of tags.

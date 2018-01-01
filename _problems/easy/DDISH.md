@@ -85,8 +85,7 @@ For every test case, output the answer on a separate line.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 5 13
@@ -97,7 +96,5 @@ For every test case, output the answer on a separate line.
 90
 
 
-```
-### Explanation
-
+</pre>### Explanation
 For the first test Ira can order every dish from 5 to 13 except 11.

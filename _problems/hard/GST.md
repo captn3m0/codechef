@@ -53,8 +53,7 @@ If there are multiple non-empty sets whose constraints are violated, then any wi
 
 ### Input:
 
-```
-
+<pre>
 3
 
 3 3
@@ -75,11 +74,8 @@ If there are multiple non-empty sets whose constraints are violated, then any wi
 2 4 4/5
 3 4 4/5
 
-```
-### Output:
-
-```
-
+</pre>### Output:
+<pre>
 GST
 
 1
@@ -88,4 +84,4 @@ GST
 3
 2 3 4
 
-```
+</pre>

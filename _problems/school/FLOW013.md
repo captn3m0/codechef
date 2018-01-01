@@ -84,8 +84,7 @@ Display 'YES' or 'NO' if the triangle is Valid or not respectively.
 
 ### Example
 
-```
-
+<pre>
 <b>Input</b>
 
 3 
@@ -98,4 +97,4 @@ YES
 YES
 NO
 
-```
+</pre>

@@ -13,20 +13,14 @@ layout: problem
 
  We consider _permutations_ of the numbers 1,..., _N_for some _N_. By permutation we mean a rearrangment of the number 1,...,_N_. For example
 
-```
-
+<pre>
 2  4  5  1  7  6  3  8
 
-```
- is a permutation of 1,2,...,8. Of course,
-
-```
-
+</pre> is a permutation of 1,2,...,8. Of course,
+<pre>
 1  2  3  4  5  6  7  8
 
-```
- is also a permutation of 1,2,...,8.
-
+</pre> is also a permutation of 1,2,...,8.
  We can "walk around" a permutation in a interesting way and here is how it is done for the permutation above:
 
  Start at position 1. At position 1 we have 2 and so we go to position 2. Here we find 4 and so we go to position 4. Here we find 1, which is a position that we have already visited. This completes the first part of our walk and we denote this walk by (1 2 4 1). Such a walk is called a _cycle_. An interesting property of such walks, that you may take for granted, is that the position we revisit will always be the one we started from!
@@ -49,35 +43,25 @@ Examples
 
 Sample input 1:
 
-```
-
+<pre>
 8
 2 4 5 1 7 6 3 8
 
-```
-Sample output 1:
-
-```
-
+</pre>Sample output 1:
+<pre>
 4
 1 2 4 1
 3 5 7 3
 6 6
 8 8 
 
-```
-Sample input 2:
-
-```
-
+</pre>Sample input 2:
+<pre>
 8
 1 2 3 4 5 6 7 8
 
-```
-Sample output 2:
-
-```
-
+</pre>Sample output 2:
+<pre>
 8
 1 1
 2 2
@@ -88,4 +72,4 @@ Sample output 2:
 7 7
 8 8
 
-```
+</pre>

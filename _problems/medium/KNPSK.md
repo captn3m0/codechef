@@ -99,8 +99,7 @@ For each capacity **C** (**1 ≤ C ≤ M**) of the knapsack, output a single int
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5
 1 1
 2 2
@@ -111,9 +110,7 @@ For each capacity **C** (**1 ≤ C ≤ M**) of the knapsack, output a single int
 <b>Output:</b>
 1 5 6 9 10 12 13 14 15 
 
-```
-### Explanations
-
+</pre>### Explanations
 In the test case, **M** equals to 9.
 
 For **C** = 1, it's optimal to choose {1} items;

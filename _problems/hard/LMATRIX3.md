@@ -146,8 +146,7 @@ denoting the minimal number of the moves for erasing all non zero numbers from t
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 3 1
@@ -169,9 +168,7 @@ denoting the minimal number of the moves for erasing all non zero numbers from t
 5
 
 
-```
-### Explanation
-
+</pre>### Explanation
  **Example case 1:**  All numbers are zero.
 
  **Example case 2:**  Initially, A = {3, 5, 5, 3}. In the first turn, we choose s=2, t=3, and k=8, after which A = {3, 3, 3, 3}. Then all numbers will become zero after the second turn.

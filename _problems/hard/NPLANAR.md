@@ -104,8 +104,7 @@ For each test case, output one line with a single number - the minimum number of
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 8 8
 2 3
@@ -149,9 +148,7 @@ For each test case, output one line with a single number - the minimum number of
 3
 2
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** The graph looks like two cycles of lengths 4 and 5 with a common edge. Since there are no triangles, there's no need to remove any vertex.
 
 **Example case 2.** It's sufficient to remove vertices 7, 1 and 2.

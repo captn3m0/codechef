@@ -76,8 +76,7 @@ Chef defined _amazingness_ of a number **n** as follows. Let array **a** denote 
 _amazingness_ of **n** is defined by following pseudo code.
 
 
-```
-
+<pre>
 amazingness(a)
 {
     set <b>s</b>;
@@ -96,8 +95,7 @@ amazingness(a)
    return ans;
 }
 />
-```Given two integers **L, R**. Find out the following sum : _amazingness_**L** + _amazingness_**L + 1** + ... + _amazingness_**R**. As the answer could be large, print your answer modulo **109 + 7 (1000000007)**
-
+</pre>Given two integers **L, R**. Find out the following sum : _amazingness_**L** + _amazingness_**L + 1** + ... + _amazingness_**R**. As the answer could be large, print your answer modulo **109 + 7 (1000000007)**
 ### Input
 
 - First line of the input contains an integer **T** denoting the number of test cases.
@@ -124,8 +122,7 @@ For each test case, output a single integer in separate line corresponding to th
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 1 5
 11 14
@@ -134,7 +131,5 @@ For each test case, output a single integer in separate line corresponding to th
 15
 23
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 2:** The _amazingness_ values of numbers 11, 12, 13, 14 are 1, 6, 6 and 10 respectively. They sum up to 23.

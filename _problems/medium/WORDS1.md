@@ -27,8 +27,7 @@ If there exists such an ordering of plates, your program should print the senten
 
 ### Example
 
-```
-Sample input:
+<pre>Sample input:
 
 3
 2
@@ -49,5 +48,4 @@ The door cannot be opened.
 Ordering is possible.
 The door cannot be opened.
 
-```
-**Warning: large Input/Output data, be careful with certain languages**
+</pre>**Warning: large Input/Output data, be careful with certain languages**

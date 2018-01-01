@@ -118,8 +118,7 @@ Time limit for the first and the second subtasks is 2 s. Time limit for the thir
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 5 2 1
@@ -136,9 +135,7 @@ Time limit for the first and the second subtasks is 2 s. Time limit for the thir
 14
 
 
-```
-### Explanation of the first two cases in the example test
-
+</pre>### Explanation of the first two cases in the example test
 In the first case, there is only one valid subsequence - the whole sequence **S**.
 
 In the second case, any non-empty sequence is valid, so the answer is **2N - 1**.

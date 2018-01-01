@@ -23,18 +23,14 @@ For each test case, print on a single line the smallest positive integer whose p
 
 ### Sample input:
 
-```
-4
+<pre>4
 16
 486
 220703118
 0
-```
-### Sample output:
-
-```
-28
+</pre>### Sample output:
+<pre>28
 699
 5555555555555
 10
-```
+</pre>

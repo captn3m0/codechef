@@ -110,8 +110,7 @@ For each Query of type 1, 3 and 4 output the result in a single line.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 10
 0 8
 4 1 1 1
@@ -132,4 +131,4 @@ For each Query of type 1, 3 and 4 output the result in a single line.
 8
 2
 
-```
+</pre>

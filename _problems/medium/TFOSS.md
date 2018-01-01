@@ -19,8 +19,7 @@ Given a list of coordinates of points containing probes, find the square of the 
 
 ### Input
 
-```
-
+<pre>
 <p>t [the number of tests <= 20]
 [empty line]
 n [the number of active probes <= 100000]
@@ -31,18 +30,12 @@ x<sub>n</sub> x<sub>n</sub>
 [empty line]
 [input for the next test cases...]
 </p>
-```
-### Output
-
-```
-o<sub>1</sub> [the square of the maximal distance in the first set]
+</pre>### Output
+<pre>o<sub>1</sub> [the square of the maximal distance in the first set]
 o<sub>n</sub> [output for the next test cases...]
 
-```
-### Example
-
-```
-
+</pre>### Example
+<pre>
 <b>Input:</b>
 5
 
@@ -94,4 +87,4 @@ o<sub>n</sub> [output for the next test cases...]
 722
 98
 
-```
+</pre>

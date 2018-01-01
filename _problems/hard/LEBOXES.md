@@ -97,8 +97,7 @@ In **T** lines print **T** real numbers - the answers for the corresponding test
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 2 2
@@ -117,4 +116,4 @@ In **T** lines print **T** real numbers - the answers for the corresponding test
 0.5000
 
 
-```
+</pre>

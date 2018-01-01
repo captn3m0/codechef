@@ -83,8 +83,7 @@ All submissions for this problem are available.You're given an integer **N**. Wr
 
 ### Example
 
-```
-
+<pre>
 <b>Input</b>
 3 
 12345
@@ -95,4 +94,4 @@ All submissions for this problem are available.You're given an integer **N**. Wr
 9
 8
 
-```
+</pre>

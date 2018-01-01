@@ -96,8 +96,7 @@ For each testcase, print the required answer in one line.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 2
 7 2
@@ -108,9 +107,7 @@ For each testcase, print the required answer in one line.
 2
 -1
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.**GCD(2,7)=1. So the subarray **\[A1,A2\]** is valid.
 
 **Example case 2.**No subarray satisfies.

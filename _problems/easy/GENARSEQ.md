@@ -19,7 +19,7 @@ For given two positive integers **a** and **b** let's construct the sequence **x
 
  You need to find the first **n** terms of this sequence. 
 
-**Remark.** Let **a=2** and **b=1**. Then we see that sequence **x\[1\], x\[2\], ...** does not contain any arithmetic progression of length three as its subsequence. This justifies the problem title.
+ **Remark.** Let **a=2** and **b=1**. Then we see that sequence **x\[1\], x\[2\], ...** does not contain any arithmetic progression of length three as its subsequence. This justifies the problem title.
 
 ### Input
 
@@ -37,8 +37,7 @@ For each test case, output a single line containing the numbers **x\[1\], x\[2\]
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 2 1 10
 1 1 5
@@ -49,5 +48,4 @@ For each test case, output a single line containing the numbers **x\[1\], x\[2\]
 1 2 3 4 5
 1 3 4 5
 
-```
-- - - - - -
+</pre>- - - - - -

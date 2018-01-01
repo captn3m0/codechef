@@ -84,8 +84,7 @@ For each test case, output the minimum length of the unused wire, or -1 if the t
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 4
 3 8
@@ -99,9 +98,7 @@ For each test case, output the minimum length of the unused wire, or -1 if the t
 -1
 5
 
-```
-
-
+</pre>
 **Explanation:**
 In the 1st case, for example, the permutation _P_ = {2, 1, 3} will use the exact 8 miles wires in total.
 

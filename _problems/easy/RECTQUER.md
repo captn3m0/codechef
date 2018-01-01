@@ -90,8 +90,7 @@ Output **Q** integers, each in a separate line - answers for the queries.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 1 2 3
 3 2 1
@@ -106,4 +105,4 @@ Output **Q** integers, each in a separate line - answers for the queries.
 1
 5
 
-```
+</pre>

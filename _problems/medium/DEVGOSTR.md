@@ -114,8 +114,7 @@ Hamming distance between two strings of same size is defined as the number of in
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 1 0
 a
@@ -126,9 +125,7 @@ aba
 1
 5
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** Only string of length 1 and alphabet size 1 will be 'a'. Hamming distance of "a" with "a" is zero which is ≤ 1. So answer is 1.
 
 **Example case 2.** There can be total 8 strings. 6 of them are good. aaa and bbb are not good, remaining all are good. From the 6 good strings, bab has a hamming distance of 3, remaining other 5 have hamming distance ≤ 2. Hence answer is 5.

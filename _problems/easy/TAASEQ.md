@@ -100,8 +100,7 @@ For each test case print out single integer which is the number you will remove 
 
 ### Example
 
-```
-
+<pre>
 <b>Input</b>:
 3
 2
@@ -116,9 +115,7 @@ For each test case print out single integer which is the number you will remove 
 -1
 7
 
-```
-### Explaination
-
+</pre>### Explaination
 **test 1:** an array contain a single integer is considered to be an arithmetic progression so you can remove any number in the array. But note that we must print out the **smallest result** which is 3.
 
 **test 2:** there is no solution since none of \[1, 3, 4\], \[1, 5, 3\], \[1, 5, 4\], \[5, 3, 4\] is an arithmetic progressions.

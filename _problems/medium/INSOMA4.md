@@ -49,8 +49,7 @@ Line 1: The length of the longest ancestor list.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 APJQ
@@ -60,4 +59,4 @@ PJQ
 <b>Output:</b>
 3 
 
-```
+</pre>

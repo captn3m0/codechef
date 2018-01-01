@@ -105,8 +105,7 @@ For each group, output the integer denoting the maximum difference between numbe
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 7 7 5
 4 5 6 6 5 7 4
 6 6
@@ -122,9 +121,7 @@ For each group, output the integer denoting the maximum difference between numbe
 1
 6
 
-```
-### Explanation
-
+</pre>### Explanation
 **Group 1.** There is only one person in the group. Thus the maximum difference of numbers should be .
 
 **Group 2.** There are two persons in the group. Their growth are **A5 = 5** and **A6 = 7**. Thus there is no pair of persons who have the same growth. Thus the answer for this group will also be .

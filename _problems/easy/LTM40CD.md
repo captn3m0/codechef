@@ -103,8 +103,7 @@ Order the sides of triangles in non-decreasing order. Output all triangles in no
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>2</tt>
 
 <b>Output:</b>
@@ -115,4 +114,4 @@ Order the sides of triangles in non-decreasing order. Output all triangles in no
 7 15 20
 9 10 17</tt>
 
-```
+</pre>

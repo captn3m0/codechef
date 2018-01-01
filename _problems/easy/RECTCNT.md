@@ -26,8 +26,7 @@ For each test case, output on a line an integer which is the respective number o
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 6
 7 1
@@ -41,4 +40,4 @@ For each test case, output on a line an integer which is the respective number o
 <b>Output:</b>
 3
 
-```
+</pre>

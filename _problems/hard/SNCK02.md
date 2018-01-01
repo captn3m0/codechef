@@ -37,8 +37,7 @@ For each test case, output a single line of integers. The first integer is |S|, 
 
 ### Sample Input:
 
-```
-3 2
+<pre>3 2
 0 1
 1 2
 
@@ -64,12 +63,9 @@ For each test case, output a single line of integers. The first integer is |S|, 
 
 0 0
 
-```
-### Sample Output:
-
-```
-2 0 1
+</pre>### Sample Output:
+<pre>2 0 1
 4 0 1 2 3
 3 0 1 2
 <br></br><br></br>
-```
+</pre>

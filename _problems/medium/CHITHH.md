@@ -96,8 +96,7 @@ For each request output a single line containing **k-th** digit of **MagicIntege
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 0 1 2 3
 5
@@ -114,9 +113,7 @@ For each request output a single line containing **k-th** digit of **MagicIntege
 So sad
 3
 
-```
-### Scoring
-
+</pre>### Scoring
 Subtask 1 (30 points): **N ≤ 1000**
 
 Subtask 2 (25 points): **V ≤ 100**

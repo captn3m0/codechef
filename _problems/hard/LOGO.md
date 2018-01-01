@@ -112,8 +112,7 @@ Output 240 lines, each containing 320 characters to describe the canvas. The bac
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 1 1 120 50 10 50 130 20 180 140 -10
 1 2 200 45 10 55 70 -20 140 150 15
@@ -123,18 +122,13 @@ Output 240 lines, each containing 320 characters to describe the canvas. The bac
 <b>Output:</b>
 <a href="/download/sample.out">Download the output</a>
 
-```
-### Notes
-
+</pre>### Notes
 If <**X, Y, Z**> value of 2 polygons are exactly same, then the greater color value of two will be visible. Example, for the following input:
 />
 
-```
-2
+<pre>2
 2 1 10 10 0 10 110 0 110 110 0 110 10 0
 2 2 50 50 0 50 150 0 150 150 0 150 50 0
-```
-
-The (pictorial) output will be:
+</pre>The (pictorial) output will be:
 ![](//www.codechef.com/download/hR8s1dO.png)
 assuming color '0' is black, color '1' is red, color '2' is blue./>/>/>

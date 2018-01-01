@@ -93,8 +93,7 @@ For each test case, output a single line containing the minimum number of gangst
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 3 2
 1 3
@@ -117,9 +116,7 @@ For each test case, output a single line containing the minimum number of gangst
 2
 0
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** Gangsters 1 and 2 are friends each other. Also Gangsters 2 and 3 are friends with each other. So it is enough to interrogate gangster 2 only.
 
 **Example case 2.**All of the four gangsters are friends with each other. The police suspects that the size of the group is 3. So it is enough to interrogate any two of the gangsters.

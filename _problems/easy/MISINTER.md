@@ -32,20 +32,16 @@ For each test case, print the number of words of length N that Chef can use; tha
 
 **Sample input**
 
-```
-3
+<pre>3
 1
 14
 45
 
 
-```
-**Sample output**
-
-```
-26
+</pre>**Sample output**
+<pre>26
 456976
 827063120
 
 
-```
+</pre>

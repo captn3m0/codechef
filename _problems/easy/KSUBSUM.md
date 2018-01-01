@@ -31,8 +31,7 @@ K3 ≤ N\*(N+1)/2
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 3 1 2 3
@@ -47,9 +46,7 @@ K3 ≤ N\*(N+1)/2
 30 30 10
 15 -5 -20
 
-```
-
-**Explanation:**
+</pre>**Explanation:**
 Case 1 & 2 : A = { 10, 20, 30 }. All possible sums of sub-arrays in non-increasing order, S\[1..6\] = { 60, 50, 30, 30, 20, 10 }
 
 

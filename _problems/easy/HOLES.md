@@ -23,8 +23,7 @@ Chef wrote some text on a piece of paper and now he wants to know how many holes
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 CODECHEF
@@ -34,4 +33,4 @@ DRINKEATCODE
 2
 5
 
-```
+</pre>

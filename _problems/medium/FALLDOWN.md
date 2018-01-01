@@ -24,8 +24,7 @@ If I == 1, R lines follow, each containing C integers, representing the grid A
 
 If I == 2, next line contains 4 integers X P Q M. Generate the grid A using the following method.
 
-```
-
+<pre>
 Initialize, cur = X
 for i : 0 to R-1
      for j : 0 to C-1
@@ -39,9 +38,7 @@ for i : 0 to R-1
 They are used just to decrease the size of input files ( Max 8MB ).</i>
 
 
-```
-### Output
-
+</pre>### Output
 For each test case, output the maximum possible sum of ratings along a path that starts in the top row and ends in the bottom row.
 
 ### Constraints
@@ -54,8 +51,7 @@ For each test case, output the maximum possible sum of ratings along a path that
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 3 5 1
@@ -69,11 +65,9 @@ For each test case, output the maximum possible sum of ratings along a path that
 10
 3
 
-```
-
-**Explanation:**
+</pre>**Explanation:**
 The path with maximum sum of ratings in Case 1 is shown in bold 
- 1  1 -5 **3** **1** -1  **1**  **1** **-1**  **3**  2 -3  **2** -1  1 
+   1  1 -5 **3** **1**   -1  **1**  **1** **-1**  **3**    2 -3  **2** -1  1  
 
 
 _**Warning :** "Large input / output. Be careful with certain languages. Eg: Prefer using scanf/printf to cin/cout for C++"_

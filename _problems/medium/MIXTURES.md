@@ -35,8 +35,7 @@ For each test case, output the minimum amount of smoke.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 18 19
 3
@@ -46,9 +45,7 @@ For each test case, output the minimum amount of smoke.
 342
 2400
 
-```
-In the second test case, there are two possibilities:
-
+</pre>In the second test case, there are two possibilities:
 - first mix 40 and 60 (smoke: 2400), getting 0, then mix 0 and 20 (smoke: 0); total amount of smoke is 2400
 - first mix 60 and 20 (smoke: 1200), getting 80, then mix 40 and 80 (smoke: 3200); total amount of smoke is 4400
 

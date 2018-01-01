@@ -88,8 +88,7 @@ For every number N, output a single line containing the single non-negative inte
 
 Sample Input:
 
-```
-
+<pre>
 6
 3
 60
@@ -98,11 +97,8 @@ Sample Input:
 23456
 8735373
 
-```
-Sample Output:
-
-```
-
+</pre>Sample Output:
+<pre>
 0
 14
 24
@@ -110,4 +106,4 @@ Sample Output:
 5861
 2183837
 
-```
+</pre>

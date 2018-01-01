@@ -75,8 +75,7 @@ All submissions for this problem are available. The game of billiards involves t
 
 Consider the following score sheet for a game with 5 rounds:
 
-```
-<pre style="margin:15px">
+<pre><pre style="margin:15px">
     Round     Player 1       Player 2
 
       1             140                 82
@@ -85,11 +84,8 @@ Consider the following score sheet for a game with 5 rounds:
       4              112              106
       5              88                  90 
 
-```
-The total scores of both players, the leader and the lead after each round for this game is given below:
-
-```
-<pre style="margin:15px">
+</pre>The total scores of both players, the leader and the lead after each round for this game is given below:
+<pre><pre style="margin:15px">
     Round      Player 1       Player 2     Leader     Lead
 
       1               140           	 82        Player 1     58
@@ -98,9 +94,7 @@ The total scores of both players, the leader and the lead after each round for t
       4               431           	432       Player 2      1
       5               519           	522       Player 2      3
 
-```
- The winner of this game is Player 1 as he had the maximum lead (58 at the end of round 1) during the game.
-
+</pre> The winner of this game is Player 1 as he had the maximum lead (58 at the end of round 1) during the game.
  Your task is to help the Manager find the winner and the winning lead. You may assume that the scores will be such that there will always be a single winner. That is, there are no ties.
 
 Input
@@ -115,8 +109,7 @@ Example
 
 Input:
 
-```
-
+<pre>
 5
 140 82
 89 134
@@ -124,11 +117,8 @@ Input:
 112 106
 88 90
 
-```
-Output:
-
-```
-
+</pre>Output:
+<pre>
 1 58
 
-```
+</pre>

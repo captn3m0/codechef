@@ -98,8 +98,7 @@ For each test case, output one number — the answer for the problem modulo **10
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 4 3
 1 2
@@ -113,4 +112,4 @@ For each test case, output one number — the answer for the problem modulo **10
 0
 
 
-```
+</pre>

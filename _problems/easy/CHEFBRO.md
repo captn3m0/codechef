@@ -49,9 +49,9 @@ Given the number and dimensions of boards, for each test case, output in a singl
  1
  2 2
 
-**Output:**
+ **Output:**
  MasterChef
 
-**Explanation:**
+ **Explanation:**
 
 The Chef can move the coin on the board from (1,1)->(2,2). This coin cannot be moved any further. And so, the Chef wins. Notice that if the Chef moves it to any other valid position, i.e. either to (1,2) or (2,1) he will lose!

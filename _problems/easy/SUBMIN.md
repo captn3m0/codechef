@@ -68,7 +68,7 @@ layout: problem
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/FEB14/mandarin/SUBMIN.pdf) and [Russian](http://www.codechef.com/download/translated/FEB14/russian/SUBMIN.pdf).
 
 Little Elephant is playing a game with arrays. He is given an array **A0, A1, ..., AN−1** of **N** integers. And then **Q** queries are given, each containing an integer **K**. He has to tell how many subarrays satisfy the condition: the function **_foo_** returns **K** when it is applied to the subarray.
-In this problem, a subarray is defined as a sequence of continuous elements **Ai, Ai+1, ..., Aj** where **0 ≤ i ≤ j ≤ N−1**. The function **_foo_**, when applied to an array, returns the minimum of all the elements in the array.
+In this problem, a subarray is defined as a sequence of continuous elements **Ai, Ai+1, ..., Aj**  where **0 ≤ i ≤ j ≤ N−1**. The function **_foo_**, when applied to an array, returns the minimum of all the elements in the array.
 For example, **_foo_** returns **5** when it is applied to the array **\[7, 5, 10, 7, 5, 8\]**. Please note that the subarrays **Ai, Ai+1, ..., Aj** and **Ak, Ak+1, ..., Al** are different if and only if **i ≠ k** or **j ≠ l** in this problem.
 
 ### Input
@@ -88,8 +88,7 @@ For each query, print the required number of subarrays.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5
 4 1 2 3 4
 4
@@ -104,9 +103,7 @@ For each query, print the required number of subarrays.
 0
 8
 
-```
-### Explanation
-
+</pre>### Explanation
 **Query 1.** Only the two subarrays **\[3, 4\]** and **\[3\]** satisfy.
 
 **Query 2.** Again only the two subarrays **\[4\]** and **\[4\]** satisfy. Please note that these subarrays (**A0** and **A4**) are considered different.

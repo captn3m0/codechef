@@ -100,8 +100,7 @@ Your task is to determine whether there is a walk **W** which realizes a given s
 
 ### Examples
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 AAB
 AABE
@@ -110,4 +109,4 @@ AABE
 501
 -1
 
-```
+</pre>

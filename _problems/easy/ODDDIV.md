@@ -96,8 +96,7 @@ For each test case, output the required sum on a separate line.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 1 10
 42 42
@@ -106,9 +105,7 @@ For each test case, output the required sum on a separate line.
 45
 32
 
-```
-### Explanation
-
+</pre>### Explanation
 In the first example case, **f(1) + f(2) + ... + f(10) = 1 + 1 + 4 + 1 + 6 + 4 + 8 + 1 + 13 + 6 = 45**
 
 In the second example case, **f(42) = 32**.

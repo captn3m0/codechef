@@ -106,8 +106,7 @@ The value of **C** should be printed modulo **(109 + 7)**.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 1 1
 1 2
@@ -120,31 +119,22 @@ The value of **C** should be printed modulo **(109 + 7)**.
 3 4
 1 4
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** The matrix contains just one cell, so, there is no possibility to make a single move, thus **K = 0**. We have just one possibility - to start the walk at the only cell and to end it immediately.
 
 **Example case 2.** The matrix doesn't contains a cell with number one inside, so, there once again is no possibility to make a single move, thus **K = 0**. Our walk is just a single cell with number zero inside and there are two such cells, thus **C = 2**. The matrix in this case looks like this:
 
-```
-
+<pre>
 <b>(1 xor 1)   (1 xor 2)</b>          =          <b>0 3</b>
 <b>(2 xor 1)   (2 xor 2)</b>          =          <b>3 0</b>
 
-```
-**Example case 3.** The four possible walks are:
-
-```
-<font size="3">0 <b><font color="#578fb2">3 2</font></b>               0 <b><font color="#578fb2">3 2</font></b>               0 3 2               0 3 2
+</pre>**Example case 3.** The four possible walks are:
+<pre><font size="3">0 <b><font color="#578fb2">3 2</font></b>               0 <b><font color="#578fb2">3 2</font></b>               0 3 2               0 3 2
 3 <b><font color="#578fb2">0 1</font></b>               3 0 <b><font color="#578fb2">1</font></b>               <b><font color="#578fb2">3 0</font></b> 1               <b><font color="#578fb2">3</font></b> 0 1
 2 1 0               2 1 <b><font color="#578fb2">0</font></b>               <b><font color="#578fb2">2 1</font></b> 0               <b><font color="#578fb2">2 1 0</font></b>
 </font>
-```
-**Example case 4.** The four possible walks are:
-
-```
-<font size="3"><b><font color="#578fb2">0 1</font></b>                   0 <b><font color="#578fb2">1</font></b>                   <b><font color="#578fb2">0</font></b> 1                   0 1
+</pre>**Example case 4.** The four possible walks are:
+<pre><font size="3"><b><font color="#578fb2">0 1</font></b>                   0 <b><font color="#578fb2">1</font></b>                   <b><font color="#578fb2">0</font></b> 1                   0 1
 1 0                   1 <b><font color="#578fb2">0</font></b>                   <b><font color="#578fb2">1</font></b> 0                   <b><font color="#578fb2">1 0</font></b>
 </font>
-```
+</pre>

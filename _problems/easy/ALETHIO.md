@@ -95,8 +95,7 @@ Output one number, the maximum possible answer.
 
 ### Example
 
-```
-
+<pre>
 <b>Input1:</b>
 06454
 
@@ -109,9 +108,7 @@ C0D3C43F
 <b>Output2:</b>
 3943
 
-```
-### Explanation
-
+</pre>### Explanation
 In the first example, there is no choice as to what the number can be. It has to be 6,454.
 
 In the second example, there are a total of 41 possible strings (one for the original, and 10 for changing each letter). You can verify that the maximum number as a substring is got by making the string "C0D3943F".

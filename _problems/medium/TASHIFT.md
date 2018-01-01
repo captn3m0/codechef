@@ -97,8 +97,7 @@ Contains a single integer which is the number of shift operations.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5
 ccadd
 bddcc
@@ -107,4 +106,4 @@ bddcc
 3
 
 
-```
+</pre>

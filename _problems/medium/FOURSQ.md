@@ -131,8 +131,7 @@ Note that **X**, **L** and **R** for the queries will always be in the range fro
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 5 4 100
 1 2 3 4 5
@@ -146,9 +145,7 @@ Note that **X**, **L** and **R** for the queries will always be in the range fro
 0 1 1 2
 0 2 4 2
 
-```
-### Explanation
-
+</pre>### Explanation
 1 x 2 x 3 x 4 x 5 mod 100 = 120 mod 100 = ( 82 + 62 + 42 + 22 ) mod 100
 
 1 x 2 x 3 mod 100 = 6 mod 100 = ( 02 + 12 + 12 + 22 ) mod 100

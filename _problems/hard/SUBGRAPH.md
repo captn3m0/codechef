@@ -100,7 +100,7 @@ For each test case, output a single line containing one integer: the number of d
 - 1 ≤ **K** ≤ min(**N**, 30)
 - 1 ≤ **U** ≠ **V** ≤ **N**
 - The size of any simple cycle in **G** does not exceed **L** = 50
-
+ 
 ### Example
 
  ```
@@ -125,4 +125,4 @@ For each test case, output a single line containing one integer: the number of d
 5
 
 
-```
+<pre>

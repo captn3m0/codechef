@@ -82,8 +82,7 @@ Display the Ship Class depending on ID.
 
 ### Example
 
-```
-
+<pre>
 <b>Input</b>
 
 3 
@@ -96,4 +95,4 @@ BattleShip
 Cruiser
 Destroyer
 
-```
+</pre>

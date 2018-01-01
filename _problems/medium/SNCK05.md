@@ -83,8 +83,7 @@ For test case print the solution mod 1000000007 on a new line.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 2
@@ -96,4 +95,4 @@ For test case print the solution mod 1000000007 on a new line.
 3
 8
 
-```
+</pre>

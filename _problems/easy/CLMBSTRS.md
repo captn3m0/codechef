@@ -109,8 +109,7 @@ Your code will be judged against several input files.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 100000
 1 1
@@ -122,9 +121,7 @@ CORRECT
 INCORRECT
 (and 99998 more answers...)
 
-```
-### Output Explanation:
-
+</pre>### Output Explanation:
 On the first case, when there is only one step to climb, there is only one way to do it. 1 in binary is 1, and as the village's population guess is also 1 the answer is correct.
 
  On the second case, there are 21 ways of climbing the stairs altogether. 21 in binary is 10101, that contains three ones. As the village's population guess was 4, the answer is therefore incorrect.

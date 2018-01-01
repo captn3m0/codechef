@@ -35,8 +35,7 @@ For each test case, print **K** distinct integers denoting the numbers of chosen
 
 ### Sample Input
 
-```
-4
+<pre>4
 3 2
 70 80 90
 9 1
@@ -45,17 +44,12 @@ For each test case, print **K** distinct integers denoting the numbers of chosen
 10
 10 5
 90 90 90 90 90 90 90 90 90 90
-```
-### Sample Output
-
-```
-1 2
+</pre>### Sample Output
+<pre>1 2
 1
 1
 5 8 1 4 9
-```
-### Output details
-
+</pre>### Output details
 In the first case, all patterns choosing 2 problems are:
  If problems 1 and 2 are chosen, the probability is 0.7 \* (1 - 0.8) + (1 - 0.7) \* 0.8 = 0.14 + 0.24 = 0.38
  If problems 1 and 3 are chosen, the probability is 0.7 \* (1 - 0.9) + (1 - 0.7) \* 0.9 = 0.07 + 0.27 = 0.34

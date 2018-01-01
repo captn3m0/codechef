@@ -89,8 +89,7 @@ For each test case, output a single line containing the answer to the correspond
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 9 12
 
@@ -98,7 +97,5 @@ For each test case, output a single line containing the answer to the correspond
 75
 
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** The answer is **9\*1 + 10\*2 + 11\*2 + 12\*2 = 75**.

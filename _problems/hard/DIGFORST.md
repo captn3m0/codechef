@@ -83,8 +83,7 @@ For each test case, output on a line the minimum sum of digits found, or **-1** 
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 4
 1 2 1 4
@@ -97,4 +96,4 @@ For each test case, output on a line the minimum sum of digits found, or **-1** 
 <b>Output:</b>
 7
 
-```
+</pre>

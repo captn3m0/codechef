@@ -81,7 +81,7 @@ Two players, Askar and Bob, play a game with a token on an undirected graph **G*
 - In his turn, each player has to move the token along exactly one edge to another vertex.
 - It's not allowed to move the token to some vertex if it was on that vertex earlier during the game (including the starting vertex).
 - The player who can't make a move loses.
-
+ 
 A vertex v is called a winning vertex if Askar is able to win after choosing this v as the starting vertex. Assume that both players play optimally.
 
 Given the graph **G**, determine how many winning vertices exist.
@@ -91,7 +91,7 @@ Given the graph **G**, determine how many winning vertices exist.
 - The first line of the input contains an integer **T** - the number of test cases.
 - The first line of each test case contains two integers **N** and **M**, denoting the number of vertices and the number of edges of **G**.
 - The following **M** lines describe the edges of **G**. Each of these lines contains two integers **x** and **y**, denoting an edge between vertices **x** and **y**.
-
+ 
 ### Output
 
 For each test case, output a single line containing the number of winning vertices.
@@ -105,7 +105,7 @@ For each test case, output a single line containing the number of winning vertic
 - All unordered pairs **(x,y)** will be distinct
 - The graph in each test case will be connected
 - Sum of **M** over all test cases in a single file will never exceed **106**.
-
+ 
 ### Subtasks
 
 _Subtask 1 (8 points)_: **1 ≤ N ≤ 18**
@@ -147,9 +147,7 @@ The time limit is 2 seconds for subtasks 1-3 and 5 seconds for subtask 4.
 4
 2
 
-```
-### Explanation
-
+<pre>### Explanation
 **Example case 1.** The graph is a complete graph with 4 vertices, so the game will always last 3 turns; in the 4th turn, Askar will have no way to move and lose.
 
 **Example case 2.** If Askar places the token on vertex 7, Bob will have to move it to vertex 1 and Askar can then move it to vertex 5 and win. A similar strategy exists for vertices 5, 6 and 8.

@@ -108,8 +108,7 @@ For each query of **type 1** or **type 5**, output the answer to the query in a 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5 8
 1 2 3 2 1
 1 1 3
@@ -157,9 +156,7 @@ For each query of **type 1** or **type 5**, output the answer to the query in a 
 6
 
 
-```
-### Subtasks
-
+</pre>### Subtasks
 - **Subtask 1:** **Q**\***N** ≤ 2\*107. **Points - 10**
 - **Subtask 2:** Queries are of type 5 only. **Points - 5**
 - **Subtask 3:** Queries are of type 1 only. **Points - 10**

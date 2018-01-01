@@ -107,8 +107,7 @@ For each test case, output a single line containing the answer to the problem's 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 rgr
 rrr
@@ -120,9 +119,7 @@ rgbr
 0
 2
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.**We can move the second container to the beginning of the line. This will take one second.
 
 **Example case 2.**Containers are already in desired way.

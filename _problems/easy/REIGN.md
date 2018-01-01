@@ -108,8 +108,7 @@ For each test case, output a single line containing the required integer.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 5 3
 -1 1 2 3 -1
@@ -123,9 +122,7 @@ For each test case, output a single line containing the required integer.
 12
 18
 
-```
-### Explanation
-
+</pre>### Explanation
 There are **T** = 3 test cases the input.
 
 The first test case: **N** equals to 5, **K** equals to 3, A\[\] equals to {-1, 1, 2, 3, -1}. There is the only option: we have to choose \[1, 1\] and \[5, 5\] periods.

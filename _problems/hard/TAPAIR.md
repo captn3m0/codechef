@@ -97,8 +97,7 @@ The first line of the input contains two integers **N M** which are the number o
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5 6
 1 2
 2 3
@@ -110,8 +109,6 @@ The first line of the input contains two integers **N M** which are the number o
 <b>Output:</b>
 6
 
-```
-### Explanation
-
+</pre>### Explanation
 There are 5 cities and 6 roads (numbered from 1 to 6). There are 6 pairs of roads cannot be chosen which are
 (1, 2), (1, 3), (2, 3), (4, 5), (4, 6) and (5, 6).

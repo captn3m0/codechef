@@ -105,8 +105,7 @@ For each question, output on a separate line two space-separated integers **A** 
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 6
 1 2 3
@@ -122,9 +121,7 @@ For each question, output on a separate line two space-separated integers **A** 
 5 2
 8 3
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example question 1.** The only ideal path is between 2 and 5. This path contains two roads: (5, 1) and (1, 2); and (5, 1) is the shortest road among them.
 
 **Example question 2.** The ideal paths are between the following pairs: (3 and 4), (4 and 6), (5 and 3), and (5 and 6). Only road (1, 2) belongs to each ideal path.

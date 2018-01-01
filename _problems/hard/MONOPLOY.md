@@ -88,8 +88,7 @@ If **t='q'**, it means you have to report **f(u)**/>/>
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 13
 0 1
@@ -121,9 +120,7 @@ q 2
 1.8571428571
 
 
-```
-### Explanation
-
+</pre>### Explanation
  Initially, distance of each city from capital is equal to the number of edges on the shortest path, because each city is controlled by a different gangster.
 Therefore, value of f(0) is (0+1+1+2+2+2+3+2+2+3+2+3+3)/13 = 2.
 After performing 'O 4', cost of the edges (0,2) and (2,4) become 0. The cost of all other edges remains same. Therefore, f(6) becomes 1.

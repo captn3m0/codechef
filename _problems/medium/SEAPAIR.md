@@ -100,8 +100,7 @@ For each test case, output a single line containing the answer - number of possi
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 3 0
 50 2
@@ -116,4 +115,4 @@ For each test case, output a single line containing the answer - number of possi
 20
 30
 
-```
+</pre>

@@ -76,10 +76,10 @@ All submissions for this problem are available.It's finally summer in Chefland! 
 
 **Phase 1 :** The chef chooses two indices **i** and **j** and adds the ingredients **i, i+1, ..., j** to his dish. He also finds the sum of the delish value in this range i.e **D\[i\] + D\[i+1\] + ... + D\[j\]**. 
 
-/>/>
+ />/>
 
 **Phase 2 :** The chef chooses two more indices **k** and **l** and adds the ingredients **k, k+1, ..., l** to his dish. He also finds the sum of the delish value in this range i.e **D\[k\] + D\[k+1\] + ... + D\[l\]**. 
-
+ 
 
 Note that **1** ≤ **i** ≤ **j** < **k** ≤ **l** ≤ **N**. 
 
@@ -103,8 +103,7 @@ Print the maximum delish value of the dish that the chef can get.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 5
 1 2 3 4 5
@@ -115,9 +114,7 @@ Print the maximum delish value of the dish that the chef can get.
 13
 4
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.**
 
 Chef can choose **i = j = 1, k = 2, l = 5**.

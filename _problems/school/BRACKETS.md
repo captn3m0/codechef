@@ -78,8 +78,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
  Mike has a valid parentheses sequence. He really likes everything about his sequence, except the fact that it is quite long. So Mike has recently decided that he will replace his parentheses sequence with a new one in the near future. But not every valid parentheses sequence will satisfy him. To help you understand his requirements we'll introduce the pseudocode of function **F(S)**:
 
-```
-
+<pre>
 	FUNCTION F( S - a valid parentheses sequence )
 	BEGIN
 		balance = 0
@@ -93,9 +92,7 @@ All submissions for this problem are available.###  Read problems statements in 
 		RETURN max_balance
 	END
 
-```
- In other words, **F(S)** is equal to the maximal balance over all prefixes of **S**.
-
+</pre> In other words, **F(S)** is equal to the maximal balance over all prefixes of **S**.
  Let's denote **A** as Mike's current parentheses sequence, and **B** as a candidate for a new one. Mike is willing to replace **A** with **B** if **F(A)** is equal to **F(B)**. He would also like to choose **B** with the minimal possible length amongst ones satisfying the previous condition. If there are several such strings with the minimal possible length, then Mike will choose the least one lexicographically, considering '**(**' to be less than '**)**'.
 
  Help Mike!
@@ -118,8 +115,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 ()((()()))
 
@@ -127,4 +123,4 @@ All submissions for this problem are available.###  Read problems statements in 
 ((()))
 
 
-```
+</pre>

@@ -33,20 +33,16 @@ R - L <= 50000**
 
 ### Sample input
 
-```
-3
+<pre>3
 1 5
 6 7
 45 50
 
 
-```
-### Sample output
-
-```
-1430
+</pre>### Sample output
+<pre>1430
 18252
 871229844
 
 
-```
+</pre>

@@ -100,8 +100,7 @@ For each test case, output a single line containing the minimal purchase cost.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 4 
 1 2 3 4
@@ -113,4 +112,4 @@ For each test case, output a single line containing the minimal purchase cost.
 <b>Output:</b>
 6
 
-```
+</pre>

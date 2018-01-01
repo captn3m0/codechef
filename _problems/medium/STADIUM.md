@@ -35,20 +35,16 @@ Example:
 
 Sample input:
 
-```
-
+<pre>
 4
 2 5
 9 7
 15 6
 9 3
 
-```
-Sample output:
-
-```
-
+</pre>Sample output:
+<pre>
 3
 
 
-```
+</pre>

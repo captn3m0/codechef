@@ -101,8 +101,7 @@ For each query, output the corresponding answer as the form "**l** **r**" or "**
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 aa
 6
 Select 1 1
@@ -112,9 +111,7 @@ Rank 1 1
 Rank 2 2
 Rank 1 2
 
-```
-```
-<b>Output:</b>
+</pre><pre><b>Output:</b>
 1 1
 2 2
 1 2
@@ -122,4 +119,4 @@ Rank 1 2
 1 2
 2 1
 
-```
+</pre>

@@ -31,8 +31,7 @@ For each test case, output a line containing exactly one of the words 'Yes' or '
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 3
 0 1 2
@@ -43,4 +42,4 @@ For each test case, output a line containing exactly one of the words 'Yes' or '
 Yes
 No
 
-```
+</pre>

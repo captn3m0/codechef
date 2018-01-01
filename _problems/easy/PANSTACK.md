@@ -85,18 +85,14 @@ For each case the output should be a single integer representing the number of w
 
 **Input**
 
-```
-
+<pre>
 2
 1
 2
 
-```
-**Output**
-
-```
-
+</pre>**Output**
+<pre>
 1
 2
 
-```
+</pre>

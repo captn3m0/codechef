@@ -115,8 +115,7 @@ Sum of all **M** values for test cases is not greater than **200000**.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 6 7
 3 1 3 4 4
@@ -143,4 +142,4 @@ Sum of all **M** values for test cases is not greater than **200000**.
 1
 1
 
-```
+</pre>

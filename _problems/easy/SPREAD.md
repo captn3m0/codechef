@@ -43,16 +43,12 @@ Q 3
 S 1 3 1
 Q 3
 
-```
-**Output:**```
-
+<pre>**Output:**<pre>
 0
 1
 2
 
-```
-### Limitations
-
+</pre>### Limitations
 - 0<n≤106
 - 0<m≤250 000
 - 0<u≤v≤n

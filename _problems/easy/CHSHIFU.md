@@ -118,8 +118,7 @@ For each testcase, print the **minimum** number of employees to be informed on a
 
 **Input**
 
-```
-
+<pre>
 2
 3 3
 1 2
@@ -130,17 +129,12 @@ For each testcase, print the **minimum** number of employees to be informed on a
 2 3
 3 4
 
-```
-**Output**
-
-```
-
+</pre>**Output**
+<pre>
 1
 2
 
-```
-**Explanation**
-
+</pre>**Explanation**
 In testcase 1, since every employee is a friend of every other employee, we just need to select 1 employee.
 
 In testcase 2, selecting employees 2 and 4 would ensure that all 4 employees are represented.

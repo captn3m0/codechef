@@ -100,12 +100,12 @@ It is guaranteed that at least one pair of valid beat notations exists.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
-4<br></br>6<br></br>2 4 5 8 11 16<br></br>5<br></br>1 2 3 4 5<br></br>8<br></br>1 3 9 10 19 27 28 81<br></br>6<br></br>1 4 7 10 13 25<br></br><b>Output:</b>
-2 5 8 11<br></br>2 4 8 16<br></br>1 2 3 4 5<br></br>1 2 4<br></br>1 10 19 28<br></br>1 3 9 27 81<br></br>1 7 13<br></br>4 10 25<br></br><br></br>/>/>/>/>/>/>/>/>/>/>/>/>/>/>/>/>/>/>
-```
-### Note
+4<br></br>6<br></br>2 4 5 8 11 16<br></br>5<br></br>1 2 3 4 5<br></br>8<br></br>1 3 9 10 19 27 28 81<br></br>6<br></br>1 4 7 10 13 25<br></br>
 
+<b>Output:</b>
+2 5 8 11<br></br>2 4 8 16<br></br>1 2 3 4 5<br></br>1 2 4<br></br>1 10 19 28<br></br>1 3 9 27 81<br></br>1 7 13<br></br>4 10 25<br></br><br></br>
+/>/>/>/>/>/>/>/>/>/>/>/>/>/>/>/>/>/>
+</pre>### Note
 In last example, the common ratio is 2.5 (**non-integer**) even when all the elements of geometric progression sequence are integers.

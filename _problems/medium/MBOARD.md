@@ -96,8 +96,7 @@ For each query, output the answer of the query.
 
 ### Sample
 
-```
-
+<pre>
 <b>Input:</b>
 3 6
 RowQuery 1
@@ -113,38 +112,28 @@ ColQuery 1
 0
 1
 
-```
-### Explanation
-
+</pre>### Explanation
 At first, the magic board is
 
-```
-<b>000 <- row 1
+<pre><b>000 <- row 1
 000
 000
 </b>
-```
-So the answer of first query _"RowQuery 1"_ is **3**.
-
+</pre>So the answer of first query _"RowQuery 1"_ is **3**.
 After the _"ColSet 1 1"_, the board becomes
 
-```
-<b>column 1
+<pre><b>column 1
 |
 V
 100
 100
 100
 </b>
-```
-So the answer of the second query _"RowQuery 1"_ is clearly **2**, since the cell **(1,1)** became **1**. And the answer of the third query _"ColQuery 1"_ is .
-
+</pre>So the answer of the second query _"RowQuery 1"_ is clearly **2**, since the cell **(1,1)** became **1**. And the answer of the third query _"ColQuery 1"_ is .
 Finally, apply the operation _"RowSet 1 0"_, the board has changed to
 
-```
-<b>000
+<pre><b>000
 100
 100
 </b>
-```
-From this board, the answer of the last query _"ColQuery 1"_ should be **1**.
+</pre>From this board, the answer of the last query _"ColQuery 1"_ should be **1**.

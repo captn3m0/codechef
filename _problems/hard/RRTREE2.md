@@ -74,8 +74,7 @@ All submissions for this problem are available.###  Read problems statements in 
 Misha likes playing DotA and he would do nothing else but play it if he could. Unfortunately for Misha, real life is rough and he has to solve following problem before spending a day playing. 
 You are given a rooted tree with **N** vertices. Vertices are numerated from **1** to **N** and vertex **1** is the root of the tree. A positive integer **Wi** is assigned to every node. Consider following code:
 
-```
-
+<pre>
 Integer <b>sum</b> := 0;
 Array of boolean marked := {false, false, false, ..., false};
 Procedure Dfs(Integer <b>v</b>)
@@ -89,8 +88,7 @@ Procedure Dfs(Integer <b>v</b>)
     End;
 
 
-```
-One can notice that the state of **marked\[\]** array depends on the order vertices **u** processed. You are to check for every integer number **s** from **1** to the sum of **Wi** whether there exists some order of viewing children in **Dfs** that **marked\[s\] = true.** Note that **marked\[\]** and **sum** are global variables and **Dfs(1)** is initially called.
+</pre>One can notice that the state of **marked\[\]** array depends on the order vertices **u** processed. You are to check for every integer number **s** from **1** to the sum of **Wi** whether there exists some order of viewing children in **Dfs** that **marked\[s\] = true.** Note that **marked\[\]** and **sum** are global variables and **Dfs(1)** is initially called.
 
 ### Input
 
@@ -109,8 +107,7 @@ Let **S** be the sum over all **Wi**. You should output S characters **ith** of 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5
 1 7 7 2 4
 1
@@ -122,4 +119,4 @@ Let **S** be the sum over all **Wi**. You should output S characters **ith** of 
 100000010100011010001
 
 
-```
+</pre>

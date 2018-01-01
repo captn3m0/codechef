@@ -101,8 +101,7 @@ For each test case, output a single line containing the answer to the corresponi
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 2 2
 E.
@@ -120,4 +119,4 @@ Possible
 Possible
 Impossible
 
-```
+</pre>

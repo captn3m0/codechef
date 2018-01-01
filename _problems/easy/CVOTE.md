@@ -109,8 +109,7 @@ Output should consist of two lines. The first line should contain the name of th
 
 ### Example 1
 
-```
-
+<pre>
 <b>Input:</b>
 1 3
 Leibniz Germany
@@ -122,11 +121,8 @@ Leibniz
 Germany
 Leibniz
 
-```
-### Example 2
-
-```
-
+</pre>### Example 2
+<pre>
 <b>Input:</b>
 4 5
 Ramanujan India
@@ -143,11 +139,8 @@ Lagrange
 Italy
 Ramanujan
 
-```
-### Example 3
-
-```
-
+</pre>### Example 3
+<pre>
 <b>Input:</b>
 2 2
 Newton England
@@ -159,9 +152,7 @@ Euclid
 England
 Euclid
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example 1.** Here we have only one chef **Leibniz** and he is from **Germany**. Clearly, all votes are for him. So **Germany** is the country-winner and **Leibniz** is the **"Chef of the Year"**.
 
 **Example 2.** Here we have chefs **Torricelli** and **Lagrange** from **Italy**, chef **Ramanujan** from **India** and chef **Gauss** from **Germany**. **Torricelli** got 2 votes, while **Lagrange** got one vote. Hence the **Italy** got 3 votes in all. **Ramanujan** got also 2 votes. And so **India** got 2 votes in all. Finally **Gauss** got no votes leaving **Germany** without votes. So the country-winner is **Italy** without any ties. But we have two chefs with 2 votes: **Torricelli** and **Ramanujan**. But since the string **"Ramanujan"** is lexicographically smaller than **"Torricelli"**, then **Ramanujan** is the **"Chef of the Year"**.

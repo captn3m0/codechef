@@ -98,12 +98,11 @@ For each test case, output a single line containing who will win the game: "Chef
 - **1** ≤ **T** ≤ **10,000**
 - **1** ≤ **N** ≤ **100,000**
 - sum of **N** in all test-cases will not exceed **100,000**
-- **1** ≤ **Ai** ≤ **50**
+- **1** ≤ **Ai**  ≤ **50**
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 1 Chef
 8
@@ -114,9 +113,7 @@ For each test case, output a single line containing who will win the game: "Chef
 Chef
 Chefu
 
-```
-### Explanation
-
+</pre>### Explanation
 **Test case 1:** The game stops as soon as it begins, because there is only one integer, and because it is even, Chef wins.
 
 **Test case 2:** Chef has 4 valid first moves:

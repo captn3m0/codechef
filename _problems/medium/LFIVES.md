@@ -100,8 +100,7 @@ For each query, output a single line containing one integers: the number of trip
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 10 3
 5 5 1 1 5 5 1 1 5 5
 1 10
@@ -114,9 +113,7 @@ For each query, output a single line containing one integers: the number of trip
 0
 
 
-```
-### Explanation
-
+</pre>### Explanation
  The following triples(**i**, **j**, **k**) are valid for the first and the second queries:
 
 - (3, 5, 7)

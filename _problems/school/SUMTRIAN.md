@@ -81,8 +81,7 @@ For each test case write the determined value in a separate line.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 3
@@ -99,6 +98,4 @@ For each test case write the determined value in a separate line.
 5
 9
 
-```
-
-**Warning: large Input/Output data, be careful with certain languages**
+</pre>**Warning: large Input/Output data, be careful with certain languages**

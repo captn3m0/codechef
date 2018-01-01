@@ -86,8 +86,7 @@ In **T** lines print **T** inetgers - the answers for the corresponding test cas
 
 1 T 1 N Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 3
@@ -103,4 +102,4 @@ In **T** lines print **T** inetgers - the answers for the corresponding test cas
 7
 
 
-```
+</pre>

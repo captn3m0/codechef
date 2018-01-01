@@ -28,8 +28,7 @@ For each time of bombing by the enemy (by the appearance in the input), output o
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 7 5
 P 1 4
@@ -42,4 +41,4 @@ B 3
 2
 1
 
-```
+</pre>

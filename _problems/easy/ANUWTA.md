@@ -89,8 +89,7 @@ For each test case, output the distance you walked.
 
 ### Example
 
-```
-<b>Input</b>
+<pre><b>Input</b>
 2
 1
 2
@@ -99,9 +98,7 @@ For each test case, output the distance you walked.
 2
 5
 
-```
-### Explanation
-
+</pre>### Explanation
 **Testcase #2**
 You are initially at (0, 0)
 Right most on-light is (2, 0). Distance = 2.

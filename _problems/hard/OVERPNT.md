@@ -84,33 +84,28 @@ Limak wants to become a great coder. Right now he learns the computional geometr
 Without thinking which type to use, Limak wrote the following C++ function:
 
 
-```
-
+<pre>
 	typedef unsigned int UI;
 	bool areCollinear(UI ax, UI ay, UI bx, UI by, UI cx, UI cy) {
 		return (bx - ax) * (cy - ay) == (by - ay) * (cx - ax);
 	}
 
-```
-
+</pre>
 If you are more familiar with Python, you can assume that he wrote:
 
-```
-
-```
-
+<pre>
+</pre>
     M = 2 ** 32
     def subtract(a, b):
         ans = a - b
         if ans 
 
-```
-<br></br><p>To show Limak how important it is to watch for overflows, you must find any set of <b>N</b> distinct points that:
+<pre><br></br>
+
+<p>To show Limak how important it is to watch for overflows, you must find any set of <b>N</b> distinct points that:
 
 </p>
-```
-- Any three distinct points in any order would be treated as collinear by Limak's function.
-- None three points are collinear (what implies that points are distinct).
+</pre>- Any three distinct points in any order would be treated as collinear by Limak's function.- None three points are collinear (what implies that points are distinct).
 - Coordinates are non-negative integers not exceeding 106.
 
 
@@ -137,8 +132,7 @@ Remember that one of requirements is 0 ≤ xi, yi ≤ 106.
 
 ### Example
 
-```
-<b>Input1:</b>
+<pre><b>Input1:</b>
 3
 
 <b>Output2:</b>
@@ -154,9 +148,7 @@ Remember that one of requirements is 0 ≤ xi, yi ≤ 106.
 914958 554338
 518360 23016
 441824 483616
-```
-### Explanation
-
+</pre>### Explanation
 **Test case 1.** The provided function areCollinear() should return True for the found three points given in any order (there are 3! = 6 possible orders of 3 points). Let's analyze the evaluation of areCollinear(42, 483426, 106732, 139820, 210379, 490375):
 
 Without any overflow errors, the calculations would be:

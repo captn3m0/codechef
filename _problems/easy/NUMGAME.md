@@ -27,29 +27,23 @@ Output :
 
 Output T lines one for each test case, containing "ALICE" if Alice wins the game, or "BOB" otherwise.
 
-```
-
+<pre>
 Sample Input :
 2
 1
 2
 
 
-```
-```
-
+</pre><pre>
 Sample Output :
 BOB
 ALICE
 
 
-```
-```
-
+</pre><pre>
 Constraints :
 1 <= T <= 10000
 1 <= N <= 1000000000
 
 
-```
-Note : For the first test case, Alice cannot make any move and hence Bob wins the game. For the second test case, Alice subtracts 1 from N. Now, Bob cannot make a move and loses the game.
+</pre>Note : For the first test case, Alice cannot make any move and hence Bob wins the game. For the second test case, Alice subtracts 1 from N. Now, Bob cannot make a move and loses the game.

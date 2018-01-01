@@ -101,24 +101,18 @@ You should output exactly **T** lines each containing answer for corresponding t
 
 **Input:**
 
-```
-2
+<pre>2
 3 1
 2 3 1
 6 3
 6 1 5 3 4 2 
 
-```
-**Output:**
-
-```
-
+</pre>**Output:**
+<pre>
 5
 5  
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case #1:**
 The following **5** subarrays form an interval:
 

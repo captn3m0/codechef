@@ -104,8 +104,7 @@ Output an integer, denoting the smallest time **T** for which there exists a goo
 **Input**
 />
 
-```
-
+<pre>
 5 4 3
 0 1 2
 0 2 3
@@ -113,15 +112,13 @@ Output an integer, denoting the smallest time **T** for which there exists a goo
 2 4 4
 1 3 4
 
-```
-**Output**
-/>
+</pre>**Output**/>
 
 `7`**Explaination**: Consider the case shown in Figure 1, where **N=5, M=4, K=3**, and
 
 
 ![croc](http://www.codechef.com/download/croc.png)
-
+ 
 />/>/>
 
 Chambers are shown as circles, and corridors connecting them are shown as lines. Exit chambers are shown as thick-bordered circles. Benjamas starts at chamber 0 (marked by a triangle). An optimal escape plan is the following one:
@@ -136,8 +133,7 @@ Chambers are shown as circles, and corridors connecting them are shown as lines.
 **Input**
 />
 
-```
-
+<pre>
 5 7 2
 0 2 4
 0 3 3
@@ -148,18 +144,13 @@ Chambers are shown as circles, and corridors connecting them are shown as lines.
 3 4 9
 1 3
 
-```
-**Output**
-
-```
-
+</pre>**Output**
+<pre>
 14
 
-```
-**Explaination**: Consider the case shown in Figure 2, where **N=5, M=7, K=2**, and
-
+</pre>**Explaination**: Consider the case shown in Figure 2, where **N=5, M=7, K=2**, and
 ![croc_1](http://www.codechef.com/download/croc_1.png)
-
+ 
 />/>
 
 Here is an optimal escape plan:

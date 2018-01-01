@@ -100,8 +100,7 @@ For each test case output a single line containing**1** if it's possible to find
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 3 3
 1 2
@@ -123,9 +122,7 @@ For each test case output a single line containing**1** if it's possible to find
 0
 1
 
-```
-### Explanation
-
+</pre>### Explanation
  In the first test case we can draw triangle on the plane. Obviously no pair of segments will intersect and we can't add any more straight-line segment(and even not straight-line) so the answer is **1**
 
 In the second test case we can draw 3 points and connect 1 and 3 and 2 and 3. But we can add one more(1 and 3) so the answer is

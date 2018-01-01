@@ -29,8 +29,7 @@ For each test case, output two lines. In the first line, output a single integer
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 1
@@ -53,9 +52,7 @@ For each test case, output two lines. In the first line, output a single integer
 1
 101
 
-```
-### Constraints
-
+</pre>### Constraints
 - 1 <= _T_ <= 5
 - 1 <= _N_ <= 50000
 - 0 <= _ai_ <= _bi_ <= _N_

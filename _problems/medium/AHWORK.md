@@ -96,8 +96,7 @@ You are given **N** strings. Each of them will have size equal to one or two, wi
 13. Subtask #2 (80 points) : **1** ≤ **N** ≤ **103**
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 1
 4
@@ -106,7 +105,5 @@ ab a b ba
 <b>Output:</b>
 1
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** You need to delete strings either "a" or "b" (one of them), rest of the strings can be concatenated to form a palindrome, i.e. "abbba" and "ababa" respectively.

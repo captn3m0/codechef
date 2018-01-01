@@ -94,8 +94,7 @@ For each test case, output a single integer – the minimum no. of moves require
 13. 1 ≤ **hi** ≤ 109
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 3
 1 2 3
@@ -106,9 +105,7 @@ For each test case, output a single integer – the minimum no. of moves require
 2
 12
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.**
 In first case, we can first choose (2,2) and then (1,2)
 

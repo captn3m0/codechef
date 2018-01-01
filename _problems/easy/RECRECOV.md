@@ -100,8 +100,7 @@ For each test case, output a single line containing the minimum number of lines 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 3 3
 1 2
@@ -121,4 +120,4 @@ For each test case, output a single line containing the minimum number of lines 
 2
 2
 
-```
+</pre>

@@ -102,13 +102,12 @@ For each test case, output a single integer denoting the number of pairs of stud
 - **1** ≤ **|s|** ≤ **105**
 - No student is studying.
 
-
+ 
 **Subtask #2: (70 points)**- Original Constraints.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 >Output:
 0
@@ -116,9 +115,7 @@ For each test case, output a single integer denoting the number of pairs of stud
 1
 2
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** The updated configuration will be . No students are talking to each other, so no one will be punished.
 
 **Example case 2 and 3.** These examples are already explained in the problem statement.

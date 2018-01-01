@@ -118,8 +118,7 @@ For each of the **Q** queries, output on separate lines the number of the city f
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 8 4
 8
@@ -159,9 +158,7 @@ For each of the **Q** queries, output on separate lines the number of the city f
 4
 
 
-```
-### Explanation
-
+</pre>### Explanation
 In the first query, Chef must purchase product 1 from either city 5 or city 6. In both cases Chef will pass directly through the capital while travelling from city 2, so he chooses the smallest city number, 5.
 
 In the third query, the path from city 2 to city 3 is always at least 2 steps away from the capital. The path from city 2 to city 1 is less preferred, as the path comes within 1 step of the capital.

@@ -77,7 +77,7 @@ But her friend Lira, as she was tired of hearing her boasting about her skills f
 
  Cyael: "Okay Lira, tell me about SuperPower of 2 so that I can solve one more problem and prepare for Codechef's November Long Challenge!! It's less than a month away!"
 
- Lira: "I define the **Nth** Superpower of 2 as being the number **(2N\_bin)2**, where **N\_bin** stands for the decimal number encoded by the representation in base 2 of the number N.
+ Lira: "I define the **Nth** Superpower of 2 as being the number **(2N\_bin)2** , where **N\_bin** stands for the decimal number encoded by the representation in base 2 of the number N.
 
 So, for example, the 2nd SuperPower of 2 is then equal to the number:
 
@@ -114,8 +114,7 @@ For each test case, output a single line containing the required value: the **Nt
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <p>100000
 1
 2
@@ -126,4 +125,4 @@ For each test case, output a single line containing the required value: the **Nt
 1048576
 (and 99998 more answers...)
 
-```
+</pre>

@@ -46,15 +46,12 @@ For each test case output the required answer in one line.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 5
 
 <b>Output:</b>
 6
 
-```
-### Explanation
-
+</pre>### Explanation
 Possible value of **N** in given case are: 32,23,113,131 and so on, in each case digit sum of **(N+1)** would be **6**.

@@ -88,26 +88,17 @@ Print YES if N is an Asmany number, NO otherwise.
 
 ### Constraints
 
-```
-1 ≤ T ≤ 100
+<pre>1 ≤ T ≤ 100
 1 ≤ Number of digits in N ≤ 1000
 
-```
-### Sample Input
-
-```
-2
+</pre>### Sample Input
+<pre>2
 3
 4
 
-```
-### Sample Output
-
-```
-NO
+</pre>### Sample Output
+<pre>NO
 YES
 
-```
-### Explanation
-
+</pre>### Explanation
 4 is an Asmany number. To be precise, it is the 4th Asmany number: There are 4 Asmany strings of length 4. 0011, 1100, 0101, 1010.

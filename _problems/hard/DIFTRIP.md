@@ -96,8 +96,7 @@ Every pair of different cities can be traveled by going through exactly one path
 
 ### Sample
 
-```
-
+<pre>
 <b>Input</b>:
 3
 2 1
@@ -106,9 +105,7 @@ Every pair of different cities can be traveled by going through exactly one path
 <b>Output</b>:
 3
 
-```
-### Explanation
-
+</pre>### Explanation
 In the sample, the country consists of three cities.
 There are two roads. The first road connects city 1 and city 2.
 The second road connects city 1 and city 3.

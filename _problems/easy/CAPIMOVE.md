@@ -117,8 +117,7 @@ For each test case, output a single line containing **N** integers **A1**, **A2*
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 6
 5 10 15 20 25 30
@@ -131,4 +130,4 @@ For each test case, output a single line containing **N** integers **A1**, **A2*
 <b>Output:</b>
 6 6 6 2 6 5
 
-```
+</pre>

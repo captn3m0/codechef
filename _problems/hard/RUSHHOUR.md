@@ -53,8 +53,7 @@ Given M, N, K, for each car, we let it be horizontal or vertical with equal prob
 
 ### Example
 
-```
-
+<pre>
 <b>Input</b>
 2
 
@@ -78,5 +77,4 @@ f.g..j
 5
 6
 
-```
-The first sample test case is explained in the figure.
+</pre>The first sample test case is explained in the figure.

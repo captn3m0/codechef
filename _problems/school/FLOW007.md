@@ -83,8 +83,7 @@ All submissions for this problem are available.If an Integer **N**, write a prog
 
 ### Example
 
-```
-
+<pre>
 <b>Input</b>
 3 
 12345
@@ -95,4 +94,4 @@ All submissions for this problem are available.If an Integer **N**, write a prog
 30213
 3212
 
-```
+</pre>

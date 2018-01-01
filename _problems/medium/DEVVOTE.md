@@ -106,8 +106,7 @@ For each test case, print a single real number corresponding to the answer of th
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 1
 2
@@ -116,11 +115,9 @@ For each test case, print a single real number corresponding to the answer of th
 1.000000
 2.000000
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example 1:**
-**1st** Devu votes himself and get elected for president. So expected number of presidents are **1**.
+ **1st** Devu votes himself and get elected for president. So expected number of presidents are **1**.
 
 **Example 2:**
 

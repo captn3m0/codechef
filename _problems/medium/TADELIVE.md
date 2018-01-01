@@ -105,8 +105,7 @@ Please find out the maximum possible amount of total tip money after processing 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5 3 3
 1 2 3 4 5
 5 4 3 2 1
@@ -114,7 +113,5 @@ Please find out the maximum possible amount of total tip money after processing 
 <b>Output:</b>
 21
 
-```
-### Explanation
-
+</pre>### Explanation
 Bob will take the first three orders (or the first two) and Andy will take the rest (of course).

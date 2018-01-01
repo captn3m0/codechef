@@ -100,8 +100,7 @@ For each test case, output a single line containing a single integer - the answe
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 1 0 0 0
 1
@@ -118,9 +117,7 @@ For each test case, output a single line containing a single integer - the answe
 3
 213986343
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 2.** 
 
 In the second example function looks as follows **F(N) = 1**. So for each _rang_ there is a single object of the _rang_. To get multiset with sum of _rang_s equal to 3, you can pick: three objects of _rang_ 1, or one object of _rang_ 1 and one of _rang_ 2, or only one object of _rang_ 3. 

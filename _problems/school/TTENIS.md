@@ -86,8 +86,7 @@ For each test case, output on a separate line a string describing who won the ma
 10. **1** ≤ **length(S)** ≤ **100**
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 0101111111111
 11100000000000
@@ -96,9 +95,7 @@ For each test case, output on a separate line a string describing who won the ma
 WIN
 LOSE
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** Chef won the match 11:2, his opponent won just two points, the first and the third of the match.
 
 **Example case 2.** Chef lost this match 11:3, however he started very well the match, he won the first three points in a row, but maybe he got tired and after that lost 11 points in a row.

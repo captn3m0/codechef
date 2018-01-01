@@ -96,15 +96,12 @@ For each test case, output a single line containing answer for corresponding tes
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 1 10
 
 <b>Output:</b>
 6
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** Numbers 2,3,4,5,7,9 are special.

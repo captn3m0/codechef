@@ -94,8 +94,7 @@ For every query of the type **2** output the answer on the separate line.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 7 4
 abacaba
 2 1 7
@@ -108,9 +107,7 @@ abacaba
 0
 1
 
-```
-### Scoring
-
+</pre>### Scoring
 In all the subtasks, 1 <= **L** <= **R** <= **N**.
 
 Subtask 1 (33 points): 1 <= **N** <= 10, 1 <= **M** <= 1000

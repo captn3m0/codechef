@@ -131,8 +131,7 @@ For each test case, print the number of the points on the **x**-axis such that a
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 4
 2 0 1
@@ -146,9 +145,7 @@ For each test case, print the number of the points on the **x**-axis such that a
 9
 5
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example 1.** This is the case of **S = 2, C = 0**. So the situation is the same as the first figure in the statement. There are **5** points on the **x**-axis such that at least **1** function through the points. That is, **x = 0, π/2, π, 3π/2, 2π**.
 
 **Example 2.** This is also the case of **S = 2, C = 0**. So the situation is the same as the first figure in the statement. There are **3** points on the **x**-axis such that at least **2** functions through the points. That is, **x = 0, π, 2π**.

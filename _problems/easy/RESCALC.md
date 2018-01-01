@@ -105,15 +105,14 @@ For each test case, output a single line containing the answer as specified in t
 - **1** ≤  **c\[i\]**  ≤  **100**
 - **1** ≤  **type\[i\]\[j\]**  ≤  **3**
 
-**Subtask #2 : (80 points)** - **1** ≤ **T** ≤ **10**
+ **Subtask #2 : (80 points)** - **1** ≤ **T** ≤ **10**
 - **1** ≤  **N**  ≤ **100**
 - **1** ≤  **c\[i\]**  ≤  **100**
 - **1** ≤  **type\[i\]\[j\]**  ≤  **6**
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b><tt>
 3
 2
@@ -132,9 +131,7 @@ chef
 2
 tie</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1**.
 
 Chef has total 6 cookie, so he gets 6 points for that. Also, he can put all his cookies (as they are all distinct) in a bag of size 6. It will fetch him additional 4 points. So, Chef's total points will be 10.

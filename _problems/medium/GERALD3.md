@@ -92,8 +92,7 @@ For each pair of each test case print the required number of substrings.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 ababa
 4
@@ -111,4 +110,4 @@ a
 5
 1
 
-```
+</pre>

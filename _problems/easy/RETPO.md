@@ -87,8 +87,7 @@ For each test case, output a single line containing number of moves that robot w
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 3 3
 3 4
@@ -97,7 +96,5 @@ For each test case, output a single line containing number of moves that robot w
 6
 7
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** Sequence of moves would be LRLRLR

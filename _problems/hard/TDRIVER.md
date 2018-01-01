@@ -99,8 +99,7 @@ For each test case, output a single line containing one integer: the sum of the 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 4
 1 1
@@ -123,4 +122,4 @@ For each test case, output a single line containing one integer: the sum of the 
 32274
 
 
-```
+</pre>

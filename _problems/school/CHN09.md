@@ -44,8 +44,7 @@ When Malvika saw the balloons, she was furious with anger as she wanted all the 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 ab
 bb
@@ -56,9 +55,7 @@ baaba
 0
 2
 
-```
-### Explanation
-
+</pre>### Explanation
 **In the first example**,
 you can change amber to brass or brass to amber. In both the cases, both the balloons will have same colors. So, you will need to paint 1 balloon. So the answer is 1.
 

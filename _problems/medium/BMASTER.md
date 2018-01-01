@@ -123,8 +123,7 @@ For every Maelk's query output on a separate line the numbers of images Maelk wi
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3 3 3
 1 1
@@ -143,9 +142,7 @@ For every Maelk's query output on a separate line the numbers of images Maelk wi
 12
 17
 
-```
-### Explanation
-
+</pre>### Explanation
 The initial grid looks as follows:
 100
 000

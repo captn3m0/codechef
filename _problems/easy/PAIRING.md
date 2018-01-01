@@ -27,8 +27,7 @@ The output for each test case consists of the indices of the pairs of employees 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 4 5
 0 1
@@ -45,4 +44,4 @@ The output for each test case consists of the indices of the pairs of employees 
 1 4
 2
 
-```
+</pre>

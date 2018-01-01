@@ -114,8 +114,7 @@ Be careful! Time is sensitive! Chef **cannot** make a day when he completed more
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 4 2 2 
 5 7 6 1
@@ -126,11 +125,8 @@ Be careful! Time is sensitive! Chef **cannot** make a day when he completed more
 <b>Output:</b>
 3
 
-```
-### Explanation
-
-```
-<b>Example case 1.</b>
+</pre>### Explanation
+<pre><b>Example case 1.</b>
 In this example Chef goes through the following steps:
 Use black button <b>1</b> on the first day.
 Use black button <b>4</b> on the second day.
@@ -139,4 +135,4 @@ The arrays <b>A</b> and <b>B</b> are now effectively changed to:
 5 7 3 1
 4 7 1 1
 So he will have <b>3</b> uncompleted tasks.
-```
+</pre>

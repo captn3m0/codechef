@@ -94,8 +94,7 @@ For each test case, output a single line containing an integer denoting the maxi
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 5 1
 4 1 1 1 4 4 4 4 1
@@ -107,9 +106,7 @@ For each test case, output a single line containing an integer denoting the maxi
 16
 19
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example 1:** You have only a single cut and the cake now have two pieces(as seen by the figure in the left). The amount of cake in piece 1 is 9 and the amount of cake in piece 2 is 16. So you will take the piece 2 and leave piece 1 for your friend.
 
 ![](/download/extimages/77ea6c0d4a8a3a84ed5e2ca3778e0893.jpg)**Example 2:** You have two cuts and the cake now have four pieces(as seen by the figure in the left). The amount of cake in piece 1 is 18, the amount of cake in piece 2 is 3, the amount of cake in piece 3 is 1 and the amount of cake in piece 4 is 3. So you will take piece 1 and piece 3 for yourself and leave the piece 2 and piece 4 for your friend.

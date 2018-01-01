@@ -94,21 +94,18 @@ The first line should contain **YES**, if we can obtain the required division, o
 
 ### Examples
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5
 7 4 1 1 2
 
 <b>Output:</b>
 YES
 
-```
-```
-<b>Input:</b>
+</pre><pre><b>Input:</b>
 5
 1 1 1 1 1
 
 <b>Output:</b>
 NO
 
-```
+</pre>

@@ -94,8 +94,7 @@ for x = 2 to N:
 	else
 		A[x] = (d*A[x-1]^2 + e*A[x-1] + f) mod m
 
-```**Method of generation of range of ingredients for Q dishes** 
- You are given non-negative integer parameters **L1, La, Lc, Lm, D1, Da, Dc, Dm**
+<pre>**Method of generation of range of ingredients for Q dishes**  You are given non-negative integer parameters **L1, La, Lc, Lm, D1, Da, Dc, Dm**
 
  ```
 
@@ -105,19 +104,18 @@ for i = 1 to Q:
 	L = L1 + 1;
 	R = min(L + K - 1 + D1, N);
 
-```### Input
-
+</pre>### Input
 - The first line contains three integers **N**, **K** and **Q**.
 - The second line contains the integers **a, b, c, d, e, f, r, s, t, m,** and **A\[1\]**.
 - Then third line contains the integers **L1, La, Lc, Lm, D1, Da, Dc,** and **Dm**
-
+ 
 ### Output
 
 Output two space separated integers:
 
 - The sum of qualities of the dishes.
 - The product of qualities of the dishes modulo **109+7**.
-
+ 
 ### Constraints
 
 - **1 ≤ N, Q ≤ 107**
@@ -129,13 +127,13 @@ Output two space separated integers:
 - **1 ≤ Da, Dc ≤ Dm**
 - **1 ≤ L1 ≤ N**
 - **1 ≤ D1 ≤ K**
-
+ 
 ### Sub tasks
 
 - Subtask #1: **1 ≤ N, Q ≤ 1000** (10 points)
 - Subtask #2: **1 ≤ Q ≤ 104** (20 points)
 - Subtask #3: original constraints (70 points)
-
+ 
 ### Example
 
  ```
@@ -147,11 +145,9 @@ Output two space separated integers:
 <b>Output:</b>
 13 13
 
-```
-### Explanation
-
+<pre>### Explanation
 - The array **A** comes out to be **{1, 3, 13, 83}** and the first dish has **L = 3** and **R = 4**. The minimum in this range is **13**, thus the sum and product both are **13** and hence the answer.
-
+ 
 ### Note
 
 Multiplier for C# and Java have been reduced to 1.5 instead of 2.

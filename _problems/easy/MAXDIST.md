@@ -88,8 +88,7 @@ For each test case, output a single line print "YES" if it is possible to add a 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 2
 1 2
@@ -107,9 +106,7 @@ NO
 YES
 YES
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** In this example, we can use just cycle edges, or a parallel edge but these edges don't change the distance of the 1-2 nodes. ![HTML5 Icon](https://dl.dropboxusercontent.com/u/61869957/example1.bmp)
 
 **Example case 2.**The original graph diameter is two because distance(1,3)=2, distance(1,2)=1 and distance(2,3)=1, if we connect 1,3 nodes then distance(1,3) will be 1 so the diameter decrease to 1. ![HTML5 Icon](https://dl.dropboxusercontent.com/u/61869957/example2.bmp)

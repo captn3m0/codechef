@@ -116,8 +116,7 @@ to find **Ki**-th string for **i**-th query.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 8 4
 abcbbaca
@@ -140,4 +139,4 @@ aba
 ba
 -1
 
-```
+</pre>

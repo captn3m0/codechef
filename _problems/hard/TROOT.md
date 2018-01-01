@@ -101,8 +101,7 @@ Output **M** lines. Output the product of all the possible roots' numbers modulo
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5 4
 1 2
 2 3
@@ -119,4 +118,4 @@ Output **M** lines. Output the product of all the possible roots' numbers modulo
 30
 120
 
-```
+</pre>

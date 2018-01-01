@@ -129,8 +129,7 @@ Do not add any newlines between different testcases.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 4
 0 0
@@ -156,9 +155,7 @@ Do not add any newlines between different testcases.
 7
 3
 
-```
-### Explanation
-
+</pre>### Explanation
 First testcase:
 
 First trip: When **C** = 1, Stannis can use 1-2 passage and he will reach the destination;

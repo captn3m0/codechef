@@ -94,8 +94,7 @@ For each query output the required Answer modulo **1000000009**. Answer is the n
 
 ### Example
 
-```
-<b>Input</b>
+<pre><b>Input</b>
 2
 5 1
 1 2 -1 4 5
@@ -110,9 +109,7 @@ For each query output the required Answer modulo **1000000009**. Answer is the n
 8
 2
 
-```
-### Explanation
-
+</pre>### Explanation
 **Test Case #1, Query #1**
 {}, {1,-1}, {1,-1,4,5}, {4,5} are winning subsets. Sums are 0, 0, 9, 9 respectively.
 

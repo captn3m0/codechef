@@ -100,8 +100,7 @@ A string **A** is said to be lexicographically smaller than the string **B** of 
 15. Subtask #3 (70 points) : **1** ≤ **|S|** ≤ **105**
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 abdc
 3
@@ -112,9 +111,7 @@ bacb
 abc
 ab
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** "abc" is the smallest lexicographical subsequence out of \["abd", "bdc", "abc", "adc"\].
 
 **Example case 2.** "ab" is the smallest lexicographical subsequence of length 2.

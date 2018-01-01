@@ -89,8 +89,7 @@ For each query, print the required answer in one line.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 1 2
 2 3
@@ -101,7 +100,5 @@ For each query, print the required answer in one line.
 2
 3
 
-```
-### Explanation
-
+</pre>### Explanation
 For first query, 1 is directly connected to 2 by an edge. Hence distance 1.

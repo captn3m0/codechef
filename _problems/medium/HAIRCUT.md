@@ -98,7 +98,7 @@ For each test case, output a single line containing one integer — the maximum 
 - 1 ≤ **N** ≤ 150,000
 - 1 ≤ **A** ≤ **B** ≤ 109
 - 1 ≤ **t**i ≤ 109
-- **t**iti+1
+- **t**i ti+1
 
 ### Subtasks
 
@@ -109,8 +109,7 @@ For each test case, output a single line containing one integer — the maximum 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 6
 5 4 8
 2 3 6 8 9
@@ -133,9 +132,7 @@ For each test case, output a single line containing one integer — the maximum 
 20
 3
 
-```
-### Explanation
-
+</pre>### Explanation
 **Test case 1.**There are 5 important days. Since Limak had his hair cut on the day 0, he can just wait and he will look good on days 4 through 8 (during that time, the number of days from the most recent haircut will be between **A** and **B**). There are 2 important days (6 and 8) in that interval. There exists a strategy that allows Limak to look good on 3 important days. For example, he could get a new haircut on the day 1 — then he will look good on days 5 through 9, including 3 important days. It turns out that it's impossible that Limak would look good on 4 or more important days. So the answer is 3.
 
 **Test case 2.**Limak should get a haircut on the day 6, to look good on days 12 through 18. Then he should get a haircut on the day 19, to look good on days 25 through 31. In total, he will look good on 6 important days: 12, 13, 15, 17, 18, 25.

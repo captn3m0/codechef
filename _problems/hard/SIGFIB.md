@@ -101,13 +101,12 @@ First line of input contains an integer **T** denoting the number of test cases.
 
 ### Example
 
-```
-<span style="font-size: small;"><strong>Input:</strong>
-4<br></br>100 3<br></br>100 4<br></br>100 9<br></br>100 10<br></br><strong>Output:</strong>
-6<br></br>36<br></br>66<br></br>60<br></br></span>
-```
-### Explanation for first test case:
-
+<pre><span style="font-size: small;"><strong>Input:</strong>
+4<br></br>100 3<br></br>100 4<br></br>100 9<br></br>100 10<br></br>
+<strong>Output:</strong>
+6<br></br>36<br></br>66<br></br>60<br></br>
+</span>
+</pre>### Explanation for first test case:
  In the first case, we have the following 10 terms for **N** = 3:
 6 \* 0\*0\*3\*Fibo\[0\] \* Fibo\[0\] \* Fibo\[3\]
 6 \* 0\*1\*2\*Fibo\[0\] \* Fibo\[1\] \* Fibo\[2\]

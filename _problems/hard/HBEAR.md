@@ -23,11 +23,9 @@ The output contains Q lines, each line contains the number of special sub-rectan
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
-```
-
+</pre>
 5 5 4
 H.H..
 ..H..
@@ -38,17 +36,13 @@ HH..H
 1 1
 2 3
 
-```
-<b>Output:</b>
+<pre><b>Output:</b>
 
 0
 4
 
 
-```
-**Explanation for 2nd query**
-```
-
+</pre>**Explanation for 2nd query**<pre>
 #: means the chosen cell
 The possibilities are:
 1. Size 2 x 3
@@ -79,5 +73,4 @@ H...H
 ##HH.
 ##..H
 
-```
-Note that in 2nd query, the possible special sub-rectangles are of size 1x1, 1x2, 1x3, 2x1, 2x2, 2x3. Also note that 2x3 is different from 3x2
+</pre>Note that in 2nd query, the possible special sub-rectangles are of size 1x1, 1x2, 1x3, 2x1, 2x2, 2x3. Also note that 2x3 is different from 3x2

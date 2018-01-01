@@ -103,8 +103,7 @@ For each test case, print a single integer representing the answer of that test 
 ### Example
 
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 2 2
 4 5
@@ -113,9 +112,7 @@ For each test case, print a single integer representing the answer of that test 
 8
 236
 
-```
-### Explanation
-
+</pre>### Explanation
 For the first sample case,
 
 ways\[(0,1)->(2,1)\]= 1

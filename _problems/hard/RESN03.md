@@ -27,8 +27,7 @@ Output T lines, one corresponding to each test case. For each test case output a
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 4 2
@@ -38,4 +37,4 @@ Output T lines, one corresponding to each test case. For each test case output a
 3
 145
 
-```
+</pre>

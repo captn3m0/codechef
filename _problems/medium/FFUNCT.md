@@ -114,8 +114,7 @@ For each q-type query output a line, containing an answer to the problem (i.e. t
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 0001
 0111
@@ -129,9 +128,7 @@ q 2 3
 3
 1
 
-```
-### Explanation
-
+</pre>### Explanation
 The first function of an initial array corresponds to conjunction (AND operation), the second one corresponds to disjunction (OR operation) and the third one corresponds to negation (NOT operation).
 
 In the second query we replace the third function in the array (negation) to the function that does not have a common name.

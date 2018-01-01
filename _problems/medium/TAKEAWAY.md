@@ -32,8 +32,7 @@ For each test case, print the winners name "Nancy" or "Zeta" ( without quotes ).
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 1 1
@@ -49,9 +48,7 @@ Nancy
 Zeta
 Nancy
 
-```
-
-**Explanation:**
+</pre>**Explanation:**
 Case 1 : Only one pile of 3 stones and K = 1. At most 1 stone can be removed in each step ( and of course at least 1 stone must be removed, if possible). Nancy removes 1 stone, then Zeta removes 1 stone and finally Nancy removes the last stone and wins !
 
 Case 2 : Two piles of stones with 3 stones in each and K = 2. Initial pile sizes are {3,3} and after Nancy takes either 1 or 2 stones from one of them, the piles will be one of {2,3} or {1,3}. If its {2,3}, Zeta can remove a stone from the 2nd pile to make it {2,2} and win eventually. If its {1,3}, Zeta can remove two stones from the2nd pile to make it {1,1} and win in its next turn. So, no matter what step Nancy takes in her first turn, Zeta always has a winning strategy !

@@ -72,8 +72,7 @@ All submissions for this problem are available.Payton likes numbers, but all the
 
 Each Payton number is a triplet of ordinary integers **(a,b,c)**, with the restriction that **c** is either **11** or **24** (because Payton likes **11** and **24**). And then, Payton defines the **product** of two Payton numbers **(a1,b1,c1)** and **(a2,b2,c2)** as the following:
 
-```
-def multiply((a<sub>1</sub>,b<sub>1</sub>,c<sub>1</sub>), (a<sub>2</sub>,b<sub>2</sub>,c<sub>2</sub>)):
+<pre>def multiply((a<sub>1</sub>,b<sub>1</sub>,c<sub>1</sub>), (a<sub>2</sub>,b<sub>2</sub>,c<sub>2</sub>)):
 
     s = (a<sub>1</sub>a<sub>2</sub> + b<sub>1</sub>b<sub>2</sub> + c<sub>1</sub>c<sub>2</sub>) + (a<sub>1</sub>b<sub>2</sub> + b<sub>1</sub>a<sub>2</sub>) + (c<sub>1</sub> + c<sub>2</sub>)
     t = floor[s/2] + 16(c<sub>1</sub> + c<sub>2</sub>) - c<sub>1</sub>c<sub>2</sub>
@@ -87,8 +86,7 @@ def multiply((a<sub>1</sub>,b<sub>1</sub>,c<sub>1</sub>), (a<sub>2</sub>,b<sub>2
     else:
         return (A-533,B-533,11)
 
-```Eventually, Payton found out that he can define many interesting things about his numbers:
-
+</pre>Eventually, Payton found out that he can define many interesting things about his numbers:
 A **zero** is a Payton number **z** whose product with any other Payton number is **z**. Payton proved that there is a unique zero in Payton numbers, namely **(11,11,11)**.
 
 A **unity** is a Payton number whose product with any other Payton number is that Payton number. Payton proved that there is a unique unity in Payton numbers, namely **(4,4,24)**.
@@ -123,28 +121,21 @@ For each test case, output a single line containing a word: “PRIME” if the P
 
 ### Example
 
-```
-<b>Input:</b>
-```
-4
+<pre><b>Input:</b>
+</pre>4
 11 11 11
 4 4 24
 -104 126 11
 4 5 24
-```
-
+<pre>
 <b>Output:</b>
-```
-NOT PRIME
+</pre>NOT PRIME
 NOT PRIME
 NOT PRIME
 PRIME
 
-```
-
-```
-### Explanation
-
+<pre>
+</pre>### Explanation
 **Example case 1.** The number **(11,11,11)** is a zero, so it's not prime.
 
 **Example case 2.** The number **(4,4,24)** is a unit, so it's not prime.

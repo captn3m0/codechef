@@ -96,8 +96,7 @@ For each test case, output a single integer denoting the number ways you can par
 
 ### Sample
 
-```
-
+<pre>
 <b>Input:</b>
 4
 6 10
@@ -116,9 +115,7 @@ For each test case, output a single integer denoting the number ways you can par
 3
 
 
-```
-### Explanation
-
+</pre>### Explanation
 **Test Case 1.** You can partition the sequence in 32 ways. Note that the sum of all the numbers in the sequence is 24. The 10th bit in 24 is already 0. Any partition's sum will be less than or equal to 24 anyway, thus each partitioning way is valid. Thus the answer is 32.
 
 If you don't see why the answer is 32, consider the following

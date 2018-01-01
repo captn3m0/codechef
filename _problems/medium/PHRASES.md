@@ -23,8 +23,7 @@ For each test case output the length of longest string which appears disjointly 
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 1
 4
@@ -36,5 +35,4 @@ baba
 <b>Output:</b>
 2
 
-```
-(in the example above, the longest substring which fulfills the requirements is 'ba')
+</pre>(in the example above, the longest substring which fulfills the requirements is 'ba')

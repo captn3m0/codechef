@@ -33,8 +33,7 @@ DIRE, DIRA is one of 'U', 'R', 'D', 'L'
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 0 0 R
@@ -53,9 +52,7 @@ DIRE, DIRA is one of 'U', 'R', 'D', 'L'
 SAFE
 1.5
 
-```
-
-**Explanation:**Case 1 : 
+</pre>**Explanation:**Case 1 : 
 Time 0 - Earth (0,0) Asteroids { (1,-2), (2,2) }
 Time 1 - Earth (1,0) Asteroids { (1,-1), (2,1) }
 Time 2 - Earth (2,0) Asteroids { (1,0 ), (2,0) }

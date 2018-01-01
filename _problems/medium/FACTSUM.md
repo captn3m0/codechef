@@ -11,8 +11,7 @@ layout: problem
 ---
 ###  All submissions for this problem are available. 
 
-```
-
+<pre>
 Given a positive integer K > 2, with prime
 factorization:
 
@@ -22,9 +21,7 @@ Compute the following:
 
 S = a1*p1 + a2*p2 ... + an*pn.
 
-```
-### Input
-
+</pre>### Input
 A list of <100 integers, one on each line, all less than 2\*10^19.
 
 ### Output
@@ -33,8 +30,7 @@ For each integer compute the super factor sum and output it on a single line.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 6
 7
@@ -42,4 +38,4 @@ For each integer compute the super factor sum and output it on a single line.
 5
 7
 
-```
+</pre>

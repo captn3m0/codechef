@@ -25,8 +25,7 @@ For each test case, output the answer in a new line. If its impossible to get ba
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 AbcDef
@@ -37,13 +36,12 @@ abcabc
 <b>Output:</b>
 4
 3
-<br></br><b>Explanation</b>
+<br></br>
+<b>Explanation</b>
 Case 1 :
 Monkey : fAbcDe , Po : DefAbc, Monkey : cDefAb , Po : AbcDef
 
 Case 2 :
 Monkey : cabcab , Po : bcabca, Monkey : abcabc
 
-```
-
-_Warning : Large input / output. You may have to use efficient input / output methods if you are using languages with heavy input / output overload. Eg: Prefer using scanf/printf to cin/cout for C/C++_
+</pre>_Warning : Large input / output. You may have to use efficient input / output methods if you are using languages with heavy input / output overload. Eg: Prefer using scanf/printf to cin/cout for C/C++_

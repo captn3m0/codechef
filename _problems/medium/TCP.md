@@ -97,8 +97,7 @@ For each test case output a single line containing a real number – the distanc
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 5
 2 11
@@ -115,4 +114,4 @@ For each test case output a single line containing a real number – the distanc
 173.750000
 80.000000
 
-```
+</pre>

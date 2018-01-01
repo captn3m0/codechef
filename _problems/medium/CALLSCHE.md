@@ -136,8 +136,7 @@ For each test case in a single line output **"Yes"** (without quotes) if it's po
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 2 2 3 2
 4 1
@@ -162,4 +161,4 @@ For each test case in a single line output **"Yes"** (without quotes) if it's po
 Yes
 No
 
-```
+</pre>

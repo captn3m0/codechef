@@ -100,8 +100,7 @@ Output in a single line **K**-th **M**-letter in Chef's order.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>2 5 17
 7 9
 13 18
@@ -112,4 +111,4 @@ Output in a single line **K**-th **M**-letter in Chef's order.
 <b>Output:</b>
 <tt>aaaba</tt>
 
-```
+</pre>

@@ -88,8 +88,7 @@ For each test case, output a single line containing the answer.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 1 3
 4 3
@@ -98,7 +97,5 @@ For each test case, output a single line containing the answer.
 1
 4
 
-```
-### Explanation
-
+</pre>### Explanation
 In example case 1: the farmer harvested a potato from the first field and 3 potatoes from the second field. The sum is 4. If he is able to harvest a potato from the third field, that will make the sum 5, which is prime. Hence the answer is 1(he needs one more potato to make the sum of harvested potatoes prime.)

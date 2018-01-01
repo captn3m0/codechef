@@ -130,8 +130,7 @@ As the number of test cases can be huge, you need to output a single line contai
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 1
 1 2 1 5
@@ -144,4 +143,4 @@ As the number of test cases can be huge, you need to output a single line contai
 <p>After drawing 5 circles the figure looks like this.</p>
 <img height="245" src="http://www.codechef.com/download/JULY15/NTHCIR3.png" width="250"></img>
 The radius of the circle <b>C</b><sub>5</sub> here is <b>R</b><sub>5</sub> = 1.
-```
+</pre>

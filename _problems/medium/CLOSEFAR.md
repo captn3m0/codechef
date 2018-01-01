@@ -117,14 +117,13 @@ For each query, print the required output as mentioned above.
 
 **Subtask #1 (15 points)**- **N, Q** **≤ 1000**
 
-**Subtask #2 (20 points)**- Only Type **F** queries are present.
+ **Subtask #2 (20 points)**- Only Type **F** queries are present.
 
-**Subtask #3 (65 points)**- Original constraints
+ **Subtask #3 (65 points)**- Original constraints
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>5
 1 2 7 4 5
 1 2
@@ -149,9 +148,7 @@ F 2 4</tt>
 5
 2</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 Given below is the tree corresponding to the sample input. Each node has two numbers written in it.
 
 The first number represents the node index and the second number indicates node value.

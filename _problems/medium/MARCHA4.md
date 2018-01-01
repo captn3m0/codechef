@@ -27,8 +27,7 @@ For each test case, print out one line containing two numbers, separated by a sp
 
 ### Example
 
-```
-
+<pre>
 <b>Input</b>
 2
 4 2
@@ -38,4 +37,4 @@ For each test case, print out one line containing two numbers, separated by a sp
 25 56
 387 489
 
-```
+</pre>

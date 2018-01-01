@@ -86,8 +86,7 @@ For each query operation, output the corresponding result.
 
 ### Example
 
-```
-<pre style="text-align: left;"><strong>Input 1:</strong><br></br>5
+<pre><pre style="text-align: left;"><strong>Input 1:</strong><br></br>5
 1 2
 1 3
 1 4
@@ -98,9 +97,7 @@ For each query operation, output the corresponding result.
 0 1
 <strong>Output 1:</strong><br></br>5
 1
-```
-```
-<pre style="text-align: left;"><strong><br></br>Input 2:<br></br></strong>7
+</pre><pre><pre style="text-align: left;"><strong><br></br>Input 2:<br></br></strong>7
 1 2
 1 3
 2 4
@@ -115,4 +112,4 @@ For each query operation, output the corresponding result.
 <strong><br></br><br></br>Output 2:</strong><br></br>7
 3
 3<br></br><br></br><br></br><strong>Warning: large input/output data,be careful with certain languages</strong>
-```
+</pre>

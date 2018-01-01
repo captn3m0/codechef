@@ -19,8 +19,7 @@ The first line two space seperated integers N and M. N lines follow, and the ith
 
 Output two space seperated integers : The least number of stops, and the number of ways to plan the trip which uses the least number of stops. Output this value modulo 1000000007. ### Sample Input :
 
-```
-
+<pre>
 6 3
 0
 1
@@ -29,21 +28,15 @@ Output two space seperated integers : The least number of stops, and the number 
 7
 10
 
-```
-### Sample Output :
-
-```
-
+</pre>### Sample Output :
+<pre>
 3 2
 
-```
-### Constraints :
-
-```
-
+</pre>### Constraints :
+<pre>
 2 <= N <= 1000000
 1 <= M <= 1000
 a_1 < a_2 < .. < a_N
 
 
-```
+</pre>

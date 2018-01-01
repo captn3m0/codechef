@@ -80,7 +80,7 @@ Now he asks you to check if he can choose three sides such that they are pairwis
 
 - The first line of the input contains an integer **T** denoting the number of test cases.
 - A single line of each test case contains six words denoting the colors of painted sides in the order: front, back, left, right, top and bottom, respectively.
-
+ 
 ### Output
 
 For each test case, output a single line containing the word "YES" or "NO" (without quotes) corresponding to the answer of the problem.
@@ -89,18 +89,18 @@ For each test case, output a single line containing the word "YES" or "NO" (with
 
 - **1** ≤ **T** ≤  **50000**
 - Each color will be from the list {"black", "blue", "red", "green", "yellow", "orange"}
-
+ 
 ### Subtasks
 
 **Subtask 1: (25 points)**
 
 - **1** ≤ **T** ≤  **12000**
 - For each test case there will be at most three different colors
-
+ 
 **Subtask 2: (75 points)**
 
 - Original constraints
-
+ 
 ### Example
 
  ```
@@ -113,9 +113,7 @@ green yellow green orange black green
 NO
 YES
 
-```
-### Explanation
-
+<pre>### Explanation
 **Example case 1.**
 
 There are no three sides with the same color.

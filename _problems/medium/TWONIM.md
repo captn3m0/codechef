@@ -100,8 +100,7 @@ For each test case, output one string on a separate line - "First" (without quot
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 4
 1 2 4 8
@@ -115,4 +114,4 @@ First
 Second
 Second
 
-```
+</pre>

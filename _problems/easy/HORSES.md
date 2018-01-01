@@ -80,16 +80,13 @@ The next line contains **N** space separated integers where the **i**-th integer
 
 For each test case, output a single line containing the minimum difference that is possible. ### Constraints:
 
-```
-
+<pre>
 1 ≤ <b>T</b> ≤ 10
 2 ≤ <b>N</b> ≤ 5000
 1 ≤ <b>S[i]</b> ≤ 1000000000
 
 
-```
-### Example:
-
+</pre>### Example:
 **Input:**```
 
 1
@@ -97,11 +94,8 @@ For each test case, output a single line containing the minimum difference that 
 4 9 1 32 13
 
 
-```
-**Output:**```
-
+<pre>**Output:**<pre>
 3
 
 
-```
-**Explanation:** The minimum difference can be achieved if we pick horses with skills 1 and 4 for the race.
+</pre>**Explanation:** The minimum difference can be achieved if we pick horses with skills 1 and 4 for the race.

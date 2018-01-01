@@ -110,8 +110,7 @@ Output the number of different Rainbow Arrays with **N** elements, modulo **10^9
 
 ### Example
 
-```
-<b>Input #1:</b>
+<pre><b>Input #1:</b>
 10 
 
 <b>Output #1:</b>
@@ -137,4 +136,4 @@ Output the number of different Rainbow Arrays with **N** elements, modulo **10^9
 
 <p> </p>
 
-```
+</pre>

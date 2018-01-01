@@ -26,8 +26,7 @@ For each test case, output on a line two integers which are the number of times 
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3 5
 aabcbcbca
@@ -43,9 +42,7 @@ abcd
 6 3
 1 4
 
-```
-### Explanation
-
+</pre>### Explanation
 Case #1: **bcbc** occurs twice - at position 3 and position 5 (occurrences may overlap).
 Case #2: **bab** occurs 6 times.
 Case #3: **abcd** occurs 1 time.

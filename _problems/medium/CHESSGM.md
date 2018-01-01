@@ -27,8 +27,7 @@ Output an only integer which is the result calculated, by modulo of 1,000,000,00
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 1 3
 <b>Output:</b>
@@ -39,4 +38,4 @@ Output an only integer which is the result calculated, by modulo of 1,000,000,00
 <b>Output:</b>
 5
 
-```
+</pre>

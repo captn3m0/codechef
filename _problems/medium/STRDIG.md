@@ -95,15 +95,15 @@ For each test case, print "**YES**" if the given string is contained in the stri
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 23456789101
 3216546546546546545
 02122
-<br></br><b>Output:</b>
+<br></br>
+<b>Output:</b>
 YES
 NO
 YES
 />
-```
+</pre>

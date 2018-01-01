@@ -117,8 +117,7 @@ For each test case, output an integer, denoting the sum of answers for queries o
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 3 4 10
 3 1 1 3 4
@@ -135,9 +134,7 @@ For each test case, output an integer, denoting the sum of answers for queries o
 <b>Output:</b>
 21
 
-```
-### Explanation
-
+</pre>### Explanation
 **Query 1.** There are a lot of ways from **(1,1)** to **(3,4)**. One of them is marked in red in the picture #1. So these are connected, then **Answer = 1** in this query.
 
 **Query 2.** In the picture #2 you can see the grid after second query.

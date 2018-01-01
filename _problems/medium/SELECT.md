@@ -76,8 +76,7 @@ Each year during the election time, every politician in Chefland promises to bri
 
 Sebi is a hacker and a vigilante who is adamant on making the names of the people with black money known to public. Being a hacker, he finds all of these 4000 encrypted names by exploiting a CSRF bug. Also, he has found the encryption algorithm used which is described below.
 
-```
-
+<pre>
 <pre>
 Let the string <b>S</b> represents the name of black money holder.
 It consists of N lower case English Alphabets.
@@ -100,8 +99,7 @@ encrypt(S[0..N-1])
 	The encrypted name of person is W[0],W[1]..,W[N-1]
 </pre>
 
-```
-
+</pre>
 Few sample outputs of encrypt function are as follows. ```
 
 <pre>
@@ -109,8 +107,7 @@ encrypt("anupklby") = 48768961
 encrypt("adurysk") = 2342822
 </pre>
 
-```
-
+<pre>
 After understanding the algorithm and the details of the encrypted names, he realized that he have made a big fool of himself, these people have been very smart and did not provide their original names. They tried to hide their identity as much as possible by having all the characters in their names different and padding them with unnecessary characters so as to make sure all of the names have length equal to **N**.
 
 Now, Sebi wants to reveal the names of these public by decrypting the algorithm. He doesn't provide any guarantee that the provided name is the unique such possible name corresponding to the decryption of encrypted name, he just claims that at least this name's encryption comes out to be equal to given encrypted name. He wants to expose as many black many holders as possible and by setting a high standard for himself want to expose name corresponding to at least 3960 of the encrypted names.
@@ -132,48 +129,36 @@ Output **T** lines. A line can contain -1 if you are not able to find the corres
 
 ### Example 1
 
-```
-<b>Input:</b>
+</pre><b>Input:</b>
 1 1
 2
 
 <b>Output:</b>
 w
 
-```
-### Example 2
-
-```
-<b>Input:</b>
+<pre>### Example 2
+</pre><b>Input:</b>
 1 2
 79
 
 <b>Output:</b>
 js
 
-```
-### Example 3
-
-```
-<b>Input:</b>
+<pre>### Example 3
+</pre><b>Input:</b>
 1 8
 48768961
 
 <b>Output:</b>
 anupklby
 
-```
-### Example 4
-
-```
-<b>Input:</b>
+<pre>### Example 4
+</pre><b>Input:</b>
 1 7
 2342822
 
 <b>Output:</b>
 adurysk
 
-```
-### Explanation
-
+<pre>### Explanation
 **Example case 3.** One possible black money holder for this encrypted name can be "anupklby".

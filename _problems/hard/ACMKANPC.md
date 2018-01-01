@@ -11,11 +11,11 @@ layout: problem
 ---
 ###  All submissions for this problem are available. 
 
-  <a id="x1-4r3" name="x1-4r3"></a> C  Traffic Jam  Input file: stdin Output file: stdout  
-
-  
+    <a id="x1-4r3" name="x1-4r3"></a> C    Traffic Jam      Input file: stdin   Output file: stdout      
 
     
+
+        
 
 Traffic Jam is becoming a major problem in the city of 'Faka' these days. Every day, you need to go to work from home through a one-way road that can be modeled as a series of straight line segments (aka piece-wise linear) of positive length. To be more explicit, suppose there are one way straight line paths named P, Q and R in your way. P starts at your home & ends at the starting point of Q. Q starts from the ending point of P & ends at starting point of R. Similarly, R starts at ending point of Q & ends at your destination. Two non-adjacent line segments in a road will never intersect with each other.
 
@@ -31,19 +31,19 @@ For each test case except the last one, print one line of the form “Case X : Y
 
 Sample input and output
 
- - - - - - -
-
- - - - - - -
-
-  stdin 
-
-   stdout 
+   - - - - - -
 
   - - - - - -
 
- - - - - - -
+     stdin 
 
- 2 5
+   stdout 
+
+    - - - - - -
+
+  - - - - - -
+
+    2 5
 
 0 0
 
@@ -81,6 +81,6 @@ Case 3: 22.283
 
  
 
-  - - - - - -
+    - - - - - -
 
- - - - - - -
+  - - - - - -

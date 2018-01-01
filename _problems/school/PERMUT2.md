@@ -81,8 +81,7 @@ For each test case output whether the permutation is ambiguous or not. Adhere to
 
 ### Sample Input
 
-```
-4
+<pre>4
 1 4 3 2
 5
 2 3 4 5 1
@@ -90,12 +89,9 @@ For each test case output whether the permutation is ambiguous or not. Adhere to
 1
 0
 
-```
-### Sample Output
-
-```
-ambiguous
+</pre>### Sample Output
+<pre>ambiguous
 not ambiguous
 ambiguous
 
-```
+</pre>

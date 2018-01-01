@@ -92,8 +92,7 @@ For each test case output "Yes", if possible to get 0 by choosing non-empty subs
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 1 2 0 3
 1 2 4 -1
@@ -104,9 +103,7 @@ Yes
 Yes
 No
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** We can choose subset {0}
 
 **Example case 2.** We can choose subset {-1, 1}

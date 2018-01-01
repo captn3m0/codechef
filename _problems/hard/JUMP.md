@@ -114,8 +114,7 @@ Output a single line containing the answer to the problem i.e. the minimal possi
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>5
 1 4 3 2 5
 0 1 3 0 0
@@ -125,7 +124,5 @@ Output a single line containing the answer to the problem i.e. the minimal possi
 <tt>10</tt>
 
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** jumping from first hill to 4th one then to 5th; the answer will be 0 + 0 + 0 + (4-1)^2 + (5-4)^2 = 10

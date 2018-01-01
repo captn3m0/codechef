@@ -88,8 +88,7 @@ Output **K** lines, where the _i_th line should contain the number of open tweet
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3 6
 CLICK 1
@@ -107,9 +106,7 @@ CLICK 1
 0
 1
 
-```
-
-**Explanation:**
+</pre>**Explanation:**
 
 Let open\[x\] = 1 if the xth tweet is open and 0 if its closed.
 Initially open\[1..3\] = { 0 , 0 , 0 }. Here is the state of open\[1..3\] after each click and corresponding count of open tweets.

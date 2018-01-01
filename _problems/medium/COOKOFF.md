@@ -23,8 +23,7 @@ For each test case, output on a single line the minimum possible value of the la
 
 ### Sample Input:
 
-```
-3
+<pre>3
 
 3 1 0 100
 16 45 61
@@ -35,17 +34,12 @@ For each test case, output on a single line the minimum possible value of the la
 6 3 0 100
 21 64 34 55 64 89
 
-```
-### Sample Output:
-
-```
-55
+</pre>### Sample Output:
+<pre>55
 30
 34
 
-```
-### Contsraints
-
+</pre>### Contsraints
 T≤250
 0≤M≤N≤1000
 All difficulty ratings are between 0 and 1000000, inclusive.

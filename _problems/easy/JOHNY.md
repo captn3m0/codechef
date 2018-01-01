@@ -85,8 +85,7 @@ For each test case, output a single line containing the position of "Uncle Johny
 
 1 ≤ **T** ≤ 1000 1 ≤ **K** ≤ **N** ≤ 100 1 ≤ **Ai** ≤ 109### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 4
 1 3 4 2
@@ -103,9 +102,7 @@ For each test case, output a single line containing the position of "Uncle Johny
 4
 1
 
-```
-### Explanation
-
+</pre>### Explanation
 In the example test there are **T**=3 test cases.
 
 **Test case 1**

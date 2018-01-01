@@ -94,16 +94,13 @@ Output the number of comparisons on the first and only line of the output.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5
 4 3 5 1 2
 
 <b>Output:</b>
 11
 
-```
-### Scoring
-
+</pre>### Scoring
 Subtask 1 (32 points): 1 N Subtask 2 (9 points): 1 N 5, the permutation is generated randomly.
 Subtask 3 (45 points): 1 N Subtask 4 (14 points): 1 N 5.

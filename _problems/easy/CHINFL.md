@@ -105,13 +105,12 @@ If the amount of money of any currency that Chef will own at any point of time e
 - **1 ≤ D ≤ 103**
 - **1 ≤ Ai,j ≤ 103**
 
-**Subtask 2 (30 points):**- **1 ≤ N ≤ 100**
+ **Subtask 2 (30 points):**- **1 ≤ N ≤ 100**
 - **1 ≤ M ≤ 100**
 
-**Subtask 3 (50 points):** No additional constraints ### Example
+ **Subtask 3 (50 points):** No additional constraints ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3 3 5
 2 1 5 3 7 6
 2 1 4 3 6 5
@@ -120,4 +119,4 @@ If the amount of money of any currency that Chef will own at any point of time e
 <b>Output:</b>
 15.0000000000
 
-```
+</pre>

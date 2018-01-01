@@ -106,8 +106,7 @@ For each game, output a single line containing the answer to the problem, since 
 
 ### Example
 
-```
-<b>Input:</b><tt>
+<pre><b>Input:</b><tt>
 5 2
 4 6 2 4 8
 3 3 3 3 3
@@ -117,9 +116,7 @@ For each game, output a single line containing the answer to the problem, since 
 1
 3</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 In the **first query** the Mock Turtle can build only the parentheses ()()()
 
 In the **second query** the three possible parentheses are

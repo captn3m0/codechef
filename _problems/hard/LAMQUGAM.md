@@ -17,7 +17,7 @@ Code and Chef play a game on the set of all points with positive integer coordin
 
 ### Input
 
-The first line contains two space separated positive integers **d** and **T**, the queen lameness and the number of rectangles for which Chef wants to know the answer. Each of the next **T** lines contains four space separated positive integers **x1, y1, x2, y2** the coordinates of rectangle corners.
+The first line contains two space separated positive integers **d** and **T**, the queen lameness and the number of rectangles for which Chef wants to know the answer. Each of the next **T** lines contains four space separated positive integers **x1, y1, x2, y2**  the coordinates of rectangle corners.
 
 ### Output
 
@@ -32,8 +32,7 @@ For each rectangle from the input file, output a single line containing the prob
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1 4
 1 1 4 4
 2 4 5 8
@@ -46,9 +45,7 @@ For each rectangle from the input file, output a single line containing the prob
 1/32
 1/1
 
-```
-### Explanation
-
+</pre>### Explanation
 For the first rectangle Chef wins in three cases out of 16. Namely when the starting point is **(1,1), (2,3)** or **(3,2)**.
 
 

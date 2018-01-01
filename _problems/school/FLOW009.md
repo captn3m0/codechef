@@ -84,8 +84,7 @@ Output the total expenses while purchasing items.
 
 ### Example
 
-```
-
+<pre>
 <b>Input</b>
 
 3 
@@ -99,4 +98,4 @@ Output the total expenses while purchasing items.
 200.000000
 21600.000000
 
-```
+</pre>

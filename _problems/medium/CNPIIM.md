@@ -105,17 +105,14 @@ Read here for additional info:
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 3
 
 <b>Output:</b>
 2	
 
-```
-### Explanation
-
+</pre>### Explanation
 The only two matrices that exist with trace equal to 3 and that satisfy all the given conditions are:
 
 ![Matrices](/download/extimages/0a3c6a4adf4feefa0ff7eb3765ac8959.gif)

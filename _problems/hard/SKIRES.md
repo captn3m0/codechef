@@ -31,8 +31,7 @@ For each test case, output minimum total elevation so that chef can achieve his 
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 
@@ -51,4 +50,4 @@ For each test case, output minimum total elevation so that chef can achieve his 
 4
 -1
 
-```
+</pre>

@@ -42,8 +42,7 @@ For each test case output a line containing a single integer, equal to the minim
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 2
@@ -66,5 +65,4 @@ For each test case output a line containing a single integer, equal to the minim
 1
 2
 
-```
-**Explanation:** for the respective test cases, the number picked by Johnny could have been e.g. _n_=100, _n_=5, and _n_=1.
+</pre>**Explanation:** for the respective test cases, the number picked by Johnny could have been e.g. _n_=100, _n_=5, and _n_=1.

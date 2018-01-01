@@ -100,8 +100,7 @@ For each test case, output a single line containing the minimal position number 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 78910
 9930
@@ -110,7 +109,5 @@ For each test case, output a single line containing the minimal position number 
 7
 2679
 
-```
-### Explanation
-
+</pre>### Explanation
 Please pay attention that in the second test case the answer is not 788, as it may seem at first glance. This is because the part 2982**9930**0301 doesn't contain any integer completely in it - neither 299, nor 300. But the part 92892**9930**931932 contains the integer 930 completely.

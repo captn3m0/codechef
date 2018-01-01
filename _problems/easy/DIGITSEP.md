@@ -134,8 +134,7 @@ For both **Subtask 1 and Subtask 2:**
 ### Example
 
 **Input:**
-```
-
+<pre>
 2
 3
 474
@@ -148,9 +147,7 @@ For both **Subtask 1 and Subtask 2:**
 2
 1
 
-```
-### Explanation
-
+</pre>### Explanation
 **Test case 1.**
 
 Since only **1 separator** can be placed, we can only have 2 possibilities:

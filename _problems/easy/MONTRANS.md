@@ -25,8 +25,7 @@ Of course, you want to do this to maximize your profit. For example if **C=69** 
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 9 77 69
@@ -36,7 +35,5 @@ Of course, you want to do this to maximize your profit. For example if **C=69** 
 4
 0
 
-```
-### Explanation
-
+</pre>### Explanation
 In the first test we have the following sequence: **9.77, 8.09, 40.07, 38.39, 70.37, 68.69, 0.68**. After last step we have not enough money for further transformations. The maximal profit will be after **4** transformations.

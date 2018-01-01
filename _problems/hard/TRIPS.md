@@ -102,8 +102,7 @@ For every query, please output the number of days on a separate line.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5
 1 2 1
 2 3 2 
@@ -123,4 +122,4 @@ For every query, please output the number of days on a separate line.
 1
 1
 
-```
+</pre>

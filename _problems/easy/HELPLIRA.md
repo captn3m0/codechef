@@ -103,13 +103,12 @@ If there are multiple triangles with the same area, then the last index should b
 ### Constraints
 
 - **2** ≤ **N** ≤ **100**
-- **-1000** ≤  **xi, yi** ≤ **1000**
+- **-1000** ≤  **xi, yi**  ≤ **1000**
 
 ### Example
 
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 0 0 0 100 100 0
 1 1 1 5 5 1
@@ -117,4 +116,4 @@ If there are multiple triangles with the same area, then the last index should b
 <b>Output:</b>
 2 1
 
-```
+</pre>

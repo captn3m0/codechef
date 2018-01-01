@@ -29,8 +29,7 @@ For each test case, output the maximum number of collinear milestones.
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 
@@ -49,4 +48,4 @@ For each test case, output the maximum number of collinear milestones.
 3
 2
 
-```
+</pre>

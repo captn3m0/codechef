@@ -98,8 +98,7 @@ For each test case output a single integer corresponding to the answer of the pr
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 2 4
 7 8
@@ -110,9 +109,7 @@ For each test case output a single integer corresponding to the answer of the pr
 0
 21
 
-```
-### Explanation
-
+</pre>### Explanation
 **In test case 1**, there are 2 boxes and 4 stones. The energy of two empty boxes are 7 and 8 respectively. You can put 2 stones into each of the box. Contribution of both the boxes into the energy of the system will be zero. So, the answer will be zero.
 
 **In test case 2**, there are 4 boxes and 6 stones. You can distribute the stones into boxes as follows, \[0, 2, 2, 2\]. Contribution of the first box into total energy will be equal to 7 \* 3 and that of rest of the boxes will be zero. So, overall energy will be 21. You can enumerate all possible distributions of the stones into boxes and see that you can't obtain a system with less energy than this.

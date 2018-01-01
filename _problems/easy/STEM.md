@@ -93,15 +93,12 @@ For each test case, output the stem in a new line.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 4
 grace graceful disgraceful gracefully
 <b>Output:</b>
 grace
 
-```
-### Explanation
-
+</pre>### Explanation
 The stem is grace.

@@ -23,18 +23,14 @@ For each test case, output a single line containing the name of the winner of th
 
 ### Sample Input
 
-```
-3
+<pre>3
 1 2
 2 3 4
 3 7 8 9
 
-```
-### Sample Output
-
-```
-Alice
+</pre>### Sample Output
+<pre>Alice
 Alice
 Bob
 
-```
+</pre>

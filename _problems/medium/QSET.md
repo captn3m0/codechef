@@ -116,8 +116,7 @@ For each query of type 2, print the required answer in a single line.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 5 3
 01245
 2 1 3
@@ -128,9 +127,7 @@ For each query of type 2, print the required answer in a single line.
 3
 1
 
-```
-### Explanation
-
+</pre>### Explanation
 For first query, the sub-strings S\[1,1\]="0", S\[1,3\]="012" and S\[2,3\]="12" are divisible by 3.
 After second query, the string A becomes "01255".
 For third query, only sub-string S\[3,5\]="255" is divisible by 3.

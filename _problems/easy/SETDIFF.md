@@ -113,8 +113,7 @@ Two subsets will be called different if there exists an index **i** such that **
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 4
 2
 1 2
@@ -131,9 +130,7 @@ Two subsets will be called different if there exists an index **i** such that **
 23
 3
 
-```
-### Explanation
-
+</pre>### Explanation
 For first case answer will be 2-1 = 1.
 
 For the second case:

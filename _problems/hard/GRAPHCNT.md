@@ -103,8 +103,7 @@ Print a single integer corresponding to the number of unordered pairs as asked i
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 6 6
 1 2
 1 3
@@ -116,9 +115,7 @@ Print a single integer corresponding to the number of unordered pairs as asked i
 <b>Output:</b>
 14
 
-```
-### Explanation
-
+</pre>### Explanation
 There are 14 pairs of vertices as follows: 
  (1,2) 
  (1,3) 

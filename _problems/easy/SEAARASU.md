@@ -101,8 +101,7 @@ For each test case, output a single line with the answer. ### Constraints
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 1
 1
@@ -113,9 +112,7 @@ For each test case, output a single line with the answer. ### Constraints
 1
 6
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 2.** In this case, one possible way in which Sereja can perform the operations could be as follows.
 
 - Pick **i = 2, j = 1. A\[2\] -= A\[1\]**. Now the resulting array would be **\[2, 2, 6\]**.

@@ -27,8 +27,7 @@ For each test case output one line containing the sought number of solutions to 
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 2 1 1
@@ -42,5 +41,4 @@ For each test case output one line containing the sought number of solutions to 
 
 <b>Explanation:</b>
 
-```
-In the first test case, the only pairs are (2,4) and (4,2).
+</pre>In the first test case, the only pairs are (2,4) and (4,2).

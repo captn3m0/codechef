@@ -91,8 +91,7 @@ For each test case, output on a separate line the number of ways to make the des
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 3 16
@@ -107,9 +106,7 @@ For each test case, output on a separate line the number of ways to make the des
 1
 314159265
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** There are 4 ways to make a total of 16 using coins with values 3, 4 and 5:
 
 - 16 = 4 + 4 + 4 + 4

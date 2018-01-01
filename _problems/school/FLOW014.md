@@ -101,8 +101,7 @@ Print Grade of the steel depending on Conditions.
 
 ### Example
 
-```
-
+<pre>
 <b>Input</b>
 
 3 
@@ -115,4 +114,4 @@ Print Grade of the steel depending on Conditions.
 6
 6
 
-```
+</pre>

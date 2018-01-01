@@ -99,8 +99,7 @@ The output should contain the minimum cost of the painting if there is one, othe
 
 ### Example 1
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3 4 2
 6 1
 6 2
@@ -108,11 +107,8 @@ The output should contain the minimum cost of the painting if there is one, othe
 <b>Output:</b>
 18
 
-```
-### Example 2
-
-```
-<b>Input:</b>
+</pre>### Example 2
+<pre><b>Input:</b>
 2 2 3
 1 1
 1 2
@@ -121,9 +117,7 @@ The output should contain the minimum cost of the painting if there is one, othe
 <b>Output:</b>
 Impossible
 
-```
-### Explanations
-
+</pre>### Explanations
 In the first example, we should paint 6 cells on the first layer and 6 cells on the second layer.
 
 In the second example, there are not enough cells to paint the table properly.

@@ -98,8 +98,7 @@ Print **n - 2** space separated integers corresponding to the answer for **k** =
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 0 0 1
 1 0 2
@@ -107,9 +106,7 @@ Print **n - 2** space separated integers corresponding to the answer for **k** =
 <b>Output:</b>
 6
 
-```
-```
-<b>Input:</b>
+</pre><pre><b>Input:</b>
 4
 0 0 1
 1 0 2
@@ -118,9 +115,7 @@ Print **n - 2** space separated integers corresponding to the answer for **k** =
 <b>Output:</b>
 5 8
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** The triangle given in the input has beauty equal to 6.
 
 **Example case 2.** One of the triangles has a beauty of 5 whereas there is only one rectangle which has beauty equal to 8.

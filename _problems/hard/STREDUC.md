@@ -34,22 +34,16 @@ Output on a single line an integer which is the minimum length found.
 
 **Input:**
 
-```
-aaabccd
+<pre>aaabccd
 3
 abc
 ac
 aaa
 
-```
-**Output:**
+</pre>**Output:**
+<pre>2
 
-```
-2
-
-```
-### Limitations
-
+</pre>### Limitations
 - 0<l≤250
 - 0<n≤30
 - 0<|Si|≤20

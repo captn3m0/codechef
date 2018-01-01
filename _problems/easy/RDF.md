@@ -71,13 +71,11 @@ layout: problem
 ---
 All submissions for this problem are available.Andriy and Serhiy are little students from the Lyceum of Kremenchuk. Yesterday there was a great party in the city - Chef's birthday. There were a lot of famous programmers at the party and, of course, everybody gave a gift to Chef. Andriy and Serhiy also didn't come empty-handed. Andriy gave Chef two integer numbers **N** and **K**. Serhiy was more inventive and gave Chef a strange function called "Random-Decreasing-Function", or "**RDF**" abbreviated. The function has the following form:
 
-```
-RDF(N, K)
+<pre>RDF(N, K)
     <b>for</b> i = 1 <b>to</b> K
         <b>do</b> N = random(N)
     <b>return</b> N
-```In above language function **random(N)** returns any integer in the range **\[0, N)** with equal probability. Let's consider that **random(0) = 0**. Chef likes both gifts very much and he plays with them every day, let alone that he forgot about his restaurant. Chef runs this function plenty times a day. The only trouble is that results are too unexpected for Chef. Now he asks you to find the expected result of **RDF(N, K)**.
-
+</pre>In above language function **random(N)** returns any integer in the range **\[0, N)** with equal probability. Let's consider that **random(0) = 0**. Chef likes both gifts very much and he plays with them every day, let alone that he forgot about his restaurant. Chef runs this function plenty times a day. The only trouble is that results are too unexpected for Chef. Now he asks you to find the expected result of **RDF(N, K)**.
 ### Input
 
 The first line of the input contains an integer **T** denoting the number of test cases. The description of **T** test cases follows. The only line of each test case contains two space-separated integers **N** and **K**.
@@ -95,8 +93,7 @@ For each test case, output a single line containing the expected result of **RDF
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 6 1
@@ -108,11 +105,9 @@ For each test case, output a single line containing the expected result of **RDF
 0.3750
 0.0416667
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** **RDF(6, 1)** returns each of the numbers **0, 1, 2, 3, 4, 5** with probability **1/6**. Hence the expected value is
-**(0 + 1 + 2 + 3 + 4 + 5) / 6 = 2.5**./>
+ **(0 + 1 + 2 + 3 + 4 + 5) / 6 = 2.5**./>
 
 **Example case 2.** Value of **N** when **RDF(4, 2)** is called may change by one of the following scenarios:
 
@@ -125,6 +120,6 @@ For each test case, output a single line containing the expected result of **RDF
 - **4 → 3 → 2** with probability **1/12**.
 
 Hence the expected value is
-**0 \* 1/4 + 0 \* 1/4 + 0 \* 1/8 + 1 \* 1/8 + 0 \* 1/12 + 1 \* 1/12 + 2 \* 1/12 = 1/8 + 1/12 + 1/6 = 3/8 = 0.375**./>
+ **0 \* 1/4 + 0 \* 1/4 + 0 \* 1/8 + 1 \* 1/8 + 0 \* 1/12 + 1 \* 1/12 + 2 \* 1/12 = 1/8 + 1/12 + 1/6 = 3/8 = 0.375**./>
 
 **Example case 3.** You should figure it out by yourself.

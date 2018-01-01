@@ -109,8 +109,7 @@ For each test case, Print the minimum number of rooms need to be painted in orde
 
 **Input**
 
-```
-
+<pre>
 3
 3
 RGR
@@ -119,18 +118,13 @@ RRR
 3
 RGB
 
-```
-**Output**
-
-```
-
+</pre>**Output**
+<pre>
 1
 0
 2
 
-```
-### Explanation:
-
+</pre>### Explanation:
 - **Test 1:** Chef prefers to paint room 2 with blue color such that the resulting color will be red and all the rooms have same color i.e red.
 - **Test 2:** Given configuration has all the rooms painted with red color and therefore, chef does not need to do painting work at all.
 - **Test 3:** One possible way of renovation is to paint room 1 with green color, room 2 with red color such that all rooms have same color i.e blue.

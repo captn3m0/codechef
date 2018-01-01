@@ -94,15 +94,12 @@ For each test case, output a list of space separated integers which are Dual Pal
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1
 2 3
 
 <b>Output:</b>
 1 6643 1422773 5415589 90396755477 381920985378904469
 
-```
-### Note
-
+</pre>### Note
 Source limit for the problem is 8000B instead of usual 50000B.

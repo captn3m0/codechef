@@ -23,8 +23,7 @@ For each test case, output a single line containing the answer for the correspon
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 2
 15
@@ -34,7 +33,5 @@ For each test case, output a single line containing the answer for the correspon
 4
 
 
-```
-### Explanation
-
+</pre>### Explanation
 In the second test case required pairs are (3, 6), (4, 12), (6, 12) and (10, 15).

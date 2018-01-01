@@ -57,8 +57,7 @@ If it's not possible to make such a network of roads at all, just output **-1** 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>2
 4 2
 5 234
@@ -70,7 +69,5 @@ If it's not possible to make such a network of roads at all, just output **-1** 
 2 4
 -1</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 The first case corresponds to the network described in the problem statement. In the second case, it is impossible to find a network for **5** towns such that the attractiveness is equal to **234**, so we output **-1**.

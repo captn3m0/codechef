@@ -100,8 +100,7 @@ For each test case, output "YES" if the triangle transformation is possible, oth
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>2
 5
 3</tt>
@@ -110,7 +109,5 @@ For each test case, output "YES" if the triangle transformation is possible, oth
 <tt>YES
 NO</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 - In test case 1, make the length of any one side **6**, and it will suffice.

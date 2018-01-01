@@ -87,8 +87,7 @@ For each test case, output a single line containing minimal cost required to mak
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 -1 -2 -3
 2
@@ -96,7 +95,5 @@ For each test case, output a single line containing minimal cost required to mak
 <b>Output:</b>
 5
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1:** Use the first type operation twice and the second type once.

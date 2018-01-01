@@ -23,8 +23,7 @@ For each test case print _n_ lines, where each line contains two numbers _m_ and
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 4
 1 4 3 1 2
@@ -67,5 +66,4 @@ For each test case print _n_ lines, where each line contains two numbers _m_ and
 7 2
 
 
-```
-**Warning: large Input/Output data, be careful with certain languages**
+</pre>**Warning: large Input/Output data, be careful with certain languages**

@@ -92,8 +92,7 @@ In a single line, output "Unlucky Chef" if such a day exists. Otherwise, output 
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 1 2 3
 
 <b>Output:</b>
@@ -106,9 +105,7 @@ Unlucky Chef
 Lucky Chef
 
 
-```
-### Subtasks
-
+</pre>### Subtasks
 - **Subtask 1:**  **jacketCost, money, sockCost** ≤ 103. **Points - 20**
 - **Subtask 2:** Original constraints. **Points - 80**
 

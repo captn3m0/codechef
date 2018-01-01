@@ -106,8 +106,7 @@ If it is impossible to construct a network with the given parameters for the cor
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>2
 10 1
 5 5</tt>
@@ -120,9 +119,7 @@ If it is impossible to construct a network with the given parameters for the cor
 4 5
 5 1</tt>
 
-```
-### Explanation
-
+</pre>### Explanation
 **Example case 1.** There are not enough connections even to satisfy the first requirement.
 
 **Example case 2.** The obtained network satisfies all the requirements.

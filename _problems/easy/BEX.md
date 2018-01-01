@@ -95,8 +95,7 @@ For each -1 in the input, output a single line containing the number of books Ha
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 6
 9 english
@@ -110,4 +109,4 @@ For each -1 in the input, output a single line containing the number of books Ha
 1 mathematics
 0 graphics
 
-```
+</pre>

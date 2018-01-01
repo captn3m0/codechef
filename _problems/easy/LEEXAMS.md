@@ -95,8 +95,7 @@ Output **T** lines, each containing a single real number - answer for the corres
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2
 2
@@ -112,4 +111,4 @@ Output **T** lines, each containing a single real number - answer for the corres
 0.347800000
 
 
-```
+</pre>

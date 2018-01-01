@@ -23,8 +23,7 @@ For each test case, print the largest integer that can result from performing on
 
 ### Sample Input
 
-```
-6
+<pre>6
 12345
 54321
 10901
@@ -32,15 +31,12 @@ For each test case, print the largest integer that can result from performing on
 7
 90
 
-```
-### Sample Output
-
-```
-51234
+</pre>### Sample Output
+<pre>51234
 54321
 11090
 211011
 7
 9
 
-```
+</pre>

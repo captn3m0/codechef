@@ -50,8 +50,7 @@ Output a single line containing the maximum number at the grid after performing 
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 2 4
 RowAdd 1 3
@@ -62,12 +61,9 @@ RowAdd 2 1
 <b>Output:</b>
 7
 
-```
-### Explanation
-
+</pre>### Explanation
 The grid changes as follows:
 
-```
-00  33  34  74  74
+<pre>00  33  34  74  74
 00  00  01  41  52
-```The maximum number in the final grid is 7.
+</pre>The maximum number in the final grid is 7.

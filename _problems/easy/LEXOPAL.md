@@ -109,16 +109,12 @@ cb.bc
 a.b
 
 
-```
-**Output**```
-
+<pre>**Output**<pre>
 abba
 cbabc
 -1
 
-```
-### Explanation
-
+</pre>### Explanation
 **In example 1**, you can create a palindrome by filling the faded character by 'b'.
 
 **In example 2**, you can replace the faded character by any character from 'a' to 'z'. We fill it by 'a', as it will generate the lexicographically smallest palindrome.

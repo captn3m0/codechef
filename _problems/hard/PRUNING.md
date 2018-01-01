@@ -27,8 +27,7 @@ The output for each test case consists of a single line containing a single inte
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 3
 5 10
@@ -59,4 +58,4 @@ The output for each test case consists of a single line containing a single inte
 7
 7
 
-```
+</pre>

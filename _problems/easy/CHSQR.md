@@ -102,11 +102,10 @@ For each test case, print **K** lines each consisting of **K** space separated i
  
 **Subtask **\#1** (90 points)**  : - **1** ≤ **T** ≤ **10**
 - **1** ≤ **Ki** 400
-
+ 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 <tt>2
 1
 3</tt>
@@ -117,4 +116,4 @@ For each test case, print **K** lines each consisting of **K** space separated i
 2 1 3</tt>
 
 
-```
+</pre>

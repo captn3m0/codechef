@@ -27,8 +27,7 @@ The output for each test case consists of two lines. The first line is a list of
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 6 3
 2 4 1
@@ -45,4 +44,4 @@ The output for each test case consists of two lines. The first line is a list of
 1 4 6
 2 5 7
 
-```
+</pre>

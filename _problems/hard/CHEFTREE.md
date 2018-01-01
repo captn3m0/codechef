@@ -59,8 +59,7 @@ For each query of the second type, output a single line containing a single inte
 
 ### Example
 
-```
-
+<pre>
 <b>Input:</b>
 <tt>1
 5 6
@@ -83,4 +82,4 @@ For each query of the second type, output a single line containing a single inte
 4
 </tt>
 
-```
+</pre>

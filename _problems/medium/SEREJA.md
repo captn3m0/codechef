@@ -90,8 +90,7 @@ All test cases, except Example, are created by the method described in Test Case
 
 ### Example
 
-```
-
+<pre>
 <b>Input 1:</b>
 3
 1 2 4
@@ -107,9 +106,7 @@ All test cases, except Example, are created by the method described in Test Case
 0
 
 
-```
-### Explanation
-
+</pre>### Explanation
 In **Input 1**, we should consider 3 segments **\[i, j\]** = **\[1, 2\]**, **\[2, 3\]**, **\[1, 3\]**.
  The range of segment **\[1, 2\]** is max(1,2) - min(1,2) = 1.
 The range of segment **\[2, 3\]** is max(2,4) - min(2,4) = 2.

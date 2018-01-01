@@ -104,8 +104,7 @@ For each test case, output a single line containing either "YES" or "NO" - the a
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 2
 3 2
 1 2
@@ -119,9 +118,7 @@ For each test case, output a single line containing either "YES" or "NO" - the a
 YES
 NO
 
-```
-### Explanation
-
+</pre>### Explanation
 The first example is the original version of the problem.
 
 The second example would have a solution if a boat could seat an additional animal/item.

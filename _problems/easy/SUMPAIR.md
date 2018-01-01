@@ -96,8 +96,7 @@ For each test case, output the answer in a separate line.
 
 ### Example
 
-```
-<b>Input:</b>
+<pre><b>Input:</b>
 3
 3 3
 3 5 8
@@ -111,9 +110,7 @@ For each test case, output the answer in a separate line.
 22
 37
 
-```
-### Explanation:
-
+</pre>### Explanation:
 Test Case 1: You can only take 1 pair out of 3 numbers. So pair(3,5) is only valid pair whose difference is 2.
 
 Test Case 3: You can take pairs(3,2) and (15,17) as the answer.
