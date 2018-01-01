@@ -164,12 +164,52 @@ class RoboFile extends \Robo\Tasks
 
                 $body = $this->converter->convert($body);
 
+                $body = $this->_fixPreTags($body);
+
                 $doc = new Document($body, $json);
                 $contents = FrontMatter::dump($doc);
 
                 file_put_contents($newFileName, $contents);
             }
         }
+    }
+
+    private function isBackTick($line) {
+        return (substr($line, 0, 3) === '```');
+    }
+
+    private function _fixPreTags(string $body) {
+        $lines = explode(PHP_EOL, $body);
+
+        $result = "";
+        $start = false;
+
+        foreach ($lines as $line) {
+            if ($this->isBackTick($line)) {
+                switch ($start) {
+                    case true:
+                        // Workaround for a converter bug
+                        if ($line === '``````') {
+                            $result .= "</pre><pre>";
+                        }
+                        else {
+                            $result .= str_replace('```', "</pre>", $line);
+                            $start = false;
+                        }
+                        break;
+
+                    case false:
+                        $start = true;
+                        $result .= str_replace('```', "<pre>", $line);
+                        break;
+                }
+            }
+            else {
+                $result .= $line . PHP_EOL;
+            }
+        }
+
+        return $result;
     }
 
     public function stats($category = 'all') {
