@@ -45,12 +45,6 @@ class RoboFile extends \Robo\Tasks
         $this->converter = new HtmlConverter(self::MARKDOWN_OPTIONS);
     }
 
-    private function getKey() {
-        $json = json_decode(`curl --silent 'https://www.codechef.com/api/user/key'`, true);
-
-        return $json['key'];
-    }
-
     private function parseUrl($url) {
         $contents = file_get_contents($url);
 
@@ -235,9 +229,8 @@ class RoboFile extends \Robo\Tasks
 
             $chunks = array_chunk($problems, 8);
 
-            $key = $this->getKey();
-
             foreach ($chunks as $chunk) {
+
                 $task = $this->taskParallelExec();
 
                 foreach ($chunk as $problemname) {
@@ -245,7 +238,7 @@ class RoboFile extends \Robo\Tasks
                     $time = (time() * 1000) - 200;
                     $filepath = "_problems/$category/$problemname.json";
                     if (! file_exists($filepath)) {
-                        $task = $task->process("wget --output-document '$filepath' --header 'Cookie:poll_time=$time;userkey=$key;notification=0' $url");
+                        $task = $task->process("wget --output-document '$filepath' $url");
                         $this->say("Added $url");
                     }
                 }
