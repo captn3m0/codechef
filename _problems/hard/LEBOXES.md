@@ -69,7 +69,7 @@ layout: problem
 ---
 All submissions for this problem are available.Little Elephant from Zoo of Lviv has **n** boxes. He don't know what is in the boxes, but he thinks that **i-th** box (0-based numeration) contains **Vi** dollars. The probability that **i-th** box will contain money is **Pi** percents. Instead of money **i-th** box may contain a single diamond (with the probability **100-Pi** percents).
 
-There are **m** things to buy, numbered from  to **m-1**, **j-th** thing costs exactly **Cj** dollars plus **Dj** diamonds. Little Elephant is very smart and if he has some number of dollars and diamonds he will always buy the maximal possible number of things he can afford. Note that there is just one copy of all **m** things.
+There are **m** things to buy, numbered from 0 to **m-1**, **j-th** thing costs exactly **Cj** dollars plus **Dj** diamonds. Little Elephant is very smart and if he has some number of dollars and diamonds he will always buy the maximal possible number of things he can afford. Note that there is just one copy of all **m** things.
 
 Help Little Elephant to find the expected number of things he will buy.
 
@@ -114,6 +114,5 @@ In **T** lines print **T** real numbers - the answers for the corresponding test
 <b>Output:</b>
 1.5000
 0.5000
-
 
 </pre>

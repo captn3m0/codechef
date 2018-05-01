@@ -119,8 +119,8 @@ Can you help Hasan and answer the queries?
 3
 2
 1
-
 </pre>### Explanation
+
 We show the multiset sorted at each step, for convenience.
 
 - Before any move, the multiset is (8, 5, 3, 1).

@@ -110,8 +110,8 @@ He wants to pick **W** adjacent boxes and give it to Suraj on his birthday. He w
 3
 2
 2
-
 </pre>### Explanation
+
 After the first repaint the boxes are coloured (1,1,1,1), which means 3 ways to choose 2 adjacent boxes of the same colour.
 After the second repaint the boxes are coloured (2,1,1,1), which means 2 ways to select 2 adjacent boxes of the same colour.
 After the third repaint thee boxes are coloured (2,2,1,1), which means 2 ways to select 2 adjacent boxes of the same colour.

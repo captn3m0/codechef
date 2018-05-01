@@ -120,8 +120,8 @@ In the first line, print the answer for the initial tree. Then print the answer 
 2
 3
 4
-
 </pre>### Explanation
+
 The below figure shows the initial graph and the graph after each query.
 
 **The initial tree.** The sought pairs are **(2, 4)** and **(2, 5)**. For example, in the path between nodes **2** and **4**, there are three integers **10, 6, 15** associated edges, and **GCD(10, 6, 15) = 1**.

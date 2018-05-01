@@ -107,8 +107,8 @@ A
 AB
 
 ACDFGHIJKLNPQRSTUVW
-
 </pre>### Explanation
+
 **Example case 1.** Chef can pick digits **6** and **5** and create integers 56 and 65. The integer 65 corresponds to 'A'.
 
 **Example case 2.** Chef can pick digits **6** and **5** and create **'A'** as it equals **65**. He can pick 6 and 6 (they are picked from position 2 and position 3, respectively) to create 'B' too. Hence answer is "AB".

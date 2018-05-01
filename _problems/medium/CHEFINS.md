@@ -102,8 +102,8 @@ For each query output "Yes" or "No" (without quotess) in separate line.
 Yes
 Yes
 No
-
 </pre>### Explanation
+
 **Example case 1.** 2 = 2
 
 **Example case 2.** 8 = 2 + 2 + 4

@@ -81,35 +81,35 @@ For example, let the reservoir be
 <pre>
 WW
 BB
+</pre>This is not stable, as the water in the block (1, 1) can overflow to the left, similarly water in block (1, 2) can overflow to the right too. ```
 
-</pre>This is not stable, as the water in the block (1, 1) can overflow to the left, similarly water in block (1, 2) can overflow to the right too. </pre>
 BWB
 BBB
+<pre>This is stable, as the water at block (1, 2) is entrapped between bricks from all sides. ```
 
-<pre>This is stable, as the water at block (1, 2) is entrapped between bricks from all sides. <pre>
 AWA
 BBB
+</pre>This is not stable, as the water at block (1, 2) might overflow to the left or the right. ```
 
-</pre>This is not stable, as the water at block (1, 2) might overflow to the left or the right. </pre>
 BAA
 ABB
+<pre>This is not stable, as there is a brick at block (1, 1) and air at (2, 1). The brick will go down and air will come up, so its not stable too. ```
 
-<pre>This is not stable, as there is a brick at block (1, 1) and air at (2, 1). The brick will go down and air will come up, so its not stable too. <pre>
 BWAAB
 BWBWB
 BBBBB
+</pre>This is not stable too, as there is water at block (1, 2) and air at (1, 3), and (1, 4). The water will move towards those blocks. ```
 
-</pre>This is not stable too, as there is water at block (1, 2) and air at (1, 3), and (1, 4). The water will move towards those blocks. </pre>
 BBB
 BAB
 BBB
+<pre>So brick at (1, 2) is loose and without support, and hence will fill the space beneath it, which is right now filled with air. That is, the brick will go down and replace the air ```
 
-<pre>So brick at (1, 2) is loose and without support, and hence will fill the space beneath it, which is right now filled with air. That is, the brick will go down and replace the air <pre>
 BBB
 BWB
 BBB
-
 </pre>This is also unstable due to the same reason as the above. Now, you are given description of reservoir. Can you tell whether the current state of reservoir is stable or not?
+
 ### Input
 
 The first line of input contains an integer **T** denoting number of test cases. Description of **T** test cases follows.
@@ -173,6 +173,6 @@ no
 no
 no
 no
-
 </pre>### Explanation
+
 All the examples are explained in the problem statement itself.

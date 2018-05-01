@@ -93,7 +93,7 @@ For each test case, output a single line with the answer — the minimal number 
 
 - **1** ≤ **T** ≤ **100**
 - **1** ≤ **N** ≤ **100**
-- ≤ **A\[i\]** i
+- 0 ≤ **A\[i\]** i
 
 ### Example
 
@@ -110,8 +110,8 @@ For each test case, output a single line with the answer — the minimal number 
 0
 0
 3
-
 </pre>### Explanation
+
 **Example case 3.**
 
 - First three persons don't need any steps to sit. The line after the arrangement of these persons will look like **\[1, 2, 3\]**.

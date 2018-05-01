@@ -38,5 +38,4 @@ For each test case, output two space separated integers V & C. V is the value wh
 <b>Description:</b>
 In first case 2 occurs twice whereas all other elements occur only once. 
 In second case, both 1 and 2 occur 3 times but 1 is smaller than 2.
-
 </pre>

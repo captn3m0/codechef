@@ -94,7 +94,7 @@ One integer – minimum energy required.
 - **1** ≤ **N** ≤ **106**
 - **1** ≤ sum of **N** over all test cases ≤ **106**
 - **1** ≤ **H** ≤ **N**
-- ≤ **li** ≤ **hi** < **N**
+- 0 ≤ **li** ≤ **hi** < **N**
 
 ### Subtasks
 
@@ -122,8 +122,8 @@ Subtask 2 (75 points): No additional constraints
 4
 2
 
-
 </pre>### Explanation
+
 In the second case, the figure describes the initial map, where white cells denote empty cells and brown cells denote soil cells.
 
 ![](http://www.codechef.com/download/AUG15/bef.png)

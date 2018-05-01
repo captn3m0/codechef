@@ -109,5 +109,4 @@ Output **T** lines. Every line should contain one integer - the minimal number o
 5
 1
 10
-
 </pre>

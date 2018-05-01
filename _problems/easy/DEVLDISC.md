@@ -88,6 +88,7 @@ Algorithm (<b>start_vertex</b>):
 	return ans;
 </tt>
 </pre>When Devu heard this algorithm, he exclaimed: "What, this does not seem to be correct!". Churu challenged him to give a counter example to disprove the algorithm. You have to help Devu come up with a graph as a counter example to the above algorithm, if one exists.
+
 Formally, You will be given an integer **n** denoting the number of nodes of the expected graph (counter example Devu is producing). The graph should be undirected, unweighted and connected. The actual diameter of the graph should not be equal to the one returned by the Churu's proposed algorithm. If for the given **n**, there does not exist any such graph which could act as counter example, print -1.
 
 ### Input
@@ -127,8 +128,8 @@ There is only a single subtask worth 100 points with above mentioned constraints
 8 9
 9 10
 7
-
 </pre>### Explanation
+
 **Example case 1.** There can be only one connected graph of 2 nodes. (i.e. 1 is connected to 2). Diameter returned by algorithm for any start vertex will be 1 which is equal to the actual diameter. So answer is -1.
 
 **Example case 2.** Please note that example given for **n = 10** is **not a correct counter example**. It is only given so as to clarify the input output format. In the example, first line contains **9** denoting the number of edges in the graph. Then **9** edges of the graph are given. The graph is connected. Then the last line specifies the value of **start\_vertex** passed (that is, **7**) to Churu's algorithm.

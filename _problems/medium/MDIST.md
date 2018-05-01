@@ -76,7 +76,7 @@ Devu has taken the course of computational geometry in the university of Coderpu
 
  **Manhattan Distance = abs(x1-x2) + abs(y1-y2)**
 
-Devu has N points in the Co-ordinate plane. Co-ordinate of **ith** point is **(xi,yi)**. Points are indexed from  to **(N-1)**(both inclusive).
+Devu has N points in the Co-ordinate plane. Co-ordinate of **ith** point is **(xi,yi)**. Points are indexed from 0 to **(N-1)**(both inclusive).
 
 He has **Q** updates or queries, for each update **U\[i, x,y\]**, change the co-ordinate of **ith** point to **(x,y)**.
 
@@ -122,8 +122,8 @@ Q 0 3
 
 <b>Output:</b>
 20
-
 </pre>### Explanation
+
 After first updates points will be:
 
 10 10

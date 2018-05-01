@@ -117,5 +117,4 @@ For each test case, output a single line containing the answer to the correspond
 2
 5
 1
-
 </pre>

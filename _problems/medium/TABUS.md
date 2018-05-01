@@ -74,7 +74,7 @@ All submissions for this problem are available.According to many researches, peo
 
 Let's consider the bus system with **N** bus stations (numbered from **1** to **N**) and **M** buses (numbered from **1** to **M**). Each bus is represented by 4 integer numbers **U, V, S, E** which means it will start at the bus station **U** at the time **S** and arrive at the bus station **V** at the time **E** with no intermediate bus stations. If passenger arrives at the bus station **U** at the time **X** ≤ **S**, he has to wait for **S − X** units of time to catch this bus. Note, that if he arrives at the bus station **U** exactly at time **S** he can catch this bus with no waiting time.
 
-The Chef starts at the time  in the bus station **1**, and he wants to arrive at the bus station **N** in a way that the longest period that he spends for waiting for a bus is as small as possible. Besides, he must be at the bus station **N** before or at the time **T** for a specially important meeting. Note, that he may wait for a meeting if he arrives at the bus station **N** early but that period is not our concern here, since he doesn't wait for any bus at that time.
+The Chef starts at the time 0 in the bus station **1**, and he wants to arrive at the bus station **N** in a way that the longest period that he spends for waiting for a bus is as small as possible. Besides, he must be at the bus station **N** before or at the time **T** for a specially important meeting. Note, that he may wait for a meeting if he arrives at the bus station **N** early but that period is not our concern here, since he doesn't wait for any bus at that time.
 
 ### Input
 
@@ -92,7 +92,7 @@ If Chef cannot arrive at the bus station **N** before or at the time **T**, outp
 - **1** ≤ **U** ≤ **N**
 - **1** ≤ **V** ≤ **N**
 - **U** ≠ **V**
-- ≤ **S** < **E** ≤ **109**
+- 0 ≤ **S** < **E** ≤ **109**
 
 ### Example
 
@@ -107,8 +107,8 @@ If Chef cannot arrive at the bus station **N** before or at the time **T**, outp
 
 <b>Output:</b>
 2
-
 </pre>### Explanation
+
 There are three different traveling plans:
 
 - **bus 1 → bus 3 → bus 5**. His waiting time for each bus is 1, 2, 1, respectively.

@@ -108,6 +108,6 @@ If there are several such subsets, you can output any.
 1
 2
 
-
 </pre>### Explanation
+
 We can pick {6} as the subset, then its sum is 6 and this is divisible by 3 - the size of the initial multiset.

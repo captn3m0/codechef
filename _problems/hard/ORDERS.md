@@ -40,5 +40,4 @@ For each test case, output a single line consisting of n space separated integer
 <b>Output:</b>
 2 1 3
 3 2 1 5 4
-
 </pre>**Warning: large Input/Output data, be careful with certain languages**

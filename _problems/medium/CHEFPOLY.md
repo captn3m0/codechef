@@ -152,8 +152,8 @@ For each query, output a new line containing the answer to it.
 0
 3
 
-
 </pre>### Subtasks
+
 - **Subtask 1:**  **N**  = 3. **Points - 10**
 - **Subtask 2:**  **N, M** ≤ 100. **Points - 20**
 - **Subtask 3:** Sum of **k** over all queries not be greater than **105**,  **M** ≤ 1000 **Points - 30**

@@ -124,8 +124,8 @@ Please help Chef in enjoying the game!!
 30
 21
 -1
-
 </pre>### Explanation
+
 **Example case 1.**
 The only option in first example is to make **10** fall on **20**. As we have only one element condition of equality is satisfied.
 

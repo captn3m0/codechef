@@ -87,7 +87,7 @@ For each test case, output one number — the answer for the problem modulo **10
 
 - **1** ≤ **T** ≤  **10**
 - **1** ≤ **N** ≤  **105**
-- ≤ **M** ≤  **7**
+- 0 ≤ **M** ≤  **7**
 
 ### Subtasks
 
@@ -110,6 +110,5 @@ For each test case, output one number — the answer for the problem modulo **10
 <b>Output:</b>
 2
 0
-
 
 </pre>

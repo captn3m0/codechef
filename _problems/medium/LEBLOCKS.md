@@ -73,7 +73,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 Little Elephant from Zoo of Lviv has **n** (0-based numeration) blocks consisted of **1x1x1** cubes in such way that the size of **i-th** block is **1x1xAi**. Each of the blocks also has a color, which is a positive integer. The color of **i-th** block is **Ci**. There will be no more than two blocks of the same color.
 
-Little Elephant wants to stack the blocks in the stack. In order to do so, he choose some random permutation **P** of integers from  to **n-1**, inclusive, and stacks all the blocks in order of **P**, i. e. at first he stacks **P0-th** block, then **P1-th** and so on.
+Little Elephant wants to stack the blocks in the stack. In order to do so, he choose some random permutation **P** of integers from 0 to **n-1**, inclusive, and stacks all the blocks in order of **P**, i. e. at first he stacks **P0-th** block, then **P1-th** and so on.
 
 After stacking Little Elephant has a sequence of size **S** consisted of cubes (0-based numeration) in order from the stack, where **S = A0 + A1 + ... + An-1**. Then he counts the number of such pairs of cubes with indices **i** and **j** that **j - i = k** and **i-th** cube has same color as **j-th**. Call this number as colorfulness of the corresponding permutation.
 
@@ -117,6 +117,5 @@ There will be no three or more blocks of the same color in a single test case.
 
 <b>Output:</b>
 0.9095238
-
 
 </pre>

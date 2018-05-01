@@ -105,8 +105,8 @@ In a single line, print the minimum number of edges we need to revert. If there 
 
 <b>Output:</b>
 2
-
 </pre>### Explanation
+
 We can consider two paths from **1** to **7**:
 
 - **1-2-3-4-7**

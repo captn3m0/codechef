@@ -108,14 +108,13 @@ answer for the problem with given **N, P** and **M = i**.
 
 <b>Output:</b>
 1 1 1 5
-
 </pre><pre><b>Input:</b>
 2 4 4
 
 <b>Output:</b>
 1 1 2 3 5
-
 </pre>### Explanation
+
 **Example #1.** 
 For M = 0, we can have only one lock, ie. all zeros 00, it is divisible by 3. 
 For M = 1, we can have only one lock, ie. all zeros 00, it is divisible by 3. 

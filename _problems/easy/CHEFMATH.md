@@ -140,8 +140,8 @@ For each question, output a separate line containing the answer of the question.
 1
 2
 4
-
 </pre>### Explanation
+
 **Example case 1.**
 There is no way to create 12 by adding one Chefonacci number, as 12 is not a Chefonacci number.
 

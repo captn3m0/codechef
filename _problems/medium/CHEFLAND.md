@@ -90,7 +90,7 @@ Output "YES" (without quotes) if it possible to make all pairs of node good by a
 ### Constraints
 
 - **1** ≤ **N** ≤ **105**
-- ≤ **M** ≤ **2 \* 105**
+- 0 ≤ **M** ≤ **2 \* 105**
 - **1** ≤ **x, y** ≤ **N**
 - It is guaranteed that the graph is connected.
 - The given graph may contain multi-edges. It doesn't contain any self loops.
@@ -106,6 +106,6 @@ Output "YES" (without quotes) if it possible to make all pairs of node good by a
 
 <b>Output:</b>
 <tt>YES</tt>
-
 </pre>### Explanation
+
 We can connect nodes 3 and 4 via an edge. After that all the pair of vertices will be good.

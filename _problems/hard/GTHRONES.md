@@ -111,6 +111,6 @@ Your program should print Bran if he has a a winning strategy else it should pri
 
 <b>Output:</b>
 Bran 21
-
 </pre>### Constraints:
+
 1 N 1 ui1 ciAll **ui**are distinct.

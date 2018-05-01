@@ -110,8 +110,8 @@ YES
 NO
 YES
 YES
-
 </pre>### Explanation
+
 **Example case 1.** Delete any one 'a', resulting string is "aa" which is a palindrome.
 
 **Example case 2.** It is not possible to delete exactly one character and having a palindrome.

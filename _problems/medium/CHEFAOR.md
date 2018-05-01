@@ -101,7 +101,7 @@ For each test case, output a single line, containing the maximal achievable cost
 - **1** ≤ **T** ≤ **10**
 - **1** ≤ **N** ≤ **5000**
 - **1** ≤ **K** ≤ **N**
-- ≤ **Ai** ≤ **230**
+- 0 ≤ **Ai** ≤ **230**
 - Subtask 1(15 points): **1** ≤ **N** ≤ **100**
 - Subtask 2(35 points): **1** ≤ **N** ≤ **1000**
 - Subtask 3(50 points): **1** ≤ **N** ≤ **5000**
@@ -125,8 +125,8 @@ For each test case, output a single line, containing the maximal achievable cost
 10
 3
 704</tt>
-
 </pre>### Explanation
+
 **Example case 1**. The optimal group division is the following one: put the first two numbers to the first group, and the next one into the second. This way, you will obtain the cost of the array equal to (1 OR 2) + 2 = 3 + 2 = 5.
 
 **Example case 2**. The first two integers should be in the first group, the third one should be in the second group, the fourth one should be in the third group. This way, we will obtain a cost of an array equal to (1 OR 2) + 3 + 4 = 3 + 3 + 4 = 10.

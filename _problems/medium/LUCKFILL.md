@@ -77,7 +77,7 @@ Consider some example. From the string **47?4?** we can obtain four lucky string
 
 Let **S** be some lucky string. Then - **|S|** denotes the length of the string **S**;
 - **S\[i\]** (**1 ≤ i ≤ |S|**) denotes the **i**th character of **S** (the numeration of characters starts from **1**);
-- The string **T** of the length **M** is called a _substring_ of **S** if for some **k** from  to **|S| - M** we have 
+- The string **T** of the length **M** is called a _substring_ of **S** if for some **k** from 0 to **|S| - M** we have 
   **T\[1\] = S\[k + 1\], T\[2\] = S\[k + 2\], ..., T\[M\] = S\[k + M\]**.
 
 ### Input
@@ -109,6 +109,5 @@ The first line of the input file contains a single positive integer **T**, the n
 <b>Output:</b>
 2
 4
-
 
 </pre>

@@ -142,5 +142,4 @@ For each test case, output a single line containing one integer denoting amount 
 <tt>1
 1
 24</tt>
-
 </pre>

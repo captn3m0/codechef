@@ -114,8 +114,8 @@ similar
 dissimilar
 similar
 dissimilar
-
 </pre>### Explanation
+
 **Test case 1.** The first dish consists of ingredients: eggs, sugar, flour, salt, while the second dish consists of: sugar, eggs, milk, flour. Three of four ingredients are present in both dishes (eggs, sugar, flour) so the two dishes are similar.
 
 **Test case 2.** This example shows that strings in the input don't necessarily represent real food. The answer is again "similar", because two ingredients are present in both dishes ("ac" and "ad").

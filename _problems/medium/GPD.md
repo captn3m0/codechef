@@ -133,8 +133,8 @@ For each operation of type 1, output a single line containing the two requested 
 0 6
 2 7
 0 1
-
 </pre>### Explanation
+
 Initially, there are 6 police stations in Gotham and our heroes have 4 operations to perform Gordon's station is the one that has id 1 and key 2.
 
 **First query:**  The values on the path from **4** to **1** are **1 xor 2 = 3**, **4 xor 2 = 6** and **2 xor 2 = 0**. The answer is **0 6**.
@@ -149,8 +149,8 @@ The decoded version of all operations is: ```
 0 6 10 6 (t v u k)
 1 10 1   (t v k)
 1 5 2    (t v k)
-
 <pre>### Note
+
 </pre>c++ 
 cin >> N >> Q;
 cin >> R >> key;

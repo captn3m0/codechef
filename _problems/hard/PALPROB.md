@@ -81,7 +81,7 @@ Let us define the palindromeness of a string in the following way:
 
 Let us consider some examples for better understanding:
 
-- The palindromeness of the string **zxqfd** is , since the string is not a palindrome.
+- The palindromeness of the string **zxqfd** is 0, since the string is not a palindrome.
 - The palindromeness of the string **a** is **1**, by definition.
 - The palindromeness of the string **aa** is **2**, beucase for "aa" we get **1** + palindromeness of "a", that is one, so we get **2**.
 - The palindromeness of the string **abacaba** is **3**.
@@ -125,8 +125,8 @@ aba
 <b>Output:</b>
 5
 5
-
 </pre>### Explanation
+
 **Example case 1:** There is no palindrome that occurs as the substring of **zxqfd** and has the length more than **1**. The individual characters are palindromes of the palindromeness of **1**.
 
 **Example case 2:** The palindromeness of **aba** is **2** and the sum of the palindromenesses of single characters is **3**.

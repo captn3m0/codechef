@@ -67,8 +67,8 @@ Animesh has at max **time** hours before he gets frustrated by his noobness and 
 <b>Output:</b>
 6
 11
-
 </pre>### Explanation
+
 **In the first example**, Malvika has prepared only one programming contest, its easy problem takes 1 hour and gives 5 units of pleasure. The medium one takes 2 hours and gives 3 units of pleasure whereas the same values for hard are 3 hours and 6 units of pleasure. Animesh has only 5 hours and can select at max one problems out of these to solve. The hard problem is the best candidate to choose for him, it will him give him 6 units of pleasure and take his 5 hours. So, the answer is 6.
 
 **In the second example**, Malvika has prepared two programming contests.

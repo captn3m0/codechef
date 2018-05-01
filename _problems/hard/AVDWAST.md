@@ -117,8 +117,8 @@ For each test case, output a single line containing the minimum number of food u
 9
 0
 9998
-
 </pre>### Explanation
+
 **Example case 1.** One of the optimal ways is the following:
 The 1st pouch is opened on the day **x1 = 4**,
 the 2nd pouch is opened on the day **x2 = 1**,

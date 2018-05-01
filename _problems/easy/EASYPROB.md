@@ -29,5 +29,4 @@ The first two lines of the CORRECT output file are:
 1315=2(2(2+2(0))+2)+2(2(2+2(0)))+2(2(2)+2(0))+2+2(0)
 
 The correct output file should contain 7 lines.
-
 </pre>

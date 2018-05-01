@@ -114,8 +114,10 @@ If **D** ≠ 0, then **C****D** ≠ 0
 3 1 1
 3 1 2 3 4
 </pre>### Sample Output
+
 <pre>78
 4
 30
 </pre>### Explanation
+
 In the first case, the polynomial is **P**(**x**) = 2 · **x**2 + **x**. The answer is **P**(3**X**) = **P**(6) = 2 · 36 + 6 = 78.

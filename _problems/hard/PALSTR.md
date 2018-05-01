@@ -114,15 +114,15 @@ ab
 aa
 aa
 aa
-
 </pre>**Output**
+
 <pre>
 0
 6
 8
 27
-
 </pre>### Explanation
+
 - **Test 1:**  No such palindromic string is possible.
 - **Test 2:**  "aaa", "bbb", "aba", "bab", "abba", "baab" are all possible palindromic strings.
 - **Test 3:**  "aaa", "bbb", "aba", "bab", "abba", "baab", "babab", "ababa" are all possible palindromic strings.

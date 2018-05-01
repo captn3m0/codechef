@@ -122,8 +122,8 @@ Subtask 3 (70 points):
 1
 5
 3
-
 </pre>### Explanation
+
 **Example case 1.** Initially, there was no memory allocated. For running first test file, there was a memory allocation of 1 MBs. There was no allocation/ deallocation for running your program on second test file.
 
 **Example case 2.** On running on each test file, there was a further allocation of 1 MBs from previous one. So, there are total 5 MBs of memory allocated while running the program.

@@ -102,7 +102,7 @@ For each query, print a single integer - the number Chef would like to find out 
 ### Constraints and Subtasks
 
 - **1** ≤ **T**, **Nk** ≤ **50**
-- ≤ **Mk** ≤ **Nk×(Nk−1)/2**
+- 0 ≤ **Mk** ≤ **Nk×(Nk−1)/2**
 - **1** ≤ **Q** ≤ **2×105**
 - **1** ≤ **Li** ≤ **Ri** ≤ **T**
 - **1** ≤ **Ki** ≤ **104**
@@ -163,8 +163,8 @@ For each query, print a single integer - the number Chef would like to find out 
 28
 22
 915822
-
 </pre>### Explanation
+
 **Example case 1.**
 Starts from: (ways of play with length in range \[1, 4\]) 
 **1:**  (1,2,1), (1,3,1), (1,2,3,1), (1,3,2,1), (1,2,3,2,1), 

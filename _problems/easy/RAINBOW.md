@@ -131,8 +131,8 @@ For each test case, output the maximum possible size of an interesting subset, i
 0
 0
 4
-
 </pre>### Explanation
+
 In the first case, the set of all nodes is an interesting subset.
 
 In the second and third cases, no non-empty subset of nodes is interesting.

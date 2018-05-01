@@ -88,7 +88,7 @@ In a single line print single integer - the minimal number of jumps he needs.
 ### Constraints
 
 - **1** ≤ **N** ≤ **10^5**
-- Each symbol of **S** is a digit from  to **9**.
+- Each symbol of **S** is a digit from 0 to **9**.
 
 ### Example
 
@@ -103,11 +103,9 @@ In a single line print single integer - the minimal number of jumps he needs.
 
 <b>Output:</b>
 4
-
 </pre><pre>
 <p> </p>
 <h3>Explanation</h3>
 <p>In the first case Chef can directly jump from the first digit (it is <b>0</b>) to the last (as it is also <b>0</b>).</p>
 <p>In the second case Chef should jump in such sequence (the number of digits from <b>1</b>: <b>1-2-4-5-15</b>). </p>
-
 </pre>

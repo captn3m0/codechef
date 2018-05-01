@@ -92,7 +92,7 @@ You want to get a promotion and promised to complete this task. Now it's time to
 
 Each test file contains only one test case.
 
- The first line of input contains an integer **N** denoting the number of buildings in Bytetown. The second line contains **N** space-separated integers **A0, A1, ..., AN−1** denoting the initial height of the buildings. The third line contains an integer **M** denoting the number of queries. Each of next **M** lines starts with  or **1**, where  denotes a query _Type 0_ and **1** denotes a _Type 1_ query. If it's a _Type 0_ query then **3** integers follows **Li**, **Ri**, **Fi**, denoting number of the leftmost building, number of the rightmost building and force of this shake. If it's a _Type 1_ query then **2** integers follows **Li**, **Ri**, denoting numbers of the leftmost building and the rightmost building of necessary segment.
+ The first line of input contains an integer **N** denoting the number of buildings in Bytetown. The second line contains **N** space-separated integers **A0, A1, ..., AN−1** denoting the initial height of the buildings. The third line contains an integer **M** denoting the number of queries. Each of next **M** lines starts with 0 or **1**, where 0 denotes a query _Type 0_ and **1** denotes a _Type 1_ query. If it's a _Type 0_ query then **3** integers follows **Li**, **Ri**, **Fi**, denoting number of the leftmost building, number of the rightmost building and force of this shake. If it's a _Type 1_ query then **2** integers follows **Li**, **Ri**, denoting numbers of the leftmost building and the rightmost building of necessary segment.
 
 ### Output
 
@@ -127,12 +127,12 @@ For each _Type 1_ query, output an integer denoting the answer for the query wit
 71
 832
 3140
-
 </pre>### Explanation
+
 The initial array: **\[17, 3140, 832\]**.
 
-The first query is a _Type 1_ query with numbers of buildings  and **2**, so the answer is the maximum of the array: **3140**.
+The first query is a _Type 1_ query with numbers of buildings 0 and **2**, so the answer is the maximum of the array: **3140**.
 
-The second query is a _Type 0_ query with numbers of buildings  and **2**, and force **1**, so the array turns to: **\[71, 1403, 328\]**.
+The second query is a _Type 0_ query with numbers of buildings 0 and **2**, and force **1**, so the array turns to: **\[71, 1403, 328\]**.
 
 The third query is a _Type 1_ query again with numbers of buildings **1** and **2**, so the answer is the maximum of **1403** and **328**: **1403**

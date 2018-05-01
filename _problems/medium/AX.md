@@ -79,6 +79,7 @@ For example, if n=3, the mine "\*" placed on the square at position (1,1) will d
 ####....
 </tt>
 </pre>### Input
+
 The first line will contain integer 8nn is the size of the area). The second line will contain 0n, the number of already planted mines. The next m lines will contain the 0-based x and y coordinates of the existing mines.
 
 ### Output
@@ -99,6 +100,6 @@ For each test case, you will receive (2n-m)/t-1 points, provided you destroy all
 2
 0 1
 2 2
-
 </pre>You will receive (4-1)/2 - 1 = 0.5 pts for such a mine placement.
+
 **Note:**There will be some tests with no initially placed mines, and some tests with initial placements covering most of the area pretty well. Good luck!

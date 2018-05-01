@@ -67,5 +67,4 @@ For each test case, you are to output a single line consisting of either "yes" o
 no
 yes
 yes
-
 </pre>

@@ -88,8 +88,8 @@ for K = 1 to Q
      Output R1 R2
      V<sub>K</sub> = Update array V<sub>(K-1)</sub> by changing V<sub>(K-1)</sub> [ ( B * R1 + D ) % N ] = ( C * R2 + D ) % M
 end-for
-
-</pre>Note: Take care of potential overflows in intermediate calculations in the equations mentioned above. The authors algorithm doesn't depend on the values of A B C D M, they are just used to generate some values. 
+</pre>
+Note: Take care of potential overflows in intermediate calculations in the equations mentioned above. The authors algorithm doesn't depend on the values of A B C D M, they are just used to generate some values. 
 ### Input
 
 First line contains 6 integers N M A B C D and the second line contains N integers, the initial ratings of N players in order ( 2 ≤ N, A, B, C, D ≤ 100,000 ; 0 ≤ V0\[i\] , M < 1,000,000,000 ; M ≥ 2 ). Next line contains Q ( number of queries 1 ≤ Q ≤ 100,000 ), followed by Q lines. The Kth line in this has the query number K, and has two integers qi qj ( 0 ≤ qi < qj < N ).
@@ -115,8 +115,8 @@ For each query, output the top-2 maximum ratings R1 R2 ( R1 ≥ R2 ) in a new li
 4 3
 12 4
 12 8
-
-</pre>**Explanation:**
+</pre>
+**Explanation:**
 
 V0 = { 1, 2, 3, 4, 5, 6 }
 

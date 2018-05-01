@@ -43,7 +43,7 @@ For each of the R rounds, print the answer in a new line.
 V[0..5] = { 3, 1, 2, 2, 1, 1 } : Only Village 1 occurs more than K ( = 2) times.
 V[2..4] = { 2, 2, 1} : None of the villages occur more than 2 times.
 V[1..7] = { 1, 2, 2, 1, 1, 2, 1 } : Villages 1 and 2 occur more than 2 times.
-
-</pre>_Warning : Large input / output. You may have to use efficient input / output methods if you are using languages with heavy input / output overload. Eg: Prefer using scanf/printf to cin/cout for C/C++ 
+</pre>
+_Warning : Large input / output. You may have to use efficient input / output methods if you are using languages with heavy input / output overload. Eg: Prefer using scanf/printf to cin/cout for C/C++ 
 
 Note : There are multiple test sets, and the judge shows the sum of the time taken over all test sets of your submission, if Accepted. Time limit on each test set is 2 sec_

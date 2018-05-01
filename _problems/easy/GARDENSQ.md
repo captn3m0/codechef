@@ -48,14 +48,14 @@ aabb
 bbaa
 bbaa
 
-
 </pre>**Sample output**
+
 <pre>0
 1
 4
 
-
 </pre>**Explanation**
+
 In the first case the only avaliable square does not conform to the definition in the problem statement because 'a' and 'A' describes different colors.
 
 In the second case, you can select the 4 a's at the corners of the garden.

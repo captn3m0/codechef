@@ -97,7 +97,7 @@ aba
 3
 2
 
-
 </pre>### Explanation
+
 For first testcase, the whole string is a subsequence which has all distinct characters.
 In second testcase, the we can delete last or first 'a' to get the required subsequence.

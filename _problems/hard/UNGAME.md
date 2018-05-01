@@ -109,8 +109,8 @@ For each test case, output a single line containing **m** space separated intege
 <b>Output:</b>
 2 1
 1 1
-
 </pre>### Explanation
+
 **Example case 1.**
 
 There are three cells in the horizontal strip.

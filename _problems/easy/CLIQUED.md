@@ -132,8 +132,8 @@ For each test case, output a single line containing **N** integers. The i-th of 
 100 100 0 100 150 
 100 100 0 100 140 
 17 32 30 20 0 10 1030 1080
-
 </pre>### Explanation
+
 **Test case 1.** There are **N** = 5 cities. The first **K** = 4 of them are all connected with each other with roads of length **X** = 100. There are **M** = 2 extra roads:
 
 - Cities 1 and 5 are connected with a road of length 50.

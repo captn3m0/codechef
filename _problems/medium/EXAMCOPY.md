@@ -135,8 +135,8 @@ No additional constraint
 7 8
 9 10
 2
-
 </pre>
+
 **Output**
 />/>
 
@@ -151,5 +151,4 @@ No additional constraint
 3 1
 -1
 -1
-
 </pre>

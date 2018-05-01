@@ -72,7 +72,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 Little Elephant from Zoo of Lviv likes to paint.
 
-He has **n** objects to paint, ordered in a row and numbered form left to right starting from **1**. There are totally **c** colors, numbered from  to **c-1**. At the beggining all objects are colored in color with number **1**. When object with color **a** is painted in color **b**, the resulting color will have number **(a\*b) mod c**.
+He has **n** objects to paint, ordered in a row and numbered form left to right starting from **1**. There are totally **c** colors, numbered from 0 to **c-1**. At the beggining all objects are colored in color with number **1**. When object with color **a** is painted in color **b**, the resulting color will have number **(a\*b) mod c**.
 
 Little Elephant is going to make **k** turns. At **i-th** (0-based numeration) turn he will randomly choose any subset (even empty) of objects with indices in range **\[Li; Ri\]** (inclusive) and paint all objects in chosen subset with random color (the same for all objects in the subset).
 
@@ -120,6 +120,5 @@ Any results within 10^-6 absolute error will be accepted.
 <b>Output:</b>
 3.444444444
 22.943125000
-
 
 </pre>

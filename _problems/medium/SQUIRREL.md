@@ -39,12 +39,12 @@ For each test cases, output in a single line an integer which is the shortest ti
 3 2 5
 5 1 2
 1 1 1
-
 </pre>**Output:**
+
 <pre>4
 3
-
 </pre>_\* Explain (case #1): 2 squirrels waiting below the trees 2 and 3._
+
 ### Limitations
 
 - 0<t≤20

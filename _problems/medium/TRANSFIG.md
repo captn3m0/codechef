@@ -131,8 +131,8 @@ K=2.
     \
      1 : (1.children = [null, null], 2.children = [null, 1])
 
-<pre>
-</pre>### Input
+<pre></pre>### Input
+
 The first line contains **T**, the number of test-cases. 
 
 Each test-case, begins with a line consisting of two integers **N** and **K**, **N** is the number of nodes of the tree, and **K** is the maximum number of children of each node. 
@@ -175,8 +175,8 @@ For each testcase, output the possible number of rooted **K**-ary trees having t
 0
 1
 0
-
 </pre>### Explanation
+
 The first case has two possibilities:
 
 

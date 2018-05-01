@@ -102,8 +102,8 @@ For each test case, output a single line containing maximal weight among all the
 <b>Output:</b>
 2
 5
-
 </pre>### Scoring
+
 Subtask 1 (30 points): All the oranges' weights equals to 1.
 
 Subtask 2 (30 points):  **N = 5** 

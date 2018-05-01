@@ -37,8 +37,8 @@ for i : 0 to R-1
 <i>The writer's solution does not depend on the factors X, P, Q, M used for input generation.
 They are used just to decrease the size of input files ( Max 8MB ).</i>
 
-
 </pre>### Output
+
 For each test case, output the maximum possible sum of ratings along a path that starts in the top row and ends in the bottom row.
 
 ### Constraints
@@ -64,8 +64,8 @@ For each test case, output the maximum possible sum of ratings along a path that
 <b>Output:</b>
 10
 3
-
-</pre>**Explanation:**
+</pre>
+**Explanation:**
 The path with maximum sum of ratings in Case 1 is shown in bold 
    1  1 -5 **3** **1**   -1  **1**  **1** **-1**  **3**    2 -3  **2** -1  1  
 

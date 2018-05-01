@@ -132,8 +132,8 @@ CONTEST_HOSTED
 <b>Output:</b>
 3
 1
-
 </pre>### Explanation
+
 **In the first example**,
 
 - For winning contest with rank 1, user gets 300 + 20 - 1 = 319 laddus.

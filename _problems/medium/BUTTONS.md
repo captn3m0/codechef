@@ -44,5 +44,4 @@ Output "-1" if it is impossible to achieve the final configuration from the init
 0 
 1
 2 
-
 </pre>

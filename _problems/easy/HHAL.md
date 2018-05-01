@@ -117,8 +117,8 @@ abbabaab
 
 <b>Output:</b>
 2
-
 </pre>### Explanation
+
 There're multiple ways to ruin Harrenhal in the example test. Let's consider one of them.
 
 The first troop can delete **S** = _'ababa'_(_'**ab**b**ab**a**a**b'_). After that, **H** = _'bab'_.

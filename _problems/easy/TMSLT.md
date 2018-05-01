@@ -82,7 +82,7 @@ But Chef does not know exact strengths of each player. He knows some parameter *
 
  Si = (a \* Si-12 + b \* Si-1 + c) mod 1000000, for i = 1 to N - 1**
 
-There are **N** players numbering  to **N-1** and **Si** is the strength of player **i**.
+There are **N** players numbering 0 to **N-1** and **Si** is the strength of player **i**.
 
 ### Input
 
@@ -111,5 +111,4 @@ For each test case, you have to print a single line containing the absolute stre
 2
 763
 74896
-
 </pre>

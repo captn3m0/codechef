@@ -121,8 +121,8 @@ You have to help Devu in choosing an optimal set of friends to invite so that th
 2 
 6
 0
-
 </pre>### Explanation
+
 **Example case 1.** Both his friends are giving him gifts. So he will invite both of them to the party and will collect 8 rupees from the gifts received.
 
 **Example case 2.** He invites both of the friends and total rupees collected will be 2 rupees. He can not invite 2nd friend only, because 1st person is a best friend of 2nd person and he must be invited too if 2nd friend is invited.

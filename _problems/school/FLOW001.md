@@ -99,5 +99,4 @@ Add **A** and **B** and display it.
 300
 50
 
-
 </pre>

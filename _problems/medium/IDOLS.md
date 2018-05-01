@@ -125,8 +125,8 @@ For each query of the second type, output a single line containing two integers,
 
 <b>Output:</b>
 5 5
-
 </pre>### Explanations
+
 In the input, before the second query, **F**'s and **G's** equals to the following:
 
 **ID****F****G**111222333444555After the second query, **F**'s and **G's** equals to the following:

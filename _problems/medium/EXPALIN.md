@@ -117,6 +117,6 @@ Time limit for the first and the second subtasks is 3s. Time limit for the third
 9
 18
 
-
 </pre>### Explanation of the first case in the example test
+
 The following sequences are counted in the answer: {1}, {2}, {3}, {4}, {5}, {1, 2}, {1, 4}, {2, 4}, {1, 2, 4}.

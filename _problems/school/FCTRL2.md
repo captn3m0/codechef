@@ -86,12 +86,11 @@ Sample input: ```
 2
 5
 3
-
 <pre>Sample output:
+
 </pre>
 1
 2
 120
 6
-
 <pre>

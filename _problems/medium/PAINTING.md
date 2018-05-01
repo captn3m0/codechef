@@ -95,8 +95,8 @@ R 200
 120
 10
 99
-
-</pre>**Explanation:**
+</pre>
+**Explanation:**
 R 100 : all 100 cells from (1,0) to (100,0) are painted white
 
 U 10 : all 10 cells from (100,1) to (100,10) are painted white

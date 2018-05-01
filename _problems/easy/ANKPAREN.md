@@ -118,8 +118,8 @@ Output exactly **T** lines, each containing answer to the corresponding query.
 (())
 3
 
-
 </pre>**Sample Output:**
+
 <pre>
 )
 (()
@@ -127,8 +127,8 @@ Output exactly **T** lines, each containing answer to the corresponding query.
 ())
 -1
 
-
 </pre>### Explanation:
+
 **Case 1:**Following are the subsequences:
 
 <pre>
@@ -138,8 +138,8 @@ Length   Subsequence   Regular/Non-Regular
   1			)			Non-regular
   2			()			Regular
 
-
-</pre>There are two non-regular subsequences of equal length:'(' and ')'.We are asked for the lexicographically 2nd, so output should be ')'.
+</pre>There are two non-regular subsequences of equal length:'(' and ')'.
+We are asked for the lexicographically 2nd, so output should be ')'.
 
 **Case 2:**Following are the subsequences:
 
@@ -151,8 +151,8 @@ Length   Subsequence   Regular/Non-Regular
   2			()			Regular
   3			(()			Non-Regular
 
-
 </pre>In this case, there are non-regular subsequences of lengths 1, 2, and 3. But, as 3 is the maximum among these, we choose, **(()**.
+
 **Case 3:**
 The string is same as Case 2, and we realize that there is only one subsequence of the maximum length 3, thus we must output -1.
 
@@ -164,8 +164,8 @@ Length 	Subsequence
   3			())	
   3			(()
 
-
-</pre>In lexicographical order, we have following subsequences: \[ ((), ()) \]The query asks for 2nd subsequence, thus the required output is ()).
+</pre>In lexicographical order, we have following subsequences: \[ ((), ()) \]
+The query asks for 2nd subsequence, thus the required output is ()).
 
 **Case 5:**
 This is the same sequence as last case, and we know that there are exactly 2 distinct subsequences of maximum length. Thus, answer should be -1.

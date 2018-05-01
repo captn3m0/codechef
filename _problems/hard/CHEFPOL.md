@@ -114,7 +114,6 @@ Output a single integer in a line denoting number of ways to color polyhedron in
 <b>Output:</b>
 10
 
-
 </pre><pre><b>Input:</b>
 4 4
 3 2 3 4
@@ -124,5 +123,4 @@ Output a single integer in a line denoting number of ways to color polyhedron in
 
 <b>Output:</b>
 35
-
 </pre>

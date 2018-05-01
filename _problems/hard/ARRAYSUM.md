@@ -130,8 +130,8 @@ Output a single line containing the number of subsequences **C** as asked in the
 
 <b>Output #2:</b>
 6
-
 </pre>### Explanation
+
 **Example case 1.** The suitable subsequences are (1, 2, 7), (1, 4, 7), (5, 4, 7), (2, 4, 7).
 
 **Example case 2.** The suitable subsequence is **(7, 7)**, and it appears 6 times:

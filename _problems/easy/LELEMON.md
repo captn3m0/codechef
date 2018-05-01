@@ -73,7 +73,7 @@ All submissions for this problem are available.Little Elephant likes lemonade.
 
 When Little Elephant visits any room, he finds the bottle of the lemonade in that room that contains the greatest number of litres of lemonade and drinks it all.
 
-There are **n** rooms (numbered from  to **n-1**), each contains **Ci** bottles. Each bottle has a volume (in litres). The first room visited by Little Elephant was **P0-th**, the second - **P1-th**, ..., the **m-th** - **Pm-1-th** room. Note that Little Elephant may visit a room more than once.
+There are **n** rooms (numbered from 0 to **n-1**), each contains **Ci** bottles. Each bottle has a volume (in litres). The first room visited by Little Elephant was **P0-th**, the second - **P1-th**, ..., the **m-th** - **Pm-1-th** room. Note that Little Elephant may visit a room more than once.
 
 Find for Little Elephant the total volume of lemonade he has drunk.
 
@@ -117,6 +117,5 @@ In **T** lines print **T** integers - the answers for the corresponding test cas
 <b>Output:</b>
 17
 22
-
 
 </pre>

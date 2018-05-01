@@ -100,8 +100,8 @@ BWBB
 Chef
 Aleksa
 Aleksa
-
 </pre>###  Explanation
+
 - **Test 1 :** Aleksa cannot make a move in her first turn as there is no black cell in the given configuration.
 - **Test 2 :** Aleksa can remove 1 black cell lying on the left of white cell in her turn. But then, Chef cannot make a move in his turn as there will be no black cells left.
 - **Test 3 :** Figure out yourself.

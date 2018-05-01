@@ -106,7 +106,7 @@ In this task, you have to determine the minimum number of cameras needed to take
 
 Let us assume that:
 
-- **N** – the number of elephants. The elephants are numbered  through **N-1**.
+- **N** – the number of elephants. The elephants are numbered 0 through **N-1**.
 - **L** – the length of the segment captured by a single camera. You may assume that L is an integer such that **1 ≤ L ≤ 1,000,000,000**.
 - **M** – the number of acts performed. You may assume that M is an integer such that **1 ≤ M ≤ 150,000**.
 - **i** – the number of the elephant that moves in the current act.
@@ -139,8 +139,8 @@ Output should consist of **M** integers in separate lines, denoting the **minimu
 3 35
 0 38
 2 0
-
-</pre>**Output**/>
+</pre>**Output**
+/>
 
 <pre>
 1
@@ -148,8 +148,8 @@ Output should consist of **M** integers in separate lines, denoting the **minimu
 2
 2
 3
-
-</pre>**Example 2:**/>
+</pre>**Example 2:**
+/>
 
 **Input**
 />
@@ -161,15 +161,15 @@ Output should consist of **M** integers in separate lines, denoting the **minimu
 1 76543
 0 66321
 0 78754
-
-</pre>**Output**/>
+</pre>**Output**
+/>
 
 <pre>
 2
 1
 1
-
 </pre>### Subtasks
+
 **Subtask 1 (10 points)**
 
 - There are exactly **N** = 2 elephants.

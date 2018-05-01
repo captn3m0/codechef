@@ -84,7 +84,7 @@ Each person is described in two lines. First line of the description contains a 
 For each person, print "INDIAN" if he/she is from India, "NOT INDIAN" if not from India, and "NOT SURE" if the information is insufficient to make a decision.### Constraints
 
 
-``12. **For 30 points:** 1 ≤ T,N ≤ 100
+<pre></pre>12. **For 30 points:** 1 ≤ T,N ≤ 100
 13. **For 70 points:** 1 ≤ T,N ≤ 1000### Example
   
   **Input:**`3<br></br>5<br></br>NNNYY<br></br>6<br></br>NNINNI<br></br>4<br></br>NNNN<br></br>`

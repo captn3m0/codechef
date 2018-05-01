@@ -119,8 +119,8 @@ Formally, you need to find a subset of cities, S, such that the sum of **Pi** ov
 
 <b>Output:</b>
 7
-
 </pre>### Explanation
+
 One of the optimal solutions is to parachute into Cities 1, 6 and 8 on Day 0. So the total number of soldiers needed = **P1** + **P6** + **P8** = 2 + 4 + 1 = 7.
 
 Now, we will show that this is indeed a valid solution. For that, we need to show that eventually all the cities will be captured. We will show the cities captured on every day in sequence:

@@ -106,11 +106,11 @@ Output for each test case should contain a single real number in a separate line
 21.000
 9.500
 10.000
-
 </pre>### Explanation
+
 **Case 1:** In the first move Alice has to take **100**, and this is the only move. Hence, the expected value Alice will get is **100**.
 
-**Case 2:**  It is quite clear that Alice will make only 1 move. As she can get **42** or  with
+**Case 2:**  It is quite clear that Alice will make only 1 move. As she can get **42** or 0 with
 equal probability, the expected value she will get is equal to **0.5 ∙ 42 + 0.5 ∙ 0 = 21**.
 
 **Case 3:**  Let's consider all possible scenarios how game can proceed:

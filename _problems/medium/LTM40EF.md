@@ -110,5 +110,4 @@ Output in a single line **K**-th **M**-letter in Chef's order.
 
 <b>Output:</b>
 <tt>aaaba</tt>
-
 </pre>

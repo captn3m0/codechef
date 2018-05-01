@@ -100,11 +100,10 @@ For each case the output should be a single integer representing the number of s
 1
 2
 3
-
-</pre>**Sample Output**
+</pre>
+**Sample Output**
 <pre>
 1
 3
 8
-
 </pre>

@@ -40,5 +40,4 @@ For each test case output one line containing the sought number of solutions to 
 4
 
 <b>Explanation:</b>
-
 </pre>In the first test case, the only pairs are (2,4) and (4,2).

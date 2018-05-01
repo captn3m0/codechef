@@ -100,8 +100,8 @@ For each test case, print the required answer in one line.
 
 <b>Output:</b>
 7
-
 <pre>### Explanation
+
 Considering all subsets:
 
  F({}) = 0 ⇒ 4 **⊕** 0 = 4

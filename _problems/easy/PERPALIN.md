@@ -117,8 +117,8 @@ impossible
 aba
 abba
 abaaba
-
 </pre>### Explanation
+
 **Example 1**: The only strings possible are either aaa or bbb, which Chef doesn't like. So, the answer is impossible.
 
 **Example 2**: There are four possible strings, aa, ab, ba, bb. Only aa and bb are palindromic, but Chef doesn't like these strings. Hence, the answer is impossible.

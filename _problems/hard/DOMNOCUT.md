@@ -38,8 +38,8 @@ For each test case output in the first line the word **"IMPOSSIBLE"** without qu
 4 3
 5 5
 
-
 </pre>### Sample output
+
 <pre>IMPOSSIBLE
 1 2
 ab
@@ -53,5 +53,4 @@ ccb
 baa
 bcc
 IMPOSSIBLE
-
 </pre>

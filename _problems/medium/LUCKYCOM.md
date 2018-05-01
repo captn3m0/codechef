@@ -115,6 +115,6 @@ The first line of the input file contains two space separated integers **N** and
 <b>Output:</b>
 5
 
-
 </pre>### Explanation
+
 For the sample input all different CNSes are **4**, **7**, **44**, **47** and **447**. Note, that **444** is not a CNS since it requires at least 3 replacements of the question marks.

@@ -119,6 +119,7 @@ where  **A**  is an array of integers of size  **N**  (indexed from 1 onwards) a
 <br></br>
 />/>
 </pre>### Explanation
+
 **Query 1.**
 
  **(root(1,8)\*4 + root(2,8)\*5 + root(3,8)\*6) % 1000000007 = (8\*4 + 2\*5 + 2\*6) % 1000000007 = 54 % 1000000007 = 54 

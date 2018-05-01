@@ -60,8 +60,8 @@ RowAdd 2 1
 
 <b>Output:</b>
 7
-
 </pre>### Explanation
+
 The grid changes as follows:
 
 <pre>00  33  34  74  74

@@ -141,8 +141,8 @@ Output one real number: the maximal average score, rounded to 2 digits after the
 
 <b>Output 2:</b>
 32.50
-
 <pre>### Explanation
+
 **Example case 1**
 
 The only way she can finish these 3 courses is: take course 1 in the first semester, then take courses 2 and 3 in the second semester. The average score is (70 + 80 + 90) / 3 = 80.00.

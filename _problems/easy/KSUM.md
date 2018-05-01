@@ -115,8 +115,8 @@ Output **K** space separated integers where the **ith** integer denotes the **it
 
 <b>Output 2</b>
 <tt>19 12 10</tt>
-
 </pre>### Explanation
+
 **Test 1:**
 ![](https://s3.amazonaws.com/hr-challenge-images/15909/1461161918-8d79d8843c-B.png "B.png")
 

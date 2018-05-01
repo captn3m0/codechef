@@ -119,5 +119,4 @@ In a single line print the required answer.
 <b>Output:</b>
 12
 
-
 <pre>

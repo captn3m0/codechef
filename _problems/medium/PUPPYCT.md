@@ -88,11 +88,11 @@ For each test case, output a single line containing one integer - number of cell
 
 - **1** ≤ **T** ≤ **10**
 - **1** ≤ **N** ≤ **106**
-- ≤ **K** ≤ **105**
+- 0 ≤ **K** ≤ **105**
 - **1** ≤ **xi**, **yi** ≤ **N**
-- Subtask #1 \[22 points\]: **1** ≤ **N** ≤ **500**,  ≤ **K** ≤ **104**
-- Subtask #2 \[24 points\]: **1** ≤ **N** ≤ **1000**,  ≤ **K** ≤ **105**
-- Subtask #3 \[23 points\]: **1** ≤ **N** ≤ **106**,  ≤ **K** ≤ **1**
+- Subtask #1 \[22 points\]: **1** ≤ **N** ≤ **500**, 0 ≤ **K** ≤ **104**
+- Subtask #2 \[24 points\]: **1** ≤ **N** ≤ **1000**, 0 ≤ **K** ≤ **105**
+- Subtask #3 \[23 points\]: **1** ≤ **N** ≤ **106**, 0 ≤ **K** ≤ **1**
 - Subtask #4 \[31 points\]: no additional constraints
 
 ### Example
@@ -105,6 +105,6 @@ For each test case, output a single line containing one integer - number of cell
 
 <b>Output:</b>
 5
-
 </pre>### Sample explanation
+
 We have cells **(2, 1) (2, 3)** on the same diagonals with **(1, 2) or (3, 2)**. Thus 4 cells are occupied by cats and 5 are free of cats.

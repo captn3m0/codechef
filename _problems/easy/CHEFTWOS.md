@@ -119,8 +119,8 @@ For each test case, output a single line containing answer of the problem.
 <b>Output:</b>
 8
 0
-
 </pre>### Explanation
+
 **Test case 1.**Possible subsets are: **{}**, **{1, 2}**, **{1, 2, 3}**, **{1, 2, 4}**, **{1, 2, 3, 4}**, **{3}**, **{4}**, **{3, 4}**.
 
 **Test case 2.** There are no possible sets **S** which can make both the strings good.

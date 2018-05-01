@@ -40,7 +40,7 @@ For each test case output five space separated integers in ascending order which
 <b>Output:</b>
 0 2 3 5 6
 -1
-
 </pre>
+
  **Explanation of 1st sample:** {0, 2, 3, 5, 6} is a valid solution because the values of those indexes {6, 5, 3, 8, 10} will have ranks {3, 2, 1, 4, 5} after sorting. But {0, 2, 3, 4, 5} is not a solution as the values {6, 5, 3, 13, 8} will have ranks {3, 2, 1, 5, 4} after sorting. 
  **Explanation of 2nd sample:** There is no five length subsequence in the array that will have ranks {1, 2, 3, 4, 5} after sorting.

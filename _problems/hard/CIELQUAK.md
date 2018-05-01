@@ -84,7 +84,7 @@ For each test case output the required probability. Your answer must have an abs
 1 ≤ **T** ≤ 50
 1 ≤ **R** ≤ 8
 1 ≤ **C** ≤ 1000000000000000000 (1018)
-0\.1 ≤ **p** ≤ 1
+0.1 ≤ **p** ≤ 1
 **p** has at most four digits after the decimal point.
 
 ### Sample Input
@@ -96,6 +96,7 @@ For each test case output the required probability. Your answer must have an abs
 1 1 0.2
 7 7 0.8
 </pre>### Sample Output
+
 <pre>0.4375
 0.0768204
 0.0768204

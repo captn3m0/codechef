@@ -78,7 +78,7 @@ Every cell of this matrix has an integer written inside it. The cell at the inte
 
 Two cells are called adjacent if and only if they have a common side. That way every inner cell have **4** neighbors and any of four corner cells have **2** neighbors.
 
-A walk is a sequence of cells **C0, C1, C2, ..., CK**, where for every **1** ≤ **i** ≤ **K** the cells **Ci-1** and **Ci** are adjacent and for every  ≤ **j** ≤ **K** the number written inside cell **Cj** is equal **j**. The number **K** is the length of that walk.
+A walk is a sequence of cells **C0, C1, C2, ..., CK**, where for every **1** ≤ **i** ≤ **K** the cells **Ci-1** and **Ci** are adjacent and for every 0 ≤ **j** ≤ **K** the number written inside cell **Cj** is equal **j**. The number **K** is the length of that walk.
 
 Your task is for given **L** and **R** values, find the maximal possible value of **K**, as well as the count **C** of different walks with that maximal length. As the value of **C** could be very large, output it modulo **(109 + 7)**.
 
@@ -100,7 +100,7 @@ The value of **C** should be printed modulo **(109 + 7)**.
 
 ### Subtasks
 
-- Subtask #1: **1** ≤ **T** ≤ **500**;  ≤ **R - L** ≤ **300** (8 points)
+- Subtask #1: **1** ≤ **T** ≤ **500**; 0 ≤ **R - L** ≤ **300** (8 points)
 - Subtask #2: original constraints, only the value of **K** will be checked. (24 points)
 - Subtask #3: original constraints (68 points)
 
@@ -118,8 +118,8 @@ The value of **C** should be printed modulo **(109 + 7)**.
 0 2
 3 4
 1 4
-
 </pre>### Explanation
+
 **Example case 1.** The matrix contains just one cell, so, there is no possibility to make a single move, thus **K = 0**. We have just one possibility - to start the walk at the only cell and to end it immediately.
 
 **Example case 2.** The matrix doesn't contains a cell with number one inside, so, there once again is no possibility to make a single move, thus **K = 0**. Our walk is just a single cell with number zero inside and there are two such cells, thus **C = 2**. The matrix in this case looks like this:
@@ -127,13 +127,14 @@ The value of **C** should be printed modulo **(109 + 7)**.
 <pre>
 <b>(1 xor 1)   (1 xor 2)</b>          =          <b>0 3</b>
 <b>(2 xor 1)   (2 xor 2)</b>          =          <b>3 0</b>
-
 </pre>**Example case 3.** The four possible walks are:
+
 <pre><font size="3">0 <b><font color="#578fb2">3 2</font></b>               0 <b><font color="#578fb2">3 2</font></b>               0 3 2               0 3 2
 3 <b><font color="#578fb2">0 1</font></b>               3 0 <b><font color="#578fb2">1</font></b>               <b><font color="#578fb2">3 0</font></b> 1               <b><font color="#578fb2">3</font></b> 0 1
 2 1 0               2 1 <b><font color="#578fb2">0</font></b>               <b><font color="#578fb2">2 1</font></b> 0               <b><font color="#578fb2">2 1 0</font></b>
 </font>
 </pre>**Example case 4.** The four possible walks are:
+
 <pre><font size="3"><b><font color="#578fb2">0 1</font></b>                   0 <b><font color="#578fb2">1</font></b>                   <b><font color="#578fb2">0</font></b> 1                   0 1
 1 0                   1 <b><font color="#578fb2">0</font></b>                   <b><font color="#578fb2">1</font></b> 0                   <b><font color="#578fb2">1 0</font></b>
 </font>

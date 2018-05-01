@@ -26,8 +26,8 @@ Consider the following score sheet for a game with 5 rounds:
       3              90                 110 
       4              112              106
       5              88                  90 
-
 </pre>The total scores of both players, the leader and the lead after each round for this game is given below:
+
 <pre>    Round      Player 1       Player 2     Leader     Lead
 
       1               140           	 82        Player 1     58
@@ -35,8 +35,8 @@ Consider the following score sheet for a game with 5 rounds:
       3               319           	326       Player 2      7
       4               431           	432       Player 2      1
       5               519           	522       Player 2      3
-
 </pre>The winner of this game is Player 1 as he had the maximum lead (58 at the end of round 1) during the game.
+
 Your task is to help the Manager find the winner and the winning lead. You may assume that the scores will be such that there will always be a single winner. That is, there are no ties.
 
 Input
@@ -57,8 +57,7 @@ Input:
 90 110
 112 106
 88 90
-
 </pre>Output:
-<pre>1 58
 
+<pre>1 58
 </pre>

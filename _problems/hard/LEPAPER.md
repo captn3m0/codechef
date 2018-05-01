@@ -115,8 +115,8 @@ For each test case output a single line containing the number of different sheet
 47
 3
 57
-
 </pre>### Explanation
+
 **Case 1.** Here the sheet consists of one cell of color **1**. We have **47** available colors. Using one move we can color this cell in any of available colors. So we can get **47** different sheets.
 
 **Case 2.** Here the sheet of paper is **{1, 2}** (numbers represent colors of the cells). We have **2** available colors. So there exist **4** different sheets of **2** cells. Using at most one move we can achieve every such sheet except **{2, 1}**. Indeed,

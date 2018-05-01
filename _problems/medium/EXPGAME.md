@@ -103,8 +103,8 @@ Output description.
 
 <b>Output:</b>
 Little Chef
-
 </pre>### Explanation
+
 **Example case 1.** Little Chef can remove all the four stones and Head Chef will lose.
 
 ###  Scoring 

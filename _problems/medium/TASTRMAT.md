@@ -74,7 +74,7 @@ In this problem we will have a few definitions as described below:
 
 - **Binary string**: A string containing only characters '0' and '1'.
 - **Hamming distance** of the two binary string of the same length is the number of the positions where the two strings have
-   different characters. eg. the hamming distance of "0**10**1011" and
+   different characters. eg. the hamming distance of "0**10**10101" and
    "0**01**101**1**1" is 3, the hamming distance of a binary string with itself is 0.
 - **Sub-string** of a string is a segment of contiguous characters of that string.
 
@@ -132,8 +132,8 @@ So overall, your output should be **K** lines, each containing the hash value co
 300003
 993599731
 400004
-
 </pre>### Explanation:
+
 **First test case:**  **A** = "10101", **B** = "101".
 The Hamming distances sequence will be (0, 3, 0) and the hash value of this sequence is 300003.
 

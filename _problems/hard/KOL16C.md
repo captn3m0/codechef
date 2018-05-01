@@ -27,8 +27,8 @@ All submissions for this problem are available.Factorial n or n! is defined as b
 
 <pre>
 n! = 1*2*3*...*n
-
 </pre>For example **7! = 1\*2\*3\*4\*5\*6\*7 = 5040**. Now, if we prime factorize a factorial we will be able to find the frequency of each prime in it For example **7!= 5040 = 24\*32\*5\*7**. So there are exactly four **2**'s, two **3**'s, one **5** and one **7** in **7!**. For factorials of large numbers prime-factorization is not a good idea and there are many better ways to find out frequency of prime numbers it factorials of large number. Now consider **15** numbers **1!, 2!, 3!, 4!, 5!, 6!, 7!, 8!, 9!, 10!, 11!, 12!, 13!, 14!, 15!** and a set of consecutive prime numbers **{3, 5, 7, 11, 13}** (2nd, 3rd, 4th, 5th and 6th) and an integer **2** (The frequency) and you are asked to find how many of these numbers have one prime from the set of primes exactly two times. The answer will be **9** and these 9 numbers are shown below:
+
  **Value****Primes that are present exactly 2 times** 6!37!38!310!511!512!513!514!5, 715!7  In this problem you are asked to solve a generalized version of this problem. Given a set of factorials of consecutive numbers **F**, a set of consecutive prime numbers **P** and an integer **t**, you job is two find out how many of the numbers in **F** contains any one of the prime numbers from set **P** exactly **t** times. But if more than one prime from **P** is present exactly **t** times in some number, it is ok.
 
 ### Input
@@ -48,5 +48,4 @@ For each test case produce one line of output. This line contains at integer **M
 <b>Output</b>
 5
 3
-
 </pre>

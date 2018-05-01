@@ -167,8 +167,8 @@ For each query of type 2, output the weight of required vertex.
 1
 1
 
-
 </pre>###  Explanation
+
  **Example case 1.** See picture below.
 
  ![](https://codechef_shared.s3.amazonaws.com/upfiles/QGRID_sample_explanation_mfpOHUo4Bq.png)

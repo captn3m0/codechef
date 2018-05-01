@@ -104,5 +104,4 @@ Output **Q** integers, each in a separate line - answers for the queries.
 3
 1
 5
-
 </pre>

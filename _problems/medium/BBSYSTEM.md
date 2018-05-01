@@ -42,15 +42,18 @@ For each test case, print the number of combinations modulo 500009 (5\*105+9).
 5
 100
 </pre>### Sample Output
+
 <pre>1
 5
 43264
 </pre>### Output details
+
 In the first case, the valid combination is
 
 <pre>Box: 123
 Ball: 132
 </pre>since the number of divisors of 2 is equal to the number of divisors of 3.
+
 In the second case, the valid combinations are
 
 <pre>Box: 12345 12345 12345 12345 12345

@@ -112,8 +112,8 @@ green yellow green orange black green
 <b>Output:</b>
 NO
 YES
-
 <pre>### Explanation
+
 **Example case 1.**
 
 There are no three sides with the same color.

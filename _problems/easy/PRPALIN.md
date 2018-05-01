@@ -30,5 +30,4 @@ Your output must consist of a single integer, the smallest prime palindrome grea
 31
 <b>Output:</b>
 101
-
 </pre>

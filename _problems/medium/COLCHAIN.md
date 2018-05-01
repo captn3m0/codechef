@@ -36,5 +36,4 @@ For each test case output the number of ways for David to color the chain modulo
 1
 10
 132
-
 </pre>

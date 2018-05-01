@@ -107,8 +107,8 @@ Anytime **ai** <= 2 \* **N** holds.
 5
 2
 2
-
 </pre>### Scoring
+
 1 <= **N** <= 100, 1 <= **M** <= 1000 : 20 points. 
 
 1 <= **N**, **M** <= 5000 : 26 points. 

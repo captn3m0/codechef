@@ -66,17 +66,17 @@ time:
     current: 1493557785
 layout: problem
 ---
-All submissions for this problem are available.Long long ago, there is a magic board. The magic board has **N\*N** cells: **N** rows and **N** columns. Every cell contains one integer, which is  initially. Let the rows and the columns be numbered from **1** to **N**.
+All submissions for this problem are available.Long long ago, there is a magic board. The magic board has **N\*N** cells: **N** rows and **N** columns. Every cell contains one integer, which is 0 initially. Let the rows and the columns be numbered from **1** to **N**.
 
 There are **2** types of operations can be applied to the magic board:
 
 1. **RowSet i x**: it means that all integers in the cells on **row i** have been changed to **x** after this operation.
 2. **ColSet i x**: it means that all integers in the cells on **column i** have been changed to **x** after this operation.
 
-And your girlfriend sometimes has an interest in the total number of the integers s on some row or column.
+And your girlfriend sometimes has an interest in the total number of the integers 0s on some row or column.
 
-1. **RowQuery i**: it means that you should answer the total number of s on **row i**.
-2. **ColQuery i**: it means that you should answer the total number of s on **column i**.
+1. **RowQuery i**: it means that you should answer the total number of 0s on **row i**.
+2. **ColQuery i**: it means that you should answer the total number of 0s on **column i**.
 
 ### Input
 
@@ -111,8 +111,8 @@ ColQuery 1
 2
 0
 1
-
 </pre>### Explanation
+
 At first, the magic board is
 
 <pre><b>000 <- row 1
@@ -120,6 +120,7 @@ At first, the magic board is
 000
 </b>
 </pre>So the answer of first query _"RowQuery 1"_ is **3**.
+
 After the _"ColSet 1 1"_, the board becomes
 
 <pre><b>column 1
@@ -129,7 +130,8 @@ V
 100
 100
 </b>
-</pre>So the answer of the second query _"RowQuery 1"_ is clearly **2**, since the cell **(1,1)** became **1**. And the answer of the third query _"ColQuery 1"_ is .
+</pre>So the answer of the second query _"RowQuery 1"_ is clearly **2**, since the cell **(1,1)** became **1**. And the answer of the third query _"ColQuery 1"_ is 0.
+
 Finally, apply the operation _"RowSet 1 0"_, the board has changed to
 
 <pre><b>000

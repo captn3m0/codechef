@@ -111,7 +111,7 @@ For each test case, output a single integer ― the minimum number of working da
 - **1** ≤ **T** ≤ **10**
 - **1** ≤ **n** ≤ **1000**
 - **1** ≤ **ti** ≤ **h** ≤ **24**
-- ≤ **mx** ≤ **10**
+- 0 ≤ **mx** ≤ **10**
 - It is guaranteed that the structure of the Game levels is a tree, i.e. it is possible to unlock all **n** levels and every level (except for **1**) has exactly one other level that unlocks it.
 
 ### Subtasks
@@ -149,8 +149,8 @@ For each test case, output a single integer ― the minimum number of working da
 <tt>5
 4</tt>
 
-
 </pre>### Explanation
+
 **Example case 1:** Chef has to complete every level during separate working days, and so to complete all **5** levels he needs **5** working days.
 
 **Example case 2:** Chef will complete the Game if he will always push unlocked levels into stack starting with the largest indexed one and ending with the smallest indexed one. That is, after Chef completes level **1** he first pushes level **10** (**S = \[10\]**), then level **5** (**S = \[10, 5\]**) and then level **2** (**S = \[10, 5, 2\]**). So the second level Chef will play is **2**.

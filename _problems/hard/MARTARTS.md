@@ -103,6 +103,6 @@ Output the number of points H scored by home team and the number of points G sco
 
 <b>Output:</b>
 18 17
-
 </pre>### Explanation
+
 Chef will pair contestants in the following way: (1,1), (2,3), (3,2). Coach of the guest team will cancel the last fight (3,2) which would earn home team 50 points. This way the final score is 18 points for home team and 17 points for guest team.

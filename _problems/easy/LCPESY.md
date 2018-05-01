@@ -107,8 +107,8 @@ elfedcc
 4
 3
 5
-
 </pre>### Explanation
+
 **Example case 1.** There is no common character.
 
 **Example case 2.** All the characters are same.

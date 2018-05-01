@@ -105,8 +105,8 @@ For each test case, output on a separate line the number of ways to make the des
 4
 1
 314159265
-
 </pre>### Explanation
+
 **Example case 1.** There are 4 ways to make a total of 16 using coins with values 3, 4 and 5:
 
 - 16 = 4 + 4 + 4 + 4

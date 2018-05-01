@@ -98,7 +98,7 @@ For each test case, output a single line containing the answer to the test-case.
 - **1** ≤ **T** ≤ **10,000**
 - **1** ≤ **N** ≤ **300,000**
 - **1** ≤ sum of **N** in all test-cases ≤ **1,000,000**
-- ≤ **K** ≤ **N**
+- 0 ≤ **K** ≤ **N**
 - String S will consist of English lower letters.
 
 ### Example
@@ -114,6 +114,6 @@ abc
 76
 2
 
-
 </pre>### Explanation
+
 in second test-case the only possible strings are "aba" and "cbc"

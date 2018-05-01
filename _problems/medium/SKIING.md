@@ -129,8 +129,8 @@ Should contain all the constraints on the input data that you may have. Format i
 <b>Output:</b>
 2
 1
-
 </pre>### Explanation
+
 **Example case 1.** Hasan has to select at least two cells to be in **S** so that he guarantee he can reach all other cells starting from anyone of them, example of cells to choose (2,1) and (1,2)
 
 **Example case 2.** if Hasan chose cell (1,1) to be in **S** then he can reach any cell starting from it and thus guarantee winning

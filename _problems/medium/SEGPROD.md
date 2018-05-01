@@ -96,8 +96,8 @@ After each test-case you have to print one number - the value of x after the the
 - **1** ≤ **N** ≤ **106**
 - **1** ≤ **Q** ≤ **2 \* 107**
 - **2** ≤ **P** ≤ **109**
-- ≤  **A  i**  ≤ **109**
-- ≤ **B i**  ≤ **n - 1**
+- 0 ≤  **A  i**  ≤ **109**
+- 0 ≤ **B i**  ≤ **n - 1**
 - The sum of **N** over all testcases does not exceed 106 and sum of **Q** over all testcases does not exceed 2 \* 107
 
 ### Subtasks
@@ -121,5 +121,4 @@ After each test-case you have to print one number - the value of x after the the
 <b>Output:</b>
 8
 21
-
 </pre>

@@ -104,23 +104,23 @@ For each test case, output **"yes"** or **"no"** (without quotes) as the solutio
 <pre>
 1 ≤ T ≤ 1000
 1 ≤ length of S ≤ 100
-
 </pre>### Sample Input
+
 <pre>
 4
 likecs
 venivedivici
 bhuvan
 codechef
-
 </pre>### Sample Output
+
 <pre>
 no
 yes
 no
 yes
-
 </pre>### Explanation
+
 In test case **2**, one of the possible equal subsequence is **"vi"** and **"vi"**. (one at position **{0, 3}** and other at **{4, 7}**, assuming 0-based indexing).
 
 In test case **4**, one of the possible equal subsequence is **"ce"** and **"ce"**. (one at position **{0, 3}** and other at **{4, 6}**, assuming 0-based indexing).

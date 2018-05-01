@@ -73,7 +73,7 @@ layout: problem
 ---
 All submissions for this problem are available.### Read problems statements in [Mandarin chinese](http://www.codechef.com/download/translated/DEC17/mandarin/CHEFFIB.pdf), [Russian](http://www.codechef.com/download/translated/DEC17/russian/CHEFFIB.pdf) and [Vietnamese](http://www.codechef.com/download/translated/DEC17/vietnamese/CHEFFIB.pdf) as well.
 
-Chef has a tree with **N** nodes numbered **1** through **N**. Initially, each node has value .
+Chef has a tree with **N** nodes numbered **1** through **N**. Initially, each node has value 0.
 
 Chef's best friend Leonardo loves queries on trees. He asked Chef to perform **Q** queries. Each query is of one of the following two types:
 
@@ -133,5 +133,4 @@ For each query of type 2, print the answer to it on a separate line.
 
 3
 10
-
 </pre>

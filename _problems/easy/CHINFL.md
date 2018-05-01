@@ -74,7 +74,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 A recent glut in Chefland's markets has caused the local currency _Peppercorn_ to devaluate sharply. (Peppercorns are getting cheaper on an average, though there could be ups and downs).
 
-And Chef needs to rescue his wealth! Initially, he had **D** Peppercorns. There are **N** exchange kiosks in the city he lives in, where he can go and exchange his Peppercorns for a well-known stable currency, the Antarctican Dollar. For each kiosk, the exchange rate for the first **M** seconds of the day is known (both for buying and selling). All kiosks are arranged in a row, and to travel from the **ith** to the **jth** kiosk, you need to spend **|i-j|** seconds, and to exchange currency at any kiosk, you also need **1** second. So, starting at point of time  at any of the kiosks (he can get there before trading starts for the day), Chef runs from one kiosk to another to buy and sell currency. You need to find the maximum amount of Peppercorns Chef could have after the **Mth** second.
+And Chef needs to rescue his wealth! Initially, he had **D** Peppercorns. There are **N** exchange kiosks in the city he lives in, where he can go and exchange his Peppercorns for a well-known stable currency, the Antarctican Dollar. For each kiosk, the exchange rate for the first **M** seconds of the day is known (both for buying and selling). All kiosks are arranged in a row, and to travel from the **ith** to the **jth** kiosk, you need to spend **|i-j|** seconds, and to exchange currency at any kiosk, you also need **1** second. So, starting at point of time 0 at any of the kiosks (he can get there before trading starts for the day), Chef runs from one kiosk to another to buy and sell currency. You need to find the maximum amount of Peppercorns Chef could have after the **Mth** second.
 
 ### Note
 
@@ -118,5 +118,4 @@ If the amount of money of any currency that Chef will own at any point of time e
 
 <b>Output:</b>
 15.0000000000
-
 </pre>

@@ -23,7 +23,7 @@ time:
     current: 1493558158
 layout: problem
 ---
-All submissions for this problem are available.Nemo went to the shop to buy a chain for his girlfriend. The shopkeeper has shown him a chain made of some expensive stones. The chain has **n** stones marked from  to **n-1**. The **ith** stone is connected with **((i+1)%n)th** stone for each **0 ≤ i < n**. Each stone can be either Ruby or Amber.
+All submissions for this problem are available.Nemo went to the shop to buy a chain for his girlfriend. The shopkeeper has shown him a chain made of some expensive stones. The chain has **n** stones marked from 0 to **n-1**. The **ith** stone is connected with **((i+1)%n)th** stone for each **0 ≤ i < n**. Each stone can be either Ruby or Amber.
 
 Nemo defines beauty factor **B** of a chain as the maximum number of consecutive stones of same type.
 
@@ -54,6 +54,7 @@ ARRRRAAA
 Case 2: 4
 </p>
 <pre>### Explanation:
+
 Case **1** represents the figure in the problem statement. Nemo can exchange one Amber with a Ruby and reduce **B** to **3**.
 
 ![](https://www.codechef.com/download/upload/ACM16KOL/F2.png)

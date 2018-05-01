@@ -92,7 +92,7 @@ city.
 
 She has one number **P** and one array with **N** elements each.
 Let **Ai** be the **i**th element of the array.
-She likes , that's why she is going to get rid of all non zero numbers in the array.
+She likes 0, that's why she is going to get rid of all non zero numbers in the array.
 In each turn she may choose 3 integers:
 
 - **1 ≤ s ≤ t ≤ N**
@@ -141,7 +141,7 @@ denoting the minimal number of the moves for erasing all non zero numbers from t
 - **1** ≤ **T** ≤ **100**
 - **1** ≤ **M** ≤ **100**
 - **1** ≤ **P** ≤ **10**
-- ≤ **Fi**, **Ci**, **Di** < **P**
+- 0 ≤ **Fi**, **Ci**, **Di** < **P**
 - **1** ≤ **Li** ≤ **1015**
 
 ### Example
@@ -167,8 +167,8 @@ denoting the minimal number of the moves for erasing all non zero numbers from t
 2
 5
 
-
 </pre>### Explanation
+
  **Example case 1:**  All numbers are zero.
 
  **Example case 2:**  Initially, A = {3, 5, 5, 3}. In the first turn, we choose s=2, t=3, and k=8, after which A = {3, 3, 3, 3}. Then all numbers will become zero after the second turn.

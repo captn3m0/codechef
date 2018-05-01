@@ -94,7 +94,7 @@ Also Chef has a list of words. He asks you what is the probability that after **
 - **1** ≤ **|S|, |si|** ≤ **3**
 - **1** ≤ **N** ≤ **10^5**
 - **1** ≤ **K** ≤ **10^9**
-- ≤ **aij** ≤ **1**
+- 0 ≤ **aij** ≤ **1**
 - Sum of **ai, 1** + **ai, 2** + ... + **ai, 26** = 1
 - All words contains only letters from **a** to **z**.
 
@@ -142,12 +142,11 @@ ccc
 zz
 <b>Output:</b>
 0.125000000000000
-
 </pre>### Explanation
+
 <pre>
 daa (a->d) * (b->a) * (c->a) | 0.25*0.5*0.1 = 0,0125
 bbb (a->b) * (b->b) * (c->b) | 0.25*0.5*0.9 = 0,1125
 ccc (a->c) * (b->c) * (c->c) | 0
 zz (a->z) * (b->z) * (c can't transform to empty space as it is not allowed).
-
 </pre>

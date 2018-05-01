@@ -71,7 +71,7 @@ layout: problem
 ---
 All submissions for this problem are available.Let's define a good tree:
 
-1. It is a tree with **k \* n** nodes labeled from  to **k \* n - 1**
+1. It is a tree with **k \* n** nodes labeled from 0 to **k \* n - 1**
 2. Node **i** and node **j** are not adjacent, for all **0 <= i, j < k \* n** such that **i div k = j div k** (here **div** means integer division. E.g. 7 **div** 2 = 3)
 
 Given **n** and **k**, how many different good trees are there?
@@ -104,6 +104,5 @@ Output the number of different good trees. As the result may be very large, just
 
 <b>Output 3:</b>
 16
-
 
 </pre>

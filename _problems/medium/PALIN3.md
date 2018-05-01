@@ -102,6 +102,6 @@ Your output should contain the only integer, denoting the number of substrings o
 
 <b>Output:</b>
 4
-
 </pre>### Explanation
+
 In the example you should count **S**\[2..2\] = "0", **S**\[5..5\] = "0", **S**\[6..6\] = "0" and **S**\[7..7\] = "3".

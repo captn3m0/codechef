@@ -109,8 +109,8 @@ For each test case output a single line containing the answer for this test case
 3
 23
 
-
 </pre>### Explanation
+
 In the first test case balance substrings are **S\[1, 1\] = 4** and **S\[1, 2\] = 47**.
 
 In the second test case balance substrings are **S\[2, 2\] = 4** and **S\[1, 2\] = 74**.

@@ -99,13 +99,13 @@ A single line which contains a single integer which should be the answer.
 
 <b>Output:</b>
 15
-
 </pre>### Explanation
+
 <pre>
 floor[1*e] = floor[2.71828..] = 2.
 floor[2*e] = floor[5.43656..] = 5.
 floor[3*e] = floor[8.15484..] = 8.
 So the answer is 2+5+8=15.
-
 </pre>### Note
+
 Source code limit is 1000 bytes.

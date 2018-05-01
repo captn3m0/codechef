@@ -102,8 +102,8 @@ For each test case, output a single line containing the sum of all the palindrom
 <tt>45
 272</tt>
 
-
 </pre>### Explanation
+
 **Example case 1.** The palindromic numbers between **1** and **10** are all numbers except the number **10**. Their sum is 45.
 
 **Example case 2.** The palindromic numbers between **123** and **150** are **131** and **141** and their sum is **272**.

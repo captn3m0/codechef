@@ -38,8 +38,8 @@ For each test case, output on a line an integer which is the respective value of
 3
 105
 
-
-</pre>Explanation:The second test case is constructed as follows: ```
+</pre>Explanation:
+The second test case is constructed as follows: ```
 
      3
     / \

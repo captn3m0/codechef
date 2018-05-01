@@ -70,8 +70,8 @@ Note that adjacency matrix of a graph **G** containing **n** vertices is a matri
 <b>Output:</b>
 1
 3
-
 </pre>### Explanation
+
 **In the first example**, the graph **G** has an edge between 1 and 2. Animesh has to add only one edge in the graph **H** between vertices 1 and 2 to please her. This is the only graph he has to come up with.
 
 **In the second example**, the graph **G** has edges {1, 3} and {2, 3}. Animesh can come up with the following graphs `({1, 3}, {2, 3}), ({2, 1}, {3, 1}), ({1, 2}, {3, 2})`. Malvika likes all of these graphs. In this representation, `({1, 3}, {2, 3})` means that a graph has 3 vertices and two edges — between 1 and 3, and between 2 and 3.

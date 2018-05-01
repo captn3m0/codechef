@@ -127,8 +127,8 @@ tinythief
 superheroes
 villains
 draw
-
 </pre>### Explanation
+
 **Example case 1.** As you know that initially a superhero is fighting with a villain. After that, superhero "kittywoman" joins the fight. At this point, there are two superheros and one villain. After that "wingman" joins the fight too. As this point of time, there are three superheros and one villain, so the number of superheros are two more than number of villains, so superheros will win the fight.
 
 **Example case 2.** Other than first two peoople, six more people join the fight. The moment when the fight is decided is after **watersnake** joins the fight, because there are two superheroes fighting five villains, so villains will win.

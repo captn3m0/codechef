@@ -132,8 +132,8 @@ All submissions for this problem are available.###  Read problems statements in 
 <b>Output:</b>
 1 4 8 4 5 
 
-
 </pre>### Explanation
+
  The first lexicographically valid sequence is equal to (0, 5, 9, 5, 4);
 
  The second lexicographically valid sequence is equal to (1, 4, 8, 4, 5) - that's the one that should be printed out as the answer.

@@ -107,8 +107,8 @@ For each test case, output a single line containing **n** integers denoting the 
 1 2 4
 1 2 4 16
 3 2 15 6 10
-
 </pre>### Explanation
+
 **Example 1 and 2.** Any set of size less than or equal to 2 is good by definition.
 
 **Example 3 onwards.** For each pair of elements in the set, you can see that their sum doesn't exist in the set.

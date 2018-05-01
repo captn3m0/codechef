@@ -93,7 +93,7 @@ For each test case, output a single line containing word "YES" (without quotes) 
 
 - **1** ≤ **T** ≤ **103**
 - **1** ≤ **N** ≤ **103**
-- ≤ **M** ≤ **106**
+- 0 ≤ **M** ≤ **106**
 - **1** ≤ **ai, bi** ≤ **N**
 - The sum of **N** over all test cases in a single test file does not exceed **104**
 - The sum of **M** over all test cases in a single test file does not exceed **106**
@@ -130,6 +130,7 @@ NO
 YES
 </tt>
 </pre>### Explanation
+
 **Example case 1.**
 
 Table 1: Person 1. Table 2: Persons 2 and 3.

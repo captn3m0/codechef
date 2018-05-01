@@ -117,5 +117,4 @@ Output **M** lines. Output the product of all the possible roots' numbers modulo
 15
 30
 120
-
 </pre>

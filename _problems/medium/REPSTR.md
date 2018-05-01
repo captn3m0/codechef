@@ -41,8 +41,8 @@ abcd
 2 4
 6 3
 1 4
-
 </pre>### Explanation
+
 Case #1: **bcbc** occurs twice - at position 3 and position 5 (occurrences may overlap).
 Case #2: **bab** occurs 6 times.
 Case #3: **abcd** occurs 1 time.

@@ -65,7 +65,7 @@ time:
     current: 1493556676
 layout: problem
 ---
-All submissions for this problem are available.Archaeologist Benjamas is running for her life after investigating the mysterious Crocodile's Underground City. The city has **N** chambers. There are **M** bidirectional corridors, each connecting a different pair of distinct chambers. Running through different corridors may require different amounts of time. Only **K** of the **N** chambers are exit chambers that allow her to escape. Benjamas starts in chamber . She wants to reach an exit chamber as quickly as possible.
+All submissions for this problem are available.Archaeologist Benjamas is running for her life after investigating the mysterious Crocodile's Underground City. The city has **N** chambers. There are **M** bidirectional corridors, each connecting a different pair of distinct chambers. Running through different corridors may require different amounts of time. Only **K** of the **N** chambers are exit chambers that allow her to escape. Benjamas starts in chamber 0. She wants to reach an exit chamber as quickly as possible.
 
 The Crocodile gatekeeper wants to prevent Benjamas from escaping. From his den, he controls secret doors that can block any _single_ corridor. That is, whenever he blocks a new corridor, the previously blocked one has to be reopened.
 
@@ -81,8 +81,8 @@ Note that in some cases (for example, if your plan directs Benjamas to run in a 
 
 Let us assume that:
 
-- **N** – the number of chambers. The chambers are numbered  through **N-1**.
-- **M** – the number of corridors. The corridors are numbered  through **M-1**.
+- **N** – the number of chambers. The chambers are numbered 0 through **N-1**.
+- **M** – the number of corridors. The corridors are numbered 0 through **M-1**.
 - **R** – a two-dimensional array of integers representing the corridors. For **0 ≤ i < M**, corridor i connects two distinct chambers **R\[i\]\[0\] and R\[i\]\[1\]**. No two corridors join the same pair of chambers.
 - **L** – a one-dimensional array of integers containing the times needed to traverse the corridors. For **0 ≤ i < M**, the value **1 ≤ L\[i\] ≤ 1,000,000,000** is the time Benjamas needs to runthrough the **ith** corridor.
 - **K** – the number of exit chambers. You may assume that **1 ≤ K < N**.
@@ -111,8 +111,8 @@ Output an integer, denoting the smallest time **T** for which there exists a goo
 3 2 1
 2 4 4
 1 3 4
-
-</pre>**Output**/>
+</pre>**Output**
+/>
 
 `7`**Explaination**: Consider the case shown in Figure 1, where **N=5, M=4, K=3**, and
 
@@ -143,12 +143,12 @@ Chambers are shown as circles, and corridors connecting them are shown as lines.
 0 4 7
 3 4 9
 1 3
-
 </pre>**Output**
+
 <pre>
 14
-
 </pre>**Explaination**: Consider the case shown in Figure 2, where **N=5, M=7, K=2**, and
+
 ![croc_1](http://www.codechef.com/download/croc_1.png)
  
 />/>

@@ -86,7 +86,7 @@ The only line of the input contains a single integer **N**, denoting the dimensi
 
 ### Output
 
-In the first line, output a single integer **K** (between  and **100,000**, inclusive), denoting the number of moves.
+In the first line, output a single integer **K** (between 0 and **100,000**, inclusive), denoting the number of moves.
 
 Then print **K** lines. The **i**-th of them should contain four integers **r1**, **c1**, **r2** and **c2**, meaning that in the **i**-th move, you choose cells **(r1, c1)** and **(r2, c2)**. These two cells must be adjacent. All coordinates must be between **1** and **N**, inclusive. Here, **(i, j)** denotes a cell at the intersection of the **i**-th row and the **j**-th column.
 
@@ -116,8 +116,8 @@ The task will be graded by a custom checker. Your program will be judged AC (acc
 3 2 2 2
 4 3 4 4
 1 4 1 3
-
 </pre>### Explanation
+
 The provided output isn't correct because it doesn't solve all possible initial grids. Its only purpose is to show you a valid format. Below you can see how one example grid would change. Here we assume that columns are numbered from top to bottom, and rows are numbered from left to right. In every new grid two previously chosen cells are marked bold. Note that some moves don't affect the grid.
 
 AAAB **AA**AB AA**C**B AACB AACB AACB AA**AA**

@@ -104,5 +104,4 @@ Output **Q** lines. Output the number of inversions in the permutation (modulo 2
 
 <b>Output:</b>
 1
-
 </pre>

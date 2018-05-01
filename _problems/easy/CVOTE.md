@@ -120,8 +120,8 @@ Leibniz
 <b>Output:</b>
 Germany
 Leibniz
-
 </pre>### Example 2
+
 <pre>
 <b>Input:</b>
 4 5
@@ -138,8 +138,8 @@ Lagrange
 <b>Output:</b>
 Italy
 Ramanujan
-
 </pre>### Example 3
+
 <pre>
 <b>Input:</b>
 2 2
@@ -151,8 +151,8 @@ Euclid
 <b>Output:</b>
 England
 Euclid
-
 </pre>### Explanation
+
 **Example 1.** Here we have only one chef **Leibniz** and he is from **Germany**. Clearly, all votes are for him. So **Germany** is the country-winner and **Leibniz** is the **"Chef of the Year"**.
 
 **Example 2.** Here we have chefs **Torricelli** and **Lagrange** from **Italy**, chef **Ramanujan** from **India** and chef **Gauss** from **Germany**. **Torricelli** got 2 votes, while **Lagrange** got one vote. Hence the **Italy** got 3 votes in all. **Ramanujan** got also 2 votes. And so **India** got 2 votes in all. Finally **Gauss** got no votes leaving **Germany** without votes. So the country-winner is **Italy** without any ties. But we have two chefs with 2 votes: **Torricelli** and **Ramanujan**. But since the string **"Ramanujan"** is lexicographically smaller than **"Torricelli"**, then **Ramanujan** is the **"Chef of the Year"**.

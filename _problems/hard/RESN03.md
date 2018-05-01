@@ -36,5 +36,4 @@ Output T lines, one corresponding to each test case. For each test case output a
 <b>Output:</b>
 3
 145
-
 </pre>

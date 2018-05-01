@@ -54,8 +54,8 @@ The output for each test case consists of a single integer on a single line indi
 3
 Impossible!
 2
-
 </pre>### Explanation of Sample Data
+
 In the first case, Harry can step from (0,0) to (0,1) using d=1 steps. Then, the tiles (1,0) and (2,1), which are adjacent to the hole at (2,0), will collapse. Harry takes one more step from (0,1) to the exit at (1,1) and can safely exit the grid even though the tile (1,1) will collapse in the next expansion of the holes.
 
 In the second case, Harry can reach the exit by travelling along the sequence of tiles (0,0), (1,0), (1,1), (1,2) with a speed of d=3. This reaches the exit before the holes expand. However, if Harry travels at a speed d < 3, then he cannot reach the exit after d steps and the hole at tile (0,2) will expand to consume the exit tile (1,2).

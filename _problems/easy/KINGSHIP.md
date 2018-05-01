@@ -103,5 +103,4 @@ For each test case, print a single integer, the minimum cost to build the new ro
 <b>Output:</b>
 50
 266
-
 </pre>

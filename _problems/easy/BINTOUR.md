@@ -107,7 +107,6 @@ Output should consist of **2K** lines. The **i**'th line should contain the numb
 <b>Output:</b>
 2
 2
-
 </pre><pre><b>Input:</b>
 2
 
@@ -116,8 +115,8 @@ Output should consist of **2K** lines. The **i**'th line should contain the numb
 8
 16
 24
-
 </pre>### Explanation
+
 In the first example we have **N**=2 knights. Let's consider each initial configuration that could appear and simulate the tournament.
 
 (1, 2) -> (2)

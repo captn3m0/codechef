@@ -102,6 +102,6 @@ ABACABA
 
 <b>Output:</b>
 2
-
 </pre>### Explanation
+
 In the example you should count **S**\[2..4\] = "BAC" and **S**\[4..6\] = "CAB".

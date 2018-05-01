@@ -103,5 +103,4 @@ The first line contains single integer **T** - the number of test cases. Each of
 <b>φ(2)/2=1/2
 φ(3)/3=2/3
 φ(4)/4=2/4</b>
-
 </pre>

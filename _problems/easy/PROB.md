@@ -121,11 +121,11 @@ For each test case, output a single line containing the probability that Artem w
 0.5
 0.4
 
-
 </pre>### Explanation
+
 **In the first test case**, the **5** possible outcomes after Chef discards 2 tickets is
 
-- **(0,2,1)** with probability **(1/10)**. Probability of winning is  - since there are no winning tickets!
+- **(0,2,1)** with probability **(1/10)**. Probability of winning is 0 - since there are no winning tickets!
 - **(2,0,1)** with probability **(1/10)**. Probability of winning is **1** - since there are no losing tickets!
 - **(2,1,0)** with probability **(1/5)**. Probability of winning is **(2/3)** - there are no second chances!
 - **(1,2,0)** with probability **(1/5)**. Probability of winning is **(1/3)** - there are no second chances!

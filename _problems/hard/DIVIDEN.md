@@ -153,6 +153,7 @@ Line -848.6692787746 -294.5333120998 -838.7467472625 -295.7718800931
 Answer
 -843.7080130185 -295.1525960964
 </pre>_There are other acceptable solutions._
+
 _The line breaks inside the second to last coordinates for each circle are for website display reasons only, and should not exist in your output._
 
 ### Explanation

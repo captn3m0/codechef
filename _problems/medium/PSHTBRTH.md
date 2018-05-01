@@ -95,7 +95,7 @@ Help Chef answer all of Lotsy's queries, and make Pishty's birthday the best bir
 
 The first line of the each description contains two integers  **N**  and  **M**, denoting the number of cakes and the number of queries respectively.
 
-The following **5 × N** lines contain information about the **N** cake-denoting matrices (four lines of strings of four chars (without spaces), followed by an empty line). An element of a matrix equals **1** if there is a burning candle and  if there isn't anything.
+The following **5 × N** lines contain information about the **N** cake-denoting matrices (four lines of strings of four chars (without spaces), followed by an empty line). An element of a matrix equals **1** if there is a burning candle and 0 if there isn't anything.
 
 Then the queries follow in one of the following formats:
 
@@ -164,5 +164,4 @@ Lotsy
 Pishty
 Pishty
 Pishty</tt>
-
 </pre>

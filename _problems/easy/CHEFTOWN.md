@@ -96,5 +96,4 @@ All submissions for this problem are available.ChefTown is the biggest city and 
   2
   <b>Output for Input 2:</b>
   3
-  
   ```

@@ -138,5 +138,4 @@ Q 5
 <p>
 <img src="https://s3.amazonaws.com/hr-challenge-images/3194/1452931833-352a82ea85-image7.jpg" title="image7.jpg"></img>
 </p>
-
 </pre>

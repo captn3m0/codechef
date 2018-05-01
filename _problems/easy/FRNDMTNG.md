@@ -123,5 +123,4 @@ For each test case, output one the single real number - probability of meeting C
 <b>Output:</b>
 0.750000
 1.000000
-
 </pre>

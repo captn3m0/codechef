@@ -131,8 +131,8 @@ For each testcase, output **Q** lines, the **i-th** line of them must contain a 
 5
 5
 4
-
 </pre>### Explanation
+
 The original list of edges is { (1, 2), (1, 3), (2, 3), (3, 5), (1, 5), (4, 5), (1, 4) }.
 
 First query: After applying the (5, 6) swap, the list of edges is { (1, 2), (1, 3), (2, 3), (3, 5), (4, 5), (1, 5), (1, 4) }. Just the first 5 edges in this, that is { (1, 2), (1, 3), (2, 3), (3, 5), (4, 5) } connects the entire graph. Hence the answer is 5.

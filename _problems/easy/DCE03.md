@@ -23,8 +23,8 @@ For n=4, the different ways are
 (x1.((x2.x3).x4))
 (x1.(x2.(x3.x4)))
 ((x1.(x2.x3)).x4)
-
-</pre>Hence the required answer would be 5.### Input
+</pre>Hence the required answer would be 5.
+### Input
 
 The first line contains the number of test cases t <=10. Each of the next t lines contain single integers <=1000 denoting n.
 
@@ -44,5 +44,4 @@ Display t lines containg the number of ways to put parenthesis in the expression
 <b>Output:</b>
 5
 14
-
 </pre>

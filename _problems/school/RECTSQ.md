@@ -92,5 +92,4 @@ Output is a single line which denotes the minimum number of square plots that ca
 <b>Output:</b>
 6
 6
-
 </pre>

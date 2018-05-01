@@ -134,8 +134,8 @@ Yes
 Yes
 Yes
 No
-
 </pre>### Explanation
+
 **In the first example**, Devu can't apply any operation. So the final element in the array will be 1 itself.
 
 **In the second example**, Devu can replace 1 and 3 with any of the numbers among 1, 2, 3. Hence final element of the array could be 1, 2 or 3.

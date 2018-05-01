@@ -44,5 +44,4 @@ If every menu exceeds the budget, print only the benefit value of 0.
 
 13.0
 1 5 1 
-
 </pre>

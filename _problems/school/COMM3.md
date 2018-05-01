@@ -106,5 +106,4 @@ To be clear, we say that two transceivers are close enough to communicate direct
 yes
 yes
 no
-
 </pre>

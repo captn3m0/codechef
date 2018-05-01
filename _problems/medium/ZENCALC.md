@@ -152,8 +152,8 @@ NOT OK
 10 ! 6 -1 720
 15 ^ 341 12 2062435601
 NOT OK
-
 </pre>### Explanation
+
 **Example case 1.**
  The expression is:
 
@@ -185,7 +185,7 @@ NOT OK
 -6 + * 167 164 - 257 + 190 720 - / 272 0 <u><b>^ 341 12</b></u> 18 !
 -6 + * 167 164 - 257 + 190 720 - <u><b>/ 272 0</b></u> 2062435601 18 !
 NOT OK
-
-</pre>Here at first two steps the first rule (with factorials) was applied. At the 3rd and the 4th step the 3rd rule was applied.
+</pre>Here at first two steps the first rule (with factorials) was applied.
+ At the 3rd and the 4th step the 3rd rule was applied.
  Since quotient **272 / 0** is undefined (see the definition) we stop evaluation.
  So the expression is incorrect and we output **"NOT OK"**.

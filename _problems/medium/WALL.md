@@ -172,5 +172,4 @@ Also, do not add any newlines between different testcases.
 <b>Output:</b>
 25.0
 140.0
-
 </pre>

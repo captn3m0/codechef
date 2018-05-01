@@ -93,5 +93,4 @@ Output the given string or -1 depending on conditions.
 What an obedient servant you are!
 -1
 What an obedient servant you are!
-
 </pre>

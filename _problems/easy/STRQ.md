@@ -121,8 +121,8 @@ c f 6 10
 2
 2
 2
-
 </pre>### Explanation
+
 - Q1 : good strings are **ch** , **checfch** , **cfch** , **ch**
 - Q2 : good strings are **checf** , **checfchef** , **checfcheff** , **cf** , **cfchef** , **cfcheff** , **chef** , **cheff**
 

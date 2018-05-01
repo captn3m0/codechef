@@ -103,6 +103,6 @@ Print out the minimum sadness of the country with absolute error less than **10-
 
 <b>Output:</b>
 0
-
 </pre>### Explanation
+
 The first road goes through the first two cities and the second road goes through the last two cities.

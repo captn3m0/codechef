@@ -121,5 +121,4 @@ For every query, please output the number of days on a separate line.
 1
 1
 1
-
 </pre>

@@ -68,7 +68,7 @@ time:
     current: 1493557884
 layout: problem
 ---
-All submissions for this problem are available.Given a binary represantation of number **N**. You are to find how many numbers from  to **N** have **even** number of **ones** in their binary represantation.
+All submissions for this problem are available.Given a binary represantation of number **N**. You are to find how many numbers from 0 to **N** have **even** number of **ones** in their binary represantation.
 
 There is also an update operation, update **(L,R)**, which means that all bits of **N** from **Lth** to **Rth** are flipped, i.e. ones to zeroes and vice versa. You have to also find the answer after each of these updates.
 
@@ -103,6 +103,6 @@ Output the answer for initial value of **N** and also after each of the **M** up
 2
 1
 4
-
 </pre>### Explanation
+
 After the final operation, **N** becomes 7. All numbers in range **\[0..7\]** that have even number of ones in their binary representation are: **0, 3, 5** and **6**.

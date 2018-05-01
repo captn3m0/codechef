@@ -91,7 +91,7 @@ Chef knows all **P** pairs of frogs, which want to send messages. Help him to de
 ### Constraints
 
 - **1** ≤ **N, P** ≤ **10^5**
-- ≤ **Ai, K** ≤ **10^9**
+- 0 ≤ **Ai, K** ≤ **10^9**
 - **1** ≤ **A, B** ≤ **N**
 
 ### Example
@@ -108,11 +108,9 @@ Yes
 Yes
 No
 
-
 </pre><pre>
 <h3>Explanation</h3>
 <p>For pair <b>(1, 2)</b> frog <b>1</b> can directly speak to the frog <b>2</b> as the distance between them is <b>3 - 0 = 3 <= K </b>. </p>
 <p>For pair <b>(1, 3)</b> frog <b>1</b> can send a message to frog <b>2</b>, frog <b>2</b> can send it to frog <b>4</b> and it can send it to frog <b>3</b>.
 </p><p>For pair <b>(2, 5)</b> frogs can't send a message under current constraints. </p>
-
 </pre>

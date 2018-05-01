@@ -40,5 +40,4 @@ For every query of a test case, you have to output the position of the postman n
 23 2
 -8 0
 
-
 </pre>

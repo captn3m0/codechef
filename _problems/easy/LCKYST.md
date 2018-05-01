@@ -122,8 +122,8 @@ Na2a has **N** numbers in his bag which are denoted by array **A**. For each num
 <b>Output:</b>
 2
 60
-
 <pre>### Explanation
+
 **Example case 1.** You can't get any number having zeros at the end multiplying 2 by lucky numbers.
 
 **Example case 2.** You can multiply 15 by 4 and get 60, which has one trailing zero.

@@ -105,7 +105,6 @@ Print **n - 2** space separated integers corresponding to the answer for **k** =
 0 1 3
 <b>Output:</b>
 6
-
 </pre><pre><b>Input:</b>
 4
 0 0 1
@@ -114,8 +113,8 @@ Print **n - 2** space separated integers corresponding to the answer for **k** =
 1 1 2
 <b>Output:</b>
 5 8
-
 </pre>### Explanation
+
 **Example case 1.** The triangle given in the input has beauty equal to 6.
 
 **Example case 2.** One of the triangles has a beauty of 5 whereas there is only one rectangle which has beauty equal to 8.

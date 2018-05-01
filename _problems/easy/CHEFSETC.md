@@ -102,8 +102,8 @@ For each test case output "Yes", if possible to get 0 by choosing non-empty subs
 Yes
 Yes
 No
-
 </pre>### Explanation
+
 **Example case 1.** We can choose subset {0}
 
 **Example case 2.** We can choose subset {-1, 1}

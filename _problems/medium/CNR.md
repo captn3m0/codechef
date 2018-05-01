@@ -105,8 +105,8 @@ For each test case output the answer on a separate line .
 
 <b>Output:</b>
 101
-
 </pre>### Explanation
+
 **Example case 1.** The set of strings in lexicographic order is "011", "101", and "110"
 
 ###  Scoring 

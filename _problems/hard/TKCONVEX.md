@@ -106,8 +106,8 @@ Yes
 
 <b>Output 2:</b>
 No
-
 </pre>### Explanation
+
 **Example case 1:** 1 1 1 and 2 2 2 form two triangles.
 
 **Example case 2:** Please be careful that convex polygons must be non-degenerated.

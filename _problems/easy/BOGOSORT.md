@@ -40,5 +40,4 @@ For each test case output the expected amount of shuffles needed for the improve
 1826/189
 877318/35343
 
-
 </pre>

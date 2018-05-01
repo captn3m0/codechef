@@ -44,5 +44,4 @@ Every time a new chef joins the kitchen, output the absolute difference between 
 5
 4
 9
-
 </pre>

@@ -95,5 +95,4 @@ Display the second largest among **A**, **B** and **C**.
 120
 312
 10
-
 </pre>

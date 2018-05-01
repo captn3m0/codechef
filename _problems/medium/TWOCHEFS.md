@@ -30,9 +30,11 @@ Output on a single line the minimum amount of time (in minutes) for both chefs t
 40 10 10 40
  
 </pre>**Ouput 1:**
+
 <pre>100
  
 </pre>One way to finish in 100 minutes is for the one chef to cook all his dishes in one oven, and the other chef to cook all his dishes in the other oven. Note that although the dishes could be cooked in only 95 minutes, they cannot be completed in the correct order in only 95 minutes.
+
 **Input 2:**
 
 <pre>3 1
@@ -40,9 +42,11 @@ Output on a single line the minimum amount of time (in minutes) for both chefs t
 10
  
 </pre>**Output 2:**
+
 <pre>31
  
 </pre>One oven will cook the 10 minute and 21 minute dishes, the other the 15 and 16 minute dishes. The first chef's third dish enters an oven before his second dish, but the dishes finish cooking at the same time and therefore are still considered to have completed in the correct order.
+
 ### Constraints:
 
 1 ≤ N1 ≤ 50

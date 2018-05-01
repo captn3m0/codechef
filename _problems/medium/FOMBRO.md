@@ -123,8 +123,8 @@ For each test case, output **Q** lines, each line containing the required answer
 624
 1144
 
-
 </pre>### Explanation for first test case
+
 f\[1\] = 1
 
 f\[2\] = 2

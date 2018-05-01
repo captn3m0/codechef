@@ -41,8 +41,8 @@ HH..H
 0
 4
 
-
-</pre>**Explanation for 2nd query**<pre>
+</pre>**Explanation for 2nd query**
+<pre>
 #: means the chosen cell
 The possibilities are:
 1. Size 2 x 3

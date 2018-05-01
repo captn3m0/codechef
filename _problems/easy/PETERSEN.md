@@ -72,7 +72,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/COOK52/mandarin/PETERSEN.pdf) and [Russian](http://www.codechef.com/download/translated/COOK52/russian/PETERSEN.pdf) as well.
 
- The following graph **G** is called a [Petersen graph](http://en.wikipedia.org/wiki/Petersen_graph) and its vertices have been numbered from  to **9**. Some letters have also been assigned to vertices of **G**, as can be seen from the following picture:
+ The following graph **G** is called a [Petersen graph](http://en.wikipedia.org/wiki/Petersen_graph) and its vertices have been numbered from 0 to **9**. Some letters have also been assigned to vertices of **G**, as can be seen from the following picture:
 
  ![](//www.codechef.com//download/Petersen1tinysvg.png)
 
@@ -90,7 +90,7 @@ Your task is to determine whether there is a walk **W** which realizes a given s
 
 ### Output
 
- The output should contain exactly **T** lines, one line per each testcase in the order of their appearance. For each testcase, if there is no walk **W** which realizes **S**, then output **-1**. Otherwise, you should output the least lexicographical walk **W** which realizes **S**. Since all of the vertices are numbered from  to **9**, then it can be encoded as a string consisting of symbols **'0'-'9'** (see the "Examples" section for more details).
+ The output should contain exactly **T** lines, one line per each testcase in the order of their appearance. For each testcase, if there is no walk **W** which realizes **S**, then output **-1**. Otherwise, you should output the least lexicographical walk **W** which realizes **S**. Since all of the vertices are numbered from 0 to **9**, then it can be encoded as a string consisting of symbols **'0'-'9'** (see the "Examples" section for more details).
 
 ### Constraints
 
@@ -108,5 +108,4 @@ AABE
 <b>Output:</b>
 501
 -1
-
 </pre>

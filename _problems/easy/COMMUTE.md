@@ -50,5 +50,4 @@ For each test case you are to output a single integer denoting the minimum time 
 11
 8
 5
-
 </pre>

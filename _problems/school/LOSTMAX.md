@@ -105,8 +105,8 @@ He wants to find the largest of the **N** numbers. Help him find this.
 1
 8
 4
-
 </pre>### Explanation
+
 **Test case 1:**
 
  **N** = 2 and the numbers are {1, 1}. The maximum among these 2 numbers is 1, and hence the output is 1.

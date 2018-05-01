@@ -37,5 +37,4 @@ For each test case print the output on a single line.
 0
 1
 3
-
 </pre>

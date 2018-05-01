@@ -92,5 +92,4 @@ For each line of input output the square root of the input integer.
 3
 2
 100
-
 </pre>

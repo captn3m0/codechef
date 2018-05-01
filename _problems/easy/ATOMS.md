@@ -41,5 +41,4 @@ For each test case you are to output a single integer indicating the minimum num
 <b>Output:</b>
 3
 4
-
 </pre>

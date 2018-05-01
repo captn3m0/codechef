@@ -139,8 +139,8 @@ For each query, output a single integer corresponding to the total weight of the
 2
 3
 5
-
 </pre>### Explanation
+
 **Example case 1.**
 
 Here is the description of the graph.
@@ -151,14 +151,14 @@ There are **3** cycles.
 Cycle <b>1</b>: <b>3</b> nodes. Edges: <b>(1, 2) = 1</b>, <b>(2, 3) = 2</b>, (3, 1) = 2.
 Cycle <b>2</b>: <b>2</b> nodes. Edges: <b>(1, 2) = 1</b>, <b>(2, 1) = 2</b>.
 Cycle <b>3</b>: <b>3</b> nodes. Edges: <b>(1, 2) = 1</b>, <b>(2, 3) = 4</b>, (3, 1) = 1.
-
 </pre>Connections between adjacent cycles:
+
 <pre>
 Cycle <b>1</b> node <b>2</b> is connected to Cycle <b>2</b> node <b>1</b> with edge of weight <b>2</b>. 
 Cycle <b>2</b> node <b>2</b> is connected to Cycle <b>3</b> node <b>1</b> with edge of weight <b>5</b>.
 Cycle <b>3</b> node <b>3</b> is connected to Cycle <b>1</b> node <b>1</b> with edge of weight <b>3</b>.
-
 </pre>**Queries**
+
 Best path from node **2** cycle **1** to node **1** cycle **2** is of the cost 2.
 
 Best path from node **1** cycle **1** to node **1** cycle **2** is: edge **(1, 2)** of cycle **1** + edge **(2, 1)** between cycles **1** and **2**.

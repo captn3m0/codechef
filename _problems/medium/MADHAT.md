@@ -96,7 +96,7 @@ For each test case, output the answer to the problem modulo **109+7**.
 ### Constraints
 
 - **1** ≤ **n** ≤ **105**, the sum of **n** over all test cases is at most **106**
-- ≤ **ci** n
+- 0 ≤ **ci** n
 
 ### Example
 
@@ -110,8 +110,8 @@ For each test case, output the answer to the problem modulo **109+7**.
 <b>Output:</b><tt>
 3
 0</tt>
-
 </pre>### Explanation
+
 In the **first example**, the possible students IQs are the following:
 
 - \[1, 4, 3, 2\]

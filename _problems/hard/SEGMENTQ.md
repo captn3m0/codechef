@@ -122,8 +122,8 @@ After each query of the type **1**, output the number of just activated segments
 <tt>0
 2
 1</tt>
-
 </pre>### Explanation
+
 **Example case 1.** In the first two queries, we add the segments **\[1, 2\]** and **\[2, 3\]**, respectively. The we first mark the point **2**, the only segment that can be activated is **\[2; 2\]**. But since such segment is not yet present in the data structure, nothing will be activated that time.
 
 Then we try to add the segment **\[2, 2\]**. Please note that it won't be added, because all its' points are marked already. So nothing will happen on this addition.

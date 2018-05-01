@@ -77,7 +77,7 @@ The first line of the input contains an integer **N** denoting the number of tri
 Output one integer, the number of right triangles among the given triangles. ### Constraints
 
 - **1** ≤ **N** ≤ **100000 (105)**
-- ≤ **x1, y1, x2, y2, x3, y3** ≤ **20**
+- 0 ≤ **x1, y1, x2, y2, x3, y3** ≤ **20**
 
 ### Example
 
@@ -91,6 +91,6 @@ Output one integer, the number of right triangles among the given triangles. ###
 
 <b>Output:</b>
 3
-
 </pre>### Explanation
+
 The first triangle and the last two triangles of the example are right triangles.

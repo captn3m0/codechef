@@ -101,8 +101,8 @@ F 2 5
 2
 7
 1
-
-</pre>### Constraints
+</pre>
+### Constraints
 
 1 N 1 Q 0 u, **v** N-1 
 1 vi 0 d

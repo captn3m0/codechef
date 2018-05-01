@@ -100,8 +100,8 @@ void generator1(int N, unsigned S, int A[]){
 }
 /* ------------------ end here -----------------------*/
 
-
 </pre>The 2nd generator works as follows (C++ code):
+
 <pre>
 /* ------------------ start here ---------------------*/
 unsigned x, y, z, w; // we assume that unsigned is a 32bit integer type
@@ -127,13 +127,13 @@ void generator2(int N, unsigned S, int A[]){
 }
 /* ------------------ end here -----------------------*/
 
-
 </pre>Note that the LCG used in the 1st generator is the same one suggested in [ISO/IEC 9899 (pp. 346--347)](http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf), and Xorshift used in the 2nd generator is the same one in [the paper by Marsaglia (July 2003)](http://www.jstatsoft.org/v08/i14/paper).
+
 ### Input
 
 The first line of input contains an integer **T**, denoting the number of test cases. Then **T** test cases follow.
 
-Each test case has only one line. The line contains the string of length **N**, denoting the array **A\[1\], A\[2\], ..., A\[N\]**, where the string consists of only characters '' and '**1**', and the **i**th character denotes **A\[i\]**.
+Each test case has only one line. The line contains the string of length **N**, denoting the array **A\[1\], A\[2\], ..., A\[N\]**, where the string consists of only characters '0' and '**1**', and the **i**th character denotes **A\[i\]**.
 
 Note that the integer **N** is not given in the input explicitly.
 
@@ -185,8 +185,8 @@ LCG
 Xorshift
 Xorshift
 Xorshift
-
 </pre>### Explanation
+
 **Example 1.** **generator1(67, 5, A)** generates the given sequence.
 
 **Example 2.** **generator1(51, 8, A)** generates the given sequence.
@@ -208,8 +208,8 @@ For example,
 <pre>
     X * 1103515245 + 12345
 
-
 </pre>means that
+
 **(X × 1103515245 + 12345) mod 232**,
 
 
@@ -217,8 +217,8 @@ and
 
 <pre>
     (X / 65536) % 32768
-
 </pre>means that
+
 **(floor(X / 65536) mod 32768) mod 232**,
 
 
@@ -230,8 +230,8 @@ For example,
 
 <pre>
     X << 15
-
 </pre>means that
+
 **(X × 215) mod 232**,
 
 
@@ -239,8 +239,8 @@ and
 
 <pre>
     X >> 13
-
 </pre>means that
+
 **floor(X / 213)**.
 
 

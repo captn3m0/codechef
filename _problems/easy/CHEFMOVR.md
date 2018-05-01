@@ -119,8 +119,8 @@ Chef wants to find the minimum number of times she needs to use the mover of siz
 3
 2
 -1
-
 </pre>### Explanation
+
 **Testcase 1:**
 
 Here is a possible sequence of usages of the mover:

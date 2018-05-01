@@ -129,8 +129,8 @@ For each testcase, output a single line which contains **N** positive integers w
 <b>Output:</b>
 1 2 1 1 3
 -1
-
 </pre>### Explanation
+
 **Testcase 1**:
 
 Let us consider the sequence A = (1, 2, 1, 1, 3).

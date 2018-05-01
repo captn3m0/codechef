@@ -100,16 +100,16 @@ alex axle
 paradise diapers
 alice bob
 
-
-</pre>**Output:**/>
+</pre>**Output:**
+/>
 
 <pre>
 YES
 NO
 YES
 
-
-</pre>**Explanation:**/>
+</pre>**Explanation:**
+/>
 
 Example case 1: Chef declared them as granama recipes. They are actually granama because the sets of ingredients and the number of times each ingredient has been used are equal. The Chef got it right!
 

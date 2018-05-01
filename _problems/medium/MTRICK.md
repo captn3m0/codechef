@@ -96,8 +96,8 @@ for <b>i</b> from 1 to <b>N</b> do
 
 end
 
-
 <pre>Vidhi's boyfriend got jealous when he saw her getting impressed by Mandwarf, the brown's wisdom. He wants to learn the trick to gain her undivided admiration. How about you help him?
+
 ### Constraints:
 
 1 ≤ **T** ≤ 100 
@@ -131,5 +131,4 @@ AMAM
 <b>Output:</b>
 3 3 9
 1 2 3 4
-
 <pre>

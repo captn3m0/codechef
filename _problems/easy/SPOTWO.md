@@ -124,5 +124,4 @@ For each test case, output a single line containing the required value: the **Nt
 4
 1048576
 (and 99998 more answers...)
-
 </pre>

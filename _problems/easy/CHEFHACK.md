@@ -128,7 +128,7 @@ For each test case, output a single line containing the number of unsuccessful t
 
 - **1** ≤ **T** ≤ **8**
 - **1** ≤ **N** ≤ **350**
-- ≤ **each password** < **107**
+- 0 ≤ **each password** < **107**
 
 ### Example
 
@@ -146,8 +146,8 @@ For each test case, output a single line containing the number of unsuccessful t
 <b>Output:</b>
 20
 13
-
 </pre>### Explanation
+
 **Example case 1.**
 
 The type of each server can be found in the following table.

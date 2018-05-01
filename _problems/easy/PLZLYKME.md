@@ -108,8 +108,8 @@ For each test case, print a single line containing “**ALIVE AND KICKING**” i
 <b>Output</b>
 ALIVE AND KICKING
 DEAD AND ROTTING
-
 </pre>**Explanation**
+
 In the first case by the end of Day-1 we would be having **S** that is **5** number of likes, as it is ≥ **L**, the answer is **ALIVE AND KICKING**.
 
 In the second case, **D2 =S + C\*S**, therefore **D2 = 2 + 2 \* 2 = 6**, as 6 is less than 10, the answer is **DEAD AND ROTTING**. />

@@ -88,7 +88,7 @@ For each test case, output one line with **N** space separated integers in non-d
 
 - **1** ≤ **T** ≤ **50**
 - **1** ≤ **N** ≤ **15**
-- ≤ **Values on paper** ≤ **10^9**
+- 0 ≤ **Values on paper** ≤ **10^9**
 - **All input values are valid. A solution always exists**
 
 ### Example
@@ -103,7 +103,7 @@ For each test case, output one line with **N** space separated integers in non-d
 <b>Output</b>
 10
 1 1
-
 </pre>### Explanation
+
 **Test case #2**
 For the array \[1,1\], possible subsets are {}, {1}, {1}, {1,1}, respective sums are 0, 1, 1, 2.

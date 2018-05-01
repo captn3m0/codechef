@@ -129,8 +129,8 @@ NA
 -38
 11
 14
-
 </pre>### Explanation
+
 - At the beginning all stores are empty so the answer for the first query which asks about the store 5 is "NA".
 - The first plan of the Chef is "3 8 3 1" which means the items with price 1, 4, 7, 10, 13, 16 are added to the stores 3, 4, 5, ..., 8 correspondingly. So in the next query (asking about store 5) the answer is 7 (we have only one item to buy with no conservation fee).
 - The second plan of the Chef is "5 10 -8 2" so the items with price 2, -6, -14, -22, -30, -38 are added to the stores 5, 6, 7, ..., 10 correspondingly. Now the store 5 now contains two items with the corresponding prices are 7 and 2, the answer for the query about store 5 is still 7 (we still don't have any conservation fee). The store 10 contain only one item with price is -38 so the answer for the query about this store is -38.

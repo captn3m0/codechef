@@ -102,8 +102,8 @@ abcab
 3 2
 3 3
 
-
 </pre>### Explanation
+
 **Example case 1.** 
 
 i = 1, shortest unique substring is "abc"

@@ -107,5 +107,4 @@ Output **T** lines, each containing minimum value of **RS** and maximum value of
 3.0 6.40312
 6.63325 15.6205
 17.3205 22.3607
-
 </pre>

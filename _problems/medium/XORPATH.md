@@ -96,7 +96,7 @@ Output **Q** lines, one for each query. The **jth** line must contain a single i
 
 - **1** ≤ **N**, **E**, **Q** ≤ **105**
 - **1** ≤ **ai**, **bi**, **xj**, **yj** ≤ **N**
-- ≤ **ci** ≤ **109**
+- 0 ≤ **ci** ≤ **109**
 - Parallel edges or self-loops may appear.
 
 ### Example
@@ -122,6 +122,6 @@ Output **Q** lines, one for each query. The **jth** line must contain a single i
 13
 0
 XIT</tt>
-
 </pre>### Explanation
+
 The sample input is illustrated by the image above.

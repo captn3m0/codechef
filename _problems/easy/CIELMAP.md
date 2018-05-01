@@ -100,6 +100,7 @@ No three points (**Xi**, **Yi**), (**Xj**, **Yj**), (**Xk**, **Yk**) lie in the 
 6 6
 5 6
 </pre>### Sample Output
+
 `5.8309518948`### Explanations
 
 The below figure denotes one of the valid tetragons for the sample input. The red segment is the longest segment which can be one of the sides in her tetragon.

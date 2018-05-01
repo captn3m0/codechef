@@ -114,8 +114,8 @@ For each testcase, print the required answer in one line.
 <b>Output:</b>
 5
 8
-
 </pre>### Explanation
+
 **Example case 1.**You can start at any of the 5 cells available.
 
 **Example case 2.**

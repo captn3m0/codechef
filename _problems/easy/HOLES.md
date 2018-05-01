@@ -32,5 +32,4 @@ DRINKEATCODE
 <b>Output:</b>
 2
 5
-
 </pre>

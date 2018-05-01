@@ -42,5 +42,4 @@ layout: problem
 6
 31
 1266
-
 </pre>

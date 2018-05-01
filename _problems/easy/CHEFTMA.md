@@ -124,8 +124,8 @@ Be careful! Time is sensitive! Chef **cannot** make a day when he completed more
 
 <b>Output:</b>
 3
-
 </pre>### Explanation
+
 <pre><b>Example case 1.</b>
 In this example Chef goes through the following steps:
 Use black button <b>1</b> on the first day.

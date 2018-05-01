@@ -104,8 +104,8 @@ Print one integer describing the minimum number of seconds that Chef needs to wa
 
 <b>Sample Output 2:</b>
 -1
-
 </pre>### Explanation
+
 In the first example, if Chef leaves the first dog from left and gives it integer **4**, and the second dog from right and gives it integer **1**, then the first dog takes **2** seconds and the second dog takes **1** second to get the apples. Thus Chef needs to wait **2** seconds. In any other way, Chef can't get the desired apples in less than **2** seconds.
 
 In the second example, Chef cannot get two apples such that the sum of their types is **5** so the answer is "-1".

@@ -70,7 +70,7 @@ All submissions for this problem are available.The most important part of a GSM 
 
 The technicians faced a very interesting problem recently. Given a set of BTSes to visit, they needed to find the shortest path to visit all of the given points and return back to the central company building. Programmers have spent several months studying this problem but with no results. They were unable to find the solution fast enough. After a long time, one of the programmers found this problem in a conference article. Unfortunately, he found that the problem is so called "Traveling Salesman Problem" and it is very hard to solve. If we have N BTSes to be visited, we can visit them in any order, giving us N! possibilities to examine. The function expressing that number is called factorial and can be computed as a product
 
-1\.2.3.4....N. The number is very high even for a relatively small N.
+1.2.3.4....N. The number is very high even for a relatively small N.
 
 The programmers understood they had no chance to solve the problem. But because they have already received the research grant from the government, they needed to continue with their studies and produce at least _some_ results. So they started to study behavior of the factorial function.
 
@@ -96,8 +96,8 @@ Sample Input:
 1024
 23456
 8735373
-
 </pre>Sample Output:
+
 <pre>
 0
 14
@@ -105,5 +105,4 @@ Sample Input:
 253
 5861
 2183837
-
 </pre>

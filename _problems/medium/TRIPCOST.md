@@ -68,8 +68,8 @@ time:
     current: 1493557950
 layout: problem
 ---
-All submissions for this problem are available.Chef has decided to take a break, and go for a ride. He is currently in city , and he wants to get to city **N**.
-The cities along the road from  to **N** are numbered **0, 1, 2, 3, ... N-1, N** in increasing order of distance from city .
+All submissions for this problem are available.Chef has decided to take a break, and go for a ride. He is currently in city 0, and he wants to get to city **N**.
+The cities along the road from 0 to **N** are numbered **0, 1, 2, 3, ... N-1, N** in increasing order of distance from city 0.
 The distance between cities **i** and **i-1** is denoted by **di**.
 
 However, as is always the case, it is unsafe to travel at night, so he will have to break his journey over multiple days.
@@ -81,9 +81,9 @@ Let **L** be the minimum number of days in which he can reach city **N**.
 Chef knows the cost of overnight stay in each city. The cost of overnight stay in city **i** is **ci**.
 Chef will need to get all his hotel bills re-embersed, and his boss might get suspicious if cost for any single day exceeds a threshold.
 
-Chef knows that his boss wants him to reach as soon as possible. Thus, if it is possible for Chef to go from  to **N** in **L** days with no restriction on where Chef stays, then his boss will want him to reach in exactly **L** days. However, if the boss puts a threshold value **i** then we know that the Chef may not be able to reach in **L** days (since he may not be allowed to stay at some hotels). Help him him find the minimum threshold value **C** such that if he only stays in hotels of cost <= **C**, it is possible for him to reach the destination **N** in exactly **L** days (remember, here **L** is the minimum number of days needed by Chef if there were absolutely no restrictions on where he stays).
+Chef knows that his boss wants him to reach as soon as possible. Thus, if it is possible for Chef to go from 0 to **N** in **L** days with no restriction on where Chef stays, then his boss will want him to reach in exactly **L** days. However, if the boss puts a threshold value **i** then we know that the Chef may not be able to reach in **L** days (since he may not be allowed to stay at some hotels). Help him him find the minimum threshold value **C** such that if he only stays in hotels of cost <= **C**, it is possible for him to reach the destination **N** in exactly **L** days (remember, here **L** is the minimum number of days needed by Chef if there were absolutely no restrictions on where he stays).
 
-Formally, let **L** be the minimal number of days it takes Chef to get from city  to city **N**. Let **F(i)** be the minimal number of days it takes Chef to get from city  to city **N** if it's not allowed to pay more than **i** for a single stay in hotel. Find the smallest **C** that will still allow Chef to get to city **N** without losing time. In other words **F(C)=L**. Find and output **L** as well.
+Formally, let **L** be the minimal number of days it takes Chef to get from city 0 to city **N**. Let **F(i)** be the minimal number of days it takes Chef to get from city 0 to city **N** if it's not allowed to pay more than **i** for a single stay in hotel. Find the smallest **C** that will still allow Chef to get to city **N** without losing time. In other words **F(C)=L**. Find and output **L** as well.
 
 ### Input
 
@@ -154,7 +154,7 @@ Example:
 
 ### Explanation
 
-For test case# 1, the optimal trip is  → **2** → **4**
+For test case# 1, the optimal trip is 0 → **2** → **4**
 
-For test case# 2, the optimal trip is  → **1** → **3** → **5**
+For test case# 2, the optimal trip is 0 → **1** → **3** → **5**
 />/>

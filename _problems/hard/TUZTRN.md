@@ -120,8 +120,8 @@ For each test case, output a line with the string **Yes** or **No**, denoting th
 <b>Output:</b>
 Yes
 No
-
 </pre>### Explanation
+
 The figures from the first test case of the sample:
 
 ![](https://s3.amazonaws.com/codechef_shared/download/COOK67/1.png)

@@ -132,8 +132,8 @@ Output **Q** lines: the answer for each friend.
 10
 22
 5</tt>
-
 </pre>### Subtasks
+
 - **Subtask #1 (10 points) : N, M, Q ≤ 102, wi ≤ 105**
 - **Subtask #2 (15 points) : N, M, Q ≤ 103, wi ≤ 108**
 - **Subtask #3 (25 points) : N, M, Q ≤ 5\*104, wi ≤ 109**

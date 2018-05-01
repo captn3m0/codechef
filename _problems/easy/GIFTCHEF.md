@@ -113,8 +113,8 @@ aa</tt>
 <tt>1
 3
 7</tt>
-
 </pre>### Explanation
+
 **Example case 1.**
 chefand|**charliethebest**|
 1 way to cut 1 string "charliethebest" from the string S:

@@ -96,7 +96,7 @@ For each test case output the minimal possible expected value of **f(A)**. Your 
 
 - **1** ≤ **T** ≤ **100**
 - **1** ≤ **n** ≤ **100**
-- ≤ **k** ≤ **1018**
+- 0 ≤ **k** ≤ **1018**
 - **1** ≤ **Ai** ≤ **n**
 
 ### Example
@@ -111,6 +111,5 @@ For each test case output the minimal possible expected value of **f(A)**. Your 
 <b>Output:</b>
 0.0000
 1.5000
-
 
 </pre>

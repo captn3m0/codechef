@@ -76,7 +76,7 @@ _3:33_
 
 It's possible for all the digits displayed on a digital clock in the _hours:minutes_ format to be identical. The time shown above (_3:33_) is an example of such a situation. Other examples are _2:2_ and _1:11_. Note that the digits of _33:33_ are identical, but it is not a valid time on a usual digital clock.
 
-The above example was for a usual 24-hour format digital clock. Let's consider a more general clock, where an hour lasts **M** minutes and a day lasts **H** hours (therefore, the clock can show any number of hours between  and **H-1**, inclusive, and any number of minutes between  and **M-1**, inclusive). Both the hours and the minutes are shown **without leading zeroes** in decimal notation and their separator (e.g., ':') doesn't matter.
+The above example was for a usual 24-hour format digital clock. Let's consider a more general clock, where an hour lasts **M** minutes and a day lasts **H** hours (therefore, the clock can show any number of hours between 0 and **H-1**, inclusive, and any number of minutes between 0 and **M-1**, inclusive). Both the hours and the minutes are shown **without leading zeroes** in decimal notation and their separator (e.g., ':') doesn't matter.
 
 Can you tell how many minutes during a day will the digital clock have identical digits displayed on it?
 
@@ -112,8 +112,8 @@ For each test case, output a single line corresponding to the answer of the prob
 11
 10
 1
-
 </pre>### Explanation
+
 **Example case 1.** A clock shows two identical digits at times _0:0_, _1:1_, .., _9:9_, three identical digits at times _11:1_, _22:2_, _1:11_, _2:22_, _3:33_, _4:44_, _5:55_, and four identical digits at times _11:11_ and _22:22_. So, there are 19 minutes during which the time displayed by the clock will have identical digits.
 
 **Example case 2.** Compared to the previous case, the clock doesn't show _5:55_, but can show _33:3_ and _33:33_.

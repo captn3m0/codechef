@@ -110,5 +110,4 @@ Output **T** lines, each containing a single real number - answer for the corres
 0.500000000
 0.347800000
 
-
 </pre>

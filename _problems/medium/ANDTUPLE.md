@@ -88,7 +88,7 @@ For each testcase, print a single line containing the answer. Since the number c
 ### Constraints
 
 
-``11. **For 20 points:** 1 ≤ T ≤ 10000, K = 3, 1 ≤ N ≤ 1018
+<pre></pre>11. **For 20 points:** 1 ≤ T ≤ 10000, K = 3, 1 ≤ N ≤ 1018
 12. **For 80 points:** 1 ≤ T ≤ 10000, 3 ≤ K ≤ 4, 1 ≤ N ≤ 1018
 ### Example
 

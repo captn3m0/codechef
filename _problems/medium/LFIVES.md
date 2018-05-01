@@ -112,8 +112,8 @@ For each query, output a single line containing one integers: the number of trip
 8
 0
 
-
 </pre>### Explanation
+
  The following triples(**i**, **j**, **k**) are valid for the first and the second queries:
 
 - (3, 5, 7)

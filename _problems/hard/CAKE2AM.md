@@ -73,7 +73,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/COOK42/mandarin/CAKE2AM.pdf) and [Russian](http://www.codechef.com/download/translated/COOK42/russian/CAKE2AM.pdf) as well.
 
-Your friend Chef has made a cake for you on your birthday. Before having the cake you two have made some cuts on the cake. If you consider the cake as a rectangular grid with co-ordinates from (,) to (**n**,**n**), then each of the cut can be considered as a rectilinear polygon (a polygon with sides parallel to the axis and possibly self-intersecting). These cuts turn the cake into several pieces. Now you two want to distribute the pieces among yourself. Since it is your birthday, your friend has given you a choice of choosing some pieces for yourself. You are hungry and you want to have the whole cake. But you don't want to make your friend suspicious. So instead of having all the pieces you want to select the set of pieces such that no pair of pieces have a common side. You want to maximize the total amount of cakes you can have. This amount can be measured as the sum of the areas of the top surface for each piece (or the amount of cake in each piece is the area of the polygon that define that piece).
+Your friend Chef has made a cake for you on your birthday. Before having the cake you two have made some cuts on the cake. If you consider the cake as a rectangular grid with co-ordinates from (0,0) to (**n**,**n**), then each of the cut can be considered as a rectilinear polygon (a polygon with sides parallel to the axis and possibly self-intersecting). These cuts turn the cake into several pieces. Now you two want to distribute the pieces among yourself. Since it is your birthday, your friend has given you a choice of choosing some pieces for yourself. You are hungry and you want to have the whole cake. But you don't want to make your friend suspicious. So instead of having all the pieces you want to select the set of pieces such that no pair of pieces have a common side. You want to maximize the total amount of cakes you can have. This amount can be measured as the sum of the areas of the top surface for each piece (or the amount of cake in each piece is the area of the polygon that define that piece).
 
 ### Input
 
@@ -105,8 +105,8 @@ For each test case, output a single line containing an integer denoting the maxi
 <b>Output:</b>
 16
 19
-
 </pre>### Explanation
+
 **Example 1:** You have only a single cut and the cake now have two pieces(as seen by the figure in the left). The amount of cake in piece 1 is 9 and the amount of cake in piece 2 is 16. So you will take the piece 2 and leave piece 1 for your friend.
 
 ![](/download/extimages/77ea6c0d4a8a3a84ed5e2ca3778e0893.jpg)**Example 2:** You have two cuts and the cake now have four pieces(as seen by the figure in the left). The amount of cake in piece 1 is 18, the amount of cake in piece 2 is 3, the amount of cake in piece 3 is 1 and the amount of cake in piece 4 is 3. So you will take piece 1 and piece 3 for yourself and leave the piece 2 and piece 4 for your friend.

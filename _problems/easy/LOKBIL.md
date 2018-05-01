@@ -64,5 +64,4 @@ There are atmost 100 groups.
 
 <b>Output:</b>
 4 1.166667
-
 </pre>

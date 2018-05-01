@@ -89,7 +89,7 @@ Print a single integer denoting maximum energy a minion can achieve at the end o
 ### Constraints
 
 - **2** ≤ **N** ≤ **18**
-- ≤ **B\[i\]\[j\]** ≤ **109**
+- 0 ≤ **B\[i\]\[j\]** ≤ **109**
 
 ### Example
 
@@ -101,13 +101,12 @@ Print a single integer denoting maximum energy a minion can achieve at the end o
 
 <b>Output:</b>
 4
-
 </pre>### Explanation
+
 <pre>
 There are 6 different possible journeys of the minion, and energy at the end of them are --
 One journey -- 1 ^ 3 ^ 2 ^ 3 ^ 7 = 4
 Four journeys -- 1 ^ 3 ^ 4 ^ 3 ^ 7 = 2
 One journeys -- 1 ^ 3 ^ 5 ^ 3 ^ 7 = 3
 So the maximum energy achieved by a minion is 4.
-
 </pre>

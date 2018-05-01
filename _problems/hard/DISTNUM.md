@@ -104,7 +104,7 @@ For each query of **type 1** or **type 5**, output the answer to the query in a 
 - **1** ≤ **A**i, **y** ≤ **109 + 6**
 - **1** ≤ **x**  ≤ **|A|**
 - **1** ≤ **l**  ≤  **r**  ≤ **|A|**
-- ≤ **z**  ≤ **|A|**
+- 0 ≤ **z**  ≤ **|A|**
 
 ### Example
 
@@ -155,8 +155,8 @@ For each query of **type 1** or **type 5**, output the answer to the query in a 
 0
 6
 
-
 </pre>### Subtasks
+
 - **Subtask 1:** **Q**\***N** ≤ 2\*107. **Points - 10**
 - **Subtask 2:** Queries are of type 5 only. **Points - 5**
 - **Subtask 3:** Queries are of type 1 only. **Points - 10**

@@ -42,5 +42,4 @@ For each test case print the number of days Johnny will be happy in this situati
 <b>Output:</b>
 4
 
-
 </pre>

@@ -125,5 +125,4 @@ Output a single real number corresponding to expected number of swap operations 
 5.0000000
 27.5000000
 781.0416667
-
 </pre>

@@ -113,8 +113,8 @@ For each test case, output a single line containing the integer **L**: the maxim
 <b>Output:</b>
 2
 4
-
 </pre>### Explanation
+
 **First Example :**  
 
 One of the possible card arrangements is: 

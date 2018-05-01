@@ -101,6 +101,6 @@ For each test case, output a single line containing a single integer - the small
 
 <b>Output:</b>
 4
-
 </pre>### Explanation
+
 Here we pick **a2** and **a3**. Their sum equals to 1 + 3 = 4.

@@ -101,5 +101,4 @@ Output the answer for each query in separate lines as in example.
 1
 3
 1
-
 </pre>

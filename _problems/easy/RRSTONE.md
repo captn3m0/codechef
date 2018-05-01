@@ -84,7 +84,7 @@ Output **N** numbers on a single line. It should be the array **A** after **K** 
 ### Constraints
 
 - **1** <= **N** <= **105**
-- <= **K** <= **109**
+- 0 <= **K** <= **109**
 - **Ai** does not exceed **2 \* 109** by it's absolute value.
 
 ### Example
@@ -95,5 +95,4 @@ Output **N** numbers on a single line. It should be the array **A** after **K** 
 
 <b>Output:</b>
 2 8 0 7
-
 </pre>

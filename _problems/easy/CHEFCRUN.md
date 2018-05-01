@@ -118,8 +118,8 @@ For each test case, output a single line containing the minimal possible cost Ch
 <b>Output:</b>
 <tt>2
 -8</tt>
-
 </pre>### Explanation
+
 **Example case 1.** Chef's walk starts with node 1. He goes to node **4** by incurring a cost of 1. Then from node 4, he goes to node 3 by incurring a cost of 1 more. Total cost incurred is 2.
 
 **Example case 2.** Chef goes from **1** to **2** by incurring a cost of **-5**. Then from **2** to **1** using the edge **second time** and incurring cost of **-5** again. Now, he can not use the edge between 1 and 2 again, as he has traversed the edge already twice. Now he will go from node 1 to node 4 by paying a cost of 2. Total sum of costs incurred is -5 + -5 + 2 = -8. This is the minimum possible cost that Chef can have.

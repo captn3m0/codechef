@@ -117,8 +117,8 @@ For each test case, output a single line containing the number Chef is intereste
 3
 7
 
-
 </pre>### Explanation
+
 **Example case 1.** Intervals \[**1**,**1**\], \[**1**,**2**\] and \[**2**,**2**\] are valid.
 
 **Example case 2.** Intervals \[**1**,**1**\], \[**1**,**4**\], \[**2**,**2**\], \[**2**,**4**\], \[**3**,**3**\], \[**3**,**4**\] and \[**4**,**4**\] are valid.

@@ -87,14 +87,14 @@ The first line of the input contains an integer **T** denoting the number of tes
 
 ### Output
 
-Let the answer for a test case be an fraction **P / Q**, where **P** and **Q** are integers. Let integer **X** be **P \* Q-1 modulo 2003**, where **Q-1 modulo 2003** is the modular multiplicative inverse of **Q** modulo **2003** or  if **Q-1 modulo 2003** doesn't exist. For each test case, output a single line containing the integer **X** for this test case.
+Let the answer for a test case be an fraction **P / Q**, where **P** and **Q** are integers. Let integer **X** be **P \* Q-1 modulo 2003**, where **Q-1 modulo 2003** is the modular multiplicative inverse of **Q** modulo **2003** or 0 if **Q-1 modulo 2003** doesn't exist. For each test case, output a single line containing the integer **X** for this test case.
 
 ### Constraints
 
 - **1** ≤ **T** ≤ **50**
-- < **N, K** ≤ **109**
-- < **F ≤ 1000**
-- < **L \* F** ≤ **50 000**
+- 0 < **N, K** ≤ **109**
+- 0 < **F ≤ 1000**
+- 0 < **L \* F** ≤ **50 000**
 - **Subtask #1\[39 points\]: F = 1**
 - **Subtask #2\[61 points\] : no additional constraints**
  
@@ -107,6 +107,6 @@ Let the answer for a test case be an fraction **P / Q**, where **P** and **Q** a
 
 <b>Output:</b>
 779
-
 <pre>### Explanation
+
 We roll the 6-face dice 2 times, and we are interested in the value **a1 \* a2**. The only two possible scenarios when this value is not zero are **(1, 2)** and **(2, 1)**. Both of them have **a1 \* a2 = 1** and happen with probability **1 / 36** each. It means that **P / Q = (1 + 1) / 36 = 1 / 18**, so the answer is, **X = 779**.

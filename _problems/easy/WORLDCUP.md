@@ -121,8 +121,8 @@ For each test cases output the number of ways modulo 1e9+7 (i.e. 1000000007)
 1
 0
 12
-
 </pre>###  Explanation 
+
 <pre>
 Explanation for the sample input 1:
 
@@ -150,5 +150,4 @@ Only possible ways to win the match are 46 and 64. Hence answer is 2.
 You need to consider all sample space i.e. 4^B
 
 Note that the answer to R = 0 , B = 2 , W =1 is 3  [ 00 , 0W , W0 ]
-
 </pre>

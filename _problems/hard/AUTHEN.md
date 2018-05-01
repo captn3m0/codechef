@@ -45,5 +45,4 @@ ababab
 10
 
 <b>Explanation:</b>
-
 </pre>In the first test case, the password is definitely "aa". In the second test case, it can be "abc", "abd", "acd" or "bcd", so in the worst case Chef will guess the correct option from the fourth attempt, thus making 3 unsuccessful attempts.

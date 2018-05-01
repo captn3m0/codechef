@@ -102,8 +102,8 @@ Note: Remember that you don't print **N** in the first line.
 -150 -150
 150 -150
 11 13
-
 </pre>### Explanation
+
 Let's analyze sizes of convex hulls for the provided output. There are 25-1 non-empty sets of points.
 
 - There are 5 sets of points that consist of only 1 point each. The convex hull of each of those sets has size 1.

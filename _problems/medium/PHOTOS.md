@@ -58,5 +58,4 @@ For each input you are to output a single line. If you are unable to take photos
 No Photos
 1 12
 
-
 </pre>

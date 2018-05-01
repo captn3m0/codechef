@@ -110,5 +110,4 @@ For each query print the answer on a single line.
 4
 6
 4
-
 </pre>

@@ -109,8 +109,8 @@ For each testcase print expected number of inversions.
 <b>Output:</b>
 13.833333333
 87.818181818
-
 </pre>### Note
+
 **Test #0-1 (25 points): n,m ≤ 10**
 
 **Test #2 (25 points): n,m ≤ 1000**

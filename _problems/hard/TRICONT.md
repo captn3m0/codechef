@@ -122,8 +122,8 @@ Output **N** lines. The **ith** line must contain a single integer, the answer t
 1
 2
 2</tt>
-
 </pre>### Explanation
+
 - After the first and second installations, there aren't enough guard towers for Chef to choose from.
 - After the third and fourth installations, there is one set of guard towers that make Chef's house safe: **{(2, 3), (3, 2), (-1, -1)}**.
 - After the fifth and sixth installations, there are two sets of guard towers that make Chef's house safe: **{(2, 3), (3, 2), (-1, -1)}** and **{(2, 3), (4, 1), (-1, -1)}**.

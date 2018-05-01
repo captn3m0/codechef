@@ -92,10 +92,10 @@ Output **Q** lines, the **i-th** line contains the total area covered by restaur
 
 - **1** ≤ **N** ≤ **50 000**
 - **1** ≤ **Q** ≤ **100 000**
-- ≤ **xi, yi** ≤ **50 000**
+- 0 ≤ **xi, yi** ≤ **50 000**
 - **1** ≤ **ri** ≤ **50**
-- ≤ **xi1** < **xi2** ≤ **50 000**
-- ≤ **yi1** < **yi2** ≤ **50 000**
+- 0 ≤ **xi1** < **xi2** ≤ **50 000**
+- 0 ≤ **yi1** < **yi2** ≤ **50 000**
 - No two circles touch or intersect each other.
 
 ### Subtasks
@@ -107,9 +107,9 @@ Output **Q** lines, the **i-th** line contains the total area covered by restaur
 **Subtask #2 (10 pts)**
 
 - **1** ≤ **N, Q** ≤ **1000**
-- ≤ **xi, yi** ≤ **1000**
-- ≤ **xi1** < **xi2** ≤ **1000**
-- ≤ **yi1** < **yi2** ≤ **1000**
+- 0 ≤ **xi, yi** ≤ **1000**
+- 0 ≤ **xi1** < **xi2** ≤ **1000**
+- 0 ≤ **yi1** < **yi2** ≤ **1000**
 
 **Subtask #3 (10 pts)**
 
@@ -139,5 +139,4 @@ Output **Q** lines, the **i-th** line contains the total area covered by restaur
 15.707963267948966
 2.456739397217513
 0.000000000000000
-
 </pre>

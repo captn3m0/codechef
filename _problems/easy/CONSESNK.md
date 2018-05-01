@@ -110,8 +110,8 @@ If a snake was initially at the position \[**X1, X1** + **L**\] and finally is a
 <b>Output:</b>
 16
 16
-
 </pre>### Explanation
+
 In the first testcase, the three snakes are initially at segments \[10, 14\], \[11, 15\], and \[30, 34\]. One optimal solution is to move the first snake which was at \[10, 14\] to \[15, 19\] and the third snake which was at \[30, 34\] to \[19, 23\]. After this, the snakes would form a valid parade because they will be from \[11, 15\], \[15, 19\] and \[19, 23\]. Hence they are all in a line without any gaps in between them, and they are all visible, because they all lie in the visible segment, which is \[11, 23\].
 
 The distance traveled by the first snake is |15 - 10| = 5, by the second snake is |11 - 11| = 0 and by the third snake is |19 - 30| = 11. Hence the total distance traveled is 5 + 0 + 11 = 16. This is the best that you can do, and hence the answer is 16.

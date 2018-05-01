@@ -39,8 +39,8 @@ If there are multiple such optimal paths, any path would suffice.
 2 2
 2 3
 3 2
-
 </pre>###  Sample Output 
+
 
 <pre>
 6
@@ -50,7 +50,7 @@ If there are multiple such optimal paths, any path would suffice.
 1 1 
 1 0
 0 0
-
 </pre>###  Constraints 
+
 1 < m\*n ≤ 100000 
 0 ≤ Gij ≤ 10000

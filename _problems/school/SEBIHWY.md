@@ -101,8 +101,8 @@ For each test case, output a single line containing "SEBI", "FATHER" or "DRAW" (
 ### Constraints
 
 - **1** ≤ **T** ≤ **10000**
-- ≤ **S** ≤ **130**
-- ≤ **SG, FG** ≤ **300**
+- 0 ≤ **S** ≤ **130**
+- 0 ≤ **SG, FG** ≤ **300**
 - **1** ≤ **D** ≤ **30**
 - **1** ≤ **T** ≤ **300**
 - The other car speed doesn't exceed 300 kph.
@@ -117,8 +117,8 @@ For each test case, output a single line containing "SEBI", "FATHER" or "DRAW" (
 <b>Output:</b>
 SEBI
 FATHER
-
 </pre>### Explanation
+
 **Example case 1.**
 
 There are total **20 - 1 = 19** markers in between the Sebi's car and the other car. So, the distance between those cars at time **T** is 20 \* 50 = 1000 meters = 1 km.

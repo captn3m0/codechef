@@ -99,8 +99,8 @@ aba
 1
 0
 1
-
 </pre>### Constraints
+
 1 ≤ T ≤ 20
 
 1 ≤ sum of length of all input strings ≤ 1,000,000

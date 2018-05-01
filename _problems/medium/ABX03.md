@@ -135,8 +135,8 @@ For each query, print the answer to it on a separate line.
 
 6
 0
-
 </pre>### Explanation
+
 For the first query, they will eat at the restaurant connecting halls 1 and 2; the cost of the meal there is 6.
 
 For the second query, 6 is a multiple of 3, but according to the second condition, the cost of this meal isn't between 3 and 5. Hence they will not eat at any restaurant.

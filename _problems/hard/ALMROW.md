@@ -134,8 +134,8 @@ For each test case, output a single line containing one integer — the sum of f
 16
 891
 166666666666500000
-
 </pre>### Explanation
+
 The provided example test contains **T** = 4 test cases. The following drawings show the situation for the first two test cases (extra roads are red):
 
 ![](https://codechef_shared.s3.amazonaws.com/uploads/2017/03/LTIME46/ALMROW.png)

@@ -96,7 +96,7 @@ The first line contains integer **N** — the number of vertices in given tree. 
 
 ### Output
 
-Let **S** be the sum over all **Wi**. You should output S characters **ith** of which should be equal to **1** if it is possible to get **marked\[i\] = true** and  otherwise. Have a look at the example for better understanding.
+Let **S** be the sum over all **Wi**. You should output S characters **ith** of which should be equal to **1** if it is possible to get **marked\[i\] = true** and 0 otherwise. Have a look at the example for better understanding.
 
 ### Constraints
 
@@ -117,6 +117,5 @@ Let **S** be the sum over all **Wi**. You should output S characters **ith** of 
 
 <b>Output:</b>
 100000010100011010001
-
 
 </pre>

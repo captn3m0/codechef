@@ -130,5 +130,4 @@ For each query of second type output your answer in a single line.
 Yes
 No
 Yes</tt>
-
 </pre>

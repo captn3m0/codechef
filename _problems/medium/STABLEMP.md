@@ -65,5 +65,4 @@ For each test case print _n_ lines, where each line contains two numbers _m_ and
 6 6
 7 2
 
-
 </pre>**Warning: large Input/Output data, be careful with certain languages**

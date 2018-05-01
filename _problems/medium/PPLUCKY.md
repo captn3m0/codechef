@@ -107,8 +107,8 @@ For each test case, output a single line containing the answer to the correspond
 <b>Output:</b>
   4
   20
-
 </pre>###  
+
 ### Explanation
 
 **Example case 1.** In this case, there is just a single iteration. Since **P = {1, 3}**, the answer is **1 + 3 = 4**.

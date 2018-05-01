@@ -124,8 +124,8 @@ For each test case, output the lexicographically smallest _good_ permutation of 
 2 3 1
 2 1 4 5 3
 2 1 4 3 6 5
-
 </pre>### Explanation
+
  **Example case 1.** The only _good_ permutation of length 2 is (2, 1).
 
  **Example case 2.** Consider all permutations of length 3, they are(in lexicographically order):

@@ -126,8 +126,8 @@ For each of the **T** test cases, output a single line - minimum number of packa
 2
 1
 4
-
 </pre>### Explanation
+
 Test case **1** has already been explained in the statement.
 
 In test case **2**, we have one day tour and packages with one piece each. In the first day, we have to eat one piece of bread, so we open a package and eat one piece. Tour ended, and our answer is 1.

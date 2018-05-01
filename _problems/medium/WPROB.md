@@ -118,8 +118,8 @@ rgbr
 0
 0
 2
-
 </pre>### Explanation
+
 **Example case 1.**We can move the second container to the beginning of the line. This will take one second.
 
 **Example case 2.**Containers are already in desired way.

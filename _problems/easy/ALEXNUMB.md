@@ -85,7 +85,7 @@ For each test case, output a single line containing number of pairs for correspo
 
 - **1** ≤ **T** ≤ **4**
 - **1** ≤ **n** ≤ **100000**
-- ≤ **ai** ≤ **109**
+- 0 ≤ **ai** ≤ **109**
 - All the ai are distinct
 
 ### Example
@@ -96,13 +96,13 @@ For each test case, output a single line containing number of pairs for correspo
 2 1
 3
 3 1 2
-
 </pre>**Output:**
+
 <pre>
 1
 3
-
 </pre>### Explanation
+
 Case 1: Only one such pair: (2,1)
 
 Case 2: 3 possible pairs: (2,1), (2,3), (3,1)

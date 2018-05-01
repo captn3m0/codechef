@@ -37,11 +37,10 @@ For each test case, print the number of words of length N that Chef can use; tha
 14
 45
 
-
 </pre>**Sample output**
+
 <pre>26
 456976
 827063120
-
 
 </pre>

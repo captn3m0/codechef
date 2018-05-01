@@ -97,5 +97,4 @@ The author is pretty lazy and he does not want to write checking program. So, if
 2
 1 3
 2 3
-
 </pre>

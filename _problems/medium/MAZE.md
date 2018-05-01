@@ -117,8 +117,8 @@ For each test case, output either "Chefland is doomed" (without quotes), or a si
 <b>Output:</b>
 2
 0
-
 </pre>### Explanation
+
 **Example case 1.**
 
 ![](https://s3.amazonaws.com/codechef_shared/download/upload/COOK70/example_1_city_before.png)

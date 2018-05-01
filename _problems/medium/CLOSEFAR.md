@@ -147,8 +147,8 @@ F 2 4</tt>
 6
 5
 2</tt>
-
 </pre>### Explanation
+
 Given below is the tree corresponding to the sample input. Each node has two numbers written in it.
 
 The first number represents the node index and the second number indicates node value.

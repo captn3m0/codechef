@@ -110,7 +110,7 @@ For each test case, output a line containing single integer representing the val
 - **1** ≤ **N** ≤ **105**
 - **2** ≤ **K** ≤ **10**
 - **2** ≤ **X** ≤ **1018**
-- ≤ **Ai** ≤ **105**
+- 0 ≤ **Ai** ≤ **105**
 
 ### Subtasks
 
@@ -131,8 +131,8 @@ For each test case, output a line containing single integer representing the val
 <b>Output:</b>
 87392358
 88861416
-
 </pre>### Explanation
+
 **Example case 1:** Let's name the sub-sequences as A = \[\], B = \[1\], C = \[0\], D = \[2\], E = \[1, 0\], F = \[1, 2\], G = \[0, 2\], H = \[1, 0, 2\].
 
 Possible outcome of xor values after selecting two sub-sequences (repetitions allowed):

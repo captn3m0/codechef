@@ -106,6 +106,6 @@ For each test case, output a single line containing either "Dee" if Twedle-Dee w
 </tt>
 <b>Output:</b><tt>
 Dum</tt>
-
 </pre>### Explanation
+
 Tweedle-Dee takes two stones from any of the heaps leaving just one non empty heap, next Tweedle-Dum takes one stone and the game finishes.

@@ -115,8 +115,8 @@ Output:
 2
 2
 3
-
 </pre>### Explanation
+
 Here are some possible valid sequences which can be formed with the minimum **P** for each of the test cases:
 
 <pre>

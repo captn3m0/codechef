@@ -106,5 +106,4 @@ For each test case, print the answer in one line.
 4
 5
 
-
 </pre>

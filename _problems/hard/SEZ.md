@@ -111,6 +111,6 @@ Print a single integer corresponding to the maximal value of **(x - y)**.
 
 <b>Output:</b>
 1
-
 </pre>### Explanation
+
 Ciel will select city **1** and **3** as SEZ. So **x = 2** (city **1** and **3**), **y = 1** (city **2**), **x - y = 1**.

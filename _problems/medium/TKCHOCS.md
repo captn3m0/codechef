@@ -41,8 +41,8 @@ For each case, output the maximum number of choco chips Po and Mantis can collec
 <b>Output:</b>
 3
 11
-
-</pre> **Explanation:**
+</pre>
+ **Explanation:**
  Case 2 : Po can visit (1,1) -> (2,2) -> (3,1) and Mantis can visit (3,3) -> (3,2) -> (3,1). Note that if both step in to a same cell, we must count the choco chips in it only once in the final answer. The cell (3,1) is reached by both, but the 1 choco chip in it must be added only once ( of course :) ).
 
 _Warning : Large input / output. You may have to use efficient input / output methods if you are using languages with heavy input / output overload. Eg: Prefer using scanf/printf to cin/cout for C/C++_

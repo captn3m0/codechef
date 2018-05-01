@@ -110,8 +110,8 @@ bacb
 <b>Output:</b>
 abc
 ab
-
 </pre>### Explanation
+
 **Example case 1.** "abc" is the smallest lexicographical subsequence out of \["abd", "bdc", "abc", "adc"\].
 
 **Example case 2.** "ab" is the smallest lexicographical subsequence of length 2.

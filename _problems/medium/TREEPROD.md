@@ -107,6 +107,6 @@ A single integer denoting the number of pair of houses. ### Constraints
 
 <b>Output:</b>
 6
-
 </pre>### Explanation
+
 If we multiply the lengths of the roads on the path between any pair of the vertices, it will be divisible by 2.

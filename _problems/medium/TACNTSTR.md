@@ -105,8 +105,8 @@ XYZ
 
 <b>Output 2</b>:
 5
-
 </pre>### Explanation
+
 **Test #1:** To make a valid string **t**, you can just replace the letter A in **S** by any other letter, e.g. by replacing 'A' by 'B', we get **t = ZBZ**. Note that ZBZ is lexicographically larger than ZAZ. Reverse of **t** (i.e. ZBZ) is also lexicographically larger than reverse of **s** (i.e. ZAZ).
 
 **Test #2:** there are 5 valid strings: YYZ, ZYZ, XZZ, YZZ, ZZZ

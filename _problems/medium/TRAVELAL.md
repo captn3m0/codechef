@@ -119,8 +119,8 @@ For each test case, output a single line containing the answer.
 
 <b>Output:</b>
 9
-
 </pre>### Explanation
+
 We can start at some point and travel to all of the points if **D** ≤ 9, but not if **D** is greater than 9. Hence the answer is 9.
 
 Let us take an example when **D** is 9. You can start at (1, 7) and move to (8, 5) because |1 - 8| + |7 - 5| = 9 ≥ 9. From (8, 5) you can move back to (1, 7) and then to (10, 3). From there you can go to (6, 10) and then to (5, 2). You then go to (1, 7) and then to (6, 3). Hence, we have visited all the special points.

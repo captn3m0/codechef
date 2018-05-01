@@ -97,7 +97,7 @@ Type 2 operations are given as "**2 L R**" (without the double quotes) where **L
 
 ### Output
 
-For each query of the type 2, **output the respective 4 numbers** in arbitrary order that when squared and summed under modulo **P** make that respective product modulo **P**. In case there is no such quadruple then **output -1.** All the 4 numbers should be between  to **P - 1**(inclusive)
+For each query of the type 2, **output the respective 4 numbers** in arbitrary order that when squared and summed under modulo **P** make that respective product modulo **P**. In case there is no such quadruple then **output -1.** All the 4 numbers should be between 0 to **P - 1**(inclusive)
 
 ### Constraints
 
@@ -144,8 +144,8 @@ Note that **X**, **L** and **R** for the queries will always be in the range fro
 8 6 4 2
 0 1 1 2
 0 2 4 2
-
 </pre>### Explanation
+
 1 x 2 x 3 x 4 x 5 mod 100 = 120 mod 100 = ( 82 + 62 + 42 + 22 ) mod 100
 
 1 x 2 x 3 mod 100 = 6 mod 100 = ( 02 + 12 + 12 + 22 ) mod 100

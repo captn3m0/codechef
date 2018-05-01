@@ -115,6 +115,6 @@ where **M** is the length of the array representation of **Y** and **p** equals 
 40079781
 32745632</tt>
 
-
 </pre>### Explanation
+
 In the first test case, **X = 4** and **Y = 16**. Its hash equals **1\*1 + 23\*6 = 139**.

@@ -121,7 +121,7 @@ The output should contain as many lines as the number of queries S and it should
 - **The array is 0-indexed.**
 - **1000** ≤ **A\[i\]** ≤ **2000**
 - **A student can never have a negative value of marbles. (i.e. there's no data which can cause a student to have a negative value of marbles)**
-- ≤ **i, j** ≤ **N-1**, and **i** ≤ **j** for the sum query
+- 0 ≤ **i, j** ≤ **N-1**, and **i** ≤ **j** for the sum query
 - **At any given time, it is assured that the maximum number of marbles each student can have (**num\_marbles**) never exceeds the size of the int data type.**
 
 ### Example

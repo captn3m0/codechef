@@ -112,5 +112,4 @@ For each test case on different lines print the answer to the problem.
 0
 0
 
-
 </pre>

@@ -109,5 +109,4 @@ For each test case, print a single line containing one number — the minimum nu
 <b>Output:</b>
 
 3
-
 </pre>

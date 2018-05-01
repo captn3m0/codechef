@@ -113,8 +113,8 @@ yes
 yes
 no
 no
-
 </pre>### Explanation
+
 **Example 1**. Persons 1 and 2 have already formed the team. No other person is left. So, the answer is yes.
 
 **Example 2**. Persons 1 and 3 have already formed the team. Persons 2 and 4 can form their own team. No other person is left. So, the answer is yes.

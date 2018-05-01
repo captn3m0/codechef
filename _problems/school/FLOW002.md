@@ -94,5 +94,4 @@ Find remainder when **A** is divided by **B**.
 1
 100
 10
-
 </pre>

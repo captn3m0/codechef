@@ -70,7 +70,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MAY14/mandarin/OJUMPS.pdf) and [Russian](http://www.codechef.com/download/translated/MAY14/russian/OJUMPS.pdf).
 
-This morning Chef wants to jump a little. In a few minutes he will arrive at the point . Then he will perform a lot of jumps in such a sequence: **1**-jump, **2**-jump, **3**-jump, **1**-jump, **2**-jump, **3**-jump, **1**-jump, and so on.
+This morning Chef wants to jump a little. In a few minutes he will arrive at the point 0. Then he will perform a lot of jumps in such a sequence: **1**-jump, **2**-jump, **3**-jump, **1**-jump, **2**-jump, **3**-jump, **1**-jump, and so on.
 
 **1**-jump means that if Chef is at the point **x**, he will jump to the point **x+1**.
 
@@ -90,7 +90,7 @@ Output "yes" without a quotes if Chef can arrive at point **a** or "no" without 
 
 ### Constraints
 
-- ≤ **a** ≤ **1018**
+- 0 ≤ **a** ≤ **1018**
 
 ### Example
 
@@ -136,6 +136,6 @@ yes
 <b>Output:</b>
 no
 
-
 </pre>### Explanation
+
  The first reached points are: 0 (+1) 1 (+2) 3 (+3) 6 (+1) 7, and so on.

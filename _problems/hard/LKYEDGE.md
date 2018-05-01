@@ -127,5 +127,4 @@ For each test case, output a single line containing **M** integers, i-th of whic
 <b>Output:</b>
 1 0 1
 2 3 3 2 2
-
 </pre>

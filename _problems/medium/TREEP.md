@@ -142,8 +142,8 @@ _Subtask 3 (60 points):_ Original constraints
 1
 3
 1
-
 </pre>### Explanation
+
 In first test case, period of strings "a", "aa" is "a", and period of "ab" is "ab". 
 In second test case, the only period of string "aba" is "aba" itself. Note that not "ab" is not a period, as "aba" is a prefix of "abab", but is not the same.
 

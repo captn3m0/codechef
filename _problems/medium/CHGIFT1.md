@@ -102,8 +102,8 @@ For each test case, output a single line containing the minimal value of given e
 <b>Output:</b>
 -4
 9
-
 </pre>### Explanation
+
 Example case 1: **1-2-3 = -4**
 
 ###  Scoring 

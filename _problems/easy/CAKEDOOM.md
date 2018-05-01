@@ -84,7 +84,7 @@ What does it mean?
 
 Let's numerate positions for the cherries by the numbers **1**, **2**, ..., **N** starting from one of the positions in a clockwise direction. Then the current (possibly partial) arrangement of the cherries can be represented by a string of **N** characters. For each position **i** of the arrangement if the cherry of the color **C** is placed at this position then the **i**th character of the string is equal to the digit **C**. Otherwise, it is equal to the question mark **?**. We identify the arrangement with the string that represents it.
 
-One arrangement is called _lexicographically smaller_ than the other arrangement if at the first position where they differ the first one has smaller digit (we compare only complete arrangements so we don't care about relation between digits and the question mark). For example, the arrangement **1230123** is lexicographically smaller than **1231230** since they have first **3** equal characters but the **4**th character in the first arrangement is  and it is less than **1** which is the **4**th character of the second arrangement.
+One arrangement is called _lexicographically smaller_ than the other arrangement if at the first position where they differ the first one has smaller digit (we compare only complete arrangements so we don't care about relation between digits and the question mark). For example, the arrangement **1230123** is lexicographically smaller than **1231230** since they have first **3** equal characters but the **4**th character in the first arrangement is 0 and it is less than **1** which is the **4**th character of the second arrangement.
 
 **Notes**
 
@@ -116,7 +116,7 @@ Each character in **S** is either the digit from the set **{0, 1, ..., K – 1}*
 
 ### Output
 
-For each test case output the lexicographically smallest valid arrangement of the cherries in the cake that can be obtained from the given arrangement by replacement of each question mark by some digit from  to **K – 1**. If it is impossible to place the cherries output **NO** (output is case sensitive).
+For each test case output the lexicographically smallest valid arrangement of the cherries in the cake that can be obtained from the given arrangement by replacement of each question mark by some digit from 0 to **K – 1**. If it is impossible to place the cherries output **NO** (output is case sensitive).
 
 ### Example
 
@@ -146,8 +146,8 @@ NO
 021
 01012
 012
-
 </pre>### Explanation
+
 **Case 2.** The only possible replacement here is **10**. Note that we output **10** since we **can not rotate the answer** to obtain **01** which is smaller.
 
 **Case 3.** Arrangement is impossible because cherries at the first and the last positions are already of the same color. Note that **K = 10** but the string has length **9**. It is normal. **K** and **|S|** don't have any connection.

@@ -49,5 +49,4 @@ QH QD 2S QC 2C
 royal flush
 pair
 full house
-
 </pre>

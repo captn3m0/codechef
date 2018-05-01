@@ -125,5 +125,4 @@ Each term should have **N** + 1 lines. The first line of each term should contai
 0000
 1000
 0000
-
 </pre>

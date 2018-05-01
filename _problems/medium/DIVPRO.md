@@ -83,8 +83,8 @@ Let's consider some examples:
 - **DIVPRO(1)** = **1**. In fact, **DIVPRO(N)** = **N** for any 1-digit number **N**.
 - **DIVPRO(42)** = **4** / **2** = **2** is an integer.
 - **DIVPRO(123)** = **1** / **2** \* **3** = **3** / **2** = **1.5** is non-integer.
-- **DIVPRO(370)** = **3** / **7** \*  = , while intermediate result was **3** / **7** which is non-integer.
-- **DIVPRO(3465009)** = **3** / **4** \* **6** / **5** \*  /  \* **9** is undefined since we have division by zero.
+- **DIVPRO(370)** = **3** / **7** \* 0 = 0, while intermediate result was **3** / **7** which is non-integer.
+- **DIVPRO(3465009)** = **3** / **4** \* **6** / **5** \* 0 / 0 \* **9** is undefined since we have division by zero.
 
 Now Dr. Bobo would like to know how many **L**-digit numbers have their **DIVPRO** value equal to **V** and he wants your help. Since this number can be quite large output it modulo **232**, that is, you need to find the remainder of the division of the answer by **232**.
 
@@ -100,7 +100,7 @@ The first line of the input contains an integer **T** denoting the number of tes
 
 - **1** ≤ **T** ≤ **320000** (**320** thousands)
 - **1** ≤ **L** ≤ **36**
-- ≤ **V** < **1018**
+- 0 ≤ **V** < **1018**
 
 ### Example
 
@@ -117,9 +117,9 @@ The first line of the input contains an integer **T** denoting the number of tes
 5
 486
 2349595
-
 </pre>###  Explanation
-**Example case 1.** No 2-digit number has **DIVPRO** value of  (as leading zeros are not allowed). Hence the answer is zero.
+
+**Example case 1.** No 2-digit number has **DIVPRO** value of 0 (as leading zeros are not allowed). Hence the answer is zero.
 
 **Example case 2.** The only 3-digit numbers having **DIVPRO** value of **27** are **319**, **629**, **913**, **926** and **939**. So there are 5 such numbers in all.
 

@@ -23,7 +23,7 @@ time:
     current: 1492506692
 layout: problem
 ---
-All submissions for this problem are available.Lajuk is a little girl who loves playing with array. In her 10th birthday, she got two arrays as presents. Let’s call them **A** and **B**. Both arrays have the same size **n** and contains integers between  to **30000**.
+All submissions for this problem are available.Lajuk is a little girl who loves playing with array. In her 10th birthday, she got two arrays as presents. Let’s call them **A** and **B**. Both arrays have the same size **n** and contains integers between 0 to **30000**.
 
 Lajuk’s hard-drive is almost full of presents and she barely has any space to keep the arrays. She discovered a brilliant function to merge the array into one:
 
@@ -39,8 +39,8 @@ void encodeArray(int *A, int *B, int n){
     	    A[i] = encodeInteger(A[i], B[i]);
 	}
 }
-
 </pre>Lajuk passed **A** and **B** into the encodeArray function. After that she discarded array **B** and saved the modified version of array **A** in the hard-drive.
+
 Now in her 15th birthday Lajuk wants to play with those arrays again. She found the modified version of array A in the hard-drive but she forgot how to recover the original arrays from it. Being upset, she asked for your help. Can you help her to recover the original arrays?
 
 ### Input
@@ -66,5 +66,4 @@ For each case print the case number in the first line. In the second line, print
 Case 1:
 5 10 12 7
 3 10 3 2
-
 </pre>

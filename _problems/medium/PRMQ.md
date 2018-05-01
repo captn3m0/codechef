@@ -132,8 +132,8 @@ F(L, R, X, Y) {
 <b>Output:</b>
 4
 5
-
 </pre>### Explanation
+
 **Query 1** :
 
 The first prime is 2. 2 divides the first element 1 time, 2 divides the second element 0 times and 2 divides the third element 2 times. Hence 2 contributes a total of 3 to the result ( 1 + 0 + 2 = 3 )

@@ -104,6 +104,6 @@ For each test case, output a line containing a single integer — the answer for
 
 <b>Output:</b>
 3
-
 </pre>### Explanation
+
 Add one ball to each of the buckets.

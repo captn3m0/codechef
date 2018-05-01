@@ -76,7 +76,7 @@ layout: problem
 ---
 All submissions for this problem are available.### Read problems statements in [mandarin chinese](http://www.codechef.com/download/translated/SEPT17/mandarin/WEASELTX.pdf), [russian](http://www.codechef.com/download/translated/SEPT17/russian/WEASELTX.pdf) and [vietnamese](http://www.codechef.com/download/translated/SEPT17/vietnamese/WEASELTX.pdf) as well.
 
-A tree is an undirected graph in which each pair of vertices is connected to each other by exactly one path. Weasel has a tree with **N** nodes. The indexing of the nodes is -based and the tree is rooted at node . Every node **i** has an initial value **X0i**.
+A tree is an undirected graph in which each pair of vertices is connected to each other by exactly one path. Weasel has a tree with **N** nodes. The indexing of the nodes is 0-based and the tree is rooted at node 0. Every node **i** has an initial value **X0i**.
 
 Every day **d > 0**, he performs the following operations, starting from the root:
 
@@ -102,9 +102,9 @@ You should print **Q** lines, each containing **XΔ0**.
 ### Constraints
 
 - **1** ≤ **N, Q** ≤ **2 \* 105**
-- ≤ **X0i** ≤ **1018** for every  ≤ **i** ≤ **N − 1**.
-- ≤ **Δ** ≤ **1018**
-- ≤ **u, v** ≤ **N − 1**
+- 0 ≤ **X0i** ≤ **1018** for every 0 ≤ **i** ≤ **N − 1**.
+- 0 ≤ **Δ** ≤ **1018**
+- 0 ≤ **u, v** ≤ **N − 1**
 
 ### Subtasks
 
@@ -129,11 +129,11 @@ You should print **Q** lines, each containing **XΔ0**.
 11
 9
 3
-
 </pre>### Explanation
+
 Initially **X0 = \[1, 5, 8, 7\]**.
 
-Weasel performs his operation on node : **X10** = **X00** xor **X01** xor **X02** xor **X03** = **1** xor **5** xor **8** xor **7** = **11**.
+Weasel performs his operation on node 0: **X10** = **X00** xor **X01** xor **X02** xor **X03** = **1** xor **5** xor **8** xor **7** = **11**.
 
 **X11** = **X01** xor **X02** = **5** xor **8** = **13**.
 

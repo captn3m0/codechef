@@ -109,6 +109,7 @@ If there are multiple passwords that satisfies the information, print any of the
 0 3 3 2
 </tt>
 </pre>### Explanation
+
 One of the possible passwords is depicted in the above figure.
 
 Every cell is cut by at least one line, for example the green cell is cut by the blue and purple lines, but not by the yellow one. The integer points on the perimeter of the board are drawn as small black circles.

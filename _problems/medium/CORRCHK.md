@@ -90,8 +90,8 @@ Output an answer to the problem of the first line of output.
 
 <b>Output:</b>
 2
-
 </pre>### Scoring
+
 **T** = 105, Every statement is either true in the base 10, either false in all the bases : 50 points.
 
 **T** = 105, No additional constraints : 50 points.

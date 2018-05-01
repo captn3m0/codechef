@@ -101,8 +101,8 @@ For each test case, output on a separate line the least amount that has to be sp
 0 ≤ Prices, Discounts ≤ 1000000
 1 ≤ <b>T * N * M</b> ≤ 1000000
 
-
 </pre>### Example:
+
 **Input:**
 
 <pre>
@@ -119,14 +119,14 @@ For each test case, output on a separate line the least amount that has to be sp
 1 2 1 1
 
 
-
 </pre>**Output:**
+
 <pre>
 3
 2
 
-
 </pre>### Scoring:
+
 You will be awarded **40** points for solving the problem correctly for **M = 2**.
 
 Another **20** points for solving the problem correctly for **M <= 100**.

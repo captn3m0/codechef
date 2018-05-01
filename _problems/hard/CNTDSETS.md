@@ -105,7 +105,6 @@ For each test case (in the order given in the input), output the number of class
 2 10
 3 1
 3 3
-
 </pre><pre>
 <b>Output:</b>
 512
@@ -113,8 +112,8 @@ For each test case (in the order given in the input), output the number of class
 498134775
 217
 548890725
-
 </pre>### Explanation
+
 **Example case 1:**
 When **N=1** all the points are arranged in a line. In order to have a diameter equal to **10** each D-set must contain two points at distance **10**. Between two such points there may be up to **9** points which may belong to the D-set or not. Thus, there are **29=512** classes of D-sets.
 

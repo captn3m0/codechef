@@ -107,7 +107,7 @@ The hash function is calculated this way:
 
 - **1** ≤ **T** ≤ **105**
 - **2** ≤ **N**, sum of **N** ≤ **5 × 106**
-- ≤ **A, B, C, D** ≤ **104**
+- 0 ≤ **A, B, C, D** ≤ **104**
 - **2** ≤ **E** ≤ **200**
 
 ### Example
@@ -120,22 +120,22 @@ The hash function is calculated this way:
 <b>Output:</b>
 <tt>99116027
 515191750</tt>
-
 </pre>### Explanation
+
 **Example case 1.** The roads are:
 
 - Road connecting cities **1** and **2** with length **2**;
-- Road connecting cities **2** and **3** with length ;
+- Road connecting cities **2** and **3** with length 0;
 - Road connecting cities **3** and **4** with length **3**;
 - Road connecting cities **4** and **5** with length **1**.
 
-If we remove the first road, then the inconveniences of the parts will be equal to  and **4**. So **Q1 = 0, Q2 = 4**.
+If we remove the first road, then the inconveniences of the parts will be equal to 0 and **4**. So **Q1 = 0, Q2 = 4**.
 
 If we remove the second road, the inconveniences will be equal to **2** and **4**. So **Q3 = 2, Q4 = 4**.
 
 If we remove the third road, the inconveniences will be equal to **2** and **1**. So **Q5 = 1, Q6 = 2**.
 
-If we remove the fourth road, the inconveniences will be equal to **5** and . So **Q7 = 0, Q8 = 5**.
+If we remove the fourth road, the inconveniences will be equal to **5** and 0. So **Q7 = 0, Q8 = 5**.
 
 So, we've obtained the sequence **Q = (0, 4, 2, 4, 1, 2, 0, 5)**.
 

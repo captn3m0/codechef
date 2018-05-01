@@ -43,9 +43,8 @@ Output the answer in a single line.
 
 <pre>
 123
-
 </pre>### Sample Output
+
 <pre>
 123
-
 </pre>

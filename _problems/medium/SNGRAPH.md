@@ -109,8 +109,8 @@ For each test case, output **n** space separated integers corresponding to answe
 
 <b>Output</b>
 0 3 4 4 4
-
 </pre>### Explanation
+
 **Example 1**. The degree of the nodes are \[1, 3, 1, 2, 1\].
 
 For d = 0, all the vertices and edges are the present in the graph. The snakes can talk to each other already, and there is no need to add more edges. So, the answer is zero for d = 0.

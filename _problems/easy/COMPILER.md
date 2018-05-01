@@ -104,7 +104,7 @@ are all valid. While:
 
 are not.
 
-Given some expressions which represent some instructions to be analyzed by Lira's compiler, you should tell the length of the longest prefix of each of these expressions that is valid, or  if there's no such a prefix.
+Given some expressions which represent some instructions to be analyzed by Lira's compiler, you should tell the length of the longest prefix of each of these expressions that is valid, or 0 if there's no such a prefix.
 
 ### Input
 
@@ -114,7 +114,7 @@ Then, **T** strings follow, each on a single line, representing a possible expre
 
 ### Output
 
-For each expression you should output the length of the longest prefix that is valid or  if there's no such a prefix.
+For each expression you should output the length of the longest prefix that is valid or 0 if there's no such a prefix.
 
 ### Constraints
 
@@ -132,6 +132,5 @@ For each expression you should output the length of the longest prefix that is v
 4
 0
 2
-
 
 </pre>

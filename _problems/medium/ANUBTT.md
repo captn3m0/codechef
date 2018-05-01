@@ -113,8 +113,8 @@ For each query, output a single line containing the minimal total cost to add al
 <b>Output:</b>
 40
 6
-
 </pre>### Explanation
+
 **Query 1.**
 
 Optimal solution is to add the first node from the query to node 1 of the tree and the second node from the query to node 2 of the tree. Cost is 10\*2 + 10\*2.

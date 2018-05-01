@@ -91,11 +91,11 @@ For each test case output a single value, the minimum possible cost of a model. 
 
 **1** ≤ **N** ≤ **109**
 
- ≤ **C** ≤ **109**
+0 ≤ **C** ≤ **109**
 
 **C** either will be an integer or will have at most **9** digits after the decimal point.
 
- ≤ **M** ≤ **2**
+0 ≤ **M** ≤ **2**
 
 **1** ≤ **U**, **V** ≤ **N**
 
@@ -121,8 +121,8 @@ All **M** unordered pairs **{U, V}** will be different.
 20.920000000
 11.141592653
 0.000000000
-
 </pre>### Explanation
+
 **Case 1.** We will compare two models: **M1** and **M2**. We will denote a fly-over that connects the restaurants with indexes **U** and **V** by **\[U, V\]**.
 
 In the model **M1** we have two fly-overs: **\[1, 2\]** and **\[1, 3\]**. Clearly, **T(1, 2) = T(2, 1) = 1** and **T(1, 3) = T(3, 1) = 1** while **T(2, 3) = T(3, 2) = 2** since traveling from **2** to **3** (and vice versa) requires traversing of two fly-overs. Thus, the time penalty is **1+1+1+1+2+2 = 8** seconds, while the cost of the fly-overs constructing is **2 ∙ 1.5 = 3** rupees. Hence, the total cost is **8 + 3 = 11**.

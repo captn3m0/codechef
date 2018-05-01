@@ -110,7 +110,6 @@ Select 2 1
 Rank 1 1
 Rank 2 2
 Rank 1 2
-
 </pre><pre><b>Output:</b>
 1 1
 2 2
@@ -118,5 +117,4 @@ Rank 1 2
 1 1
 1 2
 2 1
-
 </pre>

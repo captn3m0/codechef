@@ -101,8 +101,8 @@ For each testcase print the answer modulo **10^9+7**.
 1
 3
 
-
 </pre>### Note
+
 **Test #0-1(25 points) n ≤** 20
 
 **Test #2(25 points) n ≤** 1000

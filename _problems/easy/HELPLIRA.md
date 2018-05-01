@@ -115,5 +115,4 @@ If there are multiple triangles with the same area, then the last index should b
 
 <b>Output:</b>
 2 1
-
 </pre>

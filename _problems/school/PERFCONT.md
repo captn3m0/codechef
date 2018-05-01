@@ -129,8 +129,8 @@ no
 yes
 no
 no
-
 </pre>### Explanation
+
 **Example case 1.**: The problems are of hard, hard and cakewalk difficulty. There is 1 cakewalk and 2 hard problems, so the contest is balanced.
 
 **Example case 2.**: The second problem is hard and the third is cakewalk. There is 1 cakewalk and 1 hard problem, so the contest is not balanced.

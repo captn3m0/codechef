@@ -130,8 +130,8 @@ For each test case, output a single line containing **N** space-separated intege
 3 3 -3 3 -3 -3 3 -3
 <b>Output:</b>
 1 0 2
-
 </pre>### Explanation
+
 In the picture the first polygon is marked in green, second - in red and third in blue color.
 
 ![explanation](http://www.codechef.com/download/JUNE15/CHPLGNS.jpg)

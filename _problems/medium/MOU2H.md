@@ -80,8 +80,8 @@ For example, the mountain described by **N = 9, H = \[0, 2, 1, 2, 1, 3, 0, 1, 0\
        /\
   /\/\/  \
  /        \/\
-
 </pre> In the mountain, all of the tourists will go from the point **1** to point **N**.
+
 For comfort of the tourists, Chef has bought teleports too. Using a teleport, a tourist can be transferred from point **i** to point **j**, for all **i** < **j**. Of course, tourists can also walk from point **i** to point **i+1** on foot.
 
 Now Chef wants to calculate the attractiveness of the mountain, as the number of the different climbs.
@@ -129,8 +129,8 @@ For each test case, output an integer denoting the number of the different climb
 5
 199
 55
-
 </pre>### Explanation
+
 In the first test case, since height increases by one for each move on foot, there will be one unique climb for each length. So there are **5** climbs with length **1, 2, ..., 5**. Here length means the number of moves by foot.
 
 We can get the following **5** distinct climbs.

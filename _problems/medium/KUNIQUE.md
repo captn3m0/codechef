@@ -50,11 +50,10 @@ For each test case, output a single line containing a permutation of the sequenc
 4 7 7 7
 6 2
 2 10 2 8 3 6
-
-<pre>**Output:**```
+<pre>
+**Output:**```
 
 42
 -1
 2 3 2 6 8 10
-
 </pre>

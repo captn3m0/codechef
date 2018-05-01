@@ -114,8 +114,8 @@ OR
 0
 0
 3
-
 </pre>### Explanation
+
 0 xor 1 xor 2 xor 3 = 0
 
 0 and 1 and 2 and 3 = 0

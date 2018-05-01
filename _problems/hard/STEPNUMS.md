@@ -37,5 +37,4 @@ Output the answer to each test case on a separate line.
 54
 171
 1958
-
 </pre>

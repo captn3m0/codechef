@@ -46,13 +46,12 @@ bhavani -
 1
 -2
 -1
-
-</pre>**Explanation**
+</pre>
+**Explanation**
 
 <pre>Case 1 : Initially score = 0. Updation of scores in the order of user tilak's votes is as follows,<br></br>
 ( + ): +1 is added to the final score. This is the 1st vote by this user, so no previous vote to nullify. score = 1
 ( + ):  0 should be added ( -1 to nullify previous (+) vote, +1 to count the current (+) vote ). score = 1
 ( - ) : -2 should be added ( -1 to nullify previous (+) vote, -1 to count the current (-) vote ). score = -1
 ( + ): +2 should be added ( +1 to nullify previous (-) vote, +1 to count the current (+) vote ). score = 1<br></br>
-
 </pre>

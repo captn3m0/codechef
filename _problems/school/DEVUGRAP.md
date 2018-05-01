@@ -114,8 +114,8 @@ For each test case, print a single integer representing the answer of that test 
 <b>Output:</b>
 2
 8
-
 </pre>### Explanation
+
 For the first test case, add or remove 1 grape in each of the bucket.
 
 For the second test case, remove three grapes in the first bucket, remove two grapes from the second bucket and add three grapes in the third bucket.

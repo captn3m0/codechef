@@ -89,7 +89,7 @@ In **T** lines print **T** real numbers - the answers for the corresponding test
 11. **1** ≤ **T** ≤ **40**
 12. **1** ≤ **N**, **Ci**≤ **40**
 13. **1** ≤ **Pi** ≤ **1000000**
-14. ≤ **M** ≤ **K**, where **K** is the number of different colors in the test case.
+14. 0 ≤ **M** ≤ **K**, where **K** is the number of different colors in the test case.
 ### Example
 
 <pre>
@@ -105,6 +105,5 @@ In **T** lines print **T** real numbers - the answers for the corresponding test
 <b>Output:</b>
 11.000000000
 7.333333333
-
 
 </pre>

@@ -34,5 +34,4 @@ Chef has **N** subordinates. In order to complete a very important order he will
 2
 1
 252
-
 </pre>

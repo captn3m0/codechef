@@ -104,17 +104,17 @@ For each test case, output a single line containing the required answer. Answers
 <b>Output:</b>
 3.000000
 6.000000
-
 </pre>### Explanation
+
 **Example case 1**
 
 Probability matrix P for N=2, M=2 is
-1\.0 0.5
-0\.5 1.0
+1.0 0.5
+0.5 1.0
 You are at (1, 1) initially. So the probablity of visiting (1, 1) is 1. At (1, 1) you have 2 options, move below to (2, 1) or to right cell (1, 2). Probablity of going to (1, 2) is 0.5. Probability of going to (2, 1) is 0.5. You always end up at (2, 2), so P\[2\]\[2\] is 1. Required sum = 1.0 + 0.5 + 0.5 + 1.0 = 3.0
 
 **Example case 2**
 
 Probability matrix P for N=1, M=6 is
-1\.0 1.0 1.0 1.0 1.0 1.0
+1.0 1.0 1.0 1.0 1.0 1.0
 Because at any position there is only one possible next position.

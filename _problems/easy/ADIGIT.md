@@ -76,7 +76,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 - On each step he choose an index **x** from **1** to **n**.
 - For all indices **y (y < x)** he calculated the difference **by** = **ax** - **ay**.
-- Then he calculated **B1** - sum of all **by** which are greater than  and **B2** - sum of all **by** which are less than .
+- Then he calculated **B1** - sum of all **by** which are greater than 0 and **B2** - sum of all **by** which are less than 0.
 - The answer for this step is **B1 - B2**.
 
 Chef remembers the game, but forgot the answer. Please, help him!
@@ -93,7 +93,7 @@ Chef remembers the game, but forgot the answer. Please, help him!
 ### Constraints
 
 - **1** ≤ **n, m** ≤ **10^5**
-- ≤ **ai** ≤ **9**
+- 0 ≤ **ai** ≤ **9**
 - **1** ≤ **x** ≤ **n**
 
 ### Example
@@ -109,7 +109,6 @@ Chef remembers the game, but forgot the answer. Please, help him!
 0
 7
 9
-
 
 </pre><pre>
 <p> </p>
@@ -135,5 +134,4 @@ and the answer is <b>7</b>.</p>
 so <b>B1 = 2 + 1 = 3</b>,
      <b>B2 = -1 -2 -3 = -6</b> 
 and the answer is <b>9</b>.</p>
-
 </pre>

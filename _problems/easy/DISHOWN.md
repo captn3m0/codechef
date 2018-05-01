@@ -96,7 +96,7 @@ First line of input contains an integer **T** denoting the number of test cases.
 
 - **1** ≤ **T** ≤ **25**
 - **1** ≤ **N** ≤ **10000(104)**
-- ≤ **S\[i\]** ≤ **1000000(106)**
+- 0 ≤ **S\[i\]** ≤ **1000000(106)**
 - **1** ≤ **Q** ≤ **10000(104)**
 - **1** ≤ **x, y** ≤  **N**
 
@@ -114,8 +114,8 @@ First line of input contains an integer **T** denoting the number of test cases.
 1 1
 <b>Output:</b>
 2
-
 </pre>### Explanation
+
 There are two chefs with scores of dishes  **1**  and  **2**  respectively. After the first query, chef  **2**  acquires dish  **1**  since  **S\[2\] > S\[1\]** . Hence, the answer for the second query, i.e owner of the **first** dish is chef **2**.
 
 />/>

@@ -120,5 +120,4 @@ In **T** lines print **T** real numbers - the answers for the corresponding test
 0.2500
 1.6049
 
-
 </pre>

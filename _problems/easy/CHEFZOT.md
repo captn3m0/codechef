@@ -90,7 +90,7 @@ Product of subarray **Aij** is product of all its elements (from **ith** to **jt
 ### Constraints
 
 - **1** ≤ **N** ≤ **100000**
-- ≤ **Ai** ≤ **10000**
+- 0 ≤ **Ai** ≤ **10000**
 
 ### Example
 
@@ -114,8 +114,8 @@ Product of subarray **Aij** is product of all its elements (from **ith** to **jt
 
 <b>Output:</b>
 1
-
 </pre>### Explanation
+
 For the first sample subarray is: {2, 3}.
 
 For the second sample there are no subbarays with non-zero product.

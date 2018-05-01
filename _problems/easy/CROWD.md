@@ -87,18 +87,18 @@ The answer can get quite large. So output the total number of ways modulo 109+7.
 <pre>
 1TN15
 
-
 </pre>### Example:
+
 **Input:**```
 
 2
 3
 4
 
+<pre>**Output:**```
 
-<pre>**Output:**<pre>
 1
 3
 
-
-</pre>**Explanation:**_Case 1:_ The only way he can go wrong is by inviting all the houses._Case 2:_ First way of getting wrong is by inviting houses (1,2,3). Second way to get wrong is by inviting houses (2,3,4). Third way of going wrong is by inviting all 4 houses i.e. (1,2,3,4).
+</pre>**Explanation:**_Case 1:_ The only way he can go wrong is by inviting all the houses.
+_Case 2:_ First way of getting wrong is by inviting houses (1,2,3). Second way to get wrong is by inviting houses (2,3,4). Third way of going wrong is by inviting all 4 houses i.e. (1,2,3,4).

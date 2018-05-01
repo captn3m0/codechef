@@ -147,8 +147,8 @@ PP
 0
 288603514
 1
-
 </pre>### Explanation
+
 **Test case 1.** We are given the grid of size 3 × 3. One of the already fixed cells is inhabited by brown bears. They would fight with bears of any species other than brown bears, so adjacent cells with question marks must by inhabited by brown bears as well. Hence, there is only 1 way to replace question marks (both of them must be replaced by 'B').
 
 **Test case 2.** In the given grid, there are two adjacent cells both inhabited by grizzly bears. They will fight with each other, so the answer is 0 — it's impossible to replace question marks so that there would be no fights (it doesn't matter that there are no question marks at all).

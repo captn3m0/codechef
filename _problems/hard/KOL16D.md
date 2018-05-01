@@ -54,5 +54,4 @@ For each line of input except the last one produce one line of output. This line
 
 <b>Output</b>
 49/5
-
 </pre>

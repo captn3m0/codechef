@@ -89,9 +89,9 @@ For each query, output a single line containing the answer modulo **1000000007 (
 - **1** ≤ **Q** ≤ **3 × 105**
 - **1** ≤ **Ai** ≤ **105**
 - **∑ 0 ≤ i < M Ai** ≤ **3 × 106**
-- For each query,  ≤ **l** ≤ **r** < **M**
+- For each query, 0 ≤ **l** ≤ **r** < **M**
 - **1** ≤ **k** ≤ **105**
-- ≤ **n** ≤ **105**
+- 0 ≤ **n** ≤ **105**
 
 ### Example
 
@@ -104,7 +104,7 @@ For each query, output a single line containing the answer modulo **1000000007 (
 <b>Output:</b>
 480
 1
-
 </pre>### Explanation
+
 For the first query, the answer is 4 \* 5 \* 4 \* 6, because we just have to choose one coordinate from each dimension.
 For the second query, the array **B = \[4\]** and you have to pick two positive integers less than or equal to 4 such that the distance between them is 3 or more. There is only way to do this: pick 1 and 4.

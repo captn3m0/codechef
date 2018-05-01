@@ -121,6 +121,6 @@ Print a single integer representing the answer.
 
 <b>Output:</b>
 4
-
 </pre>### Explanation
+
 **FIBOSUM(S)**  = Fib(1) + Fib(2) + Fib(3) = 4.

@@ -110,8 +110,8 @@ RGGRGRG
 
 <b>Output:</b>
 4
-
 </pre>### Explanation
+
 **Example case 1.** One optimal solution (with 4 steps) looks like this:
 
 - Choose the 1-st character (1-based index) and get "GRRRGRG".

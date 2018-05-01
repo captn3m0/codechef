@@ -13,7 +13,7 @@ layout: problem
 
  Chef loves lucky numbers. Everybody knows that lucky numbers are positive integers whose decimal representation contains only the lucky digits **4** and **7**. For example, numbers **47**, **744**, **4** are lucky and **5**, **17**, **467** are not.
 
- Chef also use term **"lucky sum"**. Lucky sum is an operation between two integers. Let the first integer is **A**, **A\[i\]** equals **i-th** digit of **A** (0-base numeration, from right to left) and the second integer is **B**, **B\[i\]** equals to **i-th** digit of **B**. Then the lucky sum of **A** and **B** is equal to **C**, **C\[i\] = max(A\[i\], B\[i\])**. If **i** is greater than or equal to size of integer, the **i-th** digit is equal to . For example, the lucky sum of **47** and **729** equals **749**, the lucky sum of **74** and **92** and **477** equals **497**.
+ Chef also use term **"lucky sum"**. Lucky sum is an operation between two integers. Let the first integer is **A**, **A\[i\]** equals **i-th** digit of **A** (0-base numeration, from right to left) and the second integer is **B**, **B\[i\]** equals to **i-th** digit of **B**. Then the lucky sum of **A** and **B** is equal to **C**, **C\[i\] = max(A\[i\], B\[i\])**. If **i** is greater than or equal to size of integer, the **i-th** digit is equal to 0. For example, the lucky sum of **47** and **729** equals **749**, the lucky sum of **74** and **92** and **477** equals **497**.
 
  Chef has an array **W** of integers. Find a number of non-empty subsequences of **W** such that the lucky sum of integers in that subsequences is a lucky number.
 
@@ -48,5 +48,4 @@ For each **T** test cases print one integer - result for the corresponding test.
 <b>Output:</b>
 3
 2
-
 </pre>

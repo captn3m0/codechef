@@ -49,5 +49,4 @@ The output for each test case consists of a single integer t which is the minimu
 <b>Output:</b>
 4
 1
-
 </pre>

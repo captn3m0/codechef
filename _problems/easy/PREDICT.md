@@ -103,8 +103,8 @@ For each test case output single line containing the expected amount of money Da
 
 <b>Output:</b>
 10098
-
 </pre>### Example bet:
+
 Look at the following situation:
 
 

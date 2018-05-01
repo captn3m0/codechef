@@ -26,11 +26,11 @@ time:
     current: 1493556779
 layout: problem
 ---
-All submissions for this problem are available.Let **M** be a fixed positive integer. Your task is for each **R** from  to **M − 1**, inclusive, find the minimal non-negative integer having residue **R** modulo **M** and having the minimal weighted digit sum.
+All submissions for this problem are available.Let **M** be a fixed positive integer. Your task is for each **R** from 0 to **M − 1**, inclusive, find the minimal non-negative integer having residue **R** modulo **M** and having the minimal weighted digit sum.
 
 Namely, let **W\[0\], W\[1\], ..., W\[9\]** be the sequence of weights assigned to the decimal digits. For positive integer **N** having decimal representation **D1D2...DK** the weighted digit sum of **N** is the number **WS(N) = W\[D1\] + W\[D2\] + ... + W\[DK\]**. We set **WS(0) = 0** by definition.
 
-For each **R** from  to **M − 1**, inclusive, denote **Smin(R) = min{WS(R + K \* M) : K = 0, 1, 2, 3, ...}**. Therefore, **Smin(R)** is the minimal weighted digit sum over all non-negative integers having residue **R** modulo **M**. Next, denote by **Nmin(R)** the minimum non-negative integer having residue **R** modulo **M** and having weighted digit sum equal to **Smin(R)**. So, formally, **Nmin(R) = min{N ≥ 0 : N mod M = R, WS(N) = Smin(R)}**. Note, that **Smin(0) = Nmin(0) = 0** for any **M** and any sequence of weights.
+For each **R** from 0 to **M − 1**, inclusive, denote **Smin(R) = min{WS(R + K \* M) : K = 0, 1, 2, 3, ...}**. Therefore, **Smin(R)** is the minimal weighted digit sum over all non-negative integers having residue **R** modulo **M**. Next, denote by **Nmin(R)** the minimum non-negative integer having residue **R** modulo **M** and having weighted digit sum equal to **Smin(R)**. So, formally, **Nmin(R) = min{N ≥ 0 : N mod M = R, WS(N) = Smin(R)}**. Note, that **Smin(0) = Nmin(0) = 0** for any **M** and any sequence of weights.
 
 As mentioned above, your task is for the given **M** and **W\[0\], W\[1\], ..., W\[9\]** find the sequence **Nmin(0), Nmin(1), ..., Nmin(M − 1)**. Since the output could be quite large output the following sum instead:
 **F(Nmin(0)) + F(Nmin(1)) + ... + F(Nmin(M − 1))**,
@@ -49,7 +49,7 @@ For each test case, output a single line containing the required sum.
 
 - **1** ≤ **T** ≤ **3141**
 - **1** ≤ **M** ≤ **3141592**
-- ≤ **W\[0\], W\[1\], ..., W\[9\]** ≤ **314**
+- 0 ≤ **W\[0\], W\[1\], ..., W\[9\]** ≤ **314**
 - The sum of **M** in one test file does not exceed **3141592**
 
 ### Example
@@ -77,9 +77,9 @@ For each test case, output a single line containing the required sum.
 9435
 10
 6500672892792
-
 </pre>### Explanation
-**Example case 1.** Here **M = 1**. So we need to find **F(Nmin(0))**. Since **Smin(0) = Nmin(0) = 0** and **F(0) = 0**, the answer is .
+
+**Example case 1.** Here **M = 1**. So we need to find **F(Nmin(0))**. Since **Smin(0) = Nmin(0) = 0** and **F(0) = 0**, the answer is 0.
 
 **Example case 2.** Here **M = 2** and **W\[0\] = 0**, **W\[1\] = 2**, **W\[9\] = 1**, while all remaining **W\[D\] = 9**. As mentioned above **Smin(0) = Nmin(0) = 0**. For **R = 1** we have **Smin(1) = 1** and **Nmin(1) = 9** since **W\[9\] = 1**. Therefore, the answer is **F(0) + F(9) = 0 + 9 = 9**.
 
@@ -87,6 +87,6 @@ For each test case, output a single line containing the required sum.
 
 **Example case 4.** Here values of **Smin(R)** are **{0, 2, 2, 1}** and values of **Nmin(R)** are **{0, 33, 6, 3}**. Since **F(33) = (3 \* 3141 + 3) mod 232 = 9426**, the answer is **F(0) + F(33) + F(6) + F(3) = 0 + 9426 + 6 + 3 = 9435.**
 
-**Example case 5.** Here **Smin(R) = Nmin(R) = R** for all **R** from  to **M − 1**, inclusive.
+**Example case 5.** Here **Smin(R) = Nmin(R) = R** for all **R** from 0 to **M − 1**, inclusive.
 
 **Example case 6.** Make sure that you calculates **F(N)** properly here. Also note that **Nmin(666) = 10106 − 1** and **Nmin(3140) = 10116 − 2** for **M = 3141** and given sequence of weights. It means that brute force solution is not applicable even for such relatively small value of **M**.

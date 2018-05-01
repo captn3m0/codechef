@@ -101,8 +101,8 @@ The input must be a tree.
 
 <b>Output:</b>
 0.5
-
 </pre>### Explanation
+
 We have C(5, 2) = 10 choices, and these 5 of them have a prime distance:
 
 1-3, 2-4, 3-5: 2

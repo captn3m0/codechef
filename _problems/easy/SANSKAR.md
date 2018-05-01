@@ -90,8 +90,8 @@ For each test case, output "yes" if it is possible to divide his sanskars equall
 - **1** ≤ **T** ≤ **10**
 - **1** ≤ **N** ≤ **21**
 - **1** ≤ **K** ≤ **8**
-- Subtask #1 (20 points) :  ≤ **intensity of sanskar** ≤ **10^5**
-- Subtask #2 (80 points) :  ≤ **intensity of sanskar** ≤ **10^10**
+- Subtask #1 (20 points) : 0 ≤ **intensity of sanskar** ≤ **10^5**
+- Subtask #2 (80 points) : 0 ≤ **intensity of sanskar** ≤ **10^10**
 
 ### Example
 
@@ -105,6 +105,6 @@ For each test case, output "yes" if it is possible to divide his sanskars equall
 <b>Output:</b>
 yes
 no
-
 </pre>### Explanation
+
 In the first case, sanskars can be allocated as follows, each follower receiving a total intensity of 6: {1,5}, {2,4}, {6}.

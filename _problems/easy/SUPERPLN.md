@@ -47,5 +47,4 @@ For each test case, output a single line containing the word **"Yes"** followed 
 Yes 3
 No
 No
-
 </pre>

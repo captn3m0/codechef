@@ -100,12 +100,10 @@ The first line should contain **YES**, if we can obtain the required division, o
 
 <b>Output:</b>
 YES
-
 </pre><pre><b>Input:</b>
 5
 1 1 1 1 1
 
 <b>Output:</b>
 NO
-
 </pre>

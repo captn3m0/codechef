@@ -97,8 +97,8 @@ For each test case, output a line containing the required probability. The answe
 1 ≤ <b>a<sub>i</sub></b> ≤ 100
 0 ≤ <b>p<sub>i</sub></b> ≤ 100
 
-
 </pre>### Example:
+
 **Input:**
 
 <pre>
@@ -110,13 +110,13 @@ For each test case, output a line containing the required probability. The answe
 5 5
 50 60
 
-
 </pre>**Output:**
+
 <pre>
 0.5000000
 0.8000000
 
 
-
 </pre>**Update:**
+
 Difference in answer upto 1e-6 will be ignored.

@@ -138,8 +138,8 @@ The aim of the contest is to program your robots in such a manner that they trav
 3
 4
 5
-
 </pre>### Explanation
+
 The graphs in all the three testcases are the same. Only the number of robots change.
 
 **Test Case 1:** There is only one robot, and it can take this sequence of edges: (1, 2), (2, 7), (7, 8). The maximum distance traveled among all the robot(s) is 3, and hence the answer is 3. This cannot be lowered.

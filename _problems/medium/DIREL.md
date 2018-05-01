@@ -136,8 +136,8 @@ john anne
 3
 1
 1
-
 </pre>### Explanation
+
 Consider the first query: kel is son of john, so the distance = 1
 
 Consider the second query: ron is brother of father of kel, so the distance = 2

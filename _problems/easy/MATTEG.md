@@ -179,8 +179,8 @@ All submissions for this problem are available.### Read problems statements in [
 188
 24
 3
-
 </pre>### Explanation
+
 <pre>
 First test
 Mathison starts at (2, 2).
@@ -196,5 +196,4 @@ Third test
 Mathison starts at (1, 1).
 Mathison has one tel-pair, (2, 2).
 He can't use the tel-pair so the answer is 3 (the value of the starting cell).
-
 </pre>

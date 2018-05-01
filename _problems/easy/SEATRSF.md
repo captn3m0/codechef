@@ -104,5 +104,4 @@ In a single line print the remainder of division the answer of the problem on nu
 2
 4
 
-
 </pre>

@@ -122,8 +122,8 @@ For each test case, output a single line containing the minimum number of satell
 <b>Output:</b>
 0
 0
-
 </pre>### Sub tasks
+
 - Sub task #1: N = 3 (10 points)
 - Sub task #2: N ≤ 20 (30 points)
 - Sub task #3: N ≤ 50 (60 points)

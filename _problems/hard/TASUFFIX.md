@@ -99,7 +99,7 @@ Output a single line containing the number of strings corresponding to the given
 ### Constraints
 
 - **1** ≤ **N** ≤ **1,000,000,000 (109)**
-- ≤ **M** ≤ **100,000 (105)**
+- 0 ≤ **M** ≤ **100,000 (105)**
 - For all operations, **1** ≤ **u** ≤ **v** ≤ **N**
 
 ### Example
@@ -110,8 +110,8 @@ Output a single line containing the number of strings corresponding to the given
 0 3 4
 <b>Output:</b>
 4
-
 </pre>### Explanation
+
 The initial array is (1, 2, 3, 4).
 After the first operation the array becomes (1, 3, 2, 4).
 After the second operation the array becomes (2, 4, 1, 3).

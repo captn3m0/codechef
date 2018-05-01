@@ -120,6 +120,6 @@ YES
 NO
 YES
 
-
 </pre> **Explanation**
+
 The points **(0, 0)** and **(3, 3)** will be having trace of oil while point **(3, 5)** will not have any trace of oil because point **(3, 5)** does not lie on the trajectory of robot.

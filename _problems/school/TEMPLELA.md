@@ -123,8 +123,8 @@ no
 yes
 no
 no
-
 </pre>### Explanation
+
 In the first strip, all the conditions are satisfied, hence it is valid.
 
 In the second strip, it does not start with a 1, and hence is invalid.

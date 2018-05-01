@@ -71,7 +71,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 Little Elephant from Zoo of Lviv likes to watch movies.
 
-There are **N** different movies (numbered from  to **N − 1**) he wants to watch in some order. Of course, he will watch each movie exactly once. The priority of **i**th movie is **Pi**.
+There are **N** different movies (numbered from 0 to **N − 1**) he wants to watch in some order. Of course, he will watch each movie exactly once. The priority of **i**th movie is **Pi**.
 
 A watching of a movie is called _exciting_ if and only if one of the following two conditions holds:
 
@@ -111,8 +111,8 @@ For each test case, print the number of different watching orders having at most
 <b>Output:</b>
 2
 24
-
 </pre>### Explanation
+
 In the first case, there are two boring watching orders whose _excitingness_ not greater than **K=1**: **\[3, 1, 2\]**, **\[3, 2, 1\]**. Both watching orders have one _exciting_ watching: the first watching.
 
 In the second case, every watching order has at most **3** _excitingness_.

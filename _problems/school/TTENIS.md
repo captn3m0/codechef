@@ -94,8 +94,8 @@ For each test case, output on a separate line a string describing who won the ma
 <b>Output:</b>
 WIN
 LOSE
-
 </pre>### Explanation
+
 **Example case 1.** Chef won the match 11:2, his opponent won just two points, the first and the third of the match.
 
 **Example case 2.** Chef lost this match 11:3, however he started very well the match, he won the first three points in a row, but maybe he got tired and after that lost 11 points in a row.

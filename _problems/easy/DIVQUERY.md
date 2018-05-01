@@ -106,5 +106,4 @@ For each query output the result in one line.
 4
 0
 1
-
 </pre>

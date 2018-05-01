@@ -130,8 +130,8 @@ On each line, print the winner of the corresponding match ("TEAM-A" or "TEAM-B")
 TEAM-A 12
 TIE
 TEAM-B 7
-
 </pre>### Explanation
+
 **Example case 1:** After 5 turns, the result was a tie and after the 6th turn, the score was 4:3, so Chef's team was the winner and the number of shots required to decide the result was 12.
 
 **Example case 2:** Both teams didn't score any goal, so the match resulted in a tie after 10 turns (20 shots).

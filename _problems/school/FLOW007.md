@@ -93,5 +93,4 @@ All submissions for this problem are available.If an Integer **N**, write a prog
 54321
 30213
 3212
-
 </pre>

@@ -107,8 +107,8 @@ aa
 bb
 bbac
 bbac
-
 </pre>### Explanation
+
 Let (r, c) denote the cell on the r-th row and c-th column.
 
 **Example case 1**: The score of the new grid is 2. The two unordered pairs of cells are {(1, 1), (1, 2)} (these two cells share a side, and have the same letter 'a' in them) and {(2, 1), (2, 2)} (these two cells share a side, and have the same letter 'b' in them). This is the maximum score that we can obtain.

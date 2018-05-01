@@ -106,5 +106,4 @@ Subtasks:
 <b>Output:</b>
 11
 40
-
 </pre>

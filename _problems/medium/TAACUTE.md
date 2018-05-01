@@ -84,7 +84,7 @@ Output a single line containing the number of acute triangles.
 ### Constraints
 
 - **3** ≤ **N** ≤ **2000**
-- The **x**, **y** coordinate of each point satisfies  ≤ **x**, **y** ≤ **10,000**
+- The **x**, **y** coordinate of each point satisfies 0 ≤ **x**, **y** ≤ **10,000**
 - All points are distinct.
 
 ### Example
@@ -114,6 +114,6 @@ Output a single line containing the number of acute triangles.
 3 4
 <b>Output3:</b>
 2
-
 </pre>### Explanation
+
 **Example case 3.** Two acute triangles are {(1, 1), (3, 2), (1, 3)} and {(3, 2), (1, 3), (3, 4)}

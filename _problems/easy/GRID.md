@@ -108,8 +108,8 @@ For each testcase, print the number of possible options where mirror can be plac
 <b>Output:</b>
 6
 0
-
 </pre>### Explanation
+
 **Example case 1.** All places where rock are not there are valid positions.
 
 **Example case 2.** No valid positions./>

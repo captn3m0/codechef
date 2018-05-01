@@ -31,17 +31,16 @@ Output T lines, one for each test case, containing the required answer. ### Samp
 0 1
 1 2
 
-
 </pre>### Sample Output :
+
 <pre>
 3
 6
 
-
 </pre>### Constraints :
+
 <pre>
 1 <= T <= 50
 2 <= n <= 1000
 1 <= K <= 10000
-
 </pre>

@@ -115,5 +115,4 @@ Output the answer in _7_-ary system. ### Constraints
 <tt>3
 3
 13</tt>
-
 </pre>

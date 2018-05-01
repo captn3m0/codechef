@@ -96,8 +96,8 @@ For each testcase, output the answer in a single line.
 
 - **1** ≤ **T** ≤ **10**
 - **1** ≤ **N** ≤ **105**
-- ≤ **K** ≤ **105**
-- ≤ **Si** ≤ **2 \* 105**
+- 0 ≤ **K** ≤ **105**
+- 0 ≤ **Si** ≤ **2 \* 105**
 
 ### Subtasks
 
@@ -122,8 +122,8 @@ For each testcase, output the answer in a single line.
 4
 6
 0
-
 </pre>### Explanation
+
 **Example case 1.** As **K** = 0, so we can't add any element to the multi-set. Elements of the set are {1, 0, 2}. The MEX value of this set is 3.
 
 **Example case 2.** As **K** = 1, you are allowed to add at most 1 element to the multi-set. The multi-set are {1, 0, 2}. You can add element 3 to the multi-set, and it becomes {1, 0, 2, 3}. The MEX value of this multi-set is 4. There is no other way to have higher value of MEX of the set by adding at most one element to the multi-set.

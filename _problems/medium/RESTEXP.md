@@ -50,8 +50,8 @@ If there are several expansion plans that lead to the same maximum profit, you m
 1 2
 2 3
 2 4
-
-<pre>**Output**```
+<pre>
+**Output**```
 
 11
 transfer 1 2 2
@@ -59,8 +59,8 @@ transfer 2 4 1
 nothing
 build 4
 build 2
-
 </pre>### Constraints
+
 - 1 <= N <= 30
 - 1 <= C <= 30
 - 1 <= D <= 30

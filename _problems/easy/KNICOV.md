@@ -99,8 +99,8 @@ For each test case print the minimum number of knights required to cover every c
 
 <b>Output:</b>
 4
-
 </pre>### Explanation
+
 One optimal configuration is:
 
 ![](https://codechef_shared.s3.amazonaws.com/download/upload/COOK83/KNICOV.png)Cells (1, 1), (1, 2), (4, 1) and (4, 2) contain knights. Cell (2, 1) is attacked by the knight in cell (4, 2). Cell (2, 2) is attacked by the knight in cell (4, 1). Cell (3, 1) is attacked by the knight in cell (1, 2). And cell (3, 2) is attacked by the knight in cell (1, 1).

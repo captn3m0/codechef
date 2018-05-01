@@ -122,8 +122,8 @@ Output should consists of **M** lines. The **i**'th line should contains the ans
 8
 8
 8
-
 </pre>### Explanation
+
 In the example test there are **M**=5 questions. We won't describe all of them, only two ones.
 
 **The first question**

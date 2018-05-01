@@ -114,6 +114,6 @@ For each test case, output a single integer corresponding to the minimum number 
 2
 3
 1
-
 </pre>### Explanation
+
 ![](https://discuss.codechef.com/upfiles/fences.png)All the examples are shown in the pictures. The fences built are shown by red colored horizontal or vertical segments. You can see that after putting these borders no snake can talk with any another snake.

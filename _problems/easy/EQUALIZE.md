@@ -79,6 +79,7 @@ Before creating the map, Chef first wants to make the heights of all the tiles e
 7 7 7 7 7 7 8 8 8
 </tt>
 </pre>Suppose the dimensions of the equalize tool is **3 × 7**, and we apply it in the middle **3 × 7** region. The median of the values in that region is **3**, so after application, the grid becomes:
+
 <pre><tt>9 8 8 8 7 7 7 8 7
 1 3 3 3 3 3 3 3 4
 2 3 3 3 3 3 3 3 9
@@ -86,6 +87,7 @@ Before creating the map, Chef first wants to make the heights of all the tiles e
 7 7 7 7 7 7 8 8 8
 </tt>
 </pre>Note that **K** and **L** are odd integers, so that the median is always an integer.
+
 Chef wants to make all height values equal by repeatedly applying the equalize tool. Furthermore, he also wants the final (common) height to be as large as possible. What is the maximum final (common) height that he can obtain?
 
 Furthermore, you have to answer **Q** queries, where each query denotes a different set of values for **K** and **L**.
@@ -106,7 +108,7 @@ For each query, output a single integer, the maximum final (common) height that 
 
 - **3** ≤ **N**, **M** ≤ **1000**
 - **1** ≤ **Q** ≤ **25**
-- ≤ **Hi,j** ≤ **107**
+- 0 ≤ **Hi,j** ≤ **107**
 - **3** ≤ **Kj** ≤ **N**
 - **3** ≤ **Lj** ≤ **M**
 - **Kj** and **Lj** are odd.
@@ -126,8 +128,8 @@ For each query, output a single integer, the maximum final (common) height that 
 <tt>8
 5
 6</tt>
-
 </pre>### Explanation
+
 In the first query, Chef can obtain a final height of **8** by first applying the equalizer on the leftmost **3 × 3** region:
 
 <pre><tt>8 8 8 5 8 6 8
@@ -135,11 +137,13 @@ In the first query, Chef can obtain a final height of **8** by first applying th
 8 8 8 5 5 5 8
 </tt>
 </pre>then the rightmost **3 × 3** region:
+
 <pre><tt>8 8 8 5 8 8 8
 8 8 8 5 8 8 8
 8 8 8 5 8 8 8
 </tt>
 </pre>and then finally the middlemost **3 × 3** region:
+
 <pre><tt>8 8 8 8 8 8 8
 8 8 8 8 8 8 8
 8 8 8 8 8 8 8

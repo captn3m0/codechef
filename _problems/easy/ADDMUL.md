@@ -82,23 +82,23 @@ You are given a one dimensional integer array **A** of length **N**. You need to
 for (i = x; i <= y; i++)	
 	<b>A</b><sub>i</sub> += v;
 	<b>A</b><sub>i</sub> %= M; 
-
-<pre>**Query 2** : 2 x y v  This implies multiplying the scalar v with the array **A** for all the indices from x to y, i.e.,
+<pre>**Query 2** : 2 x y v 
+ This implies multiplying the scalar v with the array **A** for all the indices from x to y, i.e.,
 ``
 
  ```
 for (i = x; i <= y; i++)	
         <b>A</b><sub>i</sub> *= v
         <b>A</b><sub>i</sub> %= M
-
-</pre>**Query 3** : 3 x y v  This implies initializing the array **A** at all the indices from x to y with the value v, i.e.,
+</pre>**Query 3** : 3 x y v 
+ This implies initializing the array **A** at all the indices from x to y with the value v, i.e.,
 ``
 
  ```
 for (i = x; i <= y; i++)	
 	<b>A</b><sub>i</sub> = v 
-
 <pre>**Query 4** : 4 x y
+
  This is a report query which needs to find the sum of the values in **A** from x to y, i.e.,
 ``
 
@@ -108,8 +108,8 @@ for (i = x; i <= y; i++)
 	sum += <b>A</b><sub>i</sub>
 	sum %= M
 Output sum.
-
 </pre>**Note:** a%b represents the remainder of a when divided by b.
+
 ### Input
 
 - First line contains two space separated integers **N**, **Q**.
@@ -149,8 +149,8 @@ Output sum.
 10
 69
 
-
 <pre>### Explanation
+
 Initial **A** : \[1, 2, 3, 4\]
  Result of first query : 1 + 2 + 3 + 4 = 10
  **A** after second query: \[ 11, 12, 13, 4\]

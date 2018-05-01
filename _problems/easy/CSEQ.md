@@ -107,8 +107,8 @@ For each test case print the answer modulo **106+3** in a single line.
 <b>Output:</b>
 2
 5
-
 </pre>### Explanation
+
 **test #1:** \[4\] and \[5\] are the two sequences.
 
 **test #2:** \[4\], \[5\], \[4, 4\], \[4, 5\] and \[5, 5\] are the five sequences.

@@ -115,6 +115,6 @@ For each test case, you should output the maximum number of cities that Serega c
 
 <b>Output:</b>
 7
-
 </pre>### Explanation
+
 Sequence of classes on the path between the cities **5** and **8** is **210012**.

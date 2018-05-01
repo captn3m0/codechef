@@ -87,13 +87,13 @@ Output in a single line the value of bitwise XOR of two elements that remain in 
 - **1** ≤ **T** ≤ **1000**
 - **1** ≤ **M** ≤ **106**
 - **M** is even
-- ≤ **X** Y ≤ **106**
+- 0 ≤ **X** Y ≤ **106**
 - Sum of **M** over all test cases ≤ **5\*106**
 
 ### Subtasks
 
 - **Subtask #1: (30 points)**  Sum of **M** over all test cases ≤ **104**
-- **Subtask #2: (10 points)**  **X** =
+- **Subtask #2: (10 points)**  **X** = 0
 - **Subtask #3: (60 points)**  Original constraints
 
 ### Example
@@ -104,6 +104,6 @@ Output in a single line the value of bitwise XOR of two elements that remain in 
 
 <b>Output:</b>
 4
-
 </pre>### Explanation
+
 **Example case 1.** Initially we have A = {1, 2, 3, 4, 5, 6}. After splitting in two arrays we will have A' = {1, 3, 5} and B' = {2, 4, 6}. Let's erase from 0-indexed A' and B' elements with index = \[3\*1/2\]=1(3 and 4 respectively). After that merge A' and B' -> A = {1, 5, 2, 6}, split A once again in A' = {1, 2} and B' = {5, 6} and erase elements with index = \[2\*1/2\]=1(2 and 6 respectively), merge arrays A' and B' -> A = {1, 5}. Answer is bitwise XOR of 1 and 5 = 4.

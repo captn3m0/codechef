@@ -114,8 +114,8 @@ For each test case, print a single line containing a single integer correspondin
 1
 2
 
-
 </pre>### Explanation
+
 **Example case 1.**
 Only possible rank list in this case is {1}, As it is already an ideal rank list, hence you need zero operations.
 

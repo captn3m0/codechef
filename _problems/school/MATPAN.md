@@ -119,8 +119,8 @@ thequickbrownfoxjumpsoverthelazydog
 <b>Output:</b>
 63
 0
-
 </pre>### Explanation
+
 <pre>
 First test
 There are three letters missing from the original string: n (price 14), x (price 24), and y (price 25).
@@ -128,5 +128,4 @@ Therefore the answer is 14 + 24 + 25 = 63.
 
 Second test
 No letter is missing so there is no point in buying something. The answer is 0.
-
 </pre>

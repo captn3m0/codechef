@@ -90,10 +90,10 @@ For each test case, output a single line containing the value of the correspondi
 
 - **1** ≤ **T** ≤ **5000**
 - **1** < **M** < **1018**
-- ≤ **Q** < **M**
+- 0 ≤ **Q** < **M**
 - **1** ≤ **N** < **10100000**
-- ≤ **D** < **20000**
-- ≤ **Ai** < **M** for **i = 0, 1, ..., D**
+- 0 ≤ **D** < **20000**
+- 0 ≤ **Ai** < **M** for **i = 0, 1, ..., D**
 - The sum of **D + 1** over each input file does not exceed **20000**.
 - The overall number of digits in all numbers **N** in each input file does not exceed **105**.
 - ****M** is not divisible by any number from **2** to **D + 14**, inclusive.**
@@ -112,8 +112,8 @@ For each test case, output a single line containing the value of the correspondi
 <b>Output:</b>
 31
 91
-
 </pre>### Explanation
+
 **Example case 1.** We have **M = 101, Q = 2, N = 5, D = 0** and **P(0) mod M = 1**. Therefore, **P(X) = C0** and **P(0) mod 101 = 1**. Hence,  **C0 mod 101 = 1**. So we can take, for example, **C0 = 1**. Then the corresponding sum takes the form of **(P(0) \* Q0 + P(1) \* Q1 + ... + P(N − 1) \* QN − 1) mod M = (1 \* 20 + 1 \* 21 + 1 \* 22 + 1 \* 23 + 1 \* 24) mod 101 = (1 + 2 + 4 + 8 + 16) mod 101 = 31 mod 101 = 31.** Note, that the polynomial **P(X)** is not unique. We can take, for example, **C0 = 102** or **C0 = 2021**. However, the same will be always the same.
 
 **Example case 2.** We have **M = 289, Q = 1, N = 6, D = 2** and **P(0) mod M = 1, P(1) mod M = 4, P(2) mod M = 9**. It is easy to see that we can take **P(X) = (X + 1)2**. Then the corresponding sum takes the form of **(12 + 22 + 32 + 42 + 52 + 62) mod 289 = (1 + 4 + 9 + 16 + 25 + 36) mod 289 = 91.** Note that the polynomial **P(X)** again is not unique. In fact, the set of all polynomials of degree at most 2 that satisfy the conditions **P(0) mod 289 = 1, P(1) mod 289 = 4, P(2) mod 289 = 9** has the form of **{(X + 1)2 + 289 \* (C2 \* X2 + C1 \* X + C0) | C0, C1, C2** are integers}.

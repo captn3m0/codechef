@@ -139,6 +139,7 @@ Each of the next **N-1** lines contains two integers **a**i and **b**i denoting 
 <b>Output 2:</b>
 <tt>43484</tt>
 </pre>###  Explanation
+
  **Example test 1.** Let (**x**, **y**) denote the simple path between nodes **x** and **y**. There are **16** nice triples of paths: - (1, 2), (1, 3), (1, 4)
 - (1, 2), (1, 3), (2, 3)
 - (1, 2), (1, 3), (2, 4)

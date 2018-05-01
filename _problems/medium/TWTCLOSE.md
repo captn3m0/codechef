@@ -105,8 +105,8 @@ CLICK 1
 2
 0
 1
-
-</pre>**Explanation:**
+</pre>
+**Explanation:**
 
 Let open\[x\] = 1 if the xth tweet is open and 0 if its closed.
 Initially open\[1..3\] = { 0 , 0 , 0 }. Here is the state of open\[1..3\] after each click and corresponding count of open tweets.

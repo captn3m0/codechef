@@ -88,7 +88,7 @@ Please help him to calculate this number. Since it can be large, output it modul
 
 The first line of the input contains an integer **N** denoting the number of cities in TreeLand.
 
-The second line contains **N** space-separated integer numbers. Let's denote the **i**th of them by **Ai**. If **Ai** is , then Sergey is not certain about the number of the city that was the **i**th in his records. Otherwise, **Ai** denotes the number of the **i**th city in Sergey's records.
+The second line contains **N** space-separated integer numbers. Let's denote the **i**th of them by **Ai**. If **Ai** is 0, then Sergey is not certain about the number of the city that was the **i**th in his records. Otherwise, **Ai** denotes the number of the **i**th city in Sergey's records.
 
 Each of the following **N-1** lines contains two space-separated integers, **Xj Yj**, denoting a road in TreeLand.
 
@@ -99,7 +99,7 @@ Output the total number of possible trips Sergey could have done, which do not c
 ### Constraints
 
 - **1** ≤ **N** ≤ **500**
-- ≤ **Ai** ≤ **N**
+- 0 ≤ **Ai** ≤ **N**
 - **1** ≤ **Xj**, **Yj** ≤ **N**
 - Every city is directly connected with no more than **8** other cities.
 - The road system forms a tree.
@@ -117,8 +117,8 @@ Output the total number of possible trips Sergey could have done, which do not c
 
 <b>Output:</b>
 <tt>4</tt>
-
 </pre>### Explanation
+
 Sergey could have obtained the following sequences:
 
 - 1 2 3 4 5: 1 -> 2 -> 1 -> 3 -> 4 -> 3 -> 5 -> 3 -> 1.

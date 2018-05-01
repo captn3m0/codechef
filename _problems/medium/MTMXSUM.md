@@ -87,8 +87,8 @@ Constructed matrix <b>C</b> will look like:<b>
 C = [12, 18, 12],
        [48, 72, 48],
 </b>
-
 </pre>Then, for a given **K**, they will create a list **LK** of all sub-matrices of size **K x K** from the constructed matrix **C** and compute the following expression over the created list **LK**.
+
 ![](https://s3.amazonaws.com/hr-challenge-images/0/1454483411-9199f9c2a5-image1.JPG "image1.JPG")where **max( X )** denotes the maximum element present in the matrix **X**.
 
 
@@ -99,8 +99,8 @@ For example, consider the above matrix **C** and **K = 2**. Here, **LK** contain
 [12, 18]      [18, 12]      [48, 72]      [72, 48]
 
 M<sub>1</sub> = 30      M<sub>2</sub> = 30      M<sub>3</sub> = 72      M<sub>4</sub> = 72</b>
-
-</pre>Therefore, for **K = 2**, **S = M1 + M2 + M3 + M4 = (30 + 30 + 72 + 72) % (109 + 7) = 204.**
+</pre>
+Therefore, for **K = 2**, **S = M1 + M2 + M3 + M4 = (30 + 30 + 72 + 72) % (109 + 7) = 204.**
 
 Devu and Churu like the task very much and decided to compute the above expression for all possible values of **K** such that **1 ≤ K ≤ N** but suddenly their mom called them for some urgent work and they had to leave the task in between. Can you help them completing this task?
 
@@ -128,6 +128,5 @@ Output **N** space-separated integers, where the **ith** integer in the output d
 
 <b>Output</b>
 280 204 72
-
 
 </pre>

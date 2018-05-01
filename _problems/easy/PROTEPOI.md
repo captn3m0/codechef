@@ -128,8 +128,8 @@ The King has other duties for the snakes, and hence wants to remove as many snak
 <b>Output:</b>
 3
 -1
-
 </pre>### Explanation
+
 The first example corresponds to:
 
 ![](https://puu.sh/vUwp7/33aaeb020d.png)Note that the top-left corner cell of the **N**x**N** grid is by definition, (1,1). The inner square contains the poison, and the seven snakes are shown in different colours. The green snake is the 1st snake in the input.

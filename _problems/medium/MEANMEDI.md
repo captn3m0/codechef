@@ -40,13 +40,13 @@ For each test case, print the minimum absolute difference between the mean and t
 5 4
 10 7 4 5 9
 
-
 </pre>### Sample output
+
 <pre>0.000
 0.500
 
-
 </pre>### Explanation
+
 In the first case, you can select \[4, 4\].
 
 In the second case, you can select \[10, 7, 4, 9\]. The mean would be 7.500, where as median would be 7.

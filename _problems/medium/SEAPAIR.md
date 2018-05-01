@@ -94,9 +94,9 @@ First line of each test case contains integers **N** and **K**. Each of the next
 For each test case, output a single line containing the answer - number of possible numbers **A** modulo **(109+7)**. ### Constraints
 
 - **1** ≤ **T** ≤ **5**
-- ≤ **K** ≤ **N** ≤ **105**
+- 0 ≤ **K** ≤ **N** ≤ **105**
 - **1** ≤ **X\[i\]**  ≤ **109**
-- ≤ **D\[i\]**  ≤ **109**
+- 0 ≤ **D\[i\]**  ≤ **109**
 
 ### Example
 
@@ -114,5 +114,4 @@ For each test case, output a single line containing the answer - number of possi
 <b>Output:</b>
 20
 30
-
 </pre>

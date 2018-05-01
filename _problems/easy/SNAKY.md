@@ -39,5 +39,4 @@ RRRRRDDDLLLU
 WALL 2
 BODY 1
 
-
 </pre>

@@ -48,5 +48,4 @@ For each value of N output the total number of valid sets on a separate line.
 4
 75
 13
-
 </pre>

@@ -95,7 +95,7 @@ For each testcase output an answer - the mininal number of steps necessary.
 
 - **1** ≤ **T** ≤ **10**
 - **1** ≤ **n** ≤ **105**
-- ≤ **Ai, Bi** ≤ **3**
+- 0 ≤ **Ai, Bi** ≤ **3**
 
 ### Example
 
@@ -107,6 +107,5 @@ For each testcase output an answer - the mininal number of steps necessary.
 
 <b>Output:</b>
 1
-
 
 </pre>

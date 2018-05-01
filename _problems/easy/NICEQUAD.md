@@ -52,5 +52,4 @@ For each test case print the number of nice quadrangles that can be formed using
 <b>Output:</b>
 2
 
-
 </pre>

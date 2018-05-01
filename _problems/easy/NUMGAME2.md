@@ -13,11 +13,11 @@ layout: problem
 
 Alice and Bob play the following game.They choose a number N to play with.The runs are as follows : 
 
-1\.Bob plays first and the two players alternate. 
+1.Bob plays first and the two players alternate. 
 
-2\.In his/her turn ,a player can subtract from N any prime number(including 1) less than N.The number thus obtained is the new N. 
+2.In his/her turn ,a player can subtract from N any prime number(including 1) less than N.The number thus obtained is the new N. 
 
-3\.The person who cannot make a move in his/her turn loses the game. 
+3.The person who cannot make a move in his/her turn loses the game. 
 
 Assuming both play optimally,who wins the game ?
 
@@ -44,5 +44,5 @@ BOB
 <b>Constraints:</b>
 1 <= T <= 1000000
 1 <= N <= 1000000000
-
-</pre>Note : For the first test case, Bob cannot make any move and hence Alice wins the game. For the second test case, Bob subtracts 1 from N. Now, Alice cannot make a move and loses the game.
+</pre>
+Note : For the first test case, Bob cannot make any move and hence Alice wins the game. For the second test case, Bob subtracts 1 from N. Now, Alice cannot make a move and loses the game.

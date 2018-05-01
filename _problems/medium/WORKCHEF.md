@@ -93,19 +93,19 @@ For each question, output an integer in a separate line containing the answer of
 
 **Subtask 1 : \[10 points\]** - **1** ≤ **Q** ≤ **3**
 - **1** ≤  **L**  ≤  **R**  ≤ **106**
-- ≤  **K**  ≤  **9**
+- 0 ≤  **K**  ≤  **9**
 
 **Subtask 2 : \[20 points\]**
 
 - **1** ≤ **Q** ≤ **3**
 - **1** ≤  **L**  ≤  **R**  ≤ **109**
-- ≤  **K**  ≤  **9**
+- 0 ≤  **K**  ≤  **9**
 
 **Subtask 3 : \[70 points\]**
 
 - **1** ≤ **Q** ≤ **3**
 - **1** ≤  **L**  ≤  **R**  ≤ **1018**
-- ≤  **K**  ≤  **9**
+- 0 ≤  **K**  ≤  **9**
 
 ### Example
 
@@ -120,6 +120,6 @@ For each question, output an integer in a separate line containing the answer of
 1
 1
 11
-
 </pre>### Explanation
+
 **Example case 1 and 2**. 48 is both **1** and **2** special as explained in the problem statement. Hence answer is 1.

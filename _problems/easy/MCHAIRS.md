@@ -105,5 +105,4 @@ For each test case, you should output an integer, denoting the sum of the number
 <b>Output:</b>
 1
 3
-
 </pre>

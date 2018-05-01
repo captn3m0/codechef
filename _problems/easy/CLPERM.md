@@ -119,8 +119,8 @@ For each test case, print **"Chef"** if chef should move first otherwise print *
 <b>Output</b>
 Mom
 Chef
-
 </pre>### Explanation
+
 For test case 1.
 
 - Mom can choose {1} to make 1.

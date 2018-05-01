@@ -123,8 +123,8 @@ As Devu is always in hurry to meet his girlfriend, he wants you to help him in f
 11
 2
 1010
-
 </pre>### Explanation
+
 **Example case 1:** As 1 is occurring twice consecutively, we can convert 11 to 10 in a single operation.
 
 **Example case 2:** You don't need to modify the string as it does not have more than 2 equal consecutive character.

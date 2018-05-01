@@ -79,8 +79,8 @@ Output the number of ways to choose a triplet such that they are three consecuti
 <b>Output:</b>
 9
 
-
 </pre>### Explanation
+
 The followings are all 9 ways to choose a triplet
 
 <pre>
@@ -93,5 +93,4 @@ The followings are all 9 ways to choose a triplet
 7 : <b>(i, j, k)</b> = (4, 8, 10), <b>(A<sub>i</sub>, A<sub>j</sub>, A<sub>k</sub>)</b> = (6, 4, 2)
 8 : <b>(i, j, k)</b> = (5, 6, 9), <b>(A<sub>i</sub>, A<sub>j</sub>, A<sub>k</sub>)</b> = (3, 4, 5)
 9 : <b>(i, j, k)</b> = (5, 8, 9), <b>(A<sub>i</sub>, A<sub>j</sub>, A<sub>k</sub>)</b> = (3, 4, 5)
-
 </pre>

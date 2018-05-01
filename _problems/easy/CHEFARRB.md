@@ -90,7 +90,7 @@ For each test case, output an integer corresponding to the number of _good_ sub-
 ### Constraints
 
 11. **1** ≤ **T**, **N**, ≤ **100,000**
-12. ≤ **A**i, **K** ≤ **109**
+12. 0 ≤ **A**i, **K** ≤ **109**
 13. **1** ≤ Sum over all values of **N** in the input in a single test file ≤ **100,000**
 ### Example
 
@@ -104,5 +104,4 @@ For each test case, output an integer corresponding to the number of _good_ sub-
 <b>Output:</b>
 4
 2
-
 </pre>

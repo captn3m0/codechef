@@ -43,5 +43,4 @@ For each test case, output on a line an integer which is the respective maximal 
 <b>Output:</b>
 6
 19
-
 </pre>

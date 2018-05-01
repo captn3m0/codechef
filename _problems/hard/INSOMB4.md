@@ -74,12 +74,11 @@ Line 1: The minimum number of transfers to be effected for the first production 
 3
 30 17 5
 14
-
-</pre>/>
+</pre>
+/>
 
 **Sample Output:**
 
 <pre>
 9
-
 </pre>

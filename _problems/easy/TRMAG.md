@@ -42,5 +42,4 @@ Number of printed Sides<=2000. All other values abide by the number of printed s
 <b>Output:</b>
 31.2000
 47.0000
-
 </pre>

@@ -118,7 +118,7 @@ For each test case, print a single line containing the answer of the test case, 
 
 - **1 ≤ T ≤ 102**
 - **1 ≤ n ≤ 103**
-- **type** can be , **1** or **2**, that is **type ∈ {0, 1, 2}**.
+- **type** can be 0, **1** or **2**, that is **type ∈ {0, 1, 2}**.
 
 ### Example
 
@@ -150,21 +150,21 @@ BGB
 3
 1
 0
-
 </pre>### Explanation
-Note **type** of the first **3** test cases is . So **c(i, j) = 1**. Hence we just have to count minimum number of swaps needed.
+
+Note **type** of the first **3** test cases is 0. So **c(i, j) = 1**. Hence we just have to count minimum number of swaps needed.
 
 **Example case 1.** There is no way to make sure that both the boys does not stand nearby. So answer is **-1**.
 
-**Example case 2.** Arrangement is already valid. No swap is needed. So answer is .
+**Example case 2.** Arrangement is already valid. No swap is needed. So answer is 0.
 
 **Example case 3.** Swap boy at position **1** with girl at position **2**. After swap the arrangement will be **BGBG** which is a valid arrangement. So answer is **1**.
 
 Now **type** of the next **3** test cases is **1**. So **c(i, j) = |j − i|**, that is, the absolute value of the difference between **i** and **j**.
 
-**Example case 4.** Swap boy at position  with girl at position **1**. After swap the arrangement will be **GBG** which is a valid arrangement. So answer is **|1 - 0| = 1**.
+**Example case 4.** Swap boy at position 0 with girl at position **1**. After swap the arrangement will be **GBG** which is a valid arrangement. So answer is **|1 - 0| = 1**.
 
-**Example case 5.** Swap boy at position  with girl at position **1**. After swap the arrangement will be **GBGB** which is a valid arrangement. So answer is **|1 - 0| = 1**.
+**Example case 5.** Swap boy at position 0 with girl at position **1**. After swap the arrangement will be **GBGB** which is a valid arrangement. So answer is **|1 - 0| = 1**.
 
 **Example case 6.** Swap boy at position **1** with girl at position **4**. After swap the arrangement will be **BGBGB** which is a valid arrangement. So answer is **|4 - 1| = 3**.
 
@@ -172,4 +172,4 @@ Then **type** of the last **2** test cases is **2**. So **c(i, j) = (j − i)2**
 
 **Example case 7.** Swap boy at position **1** with girl at position **2**. After swap the arrangement will be **BGBG** which is a valid arrangement. So answer is **(2 - 1)2 = 1**.
 
-**Example case 8.** Arrangement is already valid. No swap is needed. So answer is .
+**Example case 8.** Arrangement is already valid. No swap is needed. So answer is 0.

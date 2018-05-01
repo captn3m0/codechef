@@ -57,6 +57,6 @@ Output a single integer - the maximum number of slices chef can get.
 1 2 3 4 5
 <b>Output:</b>
 31
-
 </pre>### Explanation
+
 **Example case 1. One of the optimal way to cut would be to do {0, 1, 0, 4, 5} cuts.**

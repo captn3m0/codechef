@@ -115,5 +115,4 @@ For each test case, print **K** lines each consisting of **K** space separated i
 1 3 2
 2 1 3</tt>
 
-
 </pre>

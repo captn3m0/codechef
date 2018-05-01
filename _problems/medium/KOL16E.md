@@ -54,5 +54,4 @@ For each line of input, produce exactly one line of output like either "Case <te
 Case 2: 3-altersum
 Case 3: 1-altersum
 Case 4: 3-altersum</p>
-
 <pre>

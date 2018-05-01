@@ -121,5 +121,4 @@ For each test-case output a single line containing a single number denoting the 
 1.00000000
 0.20000000
 0.33333333
-
 </pre>

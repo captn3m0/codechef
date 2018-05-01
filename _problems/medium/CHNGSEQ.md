@@ -111,8 +111,8 @@ For each test case, output an integer corresponding to the answer to the test ca
 1
 2
 616
-
 </pre>### Explanation
+
 **Example 1**. Only possible sequence will be 0 0. Its beauty value will be zero.
 
 **Example 2**.The subsequences with beauty equal to 3 will be 0 1 and 1 0. So, the answer is 2.
@@ -133,4 +133,5 @@ Please note that the above three examples don't have **C** = 220. These examples
 <b>Output:</b>
 100
 <pre>### Explanation
+
 There are **100** sequences in total that have length **2** and each integer is less than **1048576** such that sum of the beauty values of their subsequences modulo **109 + 7** is **345**.

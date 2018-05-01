@@ -136,6 +136,6 @@ For each test case output the overall number of special matrices of order **N** 
 1
 13
 719666144
-
 </pre>### Explanation
+
 Example cases 1 and 2 are explained above.

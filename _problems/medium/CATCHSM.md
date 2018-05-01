@@ -119,6 +119,6 @@ For each test case, for each query, output a single line containing the minimum 
 12.7279220614</tt>
 
 
-
 </pre>### Explanation
+
 ![](https://s3.amazonaws.com/codechef_shared/download/upload/SNCKFL16/2.png)**Example case 1.** Luckily initial position of Bat-Chef and Spider-Chef is precisely the same, so it won't take any time to Bat-Chef to catch Spider-Chef.

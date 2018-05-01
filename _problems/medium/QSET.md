@@ -104,7 +104,7 @@ For each query of type 2, print the required answer in a single line.
 
 - **0 ≤ Ai ≤ 9**
 - **1** ≤ **Xi** ≤ **N**
-- ≤ **Yi** ≤ **9**
+- 0 ≤ **Yi** ≤ **9**
 - **1** ≤ **Ci** ≤ **Di** ≤ **N**
 
 ### Subtasks
@@ -126,8 +126,8 @@ For each query of type 2, print the required answer in a single line.
 <b>Output:</b>
 3
 1
-
 </pre>### Explanation
+
 For first query, the sub-strings S\[1,1\]="0", S\[1,3\]="012" and S\[2,3\]="12" are divisible by 3.
 After second query, the string A becomes "01255".
 For third query, only sub-string S\[3,5\]="255" is divisible by 3.

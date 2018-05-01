@@ -120,5 +120,4 @@ Each query, output the answer on a single line.
 47
 127
 22
-
 </pre>

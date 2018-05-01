@@ -118,8 +118,8 @@ For each query, print the required answer in one line.
 <b>Output:</b>
 2
 4
-
 </pre>### Explanation
+
 On first operation, value of edge (2-4) is increased by one. On second operation, value of edges (1-3), (1-2), (2-4) are increased by one.
 
 **Warning:**Use fast input/output. Large input files.

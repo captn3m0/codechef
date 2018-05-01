@@ -49,5 +49,4 @@ For each test case, output minimum total elevation so that chef can achieve his 
 <b>Output:</b>
 4
 -1
-
 </pre>

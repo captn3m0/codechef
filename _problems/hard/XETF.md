@@ -79,12 +79,12 @@ For each test case, output a single line containing the answer to the problem i.
 Subtask 1 (7 points):
 
 - **1** ≤ **N** ≤ **104**
-- ≤ **K** ≤ **104**
+- 0 ≤ **K** ≤ **104**
 
 Subtask 2 (10 points):
 
 - **1** ≤ **N** ≤ **1012**
-- **K** =
+- **K** = 0
 
 Subtask 3 (28 points):
 
@@ -94,7 +94,7 @@ Subtask 3 (28 points):
 Subtask 4 (55 points):
 
 - **1** ≤ **N** ≤ **1012**
-- ≤ **K** ≤ **256**
+- 0 ≤ **K** ≤ **256**
 
 ### Example
 
@@ -106,8 +106,8 @@ Subtask 4 (55 points):
 <b>Output:</b>
 20
 6
-
 </pre>### Explanation
+
 **Example case 1.** The numbers that are coprime to **10** are **1, 3, 7, 9**. Their sum is **20**.
 
 **Example case 2.** **7** is a prime number, so any integer that is less than **7** is coprime to it.

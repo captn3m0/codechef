@@ -154,8 +154,8 @@ Do not add any newlines between different testcases.
 1
 7
 3
-
 </pre>### Explanation
+
 First testcase:
 
 First trip: When **C** = 1, Stannis can use 1-2 passage and he will reach the destination;

@@ -58,5 +58,4 @@ For each test case, print the solution in a single line. If there is no solution
 <b>Output:</b>
 -1
 353
-
 </pre>

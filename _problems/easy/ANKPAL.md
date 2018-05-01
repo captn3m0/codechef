@@ -111,15 +111,15 @@ ababa
 1 3 3 5
 2 4 1 5
 
-
 </pre>**Sample Output:**
+
 <pre>
 Yes
 No
 Yes
 Yes
-
 </pre>### Explanation:
+
 **Query 1:**The string becomes a**ab**ba. The queried substring is _bb_, which is a palindrome.
 
 **Query 2:**The string becomes **ba**aba. The queried substring is _ab_, which is not a palindrome.

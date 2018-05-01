@@ -33,13 +33,13 @@ For each test case, print the maximum number of guests that are simultaneously a
 7
 13 6 5 8 2 10 12
 19 18 6 9 9 11 15
-
 </pre>### Sample Output
+
 <pre>3
 1
 3
-
 </pre>### Constraints
+
 - T≤100
 - N≤100
 - All arrival/departure times will be between 1 and 1000, inclusive

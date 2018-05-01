@@ -42,5 +42,4 @@ Output the total quality.
 <b>Note:</b>
 If there is no answer, output 0.
 There can be less than 6 items.
-
 </pre>

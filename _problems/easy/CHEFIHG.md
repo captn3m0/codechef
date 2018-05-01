@@ -107,7 +107,6 @@ Output one non-empty string corresponding to the command with length ≤ **105**
 </tt>
 <b>Output:</b>
 LDUR
-
 </pre><pre><b>Input:</b>
 <tt>5 6
 ******
@@ -118,8 +117,8 @@ LDUR
 
 <b>Output:</b>
 RLLURUU
-
 </pre>### Explanation
+
 You can reach to capital city by feeding this command to robot starting from any city. We have shown one such application of the command for the city on the cell (2, 2).
 
 From cell (2, 2), you can go to following cells in order when you apply the command.

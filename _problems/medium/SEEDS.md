@@ -51,5 +51,4 @@ Finally, if there is only one way to assign values to the missing xi values, the
 multiple solutions
 no solution
 
-
 </pre>

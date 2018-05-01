@@ -52,5 +52,4 @@ The number of ways to build the network, for every test case in a separate line.
 1
 3
 
-
 </pre>

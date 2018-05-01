@@ -107,15 +107,14 @@ Output the results of each test case on a new line. For each test case, output t
 4
 1 1 1 1
 
-
 </pre>**Sample Output:**
+
 <pre>
 0 0 3 0 0 1
 0 3 0 1
 
-
 </pre>**Explanation**
+
 <pre>
 For the first test case and m = 3, required sub-arrays are [1,2,3], [3,2,1] and [2,1,3].
-
 </pre>

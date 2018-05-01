@@ -86,8 +86,8 @@ function f(A[0..N-1], L, R, P):
 			if PF == P:
 				ANSWER = MAX(ANSWER, SIZE(S))
 	return ANSWER
-
-</pre>Clarifications:
+</pre>
+Clarifications:
 Line 5 loops over all 2^(R-L+1) subsets.
 GCD(S) returns the Greatest common divisor of all the elements in S.
 SIZE(S) returns the number of elements in S.
@@ -113,7 +113,7 @@ Output single integer which is the required answer modulo 1000000007
 - **1** ≤ **N** ≤ **100000**
 - **1** ≤ **M** ≤ **500**
 - **1** ≤ **A\[i\]** ≤ **100000**
-- ≤ **B\[i\]** < **N**
+- 0 ≤ **B\[i\]** < **N**
 
 ### Example
 
@@ -124,8 +124,8 @@ Output single integer which is the required answer modulo 1000000007
 
 <b>Output:</b>
 34
-
 </pre>### Explanation
+
 Here are the answers of few calls to function f()
 f(A, 2, 0, 2) = 1
 f(A, 2, 0, 5) = 0

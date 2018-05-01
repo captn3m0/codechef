@@ -92,7 +92,7 @@ For each test case, output a single line containing answer for corresponding tes
 
 - **1** ≤ **T** ≤ **5**
 - **1** ≤ **L** ≤ **R** ≤ **1012**
-- ≤ **R-L** ≤ **106**
+- 0 ≤ **R-L** ≤ **106**
 
 ### Example
 
@@ -102,6 +102,6 @@ For each test case, output a single line containing answer for corresponding tes
 
 <b>Output:</b>
 6
-
 </pre>### Explanation
+
 **Example case 1.** Numbers 2,3,4,5,7,9 are special.

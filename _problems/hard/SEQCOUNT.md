@@ -96,8 +96,8 @@ Output the number of nice sequences on the first line of the output modulo **109
 
 <b>Output:</b>
 1
-
 </pre>### Explanation
+
 The only suitable sequence is (1, 2, 3, 4).
 
 ### Scoring

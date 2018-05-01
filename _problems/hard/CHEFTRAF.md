@@ -149,8 +149,8 @@ All submissions for this problem are available.### Read problems statements in [
 7
 39
 
-
 </pre>###  Explanation
+
  **Example case 1:** There are 3 people:
 
 - The first person goes from city 1 to city 2. He chooses Chef's roads and pays 3 chefcoin.

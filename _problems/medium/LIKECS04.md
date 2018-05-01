@@ -98,17 +98,17 @@ Output the number of possible winning arrays modulo **109 + 7**.
 <pre>
 2 ≤ N ≤ 50
 0 ≤ B[i] ≤ 50, where B[i] denotes the i<sup>th</sup> element of the array.
-
 </pre>### Sample Input
+
 <pre>
 3
 2 0 1
-
 </pre>### Sample Output
+
 <pre>
 4
-
 </pre>### Explanation
+
 The possible winning arrays are **(1, 0, 0)**, **(0, 0, 1)**, **(2, 0, 0)** and **(1, 0, 1)**.
 
 Let us consider why array **(2, 0, 1)** is losing. The only move is 2 pick the pair **(2, 1)**. After applying the operation, we get the pair **(1, 2)**. Thus, only the order of elements in the array change and we are in a situation of deadlock. Thus, Chef Dobby can't convert the array to contain **2** zeros.

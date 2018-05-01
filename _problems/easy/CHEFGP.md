@@ -135,8 +135,8 @@ abba
 aa*abaa
 a*a*a*a
 aa*aa*a
-
 </pre>### Explanation
+
 **Example 1**. The way of distributing fruits already makes everyone happy.
 
 **Example 2**. The second person will be disgruntled as he receives apple same as the person ahead of him. One possible way of having good impression is to distribute in the order aba.

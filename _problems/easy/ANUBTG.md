@@ -105,8 +105,8 @@ For each test case, output a single line containing the required answer.
 4
 210
 14
-
 </pre>### Explanation
+
 **Example case 1**
 
 Suraj pays for 2 costly items and gets other 2 for free.

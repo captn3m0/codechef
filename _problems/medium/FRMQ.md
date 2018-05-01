@@ -87,8 +87,8 @@ For the next questions, values of **xi** and **yi** are generated in the followi
 for <b>i = 2</b> to <b>M</b>:
 	<b>x<sub>i</sub></b> = <b>(x<sub>i-1</sub> + 7) mod (N - 1)</b>
 	<b>y<sub>i</sub></b> = <b>(y<sub>i-1</sub> + 11) mod N</b>
-
 </pre>Here **a mod b** denotes the remainder of division of **a** by **b**.
+
 ### Input
 
 The first line contains a single integer **N**, denoting the number of elements in the array.
@@ -106,7 +106,7 @@ Output a single integer denoting the **sum** of the answers to the questions.
 - **2** ≤ **N** ≤ **105**
 - **1** ≤ **M** ≤ **108**
 - **1** ≤ **Ai** ≤ **109**
-- ≤ **x1, y1** ≤ **N-1**
+- 0 ≤ **x1, y1** ≤ **N-1**
 
 **Subtask 1: (20 points)**
 
@@ -129,8 +129,8 @@ Output a single integer denoting the **sum** of the answers to the questions.
 
 <b>Output:</b>
 7
-
 </pre>### Explanation
+
 28. The first question: **x1** = 0, **y1** = 1 => **ans1** = 2
 29. The second question: **x2** = (0 + 7) mod 2 = 1, **y2** = (1 + 11) mod 3 = 0 => **ans2** = 2
 30. The third question: **x3** = (1 + 7) mod 2 = 0, **y3** = (0 + 11) mod 3 = 2 => **ans3** = 3

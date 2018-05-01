@@ -163,8 +163,8 @@ For each test case, output a single line containing the answer: a number -1 if L
 403.2247551123
 -1
 6652.7837723893
-
 </pre>### Explanation
+
 **Test case 1.** There are 3 shops, located at points (100, 100), (-50, 100) and (0, -100). The first shop is described by a string "111110", which means that ingredients 1 through 5 are available in this shop, but ingredient 6 isn't. The other two shops are described by strings "110011" and "001111" respectively. Any two shops are enough to get all 6 ingredients (because, for every two shops it's true that each of 6 ingredients is available in at least one of those two shops).
 
 To minimize the total distance, Limak should visit the first and the second shop (in any order). For example, his journey can look as follows:

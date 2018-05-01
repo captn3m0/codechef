@@ -67,9 +67,9 @@ time:
     current: 1493558153
 layout: problem
 ---
-All submissions for this problem are available. Chef has an array of **N** integers. He wants to play a special game. In this game he needs to make all the integers in the array greater than or equal to .
+All submissions for this problem are available. Chef has an array of **N** integers. He wants to play a special game. In this game he needs to make all the integers in the array greater than or equal to 0.
 
-Chef can use two types of operations. The first type is to increase all the integers of the given array by **1**, but it costs **X** coins. The operation of the second type is to add **1** to only one integer of the given array and to use this operation you need to pay **1** coin. You need to calculate the minimal cost to win this game (to make all integers greater than or equal to )
+Chef can use two types of operations. The first type is to increase all the integers of the given array by **1**, but it costs **X** coins. The operation of the second type is to add **1** to only one integer of the given array and to use this operation you need to pay **1** coin. You need to calculate the minimal cost to win this game (to make all integers greater than or equal to 0)
 
 ### Input
 
@@ -83,7 +83,7 @@ For each test case, output a single line containing minimal cost required to mak
 
 - **1** ≤ **N** ≤ **105**
 - **-109** ≤ **Ai** ≤  **109**
-- ≤ **X**  ≤ **109**
+- 0 ≤ **X**  ≤ **109**
 
 ### Example
 
@@ -94,6 +94,6 @@ For each test case, output a single line containing minimal cost required to mak
 
 <b>Output:</b>
 5
-
 </pre>### Explanation
+
 **Example case 1:** Use the first type operation twice and the second type once.

@@ -152,8 +152,8 @@ wait
 wait
 5
 
-
 </pre>### Explanation
+
 **Example case 1.**
 
 - player 1 has to wait because there are no other players yet

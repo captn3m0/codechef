@@ -39,13 +39,13 @@ For each test case, output a line containing the number of shortest paths to the
 7 1 2
 1 0
 4 1
-
 </pre>### Sample output:
+
 <pre>2
 0
 6
-
 </pre>### Constraints
+
 1<=T<=30
  1<=W,H<=107
  0<=xi<=W

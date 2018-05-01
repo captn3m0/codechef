@@ -128,8 +128,8 @@ For each test case, print the minimum size of the group (including Chef) that is
 5
 9
 6
-
 </pre>### Explanation
+
 **Example case 1.** In the first case, there are no tribal clans, and two dishes, one which needs to be eaten by 3 chefs on their way and one to be eaten by 1 chef. Hence, we have to start with atleast 5 people in total to pass _the path of tasty dishes_.
 
 **Example case 2.** Similar as Example Case 1.

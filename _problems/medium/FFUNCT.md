@@ -72,7 +72,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 You are given **N** boolean functions. Formally, each boolean function is a mapping from **{0, 1}K** to **{0, 1}**, where **K** is a number of variables of the function. Different functions in this problem can have different parameters of **K**.
 
-We describe a boolean function **F(x1, x2, ..., xK)** by a string of **2K** characters. Let's enumerate these characters from  to **2K-1**. Let's take the **i**-th character of this string. This character will correspond to the value of the boolean function **F** on the set of parameters, corresponding to the last **K** bits of **i** in binary representation. For better understanding, let us have boolean function of **K = 3** variables, described by a string **S = 10101010**. The value of **F(0, 0, 0)** is one, because in binary representation "000" is zero, and **S\[0\] = 1**. The value of F(0, 1, 1) is zero, because "011" in binary representation is three, and **S\[3\] = 0**.
+We describe a boolean function **F(x1, x2, ..., xK)** by a string of **2K** characters. Let's enumerate these characters from 0 to **2K-1**. Let's take the **i**-th character of this string. This character will correspond to the value of the boolean function **F** on the set of parameters, corresponding to the last **K** bits of **i** in binary representation. For better understanding, let us have boolean function of **K = 3** variables, described by a string **S = 10101010**. The value of **F(0, 0, 0)** is one, because in binary representation "000" is zero, and **S\[0\] = 1**. The value of F(0, 1, 1) is zero, because "011" in binary representation is three, and **S\[3\] = 0**.
 
 Consider a set of boolean functions **{F1, F2, ..., FM}**. We can combine the functions of this set, thus, obtaining the new functions. One function can be used as much times as possible in a single combination. For example, if we have set of two functions: **{F1(x1, x2), F2(y1, y2, y3)}**, we can obtain the following functions:
 
@@ -127,8 +127,8 @@ q 2 3
 <b>Output:</b>
 3
 1
-
 </pre>### Explanation
+
 The first function of an initial array corresponds to conjunction (AND operation), the second one corresponds to disjunction (OR operation) and the third one corresponds to negation (NOT operation).
 
 In the second query we replace the third function in the array (negation) to the function that does not have a common name.

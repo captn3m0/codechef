@@ -167,8 +167,8 @@ All submissions for this problem are available.### Read problems statements in [
 -1
 4
 1
-
 </pre>### Explanation
+
 <pre>
 First test
 <img height="70%" src="https://image.ibb.co/eSkERk/tree.png" width="70%"></img>
@@ -185,5 +185,4 @@ The second one is longer so the answer is 4.
 
 Fourth test
 There is only one path that generates a cubic number and it contains only one node.
-
 </pre>

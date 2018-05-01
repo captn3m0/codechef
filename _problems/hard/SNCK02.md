@@ -62,8 +62,8 @@ For each test case, output a single line of integers. The first integer is |S|, 
 3 4
 
 0 0
-
 </pre>### Sample Output:
+
 <pre>2 0 1
 4 0 1 2 3
 3 0 1 2

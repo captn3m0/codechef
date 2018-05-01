@@ -100,8 +100,8 @@ The test cases are designed in such a way that the total output won't exceed 2 M
 
 - **1** ≤ **T** ≤ **105**
 - **1** ≤ **n** ≤ **10**
-- Subtask 1 (23 points):  ≤ ****hi**, **mi**** ≤ **10**
-- Subtask 2 (77 points):  ≤ ****hi**, **mi**** ≤ **109**
+- Subtask 1 (23 points): 0 ≤ ****hi**, **mi**** ≤ **10**
+- Subtask 2 (77 points): 0 ≤ ****hi**, **mi**** ≤ **109**
 - **1** ≤ sum of **n** over a test cases in a single test file ≤ **5 × 105**
 
 ### Example
@@ -127,6 +127,6 @@ The test cases are designed in such a way that the total output won't exceed 2 M
 0 0
 2 Inf
 0</tt>
-
 </pre>### Explanation
+
 **Example case 1.** In the first case **0 2 0** is already a _zig-zag_ sequence, but on the 2nd second it will become **2 6 6** and will never turn back into _zig-zag_

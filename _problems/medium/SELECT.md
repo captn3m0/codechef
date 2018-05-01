@@ -135,30 +135,30 @@ Output **T** lines. A line can contain -1 if you are not able to find the corres
 
 <b>Output:</b>
 w
-
 <pre>### Example 2
+
 </pre><b>Input:</b>
 1 2
 79
 
 <b>Output:</b>
 js
-
 <pre>### Example 3
+
 </pre><b>Input:</b>
 1 8
 48768961
 
 <b>Output:</b>
 anupklby
-
 <pre>### Example 4
+
 </pre><b>Input:</b>
 1 7
 2342822
 
 <b>Output:</b>
 adurysk
-
 <pre>### Explanation
+
 **Example case 3.** One possible black money holder for this encrypted name can be "anupklby".

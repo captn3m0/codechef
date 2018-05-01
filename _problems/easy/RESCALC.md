@@ -130,8 +130,8 @@ For each test case, output a single line containing the answer as specified in t
 chef
 2
 tie</tt>
-
 </pre>### Explanation
+
 **Example case 1**.
 
 Chef has total 6 cookie, so he gets 6 points for that. Also, he can put all his cookies (as they are all distinct) in a bag of size 6. It will fetch him additional 4 points. So, Chef's total points will be 10.

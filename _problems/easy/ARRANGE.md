@@ -39,5 +39,4 @@ For each test case you are to output the scrambled message on a single line.
 <b>Output:</b>
 cehf
 eayejpuinpopolre
-
 </pre>

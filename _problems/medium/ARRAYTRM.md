@@ -31,13 +31,11 @@ Sample Input :
 3 2
 1 2 3
 
-
 </pre><pre>
 Sample Output :
 YES
 YES
 NO
-
 
 </pre><pre>
 Constraints :
@@ -45,5 +43,4 @@ Constraints :
 2 <= n <= 100
 1 <= K <= 10
 0 <= a_i <= 1000
-
 </pre>

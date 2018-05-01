@@ -66,5 +66,4 @@ For each test case output exactly one line containing the required probability i
 66.00000000000000
 73.18080000000000
 75.47784648840000
-
 </pre>

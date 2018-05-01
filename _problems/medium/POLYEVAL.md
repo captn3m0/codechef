@@ -90,9 +90,9 @@ For each query, output a single line containing the answer to the corresponding 
 
 ### Constraints and Subtasks
 
-- ≤ **ai**, **xj** < **786433**
-- **Subtask #1** (37 points):  ≤ **N, Q** ≤ **1000**
-- **Subtask #2** (63 points):  ≤ **N, Q** ≤ **2.5 × 105**
+- 0 ≤ **ai**, **xj** < **786433**
+- **Subtask #1** (37 points): 0 ≤ **N, Q** ≤ **1000**
+- **Subtask #2** (63 points): 0 ≤ **N, Q** ≤ **2.5 × 105**
 
 ### Example
 
@@ -108,8 +108,8 @@ For each query, output a single line containing the answer to the corresponding 
 <tt>162
 209
 262</tt>
-
 </pre>### Explanation
+
 **Example case 1.**
 
 - Query 1: 1 + 2 × 7 + 3 × 7 × 7 = 162

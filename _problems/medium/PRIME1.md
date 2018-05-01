@@ -36,5 +36,4 @@ For every test case print all prime numbers p such that m <= p <= n, one number 
 
 3
 5
-
 </pre>**Warning: large Input/Output data, be careful with certain languages (though most should be OK if the algorithm is well designed)**

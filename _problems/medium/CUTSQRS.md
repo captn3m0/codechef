@@ -42,5 +42,4 @@ For each test case, output the number of characters Michael has to write down (e
 <b>Sample output:</b>
 7
 8
-
 </pre>(In the first case Michael has to write '1 1 first', in the second case '2 1 second'.)

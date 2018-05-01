@@ -109,8 +109,8 @@ Now the Sheriff asks the question: How many times has he whistled?
 1
 6
 </p>
-
 </pre>### Explanation
+
 <pre> <p>
 <b>Example case 2.</b>
 the bandits positions are:

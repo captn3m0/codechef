@@ -110,8 +110,8 @@ Output **M** lines. Output the answer to the **i**-th question of the **i**-th l
 6
 0
 
-
 </pre>### Explanation
+
 Inversions for the first case: **(2, 3), (2, 4), (2, 5), (3, 5), (4, 5)**.
 
 Inversions for the second case: **(1, 3), (1, 5), (2, 3), (2, 4), (2,5), (4, 5)**.

@@ -116,8 +116,8 @@ Output a single number, the number of sequences, modulo 109+7.
 986095186
 0
 468598063
-
 </pre>### Explanation
+
 In the first case, there are 231 possible sequences, so the answer is 231 modulo 109+7 = 147483634
 
 For the second case, one possible example of a valid sequence is b = 9, 9, 18, 19, 32. We can check that this sequence is nondecreasing, and also, we have (**a**1 XOR b1) = 12, (**a**2 XOR b2) = 13, (**a**3 XOR b3) = 17, (**a**4 XOR b4) = 17, (**a**5 XOR b5) = 33, which is also nondecreasing.

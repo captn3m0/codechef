@@ -91,7 +91,7 @@ For each test case, output a single line containing one integer: the answer for 
 
 - **1** ≤ **T** ≤ **5**
 - **1** ≤ **N** ≤ **105**
-- ≤ **K** ≤ **5**
+- 0 ≤ **K** ≤ **5**
 
 ### Example
 
@@ -103,8 +103,8 @@ For each test case, output a single line containing one integer: the answer for 
 <b>Output:</b>
 28
 56
-
 </pre>### Explanation
+
 **Test case 1:**
  There are:
 

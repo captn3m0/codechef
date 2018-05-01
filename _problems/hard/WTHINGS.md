@@ -141,8 +141,8 @@ For each round of the game, output a single line containing the number of differ
 <b>Output:</b>
 2
 0
-
 </pre>### Explanations
+
 For the first query, **A** could be equal to both 2 and 3;
 
 For the second query, there are no possible variants for **A**.

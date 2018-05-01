@@ -132,10 +132,10 @@ For each test case, print a single number, the number of pairs (**u**, **v**) th
 <b>Output:</b>
 7
 
-
 </pre>### Explanation
+
 **Example case 1:** All possible pairs are: {  **(1,1) (1,2) (1,3) (1,4) (1,5) (2,2) (2,3) (2,4) (2,5) (3,3) (3,4) (3,5) (4,4) (4,5) (5,5)**  }. The valid pairs are: {  **(1,1) (1,2) (1,3) (1,4) (2,3) (3,3) (3,4)**  }.
 
-The pair **(1,5)** is invalid because if we get all the nodes values in the path from node **1** to node **5**, the array will be: **{1, 4, -100}**, and the mean is: **-31,666** which is less than .
+The pair **(1,5)** is invalid because if we get all the nodes values in the path from node **1** to node **5**, the array will be: **{1, 4, -100}**, and the mean is: **-31,666** which is less than 0.
 
 The pair **(2,2)** is invalid because the median of the array **{5}** is **5** which is greater than **4**

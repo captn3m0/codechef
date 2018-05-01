@@ -131,7 +131,7 @@ For each query, output a single line containing the sum accurate up to **10-6**.
  6.783038317971530
  5.816449269601737
  
-
 </pre>### Subtasks
+
 - **Subtask 1:** **Q**\***N2** ≤ 77777777. **Points - 15**
 - **Subtask 2:** Original constraints. **Points - 85**

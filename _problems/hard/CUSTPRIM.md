@@ -134,8 +134,8 @@ NOT PRIME
 NOT PRIME
 PRIME
 
-<pre>
-</pre>### Explanation
+<pre></pre>### Explanation
+
 **Example case 1.** The number **(11,11,11)** is a zero, so it's not prime.
 
 **Example case 2.** The number **(4,4,24)** is a unit, so it's not prime.

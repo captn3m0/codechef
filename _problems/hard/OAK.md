@@ -88,7 +88,7 @@ The i-th of the following **m** lines describes the i-th event Chef has observed
 
 - The first integer is **state** ― the state of the oak we are applying the new event to. **state = 0** means the state at the very beginning with no branches fallen and no acorns grown. **state > 0** means the state right after the event number **state**
 - The second integer is **q** ― the type of the event
-- If **q = 1**, two integers **u** and **x** follow, meaning that **x** acorns have grown on the branch **u**. After this event some branch could have fallen, and if this is the case, output the number of this branch. Otherwise output
+- If **q = 1**, two integers **u** and **x** follow, meaning that **x** acorns have grown on the branch **u**. After this event some branch could have fallen, and if this is the case, output the number of this branch. Otherwise output 0
 - If **q = 2**, an integer **u** follows meaning that a bird has sat down on the branch **u** and all the acorns from this branch and from all the branches below it have fallen. For this type of event Chef asks you to print the total number of acorns that have fallen
 
 ### Output
@@ -99,10 +99,10 @@ For each event print the value Chef asked you about on a separate line.
 
 - **1** ≤ **T** ≤ **5**
 - **1** ≤ **n, m** ≤ **105**
-- ≤ **pv** v
-- ≤ **wv, x** ≤ **107**
+- 0 ≤ **pv** v
+- 0 ≤ **wv, x** ≤ **107**
 - **1** ≤ **u** ≤ **n**
-- ≤ **state** m
+- 0 ≤ **state** m
 
 ### Subtasks
 
@@ -135,15 +135,15 @@ For each event print the value Chef asked you about on a separate line.
 1
 0
 1
-
 </pre>### Explanation
+
 **Example event 1.** Branch **5** can hold at most **4** acorns, so after **5** have grown there, it immediately falls down. Notice that the branch **3** doesn't fall down (even though it also can't hold **5** acorns), because the branch **5** no longer grows out of it. We output **5** as this branch has fallen down and create a state of the oak with index **1** having branch **5** fallen and having no acorns in the other four branches.
 
-**Example event 2.** We take the state  as the base, so we once again have branch **5** on the tree. One acorn has grown at the branch **4**. No branch has fallen as every one can hold at least one acorn, thus we print . Resulting state after this event (with index **2**) has all five branches and one acorn on branch **4**.
+**Example event 2.** We take the state 0 as the base, so we once again have branch **5** on the tree. One acorn has grown at the branch **4**. No branch has fallen as every one can hold at least one acorn, thus we print 0. Resulting state after this event (with index **2**) has all five branches and one acorn on branch **4**.
 
 **Example event 3.** We take the state **2** as the base, which is the resulting state after previous event. After two acorns have grown on the branch **5**, we have one acorn on branch **4** and two acorns on branch **5**. Both these branches are below branch **3** which can hold at most two acorns, so as a result branch **3** falls down. The resulting state (with index **3**) has only two branches left ― **1** and **2** with no acorns on them.
 
-**Example event 4.** We once again take the state **2** as the base, but this time remove all the acorns from branch **3** and from all the branches below it (**4** and **5**). Branch **5** had no acorns and branch **4** had one acorn on it (that has grown during event **2**), so we print **1** as the total number of acorns fallen. The resulting state (with index **4**) has the full tree (no branches have fallen) with no acorns. So, the state **4** is basically equivalent to the state .
+**Example event 4.** We once again take the state **2** as the base, but this time remove all the acorns from branch **3** and from all the branches below it (**4** and **5**). Branch **5** had no acorns and branch **4** had one acorn on it (that has grown during event **2**), so we print **1** as the total number of acorns fallen. The resulting state (with index **4**) has the full tree (no branches have fallen) with no acorns. So, the state **4** is basically equivalent to the state 0.
 
 **Example event 5.** This event is similar to event **3**. The only difference is that the base state (**4** for this event) doesn't contain any acorns. So branch **3** has only two acorns below it after this event and doesn't fall down.
 

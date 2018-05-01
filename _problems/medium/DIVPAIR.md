@@ -91,5 +91,4 @@ Output one line per testcase, the number of pairs **(a,b)** as described before.
 2
 0
 
-
 </pre>

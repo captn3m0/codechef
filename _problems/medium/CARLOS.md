@@ -96,7 +96,7 @@ For each test case, output a single line containing **-1** if it's impossible to
 
 - **1** ≤ **T** ≤ **10**
 - **1** ≤ **N** ≤ **200000**
-- ≤ **K** ≤ **M(M-1)/2**
+- 0 ≤ **K** ≤ **M(M-1)/2**
 - **1** ≤ **x,y** ≤ **M**
 - all unordered pairs **(x,y)** will be distinct
 - **1** ≤ **ai** ≤ **M**
@@ -131,8 +131,8 @@ Subtask 3 (22 points):
 <b>Output:</b>
 2
 -1
-
 </pre>### Explanation
+
 **Example case 1.** It's possible to transform the first letter to 1 and the last letter to 2. The resulting word has letters 1 2 2.
 
 **Example case 2.** This word can only be transformed to 2 1 or 3 1.

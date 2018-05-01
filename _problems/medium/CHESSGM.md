@@ -37,5 +37,4 @@ Output an only integer which is the result calculated, by modulo of 1,000,000,00
 2 6
 <b>Output:</b>
 5
-
 </pre>

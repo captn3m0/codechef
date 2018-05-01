@@ -114,8 +114,8 @@ For each testcase, output a single line containing an integer - the answer for t
 0
 4
 42
-
 </pre>### Explanations:
+
 There are **four** different well-painted flags for **N** = 2 different colors :
 
 ![](/download/extimages/57c2f54761cda108c18bd840f4638fda.jpg)

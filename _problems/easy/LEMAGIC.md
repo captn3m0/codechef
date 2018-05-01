@@ -69,7 +69,7 @@ layout: problem
 ---
 All submissions for this problem are available.The Little Elephant from the Zoo of Lviv believes in magic.
 
-He has a magic board **A** that consists of **N** rows and **M** columns. Each cell of the board contains an integer from  to **9** inclusive. The cell at the intersection of the **i**-th row and the **j**-th column is denoted as **(i; j)**, where **1** ≤ **i** ≤ **N** and **1** ≤ **j** ≤ **M**. The number in the cell **(i; j)** is denoted as **A\[i\]\[j\]**.
+He has a magic board **A** that consists of **N** rows and **M** columns. Each cell of the board contains an integer from 0 to **9** inclusive. The cell at the intersection of the **i**-th row and the **j**-th column is denoted as **(i; j)**, where **1** ≤ **i** ≤ **N** and **1** ≤ **j** ≤ **M**. The number in the cell **(i; j)** is denoted as **A\[i\]\[j\]**.
 
 The Little Elephant owns the only magic operation which can be described as follows. He chooses some integer **P** and some row or column, after that for each cell in the chosen row or column he adds number **P** to the number in this cell and take the result modulo **10** in order to keep numbers in the range **{0, 1, ..., 9}**. Our Little Magician wants to perform series of such operations to achieve some board for which certain characteristic called _level of the board_ is maximal possible.
 
@@ -103,7 +103,7 @@ For each test case output a single line containing a single integer, the maximal
 **1** ≤ **T** ≤ **10**
 **1** ≤ **N** ≤ **100**
 **1** ≤ **M** ≤ **100**
- ≤ **A\[i\]\[j\]** ≤ **9**
+0 ≤ **A\[i\]\[j\]** ≤ **9**
 
 ### Example
 
@@ -121,38 +121,37 @@ For each test case output a single line containing a single integer, the maximal
 <b>Output:</b>
 3
 5
-
 </pre>### Explanation
+
 **Case 1.** The board already has a sequence of **3** cells that satisfies all required constraints (without applying any operation). For example, one can choose, the sequence **(1; 1), (1; 2), (2; 2)**. It is also shown in the figure below (chosen cells are made bold):
 
 <pre>
 <b>11</b>
 1<b>0</b>
+</pre>Let's formally validate this sequence of cells. Inequality **1** ≤ **i1** ≤ ... ≤ **iK** ≤ **N** takes the form **1** ≤ **1** ≤ **2**. Inequality **1** ≤ **j1** ≤ ... ≤ **jK** ≤ **M** takes the form **1** ≤ **2** ≤ **2**. Finally, inequality **A\[i1\]\[j1\]** ≥ **A\[i2\]\[j2\]** ≥ ... ≥ **A\[iK\]\[jK\]** takes the form **1** ≥ **1** ≥ 0. So all of them is satisfied, which means that the level of this board is at least **3**. But clearly, we can't have the required sequence of cells of length more than **3**. So **3** is the actual level of this board.
 
-</pre>Let's formally validate this sequence of cells. Inequality **1** ≤ **i1** ≤ ... ≤ **iK** ≤ **N** takes the form **1** ≤ **1** ≤ **2**. Inequality **1** ≤ **j1** ≤ ... ≤ **jK** ≤ **M** takes the form **1** ≤ **2** ≤ **2**. Finally, inequality **A\[i1\]\[j1\]** ≥ **A\[i2\]\[j2\]** ≥ ... ≥ **A\[iK\]\[jK\]** takes the form **1** ≥ **1** ≥ . So all of them is satisfied, which means that the level of this board is at least **3**. But clearly, we can't have the required sequence of cells of length more than **3**. So **3** is the actual level of this board.
 **Case 2.** The desired sequence of length **5** can be achieved by several values of **P**. Consider, for example, **P = 3**. At first let's apply the magic operation to the 1st row. We get the following transformation:
 
 <pre>
 3478  →  <b>6701</b>
 4268  →  4268
 7173  →  7173
-
 </pre>Now let's transform the 1st column by the magic operation. We get:
+
 <pre>
 6701  →  <b>9</b>701
 4268  →  <b>7</b>268
 7173  →  <b>0</b>173
-
 </pre>Finally we modify the 2nd column:
+
 <pre>
 9701  →  9<b>0</b>01
 7268  →  7<b>5</b>68
 0173  →  0<b>4</b>73
-
 </pre>Now we can take the following sequence of 5 cells to satisfy all needed constraints: **(1; 1), (2; 1), (2; 2), (3; 2), (3; 4)** (see the figure below):
+
 <pre>
 <b>9</b>001
 <b>75</b>68
 0<b>4</b>7<b>3</b>
-
 </pre>Just to reiterate we note that the inequality **A\[i1\]\[j1\]** ≥ **A\[i2\]\[j2\]** ≥ ... ≥ **A\[iK\]\[jK\]** takes the form **9 ≥ 7 ≥ 5 ≥ 4 ≥ 3** for this sequence. One can check (for example, by brute force), that sequences of length more than **5** can't be achieved. So **5** is the answer.

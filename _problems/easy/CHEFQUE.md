@@ -69,8 +69,8 @@ Output a single line containing a single integer — sum of elements in the set 
 </tt>
 <b>Output:</b>
 <tt>5362358669068782</tt>
-
 </pre>### Explanation:
+
 The sequence {Si} is 1, 2, 3, 4, 5:
 
 Operation 1, 1 mod 2 = 1, add number \[1 / 2\] = 0 to set, sum is 0.

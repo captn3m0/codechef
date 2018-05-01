@@ -112,6 +112,6 @@ For every Chuwi's performed operation output the maximal value in a single line.
 0
 1
 
-
 </pre>### Explanation
+
 **Example case 1.** For Chuwi's subarray \[2, 1, 4, 3\] there are 4 possible values of (**A**\[**M**\] - **A**\[**L**\]) \* (**A**\[**R**\] - **A**\[**M**\]) - {0, -2, -2, 0} correspondingly, maximal value will be 0. After the second operation array will be \[2, 3, 4, 3\]. And for Chuwi's subarray \[2, 3, 4\] possible 3 values - {0, 1, 0}, hence answer is 1.

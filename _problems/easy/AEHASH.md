@@ -24,6 +24,7 @@ The pseudocode of the hash function is as below. hash(S) is the hash value of a 
 	return result
 end function
 </pre>The function split in the above pseudocode takes a binary string S as the parameter and returns a pair of binary strings (S1, S2) such that:
+
 - |S1| <= |S2|.
 - The difference of |S1| and |S2| is at most 1.
 - The concatenation of S1 and S2 (in that order) is S.
@@ -62,8 +63,8 @@ For each test case, output a single line consisting the number of different bina
 1
 3
 4
-
 </pre>### Explanation
+
 For the last test case, the solutions are: - AAEAAE
 - AEAAAE
 - AAEAEA

@@ -112,8 +112,8 @@ For each query of the first type you need to output two numbers: the minimal num
 <b>Output:</b>
 0 3 
 0 2
-
 </pre>### Explanation
+
 Initially **A\[\]** = {0, 1, 0, 1, 0}.
 
 After the second query **A\[\]** = {1, 0, 1, 0, 1}.

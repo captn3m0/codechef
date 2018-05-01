@@ -112,5 +112,4 @@ Second
 First
 
 <b>Explanation:</b>
-
 </pre>In the first two test cases, the game ends after the second turn (which is the first turn of the second magician) as the passage created by the first magician hands a win to the second magician. In the third test case, the game ends after the fourth turn (the second magician may need to use **1** telepoint here). In the fourth test case, the game ends after the third turn (the first magician has to use **1** telepoint here).

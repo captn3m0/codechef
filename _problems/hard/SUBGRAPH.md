@@ -124,5 +124,4 @@ For each test case, output a single line containing one integer: the number of d
 20
 5
 
-
 <pre>

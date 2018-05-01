@@ -94,7 +94,7 @@ In the only line of the output file print the expected size of the maximum match
 
 **1** ≤ **M** ≤ **100**
 
- ≤ **P\[i\]\[j\]** ≤ **1**
+0 ≤ **P\[i\]\[j\]** ≤ **1**
 
 **P\[i\]\[j\]** will have exactly **5** digits after the decimal point
 
@@ -118,8 +118,8 @@ In the only line of the output file print the expected size of the maximum match
 
 <b>Output 2:</b>
 1.46
-
 </pre>### Explanation
+
 In the second example we have four different graphs with non-zero value of **P(G)**. Their adjacent matrices with marked maximum matching as well as the values of **MM(G)** and **P(G)** are listed in the table below.
 
 **Adjacent matrix****MM(G)****P(G)**0101**1**(1 – 0.4) ∙ (1 – 0.1) = 0.6 ∙ 0.9 = **0.54**1101**2**0.4 ∙ (1 – 0.1) = 0.4 ∙ 0.9 = **0.36**0111**2**(1 – 0.4) ∙ 0.1 = 0.6 ∙ 0.1 = **0.06**1111**2**0.4 ∙ 0.1 = **0.04**So the answer is **0.54 ∙ 1 + 0.36 ∙ 2 + 0.06 ∙ 2 + 0.04 ∙ 2 = 1.46**.

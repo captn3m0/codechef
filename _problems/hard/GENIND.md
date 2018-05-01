@@ -65,5 +65,4 @@ If there are multiple such cycles, then any will do. Also, the order in which th
 Ok
 Bad Cycle: 4 5 2 0 1 -1
 Bad Cycle: 3 2 -1
-
 </pre>

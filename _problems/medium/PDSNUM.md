@@ -90,5 +90,4 @@ For each test case, output on a line the respective PDS(N) calculated.
 <b>Output:</b>
 1
 66
-
 </pre>

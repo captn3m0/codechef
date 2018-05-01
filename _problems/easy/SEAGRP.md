@@ -109,5 +109,4 @@ For each test case print **"YES"**, if you can remove the edges so that the degr
 YES
 NO
 YES
-
 </pre>

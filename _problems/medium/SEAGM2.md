@@ -113,5 +113,4 @@ For each test case, output the probability Sereja is interested in, with 6 digit
 <b>Output:</b>
 1.000000
 0.500000
-
 <pre>

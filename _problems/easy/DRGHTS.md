@@ -75,7 +75,7 @@ Furik is interested in one question: what is the number of pairs of rooms, which
 
 ### Input
 
-The first line contains two space-separated integers **N** and **M**. The next line contains **N** integers, where the **i**th number is equal to **1**, if the window in the room number **i** is opened, otherwise . Then the next **M** lines contain pairs of integers, where the **i**th pair denotes the numbers of the connected rooms by **i**th passageway. Consider that the rooms are numerated by different integers from **1** to **N**.
+The first line contains two space-separated integers **N** and **M**. The next line contains **N** integers, where the **i**th number is equal to **1**, if the window in the room number **i** is opened, otherwise 0. Then the next **M** lines contain pairs of integers, where the **i**th pair denotes the numbers of the connected rooms by **i**th passageway. Consider that the rooms are numerated by different integers from **1** to **N**.
 
 ### Output
 
@@ -84,7 +84,7 @@ In a single line print two numbers, denoting the answers to Furik and Rubik ques
 ### Constraints
 
 - **1** ≤ **N** ≤ **50000 (5 × 104)**
-- ≤ **M** ≤ **N − 1**
+- 0 ≤ **M** ≤ **N − 1**
 - There is at most one way to move between each pair of rooms, that is, the given graph is a forest
 
 ### Example
@@ -109,5 +109,4 @@ In a single line print two numbers, denoting the answers to Furik and Rubik ques
 
 <b>Output:</b>
 0 0
-
 </pre>

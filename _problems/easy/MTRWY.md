@@ -78,7 +78,7 @@ Now you are given **Q** queries, each of whom is of following four types.
 
 - **1 x y** - build the wall between cells **(x, y)** and **(x, y+1)**. If there is already exist a wall between them, this query is ignored.
 - **2 x y** - build the wall between cells **(x, y)** and **(x+1, y)**. If there is already exist a wall between them, this query is ignored.
-- **3 x1 y1 x2 y2** - check if cells **(x1, y1)** and **(x2, y2)** are connected. You must answer **1** if they are connected,  otherwise.
+- **3 x1 y1 x2 y2** - check if cells **(x1, y1)** and **(x2, y2)** are connected. You must answer **1** if they are connected, 0 otherwise.
 - **4** - You must answer the size of the largest connected component. A connected component is a set of sells wherein each two cells are connected. The size of a connected component is a number of the cells in it.
 
 You must assume that there are no walls on the grid before the queries.
@@ -133,8 +133,8 @@ For each test case, output an integer, denoting the sum of answers for queries o
 
 <b>Output:</b>
 21
-
 </pre>### Explanation
+
 **Query 1.** There are a lot of ways from **(1,1)** to **(3,4)**. One of them is marked in red in the picture #1. So these are connected, then **Answer = 1** in this query.
 
 **Query 2.** In the picture #2 you can see the grid after second query.

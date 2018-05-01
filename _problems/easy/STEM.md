@@ -99,6 +99,6 @@ For each test case, output the stem in a new line.
 grace graceful disgraceful gracefully
 <b>Output:</b>
 grace
-
 </pre>### Explanation
+
 The stem is grace.

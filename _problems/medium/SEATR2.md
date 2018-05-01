@@ -104,6 +104,6 @@ For each test case, output a single integer corresponding to the answer in separ
 <b>Output:</b>
 5
 100
-
 </pre>### Explanation
+
 In first test case there are five possible assigns of numbers: \[1, 1, 1\], \[1, 1, 2\], \[1, 2, 1\], \[1, 2, 2\], \[2, 2, 2\]. In second test case there are hundred possible assigns: \[1\], \[2\], \[3\], ..., \[100\].

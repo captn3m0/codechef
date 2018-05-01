@@ -175,7 +175,7 @@ Invalid-ID
 
 Format does not conform
 
-
 </pre>### Notes
+
 - "or" has the least precedence among all keywords. For example 1 or 2 3 times is interpreted as 1 or (2 3 times) instead of (1 or 2) 3 times.
 - "optional" and "times" have equal precedence, which is lower than all other keywords but higher than "or". Like 1 to 3 4 times is interpreted as (1 to 3) 4 times.

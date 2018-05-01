@@ -101,7 +101,7 @@ Output integers **A1**, **A2**, … , **AR** each in a separate line. Here **Ai*
 
 - **1** ≤ **N** ≤ **50000**
 - **1** ≤ **Q** ≤ **105**
-- ≤ **Time** ≤ **109**
+- 0 ≤ **Time** ≤ **109**
 - **1** ≤ **NewSpeed** ≤ **109**
 - **1** ≤ **cyclist** ≤ **N**
 - **The speed of any cyclist cannot decrease.**
@@ -139,5 +139,4 @@ Output integers **A1**, **A2**, … , **AR** each in a separate line. Here **Ai*
 42
 49
 56
-
 </pre>

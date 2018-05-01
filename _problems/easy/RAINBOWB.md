@@ -135,5 +135,4 @@ Output the number of different Rainbow Arrays with **N** elements, modulo **10^9
 7
 
 <p> </p>
-
 </pre>

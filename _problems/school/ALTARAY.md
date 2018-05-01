@@ -107,8 +107,8 @@ For each test case, output one line with **N** space-separated integers - the le
 1 1 1 1
 4 3 2 1
 1 1 3 2 1 1
-
 </pre>### Explanation
+
 **Example case 1.** No two elements have different signs, so any alternating subarray may only consist of a single number.
 
 **Example case 2.** Every subarray is alternating.

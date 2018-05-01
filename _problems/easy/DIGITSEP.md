@@ -79,7 +79,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 Mr. Wilson was planning to record his new Progressive Rock music album called "**Digits. Cannot. Separate**". Xenny and PowerShell, popular pseudo-number-theoreticists from the Land of Lazarus were called by him to devise a strategy to ensure the success of this new album. Xenny and Powershell took their Piano Lessons and arrived at the Studio in different Trains.
 
-Mr. Wilson, creative as usual, had created one single, long music track **S**. The track consisted of **N** musical notes. The beauty of each musical note was represented by a decimal digit from  to **9**.
+Mr. Wilson, creative as usual, had created one single, long music track **S**. The track consisted of **N** musical notes. The beauty of each musical note was represented by a decimal digit from 0 to **9**.
 
 Mr. Wilson told them that he wanted to create multiple musical tracks out of this long song. Since Xenny and Powershell were more into the number theory part of music, they didn’t know much about their real workings. Mr. Wilson told them that a **separator** could be placed between 2 digits. After placing separators, the digits between 2 separators would be the constituents of this new track and the number formed by joining them together would represent the Quality Value of that track. He also wanted them to make sure that no number formed had greater than **M** digits.
 
@@ -129,7 +129,7 @@ For both **Subtask 1 and Subtask 2:**
 
 - **1** ≤ **X** ≤ **Y** ≤ **(N - 1)**
 - **M**\***(Y+1)** ≥ **N**
-- **S** may contain leading s.
+- **S** may contain leading 0s.
 
 ### Example
 
@@ -146,8 +146,8 @@ For both **Subtask 1 and Subtask 2:**
 <b>Output:</b>
 2
 1
-
 </pre>### Explanation
+
 **Test case 1.**
 
 Since only **1 separator** can be placed, we can only have 2 possibilities:

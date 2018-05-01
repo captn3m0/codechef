@@ -71,11 +71,11 @@ layout: problem
 ---
 All submissions for this problem are available.The Little Elephant and his friends from the Zoo of Lviv were returning from the party. But suddenly they were stopped by the policeman Big Hippo, who wanted to make an alcohol test for elephants.
 
-There were **N** elephants ordered from the left to the right in a row and numbered from  to **N-1**. Let **R\[i\]** to be the result of breathalyzer test of **i**-th elephant.
+There were **N** elephants ordered from the left to the right in a row and numbered from 0 to **N-1**. Let **R\[i\]** to be the result of breathalyzer test of **i**-th elephant.
 
 Considering current laws in the Zoo, elephants would be arrested if there exists **K** consecutive elephants among them for which at least **M** of these **K** elephants have the maximal test result among these **K** elephants.
 
-Using poor math notations we can alternatively define this as follows. The elephants would be arrested if there exists **i** from  to **N-K**, inclusive, such that for at least **M** different values of **j** from **i** to **i+K-1**, inclusive, we have **R\[j\] = max{R\[i\], R\[i+1\], ..., R\[i+K-1\]}**.
+Using poor math notations we can alternatively define this as follows. The elephants would be arrested if there exists **i** from 0 to **N-K**, inclusive, such that for at least **M** different values of **j** from **i** to **i+K-1**, inclusive, we have **R\[j\] = max{R\[i\], R\[i+1\], ..., R\[i+K-1\]}**.
 
 The Big Hippo is very old and the Little Elephant can change some of the results. In a single operation he can add **1** to the result of any elephant. But for each of the elephants he can apply this operation at most once.
 
@@ -114,9 +114,9 @@ For each test case, output a single line containing the minimum number of operat
 1
 1
 -1
-
 </pre>### Explanation
-**Example case 1.** Let's follow the poor math definition of arrest. We will consider all values of **i** from  to **N-K = 2**, inclusive, and should count the number of values of **j** described in the definition. If it less than **M = 2** then this value of **i** does not cause the arrest, otherwise causes.
+
+**Example case 1.** Let's follow the poor math definition of arrest. We will consider all values of **i** from 0 to **N-K = 2**, inclusive, and should count the number of values of **j** described in the definition. If it less than **M = 2** then this value of **i** does not cause the arrest, otherwise causes.
 
 **i****{R\[i\],...,R\[i+K-1\]}****max{R\[i\],...,R\[i+K-1\]}**For which **j = i, ..., i+K-1**
  we have **R\[j\] = max**Conclusion**i=0****{1, 3, 1}****max = 3****R\[j\] = 3** for **j = 1**does not cause the arrest**i=1****{3, 1, 2}****max = 3****R\[j\] = 3** for **j = 1**does not cause the arrest**i=2****{1, 2, 1}****max = 2****R\[j\] = 2** for **j = 3**does not cause the arrestSo we see that initial test results of the elephants do not cause their arrest. Hence the Little Elephant does not need to apply any operations. Therefore, the answer is 0.
@@ -137,4 +137,4 @@ For each test case, output a single line containing the minimum number of operat
 **i****{R\[i\],...,R\[i+K-1\]}****max{R\[i\],...,R\[i+K-1\]}**For which **j = i, ..., i+K-1**
  we have **R\[j\] = max**Conclusion**i=0****{7, 8, 7}****max = 8****R\[j\] = 8** for **j = 1**does not cause the arrest**i=1****{8, 7, 8}****max = 8****R\[j\] = 8** for **j = 1, 3**does not cause the arrest**i=2****{7, 8, 8}****max = 8****R\[j\] = 8** for **j = 3, 4**does not cause the arrestSo we see that now test results of the elephants do not cause their arrest. Thus we see that using 0 operations we can't avoid the arrest but using 1 operation can. Hence the answer is 1. Note that if we increase by 1 the result **R\[2\]** instead of **R\[1\]** then the value **i = 2** will cause the arrest since **{R\[2\], R\[3\], R\[4\]}** will be **{8, 8, 8}** after this operation and we will have 3 values of **j** from **2** to **4**, inclusive, for which **R\[j\] = max{R\[2\], R\[3\], R\[4\]}**, namely, **j = 2, 3, 4**.
 
-**Example case 4.** When **M = 1** the Little Elephant can't reach the goal since for each value of **i** from  to **N-K** we have at least one value of **j** for which **R\[j\] = max{R\[i\], R\[i+1\], ..., R\[i+K-1\]}**.
+**Example case 4.** When **M = 1** the Little Elephant can't reach the goal since for each value of **i** from 0 to **N-K** we have at least one value of **j** for which **R\[j\] = max{R\[i\], R\[i+1\], ..., R\[i+K-1\]}**.

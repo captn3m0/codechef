@@ -108,8 +108,8 @@ Output the answer to the query in a single line.
 <b>Output:</b>
 11
 
-
 </pre>### Subtasks
+
 - **Subtask 1:**  **N** ≤ 102. **Points - 10**
 - **Subtask 2:**  **N** ≤ 104. **Points - 20**
 - **Subtask 3:**  **N** ≤ 105. **Points - 30**

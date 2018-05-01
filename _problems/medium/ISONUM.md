@@ -105,8 +105,8 @@ For each test case, output a single line containing the answer to the problem. #
 <b>Output:</b>
 70
 102768568246676
-
 </pre>### Explanation
+
 **Example case 1.** Numbers 1, 2, 3, ..., 9 are isomorphic to 1. Numbers 10, 12, 13, 14, 15 are isomorphic to 10. Among the numbers from 1 to 15, 11 is isomorphic only to itself. So, we get 1 + 1 + ... + 1 + 10 + 11 + 10 + 10 + 10 + 10 = 70.
 
 **Example case 2.** This is just a large case so that you can check your solution better.

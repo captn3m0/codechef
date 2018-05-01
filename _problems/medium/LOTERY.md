@@ -105,7 +105,7 @@ For each test case, output a single integer — the answer for the given query.
 ### Constraints and Subtasks
 
 - **1** ≤ **T** ≤ **106**
-- ≤ **A**, **B**, **Ci**, **Di** < **M** ≤ **105**
+- 0 ≤ **A**, **B**, **Ci**, **Di** < **M** ≤ **105**
 - **1** ≤ **K1** ≤ **N1**< **M**
 
 **Subtask1:(10 points)**
@@ -141,7 +141,6 @@ For each test case, output a single integer — the answer for the given query.
 <tt>2
 3
 6</tt>
-
 </pre><pre><b>Input:</b>
 <tt>4
 5 2

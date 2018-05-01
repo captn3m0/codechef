@@ -117,8 +117,8 @@ For each test case, output a single integer corresponding to the answer of the p
 <b>Output:</b>
 1
 2
-
 </pre>### Explanation
+
 **In the first example**, it will take Devu one second for putting the perfume at the only house. So, the answer is 1.
 
 **In the second example**, He will first put the perfume at the \* at cell (1, 1) (assuming 0-based indexing).

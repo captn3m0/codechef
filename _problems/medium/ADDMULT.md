@@ -112,8 +112,8 @@ For each test case, output a single line containing who will win the game: "Chef
 <b>Output:</b>
 Chef
 Chefu
-
 </pre>### Explanation
+
 **Test case 1:** The game stops as soon as it begins, because there is only one integer, and because it is even, Chef wins.
 
 **Test case 2:** Chef has 4 valid first moves:

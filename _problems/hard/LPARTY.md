@@ -99,7 +99,7 @@ For each test case, output a single line containing one integer - the minimal po
 ### Constraints
 
 - **1** ≤ **T** ≤ **120**
-- ≤ **M** ≤ **1000**
+- 0 ≤ **M** ≤ **1000**
 
 Subtask 1 (23 points):
 
@@ -123,8 +123,8 @@ AbC
 <b>Output:</b>
 5
 6
-
 </pre>### Explanation
+
 The first test case is explained in the problem statement.
 
 In the second test case we can only take two given subsets and can't find anything less.

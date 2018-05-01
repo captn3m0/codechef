@@ -107,6 +107,6 @@ Print **T** lines, with the **i**th one containing the solution string for the *
 <b>Output:</b>
 ()()
 (())
-
 </pre>### Explanation
+
 For the first sample case, "(())" are "()()" are two possible outputs. Printing anyone will do.

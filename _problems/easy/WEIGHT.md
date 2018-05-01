@@ -21,8 +21,8 @@ Let us denote an **n** digit decimal number by a1a2a3...an with the condition th
   		weight = weight + ABS(a<sub>i+1</sub> - a<sub>i</sub>)
 
 
-
-</pre>Here ABS is the absolute value of the argument.Given _n_ and a weight _w_, find all the _n_ digit numbers having a weight _w_. Since the answer could be very large, print the answer modulo 1000007.
+</pre>Here ABS is the absolute value of the argument.
+Given _n_ and a weight _w_, find all the _n_ digit numbers having a weight _w_. Since the answer could be very large, print the answer modulo 1000007.
 
 ### Input Format:
 
@@ -34,7 +34,7 @@ This will be followed by **t** lines each consisting of numbers **n** and **w**.
 
 
 - 2 <= **n** <= 20
-- <= **w** <= 200
+- 0 <= **w** <= 200
 
 
 ### Output Format:
@@ -49,11 +49,10 @@ For each test case print the answer modulo 1000007 in a separate line.
 2
 10 0
 2 1
-
 </pre>### Sample Output:
+
 
 <pre>
 9
 17
-
 </pre>

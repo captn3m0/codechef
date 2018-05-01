@@ -71,9 +71,9 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MARCH15/mandarin/STRSUB.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH15/russian/STRSUB.pdf).
 
-You are given a string **S** of length **N** consisting only of s and **1**s. You are also given an integer **K**.
+You are given a string **S** of length **N** consisting only of 0s and **1**s. You are also given an integer **K**.
 
-You have to answer **Q** queries. In the **i**th query, two integers **Li** and **Ri** are given. Then you should print the number of substrings of **S\[L, R\]** which contain at most **K** s and at most **K** **1**s where **S\[L, R\]** denotes the substring from **L**th to **R**th characters of the string **S**. 
+You have to answer **Q** queries. In the **i**th query, two integers **Li** and **Ri** are given. Then you should print the number of substrings of **S\[L, R\]** which contain at most **K** 0s and at most **K** **1**s where **S\[L, R\]** denotes the substring from **L**th to **R**th characters of the string **S**. 
 In other words, you have to count number of pairs **(i, j)** of integers such that **L ≤ i ≤ j ≤ R** such that no character in substring **S\[i, j\]** occurs more than **K** times.
 
 ### Input
@@ -94,7 +94,7 @@ For each query, print the required answer in a single line.
 - **1 ≤ Li ≤ Ri ≤ N**
 - Sum of **N** over all test cases in one test file does not exceed **105**
 - Sum of **Q** over all test cases in one test file does not exceed **105**
-- **S** consists only of s and **1**s.
+- **S** consists only of 0s and **1**s.
 
 **Subtask 1: 10 points**
 
@@ -127,14 +127,14 @@ For each query, print the required answer in a single line.
 8
 5
 7
-
 </pre>### Explanation
+
 **Query 1:** Consider substring **P = S\[1, 4\] = "0111"**.
 Out of **10** total substrings of **P**, substrings **P\[1, 4\]** and **P\[2, 4\]** are not valid because both contain more than two **1**s.
- Other substrings contains at most two s and at most two **1**s, thus the answer is **8**./>/>
+ Other substrings contains at most two 0s and at most two **1**s, thus the answer is **8**./>/>
 
 **Query 2:** Consider substring **P = S\[2, 4\] = "111"**.
 Out of **6** total substrings of **P**, substrings **P\[1, 3\]** is not valid because it contains more than two 1s./>
 
 **Query 3:** Consider substring **P = S\[5, 8\] = "0000"**.
-Out of **10** total substrings of **P**, substrings **P\[1, 3\]**, **P\[1, 4\]** and **P\[2, 4\]** are not valid because all contain more than two s./>
+Out of **10** total substrings of **P**, substrings **P\[1, 3\]**, **P\[1, 4\]** and **P\[2, 4\]** are not valid because all contain more than two 0s./>

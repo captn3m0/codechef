@@ -127,8 +127,8 @@ For each test case, output a single line containing an integer corresponding to 
 2
 1
 
-
 </pre>### Explanation
+
 **Example 1:** We could cut 2 doughnut from any "chain" and use them to connect chains to the one. 
  For example, let's cut it from the first chain. After this we will have chains of sizes 2, 3, 4 and two doughnuts that have been cut. So we could connect the first chain with second and second with third using these two doughnuts./>
 

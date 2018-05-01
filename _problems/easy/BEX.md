@@ -108,5 +108,4 @@ For each -1 in the input, output a single line containing the number of books Ha
 <b>Output:</b>
 1 mathematics
 0 graphics
-
 </pre>

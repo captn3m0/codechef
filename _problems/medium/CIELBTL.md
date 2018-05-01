@@ -26,7 +26,7 @@ When a fighter's HP is down to zero or a negative integer, this fighter loses. I
 
 ### Input
 
-An input contains 5 integers **VA**, **VB**,**SA**, **SB** and **MA**.
+An input contains 5 integers **VA**, **VB**, **SA**, **SB** and **MA**.
 
 ### Output
 

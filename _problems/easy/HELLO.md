@@ -83,11 +83,11 @@ For each test case, output one integer- the number of the best plan (from 1 to N
 ### Constraints
 
 1 ≤ **T** ≤ 100
-0\.5 ≤ **D** ≤ 10.0 (exactly 2 digits after the decimal point)
+0.5 ≤ **D** ≤ 10.0 (exactly 2 digits after the decimal point)
 1 ≤ **U** ≤ 10000
 1 ≤ **N** ≤ 100
 1 ≤ **M** ≤ 36
-0\.05 ≤ **R** < **D** (exactly 2 digits after the decimal point)
+0.05 ≤ **R** < **D** (exactly 2 digits after the decimal point)
 1 ≤ **C** ≤ 1000
 
 ### Example
@@ -112,8 +112,8 @@ For each test case, output one integer- the number of the best plan (from 1 to N
 2
 0
 2
-
 </pre>### Explanation
+
 **Test Case 1:** This test case is same as the example in the problem statement.
 **Test Case 2:** This is for you to work out!
 **Test Case 3:** Chef's monthly usage is only 50 Rokdas and none of the 2 plans are advantageous, hence the answer is zero '0'.

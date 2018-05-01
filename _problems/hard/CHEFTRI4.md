@@ -117,8 +117,8 @@ Yes
 No
 Yes
 
-
 </pre>### Explanation
+
 **Example case 1.** We can obtain (6, 8, 10).
 
 **Example case 2.** We can obtain (182, 303, 472).

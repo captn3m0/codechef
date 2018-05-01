@@ -98,22 +98,22 @@ In the second line, print these ids (numbering) of these gnomes in increasing or
 
 - **1** ≤ **N** ≤ **500**
 - **1** ≤ **M** ≤ **500**
-- ≤ **k** ≤ **109**
+- 0 ≤ **k** ≤ **109**
 - **1** ≤ **x** ≤ **N**
-- ≤ **g\[i\]\[j\]** ≤ **1**
+- 0 ≤ **g\[i\]\[j\]** ≤ **1**
 
 ###  Subtasks 
 
  **Subtask #1 : (10 points)** - **1** ≤ **N** ≤ **50**
 - **1** ≤ **M** ≤ **50**
-- ≤ **k** ≤ **50**
+- 0 ≤ **k** ≤ **50**
 
   **Subtask #2 : (15 points)** - Original constraints
 - Every gnome has exactly one friend (for every i there is exactly one j such that g\[i\]\[j\] = 1. Note that j can be equal to i)
 
   **Subtask #3 : (30 points)** - **1** ≤ **N** ≤ **75**
 - **1** ≤ **M** ≤ **75**
-- ≤ **k** ≤ **109**
+- 0 ≤ **k** ≤ **109**
 
   **Subtask #4 : (45 points)** - Original constraints
 
@@ -141,5 +141,4 @@ In the second line, print these ids (numbering) of these gnomes in increasing or
 5
 0
 -1</tt>
-
 </pre>

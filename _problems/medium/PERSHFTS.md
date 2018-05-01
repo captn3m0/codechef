@@ -139,8 +139,8 @@ For each test case, output a single line. It must contain **-1**, if permutation
 <b>Output:</b>
 <tt>2
 -1</tt>
-
 </pre>### Explanation
+
 **Example case 1.** Cyclic shift of segment of length **2** is swapping consecutive elements of the permutation. Using them, we are able to get any possible permutation. Permutation **Q** has index **2** in the list of all permutations of length **4**.
 
 **Example case 2.** We are able to get permutations **(1, 2, 3)**, **(2, 3, 1)** and **(3, 1, 2)**. Permutation **Q** doesn't belong to this list, so answer is **-1**.

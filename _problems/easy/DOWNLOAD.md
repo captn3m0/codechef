@@ -105,8 +105,8 @@ For each of the **Q** groups, output the number of different recipes that group 
 3
 4
 2
-
-</pre>**Explanation:**
+</pre>
+**Explanation:**
 Given videos of 4 recipes in the following closed intervals.
 1. \[ 1 , 4 \]
 2. \[ 3 , 10 \]

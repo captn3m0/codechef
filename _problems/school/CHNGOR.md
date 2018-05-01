@@ -104,8 +104,8 @@ For each test case, output answer in a separate line.
 
 <b>Output:</b>
 3
-
 </pre>### Explanation
+
 **Example case 1.**
 
 We can first remove **1** from the list and then **2**. Thus, the total cost comes out to **3**.

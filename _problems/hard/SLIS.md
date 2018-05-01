@@ -109,6 +109,6 @@ For each test case, output the answer per line.
 3
 4
 5
-
 </pre>### Explanation
+
 **Example case 1.** **L** = 2. There are 3 different length-1 IS's.

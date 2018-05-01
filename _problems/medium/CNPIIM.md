@@ -111,8 +111,8 @@ Read here for additional info:
 
 <b>Output:</b>
 2	
-
 </pre>### Explanation
+
 The only two matrices that exist with trace equal to 3 and that satisfy all the given conditions are:
 
 ![Matrices](/download/extimages/0a3c6a4adf4feefa0ff7eb3765ac8959.gif)

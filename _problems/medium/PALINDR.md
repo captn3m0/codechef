@@ -106,8 +106,8 @@ abacaba
 3
 0
 1
-
 </pre>### Scoring
+
 In all the subtasks, 1 <= **L** <= **R** <= **N**.
 
 Subtask 1 (33 points): 1 <= **N** <= 10, 1 <= **M** <= 1000

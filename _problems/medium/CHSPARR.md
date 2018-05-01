@@ -115,8 +115,8 @@ Chef wants to know the sum of elements between **xth** and **yth** positions in 
 <b>Output:</b>
 38
 36
-
 <pre>### Explanation
+
 **Example case 1.**
  After the first minute **A** = {1, 7, 6, 15, 9} and sum of all elements will be 38.
 

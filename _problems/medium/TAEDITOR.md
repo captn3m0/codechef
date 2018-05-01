@@ -75,7 +75,7 @@ All submissions for this problem are available.###  Read problems statements in 
 In this problem you will have to implement a simple editor. The editor maintains the content of a string **S** and have two following functions:
 
 
-"**+ i x**": insert a string **x** into the current string **S** after the **i**'th character of the **S** (we use 1-indexing in this problem). When **i** equals to  it mean we add **x** at the beginning of **S**.
+"**+ i x**": insert a string **x** into the current string **S** after the **i**'th character of the **S** (we use 1-indexing in this problem). When **i** equals to 0 it mean we add **x** at the beginning of **S**.
 
 "**? i len**": Print the sub-string of length **len** starting at position **i**'th of **S**.
 
@@ -121,8 +121,8 @@ For each query of the second type, print out the answer sub-string in one line.
 <b>Output:</b>
 acb
 acddb
-
 </pre>### Explanation
+
 - "+ 0 ab": S = "ab"
 - "+ 1 c": S = "acb"
 - "+ 2 dd": S = "acddb"

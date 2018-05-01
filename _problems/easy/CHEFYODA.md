@@ -93,19 +93,19 @@ For each test case, output a line containing the answer for task. The output mus
 
  **Subtask 1 : 10 points**  
 - **2** ≤ **N, M** ≤ **5**
-- ≤ **P** ≤ **K** ≤ **5**
+- 0 ≤ **P** ≤ **K** ≤ **5**
 
 
  **Subtusk 2 : 10 points** - **2** ≤ **N, M** ≤ **10**
-- ≤ **P** ≤ **K** ≤ **10^3**
+- 0 ≤ **P** ≤ **K** ≤ **10^3**
 
 
  **Subtusk 3 : 20 points** - **2** ≤ **N, M** ≤ **100**
-- ≤ **P** ≤ **K** ≤ **10^3**
+- 0 ≤ **P** ≤ **K** ≤ **10^3**
 
 
  **Subtusk 4 : 60 points**- **2** ≤ **N, M** ≤ **100**
-- ≤ **P** ≤ **K** ≤ **10^6**
+- 0 ≤ **P** ≤ **K** ≤ **10^6**
 
 ### Example
 
@@ -116,5 +116,4 @@ For each test case, output a line containing the answer for task. The output mus
 <b>Output:</b>
 0.500000
 1.000000
-
 </pre>

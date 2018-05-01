@@ -81,5 +81,4 @@ For each query of the second type, output a single line containing a single inte
 0
 4
 </tt>
-
 </pre>

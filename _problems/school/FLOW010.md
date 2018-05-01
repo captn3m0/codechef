@@ -94,5 +94,4 @@ D
 BattleShip
 Cruiser
 Destroyer
-
 </pre>

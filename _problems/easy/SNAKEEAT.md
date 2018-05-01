@@ -110,8 +110,8 @@ The Chef doesn't care about snakes eating each other. All he wants is to have as
 3
 1
 0
-
 </pre>### Explanation
+
 In the first testcase, first query, the second snake (length 9) can eat the fourth snake (length 8), and hence make its length 10. Now, there are four snakes left, and their lengths are {21, 10, 5, 10}. So, we have three snakes with length ≥ 10: Two snakes of length 10 and one snake of length 21. This is the best you can do.
 
 In the second query, no matter what happens, you cannot get more than one snake of length ≥ 15.

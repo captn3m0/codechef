@@ -81,12 +81,12 @@ A segment tree is usually created with the following routine.
         currentNode->rightSon = createTree(middle + 1, right)
     return currentNode
 </tt>
-
 </pre>The routine is called as:
+
  ```
 <tt>    root = init(1, N)</tt>
-
 <pre>Consider the following segment tree operations:
+
 </pre><tt>changeSegtree(currentNode, left, right):
    currentNode->tag = 1
 
@@ -102,8 +102,8 @@ A segment tree is usually created with the following routine.
                 
 change(left, right):
     changeSegtree(root, left, right)</tt>
-
 <pre>Finally, an in-order traversal of the tree can be done with the following routine:
+
 </pre><tt>traverse(currentNode):
     if (currentNode->leftSon != NULL)
         traverse(currentNode->leftSon)
@@ -113,8 +113,8 @@ change(left, right):
 
 
 traverse(root)</tt>
-
 <pre>You are given the value of **N**, denoting the length of the array on which the segment tree is built on (i.e. the second parameter to the init routine). You are also given **M** integers **T1**, **T2**, ..., **TM**. Here, **M** is the number of nodes in the segment tree and you'll have calculate it by yourself.
+
 Your task is to find the minimum number of **non-overlapping** segments, so that after calling the **change** routine for each of these segments successively, on a newly created segment tree, the **traverse** routine will output **T1**, **T2**, ..., **TM**, or state that such a set of segments doesn't exist.
 
 Two segments **(l1,r1)** and **(l2,r2)** are considered **overlapping** if there is some **i** such that **l1 ≤ i ≤ r1** and **l2 ≤ i ≤ r2**.
@@ -149,8 +149,8 @@ For each test case, output a single line containing the minimum number of segmen
 <b>Output:</b>
 <tt>2
 -1</tt>
-
 <pre>### Explanation
+
 **Example case 1.** We can call **change(1, 1)** and **change(2, 2)**.
 
 **Example case 2.** There is no set of segments that would give the tree with such configuration of tags.

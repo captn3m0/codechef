@@ -33,5 +33,4 @@ Output T lines, one corresponding to each test case. Since the answers can get v
 1
 7
 31
-
 </pre>

@@ -97,10 +97,10 @@ In the only line of output print space separated sequence of **K** numbers, the 
 
 <b>Output:</b>
 0 2 2 5 5
-
 </pre>### Explanation
+
 In the sample input we have **4** numbers: **1, 1, 3, 4**. Therefore, there are **(4\*3)/2 = 6** pairwise XOR's. These XOR's are:
-**1** xor **1** =  (**A\[1\]** xor **A\[2\]**)
+**1** xor **1** = 0 (**A\[1\]** xor **A\[2\]**)
 **1** xor **3** = **2** (**A\[1\]** xor **A\[3\]**)
 **1** xor **4** = **5** (**A\[1\]** xor **A\[4\]**)
 **1** xor **3** = **2** (**A\[2\]** xor **A\[3\]**)

@@ -105,8 +105,8 @@ For each testcase, output a single line containing the sum of results of all pos
 <b>Output:</b>
 30
 20
-
 </pre>### Explanation
+
 **Example case 1.** There can be following four expressions.
 
 <pre>
@@ -114,5 +114,4 @@ For each testcase, output a single line containing the sum of results of all pos
 1 + 2 * 4 = 9
 1 * 2 + 4 = 6
 1 * 2 * 4 = 8
-
 </pre>Total sum of results = 30

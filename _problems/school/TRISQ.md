@@ -119,5 +119,4 @@ Output exactly T lines, each line containing the required answer.
 6
 10
 10
-
 </pre>

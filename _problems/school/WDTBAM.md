@@ -76,7 +76,7 @@ Chef is going to participate in a new quiz show: "Who dares to be a millionaire?
 
 According to the rules of the game, contestants must answer **N** questions. The quiz being famous for its difficulty, each question has **26** candidate answers, but only one of which is correct. Answers are denoted by capital Latin letters from A to Z. Chef knows all the questions that can be asked, and for each of them he knows the answer candidate he will choose (some of them can be incorrect). For each question, we'll tell you Chef's answer to it.
 
-The game goes on as follows. First, all the questions are shuffled randomly. Then, a contestant is asked these questions one-by-one in the new shuffled order. If the contestant answers any question incorrectly, the game is over. Total winnings of the contestant are calculated as follows. Let **X** denote the number of questions answered correctly by the contestant. Depending on this value, the winnings are determined: **W0** dollars is the amount won for **X = 0**, **W1** dollars is for **X = 1**, and so on till **X = N**. Note that the game was invented by a twisted mind, and so a case where **Wi** ≥ **Wi + 1** for some  ≤ **i** ≤ **N − 1** is possible. Chef is interested in finding the maximum possible winnings that he can amass.
+The game goes on as follows. First, all the questions are shuffled randomly. Then, a contestant is asked these questions one-by-one in the new shuffled order. If the contestant answers any question incorrectly, the game is over. Total winnings of the contestant are calculated as follows. Let **X** denote the number of questions answered correctly by the contestant. Depending on this value, the winnings are determined: **W0** dollars is the amount won for **X = 0**, **W1** dollars is for **X = 1**, and so on till **X = N**. Note that the game was invented by a twisted mind, and so a case where **Wi** ≥ **Wi + 1** for some 0 ≤ **i** ≤ **N − 1** is possible. Chef is interested in finding the maximum possible winnings that he can amass.
 
 ### Input
 
@@ -88,7 +88,7 @@ Next line contains **N** capital Latin letters denoting the correct answers to t
 
 Next line contains **N** capital Latin letters denoting answers given by Chef to these questions.
 
-Next line contains **N + 1** space-separated integers **W0**, **W1**, ..., **WN** denoting the winnings for , **1**, ..., **N** correct answers.
+Next line contains **N + 1** space-separated integers **W0**, **W1**, ..., **WN** denoting the winnings for 0, **1**, ..., **N** correct answers.
 
 ### Output
 
@@ -98,7 +98,7 @@ For each test case, output a single line containing the value of maximum possibl
 
 - **1** ≤ **T** ≤ **500**
 - **1** ≤ **N** ≤ **1000**
-- ≤ **Wi** ≤ **109**
+- 0 ≤ **Wi** ≤ **109**
 
 ### Subtasks
 
@@ -132,8 +132,8 @@ ABABABAB
 4
 100</tt>
 
-
 </pre>### Explanation
+
 **Example case 1.** If questions will be placed in order: **2nd** (Chef's answer is B, which is correct), **3rd** (Chef's answer is C, and it is correct as well), **4th** (Chef's answer is D, and he is right), **5th** (Chef's answer is A but correct answer is E and the game is over), **1st**, Chef will correctly answer **3** questions, and therefore win **30** dollars.
 
 **Example case 2.** Chef's answers for all questions are incorrect, so his winnings are **W0** dollars.

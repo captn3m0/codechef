@@ -78,12 +78,12 @@ Madrid Paris 100$
 Paris Munich 200$
 Munich Warsaw 150$
 Warsaw Kiev 120$
-
 </pre>More formally, if he wanted to go from **A** to **B** directly and the price is **C** dollars, then he would write
+
 <pre>A B C$
 
-
-</pre>on a card.Each move was written on a different card. Sridhar was a great planner, so he would never visit the same place twice. Just before starting his journey, the cards got shuffled. Help Sridhar figure out the actual order of the cards and the total cost of his journey.
+</pre>on a card.
+Each move was written on a different card. Sridhar was a great planner, so he would never visit the same place twice. Just before starting his journey, the cards got shuffled. Help Sridhar figure out the actual order of the cards and the total cost of his journey.
 
 ### Input
 
@@ -92,8 +92,8 @@ The first line of the input contains an integer **T**, the number of test cases.
 <pre>
 A<sub>i</sub> B<sub>i</sub> C<sub>i</sub>$
 
-
 </pre>where the **i-th** line refers to the **i-th** card after getting shuffled.
+
 ### Output
 
 For each case the output contains **N** lines, the first **N-1** lines should contain the **N-1** cards in their proper original order, the **N-th** line should contain the total cost of the travel.
@@ -126,5 +126,4 @@ Paris Munich 200$
 Munich Warsaw 150$
 Warsaw Kiev 120$
 570$
-
 </pre>

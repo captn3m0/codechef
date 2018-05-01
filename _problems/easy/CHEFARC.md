@@ -81,7 +81,7 @@ Chef plans to join the competition and has two robots with the movable range **K
 The first line of the input contains an integer **T** denoting the number of test cases. The description of **T** test cases follows.
 
 - The first line of each test case contains **4** space-separated integers **N M K1 K2** denoting the number of rows and columns in the table and the movable ranges of the first and second robot of Chef.
-- The next **N** lines, each line contains **M** space-separated numbers either  or **1** denoting whether the robots can move to this cell or not ( means robots can move to this cell, **1** otherwise). It makes sure that values in cell **(1, 1)** and cell **(1, M)** are .
+- The next **N** lines, each line contains **M** space-separated numbers either 0 or **1** denoting whether the robots can move to this cell or not (0 means robots can move to this cell, **1** otherwise). It makes sure that values in cell **(1, 1)** and cell **(1, M)** are 0.
 
 ### Output
 
@@ -91,7 +91,7 @@ For each test case, output a single line containing the minimum number of moves 
 
 - **1** ≤ **T** ≤ **10**
 - **1** ≤ **N, M** ≤ **100**
-- ≤ **K1, K2** ≤ **10**
+- 0 ≤ **K1, K2** ≤ **10**
 
 ###  Subtasks 
 
@@ -120,8 +120,8 @@ Original Constraints
 <b>Output:</b>
 5
 -1
-
 </pre>### Explanation
+
 **Example case 1.** Robot 1 can move (1, 1) -> (2, 1) -> (3, 1) -> (4, 1) -> (4, 2) -> (4, 3), and robot 2 can move (1, 4) -> (2, 4) -> (3, 4) -> (4, 4) -> (4, 3) -> (4, 3), they meet at cell (4, 3) after 5 moves.
 
 **Example case 2.** Because the movable range of both robots is 1, robot 1 can not move from (3, 1) to (4, 2), and robot 2 can not move from (3, 4) to (4, 3. Hence, they can not meet each other.

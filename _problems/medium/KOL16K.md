@@ -68,8 +68,8 @@ For a each test case, output a single integer in separate line corresponding to 
  3
  3
  4
-
 </pre>### Explanation
+
 **Explanation case 1.**
 
  We can get sequence (1, 1) - (4, 2) - (9, 3), point (9, 3) lies below line between point (1, 1) and (4, 2). **Explanation case 2.**

@@ -110,8 +110,8 @@ man
 YES
 YES
 NO
-
 </pre>### Explanation:
+
 Let **Y** denote the concatenation of names of all the children, and **X** denote the concatenation of the names of the parents.
 
 **Case 1:** Here **X = "tommarvoloriddle"**, and **Y = "lordvoldemort"**. Consider **Z = "iamlordvoldemort"**. It is not difficult to see that **Z** is a permutation of **X** and **Y** is a substring of **Z**. Hence **Y** is a substring of a permutation of **X**, so the answer is "YES".

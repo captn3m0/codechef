@@ -93,5 +93,4 @@ Output the answer to the problem on the first line.
 
 <b>Output:</b>
 84
-
 </pre>

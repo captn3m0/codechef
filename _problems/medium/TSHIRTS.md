@@ -105,6 +105,6 @@ For each test case, print in single line the required number of ways modulo **10
 <b>Output:</b>
 4
 4
-
 </pre>### Explanation
+
 For the first case, **4** possible ways are **(3,8)**, **(3,100)**, **(5,8)** and **(5,100)**.For the second case, **4** possible ways are **(5,2,100)**, **(100,2,5)**, **(1,2,100)**, and **(1,2,5)**.

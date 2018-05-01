@@ -128,8 +128,8 @@ sad
 some
 all
 
-
 </pre>### Explanation
+
 **Example 1**. The ingredient 4 is not available in any island, so Chef can't make the dish of life. Hence, the answer is "sad".
 
 **Example 2**. Chef can just go to the first island and collect all the three ingredients required. He does not need to visit the second island. So, the answer is "some".

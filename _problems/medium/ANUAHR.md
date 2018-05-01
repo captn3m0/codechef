@@ -94,7 +94,7 @@ For each test case, output a single line containing the required answer.
 
 - **1** ≤ **T** ≤ **105**
 - **1** ≤ **N** ≤ **105**
-- ≤ **M** ≤ **N**
+- 0 ≤ **M** ≤ **N**
 - **1** ≤ **Rectangle Dimensions** ≤ **109**
 - **1** ≤ **Sum of N over all test cases** ≤ **106**
 
@@ -115,8 +115,8 @@ For each test case, output a single line containing the required answer.
 100
 25
 4
-
 </pre>### Explanation
+
 **Example case 1**
 
 Abhijeet has only one rectangle. He can remove it, but then the area will be 0. Optimal way is not to remove it. Area = 10 \* 10 = 100

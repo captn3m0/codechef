@@ -102,8 +102,8 @@ Each test case contain a number made of only digits 1's and 0's on newline
 <b>Output:</b>
 Yes
 No
-
 </pre>### Explanation
+
 **Example case 1.** In 101, the 0 can be flipped to make it all 1..
 
 **Example case 2.** No matter whichever digit you flip, you will not get the desired string.

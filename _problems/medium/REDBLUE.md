@@ -122,5 +122,4 @@ For each test case, output a single line containing one integer denoting the min
 <b>Output:</b>
 
 2
-
 </pre>

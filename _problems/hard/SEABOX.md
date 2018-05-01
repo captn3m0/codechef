@@ -117,8 +117,8 @@ Output two numbers in a single line - minimal and maximal value of **F(D)**.
 
 <b>Output:</b>
 1 1
-
 </pre>### Example 2
+
 <pre><b>Input:</b>
 2 1
 0 0
@@ -128,5 +128,4 @@ Output two numbers in a single line - minimal and maximal value of **F(D)**.
 
 <b>Output:</b>
 1 8
-
 </pre>

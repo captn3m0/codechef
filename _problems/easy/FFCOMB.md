@@ -115,6 +115,6 @@ For each test case, output a single line containing the minimal total amount of 
 
 <b>Output:</b>
 <tt>10</tt>
-
 </pre>### Explanation
+
 **Example case 1.** If Sergey buys all the meals separately, it would cost him **3 + 5 + 6 = 14** rubles. He can buy all of them at once by buying the first meal set, which costs for **11** rubles, but the optimal strategy would be either to buy the second and the third meal set, thus, paying **5 + 5 = 10** rubles, or to buy the third meal set and the second meal separately by paying the same amount of **10** rubles.

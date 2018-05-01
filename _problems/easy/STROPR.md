@@ -117,8 +117,8 @@ For each test case, output a single line containing one integer: **Ax** modulo 1
 <b>Output:</b>
 5
 15
-
 </pre>### Explanation
+
 Values in the array **A**:
 
 - Before the operations: **\[1, 2, 3\]**

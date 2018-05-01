@@ -89,7 +89,7 @@ In the given test data, it is always possible to recover at least one arithmetic
 ### Constraints
 
 - **2** ≤ **N** ≤ **100000**
-- ≤ **K** ≤ **min(10, N-2)**
+- 0 ≤ **K** ≤ **min(10, N-2)**
 - **-109** ≤ **Ai** ≤ **109**
 
 ### Example
@@ -100,5 +100,4 @@ In the given test data, it is always possible to recover at least one arithmetic
 
 <b>Output:</b>
 -5 -2 1 4 
-
 </pre>

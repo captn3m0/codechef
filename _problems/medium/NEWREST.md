@@ -40,6 +40,7 @@ For each test case, output a single line consisting the number of different ways
 4 3 2
 5 7 3
 </pre>**Output:**
+
 <pre>1
 4
 45

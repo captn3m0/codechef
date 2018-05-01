@@ -105,5 +105,4 @@ Print **T** lines with each containing the required answer.
 1
 1
 3
-
 </pre>

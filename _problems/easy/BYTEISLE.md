@@ -51,8 +51,8 @@ For each test case, output two lines. In the first line, output a single integer
 0000
 1
 101
-
 </pre>### Constraints
+
 - 1 <= _T_ <= 5
 - 1 <= _N_ <= 50000
 - 0 <= _ai_ <= _bi_ <= _N_

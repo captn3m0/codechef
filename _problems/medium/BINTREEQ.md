@@ -122,8 +122,8 @@ For each query, print the answer on a separate line.
 2
 10
 1
-
 </pre>### Explanation
+
 In the first query from the example test case, you should count pairs (**5, 7**) and (**9, 11**).
 
 In the second query from the example test case, you should count the following pairs: (**1, 1**), (**2, 2**), (**3, 3**), (**4, 4**), (**5, 5**), (**6, 6**), (**7, 7**), (**8, 8**), (**9, 9**) and (**10, 10**).

@@ -97,5 +97,4 @@ Display the day on the 1st January of that year in lowercase letter.
 saturday
 tuesday
 wednesday
-
 </pre>

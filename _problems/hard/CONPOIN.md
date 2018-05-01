@@ -82,7 +82,7 @@ The first line contains one integer **T** - the number of test cases. Each test 
 
 ### Output
 
-For each test case output a single line containing**1** if it's possible to find points which will satisfy the problem statement and  otherwise
+For each test case output a single line containing**1** if it's possible to find points which will satisfy the problem statement and 0 otherwise
 
 ### Constraints
 
@@ -121,10 +121,10 @@ For each test case output a single line containing**1** if it's possible to find
 1
 0
 1
-
 </pre>### Explanation
+
  In the first test case we can draw triangle on the plane. Obviously no pair of segments will intersect and we can't add any more straight-line segment(and even not straight-line) so the answer is **1**
 
-In the second test case we can draw 3 points and connect 1 and 3 and 2 and 3. But we can add one more(1 and 3) so the answer is
+In the second test case we can draw 3 points and connect 1 and 3 and 2 and 3. But we can add one more(1 and 3) so the answer is 0
 
 In the last test case we can draw a triangle and a point inside it connected to 3 vertexes of the triangle. As in the first test case we can't connect some new pair so the answer is **1** too.

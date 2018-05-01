@@ -121,6 +121,6 @@ For each test case, print a single integer in a line corresponding to the answer
 
 <b>output</b>
 5
-
 </pre>### Explanation 
+
 - Chef can drop dish numbered 3rd with rating -5 by paying 10 rupees to the 4th judge, and get the maximum possible total rating of 5.

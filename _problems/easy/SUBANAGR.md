@@ -52,6 +52,6 @@ step
 no such string
 
 <b>Explanation:</b>
-
 </pre>In the first test case the longest string appears to be two characters long. String 'hp' satisfies the requirements as it's an anagram of 'hp' which is a subsequence of 'hope' and an anagram of 'ph' which is a subsequence of both 'elephant' and 'path'. Note that string 'ph' also satisfies the requirements, but 'hp' is lexicographically smaller.
+
 In the second test case there is no such string.

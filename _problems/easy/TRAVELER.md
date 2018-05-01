@@ -82,8 +82,8 @@ ERROR
 ERROR
 ERROR
 ERROR
-
 </pre>### Explanation
+
 The 2nd route is incorrect since there is no road from **New-York** to **Kiev**. Note however that inverse road from **Kiev** to **New-York** exists. 
  The 3rd route is incorrect since the first city coincides with the last one. 
  The 4th route is incorrect since there is no city with name **Kyiv** (Probably Chef means **Kiev** but he misspells this word). 

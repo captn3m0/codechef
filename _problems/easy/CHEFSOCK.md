@@ -104,8 +104,8 @@ Unlucky Chef
 <b>Output:</b>
 Lucky Chef
 
-
 </pre>### Subtasks
+
 - **Subtask 1:**  **jacketCost, money, sockCost** ≤ 103. **Points - 20**
 - **Subtask 2:** Original constraints. **Points - 80**
 

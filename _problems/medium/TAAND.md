@@ -87,12 +87,12 @@ Contains a single integer which is the largest value of **Au** and **Av** where 
 50 points:
 
 - **2** ≤ **N** ≤ **5000**
-- ≤ **Ai** ≤ **109**
+- 0 ≤ **Ai** ≤ **109**
 
 50 points:
 
 - **2** ≤ **N** ≤ **3 × 105**
-- ≤ **Ai** ≤ **109**
+- 0 ≤ **Ai** ≤ **109**
 
 ### Example
 
@@ -106,8 +106,8 @@ Contains a single integer which is the largest value of **Au** and **Av** where 
 <b>Output:</b>
 8
 
-
 </pre>### Explanation
+
 - 2 and 4 = 0
 - 2 and 8 = 0
 - 2 and 10 = 2

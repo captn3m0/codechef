@@ -144,8 +144,8 @@ Output two space separated integers:
 
 <b>Output:</b>
 13 13
-
 <pre>### Explanation
+
 - The array **A** comes out to be **{1, 3, 13, 83}** and the first dish has **L = 3** and **R = 4**. The minimum in this range is **13**, thus the sum and product both are **13** and hence the answer.
  
 ### Note

@@ -123,8 +123,8 @@ Output a single line containing **C** space-separated integers **D1**, **D2**, .
 
 <b>Output:</b>
 <tt>5 2 0</tt>
-
 </pre>### Explanation
+
 We can build spheres with such radii:
 
 **R**=1 and there are 2 ways to do it. (We can choose any of 2 lower hemispheres with **R**=1)

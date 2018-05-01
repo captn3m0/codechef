@@ -100,13 +100,13 @@ For each test case, output a single line containing two space separated integers
 2
 10 2
 100 3
-
 </pre>**Output:**
+
 <pre>
 5 0
 33 1
-
 </pre>### Explanation
+
 For the first test case, all students can get an equal number of candies and teacher receives no candies at all
 
 For the second test case, teacher can give 33 candies to each student and keep 1 candy to herself

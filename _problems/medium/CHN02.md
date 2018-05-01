@@ -67,6 +67,6 @@ His friend Malvika, a long time shepherd herself (this is _the other_ Malvika), 
 
 <b>Output:</b>
 20.000
-
 </pre>### Explanation
+
 Each region in the current case is rectangular in shape. You can check that the area of intersection of all the three input rectangles is another rectangle with corners at **(5,3), (15,3), (15,5)** and **(5,5)**. This is the place Animesh is going to settle in. The area of this rectangle is 10 \* 2 = 20.

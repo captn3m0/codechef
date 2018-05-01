@@ -103,8 +103,8 @@ Nana 2
 <b>Output:</b>
 Lucy
 Nobody wins.
-
 </pre>### Scoring
+
 Subtask 1 (17 points): **T** = 10000, 1 <= **N** <= 10, 1 <= **Ai** <= 10 
 
 Subtask 2 (19 points): **T** = 10000, 1 <= **N** <= 10, 1 <= **Ai** <= 2\*109

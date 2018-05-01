@@ -29,6 +29,7 @@ For each test case, print on a single line the smallest positive integer whose p
 220703118
 0
 </pre>### Sample output:
+
 <pre>28
 699
 5555555555555

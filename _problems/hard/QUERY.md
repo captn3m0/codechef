@@ -55,13 +55,13 @@ time:
     current: 1493556808
 layout: problem
 ---
-All submissions for this problem are available.Chef gives you a tree, consisting of **N** nodes. The nodes are numbered from **1** to **N**, and each node has an integer, which is equal to  initially. Then, Chef asks you to perform **M** queries.
+All submissions for this problem are available.Chef gives you a tree, consisting of **N** nodes. The nodes are numbered from **1** to **N**, and each node has an integer, which is equal to 0 initially. Then, Chef asks you to perform **M** queries.
 
 The first type of queries is _changing_: here, you are given integers **X**, **Y**, **A** and **B**. Add **A** to the integer, associated with the node **X**, then add **A+B** to the integer, associated with the second node on the way from **X** to **Y**, then add **A+2\*B** to the integer, associated with the third node on the way from **X** to **Y**, and so on. As you know, there is only one simple path from **X** to **Y**.
 
 The second type of queries is a _question_: here, you are given integers **X** and **Y**. Output the sum of all integers, associated with nodes on the way from **X** to **Y**.
 
-The third type of queries is a _rollback_: here, you are given an integer **X**. All the integers associated with the nodes return to the state after the **X**-th changing query. If **X** is , then all of them become equal to zero, as in the very beginning.
+The third type of queries is a _rollback_: here, you are given an integer **X**. All the integers associated with the nodes return to the state after the **X**-th changing query. If **X** is 0, then all of them become equal to zero, as in the very beginning.
 
 ### Input
 
@@ -108,8 +108,8 @@ q 1 3
 35
 0
 15
-
 </pre>### Explanation
+
 As you can see, the tree in the sample is like a line. Let's denote the first state of integers **0 0 0 0 0**, where the **i**-th integer means the integer associated with the node **i**.
 
 In the first _changing_ query **"c 1 4 2 3"**, the actual numbers are **X = (1 + 0) modulo 5 + 1 = 2, Y = (4 + 0) modulo 5 + 1 = 5**. Hence the state will be **0 2 5 8 11** after this query.

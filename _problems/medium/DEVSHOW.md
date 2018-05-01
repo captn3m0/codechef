@@ -117,8 +117,8 @@ both
 3 5
 2 4
 
-
 </pre>### Explanation
+
 **Example case 1.** There is exactly one way of voting for Devu and Amit. So after the voting, all the persons will have equal votes. So they all will be kicked out of the show. So as Devu and Amit both are kicked out, print "none" in first line. In second line, print votes of Devu(index 2) and in third line print votes of Amit.
 
 **Example case 2.** Devu and Amit can plan to save both of them. Devu will vote to 3rd person and Amit. Amit will vote 2nd person and Devu. In this way, 1st person will have highest 3 votes and 2nd person will have 2 votes, where as the 3rd person will have 0 votes. Devu and Amit both will have 2-2 votes each. So 1st and 3rd both persons will get kicked out of the show. Both Devu and Amit will survive :)

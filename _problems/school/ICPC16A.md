@@ -38,7 +38,7 @@ For each test case, output a single line containing **"left"** or **"right"** or
 ### Constraints
 
 - **1 ≤ T ≤ 5000**
-- ≤ **x1, y1, x2, y2**. ≤ **100**
+- 0 ≤ **x1, y1, x2, y2**. ≤ **100**
 - It's guaranteed that the initial position of robot is not his home.
 
 ### Example
@@ -53,6 +53,6 @@ For each test case, output a single line containing **"left"** or **"right"** or
 right
 up
 sad
-
 </pre>### Explanation
+
 **Test case 1.** If you give Bunny the command to move to the right, it will reach its home.

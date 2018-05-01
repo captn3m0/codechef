@@ -95,13 +95,13 @@ For each query, output one integer — the result of the progress analysis for t
 ### Constraints
 
 - **1** ≤ **N, M** ≤ **5\*104**
-- ≤ **A\[i\]** ≤ **106**
+- 0 ≤ **A\[i\]** ≤ **106**
 
 ### Subtasks
 
 - Subtask 1 (19 points) **1** ≤ **N, M** ≤ **200**, **time limit = 2 sec**
 - Subtask 2 (31 points) **1** ≤ **N, M** ≤ **10 000**, **time limit = 2 sec**
-- Subtask 3 (26 points)  ≤ **A\[i\]** ≤ **100**, **time limit = 5 sec**
+- Subtask 3 (26 points) 0 ≤ **A\[i\]** ≤ **100**, **time limit = 5 sec**
 - Subtask 4 (24 points) no additional constraints, , **time limit = 5 sec**
 
 ### Example
@@ -123,7 +123,7 @@ For each query, output one integer — the result of the progress analysis for t
 0
 5</tt>
 
-
-</pre>**Explanation**The first query: sorted array looks like **(1, 2, 3, 4, 5)** and the answer is calculated as **(2-1)2 + (3-2)2 + (4-3)2 + (5-4)2 = 4**
+</pre>**Explanation**
+The first query: sorted array looks like **(1, 2, 3, 4, 5)** and the answer is calculated as **(2-1)2 + (3-2)2 + (4-3)2 + (5-4)2 = 4**
 The second query: sorted array looks like **(1, 2, 3, 4)** and the answer is calculated as **(2-1)2 + (3-2)2 + (4-3)2 = 3**
 The last query: sorted array looks like **(2, 4, 5)** and the answer is calculated as **(4-2)2 + (5-4)2 = 5**

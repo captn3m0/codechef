@@ -111,8 +111,8 @@ For each testcase, print the required answer in one line.
 2
 2
 -1
-
 </pre>### Explanation
+
 **Example case 1.**LCM(2,7)=2\*7. Therefore, subarray A1 to A2 satisfies.
 
 **Example case 2.**The subarrays A2 to A3 and A3 to A4 are the maximum size possible.

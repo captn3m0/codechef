@@ -135,8 +135,8 @@ Lucky Chef
 2
 Unlucky Chef
 
-
 </pre>### Explanation
+
 **Example case 1.**
 
 - Applying XOR operation with indices i = 1 and j = 2. Resulting string will be 011.

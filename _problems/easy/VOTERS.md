@@ -21,12 +21,12 @@ layout: problem
 23  30  42  57  90
 21  23  35  57  90  92
 21  23  30  57  90 
-
 </pre>then the final list compiled by the collector would be:
+
 <pre>
 21  23  30  57  90
-
 </pre> The ID numbers 35, 42 and 92 which appeared in only one list each do not figure in the final list.
+
  Your task is to help the collector by writing a program that produces the final list from the three given lists.
 
 Input format
@@ -63,8 +63,8 @@ Sample input:
 30 
 57 
 90 
-
 </pre>Sample output:
+
 <pre>
 5
 21 
@@ -72,5 +72,4 @@ Sample input:
 30 
 57 
 90
-
 </pre>

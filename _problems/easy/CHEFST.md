@@ -99,20 +99,20 @@ For each test case, output a single line containing the minimum sum of the numbe
 **Subtask 1** : (5 pts)
 
 - **1** ≤ **T** ≤ **100**
-- ≤ **m** ≤ **18**
-- ≤ **n1, n2** ≤ **100**
+- 0 ≤ **m** ≤ **18**
+- 0 ≤ **n1, n2** ≤ **100**
 
 **Subtask 2** : (25 pts)
 
 - **1** ≤ **T** ≤ **1000**
-- ≤ **m** ≤ **10000**
-- ≤ **n1, n2** ≤ **10000**
+- 0 ≤ **m** ≤ **10000**
+- 0 ≤ **n1, n2** ≤ **10000**
 
 **Subtask 3** : (70 pts)
 
 - **1** ≤ **T** ≤ **105**
-- ≤ **m** ≤ **109**
-- ≤ **n1, n2** ≤ **1018**
+- 0 ≤ **m** ≤ **109**
+- 0 ≤ **n1, n2** ≤ **1018**
 
 ### Example
 
@@ -126,8 +126,8 @@ For each test case, output a single line containing the minimum sum of the numbe
 <tt>0
 1
 3</tt>
-
 </pre>### Explanation
+
 **Example case 1.** : Remove 1 stone from each of the piles. Now 0 stones are remaining, so chef cannot remove any more stones from the piles. Hence, answer is 0+0 = 0
 
 **Example case 2.** : Again, remove 1 stone from both the piles to get (0,1) stones. Now chef cannot remove any more stones from pile 1, so he stops. Hence, answer is 0+1 = 1.

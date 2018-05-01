@@ -116,5 +116,4 @@ For each test case, output a single line containing the answer to the correspond
 Possible
 Impossible
 
-
 </pre>

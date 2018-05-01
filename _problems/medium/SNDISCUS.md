@@ -115,8 +115,8 @@ For each test case output a single integer corresponding to the answer of the pr
 0
 1
 1
-
 </pre>### Explanation
+
 **Example 1**. The snakes have a common cell at coordinates (1, 1). So, they will be able to talk to each other. There is no need to move them.
 
 **Example 2**. Move the horizontal snake (i.e. 2, 1, 3, 1) to the left by 1 unit. It will now be (1, 1, 2, 1). Now, the first and second snakes will have at least one common cell and will be able to talk to each other. Hence, because you spent one second, the answer is 1.

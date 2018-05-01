@@ -116,5 +116,4 @@ For each test case output a single line containing two real numbers - the time f
 70.0 60.0
 90.0 60.0
 120.0 90.0
-
 </pre>

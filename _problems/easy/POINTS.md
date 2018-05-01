@@ -52,5 +52,4 @@ For the third test case above, the following is the path you must take:
 1,10 -> 1,5
 1,5 -> 2,2
 = 18.21
-
 </pre>

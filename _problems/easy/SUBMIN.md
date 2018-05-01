@@ -102,8 +102,8 @@ For each query, print the required number of subarrays.
 2
 0
 8
-
 </pre>### Explanation
+
 **Query 1.** Only the two subarrays **\[3, 4\]** and **\[3\]** satisfy.
 
 **Query 2.** Again only the two subarrays **\[4\]** and **\[4\]** satisfy. Please note that these subarrays (**A0** and **A4**) are considered different.

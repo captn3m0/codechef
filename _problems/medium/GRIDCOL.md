@@ -111,7 +111,7 @@ For each test case, output the number of ways to color the **3rd** row such that
 <b>Output:</b>
 2
 4
-
 </pre>### Explanation
+
 For the 1st case the valid ways to color the **3rd** row are: {1,3,2,4} and {3,4,1,2}.
 For the 2nd case the valid ways are: {3,1,4,2} , {3,2,4,1} , {4,1,3,2} and {4,2,3,1}.

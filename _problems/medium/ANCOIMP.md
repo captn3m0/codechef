@@ -75,7 +75,7 @@ He defines **A → B** to be a matrix **C** such that **Cij = Aij → Bij** and 
 
 Now Chef wants to study such system of equations: **A → X = ¬ O** and **X → A = O**
 
- Where **O** is matrix such that all its entries is .
+ Where **O** is matrix such that all its entries is 0.
 However, Chef realized that such system has solution if and only if **A = O**. Since such solution is too trivial, Chef has decided to search for an approximate solution for arbitrary **A**. Thus, Chef is searching for such **X** that **A → X = ¬ O** and **X → A** has as much as possible entries which are equal to 0.
 
 But the solution space turned to be very large, so he reduced it to a matrices of a special form. Now he is looking for **X** such that **Xij = yi xor yj** for some boolean vector **y**. Since now **X** is symmetric, Chef restricts **A** to also be symmetric.
@@ -97,7 +97,7 @@ It's guaranteed that **A** is symmetric.
 
 ### Constraints and Subtasks
 
-- ≤ **Aij** ≤ **1**
+- 0 ≤ **Aij** ≤ **1**
 
 **Subtask 1: (15 points)**
 
@@ -136,8 +136,8 @@ It's guaranteed that **A** is symmetric.
 0 0 1 1
 -1
 0 1
-
 </pre>### Explanation
+
 **Example case 1.**
 
 Matrix which is determined by vector y is
@@ -147,14 +147,14 @@ Matrix which is determined by vector y is
 0 0 1 1
 1 1 0 0
 1 1 0 0
-
-</pre> Then **A → X = ¬ O** and **X → A** is
+</pre> 
+Then **A → X = ¬ O** and **X → A** is
 
 <pre>
 1 1 0 1
 1 1 0 1
 0 0 1 1
 1 1 1 1
-
 </pre>**Example case 2.**
+
 **A11 = 1** and **X11 = y1 xor y1 = 0**. So **A11 → X11 = 0** and condition **A → X = ¬ O** can not be satisfied.

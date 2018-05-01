@@ -123,8 +123,8 @@ For each test case, output two space separated integers denoting the maximum sco
 4 2
 9 1
 2 2
-
 </pre>### Explanation
+
 **Example case 1.** There are three segments - \[1\], \[2\] and \[1, 2\]. Sum of these segments are 1, 2 and 3 respectively. Sum of these segments modulo 3 will be 1, 2 and 0. Maximum score among these is 2. There is also only one segment with this score.
 
 **Example case 2.** There are six segments - \[2\], \[4\], \[3\], \[2, 4\], \[4, 3\] and \[2, 4, 3\]. Sum of these segments are 2, 4, 3, 6, 7, 9 respectively. Sum of these segments modulo 5 will be 2, 4, 3, 1, 2, 4. Maximum score among these is 4. And there are two segments with this score.

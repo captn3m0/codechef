@@ -98,9 +98,9 @@ For each test case, output a single line containing a single integer - the minim
 
 - **1** ≤ **T** ≤ **20**
 - **1** ≤ **K** ≤ **N**
-- Subtask 1: **1** ≤ **N** ≤ **3**,  ≤ **M** ≤ **3** - 22 points.
-- Subtask 2: **1** ≤ **N** ≤ **6**,  ≤ **M** ≤ **15** - 34 points.
-- Subtask 3: **1** ≤ **N** ≤ **13**,  ≤ **M** ≤ **78** - 44 points.
+- Subtask 1: **1** ≤ **N** ≤ **3**, 0 ≤ **M** ≤ **3** - 22 points.
+- Subtask 2: **1** ≤ **N** ≤ **6**, 0 ≤ **M** ≤ **15** - 34 points.
+- Subtask 3: **1** ≤ **N** ≤ **13**, 0 ≤ **M** ≤ **78** - 44 points.
 
 ### Example
 
@@ -117,6 +117,6 @@ For each test case, output a single line containing a single integer - the minim
 <b>Output:</b>
 7
 3
-
 </pre>### Explanation
+
 The first example is the original version of the problem.

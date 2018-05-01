@@ -107,5 +107,4 @@ For each query output answer for it in separate line.
 1
 3
 
-
 </pre>

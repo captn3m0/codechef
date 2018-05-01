@@ -98,13 +98,14 @@ Define <b>l<sub>i</sub></b> = (<b>a<sub>i</sub></b> x <b>max(ans<sub>i - 1</sub>
 If <b>l<sub>i</sub></b> > <b>r<sub>i</sub></b>, then swap <b>l<sub>i</sub></b> and <b>r<sub>i</sub></b>.
 	
 </pre>### Output
+
 For each query, output the answer to the query in a single line. If such a number doesn't exist, output **-1**.
 
 ### Constraints
 
 - **1** ≤ **N, Q** ≤ **105**
 - **1** ≤ **Ai** ≤ **109**
-- ≤ **ai**, **bi**, **ci**, **di** ≤ **N**
+- 0 ≤ **ai**, **bi**, **ci**, **di** ≤ **N**
 - **1** ≤ **li** ≤ **ri** ≤ **N**
 - **1** ≤ **ki** ≤ **N**
 
@@ -149,8 +150,8 @@ For each query, output the answer to the query in a single line. If such a numbe
 4
 6
 4
-
 </pre>### Subtasks
+
 - **Subtask #1 (10 points) :** **Q** x **N** ≤ 107
 - **Subtask #2 (20 points) :** **ki** = 1
 - **Subtask #3 (30 points) :** **ai** = 0, **ci** = 0

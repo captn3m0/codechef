@@ -64,8 +64,8 @@ Can you please help them in finding out the maximum number of contests they can 
 <b>Output:</b>
 1
 3
-
 </pre>### Explanation
+
 **In the first example**, they have 1 easy, 1 medium and 1 hard problem. They can conduct one contest of type 1. This is the maximum number of contests they can conduct.
 
 **In the second example**, they have 4 easy, 4 medium, and 4 hard problems. They can conduct 3 contests, one each of type 1, 2, and 3, which require a total of 4 easy, 4 med and 1 hard problems. This is the maximum number of contests they can conduct. Hence, the answer is 3.

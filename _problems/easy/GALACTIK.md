@@ -135,5 +135,4 @@ Print the minimum amount needed for the GFA to fulfill their plan if it can be f
 <b>Output 2</b>
 -1
 
-
 </pre>

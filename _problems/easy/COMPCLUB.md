@@ -74,7 +74,7 @@ layout: problem
 ---
 All submissions for this problem are available.### Read problems statements in [mandarin chinese](http://www.codechef.com/download/translated/LTIME49/mandarin/COMPCLUB.pdf), [russian](http://www.codechef.com/download/translated/LTIME49/russian/COMPCLUB.pdf) and [vietnamese](http://www.codechef.com/download/translated/LTIME49/vietnamese/COMPCLUB.pdf) as well.
 
-You are working in a company with **N** employees numbered from  to **N - 1**, and employee  is the director. Each employee, except the director, has a supervisor. The director doesn't have a supervisor. Let's call employee **v**, an ancestor of employee **u** if and only if **v** is the supervisor of **u** or **v** is an ancestor of the supervisor of **u**.
+You are working in a company with **N** employees numbered from 0 to **N - 1**, and employee 0 is the director. Each employee, except the director, has a supervisor. The director doesn't have a supervisor. Let's call employee **v**, an ancestor of employee **u** if and only if **v** is the supervisor of **u** or **v** is an ancestor of the supervisor of **u**.
 
 Also, each employee belongs to exactly one club. Employee **i** belongs to club number **Ci**. And each club has some internal levels, which are actually independent of the company hierarchy. Each member of a club has a Level Number. The Level Number of employee **i** is denoted by **Ki**. The higher the Level Number, the more important he is in the club.
 
@@ -104,9 +104,9 @@ For each test case, you have to output **N** lines. Line number **i + 1** should
 - **1** ≤ **T** ≤ **100**
 - **1** ≤ **N** ≤ **500000**
 - **1** ≤ **X** ≤ **N**
-- ≤ **Pi** i
-- ≤ **Ci** N
-- ≤ **Ki** X
+- 0 ≤ **Pi** i
+- 0 ≤ **Ci** N
+- 0 ≤ **Ki** X
 - **1** ≤ Sum of **N** over all test cases ≤ **1000000**
 
 ### Subtasks
@@ -146,8 +146,8 @@ For each test case, you have to output **N** lines. Line number **i + 1** should
 1
 1
 
-
 </pre>### Explanation
+
 - Good sequences starting at employee 0: (0, 1, 3), (0, 1, 4), (0, 2, 3), (0, 2, 4)
 - Good sequences starting at employee 1: (1, 3), (1, 4)
 - Good sequences starting at employee 2: (2, 3), (2, 4)

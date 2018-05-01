@@ -105,5 +105,4 @@ For each game, output on a separate line the number of **K**-primes between **A*
 2
 0
 
-
 </pre>

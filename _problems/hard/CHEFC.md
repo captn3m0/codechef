@@ -93,8 +93,8 @@ for (i = 2; i <= |B|; i++)
     if (B[i] != B[i - 1])
         X++;
 X is the output of the function F(B).
-
 </pre>### Input
+
 The first line of the input contains an integer **T** denoting the number of test cases. The description of **T** test cases follows.
 
 The first line of each test case contains a single integer **N** denoting the number of the elements in given array.
@@ -135,5 +135,4 @@ For each query of the first type output a single line containing a single intege
 4
 3
 4
-
 </pre>

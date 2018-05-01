@@ -114,8 +114,8 @@ Find out the minimum amount Chef has to spend in buying the crackers so as to ac
 
 <b>Output:</b>
 89
-
 </pre>### Explanation
+
 One optimal way is to choose the strengths of the crackers as (0, 0, 8, 5, 0). That is, the leftmost cracker has strength 0, the next has 0, the next has 8, etc. Now, Chef lights up the 4-th cracker.
 
 After 1 second, it explodes and it lights up all the unlit crackers in its interval. Because its strength is 5, its interval would be \[15 - 5, 15 + 5\] = \[10, 20\]. So after 1 second, the third and fifth cracker are also lit.

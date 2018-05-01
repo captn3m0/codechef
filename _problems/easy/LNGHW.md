@@ -34,7 +34,7 @@ The first line of each test case contains three integer **N**, **Q** and **M** d
 For each query output one integer, **j**(1-indexed), which is the index such that a\[j\] is the ith smallest element for which **a\[j\]%M = R**. If it doesn't exist then print **-1**### Constraints
 
 35. **1** ≤ **N, Q, M** ≤ **2\*105**
-36. ≤ **R** ≤ **M**
+36. 0 ≤ **R** ≤ **M**
 37. **1** ≤ **A\[i\]** ≤ **2\*108**
 ### Subtasks
 
@@ -57,7 +57,7 @@ For each query output one integer, **j**(1-indexed), which is the index such tha
   5
   4
   -1
-  
-  ```### Explanation
+  ```
+  ### Explanation
   
   **Example case 1.** For the first query the answer is 1 because a\[1\] is 1, which is the smallest element in the array with remainder 1.

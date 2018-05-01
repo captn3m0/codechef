@@ -38,5 +38,4 @@ Print T integers each denoting the number of ways the rabbit can perform jumps o
 1
 415
 13624
-
 </pre>

@@ -113,5 +113,4 @@ For each test case, output one string on a separate line - "First" (without quot
 First
 Second
 Second
-
 </pre>

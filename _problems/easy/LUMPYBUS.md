@@ -95,7 +95,7 @@ For each test case, output a single line containing an integer corresponding to 
 - **1** ≤ **T** ≤ **106**
 - **1** ≤ **N** ≤ **105**
 - **1** ≤ **Ai** ≤ **109**
-- ≤ **P, Q** ≤ **1014**
+- 0 ≤ **P, Q** ≤ **1014**
 - Sum of **N** over all the cases does not exceed **106**
 
 ### Subtasks
@@ -121,8 +121,8 @@ For each test case, output a single line containing an integer corresponding to 
 <tt>2
 3
 3</tt>
-
 </pre>### Explanation
+
  In Test **1**, Lumpy has just **3** one rupee coins. He can pay creatures numbered **{1, 2}** or creatures numbered **{1, 3}** with these coins. Thus, answer is 2.
 
  In Test **2**, Lumpy has **2** one rupee coins and **1** two rupee coin. In the optimal solution, Lumpy can give the two rupee coin to creature **2** and the one rupee coins to creatures **1** and **3**. Thus, answer is 3.

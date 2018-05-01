@@ -75,7 +75,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 In mathematical terms, the sequence **F\[N\]** of Fibonacci numbers is defined by the recurrence relation **F\[N\]** = **F\[N-1\]** + **F\[N-2\]**, with seed values **F\[1\] = 1**,**F\[2\] = 1**.
 
-Today, Chef gives you a rooted tree, consisting of **N** nodes. At first, the node **1** is the root. The nodes are numbered from **1** to **N**, and each node has an integer that initially equals to . Then, Chef asks you to perform **M** queries.
+Today, Chef gives you a rooted tree, consisting of **N** nodes. At first, the node **1** is the root. The nodes are numbered from **1** to **N**, and each node has an integer that initially equals to 0. Then, Chef asks you to perform **M** queries.
 
 The queries are as follows:
 
@@ -92,7 +92,7 @@ Output the sum of all the integers, associated with the nodes on the way from **
 
  
 - **R x**
-All the integers associated with the nodes return to the state after the **x**-th query. If **x** is , then all of them become equal to , as in the very beginning.
+All the integers associated with the nodes return to the state after the **x**-th query. If **x** is 0, then all of them become equal to 0, as in the very beginning.
 
  
 
@@ -112,7 +112,7 @@ Then, **M** lines follow. Every single line denotes a single query, which has on
  
 - **R x1**
  
-As you can see, the number **x** isn't given to you directly. For all queries, actual number **x** will be equal to **x1** xor **lastans**, where lastans denotes the last number that you have output, or  if you haven't output any numbers yet.
+As you can see, the number **x** isn't given to you directly. For all queries, actual number **x** will be equal to **x1** xor **lastans**, where lastans denotes the last number that you have output, or 0 if you haven't output any numbers yet.
 
 
 ### Output
@@ -144,8 +144,8 @@ QC 6 4
 13
 7
 4
-
 </pre>### Explanation
+
 Let’s denote the first state of integers as **0 0 0 0 0**, where the **i**-th interger means the integer associated with the node **i**.
 
 In the first query “**A 4 2**”, the actual number is **x = 4 xor 0 = 4**. Hence the state will be **2 3 1 1 0** after this query.

@@ -33,5 +33,4 @@ One number which is the size of the greatest subset as mentioned in the problem 
 <b>Explanation:</b>
 The array {1,4,2,3} is good, since you can form p1[] = {1,2} and p2[] = {4,3}. (satisfying 1 + 4 = 2 + 3)
 
-
 </pre>

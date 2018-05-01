@@ -108,5 +108,4 @@ For each test case output required answer modulo **10^9 + 7**.
 1
 13
 
-
 </pre>

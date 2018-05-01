@@ -90,8 +90,8 @@ Output the answer to the problem on the first line of the output.
 <b>Output:</b>
 9
 
-
 </pre>### Scoring
+
 Subtask 1 (13 points): **N** <= 1000, **Ai** <= 1. 
 
 Subtask 2 (39 points): **N** <= 1000, **Ai** <= 109. 

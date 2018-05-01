@@ -43,5 +43,4 @@ For each test case, output on a line a real number (with exactly 6 decimal place
 <b>Output:</b>
 2.828427
 9.640986
-
 </pre>

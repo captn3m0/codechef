@@ -123,5 +123,4 @@ For each test case for each node in range from 1 to **N**, output its ugliness i
 3
 4
 5</tt>
-
 </pre>

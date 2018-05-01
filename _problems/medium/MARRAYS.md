@@ -128,8 +128,8 @@ For each test case, output in a single line an integer corresponding to the maxi
 8
 4
 10
-
 </pre>### Explanation
+
 <pre><p><b>Example case 1.</b> 
 01) 123|32|45 = 0 * 1 + 2 * 2 = 4
 02) 312|32|45 = 1 * 1 + 2 * 2 = 5

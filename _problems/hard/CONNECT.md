@@ -100,5 +100,4 @@ Only one line contains the minimum cost to finish the task. If the task is impos
 9 3 4 
 <b>Output:</b>
 8
-
 </pre>

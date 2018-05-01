@@ -89,7 +89,7 @@ For each test case, output a single line containing the maximum possible score D
 ### Constraints
 
 - **1** ≤ **T** ≤ **201301**
-- ≤ **S** ≤ **M** ≤ **20130120**
+- 0 ≤ **S** ≤ **M** ≤ **20130120**
 - Each positive integer in the input will be given without leading zeros
 - If **S** or **M** is equal to zero, it will be given in the input as **"0"** (quotes for clarity)
 
@@ -124,6 +124,6 @@ For each test case, output a single line containing the maximum possible score D
 20130120
 19889989
 4
-
 </pre>### Explanation
+
 The first three example cases correspond to the figure in the problem statement.

@@ -96,7 +96,7 @@ Your answer will be considered correct, in case it has absolute or relative erro
 
 - **1** ≤ **T** ≤ **100**
 - **1** ≤ **N** ≤ **104**
-- ≤ **2K** N
+- 0 ≤ **2K** N
 - **-106** ≤ **Ai** ≤ **106**
 
 ### Subtasks
@@ -119,8 +119,8 @@ Your answer will be considered correct, in case it has absolute or relative erro
 4.000000
 5.400000
 1.000000
-
 </pre>### Explanation
+
 **Example case 1.** After removing **1** greatest and **1** lowest measurement, we get the set **{2, 9, 1}**. The average value in this set is **(2+9+1)/3=4**.
 
 **Example case 2.** The average value in the set **{2, 9, -10, 25, 1}** is **(2+9-10+25+1)/5=5.4**.

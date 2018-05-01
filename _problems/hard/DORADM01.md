@@ -52,5 +52,4 @@ For each test case, print YES if there is a solution, otherwise print NO.
 <b>Output:</b>
 NO
 YES
-
 </pre>

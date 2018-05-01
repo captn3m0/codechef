@@ -115,8 +115,8 @@ YES
 YES
 1 1 1 -1
 
-
 </pre>### Subtasks
+
 **Subtask 1:(10 points)**
 
 - **1** ≤ **N** ≤ **8**

@@ -104,8 +104,8 @@ For each test case, output the maximum possible difference between the weights c
 <b>Output:</b>
 17
 2
-
 </pre>### Explanation:
+
 **Case #1:** The optimal way is that Chef gives his son **K=2** items with weights **2** and **4**. Chef carries the rest of the items himself. Thus the difference is: **(8+5+10) − (4+2) = 23 − 6 = 17**.
 
 **Case #2:** Chef gives his son **3** items and he carries **5** items himself.

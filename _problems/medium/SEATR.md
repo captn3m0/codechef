@@ -92,7 +92,7 @@ The first line of input contains the integer **N**. Next line contains **N** int
 Output answer in single line. ### Constraints
 
 - **1** ≤ **N** ≤  **80**
-- ≤ **C\[i\]** ≤  **80**
+- 0 ≤ **C\[i\]** ≤  **80**
 
 ### Example
 
@@ -116,5 +116,4 @@ Output answer in single line. ### Constraints
 
 <b>Output:</b>
 0
-
 </pre>

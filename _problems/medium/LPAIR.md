@@ -87,7 +87,7 @@ Output the number of marriage line pairs that intersect with each other on a sin
 ### Constraints
 
 - **1** ≤ **N** ≤ **100000 (105)**
-- ≤ **Mi, Fi** ≤ **1000000000 (109)**
+- 0 ≤ **Mi, Fi** ≤ **1000000000 (109)**
 
 ### Example
 
@@ -110,8 +110,8 @@ Output the number of marriage line pairs that intersect with each other on a sin
 <b>Output:</b>
 6
 
-
 </pre>### Explanation
+
 **Example case 1.** Only marriage lines (3, 6) and (5, 4) intersect with each other.
 
 **Example case 2.** All the marriage lines intersect with each other.

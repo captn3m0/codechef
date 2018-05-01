@@ -119,5 +119,4 @@ For each test case, output a single line containing the minimum number of lines 
 1
 2
 2
-
 </pre>

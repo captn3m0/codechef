@@ -75,7 +75,7 @@ Chef has encrypted the super secret recipe for his bitsoup into a sequence of **
 
 Chef is now transmitting this recipe to the Sous Chef. He **partitions the sequence** into several **disjoint**, **contiguous** groups and sends them one by one. Each partition may contain one or more integers which are contiguous in the sequence. Chef can partition a sequence of **N** integers in many ways, but the receiving program of the Sous Chef has a constraint.
 
-For each group of integers it receives, let **S** represent the sum of the integers in the group. The receiver program only accepts the group of integers if the **Mth least significant bit** of **S** is . See the explanation section for clarity.
+For each group of integers it receives, let **S** represent the sum of the integers in the group. The receiver program only accepts the group of integers if the **Mth least significant bit** of **S** is 0. See the explanation section for clarity.
 
 Chef wants to know how many ways exist to partition the recipe such that the Sous Chef can receive it completely.
 
@@ -114,8 +114,8 @@ For each test case, output a single integer denoting the number ways you can par
 0
 3
 
-
 </pre>### Explanation
+
 **Test Case 1.** You can partition the sequence in 32 ways. Note that the sum of all the numbers in the sequence is 24. The 10th bit in 24 is already 0. Any partition's sum will be less than or equal to 24 anyway, thus each partitioning way is valid. Thus the answer is 32.
 
 If you don't see why the answer is 32, consider the following

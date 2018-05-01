@@ -118,66 +118,65 @@ If it is possible to achieve the objective, then each of the next X lines should
 2 1 2 2
 2 2 1 2
 1 1 1 3
-
 </pre>### Explanation
+
 <pre>
 <tt>
 ***
 **.
 </tt>
-
 </pre>In first move, you can take the ball at (2, 1) and move it to cell (2, 3), and the ball at cell (2, 2) will be destroyed. The resulting grid will be
+
 <pre>
 <tt>
 ***
 ..*
 </tt>
-
 </pre>In second move, you can move the ball at cell (1, 1) to cell (2, 1). The resulting grid will be
+
 <pre>
 <tt>
 .**
 *.*
 </tt>
-
 </pre>Now, you can move the ball (1, 3) to (1, 1) and destroying the ball at (1, 2), we get.
+
 <pre>
 *..
 *.*
-
 </pre>Now, move the ball at cell (2, 1) to (2, 2)
+
 <pre>
 <tt>
 *..
 .**
 </tt>
-
 </pre>Move the ball at cell (2, 3) to (2, 1) by destroying the ball at cell (2, 2).
+
 <pre>
 <tt>
 *..
 *..
 </tt>
-
 </pre>Move the ball at cell (2, 1) to (2, 2)
+
 <pre>
 <tt>
 *..
 .*.
 </tt>
-
 </pre>Move the ball at cell (2, 2) to (1, 2)
+
 <pre>
 <tt>
 **.
 ...
 </tt>
-
 </pre>Now, move the ball cell (1, 1) to (1, 3), thus destroying the ball at (1, 2).
+
 <pre>
 <tt>
 ..*
 ...
 </tt>
-
 </pre>And you are done :)

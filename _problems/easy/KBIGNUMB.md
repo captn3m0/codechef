@@ -85,7 +85,7 @@ For each test case, output a single line containing an integer denoting the valu
 ### Constraints
 
 - **1** ≤ **T** ≤ **105**
-- ≤ **A** ≤ **109**
+- 0 ≤ **A** ≤ **109**
 - **1** ≤ **N** ≤ **1012**
 - **2** ≤ **M** ≤ **109**
 
@@ -114,8 +114,8 @@ For each test case, output a single line containing an integer denoting the valu
 <b>Output:</b>
 5
 6
-
 </pre>### Explanation
+
 **Example 1:** As **A = 12, N = 2, X = 1212**, **1212 modulo 17 = 5**
 
 **Example 2.** As **A = 523, N = 3, X = 523523523**, **523523523 modulo 11 = 6**

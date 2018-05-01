@@ -49,5 +49,4 @@ For each **T** test cases print one integer, the minimum number of operations th
 1
 2
 
-
 </pre>

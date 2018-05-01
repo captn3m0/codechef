@@ -120,8 +120,8 @@ For each test case, output a single line containing one integer — the number o
 3
 6
 4
-
 </pre>### Explanation
+
 **Test case 1.** In the string 555755555, the virus with index 4 (the one with strength 7) affects two viruses to the left, and two viruses to the right, i.e. viruses with indices 2, 3, 5 and 6. These four viruses will be changed to strength 7 after the first second. The new string will be 577777555.
 
 In the next second, viruses with indices 1, 7 and 8 will be changed, and the string will become 777777775.

@@ -44,6 +44,6 @@ For each test case, output the sum of the shortest time it takes from (bq,fq) to
 10
 10
 8
-
 </pre>
+
 _**Note :** There are multiple test sets, and the judge shows the sum of the time taken over all test sets of your submission, if Accepted._

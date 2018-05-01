@@ -138,6 +138,7 @@ xyzab
 5 3 1 0
 </p>
 </pre>### Explanation
+
 **Example case 2.** Common substrings of length 1 are (a,b,c,d) = (0,0,1,1), (2,2,1,1), (1,1,0,0), (1,1,2,2), (3,3,0,0), (3,3,2,2).
 
 Common substrings of length 2 are (0, 1, 1, 2), (1, 2, 0, 1), (2, 3, 1, 2).

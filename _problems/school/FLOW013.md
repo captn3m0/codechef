@@ -96,5 +96,4 @@ Display 'YES' or 'NO' if the triangle is Valid or not respectively.
 YES
 YES
 NO
-
 </pre>

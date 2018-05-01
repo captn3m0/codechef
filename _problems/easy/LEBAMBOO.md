@@ -74,7 +74,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 Little Elephant from Zoo of Lviv likes bamboo very much. He currently has **n** stems of bamboo, **Hi** - height of **i-th** stem of bamboo (0-based numeration).
 
-Today inspector Andrii from World Bamboo Association is visiting the plantation. He doesn't like current situation. He wants the height of **i-th** stem to be **Di**, for each **i** from  to **n-1**, inclusive.
+Today inspector Andrii from World Bamboo Association is visiting the plantation. He doesn't like current situation. He wants the height of **i-th** stem to be **Di**, for each **i** from 0 to **n-1**, inclusive.
 
 Little Elephant is going to buy some special substance. One bottle of such substance he can use to single stem of bamboo. After using substance for stem **i**, the height of **i-th** stem is decrased by **1** and the height of **j-th** stem is increased by **1** for each **j** not equal to **i**. Note that it is possible for some of the stems to have negative height, but after all transformations all stems should have positive height.
 
@@ -116,6 +116,5 @@ In **T** lines print **T** integers - the answers for the corresponding test cas
 -1
 1
 5
-
 
 </pre>

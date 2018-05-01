@@ -113,8 +113,8 @@ For each query of type **1**, output the size of the specified set.
 <tt>1
 2</tt>
 
-
 </pre>### Explanation
+
 Have a look at the sets during the operations:
 
 - Initially, all the sets are empty: ({}, {}, {}, {}, {}).

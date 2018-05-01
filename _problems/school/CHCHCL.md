@@ -112,8 +112,8 @@ For each test case, output a single line containing one word "Yes" (without quot
 <b>Output:</b>
 <tt>Yes
 No</tt>
-
 </pre>### Explanation
+
 **Example case 1.** There is only one possible move, so the second player even won't have a chance to make move.
 
 **Example case 2.** There are only two ways first player can make first move, after each of them only one move left, so the first player cannot win.

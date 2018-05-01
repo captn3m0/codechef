@@ -113,8 +113,8 @@ NO
 YES
 NO
 NO
-
 </pre>### Explanation
+
 The answer is "YES" for strings 001111110 and 1111.
 
 The answer is "NO" for 00110011 because the '1' digits form two disjoint segments (while they should all be consecutive, with no '0' digits between them).

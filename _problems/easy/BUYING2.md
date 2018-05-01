@@ -59,8 +59,8 @@ For each test case output exactly one line containing a single integer:
 -1
 1
 7
-
 </pre>### Explanation
+
 In the first test case, the total amount of money received from the customer is 27. He can't buy more than 3 sweets with this amount. If you throw away the banknote of value 5 (or of value 4), it will still be possible to buy 3 sweets. Hence the customer is inadequate.
 
 In the second test case, it's clear that he wants to buy just one sweet (note that this number should be positive).

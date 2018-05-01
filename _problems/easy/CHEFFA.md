@@ -112,8 +112,8 @@ For each test case, output answer modulo 109+7 in a single line.
 9
 4
 9
-
 </pre>### Explanation
+
 **Example case 1.**
 
 We'll list the various single steps that you can take (ie. in one single usage of the operation):

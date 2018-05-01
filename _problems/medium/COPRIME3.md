@@ -100,6 +100,6 @@ Output the required number of triples on the first line of the output.
 
 <b>Output:</b>
 4
-
 </pre>### Explanation
+
 Any triple will be a coprime one.

@@ -94,5 +94,4 @@ For test case print the solution mod 1000000007 on a new line.
 1
 3
 8
-
 </pre>

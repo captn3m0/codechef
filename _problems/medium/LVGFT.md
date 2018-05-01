@@ -135,8 +135,8 @@ That is, Chef now lives in City **C**, and you know where all the bank branches 
 -1
 4
 3
-
 </pre>### Explanation
+
 The map of the country is as follows:
 
 ![](http://tinyurl.com/y9vtq58r)The first query says that the bank opened a branch in city 4. The second query also does the same, and it doesn't make anything different for us. So now, the maps looks as follows, where the circled city means that it has a bank branch:

@@ -43,8 +43,8 @@ aaaa
 10001500056
 18134494634143926857
 0
-
 </pre>### Explanation
+
 Actual values of **K(1), K(2), ..., K(N)** in the tests are: 
 abacaba: {0, 1, 2, 1, 1, 1, 0} 
 abba: {0, 1, 1, 0} 

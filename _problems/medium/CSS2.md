@@ -90,8 +90,8 @@ Print exactly M lines, ith line contains the answer to the ith query as describe
 
 
 <pre>
-
-</pre>12. 1 ≤ value, priority ≤ 106, for all subtasks.13. **For 20 points :** 1 ≤ id, N, M, attr ≤ 103
+</pre>12. 1 ≤ value, priority ≤ 106, for all subtasks.
+13. **For 20 points :** 1 ≤ id, N, M, attr ≤ 103
 14. **For 30 points :** 1 ≤ N, M ≤ 103, 1 ≤ id, attr ≤ 106
 15. **For 50 points :** 1 ≤ N, M ≤ 105, 1 ≤ id, attr ≤ 106
 ### Example

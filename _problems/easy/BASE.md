@@ -89,16 +89,16 @@ For each test case, output a single line containing the number of bases **b**, o
 ### Subtasks
 
 **Subtask #1 (16 points):**- **1** ≤ **T** ≤ **103**
-- ≤ **N** 103
+- 0 ≤ **N** 103
 
 **Subtask #2 (24 points):**- **1** ≤ **T** ≤ **103**
-- ≤ **N** 106
+- 0 ≤ **N** 106
 
 **Subtask #3 (28 points):**- **1** ≤ **T** ≤ **103**
-- ≤ **N** 1012
+- 0 ≤ **N** 1012
 
 **Subtask #4 (32 points):**- **1** ≤ **T** ≤ **105**
-- ≤ **N** 1012
+- 0 ≤ **N** 1012
 
 ### Example
 
@@ -114,6 +114,6 @@ For each test case, output a single line containing the number of bases **b**, o
 7
 8
 14</tt>
-
 </pre>### Explanation
+
 In the first test case, **6** has a leading digit **1** in bases **2**, **4**, **5** and **6**: **610 = 1102 = 124 = 115 = 106**.

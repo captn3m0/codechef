@@ -68,7 +68,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/SEPT16/mandarin/CHEFSPAG.pdf), [Russian](http://www.codechef.com/download/translated/SEPT16/russian/CHEFSPAG.pdf) and [Vietnamese](http://www.codechef.com/download/translated/SEPT16/vietnamese/CHEFSPAG.pdf) as well.
 
-Chef is tending a really large _spaghetti garden_. This garden consists of many _spaghetti trees_. Specifically, there is a spaghetti tree planted for each lattice point location **(x, y)** with **x**, **y** ≥ . (Yes, there are an infinite number of trees in Chef's garden!)
+Chef is tending a really large _spaghetti garden_. This garden consists of many _spaghetti trees_. Specifically, there is a spaghetti tree planted for each lattice point location **(x, y)** with **x**, **y** ≥ 0. (Yes, there are an infinite number of trees in Chef's garden!)
 
 It's the 1st of April, so it's harvest time for Chef. Chef plans to harvest all _spaghetti strands_ within a certain region today. In case you didn't know, a spaghetti tree bears _spaghetti strands_ as its fruits.
 
@@ -100,11 +100,11 @@ For each test case, output a single line containing the integer: the answer for 
 
 ### Subtasks
 
-**Subtask #1 (10 points):**- ≤ **xi**, **yi** ≤ **100**
+**Subtask #1 (10 points):**- 0 ≤ **xi**, **yi** ≤ **100**
 
-**Subtask #2 (30 points):**- ≤ **xi**, **yi** ≤ **104**
+**Subtask #2 (30 points):**- 0 ≤ **xi**, **yi** ≤ **104**
 
-**Subtask #3 (60 points):**- ≤ **xi**, **yi** ≤ **109**
+**Subtask #3 (60 points):**- 0 ≤ **xi**, **yi** ≤ **109**
 
 ### Example
 
@@ -125,8 +125,8 @@ For each test case, output a single line containing the integer: the answer for 
 <tt>18
 153
 </tt>
-
 </pre>### Explanation
+
 In both test cases, we have **Fk = k** for **0 ≤ k ≤ 3** and **Fk = Fk-1 + 2·Fk-2 + 3·Fk-3 + 4·Fk-4**. So you can check that **F4 = 10**, **F5 = 26** and **F6 = 63**
 
 - In the first test case, Chef will harvest all spaghetti strands in the locations **(1, 1)**, **(1, 2)**, **(2, 1)**, **(2, 2)**. The total number is **F1+1 + F1+2 + F2+1 + F2+2** = **F2 + F3 + F3 + F4** = **18**

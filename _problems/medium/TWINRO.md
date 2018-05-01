@@ -109,5 +109,4 @@ A single integer, the maximum combined score that the two robots can achieve. .
 <b>Output:</b>
 56
 
-
 </pre>

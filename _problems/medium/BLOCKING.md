@@ -83,5 +83,4 @@ If there exists a sequence **block** that satisfies the constraints, then output
 
 <b>Output:</b>
 3 2 1
-
 </pre>

@@ -108,8 +108,8 @@ For each query output the required Answer modulo **1000000009**. Answer is the n
 4
 8
 2
-
 </pre>### Explanation
+
 **Test Case #1, Query #1**
 {}, {1,-1}, {1,-1,4,5}, {4,5} are winning subsets. Sums are 0, 0, 9, 9 respectively.
 

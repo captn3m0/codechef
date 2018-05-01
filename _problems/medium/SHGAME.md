@@ -94,8 +94,8 @@ For each test case, output a single line containing the number of ways to choose
 <b>Output:</b>
 40
 42
-
 </pre>### Scoring
+
 **T** = 100, 1 <= **N**, **M** <= 10 : 25 points.
 
 **T** = 100, 1 <= **N**, **M** <= 1000 : 36 points.

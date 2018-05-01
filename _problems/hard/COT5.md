@@ -120,5 +120,4 @@ For each distance query, print the distance between **u** and **v**.
 2
 1
 1
-
 </pre>

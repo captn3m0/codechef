@@ -88,10 +88,10 @@ For each test case, output the package size that will maximize the number of lef
 <pre>2
 2
 5
-
 </pre>### Sample Output
+
 <pre>2
 3
-
 </pre>### Explanation
+
 In the first test case, there will be no leftover cupcakes regardless of the size Chef chooses, so he chooses the largest possible size. In the second test case, there will be 2 leftover cupcakes.

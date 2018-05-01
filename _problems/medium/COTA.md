@@ -76,7 +76,7 @@ Chef likes to play computer games very much. Recently he played a new game, Dota
 Chef is thinking to start a new game called Cota (Chef of the ancient).
 There will be two teams in Cota, Radiant and Dire.
 
-There are **2\*N** players in Cota and the players are numbered by integers from  to **2\*N – 1**.
+There are **2\*N** players in Cota and the players are numbered by integers from 0 to **2\*N – 1**.
 Each team will have **N** players. One team will have all the players with even numbers **(0, 2, …, 2\*N - 2)**
 and other team will have all the odd numbered players **(1, 3, …, 2\*N – 1)**.
 
@@ -114,7 +114,7 @@ There will always be a valid answer.
 - **2** ≤ **N** ≤ **18**
 - **N** is divisible by **2**
 - **2\*N-1** ≤ **M** ≤ **2\*N(2\*N-1)/2**
-- ≤ **u, v** ≤ **2\*N-1** and **u** ≠ **v**
+- 0 ≤ **u, v** ≤ **2\*N-1** and **u** ≠ **v**
 - **1** ≤ **Pu,v** ≤ **106**
 - For each player **u** and **v (u≠v)** , there is a sequence **x0, x1, ... xk**, where **x0 = u** and **xk = v** and player **xi** and **xi+1** (**0≤i<k**) are friends of each other.
 
@@ -144,8 +144,8 @@ There will always be a valid answer.
 <b>Output:</b>
 5
 9
-
 </pre>### Explanation
+
 **Example case 1.** If the odd numbered players are assigned as Radiant and even numbered players as Dire, and Chef assigns players {0, 1, 3} as elite players and keeps only the friendships between (0, 1) and (0, 3) and breaks up any other pair of friendships. So the total power of friendship is 1 + 4 = 5. Elite player 1 and 3 have friendship with only elite player 0. So each Radiant player has odd number of elite friends. Similarly player 0 has friendship with 1 and 3, and players 2 do not have any friend(0 elite friends). So each Dire player has even number of elite friends.
 
 **Example case 2.**

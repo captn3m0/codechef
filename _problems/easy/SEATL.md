@@ -79,15 +79,15 @@ For example, for the matrix
 3 4 1 2
 1 1 1 1
 2 2 2 2
-
 </pre>The matrix **F** is
+
 <pre>
 3 3 4 4
 3 3 3 3
 5 4 6 4
 4 5 4 6
-
 </pre>Your task is to find the value of the maximum element of **F**.
+
 ### Input
 
 The first line of input contains a single integer **T**, the number of test cases. **T** tests follow. First line of each test case contains two integers, **N** and **M**. Each of the next **N** lines contain **M** numbers, representing the matrix **A**. ### Output
@@ -110,8 +110,8 @@ For each test case, output a line containing a single integer, the answer to the
 <b>Output:</b>
 6
 
-
 </pre>### Sub tasks
+
 - Sub task #1: **1 ≤ N, M ≤ 10** (10 points)
 - Sub task #2: **1 ≤ N, M ≤ 100** (20 points)
 - Sub task #3: **original constraints** (70 points)

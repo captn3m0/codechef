@@ -36,7 +36,6 @@ Sample Input :
 1 3 3
 1 0 3
 
-
 </pre><pre>
 Sample Output :
 4
@@ -44,11 +43,9 @@ Sample Output :
 0
 2
 
-
 </pre><pre>
 Constraints :
 1 <= N <= 100000
 1 <= Q <= 100000
 0 <= A <= B <= N - 1
-
 </pre>

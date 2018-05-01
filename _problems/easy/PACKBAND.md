@@ -41,5 +41,5 @@ For each test case, output the maximum number of boxes you can pack, in a new li
 
 <b>Output:</b>
 2
-
-</pre> **Explanation:** Only 1 test case here, and a possible answer can be, using (7,14) rubber band to pack box L = **20**, and using (7,35) rubber band to pack box L = 55. We cannot pack more than 2 boxes.
+</pre>
+ **Explanation:** Only 1 test case here, and a possible answer can be, using (7,14) rubber band to pack box L = **20**, and using (7,35) rubber band to pack box L = 55. We cannot pack more than 2 boxes.

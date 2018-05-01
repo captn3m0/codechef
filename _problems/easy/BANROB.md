@@ -94,7 +94,7 @@ For each test case, output a single line containing two space-separated doubles 
 ### Constraints and subtasks
 
 - **1** ≤ **T** ≤ **105**
-- ≤ **p** ≤  **1**
+- 0 ≤ **p** ≤  **1**
 
 **Subtask 1** (15 points) :
 **1** ≤ **M** ≤ **3**
@@ -114,6 +114,6 @@ For each test case, output a single line containing two space-separated doubles 
 <b>Output:</b>
 1000000000.0 0.0
 500000000.0 500000000.0
-
 </pre>### Explanation
+
 **Example case 1.** In the second case, if decision isn't made at **t = 0**, total amount of money decreases to 5\*108 at **t = 1** which leads to a situation worse than the given solution.

@@ -108,8 +108,8 @@ Hello
 What are these people doing?
 They are solving TOTR in Codechef March long contest.
 Ohh!
-
 </pre>### Explanation
+
 The string "qwertyuiopasdfghjklzxcvbnm" means that 'a' in Bytelandian is 'q' in English, 'b' in Bytelandian is 'w' in English, 'c' in Bytelandian is 'e' in English and so on.
 Thus to translate "Ph" (first sentence in example) to English:
 1\) We find that 'p' in Bytelandian means 'h' in English. So we replace 'P' with 'H'.

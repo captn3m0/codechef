@@ -55,5 +55,4 @@ Phi=Empty Set
 So R1=Either {({1},{2})} or {({2},{1})}
 and R2=No relation exists
 So,there is 1 relation of kind R1 and 0 relation of kind R2.
-
 </pre>

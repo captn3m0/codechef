@@ -95,6 +95,6 @@ For each test case, output a single line containing number of moves that robot w
 <b>Output:</b>
 6
 7
-
 </pre>### Explanation
+
 **Example case 1.** Sequence of moves would be LRLRLR

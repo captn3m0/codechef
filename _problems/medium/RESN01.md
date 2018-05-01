@@ -34,5 +34,4 @@ Output T lines, one per test case. For each test case, output a space seperated 
 <b>Output:</b>
 0 0 0
 1 1 1 1 1
-
 </pre>

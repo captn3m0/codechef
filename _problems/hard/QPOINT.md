@@ -113,8 +113,8 @@ For each query you print out one number which is the index of the country that c
 -1
 1
 2
-
 </pre>### Explanation
+
 **Example case 1.** The test case is represented in figure below.
 The first country is the rectangle ABCD and the second country is a triangle EFG. Notice that the point J at coordinate (6, 2) is considered to be inside the second country when it is on the boundary of this country
 

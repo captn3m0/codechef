@@ -65,6 +65,6 @@ yes
 no
 no
 no
-
 </pre>### Explanation
+
 All the examples are explained in the problem statement.

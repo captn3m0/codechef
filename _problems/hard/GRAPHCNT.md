@@ -114,8 +114,8 @@ Print a single integer corresponding to the number of unordered pairs as asked i
 
 <b>Output:</b>
 14
-
 </pre>### Explanation
+
 There are 14 pairs of vertices as follows: 
  (1,2) 
  (1,3) 

@@ -93,5 +93,4 @@ For each input output "wins" if the number is a palindrome and "losses" if not.
 losses
 wins
 wins
-
 </pre>

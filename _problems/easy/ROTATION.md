@@ -110,8 +110,8 @@ R 2
 5
 3
 3
-
 </pre>### Explanation
+
 The initial array : 5 4 3 3 9
 
 The answer for **R 1** : 5

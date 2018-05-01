@@ -125,8 +125,8 @@ For each query of type 2, print the required answer in a new line.
 5
 2
 4
-
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Query 1.**
  A = {0, 0, 0, 0, 0} 

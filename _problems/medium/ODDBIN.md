@@ -36,4 +36,5 @@ Output one line per test case, the value W( (1+x)a1 + (1+x)a2 + ... + (1+x)am ).
 <pre><strong>Input:</strong> <br></br>4<br></br>1 1<br></br>1 3<br></br>2 1 3<br></br>3 1 2 3
 <br></br><strong>Output:</strong> <br></br>2<br></br>4<br></br>2<br></br>2<br></br><br></br>
 </pre>### Explanation
+
 `(1+x) + (1+x)<sup>3</sup> = 2 + 4x + 3x<sup>2</sup> + x<sup>3</sup>. Hence the output for "2 1 3" is 2. (2 odd coefficients)<br></br>(1+x) + (1+x)<sup>2</sup> + (1+x)<sup>3</sup> = 3 + 6x + 4x<sup>2</sup> + x<sup>3</sup>. Hence the output for "3 1 2 3" is 2.<br></br>`

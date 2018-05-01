@@ -134,5 +134,4 @@ For each test case, output a single line containing the number of monsters the m
 <b>Output:</b>
 0
 3
-
 </pre>

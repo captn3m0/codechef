@@ -83,11 +83,11 @@ But the state boundaries have not been fixed yet. Given just the district-wise d
 
 - The first line contains one integer, **T**, which is the number of testcases.
 - The first line of each testcase contains two space separated integers, **o1** and **o2**, which are the number of states, and number of districts in each state, respectively.
-- The next line of each testcase contains **N = o1 \* o2** space separated integers: **d1, d2, .., dN**. If **di** is **1**, then it signifies that District **i** has chosen a One representative. If **di** is , then they have a Zero representative.
+- The next line of each testcase contains **N = o1 \* o2** space separated integers: **d1, d2, .., dN**. If **di** is **1**, then it signifies that District **i** has chosen a One representative. If **di** is 0, then they have a Zero representative.
 
 ### Output
 
-- Each testcase should be in a new line, and should contain **1**, if the President can be a One, and  otherwise.
+- Each testcase should be in a new line, and should contain **1**, if the President can be a One, and 0 otherwise.
 
 ### Constraints
 
@@ -129,8 +129,8 @@ For all subtasks you may assume that:
 1
 1
 0
-
 </pre>### Explanation
+
 In the first testcase, each state should have only 1 district, and hence, there is no actual choice in constructing the states. There will be three One Governors, and two Zero Governors, and hence the President will be a One.
 
 In the second testcase, each of the three states should should have 3 districts each. Consider the following partitioning of the districts into states: {2,3,4}, {5,6,7} and {8,9,1}. So, the first state consists of the districts {2,3,4}, and the representatives of these correspond to {0,1,1}. The majority is One, and hence the first state will have a One Governor. The representatives corresponding to the second state are {0,1,1}, and so again, this will have a One Governor. The third state has representatives {0,0,0}, and hence will have a Zero Governor. On the whole, there are two One Governors, and one Zero Governor, and hence the President will be a One. And since there is a way to partition the districts into states, in which the President is a One, the answer is 1.

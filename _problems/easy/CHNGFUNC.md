@@ -101,6 +101,6 @@ Output a single integer indicating the output to the only test case.
 
 <b>Output:</b>
 1
-
 </pre>### Explanation
+
 **Example case 1.**(1, 3) is the only pair such that x = 1, y = 3 satisfying x

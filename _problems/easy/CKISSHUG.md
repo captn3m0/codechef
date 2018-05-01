@@ -93,6 +93,7 @@ First line of the input contains **T (T ≤ 1000)** denoting the number of test 
 3
     
 <pre> **Output**
+
  ```
 
 2
@@ -100,6 +101,7 @@ First line of the input contains **T (T ≤ 1000)** denoting the number of test 
 6
    
 </pre> **Explanation:**
+
  In the first case the possible ways are
 
  K, H

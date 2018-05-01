@@ -122,8 +122,8 @@ GET 9 1</tt>
 3
 2
 1</tt>
-
 </pre>### Explanation
+
 - Initially, the sets are: {1}, {2}, {3}, {4}, {5}, {6}, {7}.
 - After the first query: {}, {}, {3}, {4}, {5}, {6}, {7}, {1, 2}.
 - After the second query the configuration of sets is: {}, {}, {}, {4}, {5}, {6}, {7}, {}, {1, 2, 3}.

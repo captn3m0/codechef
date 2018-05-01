@@ -133,8 +133,8 @@ For each test case, output a single line containing the number of cells where mo
 <b>Output:</b>
 0
 1
-
 </pre>### Explanation
+
 **Example case 1.** There is no cell for which minimum of L, R, T, B is greater than some prime P.
 
 **Example case 2.** The cell at \[3, 4\], (1-based indexing) is the only CPC.

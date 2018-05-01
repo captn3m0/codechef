@@ -135,8 +135,8 @@ For each test case, print a single line containing one integer — the number of
 
 2
 1024
-
 </pre>### Explanation
+
 **Example case 1:** We have 2 sweets in box 1 and 2 sweets in box 2. All possible sequences **P1..4** are: 1122, 2211, 1212, 2121, 1221 and 2112. Out of them, only 1212 and 2121 are valid, since **S1** = **S2** = 1.
 
 **Example case 2:** All possible 210 sequences are valid.

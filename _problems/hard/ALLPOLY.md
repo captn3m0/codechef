@@ -72,7 +72,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JULY16/mandarin/ALLPOLY.pdf), [Russian](http://www.codechef.com/download/translated/JULY16/russian/ALLPOLY.pdf) and [Vietnamese](http://www.codechef.com/download/translated/JULY16/vietnamese/ALLPOLY.pdf) as well.
 
-Chef holds all his secret recipes inside his house. For this reason, Chef's house is closed off by walls, thus it is very secure. You can think of the walls as a **simple polygon** in the 2D plane, and you can consider the thickness of the walls to be negligible, i.e., .
+Chef holds all his secret recipes inside his house. For this reason, Chef's house is closed off by walls, thus it is very secure. You can think of the walls as a **simple polygon** in the 2D plane, and you can consider the thickness of the walls to be negligible, i.e., 0.
 
 Unfortunately, bad guys plan to steal his recipes. To do so, they plan to send a single agent to parachute in a uniformly-chosen random point in the region **\[-107,107\] × \[-107,107\]**. (This point need not be a lattice point.) Once the agent parachutes down that point, he then deploys in his exact location a special weapon called the **pulverizer**, which is designed to destroy walls. The pulverizer works by firing a laser that rotates 360 degrees clockwise, initially pointing north. This laser beam completely destroys the part of the wall it hits.
 
@@ -138,6 +138,6 @@ For each test case, output a single real number denoting the probability of a su
 <b>Output:</b>
 <tt>0.25
 0.00045</tt>
-
 </pre>### Explanation
+
 The second example is depicted by the image above.

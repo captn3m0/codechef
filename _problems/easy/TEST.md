@@ -29,5 +29,4 @@ Your program is to use the brute-force approach in order to _find the Answer to 
 1
 2
 88
-
 </pre>

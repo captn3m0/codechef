@@ -61,7 +61,7 @@ For each query output "Yes" or "No" in a new line(without quotes). ### Constrain
   No
   No
   Yes
-  
-  ```### Explanation
+  ```
+  ### Explanation
   
   **Example case 1.** For the first query the answer is "Yes" because the edge between 5 and 6 can be removed. For the second query, it is not possible to remove an edge and get a difference of 27.

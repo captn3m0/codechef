@@ -91,18 +91,18 @@ For each test case, output a line containing the answer for the task.
 - **1** ≤ **T** ≤ **105**
 
 **Subtask 1 : 10 points** - **1** ≤ **N, M** ≤ **3**
-- ≤ **Z**, **L**, **R**, **B** ≤ **3**
+- 0 ≤ **Z**, **L**, **R**, **B** ≤ **3**
 
 **Subtask 2 : 20 points** - **1** ≤ **N, M** ≤ **30**
-- ≤ **Z**, **L**, **R** ≤ **30**
-- ≤ **B** ≤ **109**
+- 0 ≤ **Z**, **L**, **R** ≤ **30**
+- 0 ≤ **B** ≤ **109**
 
 **Subtask 3 : 30 points**- **1** ≤ **N, M** ≤ **106**
-- ≤ **Z**, **L**, **R** ≤ **106**
-- ≤ **B** ≤ **1016**
+- 0 ≤ **Z**, **L**, **R** ≤ **106**
+- 0 ≤ **B** ≤ **1016**
 
 **Subtask 4 : 40 points**- **1** ≤ **N, M** ≤ **108**
-- ≤ **Z**, **L**, **R**, **B** ≤ **1016**
+- 0 ≤ **Z**, **L**, **R**, **B** ≤ **1016**
 
 ### Example
 
@@ -114,8 +114,8 @@ For each test case, output a line containing the answer for the task.
 <b>Output:</b>
 <tt>4
 8</tt>
-
 </pre>### Explanation
+
 'L' - needs left
 'R - needs right
 'Z' - doesn't need any

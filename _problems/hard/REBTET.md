@@ -116,5 +116,4 @@ For each test case, output a single line. It must contain the number of ways to 
 9
 2439
 
-
 </pre>

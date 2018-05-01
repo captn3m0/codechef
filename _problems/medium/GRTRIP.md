@@ -115,33 +115,33 @@ Output should contain a single integer on the first line - answer for the proble
 1 ≤ <b>u,v</b> ≤ <b>N</b>
 1 ≤ <b>w</b> ≤ 10000
 
-
 </pre>### Example:
+
 **Input #1:**
 
 <pre>
 2 0
 
-
 </pre>**Output #1:**
+
 <pre>
 4
 
-
 </pre>**Input#2:**
+
 <pre>
 3 3
 1 2 1
 1 3 2
 2 3 2
 
-
 </pre>**Output#2:**
+
 <pre>
 8
 
-
 </pre>**Explanation:**
+
 For input#1 every possible pair is valid. for input#2 pair(1,3) is not valid, since Chef's algorithm will always go this way 1->2->3, while 1->3 is right way to get from 1 to 3. 
 
 />/>/>

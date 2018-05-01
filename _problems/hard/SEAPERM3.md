@@ -81,7 +81,7 @@ Output one line per test case that gives the number of good permutations obeying
 
 - **1** ≤ **T** ≤ **10**
 - **1** ≤ **N** ≤ **10^9**
-- ≤ **M** ≤ **10^4**
+- 0 ≤ **M** ≤ **10^4**
 - **1** ≤ **Xi, Vi** ≤ **N**
 
 ### Example
@@ -96,8 +96,8 @@ Output one line per test case that gives the number of good permutations obeying
 <b>Output:</b>
 <tt>1
 0</tt>
-
 </pre>### Explanation
+
 **Example case 1.** The only good permutation is **3,2,1** (i = 1, j = 2).
 
 ### Sub tasks

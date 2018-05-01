@@ -146,5 +146,4 @@ The first line of the input contains an integer **T** denoting the number of tes
 11
 3
 1
-
 </pre>

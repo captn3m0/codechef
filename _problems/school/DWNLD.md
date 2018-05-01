@@ -95,7 +95,7 @@ For each test case output a single integer in separate line, the amount that Che
 
 - **1** ≤ **TC** ≤ **1,000**
 - **1** ≤ **N** ≤ **10**
-- ≤ **K** ≤ **T1 + T2 + ... + TN**
+- 0 ≤ **K** ≤ **T1 + T2 + ... + TN**
 - **1** ≤ **Ti**, **Di** ≤ **10**
 
 ### Example
@@ -116,8 +116,8 @@ For each test case output a single integer in separate line, the amount that Che
 6
 3
 110
-
 </pre>### Explanation
+
 **Example case 1.** For the first two minutes, internet data of usage of Chef is free. He has to pay for last 2 minutes only, for which he will be charged at 3 dollars per minute, i.e. total 6 dollars.
 
 **Example case 2.** For the first two minutes, internet data of usage of Chef is free. He has to pay for last 1 minute only, for which he is being charged at 3 dollars per minute. So, in total he has to pay 3 dollars.

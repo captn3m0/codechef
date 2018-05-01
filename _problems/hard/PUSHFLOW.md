@@ -139,5 +139,4 @@ For each query of the zeroth type you should to output one integer: the maximum 
 3
 2
 7
-
 </pre>

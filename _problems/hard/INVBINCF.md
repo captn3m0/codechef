@@ -90,7 +90,7 @@ For each test case output the answer on the separate line.
 
 - **1** ≤ **T** ≤ **100**
 - **1** ≤ **n** ≤ **120**
-- ≤ **R** < **2n**
+- 0 ≤ **R** < **2n**
 
 ### Example
 
@@ -107,11 +107,11 @@ For each test case output the answer on the separate line.
 0
 1
 7
-
 </pre>### Explanation
+
 **Example case 1.** We have **C(1, 0) = C(1, 1) = 1**. Hence **C(1, K) mod 2 ≠ 0** for all **K**. Therefore, the answer is **-1**.
 
-**Example case 2.** Since **C(1, 0) mod 2 = 1**, the answer is .
+**Example case 2.** Since **C(1, 0) mod 2 = 1**, the answer is 0.
 
 **Example case 3.** Since **C(7, 0) mod 8 = 1 ≠ 7** and **C(7, 1) mod 8 = 7 mod 8 = 7**, the answer is **1**.
 

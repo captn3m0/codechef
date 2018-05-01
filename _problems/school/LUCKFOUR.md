@@ -98,8 +98,8 @@ Output **T** lines. Each of these lines should contain the number of occurences 
 ### Constraints
 
 - **1** ≤ **T** ≤ **105**
-- (Subtask 1):  ≤ Numbers from the list ≤ **9** - 33 points.
-- (Subtask 2):  ≤ Numbers from the list ≤ **109** - 67 points.
+- (Subtask 1): 0 ≤ Numbers from the list ≤ **9** - 33 points.
+- (Subtask 2): 0 ≤ Numbers from the list ≤ **109** - 67 points.
 
 ### Example
 
@@ -117,5 +117,4 @@ Output **T** lines. Each of these lines should contain the number of occurences 
 1
 1
 0
-
 </pre>

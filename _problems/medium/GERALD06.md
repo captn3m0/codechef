@@ -134,5 +134,4 @@ You should number vertices in graph **G** from **1** to **K**. If there are mult
 1 4
 1 5
 2 3
-
 </pre>

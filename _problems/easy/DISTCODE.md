@@ -105,8 +105,8 @@ BYBY</tt>
 <b>Output:</b>
 <tt>3
 2</tt>
-
 </pre>### Explanation
+
 **Example case 1.** The codes are **IN**, **NB** and **BY**.
 
 **Example case 2.** The codes are **BY** and **YB**.

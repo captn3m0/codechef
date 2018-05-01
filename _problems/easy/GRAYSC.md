@@ -95,5 +95,4 @@ Output “Yes” (quotes exclusive) if there exist four distinct indices **i1, i
 <b>Output:</b>
 
 Yes
-
 </pre>

@@ -56,13 +56,13 @@ Time Limit : 20 seconds.
 1 3 4
 10 6
 1 2 5 7 8 10
-
 </pre>### Sample Output :
+
 <pre>2
 3
 6166
-
 </pre>### Note :
+
 For the first test case,
 
 (1 3 2) and (2 3 1) are the valid permutations.

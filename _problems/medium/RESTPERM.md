@@ -132,5 +132,4 @@ Please flush output buffer anytime you output a query.
 2 1 2
 > (FEEDBACK) Yes
 3 1 2</tt>
-
 </pre>

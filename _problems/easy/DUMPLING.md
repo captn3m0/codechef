@@ -114,5 +114,4 @@ Thus, there are three different positions at most 1 unit away from the center
 that are reachable by both the chefs in one or more moves.
 
 
-
 </pre>

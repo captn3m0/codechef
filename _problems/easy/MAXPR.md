@@ -114,5 +114,4 @@ For each test case print the remainder of the division the answer on **100000000
 0
 1
 
-
 </pre>

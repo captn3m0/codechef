@@ -118,8 +118,8 @@ If it is impossible to construct a network with the given parameters for the cor
 3 4
 4 5
 5 1</tt>
-
 </pre>### Explanation
+
 **Example case 1.** There are not enough connections even to satisfy the first requirement.
 
 **Example case 2.** The obtained network satisfies all the requirements.

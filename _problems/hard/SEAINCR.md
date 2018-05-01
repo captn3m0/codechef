@@ -115,5 +115,4 @@ For each test case, output **M** lines - the answer for each query.
 <tt>3
 2
 2</tt>
-
 </pre>

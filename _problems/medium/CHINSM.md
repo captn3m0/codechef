@@ -106,6 +106,6 @@ A single line containing an integer - the answer to the problem.
 
 <b>Output:</b>
 4
-
 </pre>### Explanation:
+
 We can check **5 mod 3 = 2**, **5 mod 1 = 0** and **3 mod 1 = 0**. Thus **(5, 3)** is the only bad pair in the array. The **4** subsegments **A\[1;1\] = {5}, A\[2;2\] = {3}, A\[3;3\] = {1}, A\[2;3\] = {3, 1}** are OK. The other subsegments **A\[1;2\] = {5, 3}, A\[1;3\] = {5, 3, 1}** have a bad pair.

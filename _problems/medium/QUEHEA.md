@@ -113,8 +113,8 @@ For each query, output the number of guilds after the execution.
 4
 2
 3</tt>
-
 </pre>### Explanation
+
 Initially there is just one guild.
 
 After the executions of the first query the guilds will be **{ {1, 2}, {3, 4}, {5},{6} }**.

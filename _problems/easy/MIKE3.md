@@ -106,6 +106,6 @@ Output should contain the only integer, denoting the maximal number of the offer
 
 <b>Output:</b>
 2
-
 </pre>### Explanation
+
 In the example test Mike should accept the first and the third offer.

@@ -130,6 +130,6 @@ For each test case, output a single integer in separate line corresponding to th
 <b>Output:</b>
 15
 23
-
 </pre>### Explanation
+
 **Example case 2:** The _amazingness_ values of numbers 11, 12, 13, 14 are 1, 6, 6 and 10 respectively. They sum up to 23.

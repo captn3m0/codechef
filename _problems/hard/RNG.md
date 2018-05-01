@@ -116,8 +116,8 @@ Print a single integer denoting value of **AN**.
 
 <b>Output:</b>
 139
-
 </pre>### Explanation
+
 **A1 = 1.**
 **A2 = 2.**
 **A3 = 3.**

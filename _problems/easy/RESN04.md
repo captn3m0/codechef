@@ -34,5 +34,4 @@ Output T lines, one per test case. For each test case, output "ALICE" if Alice w
 <b>Output:</b>
 ALICE
 ALICE
-
 </pre>

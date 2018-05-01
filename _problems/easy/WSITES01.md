@@ -113,6 +113,6 @@ Otherwise, in the first line print the number of filters K in the firewall. Then
 2
 codef
 y
-
 </pre>### Explanation
+
 You can see that the filter "codef" is a prefix of the blocked site "codeforces", but not a prefix of approved sites "codechef" and "google". Similarly, filter "y" is also a prefix of blocked site "youtube", but not a prefix of the approved sites. You can also see that there exists at least one filter for both the blocked sites "codeforces" and "youtube".

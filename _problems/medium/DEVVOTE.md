@@ -114,8 +114,8 @@ For each test case, print a single real number corresponding to the answer of th
 <b>Output:</b>
 1.000000
 2.000000
-
 </pre>### Explanation
+
 **Example 1:**
  **1st** Devu votes himself and get elected for president. So expected number of presidents are **1**.
 

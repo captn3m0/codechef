@@ -75,7 +75,7 @@ A number **n** is called a _good number_ if following properties hold.
 
 You will two numbers **L, R**, you have to find sum of divisors (including non-trivial) of all the good numbers in the range **L** to **R**, both inclusive.
 
-Please note that  is not considered a prime number.
+Please note that 0 is not considered a prime number.
 
 ### Input
 
@@ -109,8 +109,8 @@ For each test case, output a single line corresponding to answer of the test cas
 <b>Output:</b>
 6
 30
-
 </pre>### Explanation
+
 - Following number in the range 1 to 10 are square free numbers : 1, 2, 3, 5, 6, 7, 10.
 - Sum of their divisors will be 1, 3, 4, 6, 12, 8, 18 respectively.
 - Number of prime divisors of their sum of divisors will be 0, 1, 1, 2, 2, 1, 2 respectively.

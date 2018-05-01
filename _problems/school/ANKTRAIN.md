@@ -133,5 +133,4 @@ The output should contain exactly **T** lines each containing the berth of the n
 <tt>4LB
 2MB
 6UB</tt>
-
 </pre>

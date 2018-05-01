@@ -107,8 +107,8 @@ CHEFCIELISOURCHEF
 TAKEITEASY
 CHEFCHEF
 AAACHEF
-
 </pre>### Explanation 
+
 **Example Case 1.** Here the resulting string can have at most 2 substrings equal to **"CHEF"**. For example, some possible such strings are:
 
 - **CHEF**CIELISA**CHEF**

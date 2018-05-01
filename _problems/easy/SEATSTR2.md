@@ -115,5 +115,4 @@ abcd
 <b>Output:</b>
 0
 144
-
 </pre>

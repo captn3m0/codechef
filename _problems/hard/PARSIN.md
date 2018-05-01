@@ -49,6 +49,7 @@ For each test case, print the value of **f**(**M**, **N**, **X**). This value mu
 1 1 5
 1 30 0.3
 </pre>### Sample Output
+
 <pre>-0.99999714638
 0
 0

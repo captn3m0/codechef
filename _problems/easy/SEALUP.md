@@ -104,7 +104,7 @@ For each test case, output a single line containing the minimum cost of sealing 
 - **1** ≤ **T** ≤ **10**
 - The coordinates of the window are given either in clockwise or in a counter-clockwise order.
 - No three or more vertices lie on the same line (i.e. are collinear).
-- ≤ **Xi**, **Yi** ≤ **106**
+- 0 ≤ **Xi**, **Yi** ≤ **106**
 - **1** ≤ **Li**, **Ci** ≤ **106**
 
 ### Subtasks
@@ -128,6 +128,6 @@ For each test case, output a single line containing the minimum cost of sealing 
 
 <b>Output:</b>
 <tt>50</tt>
-
 </pre>### Explanation
+
 **Example case 1.** In this case, Sergey's window is a rectangle with the side lengths of **1000** and **2000**. There are two types of the sticky stripes in the shop - the one of the length 1000 with the cost of 10 rubles and with the length of 2000 and the cost of 15 rubles. The optimal solution would be to buy **2** stripes of the first type **2** stripes of the second type. The cost will be **2 × 15 + 2 × 10 = 50** rubles.

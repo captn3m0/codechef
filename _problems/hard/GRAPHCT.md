@@ -39,7 +39,6 @@ Output T lines, one corresponding to each test case. For a test case, output the
 4 4
 5 10
 
-
 </pre><pre>Sample Output :
 1
 0
@@ -47,10 +46,8 @@ Output T lines, one corresponding to each test case. For a test case, output the
 3
 0
 
-
 </pre><pre>Constraints :
 1 <= T <= 2000
 1 <= n <= 100
 0 <= m <= 10000
-
 </pre>

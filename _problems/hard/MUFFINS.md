@@ -42,5 +42,4 @@ The output for each test case consists of a single line containing "Possible" if
 <b>Output:</b>
 Possible
 Impossible
-
 </pre>

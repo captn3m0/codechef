@@ -82,7 +82,7 @@ The first line of the input contains an integer **T** denoting the number of tes
 
 For each test case, output a single line containing the minimum possible distance between Ciel's restaurants that could be achieved. The output must have an absolute or relative error at most **0.000001 (10−6)**. Please, note that your output should not have more than **1000** digits after the decimal point, otherwise you may (or may not) get _wrong answer_ or _runtime error (SIGXFSZ)_.
 
-Note also that the answer could be , which means that two Ciel's restaurants should be located at the same building.
+Note also that the answer could be 0, which means that two Ciel's restaurants should be located at the same building.
 
 ### Constraints
 
@@ -104,8 +104,8 @@ Note also that the answer could be , which means that two Ciel's restaurants sho
 0.0
 69.00000
 0
-
 </pre>### Explanation 
+
 **Example case 1.** The distance between markets **S** and **T** is **50**. Assume for simplicity that **S** has coordinates **(0, 0)** and **T** has coordinates **(50, 0)**. Then Ciel could build her first restaurant **RS** at the point **(15, 0)** and the second restaurant **RT** at the point **(35, 0)**. This will ensure that the distance between **S** and **RS** is **DS = 15** and the distance between **T** and **RT** is **DT = 15**. The distance between restaurants appear to be **20** in this scenario. One can prove that this is the minimum possible distance.
 
 **Example case 2.** Here Ciel can locate both her restaurants at the same place. Indeed, if **S = (0, 0)** and **T = (18, 0)** then Ciel could locate both her restaurants at the point **R = (9, 12)**. To check this note that **Dist(R, S) = ((9 − 0)2 + (12 − 0)2)1/2 = (81 + 144)1/2 = 2251/2 = 15**. Similarly it can be verified that **Dist(R, T) = 15**.

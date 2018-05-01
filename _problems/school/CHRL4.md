@@ -95,8 +95,8 @@ Please output the value of the minimal possible product, modulo **1000000007**.
 <b>Output:</b>
 8
 
-
 </pre>### Scoring
+
 Subtask 1 (30 points): **N** <= 80 
 
 Subtask 2 (70 points): See the constraints.

@@ -50,8 +50,8 @@ Output exactly K lines containing the K best pieces of land chef can buy, ordere
 3 2 8
 2 4 11
 3 4 75
-
 </pre>### Explanation
+
 If the chef decides to buy the land from (3,4) to (5,7), he will end up with the following layout:
 0 2 0 2
 0 2 0 2

@@ -98,7 +98,7 @@ For each test case, output one line containing one integer, the answer modulo (*
 
 - **1** ≤ **T** ≤ **100**
 - **2** ≤ **n** ≤ **105**
-- ≤ **m** ≤ **105**
+- 0 ≤ **m** ≤ **105**
 - Sum of each of **n, m** over all test cases ≤ **3 \* 105**
 - **1** ≤ **u, v** ≤ **n**.
 - **1** ≤ **k** ≤ **3**.
@@ -145,8 +145,8 @@ For each test case, output one line containing one integer, the answer modulo (*
 56
 194
 
-
 </pre>### Explanation
+
 **Example case 1.**
 
 **f**(emptyset) = **f**({1}) = **f**({2}) = **f**({3}) = 0;

@@ -98,5 +98,4 @@ The first line of the input contains one integer **T**, the number of test cases
 <b>Output:</b>
 1
 4
-
 </pre>

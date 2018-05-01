@@ -74,7 +74,7 @@ layout: problem
 ---
 All submissions for this problem are available.### Read problems statements in [mandarin chinese](http://www.codechef.com/download/translated/LTIME49/mandarin/SHDWCMP.pdf), [russian](http://www.codechef.com/download/translated/LTIME49/russian/SHDWCMP.pdf) and [vietnamese](http://www.codechef.com/download/translated/LTIME49/vietnamese/SHDWCMP.pdf) as well.
 
-You are working in a company with **N** employees numbered from  to **N - 1**, and employee  is the director. Each employee, except the director, has a supervisor. The director doesn't have a supervisor. Let's call employee **v**, an ancestor of employee **u** if and only if **v** is the supervisor of **u** or **v** is an ancestor of the supervisor of **u**.
+You are working in a company with **N** employees numbered from 0 to **N - 1**, and employee 0 is the director. Each employee, except the director, has a supervisor. The director doesn't have a supervisor. Let's call employee **v**, an ancestor of employee **u** if and only if **v** is the supervisor of **u** or **v** is an ancestor of the supervisor of **u**.
 
 Also, each employee belongs to exactly one club at any moment. Employee **i** belongs to club number **Ci** initially. The company has assemblies for which all the employees of the company gather. During an assembly, the employees introduce each other, in a particular fashion. Employee **v** introduces employee **a** to employee **b** if **a, b, v** are from the same club, **a** is ancestor of **v** and **v** is ancestor of **b**.
 
@@ -97,9 +97,9 @@ You have to output **Q + 1** lines. Line number **i + 1** should contain the ans
 
 - **1** ≤ **N** ≤ **500000**
 - **1** ≤ **Q** ≤ **500000**
-- ≤ **Pi** i
-- ≤ **Ci** N
-- ≤ **Xi** N
+- 0 ≤ **Pi** i
+- 0 ≤ **Ci** N
+- 0 ≤ **Xi** N
 
 ### Subtasks
 
@@ -121,8 +121,8 @@ You have to output **Q + 1** lines. Line number **i + 1** should contain the ans
 6
 3
 2
-
 </pre>### Explanation
+
 We represent employee **v** introducing employee **a** to employee **b**, by the triplet (**a, v, b**).
 
 Initially, before any change, there are a total of 6 introduces. They are:

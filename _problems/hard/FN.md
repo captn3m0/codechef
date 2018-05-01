@@ -102,7 +102,7 @@ For each test case, output a single line containing one integer indicates the sm
 
 **11** ≤ **P** ≤ **2000000000** and is one **prime number**
 
- ≤ **C** ≤ **P-1**
+0 ≤ **C** ≤ **P-1**
 
 **(P Mod 10)** is **square number**
 
@@ -130,6 +130,5 @@ n
 F_n(mod 19)	
 0	1	1	2	3	5	8	13	2     15	17	13	11	5	16	2	18	1	0	1
 </p>
-
 
 </pre>

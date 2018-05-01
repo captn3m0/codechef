@@ -120,11 +120,11 @@ For each group, output the integer denoting the maximum difference between numbe
 1
 1
 6
-
 </pre>### Explanation
-**Group 1.** There is only one person in the group. Thus the maximum difference of numbers should be .
 
-**Group 2.** There are two persons in the group. Their growth are **A5 = 5** and **A6 = 7**. Thus there is no pair of persons who have the same growth. Thus the answer for this group will also be .
+**Group 1.** There is only one person in the group. Thus the maximum difference of numbers should be 0.
+
+**Group 2.** There are two persons in the group. Their growth are **A5 = 5** and **A6 = 7**. Thus there is no pair of persons who have the same growth. Thus the answer for this group will also be 0.
 
 **Group 3.** There are three persons in the group. Their growth are **A3 = 6**, **A4 = 6** and **A5 = 5**. Here person **3** and person **4** has the same growth. Thus the answer is **|4 − 3| = 1**.
 

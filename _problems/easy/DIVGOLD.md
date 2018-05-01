@@ -107,8 +107,8 @@ XYZZYZZ
 <b>Output:</b>
 ADCB
 XYYZZZZ
-
 </pre>### Explanation
+
 **Example case 1.** The optimal solution here is to choose the last character and put it in the beginning of the string. So the answer will be **ADCB**
 
 **Example case 2.** The optimal solution here is to choose the 5-th character (1-based index) and put it between the 2-nd and the 3-rd characters. So the answer will be **XYYZZZZ**

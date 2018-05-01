@@ -112,8 +112,8 @@ Each query, output the answer on a new line.
 
 <b>Output:</b>
 22
-
 </pre>### Explanations:
+
 There are 3 hours in a day, and 2 activities to choose from. Let the activities be A1 and A2. Let the dishes be D1 and D2. On Day 1, only D1 is available. We will denote a plan for the day by a triplet (X, Y, Z). For example (D1, A1, A2) means that on the first hour, the Chef eats dish D1 (which is his breakfast), then the next hour he does the first activity and on the last hour of the day he does the second activity.
 
 All possible plans for the first day are as follows:

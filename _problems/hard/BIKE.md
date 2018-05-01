@@ -75,13 +75,13 @@ All submissions for this problem are available.###  Read problems statements in 
 
 In Chefland, there are **n** cities and **m** one-way roads between cities. The chef will travel between cities along these roads using a very unusual bike. The circumference of the front wheel is **n** (the same as the number of cities) yet the circumference of its rear wheel is only **n - 1**. We think of the circumference of each wheel as being broken up into equal-spaced _positions_. So the front wheel has positions **0, 1, ..., n-1** and the rear wheel has positions **0, 1, ..., n-2**. Each unit of distance travelled will advance each wheel 1 position.
 
-For example, when the chef travels a distance of **d** when both wheels start at position , the position of the front wheel is left at **d (mod n)** and the position of the rear wheel is left at **d (mod (n - 1))**.
+For example, when the chef travels a distance of **d** when both wheels start at position 0, the position of the front wheel is left at **d (mod n)** and the position of the rear wheel is left at **d (mod (n - 1))**.
 
 Furthermore, the chef bikes very fast and the roads are very bumpy. Quite frequently at least one wheel is not touching the ground. When this happens, the wheel does not turn at all (the bike needs some lubrication). So the front and rear wheel may not even rotate the same total number of positions when travelling along a road.
 
 For each road **i**, we are given the start city **s\[i\]**, the end city **e\[i\]**, the distance the front wheel travels **f\[i\]**, and the distance of the rear wheel **r\[i\]**.
 
-Both wheels start at position  at the beginning of the chef's trip. After traveling a sequence of roads **i1,i2, ..., ik** the front wheel is in position **F := f\[i1\] + f\[i2\] + ... + f\[ik\] (mod n)**. Similarly, the rear wheel is in position **R := r\[i1\] + r\[i2\] + ... + r\[ik\] (mod n-1)**.
+Both wheels start at position 0 at the beginning of the chef's trip. After traveling a sequence of roads **i1,i2, ..., ik** the front wheel is in position **F := f\[i1\] + f\[i2\] + ... + f\[ik\] (mod n)**. Similarly, the rear wheel is in position **R := r\[i1\] + r\[i2\] + ... + r\[ik\] (mod n-1)**.
 
 The chef wants to start and end in the same city, but is ok starting in any city. The chef is also ok visiting a city more than once; it is the journey that counts, not the destinations.
 
@@ -133,6 +133,6 @@ The **j**'th number on the **i**'th line of the **k**'th block should describe t
 1 8
 0 10
 1 2
-
 </pre>### Explanation
+
 I have discovered a truly marvellous enumeration of this, which this margin is too narrow to contain.

@@ -86,8 +86,8 @@ Chef has a nice _complete_ binary tree in his garden. _Complete_ means that each
              3       5           7        9
             / \      /  \          /  \       /  \
            6  8 10 12      14 16   18 20 
-
 </pre>Here you can see the visualization of the process. For example, in odd levels, the root was enumerated first, then, there were enumerated roots' left sons' sons and roots' right sons' sons.
+
 You are given the string of symbols, let's call it **S**. Each symbol is either **l** or **r**. Naturally, this sequence denotes some path from the root, where **l** means going to the left son and **r** means going to the right son.
 
 Please, help Chef to determine the number of the last node in this path.
@@ -122,6 +122,6 @@ lllr
 4
 13
 
-
 </pre>### Explanation
+
 See the example in the statement for better understanding the samples.

@@ -98,9 +98,9 @@ For each test case you should print an integer, the maximum area of a staircase 
 
 - **1** ≤ **T** ≤ **5**
 - **1** ≤ **N** ≤ **105**
-- ≤ **K** ≤ **50**
+- 0 ≤ **K** ≤ **50**
 - The sum of **N** over all testcases does not exceed **105**.
-- ≤ **histogrami** ≤ **105**
+- 0 ≤ **histogrami** ≤ **105**
 
 ### Subtasks
 
@@ -126,8 +126,8 @@ For each test case you should print an integer, the maximum area of a staircase 
 33
 29
 2
-
 </pre>### Explanation
+
 The cells which form the staircase are colored with yellow. The discarded cells are colored with grey.
 
 #### Case **1**:
@@ -147,4 +147,4 @@ The computed area is **7** × **2** + **5** × **3** = **29**.
 
 ![](https://codechef_shared.s3.amazonaws.com/download/upload/SEPT17/WEASELSC/example_3_2.png)#### Case **4**:
 
-We take the second and the third cell. We have  changes in height. This is a viable solution because we can also have staircases with less than **K** changes.
+We take the second and the third cell. We have 0 changes in height. This is a viable solution because we can also have staircases with less than **K** changes.

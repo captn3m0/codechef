@@ -101,7 +101,7 @@ After each query of the second type, output in a single line the number of segme
 - **1** ≤  **T**  ≤  **100**
 - **1**  ≤ **N** ≤  **106**
 - **1**  ≤ **Q** ≤  **105**
-- 
+- 0
 - **1**  ≤ **i**  ≤  **N**
 - **1**  ≤  **Ai**  ≤  **109**
 - **1**  ≤  **L ≤ R**  ≤  **109**
@@ -130,6 +130,5 @@ After each query of the second type, output in a single line the number of segme
 2
 3
 3
-
 
 </pre>

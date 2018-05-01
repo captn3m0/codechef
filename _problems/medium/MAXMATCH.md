@@ -124,8 +124,8 @@ For each test case, print a single integer representing the answer of that test 
 <b>Output:</b>
 1
 17
-
 </pre>### Explanation
+
 **For N=3, graph can be shown as below:**
 
 ![Mountain View](/download/extimages/e0e32ec8077fe8a8e8a759c8d8f5d9eb.jpg)

@@ -84,7 +84,7 @@ The call center responds to client for **H** hours per day, which, for simplicit
 
 For each hour in the week, the number of clients connecting to the call center for that hour is known. So, Chef knows that he needs exactly **Ri,j** people talking with clients during the day **i** and hour **j**.
 
-**Fk, i, j** is equal to **1** if person **k** is available to talk to clients during hour **j** of day **i** and  if they have a meeting during that time.
+**Fk, i, j** is equal to **1** if person **k** is available to talk to clients during hour **j** of day **i** and 0 if they have a meeting during that time.
 
 Please note that Chef lives in an alien world, which may not have 24 hours in a day or 7 days in a week.
 
@@ -124,8 +124,8 @@ For each test case in a single line output **"Yes"** (without quotes) if it's po
 - **1** ≤ **D** ≤ **MAX**
 - **1** ≤ **P** ≤ **MAX**
 - **1** ≤ **Li** ≤ **N\*D**
-- ≤ **Ri,j** ≤ **15**
-- ≤ **Fk,i,j** ≤ **1**
+- 0 ≤ **Ri,j** ≤ **15**
+- 0 ≤ **Fk,i,j** ≤ **1**
 - **1** ≤ **LTbegin, LTend** ≤ **N**
 
 ### Subtasks
@@ -160,5 +160,4 @@ For each test case in a single line output **"Yes"** (without quotes) if it's po
 <b>Output:</b>
 Yes
 No
-
 </pre>

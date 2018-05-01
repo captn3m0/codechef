@@ -40,8 +40,8 @@ M -2
 <b>Output:</b>
 1
 1
-
 </pre>
+
 **Explanation:**
 
 Case 1 :

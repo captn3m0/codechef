@@ -79,11 +79,11 @@ For example, the _W string_ can be formed from "aaaaa#bb#cc#dddd" such as:
        a   b c   d
         a b   c d
          #     #
-
 </pre>He also call the strings which can generate a 'W' shape (satisfying the above conditions) _W strings_.
+
 More formally, a string **S** is a _W string_ if and only if it satisfies the following conditions (some terms and notations are explained in **Note**, please see it if you cannot understand):
 
-- The string **S** contains **exactly** **3** '#' characters. Let the indexes of all '#' be **P1 < P2 < P3** (indexes are -origin).
+- The string **S** contains **exactly** **3** '#' characters. Let the indexes of all '#' be **P1 < P2 < P3** (indexes are 0-origin).
 - Each substring of **S\[0, P1−1\], S\[P1+1, P2−1\], S\[P2+1, P3−1\], S\[P3+1, |S|−1\]** contains exactly one kind of characters, where **S\[a, b\]** denotes the non-empty substring from **a+1**th character to **b+1**th character, and **|S|** denotes the length of string **S** (See **Note** for details).
 
 Now, his friend Ryuk gives him a string **S** and asks him to find the length of the longest _W string_ which is a subsequence of **S**, with only one condition that there must not be any '#' symbols between the positions of the first and the second '#' symbol he chooses, nor between the second and the third (here the "positions" we are looking at are in **S**), i.e. suppose the index of the '#'s he chooses to make the _W string_ are **P1, P2, P3** (in increasing order) in the original string **S**, then there must be no index **i** such that **S\[i\]** = '#' where **P1 < i < P2 or P2 < i < P3**.
@@ -104,7 +104,7 @@ First line of input contains an integer **T**, denoting the number of test cases
 
 ### Output
 
-Output an integer, denoting the length of the longest _W string_ as explained before. If **S** has no _W string_ as its subsequence, then output .
+Output an integer, denoting the length of the longest _W string_ as explained before. If **S** has no _W string_ as its subsequence, then output 0.
 
 ### Constraints
 
@@ -125,8 +125,8 @@ abc#dda#bb#bb#aca
 16
 10
 11
-
 </pre>### Explanation
+
 In the first case: the whole string forms a _W String_.
 
 In the second case: acb#aab#bab#accba, the longest _W string_ is ac**b#aa**b**\#b**a**b#a**ccb**a**

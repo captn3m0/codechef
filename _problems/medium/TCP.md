@@ -79,13 +79,13 @@ As for us, all we know is: Chef's velocity at 4 time instances. And we are inter
 
 ### Input
 
-The first line contains an integer **N** denoting the number of test cases. The first line of each testcase contains an integer **T**, the time up to which we want to know the distance covered by Chef from time . Then **4** lines follow, each containing two integers: **ct** and **cv**. Here **ct** is the time instant and **cv** is the velocity at time **ct**.
+The first line contains an integer **N** denoting the number of test cases. The first line of each testcase contains an integer **T**, the time up to which we want to know the distance covered by Chef from time 0. Then **4** lines follow, each containing two integers: **ct** and **cv**. Here **ct** is the time instant and **cv** is the velocity at time **ct**.
 
 **Please note**, that we pick **ct** in such a way that **cv** comes out to be integer. In general the velocity of Chef is real number.
 
 ### Output
 
-For each test case output a single line containing a real number – the distance covered by the Chef in time interval  to **T**. Your answer will be considered as correct if it has **relative error less than 10-10**.
+For each test case output a single line containing a real number – the distance covered by the Chef in time interval 0 to **T**. Your answer will be considered as correct if it has **relative error less than 10-10**.
 
 ### Constraints
 
@@ -113,5 +113,4 @@ For each test case output a single line containing a real number – the distanc
 <b>Output:</b>
 173.750000
 80.000000
-
 </pre>

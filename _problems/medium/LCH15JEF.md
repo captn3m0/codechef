@@ -92,7 +92,7 @@ For each test case, output a single line containing one integer corresponding to
 - **1** ≤ **T** ≤ **20**
 - **1** ≤ **M** ≤ **1018**
 - **1** ≤ **length of S** ≤ **104**
-- ≤ **Xi, Yi** ≤ **109997**
+- 0 ≤ **Xi, Yi** ≤ **109997**
 - It's guaranteed that there will not be **0\*\*0** expression
 
 ###  Subtasks 
@@ -110,5 +110,4 @@ For each test case, output a single line containing one integer corresponding to
 <b>Output:</b>
 24
 1936
-
 </pre>

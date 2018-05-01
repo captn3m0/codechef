@@ -89,7 +89,7 @@ For each test case, output a single line containing the answer to the correspond
 - **1** ≤ **T** ≤ **5**
 - **1** ≤ **N** ≤ **109**
 - **1** ≤ **K** ≤ **7**
-- ≤ **B** ≤ **30**
+- 0 ≤ **B** ≤ **30**
 
 ### Example
 
@@ -103,13 +103,13 @@ For each test case, output a single line containing the answer to the correspond
 0
 2
 1
-
 </pre>### Notes
+
 XOR-sum of **n** integers **A\[1\], , , A\[n\]** will be **A\[1\] xor A\[2\] xor .. A\[n\]**. By xor, we mean [bit-wise xor](http://en.wikipedia.org/wiki/Bitwise_operation#XOR).
 
 ### Explanation
 
-**Example case 1.** There is no way to choose a subset of **2** integers from **{0, 1, 2}** such that the XOR-sum contains  set bits.
+**Example case 1.** There is no way to choose a subset of **2** integers from **{0, 1, 2}** such that the XOR-sum contains 0 set bits.
 
 **Example case 2.** The two possible subsets in this case are **{0, 1}** and **{0, 2}**. In both cases the XOR-sum (**1** and **2** respectively) contains exactly one set bit.
 

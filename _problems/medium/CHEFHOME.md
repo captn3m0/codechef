@@ -116,5 +116,4 @@ The number of possible locations (grid points) where houses can be built.
 1
 1
 4
-
 </pre>

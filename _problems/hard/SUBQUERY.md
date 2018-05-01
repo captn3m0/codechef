@@ -101,6 +101,6 @@ abacaba
 
 <b>Output:</b>
 1
-
 </pre>### Explanation
+
 The only such string is **aba**.

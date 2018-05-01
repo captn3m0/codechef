@@ -104,8 +104,8 @@ aa
 aba
 ab
 -1
-
 </pre>### Explanation
+
 **Example case 1.** He can arrange the balloons in the order given by the following string "aba".
 
 **Example case 2.** He can arrange the balloons in the order given by the following string "ab"

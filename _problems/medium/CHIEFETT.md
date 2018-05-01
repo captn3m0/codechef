@@ -46,13 +46,13 @@ For each test case, print the expected amount of money Chef should expect to sav
 100 200 300 400
 10 20 30
 
-
 </pre>**Sample output**
+
 <pre>66.667
 175.000
 
-
 </pre>**Explanation**
+
 In the second case, Chief can make the following selections:
 
 - (100, 200, 300), with probability 1/4. Chef can apply the coupons to at best save 140.

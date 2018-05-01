@@ -50,8 +50,8 @@ ppi
 Tracy
 Tracy
 Teddy
-
 </pre>### Constraints
+
 - 1 <= _T_ <= 5
 - 1 <= _N_ <= 30
 - 1 <= |_S_| <= 30

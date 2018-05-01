@@ -75,7 +75,7 @@ The kick was so strong that Chef suddenly understood the rules of the game.
 
 - Each cell is painted with a color. Here the colors are numbered from **1** to **M**.
 - For any cell **i**, Chef can repaint it with any color **q**, and the cost of such operation is **Ci,q** points.
-- However Chef can do at most **K** repaintings ( repaintings is possible).
+- However Chef can do at most **K** repaintings (0 repaintings is possible).
 - After performing all repaintings, each cell will have some color. For each cell **i**, if cell **i** has color **q** then Chef will receive **Bi,q** points.
 
 Now Chef is wondering how many points can he receive in total when he repaints optimally.
@@ -119,8 +119,8 @@ For each test case, output a single line containing the maximal possible points.
 
 <b>Output:</b>
 5
-
 </pre>**Explanation:**
+
  For this sample, we can repaint only once, since **K = 1**. We should repaint **4**th cell with color **1**. We will pay **1** for this, and receive:
 
 **1** (**1**st cell - **1**st color) + 

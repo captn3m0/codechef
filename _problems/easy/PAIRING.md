@@ -43,5 +43,4 @@ The output for each test case consists of the indices of the pairs of employees 
 <b>Output:</b>
 1 4
 2
-
 </pre>

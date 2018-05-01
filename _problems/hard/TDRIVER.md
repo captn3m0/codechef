@@ -121,5 +121,4 @@ For each test case, output a single line containing one integer: the sum of the 
 6
 32274
 
-
 </pre>

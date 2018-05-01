@@ -113,8 +113,8 @@ For each test case, output a single line containing the answer to this test case
 12
 3
 9
-
 </pre>### Explanation
+
 **Example case 1.** There are 10 units of energy available. Pressing second button takes 2 units of energy. Chef can achieve 12 on the second screen as follows.
 
 - Press first button to get scores (1, 0). 9 units of energey is left.

@@ -120,8 +120,8 @@ For each test case output a single line, containing a single integer, indicating
 7
 9
 1
-
 </pre>### Explanation
+
 **Example case 1.** One of the possible solutions is to add **9** making the array **\[4, 7, 9\]**, whose median is **7**
 
 **Example case 3.** No matter what elements you add to this array, the median will always be **1**

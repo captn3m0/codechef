@@ -103,8 +103,8 @@ For each testcase, output a single line containing **n** integers, the i-th inte
 
 <b>Output:</b>
 8 4
-
 </pre>### Explanation
+
 We will see what happens at every minute:
 
 - time = 1: The queue is (1, 2), and so the owner of Request 1 is checked as to whether he is ready or not. This checking process takes up this entire minute. He is not ready, because **b1** > time (2 > 1). So the queue now becomes (2, 1).

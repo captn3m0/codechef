@@ -57,6 +57,6 @@ Jimma doesn't like this game because she does not get any chocolate. So, she wan
 
 <b>Output:</b>
 2
-
 </pre>### Explanation
+
 In the first step, Jimma can choose bar 4, which is of length 2. Bar 3 and bar 1 form **Inversion Pairs** with bar 4. So Chingam eats all these 3 bars. In the second step, Jimma chooses bar 2, and she's done. You can check that Jimma cannot get rid of all the four bars in one step.

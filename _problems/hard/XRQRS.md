@@ -130,5 +130,4 @@ For each Query of type 1, 3 and 4 output the result in a single line.
 1
 8
 2
-
 </pre>

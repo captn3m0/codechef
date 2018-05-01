@@ -43,5 +43,4 @@ Output a single line containing the minumum number of clicks necessary to close 
 <b>Output:</b>
 9
 2
-
 </pre>

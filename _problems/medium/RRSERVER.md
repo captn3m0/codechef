@@ -94,6 +94,6 @@ Output single integer — minimal wire length required to connect all the server
 1 3
 <b>Output:</b>
 2
-
 </pre>### Explanation
+
 One of the optimal arrangements is **\[2, 1, 3\]**

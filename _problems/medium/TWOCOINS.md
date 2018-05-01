@@ -127,8 +127,8 @@ For each test case, output a single integer corresponding to the minimum number 
 <b>Output</b>
 3
 4
-
 </pre>### Explanation
+
 **Example case 1**.
 
 ![](https://discuss.codechef.com/upfiles/twocoins_first_sample.jpg)

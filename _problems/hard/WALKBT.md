@@ -131,8 +131,8 @@ For each query of Type 2, you have to print one integer in a new line
 5
 6
 7
-
 </pre>### Explanation
+
 Let us label the tree nodes as follows:
 
 ![](https://codechef_shared.s3.amazonaws.com/download/upload/AUG17/puush-linux%2B%282017-08-04%2Bat%2B02.32.03%29.png)The node 0 corresponds to the root.

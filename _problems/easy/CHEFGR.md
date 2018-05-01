@@ -46,7 +46,7 @@ Chef wants to spend **exactly** **M** cubes. Can he make this in such way that t
 - **1** ≤ **T** ≤ **10^2**
 - **1** ≤ **N** ≤ **10^2**
 - **1** ≤ **Ai** ≤ **10^2**
-- ≤ **M** ≤ **10^4**
+- 0 ≤ **M** ≤ **10^4**
 
 ### Example
 
@@ -63,8 +63,8 @@ Chef wants to spend **exactly** **M** cubes. Can he make this in such way that t
 Yes
 No
 No
-
 </pre>### Explanation
+
 In the first case we can put cubes on columns in such count: **1, 1, 0, 2, 3**. The sum equals **M**.
 
 In the second case we can't make the columns equal as we will receive something like **44443**.

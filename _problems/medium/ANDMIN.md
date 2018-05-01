@@ -88,7 +88,7 @@ In the next **Q** lines, each contain one of the queries described above.
 
 ### Output
 
-For each query of the type , output a single line containing the answer of the query.
+For each query of the type 0, output a single line containing the answer of the query.
 
 ### Constraints
 
@@ -111,5 +111,4 @@ For each query of the type , output a single line containing the answer of the q
 <tt>2
 4
 0</tt>
-
 </pre>

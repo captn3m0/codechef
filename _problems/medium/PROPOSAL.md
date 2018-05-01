@@ -24,8 +24,8 @@ The figure below shows a simple multiplication problem. However, not all the dec
     * * *           <-- partial product 2
     -------
     * * * *
-
-</pre>Digits can appear only in places marked by \*'. Of course, leading zeroes are not allowed. Write a program to help Prima that will find all solutions to this problem for any subset of digits from the set {1,2,3,4,5,6,7,8,9}. ### Input
+</pre>
+Digits can appear only in places marked by \*'. Of course, leading zeroes are not allowed. Write a program to help Prima that will find all solutions to this problem for any subset of digits from the set {1,2,3,4,5,6,7,8,9}. ### Input
 
 The first line contains N, the number of digits that will be used 
 The second line contains N space separated digits
@@ -42,8 +42,8 @@ A single line with the total number of unique solutions. Here is the single solu
     4 4 4
   ---------
     4 8 8 4
-
 </pre>### Example
+
 <pre>
 <b>Input:</b>
 5
@@ -52,5 +52,4 @@ A single line with the total number of unique solutions. Here is the single solu
 
 <b>Output:</b>
 1
-
 </pre>

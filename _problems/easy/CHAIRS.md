@@ -104,8 +104,8 @@ For each test case, output a single line containing a single integer donating mi
 
 <b>Output:</b>
 2
-
 </pre>### Explanation
+
 The initial configuration is:
 
 <pre>       
@@ -114,16 +114,16 @@ The initial configuration is:
            1          0
               0    0
                   1
-
 </pre>We can tell the child who is **boldened** to move counter-clockwise, and the new configuration will be:
+
 <pre>       
                  0
               <b>1</b>    0
            1          0
               0    0
                   1
-
 </pre>because he has moved to the first empty chair on his way.
+
 Now, we again tell him to move counter-clockwise, and now the new configuration will be:
 
 <pre>       
@@ -132,8 +132,8 @@ Now, we again tell him to move counter-clockwise, and now the new configuration 
            1          0
               <b>1</b>    0
                   1
-
 </pre>because he moved counter-clockwise, found an occupied chair, and hence kept moving. The next chair was vacant, and he sat down there.
+
 Note that, in this example, we moved the same child twice, but this need not be the case. We can move different children in different moves.
 
 You can check that this is the best we can do, and 2 is the minimum.

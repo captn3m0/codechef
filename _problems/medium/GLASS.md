@@ -33,13 +33,13 @@ It is always possible to construct volume 0.
 2
 8 1 10
 
-
 <pre>###  Sample Output 
+
 </pre>
 7
 1 1
-
 <pre>###  Constraints 
+
 1 < n ≤ 10 
 1 ≤ xi ≤ 107 
 MIN(xi) ≤ 100000 

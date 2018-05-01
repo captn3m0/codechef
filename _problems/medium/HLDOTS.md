@@ -109,6 +109,6 @@ Output the number of correct heavy-light decompositions of the given tree. Since
 
 <b>Output:</b>
 8
-
 </pre>### Explanation
+
 **Example case 1.** Input is a complete binary tree. It consists of 7 nodes, therefore you can't have more than **⌊log2 7⌋ = ⌊(2.80735492206)⌋ = 2**  light edges on the path from the root node to any other one. But the tree's height is 2, so you can choose the decomposition in any way you like. All the decompositions will be correct ones. There are three nodes that has outgoing edges from them (in the direction opposite to the root's one), their numbers are **1**, **2** and **3**. Each of them has 2 outgoing edges from which you can colour exactly one of them heavy, so overall you'll have 2 \* 2 \* 2 = 8 options of creating the correct heavy-light decompositions.

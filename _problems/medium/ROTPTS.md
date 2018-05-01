@@ -126,5 +126,4 @@ For each query of type 1, print a single line containing two space-separated int
 
 0 1000000005
 1000000003 6
-
 </pre>

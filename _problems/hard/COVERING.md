@@ -72,7 +72,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/COOK52/mandarin/COVERING.pdf) and [Russian](http://www.codechef.com/download/translated/COOK52/russian/COVERING.pdf) as well.
 
- Let's consider a set **S** of **N** different elements numbered from  to **N - 1**. It's a well-known fact that there are exactly 2**N** subsets of **S** (including the empty subset). Each subset **S'** of **S** can be encoded as a bitmask **B(S')** containing **N** bits, where the **i**'th bit of **B(S')** is equal to 1 if the **i**'th element of **S** belongs to **S'**, and 0 otherwise. Each bitmask can also be considered as a non-negative integer represented in binary.
+ Let's consider a set **S** of **N** different elements numbered from 0 to **N - 1**. It's a well-known fact that there are exactly 2**N** subsets of **S** (including the empty subset). Each subset **S'** of **S** can be encoded as a bitmask **B(S')** containing **N** bits, where the **i**'th bit of **B(S')** is equal to 1 if the **i**'th element of **S** belongs to **S'**, and 0 otherwise. Each bitmask can also be considered as a non-negative integer represented in binary.
 
  For example, suppose **N** is equal to 5. Then **S** = {0, 1, 2, 3, 4}. Let's assume **S'** = {0, 3, 4}. Then **B(S')** = 1 × 20 + 0 × 21 + 0 × 22 + 1 × 23 + 1 × 24 = 110012 = 2510.
 
@@ -111,8 +111,8 @@ All submissions for this problem are available.###  Read problems statements in 
 <b>Output:</b>
 7680
 
-
 </pre>### Explanations
+
 Here's the table of what sets are covered by all the possible triples for **N** = 1:
 
 ABCD000{0}001{0, 1}010{0, 1}011{0, 1}100{0, 1}101{0, 1}110{0, 1}111{0, 1}

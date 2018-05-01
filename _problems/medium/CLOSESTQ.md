@@ -123,8 +123,8 @@ For each query, output a single line containing one integer — the square of th
 8
 8
 315218
-
 <pre>### Explanation
+
 **Query 1.** There is only 1 point, so the answer is 0
 
 **Query 2.** There are only 2 points, (1, 1) and (2, 2), so answer is (1 - 2)2 + (1 - 2)2, which equals to 2

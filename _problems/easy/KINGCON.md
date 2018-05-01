@@ -69,7 +69,7 @@ time:
     current: 1493558156
 layout: problem
 ---
-All submissions for this problem are available.The Kingdom of Bytelandia has **N** cities, numbered from  to **N**−**1**. There are **M** bidirectional roads, each of which connects two different cities. The road network in the kingdom is such that people of any city can reach any other city they desired through the road network. This is called having _unity_ in the kingdom. Bytelandia is very famous for its unity. The people are united and familiar with each other. The king of Bytelandia is also very proud of this fact.
+All submissions for this problem are available.The Kingdom of Bytelandia has **N** cities, numbered from 0 to **N**−**1**. There are **M** bidirectional roads, each of which connects two different cities. The road network in the kingdom is such that people of any city can reach any other city they desired through the road network. This is called having _unity_ in the kingdom. Bytelandia is very famous for its unity. The people are united and familiar with each other. The king of Bytelandia is also very proud of this fact.
 
 But, **some people just want to watch the world burn**. Dr. Bobo is one of such people. He is very wicked. He doesn't like _unity_ of Bytelandia. He has a chemical missile to spread diseases. He plans to attack one of the cities of Bytelandia.
 
@@ -96,7 +96,7 @@ For each test case, output the minimum amount of money required to fulfill the k
 - **1** ≤ **T** ≤ **1500**
 - **2** ≤ **N** ≤ **3000**
 - **N**−**1** ≤ **M** ≤ **N**\*(**N**−**1**)/**2**)
-- ≤ **A**, **B** ≤ **N**−**1**, **A** ≠ **B**
+- 0 ≤ **A**, **B** ≤ **N**−**1**, **A** ≠ **B**
 - **1** ≤ **K** ≤ **1000**
 - The road network has _unity_
 - No two roads connect the same pair of cities
@@ -117,6 +117,6 @@ For each test case, output the minimum amount of money required to fulfill the k
 
 <b>Output:</b>
 15
-
 </pre>### Explanation
+
 In the sample, the cities **1**, **2**, and **4** must be protected by the shields.

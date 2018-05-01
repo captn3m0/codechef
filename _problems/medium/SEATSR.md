@@ -92,7 +92,7 @@ For each test case on different lines print the answer to the problem - minimum 
 
 - **1** ≤ **T** ≤ **10**
 - **1** ≤ **|s|, |w|** ≤ **100000**
-- ≤ **a, b, k** ≤ **100**
+- 0 ≤ **a, b, k** ≤ **100**
 
 ### Example
 
@@ -116,6 +116,5 @@ bbbbbb
 2
 2
 -1
-
 
 </pre>

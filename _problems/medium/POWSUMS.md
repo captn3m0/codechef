@@ -99,7 +99,7 @@ For each test case, print a single line containing **Q** space separate integers
 
 - **1** ≤ **n** ≤ **300**
 - **1** ≤ **Q** ≤ **30**
-- ≤ **f(i)** 109 + 7
+- 0 ≤ **f(i)** 109 + 7
 - **n** xi ≤ **1018**
 - It is guaranteed that given information is enough to restore the function **f** and that there exist exactly one such function.
 
@@ -122,8 +122,8 @@ For each test case, print a single line containing **Q** space separate integers
 
 <b>Output:</b>
 34 66 73741819
-
 </pre>### Explanation
+
 **Test case 1.** The initial **4** numbers Chef has are **1, 2, 0, 1**, so, the function **f** was defined as follows: **f(k) = (1k + 2k + 0k + 1k) mod (109 + 7) = (2k + 2) mod (109 + 7)**.
 
 So, the values given in the input are: **```
@@ -132,14 +132,12 @@ f(1) = (2<sup>1</sup> + 2) mod (10<sup>9</sup> + 7) = 4
 f(2) = (2<sup>2</sup> + 2) mod (10<sup>9</sup> + 7) = 6
 f(3) = (2<sup>3</sup> + 2) mod (10<sup>9</sup> + 7) = 10
 f(4) = (2<sup>4</sup> + 2) mod (10<sup>9</sup> + 7) = 18
-
 <pre>**
 And the values Chef asked you to calculate are: **```
 
 f(5) = (2<sup>5</sup> + 2) mod (10<sup>9</sup> + 7) = 34
 f(6) = (2<sup>6</sup> + 2) mod (10<sup>9</sup> + 7) = 66
 f(30) = (2<sup>30</sup> + 2) mod (10<sup>9</sup> + 7) = 1073741826  mod (10<sup>9</sup> + 7) = 73741819
-
 </pre>**
 ### Note
 

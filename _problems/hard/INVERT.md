@@ -119,15 +119,15 @@ After each of the Devu's move, report the required answer for Churu.
 3 3 2
 2 2 3
 1 1 2
-
 </pre>**Input**
+
 <pre>
 1
 2
 3
 5
-
 </pre>### Explanation
+
 - After Q1, **A** = {2, 5, 1}, **B** = {4, 3}. Therefore, inversion count in **B** is 1.
 - After Q2, **A** = {2, 5}, **B** = {4, 1, 3}. Therefore, inversion count in **B** is 2.
 - After Q3, **A** = {2}, **B** = {4, 1, 5, 3}. Therefore, inversion count in **B** is 3.

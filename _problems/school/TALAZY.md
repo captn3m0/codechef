@@ -104,8 +104,8 @@ For each test case output a single line containing an integer represent how much
 <b>Output</b>:
 45
 131351258112
-
 </pre>### Explanation
+
 In the first test case, Jem will proceed as below:
 
 - Initially, Jem has 9 problems to solve. since it is an odd number, Jem will finish the first (9 + 1) / 2 = 5 problems with speed of 2 minutes/problem.

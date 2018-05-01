@@ -35,8 +35,8 @@ For each test case, output N lines. The ith line contains the maximum fraction y
 2/5
 5/6
 6/5
-
 </pre>### Sample Output :
+
 <pre>
 3/1
 7/2
@@ -48,11 +48,10 @@ For each test case, output N lines. The ith line contains the maximum fraction y
 13/16
 1/1
 6/5
-
 </pre>### Constraints : 
+
 <pre>
 1 <= T <= 5
 1 <= n <= 100000
 1 <= a_k,b_k <= 100000
-
 </pre>

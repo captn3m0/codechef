@@ -111,8 +111,8 @@ abzbabzbazab
 6
 2
 64197148392731290
-
 </pre>### Explanation
+
 **Test case 1.** Limak repeated the string "abcb" 2 times, and so he got "abcbabcb". There are 6 occurrences of the subsequence "ab":
 
 - ABcbabcb (the two letters marked uppercase)

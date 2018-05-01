@@ -129,8 +129,8 @@ For each query output "YES" or "NO" (without the double quotes) depending on whe
 YES
 NO
 YES
-
 </pre>### Explanation
+
 In the first query the first sub-array looks like \[1, 3, 4\] on sorting and the second sub-array looks like \[2, 3, 4\] on sorting. These two sub-arrays only differ at first position so they are _similar_.
 
 In the second query the first sub-array on sorting looks like \[1, 3\] on sorting and the second sub-array looks like \[3, 4\] on sorting. These two sub-arrays differ at both the positions so they are not _similar_.

@@ -107,7 +107,7 @@ Subtask 3 (50 points) : **1 ≤ T ≤ 20 , 1 ≤ N ≤ 105, 0 ≤ ai ≤ bi ≤ 
 
 <b>Output:</b>
 2
-
 </pre>### Explanation
+
 There are three kingdoms \[1,3\] ,\[2,5\] and \[6,9\]. You will need at least 2 bombs
 to destroy the kingdoms. In one of the possible solutions, you can place two bombs at x = 2 and x = 6 .

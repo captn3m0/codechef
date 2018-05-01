@@ -35,5 +35,4 @@ Output T lines, one per test case. For each test case, output a space seperated 
 0 0 0
 11117 101 1075 12127 12081
 
-
 </pre>

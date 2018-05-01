@@ -63,8 +63,8 @@ Time limit : 2 seconds.
 3 2
 3 2
 
-
 </pre>### Sample Output:
+
 <pre>SECOND
 FIRST
 SECOND

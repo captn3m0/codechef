@@ -104,6 +104,6 @@ ab a b ba
 
 <b>Output:</b>
 1
-
 </pre>### Explanation
+
 **Example case 1.** You need to delete strings either "a" or "b" (one of them), rest of the strings can be concatenated to form a palindrome, i.e. "abbba" and "ababa" respectively.

@@ -99,8 +99,8 @@ For each test case, output a single line containing either "YES" or "NO" - the a
 ### Constraints
 
 - **1** ≤ **T** ≤ **100000**
-- Subtask 1: **1** ≤ **N** ≤ **5**,  ≤ **M** ≤ **10** - 73 points.
-- Subtask 2: **1** ≤ **N** ≤ **10**,  ≤ **M** ≤ **20** - 27 points.
+- Subtask 1: **1** ≤ **N** ≤ **5**, 0 ≤ **M** ≤ **10** - 73 points.
+- Subtask 2: **1** ≤ **N** ≤ **10**, 0 ≤ **M** ≤ **20** - 27 points.
 
 ### Example
 
@@ -117,8 +117,8 @@ For each test case, output a single line containing either "YES" or "NO" - the a
 <b>Output:</b>
 YES
 NO
-
 </pre>### Explanation
+
 The first example is the original version of the problem.
 
 The second example would have a solution if a boat could seat an additional animal/item.

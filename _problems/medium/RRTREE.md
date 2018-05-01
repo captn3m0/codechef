@@ -109,5 +109,4 @@ For each test case, output **N-1** lines - the diameter after adding vertices **
   2
   3
   3
-  
   ```

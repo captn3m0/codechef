@@ -156,6 +156,6 @@ Yes
 No
 Yes
 
-
 </pre>###  Explanation
+
  **Example case 2:** There are neither problems of "medium-hard" level nor "hard" level, so it's impossible to form a Cook-Off contest.

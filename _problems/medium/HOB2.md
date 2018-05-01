@@ -28,7 +28,7 @@ layout: problem
 ---
 All submissions for this problem are available.I hope all of you remember that Chef built a Hotel Balifornia in Byteland and some complicated scheme for allocating guests, invented by lift boy, was used. But after realizing all badness of this scheme Chef fired lift boy and simplifies the process of allocating guests drastically. Now at the time of check-in each guest only provides the preferable room for him and the number of minutes he will stay in the hotel. After that the hotel manager finds the first available room starting from the provided one assuming that rooms in the hotel are arranged in cyclic manner.
 
-Namely, let there be **R** rooms in the hotel and they are numbered by numbers from  to **R − 1**, inclusive. Suppose guest chooses the room **K**. Then the hotel manager checks rooms in order
+Namely, let there be **R** rooms in the hotel and they are numbered by numbers from 0 to **R − 1**, inclusive. Suppose guest chooses the room **K**. Then the hotel manager checks rooms in order
 **K, K + 1, K + 2, ..., R − 2, R − 1, 0, 1, 2, ..., K − 2, K − 1**
  and allocates the guest in the first free room in this list or report the guest that all rooms are occupied if this is the case./>/>
 
@@ -42,15 +42,15 @@ The first line of the input contains an integer **T**, denoting the number of te
 
 ### Output
 
-For each test case output **N** lines. The **i**-th line among them should contain two space separated integers **room** and **stay\_time**, the room chosen by the **i**-th guest and the time he will stay in the hotel, **room** should be from  to **R − 1** inclusive and **stay\_time** should be from **1** to **31415926**, inclusive. If there are several possible answers you can output any of them. But your output should be consistent as stated above. Existence of such answer is always guaranteed for our test data (see **Constraints** section below).
+For each test case output **N** lines. The **i**-th line among them should contain two space separated integers **room** and **stay\_time**, the room chosen by the **i**-th guest and the time he will stay in the hotel, **room** should be from 0 to **R − 1** inclusive and **stay\_time** should be from **1** to **31415926**, inclusive. If there are several possible answers you can output any of them. But your output should be consistent as stated above. Existence of such answer is always guaranteed for our test data (see **Constraints** section below).
 
 ### Constraints
 
 - **1** ≤ **T** ≤ **314159**
 - **1** ≤ **R** ≤ **314159**
 - **1** ≤ **N** ≤ **314159**
-- ≤ **time** < **31415926**
-- ≤ **inconv** ≤ **R**
+- 0 ≤ **time** < **31415926**
+- 0 ≤ **inconv** ≤ **R**
 - The sum of **R** over the input does not exceed **314159**
 - The sum of **N** over the input does not exceed **314159**
 - Visit times will be given in strictly increasing order
@@ -84,8 +84,8 @@ For each test case output **N** lines. The **i**-th line among them should conta
 0 3
 1 3
 0 31415
-
 </pre>### Explanation
+
 **Example case 1.** Here **R = 1** and **N = 2**. Let's check that provided output is consistent. The first guest comes at time 0 and asks for room 0 for 31 minutes. Since the hotel is initially empty we settle him at this room causing zero inconvenience. The second guest comes at time 314 and asks for room 0 for 31415 minutes. The first guest made this room free at time 31 so at time 314 it is free and we settle the second guest at room 0 causing zero inconvenience.
 
 **Example case 2.** Here **R = 5** and **N = 3**. Again let's check that provided output is consistent. The first guest comes at time 3 and asks for room 4 for 31 minutes. Since the hotel is initially empty we settle him at this room causing zero inconvenience. The second guest comes at time 31 and asks for room 4 for 314 minutes. But the first guest is still living in this room (he will free it at time 34). Therefore, we settle the second guest at the room 0 (the next after 4 in cyclic manner) causing inconvenience 1. Finally the third guest comes at time 314 and asks for room 2 for 3141 minutes. This room is free and we settle him at this room causing zero inconvenience.

@@ -56,5 +56,4 @@ For each test case, output **-1** if there is no bipartite graph satisfying this
 2 2
 1 2
 -1
-
 </pre>

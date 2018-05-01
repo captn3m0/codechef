@@ -110,8 +110,8 @@ Your task is to find the sum of f(X , Y , Z) over all triplets (X, Y , Z) where 
 
 <b>Output:</b>
 399
-
 </pre>### Explanation: 
+
  As there is only one choice for Y which equals to 5, to get a non-zero function value,we can choose any element for X from the set { 1 , 2 , 3 } and for Z from the set { 4 , 5 }
 
 So triplets which give non-zero function values are:

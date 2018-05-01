@@ -96,6 +96,6 @@ For each test case, output a single line containing the number **M** or **-1** a
 
 <b>Output:</b>
 1
-
 </pre>### Explanation
+
 **First Example :**  **M** desired in the problem would be 1. As bitwise XOR of 1 and 2 is equal to 3.

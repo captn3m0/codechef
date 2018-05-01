@@ -103,8 +103,8 @@ Output the required answer modulo **13313** in one line.
 
 <b>Output 2:</b>
 1
-
 </pre>### Explanation
+
 Input 1:
 Three possible ways are:
 

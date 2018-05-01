@@ -75,7 +75,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 There are **N** students living in the dormitory of Berland State University. Each of them sometimes wants to use the kitchen, so the head of the dormitory came up with a timetable for kitchen's usage in order to avoid the conflicts:
 
-- The first student starts to use the kitchen at the time  and should finish the cooking not later than at the time **A1**.
+- The first student starts to use the kitchen at the time 0 and should finish the cooking not later than at the time **A1**.
 - The second student starts to use the kitchen at the time **A1** and should finish the cooking not later than at the time **A2**.
 - And so on.
 - The **N**-th student starts to use the kitchen at the time **AN-1** and should finish the cooking not later than at the time **AN**
@@ -104,7 +104,7 @@ Should contain all the constraints on the input data that you may have. Format i
 
 - **1** ≤ **T** ≤ **10**
 - **1** ≤ **N** ≤ **104**
-- < **A1** < **A2** < ... < **AN** < **109**
+- 0 < **A1** < **A2** < ... < **AN** < **109**
 - **1** ≤ **Bi** ≤ **109**
 
 ### Example
@@ -121,8 +121,8 @@ Should contain all the constraints on the input data that you may have. Format i
 <b>Output:</b>
 <tt>2
 1</tt>
-
 </pre>### Explanation
-**Example case 1.** The first student has **1** unit of time - the moment . It will be enough for her to cook. The second student has **9** units of time, but wants to cook for **10** units of time, and won't fit in time. The third student has **5** units of time and will fit in time, because needs to cook only for **3** units of time.
+
+**Example case 1.** The first student has **1** unit of time - the moment 0. It will be enough for her to cook. The second student has **9** units of time, but wants to cook for **10** units of time, and won't fit in time. The third student has **5** units of time and will fit in time, because needs to cook only for **3** units of time.
 
 **Example case 2.** Each of students has **10** units of time, but only the second one will be able to fit in time.

@@ -112,6 +112,7 @@ For each test case, output two lines. The first line contains a single integer, 
 1 3 2 4
 </tt>
 <pre>### Explanation
+
 **Example case 1.** Here, **K** = 1. The array **\[1, 2, 3, 4, 5\]** indeed contains exactly one longest increasing subsequence: the whole sequence itself.
 
 **Example case 2.** Here, **K** = 2. As explained in the problem statement, the array **\[1, 3, 2, 4\]** contains exactly two longest increasing subsequences: **\[1, 3, 4\]** and **\[1, 2, 4\]**.

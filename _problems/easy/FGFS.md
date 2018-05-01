@@ -90,9 +90,9 @@ Note that the **ith** customer wants to occupy the **pith** compartment from **\
 ### Constraints
 
 - **1** ≤ **T** ≤  **30**
-- ≤ **N** ≤  **105**
+- 0  ≤ **N** ≤  **105**
 - **1**  ≤  **K** ≤  **109**
-- ≤ **si** < **fi** ≤  **109**
+- 0  ≤ **si** < **fi** ≤  **109**
 - **1**  ≤  **pi**  ≤  **K**
 
 ### Example
@@ -112,8 +112,8 @@ Note that the **ith** customer wants to occupy the **pith** compartment from **\
 <b>Output:</b>
 3
 3
-
 </pre>### Explanation
+
 **Example case 1.**
 
 All three customers want different compartments and hence all 3 can be accommodated. />

@@ -112,6 +112,6 @@ For every test case in single line output **Q** integers - for each **Xi** outpu
 <b>Output:</b>
 0 16 1
 2 1
-
 <pre>### Explanation
+
 **Example case 1.** \[\[5 / 2\] / 3\] = 0, \[\[100 / 2\] / 3\] = 16, \[\[8 / 2\] / 3\] = 1

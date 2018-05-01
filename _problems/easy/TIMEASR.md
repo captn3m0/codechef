@@ -91,12 +91,12 @@ For each test case print all valid values of time as described in the statement 
 ### Constraints and Subtasks
 
 - **1** ≤ **T** ≤ **105**
-- ≤ **A** ≤ **180**
+- 0 ≤ **A** ≤ **180**
 - Output won't exceed **1 MB**.
 
 **Subtask 1: (30 points)**
 
-- **A** is an integer from the set {, **90**, **180**}.
+- **A** is an integer from the set {0, **90**, **180**}.
 
 **Subtask 2: (30 points)**
 

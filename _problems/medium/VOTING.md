@@ -55,10 +55,9 @@ Where D is the sum of the distances between the optimum ranking and the input ra
 2 1 3
 1 2 3
 3 2 1
-
 </pre>### Output:
+
 <pre>
 0: 1 2 3
 4: 2 1 3
-
 </pre>(note that in the second case that the ranking 1 2 3 also has total distance 4, but 2 1 3 is output based on the rules outlined in the output specification)

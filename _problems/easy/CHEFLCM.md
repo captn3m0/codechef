@@ -112,7 +112,7 @@ For each test case, output a single line containing an integer corresponding to 
 <b>Output:</b>
 1
 3
-
 </pre>### Explanation
+
 **Example 1 :** Only possible number is **1**, so the maximum sum of distinct numbers is exactly **1**. 
 **Example 2 :** The distinct numbers you can have are just **1** and **2**, so the sum is **3**. If we consider any other number greater than **2**, then the least common multiple will be more than **2**.

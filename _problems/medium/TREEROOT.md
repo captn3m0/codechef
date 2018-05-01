@@ -98,12 +98,12 @@ For each test case, output on a line a space separated list of all possible valu
 4 0
 5 5
 6 5
-
 </pre>### Sample Output
+
 <pre>4
 6
-
 </pre>### Explanation
+
 In the first sample test case, there is only one node, which is clearly the root. In the second test case, there are two non-isomorphic trees that satisfy the constraints, as seen in the following picture:
 
 <pre>  6           6

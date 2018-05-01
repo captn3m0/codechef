@@ -96,7 +96,7 @@ Output a single line denoting the answer of the problem. Your answer will be con
 
 - **1** ≤ **M** ≤ **50**
 - **-10^4** ≤ **x, y** ≤ **10^4**
-- < **r** ≤ **10^4**
+- 0 < **r** ≤ **10^4**
 
 ### Subtasks
 
@@ -118,6 +118,6 @@ Output a single line denoting the answer of the problem. Your answer will be con
 <b>Output:</b>
 49.087385212341
 
-
 </pre>### Explanation
+
 **Example case 1.** Two circles that are not intersecting each other.

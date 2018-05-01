@@ -118,5 +118,4 @@ For each query of each test case print the required number of connected componen
 3
 1
 1
-
 </pre>

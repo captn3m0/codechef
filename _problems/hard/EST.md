@@ -108,5 +108,4 @@ helloworld
 6221124
 
 <b>Explanation:</b>
-
 </pre>In the first test case every string of length 1 satisfies the condition. In the second test case every string consisting of two equal letters is fine. In the third test case every string comprising three pairwise distinct letters adds 1 to the answer. In the fourth test case string 'bee' is one of the 1300 good strings.

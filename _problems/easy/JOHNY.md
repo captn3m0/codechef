@@ -101,8 +101,8 @@ For each test case, output a single line containing the position of "Uncle Johny
 3
 4
 1
-
 </pre>### Explanation
+
 In the example test there are **T**=3 test cases.
 
 **Test case 1**

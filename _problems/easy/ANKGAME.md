@@ -107,14 +107,14 @@ For each test case, output a single integer corresponding to the answer for that
 2
 2 3
 
-
 </pre>**Sample Output:**
+
 <pre>
 2
 2
 
-
 </pre>**Explanation:**
+
 **Case 1:**
 The following different orders are possible:
 

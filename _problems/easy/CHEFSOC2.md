@@ -120,8 +120,8 @@ Dogs quickly found out that there can be lot of possible sequences of passes whi
 1 0 1
 0 2 0
 0 0 0
-
 </pre>### Explanation
+
 **Example case 1.**
 Possible sequence for dog **1** is **2->3->1**.
 Possible sequence for dog **3** is **2->1->3**.

@@ -128,8 +128,8 @@ For each test case on different lines print an array **a**, after executing all 
 7 7 0 7 7
 2
 512 512 512 512 512 512 512 512 512 512
-
 </pre>### Explanation:
+
 **Example case 1.**.
 
 After the first command, the resulting array is \[1 1 0 0 0\], after second \[1 1 0 1 1\].

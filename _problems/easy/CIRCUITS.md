@@ -64,5 +64,4 @@ For each test case you are to output a single line containing the value p for wh
 0.29289
 0.70711
 0.40303
-
 </pre>

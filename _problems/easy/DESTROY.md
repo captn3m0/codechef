@@ -115,7 +115,7 @@ For each test case, output the required answer in a new line.
 2
 2
 
-
 </pre>### Explanation
+
 - Test 1: In an operation, Chef can choose **2** elements **X** and **Y** such that **X = 1** and **Y = 2** and can destroy them as **X != Y**.
 - Test 2: Chef cannot choose **2** elements **X** and **Y** such that **X != Y**. So, he has to use the second operation twice in order to destroy the array.

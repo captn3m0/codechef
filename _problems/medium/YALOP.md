@@ -52,6 +52,6 @@ YES
 YES
 NO
 
-
 </pre>### Explanation
+
 In the first test case Johnny can pass the trial making the following steps: South-east, North, West, East, West, South-east, out. In the second test case: East, West, South, East, out. It's impossible to pass the trial in the third test case.

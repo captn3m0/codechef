@@ -95,5 +95,4 @@ Display the factorial of the given number **N** .
 6
 24
 120
-
 </pre>

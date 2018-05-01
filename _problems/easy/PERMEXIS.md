@@ -105,8 +105,8 @@ For each test case, output in one line **YES** or **NO** denoting if array **A**
 <b>Output:</b>
 YES
 NO
-
 </pre>### Explanation
+
 Test case 1:
 No need to reorganise. 
 

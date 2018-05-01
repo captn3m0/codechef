@@ -113,8 +113,8 @@ yes
 no
 no
 yes
-
 </pre>### Explanation
+
 In the images, the first snake is red, the second snake is yellow, and the intersections, if any, are in orange.
 
 The first test case corresponds to:

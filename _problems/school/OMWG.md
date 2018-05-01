@@ -107,12 +107,12 @@ For each test case, output a single line containing an integer corresponding to 
 
 <b>Output:</b>
 4
-
 </pre>### Explanation
+
 Leha can obtain total score 4 in the following way.
 
-- In the first step, he colors down left cell, all the neighboring cells of this cell are uncolored. So, it adds  to total score.
-- In second step, he can color upper right cell, it also adds total  to the score.
+- In the first step, he colors down left cell, all the neighboring cells of this cell are uncolored. So, it adds 0 to total score.
+- In second step, he can color upper right cell, it also adds total 0 to the score.
 - In third step, he can color top left cell. There are two neighboring cell of this cell, both of which are colored. So, this add **2** to the score.
 - In the last step, he can choose the remaining down right cell. There are two neighboring cell of this cell, both of which are colored. So, this also add **2** to the score.
 

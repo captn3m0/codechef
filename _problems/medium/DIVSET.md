@@ -116,8 +116,8 @@ For each test case output the answer in a new line.
 <b>Output:</b>
 1
 2
-
 </pre>### Explanation
+
 **Testcase 1:** You can make one step by choosing **{1, 2, 4}**.
 
 **Testcase 2:** You can make one step by choosing **{1, 2, 4}** and another by choosing **{1, 2, 4}**.

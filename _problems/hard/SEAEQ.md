@@ -106,5 +106,4 @@ For each testcase output answer modulo **1000000007 (10^9+7)**.
 9
 1
 
-
 </pre>

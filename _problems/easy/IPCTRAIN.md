@@ -129,8 +129,8 @@ For each test case, output a single integer corresponding to the minimum total s
 100
 0
 150
-
 </pre>### Explanation
+
 **Example case 1**. Both the first and second trainer want to take exactly two lectures. The first trainer arrives on the 1st day and the second trainer arrives on the 2nd day. Consider a schedule where the first trainer takes the first two lectures, and the second trainer takes the last lecture on the day 3. This way the second trainer will take only one lecture but wanted to take two. Thus, his sadness will be 100. The first trainer took all the lectures that he wanted to take (ie. two lectures). Thus the total sadness is 100 + 0 = 100. You can check that no other way of assigning trainers to the days will give a better answer than this.
 
 **Example case 2**. In this case, the trainers can all take all their ideal number of lectures.

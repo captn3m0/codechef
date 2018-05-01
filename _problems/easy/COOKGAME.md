@@ -108,6 +108,6 @@ Output the answer for each test-case in new line, the number of ways modulo **10
 
 <b>Output:</b>
 2
-
 </pre>### Explanation
+
 The only two valid fully filled arrays are (1,1,2,3,1,2) and (1,1,2,1,1,2). Hence the answer is 2.

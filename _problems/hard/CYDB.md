@@ -44,8 +44,8 @@ int main() {
 	cout << r << endl;
 	return 0;
 }
-
 </pre>**Java**
+
 <pre>import java.util.Scanner;
 
 public class Main {
@@ -77,8 +77,8 @@ public class Main {
 		System.out.println(r);
 	}
 }
-
 </pre>**Python**
+
 <pre>a = raw_input()
 na = len(a)
 b = raw_input()
@@ -95,8 +95,8 @@ for i in range(nb):
 				else: f = False
 		if (f and d <= 2): r = (r + j*j) % 1000000007
 print r
-
 </pre>### Input
+
 The strings A, B and C are provided in a compressed form to keep the input small enough. Sequence 00000 is encoded with letter 'a', 00001 with 'b' and so on until 'z'. 11010 is represented by 'A' and 11111 by 'F'.
 
 The input consists of three lines of letters a-z, A-F. First line contains at most 200 characters and the second one at most 2 000 000. Third line has the same length as the first line and will contain at most 40 digits 1 when decompressed.
@@ -110,6 +110,6 @@ bbdb
 
 <b>Output:</b>
 2990
-
 </pre>### Explanation
+
 After decompression we get strings 00000110111111101101, 1100000110111111101100110 and 00001000010001100001. If we run chef's program with this decompressed input, we will get 2990 as a result.

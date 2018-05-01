@@ -79,7 +79,7 @@ Chef has just learned a new data structure - [Fenwick tree](https://en.wikipedia
 
 Both operations take O(log N) time. This data structure is also well known for its low memory usage. To be more precise, it needs exactly the same amount of memory as that of array. Given some array **A**, first we build data structure in some other array **T**. **Ti** stores the sum of the elements **Astart**, **Astart + 1**, ..., **Ai**. Index **start** is calculated with formula **start = Fdown(i) = (i & (i + 1))**. Here "&" denotes [bitwise **AND** operation](https://en.wikipedia.org/wiki/Bitwise_operation).
 
-So, in order to find a sum of elements **A0**, **A1**, ..., **AL** you start with index **L** and calculate sum of **TL + TFdown(L)-1 + TFdown(Fdown(L)-1)-1 + ... + TFdown(Fdown(...(Fdown(L)-1)-1)-1**. Usually it is performed with cycle that goes from **L** down to  with function Fdown and sums some elements from T. Chef wants to verify that the time complexity to calculate sum of **A0**, **A1**, **A2**, ..., **AL** is **O(log L)**. In order to do so, he wonders how many times he has to access array **T** to calculate this sum. Help him to find this out.
+So, in order to find a sum of elements **A0**, **A1**, ..., **AL** you start with index **L** and calculate sum of **TL + TFdown(L)-1 + TFdown(Fdown(L)-1)-1 + ... + TFdown(Fdown(...(Fdown(L)-1)-1)-1**. Usually it is performed with cycle that goes from **L** down to 0 with function Fdown and sums some elements from T. Chef wants to verify that the time complexity to calculate sum of **A0**, **A1**, **A2**, ..., **AL** is **O(log L)**. In order to do so, he wonders how many times he has to access array **T** to calculate this sum. Help him to find this out.
 
 Since Chef works with really big indices. The value of **L** can be very large and is provided to you in binary representation as concatenation of strings **L1**, **L2** repeated **N** times and string **L3**.
 
@@ -87,7 +87,7 @@ Since Chef works with really big indices. The value of **L** can be very large a
 
 The first line of the input contains an integer **T** denoting the number of test cases. The description of **T** test cases follows.
 
-The only line of each test case contains three non-empty strings **L1**, **L2**, **L3** and an integer **N**. Strings will contain only characters  and **1**. To obtain binary representation of index **L** concatenate **L1** with **L2** repeated **N** times and with **L3**. You are guaranteed that the index will be positive.
+The only line of each test case contains three non-empty strings **L1**, **L2**, **L3** and an integer **N**. Strings will contain only characters 0 and **1**. To obtain binary representation of index **L** concatenate **L1** with **L2** repeated **N** times and with **L3**. You are guaranteed that the index will be positive.
 
 ### Output
 
@@ -119,5 +119,4 @@ For each test case, output a single line containing number of times Fenwick tree
 12
 8
 10
-
 </pre>

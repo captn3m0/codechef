@@ -49,6 +49,6 @@ For each test case, you should output the minimum value of D with exactly 4 deci
 0.5000
 1.4000
 
-
 </pre>### Explanation of Sample Data
+
 In the first test case, the first person can move to location 0 and the second to location 4 with the maximum distance moved being 2. In the second case, person 1 can move to location 0.5 and person 2 can move to location 2.5 for a maximum distance moved being 0.5. Finally, in the last output the first person does not move, the second moves to location 1, the third to location 2, and the fourth to location 3. The maximum distance moved by any person was done by the third person who moved 1.4 meters to their destination.

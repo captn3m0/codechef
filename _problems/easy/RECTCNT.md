@@ -39,5 +39,4 @@ For each test case, output on a line an integer which is the respective number o
 
 <b>Output:</b>
 3
-
 </pre>

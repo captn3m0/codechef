@@ -100,7 +100,7 @@ All submissions for this problem are available.### Read problems statements in [
 
 - **1** ≤ **T** ≤ **10**
 - **1** ≤ **N** ≤ **109**
-- ≤ **K** ≤ **105**
+- 0 ≤ **K** ≤ **105**
 - **1** ≤ **p1** < **p2** < ... < **pK** ≤ **N**
 - **1** ≤ **qi** ≤ **109**
 
@@ -139,8 +139,8 @@ All submissions for this problem are available.### Read problems statements in [
 12
 30
 
-
 </pre>###  Explanation
+
  **Example case 1:** s={0,0,0,0,1,1,0}. The 9 pairs (i,j) are: (1,1), (2,2), ..., (7,7), (1,3) and (2,4).
 
  **Example case 2:** s={0,1,0,2,0,1,0}.

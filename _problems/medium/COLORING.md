@@ -136,5 +136,4 @@ For each query of type **2** and **3**, print the sought answer.
 2
 5
 4</tt>
-
 </pre>

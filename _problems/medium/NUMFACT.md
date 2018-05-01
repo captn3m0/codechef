@@ -90,8 +90,8 @@ For each test case, output on a separate line the total number of factors of the
 1 ≤ <b>N</b> ≤ 10
 2 ≤ <b>A<sub>i</sub></b> ≤ 1000000
 
-
 </pre>### Example:
+
 **Input:**
 
 <pre>
@@ -103,15 +103,15 @@ For each test case, output on a separate line the total number of factors of the
 2
 5 5
 
-
 </pre>**Output:**
+
 <pre>
 8
 10
 3
 
-
 </pre>### Scoring:
+
 You will be awarded **40** points for correctly solving for **Ai** ≤ 100.
 
 You will be awarded another **30** points for correctly solving for **Ai** ≤ 10000.

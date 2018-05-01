@@ -90,8 +90,8 @@ For each test case, output a single line containing the sum of the perimeters of
 - **1** ≤ **H** ≤ **1000**
 - **1** ≤ **N** ≤ **1000**
 - The sum of all values of **N** over the input does not exceed **5000**
-- < **R** ≤ **1000**
-- ≤ **X**, **Y** ≤ **1000**
+- 0 < **R** ≤ **1000**
+- 0 ≤ **X**, **Y** ≤ **1000**
 - **X**, **Y**, **R** have exactly two digits after the decimal point
 - All circles are different, that is, every two circles have either different radii or different centers (or both)
 
@@ -116,8 +116,8 @@ For each test case, output a single line containing the sum of the perimeters of
 <b>Output:</b>
 33.6404284
 17.2058395
-
 </pre>### Explanation
+
 **Example case 1.** The answer is the length of the bold lines on the following picture:
 
 ![](http://www.codechef.com/download/ANDOOR_Ex2.jpg)

@@ -33,5 +33,4 @@ For each test case output one line containing the required number.
 3
 
 <b>Explanation:</b>
-
 </pre>In the first test case, the only sought pairs are (2,2) and (3,3). In the second one, they are (3,3), (3,4) and (4,3).

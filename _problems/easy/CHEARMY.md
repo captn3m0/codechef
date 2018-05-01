@@ -120,7 +120,7 @@ Original Constraints
 <b>Output:</b>
 2
 8
-
 </pre>### Explanation
+
 **Example case 1.**
 2 is the 2nd magical number, since it satisfies the property of the magical number. The first magical number will be of course 0.

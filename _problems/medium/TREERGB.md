@@ -94,7 +94,7 @@ Output the answer to the problem on the first line.
 ### Constraints
 
 - **1** ≤ **N** ≤ **300**
-- ≤ **R**, **G**, **B** ≤ **300**
+- 0 ≤ **R**, **G**, **B** ≤ **300**
 
 ### Example
 
@@ -105,7 +105,6 @@ Output the answer to the problem on the first line.
 
 <b>Output #1:</b>
 12
-
 </pre><pre><b>Input #2:</b>
 8 2 1 3
 1 2
@@ -118,5 +117,4 @@ Output the answer to the problem on the first line.
 
 <b>Output #2:</b>
 613
-
 </pre>

@@ -91,7 +91,7 @@ For each test case, output a single line containing two space separated integers
 
 - **1** ≤ **T** ≤ **5**
 - **1** ≤ **N** ≤ **100000** (**105**)
-- ≤ **M** ≤ **100000** (**105**)
+- 0 ≤ **M** ≤ **100000** (**105**)
 - **1** ≤ **i**, **j** ≤ **N**
 - **i** ≠ **j**
 - For any pair of employees **_i_** and **_j_** such that **1** ≤ **i** < **j** ≤ **N**, at most one pair among (**i**, **j**) and (**j**, **i**) will appear in the input
@@ -117,8 +117,8 @@ For each test case, output a single line containing two space separated integers
 2 3
 3 3
 3 8
-
 </pre>### Explanation
+
 **Example case 1.** Here employees 1 and 2 are friends and should share the same fire escape. Also employees 2 and 3 share the same fire escape. This means employees 1, 2 and 3 will have a common route. But to maximize number of routes Chef could assign another route to employee 4 since it is not a friend of other employee. So we have two escape routes with the following distribution of employees by routes: {1, 2, 3}, {4}. Therefore, there are 3 ways to chose drill captains: (1, 4), (2, 4), (3, 4), where first element in the pair denotes the captain for the first route and second element denotes the captain for the second route.
 
 **Example case 2.** Here the optimal distribution of employees by routes is {1, 2, 3}, {4}, {5}. Therefore, there are 3 ways to chose drill captains: (1, 4, 5), (2, 4, 5), (3, 4, 5).

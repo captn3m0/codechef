@@ -116,8 +116,8 @@ Invalid
 Valid
 Invalid
 Invalid
-
 </pre>### Explanation
+
 "H..H..T..T" is invalid because the second snake starts before the first snake ends, which is not allowed.
 
 ".T...H..H.T" is invalid because it has a 'T' before a 'H'. A tail can come only after its head.

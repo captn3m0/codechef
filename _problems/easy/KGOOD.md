@@ -93,7 +93,7 @@ For each test case, output a single line containing a single integer: the minimu
 
 - **1** ≤ **T** ≤ **30**
 - **1** ≤ **|w|** ≤ **105**
-- ≤ **K** ≤ **105**
+- 0 ≤ **K** ≤ **105**
 - **w** contains only lowercase English letters.
 
 ### Example
@@ -110,8 +110,8 @@ defenselessness 3
 0
 1
 2
-
 </pre>### Explanation
+
 **Example case 1.** The word “**glaciological**” is already 1-good, so the Chef doesn't have to remove any letter.
 
 **Example case 2.** Similarly, “**teammate**” is already 0-good.

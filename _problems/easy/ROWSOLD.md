@@ -114,8 +114,8 @@ For each test case, output a single line containing one integer — the maximum 
 10
 0
 48
-
 </pre>### Explanation
+
 **Test case 1.**The initial string is 10100. There are N = 5 cells. There is one soldier in the first cell, and one soldier in the third cell. The following scenario maximizes the total time:
 
 - Limak chooses the soldier in the first cell. This soldier can move only one cell to the right. It takes 1 second to choose a soldier and 1 second for a soldier to move to the next cell (2 seconds in total). The string is 01100 now.

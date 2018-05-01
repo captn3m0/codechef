@@ -115,5 +115,4 @@ Your code will be judged against several input files.
 <b>Output:</b>
 8.000000
 Bad Judges
-
 </pre>

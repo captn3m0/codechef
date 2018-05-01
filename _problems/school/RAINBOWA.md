@@ -129,8 +129,8 @@ Help Chef in finding out if the given array is a Rainbow Array or not.
 yes
 no
 no
-
 </pre>### Explanation
+
 The first example satisfies all the conditions.
 
 The second example has **1** element of value **1** at the beginning and **2** elements of value **1** at the end.

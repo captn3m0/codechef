@@ -100,8 +100,8 @@ For each test case output one integer - the maximum possible number of coins Tuz
 <b>Output:</b>
 1
 2
-
 </pre>### Explanation
+
 In the **first example** he should call two people. Each of them will take 2 coins and they will leave 1 coin for Tuzik.
 
 In the **second example** he should call 3 people.

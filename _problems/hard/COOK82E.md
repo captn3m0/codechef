@@ -134,8 +134,8 @@ For each testcase, output **Q** lines, the i-th of which contains the number of 
 15
 12
 11
-
 </pre>### Explanation
+
 We will explain the first testcase. At the beginning, there is just the root, and the tree is as follows:
 
 ![](https://puu.sh/vWPJG/7de2e400bf.png)Then, Hussain time travels forward by 1 second, and so after the first operation, the tree looks like this:

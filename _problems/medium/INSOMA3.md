@@ -47,5 +47,4 @@ Line 1: The disorderliness index of the street.
 
 <b>Output:</b>
 2
-
 </pre>

@@ -100,5 +100,4 @@ yes
 no
 no
 yes
-
 </pre>

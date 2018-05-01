@@ -98,7 +98,7 @@ Output **N** lines. The **i**th line must contain a single integer, the number o
 
 - **5** ≤ **N** ≤ **2×105**
 - **1** ≤ **Gi** ≤ **106**
-- ≤ **E** ≤ **min(2×105, **N(N-1)/2**)**
+- 0 ≤ **E** ≤ **min(2×105, **N(N-1)/2**)**
 - **1** ≤ **ai** < **bi** ≤ **N**
 - No pair (**ai**, **bi**) will appear more than once in the input.
 
@@ -130,6 +130,7 @@ Output **N** lines. The **i**th line must contain a single integer, the number o
 7
 </tt>
 </pre>### Explanation
+
 In the given network, residents 1, 4, 5 and 7 all have team 1 as their favorite, and 2, 3 and 6 all have team 3 as their favorite.
 
 - If resident 1 is disconnected, then there are 5 sad pairs: (1,4), (1,5), (1,7), (2,6), (3,6).

@@ -135,8 +135,8 @@ Subtask 4 (71 point):
 -1 1
 -2
 
-
 </pre>### Explanation
+
 **Example case 1.** It is easy to see that the square of the euclidean distance between any two adjacent rooms in the route will not exceed **D = 5**.
 
 **Example case 2.** It is clearly impossible to accomplish the task.

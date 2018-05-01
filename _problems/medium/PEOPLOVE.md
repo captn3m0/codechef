@@ -133,8 +133,8 @@ BOTH_SUBTASKS
 SMALL_SUBTASK
 1
 1
-
 </pre>### Explanation
+
 **Example case 1.** There are two persons. Person 1 and 2 love each other. Now, according to magician's suggestion, if person 1 loves person 2, then sadness of both the persons will be equal to 1. Same is the case with person 2 loving person 1. Hence answer is 1.
 
 **Example case 2.** There are three persons. Person 1 and 2 love each other. Person 2 and 3 love each other. Now, according to magician's suggestion, if person 1 loves person 2 and person 3 loves 1. Then, sadness of all three persons will be equal to 1. This is the best that they can do. For example, if the person 1 loves 2 and person 1 loves 3 too, then sadness of first person will be 2, which will be worse than previous case. Hence answer is 1.

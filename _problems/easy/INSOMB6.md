@@ -49,11 +49,10 @@ Chevrolet
 1 Ford
 2 Scorpio Chevrolet
 1 Ford
-
 </pre>
+
 **Sample Output:**/>
 
 <pre>
 No
-
 </pre>

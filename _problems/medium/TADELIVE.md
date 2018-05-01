@@ -112,6 +112,6 @@ Please find out the maximum possible amount of total tip money after processing 
 
 <b>Output:</b>
 21
-
 </pre>### Explanation
+
 Bob will take the first three orders (or the first two) and Andy will take the rest (of course).

@@ -115,8 +115,8 @@ RDL
 4
 6
 6
-
 </pre>### Explanation
+
 Initially Tuzik stays at cell **(0, 0)**. Let's consider his path:
 
 - Move **'R'** to the cell (1, 0). Distance to the catcher **(1, 2)** equals 2, distance to the catcher **(0, 1)** equals 2, so the total distance equals 4

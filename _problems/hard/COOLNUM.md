@@ -77,7 +77,7 @@ Your task is to find for the given positive integer **N** the values of **LC(N)*
 Consider some examples.
 
 - **1458** is a Cool Number since ((**1** + **4** + **5** + **8**) – (**1** + **5**))**1** + **5** = **126** = **2985984** is divisible by **1458**. Note that here we select two digits: **1** and **5**.
-- All numbers of the form **10n** (**n** = , **1**, **2**, ...) are Cool. Indeed, if we select just one digit **1** (the first digit of **10n**) in the definition of Cool Number we obtain the number (**1** +  + ... +  – **1**)**1** = **01** =  and it is divisible by **10n** (recall that  is divisible by every positive integer). Now consider some positive integer **N** of **n** digits. Then, clearly, **10n-1** ≤ **N** < **10n** where both **10n-1** and **10n** are Cool Numbers. Hence **LC(N)** and **UC(N)** always exist and, moreover, **LC(N)** ≥ **10n-1** and **UC(N)** ≤ **10n**.
+- All numbers of the form **10n** (**n** = 0, **1**, **2**, ...) are Cool. Indeed, if we select just one digit **1** (the first digit of **10n**) in the definition of Cool Number we obtain the number (**1** + 0 + ... + 0 – **1**)**1** = **01** = 0 and it is divisible by **10n** (recall that 0 is divisible by every positive integer). Now consider some positive integer **N** of **n** digits. Then, clearly, **10n-1** ≤ **N** < **10n** where both **10n-1** and **10n** are Cool Numbers. Hence **LC(N)** and **UC(N)** always exist and, moreover, **LC(N)** ≥ **10n-1** and **UC(N)** ≤ **10n**.
 
 ### Input
 
@@ -110,11 +110,11 @@ The total number of digits in all numbers **N** in the input file does not excee
 999 1000
 1458 1460
 18895680 18900000
-
 </pre>### Explanation
+
 **Case 1.** The number **2** is the largest integer which is not greater than **N = 2**, the number **3** is the smallest integer which is greater than **N = 2**, and they both are Cool Numbers, which can be shown similar to the case of **10n** in the example above.
 
-**Case 2.** It is very similar to the first test case and we already know that **1000** is a Cool Number. So we just have to show that **999** is a Cool number. But it is clear, since we can select all the three digits so ((**9** + **9** + **9**) – (**9** + **9** + **9**))**9** + **9** + **9** = **027** =  which is divisible by **999**.
+**Case 2.** It is very similar to the first test case and we already know that **1000** is a Cool Number. So we just have to show that **999** is a Cool number. But it is clear, since we can select all the three digits so ((**9** + **9** + **9**) – (**9** + **9** + **9**))**9** + **9** + **9** = **027** = 0 which is divisible by **999**.
 
 **Unfortunately, we can't provide you with the explanation of the third and the fourth test cases. You should figure it out by yourself. Please, don't ask about this in comments.**
 

@@ -120,5 +120,4 @@ For each query, output one integer on a line which denotes the number of the giv
 1
 0
 
-
 </pre>

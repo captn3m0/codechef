@@ -93,7 +93,7 @@ For each test case, output one line with **N** space separated integers.
 - **1** ≤ **M** ≤ **10^5**
 - **1** ≤ **Sum of N over all testcases** ≤ **10^5**
 - **1** ≤ **Sum of M over all testcases** ≤ **10^5**
-- ≤ **Positions selected by captain** ≤ **N-1**
+- 0 ≤ **Positions selected by captain** ≤ **N-1**
 
 ### Example
 
@@ -107,6 +107,5 @@ For each test case, output one line with **N** space separated integers.
 <b>Output</b>
 1 0 1 2
 3 2 1 1 2 3
-
 
 </pre>

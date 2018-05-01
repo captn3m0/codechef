@@ -118,13 +118,13 @@ Output exactly **T** lines, each containing the answer for the corresponding tes
 3
 2 4 8
 
-
 </pre>**Sample Output:**
+
 <pre>
 2.333333
 1.000000
-
 </pre>**Explanation:**
+
 **Test 1:**
 Award 0 to student 1, 2 to student 2 and 5 to student 3.
 Total score of the class = 7

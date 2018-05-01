@@ -154,8 +154,8 @@ For each test case in a separate line output the minimum of possible costs for h
 -1
 228
 </tt>
-
 </pre>### Explanation
+
 **Example case 1.**
 Chef has to hire first, second and third cooks(6 + 7 + 1 = 14).
 Cook 1:

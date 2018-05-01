@@ -128,8 +128,8 @@ For each test case, output a single integer ― the minimal number of moves Chef
 3
 -1
 9
-
 </pre>### Explanation
+
 **Example case 1.** We can transform the matrix **A** into **B** in three moves: ```
 1 1   ->   1 2   ->   1 2   ->   1 2
 1 1   ->   1 2   ->   2 3   ->   3 4

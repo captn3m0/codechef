@@ -130,8 +130,8 @@ For every **Soint** of level **L** there exists at least one **Sofloat** of the 
 <b>Output:</b>
 8
 89
-
 </pre>### Explanation
+
 **Case 1.**The warriors are **I1 = (I, 10, 1), I2 = (I, 20, 2), F1 = (F, 5, 2), F2 = (F, 5, 2), F3 = (F, 18, 1)**. Without the **SoChef** help the battle can proceed as follows.
 
 - **I2** fights with **F1**, **F1** dies, **I2** becomes **(I, 15, 2)**.

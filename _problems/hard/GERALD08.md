@@ -96,7 +96,7 @@ For each test case, output a single line containing two strings: the name of the
 - **1** ≤ **T** ≤ **1000**
 - **1** ≤ **N** ≤ **100000**
 - **1** ≤ **Ui**, **Vi** ≤ **N**
-- ≤ **Ci** ≤ **1**
+- 0 ≤ **Ci** ≤ **1**
 - It's guaranteed that the sum of **N** values for all tests doesn't exceed 100000.
 
 ### Example
@@ -121,5 +121,4 @@ Chef Chef
 Ksen Ksen
 Ksen Chef
 Chef Chef
-
 </pre>

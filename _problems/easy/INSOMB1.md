@@ -29,5 +29,4 @@ Line 1: PRIME or COMPOSITE
 
 <b>Output:</b>
 PRIME
-
 </pre>

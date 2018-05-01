@@ -115,6 +115,6 @@ f 2 3
 <b>Output:</b>
 4
 2
-
 </pre>### Explanation
+
 The shortest path from 5 to 6 is 5, 4, 2, 3, 6. All the edges on this path have weight 1 so the answer to the first query is 4. After the second query, the weight of the edge (2, 3) is - 1. The edges on the path 5, 4, 2, 3, 6 have weights 1, 1, -1, 1 respectively. so the answer for the third query is 2.

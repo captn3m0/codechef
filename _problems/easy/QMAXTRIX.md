@@ -111,8 +111,8 @@ Now you will be given an integer **Q**, followed by **Q** operations: Each query
 <b>Output:</b>
 E
 E
-
 </pre>### Explanation
+
 The given array is:
 1 1 1
 0 1 0

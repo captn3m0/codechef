@@ -36,5 +36,4 @@ For each test case, print out one line containing two numbers, separated by a sp
 <b>Output</b>
 25 56
 387 489
-
 </pre>

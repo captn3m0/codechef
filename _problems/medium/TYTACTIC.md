@@ -98,7 +98,7 @@ For each "**Q S**" query, output the sum of skill values of all the soldiers und
 
 - **1** ≤ **N** ≤ **105**
 - **1** ≤ **M** ≤ **105**
-- All skill values given with be in the range \[, **20,000**\]
+- All skill values given with be in the range \[0, **20,000**\]
 - **1** ≤ **S** ≤ **N** for all queries
 - All soldiers will have soldier **1** (Tywin) as their superior
 
@@ -128,5 +128,4 @@ Q 2
 9
 19
 9
-
 </pre>

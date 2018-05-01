@@ -32,6 +32,6 @@ For each test case, output a single line containing the answer for the correspon
 0
 4
 
-
 </pre>### Explanation
+
 In the second test case required pairs are (3, 6), (4, 12), (6, 12) and (10, 15).

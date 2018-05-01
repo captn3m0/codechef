@@ -50,5 +50,4 @@ Output a line with a single integer, the cost of the cheapest assignment of work
 <b>Output:</b>
 6
 4
-
 </pre>

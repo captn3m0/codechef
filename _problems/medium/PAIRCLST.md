@@ -115,6 +115,6 @@ Output the shortest pairwise distance between any two different special nodes.
 
 <b>Output:</b>
 <tt>7</tt>
-
 </pre>### Explanation
+
 Nodes 1, 3 and 5 are special nodes. Shortest distance between nodes 1 and 3 is 7 and that between nodes 3 and 5 is 9. Shortest distance between nodes 1 and 5 is 16. Minimum of these distances is 7. Hence answer is 7.

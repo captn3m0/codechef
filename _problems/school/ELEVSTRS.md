@@ -106,5 +106,4 @@ For each test case, output a single line with string **Elevator** or **Stairs**,
 Elevator
 Stairs
 Stairs
-
 </pre>

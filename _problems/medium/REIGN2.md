@@ -119,5 +119,4 @@ For each test case, output a single line containing **N** integers: the maximal 
 5 12 21 31
 6 17 36 61 91
 
-
 <pre>

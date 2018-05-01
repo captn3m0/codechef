@@ -109,8 +109,8 @@ There are few problems:
 
 6
 5
-
 </pre>### Explanation
+
 **Example case 1.**
 
  If we choose velocity 6, on the first step we have 6 >= 6 everything is OK, then we should decrease the velocity to 5 and on the 2nd segment we'll receive 5 >= 5, again OK, and so on.

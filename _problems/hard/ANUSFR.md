@@ -98,7 +98,7 @@ For each query, output one line with 2 space separated integers, start and end p
 - **1** ≤ **Q** ≤ **10^5**
 - **1** ≤ **x** ≤ **26**
 - **1** ≤ **minLength** ≤ **maxLength** ≤ **|S|**
-- ≤ **L** ≤ **R** ≤ **|S|-1**
+- 0 ≤ **L** ≤ **R** ≤ **|S|-1**
 
 ### Example
 
@@ -113,8 +113,8 @@ abcc
 0 1
 1 3
 -1 -1
-
 </pre>### Explanation
+
 **Testcase #1**
 We need a substring with 2 different characters, of length 1 or 2 or 3 and in between S\[0..3\].
 S\[0..1\] = "ab", which has 2 different characters, length 2, and is in between S\[0..3\]

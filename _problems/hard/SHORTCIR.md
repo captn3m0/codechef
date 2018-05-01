@@ -53,6 +53,6 @@ cd 0.2
 2.280000
 2.260000
 
-
 </pre>### Explanation
+
 In the first test case the best order is c, a, b.

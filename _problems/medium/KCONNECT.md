@@ -107,6 +107,6 @@ For each test case, output the required answer.
 8
 7
 
-
 </pre>### Explanation:
+
 ![](https://s3.amazonaws.com/hr-challenge-images/3194/1448608384-4e93622266-final_image.png "final_image.png")

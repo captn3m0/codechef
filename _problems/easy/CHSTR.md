@@ -126,8 +126,8 @@ ababa
 15
 1
 0
-
 </pre>### Explanation
+
 **L** = {**"a", "b", "a", "b", "a", "ab", "ba", "ab", "ba", "aba", "bab", "aba", "abab", "baba", "ababa"**}.
 
 - **k1 = 2**: There are seven ways to choose two equal strings ("a", "a"), ("a", "a"), ("a", "a"), ("b", "b"), ("ab", "ab"), ("ba", "ba"), ("aba", "aba").

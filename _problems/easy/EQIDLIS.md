@@ -45,8 +45,8 @@ For each case, output the number of times Dexter has to repeat the given step to
 1
 -1
 3
-
-</pre>**Explanation:**
+</pre>
+**Explanation:**
 
 Case 1 : { 1, 2, 2, 3}. Maximum 3, Minimum 1. R = ceil((3-1)/2) = 1. Transfer 1 idli from person having 3 idlis to the person having 1 idli. Each of them has 2 idlis now, so just 1 step is enough.
 

@@ -117,5 +117,4 @@ For each operation of type 2, print the number of magical subarrays on a separat
 
 3
 1
-
 </pre>

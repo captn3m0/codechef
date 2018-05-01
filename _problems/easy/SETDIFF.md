@@ -129,8 +129,8 @@ Two subsets will be called different if there exists an index **i** such that **
 6 
 23
 3
-
 </pre>### Explanation
+
 For first case answer will be 2-1 = 1.
 
 For the second case:

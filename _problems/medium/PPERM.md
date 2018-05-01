@@ -97,8 +97,8 @@ For each test case, output a single line containing the number of prime permutat
 2
 6
 18
-
 </pre>### Constraints:
+
 1 ≤ T ≤ 500,000
 1 ≤ N ≤ 5,000,000
 Each input file will not be larger than 4 MB (4,000,000,000 bytes) in size.

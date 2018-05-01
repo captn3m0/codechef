@@ -112,7 +112,7 @@ WhoDoesntLoveChefBook
 TheseViolentDelightsHaveViolentEnds
 ComeAtTheKingBestNotMiss
 
-
 </pre>### Explanation
+
 First we should show posts created by friends with identifiers **1** and **2**. Among the posts by these friends, the one with more popularity should be shown first.
 Among remaining posts, we show those which are more popular first.

@@ -123,8 +123,8 @@ For each test case, output a single line containing the sum of answers of all th
 
 <b>Output:</b>
 5
-
 </pre>### Explanation
+
 Array: **\[2, 4, 3, 5, 5\]**
 
 - 1st query: **\[4, 3, 5\]**, 4 \* 3 \* 5 = 60 : answer 1.

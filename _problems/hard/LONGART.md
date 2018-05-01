@@ -87,7 +87,7 @@ For each test case, output on a separate line an integer **K** denoting the numb
 
 - **1** ≤ **T** ≤ **2**
 - **1** ≤ **N, M** ≤ **94**
-- ≤ **C(W)** ≤ **10000000** (**107**)
+- 0 ≤ **C(W)** ≤ **10000000** (**107**)
 - All characters in **A** are different and **A** contains exactly **N** characters
 - All characters in **B** are different and **B** contains exactly **M** characters
 - Each character in **A** and **B** has ASCII code from 33 to 126, inclusive.
@@ -119,8 +119,8 @@ He 2
 2 Hn ie
 0
 0
-
 </pre>### Explanation
+
 **Example case 1.** The complete article is
 He is
 in He

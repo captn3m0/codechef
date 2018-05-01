@@ -138,8 +138,8 @@ ON
 OFF
 OFF
 OFF
-
 </pre>### Explanation
+
 The input is to interpreted as
 
 <pre>
@@ -153,5 +153,4 @@ L 10 8 6 1
 L 1 1 2 1
 R 10 10
 L 9 10 10 9
-
 </pre>

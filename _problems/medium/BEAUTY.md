@@ -117,8 +117,8 @@ ac
 <b>Output:</b>
 <tt>8
 2</tt>
-
 </pre>### Explanation
+
 **First** judge is allergic to ingredient denoted by 'b'. So Chef has to remove this ingredient from the judge's sandwich. After that, the sandwich will be "acaada". Its beauty will be 1\*1 + 1\*1 + 2\*2 + 1\*1 + 1\*1 = 8
 
 **Second** judge is allergic to ingredients denoted by characters 'a' and 'c'. After removing these ingredients, the sandwich will become "bd" and its beauty will be 2.

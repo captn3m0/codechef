@@ -116,8 +116,8 @@ For each testcase, print a single line containing the minimum total time in seco
 
 <b>Output:</b>
 <tt>5</tt>
-
 </pre>### Explanation
+
 Let's say Xenny does the 1st task. Then Yana would do the 2nd task and Xenny would do the 3rd task. Hence, the total time taken would be: 2 + 2 + 2 = 6 seconds.
 
 Another possibility is that Yana does the 1st task, Xenny does the 2nd task and then Yana does the 3rd task. The total time taken in this case would be 5 seconds.

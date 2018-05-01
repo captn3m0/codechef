@@ -100,8 +100,8 @@ For each of the **T** test cases print one integer, the number of such **X**, th
 16
 640
 2
-
 </pre>### Notes
+
 First test case: of course, any number of less than 4 digits can't contain lucky number of lucky digits, so the answer is 0.
 
 Second test case: 16 required numbers are **4444 4447 4474 4477 4744 4747 4774 4777 7444 7447 7474 7477 7744 7747 7774 7777**.

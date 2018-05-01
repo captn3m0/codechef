@@ -89,7 +89,7 @@ For each test case, output a single line containing the total sum to the corresp
 
 - **1** ≤ **T** ≤ **100,000**
 - **1** ≤ **N** ≤ **100,000**
-- ≤ **A\[i\]** ≤ **1,000,000,000 (10^9)**
+- 0 ≤ **A\[i\]** ≤ **1,000,000,000 (10^9)**
 - The total sum of all **N** over all test cases will not exceed **100,000**.
 
 ### Example
@@ -101,8 +101,8 @@ For each test case, output a single line containing the total sum to the corresp
 
 <b>Output:</b>
 6
-
 </pre>### Explanation
+
 **Example case 1.** **F(1, 1) = A\[1\] = 1**, **F(2, 2) = A\[2\] = 2** and **F(1, 2) = A\[1\]** XOR **A\[2\] = 1** XOR **2 = 3**. Hence the answer is **1 + 2 + 3 = 6**.
 
 <a name="NOTE">
@@ -110,6 +110,6 @@ For each test case, output a single line containing the total sum to the corresp
 
 </a>
 
-[XOR operation](http://en.wikipedia.org/wiki/Exclusive_or) is a bitwise "Exclusive OR" operation performed on two integers in binary representation. First, the shorter number is prepended with leading zeroes until the numbers have equal size in binary. Then the resulting number (also in binary) contains  in all positions where the corresponding bits coincide, and **1** on the rest of the positions.
+[XOR operation](http://en.wikipedia.org/wiki/Exclusive_or) is a bitwise "Exclusive OR" operation performed on two integers in binary representation. First, the shorter number is prepended with leading zeroes until the numbers have equal size in binary. Then the resulting number (also in binary) contains 0 in all positions where the corresponding bits coincide, and **1** on the rest of the positions.
 
  For example, **3** XOR **5** = **0112** XOR **1012** = **1102** = **6**.

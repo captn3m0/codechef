@@ -108,8 +108,8 @@ BAB
 <b>Output:</b>
 -1
 B
-
 </pre>### Explanation
+
 **Test case #1**:
 
 - The string "AAAA" appears once as a subsequence in itself.

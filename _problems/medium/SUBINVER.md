@@ -116,13 +116,13 @@ Output a single line containing one binary string - the lexicographically larges
 
 <b>Output:</b>
 1111100011
-
 </pre>### Explanation
+
 Let us see what happens in each operation:
 
 <pre>
-
-</pre>12. S0 = 000000000013. After the update, \[9, 10\], it becomes S1 = 0000000011
+</pre>12. S0 = 0000000000
+13. After the update, \[9, 10\], it becomes S1 = 0000000011
 14. After the update, \[6, 10\], it becomes S2 = 0000011100
 15. After the update, \[9, 10\], it becomes S3 = 0000011111
 16. After the update, \[1, 8\], it becomes S4 = 1111100011

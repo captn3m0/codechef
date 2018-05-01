@@ -141,8 +141,8 @@ For each query of type **2**, output two space separated integers, first digit o
 <b>Output:</b>
 1 120
 5 50
-
 </pre>### Explanation
+
 **In the first query**, Chef is going to visit cities 1, 2, 3, 4, 5 in order. At the end of the trip, his total enjoyment will be 1 \* 2 \* 3 \* 4 \* 5 = 120. First digit of enjoyment is 1 and 120 modulo **109 + 7** is 120.
 
 **In the third query**, Chef is going to visit cities 1, 3, 5 in order. At the end of the trip, his total enjoyment will be 1 \* 10 \* 5 = 50.

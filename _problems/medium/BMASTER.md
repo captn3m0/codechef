@@ -101,7 +101,7 @@ At the beginning of the game the only Blade Master's image stands on some starti
 **3.** Whenever there is more than one image at the cell they start one on one fights. In each fight two images participate and both die. So if the number of images in the cell was even than all images will disappear in the end, otherwise exactly one image will remain at this cell.
 
 
-Now Maelk wants to choose his hero in order to win the fight. The most important thing he needs to know for this is how the number of images changes during Loda's moves. So he asks you for help. Denote by **C(t)** the number of images on the grid after the **t**-th Loda's move for **t** from **1** to **T**. For convenience we denote **C(0) = 1** with meaning that -th move is the putting of the only Blade Master's image at the starting cell. Maelk wants you to calculate the sum **C(0) + C(1) + ... + C(T)**. Since Maelk doesn't know what to expect from Loda he would like to know the answer for several values of **T**. As you remember the total number of games played by Maelk and Loda at ChefCraft doesn't fit in a standard 32-bit integer type. Of course, the same can hold for the number of moves in their final fight. Since Maelk plays ChefCraft the whole life he is not strong in math and can't calculate such large sums. So let's help him to win the final fight and become the only ChefCraft master ever.
+Now Maelk wants to choose his hero in order to win the fight. The most important thing he needs to know for this is how the number of images changes during Loda's moves. So he asks you for help. Denote by **C(t)** the number of images on the grid after the **t**-th Loda's move for **t** from **1** to **T**. For convenience we denote **C(0) = 1** with meaning that 0-th move is the putting of the only Blade Master's image at the starting cell. Maelk wants you to calculate the sum **C(0) + C(1) + ... + C(T)**. Since Maelk doesn't know what to expect from Loda he would like to know the answer for several values of **T**. As you remember the total number of games played by Maelk and Loda at ChefCraft doesn't fit in a standard 32-bit integer type. Of course, the same can hold for the number of moves in their final fight. Since Maelk plays ChefCraft the whole life he is not strong in math and can't calculate such large sums. So let's help him to win the final fight and become the only ChefCraft master ever.
 
 ### Input
 
@@ -141,8 +141,8 @@ For every Maelk's query output on a separate line the numbers of images Maelk wi
 4
 12
 17
-
 </pre>### Explanation
+
 The initial grid looks as follows:
 100
 000

@@ -102,8 +102,8 @@ For each test case output on a separate line the final position of the ball.
 
 <b>Output:</b>
 1
-
 </pre>### Explanation
+
 The row of cups at the beginning of the game and after each flip is shown below. Here **'-'** means an empty cup and **'B'** is the cup that hides the ball, the segment of flip is marked bold.
 
 <pre>

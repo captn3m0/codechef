@@ -107,6 +107,6 @@ There are two types of datasets:
 
 <b>Output:</b>
 373
-
 </pre>### Explanation
+
 14\*4 + 24\*2 + 34\*1 + 44\*1 = 373

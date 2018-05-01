@@ -103,5 +103,4 @@ For each case print the minimum number of attacks that are needed to kill all th
 
 <b>Output</b>
 2
-
 </pre>

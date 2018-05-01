@@ -86,7 +86,7 @@ Output a single line containing the number of safe cells.
 
 - **1** ≤ **N** ≤ **109**
 - **1** ≤ **K** ≤ **100000** (**105**)
-- ≤ **M** ≤ **100000** (**105**)
+- 0 ≤ **M** ≤ **100000** (**105**)
 - **1** ≤ **X**, **Y**, **U**, **V** ≤ **N**
 - Positions of all **K + M** chess pieces are distinct
 
@@ -102,8 +102,8 @@ Output a single line containing the number of safe cells.
 
 <b>Output:</b>
 22
-
 </pre>### Explanation
+
 <pre>
 -------*
 *--o--**

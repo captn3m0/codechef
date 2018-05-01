@@ -107,15 +107,15 @@ abcb
 2 3
 2 2
 
-
 </pre>**Output:**
+
 <pre>
 2
 2
 -1
 3
-
 </pre>### Explanation
+
 **Request 1:**
 The last written substring was **a**, so the next substring should be **b**, which is present at index 2 as well as index 4.
 However, we should print 2 as it is the smaller index.

@@ -63,6 +63,6 @@ Unfortunately, when it is Praveen's turn to present the graph to the King, he re
 
 <b>Output:</b>
 74
-
 </pre>### Explanation
+
 Out of the 4 edges, the costs of 3 edges are already given to us. The edge (2, 4) must cost 6 to satisfy the "All Perfect Matchings should have equal costs" constraint. Therefore, now, the sum of the squares of the costs of all the 4 edges is (22 + 32 + 52 + 62) = (4 + 9 + 25 + 36) = 74

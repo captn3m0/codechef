@@ -112,8 +112,8 @@ For each Dog's question output a single line containing an integer corresponding
 <b>Output:</b>
 2
 3
-
 </pre>### Explanation
+
 **Example case 1.**
 
 For the first question , Chef can pick last **3** elements (or last two, no matter) for his frame, and will have **2** elements equal **1**.

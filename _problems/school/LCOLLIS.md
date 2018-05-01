@@ -109,8 +109,8 @@ For each test case output a single line containing an integer corresponding to t
 <b>Output:</b>
 4
 0
-
 </pre>### Explanation
+
 **Example Case 1.** All three boys like the first girl, so there are **(1, 2, 1), (1, 3, 1), (2, 3, 1)** collisions with her. Boys **1** and **3** both like the second girl so this is one more collision. Only one boy likes the third girl, so there are no collisions with her and thus we have **4** collisions total.
 
 **Example Case 2.** For each girl there is only one boy who likes her, so there are no collisions at all.

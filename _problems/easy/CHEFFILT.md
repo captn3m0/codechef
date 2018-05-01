@@ -139,8 +139,8 @@ bbbbbbbbbb
 0
 2
 4
-
 </pre>### Explanation
+
 **Example case 1.** There is no filter or combination of filters transforming the picture to whole black.
 
 **Example case 2.** Chef can either apply the first filter (and invert all whites) or apply the second and third filters in any order.

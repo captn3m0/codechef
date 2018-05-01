@@ -111,6 +111,7 @@ If such string **S** doesn't exist, output **-1** instead of it.
 radar
 ab</tt>
 </pre>### Explanation
+
 **Example case 1.** In the string "noon", the pairs that denote a palindrome are (1-indexed): **(1, 1), (1, 4), (2, 2), (2, 3), (3, 3), (4, 4)**.
 
 **Example case 2.** In the string "radar", the pairs that denote a palindrome are (1-indexed): **(1, 1), (1, 5), (2, 2), (2, 4), (3, 3), (4, 4), (5, 5)**.

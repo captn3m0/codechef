@@ -115,8 +115,8 @@ dog</tt>
 <b>Output:</b>
 <tt>Yes
 No</tt>
-
 </pre>### Explanation
+
 The first word can be read.
 
 The second word contains the letters d, o and g that aren't known by Jeff.

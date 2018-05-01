@@ -44,10 +44,9 @@ Sample input:
 2
 3
 4
-
 </pre>Sample output:
+
 <pre>
 2
 -1
-
 </pre>

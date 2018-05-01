@@ -27,16 +27,15 @@ Output two space seperated integers : The least number of stops, and the number 
 4
 7
 10
-
 </pre>### Sample Output :
+
 <pre>
 3 2
-
 </pre>### Constraints :
+
 <pre>
 2 <= N <= 1000000
 1 <= M <= 1000
 a_1 < a_2 < .. < a_N
-
 
 </pre>

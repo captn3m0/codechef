@@ -92,7 +92,7 @@ For each test case, output a single line containing the minimal purchase cost.
 - **T** ≤ **5**
 - **1** ≤ **N** ≤ **15**
 - **1** ≤ **Ai** ≤ **106**
-- ≤ **M** ≤ **2N-1**
+- 0 ≤ **M** ≤ **2N-1**
 - **2** ≤ **Ci** ≤ **N**
 - Subtask 1 (15 points): 1 ≤ **N** ≤ 5
 - Subtask 2 (25 points): 1 ≤ **N** ≤ 10
@@ -111,5 +111,4 @@ For each test case, output a single line containing the minimal purchase cost.
 
 <b>Output:</b>
 6
-
 </pre>

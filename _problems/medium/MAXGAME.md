@@ -97,8 +97,8 @@ For each test case, output the number of ways to conduct the game modulo 1000000
 4
 0
 1
-
-</pre>**Explanation:**For the 1st case, there are 3 players. Let's call them p1, p2, p3. Different games possible are:Game 1: p1-p2 (numbers of bondings of p1, p2 are 1 ≤ **K** = 2)
+</pre>**Explanation:**For the 1st case, there are 3 players. Let's call them p1, p2, p3. Different games possible are:
+Game 1: p1-p2 (numbers of bondings of p1, p2 are 1 ≤ **K** = 2)
 Game 2: p1-p3 (numbers of bondings of p1, p3 are 1 ≤ **K** = 2)
 Game 3: p2-p3 (numbers of bondings of p2, p3 are 1 ≤ **K** = 2)
 Game 4: p1-p2, p1-p3, p2-p3 (numbers of bondings of p1, p2, p3 are 2 ≤ **K**= 2) For the 2nd test case, we cannot form the game, because K = 0 and hence no player is allowed to make any bonding. As any game must have atleast one bonding, no game is possible here. For the 3rd case, only possible game is:

@@ -122,8 +122,8 @@ For each test-case, output a single line denoting the answer of the problem.
 <b>Output:</b>
 2
 12
-
 </pre>### Explanation 
+
 In the first sample test case, there are 2 zombies. Let us name them Z1 and Z2. Let one hierarchy be one in which Z1 is parent of Z2. There are 2 colors, suppose red and blue. If Z1 takes red, then Z2 should take a blue. If Z1 takes blue, then Z2 should take red. 
 Note that one other possible hierarchy could be one in which Z2 is a parent of Z1. In that hierarchy also, number of possible ways of assigning cars is 2.
 So there maximum number of possible ways is 2.

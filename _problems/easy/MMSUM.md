@@ -108,6 +108,6 @@ For each test case, output a single line containing the maximal possible maximal
 <b>Output:</b>
 <tt>8
 -1</tt>
-
 </pre>### Explanation
+
 **Example case 1.** As shown in the statement, the maximal sum of the initial array is **6**, but if you remove the fourth element (i.e. **-2**), then the array **\[1, -2, 3, 5\]** will have subarray **\[3, 5\]** and the value of the maximal sum will be equal to **8**.

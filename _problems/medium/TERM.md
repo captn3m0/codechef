@@ -66,5 +66,4 @@ p prime number
 8
 1
 
-
 </pre>

@@ -121,8 +121,8 @@ For each test case, output a single line containing **N** integers: a sequence *
 1 4 5 
 1 3 4 6 
 
-
 </pre>### Explanation
+
  In the first test case, we can simply replace the variables with the values from the correct output to make sure, that all the conditions are satisfied:
 
 - **x2** + **x3** = 4 + 5 = 9 = **a1**

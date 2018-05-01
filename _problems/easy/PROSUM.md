@@ -90,7 +90,7 @@ For each test, print the required number of pairs in a single line.
 
 - **1** ≤ **T** ≤ **10**
 - **2** ≤ **N** ≤ **100000 (105)**
-- ≤ **A\[i\]** ≤ **1000000 (106)**
+- 0 ≤ **A\[i\]** ≤ **1000000 (106)**
 
 
 />
@@ -107,8 +107,8 @@ For each test, print the required number of pairs in a single line.
 <b>Output:</b>
 3
 0
-
 </pre>### Explanation
+
 /> **Example case 1.**
 
 All pairs of numbers satisfy the criteria. Total number of pairs equals **3**. />

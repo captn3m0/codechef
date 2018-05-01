@@ -106,13 +106,13 @@ You should output exactly **T** lines each containing answer for corresponding t
 2 3 1
 6 3
 6 1 5 3 4 2 
-
 </pre>**Output:**
+
 <pre>
 5
 5  
-
 </pre>### Explanation
+
 **Example case #1:**
 The following **5** subarrays form an interval:
 

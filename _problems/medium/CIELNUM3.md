@@ -112,6 +112,7 @@ The sum of the length of **N** in one judge input file does not exceed 1000000 (
 1 1
 2 1
 </pre>### Sample Output
+
 <pre>58588
 128
 5354388

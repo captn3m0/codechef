@@ -93,7 +93,7 @@ For each query of **type 1**, output the answer to the query in a single line.
 ### Constraints
 
 - **1** ≤ **N, Q** ≤ **105**
-- ≤ **C**i, **y** ≤ **109**
+- 0 ≤ **C**i, **y** ≤ **109**
 - **1** ≤ **u, v**  ≤ **N**
 
 ### Subtasks
@@ -125,5 +125,4 @@ For each query of **type 1**, output the answer to the query in a single line.
 4
 3
 3
-
 </pre>

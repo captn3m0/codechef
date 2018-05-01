@@ -23,8 +23,8 @@ The wazir, knowing that the prince is on his way, has set a time bomb that will 
 2 5 1
 5 3 1
 3 1 1
-
 </pre>The number at position _(i,j)_ indicates the time taken for the prince to overpower the guards in room _(i,j)_. Suppose the princess is in the room at position (4,2). If _T_ = 10. there is no way the prince can reach the princess in time. However, if _M_ = 15, the prince can reach the princess with 4 seconds to spare, as follows. Starting from (1,1), he moves right to (1,2) and then (1,3), comes down all the way to (4,3) and then moves (4,2). This takes 11 seconds (note that he must also overpower the guard in the room where the princess is incarcerated). You can check that he cannot reach the princess with more than 4 seconds to spare by any route.
+
 ### Input
 
 The first line contains two integers M and N indicating the number of rows and columns in the rectangular dungeon. Lines 2,3, ,M+1 contain N positive integers. The jth integer on line i+1 is the time taken to overpower the guards at room (i,j). The last line in the input, line M+2, contains three integers a, b and T, where (a,b) is the position of the cell where the princess is held and T is the amount of time before the bomb goes off.
@@ -51,5 +51,4 @@ You may assume that 1 N,K 70.
 <b>Output:</b>
 YES
 4
-
 </pre>

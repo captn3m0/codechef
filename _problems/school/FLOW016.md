@@ -96,5 +96,4 @@ Display the GCD and LCM of **A** and **B** separated by space respectively.
 1 3186456
 1 30
 
-
 </pre>

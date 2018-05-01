@@ -66,5 +66,4 @@ For each test case output M space separated integers, where the ith integer deno
 <b>Output:</b>
 2 2 1
 5 1
-
 </pre>

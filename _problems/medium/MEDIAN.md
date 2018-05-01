@@ -104,5 +104,4 @@ In **T** lines print the results for each test case, one per line.
 <b>Output:</b>
 2
 1
-
 </pre>

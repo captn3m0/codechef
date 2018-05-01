@@ -102,8 +102,8 @@ sco??
 <b>Output:</b>
 Yes
 No
-
 </pre>### Explanation
+
 **First Example:**  There are several ways the two strings can be matched, one of those is "score".
 
 **Second Example:**  There is no way to match the strings.

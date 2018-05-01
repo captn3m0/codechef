@@ -76,7 +76,7 @@ Now Ciel has forgotten the combination for her safe and passwords for all **K** 
 
 Since her computer is too slow, Ciel decides to use computer centers in her town. There are **C** computer centers in all. Since Ciel is afraid of leaking the combination for her safe, Ciel will use exactly **K** distinct computer centers, one center for one piece.
 
-Currently Ciel is in her restaurant. Apparently her restaurant and all computer centers are located along one street. Hence we will consider Ciel's restaurant and computer centers as points on a coordinate line. Let's assume that Ciel's restaurant has coordinate  while the coordinate of the **j**-th computer center is **Xj**. So the distance between Ciel's restaurant and the **j**-th computer center is |**Xj**| meters while the sign of **Xj** indicates in which direction of the street (positive or negative) Ciel should walk to this center.
+Currently Ciel is in her restaurant. Apparently her restaurant and all computer centers are located along one street. Hence we will consider Ciel's restaurant and computer centers as points on a coordinate line. Let's assume that Ciel's restaurant has coordinate 0 while the coordinate of the **j**-th computer center is **Xj**. So the distance between Ciel's restaurant and the **j**-th computer center is |**Xj**| meters while the sign of **Xj** indicates in which direction of the street (positive or negative) Ciel should walk to this center.
 
 After Ciel will choose **K** different centers for cracking passwords of her **K** pieces she will visit them in some order, crack all the pieces (one piece at one computer center) and return back to her restaurant. At each computer center she should wait until the password for the current piece will be cracked and only then she can proceed to the next center. Ciel's walking speed is **V** meters per nanosecond, so she needs exactly |**A** − **B**| / **V** nanoseconds to walk from the point with coordinate **A** to the point with coordinate **B**.
 
@@ -177,8 +177,8 @@ Every real value has at most 6 digits after the decimal point.
 130
 182.333333333333333333333
 12938.4586699
-
 </pre>### Explanation
+
 **Case 1.** Here Ciel has no choice other than she goes to the first computer center and cracks the password for the only piece by using 1 computer, then Ciel back to her restaurant. The answer is 1 (going to the computer center) + 50.5 (cracking) + 1 (back to her restaurant) = 52.5. In the cracking phase since Ciel uses only one computer the time for connection is not needed. The program will check passwords one by one and 1 nanosecond is needed for checking one password. So the running time will be **k** nanoseconds with probability 1% for 1 ≤ **k** ≤ 100. Therefore the expected time for the cracking phase is 1 \* 0.01 + 2 \* 0.01 + ... + 100 \* 0.01 = 50.5.
 
 **Case 2.** Here Ciel has 3 choices.

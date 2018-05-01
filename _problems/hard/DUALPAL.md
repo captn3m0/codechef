@@ -100,6 +100,6 @@ For each test case, output a list of space separated integers which are Dual Pal
 
 <b>Output:</b>
 1 6643 1422773 5415589 90396755477 381920985378904469
-
 </pre>### Note
+
 Source limit for the problem is 8000B instead of usual 50000B.

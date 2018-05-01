@@ -95,7 +95,7 @@ For each test case, output a single line containing a single integer, the number
 - **1** ≤ **T** ≤ **3**
 - **1** ≤ **K** ≤ **106**
 - **1** ≤ **N** ≤ **105**
-- ≤ **v(i)** ≤ **104**
+- 0 ≤ **v(i)** ≤ **104**
 
 ### Example
 
@@ -112,6 +112,6 @@ For each test case, output a single line containing a single integer, the number
 <tt>4
 94
 100</tt>
-
 </pre>### Explanation
+
 In the first case, the following initial states result in a win for Henry: \[1,1,1\], \[0,0,1\], \[0,1,0\], \[1,0,0\].

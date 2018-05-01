@@ -99,5 +99,4 @@ Output the gross salary of the employee.
 2406
 20383.2
 2624
-
 </pre>

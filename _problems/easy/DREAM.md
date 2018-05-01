@@ -93,8 +93,8 @@ Print minimum number of assistans which can cook all the meals in one line.
 
 <b>Output:</b>
 3
-
-</pre>**Explanation:**
+</pre>
+**Explanation:**
 3 assistants are enough to cook all the meals. They can work in following schedule: 
 1st assistant chooses interval \[2,4\] and cooks meals 2 and 4. 
 2nd assistant chooses interval \[1,3\] and cooks meals 1 and 3. 

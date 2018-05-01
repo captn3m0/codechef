@@ -118,5 +118,4 @@ In the next **k** lines, print the invitation letters as three space separated i
 2
 1 1 2
 2 1 2
-
 </pre>

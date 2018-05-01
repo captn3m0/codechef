@@ -37,5 +37,4 @@ You can assume that this number fits into a signed 64 bit integer.
 <b><tt>Output:</tt></b>
 1
 475020
-
 </pre>

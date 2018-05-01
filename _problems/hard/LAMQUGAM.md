@@ -44,8 +44,8 @@ For each rectangle from the input file, output a single line containing the prob
 1/10
 1/32
 1/1
-
 </pre>### Explanation
+
 For the first rectangle Chef wins in three cases out of 16. Namely when the starting point is **(1,1), (2,3)** or **(3,2)**.
 
 

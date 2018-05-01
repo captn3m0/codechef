@@ -118,5 +118,4 @@ Each of the following **M** lines describes a single query in the format given i
 
 <b>Output:</b>
 5 1 1
-
 </pre>

@@ -106,5 +106,5 @@ No Solution
 2 6 7
 3 4 8
 1 5 9
-
-</pre>**Explanation**For second test case, probability is 5/9 for each player to get a point.
+</pre>**Explanation**
+For second test case, probability is 5/9 for each player to get a point.

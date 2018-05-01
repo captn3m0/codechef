@@ -137,8 +137,8 @@ No
 Yes
 No
 
-
 </pre>### Explanation: 
+
 Query 1: The path corresponding to it is 8->5->3->4->10.
 
 Query 2: There does not exists any path joining all 4.

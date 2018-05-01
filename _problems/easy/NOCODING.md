@@ -96,15 +96,15 @@ Assuming Chef writes the shortest code (with minimum instructions) to print the 
 
 <pre>1 ≤ T ≤ 100
 1 ≤ length of word ≤ 1000
-
 </pre>### Sample Input
+
 <pre>2
 helloworld
 mississippi
-
 </pre>### Sample Output
+
 <pre>NO
 YES
-
 </pre>### Explanation
+
 The optimal program length for mississippi is 112 instructions and that is smaller than 121 (length of 'mississippi' \* 11)

@@ -111,8 +111,8 @@ yes
 yes
 no
 no
-
 </pre>### Explanation
+
 **Example case 1.** "CES" can correspond to a possible record of activities of Chef. He starts the day with cooking, then eating and then sleeping.
 
 **Example case 2.** "CS" can also correspond to a possible record of activities of Chef. He starts the day with cooking, then eating and then sleeping. Robot recorded his cooking and sleeping in order. He might not have recorded his eating activity.

@@ -119,8 +119,8 @@ For each testcase, output a single line containing one integer - the number of r
 <b>Output:</b>
 <tt>11
 27</tt>
-
 </pre>### Explanation
+
 **Test case 1**: we have the following matrix **A**:
 1 2 3
 4 5 6

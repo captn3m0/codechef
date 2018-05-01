@@ -32,5 +32,5 @@ T.F+T*F
 <b>Output:</b>
 5
 
-
-</pre>**Description**The 5 values correspond to the parenthesizations (((T.F)+T)\*F), ((T.F)+(T\*F)), ((T.(F+T))\*F, (T.((F+T)\*F)), (T.(F+(T\*F))) - all of which evaluate to true.
+</pre>**Description**
+The 5 values correspond to the parenthesizations (((T.F)+T)\*F), ((T.F)+(T\*F)), ((T.(F+T))\*F, (T.((F+T)\*F)), (T.(F+(T\*F))) - all of which evaluate to true.

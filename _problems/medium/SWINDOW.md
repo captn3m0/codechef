@@ -108,8 +108,8 @@ After each update, output an integer in one line denoting the smallest contiguou
 4
 3
 
-
 </pre>### Explanation
+
 After first update, the array is **\[1, 3, 1, 1, 1\]**. No valid subarray exists at this stage.
 After next update, the array is **\[1, 3, 1, 1, 2\]**. Here you can observe that contiguous subarray **\[A2, A3, ..., A5\]** consists of all types of objects. 
 After next update, the array is **\[1, 3, 2, 1, 2\]**. Now, contiguous subarray **\[A1, A2, A3\]** is the smallest valid subarray.

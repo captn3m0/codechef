@@ -34,5 +34,4 @@ baba
 
 <b>Output:</b>
 2
-
 </pre>(in the example above, the longest substring which fulfills the requirements is 'ba')

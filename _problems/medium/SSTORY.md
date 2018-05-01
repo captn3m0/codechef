@@ -123,14 +123,12 @@ fdyusgfdfyu
 <b>Output 1:</b>
 fd
 2
-
 </pre><pre><b>Input 2:</b>
 adsyufsfdsfdsf
 bbbbbbbbb
 
 <b>Output 2:</b>
 0
-
 </pre><pre><b>Input 3:</b>
 abcdef
 defabc
@@ -138,8 +136,8 @@ defabc
 <b>Output 3:</b>
 def
 3
-
 </pre>### Explanation
+
 **Example case 1.**The longest life event is **"fd"** whose length is 2.
 
 **Example case 2.**The girls will follow separate lives.

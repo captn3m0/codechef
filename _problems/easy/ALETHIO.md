@@ -72,7 +72,7 @@ All submissions for this problem are available.Lyra Belacqua is a very gifted gi
 
 The alethiometer had four needles, out of which the user would direct three of them to lie over symbols on the face of the device to ask a question. The fourth needle then swung into action and pointed to various symbols one after another, thus telling the answer.
 
-For this problem, consider the alethiometer consisting of symbols : digits ''-'**9**' and letters '**A**'-'**Z**'. Learned scholars were debating the age of the Universe, and they requested Lyra to find out the age from the alethiometer. Having asked the question, the fourth needle started spouting out symbols, which Lyra quickly recorded. In that long string of characters, she knows that some substring corresponds to the age of the Universe. She also knows that the alethiometer could have wrongly pointed out atmost one digit (0-9) as a letter (A-Z). She then wonders what is the maximum possible age of the Universe.
+For this problem, consider the alethiometer consisting of symbols : digits '0'-'**9**' and letters '**A**'-'**Z**'. Learned scholars were debating the age of the Universe, and they requested Lyra to find out the age from the alethiometer. Having asked the question, the fourth needle started spouting out symbols, which Lyra quickly recorded. In that long string of characters, she knows that some substring corresponds to the age of the Universe. She also knows that the alethiometer could have wrongly pointed out atmost one digit (0-9) as a letter (A-Z). She then wonders what is the maximum possible age of the Universe.
 
 Given the set of symbols the alethiometer pointed out, help her find the maximum age of the Universe, which could correspond to a substring of the original string with atmost one letter changed.
 
@@ -107,8 +107,8 @@ C0D3C43F
 
 <b>Output2:</b>
 3943
-
 </pre>### Explanation
+
 In the first example, there is no choice as to what the number can be. It has to be 6,454.
 
 In the second example, there are a total of 41 possible strings (one for the original, and 10 for changing each letter). You can verify that the maximum number as a substring is got by making the string "C0D3943F".

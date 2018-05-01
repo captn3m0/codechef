@@ -33,17 +33,14 @@ Sample Input :
 1
 2
 
-
 </pre><pre>
 Sample Output :
 BOB
 ALICE
 
-
 </pre><pre>
 Constraints :
 1 <= T <= 10000
 1 <= N <= 1000000000
-
 
 </pre>Note : For the first test case, Alice cannot make any move and hence Bob wins the game. For the second test case, Alice subtracts 1 from N. Now, Bob cannot make a move and loses the game.

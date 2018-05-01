@@ -92,8 +92,8 @@ Output single integer - answer for the given problem modulo **109+7**.
   1 2 3
   <b>Output:</b>
   2
-  
-  ```### Explanation
+  ```
+  ### Explanation
   
   All possible sums are 14 and 10. You can get them by, for example, these arrays:
   

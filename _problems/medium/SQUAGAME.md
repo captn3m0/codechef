@@ -47,5 +47,4 @@ For each test case print "Fat x", where x - is the number of square which needs 
 Fat 2
 Fit
 
-
 </pre>

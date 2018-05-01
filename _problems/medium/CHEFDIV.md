@@ -120,14 +120,13 @@ Output a single integer corresponding to the answer of the problem.
 
 <b>Output 1:</b>
 14
-
 </pre><pre><b>Input 2:</b>
 932451 935212
 
 <b>Output 2:</b>
 101245
-
 </pre>###   **Explanation**  
+
 **Input 1.**
 
 Here we have, **A** = 11 and **B** = 12.

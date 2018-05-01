@@ -97,5 +97,4 @@ Output the total expenses while purchasing items.
 12000.000000
 200.000000
 21600.000000
-
 </pre>

@@ -33,8 +33,8 @@ For a given prime number **p** find the number of all pairs **(m, n)** of positi
 2
 14
 
-
 </pre>### Explanation
+
 In the first test required pairs are (1, 1) and (2, 2). 
 
 In the second test case required pairs are (1, 1), (1, 4), (2, 2), (2, 4), (3, 3), (3, 6), (4, 1), (4, 2), (4, 4), (4, 5), (5, 4), (5, 5), (6, 3) and (6, 6).

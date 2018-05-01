@@ -71,7 +71,7 @@ layout: problem
 ---
 All submissions for this problem are available.Hey, you've got a new mission! This time your client ask you to write a editor and it should run fast! However the client's request is somehow strange, but they give a lot of money so your boss ask you to finish it as fast as possible.
 
-This editor deal with a string **S**. And the length **|S|** of the string **S** would never be smaller than **10**. This editor must support the following **7** operations quickly. Here the string would be indexed starting at .
+This editor deal with a string **S**. And the length **|S|** of the string **S** would never be smaller than **10**. This editor must support the following **7** operations quickly. Here the string would be indexed starting at 0.
 
 1. INSERT\_LEFT **c** : insert character **c** at the beginning of **S**
 2. INSERT\_RIGHT **c** : insert character **c** at the end of **S**
@@ -121,8 +121,8 @@ DELETE_MIDDLE
 
 <b>Output:</b>
 1
-
 </pre>### Explanation
+
 In the sample, the string **|S|** will be changed as follows:
 
 <pre>
@@ -138,5 +138,4 @@ aabbbababbbbaaaaba (after INSERT_LEFT a)
 aabbbababab<b>bbaaa</b>aba (after INSERT_MIDDLE a)
 aabbbababbbbaaaaba (after DELETE_MIDDLE)
 aabbbababbbaaaaba (after DELETE_MIDDLE)
-
 </pre>For QUERY bbaaa, this string occurs once. It is shown in boldface type.

@@ -112,5 +112,4 @@ ABC
 <b>Output:</b>
 YES
 NO
-
 </pre>

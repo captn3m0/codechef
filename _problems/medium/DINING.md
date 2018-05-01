@@ -120,6 +120,6 @@ For each test case, output two lines.
 <b>Output:</b>
 0.8
 1 2 3
-
 </pre>### Explanation
+
 **Example case 1.**On the first day, Sergey will eat the first dish. On the second day, he'll eat the second dish. On the third day, he'll try eat the third dish that will appear with the probability of **0.8**. The total probability of dishes being available on these days is 0.8. It is impossible to achieve the better result.

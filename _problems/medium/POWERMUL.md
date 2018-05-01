@@ -115,8 +115,8 @@ For every test case , output **Q** lines , each line containing the answer.
 <h3>Sample Output</h3>
 8
 8
-
 </pre>### Explanation
+
 f\[1\] = 1
 
 f\[2\] = 4

@@ -106,8 +106,8 @@ For each test case, output the smallest value possible for **S**, if the Chef ch
 1
 12
 
-
 </pre>### Explanation
+
 **Test Case 1:** Chef may choose any way. The maximum value on any cell would be 1.
 
 **Test Case 2:** If Chef selects two paths that have a common cell, such as

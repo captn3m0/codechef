@@ -136,8 +136,8 @@ If there are many possible placements, output any one of them.
 4 NE
 2 NE
 
-
 </pre>### Explanation
+
 **Example case 1.** Also we can place lighthouse on **1st** or **5th** island.
 
 **Example case 2.** Notice that some islands can be illuminated by more than 1 lighthouse.

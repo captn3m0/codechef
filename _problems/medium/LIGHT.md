@@ -105,5 +105,4 @@ Output the maximum height you can reach. The value must have an absolute error l
 <b>Output:</b>
 3.300759642
 
-
 </pre>

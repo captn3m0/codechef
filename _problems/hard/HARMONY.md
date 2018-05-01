@@ -79,8 +79,8 @@ For each test case, you are to output a single line. If it is not possible to ad
 1 0 0
 0 1 0 0 0 1
 0 0 1 0 1 1 0 0 0
-
 </pre>### Illustration Of Sample Data
+
 The following three images illustrate the sample data. The thick edges indicate edges that receive a blossom. A red cycle has been highlighted in the last example. Note, in particular, that there are three faces contained in this cycle and there is one edge lying on this cycle that receives a blossom.
 
 Test Case 1:

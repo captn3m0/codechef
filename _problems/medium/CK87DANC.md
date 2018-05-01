@@ -128,8 +128,8 @@ For each test case print **Q** lines, where each line contains a single integer,
 1
 -1
 
-
 </pre>### Explanation
+
 **Example case 1:** The test asks for the smallest dance whose value is **greater** than or **equal**  to  **7** .
 
 The first query asks for the smallest dance which belongs to the interval **\[1, 3\]**. The possible dances are: { **\[1,1\] \[1,2\] \[1,3\] \[2,2\] \[2,3\] \[3,3\]**}, but only the dance **\[1, 3\]** is valid, whose value is **7**.

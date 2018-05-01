@@ -23,8 +23,8 @@ D - or
 I - implies
 E - if, and only if
 N - not
-
 </pre>The variables will be lowercase letters (a-z). There will be no more than 16 different letters in the expression. The length of the expression will not exceed 111 characters.
+
 ### Output
 
 For each expression write one word: YES if it is a tautology, NO in other case.
@@ -50,5 +50,4 @@ NO
 YES
 YES
 YES
-
 </pre>

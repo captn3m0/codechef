@@ -134,5 +134,4 @@ For each of **Q** queries, output the sought minimal distance on a separate line
 2
 2
 2</tt>
-
 </pre>

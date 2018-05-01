@@ -133,8 +133,8 @@ For each test case, output a single line containing the shortest Chef length amo
 <b>Output:</b>
 1
 2
-
 </pre>### Explanation
+
 **Test #1**
 
 Let's look at all correct simple paths:

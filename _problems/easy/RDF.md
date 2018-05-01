@@ -89,7 +89,7 @@ For each test case, output a single line containing the expected result of **RDF
 
 - **1** ≤ **T** ≤ **500000** (**5 \* 105**)
 - **1** ≤ **N** < **100000** (**105**)
-- ≤ **K** < **100000** (**105**)
+- 0 ≤ **K** < **100000** (**105**)
 
 ### Example
 
@@ -104,8 +104,8 @@ For each test case, output a single line containing the expected result of **RDF
 2.5
 0.3750
 0.0416667
-
 </pre>### Explanation
+
 **Example case 1.** **RDF(6, 1)** returns each of the numbers **0, 1, 2, 3, 4, 5** with probability **1/6**. Hence the expected value is
  **(0 + 1 + 2 + 3 + 4 + 5) / 6 = 2.5**./>
 

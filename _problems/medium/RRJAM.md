@@ -79,7 +79,7 @@ The first line of input contains single integer number **N**. Following line con
 
 ### Output
 
-You should output the answer for each jar separated by space. If it already contains enough jam you should output  as the answer, in case it doesn't even after all the operations output **-1** instead.
+You should output the answer for each jar separated by space. If it already contains enough jam you should output 0 as the answer, in case it doesn't even after all the operations output **-1** instead.
 
 ### Constraints
 
@@ -103,7 +103,6 @@ You should output the answer for each jar separated by space. If it already cont
 
 <b>Output:</b>
 1 2 0 3 -1
-
 
 
 </pre>

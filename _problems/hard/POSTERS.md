@@ -48,5 +48,4 @@ The output for each test case is a single line containing a single integer that 
 <b>Output:</b>
 2
 1
-
 </pre>

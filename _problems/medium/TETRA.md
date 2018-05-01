@@ -31,5 +31,4 @@ t lines, each consisting of a real number given with four digits decimal precisi
 Output:
 0.2041
 1.4189
-
 </pre>

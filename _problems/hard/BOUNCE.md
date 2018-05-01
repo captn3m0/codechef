@@ -134,8 +134,8 @@ RLTR</tt>
 <b>Output:</b>
 <tt>5
 0</tt>
-
 </pre>### Explanation
+
 In the first test case, there is only one ACM satisfying the requirements, and that is the ACM with dimensions **5 × 2**. **f(5,2)** = RLTRL has length **5**, so the total cost is **5**.
 
-In the second test case, no ACMs satisfy the requirements, so the total cost is .
+In the second test case, no ACMs satisfy the requirements, so the total cost is 0.

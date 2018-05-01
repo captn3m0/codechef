@@ -100,8 +100,8 @@ In a single move, Jerry can go either up, down, left or right in the grid such t
 <b>Output:</b>
 2
 4
-
 </pre>### Explanation
+
 **Example case 1.** ...
 
 Jerry will move directly (1, 1) to (2, 1) and then to (2, 2) in total 2 moves. **Example case 2.** ...

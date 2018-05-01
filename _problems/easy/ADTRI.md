@@ -108,6 +108,6 @@ For each test case, output "YES" if the triangle transformation is possible, oth
 <b>Output:</b>
 <tt>YES
 NO</tt>
-
 </pre>### Explanation
+
 - In test case 1, make the length of any one side **6**, and it will suffice.

@@ -64,5 +64,4 @@ For each test case output exactly **N**+1 lines. The first of them should contai
 7 -5
 -2 -3
 -7 5
-
 </pre>

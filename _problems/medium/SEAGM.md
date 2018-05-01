@@ -74,7 +74,7 @@ All submissions for this problem are available.###  Read problems statements in 
 Sereja and Dima play the game. The rules are as follows:
 
 Initially, there are **n** cards on the table, each card has a positive integer written on it.
-At the beginning Sereja writes down the number  on the sheet of paper.
+At the beginning Sereja writes down the number 0 on the sheet of paper.
 Then players pick cards from the table alternately. When a player picks a card, he writes down the greatest common divisor of a number that is written on a card and a number that was last written on the sheet of paper.
 Then the player throws this card away, so it can never been taken again.
 A player loses if after his turn the number, written on the piece of the paper is **1**.
@@ -122,6 +122,5 @@ Output the integer part of the answer to the first question and the answer to th
 1 1.0000
 0 0.0000
 1 0.5833
-
 
 </pre>

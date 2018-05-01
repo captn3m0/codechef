@@ -103,6 +103,6 @@ There exists at least one sequence of at most **6** vectors from this set that f
 
 <b>Output:</b>
 2.0
-
 </pre>### Explanation
+
 The only non-strictly convex polygon you can construct from these vectors by the rules described in the problem statement is the [isosceles trapezoid](http://en.wikipedia.org/wiki/Isosceles_trapezoid) that has height of length **1** and bases of length **1** and **3**. It has area **2.0**.

@@ -106,7 +106,7 @@ The first line of the input contains an integer **T** denoting the number of tes
 
 The first line of each test case contains two space-separated integers **N**, **M**, denoting the size of array **A** and the number of queries correspondingly. The second line of each test case contains **N** space-separated integers **A1**, **A2**, ..., **AN** denoting the initial array for dividing machine.
 
-Each of following **M** lines contain three space-separated integers  **type**, **L**, **R** - the type of operation ( - **Update** operation, **1** - **Get** operation), and the arguments of function, respectively
+Each of following **M** lines contain three space-separated integers  **type**, **L**, **R** - the type of operation (0 - **Update** operation, **1** - **Get** operation), and the arguments of function, respectively
 
 ### Output
 
@@ -117,7 +117,7 @@ For each test case, output answer of each query of type 1 (**Get** query) separa
 - **1** ≤ **T** ≤ **100**
 - **1** ≤ **Ai** ≤ **106**
 - **1** ≤ **L** ≤ **R** ≤ **N**
-- ≤ **type** ≤ **1**
+- 0 ≤ **type** ≤ **1**
 - Sum of **M** over all test cases in a single test file does not exceed **106**
 
 ### Subtasks
@@ -158,11 +158,11 @@ For each test case, output answer of each query of type 1 (**Get** query) separa
 1
 </tt>
 </pre>### Explanation
+
 **Example case 1.**The states of array A after each **Update**-operation:
 
 <pre>
 <b>A:</b> = [2 1 4 10 3 44]
 <b>A:</b> = [2 1 4 5 1 22]
 <b>A:</b> = [1 1 2 1 1 11]
-
 </pre>

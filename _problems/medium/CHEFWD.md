@@ -75,14 +75,14 @@ But today, Ciel being little casual stepped in wrong direction on her way to her
  She does not go past her restaurant because it is altogether different world and once she reaches her restaurant she stops.
 
 For example, if **N** is **3** then
- -> **1** -> **-1** ->  -> **1** -> **3**,
- -> **2** -> **1** -> **3**
+0 -> **1** -> **-1** -> 0 -> **1** -> **3**,
+0 -> **2** -> **1** -> **3**
 are some possible ways where as
- -> **-1** -> **1** -> **3**, (She did not set her foot wrong at her home)
- -> **1** -> **3**, (She sets her foot wrong direction exactly once)
- -> **1** ->  -> **3**, (Her steps are always size 1 or 2)
- -> **1** -> **2** -> **4** -> **3**, (She does not go past her restaurant)
- -> **1** -> **2** -> **3** -> **2** -> **3** (Once she reaches her restaurant, she stops)
+0 -> **-1** -> **1** -> **3**, (She did not set her foot wrong at her home)
+0 -> **1** -> **3**, (She sets her foot wrong direction exactly once)
+0 -> **1** -> 0 -> **3**, (Her steps are always size 1 or 2)
+0 -> **1** -> **2** -> **4** -> **3**, (She does not go past her restaurant)
+0 -> **1** -> **2** -> **3** -> **2** -> **3** (Once she reaches her restaurant, she stops)
 are not.
 
 ### Input
@@ -102,5 +102,4 @@ Number of ways Ciel can reach her restaurant modulo 1000000007 (109+7).
 <b>Sample Output:</b>
 18
 44
-
 </pre>

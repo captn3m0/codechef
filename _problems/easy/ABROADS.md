@@ -130,8 +130,8 @@ D 3</tt>
 6
 13
 10</tt>
-
 </pre>### Explanation
+
 - After the first query, the populations are **(3, 2, 3)** and the most populated region is **{1, 2, 3}**.
 - After the second query the populations and the regions remain the same.
 - After the third query the populations are **(3, 3, 3)** and the most populated region is again **{1, 2, 3}**.

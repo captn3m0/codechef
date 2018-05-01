@@ -100,8 +100,8 @@ All submissions for this problem are available. Lo and Behold! For you may be su
 <b>Output:</b>
 2
 3
-
 </pre>### Explanation
+
 **Example case 1.**
 
 Each spoon caters to a different city. Since there are two spoons, two cities are sufficient. />

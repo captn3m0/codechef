@@ -79,7 +79,7 @@ The first line of input contains an integer **T** denoting the number of test ca
 
 The first line of each test case contains **5** single space separated integers: **N**, **Q**, **R**, **p1**, **p2**).
 
-The next line contains **N** single space separated integers (each is between  and **100000** inclusive).
+The next line contains **N** single space separated integers (each is between 0 and **100000** inclusive).
 
 Then, there are **Q** lines denoting the queries in the format, described above.
 

@@ -52,5 +52,4 @@ For every test-case, output a single containing test-case number and the minimum
 <b>Output</b>
 Case 1: 1
 Case 2: 3
-
 <pre>

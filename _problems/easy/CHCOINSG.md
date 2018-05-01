@@ -113,8 +113,8 @@ Chef plays first. Your task is to find out who will win the game, provided that 
 <b>Output:</b>
 Chef
 Chef
-
 </pre>### Explanation
+
 **Example case 1.** Chef will remove the only coin from the pile and will win the game.
 
 **Example case 2.** Chef will remove all 8 coins from the pile and win the game. Chef can remove 8 coins because 8 is a prime power, as 8 = 23.

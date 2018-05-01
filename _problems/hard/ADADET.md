@@ -112,8 +112,8 @@ For each testcase print **n** integers: **ai**, the rightmost building shot at, 
 
 <b>Output:</b>
 5 5 -1 -1 7 7 -1
-
 </pre>### Explanation
+
 ![](https://codechef_shared.s3.amazonaws.com/download/upload/COOK83/detective.png)The lines of shooting are shown in the figure above.
 
 From building 1, buildings 2 and 5 are shot. As the rightmost is building 5, that is the answer for building 1. Note that from building 1 is not possible to shoot at building 4 (dotted line) because building 2 obstructs the line of sight.

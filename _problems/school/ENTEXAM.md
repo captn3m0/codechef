@@ -74,7 +74,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 The faculty of application management and consulting services (FAMCS) of the Berland State University (BSU) has always been popular among Berland's enrollees. This year, **N** students attended the entrance exams, but no more than **K** will enter the university. In order to decide who are these students, there are series of entrance exams. All the students with score strictly greater than at least **(N-K)** students' total score gets enrolled.
 
-In total there are **E** entrance exams, in each of them one can score between  and **M** points, inclusively. The first **E-1** exams had already been conducted, and now it's time for the last tribulation.
+In total there are **E** entrance exams, in each of them one can score between 0 and **M** points, inclusively. The first **E-1** exams had already been conducted, and now it's time for the last tribulation.
 
 Sergey is the student who wants very hard to enter the university, so he had collected the information about the first **E-1** from all **N-1** enrollees (i.e., everyone except him). Of course, he knows his own scores as well.
 
@@ -113,6 +113,6 @@ For each test case, output a single line containing the minimum score Sergey sho
 
 <b>Output:</b>
 <tt>4</tt>
-
 </pre>### Explanation
+
 **Example case 1.** If Sergey gets 4 points at the last exam, his score will be equal to 9+9+4=22. This will be the second score among all the enrollees - the first one will get 21, the second one will get 20 and the third will have the total of 26. Thus, Sergey will enter the university.

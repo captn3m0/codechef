@@ -99,7 +99,7 @@ For each third type query output one integer per line - answer for this query.
 
 ### Constraints
 
-- ≤ **N** ≤ **105**
+- 0 ≤ **N** ≤ **105**
 - **1** ≤ **M** ≤ **105**
 - **1** ≤ **Ai**, **Bi**, **Xi**, **Yi**≤ **105**
 
@@ -127,5 +127,4 @@ For each third type query output one integer per line - answer for this query.
 4
 3
 4
-
 </pre>

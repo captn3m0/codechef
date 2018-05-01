@@ -119,8 +119,8 @@ Yes
 Yes
 No
 No
-
 </pre>### Explanation
+
 **Query 1**: The subgraph containing the nodes {6, 7, 9} is a connected subgraph because (6, 7) and (6, 9) are edges in the original tree. And it has exactly two black nodes (7 and 9). So, there is at least one connected subgraph of size exactly 3 which has exactly 2 black nodes. Hence the answer is "Yes".
 
 **Query 2**: The subgraph containing the nodes {1, 2, 3, 4, 6, 7, 8} is a connected subgraph. And it has exactly three black nodes (2, 4 and 7). So, there is at least one connected subgraph of size exactly 7 which has exactly 3 black nodes. Hence the answer is "Yes".

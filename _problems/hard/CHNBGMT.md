@@ -95,7 +95,7 @@ Find out number of ways in which bunnies can get from cell (1, 1) to cell (**N**
 ### Constraints
 
 - **2** ≤ **N, M** ≤ **105**
-- ≤ **D** ≤ **C** ≤ **min{200, N \* M - 2}**
+- 0 ≤ **D** ≤ **C** ≤ **min{200, N \* M - 2}**
 - **1** ≤ **xi** ≤ **N**
 - **1** ≤ **yi** ≤ **M**
 - **1** ≤ **MOD** ≤ **109**
@@ -118,19 +118,19 @@ Find out number of ways in which bunnies can get from cell (1, 1) to cell (**N**
 **Subtask #3 (13 pts)**
 
 - **1** ≤ **T** ≤ **10**
-- **C** =
+- **C** = 0
 - TL = 2s
 
 **Subtask #4 (19 pts)**
 
 - **1** ≤ **T** ≤ **5**
-- ≤ **C** ≤ **100**
+- 0 ≤ **C** ≤ **100**
 - TL = 10s
 
 **Subtask #5 (23 pts)**
 
 - **1** ≤ **T** ≤ **5**
-- ≤ **C** ≤ **100**
+- 0 ≤ **C** ≤ **100**
 - TL = 2s
 
 **Subtask #6 (27 pts)**
@@ -156,8 +156,8 @@ Find out number of ways in which bunnies can get from cell (1, 1) to cell (**N**
 0
 1
 0
-
 </pre>### Explanation
+
 **Example case 1.**
 
 \*\*\*

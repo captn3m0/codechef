@@ -140,8 +140,8 @@ NO
 YES
 YES
 YES
-
 </pre>### Explanation
+
 **Example case 1:**
 
 - query 1: **last** = 0, **x** = 2, **y** = 5, **z** = 1, **t** = 4

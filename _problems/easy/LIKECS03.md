@@ -116,18 +116,18 @@ Output the minimum number of elements that need to be inserted so that inifinite
 1 ≤ Sum of N over all test cases ≤ 10<sup>5</sup>
 1 ≤ K ≤ 20
 0 ≤ A[i] ≤ 2<sup>K</sup>-1, where A[i] denotes the i<sup>th</sup> element of the array.
-
 </pre>### Sample Input - 1
+
 <pre>
 1
 2 2
 3 1
-
 </pre>### Sample Output - 1
+
 <pre>
 1
-
 </pre>### Explanation - 1
+
 You can win the game by inserting the element **2** into the array.
 
 ### Sample Input - 2
@@ -136,10 +136,10 @@ You can win the game by inserting the element **2** into the array.
 1
 7 3
 3 7 5 4 6 2 1
-
 </pre>### Sample Output - 2
+
 <pre>
 0
-
 </pre>### Explanation - 2
+
 The initial array will result will terminate in the first step of algorithm only. Thus there is no need to insert any new element.

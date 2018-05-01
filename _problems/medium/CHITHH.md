@@ -76,7 +76,7 @@ If you take away all the foreword, then the task set is this: you have **N** non
 Concatanation example:
 If you have **2** numbers **11, 22** - after concatenation you will have **1122**.
 If you have **3** number **13, 44, 12** - after concatenation you will have **134412**.
-One more example: **0, 3, 11, 0** - after concatenation you will have **03110**. First digit of this string is , not **3**.
+One more example: **0, 3, 11, 0** - after concatenation you will have **03110**. First digit of this string is 0, not **3**.
 
 ### Input
 
@@ -90,7 +90,7 @@ For each request output a single line containing **k-th** digit of **MagicIntege
 
 - **1** ≤ **N** ≤ **105**
 - **1** ≤ **M** ≤ **105**
-- ≤ **Ai** ≤ **109**
+- 0 ≤ **Ai** ≤ **109**
 - **1** ≤ **l, v** ≤ **105**
 - **1** ≤ **k** ≤ **106**
 
@@ -112,8 +112,8 @@ For each request output a single line containing **k-th** digit of **MagicIntege
 0
 So sad
 3
-
 </pre>### Scoring
+
 Subtask 1 (30 points): **N ≤ 1000**
 
 Subtask 2 (25 points): **V ≤ 100**

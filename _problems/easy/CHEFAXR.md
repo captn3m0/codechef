@@ -111,8 +111,8 @@ For each test case, output a single line containing the maximal **bitwise XOR** 
 </tt>
 <b>Output:</b>
 <tt>15</tt>
-
 </pre>### Explanation
+
 Chef can pick the following submatrix in order to make the XOR of elements equal to **15**:
 
 <pre>
@@ -120,5 +120,4 @@ Chef can pick the following submatrix in order to make the XOR of elements equal
 <b>1 8</b> 6
 <b>1 2</b> 3
 </tt>
-
 </pre>This submatrix can be defined by **x1 = 1**, **y1 = 1**, **x2 = 3**, **y2 = 2**.

@@ -91,8 +91,8 @@ For each testcase, output a single integer in a new line, which should be the ma
 
 - **1** ≤ **T** ≤ **100**
 - **1** ≤ **N** ≤ **1000000**
-- ≤ **Ci** N
-- ≤ **Wi** ≤ **1000000000**
+- 0 ≤ **Ci** N
+- 0 ≤ **Wi** ≤ **1000000000**
 - **1** ≤ Sum of **N** over all test cases ≤ **1000000**
 
 ### Subtasks
@@ -110,6 +110,6 @@ For each testcase, output a single integer in a new line, which should be the ma
 
 <b>Output:</b>
 21
-
 </pre>### Explanation
+
 The range \[2, 4\] is an _unique_ range because (1, 2, 0) has no duplicates. Its _sum_ is 6 + 7 + 8 = 21. This is the maximum possible, and hence is the answer.

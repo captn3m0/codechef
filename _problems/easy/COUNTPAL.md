@@ -37,5 +37,4 @@ bobseesanna
 
 <b>Output:</b>
 18
-
 </pre>

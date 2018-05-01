@@ -149,6 +149,6 @@ For each test case, output a single integer corresponding to the number of _w00t
 <b>Output:</b>
 1
 10
-
 </pre>### Explanation
+
 **Example case 1.** The entire rectangle is _w00t_.

@@ -93,6 +93,6 @@ For each test case, output a single line containing the answer. ### Constraints
 <b>Output:</b>
 1
 3
-
 </pre>### Explanation
+
 In the first case we could have only array **\[1\]** in the beginning and then obtain **\[1, 1\]**, then **\[1, 1, 1, 1\]** and finally **\[1, 1, 1, 1, 1\]**. In the second one we could obtain **A** from **\[1, 2, 3\]** by copying it's first two elements to the end.

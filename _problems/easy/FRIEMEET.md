@@ -132,5 +132,4 @@ For each test case, output a single line containing two integers **numer** and *
 <b>Output:</b>
 <tt>4 1
 29 6</tt>
-
 </pre>

@@ -68,13 +68,13 @@ time:
     current: 1493557694
 layout: problem
 ---
-All submissions for this problem are available.Byteland has always been popular among tourists. Seeing a business opportunity, Chef has built a brand new Hotel Balifornia there. The hotel has **R** unique comfortable rooms for guests' purpose. The rooms are numbered by integers from  to **R-1**, inclusive. All rooms in the hotel are on the same floor and arranged in a circle. Namely,
+All submissions for this problem are available.Byteland has always been popular among tourists. Seeing a business opportunity, Chef has built a brand new Hotel Balifornia there. The hotel has **R** unique comfortable rooms for guests' purpose. The rooms are numbered by integers from 0 to **R-1**, inclusive. All rooms in the hotel are on the same floor and arranged in a circle. Namely,
 
-- the room next to the room  is the room **1**;
+- the room next to the room 0 is the room **1**;
 - the room next to the room **1** is the room **2**;
 - ...
 - the room next to the room **R-2** is the room **R-1**;
-- finally, the room next to the room **R-1** is the room .
+- finally, the room next to the room **R-1** is the room 0.
 
 When **R = 1** we have only one room and it is next to itself.
 
@@ -136,9 +136,9 @@ For each visit of each test, output a single line containing the inconvenience c
 - **1** ≤ **T** ≤ **1000**
 - **1** ≤ **N** ≤ **200000** (**2 \* 105**)
 - **1** ≤ **R** ≤ **500** (**R** is not divisible by **33**)
-- ≤ **H** ≤ **23**
-- ≤ **M** ≤ **59**
-- ≤ **G** ≤ **9999999** (**107 − 1**)
+- 0 ≤ **H** ≤ **23**
+- 0 ≤ **M** ≤ **59**
+- 0 ≤ **G** ≤ **9999999** (**107 − 1**)
 - The total number of visits over the input does not exceed **200000** (**2 \* 105**)
 - The name of each guest contains only uppercase and lowercase letters of English alphabet and has length from 1 to 10, inclusive
 
@@ -166,8 +166,8 @@ For each visit of each test, output a single line containing the inconvenience c
 -134
 1
 1
-
 </pre>### Explanation
+
 Guest's nameCur TimePrev. inconv.RNG outputRoomStatusOrder of roomsOutputBrad00:10091513 + 01`----`10Kanye00:12013097144 + 00`-B--`00Angelina01:10060979313407 + 03`KB--`30John05:380375983 + 03`KB-A`3 → 0 → 22Bill12:55282083 + 21`-BJA`1 → 2 → 02Tom12:56422288 + 40`BBJA`0 → 1 → 3 → 2-134Nicole20:01138558693338 + 1380`B-JA`0 → 11Daniel03:00139158240589 + 1390`B-J-`0 → 11- The **Prev. inconv.** column contains the total inconvenience caused to all previous guests.
 - By **RNG output** here we mean the value before taking it modulo **R**.
 - The **Room** column contains the room that was initially assigned to the guest and it is the actual value returned by RNG. It is equal to the value in the previous column take modulo **R = 4**.

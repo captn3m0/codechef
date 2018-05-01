@@ -42,5 +42,4 @@ For each test case output the number of k-gons that can be formed modulo 1000000
 328836201
 
 
-
 </pre>

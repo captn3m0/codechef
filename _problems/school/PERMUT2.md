@@ -88,10 +88,9 @@ For each test case output whether the permutation is ambiguous or not. Adhere to
 1
 1
 0
-
 </pre>### Sample Output
+
 <pre>ambiguous
 not ambiguous
 ambiguous
-
 </pre>

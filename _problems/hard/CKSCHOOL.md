@@ -52,8 +52,8 @@ For each query, print the answer in a new line.
 1
 1
 2
-
-</pre>**Explanation :**  Listing the schools in 'Max Special S' for each of the queries in the given sample case. Schools are listed in (distance, fee) pairs.
+</pre>
+**Explanation :**  Listing the schools in 'Max Special S' for each of the queries in the given sample case. Schools are listed in (distance, fee) pairs.
 5 3 4 --> (4,3) (3,4) ; 
 5 4 6 --> (3,4) (1,5) ; 
 5 1 4 --> (1,1) ; This school is preferred over all other schools ;

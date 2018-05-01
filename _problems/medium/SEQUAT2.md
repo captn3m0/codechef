@@ -110,16 +110,16 @@ Output a **T** line containing two space separated integers **X** and **Y**.
 
 <b>Output:</b>
 12 12
-
 <pre>### Example 2
+
 </pre><b>Input:</b>
 1 
 1 1 3 5
 
 <b>Output:</b>
 7 7
-
 <pre>### Explanation
+
 **Example 1.**
 
 There are two solutions - (3, 9) and (9, 3). For example, (9, 3) is a solution because: 9 | 3 = 11 and 9 & 3 = 1, so 9 \* 3 = 11 \* 1 + 1 \* 9 + 1 \* 3 + 4.

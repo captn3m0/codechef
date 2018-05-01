@@ -36,5 +36,4 @@ Write a single integer to output, denoting how many integers ti are divisible by
 
 <b>Output:</b>
 4
-
 </pre>

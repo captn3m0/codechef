@@ -99,6 +99,6 @@ For each query, print the required answer in one line.
 1
 2
 3
-
 </pre>### Explanation
+
 For first query, 1 is directly connected to 2 by an edge. Hence distance 1.

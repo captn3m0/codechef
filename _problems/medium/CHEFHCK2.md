@@ -47,12 +47,12 @@ All Non-Power Servers have a friendly screen with the color indicator. Suppose y
 
 On the other hand, each Power Server has no such screen and the only way to crack it is to try all Power Passwords until you find out the correct password. So our Chef simply iterate over the list of Power Passwords in increasing order and try them until he finds the correct password.
 
-After the last adventure with Aliens, Chef became smarter so he will use binary search to crack Non-Power Servers. Namely, let **A\[1\], A\[2\], A\[3\], A\[4\], ...** be the sequence of all Non-Power Passwords. At first he will try passwords **A\[2\], A\[4\], A\[8\], A\[16\], ...** until he either reaches the correct one or the indicator becomes red for the first time. If indicator becomes red at the password **A\[2\] = 1** then he enters **A\[1\] = 0** at the next step and cracks the server (since  is the only Non-Power Password less than **1**). Let the indicator becomes red at the password **A\[2k\]** where **k ≥ 2** while for the password **A\[2k−1\]** indicator was green. Then Chef sets **L = 2k−1**, **R = 2k** and uses usual binary search to crack the server after that. Namely, at each step he sets **M = (L + R) div 2** and checks the password **A\[M\]**. If it is correct he finishes the process; if indicator becomes green he sets **L = M** and continue the process; finally, if indicator becomes red he sets **R = M** and continue the process.
+After the last adventure with Aliens, Chef became smarter so he will use binary search to crack Non-Power Servers. Namely, let **A\[1\], A\[2\], A\[3\], A\[4\], ...** be the sequence of all Non-Power Passwords. At first he will try passwords **A\[2\], A\[4\], A\[8\], A\[16\], ...** until he either reaches the correct one or the indicator becomes red for the first time. If indicator becomes red at the password **A\[2\] = 1** then he enters **A\[1\] = 0** at the next step and cracks the server (since 0 is the only Non-Power Password less than **1**). Let the indicator becomes red at the password **A\[2k\]** where **k ≥ 2** while for the password **A\[2k−1\]** indicator was green. Then Chef sets **L = 2k−1**, **R = 2k** and uses usual binary search to crack the server after that. Namely, at each step he sets **M = (L + R) div 2** and checks the password **A\[M\]**. If it is correct he finishes the process; if indicator becomes green he sets **L = M** and continue the process; finally, if indicator becomes red he sets **R = M** and continue the process.
 
 Let's consider some examples:
 
 - Suppose the password is **9**. It's a Power Password, so Chef will not see the friendly screen which means for him that the server is a Power Server. Hence he will try the password **4**, then **8** and then **9**, making 3 tries in all.
-- Suppose the password is . It's a Non-Power Password, so Chef will see the friendly screen which means for him that the server is a Non-Power Server. Hence he will try the passwords **A\[2\] = 1, A\[1\] = 0** in order, making 2 tries in all.
+- Suppose the password is 0. It's a Non-Power Password, so Chef will see the friendly screen which means for him that the server is a Non-Power Server. Hence he will try the passwords **A\[2\] = 1, A\[1\] = 0** in order, making 2 tries in all.
 - Suppose the password is **7**. It's a Non-Power Password. Hence he will try the passwords **A\[2\] = 1, A\[4\] = 3, A\[8\] = 10, A\[6\] = 6, A\[7\] = 7** in order, making 5 tries in all.
 - Suppose the password is **1**. It's a Non-Power Password. He will crack this server from the first try since **A\[2\] = 1**.
 
@@ -69,7 +69,7 @@ Output a single line containing **N** space separated integers. The **i**-th num
 ### Constraints
 
 - **1** ≤ **N** ≤ **314159**
-- ≤ **each password** ≤ **31415**
+- 0 ≤ **each password** ≤ **31415**
 - Chef Po does not know this bound on the password and assumes that password can be any non-negative integer when he is cracking
 
 ### Example
@@ -81,6 +81,6 @@ Output a single line containing **N** space separated integers. The **i**-th num
 
 <b>Output:</b>
 3 2 5 1 15 12
-
 </pre>### Explanation
+
 The cracking process of first 4 servers explained in the problem statement.

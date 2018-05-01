@@ -92,7 +92,7 @@ The third line of each test case contains three space-separated integers **PG PY
 
 ### Output
 
-For each test case, output a single line containing the maximal amount of flowers in _nice_ bouquet, satisfying all conditions or  if it's impossible to create any bouquet, satisfying the conditions.
+For each test case, output a single line containing the maximal amount of flowers in _nice_ bouquet, satisfying all conditions or 0 if it's impossible to create any bouquet, satisfying the conditions.
 
 ### Constraints
 
@@ -110,6 +110,6 @@ For each test case, output a single line containing the maximal amount of flower
 
 <b>Output:</b>
 <tt>7</tt>
-
 </pre>### Explanation
+
 **Example case 1.** We can create a bouquet with **7** leaves, for example, by collecting all yellow leaves. This is not the only way to create the nice bouquet with **7** leaves (for example, Sergey can use all but one red leaves), but it is impossible to create a nice bouquet with more than **7** leaves.

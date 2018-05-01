@@ -130,12 +130,11 @@ yes
 no
 yes
 no
-
 </pre>### Explanation
+
 **Example 1**. You can fill the entries of matrix **B** as follows.
 
 <pre>
 0 1
 <b>1 0</b>
-
 </pre>This matrix corresponds to the array A = \[1, 2\]. **Example 2**. It is impossible to fill the remaining entries of matrix B such that the resulting matrix is good, as **B**\[1\]\[2\] = 1 and **B**\[2\]\[1\] = 0, which is impossible.

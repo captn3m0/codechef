@@ -39,5 +39,4 @@ The output for each test case is a single line consisting of a sequence of 2n in
 0 1 3 2 6 7 5 4
 1 3 7 6 2 0 4 5
 
-
 </pre>

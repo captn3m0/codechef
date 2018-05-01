@@ -47,5 +47,4 @@ For each test case, output the maximum number of collinear milestones.
 <b>Output:</b>
 3
 2
-
 </pre>

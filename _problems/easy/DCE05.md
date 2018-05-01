@@ -39,5 +39,4 @@ Display t lines, each containg a single integer, the place where you would stand
 <b>Output:</b>
 4
 8
-
 </pre>

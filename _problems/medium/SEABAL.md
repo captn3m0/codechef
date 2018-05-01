@@ -115,6 +115,6 @@ For each test case, print **k** lines — the answers after every steps.
 1
 2
 3
-
 </pre>**Update:**
+
 You may assume that, y\[i\] <= n and k <= 100000

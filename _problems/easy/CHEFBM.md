@@ -119,8 +119,8 @@ Then Chef needs to calculate the following:
 -1
 4
 
-
 </pre>### Explanation
+
 <pre>
 <p>Here is the whole matrix after <b>P</b> commands:</p>
 1 2 3 4
@@ -128,7 +128,7 @@ Then Chef needs to calculate the following:
 1 4 3 4
 1 2 5 5
 <p> Explanations to the answer: </p>
-
-</pre>- The first line is without changes: 4-3=1, 3-2=1, 2-1=1. answer = 3.- The second line: 4-3=1, 3-3=0, 3-1=2. The answer is 3.
+</pre>- The first line is without changes: 4-3=1, 3-2=1, 2-1=1. answer = 3.
+- The second line: 4-3=1, 3-3=0, 3-1=2. The answer is 3.
 - The third line: 4-3=1, 3-4=-1, Chef can't move to the first number here. Therefore, the answer is -1.
 - The fourth line: 5-5=0, 5-2=3, 2-1=1. The answer is 4.

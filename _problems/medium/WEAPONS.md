@@ -107,8 +107,8 @@ For each stage, output a single integer in new line, which should be the maximum
 <b>Output:</b>
 5
 5
-
 </pre>### Explanation
+
 **Example case 1:** The initial state is (3, 3, 1, 4). The Chef can fuse the first two weapons and get (4, 1, 4). Then he can fuse the first and last weapons to get (5, 1). Now, he can't do anything else. He has gotten a weapon of level 5, and you can show that there is no way to get a weapon of a higher level. Hence the answer is 5.
 
 **Example case 2:** The initial state is (2, 3, 3, 3, 1, 1). The Chef can fuse the last two weapons and get the state (2, 3, 3, 3, 2). He can then fuse the first and fifth weapons and get (3, 3, 3, 3). Now, he can fuse the first and second to get (4, 3, 3). Then he fuses the second and third to get (4, 4). Finally, he fuses the first and second to get (5). You can check that nothing better can be achieved, and hence the answer is 5.

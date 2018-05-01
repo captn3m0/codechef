@@ -99,7 +99,7 @@ For each testcase, print the required answer in one line.
 <b>Output:</b>
 10
 3
-
 </pre>### Explanation
+
 \#test1: All substrings satisfy.
 \#test2: Three substrings S\[1,1\], S\[5,5\] and S\[1,5\] satisfy.

@@ -114,6 +114,7 @@ Good
 <br></br>
 />/>
 </pre>### Explanation
+
 **Example case 1.**
 
 The string doesn't contain **010** or **101** as substrings. />

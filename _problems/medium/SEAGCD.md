@@ -105,5 +105,4 @@ For each test case output the required sum, modulo **109+7**.
 3125
 2
 
-
 </pre>

@@ -116,6 +116,7 @@ For each test case, output a single line containing a single integer, the minimu
 1
 </tt>
 <pre>### Explanation
+
 **Example case 1.** In this test case, Alvin has 1 candy and Berto has 5. The apple candies come in packs of 10, and the banana ones come in packs of 3. In this situation, Chef can make them equal by giving 1 pack of 10 to Alvin and 2 packs of 3 to Berto, so they now have 1 + 10 = 5 + 3 + 3 = 11 candies each.
 
 **Example case 2.** In this test case, Alvin has 1 candy and Berto has 2. The apple and banana candies come in packs of 2. In this situation, the number of candies of Alvin is always odd, and the number of candies of Berto is always even, so Chef cannot make them equal. The minimum difference is 1, which Chef can achieve by not giving any packs at all.

@@ -99,9 +99,9 @@ Print **Q + 1** lines which contain **N** space-separated integers, Miron's init
 
 - **3** ≤ **N** ≤  **1000**
 - **1** ≤ **Q** ≤  **1000**
-- ≤ **Bi,j** ≤  **5000**
+- 0 ≤ **Bi,j** ≤  **5000**
 - **1** ≤ **p** ≤  **n**
-- ≤ **Fi** ≤  **5000**
+- 0 ≤ **Fi** ≤  **5000**
 - it's guaranteed there's always an answer
 
 ### Example
@@ -119,6 +119,6 @@ Print **Q + 1** lines which contain **N** space-separated integers, Miron's init
 0 -1 -2
 0 -4 -3
 0 -4 3
-
 </pre>### Explanation
+
 **Example case 1.** Initially, sequence **{0, 1, 2}** is also suitable, but **{0, -1, -2}** is lexicografically smaller.

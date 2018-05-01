@@ -104,5 +104,4 @@ For each test case, output a single line containing one integer - the minimum nu
 
 <b>Output:</b>
 2
-
 </pre>

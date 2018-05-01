@@ -97,8 +97,8 @@ The triangle will be accepted if, for every input point A = (**xi, yi**), there 
 <b>Output:</b>
 YES 1.000 1.000 1.000 4.000 3.000 1.000
 YES 0.000 0.000 3.000 3.000 3.000 0.000
-
 </pre>### Explanation
+
 The first testcase corresponds to this image:
 
 ![](https://codechef_shared.s3.amazonaws.com/download/upload/SNCKEL17/fourpts1.png)The Ai's (marked in red) correspond to the input points, and the triangle is the outputted triangle.

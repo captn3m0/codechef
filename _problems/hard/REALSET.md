@@ -115,8 +115,8 @@ NO
 YES
 YES
 NO
-
 </pre>### Explanation
+
 **Example case 2.** One of the possible sequences B is (1, -1, 0).
 
 **Example case 3.** One of the possible sequences B is (1, 1, 1, 1).

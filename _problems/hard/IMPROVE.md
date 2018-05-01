@@ -119,8 +119,8 @@ The restrictions for the output sequence are:
 <b>Output:</b>
 <tt>6
 1 3 2 3 1 2</tt>
-
 </pre>### Explanation
+
 **Example case 1.** Let's perform these operations one-by-one. The positions having **Ai = i** will be highlighted in bold:
 
 - Initially we have A = (4, 3, 2, 1)

@@ -127,15 +127,15 @@ C 1 2
 Q 1 2
 Q 1 3
 
-
 </pre>**Output**
+
 <pre>
 4
 8
 5
 30
-
 </pre>### Explanation:
+
 - **Q1** : F = Fibonacci(1) + Fibonacci(2) + Fibonacci(1+2) = 4 % 1000000007 = 4
 - **Q2** : F = Fibonacci(2) + Fibonacci(3) + Fibonacci(2+3) = 8 % 1000000007 = 8
 - **Q3** : A = {2, 2, 3}

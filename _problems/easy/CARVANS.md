@@ -98,8 +98,8 @@ For each test case, output a single line containing the number of cars which wer
 1
 2
 2
-
 </pre>### Constraints
+
 1 ≤ T ≤ 100
 1 ≤ N ≤ 10,000
 All speeds are distinct positive integers that fit in a 32 bit signed integer.

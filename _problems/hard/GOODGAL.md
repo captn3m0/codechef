@@ -112,7 +112,7 @@ For each test case output one word per line: "YES" if the galaxy is a good galax
 
 - **1** ≤ **T** ≤ **5**
 - **2** ≤ **N** ≤ **1024**
-- ≤ **M** ≤ **40 000**
+- 0 ≤ **M** ≤ **40 000**
  
 ### Subtasks
 
@@ -154,8 +154,8 @@ NO
 NO
 YES
 NO
-
 <pre>### Explanation
+
 **Test case 1.** This galaxy is equivalent to the red (or blue) galaxy in step 2 in the above image.
 
 **Test case 2.** This galaxy is similar to test case 1, but the connection has been destroyed, so the galaxy is no longer good.

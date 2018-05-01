@@ -127,6 +127,6 @@ Given the sequence that Chef wrote and Reziba's rating, find out whether this se
 <b>Output:</b>
 NO
 YES
-
 </pre>### Explanation
+
 **Example case 1.**The first person that Chef asked has a rating of 600, which is more than 200 so he tells Chef to go to his left. The second person Chef meets has a rating of 300, also tells Chef to go to the left. The third person that chef asked has a rating of 100 so he tells Chef to go to the right. Then Chef asked a person with rating 350, that means Chef went beyond the person with rating of 300, which should never happen, so Chef must have made a mistake while writing this sequence.

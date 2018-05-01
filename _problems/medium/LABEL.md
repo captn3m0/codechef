@@ -122,6 +122,6 @@ For each test case, print the answer in a separate line.
 <tt>4
 2
 12</tt>
-
 </pre>### Explanation
+
 ![](https://s3.amazonaws.com/hr-challenge-images/15909/1461164061-a8af760fd8-C.png "C.png")

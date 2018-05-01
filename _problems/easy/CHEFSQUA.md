@@ -84,7 +84,7 @@ In a single line print single integer - the minimal number of points Chef need t
 
 ### Constraints
 
-- ≤ **N** ≤ **2000**
+- 0 ≤ **N** ≤ **2000**
 - **-10^6** ≤ **Xi, Yi** ≤ **10^6**
 - There are NO coincided points
 
@@ -109,8 +109,8 @@ In a single line print single integer - the minimal number of points Chef need t
 
 <b>Output:</b>
 0
-
 </pre>### Explanation
+
 For the first example Chef can add points **(2, 0), (0, 2)** or **(2, 3), (3, 2)**
 
 For the second example Chef already has square **(0, 0), (100, 0), (0, 100), (100, 100)**.

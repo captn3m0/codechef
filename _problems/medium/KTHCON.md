@@ -115,5 +115,4 @@ If there's no 1-concave polygon, print -1. Otherwise, print one integer: twice t
 <b>Output:</b>
 28
 -1
-
 </pre>

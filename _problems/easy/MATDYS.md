@@ -125,15 +125,15 @@ The output file will contain **Q** lines, each one representing the answer to on
 1
 6
 2
-
-</pre><pre><b>Input:</b>
+</pre>
+<pre><b>Input:</b>
 1
 64 11047805202224836936
 
 <b>Output:</b>
 1337369305470044825
-
 </pre>### Explanation
+
 <pre>
 In all questions, we have <b>N</b> = 3. Therefore, we have a deck with 8 cards.
 The shuffling is done in three steps:
@@ -152,5 +152,4 @@ Step 2: We divide {0, 4, 2, 6, 1, 5, 3, 7} in 2<sup>2</sup> decks. We get four d
 The card labelled 4 is on position 1.
 The card labelled 3 is on position 6.
 The card labelled 2 is on position 2.
-
 </pre>

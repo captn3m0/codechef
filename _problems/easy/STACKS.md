@@ -131,6 +131,6 @@ If there are multiple correct answers, you are allowed to output any of them.
 3 1 1 2
 5 2 2 4 7 10 
 4 5 10 12 18 
-
 </pre>### Explanation
+
 **Example 1** is already explained in the problem statement.

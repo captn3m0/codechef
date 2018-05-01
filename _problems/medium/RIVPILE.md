@@ -142,8 +142,8 @@ For each test case, print the minimum cost to make it possible to move from **y 
 5
 impossible
 
-
 </pre>### Explanation
+
 The following figure indicates the optimal way for the first case.
 
 ![](//www.codechef.com/download/RIVPILE.png)

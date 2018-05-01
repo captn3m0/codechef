@@ -100,6 +100,6 @@ aca
 <b>Output:</b>
 4
 2
-
 </pre>### Explanation
+
 First sample has been explained in the problem statement.

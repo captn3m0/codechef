@@ -139,8 +139,8 @@ For each test case, print answers to all queries in the test case, one per line.
 3
 1
 1
-
 </pre>### Explanation
+
 There are two test cases to handle
 
 **Test case #1:**
@@ -151,7 +151,7 @@ The first query asks for the number of stable blocks of order **2** in range **\
 
 The second query asks for the number of stable blocks of order **2** in range **\[3, 6\]**, which corresponds to prices **10 10 7 7**. The answer is **2** because there are two such blocks: **10 10** and **7 7**.
 
-The third query asks for the number of stable blocks of order **3** in range **\[3, 6\]**, which corresponds to prices **10 10 7 7**. The answer is  because there is no stable block of order **3** there (maximum order of a stable block is **2**).
+The third query asks for the number of stable blocks of order **3** in range **\[3, 6\]**, which corresponds to prices **10 10 7 7**. The answer is 0 because there is no stable block of order **3** there (maximum order of a stable block is **2**).
 
 The fourth query asks for the number of stable blocks of order **3** in range **\[3, 8\]**, which corresponds to prices **10 10 7 7 7 10**. The answer is **1** because the only stable block of order **3** here is **7 7 7**.
 

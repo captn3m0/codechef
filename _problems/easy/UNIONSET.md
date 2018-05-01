@@ -123,8 +123,8 @@ For each test case, output a single integer corresponding to the answer.
 0
 3
 3
-
 </pre>### Explanation
+
 **Example 1**. No pair of sets is there with its union = 2.
 
 For **example 2 and 3**, all the pairs are valid.

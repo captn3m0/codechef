@@ -116,8 +116,8 @@ For each operation, output a single line containing "DA" (without quotes) if we 
 <b>Output:</b>
 DA 
 NET
-
 </pre>### Explanation
+
 The first two operations make us add teleports at the locations (2, 2) and (3, 3).
 
  Then, we need to find if the 2nd teleport can be reached from the 1st teleport. From teleport at (2, 2) we can reach the point (2, 3) (because |2-2|+|2-3|

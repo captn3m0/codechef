@@ -166,8 +166,8 @@ cchheeff
 80
 10
 4
-
 </pre>### Explanation
+
 <pre>
 <b>After decoding queries will take the following form : </b>
 1

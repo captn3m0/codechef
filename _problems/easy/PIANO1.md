@@ -127,6 +127,6 @@ TTSTTTS
 4
 36
 
-
 </pre>### Explanation
+
 **Example case 1.** In the first case there is only one octave and Chef can play scale (not in cycle each time) starting with notes _C, C#, D, D#_ - four together.

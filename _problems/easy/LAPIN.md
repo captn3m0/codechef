@@ -96,14 +96,13 @@ abbaab
 ababc
 
 
+<pre>**Output:**```
 
-<pre>**Output:**<pre>
 YES
 NO
 YES
 YES
 NO
 NO
-
 
 </pre>

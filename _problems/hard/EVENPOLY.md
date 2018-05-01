@@ -46,6 +46,6 @@ a+a
 Some Odd
 All Even
 All Even
-
 </pre>### Explanation of Sample Data
+
 The determinant in the first test case is simply x2+x which has two odd coefficients. A tedious calculation shows that the determinant in the second test case is actually 0. The last test case has determinant 2a, so all coefficients are even.

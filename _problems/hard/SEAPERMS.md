@@ -112,6 +112,6 @@ Output **M** lines. The **i**th line should contain the number of good permutati
 6
 2
 
-
 </pre>### Explanation
+
 **Example case 1.** After the first replacement operation, all permutations will be good. However, after the second operation, **P\[1\]** must be **3**.

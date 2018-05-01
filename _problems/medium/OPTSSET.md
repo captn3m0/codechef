@@ -111,7 +111,7 @@ Your answer will be considered correct if it has an absolute error less then **1
 - **1 ≤ T ≤ 10**
 - **3 ≤ n ≤ 105**
 - The sum of **n** over all test cases is at most **2.105**
-- ≤ all coordinates ≤ **109**
+- 0 ≤ all coordinates ≤ **109**
 - **1 ≤ wi ≤ 105**
 
 Subtask:
@@ -147,5 +147,4 @@ Subtask:
 1.274754878
 0.606675824
 1.355261854
-
 </pre>

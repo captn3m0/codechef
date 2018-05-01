@@ -93,14 +93,13 @@ CHEFCHEFFFF
 <b>Output:</b>
 2
 
-
 </pre><pre><b>Input:</b>
 CHHHEEEFFCC
 
 <b>Output:</b>
 1
 
-
 </pre>### Scoring
+
 Subtask 1 (25 points): **|S|** ≤ 2000 
 Subtask 2 (75 points): See the constraints.

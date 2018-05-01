@@ -113,6 +113,6 @@ For each test case output a single line with a single integer - the answer to th
 
 <b>Output:</b>
 1048576
-
 </pre>### Explanation
+
 The first and the fourth girl will form the first group; the second and the third will form the second group.

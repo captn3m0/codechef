@@ -69,7 +69,7 @@ layout: problem
 ---
 All submissions for this problem are available.Chef has started Home Delivery scheme in one of his restaurants. As the scheme is new , Chef appoints only one employee to deliver food to various locations. The delivery boy who has been appointed is an absent-minded chap. He always forgets to fill fuel in his delivery scooter. So what he does is that whenever Chef sends him for delivery, he goes to the gas station from the restaurant first. He gets his tank filled and then he heads towards his destination. He will do this every single time _irrespective of the destination_. The delivery boy tries his best to be on time. And to do this, he will choose those paths(from restaurant to gas station AND gas station to destinaion) which cost him the _least_ amount of time. Your task is to tell the Chef how much time can the delivery boy save if he had enough fuel in his scooter i.e. if he went to the destination directly without stopping for fuel (taking the path which costs him least amount of time).
 
-The city has **N** streets numbered from  to **N-1**. The restaurant is on street number **S**, the gas station is on street number **G** and the food has to be delivered to street **D** . Note that **S, G** and **D** need **not** be distinct.
+The city has **N** streets numbered from 0 to **N-1**. The restaurant is on street number **S**, the gas station is on street number **G** and the food has to be delivered to street **D** . Note that **S, G** and **D** need **not** be distinct.
 
 ### Input:
 
@@ -92,8 +92,8 @@ Both these values must be on the same line separated by a single space.
 0 ≤ <b>T[i][j]</b> ≤ 100000
 0 ≤ <b>S</b>,<b>G</b>,<b>D</b> ≤ <b>N</b>-1
 
-
 </pre>### Example:
+
 **Input:**```
 
 4
@@ -107,12 +107,11 @@ Both these values must be on the same line separated by a single space.
 3 1 2
 3 0 1
 
+<pre>**Output:**```
 
-<pre>**Output:**<pre>
 2 0
 1 0
 3 2
 3 2
-
 
 </pre>

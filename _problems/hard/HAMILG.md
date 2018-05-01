@@ -146,8 +146,8 @@ The time limit is 2 seconds for subtasks 1-3 and 5 seconds for subtask 4.
 0
 4
 2
-
 <pre>### Explanation
+
 **Example case 1.** The graph is a complete graph with 4 vertices, so the game will always last 3 turns; in the 4th turn, Askar will have no way to move and lose.
 
 **Example case 2.** If Askar places the token on vertex 7, Bob will have to move it to vertex 1 and Askar can then move it to vertex 5 and win. A similar strategy exists for vertices 5, 6 and 8.

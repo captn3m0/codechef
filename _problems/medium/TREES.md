@@ -35,12 +35,10 @@ Sample Input :
 2 4
 3 5
 
-
 </pre><pre>
 Sample Output :
 5
 23
-
 
 </pre><pre>
 Constraints :
@@ -48,5 +46,4 @@ Constraints :
 2 <= N <= 60
 0 <= ai,bi < N
 1 <= K <= N - 1
-
 </pre>

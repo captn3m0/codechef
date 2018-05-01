@@ -107,8 +107,8 @@ Seeing you thoroughly puzzled, she explains that she can apply the trick so fast
 <b>Output:</b>
 1
 3
-
 </pre>### Explanation
+
 - **In example 1**, only **1** card containing **{1}** will work.
 - **In example 2**, make **3** cards containing **{1,4}, {2}** and **{3,4}**. 
   - Assume you thought of **1**, then you will select the 1st card **{1,4}**, then she will correctly figure out the integer you thought being **1**.

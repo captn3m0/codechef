@@ -108,8 +108,8 @@ For each test, output the maximum total sweetness.
 <b>Output:</b>
 12
 16
-
 </pre>### Explanation
+
 In the first sample: if he listens the songs in given order, then
 **B1=1, L1=2**: the sweetness = **2** \* **1** = **2**
 **B2=2, L2=2**: the sweetness = **2** \* **2** = **4**

@@ -130,7 +130,7 @@ Find out the maximum value of _interaction_ of the arrays that you can get.
 <b>Output:</b>
 10
 44
-
 </pre>### Explanation
+
 **In the first example**,
 you can increase value **A\[2\]** using two two operations. Now, **A** would be \[1, 4\]. The value of _interaction_ will be 1 \* -2 + 4 \* 3 = -2 + 12 = 10.

@@ -157,8 +157,8 @@ For each test case, output one integer per line denoting the minimum total cost.
 <b>Output</b>
 15
 11
-
 </pre>### Explanation
+
 **Example Test case 2.**
 
 ![](https://codechef_shared.s3.amazonaws.com/upfiles/killer.png)

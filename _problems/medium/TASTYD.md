@@ -91,21 +91,21 @@ Output should consist of a single integer - the answer for the problem.
 1 ≤ <b>K</b> ≤ 10<sup>9</sup>
 1 ≤ <b>beauty value</b> ≤ 10<sup>9</sup>
 
-
 </pre>### Example:
+
 **Input:**
 
 <pre>
 4 2
 1 2 3 4
 
-
 </pre>**Output:**
+
 <pre>
 2
 
-
 </pre>### Scoring:
+
 1 ≤ **N** ≤ 1000, this subtask is worth **21** point.
 
 1 ≤ **K** ≤ 100, this subtask is worth **39** points.

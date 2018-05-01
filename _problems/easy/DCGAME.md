@@ -125,8 +125,8 @@ Output consists of a single line containing a string of length **M** made up fro
 
 <b>Output:</b>
 DCDDC
-
 </pre>### Explanation: 
+
 **Subarray List :**
 
 **1. \[1\]** **1. \[2\]** **1. \[3\]** **1. \[1,2\]** **1. \[2,3\]** **1. \[1,2,3\]** 

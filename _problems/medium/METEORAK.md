@@ -85,7 +85,7 @@ The last **Q** lines describe the queries: each line contains two integers **L**
 
 ### Output
 
-In the output file, print **Q** lines, where i-th line contains the answer for **i**-th query. If you cannot build the house, then output .
+In the output file, print **Q** lines, where i-th line contains the answer for **i**-th query. If you cannot build the house, then output 0.
 
 ### Constraints
 
@@ -116,5 +116,4 @@ In the output file, print **Q** lines, where i-th line contains the answer for *
 6
 3
 6
-
 </pre>

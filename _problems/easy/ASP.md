@@ -107,5 +107,4 @@ For each test case, output "YES" or "NO" (without quotes) to indicate whether th
 <b>Output:</b>
 YES
 NO
-
 </pre>

@@ -31,10 +31,11 @@ x<sub>n</sub> x<sub>n</sub>
 [input for the next test cases...]
 </p>
 </pre>### Output
+
 <pre>o<sub>1</sub> [the square of the maximal distance in the first set]
 o<sub>n</sub> [output for the next test cases...]
-
 </pre>### Example
+
 <pre>
 <b>Input:</b>
 5
@@ -86,5 +87,4 @@ o<sub>n</sub> [output for the next test cases...]
 101
 722
 98
-
 </pre>

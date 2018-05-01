@@ -104,5 +104,4 @@ For each test output permutation **p**. If there is more than one solution - out
 <b>Output:</b>
 1 2 3
 
-
 </pre>

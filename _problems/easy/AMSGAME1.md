@@ -109,8 +109,8 @@ For each test case, **output a single integer** - the value of all the numbers w
 1
 1
 
-
 </pre>### Explanation
+
 **Test Case 1:** Since there are only two numbers, the operations are forced.
 
 - { 10, 12 } => Replace 12 with ( 12 - 10 = 2 ) => { 10, 2 }

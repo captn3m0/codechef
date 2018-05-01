@@ -105,7 +105,7 @@ For each test output "Tuzik" or "Vanya" on a separate line, indicating who will 
 Tuzik
 Vanya
 
-
 </pre>### Explanation
+
 **Test case 1:** On his first turn Tuzik moves chip 3 cells up to the cell **(4, 1)**. On his turn Vanya can move chip only right to the cell **(4, 2)** or to the cell **(4, 3)** and after that Tuzik moves it to **(4, 4)** and finishes the game. 
 **Test case 2:** On his first Turn Tuzik can move chip to the cell **(2, 1)** or **(1, 2)**, but on his next turn Vanya moves it to **(2, 2)** and wins the game.

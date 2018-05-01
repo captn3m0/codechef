@@ -133,8 +133,8 @@ Yes
 Yes
 No
 Yes</tt>
-
 </pre>#### Second
+
 <pre>
 <b>Input:</b>
 <tt>3 4
@@ -148,8 +148,8 @@ Yes</tt>
 <tt>Yes
 No
 Yes</tt>
-
 </pre>### Explanation:
+
 ##### First test explanation (step by step)
 
 <pre>
@@ -164,5 +164,4 @@ Yes</tt>
 2 1 4  (<b>Reverse</b>: [<b>3, 5, 1, 1</b>, 2])
 3 2 4 3 (<b>[5, 1, 1]</b> can't make 3 => <b>No</b>)
 3 1 5 7 (<b>[3, 5, 1, 1, 2]</b> 2+1+1+3=7 => <b>Yes</b>)
-
 </pre>

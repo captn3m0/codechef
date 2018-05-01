@@ -111,5 +111,4 @@ For each test case output optimal time in separated line. On the next **N** line
 1 3
 
 .
-
 </pre>

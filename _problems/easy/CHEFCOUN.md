@@ -93,7 +93,7 @@ A newbie programmer was trying to solve this problem. He didn't take care of the
 	for (int i = 1; i 
 </pre>
 </pre>
-Assume that an _unsigned int_ is 4 bytes long, i.e. it stores values from  up to **232 - 1**. Addition of two unsigned int's **x** and **y** is done as **(x + y) modulo 232**. This way, you can see that whenever the value of an unsigned int exceeds the maximum possible value (**232 - 1**), it wraps around.
+Assume that an _unsigned int_ is 4 bytes long, i.e. it stores values from 0 up to **232 - 1**. Addition of two unsigned int's **x** and **y** is done as **(x + y) modulo 232**. This way, you can see that whenever the value of an unsigned int exceeds the maximum possible value (**232 - 1**), it wraps around.
 
 Chef as a problem setter knows that the above program should not get an AC. Hence, he wants to generate a counter case to fail this solution. He asks your help in generating such a counter case.
 

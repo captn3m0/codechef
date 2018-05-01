@@ -93,7 +93,7 @@ For each test case, output a single line containing the answer to the correspond
 
 - **1** ≤ **T** ≤ **7**
 - **1** ≤ **N** ≤ **100,000**
-- ≤ **W\[i\]** ≤ **1,000,000,000**
+- 0 ≤ **W\[i\]** ≤ **1,000,000,000**
 
 ### Example
 
@@ -110,8 +110,8 @@ For each test case, output a single line containing the answer to the correspond
 <b>Output:</b>
 3
 3
-
 </pre>### Explanation
+
 **Example case 1.** In this case there are tree ways to choose pair of vertices:
 
 - **(1, 2)**: The only edge you path is edge **(1, 2)** with weight **3**. The XOR-sum is simply **3**.
@@ -127,6 +127,6 @@ So the maximal value Polo can get is **3**.
 
 ### NOTE
 
-[XOR operation](http://en.wikipedia.org/wiki/Exclusive_or) is a bitwise "Exclusive OR" operation performed on two integers in binary representation. First, the shorter number is prepended with leading zeroes until the numbers have equal size in binary. Then the resulting number (also in binary) contains  in all positions where the corresponding bits coincide, and **1** on the rest of the positions.
+[XOR operation](http://en.wikipedia.org/wiki/Exclusive_or) is a bitwise "Exclusive OR" operation performed on two integers in binary representation. First, the shorter number is prepended with leading zeroes until the numbers have equal size in binary. Then the resulting number (also in binary) contains 0 in all positions where the corresponding bits coincide, and **1** on the rest of the positions.
 
  For example, **3** XOR **5** = **0112** XOR **1012** = **1102** = **6**.

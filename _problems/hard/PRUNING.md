@@ -57,5 +57,4 @@ The output for each test case consists of a single line containing a single inte
 29
 7
 7
-
 </pre>

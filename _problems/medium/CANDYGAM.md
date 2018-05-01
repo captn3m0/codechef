@@ -108,8 +108,8 @@ For each test case, output a single line containing the number of candies the wi
 1 ≤ <b>N, M</b> ≤ 50
 0 ≤ <b>A[i][j]</b> ≤ 1000000000 
 
-
 </pre>### Example:
+
 **Input:**
 
 <pre>3
@@ -123,12 +123,12 @@ For each test case, output a single line containing the number of candies the wi
 1 4
 1 2 3 4
 
-
 </pre>**Output:**
+
 <pre>39
 4
 9
 
-
-</pre>**Explanation:** _1st case:_ Alice picks the first column (with all 0's). We're left with a 3x2 grid now. Bob picks the first column (9+6+9=24). We're left with a 3x1 grid. Alice picks the last row (6). A 2x1 grid is left. Bob picks the entire column (9+6=15). Thus, Bob has 24+15=39 candies and Alice has 6. So clearly, Bob is the winner.
+</pre>**Explanation:**
+ _1st case:_ Alice picks the first column (with all 0's). We're left with a 3x2 grid now. Bob picks the first column (9+6+9=24). We're left with a 3x1 grid. Alice picks the last row (6). A 2x1 grid is left. Bob picks the entire column (9+6=15). Thus, Bob has 24+15=39 candies and Alice has 6. So clearly, Bob is the winner.
  _2nd case:_ Here, both end up with two candies each. Hence both are the winners. Thus the winner(s) have 2+2=4 candies in all.

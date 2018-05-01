@@ -85,17 +85,16 @@ For each test case, output a single line containing the minimum difference that 
 2 ≤ <b>N</b> ≤ 5000
 1 ≤ <b>S[i]</b> ≤ 1000000000
 
-
 </pre>### Example:
+
 **Input:**```
 
 1
 5
 4 9 1 32 13
 
+<pre>**Output:**```
 
-<pre>**Output:**<pre>
 3
-
 
 </pre>**Explanation:** The minimum difference can be achieved if we pick horses with skills 1 and 4 for the race.

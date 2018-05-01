@@ -36,5 +36,4 @@ You are given positive integers **L, R, k** such that **k <= R - L**. Consider a
 3 2 4
 3 0 0
 4 5 14
-
 </pre>

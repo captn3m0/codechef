@@ -39,8 +39,8 @@ while T is not empty:
 	- Increase val by 1, i.e. val += 1
 
 <b>Note</b> that first step of identification of branching nodes is re-done in each execution of the while loop.
-
 </pre>Please check the example problem statement to understand how this process works. Note that Praveen cannot actually remove the nodes from the tree. He just simulates the procedure in his head's supercomputer.
+
 After Arjun comes back with the ladder, Praveen decides to ask him **Q** queries about the tree. Each query will contain two nodes **u, v**. Let the path in the tree from node **u** to **v**, be **u, u1, u2, .., ur, v**. Consider the array **S\[u\], S\[u1\],..,S\[ur\], S\[v\]**. For each query, Arjun has to find the number of inversion pairs in this array. **i** and **j** form an inversion pair, if **i > j** and **S\[i\] < S\[j\]**. All these hours sitting atop the tree have made Praveen light in the head, and he refuses to come down until Arjun answers all his queries. 
 Unfortunately, Arjun does not have a supercomputer in his head like Praveen does and he has also left his laptop at home. So please help Arjun answer these queries and get Praveen down.
 
@@ -93,8 +93,8 @@ Unfortunately, Arjun does not have a supercomputer in his head like Praveen does
 0
 2
 0
-
 </pre>### Explanation
+
 ![](http://www.codechef.com/download/ACM15CHN/tree_s_array.jpg)The figure is the tree corresponding to the given sample input. The nodes marked red have S value 1 and the black nodes have S Value 2. In the first step, the branching nodes are 2, 4 and 7. Nodes 1, 3, 5, 6, 8, 9, 11 are leaf nodes and can be removed, i.e they have S value 1. Even 10 can be removed and it also has S value 1. The branching nodes cannot be touched. In the next iteration, with val = 2, there are no branching nodes and we can remove nodes 2, 4 and 7 giving them S Value 2.
 
 The first query is (5,10). The path between nodes numbered 5 and 10 passes through nodes {5,4,2,7,10} with S values {1,2,2,2,1}. The number of inversions in this array is 3 formed by 3 pairs of {2,1}.
@@ -141,5 +141,4 @@ The last query is (9,2). The path between nodes numbered 9 and 2 passes through 
 18
 1
 0
-
 </pre>

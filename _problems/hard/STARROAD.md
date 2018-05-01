@@ -134,7 +134,6 @@ Output a single line containing a single integer — the solution of Chef's prob
 </tt>
 <b>Output:</b>
 <tt>75</tt>
-
 </pre><pre>
 <b>Input:</b>
 <tt>3 3 2 3
@@ -144,7 +143,6 @@ Output a single line containing a single integer — the solution of Chef's prob
 </tt>
 <b>Output:</b>
 <tt>3</tt>
-
 </pre><pre>
 <b>Input:</b>
 <tt>5 8 10000 1000000000
@@ -159,8 +157,8 @@ Output a single line containing a single integer — the solution of Chef's prob
 </tt>
 <b>Output:</b>
 <tt>2220611572265625</tt>
-
 </pre>### Explanation:
+
 **Example case 1.** There are five possible routes between stars 1 and 2 traversable in not more than 3 days: {1-2, 1-3-2, 1-2-1-2, 1-2-3-2, 1-3-1-2}. There are also five routes between stars 2 and 3, and also between stars 1 and 3. There are three possible plans for the remaining routes:
 
 - A route remains between 1 and 2, and between 2 and 3. There are 5 x 5 = 25 ways to do this.

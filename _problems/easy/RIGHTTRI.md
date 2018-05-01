@@ -107,5 +107,4 @@ Output the answer for each test-case in a single line. If it is not possible to 
 -1
 285168.817674 546189.769984 616153.000000
 </tt>
-
 </pre>

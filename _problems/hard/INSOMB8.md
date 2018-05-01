@@ -53,13 +53,13 @@ Line 1: Yes/No
 4 30 12 30 100 200 200 500 12
 4 70 0 70 20 200 20 200 0
 4 0 0 0 100 200 100 200 0
-
 </pre>
+
 
 **Sample Output:**/>/>
 
 <pre>
 Yes
-
 </pre>**The figure for the sample input is:**
+
 ![](/fallingsnow.jpg)/>

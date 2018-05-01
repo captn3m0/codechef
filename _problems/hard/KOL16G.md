@@ -46,5 +46,4 @@ For each test case produce one line of output. This line contains a floating-poi
 <b>Output</b>
 72.6679
 4.7114
-
 <pre>

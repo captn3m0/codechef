@@ -27,13 +27,13 @@ For each test case, output exactly N space-separated integers on a line, giving 
 2 4 4
 3 2 3 4
 4 3 15 9 6
-
 </pre>### Sample Output
+
 <pre>1 1
 2 3 4
 1 5 3 2
-
 </pre>### Constraints
+
 T≤100
 2≤N≤50
 All ingredient quantities are between 1 and 1000, inclusive.

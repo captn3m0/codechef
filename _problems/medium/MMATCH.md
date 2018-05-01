@@ -59,5 +59,4 @@ For each test case print the maximal number of happy children.
 3
 3
 2
-
 </pre>

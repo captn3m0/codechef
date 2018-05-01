@@ -118,8 +118,8 @@ Help Chef to find this number.
 <b>Output:</b>
 5
 4
-
 </pre>### Explanation
+
 **Example case 1.**
 All possible variants are correct: {\[1, 1\], \[2, 2\]}, {\[1, 1\], \[2, 3\]}, {\[1, 2\], \[3, 3\]}, {\[2, 2\], \[3, 3\]}, {\[1,1\], \[3, 3\]}.
 

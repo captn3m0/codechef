@@ -112,6 +112,6 @@ B
 
 <b>Output:</b>
 24
-
 </pre>### Explanation
+
 **Example case 1.** Out of all **26** possible messages in this case only two are invalid (i.e. "A" and "B"). Thus, the answer is **26 - 2 = 24**.

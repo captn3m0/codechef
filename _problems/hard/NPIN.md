@@ -111,8 +111,8 @@ For each test case - output on a single line the number of needles required and 
 <b>Output</b>
 14 1
 
-
 </pre>### Note
+
 1\) The symmetry constraint - "If we divide entire wooden board into 16 square shaped (virtual) regions .... " is enforced only if number of lines (**M**) is ≥ 1000.
 
 2\) The polygon is convex.

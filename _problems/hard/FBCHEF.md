@@ -75,7 +75,7 @@ Chef declared war on Byteland. Chefs best scientist Pramod has designed a new Fi
 
 Byteland has a structure of a tree with **N** cities connected by **N-1** bidirectional roads. Each city has index between (**1**, **N**) (inclusive) and no two cities have same index. The capital city of Byteland has index **1**. The distance between two cities is the number of roads in the path from one to other.
 
-If the plane drops a bomb on a city **A**, with damage value **X** then the damage done to a city **B** will be floor(**X/2d**) where **d** is the distance between **A** and **B**, note that as the distance of **A** from itself is , the damage done to **A** will be floor(**X/20**) = **X**.
+If the plane drops a bomb on a city **A**, with damage value **X** then the damage done to a city **B** will be floor(**X/2d**) where **d** is the distance between **A** and **B**, note that as the distance of **A** from itself is 0, the damage done to **A** will be floor(**X/20**) = **X**.
 
 Each city has a certain wealth **Wi** in it, if it is damaged by a value of **X** then its wealth is reduced by **X**. On a day if the wealth of a city becomes less than or equal to zero then it is considered Economically Dead.
 
@@ -128,8 +128,8 @@ For each query of type **2** print the required value asked in the question.
 <b>Sample Output</b>
 1
 3
-
 </pre>### Explanation
+
 Path from Capital to City 1 : 1
 
 Path from Capital to City 2 : 1 <--> 2

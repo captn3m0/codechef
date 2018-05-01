@@ -110,8 +110,8 @@ For each test case, output a single line containing the answer for that test cas
 
 <b>Output:</b>
 2
-
 </pre>### Explanation
+
 There are three possible pairs of indices which satisfy 1 ≤ **i** j ≤ **N**: (1, 2), (1, 3) and (2, 3). Let us see which of those satisfy **Ai** | **Aj** ≤ max(**Ai**, **Aj**):
 
 - (1, 2): **A1** | **A2** = 1 | 2 = (01)2 | (10)2 = (11)2 = 3. But max(**A1**, **A2**) = max(1, 2) = 2, and 3 ≤ 2 is not correct. Hence this is not a valid pair.

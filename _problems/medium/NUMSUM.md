@@ -34,5 +34,4 @@ For each test case, output a number which represents the sum of the first 'n' na
 <b>Explanation</b>
 The sum of the first 3 numbers is 1+2+3 = 6
 The sum of the first 5 numbers is 1+2+3+4+5 = 15
-
 </pre>

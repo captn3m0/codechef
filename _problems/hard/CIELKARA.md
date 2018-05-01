@@ -97,8 +97,8 @@ For each test case, output a single line containing the minimum value of the int
 - **1** ≤ **T** ≤ **250**
 - **2** ≤ **N** ≤ **8**
 - **1** ≤ **K** ≤ **4**
-- ≤ **A1** < **A2** < ... < **AN−1** ≤ **20130120**
-- ≤ **B0**, **B1**, ..., **BN−1** ≤ **20130120**
+- 0 ≤ **A1** < **A2** < ... < **AN−1** ≤ **20130120**
+- 0 ≤ **B0**, **B1**, ..., **BN−1** ≤ **20130120**
 - It can occur that **Bi−1** = **Bi** for some **i = 1, 2, ..., N−1**
 - The sum of **N3** in one test file does not exceed **2013**
 
@@ -121,8 +121,8 @@ For each test case, output a single line containing the minimum value of the int
 2500.0000000000
 1250.0000000000
 625.0000000000
-
 </pre>### Explanation
+
 The following figure corresponds to the example case 1. Here the bold red line denotes the correct pitch **f(t)** and the blue line denotes the optimal Ciel's pitch **g(t)**. The answer is the area of the green region.
 
 ![](http://www.codechef.com/download/CIELKARA.png)

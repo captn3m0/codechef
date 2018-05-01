@@ -109,5 +109,4 @@ output ans
 
 <b>Output:</b>
 4
-
 <pre>

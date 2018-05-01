@@ -104,8 +104,8 @@ Output **Q** lines, one for each query, the total number of different gift packs
 10
 2320
 3
-
 </pre>
+
 **Explanation:**
 In the last query, size of each box **S** = 12.
 

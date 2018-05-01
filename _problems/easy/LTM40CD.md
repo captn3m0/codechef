@@ -113,5 +113,4 @@ Order the sides of triangles in non-decreasing order. Output all triangles in no
 6 25 29
 7 15 20
 9 10 17</tt>
-
 </pre>

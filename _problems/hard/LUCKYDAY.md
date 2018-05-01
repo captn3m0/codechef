@@ -52,6 +52,7 @@ For each interval, print the number of lucky days in the interval.
 5 58
 58 5858
 </pre>### Sample Output
+
 <pre>0
 0
 1
@@ -62,6 +63,7 @@ For each interval, print the number of lucky days in the interval.
 4
 362
 </pre>### Output details
+
 In the first case:
  **S**\[1\] = **A** = 1
  **S**\[2\] = **B** = 1

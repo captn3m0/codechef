@@ -122,8 +122,8 @@ Print one integer, denoting the minimum number of changes required to make the g
 
 <b>Output3:</b>
 2
-
 </pre>### Explanation
+
 **Example #1.** In the first example, initially we have r1 = 10, r2 = 10 and r3 = 5. For columns, we have C1 = 20, C2 = 20 and C3 = 35.
 
 max(r1, r2, r3) = 10 and min(C1, C2, C3) = 20, and so the given grid isn't nice. Chef can change the second number in the first row from 20 to 10, to get the following nice grid:
@@ -132,4 +132,5 @@ max(r1, r2, r3) = 10 and min(C1, C2, C3) = 20, and so the given grid isn't nice.
 20 10 30
 10 5 35
 </pre>The answer is 1 because we must change at least 1 number.
+
 **Example #2.** The provided grid is already nice, so the answer is 0.

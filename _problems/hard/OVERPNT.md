@@ -105,7 +105,8 @@ If you are more familiar with Python, you can assume that he wrote:
 <p>To show Limak how important it is to watch for overflows, you must find any set of <b>N</b> distinct points that:
 
 </p>
-</pre>- Any three distinct points in any order would be treated as collinear by Limak's function.- None three points are collinear (what implies that points are distinct).
+</pre>- Any three distinct points in any order would be treated as collinear by Limak's function.
+- None three points are collinear (what implies that points are distinct).
 - Coordinates are non-negative integers not exceeding 106.
 
 
@@ -149,6 +150,7 @@ Remember that one of requirements is 0 ≤ xi, yi ≤ 106.
 518360 23016
 441824 483616
 </pre>### Explanation
+
 **Test case 1.** The provided function areCollinear() should return True for the found three points given in any order (there are 3! = 6 possible orders of 3 points). Let's analyze the evaluation of areCollinear(42, 483426, 106732, 139820, 210379, 490375):
 
 Without any overflow errors, the calculations would be:

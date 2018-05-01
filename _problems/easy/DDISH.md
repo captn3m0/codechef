@@ -95,6 +95,6 @@ For every test case, output the answer on a separate line.
 8
 90
 
-
 </pre>### Explanation
+
 For the first test Ira can order every dish from 5 to 13 except 11.

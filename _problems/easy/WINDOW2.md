@@ -42,8 +42,8 @@ Now Chef considers some particular **N x M** grid and wants to calculate the tot
 <b>Output:</b>
 2
 5
-
 </pre>### Explanation
+
 In the first case it is just the number of pairs of cells with value 1 that have the same column number. 
 
 In the second case we have the following **(2, 2)**-windows: 

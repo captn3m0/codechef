@@ -119,8 +119,8 @@ YES
 YES
 YES
 NO
-
 </pre>### Explanation
+
 In the example test, the answer is "YES" for pairs (4, 3), (10, 12), (1, 3) and (999999999, 1000000000). Roads 3-4 and 1-3 you can see on the drawing in the statement.
 
 The answer is "NO" for example for a pair (1, 4), because there is no road between cities 1 and 4.

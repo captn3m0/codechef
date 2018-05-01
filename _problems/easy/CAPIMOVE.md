@@ -98,7 +98,7 @@ Next **N-1** lines contain two space-separated integers each **V** and **U** den
 
 ### Output
 
-For each test case, output a single line containing **N** integers **A1**, **A2**, ..., **AN** separated by a space. Here **Ai** denotes the number of the planet picked to be new capital in case infection starts spreading from the planet **i**. In case infection affects all the planets output .
+For each test case, output a single line containing **N** integers **A1**, **A2**, ..., **AN** separated by a space. Here **Ai** denotes the number of the planet picked to be new capital in case infection starts spreading from the planet **i**. In case infection affects all the planets output 0.
 
 ### Constraints
 
@@ -129,5 +129,4 @@ For each test case, output a single line containing **N** integers **A1**, **A2*
 
 <b>Output:</b>
 6 6 6 2 6 5
-
 </pre>

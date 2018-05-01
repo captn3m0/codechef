@@ -120,8 +120,8 @@ Output **Q** lines, the i-th of which should contain a single word: "Yes" if the
 Yes
 No
 Yes
-
 </pre>### Explanation
+
 The given original graph is as follows:
 
 ![](https://codechef_shared.s3.amazonaws.com/download/upload/COOK82/COOK82D/image1.png)The first query corresponds to the graph with edges **E1, E2 and E3**:

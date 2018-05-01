@@ -123,6 +123,6 @@ Output a single line containing the answer to the problem i.e. the minimal possi
 <b>Output:</b>
 <tt>10</tt>
 
-
 </pre>### Explanation
+
 **Example case 1.** jumping from first hill to 4th one then to 5th; the answer will be 0 + 0 + 0 + (4-1)^2 + (5-4)^2 = 10

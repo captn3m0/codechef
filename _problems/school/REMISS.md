@@ -90,7 +90,7 @@ For each test case, output a single line containing two space separated integers
 ### Constraints
 
 - **1** ≤ **T** ≤ **100**
-- ≤ **A, B** ≤ **1000000**
+- 0 ≤ **A, B** ≤ **1000000**
 
 ### Example
 
@@ -100,5 +100,4 @@ For each test case, output a single line containing two space separated integers
 
 <b>Output:</b>
 19 36
-
 </pre>

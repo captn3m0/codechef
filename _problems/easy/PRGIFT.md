@@ -49,7 +49,7 @@ For each test case, print a single line containing "YES" or "NO" (without quotes
 
 - **1** ≤ **T** ≤ **10**
 - **1** ≤ **n** ≤ **50**
-- ≤ **k** ≤ **n**
+- 0 ≤ **k** ≤ **n**
 - **1** ≤ **a i**  ≤ **100**
 
 ### Example
@@ -70,7 +70,6 @@ YES
 YES
 NO
 YES
-
 </pre><pre><br></br>
 for (int i = 0; i < n; i++)<br></br>
     if (i > 0) {<br></br>

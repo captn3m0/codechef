@@ -130,5 +130,4 @@ Output a single integer corresponding to the maximum element in the **pth** suba
 <b>Output:</b>
 <tt>4
 3</tt>
-
 </pre>

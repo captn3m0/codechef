@@ -81,7 +81,7 @@ This winter our chef plans to unveil his latest creation - Cube Cakes. As the na
  The first line contains an integer **T** denoting the number of test cases. Then the descriptions of testcases follows.
 
  The first line of each testcase contains integers **N** (the size of the Cube Cakes **A** and **B** that are to be compared) and  **P**.
-The next line contains a string **SA** containing  **N3**  lowercase characters ('a'-'z'), where the  **A\[i\]\[j\]\[k\]th** element of the Cube Cake **A** is given by **SA\[ i\*N\*N + j\*N + k \]** where  ≤  **i, j, k**  ≤  **N-1** .
+The next line contains a string **SA** containing  **N3**  lowercase characters ('a'-'z'), where the  **A\[i\]\[j\]\[k\]th** element of the Cube Cake **A** is given by **SA\[ i\*N\*N + j\*N + k \]** where 0 ≤  **i, j, k**  ≤  **N-1** .
 The next line contains a string **SB** containing  **N3**  lowercase characters ('a'-'z'), **SB** is the description of the Cube Cake **B** in the way analogical to **A**.
 
 ### Output
@@ -93,7 +93,7 @@ If there is no _common_ sub cube present, just print **-1** in a single line.
 
 - **1**  ≤ **T** ≤  **40**
 - **1**  ≤ **N** ≤  **40**
-- ≤ **P** ≤  **100**
+- 0  ≤ **P** ≤  **100**
 - **| SA |, |SB |**  =  **N3**
 
 ### Example
@@ -114,8 +114,8 @@ b
 2 1
 1 2
 -1
-
 </pre>### Explanation
+
 **Example case 1.**
 
 Since both the Cube Cakes are identical, the whole cube matches and hence the similarity is **2**. Also, there is only one sub-cube of size **2**. />

@@ -43,5 +43,4 @@ Display t lines, each line has three space separated integers denoting the numbe
 
 <b>Explanation:</b>
 Explanation for case 2: Since only 2 men are present, the number of women can not be more than 4.
-
 </pre>

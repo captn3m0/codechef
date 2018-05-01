@@ -114,8 +114,8 @@ For each test case, output a single line containing an integer corresponding to 
 <b>Output:</b>
 <tt>1
 0</tt>
-
 </pre>### Explanation
+
 In **first test case**, there are **3** students. A student must receive at least **2**votes to be part of the student government. Student **1** votes for student **2**, student **2** votes for student **1** and student **3** votes for student **2**. Thus, Student **2** receives **2** votes and is the only one eligible for student government.
 
-In **second test case**, although both students receive the required amount of votes, they are both disqualified as they had voted for themselves. Thus, size of the student government is .
+In **second test case**, although both students receive the required amount of votes, they are both disqualified as they had voted for themselves. Thus, size of the student government is 0.

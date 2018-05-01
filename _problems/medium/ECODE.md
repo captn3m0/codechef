@@ -37,10 +37,10 @@ Output in a single line the exit code found.
 
 **Input:**
 <pre>3 11 111 92
-
-</pre>**Output:**</pre>084
-
+</pre>**Output:**```
+084
 <pre>### Limitations
+
 \* 1<=n<=12
 
 \* 10<=A,B<=1015

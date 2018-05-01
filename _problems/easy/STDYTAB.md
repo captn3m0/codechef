@@ -104,6 +104,6 @@ For each test case, print a single integer corresponding to the answer.
 2
 25
 273
-
 </pre>### Explanation
+
 Test case 1 : There are only 2 such grids possible 0 and 1.

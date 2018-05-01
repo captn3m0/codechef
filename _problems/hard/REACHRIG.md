@@ -54,5 +54,4 @@ For each test case, your program should print the minimum amount of food require
 111
 807
 -1
-
 </pre>

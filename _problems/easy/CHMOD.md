@@ -105,5 +105,4 @@ For each game, output a single line containing the answer for the respective seg
 0
 120
 
-
 </pre>

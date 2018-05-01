@@ -122,5 +122,4 @@ After each query, print the area of the convex hull of points which are in multi
 8.0
 16.0
 8.0</tt>
-
 </pre>

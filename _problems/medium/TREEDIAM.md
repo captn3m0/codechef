@@ -133,8 +133,8 @@ On the **i**th line, output the product of the diameters of all the trees after 
 <tt>6
 9
 6</tt>
-
 </pre>### Explanation
+
 The diameter of the initial tree is **6** (node **2** to node **1** to node **3**).
 
 After the first day (the deletion of the **2**nd edge, i.e. **1 3**), we get two trees, both with diameters 3.

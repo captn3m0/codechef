@@ -126,8 +126,8 @@ Output 4 integers, denoting the number of cells with no color, cells with red co
 1 ≤ idx_row, idx_column ≤ N
 2 ≤ idx_diagonal ≤ 2 * N
 0 ≤ color ≤ 1
-
 </pre>### Sample Input
+
 <pre>
 5 10
 2 4 1
@@ -140,12 +140,12 @@ Output 4 integers, denoting the number of cells with no color, cells with red co
 1 5 0
 2 4 1
 2 2 0
-
 </pre>### Sample Output
+
 <pre>
 4 6 7 8
-
 </pre>### Explanation
+
 You can refer to the below image which shows the colored grid after each step.
 
 ![Mixing Colors-1](https://cook86.discuss.codechef.com/upfiles/img-2_Jh81yrs.png)

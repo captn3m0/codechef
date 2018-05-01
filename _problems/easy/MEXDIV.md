@@ -93,13 +93,12 @@ Given an array **A** of **n** non-negative integers. Find the number of ways to 
 <b>Output:</b>
 2
 
-
 </pre><pre><b>Input:</b>
 10 3
 0 1 2 3 4 0 1 2 5 3
 
 <b>Output:</b>
 379
-
 </pre>### Explanation
+
 **Example 1**. The valid ways of partitioning will be \[\[0\], \[1, 2\]\] (mex of first subarray is 1, while that of the second is zero), and \[\[0\], \[1\], \[2\]\] (mex of first subarray is 1, and that of others is 0). There is no other way to partition the array such that mex is less than or equal to 1. For example, \[\[0, 1\], \[2\]\] is not a valid partitioning as mex of first subarray is 2 which is more than 1.

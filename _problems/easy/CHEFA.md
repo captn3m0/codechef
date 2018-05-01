@@ -109,5 +109,4 @@ For each test case, output a single line containg the maximum number of stones t
 <b>Output:</b>
 4
 3
-
 </pre>

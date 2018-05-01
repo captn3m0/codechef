@@ -43,5 +43,4 @@ Print the answer to each test case on a separate line.
 28
 233
 178
-
 </pre>
