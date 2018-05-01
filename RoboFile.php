@@ -7,6 +7,8 @@ use League\HTMLToMarkdown\HtmlConverter;
 
 class RoboFile extends \Robo\Tasks
 {
+    const ALL = 'all';
+
     const CATEGORIES = [
         'school',
         'easy',
@@ -70,20 +72,22 @@ class RoboFile extends \Robo\Tasks
             $problems[] = basename($link->href);
         }
 
+        sort($problems, SORT_STRING);
+
         $this->taskWriteToFile("_data/$category.json")
-            ->text(json_encode($problems))
+            ->text(json_encode($problems, JSON_PRETTY_PRINT))
             ->run();
     }
 
     private function setCategories($category) {
-        if ($category === 'all') {
+        if ($category === self::ALL) {
             return self::CATEGORIES;
         }
 
         return [$category];
     }
 
-    public function updateProblemlist($category = 'all')
+    public function updateProblemlist($category = self::ALL)
     {
         $this->_cleanDir('_data');
 
@@ -130,7 +134,7 @@ class RoboFile extends \Robo\Tasks
         return false;
     }
 
-    public function generateCollection($category = 'all') {
+    public function generateCollection($category = self::ALL) {
         $categories = $this->setCategories($category);
 
         foreach ($categories as $category) {
@@ -212,7 +216,7 @@ class RoboFile extends \Robo\Tasks
         return $result;
     }
 
-    public function stats($category = 'all') {
+    public function stats($category = self::ALL) {
         $categories = $this->setCategories($category);
 
         foreach ($categories as $category) {
@@ -235,7 +239,7 @@ class RoboFile extends \Robo\Tasks
         }
     }
 
-    public function downloadClean($category = 'all') {
+    public function downloadClean($category = self::ALL) {
         $categories = $this->setCategories($category);
 
         foreach ($categories as $category) {
@@ -244,7 +248,7 @@ class RoboFile extends \Robo\Tasks
 
     }
 
-    public function downloadProblems($category = 'all') {
+    public function downloadProblems($category = self::ALL) {
         $categories = $this->setCategories($category);
 
         foreach ($categories as $category) {
