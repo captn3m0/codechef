@@ -9,6 +9,8 @@ class RoboFile extends \Robo\Tasks
 {
     const ALL = 'all';
 
+    const API_ROOT = 'https://www.codechef.com';
+
     const CATEGORIES = [
         'school',
         'easy',
@@ -17,13 +19,6 @@ class RoboFile extends \Robo\Tasks
         'challenge',
         // This breaks at the moment because of memory limits
         //'extcontest'
-    ];
-
-    const PRACTICE_CATEGORIES = [
-        'SCHOOL',
-        'HARD',
-        'MEDIUM',
-        'EASY'
     ];
 
     const FIELDS_TO_DROP = [
@@ -54,8 +49,7 @@ class RoboFile extends \Robo\Tasks
     }
 
     private function parseCategory($category) {
-
-        $url = 'https://www.codechef.com/problems/' . $category . '/';
+        $url = self::API_ROOT . "/problems/$category/";
 
         $this->say("Fetching $url");
         $dom = $this->parseUrl($url);
@@ -260,10 +254,6 @@ class RoboFile extends \Robo\Tasks
 
             $cat = strtoupper($category);
 
-            if (in_array($cat, self::PRACTICE_CATEGORIES)) {
-                $cat = 'PRACTICE';
-            }
-
             // Find problems that are not yet downloaded cleanly
             $problems = array_filter($problems, function($problem) use ($category){
                 return (! $this->_verifyProblem($category, $problem));
@@ -278,7 +268,9 @@ class RoboFile extends \Robo\Tasks
                 $task = $this->taskParallelExec();
 
                 foreach ($chunk as $problemname) {
-                    $url = "https://www.codechef.com/api/contests/$cat/problems/$problemname";
+                    // We look for all problems under PRACTICE in hopes
+                    // that the contest is over
+                    $url = self::API_ROOT . "/api/contests/PRACTICE/problems/$problemname";
                     $time = (time() * 1000) - 200;
                     $filepath = "_problems/$category/$problemname.json";
                     if (! file_exists($filepath)) {
@@ -289,6 +281,9 @@ class RoboFile extends \Robo\Tasks
 
                 $task->run();
             }
+
+            // Run a cleanup as well to remove error|empty files
+            $this->downloadClean($category);
         }
     }
 }
