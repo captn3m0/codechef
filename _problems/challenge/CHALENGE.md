@@ -1,0 +1,121 @@
+---
+category_name: challenge
+problem_code: CHALENGE
+problem_name: 'Password Cracking Challenge'
+languages_supported:
+    - C
+    - CPP14
+    - JAVA
+    - PYTH
+    - 'PYTH 3.5'
+    - CS2
+    - 'PAS fpc'
+    - 'PAS gpc'
+    - RUBY
+    - PHP
+    - GO
+    - NODEJS
+    - HASK
+    - SCALA
+    - D
+    - PERL
+    - FORT
+    - WSPC
+    - ADA
+    - CAML
+    - ICK
+    - BF
+    - ASM
+    - CLPS
+    - PRLG
+    - ICON
+    - 'SCM qobi'
+    - PIKE
+    - ST
+    - NICE
+    - LUA
+    - BASH
+    - NEM
+    - 'LISP sbcl'
+    - 'LISP clisp'
+    - 'SCM guile'
+    - JS
+    - ERL
+    - TCL
+    - PERL6
+    - TEXT
+    - CLOJ
+    - FS
+max_timelimit: '1'
+source_sizelimit: '50000'
+problem_author: pieguy
+problem_tester: pragrame
+date_added: 11-02-2013
+tags:
+    - ad
+    - bruteforce
+    - challenge
+    - interactive
+    - may13
+    - pieguy
+editorial_url: 'http://discuss.codechef.com/problems/CHALENGE'
+time:
+    view_start_date: 1368441284
+    submit_start_date: 1368441284
+    visible_start_date: 1368441000
+    end_date: 1735669800
+    current: 1525199657
+is_direct_submittable: false
+layout: problem
+---
+All submissions for this problem are available.Chef has recently discovered a weakness in the password verification system on a network of servers, and has enlisted your help in determining the practicality of an attack. Chef discovered that if he simultaneously sends password guesses to all servers, he can measure the response time to determine how accurately the guesses were. Some of the servers in the network are "honeypot" servers that accept password guesses but cannot be accessed. Chef does not know which servers are honeypots, but he knows how many there are.
+
+Each server has a password consisting of between 8 and 12 lowercase alphabetic characters. There is also a "salt" string which is 8 characters long. When a password guess comes to a server, the password guess is appended with the salt string, and then hashed with the SHA1 hashing algorithm. (Most of the details of the [SHA1](http://en.wikipedia.org/wiki/SHA-1) hashing algorithm are not relevant to this problem, other than the fact that it has an output size of 160 bits, each of which equally likely to be 0 or 1.) The result is compared to the SHA1 hash of the actual password appended with the salt string. Chef is able to calculate the sum of the squares of the number of matching bits on each non-honeypot server (after all, the honeypot servers don't give any feedback). This sum is denoted the "score" of a guess.
+
+There is a limit on the number of password guesses Chef can make. Chef would like you to make password guesses, and try to attain a high guess score.
+
+### Input + Output
+
+Input will begin with a line containing three integers: **T**, the number of password guesses to perform, **N**, the total number of servers, and **H**, the number of honeypot servers. After reading **T**, **N**, and **H**, repeat the following procedure **T** times.
+
+Print a password guess, consisting of **N** lowercase alphabetic strings of length between 8 and 12. Make sure to print a newline and flush the output buffer after printing the last string. Then read a line containing a single integer **S**, the score of the guess.
+
+_Attention: the program should clear the output buffer after printing each guess. It can be done using fflush(stdout) command or by setting the proper type of buffering at the beginning of the execution - setlinebuf(stdout). Failure to flush the output buffer will result in Time Limit Exceeded verdict._
+
+### Scoring
+
+Your score will be the highest score across all password guesses, divided by **N-H**.
+The goal is to maximise this score.
+
+### Sample Input + Output
+
+<pre>
+In:  4 3 1
+Out: applepie
+Out: berrypie
+Out: cherrypie
+In:  12186
+Out: bananapie
+Out: custardpie
+Out: lemonpie
+In:  13466
+Out: keylimepie
+Out: pecanpie
+Out: blueberrypie
+In:  7785
+Out: chocolatepie
+Out: custardpie
+Out: peachpie
+In:  10517
+
+
+</pre>### Explanation
+The salt is "codechef". The first server's password is "challenge". The second server is the honeypot, and the third server's password is "maythirteen". On the first guess, the hash of "applepiecodechef" is compared to the hash of "challengecodechef" and the hash of "cherrypiecodechef" is compared to the hash of "maythirteencodechef". The hash of "applepiecodechef" is "EC70A4442061F08180BDD0E1A4BD8284C5C72978", and the hash of "challengecodechef" is "4DE646F7F99F2735957070C9D49F1DA6960A8DD1". The hashes share 81 bits. On the third server, the hashes share 75 bits. Thus the first guess scores **81\*81+75\*75 = 12186**.
+
+The best score across all 4 guesses is 13466, therefore this sample would score **13466/(3-1) = 6733**.
+
+### Test Case Generation
+
+**T** is chosen randomly and uniformly between 250 and 2000. **N** is chosen randomly and uniformly between 50 and 200. **H** is chosen randomly and uniformly between **max(N-50,N/2)** and **N-10**, inclusive. The salt and each of the **N-H** password strings are generated by first randomly choosing a length **L** between 8 and 12, and then choosing **L** random lowercase alphabetic characters. Each of the **N-H** password strings is assigned to a random server, ensuring no server is assigned multiple passwords. The remaining H servers become honeypot servers.
+
+_Note: The test data is not guaranteed to be the same across multiple submissions, however **T**, **N**, and **H** will be the same across all submissions._

@@ -1,8 +1,133 @@
 ---
+category_name: school
+problem_code: BIGSALE
+problem_name: 'A Big Sale'
 languages_supported:
-    - ''
+    - C
+    - CPP14
+    - JAVA
+    - PYTH
+    - 'PYTH 3.5'
+    - PYPY
+    - CS2
+    - 'PAS fpc'
+    - 'PAS gpc'
+    - RUBY
+    - PHP
+    - GO
+    - NODEJS
+    - HASK
+    - rust
+    - SCALA
+    - swift
+    - D
+    - PERL
+    - FORT
+    - WSPC
+    - ADA
+    - CAML
+    - ICK
+    - BF
+    - ASM
+    - CLPS
+    - PRLG
+    - ICON
+    - 'SCM qobi'
+    - PIKE
+    - ST
+    - NICE
+    - LUA
+    - BASH
+    - NEM
+    - 'LISP sbcl'
+    - 'LISP clisp'
+    - 'SCM guile'
+    - JS
+    - ERL
+    - TCL
+    - kotlin
+    - PERL6
+    - TEXT
+    - 'SCM chicken'
+    - CLOJ
+    - COB
+    - FS
+max_timelimit: '2'
+source_sizelimit: '50000'
+problem_author: admin2
+problem_tester: null
+date_added: 2-02-2018
 tags:
-    - NA
+    - admin2
+    - easy
+    - march18
+    - maths
+editorial_url: 'https://discuss.codechef.com/problems/BIGSALE'
+time:
+    view_start_date: 1520847000
+    submit_start_date: 1520847000
+    visible_start_date: 1520847000
+    end_date: 1735669800
+    current: 1525454444
+is_direct_submittable: false
 layout: problem
 ---
+All submissions for this problem are available.### Read problems statements in [Mandarin chinese](http://www.codechef.com/download/translated/MARCH18/mandarin/BIGSALE.pdf), [Russian](http://www.codechef.com/download/translated/MARCH18/russian/BIGSALE.pdf) and [Vietnamese](http://www.codechef.com/download/translated/MARCH18/vietnamese/BIGSALE.pdf) as well.
 
+Chef recently opened a big e-commerce website where her recipes can be bought online. It's Chef's birthday month and so she has decided to organize a big sale in which grand discounts will be provided.
+
+In this sale, suppose a recipe should have a discount of **x** percent and its original price (before the sale) is **p**. Statistics says that when people see a discount offered over a product, they are more likely to buy it. Therefore, Chef decides to first increase the price of this recipe by **x**% (from **p**) and then offer a discount of **x**% to people.
+
+Chef has a total of **N** types of recipes. For each **i** (1 ≤ **i** ≤ **N**), the number of recipes of this type available for sale is **quantityi**, the unit price (of one recipe of this type, before the **x**% increase) is **pricei** and the discount offered on each recipe of this type (the value of **x**) is **discounti**.
+
+Please help Chef find the total loss incurred due to this sale, if all the recipes are sold out.
+
+### Input
+
+- The first line of the input contains a single integer **T** denoting the number of test cases. The description of **T** test cases follows.
+- The first line of each test case contains a single integer **N** denoting the number of recipe types.
+- **N** lines follow. The **i**-th of these lines contains three space-separated integers **pricei**, **quantityi** and **discounti** describing the **i**-th recipe type.
+
+### Output
+
+For each test case, print a single line containing one real number — the total amount of money lost. Your answer will be considered correct if it has an absolute error less than 10-2.
+
+### Constraints
+
+- 1 ≤ **T** ≤ 10
+- 1 ≤ **N** ≤ 105
+- 1 ≤ **pricei**, **quantityi** ≤ 100 for each valid **i**
+- 0 ≤ **discounti** ≤ 100 for each valid **i**
+
+### Subtasks
+
+**Subtask #1 (30 points):** 1 ≤ **N** ≤ 100
+
+**Subtask #2 (70 points):** original constraints
+
+### Example
+
+<pre><b>Input:</b>
+
+2
+2
+100 5 10
+100 1 50
+3
+10 10 0
+79 79 79
+100 1 100
+
+<b>Output:</b>
+
+30.000000000
+3995.0081000
+</pre>### Explanation
+
+**Example case 1:** There are two recipes.
+
+There are 5 recipes of the first type, each of them has a price of 100 and there is a 10% discount provided on it. Therefore, Chef first increases the price of each recipe by 10%, from 100 to 110. After that, she decreases the price by 10%, which makes the final price 99. The amount of money lost for each unit is 1, thus losing 5 for recipes of the first type.
+
+There is only one recipe of the second type, with price 100 and a 50% discount. Therefore, Chef increases the price of the recipe by 50% from 100 to 150 and after that, she decreases its price by 50% to make its final price 75. She loses 25 for this recipe.
+
+Overall, the amount of money Chef loses is 30.
