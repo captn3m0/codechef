@@ -1,3 +1,5 @@
 vendor/
 .jekyll-metadata
 _site/
+*.zip
+book.md

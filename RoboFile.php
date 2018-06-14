@@ -142,6 +142,28 @@ class RoboFile extends \Robo\Tasks
         return false;
     }
 
+    public function generateBook() {
+        $bookContent = "# CodeChef Problem\n";
+        $categories = $this->setCategories(self::ALL);
+
+        foreach ($categories as $category) {
+            $bookContent .= "## Category: $category\n";
+
+            $problems = json_decode(file_get_contents("_data/$category.json"));
+            foreach ($problems as $problem) {
+                $file = "_problems/$category/$problem.md";
+                if (file_exists($file)) {
+                    $document = FrontMatter::parse(file_get_contents($file));
+                    $content = $document->getContent();
+
+                    $bookContent .= $content . "\n\\newpage";
+                }
+            }
+        }
+
+        file_put_contents("book.md", $bookContent);
+    }
+
     public function generateCollection($category = self::ALL) {
         $categories = $this->setCategories($category);
 
