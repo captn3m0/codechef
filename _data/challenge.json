@@ -72,6 +72,7 @@
     "MAXRECT",
     "MINESWPR",
     "MX",
+    "NONCONVX",
     "NSUDOKU",
     "NX",
     "POINTCN",
@@ -113,5 +114,6 @@
     "TOLLS",
     "TOMJERRY",
     "TOURBUS",
+    "WAREHOUS",
     "WORDNINJ"
 ]

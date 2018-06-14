@@ -43,8 +43,22 @@ class RoboFile extends \Robo\Tasks
     }
 
     private function parseUrl($url) {
-        $contents = file_get_contents($url);
 
+        $headers = "Accept-language: en\r\n" .
+            "Cookie: foo=bar\r\n" .
+            "User-Agent: Mozilla/Safari/Chrome";
+
+        $opts = [
+            "http" => [
+                "method" => "GET",
+                "header" => $headers
+            ]
+        ];
+
+        $context = stream_context_create($opts);
+
+        // Open the file using the HTTP headers set above
+        $contents = file_get_contents($url, false, $context);
         return HtmlDomParser::str_get_html($contents);
     }
 
@@ -225,10 +239,14 @@ class RoboFile extends \Robo\Tasks
     }
 
     public function statsRemaining($category) {
-        $problems = json_decode(file_get_contents("_data/$category.json"));
-        foreach ($problems as $problem) {
-            if (!$this->_verifyProblem($category, $problem)) {
-                echo $problem . PHP_EOL;
+        $categories = $this->setCategories($category);
+
+        foreach ($categories as $category)  {
+            $problems = json_decode(file_get_contents("_data/$category.json"));
+            foreach ($problems as $problem) {
+                if (!$this->_verifyProblem($category, $problem)) {
+                    echo $category . "-" . $problem . PHP_EOL;
+                }
             }
         }
     }
