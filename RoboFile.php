@@ -5,6 +5,8 @@ use KzykHys\FrontMatter\Document;
 use KzykHys\FrontMatter\FrontMatter;
 use League\HTMLToMarkdown\HtmlConverter;
 
+require ('Pandoc.php');
+
 class RoboFile extends \Robo\Tasks
 {
     const ALL = 'all';
@@ -142,26 +144,53 @@ class RoboFile extends \Robo\Tasks
         return false;
     }
 
-    public function generateBook() {
-        $bookContent = "# CodeChef Problem\n";
+    private function _generateSingleHtmlFile() {
+        $bookContent = "<html><head><title>CodeChef Problem</title><base href='https://www.codechef.com'></head>\n";
         $categories = $this->setCategories(self::ALL);
 
         foreach ($categories as $category) {
-            $bookContent .= "## Category: $category\n";
+            $bookContent .= "<h1>Category: $category</h1>";
 
             $problems = json_decode(file_get_contents("_data/$category.json"));
             foreach ($problems as $problem) {
-                $file = "_problems/$category/$problem.md";
+                $file = "_problems/$category/$problem.json";
                 if (file_exists($file)) {
-                    $document = FrontMatter::parse(file_get_contents($file));
-                    $content = $document->getContent();
+                    $document = json_decode(file_get_contents($file), true);
+                    $content = $document['body'];
 
-                    $bookContent .= $content . "\n\\newpage";
+                    $bookContent .= "<h2>" . $document['problem_code'] . "</h2>";
+                    $content = strip_tags($content, '<p><a><b><i><br><h2><h3><h1><h4><pre>');
+
+                    $bookContent .= $content;
                 }
             }
         }
 
-        file_put_contents("book.md", $bookContent);
+        return $bookContent;
+    }
+
+    private function _runPandocEPUB($html) {
+        $pandoc = new Pandoc();
+        $options = [
+            "from"  => "html",
+            "to"    => "epub",
+            // "css"   => "/assets/css/documents.css",
+            "toc"   => null,
+            "toc-depth" => 2,
+            "epub-metadata" => "metadata.xml",
+            "epub-cover-image" => "cover.png",
+            "variable" => 'title:"CodeChef - The Problems"'
+        ];
+
+        return $pandoc->runWith($html, $options);
+    }
+
+    public function generateBook() {
+        $html = $this->_generateSingleHtmlFile();
+        $this->say("HTML generated");
+
+        $epub = $this->_runPandocEPUB($html);
+        file_put_contents('codechef.epub', $epub);
     }
 
     public function generateCollection($category = self::ALL) {

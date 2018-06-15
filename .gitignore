@@ -3,3 +3,5 @@ vendor/
 _site/
 *.zip
 book.md
+*.epub
+*.html
