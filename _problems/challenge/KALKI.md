@@ -69,6 +69,7 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
+
 All submissions for this problem are available.### Read problems statements in [Mandarin Chinese](/download/translated/DEC14/mandarin/KALKI.pdf) and [Russian](/download/translated/DEC14/russian/KALKI.pdf).
 
 The apocalyptic demon **[Kali](http://en.wikipedia.org/wiki/Kali_%28demon%29)** is on a rampage. The ground shudders under his feet, trees shrivel and animals and birds scurry away from his path. In order to save the universe from devastation, all the devtas led by devraj **[Indra](http://en.wikipedia.org/wiki/Indra)** decide to meditate to please Lord **[Vishnu](http://en.wikipedia.org/wiki/Vishnu)** so that he appears in the form of **[Kalki](http://en.wikipedia.org/wiki/Kalki)**, his last avatar, and kill the demon.
@@ -77,9 +78,9 @@ Each devta can sit in meditation at a particular place on **[Swarglok](http://en
 
 While meditating the devtas connect to each other by means of astral projections - metaphysical threads that connect one devta to another. They must do so in such a way to satisfy two criteria:
 
-- Each devta must be able to connect to every other devta by following a path of astral projections.
-- No subgroup of devtas may be connected by a cycle of astral projections.
- 
+-   Each devta must be able to connect to every other devta by following a path of astral projections.
+-   No subgroup of devtas may be connected by a cycle of astral projections.
+
 In simple terms, the astral projections must form a tree connecting all devtas.
 
 **What needs to be optimized ?**
@@ -104,18 +105,18 @@ For each test case output exactly **N-1** lines. Each line should consist of two
 
 ### Constraints
 
-- **1 ≤ T ≤ 100**
-- **3 ≤ N ≤ 400**
-- **-2000 ≤ x i ≤ 2000**
-- **-2000 ≤ y i ≤ 2000**
- 
+-   **1 ≤ T ≤ 100**
+-   **3 ≤ N ≤ 400**
+-   **-2000 ≤ x i ≤ 2000**
+-   **-2000 ≤ y i ≤ 2000**
+
 ### Scoring and test data generation
 
 The score is **C**, where **C = max(Ci)** for **1 <= i <= N**. The sequence of positions for devtas is generated randomly and the positions are distributed uniformly.
 
 ### Example
 
- ```
+```
 <b>Input:</b>
 1
 5
@@ -130,7 +131,10 @@ The score is **C**, where **C = max(Ci)** for **1 <= i <= N**. The sequence of p
 2 3
 3 4
 4 5
-<pre>### Explanation
+<pre>
+```
+
+### Explanation
 
 The second devta is connected to two other devtas: the first devta (a distance of 2 away), and the third devta (a distance of sqrt(2) away). The larger of these distances is 2, so the radius of the second devta's ring of influence is 2. We can calculate the other rings similarly.
 

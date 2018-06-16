@@ -5,6 +5,8 @@ use KzykHys\FrontMatter\Document;
 use KzykHys\FrontMatter\FrontMatter;
 use League\HTMLToMarkdown\HtmlConverter;
 
+require ('Pandoc.php');
+
 class RoboFile extends \Robo\Tasks
 {
     const ALL = 'all';
@@ -140,6 +142,72 @@ class RoboFile extends \Robo\Tasks
         }
 
         return false;
+    }
+
+    private function _generateSingleHtmlFile() {
+        $bookContent = "<html><head><title>CodeChef Problem</title><base href='https://www.codechef.com'></head>\n";
+        $categories = $this->setCategories(self::ALL);
+
+        foreach ($categories as $category) {
+            $bookContent .= "<h1>Category: $category</h1>";
+
+            $problems = json_decode(file_get_contents("_data/$category.json"));
+            foreach ($problems as $problem) {
+                $file = "_problems/$category/$problem.json";
+                if (file_exists($file)) {
+                    $document = json_decode(file_get_contents($file), true);
+                    $content = "<article>" . $document['body'] . "</article>";
+
+                    $bookContent .= "<h2>" . $document['problem_code'] . "</h2>";
+                    $content = strip_tags($content, '<p><a><b><i><br><h2><h3><h1><h4><pre><article>');
+
+                    $bookContent .= $content;
+                }
+            }
+        }
+
+        return $bookContent;
+    }
+
+    private function _runPandocEPUB($html) {
+        $pandoc = new Pandoc();
+        $options = [
+            "from"  => "html",
+            "to"    => "epub",
+            "toc"   => null,
+            "toc-depth" => 2,
+            "epub-metadata" => "metadata.xml",
+            "epub-cover-image" => "cover.png",
+            "variable" => 'title:"CodeChef - The Problems"'
+        ];
+
+        return $pandoc->runWith($html, $options);
+    }
+
+    private function _runPandocPDF($html) {
+        $pandoc = new Pandoc();
+        $options = [
+            "from"  => "html",
+            "to"    => "pdf",
+            "toc"   => null,
+            "toc-depth" => 2,
+            "pdf-engine" => "xelatex",
+            "template" => "template.tex",
+            "variable" => 'title:"CodeChef - The Problems"',
+        ];
+
+        return $pandoc->runWith($html, $options);
+    }
+
+    public function generateBook() {
+        $html = $this->_generateSingleHtmlFile();
+        $this->say("HTML generated");
+
+        file_put_contents('codechef.epub', $this->_runPandocEPUB($html));
+        $this->say("EPUB generated");
+
+        file_put_contents('codechef.pdf', $this->_runPandocPDF($html));
+        $this->say("PDF generated");
     }
 
     public function generateCollection($category = self::ALL) {
