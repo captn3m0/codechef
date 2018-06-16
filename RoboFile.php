@@ -156,10 +156,10 @@ class RoboFile extends \Robo\Tasks
                 $file = "_problems/$category/$problem.json";
                 if (file_exists($file)) {
                     $document = json_decode(file_get_contents($file), true);
-                    $content = $document['body'];
+                    $content = "<article>" . $document['body'] . "</article>";
 
                     $bookContent .= "<h2>" . $document['problem_code'] . "</h2>";
-                    $content = strip_tags($content, '<p><a><b><i><br><h2><h3><h1><h4><pre>');
+                    $content = strip_tags($content, '<p><a><b><i><br><h2><h3><h1><h4><pre><article>');
 
                     $bookContent .= $content;
                 }
@@ -174,7 +174,6 @@ class RoboFile extends \Robo\Tasks
         $options = [
             "from"  => "html",
             "to"    => "epub",
-            // "css"   => "/assets/css/documents.css",
             "toc"   => null,
             "toc-depth" => 2,
             "epub-metadata" => "metadata.xml",
@@ -185,12 +184,30 @@ class RoboFile extends \Robo\Tasks
         return $pandoc->runWith($html, $options);
     }
 
+    private function _runPandocPDF($html) {
+        $pandoc = new Pandoc();
+        $options = [
+            "from"  => "html",
+            "to"    => "pdf",
+            "toc"   => null,
+            "toc-depth" => 2,
+            "pdf-engine" => "xelatex",
+            "template" => "template.tex",
+            "variable" => 'title:"CodeChef - The Problems"',
+        ];
+
+        return $pandoc->runWith($html, $options);
+    }
+
     public function generateBook() {
         $html = $this->_generateSingleHtmlFile();
         $this->say("HTML generated");
 
-        $epub = $this->_runPandocEPUB($html);
-        file_put_contents('codechef.epub', $epub);
+        file_put_contents('codechef.epub', $this->_runPandocEPUB($html));
+        $this->say("EPUB generated");
+
+        file_put_contents('codechef.pdf', $this->_runPandocPDF($html));
+        $this->say("PDF generated");
     }
 
     public function generateCollection($category = self::ALL) {

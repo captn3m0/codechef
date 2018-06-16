@@ -11,6 +11,8 @@ $else$
   \usepackage{lmodern}
 $endif$
 
+\usepackage[utf8x]{inputenc}
+
 $if(linestretch)$
   \usepackage{setspace}
   \setstretch{$linestretch$}
@@ -22,7 +24,6 @@ $endif$
 
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[$if(fontenc)$$fontenc$$else$T1$endif$]{fontenc}
-  \usepackage[utf8]{inputenc}
   $if(euro)$
     \usepackage{eurosym}
   $endif$
