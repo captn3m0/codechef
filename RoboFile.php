@@ -1,6 +1,6 @@
 <?php
 
-use Sunra\PhpSimple\HtmlDomParser;
+use KubAT\PhpSimple\HtmlDomParser;
 use KzykHys\FrontMatter\Document;
 use KzykHys\FrontMatter\FrontMatter;
 use League\HTMLToMarkdown\HtmlConverter;
@@ -103,7 +103,12 @@ class RoboFile extends \Robo\Tasks
 
         foreach ($categories as $category) {
             $this->say("Downloading Category: $category");
-            $this->parseCategory($category);
+            try {
+                $this->parseCategory($category);
+            }
+            catch(\Throwable $e) {
+                $this->say($e->getMessage());
+            }
         }
     }
 
