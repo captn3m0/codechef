@@ -69,7 +69,7 @@ time:
     current: 1493557549
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/DEC14/mandarin/CHEFPRES.pdf) and [Russian](http://www.codechef.com/download/translated/DEC14/russian/CHEFPRES.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/DEC14/mandarin/CHEFPRES.pdf) and [Russian](http://www.codechef.com/download/translated/DEC14/russian/CHEFPRES.pdf).
 
 Chef is about to leave his home and live in a place called The Kingdom. There are **N** cities in this kingdom, and they are connected by bidirectional roads such that there is exactly one simple path between every 2 cities. The Kingdom is very unusual in that each road that connects two cities is exactly the same length.
 
@@ -157,7 +157,8 @@ For each of the **Q** queries, output on separate lines the number of the city f
 1
 4
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first query, Chef must purchase product 1 from either city 5 or city 6. In both cases Chef will pass directly through the capital while travelling from city 2, so he chooses the smallest city number, 5.
 

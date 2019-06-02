@@ -18,19 +18,22 @@ Input :
 The first line contains the number of test cases T. T lines follow containing 3 integers: N,M and R. 
 (1 <= T <= 100. 1 <= N,M <= 200. 1 <= R <= N * M)
 
-</pre><pre>
+</pre>
+<pre>
 Output :
 Output T lines, one for each test case, containing the output for the corresponding test case.
 Output all values modulo 1000000007
 
-</pre><pre>
+</pre>
+<pre>
 Sample Input :
 3
 1 1 1
 2 1 1
 2 3 3
 
-</pre><pre>
+</pre>
+<pre>
 Sample Output :
 1
 0

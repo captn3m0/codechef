@@ -168,7 +168,8 @@ BWWB
 1 1 3 2 3
 1 2 3 3 3
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 The scores of the sample output is **40 / (3 \* 4)** + **40 \* 4 / (3 \* 4)** + **6 / (3 \* 4)**.
 

@@ -28,7 +28,7 @@ All submissions for this problem are available.King Animesh has decided to go on
 
 Such graphs are rare, but Praveen had found one in the Forest of Perfection and he had kept it carefully in a box. The **N** nodes in the left column are labelled **{1,2, … ,N}**, and the **N** nodes in the right column are labelled **{N+1, N+2, … , 2\*N}**. The cost associated with an edge between node **u** in left column and node **v** in right column, is denoted by **Cuv**.
 
-Unfortunately, when it is Praveen's turn to present the graph to the King, he realizes that his rival Arjun has made a hole in the box and as a result, some of the edges have fallen off. He tries to remain calm and presents the graph to the King claiming that he can assign costs to the missing edges in such a way that the graph becomes a Graph of Perfection again. Praveen knows that the remaining edges have a magical property - **there is a unique way to assign costs to the missing edges such that the graph becomes a Graph of Perfection**. But he doesn't tell that to the King, and so the King gets highly impressed by his claim and tells him to report the sum of the squares of all the **N2** edge costs modulo **109+7**. Alas! Praveen is not _that_ smart, but we hope you are! You are given the costs of the edges which are still in the box; please help Praveen find the required sum.
+Unfortunately, when it is Praveen's turn to present the graph to the King, he realizes that his rival Arjun has made a hole in the box and as a result, some of the edges have fallen off. He tries to remain calm and presents the graph to the King claiming that he can assign costs to the missing edges in such a way that the graph becomes a Graph of Perfection again. Praveen knows that the remaining edges have a magical property - **there is a unique way to assign costs to the missing edges such that the graph becomes a Graph of Perfection**. But he doesn't tell that to the King, and so the King gets highly impressed by his claim and tells him to report the sum of the squares of all the **N2** edge costs modulo **109+7**. Alas! Praveen is not *that* smart, but we hope you are! You are given the costs of the edges which are still in the box; please help Praveen find the required sum.
 
 **Note:**
 
@@ -63,6 +63,7 @@ Unfortunately, when it is Praveen's turn to present the graph to the King, he re
 
 <b>Output:</b>
 74
-</pre>### Explanation
+</pre>
+### Explanation
 
 Out of the 4 edges, the costs of 3 edges are already given to us. The edge (2, 4) must cost 6 to satisfy the "All Perfect Matchings should have equal costs" constraint. Therefore, now, the sum of the squares of the costs of all the 4 edges is (22 + 32 + 52 + 62) = (4 + 9 + 25 + 36) = 74

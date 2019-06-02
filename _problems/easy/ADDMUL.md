@@ -69,7 +69,7 @@ time:
     current: 1493558103
 layout: problem
 ---
-All submissions for this problem are available.### Read problems statements in [Mandarin Chinese](/download/translated/JULY15/mandarin/ADDMUL.pdf) and [Russian](/download/translated/JULY15/russian/ADDMUL.pdf).
+All submissions for this problem are available.### Read problems statements in [Mandarin Chinese ](/download/translated/JULY15/mandarin/ADDMUL.pdf) and [Russian](/download/translated/JULY15/russian/ADDMUL.pdf).
 
 You are given a one dimensional integer array **A** of length **N**. You need to maintain the array under **Q** queries of the following four types. Assume 1-based indexing and M = 109 + 7.
 
@@ -82,7 +82,8 @@ You are given a one dimensional integer array **A** of length **N**. You need to
 for (i = x; i <= y; i++)	
 	<b>A</b><sub>i</sub> += v;
 	<b>A</b><sub>i</sub> %= M; 
-<pre>**Query 2** : 2 x y v 
+<pre>
+**Query 2** : 2 x y v 
  This implies multiplying the scalar v with the array **A** for all the indices from x to y, i.e.,
 ``
 
@@ -90,14 +91,16 @@ for (i = x; i <= y; i++)
 for (i = x; i <= y; i++)	
         <b>A</b><sub>i</sub> *= v
         <b>A</b><sub>i</sub> %= M
-</pre>**Query 3** : 3 x y v 
+</pre>
+**Query 3** : 3 x y v 
  This implies initializing the array **A** at all the indices from x to y with the value v, i.e.,
 ``
 
  ```
 for (i = x; i <= y; i++)	
 	<b>A</b><sub>i</sub> = v 
-<pre>**Query 4** : 4 x y
+<pre>
+**Query 4** : 4 x y
 
  This is a report query which needs to find the sum of the values in **A** from x to y, i.e.,
 ``
@@ -108,7 +111,8 @@ for (i = x; i <= y; i++)
 	sum += <b>A</b><sub>i</sub>
 	sum %= M
 Output sum.
-</pre>**Note:** a%b represents the remainder of a when divided by b.
+</pre>
+**Note:** a%b represents the remainder of a when divided by b.
 
 ### Input
 
@@ -149,7 +153,8 @@ Output sum.
 10
 69
 
-<pre>### Explanation
+<pre>
+### Explanation
 
 Initial **A** : \[1, 2, 3, 4\]
  Result of first query : 1 + 2 + 3 + 4 = 10

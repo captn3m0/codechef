@@ -72,7 +72,7 @@ time:
     current: 1493556627
 layout: problem
 ---
-###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/APRIL15/mandarin/BWGAME.pdf) and [Russian](http://www.codechef.com/download/translated/APRIL15/russian/BWGAME.pdf).
+###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/APRIL15/mandarin/BWGAME.pdf) and [Russian](http://www.codechef.com/download/translated/APRIL15/russian/BWGAME.pdf).
 
 Both Fedya and Alex love playing games. One of their favorite games is playing with permutations. Description of game is given below.
 
@@ -129,6 +129,7 @@ For each test case, output a single line containing the answer to the problem. O
 
 <b>Output:</b>
 Fedor
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first round, Fedya picks the permutation **(2, 1)** which has odd number of inversions (**1**) and the cells  **(1, 2)** and **(2, 1)** are black. Alex is unable to pick the appropriate permutation, thus, he loses and Fedya wins. So we print "Fedor".

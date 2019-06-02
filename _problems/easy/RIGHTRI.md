@@ -91,6 +91,7 @@ Output one integer, the number of right triangles among the given triangles. ###
 
 <b>Output:</b>
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 The first triangle and the last two triangles of the example are right triangles.

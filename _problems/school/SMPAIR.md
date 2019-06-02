@@ -68,7 +68,7 @@ time:
     current: 1492507616
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME13/mandarin/SMPAIR.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME13/russian/SMPAIR.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME13/mandarin/SMPAIR.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME13/russian/SMPAIR.pdf).
 
 You are given a sequence **a1, a2, ..., aN**. Find the smallest possible value of **ai + aj**, where 1 ≤ **i** j ≤ **N**.
 
@@ -101,6 +101,7 @@ For each test case, output a single line containing a single integer - the small
 
 <b>Output:</b>
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 Here we pick **a2** and **a3**. Their sum equals to 1 + 3 = 4.

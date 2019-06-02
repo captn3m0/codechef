@@ -72,7 +72,7 @@ time:
     current: 1493558148
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JUNE15/mandarin/FRNDMTNG.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE15/russian/FRNDMTNG.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JUNE15/mandarin/FRNDMTNG.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE15/russian/FRNDMTNG.pdf).
 
 Chef and his friend Yurii decided to meet in the cafe. As they are very busy one would not wait for another too long. Namely, after arriving, Chef will spend at most **t1** seconds waiting for Yurii while Yurii will wait no more than **t2** seconds.
 

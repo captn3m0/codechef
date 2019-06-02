@@ -73,10 +73,10 @@ layout: problem
 ---
 All submissions for this problem are available.### Read problems statements in [Mandarin chinese](http://www.codechef.com/download/translated/DEC17/mandarin/CHEFEXQ.pdf), [Russian](http://www.codechef.com/download/translated/DEC17/russian/CHEFEXQ.pdf) and [Vietnamese](http://www.codechef.com/download/translated/DEC17/vietnamese/CHEFEXQ.pdf) as well.
 
-Chef always likes to play with arrays. He came up with a new term **_"magical subarray"_**. A subarray is called magical if its starting index is **1** (1-based indexing). Now, Chef has an array of **N** elements and 2 types of queries:
+Chef always likes to play with arrays. He came up with a new term ***"magical subarray"***. A subarray is called magical if its starting index is **1** (1-based indexing). Now, Chef has an array of **N** elements and 2 types of queries:
 
 - **type 1:** Given two numbers **i** and **x**, the value at index **i** should be updated to **x**.
-- **type 2:** Given two numbers **i** and **k**, your program should output the total number of _magical_ subarrays with the last index ≤ **i** in which the xor of all elements is equal to **k**.
+- **type 2:** Given two numbers **i** and **k**, your program should output the total number of *magical* subarrays with the last index ≤ **i** in which the xor of all elements is equal to **k**.
 
 ### Input
 

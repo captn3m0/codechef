@@ -68,7 +68,7 @@ time:
     current: 1493558113
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/DEC14/mandarin/CAPPLE.pdf) and [Russian](http://www.codechef.com/download/translated/DEC14/russian/CAPPLE.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/DEC14/mandarin/CAPPLE.pdf) and [Russian](http://www.codechef.com/download/translated/DEC14/russian/CAPPLE.pdf).
 
 Chef loves to prepare delicious dishes. This time, Chef has decided to prepare a special dish for you, and needs to gather several apples to do so.
 
@@ -116,7 +116,8 @@ For each of the **T** test cases, output a single line - the minimum time to plu
 <b>Output</b>
 1
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 For test 1, Chef can select all the trees and can pluck all the apples in 1 minute.
 

@@ -144,7 +144,8 @@ Note that **X**, **L** and **R** for the queries will always be in the range fro
 8 6 4 2
 0 1 1 2
 0 2 4 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 1 x 2 x 3 x 4 x 5 mod 100 = 120 mod 100 = ( 82 + 62 + 42 + 22 ) mod 100
 

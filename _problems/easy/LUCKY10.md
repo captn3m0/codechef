@@ -112,7 +112,8 @@ Sum of |**A**| across all the tests in the input does not exceed **200000**.
 74
 
 777744
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Case 1.** In this case the only possible string **C** we can get is **"7"** and it is the lucky string.
 

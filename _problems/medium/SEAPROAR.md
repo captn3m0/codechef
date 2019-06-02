@@ -69,7 +69,7 @@ time:
     current: 1493557926
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MARCH15/mandarin/SEAPROAR.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH15/russian/SEAPROAR.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MARCH15/mandarin/SEAPROAR.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH15/russian/SEAPROAR.pdf).
 
 Sereja likes to generate pseudo random binary sequences. Now Sereja has two generators: one is a based on [linear congruential generators (LCGs)](http://en.wikipedia.org/wiki/Linear_congruential_generator) and another is based on [Xorshift](http://en.wikipedia.org/wiki/Xorshift).
 
@@ -100,7 +100,8 @@ void generator1(int N, unsigned S, int A[]){
 }
 /* ------------------ end here -----------------------*/
 
-</pre>The 2nd generator works as follows (C++ code):
+</pre>
+The 2nd generator works as follows (C++ code):
 
 <pre>
 /* ------------------ start here ---------------------*/
@@ -127,7 +128,8 @@ void generator2(int N, unsigned S, int A[]){
 }
 /* ------------------ end here -----------------------*/
 
-</pre>Note that the LCG used in the 1st generator is the same one suggested in [ISO/IEC 9899 (pp. 346--347)](http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf), and Xorshift used in the 2nd generator is the same one in [the paper by Marsaglia (July 2003)](http://www.jstatsoft.org/v08/i14/paper).
+</pre>
+Note that the LCG used in the 1st generator is the same one suggested in [ISO/IEC 9899 (pp. 346--347)](http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf), and Xorshift used in the 2nd generator is the same one in [the paper by Marsaglia (July 2003)](http://www.jstatsoft.org/v08/i14/paper).
 
 ### Input
 
@@ -185,7 +187,8 @@ LCG
 Xorshift
 Xorshift
 Xorshift
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example 1.** **generator1(67, 5, A)** generates the given sequence.
 
@@ -208,7 +211,8 @@ For example,
 <pre>
     X * 1103515245 + 12345
 
-</pre>means that
+</pre>
+means that
 
 **(X × 1103515245 + 12345) mod 232**,
 
@@ -217,7 +221,8 @@ and
 
 <pre>
     (X / 65536) % 32768
-</pre>means that
+</pre>
+means that
 
 **(floor(X / 65536) mod 32768) mod 232**,
 
@@ -230,7 +235,8 @@ For example,
 
 <pre>
     X << 15
-</pre>means that
+</pre>
+means that
 
 **(X × 215) mod 232**,
 
@@ -239,7 +245,8 @@ and
 
 <pre>
     X >> 13
-</pre>means that
+</pre>
+means that
 
 **floor(X / 213)**.
 

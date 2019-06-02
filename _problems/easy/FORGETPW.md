@@ -68,7 +68,7 @@ time:
     current: 1493558148
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JUNE14/mandarin/FORGETPW.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE14/russian/FORGETPW.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JUNE14/mandarin/FORGETPW.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE14/russian/FORGETPW.pdf).
 
 Chef changed the password of his laptop a few days ago, but he can't remember it today. Luckily, he wrote the encrypted password on a piece of paper, along with the rules for decryption.
 

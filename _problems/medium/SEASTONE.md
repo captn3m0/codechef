@@ -68,7 +68,7 @@ time:
     current: 1493557928
 layout: problem
 ---
-All submissions for this problem are available.Sereja has **N** boxes and **M** stones. There is a parameter _energy_ associated with each empty box, denoted by **Ei**. He wants to move each stone into some box. After moving all the stones into the boxes, he wants to compute the total energy of box/stone system. For that he believes that a contribution of box into energy of the system can be computed as follows. If box **i** contains **s** stones and there are total **k** boxes out there containing more than **s** stones, then contribution of box **i** into the system of energy will be given by **Ei** × **k**.
+All submissions for this problem are available.Sereja has **N** boxes and **M** stones. There is a parameter *energy* associated with each empty box, denoted by **Ei**. He wants to move each stone into some box. After moving all the stones into the boxes, he wants to compute the total energy of box/stone system. For that he believes that a contribution of box into energy of the system can be computed as follows. If box **i** contains **s** stones and there are total **k** boxes out there containing more than **s** stones, then contribution of box **i** into the system of energy will be given by **Ei** × **k**.
 
 Sereja wants the box/stone system to be most stable, i.e. it should have least possible energy. Find out minimum possible energy of this system.
 
@@ -108,7 +108,8 @@ For each test case output a single integer corresponding to the answer of the pr
 <b>Output:</b>
 0
 21
-</pre>### Explanation
+</pre>
+### Explanation
 
 **In test case 1**, there are 2 boxes and 4 stones. The energy of two empty boxes are 7 and 8 respectively. You can put 2 stones into each of the box. Contribution of both the boxes into the energy of the system will be zero. So, the answer will be zero.
 

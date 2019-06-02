@@ -25,7 +25,7 @@ time:
     current: 1493558118
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/OCT14/mandarin/CHEFGR.pdf) and [Russian](http://www.codechef.com/download/translated/OCT14/russian/CHEFGR.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/OCT14/mandarin/CHEFGR.pdf) and [Russian](http://www.codechef.com/download/translated/OCT14/russian/CHEFGR.pdf).
 
 Today Chef wants to clean his garden. Chef has **N** columns of ground. Each column has it's height . Chef can choose any column and increase its height by **1** using **1** cube of ground.
 
@@ -63,7 +63,8 @@ Chef wants to spend **exactly** **M** cubes. Can he make this in such way that t
 Yes
 No
 No
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first case we can put cubes on columns in such count: **1, 1, 0, 2, 3**. The sum equals **M**.
 

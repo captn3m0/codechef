@@ -76,7 +76,7 @@ Sergey thinks that some permutations are better than other permutations. He thin
 
 Sergey has a permutation **A** which he wants to make as nice as possible. This is kind of special permutation, because initially it doesn't have any index **i** such that **Ai** = **i** (Assume 1-based indexing). For making it nicer, he can swap two **adjacent** numbers in this permutation, but only if both of them are not on their places (i.e. if you swap **Ai** and **Ai+1**, then **Ai ≠ i** and **Ai+1 ≠ i+1** should be held). He wants to perform such operation multiple times to make the number of inversions in the permutation as small as possible.
 
-Making the permutation the nicest of the possible ones has turned out to be a complicated problem, so Sergey asks you to help him and to provide _any_ sequence of the allowed swaps that would lead him to obtaining the nicest permutation. Since Sergey is quite eager to see the way to improve his permutation, he wants the sequence to be not longer than **2 × N2**. It can be proved that such sequence can be found under this restriction.
+Making the permutation the nicest of the possible ones has turned out to be a complicated problem, so Sergey asks you to help him and to provide *any* sequence of the allowed swaps that would lead him to obtaining the nicest permutation. Since Sergey is quite eager to see the way to improve his permutation, he wants the sequence to be not longer than **2 × N2**. It can be proved that such sequence can be found under this restriction.
 
 ### Input
 
@@ -119,7 +119,8 @@ The restrictions for the output sequence are:
 <b>Output:</b>
 <tt>6
 1 3 2 3 1 2</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** Let's perform these operations one-by-one. The positions having **Ai = i** will be highlighted in bold:
 

@@ -70,7 +70,7 @@ time:
     current: 1493557974
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME31/mandarin/SEEDLING.pdf), [Russian](http://www.codechef.com/download/translated/LTIME31/russian/SEEDLING.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME31/vietnamese/SEEDLING.pdf) as well.
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME31/mandarin/SEEDLING.pdf), [Russian](http://www.codechef.com/download/translated/LTIME31/russian/SEEDLING.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME31/vietnamese/SEEDLING.pdf) as well.
 
 Recently, Sergey bought a plot of **S** square units and now wants to build a cherry tree farm at this plot.
 
@@ -115,7 +115,8 @@ For each test case, output a single line containing the number of ways to buy se
 
 <b>Output:</b>
 <tt>3</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** There are three possible options:
 

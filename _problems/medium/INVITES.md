@@ -106,7 +106,8 @@ For each test-case, output the number of ways modulo **1000000007** (**109 + 7**
 7
 5
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 The first test case: {}, {1}, {2}, {3}, {4}, {1,3}, {2,4}
 

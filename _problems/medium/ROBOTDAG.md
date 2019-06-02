@@ -138,7 +138,8 @@ The aim of the contest is to program your robots in such a manner that they trav
 3
 4
 5
-</pre>### Explanation
+</pre>
+### Explanation
 
 The graphs in all the three testcases are the same. Only the number of robots change.
 

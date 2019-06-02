@@ -97,4 +97,5 @@ Print "Yes" if the sequence contains the favourite sequence int it otherwise pri
 <b>Output:</b>
 Yes
 No
-<pre>(f)(n)<1000>
+<pre>
+(f)(n)<1000>

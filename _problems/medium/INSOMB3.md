@@ -14,7 +14,7 @@ layout: problem
 Given a matrix of dimensions RxC composed of only two types of characters: 
 
 
-'\*' and '#' 
+'*' and '#' 
 
 
  find the number of I characters present in the matrix. The
@@ -74,11 +74,13 @@ Line 1: The number of I's in the given figure. />/>/>
 # # # # # # # # # #
 </pre>
 
+
 **Sample Output:**/>
 
 <pre>
 0
 </pre>
+
 
 Explanation: The given I is invalid because of 2 reasons:
 

@@ -114,6 +114,7 @@ Each testcase print an integer **k** denotes the degree of polynomial in a singl
 4
 1 0 999999997 0 1
 </p>
-</pre>### Explanation
+</pre>
+### Explanation
 
 The first polynomial is **x2 − 2**, and the second one is **x4 − 10x2 + 1**.

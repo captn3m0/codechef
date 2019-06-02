@@ -101,6 +101,7 @@ For each case the output should be a single integer representing the number of s
 2
 3
 </pre>
+
 **Sample Output**
 <pre>
 1

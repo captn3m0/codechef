@@ -69,7 +69,7 @@ layout: problem
 ---
 All submissions for this problem are available.You are playing following game: given an array **A** of **N** natural numbers. All numbers in the array **A** are at most **M**. On every turn you may pick any two different elements **Ai** and **Aj** (**i**≠**j**), such that **Ai, Aj ≤ M**, and add **K** to both. The game ends when you are not able to continue. That is, when there is no pair **(i,j)** left such that both of them are less than equal to **M**.
 
-**Let's call two arrays _different_ if the sum of all their elements is different**. When the game ends, you note down the final array **A**. How many _different_ final arrays can you have.
+**Let's call two arrays *different* if the sum of all their elements is different**. When the game ends, you note down the final array **A**. How many *different* final arrays can you have.
 
 ### Input
 
@@ -93,6 +93,7 @@ Output single integer - answer for the given problem modulo **109+7**.
   <b>Output:</b>
   2
   ```
+  
   ### Explanation
   
   All possible sums are 14 and 10. You can get them by, for example, these arrays:

@@ -85,10 +85,12 @@ You are given an integer sequence $A$ with length $N$. Find the number of (unord
 6
 4 2 5 1 3 5
 </tt>
-<pre>\### Example Output ```
+<pre>
+\### Example Output ```
 <tt>
 1
 1
 7
 </tt>
-</pre>\### Explanation \*\*Example case 1:\*\* We can take $k$ for $A\_k$ to be either 1 or 2, since $A\_k=2$ either way. Since the problem asks for unordered pairs, $(1,2)$ is the only possible valid pair (the same as $(2,1)$). Hence, the answer is 1. \*\*Example case 2:\*\* We see that $A\_1 = 2 = (1+3)/2$. No other valid pair exists.
+</pre>
+\### Explanation \*\*Example case 1:\*\* We can take $k$ for $A\_k$ to be either 1 or 2, since $A\_k=2$ either way. Since the problem asks for unordered pairs, $(1,2)$ is the only possible valid pair (the same as $(2,1)$). Hence, the answer is 1. \*\*Example case 2:\*\* We see that $A\_1 = 2 = (1+3)/2$. No other valid pair exists.

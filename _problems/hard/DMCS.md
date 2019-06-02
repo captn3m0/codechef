@@ -103,6 +103,7 @@ For each test case output a single line containing the answer for the problem mo
 
 <b>Output:</b>
 272
-</pre>### Explanation
+</pre>
+### Explanation
 
 I have discovered a truly marvellous enumeration of this, which this margin is too narrow to contain.

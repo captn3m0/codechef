@@ -132,7 +132,8 @@ CONTEST_HOSTED
 <b>Output:</b>
 3
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **In the first example**,
 

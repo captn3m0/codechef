@@ -62,7 +62,7 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/NOV13/mandarin/SEAVEC.pdf) and [Russian](http://www.codechef.com/download/translated/NOV13/russian/SEAVEC.PDF).
+All submissions for this problem are available.###  Read problems statements in [ Mandarin Chinese ](http://www.codechef.com/download/translated/NOV13/mandarin/SEAVEC.pdf) and [ Russian](http://www.codechef.com/download/translated/NOV13/russian/SEAVEC.PDF).
 
 Sereja have **N** vectors **v\[1\], v\[2\], ..., v\[N\]**. Every vector is given by **K** numbers **(x\[1\], x\[2\], ..., x\[K\])**. Sereja want to choose few vectors, such that sum of those vectors will be smaller than or equal to vector A.
 
@@ -120,7 +120,8 @@ all corrdiantes are positive integers, that are not exceeded 1000000000.
 2 3 5
 
 0
-</pre>### Scoring
+</pre>
+### Scoring
 
 Lets **Sum** will be next value: **(A.x\[1\] - v\[i\[1\]\].x\[1\] - v\[i\[2\]\].x\[1\] - ... - v\[i\[q\]\].x\[1\]) + (A.x\[2\] - v\[i\[1\]\].x\[2\] - v\[i\[2\]\].x\[2\] - ... - v\[i\[q\]\].x\[2\]) + ... + (A.x\[k\] - v\[i\[1\]\].x\[k\] - v\[i\[2\]\].x\[k\] - ... - v\[i\[q\]\].x\[k\])**
 

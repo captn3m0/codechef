@@ -109,6 +109,7 @@ For each testcase, output one integer in a new line, which is the number of Wolv
 
 <b>Output:</b>
 1
-</pre>### Explanation:
+</pre>
+### Explanation:
 
 After transmogrification, the characteristic values become {12,14,11,45,11}, out of which only 14 is divisible by 7. So only the second minion becomes Wolverine-like.

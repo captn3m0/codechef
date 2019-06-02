@@ -128,12 +128,14 @@ For each testcase, print the **minimum** number of employees to be informed on a
 1 2
 2 3
 3 4
-</pre>**Output**
+</pre>
+**Output**
 
 <pre>
 1
 2
-</pre>**Explanation**
+</pre>
+**Explanation**
 
 In testcase 1, since every employee is a friend of every other employee, we just need to select 1 employee.
 

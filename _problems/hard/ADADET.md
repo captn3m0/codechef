@@ -112,7 +112,8 @@ For each testcase print **n** integers: **ai**, the rightmost building shot at, 
 
 <b>Output:</b>
 5 5 -1 -1 7 7 -1
-</pre>### Explanation
+</pre>
+### Explanation
 
 ![](https://codechef_shared.s3.amazonaws.com/download/upload/COOK83/detective.png)The lines of shooting are shown in the figure above.
 

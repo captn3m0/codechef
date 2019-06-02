@@ -119,6 +119,7 @@ Output a single line corresponding to the answer of the problem.
 
 <b>Output:</b>
 <tt>3</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 If Chef chooses the strand of length 1, he can't form a triangle using this strand and the any of the pair of strands of length 1, 2, 3, 4, 5. However, for each of the extra strand of length 2, 3, 4, one can find at least one pair of strands such that those pair of strands and the extra strand makes a triangle. So, the answer will be 3.

@@ -78,11 +78,11 @@ All submissions for this problem are available.### Read problems statements in [
 
 Chef has a tree with **N** nodes. Each node of the tree has an integer weight associated with it.
 
-Let's define the _cost of a sequence_ of numbers as the arithmetic mean of all elements of the sequence.
+Let's define the *cost of a sequence* of numbers as the arithmetic mean of all elements of the sequence.
 
-Next, let's define the _cost of a path_ in the tree as the cost of the sequence of weights of all nodes belonging to the path. (It's possible for a path to contain only one node.)
+Next, let's define the *cost of a path* in the tree as the cost of the sequence of weights of all nodes belonging to the path. (It's possible for a path to contain only one node.)
 
-A set of paths in the tree is called a _correct path decomposition_ if each node of the tree belongs to exactly one of the paths from this set. The _cost_ of a correct decomposition is defined as the minimum of costs of all paths in this decomposition.
+A set of paths in the tree is called a *correct path decomposition* if each node of the tree belongs to exactly one of the paths from this set. The *cost* of a correct decomposition is defined as the minimum of costs of all paths in this decomposition.
 
 Chef would like to find the maximum cost of a correct decomposition. Can you help him?
 
@@ -138,7 +138,8 @@ For each test case, print the maximum possible cost among all correct decomposit
 
 2.5000000
 2.6666667
-</pre>###  Explanation 
+</pre>
+###  Explanation 
 
 ![https://codechef_shared.s3.amazonaws.com/download/upload/LTIME56/AVG-sample.png](https://codechef_shared.s3.amazonaws.com/download/upload/LTIME56/AVG-sample.png)**Example case 1:** It's better to use one path containing both nodes (blue in the picture above) rather than keep each node in a separate one-node path, since the first way gives decomposition cost equal to (**A1** + **A2**) / 2 = (2+3) / 2 = 2.5, while the second one gives decomposition cost min(**A1** / 1, **A2** / 1) = min(2 / 1, 3 / 1) = 2.
 

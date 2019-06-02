@@ -146,7 +146,8 @@ For both **Subtask 1 and Subtask 2:**
 <b>Output:</b>
 2
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Test case 1.**
 
@@ -166,4 +167,4 @@ Hence, the maximum GCD is 2.
 
 One of the optimal partitions is: **63**|**118**|**61**|**109**|**69**|**78**|**109**|**98**|**90**|**53**|**73**|**107**|**116**|**111**
 
-**_Bonus:_** Decode the above partition to unlock a hidden treasure.
+***Bonus:*** Decode the above partition to unlock a hidden treasure.

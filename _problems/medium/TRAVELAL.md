@@ -74,7 +74,7 @@ layout: problem
 ---
 All submissions for this problem are available.### Read problems statements in [mandarin chinese](http://www.codechef.com/download/translated/LTIME50/mandarin/TRAVELAL.pdf), [russian](http://www.codechef.com/download/translated/LTIME50/russian/TRAVELAL.pdf) and [vietnamese](http://www.codechef.com/download/translated/LTIME50/vietnamese/TRAVELAL.pdf) as well.
 
-There are **N** _special_ points on the 2-D plane. You can travel from a special point (**xi**, **yi**) to another special point (**xj**, **yj**) if and only if |**xi** - **xj**| + |**yi** - **yj**| ≥ **D**.
+There are **N** *special* points on the 2-D plane. You can travel from a special point (**xi**, **yi**) to another special point (**xj**, **yj**) if and only if |**xi** - **xj**| + |**yi** - **yj**| ≥ **D**.
 
 You need to find the largest integer **D**, such that we can start at some special point and visit each of the other special points, directly or through other special points. Note that you can visit a special point more than once.
 
@@ -119,7 +119,8 @@ For each test case, output a single line containing the answer.
 
 <b>Output:</b>
 9
-</pre>### Explanation
+</pre>
+### Explanation
 
 We can start at some point and travel to all of the points if **D** ≤ 9, but not if **D** is greater than 9. Hence the answer is 9.
 

@@ -69,7 +69,7 @@ time:
     current: 1493557976
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME19/mandarin/TAQTREE.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME19/russian/TAQTREE.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME19/mandarin/TAQTREE.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME19/russian/TAQTREE.pdf).
 
 You are given a tree of **N** nodes numbered from **1** to **N**.
 The **i**th edge connecting node **ui** and **vi** has a weight of **wi**.
@@ -125,7 +125,8 @@ Your target is to handle the queries of the following two types:
 8
 6
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 The path from 5 to 3 is 5 -> 4 -> 2 -> 3. Initially this path has the length of 1 + 3 + 4 = 8.
 After the weight of the edge connect 4 and 2 was changed to 1, the new length of the path is 1 + 1 + 4 = 6.

@@ -108,7 +108,8 @@ Output a single line containing **N** integers, the i-th of which should be the 
 
 <b>Output:</b> 
 1 3 4 5 6 21 96 26
-</pre>### Explanation
+</pre>
+### Explanation
 
 For example, take a look at the path from vertex 7: The path is 7 -> 8 -> 6 -> 5 -> 1.
 

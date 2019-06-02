@@ -76,7 +76,7 @@ layout: problem
 ---
 All submissions for this problem are available.### Read problems statements in [Mandarin chinese](http://www.codechef.com/download/translated/LTIME57/mandarin/BORDER.pdf), [Russian](http://www.codechef.com/download/translated/LTIME57/russian/BORDER.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME57/vietnamese/BORDER.pdf) as well.
 
-Let's define a _border substring_ of a string as a non-empty substring that's both a suffix and a prefix of this string.
+Let's define a *border substring* of a string as a non-empty substring that's both a suffix and a prefix of this string.
 
 You are given a string **S** with length **N** and **Q** queries. In each query, you are given the **p**-th prefix of **S** (let's denote it by **S1..p**) and an integer **k**. Consider the **k**-th shortest border of **S1..p** (if it exists). Compute the length of this border substring or determine that it doesn't exist.
 

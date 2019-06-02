@@ -111,7 +111,8 @@ For each testcase, print the required answer in one line.
 2
 2
 -1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**LCM(2,7)=2\*7. Therefore, subarray A1 to A2 satisfies.
 

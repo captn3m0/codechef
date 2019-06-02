@@ -117,13 +117,15 @@ RGR
 RRR
 3
 RGB
-</pre>**Output**
+</pre>
+**Output**
 
 <pre>
 1
 0
 2
-</pre>### Explanation:
+</pre>
+### Explanation:
 
 - **Test 1:** Chef prefers to paint room 2 with blue color such that the resulting color will be red and all the rooms have same color i.e red.
 - **Test 2:** Given configuration has all the rooms painted with red color and therefore, chef does not need to do painting work at all.

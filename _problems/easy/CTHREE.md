@@ -106,6 +106,7 @@ For each test case, print a single line containing one integer — the number of
 10
 97800
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** There are 10 valid triples (**x**, **y**, **z**): (1, 10, 10), (1, 20, 5), (2, 5, 10), (2, 10, 5), (4, 5, 5), (5, 2, 10), (5, 4, 5), (5, 5, 4), (5, 10, 2), (5, 20, 1).

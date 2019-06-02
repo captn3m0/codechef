@@ -116,7 +116,8 @@ For each test case, output a single line containing the answer.
 <b>Output:</b>
 1
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** Let's calculate prefixSum(i) + suffixSum(i) for all indexes **i** in the sample case.
 
@@ -124,7 +125,8 @@ For each test case, output a single line containing the answer.
 prefixSum(1) + suffixSum(1) = 1 + 6 = 7
 prefixSum(2) + suffixSum(2) = 3 + 5 = 8
 prefixSum(3) + suffixSum(3) = 6 + 3 = 9
-</pre>The minimum value of the function is 7, which is attained at index 1, so the answer would be 1.
+</pre>
+The minimum value of the function is 7, which is attained at index 1, so the answer would be 1.
 
 **Example case 2.** Let's calculate prefixSum(i) + suffixSum(i) for all indexes **i** in the sample case.
 
@@ -133,4 +135,5 @@ prefixSum(1) + suffixSum(1) = 2 + 7 = 9
 prefixSum(2) + suffixSum(2) = 3 + 5 = 8
 prefixSum(3) + suffixSum(3) = 6 + 4 = 10
 prefixSum(4) + suffixSum(4) = 7 + 1 = 8
-</pre>The minimum value of the function is 8, which is achieved for indices 2 and 4. The minimum of these two indices 2, 4 is index 2. Hence, the answer will be 2.
+</pre>
+The minimum value of the function is 8, which is achieved for indices 2 and 4. The minimum of these two indices 2, 4 is index 2. Hence, the answer will be 2.

@@ -69,7 +69,7 @@ time:
     current: 1493558181
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/AUG14/mandarin/REVERSE.pdf) and [Russian](http://www.codechef.com/download/translated/AUG14/russian/REVERSE.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/AUG14/mandarin/REVERSE.pdf) and [Russian](http://www.codechef.com/download/translated/AUG14/russian/REVERSE.pdf).
 
 Sometimes mysteries happen. Chef found a directed graph with **N** vertices and **M** edges in his kitchen!
 
@@ -105,7 +105,8 @@ In a single line, print the minimum number of edges we need to revert. If there 
 
 <b>Output:</b>
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 We can consider two paths from **1** to **7**:
 

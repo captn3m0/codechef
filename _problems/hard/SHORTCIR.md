@@ -24,7 +24,7 @@ The first line of input file contains number t - the amount of test cases. Then 
  The length of the expression won't exceed 30000 characters.
  There will be no more than 1000 variable in the expression.
  The length of the variable names won't exceed 5 characters.
- **_Also the expression will be in the form of either conjunctive or disjunctive normal form._**
+ ***Also the expression will be in the form of either conjunctive or disjunctive normal form.***
 
 ### Output
 
@@ -53,6 +53,7 @@ cd 0.2
 2.280000
 2.260000
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first test case the best order is c, a, b.

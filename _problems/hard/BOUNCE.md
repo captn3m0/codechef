@@ -91,7 +91,7 @@ Chef wants an exact replica of his ACM, but he doesn't remember **R × C**! All 
 
 Chef will do anything just to get his original ACM back, even if it means spending more than necessary. He decided to buy all ACMs whose dimensions **R × C** satisfy the above. Your problem is now to compute Chef's total spendings, i.e., find the total cost of all distinct ACMs satisfying the two requirements above.
 
-_Note:_ Two ACMs with the same dimensions are identical, but ACMs cannot be rotated, i.e., **R × C** is different from **C × R**.
+*Note:* Two ACMs with the same dimensions are identical, but ACMs cannot be rotated, i.e., **R × C** is different from **C × R**.
 
 ### Input
 
@@ -134,7 +134,8 @@ RLTR</tt>
 <b>Output:</b>
 <tt>5
 0</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first test case, there is only one ACM satisfying the requirements, and that is the ACM with dimensions **5 × 2**. **f(5,2)** = RLTRL has length **5**, so the total cost is **5**.
 

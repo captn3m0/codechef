@@ -169,7 +169,8 @@ raw
 1
 5
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first sample case, Cucumber Boy's objective will be accomplished if and only if he selects buildings **(i1, i2) = (1, 2)**. Let's call the pizza of the shop **x** of the building **1** collaborated with the shop **y** of the building **2** as pizza **(x, y)**. Then
 the price of the pizza **(1, 1)** is **82\*19+51\*84+44\*64 = 8658**,

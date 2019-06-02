@@ -65,12 +65,12 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
-All submissions for this problem are available.An _addition chain_ for a positive integer **N** is a sequence of positive integers **C = (A0, A1, ..., AL)** such that
+All submissions for this problem are available.An *addition chain* for a positive integer **N** is a sequence of positive integers **C = (A0, A1, ..., AL)** such that
 
 - **1 = A0 < A1 < ... < AL – 1 < AL = N**,
 - for each **i** such that **1 ≤ i ≤ L** there exist integers **j** and **k** such that **0 ≤ j, k < i** and **Ai = Aj + Ak**.
 
-The integer **L** is called the _length_ of the chain **C**.
+The integer **L** is called the *length* of the chain **C**.
 
 For example, **C = (1, 2, 3, 6, 12, 15)** is an addition chain of length **5** for **N = 15**. Indeed,
 
@@ -123,7 +123,8 @@ Your score for a test file is the length of your addition chain, that is, an int
 0 3
 4 4
 4 5
-</pre>### Explanation
+</pre>
+### Explanation
 
 Sample output represents an addition chain **(1, 2, 3, 4, 5, 10, 15)** for **N = 15**. Your score for such output will be **6**. Note that according to the problem statement shorter chain is possible for this value of **N** but you don't need to find the shortest chain since this is a challenge problem. Also note that order in which we write numbers **j\[i\]** and **k\[i\]** for the given **i** doesn't matter.
 

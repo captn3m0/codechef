@@ -135,7 +135,8 @@ abba
 aa*abaa
 a*a*a*a
 aa*aa*a
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example 1**. The way of distributing fruits already makes everyone happy.
 

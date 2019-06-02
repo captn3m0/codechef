@@ -70,7 +70,7 @@ time:
     current: 1493556902
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/FEB15/mandarin/XRMTRX.pdf) and [Russian](http://www.codechef.com/download/translated/FEB15/russian/XRMTRX.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/FEB15/mandarin/XRMTRX.pdf) and [Russian](http://www.codechef.com/download/translated/FEB15/russian/XRMTRX.pdf).
 
 Let's consider a square matrix of size **N × N**, where **N = R −­­­­­­­­­­­ L + 1**. We will enumerate the columns of this matrix with consecutive integers from **L** to **R** (the leftmost column will be assigned number **L** and the rightmost - number **R**). In similar manner we will enumerate rows with the same integers (the top row will be assigned number **L** and the bottom row - number **R**).
 
@@ -118,7 +118,8 @@ The value of **C** should be printed modulo **(109 + 7)**.
 0 2
 3 4
 1 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** The matrix contains just one cell, so, there is no possibility to make a single move, thus **K = 0**. We have just one possibility - to start the walk at the only cell and to end it immediately.
 
@@ -127,13 +128,15 @@ The value of **C** should be printed modulo **(109 + 7)**.
 <pre>
 <b>(1 xor 1)   (1 xor 2)</b>          =          <b>0 3</b>
 <b>(2 xor 1)   (2 xor 2)</b>          =          <b>3 0</b>
-</pre>**Example case 3.** The four possible walks are:
+</pre>
+**Example case 3.** The four possible walks are:
 
 <pre><font size="3">0 <b><font color="#578fb2">3 2</font></b>               0 <b><font color="#578fb2">3 2</font></b>               0 3 2               0 3 2
 3 <b><font color="#578fb2">0 1</font></b>               3 0 <b><font color="#578fb2">1</font></b>               <b><font color="#578fb2">3 0</font></b> 1               <b><font color="#578fb2">3</font></b> 0 1
 2 1 0               2 1 <b><font color="#578fb2">0</font></b>               <b><font color="#578fb2">2 1</font></b> 0               <b><font color="#578fb2">2 1 0</font></b>
 </font>
-</pre>**Example case 4.** The four possible walks are:
+</pre>
+**Example case 4.** The four possible walks are:
 
 <pre><font size="3"><b><font color="#578fb2">0 1</font></b>                   0 <b><font color="#578fb2">1</font></b>                   <b><font color="#578fb2">0</font></b> 1                   0 1
 1 0                   1 <b><font color="#578fb2">0</font></b>                   <b><font color="#578fb2">1</font></b> 0                   <b><font color="#578fb2">1 0</font></b>

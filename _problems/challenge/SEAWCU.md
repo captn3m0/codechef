@@ -79,7 +79,7 @@ Help Sereja, find such a sequence that maximize the sum of the numbers stored at
 
 The first line of the input contains an integer **T** denoting the number of test cases. The description of **T** test cases follows.
 
-The first line of each test case contains integer **N**. Then **N** _blocks_ of input follow where each block consists of **N** lines, each containing **N** integers. The **X**-th number in the **Y**-th line of **Z**-th block is the value **A\[X\]\[Y\]\[Z\]**. ### Output
+The first line of each test case contains integer **N**. Then **N** *blocks* of input follow where each block consists of **N** lines, each containing **N** integers. The **X**-th number in the **Y**-th line of **Z**-th block is the value **A\[X\]\[Y\]\[Z\]**. ### Output
 
 The first line of output for each test case should contain number **K** - the number of cells in the sequence. The next **K** lines should contain three space-separated integers: the **X,Y,Z** indices of the cell.
 
@@ -105,7 +105,8 @@ The first line of output for each test case should contain number **K** - the nu
 1 1 2
 1 2 2
 2 2 2
-</pre>### Test generation
+</pre>
+### Test generation
 
 Each test will contain **T=10** test cases and **N** will always be equal to **50**. There will be  three types of tests: - Every number in the cube will be from the set {1, 0, -1000000}. The cube will be generated in the following way. Originally it will be filled with only 1s. Then a randomly-chosen 5% of the positions will be filled with 0. Finally, while less than 20% of the cube consists of -1000000 entries, some subcube will be filled with -1000000 entries.
 - Every number in cube will be from the set {10000, 1000, 100, 1, 0, -1000000}. This will be generated in the same way as previous test, but originally all numbers are random positives number from the set.

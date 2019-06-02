@@ -75,7 +75,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 You are given an undirected [compete graph](http://mathworld.wolfram.com/CompleteGraph.html) with **n** nodes. Each edge can be one of **n**\*(**n**-1)/2 +1 different colors. These colors are labeled from 0 to **n**\*(**n**-1)/2, inclusive. But not all these **n**\*(**n**-1)/2 +1 colors need to be used. ie. it is possible that two different edges could have the same color. Formally, let **c**i,j denote the color between the i-th and j-th nodes. (Note that these edges are undirected, so **c**i,j = **c**j,i). We will define **c**i,i to be zero, although there is no such edge present. i.e. the graph does not contain self-loops.
 
-A subset of nodes is called _interesting_ if every node in the subset has at least two edges of different colors, connecting it to vertices in the subset.
+A subset of nodes is called *interesting* if every node in the subset has at least two edges of different colors, connecting it to vertices in the subset.
 
 Your task is to determine the maximum possible size of an interesting subset of nodes.
 
@@ -131,7 +131,8 @@ For each test case, output the maximum possible size of an interesting subset, i
 0
 0
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first case, the set of all nodes is an interesting subset.
 

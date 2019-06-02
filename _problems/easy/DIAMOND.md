@@ -106,7 +106,8 @@ Output for each test case should contain a single real number in a separate line
 21.000
 9.500
 10.000
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Case 1:** In the first move Alice has to take **100**, and this is the only move. Hence, the expected value Alice will get is **100**.
 

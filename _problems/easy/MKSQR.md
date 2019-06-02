@@ -43,12 +43,14 @@ Output should contain exactly t lines, with "YES" or "NO" ( without the quotes -
 10 -6
 -5 -1
 1 -1
-</pre>### Sample Output
+</pre>
+### Sample Output
 
 <pre>
 YES
 YES
-</pre>### Explanation
+</pre>
+### Explanation
 
 Test case 1 : a1 = 0 , a2 = 1, a3 = 1. 
 Test case 2 : a1 = 2 , a2 = 0 , a3 = 1, a4 = 3.

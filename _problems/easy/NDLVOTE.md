@@ -17,7 +17,7 @@ Po opens the blog to see initial score of 0. To see the updated score without re
 
 ### Input
 
-There are multiple test cases ( at most 21 ). Each case starts with an integer _N_ ( 1 <= _N_ <= 1000 ), the number of Po's clicks. Sequence of _N_ clicks follows, one on each line of the form _"vote score"_ (without quotes, separated by a space), where _vote_ is either a 'P' or a 'M', representing Plus(+) and Minus(-) respectively, the one clicked by Po and _score_ is the score displayed after Po's click ( -1,000,000,000 <= _score_ <= 1,000,000,000 ). The last case has _N_ = 0 and should not be processed. Each case is followed by an empty line.
+There are multiple test cases ( at most 21 ). Each case starts with an integer *N* ( 1 <= *N* <= 1000 ), the number of Po's clicks. Sequence of *N* clicks follows, one on each line of the form *"vote score"* (without quotes, separated by a space), where *vote* is either a 'P' or a 'M', representing Plus(+) and Minus(-) respectively, the one clicked by Po and *score* is the score displayed after Po's click ( -1,000,000,000 <= *score* <= 1,000,000,000 ). The last case has *N* = 0 and should not be processed. Each case is followed by an empty line.
 
 ### Output
 
@@ -41,6 +41,7 @@ M -2
 1
 1
 </pre>
+
 
 **Explanation:**
 

@@ -107,6 +107,7 @@ cdaa
 
 <b>Output:</b>
 8
-</pre>### Explanation
+</pre>
+### Explanation
 
 Example is explained in the problem statement above.

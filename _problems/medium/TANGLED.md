@@ -111,7 +111,7 @@ length of any string is at most **5000**
 
 ### Subtask 5 (30 points): 
 
- _No special constraints_
+ *No special constraints*
 
 ### Example
 
@@ -137,7 +137,8 @@ xyzab
 12 1 0 0 0
 5 3 1 0
 </p>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 2.** Common substrings of length 1 are (a,b,c,d) = (0,0,1,1), (2,2,1,1), (1,1,0,0), (1,1,2,2), (3,3,0,0), (3,3,2,2).
 

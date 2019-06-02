@@ -70,7 +70,7 @@ time:
     current: 1493556958
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JUNE15/mandarin/CONPOIN.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE15/russian/CONPOIN.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JUNE15/mandarin/CONPOIN.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE15/russian/CONPOIN.pdf).
 
 One day Leha got bored during his geometry class. But his teacher was very careful so the boy had to pretend that he was solving some geometry problem. At first glance he started drawing some senseless stuff. He marked **N** pairwise different points on the plane and then connected **M** pairs of these points by **straight-line** segments. **No 3 points lie on the same line.** None of these segments intersect(maybe except at the initial **N** points). Then Leha tried to draw the **M+1-th** segment but surprisingly it turned out that it was impossible to connect any pair of points by **straight-line** segment which wouldn't intersect with any of the previous segments.
 
@@ -121,7 +121,8 @@ For each test case output a single line containing**1** if it's possible to find
 1
 0
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
  In the first test case we can draw triangle on the plane. Obviously no pair of segments will intersect and we can't add any more straight-line segment(and even not straight-line) so the answer is **1**
 

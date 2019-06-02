@@ -70,7 +70,7 @@ time:
     current: 1493557822
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME24/mandarin/NWAYS.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME24/russian/NWAYS.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME24/mandarin/NWAYS.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME24/russian/NWAYS.pdf).
 
 Devu is learning Combinatorics in his college. He find it very interesting to calculate number of ways of going to point **(c,d)** from point **(a,b)** in co-ordinate plane. We can take horizontal and vertical steps only and can not visit at a point twice. In a step, you can move one unit only. We have to reach to the point **(c,d)** from the point **(a,b)** using **abs(a-c)+ abs(b-d)** steps only.
 
@@ -111,7 +111,8 @@ For each test case, print a single integer representing the answer of that test 
 <b>Output:</b>
 8
 236
-</pre>### Explanation
+</pre>
+### Explanation
 
 For the first sample case,
 

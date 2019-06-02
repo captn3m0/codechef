@@ -68,7 +68,7 @@ time:
     current: 1493557513
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME16/mandarin/CHEFB.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME16/russian/CHEFB.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME16/mandarin/CHEFB.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME16/russian/CHEFB.pdf).
 
 Roma gave Chef an array of intergers.
 Chef wants to make all integers in the array equal to 1.

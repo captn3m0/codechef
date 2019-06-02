@@ -167,7 +167,8 @@ For each query of type 2, output the weight of required vertex.
 1
 1
 
-</pre>###  Explanation
+</pre>
+###  Explanation
 
  **Example case 1.** See picture below.
 

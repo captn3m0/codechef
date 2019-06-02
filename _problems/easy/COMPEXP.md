@@ -60,7 +60,8 @@ The first and only line of each test case contains two integers **N** and **K** 
 2.0
 4.0
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:**There is only one string: aaa with compressed string = a, 3. Therefore length = 2
 

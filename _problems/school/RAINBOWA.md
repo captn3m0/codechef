@@ -129,7 +129,8 @@ Help Chef in finding out if the given array is a Rainbow Array or not.
 yes
 no
 no
-</pre>### Explanation
+</pre>
+### Explanation
 
 The first example satisfies all the conditions.
 

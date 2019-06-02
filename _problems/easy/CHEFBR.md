@@ -68,13 +68,13 @@ time:
     current: 1493558116
 layout: problem
 ---
-All submissions for this problem are available.### Read problems statements in [Mandarin Chinese](/download/translated/DEC14/mandarin/CHEFBR.pdf) and [Russian](/download/translated/DEC14/russian/CHEFBR.pdf).
+All submissions for this problem are available.### Read problems statements in [Mandarin Chinese ](/download/translated/DEC14/mandarin/CHEFBR.pdf) and [Russian](/download/translated/DEC14/russian/CHEFBR.pdf).
 
 Chef loves brackets. So much so, that rather than just use plain brackets like (), {}, or \[\], he has invented his own notation that allows him to use many more types of brackets.
 
-Each type of bracket is designated by an integer. A negative integer **-x** represents an opening bracket of type **x**; while a positive integer **x** represents a closing bracket of type **x**. Any sequence of such integers is then called a _bracket-pair sequence_.
+Each type of bracket is designated by an integer. A negative integer **-x** represents an opening bracket of type **x**; while a positive integer **x** represents a closing bracket of type **x**. Any sequence of such integers is then called a *bracket-pair sequence*.
 
-A _balanced_ bracket-pair sequence can be defined recursively as follows:
+A *balanced* bracket-pair sequence can be defined recursively as follows:
 
 - The empty sequence is a balanced bracket-pair sequence.
 - If **S** is a balanced bracket-pair sequence, then **-x S x** is a balanced bracket-pair sequence for any positive integer **x**.

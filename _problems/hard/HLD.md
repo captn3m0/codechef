@@ -131,6 +131,7 @@ The output should have only one integer in a new line, the minimum 'cost' achiev
 <b>Output:</b><tt>
 3
 1</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 For first input: one solution is to mark these edges as heavy and the other edges as light: {1-2, 2-4, 4-5, 5-6, 3-8, 8-9, 10-11}

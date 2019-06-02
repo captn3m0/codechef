@@ -73,7 +73,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/COOK59/mandarin/ANKNIM2.pdf) and [Russian](http://www.codechef.com/download/translated/COOK59/russian/ANKNIM2.pdf) as well.
 
-Rahul and Rashi are bored of playing the game of [Nim](https://en.wikipedia.org/?title=Nim) all day. More so, Rahul has been losing all the games. Actually, the array of stone piles for a game is always selected by Rashi from a huge **N**-length array **A**. This selected array is always a subarray of **A**.
+Rahul and Rashi are bored of playing the game of [ Nim](https://en.wikipedia.org/?title=Nim) all day. More so, Rahul has been losing all the games. Actually, the array of stone piles for a game is always selected by Rashi from a huge **N**-length array **A**. This selected array is always a subarray of **A**.
 
 Rahul, now frustrated by his losing streak, insists that he would play the next game only if she chooses a game array of length **m**.
 
@@ -107,13 +107,15 @@ Output the results of each test case on a new line. For each test case, output t
 4
 1 1 1 1
 
-</pre>**Sample Output:**
+</pre>
+**Sample Output:**
 
 <pre>
 0 0 3 0 0 1
 0 3 0 1
 
-</pre>**Explanation**
+</pre>
+**Explanation**
 
 <pre>
 For the first test case and m = 3, required sub-arrays are [1,2,3], [3,2,1] and [2,1,3].

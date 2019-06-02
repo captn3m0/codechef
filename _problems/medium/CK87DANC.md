@@ -128,7 +128,8 @@ For each test case print **Q** lines, where each line contains a single integer,
 1
 -1
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** The test asks for the smallest dance whose value is **greater** than or **equal**  to  **7** .
 

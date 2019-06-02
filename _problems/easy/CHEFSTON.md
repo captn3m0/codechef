@@ -70,7 +70,7 @@ time:
     current: 1493558125
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JAN15/mandarin/CHEFSTON.pdf) and [Russian](http://www.codechef.com/download/translated/JAN15/russian/CHEFSTON.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JAN15/mandarin/CHEFSTON.pdf) and [Russian](http://www.codechef.com/download/translated/JAN15/russian/CHEFSTON.pdf).
 
 Chef is playing a game. Currently in the game, he is at a field full of stones. There are total **N** kinds of
 stones. There is unlimited supply of each kind of stone.
@@ -116,7 +116,8 @@ Please help Chef to find the maximal possible profit.
 
 <b>Output:</b>
 12
-</pre>### Explanation
+</pre>
+### Explanation
 
 If Chef picks stones of first kind he can pick **3** stones, he will get a profit of **3\*4 = 12** Rs. 
 If Chef picks stones of second kind he can pick **2** stones, he will get a profit of **2\*4 = 8** Rs. 

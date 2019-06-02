@@ -68,7 +68,7 @@ time:
     current: 1493557709
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME11/mandarin/KFORK.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME11/russian/KFORK1.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME11/mandarin/KFORK.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME11/russian/KFORK1.pdf).
 
 Forking is an important tactics in the game of chess. A piece is said to perform a fork if 
 

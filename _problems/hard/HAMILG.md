@@ -72,7 +72,7 @@ time:
     current: 1493556724
 layout: problem
 ---
-All submissions for this problem are available.### Read problems statements in [Mandarin Chinese](/download/translated/JULY15/mandarin/HAMILG.pdf) and [Russian](/download/translated/JULY15/russian/HAMILG.pdf).
+All submissions for this problem are available.### Read problems statements in [Mandarin Chinese ](/download/translated/JULY15/mandarin/HAMILG.pdf) and [Russian](/download/translated/JULY15/russian/HAMILG.pdf).
 
 Two players, Askar and Bob, play a game with a token on an undirected graph **G**. The game goes as follows:
 
@@ -108,13 +108,13 @@ For each test case, output a single line containing the number of winning vertic
  
 ### Subtasks
 
-_Subtask 1 (8 points)_: **1 ≤ N ≤ 18**
+*Subtask 1 (8 points)*: **1 ≤ N ≤ 18**
 
-_Subtask 2 (19 points)_: **1 ≤ N ≤ 40**
+*Subtask 2 (19 points)*: **1 ≤ N ≤ 40**
 
-_Subtask 3 (26 points)_: **1 ≤ N ≤ 200**
+*Subtask 3 (26 points)*: **1 ≤ N ≤ 200**
 
-_Subtask 4 (47 points)_: **1 ≤ N ≤ 2000**
+*Subtask 4 (47 points)*: **1 ≤ N ≤ 2000**
 
 The time limit is 2 seconds for subtasks 1-3 and 5 seconds for subtask 4.
 
@@ -146,7 +146,8 @@ The time limit is 2 seconds for subtasks 1-3 and 5 seconds for subtask 4.
 0
 4
 2
-<pre>### Explanation
+<pre>
+### Explanation
 
 **Example case 1.** The graph is a complete graph with 4 vertices, so the game will always last 3 turns; in the 4th turn, Askar will have no way to move and lose.
 

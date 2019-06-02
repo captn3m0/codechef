@@ -72,7 +72,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
  A valid parentheses sequence is a non-empty string where each character is either '**(**' or '**)**', which satisfies the following constraint:
 
- _You can find a way to repeat erasing adjacent pairs of parentheses_ '**()**' _until it becomes empty._
+ *You can find a way to repeat erasing adjacent pairs of parentheses* '**()**' *until it becomes empty.*
 
  For example, '**(())**' and '**()((()()))**' are valid parentheses sequences, but '**)()(**' and '**(()**' are not.
 
@@ -91,7 +91,8 @@ All submissions for this problem are available.###  Read problems statements in 
 		END
 		RETURN max_balance
 	END
-</pre> In other words, **F(S)** is equal to the maximal balance over all prefixes of **S**.
+</pre>
+ In other words, **F(S)** is equal to the maximal balance over all prefixes of **S**.
 
  Let's denote **A** as Mike's current parentheses sequence, and **B** as a candidate for a new one. Mike is willing to replace **A** with **B** if **F(A)** is equal to **F(B)**. He would also like to choose **B** with the minimal possible length amongst ones satisfying the previous condition. If there are several such strings with the minimal possible length, then Mike will choose the least one lexicographically, considering '**(**' to be less than '**)**'.
 

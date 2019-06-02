@@ -68,11 +68,11 @@ time:
     current: 1492507616
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME17/mandarin/HEADBOB.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME17/russian/HEADBOB.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME17/mandarin/HEADBOB.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME17/russian/HEADBOB.pdf).
 
 Tanu has got interested in signs and gestures that we use for communication. One such gesture is the head-bob.
 When we want to signal "Yes" to someone, we move the head up-and-down. For "No", the head is moved left-and-right, rotating about the vertical axis.
- There is a peculiar way of gesturing "Yes", commonly seen in India, by moving head sideways (rotating about the forward-back axis). This is called the  _Indian head-bob_.
+ There is a peculiar way of gesturing "Yes", commonly seen in India, by moving head sideways (rotating about the forward-back axis). This is called the  *Indian head-bob*.
 
 Tanu observed many people on the railways station, and made a list of gestures that they made. Usual "Yes" gesture is recorded as "**Y**", no as "**N**" and Indian "Yes" gesture as "**I**". (Assume no foreigner uses the Indian "Yes" gesture and vice-versa). Identify which of them were Indians, which were not Indian, and which one you cannot be sure about.
 
@@ -84,8 +84,15 @@ Each person is described in two lines. First line of the description contains a 
 For each person, print "INDIAN" if he/she is from India, "NOT INDIAN" if not from India, and "NOT SURE" if the information is insufficient to make a decision.### Constraints
 
 
-<pre></pre>12. **For 30 points:** 1 ≤ T,N ≤ 100
+<pre></pre>
+12. **For 30 points:** 1 ≤ T,N ≤ 100
 13. **For 70 points:** 1 ≤ T,N ≤ 1000### Example
   
-  **Input:**`3<br></br>5<br></br>NNNYY<br></br>6<br></br>NNINNI<br></br>4<br></br>NNNN<br></br>`
-  **Output:**`NOT INDIAN<br></br>INDIAN<br></br>NOT SURE`
+  **Input:**```
+  3<br></br>5<br></br>NNNYY<br></br>6<br></br>NNINNI<br></br>4<br></br>NNNN<br></br>
+  ```
+  
+  
+  **Output:**```
+  NOT INDIAN<br></br>INDIAN<br></br>NOT SURE
+  ```

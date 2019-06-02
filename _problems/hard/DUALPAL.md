@@ -73,7 +73,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/COOK61/mandarin/DUALPAL.pdf) and [Russian](http://www.codechef.com/download/translated/COOK61/russian/DUALPAL.pdf) as well.
 
-A number is called a _Dual Palindrome_ if it's representation in bases **B1** and **B2** are both palindromes. e.g. Let **B1** = 3, **B2** = 4, then number 130 (in base 10) will be called a _Dual Palindrome_, as it is palindrome in base 3 (11211) as well as in base 4 (2002). However, it is not a _Dual Palindrome_ for **B1** = 3 and **B2** = 5 as it's not a palindrome in base 5(1010).
+A number is called a *Dual Palindrome* if it's representation in bases **B1** and **B2** are both palindromes. e.g. Let **B1** = 3, **B2** = 4, then number 130 (in base 10) will be called a *Dual Palindrome*, as it is palindrome in base 3 (11211) as well as in base 4 (2002). However, it is not a *Dual Palindrome* for **B1** = 3 and **B2** = 5 as it's not a palindrome in base 5(1010).
 
 Given two integers **B1** and **B2**, Chef wants to find Dual Palindromes less than **260**. If there are more than 1000 Dual Palindromes, then output the first 1000 only (these numbers should be in base 10).
 
@@ -100,6 +100,7 @@ For each test case, output a list of space separated integers which are Dual Pal
 
 <b>Output:</b>
 1 6643 1422773 5415589 90396755477 381920985378904469
-</pre>### Note
+</pre>
+### Note
 
 Source limit for the problem is 8000B instead of usual 50000B.

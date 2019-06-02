@@ -73,11 +73,11 @@ All submissions for this problem are available.###  Read problems statements in 
 
 Mike likes strings. He is also interested in algorithms. A few days ago he discovered for himself a very nice problem:
 
- _You are given an AB-string **S**. You need to count the number of substrings of S, which have an equal number of 'A'-s and 'B'-s._
+ *You are given an AB-string **S**. You need to count the number of substrings of S, which have an equal number of 'A'-s and 'B'-s.*
 
 Do you know how to solve it? Good. Mike will make the problem a little bit more difficult for you.
 
- _You are given an ABC-string **S**. You need to count the number of substrings of S, which have an equal number of 'A'-s, 'B'-s and 'C'-s._
+ *You are given an ABC-string **S**. You need to count the number of substrings of S, which have an equal number of 'A'-s, 'B'-s and 'C'-s.*
 
 A string is called AB-string if it doesn't contain any symbols except 'A' or 'B'. A string is called ABC-string if it doesn't contain any symbols except 'A', 'B' or 'C'.
 
@@ -102,6 +102,7 @@ ABACABA
 
 <b>Output:</b>
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the example you should count **S**\[2..4\] = "BAC" and **S**\[4..6\] = "CAB".

@@ -108,6 +108,7 @@ Print one integer — the xor of sums of all non-empty segments of the sequence.
 
 <b>Output2:</b>
 14
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first example test, there are six non-empty segments. Their sums of elements are: 7, 7+5=12, 7+5+13=25, 5, 5+13=18, 13. The answer is 7 xor 12 xor 25 xor 5 xor 18 xor 13 = 8.

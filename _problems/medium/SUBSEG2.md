@@ -118,7 +118,8 @@ Output **Q** lines - each containing an integer corresponding to the maximum num
 1
 0
 </tt>
-<pre>### Explanation
+<pre>
+### Explanation
 
 **Plan #1.** Chef stays on the campus from the first day till the sixth day. During this time, he can complete maximum two courses. He can complete either the **1**st and the **2**nd or the **2**nd and the **3**rd courses..
 

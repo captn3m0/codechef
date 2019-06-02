@@ -70,7 +70,7 @@ time:
     current: 1493557792
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME24/mandarin/MDIST.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME24/russian/MDIST.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME24/mandarin/MDIST.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME24/russian/MDIST.pdf).
 
 Devu has taken the course of computational geometry in the university of Coderpur. He liked this course very much. Today, he got to know about the Manhattan distance and got an assignment for the same topic. Manhattan distance between two points **(x1,y1)** and **(x2,y2)** can be defined as:
 
@@ -122,7 +122,8 @@ Q 0 3
 
 <b>Output:</b>
 20
-</pre>### Explanation
+</pre>
+### Explanation
 
 After first updates points will be:
 

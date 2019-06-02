@@ -70,7 +70,7 @@ time:
     current: 1493558120
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/APRIL15/mandarin/CHEFLCM.pdf) and [Russian](http://www.codechef.com/download/translated/APRIL15/russian/CHEFLCM.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/APRIL15/mandarin/CHEFLCM.pdf) and [Russian](http://www.codechef.com/download/translated/APRIL15/russian/CHEFLCM.pdf).
 
 Chef wants to hire a new assistant. He published an advertisement regarding that in a newspaper. After seeing the advertisement, many candidates have applied for the job. Now chef wants to shortlist people for the interviews, so he gave all of them one problem which they must solve in order to get shortlisted.
 
@@ -112,7 +112,8 @@ For each test case, output a single line containing an integer corresponding to 
 <b>Output:</b>
 1
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example 1 :** Only possible number is **1**, so the maximum sum of distinct numbers is exactly **1**. 
 **Example 2 :** The distinct numbers you can have are just **1** and **2**, so the sum is **3**. If we consider any other number greater than **2**, then the least common multiple will be more than **2**.

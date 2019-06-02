@@ -83,7 +83,7 @@ Kirito is a known star player of CAO. You are to help him log out.
 
 **Present**
 
-_Stage 3_
+*Stage 3*
 
 A map is described by a 2D grid of cells. Each cell is either a **\#** or a **^**. **\#** denotes a wall. A monster exists in a cell, if the cell is not a wall and the cell is a **centre of Prime-Cross (CPC)**.
 
@@ -127,7 +127,8 @@ For each test case, output a single line containing the the name of the winner. 
 
 <b>Output:</b>
 Asuna
-</pre>### Explanation
+</pre>
+### Explanation
 
 This is the intial configuration, you can see the positions of monsters at CPC's.
 

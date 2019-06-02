@@ -69,7 +69,7 @@ time:
     current: 1493557921
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME20/mandarin/LCH15JEF.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME20/russian/LCH15JEF.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME20/mandarin/LCH15JEF.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME20/russian/LCH15JEF.pdf).
 
  Leonid is developing new programming language. The key feature of his language is fast multiplication and raising to a power operations. He is asking you to help with the following task.
 

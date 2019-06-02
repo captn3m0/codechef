@@ -109,7 +109,8 @@ For each test case output a new line with a single integer which should be the a
 1
 3
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first testcase, the initial numbers are (**A** = 1, **B** = 2). There is only one turn. In this turn Alice multiplies her number by 2. Hence, we get (**A** = 2, **B** = 2). Therefore **C** = 2, and **D** = 2. max(**C**, **D**)/min(**C**, **D**) = 2/2 = 1. Hence the first output is 1.
 

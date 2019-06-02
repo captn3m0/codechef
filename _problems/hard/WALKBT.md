@@ -131,7 +131,8 @@ For each query of Type 2, you have to print one integer in a new line
 5
 6
 7
-</pre>### Explanation
+</pre>
+### Explanation
 
 Let us label the tree nodes as follows:
 

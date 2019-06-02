@@ -107,7 +107,8 @@ That is, the delivery boy always can fill a fuel tank exactly 2 \* **Hi** liters
 
 7
 
-</pre>### Explanation:
+</pre>
+### Explanation:
 
 Here is one possible solution.
 

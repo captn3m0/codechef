@@ -122,7 +122,8 @@ MOVE 2 2
 MOVE 2 1
 MOVE 2 2
 EXIT
-</pre>### Explanation
+</pre>
+### Explanation
 
 The garden is of dimensions **2 × 2**. Alice can visit each cell at max 2 times. She starts the journey from cell **(1, 1)**.
 

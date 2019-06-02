@@ -68,7 +68,7 @@ time:
     current: 1493557907
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/DEC14/mandarin/SEAGCD.pdf) and [Russian](http://www.codechef.com/download/translated/DEC14/russian/SEAGCD.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/DEC14/mandarin/SEAGCD.pdf) and [Russian](http://www.codechef.com/download/translated/DEC14/russian/SEAGCD.pdf).
 
 In this problem Sereja is interested in the number of arrays of integers, **A1, A2, ..., AN**, with **1 ≤ Ai ≤ M**, such that the greatest common divisor of all of its elements is equal to a given integer **D**.
 

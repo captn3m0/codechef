@@ -118,7 +118,8 @@ For each operation of Type 1, output the index of the hill in which the particip
 <b>Output:</b>
 3
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 The initial heights are (1, 2, 3, 4, 5). The first operation is of Type 1 and starts from Hill 1 and wants to jump twice. The first jump will be to Hill 2, and the second jump will be to Hill 3. Hence the output for this is 3.
 

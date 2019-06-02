@@ -87,7 +87,7 @@ Then **N** lines follow, each of them describes the site. Each line starts from 
 
 If it is not possible to choose set of filters and satisfy all constraints, output a single line containing an integer -1.
 
-Otherwise, in the first line print the number of filters K in the firewall. Then print **K** lines, in each line print the chosen filter. Please dislpay them in [lexicographical order](https://en.wikipedia.org/wiki/Lexicographical_order). You can prove that answer will be unique.
+Otherwise, in the first line print the number of filters K in the firewall. Then print **K** lines, in each line print the chosen filter. Please dislpay them in [ lexicographical order](https://en.wikipedia.org/wiki/Lexicographical_order). You can prove that answer will be unique.
 
 ### Constraints
 
@@ -113,6 +113,7 @@ Otherwise, in the first line print the number of filters K in the firewall. Then
 2
 codef
 y
-</pre>### Explanation
+</pre>
+### Explanation
 
 You can see that the filter "codef" is a prefix of the blocked site "codeforces", but not a prefix of approved sites "codechef" and "google". Similarly, filter "y" is also a prefix of blocked site "youtube", but not a prefix of the approved sites. You can also see that there exists at least one filter for both the blocked sites "codeforces" and "youtube".

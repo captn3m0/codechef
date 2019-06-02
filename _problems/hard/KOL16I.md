@@ -25,7 +25,7 @@ layout: problem
 ---
 All submissions for this problem are available.Sarah is an engineer assigned to build roads between the **N** towns of Evoland. Towns are assigned IDs from **1** to **N**. A road connects exactly one pair of towns, and is bidirectional.
 
-The mayor of Evoland allocated a very small budget for this project. Thus, Sarah is forced to build _as few roads as possible_ while still keeping all **N** towns connected via roads. Note that this is an **absolute requirement**; any network not satisfying this will not be accepted by the mayor.
+The mayor of Evoland allocated a very small budget for this project. Thus, Sarah is forced to build *as few roads as possible* while still keeping all **N** towns connected via roads. Note that this is an **absolute requirement**; any network not satisfying this will not be accepted by the mayor.
 
 On top of this absolute requirement, Sarah still can't just build the roads however she wants. She has to consider the visiting habits of tourists, who are very picky with which towns they visit. She found out that tourists don't visit towns which are "too similar".
 
@@ -68,6 +68,7 @@ If it's not possible to make such a network of roads at all, just output **-1** 
 2 3
 2 4
 -1</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 The first case corresponds to the network described in the problem statement. In the second case, it is impossible to find a network for **5** towns such that the attractiveness is equal to **234**, so we output **-1**.

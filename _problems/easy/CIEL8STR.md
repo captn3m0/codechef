@@ -30,8 +30,12 @@ Print the number of ways in which Ciel can choose consecutive digits which denot
 
 ### Sample Input
 
-`5858`### Sample Output
+<pre>5858
+</pre>
+### Sample Output
 
-`2`### Output details
+<pre>2
+</pre>
+### Output details
 
 Ciel can choose 5, 8, 5, 8, 58, 85, 58, 585, 858 and 5858. Here, only 8 and 8 are multiples of 8.

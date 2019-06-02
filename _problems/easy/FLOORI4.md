@@ -69,7 +69,7 @@ time:
     current: 1493558145
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/SEPT14/mandarin/FLOORI4.pdf) and [Russian](http://www.codechef.com/download/translated/SEPT14/russian/FLOORI4.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/SEPT14/mandarin/FLOORI4.pdf) and [Russian](http://www.codechef.com/download/translated/SEPT14/russian/FLOORI4.pdf).
 
 Your task is simple. 
 
@@ -107,6 +107,7 @@ There are two types of datasets:
 
 <b>Output:</b>
 373
-</pre>### Explanation
+</pre>
+### Explanation
 
 14\*4 + 24\*2 + 34\*1 + 44\*1 = 373

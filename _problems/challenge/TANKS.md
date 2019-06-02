@@ -103,8 +103,8 @@ Every tank type has different armour, and therefore we need different kinds of b
 More detail about **serial\_id generator**:
 
 - **normal** sequence: 0, 1, 2, 3, … is the sequence of non-negative integers.
-- **prime** sequence: the ith element is the (ith prime number + 1) / 2 _(integer division)_. So, the sequence is: 1, 2, 3, 4, 6 ….
-- **Ulam(1,2)** sequence: 1, 2, 3, 5, …. You can read more about this sequence [here.](https://en.wikipedia.org/wiki/Ulam_number)
+- **prime** sequence: the ith element is the (ith prime number + 1) / 2 *(integer division)*. So, the sequence is: 1, 2, 3, 4, 6 ….
+- **Ulam(1,2)** sequence: 1, 2, 3, 5, …. You can read more about this sequence [ here.](https://en.wikipedia.org/wiki/Ulam_number)
 - **Ulam(2,3)** sequence: 2, 3, 5, 7, ….
 
 So the serial\_id of the ith tank will be start\_id ± the ith number in the sequence. (plus if the direction of the serial id generator was setup with the direction parameter as **increment**, minus otherwise). e.g. SerialGenerator(start\_id = 12345, increasing, Ulam(1,2)) will produce the following **serial\_id**'s: 12346, 12347, 12348, 12350, 12352 ….

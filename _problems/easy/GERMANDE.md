@@ -129,7 +129,8 @@ For all subtasks you may assume that:
 1
 1
 0
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first testcase, each state should have only 1 district, and hence, there is no actual choice in constructing the states. There will be three One Governors, and two Zero Governors, and hence the President will be a One.
 

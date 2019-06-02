@@ -28,7 +28,8 @@ For each test case, print on a single line the smallest positive integer whose p
 486
 220703118
 0
-</pre>### Sample output:
+</pre>
+### Sample output:
 
 <pre>28
 699

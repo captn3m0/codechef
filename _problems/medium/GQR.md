@@ -123,7 +123,8 @@ For each query, print a single line containing the maximum GCD.
 1
 2
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 The answers to the queries are GCDs of the following pairs:
 

@@ -74,14 +74,8 @@ layout: problem
 ---
 All submissions for this problem are available.### Read problems statements in [Mandarin chinese](http://www.codechef.com/download/translated/LTIME54/mandarin/SMRSTR.pdf), [Russian](http://www.codechef.com/download/translated/LTIME54/russian/SMRSTR.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME54/vietnamese/SMRSTR.pdf) as well.
 
-Chef found a very useful open-source code for the current problem. Unfortunately, one fragment of code isn't optimized. Consider that problem: given an array **D** of size **N** and **Q** queries **X** to the following open-source code: **```
-<br></br>
-read X<br></br>
-for i = 1..N:<br></br>
-    X = floor(X / D[i])<br></br>
-print X<br></br>
+Chef found a very useful open-source code for the current problem. Unfortunately, one fragment of code isn't optimized. Consider that problem: given an array **D** of size **N** and **Q** queries **X** to the following open-source code: **`<br></br>read X<br></br>for i = 1..N:<br></br>    X = floor(X / D[i])<br></br>print X<br></br>`**Help Chef to optimize that code for all possible **X**, he will be very thankful :) ### Input
 
-<pre>**Help Chef to optimize that code for all possible **X**, he will be very thankful :) ### Input
 The first line of the input contains an integer **T** denoting the number of test cases. The description of **T** test cases follows. The first line of each test case contains two integers - **N** and **Q**. The second line contains array **D**. The third line contains **Q** queries - **X1**, **X2**, ..., **XQ**. 
 ### Output
 
@@ -101,7 +95,7 @@ For every test case in single line output **Q** integers - for each **Xi** outpu
 
 ### Example
 
-</pre><b>Input:</b>
+<pre><b>Input:</b>
 2
 2 3
 2 3
@@ -112,6 +106,7 @@ For every test case in single line output **Q** integers - for each **Xi** outpu
 <b>Output:</b>
 0 16 1
 2 1
-<pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** \[\[5 / 2\] / 3\] = 0, \[\[100 / 2\] / 3\] = 16, \[\[8 / 2\] / 3\] = 1

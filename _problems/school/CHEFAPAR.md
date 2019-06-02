@@ -122,7 +122,8 @@ For each test case, output a single integer denoting the total amount including 
 2200
 2300
 1200
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** Chef paid maintenance fees for both the months. So, he does not have any dues left.
 

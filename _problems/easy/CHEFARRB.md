@@ -73,7 +73,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/COOK77/mandarin/CHEFARRB.pdf), [Russian](http://www.codechef.com/download/translated/COOK77/russian/CHEFARRB.pdf) and [Vietnamese](http://www.codechef.com/download/translated/COOK77/vietnamese/CHEFARRB.pdf) as well.
 
-Chef has array **A** consisting of **N** integers. He calls a sub-array of the array _good_ if the [bitwise OR](https://en.wikipedia.org/wiki/Bitwise_operation#OR) of all the elements in it is greater or equal than number **K**. Please help him to find out how many sub-arrays of array **A** are _good_!
+Chef has array **A** consisting of **N** integers. He calls a sub-array of the array *good* if the [bitwise OR](https://en.wikipedia.org/wiki/Bitwise_operation#OR) of all the elements in it is greater or equal than number **K**. Please help him to find out how many sub-arrays of array **A** are *good*!
 
 ### Input
 
@@ -85,7 +85,7 @@ Second line contains **N** space separated non-negative integers denoting array 
 
 ### Output
 
-For each test case, output an integer corresponding to the number of _good_ sub-arrays of **A** in separate line.
+For each test case, output an integer corresponding to the number of *good* sub-arrays of **A** in separate line.
 
 ### Constraints
 

@@ -82,7 +82,7 @@ Today, Chef came up with the following problem:
 
 Consider two arrays **a** and **b** with the same size. Denote the multisets of all elements of arrays **a** and **b** by **MA** and **MB** respectively.
 
-The arrays **a**, **b** are _isomorphic_ if it's possible to find a bijective function **f**: Z → Z which satisfies the following rules:
+The arrays **a**, **b** are *isomorphic* if it's possible to find a bijective function **f**: Z → Z which satisfies the following rules:
 
 - Let's construct a new multiset **MF**. For each element **x** of **MA**, we should insert **f**(**x**) into **MF**.
 - The multisets **MF** and **MB** should be identical.
@@ -140,7 +140,8 @@ NO
 YES
 YES
 YES
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:**
 

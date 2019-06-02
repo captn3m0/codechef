@@ -31,11 +31,13 @@ For each test case, output on a single line the minimum number of candies the ch
 4 1
 1 1
  
-</pre>**Output 1:**
+</pre>
+**Output 1:**
 
 <pre>3
  
-</pre>In this example, the chef purchases one of each candy and combines them to form a candy with 10 grams chocolate and 10 grams caramel.
+</pre>
+In this example, the chef purchases one of each candy and combines them to form a candy with 10 grams chocolate and 10 grams caramel.
 
 **Input 2:**
 
@@ -45,11 +47,13 @@ For each test case, output on a single line the minimum number of candies the ch
 10 15
 5 8
  
-</pre>**Output 2:**
+</pre>
+**Output 2:**
 
 <pre>-1
  
-</pre>### Constraints:
+</pre>
+### Constraints:
 
 1 ≤ N ≤ 15
  1 ≤ Chocolatei ≤ 500

@@ -66,7 +66,7 @@ time:
     current: 1493556759
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/APRIL14/mandarin/LMATRIX3.pdf) and [Russian](http://www.codechef.com/download/translated/APRIL14/russian/LMATRIX3.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/APRIL14/mandarin/LMATRIX3.pdf) and [Russian](http://www.codechef.com/download/translated/APRIL14/russian/LMATRIX3.pdf).
 
 ### Problem description.
 
@@ -167,7 +167,8 @@ denoting the minimal number of the moves for erasing all non zero numbers from t
 2
 5
 
-</pre>### Explanation
+</pre>
+### Explanation
 
  **Example case 1:**  All numbers are zero.
 

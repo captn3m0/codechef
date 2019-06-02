@@ -85,7 +85,9 @@ For x = 1 to n:
     is within this rectangle.
     This means B[p][q] += A[x][y] if I <= p <= K and J <= q <= L.
 
-</pre>A city is constructed, which has **n \* m** houses. The house located at **(i, j)** has height **B\[i\]\[j\]** above sea level. After **X** amount of rainfall, all houses whose height is less than or equal to **X** are submerged in water.
+</pre>
+
+A city is constructed, which has **n \* m** houses. The house located at **(i, j)** has height **B\[i\]\[j\]** above sea level. After **X** amount of rainfall, all houses whose height is less than or equal to **X** are submerged in water.
 
 Note than in the above construction, the heights of houses inside the city are not constant, but vary based on outcome of the previous algorithm.
 
@@ -124,7 +126,8 @@ For each test case, for each query, output a single line containing the smallest
 
 <b>Output:</b>
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 These are the following possible values of B:
 
@@ -136,5 +139,6 @@ These are the following possible values of B:
 2 5
 
 5 5
-</pre>All these four values of **B** appear with same probability, 1/4. The expected number of houses submerged when X = 3 is (2 \* 1/4 + 1 \* 1/4 + 1 \* 1/4 + 0 \* 1/4) = 1.
+</pre>
+All these four values of **B** appear with same probability, 1/4. The expected number of houses submerged when X = 3 is (2 \* 1/4 + 1 \* 1/4 + 1 \* 1/4 + 0 \* 1/4) = 1.
 if rainfall is less than 3, then the expected number of submerged houses is less than 1.

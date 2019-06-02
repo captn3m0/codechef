@@ -118,12 +118,14 @@ For each test case, output a single integer on a new line corresponding to the n
 0 1 1 1 0 1 1 0 1 1
 5
 0 1 0 1 1
-</pre>**Output:**
+</pre>
+**Output:**
 
 <pre>
 7
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Test case 1:**
 

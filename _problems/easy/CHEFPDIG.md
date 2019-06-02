@@ -90,8 +90,8 @@ For each test case, output a string containing characters Chef can pick **in sor
 
 ### Subtasks
 
-- _Subtask #1 (40 points)_ **N** ≤ **1010**
-- _Subtask #2 (60 points)_ **Original Constraints**
+- *Subtask #1 (40 points)* **N** ≤ **1010**
+- *Subtask #2 (60 points)* **Original Constraints**
 
 ### Example
 
@@ -107,7 +107,8 @@ A
 AB
 
 ACDFGHIJKLNPQRSTUVW
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** Chef can pick digits **6** and **5** and create integers 56 and 65. The integer 65 corresponds to 'A'.
 

@@ -66,9 +66,9 @@ All submissions for this problem are available.###  Read problems statements in 
 
 Sereja likes [arithmetic progressions](https://en.wikipedia.org/wiki/Arithmetic_progression) a lot. An infinite arithmetic progression **(a, r)** is determined by its initial term and difference of consecutive terms, denoted by **a, r** respectively.
 
-He defines _mutual attraction_ of some array **A** of size **N** with an infinite arithmetic progression **(a, r)**, as **|A1 - a| + |A2 - (a + r)| + .. + |Ai - (a + r \* (i - 1)| + .. + |AN - (a + r \* (N - 1)|**, where **|x|** denotes [absolute value](https://en.wikipedia.org/wiki/Absolute_value) of **x**.
+He defines *mutual attraction* of some array **A** of size **N** with an infinite arithmetic progression **(a, r)**, as **|A1 - a| + |A2 - (a + r)| + .. + |Ai - (a + r \* (i - 1)| + .. + |AN - (a + r \* (N - 1)|**, where **|x|** denotes [absolute value](https://en.wikipedia.org/wiki/Absolute_value) of **x**.
 
-He has an array **A** of size **N** with him. He wants to find some infinite arithmetic progression with which its _mutual attraction_ is minimized. Also, he is allowed to perform following operations on this array.
+He has an array **A** of size **N** with him. He wants to find some infinite arithmetic progression with which its *mutual attraction* is minimized. Also, he is allowed to perform following operations on this array.
 
 1. Swap operation: Take any two indices **i, j** of the array **A**, and swap **Ai**, **Aj**
 2. Delete operation: Delete some element of the array **A**. Please note that after the deletion, the indices of array are not re-enumerated or re-adjusted.
@@ -79,7 +79,7 @@ So, you have to help Sereja in deciding how these operations should be performed
 
 For each test file, there will be a single test case.
 
-Your score for a single test file will be _mutual attraction_ of the modified array **A** and the infinite arithmetic progression provided by you, divided by the initial size of array **N**. Your target is to minimize the score.
+Your score for a single test file will be *mutual attraction* of the modified array **A** and the infinite arithmetic progression provided by you, divided by the initial size of array **N**. Your target is to minimize the score.
 
 ### Input
 
@@ -120,7 +120,8 @@ Please note that you should ensure that indices that you are trying to swap or d
 2 1
 1 2 3
 -1
-</pre>### Explanation
+</pre>
+### Explanation
 
 In this case, the array **A** is **\[1, 2, 3\]**. Sereja can perform at max one swap and at max one deletion operation.
 
@@ -128,7 +129,7 @@ He first delete index 1, the new array becomes **\[1, 2, 3\]**, in which index 1
 
 After that he makes a swap operation between index 2 and 3. So, at the end the array will be \[1 3 2\], where the index 1 is deleted.
 
-In the end, the non-deleted elements in the array will be \[3, 2\]. The _Mutual attraction_ of this array with infinite arithmetic progression (0, 1) will be |3 - 0| + |2 - 1| = 4. So, he will get a score of 4 / 3 = 1.3333.
+In the end, the non-deleted elements in the array will be \[3, 2\]. The *Mutual attraction* of this array with infinite arithmetic progression (0, 1) will be |3 - 0| + |2 - 1| = 4. So, he will get a score of 4 / 3 = 1.3333.
 
 ### Test Generation Scheme
 

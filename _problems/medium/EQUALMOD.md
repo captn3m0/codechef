@@ -71,7 +71,8 @@ For each testcase, output a single line containing the minimum number of operati
 <b>Output:</b>
 3
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
  **Example case 1.** **A1** can be increased from **4** to **7** in **3 operations** so that:
 

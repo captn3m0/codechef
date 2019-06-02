@@ -112,7 +112,8 @@ For each test case, **output a single integer** - the number of **sub-sequences*
 7
 1
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Test Case 1:** The following 11 sub-sequences are counted.
 

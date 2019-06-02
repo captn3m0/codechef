@@ -109,7 +109,8 @@ Use fast I/O methods since the size of the output is large.
 -1
 1 2
 5 4 3 2 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example 1.** There doesn't exist any permutation of numbers \[1, 2, 3, 4\] that can have its f value equal to 4. Hence answer is -1.
 

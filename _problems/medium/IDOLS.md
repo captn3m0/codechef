@@ -73,7 +73,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 Mike is a cool kid, so he's the most popular person in his school. All the girls want to be with him while all the boys want to be like him.
 
-There are **N** persons in Mike's school. No person in the school has a name(except Mike), but all of them have a unique ID integer number for the range\[1..**N**\]. Mike's ID equals to 1. Also, each person(except Mike) has his/her _personal idol_, who is another person from the school. Finally, each person **X** has an integer number **AX**.
+There are **N** persons in Mike's school. No person in the school has a name(except Mike), but all of them have a unique ID integer number for the range\[1..**N**\]. Mike's ID equals to 1. Also, each person(except Mike) has his/her *personal idol*, who is another person from the school. Finally, each person **X** has an integer number **AX**.
 
 Let's define functions **F** and **G** for a person with ID equals to **X**:
 
@@ -125,7 +125,8 @@ For each query of the second type, output a single line containing two integers,
 
 <b>Output:</b>
 5 5
-</pre>### Explanations
+</pre>
+### Explanations
 
 In the input, before the second query, **F**'s and **G's** equals to the following:
 

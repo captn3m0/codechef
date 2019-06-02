@@ -68,7 +68,7 @@ time:
     current: 1493557944
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME19/mandarin/TASTRMAT.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME19/russian/TASTRMAT.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME19/mandarin/TASTRMAT.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME19/russian/TASTRMAT.pdf).
 
 In this problem we will have a few definitions as described below:
 
@@ -132,7 +132,8 @@ So overall, your output should be **K** lines, each containing the hash value co
 300003
 993599731
 400004
-</pre>### Explanation:
+</pre>
+### Explanation:
 
 **First test case:**  **A** = "10101", **B** = "101".
 The Hamming distances sequence will be (0, 3, 0) and the hash value of this sequence is 300003.

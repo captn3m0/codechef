@@ -129,7 +129,8 @@ EEOO
 
 yes
 no
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** The firm can prepare 2 patents per month, so in the first month (odd), workers 3 and 4 can work on 2 patents, and in the second month (even), workers 1 and 2 can work on the remaining 2 patents.
 

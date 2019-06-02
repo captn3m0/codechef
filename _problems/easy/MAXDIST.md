@@ -68,7 +68,7 @@ time:
     current: 1493558167
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/SNCK15EL/mandarin/MAXDIST.pdf) , [Russian](http://www.codechef.com/download/translated/SNCK15EL/russian/MAXDIST.pdf) and [Vietnamese](http://www.codechef.com/download/translated/SNCK15EL/vietnamese/MAXDIST.pdf)
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/SNCK15EL/mandarin/MAXDIST.pdf) , [Russian](http://www.codechef.com/download/translated/SNCK15EL/russian/MAXDIST.pdf) and [Vietnamese](http://www.codechef.com/download/translated/SNCK15EL/vietnamese/MAXDIST.pdf)
 
 Chef recently read about trees. He already learnt that the trees are undirected, simple, connected graphs and has no cycles. He also knows that the tree (or graph) diameter is the largest distance of two nodes in the tree (or graph). He finds out about a challenging problem: Can we decrease the diameter of the tree if we add just a single edge? Unfortunately he is tired from a lot of reading, so could you help him to solve the problem?
 
@@ -105,7 +105,8 @@ For each test case, output a single line print "YES" if it is possible to add a 
 NO
 YES
 YES
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** In this example, we can use just cycle edges, or a parallel edge but these edges don't change the distance of the 1-2 nodes. ![HTML5 Icon](https://dl.dropboxusercontent.com/u/61869957/example1.bmp)
 

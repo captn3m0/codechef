@@ -70,7 +70,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/APRIL17/mandarin/CHEFDIV.pdf), [Russian](http://www.codechef.com/download/translated/APRIL17/russian/CHEFDIV.pdf) and [Vietnamese](http://www.codechef.com/download/translated/APRIL17/vietnamese/CHEFDIV.pdf) as well.
 
-Chef has defined a new type of rooted tree - _divisor tree_. In this tree, every node has a positive integer written on it. It follows some rules:
+Chef has defined a new type of rooted tree - *divisor tree*. In this tree, every node has a positive integer written on it. It follows some rules:
 
 - The root can have any positive integer written on it.
 - Suppose a node has the integer A written on it, and suppose A has k [proper divisors](http://mathworld.wolfram.com/ProperDivisor.html). \[Note: Proper divisors of an integer are all its divisors except the integer itself. 1 has no proper divisor\] Then this node will have exactly k child nodes, and each of A's proper divisors will be written on exactly one of the child nodes. For example, a node with number 12 written on it would have children with the numbers 1, 2, 3, 4, and 6 written on them.
@@ -79,7 +79,7 @@ You can observe that the nodes have 1 written on them, if and only if, they are 
 
 The score of a path in this tree is defined as the sum of degrees of all of the nodes in the path. The Score of the tree is defined as the maximum score of a path **from the root to one of the leaves**.
 
-You are given two integers **A, B**. You want to find the sum of Scores of all the _divisor trees_ which have n written on their root, where **A** ≤ n ≤ **B**.
+You are given two integers **A, B**. You want to find the sum of Scores of all the *divisor trees* which have n written on their root, where **A** ≤ n ≤ **B**.
 
 ### Input
 
@@ -120,18 +120,20 @@ Output a single integer corresponding to the answer of the problem.
 
 <b>Output 1:</b>
 14
-</pre><pre><b>Input 2:</b>
+</pre>
+<pre><b>Input 2:</b>
 932451 935212
 
 <b>Output 2:</b>
 101245
-</pre>###   **Explanation**  
+</pre>
+###   **Explanation**  
 
 **Input 1.**
 
 Here we have, **A** = 11 and **B** = 12.
 
-The Score of the _divisor tree_ which has 12 written on its root is 12. This because the path 12 -> 6 -> 3 -> 1 (look at the figure below) has sum of the degrees of all nodes in it = 5 + 4 + 2 + 1 = 12. This is the maximum score of a path among all paths from root to the leaves. Hence, the Score of this tree is 12. ![](https://codechef_shared.s3.amazonaws.com/download/upload/APRIL17/chefdiv.png)
+The Score of the *divisor tree* which has 12 written on its root is 12. This because the path 12 -> 6 -> 3 -> 1 (look at the figure below) has sum of the degrees of all nodes in it = 5 + 4 + 2 + 1 = 12. This is the maximum score of a path among all paths from root to the leaves. Hence, the Score of this tree is 12. ![](https://codechef_shared.s3.amazonaws.com/download/upload/APRIL17/chefdiv.png)
 
 Note that in the figure, the nodes are denoted by (value written on it, degree of node), and the leaves are marked green.
 

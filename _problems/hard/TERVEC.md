@@ -82,7 +82,7 @@ Let's call the following transformation a **TVT-transformation** (Terrible Vecto
 
 ![](https://s3.amazonaws.com/codechef_shared/download/SEPT15/TERVEC1.jpg)
 
-We will call a vector **g** a _good_ vector if 
+We will call a vector **g** a *good* vector if 
 ![](https://s3.amazonaws.com/codechef_shared/download/SEPT15/TERVEC2.jpg)
 
 For some reason, you want to find a vector **a** of length **N2** such that it's elements are either **1** or **-1** and after applying **TVT-transformation** (i.e. **b**), it results in a good vector.
@@ -115,7 +115,8 @@ YES
 YES
 1 1 1 -1
 
-</pre>### Subtasks
+</pre>
+### Subtasks
 
 **Subtask 1:(10 points)**
 

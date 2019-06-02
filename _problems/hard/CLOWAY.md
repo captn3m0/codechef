@@ -74,12 +74,12 @@ time:
     current: 1493556662
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/AUG15/mandarin/CLOWAY.pdf) and [Russian](http://www.codechef.com/download/translated/AUG15/russian/CLOWAY.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/AUG15/mandarin/CLOWAY.pdf) and [Russian](http://www.codechef.com/download/translated/AUG15/russian/CLOWAY.pdf).
 
 **2367. The Earth.**  
 The world we know doesn't exist anymore. All has been changed during the inevitable evolution, but only Chef retains his former self.
 
-Peoples don’t play ordinary draughts we know, mankind has enhanced it. Present games are held on an undirected graph, instead of the board. Before a game starts, one player chooses a vertex of the graph and puts a checker (called the _game checker_) on it. Then the players take turns alternately. In a single turn, a player moves the game checker from its current vertex, say **v**, to some neighbour (see note) of **v**. The game goes on until one of the players surrenders. The player who moves last is considered as the winner. This game may seems to you confusing. Strange even, and imperfect, but don’t bother about it.
+Peoples don’t play ordinary draughts we know, mankind has enhanced it. Present games are held on an undirected graph, instead of the board. Before a game starts, one player chooses a vertex of the graph and puts a checker (called the *game checker*) on it. Then the players take turns alternately. In a single turn, a player moves the game checker from its current vertex, say **v**, to some neighbour (see note) of **v**. The game goes on until one of the players surrenders. The player who moves last is considered as the winner. This game may seems to you confusing. Strange even, and imperfect, but don’t bother about it.
 
 Chef would like to become the best in this game so he needs training. During training, Chef plays by himself. Being very tired, all of his moves are absolutely random as well as his choice for the initial position of the game checker. He has **T** game-graphs (indexed **1** to **T**), and a very tiresome trainer who forces him to train again and again. For the **i**th training session, the trainer gives 3 numbers to Chef: **Li**, **Ri**, and **Ki**. Chef has to carry out a few simultaneous games against himself on game-graphs indexed between **Li** and **Ri** (both included).
 
@@ -163,7 +163,8 @@ For each query, print a single integer - the number Chef would like to find out 
 28
 22
 915822
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**
 Starts from: (ways of play with length in range \[1, 4\]) 

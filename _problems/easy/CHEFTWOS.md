@@ -82,7 +82,7 @@ Chef's Dog will tell by barking if a string **x** (also containing only digits *
 - It **must** visit each digit **exactly** once.
 - It **must** finish at the last digit (**XN**).
 
-Chef's dog wants to make both the strings **a** and **b** _good_ by choosing some subset **S** (possibly empty) of indices of set **{1, 2, ..., n}** and swapping each index **i ϵ S** between string **a** and **b**, i.e. swapping **ai** and **bi**. Can you find how many such subsets **S** exist out there? As the answer could be large, output it modulo **109 + 7**.
+Chef's dog wants to make both the strings **a** and **b** *good* by choosing some subset **S** (possibly empty) of indices of set **{1, 2, ..., n}** and swapping each index **i ϵ S** between string **a** and **b**, i.e. swapping **ai** and **bi**. Can you find how many such subsets **S** exist out there? As the answer could be large, output it modulo **109 + 7**.
 
 ### Input
 
@@ -119,7 +119,8 @@ For each test case, output a single line containing answer of the problem.
 <b>Output:</b>
 8
 0
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Test case 1.**Possible subsets are: **{}**, **{1, 2}**, **{1, 2, 3}**, **{1, 2, 4}**, **{1, 2, 3, 4}**, **{3}**, **{4}**, **{3, 4}**.
 

@@ -67,7 +67,7 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JAN15/mandarin/SEAND2.pdf) and [Russian](http://www.codechef.com/download/translated/JAN15/russian/SEAND2.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JAN15/mandarin/SEAND2.pdf) and [Russian](http://www.codechef.com/download/translated/JAN15/russian/SEAND2.pdf).
 
 Sereja has an integer number **A** that doesn't contain zeroes in its decimal form.
 Also he has **N** integers **B\[1\], B\[2\], ..., B\[N\]**.
@@ -110,7 +110,8 @@ For each test case, output optimal value of **A** after reordering digits in a s
 312
 754312
 
-</pre>### Scoring
+</pre>
+### Scoring
 
 Let **Y** denotes your score for the problem. **Y** is defined as sum of **f(optimal A))** for all test cases.
 You objective is to make **Y** as small as possible.

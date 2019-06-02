@@ -73,7 +73,7 @@ time:
     current: 1493558214
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME31/mandarin/DISTCODE.pdf), [Russian](http://www.codechef.com/download/translated/LTIME31/russian/DISTCODE.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME31/vietnamese/DISTCODE.pdf) as well.
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME31/mandarin/DISTCODE.pdf), [Russian](http://www.codechef.com/download/translated/LTIME31/russian/DISTCODE.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME31/vietnamese/DISTCODE.pdf) as well.
 
 Sergey recently learned about **country codes** - two letter strings, denoting countries. For example, **BY** stands for Belarus and **IN** stands for India. Mesmerized by this new discovery, Sergey now looks for country codes everywhere!
 
@@ -105,7 +105,8 @@ BYBY</tt>
 <b>Output:</b>
 <tt>3
 2</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** The codes are **IN**, **NB** and **BY**.
 

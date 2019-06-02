@@ -74,7 +74,7 @@ time:
     current: 1493556690
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/AUG15/mandarin/DISTNUM.pdf) and [Russian](http://www.codechef.com/download/translated/AUG15/russian/DISTNUM.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/AUG15/mandarin/DISTNUM.pdf) and [Russian](http://www.codechef.com/download/translated/AUG15/russian/DISTNUM.pdf).
 
 Given an array **A** consisting of **N** positive integers, and **Q** queries on it. The queries can be of five types:
 
@@ -155,7 +155,8 @@ For each query of **type 1** or **type 5**, output the answer to the query in a 
 0
 6
 
-</pre>### Subtasks
+</pre>
+### Subtasks
 
 - **Subtask 1:** **Q**\***N** ≤ 2\*107. **Points - 10**
 - **Subtask 2:** Queries are of type 5 only. **Points - 5**

@@ -51,6 +51,7 @@ For each test case, output a single line containing a permutation of the sequenc
 6 2
 2 10 2 8 3 6
 <pre>
+
 **Output:**```
 
 42

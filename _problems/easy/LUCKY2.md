@@ -100,7 +100,8 @@ For each of the **T** test cases print one integer, the number of such **X**, th
 16
 640
 2
-</pre>### Notes
+</pre>
+### Notes
 
 First test case: of course, any number of less than 4 digits can't contain lucky number of lucky digits, so the answer is 0.
 

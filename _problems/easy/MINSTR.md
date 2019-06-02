@@ -111,7 +111,8 @@ a b a b
 <b>Output</b>
 3
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Testcase 1:**
 

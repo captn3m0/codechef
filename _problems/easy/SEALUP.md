@@ -75,7 +75,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 January and February are usually very cold in ChefLand. The temperature may reach -20 and even -30 degrees Celsius. Because of that, many people seal up windows in their houses.
 
-Sergey also lives in ChefLand. He wants to seal the window in his house. The window has the shape of a [simple convex polygon](https://en.wikipedia.org/wiki/Convex_polygon) with **N** vertices.
+Sergey also lives in ChefLand. He wants to seal the window in his house. The window has the shape of a [ simple convex polygon](https://en.wikipedia.org/wiki/Convex_polygon) with **N** vertices.
 
 For the sealing, there are **M** kinds of sticky stripes, which are sold in the shops. The stripe of the **i**th type has the length of **Li** millimeters and the cost of **Ci** rubles.
 
@@ -128,6 +128,7 @@ For each test case, output a single line containing the minimum cost of sealing 
 
 <b>Output:</b>
 <tt>50</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** In this case, Sergey's window is a rectangle with the side lengths of **1000** and **2000**. There are two types of the sticky stripes in the shop - the one of the length 1000 with the cost of 10 rubles and with the length of 2000 and the cost of 15 rubles. The optimal solution would be to buy **2** stripes of the first type **2** stripes of the second type. The cost will be **2 × 15 + 2 × 10 = 50** rubles.

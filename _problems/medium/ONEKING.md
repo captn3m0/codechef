@@ -70,7 +70,7 @@ time:
     current: 1493557830
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JAN15/mandarin/ONEKING.pdf) and [Russian](http://www.codechef.com/download/translated/JAN15/russian/ONEKING.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JAN15/mandarin/ONEKING.pdf) and [Russian](http://www.codechef.com/download/translated/JAN15/russian/ONEKING.pdf).
 
 **N** one dimensional kingdoms are represented as intervals of the form **\[ai , bi\]** on the real line.
 A kingdom of the form **\[L, R\]** can be destroyed completely by placing a bomb at a point **x** on the real line if **L
@@ -107,7 +107,8 @@ Subtask 3 (50 points) : **1 ≤ T ≤ 20 , 1 ≤ N ≤ 105, 0 ≤ ai ≤ bi ≤ 
 
 <b>Output:</b>
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 There are three kingdoms \[1,3\] ,\[2,5\] and \[6,9\]. You will need at least 2 bombs
 to destroy the kingdoms. In one of the possible solutions, you can place two bombs at x = 2 and x = 6 .

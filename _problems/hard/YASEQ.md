@@ -40,12 +40,14 @@ For each test case, output Q integers on a line, one per query, indicating the r
 5 4
 5 6 5 6 5
 6 14 22 29
-</pre>### Sample Output
+</pre>
+### Sample Output
 
 <pre>3 3 3 3
 3 4 4 5 3 4 4 4 4 4 4
 5 5 5 5
-</pre>### Constraints
+</pre>
+### Constraints
 
 - T≤100
 - 0<N≤100000
@@ -53,4 +55,4 @@ For each test case, output Q integers on a line, one per query, indicating the r
 - Each query will be between 0 and 10^15, inclusive
 - The sum of N+Q over all test cases will not exceed 500000
 
-_Warning: Large input/output._
+*Warning: Large input/output.*

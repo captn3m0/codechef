@@ -70,7 +70,7 @@ time:
     current: 1493556801
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/NOV13/mandarin/QPOINT.pdf) and [Russian](http://www.codechef.com/download/translated/NOV13/russian/QPOINT.PDF).
+All submissions for this problem are available.###  Read problems statements in [ Mandarin Chinese ](http://www.codechef.com/download/translated/NOV13/mandarin/QPOINT.pdf) and [ Russian](http://www.codechef.com/download/translated/NOV13/russian/QPOINT.PDF).
 
 Let's solve a realistic problem now! You are given the world map where each country is a polygon on the 2D plane. You may already now that the Global Positioning System can help you to know your current coordinate. So how can you determine which country are you in? That what you need to figure out in this problem. We will give you more detail about input and output description now
 
@@ -89,7 +89,7 @@ You have to answer **Q** queries, each query requires you to find the polygon th
 
 For each query you print out one number which is the index of the country that contains the query point. Print out **-1** if there is no country contains that point.
 
- **_Attention:_** the program should clear the output buffer after printing each line. It can be done using fflush(stdout) command or by setting the proper type of buffering at the beginning of the execution - setlinebuf(stdout).
+ ***Attention:*** the program should clear the output buffer after printing each line. It can be done using fflush(stdout) command or by setting the proper type of buffering at the beginning of the execution - setlinebuf(stdout).
 
 ### Constraints
 
@@ -113,7 +113,8 @@ For each query you print out one number which is the index of the country that c
 -1
 1
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** The test case is represented in figure below.
 The first country is the rectangle ABCD and the second country is a triangle EFG. Notice that the point J at coordinate (6, 2) is considered to be inside the second country when it is on the boundary of this country

@@ -60,7 +60,8 @@ Print **N** space separated values on a single line where the ith value is the e
 
 <b>Output:</b>
 1.625000 1.375000
-</pre>### Explanation
+</pre>
+### Explanation
 
 Finding expected number of balls removed in Round 1: The probability of extracting the first ball in the first try is 3/8. Therefore, we will either extract 1 ball with probability 3/8 or two balls with probability 5/8. Expected number of balls extracted therefore is 3/8 + 2 \* (5/8) = 1.625.
 

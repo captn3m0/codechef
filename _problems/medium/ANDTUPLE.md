@@ -71,11 +71,11 @@ time:
     current: 1493557462
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME17/mandarin/ANDTUPLE.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME17/russian/ANDTUPLE.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME17/mandarin/ANDTUPLE.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME17/russian/ANDTUPLE.pdf).
 
-A pair of non-negative integers (A,B) is called _and-pair_ if **A & B = B**, i.e., bitwise-and of A and B is equal to B. Similarly, a tuple of K non-negative integers (A1,A2,A3 .. AK) is called _and-tuple_ if **Ai & Ai+1 = Ai+1** for 1≤i≤K-1.
+A pair of non-negative integers (A,B) is called *and-pair* if **A & B = B**, i.e., bitwise-and of A and B is equal to B. Similarly, a tuple of K non-negative integers (A1,A2,A3 .. AK) is called *and-tuple* if **Ai & Ai+1 = Ai+1** for 1≤i≤K-1.
 
-Given two integers **N** and **K**, how many _and-tuples_ of size K exist such that the sum of the elements of the tuple is N?
+Given two integers **N** and **K**, how many *and-tuples* of size K exist such that the sum of the elements of the tuple is N?
 
 ### Input
 
@@ -88,17 +88,22 @@ For each testcase, print a single line containing the answer. Since the number c
 ### Constraints
 
 
-<pre></pre>11. **For 20 points:** 1 ≤ T ≤ 10000, K = 3, 1 ≤ N ≤ 1018
+<pre></pre>
+11. **For 20 points:** 1 ≤ T ≤ 10000, K = 3, 1 ≤ N ≤ 1018
 12. **For 80 points:** 1 ≤ T ≤ 10000, 3 ≤ K ≤ 4, 1 ≤ N ≤ 1018
 ### Example
 
 **Input:**
 
-`2<br></br>3 2<br></br>4 2<br></br>`
+<pre>2<br></br>3 2<br></br>4 2<br></br>
+</pre>
+
 **Output:**
 
-`2<br></br>2<br></br>`
+<pre>2<br></br>2<br></br>
+</pre>
+
 **Explanation:**
 
-- In the first case, the two _and-tuples_ are (2,0,0) and (1,1,0).
+- In the first case, the two *and-tuples* are (2,0,0) and (1,1,0).
 - In the second case they are (2,0,0,0) and (1,1,0,0).

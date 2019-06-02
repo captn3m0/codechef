@@ -48,13 +48,15 @@ aabb
 bbaa
 bbaa
 
-</pre>**Sample output**
+</pre>
+**Sample output**
 
 <pre>0
 1
 4
 
-</pre>**Explanation**
+</pre>
+**Explanation**
 
 In the first case the only avaliable square does not conform to the definition in the problem statement because 'a' and 'A' describes different colors.
 

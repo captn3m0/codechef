@@ -71,13 +71,13 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MARCH16/mandarin/MAXISUM.pdf), [Russian](http://www.codechef.com/download/translated/MARCH16/russian/MAXISUM.pdf) and [Vietnamese](http://www.codechef.com/download/translated/MARCH16/vietnamese/MAXISUM.pdf) as well.
 
-You are given two integer arrays **A** and **B** each of size **N**. Let us define _interaction_ of arrays **A** and **B** to be the sum of **A\[i\] \* B\[i\]** for each **i** from **1** to **N**.
+You are given two integer arrays **A** and **B** each of size **N**. Let us define *interaction* of arrays **A** and **B** to be the sum of **A\[i\] \* B\[i\]** for each **i** from **1** to **N**.
 
-You want to maximize the value of _interaction_ of the arrays. You are allowed to make at most **K** (possibly zero) operations of following kind.
+You want to maximize the value of *interaction* of the arrays. You are allowed to make at most **K** (possibly zero) operations of following kind.
 
 - In a single operation, you can increase or decrease any of the elements of array **A** by **1**.
 
-Find out the maximum value of _interaction_ of the arrays that you can get.
+Find out the maximum value of *interaction* of the arrays that you can get.
 
 ### Input
 
@@ -130,7 +130,8 @@ Find out the maximum value of _interaction_ of the arrays that you can get.
 <b>Output:</b>
 10
 44
-</pre>### Explanation
+</pre>
+### Explanation
 
 **In the first example**,
-you can increase value **A\[2\]** using two two operations. Now, **A** would be \[1, 4\]. The value of _interaction_ will be 1 \* -2 + 4 \* 3 = -2 + 12 = 10.
+you can increase value **A\[2\]** using two two operations. Now, **A** would be \[1, 4\]. The value of *interaction* will be 1 \* -2 + 4 \* 3 = -2 + 12 = 10.

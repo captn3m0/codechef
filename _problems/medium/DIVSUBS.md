@@ -68,7 +68,7 @@ time:
     current: 1493557918
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME12/mandarin/DIVSUBS.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME12/russian/DIVSUBS.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME12/mandarin/DIVSUBS.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME12/russian/DIVSUBS.pdf).
 
 You are given a multiset of **N** integers. Please find such a nonempty subset of it that the sum of the subset's elements is divisible by **N**. Otherwise, state that this subset doesn't exist.
 
@@ -108,6 +108,7 @@ If there are several such subsets, you can output any.
 1
 2
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 We can pick {6} as the subset, then its sum is 6 and this is divisible by 3 - the size of the initial multiset.

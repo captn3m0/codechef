@@ -69,7 +69,7 @@ time:
     current: 1493556662
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JAN14/mandarin/CNTDSETS.pdf) and [Russian](http://www.codechef.com/download/translated/JAN14/russian/CNTDSETS.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JAN14/mandarin/CNTDSETS.pdf) and [Russian](http://www.codechef.com/download/translated/JAN14/russian/CNTDSETS.pdf).
 
 Chef likes points located at integer coordinates in a space having **N** dimensions. In particular, he likes sets of such points having diameter **exactly equal to D** (called D-sets). The diameter of a set of points is the maximum distance between any pair of points in the set. The distance between two points **(a1,a2,...,aN)** and **(b1,b2,...,bN)** is **max{|a1-b1|, |a2-b2|, ..., |aN-bN|}**.
 
@@ -105,14 +105,16 @@ For each test case (in the order given in the input), output the number of class
 2 10
 3 1
 3 3
-</pre><pre>
+</pre>
+<pre>
 <b>Output:</b>
 512
 9
 498134775
 217
 548890725
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:**
 When **N=1** all the points are arranged in a line. In order to have a diameter equal to **10** each D-set must contain two points at distance **10**. Between two such points there may be up to **9** points which may belong to the D-set or not. Thus, there are **29=512** classes of D-sets.

@@ -70,7 +70,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/DIVIDING/mandarin/DIVIDING.pdf) and [Russian](http://www.codechef.com/download/translated/DIVIDING/russian/DIVIDING.pdf) as well.
 
-Are you fond of collecting some kind of stuff? Mike is crazy about collecting stamps. He is an active member of _Stamp Collecting Сommunity_(SCC).
+Are you fond of collecting some kind of stuff? Mike is crazy about collecting stamps. He is an active member of *Stamp Collecting Сommunity*(SCC).
 
 SCC consists of **N** members which are fond of philately. A few days ago Mike argued with the others from SCC. Mike told them that all stamps of the members could be divided in such a way that **i**'th member would get **i** postage stamps. Now Mike wants to know if he was right. The next SCC meeting is tomorrow. Mike still has no answer.
 
@@ -100,7 +100,8 @@ The first line should contain **YES**, if we can obtain the required division, o
 
 <b>Output:</b>
 YES
-</pre><pre><b>Input:</b>
+</pre>
+<pre><b>Input:</b>
 5
 1 1 1 1 1
 

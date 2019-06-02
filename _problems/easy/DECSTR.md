@@ -28,7 +28,8 @@ Output T lines, one for each test case, containing the required string. Use only
 <pre>2
 1
 2
-</pre>### Sample Output
+</pre>
+### Sample Output
 
 <pre>ba
 cba

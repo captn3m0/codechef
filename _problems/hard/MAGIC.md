@@ -71,7 +71,7 @@ layout: problem
 ---
 All submissions for this problem are available.Two magicians are playing a funny game in a system of **N** rooms and **M** two-way passages between them. The rooms are small and the passages are straight, so no pair of rooms can ever be connected by more than one passage. Moreover, no two passages can ever intersect. The rooms are situated in 3D pretty well, so it's still possible for all pairs of rooms to be connected by passages at once.
 
-Initially the first magician is located at room 1 and the second magician is located at (a candy for guessing!) room 2. Each magician has **P** _telepoints_ before the start. The game consists of _turns_, with the first magician taking the first turn and then both magicians taking turns alternately. Each turn consists of three _phases_. We'll call the magician taking the turn the _current_ magician.
+Initially the first magician is located at room 1 and the second magician is located at (a candy for guessing!) room 2. Each magician has **P** *telepoints* before the start. The game consists of *turns*, with the first magician taking the first turn and then both magicians taking turns alternately. Each turn consists of three *phases*. We'll call the magician taking the turn the *current* magician.
 
 In the first phase, the current magician can walk between rooms through the existing passages as much as he wants (he can choose not to move at all as well). Residing at one of the rooms, he announces that the phase is finished. If after this phase both magicians are found residing at the same room, the game ends and the current magician wins. Otherwise, the turn is continued.
 
@@ -87,7 +87,7 @@ The first line contains a single integer **T** -- the number of test cases (no m
 
 ### Output
 
-For each test case output a single line with a single word _First_ if the first magician has a winning strategy in this game, and _Second_ otherwise.
+For each test case output a single line with a single word *First* if the first magician has a winning strategy in this game, and *Second* otherwise.
 
 ### Example
 
@@ -112,4 +112,5 @@ Second
 First
 
 <b>Explanation:</b>
-</pre>In the first two test cases, the game ends after the second turn (which is the first turn of the second magician) as the passage created by the first magician hands a win to the second magician. In the third test case, the game ends after the fourth turn (the second magician may need to use **1** telepoint here). In the fourth test case, the game ends after the third turn (the first magician has to use **1** telepoint here).
+</pre>
+In the first two test cases, the game ends after the second turn (which is the first turn of the second magician) as the passage created by the first magician hands a win to the second magician. In the third test case, the game ends after the fourth turn (the second magician may need to use **1** telepoint here). In the fourth test case, the game ends after the third turn (the first magician has to use **1** telepoint here).

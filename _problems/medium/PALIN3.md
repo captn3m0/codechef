@@ -73,11 +73,11 @@ All submissions for this problem are available.###  Read problems statements in 
 
 Mike likes strings. He is also interested in algorithms. A few days ago he discovered for himself a very nice problem:
 
- _You are given a digit string **S**. You need to count the number of substrings of **S**, which are palindromes._
+ *You are given a digit string **S**. You need to count the number of substrings of **S**, which are palindromes.*
 
 Do you know how to solve it? Good. Mike will make the problem a little bit more difficult for you.
 
- _You are given a digit string **S**. You need to count the number of substrings of **S**, which are palindromes without leading zeros and can be divided by 3 without a remainder._
+ *You are given a digit string **S**. You need to count the number of substrings of **S**, which are palindromes without leading zeros and can be divided by 3 without a remainder.*
 
 A string is a palindrome if it reads the same backward as forward. A string is a palindrome without leading zeros if it reads the same backward as forward and doesn't start with symbol '0'. A string is a digit string, if it doesn't contain any symbols except '0', '1', '2', ..., '9'.
 
@@ -102,6 +102,7 @@ Your output should contain the only integer, denoting the number of substrings o
 
 <b>Output:</b>
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the example you should count **S**\[2..2\] = "0", **S**\[5..5\] = "0", **S**\[6..6\] = "0" and **S**\[7..7\] = "3".

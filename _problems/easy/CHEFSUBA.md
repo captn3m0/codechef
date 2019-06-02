@@ -112,7 +112,8 @@ For each Dog's question output a single line containing an integer corresponding
 <b>Output:</b>
 2
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**
 

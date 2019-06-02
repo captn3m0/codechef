@@ -126,7 +126,8 @@ For each test file the probabilities of appearing each figure are manually chose
 3 9 8 2 10 7 1 1 6
 3 10 8 2 8 3 -1 -1 -1
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 In this test case your score will be 74 = 66 (for areas of figures) + 8 (bonus score).
 

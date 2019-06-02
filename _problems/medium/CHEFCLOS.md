@@ -118,7 +118,8 @@ For each test case, output a single line containing an integer corresponding to 
 <b>Output:</b>
 <tt>2
 1</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **In Test 1 :** The array **A = \[2, 1\]**. The array is already closed under gcd operation since gcd(2, 2) = 2, gcd(1, 1) = 1 and gcd(2, 1) = 2. So, the remaining element which needs to be added can be either **1** or **2**. So, answer is **2**.
 

@@ -102,7 +102,8 @@ For each rectangle, output a single line containing the number of ways, modulo 1
 
 <b>Output:</b>
 5
-</pre>**Explanations:**
+</pre>
+**Explanations:**
 In the sample case, there are 5 ways the turtle can reach the bottom right corner as follows:
 
 ![]( http://codechef.com/download/CNTWAYS2.png)

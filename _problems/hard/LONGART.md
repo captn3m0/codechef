@@ -119,7 +119,8 @@ He 2
 2 Hn ie
 0
 0
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** The complete article is
 He is

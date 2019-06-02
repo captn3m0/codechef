@@ -121,4 +121,5 @@ For each test case, your program's score is equal to T/H in which H is the numbe
 2
 1
 2 2
-</pre>This output will give score to be 2 / (10 + 10 + 2 + 10 + 10) = 1/ 21
+</pre>
+This output will give score to be 2 / (10 + 10 + 2 + 10 + 10) = 1/ 21

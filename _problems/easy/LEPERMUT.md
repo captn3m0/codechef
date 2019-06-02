@@ -108,7 +108,8 @@ YES
 YES
 NO
 YES
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Case 1.** Here **N = 1**, so we have no pairs **(i; j)** with **1 ≤ i < j ≤ N**. So the number of inversions is equal to zero. The number of local inversion is also equal to zero. Hence this permutation is good.
 

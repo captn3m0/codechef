@@ -74,13 +74,13 @@ time:
     current: 1493557934
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/AUG15/mandarin/STETSKLX.pdf) and [Russian](http://www.codechef.com/download/translated/AUG15/russian/STETSKLX.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/AUG15/mandarin/STETSKLX.pdf) and [Russian](http://www.codechef.com/download/translated/AUG15/russian/STETSKLX.pdf).
 
 Chef has a [tree](https://en.wikipedia.org/wiki/Tree_(graph_theory)) (with **N** nodes, numbered from **1** to **N**) where each edge has some length.
 
-The _Chef length_ of a path is the median of the lengths of all edges along the path. More formally: if we put lengths of all edges from the path into an array and sort it, then the _Chef length_ of this path is the **median** of this array (element in the middle of the sorted array, and if we have two elements in the middle of the array, then the median is the bigger one). For example, if the array equals **{3, 7, 9}**, then its median is **7**, and **if the array equals {1, 2, 3, 4}, then the median is 3**.
+The *Chef length* of a path is the median of the lengths of all edges along the path. More formally: if we put lengths of all edges from the path into an array and sort it, then the *Chef length* of this path is the **median** of this array (element in the middle of the sorted array, and if we have two elements in the middle of the array, then the median is the bigger one). For example, if the array equals **{3, 7, 9}**, then its median is **7**, and **if the array equals {1, 2, 3, 4}, then the median is 3**.
 
-Now, Chef wants to find minimum _Chef length_ among simple paths having at least **L** and at most **R** edges. Please help him accomplish this task.
+Now, Chef wants to find minimum *Chef length* among simple paths having at least **L** and at most **R** edges. Please help him accomplish this task.
 
 ### Input
 
@@ -133,7 +133,8 @@ For each test case, output a single line containing the shortest Chef length amo
 <b>Output:</b>
 1
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Test #1**
 
@@ -162,4 +163,4 @@ The shortest Chef length is **2**.
 
 ### Note
 
-A _simple path_ in a graph is a path which does not have any repeated vertices.
+A *simple path* in a graph is a path which does not have any repeated vertices.

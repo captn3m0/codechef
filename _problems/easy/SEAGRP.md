@@ -68,7 +68,7 @@ time:
     current: 1493558185
 layout: problem
 ---
-All submissions for this problem are available.### Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JAN14/mandarin/SEAGRP.pdf) and [Russian](http://www.codechef.com/download/translated/JAN14/russian/SEAGRP.pdf).
+All submissions for this problem are available.### Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JAN14/mandarin/SEAGRP.pdf) and [Russian](http://www.codechef.com/download/translated/JAN14/russian/SEAGRP.pdf).
 
 Sereja has undirected graph, which consists of **n** vertexes and **m** edges. Sereja can delete edges from the graph. Now Sereja is interested in one question : is it possible to delete edges in the graph so that the degree of each vertex in the graph will be equal **1**?
 

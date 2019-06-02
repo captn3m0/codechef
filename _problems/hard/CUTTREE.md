@@ -77,7 +77,7 @@ layout: problem
 ---
 All submissions for this problem are available.### Read problems statements in [Mandarin chinese](http://www.codechef.com/download/translated/MARCH18/mandarin/CUTTREE.pdf), [Russian](http://www.codechef.com/download/translated/MARCH18/russian/CUTTREE.pdf) and [Vietnamese](http://www.codechef.com/download/translated/MARCH18/vietnamese/CUTTREE.pdf) as well.
 
-A forest is an undirected acyclic graph. Let us define the _strength_ of a forest as the sum of squares of sizes of its connected components. (Clearly, a tree with **n** nodes has strength **n2**.)
+A forest is an undirected acyclic graph. Let us define the *strength* of a forest as the sum of squares of sizes of its connected components. (Clearly, a tree with **n** nodes has strength **n2**.)
 
 Chef has found a tree with **N** nodes on day 0. On each of the next **N-1** days, he's going to remove one edge. Let's denote the forest that remains after **i** days by **Fi**, for each 1 ≤ **i** ≤ **N-1**; also, let's denote the original tree by **F0**. On day **i**, **Fi** is created by randomly uniformly choosing one edge from **Fi-1** and removing it.
 

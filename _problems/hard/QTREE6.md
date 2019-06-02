@@ -69,7 +69,7 @@ time:
     current: 1493556808
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/DEC13/mandarin/QTREE6.pdf) and [Russian](http://www.codechef.com/download/translated/DEC13/russian/QTREE6_1.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/DEC13/mandarin/QTREE6.pdf) and [Russian](http://www.codechef.com/download/translated/DEC13/russian/QTREE6_1.pdf).
 
 You are given a tree (an acyclic undirected connected graph) with **n** nodes. The tree nodes are numbered from 1 to **n**. Each node has a color, white or black. All the nodes are black initially. We will ask you to perfrom some instructions of the following form:
 
@@ -97,7 +97,8 @@ For each query operation, output the corresponding result.
 0 1
 <strong>Output 1:</strong><br></br>5
 1
-</pre><pre><pre style="text-align: left;"><strong><br></br>Input 2:<br></br></strong>7
+</pre>
+<pre><pre style="text-align: left;"><strong><br></br>Input 2:<br></br></strong>7
 1 2
 1 3
 2 4

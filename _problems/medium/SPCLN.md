@@ -108,7 +108,8 @@ print a single real number which is the maximum average energy, rounded to two d
 
 <b>Output:</b>
 50.00
-</pre>### Explanation
+</pre>
+### Explanation
 
 One way the spacecraft can destroy the space debris is :
 

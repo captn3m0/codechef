@@ -121,7 +121,8 @@ DELETE_MIDDLE
 
 <b>Output:</b>
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the sample, the string **|S|** will be changed as follows:
 
@@ -138,4 +139,5 @@ aabbbababbbbaaaaba (after INSERT_LEFT a)
 aabbbababab<b>bbaaa</b>aba (after INSERT_MIDDLE a)
 aabbbababbbbaaaaba (after DELETE_MIDDLE)
 aabbbababbbaaaaba (after DELETE_MIDDLE)
-</pre>For QUERY bbaaa, this string occurs once. It is shown in boldface type.
+</pre>
+For QUERY bbaaa, this string occurs once. It is shown in boldface type.

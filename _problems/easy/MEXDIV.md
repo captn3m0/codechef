@@ -68,7 +68,7 @@ layout: problem
 ---
 All submissions for this problem are available.### Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/SNCKEL17/mandarin/MEXDIV.pdf), [Russian](http://www.codechef.com/download/translated/SNCKEL17/russian/MEXDIV.pdf) and [Vietnamese](http://www.codechef.com/download/translated/SNCKEL17/vietnamese/MEXDIV.pdf) as well.
 
-Given an array **A** of **n** non-negative integers. Find the number of ways to partition/divide the array into subarrays, such that **[mex](https://en.wikipedia.org/wiki/Mex_(mathematics))** in each subarray is not more than **k**. For example, mex of the arrays \[1, 2\] will be 0, and that of \[0, 2\] will be 1, and that of \[0, 1, 2\] will be 3. Due to the fact that the answer can turn out to be quite large, calculate it modulo **109 + 7**.
+Given an array **A** of **n** non-negative integers. Find the number of ways to partition/divide the array into subarrays, such that **[ mex](https://en.wikipedia.org/wiki/Mex_(mathematics))** in each subarray is not more than **k**. For example, mex of the arrays \[1, 2\] will be 0, and that of \[0, 2\] will be 1, and that of \[0, 1, 2\] will be 3. Due to the fact that the answer can turn out to be quite large, calculate it modulo **109 + 7**.
 
 ### Input
 
@@ -93,12 +93,14 @@ Given an array **A** of **n** non-negative integers. Find the number of ways to 
 <b>Output:</b>
 2
 
-</pre><pre><b>Input:</b>
+</pre>
+<pre><b>Input:</b>
 10 3
 0 1 2 3 4 0 1 2 5 3
 
 <b>Output:</b>
 379
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example 1**. The valid ways of partitioning will be \[\[0\], \[1, 2\]\] (mex of first subarray is 1, while that of the second is zero), and \[\[0\], \[1\], \[2\]\] (mex of first subarray is 1, and that of others is 0). There is no other way to partition the array such that mex is less than or equal to 1. For example, \[\[0, 1\], \[2\]\] is not a valid partitioning as mex of first subarray is 2 which is more than 1.

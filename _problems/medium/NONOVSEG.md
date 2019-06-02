@@ -114,7 +114,8 @@ For each test case, output a single integer corresponding to the minimum number 
 0
 2
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example 1**. All the segments lie in the range \[0, **L**\]. None of the segments overlap with each other. Hence, we don't need to move any segment at all.
 

@@ -39,4 +39,5 @@ The total score is averaged over 9 data sets.
 
 ### Example
 
-`<strong>Input:</strong><br></br>3<br></br>1 1 1<br></br>1 1 1<br></br>1 1 1<br></br><br></br><strong>Output:</strong><br></br>2<br></br>0 0 E<br></br>0 0 S<br></br><strong><br></br>Score:</strong><br></br>7<br></br>`
+<pre><strong>Input:</strong><br></br>3<br></br>1 1 1<br></br>1 1 1<br></br>1 1 1<br></br><br></br><strong>Output:</strong><br></br>2<br></br>0 0 E<br></br>0 0 S<br></br><strong><br></br>Score:</strong><br></br>7<br></br>
+</pre>

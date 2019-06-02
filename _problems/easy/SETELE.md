@@ -102,7 +102,8 @@ Output a single line containing the expected toll tax a tourist has to pay for v
 
 <b>Output:</b>
 2.333333
-</pre>### Explanation
+</pre>
+### Explanation
 
 Assume that the citizens construct the high class road between city 1 and 2. A tourist can visit all the places by just paying a toll tax of 2 Rs.
 

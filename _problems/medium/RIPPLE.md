@@ -20,7 +20,8 @@ while b<sub>i</sub> == 1
     b<sub>i</sub> := 0
     i := i+1
 b<sub>i</sub> := 1
-</pre>This doesn't account for overflow when increasing from 2n-1 to 2n, but we'll ignore that error for this problem.
+</pre>
+This doesn't account for overflow when increasing from 2n-1 to 2n, but we'll ignore that error for this problem.
 
 Each time a bit is changed from 0 to 1 or from 1 to 0 we say the bit is "flipped". In the worst case, we may have to flip every bit. However, a standard result says the average number of bits flipped per increment when counting from 0 to 2n-1 is less than 2.
 
@@ -38,4 +39,5 @@ The output for each test case consists of a single line that describes the total
 
 ### Example
 
-`<b>Input:</b><br></br>3<br></br>1<br></br>0<br></br>1<br></br>2<br></br>00<br></br>11<br></br>3<br></br>011<br></br>100<br></br><br></br><b>Output:</b><br></br>1<br></br>100<br></br>11<br></br><br></br>`
+<pre><b>Input:</b><br></br>3<br></br>1<br></br>0<br></br>1<br></br>2<br></br>00<br></br>11<br></br>3<br></br>011<br></br>100<br></br><br></br><b>Output:</b><br></br>1<br></br>100<br></br>11<br></br><br></br>
+</pre>

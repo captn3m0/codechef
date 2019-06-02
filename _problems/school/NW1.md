@@ -115,6 +115,7 @@ For each query, print seven space-separated integers denoting the number of occu
 
 4 4 4 4 4 4 4
 4 4 5 5 5 4 4
-</pre>### Example
+</pre>
+### Example
 
 **Example case 2:** There are 4 Mondays, 4 Tuesdays, 5 Wednesdays, 5 Thursdays, 5 Fridays, 4 Saturdays and 4 Sundays.

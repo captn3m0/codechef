@@ -69,7 +69,7 @@ time:
     current: 1493557944
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME14/mandarin/TASHIFT.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME14/mandarin/TASHIFT.pdf).
 
 You are given two strings **A** and **B** of the same length. Each string contains **N** Lower case Latin character (from 'a' to 'z'). A shift operation will remove the first character of a string and add the same character at the end of that string. For example after you perform a shift operation on a string 'abcd', the new string will be 'bcda'. If you perform this operation two times, the new string will be 'cdab'. You need to use some (maybe none) shift operations on the string **B** to maximize the length of the longest common prefix of **A** and **B**. If more than one result can be found pick the one that use smallest number of shift operations.
 

@@ -67,7 +67,7 @@ time:
     current: 1493558188
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/NOV13/mandarin/SPOTWO.pdf) and [Russian](http://www.codechef.com/download/translated/NOV13/russian/SPOTWO.PDF).
+All submissions for this problem are available.###  Read problems statements in [ Mandarin Chinese ](http://www.codechef.com/download/translated/NOV13/mandarin/SPOTWO.pdf) and [ Russian](http://www.codechef.com/download/translated/NOV13/russian/SPOTWO.PDF).
 
 Cyael is a very gifted girl who loves Magic (she even reached the finals on a very famous tournament in Byteland ;) ) and Computer Science. As we know, CS is a very vast subject and Cyael learns what she can, little by little, by reading the editorials of codechef.com, her favourite programming website.
 

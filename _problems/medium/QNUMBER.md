@@ -108,7 +108,8 @@ For each of the **Q** lines you must output the result for corresponding query i
 5
 6
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 Numbers for each query: 
 {1,2,3,6} 

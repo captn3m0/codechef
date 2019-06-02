@@ -53,7 +53,8 @@ ARRRRAAA
 <p>Case 1: 3
 Case 2: 4
 </p>
-<pre>### Explanation:
+<pre>
+### Explanation:
 
 Case **1** represents the figure in the problem statement. Nemo can exchange one Amber with a Ruby and reduce **B** to **3**.
 

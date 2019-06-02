@@ -126,7 +126,8 @@ For each test case, output a single line containing one integer — the minimum 
 2
 4
 -1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Test case 1.** We are given **H** = 2 so there are N = 4 bears in the tournament. Limak has strength 70 and he first fights against a bear with strength 78. Limak must bribe this referee because he would lose otherwise. In the other match of the first stage, bears with strengths 67 and 75 fight with each other. Limak can bribe the referee of that match too, so that the bear with strength 67 advances to the next stage, where Limak beats him without bribing the referee (because Limak's strength is greater). The answer is 2 because Limak changes results of 2 matches, and you can verify that this is the minimum.
 

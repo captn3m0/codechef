@@ -74,7 +74,7 @@ All submissions for this problem are available.### Read problems statements in [
 
 Chef's new hobby is painting, but he learned the fact that it's not easy to paint 2D pictures in a hard way, after wasting a lot of canvas paper, paint and of course time. From now on, he decided to paint 1D pictures only.
 
-Chef's canvas is **N** millimeters long and is initially all white. For simplicity, colors will be represented by an integer between 0 and **105**. 0 indicates white. The picture he is envisioning is also **N** millimeters long and the **i**th millimeter consists purely of the color **Ci**. Unfortunately, his brush isn't fine enough to paint every millimeter one by one. The brush is 3 millimeters wide and so it can only paint three millimeters at a time _with the same color._ Painting over the same place completely replaces the color by the new one. Also, Chef has lots of bottles of paints of each color, so he will never run out of paint of any color.
+Chef's canvas is **N** millimeters long and is initially all white. For simplicity, colors will be represented by an integer between 0 and **105**. 0 indicates white. The picture he is envisioning is also **N** millimeters long and the **i**th millimeter consists purely of the color **Ci**. Unfortunately, his brush isn't fine enough to paint every millimeter one by one. The brush is 3 millimeters wide and so it can only paint three millimeters at a time *with the same color.* Painting over the same place completely replaces the color by the new one. Also, Chef has lots of bottles of paints of each color, so he will never run out of paint of any color.
 
 Chef also doesn't want to ruin the edges of the canvas, so he doesn't want to paint any part beyond the painting. This means, for example, Chef cannot paint just the first millimeter of the canvas, or just the last two millimeters, etc.
 
@@ -114,7 +114,8 @@ For each test case, output a single line containing either “Yes” or “No”
 Yes
 No
 </tt>
-<pre>### Explanation
+<pre>
+### Explanation
 
 **Example case 1.** Chef's canvas initially contains the colors \[0,0,0,0\]. Chef can finish the painting by first painting the first three millimeters with color 1, so the colors become \[1,1,1,0\], and then the last three millimeters with color 5 so that it becomes \[1,5,5,5\].
 

@@ -68,7 +68,7 @@ time:
     current: 1493558132
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MAY14/mandarin/COMPILER.pdf) and [Russian](http://www.codechef.com/download/translated/MAY14/russian/COMPILER.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MAY14/mandarin/COMPILER.pdf) and [Russian](http://www.codechef.com/download/translated/MAY14/russian/COMPILER.pdf).
 
 Lira is now very keen on compiler development. :)
 

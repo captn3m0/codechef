@@ -24,7 +24,7 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
-All submissions for this problem are available.The city of Drais once was a capital of bicycle races. The city contained several junctions. Some pairs of junctions are directly connected by a bidirectional road which does not pass through any intermediate junction. In Drias there was a unique simple path to get from any junction to any other. Note that in a simple path, junctions should not be repeated. Also, there is at most one bidirectional road between a pair of junctions. The races were being held annually. Two junctions are said to be _farthest apart_ if the number of roads in the unique simple path between them is maximum possible. Each year the organizers chose a pair of distinct junctions as the start and the finish of the race such that they are a _farthest apart_ pair of junctions. No unordered pair of junctions was chosen more than once. After **k** years the organizers ran out of pairs of _farthest apart_ junctions, and decided to move the races to a different city.
+All submissions for this problem are available.The city of Drais once was a capital of bicycle races. The city contained several junctions. Some pairs of junctions are directly connected by a bidirectional road which does not pass through any intermediate junction. In Drias there was a unique simple path to get from any junction to any other. Note that in a simple path, junctions should not be repeated. Also, there is at most one bidirectional road between a pair of junctions. The races were being held annually. Two junctions are said to be *farthest apart* if the number of roads in the unique simple path between them is maximum possible. Each year the organizers chose a pair of distinct junctions as the start and the finish of the race such that they are a *farthest apart* pair of junctions. No unordered pair of junctions was chosen more than once. After **k** years the organizers ran out of pairs of *farthest apart* junctions, and decided to move the races to a different city.
 
 These competitions described above occurred a long time ago, it is now impossible to reconstruct the road network which existed at that time. But now you are given the responsibility of building a new city which would meet those properties. And you want to have the minimum number of junctions so as to reduce cost. So, your job is build a road network with the least number of junctions so that if the race were to be held on this road network, it would last for exactly **k** years. Note that from the earlier description it is clear that every year the race must occur between an unique unordered pair of junctions.
 
@@ -66,7 +66,8 @@ On the next **n** - 1 lines print the description of the road network. Each of t
 1 4
 2 5
 2 6
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Testcase 1**: The longest path in the output graph is the path between 1 and 2, and there is no other path of that length. Having a tree with size 1 wouldn't work and hence this is the minimum we can get. Hence this is a valid output.
 

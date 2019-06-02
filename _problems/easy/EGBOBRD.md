@@ -69,7 +69,7 @@ time:
     current: 1493558141
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JULY15/mandarin/EGBOBRD.pdf) and [Russian](http://www.codechef.com/download/translated/JULY15/russian/EGBOBRD.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JULY15/mandarin/EGBOBRD.pdf) and [Russian](http://www.codechef.com/download/translated/JULY15/russian/EGBOBRD.pdf).
 
 Some chefs go for a tour lasting **N** days. They take packages of bread for food. Each package has **K** pieces of breads. On the **ith** day, they eat **A**i pieces of bread.
 
@@ -126,7 +126,8 @@ For each of the **T** test cases, output a single line - minimum number of packa
 2
 1
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 Test case **1** has already been explained in the statement.
 

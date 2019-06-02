@@ -68,7 +68,7 @@ time:
     current: 1493557477
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/APRIL14/mandarin/ANUCBC.pdf) and [Russian](http://www.codechef.com/download/translated/APRIL14/russian/ANUCBC.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/APRIL14/mandarin/ANUCBC.pdf) and [Russian](http://www.codechef.com/download/translated/APRIL14/russian/ANUCBC.pdf).
 
 ### Statement
 
@@ -108,7 +108,8 @@ For each query output the required Answer modulo **1000000009**. Answer is the n
 4
 8
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Test Case #1, Query #1**
 {}, {1,-1}, {1,-1,4,5}, {4,5} are winning subsets. Sums are 0, 0, 9, 9 respectively.

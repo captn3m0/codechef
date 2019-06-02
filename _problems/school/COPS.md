@@ -111,7 +111,8 @@ For each test case, output a single line containing the number of houses which a
 0
 18
 9
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example 1 :** Cops in house 12 can cover houses 1 to 68, and cops in house 52 can cover the rest of the houses. So, there is no safe house.
 

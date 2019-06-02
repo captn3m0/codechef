@@ -68,12 +68,12 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/SNCKFL17/mandarin/MATRIXUM.pdf), [Russian](http://www.codechef.com/download/translated/SNCKFL17/russian/MATRIXUM.pdf) and [Vietnamese](http://www.codechef.com/download/translated/SNCKFL17/vietnamese/MATRIXUM.pdf) as well.
 
-We call an **N** × **M** matrix _nice_, if it satisfies both these conditions:
+We call an **N** × **M** matrix *nice*, if it satisfies both these conditions:
 
 - Each of its elements is either a 0 or a 1.
-- We define two cells of the matrix to be _adjacent_, if they share a side. All the cells containing a 1 should form a single connected component. More formally: You should be able to reach any cell containing a 1 from any other cell containing a 1 through a sequence of steps, where a single step consists of moving from one cell containing a 1, to an adjacent cell containing a 1.
+- We define two cells of the matrix to be *adjacent*, if they share a side. All the cells containing a 1 should form a single connected component. More formally: You should be able to reach any cell containing a 1 from any other cell containing a 1 through a sequence of steps, where a single step consists of moving from one cell containing a 1, to an adjacent cell containing a 1.
 
-You are given an **N** × **M** matrix **A**, and each of its elements is either a 0 or a 1. You want to decompose **A** into some _terms_, where each term is a sign ( + or - ) followed by a nice matrix. In other words, you want to write **A** as the addition and subtraction of some nice matrices.
+You are given an **N** × **M** matrix **A**, and each of its elements is either a 0 or a 1. You want to decompose **A** into some *terms*, where each term is a sign ( + or - ) followed by a nice matrix. In other words, you want to write **A** as the addition and subtraction of some nice matrices.
 
 For example, you could write **A** = + B1 + B2 - B3 + B4 - B5, where each Bi is a nice matrix. Note that even though every single Bi and their total sum (which equals **A**) has only elements 0 and 1, some prefix sum could have other elements. For example, the matrix corresponding to + B1 + B2 - B3 could have elements which are neither 0 nor 1.
 

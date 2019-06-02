@@ -76,7 +76,7 @@ After celebrating his birthday, Devu decided to have some adventure and set hims
 
 The journey starts from top-left cell (1, 1) and ends at bottom-right cell **(N, N)** by going only either right or down each step (i.e. from a cell (x, y) to either (x, y + 1) or (x + 1, y) only). Initial energy of minion is zero. When a minion with energy **e** enters a cell (x, y), it eats a banana and its energy becomes **e ^ B\[x\]\[y\]**, where **^** is the standard bitwise-XOR operator. There are many different ways of completing the journey. Please help the minion to find out a journey with maximum energy so that it can be recruited by Devu. Please output the maximum energy a minion can achieve in some journey
 
-_(Bitwise xor operator is denoted by a caret (^) in several programming languages like C, C++, C#, Java, Perl, Ruby and Python. More about it: http://en.wikipedia.org/wiki/Exclusive\_or)_### Input
+*(Bitwise xor operator is denoted by a caret (^) in several programming languages like C, C++, C#, Java, Perl, Ruby and Python. More about it: http://en.wikipedia.org/wiki/Exclusive\_or)*### Input
 
 - There is a single test case.
 - First line contains an integer **N** denoting the number of rows or columns of the grid **B**.
@@ -101,7 +101,8 @@ Print a single integer denoting maximum energy a minion can achieve at the end o
 
 <b>Output:</b>
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 <pre>
 There are 6 different possible journeys of the minion, and energy at the end of them are --

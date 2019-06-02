@@ -35,6 +35,7 @@ For a given positive integers **B** and **X** find the number of positive intege
 5
 63
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the second test case required numbers are 1, 2, 3, 4, 6.

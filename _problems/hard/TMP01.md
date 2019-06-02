@@ -109,7 +109,8 @@ So, print a single integer - the sum of answers for all operations (the sum of *
 
 <b>Output:</b>
 27
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first test case the string **S** transforms as follows:
 

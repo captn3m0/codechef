@@ -13,7 +13,7 @@ layout: problem
 
 Chef Ciel is participating an arithmetic contest now. Why? Because of the top prize for the contest, a limited edition toaster oven.
 
-She must calculate the values **f**(**M**, **N**, **X**) of function named _sine partition function_ to be the first place. The sine partition function **f**(**M**, **N**, **X**) is defined by
+She must calculate the values **f**(**M**, **N**, **X**) of function named *sine partition function* to be the first place. The sine partition function **f**(**M**, **N**, **X**) is defined by
 
 ![](http://www.codechef.com/download/PARSIN.png)Examples are following:
 
@@ -48,7 +48,8 @@ For each test case, print the value of **f**(**M**, **N**, **X**). This value mu
 3 1 2.12
 1 1 5
 1 30 0.3
-</pre>### Sample Output
+</pre>
+### Sample Output
 
 <pre>-0.99999714638
 0

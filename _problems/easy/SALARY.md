@@ -97,7 +97,8 @@ For each test case, output a single line containing the minimum number of operat
 <b>Output:</b>
 3
 0
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example Case 1.** Chief can equalize all salaries in 3 turns:
 

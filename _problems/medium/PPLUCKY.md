@@ -107,7 +107,8 @@ For each test case, output a single line containing the answer to the correspond
 <b>Output:</b>
   4
   20
-</pre>###  
+</pre>
+###  
 
 ### Explanation
 

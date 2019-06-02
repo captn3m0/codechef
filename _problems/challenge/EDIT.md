@@ -171,6 +171,7 @@ R 10 V
 I 10 M
 I 11 M
 I 12 A</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 In this test case we have **10** ≤ **Ri, j** ≤ **100 (i ≠ j)**. This is made only to fit the test case on the screen. In the actual test cases, the inequality **1000** ≤ **Ri, j** ≤ **10000** will hold.

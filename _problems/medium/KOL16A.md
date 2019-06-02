@@ -45,7 +45,8 @@ foreach Battle, b<sub>i</sub>
 	else
 		total -= probability of Allies winning in b<sub>i</sub>
 PEB = max(total / no. of battles, 0)
-</pre>As the Allies already deciphered Enigma, they can choose to win or lose any battle they want. Consider the following scenario as example:
+</pre>
+As the Allies already deciphered Enigma, they can choose to win or lose any battle they want. Consider the following scenario as example:
 
 ![](https://www.codechef.com/download/upload/ACM16KOL/A.png)
 Some battles are more important than others; the ith battle has an Impact Factor **Fi**. As a war analyst, your job is to maximize the sum of Impact Factors of all the battles won. But the enemies must not know that Allies have deciphered Enigma, so you must keep PEB less than a certain **threshold, S**; throughout the whole war.

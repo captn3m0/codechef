@@ -72,7 +72,7 @@ time:
     current: 1493556772
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/OCT15/mandarin/MGCHGYM.pdf) and [Russian](http://www.codechef.com/download/translated/OCT15/russian/MGCHGYM.pdf) 
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/OCT15/mandarin/MGCHGYM.pdf) and [Russian](http://www.codechef.com/download/translated/OCT15/russian/MGCHGYM.pdf) 
 
 When Misha hits his favorite gym, he comes across an interesting problem with the [barbell](https://en.wikipedia.org/wiki/Barbell). In the gym, someone always leaves the weight plates in the strangest places you can imagine and sometime it's difficult to equip the barbell the way you want. Let's imagine that you have **N** weight plates placed in any order (remember that any gym has no more than **K** different types of weight plates and all weights are [square-free](https://en.wikipedia.org/wiki/Square-free_integer)). As a preliminary step towards solving this problem, Misha wants to simulate a simple gym, and for this purpose you have to deal with some queries:
 
@@ -133,7 +133,8 @@ Yes
 Yes
 No
 Yes</tt>
-</pre>#### Second
+</pre>
+#### Second
 
 <pre>
 <b>Input:</b>
@@ -148,7 +149,8 @@ Yes</tt>
 <tt>Yes
 No
 Yes</tt>
-</pre>### Explanation:
+</pre>
+### Explanation:
 
 ##### First test explanation (step by step)
 

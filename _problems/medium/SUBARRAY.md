@@ -116,7 +116,8 @@ For each test case, output the maximum sum obtained using the constraints above.
 7
 1
 0
-</pre>### Explanation
+</pre>
+### Explanation
 
 For first test case take last 2 elements: 3 + 4 = 7. 
 For second test case take the middle 2 elements: -2 + 3 = 1

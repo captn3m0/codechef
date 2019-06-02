@@ -70,7 +70,7 @@ time:
     current: 1493558115
 layout: problem
 ---
-All submissions for this problem are available.### Read problems statements in [Mandarin Chinese](/download/translated/JULY15/mandarin/CHCUBE.pdf) and [Russian](/download/translated/JULY15/russian/CHCUBE.pdf).
+All submissions for this problem are available.### Read problems statements in [Mandarin Chinese ](/download/translated/JULY15/mandarin/CHCUBE.pdf) and [Russian](/download/translated/JULY15/russian/CHCUBE.pdf).
 
 One day, Chef found a cube which has each of its sides painted in some color out of black, blue, red, green, yellow and orange.
 
@@ -112,7 +112,8 @@ green yellow green orange black green
 <b>Output:</b>
 NO
 YES
-<pre>### Explanation
+<pre>
+### Explanation
 
 **Example case 1.**
 

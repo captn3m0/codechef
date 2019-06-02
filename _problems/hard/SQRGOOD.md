@@ -115,6 +115,7 @@ Print a single line containing one integer — the **n**-th number whose square 
 <b>Output:</b>
 
 12
-</pre>### Explanation
+</pre>
+### Explanation
 
 The first 4 numbers whose square roots need simplifying are 4, 8, 9 and 12.

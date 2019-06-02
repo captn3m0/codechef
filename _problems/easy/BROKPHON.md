@@ -70,7 +70,7 @@ time:
     current: 1493558111
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/APRIL15/mandarin/BROKPHON.pdf) and [Russian](http://www.codechef.com/download/translated/APRIL15/russian/BROKPHON.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/APRIL15/mandarin/BROKPHON.pdf) and [Russian](http://www.codechef.com/download/translated/APRIL15/russian/BROKPHON.pdf).
 
 Chef is judging a game called "Broken telephone". There are total **N** players taking part in the game. They are all sitting in a line. In the start of the game, first player is given a secret message written on a sheet of paper. Then they keep sending the message by whispering it to the player sitting immediate right to one and so on until it reaches the last person.
 
@@ -120,7 +120,8 @@ Please help Chef to find the number of players that could mishear the message or
 4
 3
 0
-</pre>### Explanation
+</pre>
+### Explanation
 
 - **Example 1**: The **3-rd**, **4-th**, **6-th** and **7-th** player could mishear the message or whisper it wrongly.
 - **Example 2**: First **3** players could mishear the message or whisper it wrongly.

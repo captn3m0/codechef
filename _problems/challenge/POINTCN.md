@@ -152,7 +152,8 @@ During contest you will be able to get your score on first 2 test-files. After c
 1000
 1000
 1000
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** note that the example doesn't follow constraints on **T** and **N** and also seeds are set by hand in this sample.
 
@@ -163,11 +164,13 @@ In this example we have the array C:
 0 0 2 7
 7 2 0 7
 6 7 7 0
-</pre>and the array H
+</pre>
+and the array H
 
 <pre>
 9 10 2 0
 7 9 0 7
 9 3 15 18
 10 3 20 5
-</pre>In the output, first office is connected all other offices and that will make the cost of the network equal to **S** = 0 + 7 + 6 + 0 + 9 + 3 + 3 = 28, so the score on this test-case is 28.
+</pre>
+In the output, first office is connected all other offices and that will make the cost of the network equal to **S** = 0 + 7 + 6 + 0 + 9 + 3 + 3 = 28, so the score on this test-case is 28.

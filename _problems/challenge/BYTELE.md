@@ -75,17 +75,17 @@ The King has stated the topology of the network plainly enough in the form of a 
 
 ### Input
 
-The input starts with a line containing integer _t_ t test cases follow.
+The input starts with a line containing integer *t* t test cases follow.
 
-The first line of a test cases begins with integer _k_, denoting the number of different available cable lengths, followed by _k_ space separated integers _pj_ corresponding to the allowed lengths of cables (1 k pj n m, denoting the required number of nodes and cables in the network, respectively (1 n m aj bj each, signifying that nodes _aj_ and _bj_ should be connected by a cable (1 aj,bj ).
+The first line of a test cases begins with integer *k*, denoting the number of different available cable lengths, followed by *k* space separated integers *pj* corresponding to the allowed lengths of cables (1 k pj n m, denoting the required number of nodes and cables in the network, respectively (1 n m aj bj each, signifying that nodes *aj* and *bj* should be connected by a cable (1 aj,bj ).
 
 ### Output
 
-A valid solution to the _i_-th test case consists of a line with the text 'city _i_ Y', followed by _ni_ lines each containing two integers, the x- and y-coordinates of successive nodes in the solution (0 x,_y_ It is guaranteed that for every test case there exists at least one possible solution. You can however leave out a test case by outputting the line 'city _i_ N' instead of a valid solution.
+A valid solution to the *i*-th test case consists of a line with the text 'city *i* Y', followed by *ni* lines each containing two integers, the x- and y-coordinates of successive nodes in the solution (0 x,*y* It is guaranteed that for every test case there exists at least one possible solution. You can however leave out a test case by outputting the line 'city *i* N' instead of a valid solution.
 
 ### Score
 
-For each correctly solved test case you are awarded (_m_/_sum_) \* ((_p_1_+p_2_+...+pk_)/_k_) points, where _sum_ is the total length of all cables used.
+For each correctly solved test case you are awarded (*m*/*sum*) \* ((*p*1*+p*2*+...+pk*)/*k*) points, where *sum* is the total length of all cables used.
 
 The score awarded to your program is the sum of scores for individual test cases.
 
@@ -143,4 +143,5 @@ city 4 N
 
 <b>Score:</b>
 score = 3.340003
-</pre>_Bonus info:_ If score = _xxx_._xxxaaa_, _aaa_ means the number of test cases with non-zero score...
+</pre>
+*Bonus info:* If score = *xxx*.*xxxaaa*, *aaa* means the number of test cases with non-zero score...

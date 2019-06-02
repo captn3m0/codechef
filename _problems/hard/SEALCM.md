@@ -71,7 +71,7 @@ time:
     current: 1493556831
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JAN15/mandarin/SEALCM.pdf) and [Russian](http://www.codechef.com/download/translated/JAN15/russian/SEALCM.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JAN15/mandarin/SEALCM.pdf) and [Russian](http://www.codechef.com/download/translated/JAN15/russian/SEALCM.pdf).
 
 In this problem Sereja is interested in number of arrays **A\[1\], A\[2\], ..., A\[N\] (1 ≤ A\[i\] ≤ M, A\[i\] - integer)**
 such that least common multiple ([**LCM**](http://en.wikipedia.org/wiki/Least_common_multiple)) of all its elements is divisible by number **D**.

@@ -123,11 +123,13 @@ For other 50 cases, n is chosen as a random integer in the interval \[3,50\]. m 
 0 1
 2 2
 2 2
-</pre>###  Sample Output 
+</pre>
+###  Sample Output 
 
  
 <pre>
 2 2
 10 3
 </pre>
+
 **Score for sample output** : 10.0 ( Better answers may be possible )

@@ -67,7 +67,7 @@ time:
     current: 1493558185
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/NOV13/mandarin/SDSQUARE.pdf) and [Russian](http://www.codechef.com/download/translated/NOV13/russian/SDSQUARE.PDF).
+All submissions for this problem are available.###  Read problems statements in [ Mandarin Chinese ](http://www.codechef.com/download/translated/NOV13/mandarin/SDSQUARE.pdf) and [ Russian](http://www.codechef.com/download/translated/NOV13/russian/SDSQUARE.PDF).
 
 Recently Chef become very much interested in perfect squares. We all know Chef and his weird interests. Anyways Chef will be soon writing his masters thesis on perfect squares revealing what-not-known properties of perfect squares.
 

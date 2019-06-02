@@ -65,16 +65,16 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
-All submissions for this problem are available.Spinning Wheels is a game for one player. It is played on a square grid consisting of **N** rows and **N** columns. Each cell contains a _wheel_, which is colored into one of five colors -- red, orange, yellow, blue or violet (for convenience, we'll number the colors from 1 to 5, correspondingly). Each wheel also has two _needles_, and the needles are placed in one of the following positions (for convenience, we'll number the positions from 1 to 4, correspondingly):
+All submissions for this problem are available.Spinning Wheels is a game for one player. It is played on a square grid consisting of **N** rows and **N** columns. Each cell contains a *wheel*, which is colored into one of five colors -- red, orange, yellow, blue or violet (for convenience, we'll number the colors from 1 to 5, correspondingly). Each wheel also has two *needles*, and the needles are placed in one of the following positions (for convenience, we'll number the positions from 1 to 4, correspondingly):
 
 ![](http://www.codechef.com/download/SPIN1.png) 
 
 
 Basically, position 1 means that the needles are directed up and right, position 2 means that they're directed down and right down, position 3 -- down and left, and position 4 -- up and left.
 
-The goal of the game is to make all the wheels colored into the same color through a sequence of _moves_. A move consists of choosing a wheel and rotating it 90 degrees clockwise (for example, if the wheel was in position 1, it would change to position 2). After the rotation of some wheel, the state of other wheels (as well as the state of the wheel rotated first) may change.
+The goal of the game is to make all the wheels colored into the same color through a sequence of *moves*. A move consists of choosing a wheel and rotating it 90 degrees clockwise (for example, if the wheel was in position 1, it would change to position 2). After the rotation of some wheel, the state of other wheels (as well as the state of the wheel rotated first) may change.
 
-More formally. Let's denote the color of the wheel chosen on this move by **C**. We'll say that two wheels are _matching_ if they are situated in side-by-side neighboring cells and either needle of both wheels is directed to the other wheel. The process of changing the grid is separated into _iterations_. We will maintain set **S** consisting of the wheels rotated at the last iteration. Before the first iteration, set **S** contains only the starting wheel. The following algorithm is executed then repeatedly:
+More formally. Let's denote the color of the wheel chosen on this move by **C**. We'll say that two wheels are *matching* if they are situated in side-by-side neighboring cells and either needle of both wheels is directed to the other wheel. The process of changing the grid is separated into *iterations*. We will maintain set **S** consisting of the wheels rotated at the last iteration. Before the first iteration, set **S** contains only the starting wheel. The following algorithm is executed then repeatedly:
 
 - If set **S** is empty, stop the process.
 - Rotate each wheel in set **S** 90 degrees clockwise.
@@ -135,7 +135,8 @@ If at least one of the constraints in the 'Output' section is broken, you'll get
 -1
 
 <b>Explanation:</b>
-</pre>Your score for this input file is 3+1001 = 1004.
+</pre>
+Your score for this input file is 3+1001 = 1004.
 
 Let's see what happens in the first test case if we apply the rotations from the output. The first two rotations change the state of only one wheel each, as no wheel matches the chosen one after the rotation:
 

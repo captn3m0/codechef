@@ -93,6 +93,7 @@ For each test case output a single one line containing number of such permutatio
 <b>Output:</b>
 4
 72
-</pre>### Explanation
+</pre>
+### Explanation
 
 For the 1st case all permutations are: {2,3,1,4}, {3,2,1,4}, {4,1,2,3} and {4,1,3,2}.

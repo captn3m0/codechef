@@ -118,7 +118,8 @@ YES
 NO
 YES
 NO
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Test case 1.** Limak is in the kitchen for 7 minutes. He eats three cookies and after each of them he indeed drinks milk in the next minute. The answer is "YES".
 

@@ -68,7 +68,7 @@ time:
     current: 1493558137
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JULY14/mandarin/DISHOWN.pdf) and [Russian](http://www.codechef.com/download/translated/JULY14/russian/DISHOWN.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JULY14/mandarin/DISHOWN.pdf) and [Russian](http://www.codechef.com/download/translated/JULY14/russian/DISHOWN.pdf).
 
 This summer, there is a worldwide competition being held in Chef Town and some of the best chefs of the world are participating. The rules of this competition are quite simple.
 
@@ -114,7 +114,8 @@ First line of input contains an integer **T** denoting the number of test cases.
 1 1
 <b>Output:</b>
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 There are two chefs with scores of dishes  **1**  and  **2**  respectively. After the first query, chef  **2**  acquires dish  **1**  since  **S\[2\] > S\[1\]** . Hence, the answer for the second query, i.e owner of the **first** dish is chef **2**.
 

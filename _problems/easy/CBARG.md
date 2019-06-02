@@ -70,7 +70,7 @@ time:
     current: 1493558113
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JUNE15/mandarin/CBARG.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE15/russian/CBARG.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JUNE15/mandarin/CBARG.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE15/russian/CBARG.pdf).
 
 Recently Chef has decided to make some changes in our beloved **Codechef**. As you know, each problem at Codechef has its memory and time limits. To make problems even more challenging, he decided to measure allocated memory in a different way. Now judge program will be calculating not the maximum memory usage during the execution of all test files, but all the memory ever allocated by the solution program. But as Chef is not that good in algorithms, so he asks you to write a program that will calculate total memory usage of a solution.
 
@@ -122,7 +122,8 @@ Subtask 3 (70 points):
 1
 5
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** Initially, there was no memory allocated. For running first test file, there was a memory allocation of 1 MBs. There was no allocation/ deallocation for running your program on second test file.
 

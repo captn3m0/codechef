@@ -103,7 +103,8 @@ Left on 100 Feet Road
 Right on Sarjapur Road
 Right on Hosur Road
 Right on Ganapathi Temple Road
-</pre>### Sample Output
+</pre>
+### Sample Output
 
 <pre>Begin on Road D
 Right on Road C
@@ -117,6 +118,7 @@ Left on 100 Feet Road
 Right on Domlur Flyover
 Right on Old Madras Road
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first test case, the destination lies on Road D, hence the reversed route begins on Road D. The final turn in the original route is turning left from Road C onto Road D. The reverse of this, turning right from Road D onto Road C, is the first turn in the reversed route.

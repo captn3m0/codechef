@@ -102,6 +102,7 @@ F 2 5
 7
 1
 </pre>
+
 ### Constraints
 
 1 N 1 Q 0 u, **v** N-1 

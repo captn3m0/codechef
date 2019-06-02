@@ -104,7 +104,8 @@ The first line should contain an integer, denoting **max(**E1**, **E2**)**.
 2 2
 <b>Output:</b>
 9
-</pre><pre><b>Input:</b>
+</pre>
+<pre><b>Input:</b>
 1 3
 1 2 3
 2
@@ -112,7 +113,8 @@ The first line should contain an integer, denoting **max(**E1**, **E2**)**.
 3 1
 <b>Output:</b>
 -1
-</pre><pre><b>Input:</b>
+</pre>
+<pre><b>Input:</b>
 1 3
 1 2 3
 2
@@ -120,7 +122,8 @@ The first line should contain an integer, denoting **max(**E1**, **E2**)**.
 3 1
 <b>Output:</b>
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first test case **N** equals to 3, **M** equals to 2, **L** equals to 2. **E1** = 2 + 5 = 7, **E2** = 4 + 5 = 9. The answer is **max(**E1**, **E2**)** = **max(**7**,** 9**)** = 9;
 

@@ -74,7 +74,7 @@ First, 1000≤n≤2000, the size of input. Then n lines with n numbers in each f
 
 ### Output
 
-For each atom given at input, output 0 or _1_ depending on whether the polarization of the atom should be directed up or down.
+For each atom given at input, output 0 or *1* depending on whether the polarization of the atom should be directed up or down.
 
 ### Score
 

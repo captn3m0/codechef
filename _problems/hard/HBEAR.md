@@ -41,7 +41,8 @@ HH..H
 0
 4
 
-</pre>**Explanation for 2nd query**
+</pre>
+**Explanation for 2nd query**
 <pre>
 #: means the chosen cell
 The possibilities are:
@@ -73,4 +74,6 @@ H...H
 ##HH.
 ##..H
 
-</pre>Note that in 2nd query, the possible special sub-rectangles are of size 1x1, 1x2, 1x3, 2x1, 2x2, 2x3. Also note that 2x3 is different from 3x2
+</pre>
+
+Note that in 2nd query, the possible special sub-rectangles are of size 1x1, 1x2, 1x3, 2x1, 2x2, 2x3. Also note that 2x3 is different from 3x2

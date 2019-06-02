@@ -72,7 +72,7 @@ time:
 hand_edited: true
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME28/mandarin/MANYLIST.pdf) , [Russian](http://www.codechef.com/download/translated/LTIME28/russian/MANYLIST.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME28/vietnamese/MANYLIST.pdf)
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME28/mandarin/MANYLIST.pdf) , [Russian](http://www.codechef.com/download/translated/LTIME28/russian/MANYLIST.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME28/vietnamese/MANYLIST.pdf)
 
 There are **N** sets numbered **1** to **N**, all initially empty.
 
@@ -113,7 +113,8 @@ For each query of type **1**, output the size of the specified set.
 <tt>1
 2</tt>
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 Have a look at the sets during the operations:
 

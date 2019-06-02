@@ -72,7 +72,7 @@ All submissions for this problem are available.Alice is the queen of ChefLand. S
 
 Initially, there are **N** towns and no roads in ChefLand. Every day one bidirectional road will be built. On the **i**-th day, the road connecting the towns **Ai** and **Bi** will be built.
 
-Nevertheless, Alice worries that if there is a road that will occur in **every** route from the town **A** to the town **B** for some pair of towns **A** and **B**, criminals might attack everyone who is traveling from the town **A** to the town **B** (or vice versa) for sure. So she calls such an unordered pair (**A**, **B**) _unsafe_.
+Nevertheless, Alice worries that if there is a road that will occur in **every** route from the town **A** to the town **B** for some pair of towns **A** and **B**, criminals might attack everyone who is traveling from the town **A** to the town **B** (or vice versa) for sure. So she calls such an unordered pair (**A**, **B**) *unsafe*.
 
 You are given a plan of the road reform. Please, output the number of unsafe unordered pairs of towns, after each of **M** days.
 
@@ -113,7 +113,8 @@ Output **M** lines. The **i**-th line should contain the number of unsafe pairs 
 45
 35
 
-</pre>### Scoring
+</pre>
+### Scoring
 
 Subtask 1 (22 points): 1 <= **N** <= 5, 1 <= **M** <= 5.
 

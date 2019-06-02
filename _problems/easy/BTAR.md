@@ -77,7 +77,7 @@ layout: problem
 ---
 All submissions for this problem are available.### Read problems statements in [Mandarin chinese](http://www.codechef.com/download/translated/COOK89/mandarin/BTAR.pdf), [Russian](http://www.codechef.com/download/translated/COOK89/russian/BTAR.pdf) and [Vietnamese](http://www.codechef.com/download/translated/COOK89/vietnamese/BTAR.pdf) as well.
 
-A sequence of integers is _beautiful_ if each element of this sequence is divisible by 4.
+A sequence of integers is *beautiful* if each element of this sequence is divisible by 4.
 
 You are given a sequence **a1, a2, ..., an**. In one step, you may choose any two elements of this sequence, remove them from the sequence and append their sum to the sequence. Compute the minimum number of steps necessary to make the given sequence beautiful.
 

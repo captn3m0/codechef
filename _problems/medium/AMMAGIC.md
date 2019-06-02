@@ -26,9 +26,9 @@ layout: problem
 ---
 All submissions for this problem are available.Young Alex was playing alone on the upper floor of his family house when he accidentally found a dusty magic board set in some old and rusty chest. The board is a rectangle of size **n** × **m**. He also finds a collection of tiles each containing a single decimal digit \[ie. 0 to 9\]. You may assume that there are at least **n** \* **m** tiles for each particular digit.
 
-There is also a manual lying nearby. The manual says that to start working with the magic board one needs to place exactly one tile containing a digit in each of the **n** \* **m** cells of the board. After placing the tiles, we say that an integer x _can be read_ from the board if one can pick any starting cell that contains the first digit of x and the remaining digits of x can be obtained as follows: Each successive digit should be obtained by moving to some cell that is either to the left, right, up or down of the current cell and reading its value.
+There is also a manual lying nearby. The manual says that to start working with the magic board one needs to place exactly one tile containing a digit in each of the **n** \* **m** cells of the board. After placing the tiles, we say that an integer x *can be read* from the board if one can pick any starting cell that contains the first digit of x and the remaining digits of x can be obtained as follows: Each successive digit should be obtained by moving to some cell that is either to the left, right, up or down of the current cell and reading its value.
 
-Formally, we denote _d(r, c)_ as the digit placed in the cell located in row _r_ and column _c_. Let _x = x1x2... xk_, i.e. _xi_ stands for the _i_-th decimal digit of _x_ and _x1_ ≠ 0. Then, to read x in the board one should find the sequence of cells _(r1, c1), (r2, c2), ..., (rk, ck)_, such that _d(ri, ci) = xi_, and cells _(ri, ci)_ and _(ri + 1, ci + 1)_ share a side for every _i_ from _1_ to _k - 1_. Note that it is allowed for the sequence to contain the same cells two or more times, but two consecutive cells should be distinct.
+Formally, we denote *d(r, c)* as the digit placed in the cell located in row *r* and column *c*. Let *x = x1x2... xk*, i.e. *xi* stands for the *i*-th decimal digit of *x* and *x1* ≠ 0. Then, to read x in the board one should find the sequence of cells *(r1, c1), (r2, c2), ..., (rk, ck)*, such that *d(ri, ci) = xi*, and cells *(ri, ci)* and *(ri + 1, ci + 1)* share a side for every *i* from *1* to *k - 1*. Note that it is allowed for the sequence to contain the same cells two or more times, but two consecutive cells should be distinct.
 
 The magic power of the board will be equal to the minimum positive integer that one can not read in the board. Alex has already filled all cells of the board with digits and now asks you to compute its power.
 
@@ -76,7 +76,8 @@ For each test case print the magic power of the board. That is, the minimum posi
 5
 22
 129
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Testcase 1:** The board has no digit 5, so 5 is the minimum possible integer that one won't be able to read.
 

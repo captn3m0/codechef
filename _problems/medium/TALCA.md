@@ -114,7 +114,8 @@ For each query, write out the answer on a single line.
 <b>Output:</b>
 1
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 - "1 4 2": if 1 is the root, it is parent of both 2 and 4 so LCA of 2 and 4 is 1.
 - "2 4 2": the root of the tree is at 2, according to the definition, LCA of any vertex with 2 is 2.

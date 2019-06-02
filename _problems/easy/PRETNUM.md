@@ -69,7 +69,7 @@ time:
     current: 1493558176
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/NOV13/mandarin/PRETNUM.pdf) and [Russian](http://www.codechef.com/download/translated/NOV13/russian/PRETNUM.PDF).
+All submissions for this problem are available.###  Read problems statements in [ Mandarin Chinese ](http://www.codechef.com/download/translated/NOV13/mandarin/PRETNUM.pdf) and [ Russian](http://www.codechef.com/download/translated/NOV13/russian/PRETNUM.PDF).
 
 Chef doesn't love math anymore. He loves Sasha. Sashen'ka is cute.
 
@@ -102,6 +102,7 @@ For each test case, output a single line containing answer for corresponding tes
 
 <b>Output:</b>
 6
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** Numbers 2,3,4,5,7,9 are special.

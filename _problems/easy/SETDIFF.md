@@ -70,7 +70,7 @@ time:
     current: 1493558186
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MAY15/mandarin/SETDIFF.pdf) and [Russian](http://www.codechef.com/download/translated/MAY15/russian/SETDIFF.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MAY15/mandarin/SETDIFF.pdf) and [Russian](http://www.codechef.com/download/translated/MAY15/russian/SETDIFF.pdf).
 
 Churu is working as a data scientist in Coderpur. He works on a lot of data on the daily basis. One day, he found an interesting problem, which was very easy to solve for small data but was getting more complex with increasing number of data points. So, Churu needs your help in solving this problem.
 
@@ -129,7 +129,8 @@ Two subsets will be called different if there exists an index **i** such that **
 6 
 23
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 For first case answer will be 2-1 = 1.
 

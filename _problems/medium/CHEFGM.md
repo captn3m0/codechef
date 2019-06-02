@@ -68,11 +68,11 @@ time:
     current: 1493557528
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/NOV13/mandarin/CHEFGM.pdf) and [Russian](http://www.codechef.com/download/translated/NOV13/russian/CHEFGM.PDF).
+All submissions for this problem are available.###  Read problems statements in [ Mandarin Chinese ](http://www.codechef.com/download/translated/NOV13/mandarin/CHEFGM.pdf) and [ Russian](http://www.codechef.com/download/translated/NOV13/russian/CHEFGM.PDF).
 
 Chef Ciel is playing a game with one of her colleagues.
 
- In this game, there are _k_ piles of numbers. There are _ni_ numbers in _i_th pile. In each move, player has to select a pile and finally a number from that pile. After that, all the numbers which are greater than or equal to chosen number will be removed from that pile. Players take turn alternatively. Player who is unable to move loses the game.
+ In this game, there are *k* piles of numbers. There are *ni* numbers in *i*th pile. In each move, player has to select a pile and finally a number from that pile. After that, all the numbers which are greater than or equal to chosen number will be removed from that pile. Players take turn alternatively. Player who is unable to move loses the game.
 
 Chef Ciel always make first move. But before making her move, she must choose either EVEN or ODD. If she chooses even then each time she selects a number it must be even and her opponent must select odd number in his/her turn. And vice versa for the other case.
 
@@ -83,7 +83,7 @@ Assume that both players play intelligently, if they can force win they will.
  **Input :** 
  First line of test case contains t, number of test cases.
  Then t test cases follow. First line of each test case contains k, number of piles. 
- Then description of k piles follow. _i_th pile description contains number _ni_, then _ni_ numbers follow in the same line.
+ Then description of k piles follow. *i*th pile description contains number *ni*, then *ni* numbers follow in the same line.
 
 **Output :** 
  Print "EVEN", "ODD" or "DON'T PLAY" accordingly.

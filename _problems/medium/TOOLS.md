@@ -47,7 +47,8 @@ The output for each test case consists of a single line. This line should displa
 4
 10
 6
-</pre>### Notes
+</pre>
+### Notes
 
 In the second case, the Chef dropped of the first tool to the first cook and then picked up the tool for the third cook.
 

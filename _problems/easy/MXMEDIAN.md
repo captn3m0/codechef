@@ -124,7 +124,8 @@ In the second line, print **2 \* N** integers in a single line denoting any perm
 1 3 2 5 4 6
 3
 1 3 3 3 2 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** There are only two possible permutations of **A**, for both of those B will be 2. The median of B is 2.
 

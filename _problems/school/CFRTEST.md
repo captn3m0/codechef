@@ -102,7 +102,8 @@ Print a single line corresponding to the answer of the problem.
 <b>Output:</b>
 2
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** Devu can give party to second friend on day 2 and first friend on day 3, so he can save both his friendships.
 

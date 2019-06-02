@@ -86,11 +86,12 @@ Fun( Sequence S )
 
 }
 
-</pre>where **power(A, B)** returns **AB**, and **A** is **1**-indexed.
+</pre>
+where **power(A, B)** returns **AB**, and **A** is **1**-indexed.
 
 Fun(S) :![](https://s3.amazonaws.com/codechef_shared/download/seq.png)
 
-Now you need to find the **sum** of the values returned by **Fun(S)** for every _distinct sequence_ **S**.
+Now you need to find the **sum** of the values returned by **Fun(S)** for every *distinct sequence* **S**.
 
 Each element of **S** is an integer from **1** to **N**. Thus, there are **NN** possible sequences in all. As the values can be large, return it modulo **M**.
 
@@ -143,6 +144,7 @@ There are two types of test files:
 80
 64
 
-</pre>### Explanation:
+</pre>
+### Explanation:
 
  Test Case 1 : Answer will be (power(7,7)+power(7,11)+power(11,7)+power(11,11) )%23

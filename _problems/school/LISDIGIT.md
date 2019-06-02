@@ -118,7 +118,8 @@ For each test case, output a single **n**-digit number (without leading zeroes) 
 54
 1531
 1730418
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** All one-digit numbers have the same **LIS** array, so any answer from 0 to **9** will be accepted.
 

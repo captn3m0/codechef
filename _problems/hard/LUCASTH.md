@@ -117,7 +117,8 @@ For each test case, print a single line containing one number — the number of 
 <b>Output:</b>
 
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** The values of **f**(4, **k**) are as follows:
 

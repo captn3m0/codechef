@@ -68,7 +68,7 @@ time:
     current: 1493557852
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/NOV14/mandarin/POWERMUL.pdf) and [Russian](http://www.codechef.com/download/translated/NOV14/russian/POWERMUL.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/NOV14/mandarin/POWERMUL.pdf) and [Russian](http://www.codechef.com/download/translated/NOV14/russian/POWERMUL.pdf).
 
 You are given a function f which is defined as :
 
@@ -115,7 +115,8 @@ For every test case , output **Q** lines , each line containing the answer.
 <h3>Sample Output</h3>
 8
 8
-</pre>### Explanation
+</pre>
+### Explanation
 
 f\[1\] = 1
 

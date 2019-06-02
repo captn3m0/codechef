@@ -77,7 +77,7 @@ layout: problem
 ---
 All submissions for this problem are available.Mr. X has given the Chef an undirected tree T with **n** nodes numbered from 1 to **n**. Each edge **e**i of the tree has a non-negative integer **w**i written on it. But the edge weights are hidden from you. You have access only to the structure of the tree. ie. you know all the edges **e**i.
 
-Mr. X. has taught Chef how to compute the function f(**u**, **v**) = Bitwise _XOR_ of all the numbers present on the edges in the unique path from **u** to **v**.
+Mr. X. has taught Chef how to compute the function f(**u**, **v**) = Bitwise *XOR* of all the numbers present on the edges in the unique path from **u** to **v**.
 
 He now wants to test his disciple's understanding of this function. He tells the Chef various values of this function one by one. Since Mr. X. wants to test Chef's skills, this information could be wrong sometimes. You being good friends with the Chef have been asked to help him out to pass the test.
 
@@ -85,11 +85,11 @@ Total **Q** events occur each of which can be in one of the following forms:
 
 - **1 u v r**: 
    Mr. X says that f(**u**, **v**) = **r**. For this type of event you must print: 
-  - _AC_ if the given information is consistent with all the previous information that you have accepted as AC and there is _no way_ you can argue that this information is wrong. Accept this new information as correct.
-  - _WA_ when you can prove that the given information is wrong and does not fit in with the previously _AC_ events.
+  - *AC* if the given information is consistent with all the previous information that you have accepted as AC and there is *no way* you can argue that this information is wrong. Accept this new information as correct.
+  - *WA* when you can prove that the given information is wrong and does not fit in with the previously *AC* events.
 - **2 u v**:
-   Print the value of f(**u**, **v**) using only the information provided in the previously _AC_ events. 
-   If it is not possible to correctly determine this value based on only previously _AC_ events print -1.
+   Print the value of f(**u**, **v**) using only the information provided in the previously *AC* events. 
+   If it is not possible to correctly determine this value based on only previously *AC* events print -1.
 
 ### Input
 
@@ -139,11 +139,12 @@ AC
 WA
 6
 -1 
-</pre>### Explanation
+</pre>
+### Explanation
 
-- Event 1: f(1, 1) cannot be 10. Since there is no edge between 1 and 1, it must be 0 ⇒ _WA_
-- Event 2: You cannot argue that f(1, 2) cannot be 2. Therefore you accept it ⇒ _AC_. Thus now we know that the weight of the edge between 1 and 2 is 2.
-- Event 3: You cannot argue that f(2, 3) cannot be 4. Therefore you accept it ⇒ _AC_. Thus now we know that the weight of the edge between 2 and 3 is 4.
-- Event 4: f(1, 3) is xor of weights of edges 1-2 and 2-3 = 2 xor 4 = 6. Given information is wrong ⇒ _WA_
+- Event 1: f(1, 1) cannot be 10. Since there is no edge between 1 and 1, it must be 0 ⇒ *WA*
+- Event 2: You cannot argue that f(1, 2) cannot be 2. Therefore you accept it ⇒ *AC*. Thus now we know that the weight of the edge between 1 and 2 is 2.
+- Event 3: You cannot argue that f(2, 3) cannot be 4. Therefore you accept it ⇒ *AC*. Thus now we know that the weight of the edge between 2 and 3 is 4.
+- Event 4: f(1, 3) is xor of weights of edges 1-2 and 2-3 = 2 xor 4 = 6. Given information is wrong ⇒ *WA*
 - Event 5: f(1, 3) is 6 as calculated above ⇒ 6
 - Event 6: f(3, 4) cannot be answered using only the above information ⇒ -1

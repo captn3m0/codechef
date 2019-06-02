@@ -76,9 +76,9 @@ All submissions for this problem are available.### Read problems statements in [
 
  A permutation of length **n** is an array of size **n** consisting of **n** **distinct** integers in the range **\[1, n\]**. For example, (3, 2, 4, 1) is a permutation of length 4, but (3, 3, 1, 4) and (2, 3, 4, 5) are not, as (3, 3, 1, 4) contains duplicate elements, and (2, 3, 4, 5) contains elements not in range \[1,4\].
 
-A permutation **p** of length **n** is _good_ if and only if for any **1** ≤ **i** ≤ **n**, **pi** ≠ **i**.
+A permutation **p** of length **n** is *good* if and only if for any **1** ≤ **i** ≤ **n**, **pi** ≠ **i**.
 
-Please find the **lexicographically** smallest _good_ permutation **p**.
+Please find the **lexicographically** smallest *good* permutation **p**.
 
 **Definition for "lexicographically smaller**":
 
@@ -87,7 +87,7 @@ For two permutations **p** and **q**, we say that **p** is lexicographically sma
 - For any **1** ≤ **i** < **l**, **pi** = **q****i**. Note that if **l** = **1**, this constraint means nothing.
 - and, **p****l** < **q****l**.
 
-For example, (2, 3, 1, 4) < (2, 3, 4, 1) < (3, 4, 1, 2). The lexicographically smallest permutation is, of course, (1, 2, ..., **n**), though this one is not _good_.
+For example, (2, 3, 1, 4) < (2, 3, 4, 1) < (3, 4, 1, 2). The lexicographically smallest permutation is, of course, (1, 2, ..., **n**), though this one is not *good*.
 
 ### Input
 
@@ -97,7 +97,7 @@ For each test case, the only line contains an integer **n**.
 
 ### Output
 
-For each test case, output the lexicographically smallest _good_ permutation of length **n**. It's guaranteed that this permutation exists.
+For each test case, output the lexicographically smallest *good* permutation of length **n**. It's guaranteed that this permutation exists.
 
 ### Constraints
 
@@ -124,9 +124,10 @@ For each test case, output the lexicographically smallest _good_ permutation of 
 2 3 1
 2 1 4 5 3
 2 1 4 3 6 5
-</pre>### Explanation
+</pre>
+### Explanation
 
- **Example case 1.** The only _good_ permutation of length 2 is (2, 1).
+ **Example case 1.** The only *good* permutation of length 2 is (2, 1).
 
  **Example case 2.** Consider all permutations of length 3, they are(in lexicographically order):
 

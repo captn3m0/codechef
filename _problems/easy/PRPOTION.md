@@ -68,7 +68,7 @@ time:
     current: 1493558178
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/OCT14/mandarin/PRPOTION.pdf) and [Russian](http://www.codechef.com/download/translated/OCT14/russian/PRPOTION.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/OCT14/mandarin/PRPOTION.pdf) and [Russian](http://www.codechef.com/download/translated/OCT14/russian/PRPOTION.pdf).
 
 Naturally, the magical girl is very good at performing magic. She recently met her master wizard Devu, who gifted her **R** potions of red liquid,
 **B** potions of blue liquid, and **G** potions of green liquid.
@@ -122,6 +122,7 @@ For each test case, print a single integer denoting the answer of the problem.
 2
 4
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** Magical girl can pick the blue potion and make its liquid amount half. So the potions will now have amounts 1 2 1. Maximum of these values is 2. Hence answer is 2.

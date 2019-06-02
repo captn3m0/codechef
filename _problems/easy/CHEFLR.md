@@ -69,9 +69,9 @@ time:
     current: 1493558120
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/SEPT14/mandarin/CHEFLR.pdf) and [Russian](http://www.codechef.com/download/translated/SEPT14/russian/CHEFLR.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/SEPT14/mandarin/CHEFLR.pdf) and [Russian](http://www.codechef.com/download/translated/SEPT14/russian/CHEFLR.pdf).
 
-Chef has a nice _complete_ binary tree in his garden. _Complete_ means that each node has **exactly two** sons, so the tree is infinite. Yesterday he had enumerated the nodes of the tree in such a way:
+Chef has a nice *complete* binary tree in his garden. *Complete* means that each node has **exactly two** sons, so the tree is infinite. Yesterday he had enumerated the nodes of the tree in such a way:
 
 - Let's call the nodes' level a number of nodes that occur on the way to this node from the root, including this node. This way, only the root has the level equal to **1**, while only its two sons has the level equal to **2**.
 - Then, let's take all the nodes with the odd level and enumerate them with consecutive odd numbers, starting from the smallest levels and the leftmost nodes, going to the rightmost nodes and the highest levels.
@@ -86,7 +86,8 @@ Chef has a nice _complete_ binary tree in his garden. _Complete_ means that each
              3       5           7        9
             / \      /  \          /  \       /  \
            6  8 10 12      14 16   18 20 
-</pre>Here you can see the visualization of the process. For example, in odd levels, the root was enumerated first, then, there were enumerated roots' left sons' sons and roots' right sons' sons.
+</pre>
+Here you can see the visualization of the process. For example, in odd levels, the root was enumerated first, then, there were enumerated roots' left sons' sons and roots' right sons' sons.
 
 You are given the string of symbols, let's call it **S**. Each symbol is either **l** or **r**. Naturally, this sequence denotes some path from the root, where **l** means going to the left son and **r** means going to the right son.
 
@@ -122,6 +123,7 @@ lllr
 4
 13
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 See the example in the statement for better understanding the samples.

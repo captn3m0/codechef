@@ -104,7 +104,8 @@ Output a single integer, the maximum area of a triangle which does not exceed **
 
 <b>Output:</b>
 4
-</pre>### Example 2
+</pre>
+### Example 2
 
 <pre><b>Input:</b>
 3 7
@@ -115,7 +116,8 @@ Output a single integer, the maximum area of a triangle which does not exceed **
 
 <b>Output:</b>
 -1
-</pre>### Example 3
+</pre>
+### Example 3
 
 <pre><b>Input:</b>
 7 1234567890123
@@ -130,7 +132,8 @@ Output a single integer, the maximum area of a triangle which does not exceed **
 
 <b>Output:</b>
 755024295480
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** There are 4 triangles in total, and their areas are: 1, 1, 2 and 4. The ones which does not exceed 7/2 are 1, 1 and 2 so the biggest area is 2, and since we are required to multiply the area by 2 before outputting it, it becomes 4.
 

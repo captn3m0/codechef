@@ -112,7 +112,8 @@ aaeddf
 4
 0
 0
-</pre>### Explanation
+</pre>
+### Explanation
 
 There are a total of 6\*(6+1)/2 substrings, all of them occur at least once. So for **F1=1** answer is equal to 21. Note that substring **"a"** is repeated 2 times in **S**, both the instances are added to the answer.
 

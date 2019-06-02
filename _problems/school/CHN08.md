@@ -57,7 +57,8 @@ She'll give an integer **N**, and you have to find out what **f(N)** is. Output 
 <b>Output:</b>
 7
 1000000001
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first test case, **f(3)** = 7, and so that is the output.
 

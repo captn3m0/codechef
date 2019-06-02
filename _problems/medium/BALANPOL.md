@@ -74,9 +74,9 @@ All submissions for this problem are available.###  Read problems statements in 
 
 You are given a [convex polygon](https://en.wikipedia.org/wiki/Convex_polygon) consisting of **n** vertices in 2-D plane. You are also given **m** points, each colored in either red or blue.
 
-A convex polygon is called _w00t_, if the number of red and blue colored points inside this (inside or on the boundary) are equal.
+A convex polygon is called *w00t*, if the number of red and blue colored points inside this (inside or on the boundary) are equal.
 
-You want to find number of _w00t_ convex polygons whose vertices are a subset of the vertices of the given convex polygon.
+You want to find number of *w00t* convex polygons whose vertices are a subset of the vertices of the given convex polygon.
 
 ### Input
 
@@ -90,7 +90,7 @@ In the next **m** lines, each line contains three space separated integers **x, 
 
 ### Output
 
-For each test case, output a single integer corresponding to the number of _w00t_ convex polygons whose vertices are subset of the given convex polygon.
+For each test case, output a single integer corresponding to the number of *w00t* convex polygons whose vertices are subset of the given convex polygon.
 
 ### Constraints 
 
@@ -149,6 +149,7 @@ For each test case, output a single integer corresponding to the number of _w00t
 <b>Output:</b>
 1
 10
-</pre>### Explanation
+</pre>
+### Explanation
 
-**Example case 1.** The entire rectangle is _w00t_.
+**Example case 1.** The entire rectangle is *w00t*.

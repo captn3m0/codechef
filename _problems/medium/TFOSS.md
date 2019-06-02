@@ -30,11 +30,13 @@ x<sub>n</sub> x<sub>n</sub>
 [empty line]
 [input for the next test cases...]
 </p>
-</pre>### Output
+</pre>
+### Output
 
 <pre>o<sub>1</sub> [the square of the maximal distance in the first set]
 o<sub>n</sub> [output for the next test cases...]
-</pre>### Example
+</pre>
+### Example
 
 <pre>
 <b>Input:</b>

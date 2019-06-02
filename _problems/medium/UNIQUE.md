@@ -102,7 +102,8 @@ abcab
 3 2
 3 3
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** 
 

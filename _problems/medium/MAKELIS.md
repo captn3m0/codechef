@@ -74,11 +74,11 @@ layout: problem
 ---
 All submissions for this problem are available.### Read problems statements in [Mandarin Chinese](/download/translated/SNCKPA16/mandarin/MAKELIS.pdf), [Russian](/download/translated/SNCKPA16/russian/MAKELIS.pdf) and [Vietnamese](/download/translated/SNCKPA16/vietnamese/MAKELIS.pdf) as well.
 
-Chef recently learned about the classic **Longest Increasing Subsequence** problem. However, Chef found out that while the _length_ of the longest increasing subsequence is unique, the longest increasing subsequence itself is not necessarily unique; for example, in the array **\[1, 3, 2, 4\]**, there are two longest increasing subsequences: **\[1, 3, 4\]** and **\[1, 2, 4\]**.
+Chef recently learned about the classic **Longest Increasing Subsequence** problem. However, Chef found out that while the *length* of the longest increasing subsequence is unique, the longest increasing subsequence itself is not necessarily unique; for example, in the array **\[1, 3, 2, 4\]**, there are two longest increasing subsequences: **\[1, 3, 4\]** and **\[1, 2, 4\]**.
 
 Chef decided to investigate on this more, and now he has sufficient mastery in it that he was able to come up with a problem:
 
-Given an integer **K**, output an integer **N** and a _permutation_ of the array **\[1, 2, ..., N\]** such that there are **exactly** **K** longest increasing subsequences. Chef also requires that **1** ≤ **N** ≤ **100**, otherwise he found the problem is too easy.
+Given an integer **K**, output an integer **N** and a *permutation* of the array **\[1, 2, ..., N\]** such that there are **exactly** **K** longest increasing subsequences. Chef also requires that **1** ≤ **N** ≤ **100**, otherwise he found the problem is too easy.
 
 In case there are multiple possible answers, any one will be accepted.
 
@@ -111,7 +111,8 @@ For each test case, output two lines. The first line contains a single integer, 
 4
 1 3 2 4
 </tt>
-<pre>### Explanation
+<pre>
+### Explanation
 
 **Example case 1.** Here, **K** = 1. The array **\[1, 2, 3, 4, 5\]** indeed contains exactly one longest increasing subsequence: the whole sequence itself.
 

@@ -69,7 +69,7 @@ time:
     current: 1493557740
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JUNE14/mandarin/LEBLOCKS1.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE14/russian/LEBLOCKS2.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JUNE14/mandarin/LEBLOCKS1.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE14/russian/LEBLOCKS2.pdf).
 
 Little Elephant from Zoo of Lviv has **n** (0-based numeration) blocks consisted of **1x1x1** cubes in such way that the size of **i-th** block is **1x1xAi**. Each of the blocks also has a color, which is a positive integer. The color of **i-th** block is **Ci**. There will be no more than two blocks of the same color.
 

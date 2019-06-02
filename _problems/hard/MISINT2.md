@@ -38,7 +38,8 @@ R - L <= 50000**
 6 7
 45 50
 
-</pre>### Sample output
+</pre>
+### Sample output
 
 <pre>1430
 18252

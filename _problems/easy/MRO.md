@@ -76,7 +76,7 @@ layout: problem
 All submissions for this problem are available.Zotlin is an object-oriented programming language that provides features such as **Classes** and **Functions**. Zotlin also has the following features:
 
 - A function with the same name and same declarations can have different implementations in different classes.
-- Each class can inherit zero or more classes (excluding itself). If **Class A** inherits **Class B**, we say that **Class A** is a _child_ of **Class B**.
+- Each class can inherit zero or more classes (excluding itself). If **Class A** inherits **Class B**, we say that **Class A** is a *child* of **Class B**.
 - A class cannot inherit another class if a cycle is formed by inheritance.
 
 For example, if Class A inherits Class B and Class B inherits Class C, then Class C cannot inherit Class A.
@@ -85,7 +85,7 @@ A Class X is called an ancestor of Class Y, if Y inherits directly or indirectly
 
 Mr. Zourist — a very popular programmer — wrote a program in Zotlin with **N** classes numbered from **1** to **N**. Some of these classes have an implementation of a function **F**. The Zotlin compiler needs to determine which definition of function **F** should be called for an object of **Class 1**.
 
-In order to deterministically decide which implementation of function **F** to use, the compiler uses a list called the **Resolution Order** _(RO list)_. This is a list containing **Class 1** and its ancestors. The compiler iterates through this list to search for a class that contains an implementation of function **F**.
+In order to deterministically decide which implementation of function **F** to use, the compiler uses a list called the **Resolution Order** *(RO list)*. This is a list containing **Class 1** and its ancestors. The compiler iterates through this list to search for a class that contains an implementation of function **F**.
 
 The properties of an RO list are as follows:
 
@@ -93,9 +93,9 @@ The properties of an RO list are as follows:
 - The list contains only the ancestors of Class 1. All the Classes in the list are unique.
 - It is guaranteed that **no Class occurs after any of its ancestors** in the list.
 
-Let's define the _**Special RO list**_ as an RO list of length **N** where the **ith** member in the list is **Class i**. That is, the Special RO list is **\[1, 2, 3, ... , N\]**.
+Let's define the ***Special RO list*** as an RO list of length **N** where the **ith** member in the list is **Class i**. That is, the Special RO list is **\[1, 2, 3, ... , N\]**.
 
-Find out the number of distinct class-inheritance hierarchies Mr. Zourist could have created in his program for which one of the valid RO lists is the _Special RO list_. Print your output modulo 109 + 7.
+Find out the number of distinct class-inheritance hierarchies Mr. Zourist could have created in his program for which one of the valid RO lists is the *Special RO list*. Print your output modulo 109 + 7.
 
  Two class-inheritance hierarchies are considered different if they have at least one class that inherits a different list of classes.
 
@@ -125,7 +125,8 @@ For each testcase, print the required number of distinct class-inheritance hiera
 <b>Output</b>
 3
 9765
-<pre>### Explanation
+<pre>
+### Explanation
 
 **Explanation for testcase 1:**
 
@@ -141,19 +142,22 @@ Let "class X(Y, Z)" denote that X inherits Y, Z
 class 2
 class 3
 class 1(2, 3)
-<pre>**Second possibility:**
+<pre>
+**Second possibility:**
 
 </pre>
 class 3
 class 1(2)
 class 2(3)
-<pre>**Third possibility:**
+<pre>
+**Third possibility:**
 
 </pre>
 class 3
 class 1(2, 3)
 class 2(3)
-<pre>These are the three valid class-inheritance hierarchies, and hence the answer is 3.
+<pre>
+These are the three valid class-inheritance hierarchies, and hence the answer is 3.
 
  Note that the following hierarchy is not valid:
 
@@ -162,4 +166,5 @@ class 2(3)
         class 2
         class 3
     
-<pre> This is because 3 should have been an ancestor of 1, but in the above hierarchy, 3 is a stand-alone class.
+<pre>
+ This is because 3 should have been an ancestor of 1, but in the above hierarchy, 3 is a stand-alone class.

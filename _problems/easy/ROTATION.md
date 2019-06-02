@@ -68,7 +68,7 @@ time:
     current: 1493558181
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/SEPT14/mandarin/ROTATION.pdf) and [Russian](http://www.codechef.com/download/translated/SEPT14/russian/ROTATION.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/SEPT14/mandarin/ROTATION.pdf) and [Russian](http://www.codechef.com/download/translated/SEPT14/russian/ROTATION.pdf).
 
 You are given an array **A** of **N** integers. You are to fulfill **M** queries. Each query has one of the following three types:
 
@@ -110,7 +110,8 @@ R 2
 5
 3
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 The initial array : 5 4 3 3 9
 

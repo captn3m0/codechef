@@ -70,7 +70,7 @@ time:
     current: 1492506759
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/OCT15/mandarin/SUBINC.pdf) and [Russian](http://www.codechef.com/download/translated/OCT15/russian/SUBINC.pdf) 
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/OCT15/mandarin/SUBINC.pdf) and [Russian](http://www.codechef.com/download/translated/OCT15/russian/SUBINC.pdf) 
 
 Given an array **A1, A2, ..., AN**, count the number of subarrays of array **A** which are non-decreasing.
 A subarray **A\[i, j\]**, where **1 ≤ i ≤ j ≤ N** is a sequence of integers **Ai, Ai+1, ..., Aj**.
@@ -113,7 +113,8 @@ For each test case, output in a single line the required answer.
 <b>Output:</b>
 <tt>6
 1</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**
 All valid subarrays are **A\[1, 1\], A\[1, 2\], A\[2, 2\], A\[3, 3\], A\[3, 4\], A\[4, 4\]**.

@@ -11,7 +11,9 @@ layout: problem
 ---
 ###  All submissions for this problem are available. 
 
-`<b>[Problem Idea : Varun Jalan]</b>`Two players A and B play the following game.
+<pre><b>[Problem Idea : Varun Jalan]</b>
+</pre>
+Two players A and B play the following game.
 
 1\) First, a matrix M of size N\*M is chosen, and filled with non-zero numbers.
 
@@ -63,7 +65,8 @@ Time limit : 2 seconds.
 3 2
 3 2
 
-</pre>### Sample Output:
+</pre>
+### Sample Output:
 
 <pre>SECOND
 FIRST

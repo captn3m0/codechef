@@ -71,7 +71,7 @@ layout: problem
 ---
 All submissions for this problem are available.Chef Ciel is participating in an arithmetic contest now. Why? Because of the top prize for the contest, a limited edition kitchen knife.
 
-But to win the contest she must calculate the values **f**(**M**, **N**, **X**) of the function named _polynomial partition function_. The polynomial partition function **f**(**M**, **N**, **X**) is defined by
+But to win the contest she must calculate the values **f**(**M**, **N**, **X**) of the function named *polynomial partition function*. The polynomial partition function **f**(**M**, **N**, **X**) is defined by
 
 ![](http://www.codechef.com/download/PARPOLY.png)
 where **P** is a given polynomial **P**(**x**) = **C****D** · **x****D** + **C****D**-1 · **x****D**-1 + ... + **C**1 · **x** + **C**0.
@@ -113,11 +113,13 @@ If **D** ≠ 0, then **C****D** ≠ 0
 1 1 1
 3 1 1
 3 1 2 3 4
-</pre>### Sample Output
+</pre>
+### Sample Output
 
 <pre>78
 4
 30
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first case, the polynomial is **P**(**x**) = 2 · **x**2 + **x**. The answer is **P**(3**X**) = **P**(6) = 2 · 36 + 6 = 78.

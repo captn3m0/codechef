@@ -70,20 +70,20 @@ layout: problem
 ---
 All submissions for this problem are available.Chef Datta likes betting in Indian Premier League very much.
 
-He has **10000** rupees. Today the match is between _team A_ and _team B_. The winning probability of _team A_ is **PA**, and hence winning probability of _team B_ is **PB = 1 − PA**. 
+He has **10000** rupees. Today the match is between *team A* and *team B*. The winning probability of *team A* is **PA**, and hence winning probability of *team B* is **PB = 1 − PA**. 
 
 Datta is free to bet any integral amount of money on any of the two teams as long as the total amount of money bet is at most **10000** rupees.
 Help him know the expected amount of money he will eventually have if today he places his bet(s) optimally.
 
 ### Rules of the game:
 
-If _team X_ with winning probability **PX** actually wins and someone bets **M** rupees on this team, he will gain **(2\*(1−PX)) \* M** rupees.
+If *team X* with winning probability **PX** actually wins and someone bets **M** rupees on this team, he will gain **(2\*(1−PX)) \* M** rupees.
 
-If _team X_ with winning probability **PX** actually loses and someone bets **N** rupees on this team, he will just lose **N** rupees.
+If *team X* with winning probability **PX** actually loses and someone bets **N** rupees on this team, he will just lose **N** rupees.
 
 ### Input
 
-First line contains single integer **T**, the number of testcases. Then **T** lines follow, each line contains **PA** the probability that _team A_ wins.
+First line contains single integer **T**, the number of testcases. Then **T** lines follow, each line contains **PA** the probability that *team A* wins.
 
 ### Output
 
@@ -103,7 +103,8 @@ For each test case output single line containing the expected amount of money Da
 
 <b>Output:</b>
 10098
-</pre>### Example bet:
+</pre>
+### Example bet:
 
 Look at the following situation:
 
@@ -115,4 +116,4 @@ Look at the following situation:
 
 
 
-If chef Datta bets **6,000** on _team A_ and **4,000** on _team B_, the expected amount of money he will have after the bet is settled is **10,018**. Apparently that is not the best he can do **;)**
+If chef Datta bets **6,000** on *team A* and **4,000** on *team B*, the expected amount of money he will have after the bet is settled is **10,018**. Apparently that is not the best he can do **;)**

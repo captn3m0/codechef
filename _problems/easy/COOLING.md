@@ -31,7 +31,8 @@ For each test case, output on a line the maximum number of pies the chef can pla
 9 7 16 4 8
 8 3 14 10 10
  
-</pre>### Sample output:
+</pre>
+### Sample output:
 
 <pre>3
 4

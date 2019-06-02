@@ -69,7 +69,7 @@ time:
     current: 1493557447
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME36/mandarin/ALOST.pdf), [Russian](http://www.codechef.com/download/translated/LTIME36/russian/ALOST.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME36/vietnamese/ALOST.pdf) as well.
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME36/mandarin/ALOST.pdf), [Russian](http://www.codechef.com/download/translated/LTIME36/russian/ALOST.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME36/vietnamese/ALOST.pdf) as well.
 
 Akhil has an array consisting of **N** positive integers. As we know that there are **(N\*(N+1))/2** non-empty contiguous subarrays in an array of size **N**. Akhil found that exactly **E** of the contiguous subarrays had even sum and remaining **O = (N\*(N+1))/2 - E** have odd sum.
 
@@ -112,7 +112,8 @@ Next day, he lost the original array. But he still remembered the **E** and **O*
 2 1 2
 1 2 2
 -1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** There are total 6 subarrays : {2},{1},{2},{2,1},{1,2},{2,1,2}. Their sums {2, 1, 2, 3, 3, 5} are respectively. As 2 of them are even and 4 of them are odd. So, this is one possible answer which satisfies Akhil's requirements.
 

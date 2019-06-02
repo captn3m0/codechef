@@ -96,7 +96,8 @@ For each test case output a single integer in a separate line, the answer for th
 12
 24
 240
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Case 1.** For **N = 2** days we have the following **12** schedules:
 

@@ -80,7 +80,7 @@ Chef has **N** segments. For each **i** (1 ≤ **i** ≤ **N**), the **i**-th se
 
 Let's say that a segment \[**l**, **r**\] crosses a point **x** if **l** ≤ **x** ≤ **r**.
 
-Chef wants you to answer **Q** queries. In each query, you are given a set of **M** distinct points **X1, X2, ..., XM**; you should compute the number of good segments \[**Li**, **Ri**\] among the given **N** segments. A segment is _good_ if it crosses an **odd** number of points out of the given **M** points.
+Chef wants you to answer **Q** queries. In each query, you are given a set of **M** distinct points **X1, X2, ..., XM**; you should compute the number of good segments \[**Li**, **Ri**\] among the given **N** segments. A segment is *good* if it crosses an **odd** number of points out of the given **M** points.
 
 ### Input
 

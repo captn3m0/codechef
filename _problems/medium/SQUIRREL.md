@@ -23,7 +23,7 @@ Calculate the shortest time (how many seconds more) the squirrels can take enoug
   - The first line contains the integers m,n,k, respectively.
   - The second line contains the integers Ti (i=1..m), respectively.
   - The third line contains the integers Pi (i=1..m), respectively.
-**_(Each integer on a same line is separated by at least one space character, there is no added line between test cases)_** 
+***(Each integer on a same line is separated by at least one space character, there is no added line between test cases)*** 
 ### Output
 
 For each test cases, output in a single line an integer which is the shortest time calculated.
@@ -39,11 +39,13 @@ For each test cases, output in a single line an integer which is the shortest ti
 3 2 5
 5 1 2
 1 1 1
-</pre>**Output:**
+</pre>
+**Output:**
 
 <pre>4
 3
-</pre>_\* Explain (case #1): 2 squirrels waiting below the trees 2 and 3._
+</pre>
+*\* Explain (case #1): 2 squirrels waiting below the trees 2 and 3.*
 
 ### Limitations
 

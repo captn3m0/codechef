@@ -132,7 +132,8 @@ For each test case, print a single number, the number of pairs (**u**, **v**) th
 <b>Output:</b>
 7
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** All possible pairs are: {  **(1,1) (1,2) (1,3) (1,4) (1,5) (2,2) (2,3) (2,4) (2,5) (3,3) (3,4) (3,5) (4,4) (4,5) (5,5)**  }. The valid pairs are: {  **(1,1) (1,2) (1,3) (1,4) (2,3) (3,3) (3,4)**  }.
 

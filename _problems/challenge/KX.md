@@ -100,7 +100,8 @@ For each i<k, squares i and i+1 of the route should share a common edge, and mor
 1 0
 <strong>Score:</strong>
 0.897598
-</pre>### Test distribution
+</pre>
+### Test distribution
 
 n will be chosen uniformly from the range \[100,800\] range. The number of trees will be chosen uniformly from the range \[n2\*alfa,n2\*2\*alfa), where alfa = 0.1 for 1/3 of the testcases, alfa = 0.02 for 1/3 of the testcases, and alfa = 0.004 for 1/3 of the testcases. Positions of trees are chosen uniformly at random.
 

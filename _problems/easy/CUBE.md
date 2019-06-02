@@ -67,14 +67,14 @@ time:
     current: 1493558134
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/DEC13/mandarin/CUBE.pdf) and [Russian](http://www.codechef.com/download/translated/DEC13/russian/CUBE.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/DEC13/mandarin/CUBE.pdf) and [Russian](http://www.codechef.com/download/translated/DEC13/russian/CUBE.pdf).
 
 This winter our chef plans to unveil his latest creation - Cube Cakes. As the name suggests, this new delicacy is a cake in the form of a perfect cube with secret ingredients from the chef's inventory. Since it is a relatively new creation of the chef, he wants to master the ability to make perfectly identical Cube Cakes. For this, he wants you to write a program that will calculate the similarity between two given Cube Cakes.
 
  
 />
 
- Each Cube Cake can be represented as a cube of size **N** where each cell of the cube contains a lowercase alphabet ('a'-'z'). The similarity between two Cube Cakes ( of size  **N**  each ) is defined as the maximum sized _common_ sub-cube that exists at exactly the same position in both the Cube Cakes. Two sub-cubes are said to be _common_ if at-least **P%** of their corresponding characters are equal. You need to find the size **S** of the largest such sub-cube and also the number of _common_ sub-cubes of size **S** in the Cube Cake.
+ Each Cube Cake can be represented as a cube of size **N** where each cell of the cube contains a lowercase alphabet ('a'-'z'). The similarity between two Cube Cakes ( of size  **N**  each ) is defined as the maximum sized *common* sub-cube that exists at exactly the same position in both the Cube Cakes. Two sub-cubes are said to be *common* if at-least **P%** of their corresponding characters are equal. You need to find the size **S** of the largest such sub-cube and also the number of *common* sub-cubes of size **S** in the Cube Cake.
 
 ### Input
 
@@ -86,8 +86,8 @@ The next line contains a string **SB** containing  **N3**  lowercase characters 
 
 ### Output
 
- For every test case, print in a single line the similarity between the two Cube Cakes  **S**  and the number of _common_ sub-cubes of size **S**.
-If there is no _common_ sub cube present, just print **-1** in a single line.
+ For every test case, print in a single line the similarity between the two Cube Cakes  **S**  and the number of *common* sub-cubes of size **S**.
+If there is no *common* sub cube present, just print **-1** in a single line.
 
 ### Constraints
 
@@ -114,7 +114,8 @@ b
 2 1
 1 2
 -1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**
 
@@ -126,4 +127,4 @@ Since **P** is **100**, all characters in the sub-cube must match. The sub cube 
 
 **Example case 3.**
 
-Since no characters match in the cube, we cannot find a _common_ subcube here. />
+Since no characters match in the cube, we cannot find a *common* subcube here. />

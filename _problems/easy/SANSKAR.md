@@ -69,7 +69,7 @@ time:
     current: 1493558185
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/DEC14/mandarin/SANSKAR.pdf) and [Russian](http://www.codechef.com/download/translated/DEC14/russian/SANSKAR.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/DEC14/mandarin/SANSKAR.pdf) and [Russian](http://www.codechef.com/download/translated/DEC14/russian/SANSKAR.pdf).
 
 Alok-nath is man of equality. He needs your help to divide his “sanskars” evenly amongst all his followers. By doing this, Alok-nath can create equality amongst his followers and he'll be called a true “sanskari”.
 
@@ -105,6 +105,7 @@ For each test case, output "yes" if it is possible to divide his sanskars equall
 <b>Output:</b>
 yes
 no
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first case, sanskars can be allocated as follows, each follower receiving a total intensity of 6: {1,5}, {2,4}, {6}.

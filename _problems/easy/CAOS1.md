@@ -80,7 +80,7 @@ Kirito is a known star player of CAO. You have to help him log out.
 **Present**
 
 
-_Stage 1_/>
+*Stage 1*/>
 
 A map is described by a 2D grid of cells. Each cell is either labelled as a **\#** or a **^**. **\#** denotes a wall. A monster exists in a cell if the cell is not a wall and the cell is a **centre of Prime-Cross (CPC)**.
 
@@ -133,7 +133,8 @@ For each test case, output a single line containing the number of cells where mo
 <b>Output:</b>
 0
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** There is no cell for which minimum of L, R, T, B is greater than some prime P.
 

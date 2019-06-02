@@ -104,6 +104,7 @@ For each test case print the answer in a separate line — two integer coordinat
 <b>Output 1</b>:
 9 4
 -1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **test #1:** Jem's house must be at most 16 centimeters - which is equal to 0.16 metres away from the border. The distance from the point (9, 4) to the border is: 10 - sqrt(92 + 42) ~ 0.15

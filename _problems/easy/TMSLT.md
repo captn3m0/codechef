@@ -68,7 +68,7 @@ time:
     current: 1493558193
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MARCH14/mandarin/TMSLT.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH14/russian/TMSLT.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MARCH14/mandarin/TMSLT.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH14/russian/TMSLT.pdf).
 
 Chef wants to split a team of new chef into two teams to play a game. In order to make the split, he first designates two team captains who take alternate turns selecting players for their teams. During each turn, the captain selects a single player for his team. Since each captain wants to make the strongest possible team, he will always select the best available player. The players have strengths as integer number, where higher strength indicate better players. After all the players have been selected, the team strength is computed as the sum of the strengths of the players on that team.
 

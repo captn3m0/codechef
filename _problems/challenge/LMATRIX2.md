@@ -96,7 +96,7 @@ The first line contains two space-separated integers **N** and **M**, denoting t
 
 In the first line, print the integer **Q (0 ≤ Q ≤ N \* M)**, denoting the number of the moves for erasing all non zero numbers from the second matrix. In the **i**th line of the next **Q** lines, print **5** space-separated integers **x1**, **y1**, **x2**, **y2**, **k**, denoting the information about submatrix chosen at the **i**th move.
 
-**Note:** Your solution will be judged as _wrong answer_ if **Q** is larger then **N\*M**.
+**Note:** Your solution will be judged as *wrong answer* if **Q** is larger then **N\*M**.
 
 ### Constraints for the official judge data
 
@@ -119,11 +119,12 @@ In the first line, print the integer **Q (0 ≤ Q ≤ N \* M)**, denoting the nu
 1 1 2 2 1
 2 2 2 2 1
 
-</pre>### Scoring
+</pre>
+### Scoring
 
 For each test file, your score is calculated as **100 × Q / (N × M)**. Then the total your score is defined as the average of your score for the test files (see the next paragraph, for more details). The aim for this problem is to minimize the total your score.
 
-We have **40** official test files. You must correctly solve all test files to receive _accepted_. During the contest, the scores of the last **30** test files are 0, that is, the total your score is calculated by only the first **10** tests. After the contest, all solutions will be rescored by the average of the scores of the all **40** test files, and it will be the final score.
+We have **40** official test files. You must correctly solve all test files to receive *accepted*. During the contest, the scores of the last **30** test files are 0, that is, the total your score is calculated by only the first **10** tests. After the contest, all solutions will be rescored by the average of the scores of the all **40** test files, and it will be the final score.
 
 ### Test generation
 

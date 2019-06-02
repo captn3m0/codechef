@@ -72,7 +72,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/DEC15/mandarin/SEADIV.pdf), [Russian](http://www.codechef.com/download/translated/DEC15/russian/SEADIV.pdf) and [Vietnamese](http://www.codechef.com/download/translated/DEC15/vietnamese/SEADIV.pdf) as well.
 
-Sereja has two integers — **A** and **B** — in _7_-ary system. He wants to calculate the number **C**, such that **B \* C = A**. It is guaranteed that **B** is a divisor of **A**.
+Sereja has two integers — **A** and **B** — in *7*-ary system. He wants to calculate the number **C**, such that **B \* C = A**. It is guaranteed that **B** is a divisor of **A**.
 
 Please, help Sereja calculate the number **C** modulo **7L**.
 
@@ -80,11 +80,11 @@ Please, help Sereja calculate the number **C** modulo **7L**.
 
 First line of input contains an integer **T** — the number of test cases. **T** tests follow.
 
-For each test case, the first line contains the integer **A**, and the second line contains the integer **B**, and the third line contains the integer **L**. **A** and **B** are given in _7_-ary system.
+For each test case, the first line contains the integer **A**, and the second line contains the integer **B**, and the third line contains the integer **L**. **A** and **B** are given in *7*-ary system.
 
 ### Output
 
-Output the answer in _7_-ary system. ### Constraints
+Output the answer in *7*-ary system. ### Constraints
 
 - **1** ≤ **T** ≤ **10**
 - **A** and **B** are both positive integers.

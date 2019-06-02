@@ -107,6 +107,7 @@ It is guaranteed that at least one pair of valid beat notations exists.
 <b>Output:</b>
 2 5 8 11<br></br>2 4 8 16<br></br>1 2 3 4 5<br></br>1 2 4<br></br>1 10 19 28<br></br>1 3 9 27 81<br></br>1 7 13<br></br>4 10 25<br></br><br></br>
 />/>/>/>/>/>/>/>/>/>/>/>/>/>/>/>/>/>
-</pre>### Note
+</pre>
+### Note
 
 In last example, the common ratio is 2.5 (**non-integer**) even when all the elements of geometric progression sequence are integers.

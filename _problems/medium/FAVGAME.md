@@ -149,7 +149,8 @@ For each test case, output a single integer ― the minimum number of working da
 <tt>5
 4</tt>
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** Chef has to complete every level during separate working days, and so to complete all **5** levels he needs **5** working days.
 

@@ -69,7 +69,7 @@ time:
     current: 1493557477
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MARCH14/mandarin/ANUGCD.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH14/russian/ANUGCD.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MARCH14/mandarin/ANUGCD.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH14/russian/ANUGCD.pdf).
 
 ### Statement
 
@@ -112,7 +112,8 @@ For each query output the required Answer.
 3 1
 5 1
 4 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Query #1**
 GCD(2,1)=1, GCD(2,2)=2, GCD(2,3)=1, GCD(2,4)=2, GCD(2,5)=1

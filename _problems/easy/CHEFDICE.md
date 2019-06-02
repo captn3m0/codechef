@@ -126,7 +126,8 @@ All submissions for this problem are available.### Read problems statements in [
 4 5 6 1 2 3
 -1
 
-</pre>###  Explanation
+</pre>
+###  Explanation
 
  **Example case 1:** See below.
 

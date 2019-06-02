@@ -70,7 +70,7 @@ layout: problem
 ---
 All submissions for this problem are available.Chef Ciel now faces a crisis situation. It is a really complicated situation, please read carefully. Here, your task is to calculate the minimum expected time for slipping out of the crisis situation.
 
-As you know, Ciel uses a safe having _Box and Ball System_ as the combination of the safe (See **NOTE 1**). And, of course, Ciel now knows that the number of the valid combinations for the safe is really large, and it is hard to open it if she forgets her combination. Hence Ciel wrote the combination in a text file and split the text file into **K** pieces, where each piece is compressed with some password. That is, she needs passwords for all **K** pieces for checking the combination of her safe.
+As you know, Ciel uses a safe having *Box and Ball System* as the combination of the safe (See **NOTE 1**). And, of course, Ciel now knows that the number of the valid combinations for the safe is really large, and it is hard to open it if she forgets her combination. Hence Ciel wrote the combination in a text file and split the text file into **K** pieces, where each piece is compressed with some password. That is, she needs passwords for all **K** pieces for checking the combination of her safe.
 
 Now Ciel has forgotten the combination for her safe and passwords for all **K** pieces! However she remembers that the password for the **i**-th piece is a positive integer not greater than **Ni**, that is, there are only **Ni** possibilities for the **i**-th piece's password. So she'd like to try brute-force.
 
@@ -177,7 +177,8 @@ Every real value has at most 6 digits after the decimal point.
 130
 182.333333333333333333333
 12938.4586699
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Case 1.** Here Ciel has no choice other than she goes to the first computer center and cracks the password for the only piece by using 1 computer, then Ciel back to her restaurant. The answer is 1 (going to the computer center) + 50.5 (cracking) + 1 (back to her restaurant) = 52.5. In the cracking phase since Ciel uses only one computer the time for connection is not needed. The program will check passwords one by one and 1 nanosecond is needed for checking one password. So the running time will be **k** nanoseconds with probability 1% for 1 ≤ **k** ≤ 100. Therefore the expected time for the cracking phase is 1 \* 0.01 + 2 \* 0.01 + ... + 100 \* 0.01 = 50.5.
 

@@ -29,12 +29,14 @@ Sample Input :
 1 100
 499875921 499875921
 
-</pre><pre>
+</pre>
+<pre>
 Sample Output :
 0
 1
 
-</pre><pre>
+</pre>
+<pre>
 Constraints :
 1 <= T <= 10000
 1 <= A <= B <= 10000000000 (10^10)

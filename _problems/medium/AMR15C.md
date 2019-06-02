@@ -107,7 +107,8 @@ For each test case, output a single line containing **N** space separated intege
 -1
 1 2 3
 2 3 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **For the first test case**, **N = 2** and **K = 2**. It is impossible to permute **\[1, 2\]** in any way such that **abs(P\[1\]-1) >= 2** and **abs(P\[2\]-2) >= 2**. Hence, output is **-1**.
 

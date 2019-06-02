@@ -113,7 +113,8 @@ cd
 B
 A
 B
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Testcase 1**: If A adds 'a' to w in the first move, B can add 'a' and make the string w = "aa", which is a palindrome, and hence win. Similarly, you can show that no matter what A plays, B can win. Hence the answer is B.
 

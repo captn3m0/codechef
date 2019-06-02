@@ -110,7 +110,8 @@ For each test case, output a single line containing an integer corresponding to 
 <b>Output:</b>
 2
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** Both the courses 2 and 3 can have course 1 as a prerequisite. In this case, course 2 and course 3 are not prerequisites for any course. So, we have two such courses.
 

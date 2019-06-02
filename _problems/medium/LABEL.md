@@ -72,7 +72,7 @@ time:
     current: 1493557732
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME35/mandarin/LABEL.pdf), [Russian](http://www.codechef.com/download/translated/LTIME35/russian/LABEL.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME35/vietnamese/LABEL.pdf) as well.
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME35/mandarin/LABEL.pdf), [Russian](http://www.codechef.com/download/translated/LTIME35/russian/LABEL.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME35/vietnamese/LABEL.pdf) as well.
 
 Chef likes to play with trees a lot, so his best friend Smurf has given him a tree **T** consisting of **N** nodes numbered from **1** to **N**.
 
@@ -122,6 +122,7 @@ For each test case, print the answer in a separate line.
 <tt>4
 2
 12</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 ![](https://s3.amazonaws.com/hr-challenge-images/15909/1461164061-a8af760fd8-C.png "C.png")

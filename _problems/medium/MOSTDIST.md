@@ -135,7 +135,8 @@ All submissions for this problem are available.###  Read problems statements in 
 4
 11
 
-</pre>### Explanations
+</pre>
+### Explanations
 
 Here's a non-encrypted version of the example:
 
@@ -151,4 +152,5 @@ Here's a non-encrypted version of the example:
 ? 5 10
 ? 0 1
 - 2
-</pre>The answers are the same.
+</pre>
+The answers are the same.

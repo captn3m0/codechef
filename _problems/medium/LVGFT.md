@@ -135,7 +135,8 @@ That is, Chef now lives in City **C**, and you know where all the bank branches 
 -1
 4
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 The map of the country is as follows:
 

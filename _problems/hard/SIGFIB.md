@@ -68,7 +68,7 @@ time:
     current: 1493556846
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/AUG14/mandarin/SIGFIB.pdf) and [Russian](http://www.codechef.com/download/translated/AUG14/russian/SIGFIB.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/AUG14/mandarin/SIGFIB.pdf) and [Russian](http://www.codechef.com/download/translated/AUG14/russian/SIGFIB.pdf).
 
 Sigma and Fibonacci were two geeky friends. As ACM ICPC is near, they have started forming teams. Sigma loved summing series and Fibonacci loved playing with fibonacci numbers. They made Gopu as their ACM ICPC Coach. To train them up, Gopu gave them a challenge which will require both of their coordination to solve it. The challenge given by Gopu is described below:
 
@@ -106,7 +106,8 @@ First line of input contains an integer **T** denoting the number of test cases.
 <strong>Output:</strong>
 6<br></br>36<br></br>66<br></br>60<br></br>
 </span>
-</pre>### Explanation for first test case:
+</pre>
+### Explanation for first test case:
 
  In the first case, we have the following 10 terms for **N** = 3:
 6 \* 0\*0\*3\*Fibo\[0\] \* Fibo\[0\] \* Fibo\[3\]

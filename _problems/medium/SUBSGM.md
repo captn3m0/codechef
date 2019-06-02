@@ -69,7 +69,7 @@ time:
     current: 1493557937
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME10/mandarin/SUBSGM.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME10/russian/SUBSGM.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME10/mandarin/SUBSGM.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME10/russian/SUBSGM.pdf).
 
 Let's call arrays of the form **x** **x+1** ... **x+k** nice. In other words nice arrays are arrays that form increasing arithmetic progression with the difference of one.
 
@@ -107,7 +107,8 @@ Anytime **ai** <= 2 \* **N** holds.
 5
 2
 2
-</pre>### Scoring
+</pre>
+### Scoring
 
 1 <= **N** <= 100, 1 <= **M** <= 1000 : 20 points. 
 

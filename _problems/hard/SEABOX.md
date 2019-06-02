@@ -82,7 +82,9 @@ int F(box A, int dx = 0, int dy = 0, int dz = 0, int size = N) {
    vector<bool> B = {};
    for (int i = dx; i 
 </bool>
-</pre>This function computes compression level of the box. Sereja now wants to know minimal and maximal value of **F(D)** among all boxes **D** which has same dimensions as **A** and differ in no more than **K** cells with **A**.
+</pre>
+This function computes compression level of the box. Sereja now wants to know minimal and maximal value of **F(D)** among all boxes **D** which has same dimensions as **A** and differ in no more than **K** cells with **A**.
+
 ### Input
 
 First line contains integers **N** and **K**.
@@ -117,7 +119,8 @@ Output two numbers in a single line - minimal and maximal value of **F(D)**.
 
 <b>Output:</b>
 1 1
-</pre>### Example 2
+</pre>
+### Example 2
 
 <pre><b>Input:</b>
 2 1

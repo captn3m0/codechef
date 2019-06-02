@@ -40,11 +40,13 @@ For each test case output a single integer, on a line by itself, indicating the 
 3 6 9
 12 14 15
 16 17 18
-</pre>### Sample Output:
+</pre>
+### Sample Output:
 
 <pre>1
 2
-</pre>### Explanation:
+</pre>
+### Explanation:
 
 In the first example, the cards in the envelope are 1, 7, and 13. All of the logicians immediately know this, however the first logician wins because it must be one's turn in order to win.
 

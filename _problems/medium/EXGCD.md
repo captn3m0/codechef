@@ -101,13 +101,15 @@ For each test case, output the value **N** according to the problem statement. I
 2
 2700 2701
 2612 2724
-</pre>### Sample Output
+</pre>
+### Sample Output
 
 <pre>333333334
 875000005
 722222226
 314159265
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Sample test 1.** Here **X0** is randomly chosen between 2 and 4, inclusive, and **X1** is randomly chosen between 3 and 5, inclusive. The distribution of the greatest common divisor of **X0** and **X1** can be seen from the following table:
 

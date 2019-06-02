@@ -68,9 +68,9 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MAY15/mandarin/SHOPPING.pdf) and [Russian](http://www.codechef.com/download/translated/MAY15/russian/SHOPPING.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MAY15/mandarin/SHOPPING.pdf) and [Russian](http://www.codechef.com/download/translated/MAY15/russian/SHOPPING.pdf).
 
-_This is an interactive problem. Please refer to "Interactivity details" section in order to get acquainted with the IO format. Good luck!_
+*This is an interactive problem. Please refer to "Interactivity details" section in order to get acquainted with the IO format. Good luck!*
 
 About two years ago, Sergey has bought a wallet. Since then, he's constantly facing kind of difficulty, when he pays for something.
 

@@ -110,7 +110,8 @@ Output a single line containing the number of strings corresponding to the given
 0 3 4
 <b>Output:</b>
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 The initial array is (1, 2, 3, 4).
 After the first operation the array becomes (1, 3, 2, 4).

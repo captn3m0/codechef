@@ -69,7 +69,7 @@ time:
     current: 1493556816
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/DEC13/mandarin/REALSET.pdf) and [Russian](http://www.codechef.com/download/translated/DEC13/russian/REALSET_1.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/DEC13/mandarin/REALSET.pdf) and [Russian](http://www.codechef.com/download/translated/DEC13/russian/REALSET_1.pdf).
 
 Little Petya likes integer numbers a lot. Recently he has received a sequence of integers as a gift from his mother. Petya calls a sequence of **N** integers **Ai** beautiful if there exist a sequence of **N** integer numbers **Bi** for which the following conditions hold:
 
@@ -115,7 +115,8 @@ NO
 YES
 YES
 NO
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 2.** One of the possible sequences B is (1, -1, 0).
 

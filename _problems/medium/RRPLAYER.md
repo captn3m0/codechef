@@ -105,6 +105,7 @@ For each test case, output a single line containing the expected number of songs
 5.5
 
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 2** After playing the first song there is **1/2** chance to finish the album each time new song is played. So the expected number of songs is **2/2 + 3/4 + 4/8... = 3**

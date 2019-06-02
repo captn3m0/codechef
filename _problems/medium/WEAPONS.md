@@ -70,7 +70,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 Chef has recently started becoming a fan of computer games. He is currently playing a game in which he controls a warrior who is fighting evil monsters.
 
-Before the start of each stage, **N** weapons appear on the screen in circular order. Each weapon has an integer associated with it, which represents its _level_. The chef can choose two adjacent weapons of the same level and fuse them into a single weapon of level **A+1**, where **A** is the level of the weapons before fusing. Both the old weapons will disappear and the new weapon will be placed in the place of the old weapons, shrinking the circle.
+Before the start of each stage, **N** weapons appear on the screen in circular order. Each weapon has an integer associated with it, which represents its *level*. The chef can choose two adjacent weapons of the same level and fuse them into a single weapon of level **A+1**, where **A** is the level of the weapons before fusing. Both the old weapons will disappear and the new weapon will be placed in the place of the old weapons, shrinking the circle.
 
 Chef can fuse as many times as he wants, and in each stage, he wants to make a weapon with as high a level as possible. Each stage is independent of other stages.
 
@@ -107,7 +107,8 @@ For each stage, output a single integer in new line, which should be the maximum
 <b>Output:</b>
 5
 5
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** The initial state is (3, 3, 1, 4). The Chef can fuse the first two weapons and get (4, 1, 4). Then he can fuse the first and last weapons to get (5, 1). Now, he can't do anything else. He has gotten a weapon of level 5, and you can show that there is no way to get a weapon of a higher level. Hence the answer is 5.
 

@@ -72,9 +72,9 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/APRIL16/mandarin/CHEFPATH.pdf), [Russian](http://www.codechef.com/download/translated/APRIL16/russian/CHEFPATH.pdf) and [Vietnamese](http://www.codechef.com/download/translated/APRIL16/vietnamese/CHEFPATH.pdf) as well.
 
-Chef is stuck in a two dimensional maze having **N** rows and **M** columns. He needs to get out of the maze as soon as possible and arrive at the kitchen in order to serve his hungry customers. But, he can get out of the maze only if he is able to successfully find any _magical_ path in the given maze.
+Chef is stuck in a two dimensional maze having **N** rows and **M** columns. He needs to get out of the maze as soon as possible and arrive at the kitchen in order to serve his hungry customers. But, he can get out of the maze only if he is able to successfully find any *magical* path in the given maze.
 
-A path is defined as _magical_ if it starts from any of the cell **(a,b)** of the maze and ends at the cell **(c,d)** such that the following conditions are satisfied :-
+A path is defined as *magical* if it starts from any of the cell **(a,b)** of the maze and ends at the cell **(c,d)** such that the following conditions are satisfied :-
 
 - **|a - c| + |b - d| = 1**
 - All the cells in the maze are traversed exactly once.
@@ -112,7 +112,8 @@ Original Constraints
 
 <b>Output:</b>
 Yes
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**
-Chef can start from (1,1), move down to (2,1), then move right to (2,2) and finally move upwards to reach (1,2). As, he is able to visit all the cells exactly once and sum of absolute differences of corresponding x and y dimension is 1, we can call this path a _magical_ path.
+Chef can start from (1,1), move down to (2,1), then move right to (2,2) and finally move upwards to reach (1,2). As, he is able to visit all the cells exactly once and sum of absolute differences of corresponding x and y dimension is 1, we can call this path a *magical* path.

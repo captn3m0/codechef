@@ -70,7 +70,7 @@ time:
     current: 1492506751
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/SNCK151B/mandarin/MXZERO.pdf) , [Russian](http://www.codechef.com/download/translated/SNCK151B/russian/MXZERO.pdf) and [Vietnamese](http://www.codechef.com/download/translated/SNCK151B/vietnamese/MXZERO.pdf)
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/SNCK151B/mandarin/MXZERO.pdf) , [Russian](http://www.codechef.com/download/translated/SNCK151B/russian/MXZERO.pdf) and [Vietnamese](http://www.codechef.com/download/translated/SNCK151B/vietnamese/MXZERO.pdf)
 
 Olya has written **N** binary integers (i.e. either zero or one) on a blackboard. She recently learned about XOR operation. Now she wants to erase exactly one integer in the array so that the [XOR](http://en.wikipedia.org/wiki/Exclusive_or) of the remaining **N - 1** numbers is zero. Please help her to calculate the number of ways of doing so.
 
@@ -102,7 +102,8 @@ For each test case, output a single line containing the number of ways to erase 
 <b>Output:</b>
 1
 5
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** If you erase the first number on the blackboard, then the XOR of the rest of numbers will be equal to zero.
 

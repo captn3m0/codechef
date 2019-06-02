@@ -130,7 +130,8 @@ Your total score for the problem will be the sum of scores on all the test cases
 2 2 1
 2 2 2
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 <pre>
 <b>
@@ -138,7 +139,8 @@ Your total score for the problem will be the sum of scores on all the test cases
 A = [3, 2, 1]
        [2, 2, 2]
 </b>
-</pre>For this test case **a1** = 1, **a2** = 1 and **a3** = 1.
+</pre>
+For this test case **a1** = 1, **a2** = 1 and **a3** = 1.
 
 The score for this test case will be 1 \* 5 + 1 \* 4 + 1 \* (9 - 6) = 12.
 

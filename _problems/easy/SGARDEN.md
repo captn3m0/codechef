@@ -68,7 +68,7 @@ time:
     current: 1493558187
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JULY14/mandarin/SGARDEN.pdf) and [Russian](http://www.codechef.com/download/translated/JULY14/russian/SGARDEN.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JULY14/mandarin/SGARDEN.pdf) and [Russian](http://www.codechef.com/download/translated/JULY14/russian/SGARDEN.pdf).
 
 All bandits are afraid of Sheriff. Sheriff constantly fights crime, but when bandits lay low, he gets bored and starts to entertain himself.
 
@@ -109,7 +109,8 @@ Now the Sheriff asks the question: How many times has he whistled?
 1
 6
 </p>
-</pre>### Explanation
+</pre>
+### Explanation
 
 <pre> <p>
 <b>Example case 2.</b>

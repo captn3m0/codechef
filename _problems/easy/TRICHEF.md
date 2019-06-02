@@ -67,7 +67,8 @@ For each test case, output a single line containing the answer. Your answer will
 <b>Output:</b>
 1.0
 2.0
-</pre>### Explanation:
+</pre>
+### Explanation:
 
 Test Case 1: There is only one triangle which has non-zero area, and it's area is 1, hence the output.
 

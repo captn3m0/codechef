@@ -71,7 +71,7 @@ time:
     current: 1493556787
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME23/mandarin/PALPROB.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME23/russian/PALPROB.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME23/mandarin/PALPROB.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME23/russian/PALPROB.pdf).
 
 Let us define the palindromeness of a string in the following way:
 
@@ -125,7 +125,8 @@ aba
 <b>Output:</b>
 5
 5
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** There is no palindrome that occurs as the substring of **zxqfd** and has the length more than **1**. The individual characters are palindromes of the palindromeness of **1**.
 

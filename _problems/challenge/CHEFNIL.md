@@ -110,7 +110,8 @@ You should output at least 1 and at most **M** lines with two integers in each, 
 3 1
 2 3
 1 1
-</pre>### Scoring
+</pre>
+### Scoring
 
 Let **P** denote the total number of points that you receive during the game. Let **S** be the sum of all the **M** \* **N** \* **N** integers in the matrix **A**\[**M**\]\[**N**\]\[**N**\]. Then the score obtained will be 1000 \* (**N** \* **N** \* **P**) / (sqrt(**M**) \* **S**). Your total score will be the sum of your scores over all the test files.
 
@@ -151,4 +152,5 @@ For the given input, one could have also had the following output.
 2 1
 -1 -1
 
-</pre>But this will give a WA, because the segment (1, 1) -> (3, 1) has many common points with (3, 1) -> (2, 1).
+</pre>
+But this will give a WA, because the segment (1, 1) -> (3, 1) has many common points with (3, 1) -> (2, 1).

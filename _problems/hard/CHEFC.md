@@ -69,7 +69,7 @@ time:
     current: 1493556634
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME16/mandarin/CHEFC.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME16/russian/CHEFC.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME16/mandarin/CHEFC.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME16/russian/CHEFC.pdf).
 
 Chef has an array. The size of the array is equal to **N**.
 Chef wants to make **M** queries. Each query has one of the two types:
@@ -93,7 +93,8 @@ for (i = 2; i <= |B|; i++)
     if (B[i] != B[i - 1])
         X++;
 X is the output of the function F(B).
-</pre>### Input
+</pre>
+### Input
 
 The first line of the input contains an integer **T** denoting the number of test cases. The description of **T** test cases follows.
 

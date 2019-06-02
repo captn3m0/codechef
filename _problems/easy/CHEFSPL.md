@@ -72,11 +72,11 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MARCH16/mandarin/CHEFSPL.pdf), [Russian](http://www.codechef.com/download/translated/MARCH16/russian/CHEFSPL.pdf) and [Vietnamese](http://www.codechef.com/download/translated/MARCH16/vietnamese/CHEFSPL.pdf) as well.
 
-One day, Chef prepared **D** brand new dishes. He named the i-th dish by a string **Si**. After the cooking, he decided to categorize each of these **D** dishes as _special_ or not.
+One day, Chef prepared **D** brand new dishes. He named the i-th dish by a string **Si**. After the cooking, he decided to categorize each of these **D** dishes as *special* or not.
 
-A dish **Si** is called _special_ if it's name (i.e. the string **Si**) can be represented in the form of a _double_ string by removing at most one (possibly zero) character from it's name from any position.
+A dish **Si** is called *special* if it's name (i.e. the string **Si**) can be represented in the form of a *double* string by removing at most one (possibly zero) character from it's name from any position.
 
-A string is called a _double_ string if it can be represented as a concatenation of two identical, non-empty strings.
+A string is called a *double* string if it can be represented as a concatenation of two identical, non-empty strings.
 e.g. "abab" is a double string as it can be represented as "ab" + "ab" where + operation denotes concatenation.
 Similarly, "aa", "abcabc" are double strings whereas "a", "abba", "abc" are not.
 
@@ -88,7 +88,7 @@ Similarly, "aa", "abcabc" are double strings whereas "a", "abba", "abc" are not.
 
 ### Output
 
-For each of the **D** dishes, print a single line containing "**YES**" or "**NO**" (without quotes) denoting whether the dish can be called as a _special_ or not.
+For each of the **D** dishes, print a single line containing "**YES**" or "**NO**" (without quotes) denoting whether the dish can be called as a *special* or not.
 
 ### Constraints
 
@@ -119,10 +119,11 @@ YES
 NO
 NO
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**
-We can remove the character at position 1 (0-based index) to get "aa" which is a _double_ string. Hence, it is a _special_ dish.
+We can remove the character at position 1 (0-based index) to get "aa" which is a *double* string. Hence, it is a *special* dish.
 
 **Example case 2.**
-It is not possible to remove the character at any of the position to get the double string. Hence, it is not a _special_ dish.
+It is not possible to remove the character at any of the position to get the double string. Hence, it is not a *special* dish.

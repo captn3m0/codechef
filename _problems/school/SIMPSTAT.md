@@ -70,7 +70,7 @@ time:
     current: 1492506750
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME33/mandarin/SIMPSTAT.pdf), [Russian](http://www.codechef.com/download/translated/LTIME33/russian/SIMPSTAT.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME33/vietnamese/SIMPSTAT.pdf) as well.
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME33/mandarin/SIMPSTAT.pdf), [Russian](http://www.codechef.com/download/translated/LTIME33/russian/SIMPSTAT.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME33/vietnamese/SIMPSTAT.pdf) as well.
 
 Sergey has made **N** measurements. Now, he wants to know the average value of the measurements made.
 
@@ -119,7 +119,8 @@ Your answer will be considered correct, in case it has absolute or relative erro
 4.000000
 5.400000
 1.000000
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** After removing **1** greatest and **1** lowest measurement, we get the set **{2, 9, 1}**. The average value in this set is **(2+9+1)/3=4**.
 

@@ -117,7 +117,8 @@ For each test case, output a single line containing the number of milliseconds u
 <tt>6
 7
 4</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Case 1: in 6 milliseconds, the third reading will be attempted from the 1st sensor and the second reading will be attempted from the 2nd sensor**.
 

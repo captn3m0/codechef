@@ -68,7 +68,7 @@ time:
     current: 1493558190
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/FEB15/mandarin/STFM.pdf) and [Russian](http://www.codechef.com/download/translated/FEB15/russian/STFM.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/FEB15/mandarin/STFM.pdf) and [Russian](http://www.codechef.com/download/translated/FEB15/russian/STFM.pdf).
 
 For positive integer **x** let define function **F(x) = 1 \* (1! + x) + 2 \* (2! + x) + .. + x \* (x! + x)**.
 
@@ -108,7 +108,8 @@ As answer could be large, help him, calculate value modulo **m**.
 6
 
 <h3>Explanation</h3>
-</pre>18. F(1) = 1 \* (1! + 1) = 2
+</pre>
+18. F(1) = 1 \* (1! + 1) = 2
 19. F(2) = 1 \* (1! + 2) + 2 \* (2! + 2) = 3 + 8 = 11
 20. F(3) = 1 \* (1! + 3) + 2 \* (2! + 3) + 3 \* (3! + 3) = 4 + 10 + 27 = 41
 21. F(4) = 1 \* (1! + 4) + 2 \* (2! + 4) + 3 \* (3! + 4) + 4 \* (4! + 4) = 5 + 12 + 30 + 112 = 159

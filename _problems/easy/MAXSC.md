@@ -114,6 +114,7 @@ For each test case, print a single line containing one integer — the maximum s
 <b>Output:</b>
 
 18
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** To maximise the score, pick 3 from the first row, 6 from the second row and 9 from the third row. The resulting sum is **E1+E2+E3** = 3+6+9 = 18.

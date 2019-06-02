@@ -115,7 +115,8 @@ For each test case, output a single line containing one integer — the minimum 
 
 3
 5
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** One of the possible solutions is \[0, 0, 0\] --> \[1, 0, 1\] --> \[1, 1, 2\] --> \[1, 2, 3\]. The minimum energy loss is **B** + **B** + **B** = 3 · **B** = 3 · 1 = 3.
 

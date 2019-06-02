@@ -65,7 +65,7 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/OCT14/mandarin/CHEFPNT.pdf) and [Russian](http://www.codechef.com/download/translated/OCT14/russian/CHEFPNT.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/OCT14/mandarin/CHEFPNT.pdf) and [Russian](http://www.codechef.com/download/translated/OCT14/russian/CHEFPNT.pdf).
 
 Chef wants to paint with you today:)
 

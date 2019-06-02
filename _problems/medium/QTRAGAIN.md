@@ -83,7 +83,8 @@ For each Query operation, output a single integer in a new line corresponding to
 13
 7
 9
-</pre>### Explanation
+</pre>
+### Explanation
 
 Let the values associated with the nodes be v1, v2, v3, and v4.
 

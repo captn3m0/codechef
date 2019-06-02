@@ -71,17 +71,17 @@ layout: problem
 ---
 All submissions for this problem are available.The aliens living in outer space are very advanced in technology, intelligence and everything, except one, and that is Cooking. Each year they spend millions of dollars in research, to crack famous recipes prepared by humans.
 
-Recently they came to know about Khana-Academy, a non-profit organization streaming free cooking lesson videos on earth. There are **N** recipes, numbered 1 to **N**, and the video of the _i_th recipe is live in the time interval \[**S**_i_, **E**_i_\]. An alien can visit earth but can not survive for more than just a small moment (earth is so advanced in pollution). An alien visits the earth at an integer time **t** and instantly downloads the complete video of all the lessons that are live at that moment of time **t** and leaves earth immediately. You are given the visiting times of a small group of **K** aliens. Find the number of different recipes aliens can learn by watching the downloaded videos. Not just one group of aliens, there are **Q** such groups, so you have to find the answer for each of these **Q** groups.
+Recently they came to know about Khana-Academy, a non-profit organization streaming free cooking lesson videos on earth. There are **N** recipes, numbered 1 to **N**, and the video of the *i*th recipe is live in the time interval \[**S***i*, **E***i*\]. An alien can visit earth but can not survive for more than just a small moment (earth is so advanced in pollution). An alien visits the earth at an integer time **t** and instantly downloads the complete video of all the lessons that are live at that moment of time **t** and leaves earth immediately. You are given the visiting times of a small group of **K** aliens. Find the number of different recipes aliens can learn by watching the downloaded videos. Not just one group of aliens, there are **Q** such groups, so you have to find the answer for each of these **Q** groups.
 
 ### Input
 
-The first line has an integer **N**. Each of the following **N** lines has two integers **S**_i_ **E**_i_. The next line has an integer **Q**, the number of groups. Each of the following **Q** lines has information of a group of aliens. The first integer is **K**, the number of aliens in that group, followed by **K** integers in the same line, the integer visiting times **t** of the aliens.
+The first line has an integer **N**. Each of the following **N** lines has two integers **S***i* **E***i*. The next line has an integer **Q**, the number of groups. Each of the following **Q** lines has information of a group of aliens. The first integer is **K**, the number of aliens in that group, followed by **K** integers in the same line, the integer visiting times **t** of the aliens.
 
 1 ≤ **N** ≤ 100000 (105)
 1 ≤ **Q** ≤ 5000 (5 · 103)
 1 ≤ **K** ≤ 20
-1 ≤ **S**_i_, **E**_i_, **t** ≤ 1000000000 (109)
-**S**_i_ < **E**_i_
+1 ≤ **S***i*, **E***i*, **t** ≤ 1000000000 (109)
+**S***i* < **E***i*
 
 ### Output
 
@@ -106,6 +106,7 @@ For each of the **Q** groups, output the number of different recipes that group 
 4
 2
 </pre>
+
 **Explanation:**
 Given videos of 4 recipes in the following closed intervals.
 1. \[ 1 , 4 \]

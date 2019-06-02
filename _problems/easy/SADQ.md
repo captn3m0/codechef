@@ -117,7 +117,8 @@ Output **M** lines. Line **i** should contain the answer to query **i**.
 30
 30
 60
-</pre>### Explanation:
+</pre>
+### Explanation:
 
 **Query 1:** The arrays in question are **A3** = \[2, 4\] and **A4** = \[4, -3, -4, 4\].
 

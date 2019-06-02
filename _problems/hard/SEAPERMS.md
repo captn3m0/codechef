@@ -73,13 +73,13 @@ All submissions for this problem are available.###  Read problems statements in 
 
 Sereja has an array **A** of **N** integers: **A\[1\], A\[2\], …, A\[N\]**. Sereja also has an integer **D**.
 
-Sereja calls a permutation **P\[1\], P\[2\], …, P\[N\]** as **_good_** if the following conditions hold.
+Sereja calls a permutation **P\[1\], P\[2\], …, P\[N\]** as ***good*** if the following conditions hold.
 **A\[P\[1\]\] + D > A\[P\[2\]\]**,
 **A\[P\[2\]\] + D > A\[P\[3\]\]**,
 ⋮
 **A\[P\[N-1\]\] + D > A\[P\[N\]\]**.
 
-Sereja wants to sequentially perform **M** single-element replacement operations on the array. Each of these operations consists of choosing an index **p** of the array, and replacing **A\[p\]** with a new value **v**. Your task is to keep track of the number of _**good**_ permutations **P\[1\], P\[2\], …, P\[N\]** after each operation.
+Sereja wants to sequentially perform **M** single-element replacement operations on the array. Each of these operations consists of choosing an index **p** of the array, and replacing **A\[p\]** with a new value **v**. Your task is to keep track of the number of ***good*** permutations **P\[1\], P\[2\], …, P\[N\]** after each operation.
 
 ### Input
 
@@ -112,6 +112,7 @@ Output **M** lines. The **i**th line should contain the number of good permutati
 6
 2
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** After the first replacement operation, all permutations will be good. However, after the second operation, **P\[1\]** must be **3**.

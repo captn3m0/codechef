@@ -106,7 +106,8 @@ For each test case, output a single line containing **N** integers, i-th integer
 
 <b>Output:</b>
 0 1 1 2 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 Because node 1 is the root in both the trees, there is no node above them. So first output is 0.
 

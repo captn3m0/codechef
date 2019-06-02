@@ -71,11 +71,11 @@ time:
     current: 1493557953
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME22/mandarin/UNPAIR.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME22/russian/UNPAIR.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME22/mandarin/UNPAIR.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME22/russian/UNPAIR.pdf).
 
 Codechef has now decided to make an admin panel amongst their chefs. This way they think that it would be easier for them to control and regulate their contests. To do so, they have asked them to rate everyone including themselves by a non-negative integer.
 
-There are **N** chefs, numbered from **1** to **N**. Each chef has submitted a rating to the Codechef panel for other all the chefs including a rating to himself. Surprisingly for the team, for each pair of chefs (say, chef with the number **i** and the chef with the number **j**), they collaborated within themselves and gave the same rating to each other i.e. the rating that the chef **i** has given to the chef **j** is equal to the rating that the chef **j** has given to the chef **i**. The Codechef team built a rating matrix from this input from Chefs. Now, from this input rating matrix **M**, they will make a _Paired_ rating matrix **P** as follows:
+There are **N** chefs, numbered from **1** to **N**. Each chef has submitted a rating to the Codechef panel for other all the chefs including a rating to himself. Surprisingly for the team, for each pair of chefs (say, chef with the number **i** and the chef with the number **j**), they collaborated within themselves and gave the same rating to each other i.e. the rating that the chef **i** has given to the chef **j** is equal to the rating that the chef **j** has given to the chef **i**. The Codechef team built a rating matrix from this input from Chefs. Now, from this input rating matrix **M**, they will make a *Paired* rating matrix **P** as follows:
 
 - **P** is symmetric.
 - **Pi, j** is either equal to zero, or to **Mi, j**, where **Mi, j** is the rating given by ith chef to the jth chef.
@@ -119,7 +119,8 @@ For each test case, print the minimum sum of entries, possible for **P**. If it 
 <b>Output:</b>
 -1
 2
-</pre>**Explanation:**
+</pre>
+**Explanation:**
 
 In the first sample case, there are only two choices of choosing P, one is a zero-matrix, for a zero matrx, we will never be able to make **P + P2 + ... + PS** all positive. Another choice is to chose P = M, for this case also, we can never make the sum with all positive values for any S.
 

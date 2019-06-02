@@ -79,6 +79,8 @@ All submissions for this problem are available.You are given a simple code of a 
   end
 
 </pre>
+
+
 />
 
 Here **N, K, Answer** and the value returned by the function **F** are integers; **A** is an array of **N** integers numbered from **1** to **N**; **Operator** can be one of the binary operators **XOR, AND** or **OR**. If you are not familiar with these terms then better have a look at following articles: [XOR](http://en.wikipedia.org/wiki/Bitwise_operation#XOR), [OR](http://en.wikipedia.org/wiki/Bitwise_operation#OR), [AND](http://en.wikipedia.org/wiki/Bitwise_operation#AND).
@@ -114,7 +116,8 @@ OR
 0
 0
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 0 xor 1 xor 2 xor 3 = 0
 

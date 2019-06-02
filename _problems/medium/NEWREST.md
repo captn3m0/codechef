@@ -39,7 +39,8 @@ For each test case, output a single line consisting the number of different ways
 2 2 2
 4 3 2
 5 7 3
-</pre>**Output:**
+</pre>
+**Output:**
 
 <pre>1
 4

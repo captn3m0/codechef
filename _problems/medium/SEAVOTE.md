@@ -70,7 +70,7 @@ time:
     current: 1493557928
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JAN15/mandarin/SEAVOTE.pdf) and [Russian](http://www.codechef.com/download/translated/JAN15/russian/SEAVOTE.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JAN15/mandarin/SEAVOTE.pdf) and [Russian](http://www.codechef.com/download/translated/JAN15/russian/SEAVOTE.pdf).
 
 Sereja conducted a voting about **N** of his opinions. **Ai** percent of people voted for opinion number **i**. This statistics is called valid if sum of all **Ai** is equal to **100**.
 
@@ -114,7 +114,8 @@ For each test case, output **YES** or **NO** denoting the answer of the problem,
 NO
 YES
 YES
-</pre>### Explanation
+</pre>
+### Explanation
 
 - In test case 1, There can not be any **A** which could be rounded up to get **B**. Hence answer is NO.
 - In test case 2, In this case **A** = {25, 25, 25, 25}. After rounding we get {25, 25, 25, 25} which is equal to **B**. Hence answer is YES.

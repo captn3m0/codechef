@@ -69,7 +69,7 @@ time:
     current: 1493557815
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JAN14/mandarin/MTRICK.pdf) and [Russian](http://www.codechef.com/download/translated/JAN14/russian/MTRICK.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JAN14/mandarin/MTRICK.pdf) and [Russian](http://www.codechef.com/download/translated/JAN14/russian/MTRICK.pdf).
 
 Vidhi went to a magic show last week where she was astounded by a magic trick performed by the great Mandwarf, the brown. His trick was as follows :
 
@@ -96,7 +96,8 @@ for <b>i</b> from 1 to <b>N</b> do
 
 end
 
-<pre>Vidhi's boyfriend got jealous when he saw her getting impressed by Mandwarf, the brown's wisdom. He wants to learn the trick to gain her undivided admiration. How about you help him?
+<pre>
+Vidhi's boyfriend got jealous when he saw her getting impressed by Mandwarf, the brown's wisdom. He wants to learn the trick to gain her undivided admiration. How about you help him?
 
 ### Constraints:
 

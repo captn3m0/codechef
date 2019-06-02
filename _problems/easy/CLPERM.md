@@ -68,7 +68,7 @@ time:
     current: 1493558131
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JAN15/mandarin/CLPERM.pdf) and [Russian](http://www.codechef.com/download/translated/JAN15/russian/CLPERM.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JAN15/mandarin/CLPERM.pdf) and [Russian](http://www.codechef.com/download/translated/JAN15/russian/CLPERM.pdf).
 
 Today is Chef's birthday. His mom gifted him a truly lovable gift, a permutation of first **N** positive integers.
 
@@ -119,7 +119,8 @@ For each test case, print **"Chef"** if chef should move first otherwise print *
 <b>Output</b>
 Mom
 Chef
-</pre>### Explanation
+</pre>
+### Explanation
 
 For test case 1.
 

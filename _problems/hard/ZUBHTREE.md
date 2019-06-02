@@ -24,9 +24,9 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
-All submissions for this problem are available.Hermione needs to solve a tough homework problem in Arithmancy class. Professor Vector was discussing trees for some time and now he gives the problem: Say, there are **n** + 1 nodes numbered 0, 1, 2, ..., **n**. Node 0 is always the root of the tree. How many different trees can be formed using the remaining **n** nodes so that all leaves have the same _depth_ and the _degree_ of each non-leaf node is at least **d**? Here, _depth_ of a node **u** is the number of edges we need to traverse from the root (Node 0) to reach **u**. A tree is different from another tree if there exists at least one pair of nodes **(u, v)** for which an edge between **u** and **v** is present in one tree, but absent in the other one. Hermione wants your help to write a program to solve this problem.
+All submissions for this problem are available.Hermione needs to solve a tough homework problem in Arithmancy class. Professor Vector was discussing trees for some time and now he gives the problem: Say, there are **n** + 1 nodes numbered 0, 1, 2, ..., **n**. Node 0 is always the root of the tree. How many different trees can be formed using the remaining **n** nodes so that all leaves have the same *depth* and the *degree* of each non-leaf node is at least **d**? Here, *depth* of a node **u** is the number of edges we need to traverse from the root (Node 0) to reach **u**. A tree is different from another tree if there exists at least one pair of nodes **(u, v)** for which an edge between **u** and **v** is present in one tree, but absent in the other one. Hermione wants your help to write a program to solve this problem.
 
-Note that by _degree_, we mean the total number of neighbors, not just the number of children.
+Note that by *degree*, we mean the total number of neighbors, not just the number of children.
 
 ### Input
 
@@ -55,7 +55,8 @@ For each test case, print "Case i: ", and then the answer (mod 109 + 7), where i
 Case 1: 1
 Case 2: 1
 Case 3: 13
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Testcase 1:** The only valid tree is shown below:
 

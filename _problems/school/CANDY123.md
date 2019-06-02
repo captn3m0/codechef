@@ -116,7 +116,8 @@ Limak
 Bob
 Bob
 Bob
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Test case 1.** We have **A** = 3 and **B** = 2. Limak eats 1 candy first, and then Bob eats 2 candies. Then Limak is supposed to eat 3 candies but that would mean 1 + 3 = 4 candies in total. It's impossible because he can eat at most **A** candies, so he loses. Bob wins, and so we print "Bob".
 

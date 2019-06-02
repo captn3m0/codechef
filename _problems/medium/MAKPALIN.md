@@ -67,7 +67,7 @@ time:
     current: 1493557777
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME27/mandarin/MAKPALIN.pdf) , [Russian](http://www.codechef.com/download/translated/LTIME27/russian/MAKPALIN.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME27/vietnamese/MAKPALIN.pdf)
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME27/mandarin/MAKPALIN.pdf) , [Russian](http://www.codechef.com/download/translated/LTIME27/russian/MAKPALIN.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME27/vietnamese/MAKPALIN.pdf)
 
 Divyam is teaching his student Amit about palindromes. A palindrome is a word, phrase, number, or other sequence of characters which reads the same backward or forward. For example, the string “abcba” is a palindrome. After teaching about it, Divyam gave a puzzle for Amit to solve:
 
@@ -100,6 +100,7 @@ aca
 <b>Output:</b>
 4
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 First sample has been explained in the problem statement.

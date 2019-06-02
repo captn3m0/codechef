@@ -116,7 +116,8 @@ Output a single number, the number of sequences, modulo 109+7.
 986095186
 0
 468598063
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first case, there are 231 possible sequences, so the answer is 231 modulo 109+7 = 147483634
 

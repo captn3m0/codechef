@@ -84,11 +84,11 @@ Fortunately, the password to the vault can be found out by solving a problem. Bu
 
 You are given an array of **N** elements. [**MEX**](https://en.wikipedia.org/wiki/Mex_(mathematics)) of a set is defined as the minimum non-negative integer that doesn't exist in it. For example, the MEX of the set {0, 2, 4} is 1 and the MEX of the set {1, 2, 3} is 0. Note that the MEX of empty set will be 0.
 
-Similar to [Expected value](https://en.wikipedia.org/wiki/Expected_value), let's define _Cheftated value_, **C\[Y\]** of a random variable **Y** as follows:
+Similar to [Expected value](https://en.wikipedia.org/wiki/Expected_value), let's define *Cheftated value*, **C\[Y\]** of a random variable **Y** as follows:
 
 ![](https://discuss.codechef.com/upfiles/XORTREEH_img1.jpeg)where **Y** is a random variable with a finite number of outcomes **y1, y2, ..... , ya** occurring with probabilities **p1, p2, ..... , pa**. Take **00 = 1**. You are given an array **A** consisting of **N** non-negative integers. Your task is to calculate the cheftated value of base **K** xor sum of MEX values of **X** randomly selected subsequences( **repetitions allowed**) of A.
 
-Cheftated value can always be represented as an irreducible fraction **P/Q** such that **gcd(Q, 330301441) = 1**, i.e. **Q-1** ([multiplicative inverse](https://en.wikipedia.org/wiki/Modular_multiplicative_inverse)) modulo **330301441** exists. You have to print the value **P \* Q-1** modulo **330301441**. Please see the sample explanation for more details.
+Cheftated value can always be represented as an irreducible fraction **P/Q** such that **gcd(Q, 330301441) = 1**, i.e. **Q-1** ([ multiplicative inverse](https://en.wikipedia.org/wiki/Modular_multiplicative_inverse)) modulo **330301441** exists. You have to print the value **P \* Q-1** modulo **330301441**. Please see the sample explanation for more details.
 
 Also, xor-sum in base **K** (xork) can be perfomed by representing the numbers in base **K** and [adding each digit in base K](https://en.wikipedia.org/wiki/Addition#Addition_in_other_bases)( **without carrying forward**), e.g. xorsum of 6 and 9 in base 5 is equal to **115 xor5 145 = 205**, i.e. the number **10**.
 
@@ -131,7 +131,8 @@ For each test case, output a line containing single integer representing the val
 <b>Output:</b>
 87392358
 88861416
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** Let's name the sub-sequences as A = \[\], B = \[1\], C = \[0\], D = \[2\], E = \[1, 0\], F = \[1, 2\], G = \[0, 2\], H = \[1, 0, 2\].
 

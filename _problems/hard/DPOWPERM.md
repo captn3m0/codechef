@@ -36,6 +36,7 @@ You are given some bijection **f : S --> S** and a positive integer **D**. You n
 <b>Output:</b>
 6
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the second case the appropriate values of **d** is 1, 5 and 7.

@@ -45,6 +45,7 @@ Arjuna
 Bhima
 Arjuna
 </pre>
+
 **Explanation:**
 
 Let the people around the table are numbered 1, 2, ... , N in clock-wise order as shown in the image 

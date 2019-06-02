@@ -82,7 +82,7 @@ Sergey wants to develop a data structure that would help him to answer the follo
 - **0 L R** : Add a segment, which starts at **L** and ends at **R** to the data structure if it has at least one un-marked point. During the operations, there can be multiple segments with the same end points.
 - **1 P** : Mark the point **P** and output the number of the segments that have **just** become activated. The segment is activated when all it's points are marked. In other words, you have to tell the number of segments added in the data structure that were earlier deactivated, but now have become activated due to the marking of point **P**.
 
-Please help Sergey to construct a suitable data structure. This is an _on-line_ problem. That means that you won't see the next query until you answer the previous one; in other words that means that you will see only one query at a time. For seeing next query, you must answer the current query.
+Please help Sergey to construct a suitable data structure. This is an *on-line* problem. That means that you won't see the next query until you answer the previous one; in other words that means that you will see only one query at a time. For seeing next query, you must answer the current query.
 
 ### Input
 
@@ -122,7 +122,8 @@ After each query of the type **1**, output the number of just activated segments
 <tt>0
 2
 1</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** In the first two queries, we add the segments **\[1, 2\]** and **\[2, 3\]**, respectively. The we first mark the point **2**, the only segment that can be activated is **\[2; 2\]**. But since such segment is not yet present in the data structure, nothing will be activated that time.
 

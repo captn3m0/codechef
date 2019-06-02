@@ -67,7 +67,7 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/APRIL15/mandarin/DIVLAND.pdf) and [Russian](http://www.codechef.com/download/translated/APRIL15/russian/DIVLAND.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/APRIL15/mandarin/DIVLAND.pdf) and [Russian](http://www.codechef.com/download/translated/APRIL15/russian/DIVLAND.pdf).
 
 Time flies fast, Chef’s sons are getting older, stronger and higher. Chef has got two sons and they don’t go well with each other. Their relations are getting worse day by day. Concerned Chef has now decided to separate them. Chef is very rich and he has got **N** cities (**N** is even). His sons are all he has and he must divide the cities into his sons equally. There are some roads running between the cities. Chef has to destruct all the roads between cities of first and second sons. The destruction of road costis a lot of money. So Chef wants to save as much as he can. So you have to help Chef in finding out minimal cost to split cities to his sons.
 
@@ -127,7 +127,8 @@ Subtask 4:
 
 <b>Output:</b>
 1 2
-</pre>### Test data generation
+</pre>
+### Test data generation
 
 Four plans are used:
 

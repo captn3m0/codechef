@@ -106,7 +106,8 @@ abacaba
 3
 0
 1
-</pre>### Scoring
+</pre>
+### Scoring
 
 In all the subtasks, 1 <= **L** <= **R** <= **N**.
 

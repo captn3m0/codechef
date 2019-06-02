@@ -70,7 +70,7 @@ time:
 hand_edited: true
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/SNCK151B/mandarin/ISONUM.pdf) , [Russian](http://www.codechef.com/download/translated/SNCK151B/russian/ISONUM.pdf) and [Vietnamese](http://www.codechef.com/download/translated/SNCK151B/vietnamese/ISONUM.pdf)
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/SNCK151B/mandarin/ISONUM.pdf) , [Russian](http://www.codechef.com/download/translated/SNCK151B/russian/ISONUM.pdf) and [Vietnamese](http://www.codechef.com/download/translated/SNCK151B/vietnamese/ISONUM.pdf)
 
 Let's call two numbers isomorphic if they have same number of digits and set of places having equal digits is same. We consider that all the numbers are in decimal notation and don't have leading zeroes. Consider some examples:
 
@@ -105,7 +105,8 @@ For each test case, output a single line containing the answer to the problem. #
 <b>Output:</b>
 70
 102768568246676
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** Numbers 1, 2, 3, ..., 9 are isomorphic to 1. Numbers 10, 12, 13, 14, 15 are isomorphic to 10. Among the numbers from 1 to 15, 11 is isomorphic only to itself. So, we get 1 + 1 + ... + 1 + 10 + 11 + 10 + 10 + 10 + 10 = 70.
 

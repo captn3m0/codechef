@@ -74,7 +74,7 @@ As you might have probably guessed, TreeLand is a country located far to the eas
 
 Not long ago, a new King came to the throne in TreeLand. The first thing he had done was re-organizing the road system of the country. It was considered that cities with more than **8** adjacent roads might cause disruption in the road system, because of the high traffic load. So now, every city in TreeLand is directly connected with no more than **8** cities.
 
-Usually, when Sergey travels to the country, he visits all its cities. So now he visited all the **N** cities of TreeLand. Any time he _first_ visited a city, he wrote its number in his notebook. Eventually, there was a sequence of **N** integers in the notebook.
+Usually, when Sergey travels to the country, he visits all its cities. So now he visited all the **N** cities of TreeLand. Any time he *first* visited a city, he wrote its number in his notebook. Eventually, there was a sequence of **N** integers in the notebook.
 
 But what Sergey didn't know was that it was rainy season in TreeLand, and he was not prepared for it. Sadly, his notebook got wet, and the records became obscure.
 
@@ -117,7 +117,8 @@ Output the total number of possible trips Sergey could have done, which do not c
 
 <b>Output:</b>
 <tt>4</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 Sergey could have obtained the following sequences:
 

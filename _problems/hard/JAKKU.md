@@ -72,7 +72,7 @@ Government is surveilling the entire planet in search of black money, and now th
 
 <object data="https://s3.amazonaws.com/codechef\_shared/download/upload/FEB17/SC.svg" type="image/svg+xml" height="350"> </object> <object data="https://s3.amazonaws.com/codechef\_shared/download/upload/FEB17/T2.svg" type="image/svg+xml" height="350"> </object>
 
-The **ith** satellite orbits along longitude **li**, and at time t=0, is in phase **pi**. Phase of an orbiting body is _the angle between north pole, planet center and the orbiting body_. If phase **pi** is less than 180 degree, the body lies on longitude **li** somewhere between north pole and south pole. If phase is more than 180 degree, the body lies on longitude **li-180** somewhere between south pole and north pole.
+The **ith** satellite orbits along longitude **li**, and at time t=0, is in phase **pi**. Phase of an orbiting body is *the angle between north pole, planet center and the orbiting body*. If phase **pi** is less than 180 degree, the body lies on longitude **li** somewhere between north pole and south pole. If phase is more than 180 degree, the body lies on longitude **li-180** somewhere between south pole and north pole.
 
 **Extra Explanation:** Note that the formulation of longitude and phase is slightly different from the system of longitudes and latitudes we use to denote points on earth's surface. It is closer to Spherical coordinate system, but we have constrained the azimuth angle (**li** in the figure above) to be between 0 and 180, so the azimuth angle of an orbiting satellite does not change, and polar angle can be anywhere between 0 and 360. At time **t**, the **ith** satellite is located at **x = sin(pi + t) \* cos(li), y = sin(pi + t) \* sin(li), z = cos(pi + t)**.
 
@@ -122,7 +122,8 @@ For each test case, output a single line containing the minimum number of satell
 <b>Output:</b>
 0
 0
-</pre>### Sub tasks
+</pre>
+### Sub tasks
 
 - Sub task #1: N = 3 (10 points)
 - Sub task #2: N ≤ 20 (30 points)

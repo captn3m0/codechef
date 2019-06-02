@@ -65,7 +65,7 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MARCH15/mandarin/EMBED.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH15/russian/EMBED.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MARCH15/mandarin/EMBED.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH15/russian/EMBED.pdf).
 
 You have **N** points, numbered from **1** to **N**. You have to position these **N** points on the Cartesian plane.
 
@@ -136,7 +136,8 @@ For each test case, print **N** lines, where the **i**th line should have two sp
 1000 1200
 1000 1500
 1000 2000
-</pre>### Test generation
+</pre>
+### Test generation
 
 We have **10** input files. Each of our input file contains **100** test cases, that is, **T = 100**. Each test case is generated as follows.
 
@@ -152,7 +153,7 @@ Lastly, the numbers of points are shuffled, and the order of edges are also shuf
 
 ### Scoring
 
-At first, you will get _Wrong Answer_ if you print invalid coordinates for at least one test case.
+At first, you will get *Wrong Answer* if you print invalid coordinates for at least one test case.
 
 The score for each test case are calculated as follows. Let **X** be the maximum distance between any two adjacent points over the set of points, and **Y** be the minimum distance between any two non-adjacent points over the set of points, And let **C** be the number of the unordered pairs **(u, v)** of segments, where the **u**th segment intersects with the **v**th segment. And let **W** be the number of the points on the evil coordinate. Then the score for this case is calculated as : 
 

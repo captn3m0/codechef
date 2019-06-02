@@ -72,7 +72,7 @@ time:
     current: 1493558116
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME25/mandarin/CHEFAXR.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME25/russian/CHEFAXR.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME25/mandarin/CHEFAXR.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME25/russian/CHEFAXR.pdf).
 
 Chef has a square matrix **A**. He would like to choose a consecutive sub-matrix of **A** such that value of **bitwise XOR** of all elements in it is maximal.
 
@@ -111,7 +111,8 @@ For each test case, output a single line containing the maximal **bitwise XOR** 
 </tt>
 <b>Output:</b>
 <tt>15</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 Chef can pick the following submatrix in order to make the XOR of elements equal to **15**:
 
@@ -120,4 +121,5 @@ Chef can pick the following submatrix in order to make the XOR of elements equal
 <b>1 8</b> 6
 <b>1 2</b> 3
 </tt>
-</pre>This submatrix can be defined by **x1 = 1**, **y1 = 1**, **x2 = 3**, **y2 = 2**.
+</pre>
+This submatrix can be defined by **x1 = 1**, **y1 = 1**, **x2 = 3**, **y2 = 2**.

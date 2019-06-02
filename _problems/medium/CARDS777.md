@@ -111,6 +111,7 @@ For each test case, output a single floating point value, the expected score you
 2.2000000000
 14.4482758621
 100000.0000000000
-</pre>### Explanation
+</pre>
+### Explanation
 
 For the first case, we have three red cards, one blue card, two red tokens, and two blue tokens. An optimal strategy is to choose the red token first. There are two cases. Either the card we choose first is red or blue. If it is blue, then we know for sure all remaining cards will be red, so it doesn't matter how we play the remaining tokens. This gives us 1 point. If it is red, then we will next play our last red token. We can check that the expected value of our score is equal to 2, and there is no other strategy that is strictly better.

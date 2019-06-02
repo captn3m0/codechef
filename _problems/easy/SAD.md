@@ -100,7 +100,8 @@ First line contains two integers **R** and **C**, the number of rows and columns
 
 <b>Output:</b>
 8
-</pre>### Example 2
+</pre>
+### Example 2
 
 <pre>
 <b>Input:</b>
@@ -111,7 +112,8 @@ First line contains two integers **R** and **C**, the number of rows and columns
 
 <b>Output:</b>
 GUESS
-</pre>### Example 3
+</pre>
+### Example 3
 
 <pre>
 <b>Input:</b>
@@ -121,7 +123,8 @@ GUESS
 
 <b>Output:</b>
 10
-</pre>### Explanation of Sample Cases
+</pre>
+### Explanation of Sample Cases
 
 **Example 1**: The first row contains 9, 8, 8. Observe that both 8 are the minimum. Considering the first 8, look at the corresponding column (containing 8 and 6). Here, 8 is the largest element in that column. So it will be chosen.
 

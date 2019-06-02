@@ -68,7 +68,7 @@ time:
     current: 1493556853
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MARCH14/mandarin/STREETTA.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH14/russian/STREETTA.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MARCH14/mandarin/STREETTA.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH14/russian/STREETTA.pdf).
 
 The String street is known as the busiest street in Codeland.
 Tourists from all over the world want to visit the street once they are in Codeland.
@@ -129,7 +129,8 @@ NA
 -38
 11
 14
-</pre>### Explanation
+</pre>
+### Explanation
 
 - At the beginning all stores are empty so the answer for the first query which asks about the store 5 is "NA".
 - The first plan of the Chef is "3 8 3 1" which means the items with price 1, 4, 7, 10, 13, 16 are added to the stores 3, 4, 5, ..., 8 correspondingly. So in the next query (asking about store 5) the answer is 7 (we have only one item to buy with no conservation fee).

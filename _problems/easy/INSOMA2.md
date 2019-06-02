@@ -15,9 +15,13 @@ Magazines and newspapers often have letter matrices in which certain words need 
 
 For example, in the letter matrix:
 
-`B X A X X<br></br>X A X X X<br></br>X B B X X<br></br>X A X A X<br></br>X X B X X<br></br><br></br><br></br>`The string ABA can be found in 14 different ways – corresponding to the following locations:
+<pre>B X A X X<br></br>X A X X X<br></br>X B B X X<br></br>X A X A X<br></br>X X B X X<br></br><br></br><br></br>
+</pre>
+The string ABA can be found in 14 different ways – corresponding to the following locations:
 
-`A	        B	        A<br></br>(1,1)	(0,0)	(1,1)<br></br>(1,1)	(2,2)	(3,1)<br></br>(1,1)	(2,2)	(3,3)<br></br>(1,1)	(2,2)	(1,1)<br></br>(3,1)	(2,2)	(3,1)<br></br>(3,1)	(2,2)	(3,3)<br></br>(3,1)	(4,2)	(3,1)<br></br>(3,1)	(4,2)	(3,3)<br></br>(3,1)	(2,2)	(1,1)<br></br>(3,3)	(2,2)	(3,3)<br></br>(3,3)	(2,2)	(1,1)<br></br>(3,3)	(2,2)	(3,1)<br></br>(3,3)	(4,2)	(3,1)<br></br>(3,3)	(4,2)	(3,3)<br></br>` So, given a matrix of size NxN, you need to find out the total number of locations of a particular string. The input and output formats are as follows:
+<pre>A	        B	        A<br></br>(1,1)	(0,0)	(1,1)<br></br>(1,1)	(2,2)	(3,1)<br></br>(1,1)	(2,2)	(3,3)<br></br>(1,1)	(2,2)	(1,1)<br></br>(3,1)	(2,2)	(3,1)<br></br>(3,1)	(2,2)	(3,3)<br></br>(3,1)	(4,2)	(3,1)<br></br>(3,1)	(4,2)	(3,3)<br></br>(3,1)	(2,2)	(1,1)<br></br>(3,3)	(2,2)	(3,3)<br></br>(3,3)	(2,2)	(1,1)<br></br>(3,3)	(2,2)	(3,1)<br></br>(3,3)	(4,2)	(3,1)<br></br>(3,3)	(4,2)	(3,3)<br></br>
+</pre>
+ So, given a matrix of size NxN, you need to find out the total number of locations of a particular string. The input and output formats are as follows:
 
 ### Input
 
@@ -31,4 +35,5 @@ Line 1: The number of ways in which the string can be found in the matrix.
 
 ### Example
 
-`<b>Input:</b><br></br>5<br></br>B X A X X<br></br>X A X X X<br></br>X B B X X<br></br>X A X A X<br></br>X X B X X<br></br>ABA<br></br><br></br><b>Output:</b><br></br>14<br></br>`
+<pre><b>Input:</b><br></br>5<br></br>B X A X X<br></br>X A X X X<br></br>X B B X X<br></br>X A X A X<br></br>X X B X X<br></br>ABA<br></br><br></br><b>Output:</b><br></br>14<br></br>
+</pre>

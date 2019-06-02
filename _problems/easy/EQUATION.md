@@ -28,7 +28,8 @@ Output T lines, one for each test case.
 <pre>2
 4 3 2 1
 1 1 1 1
-</pre>### Sample Output
+</pre>
+### Sample Output
 
 <pre>20
 4

@@ -37,14 +37,16 @@ Output in a single line the exit code found.
 
 **Input:**
 <pre>3 11 111 92
-</pre>**Output:**```
+</pre>
+**Output:**```
 084
-<pre>### Limitations
+<pre>
+### Limitations
 
-\* 1<=n<=12
+* 1<=n<=12
 
-\* 10<=A,B<=1015
+* 10<=A,B<=1015
 
-\* 0<=G<B
+* 0<=G<B
 
-\* The input satisfies that the answer always exist.
+* The input satisfies that the answer always exist.

@@ -75,7 +75,7 @@ All submissions for this problem are available.### Read problems statements in [
 
 . Chef likes to work with arrays a lot. Today he has an array **A** of length **N** consisting of positive integers. Chef's little brother likes to follow his elder brother, so he thought of creating an array **B** of length **N**. The little brother is too small to think of new numbers himself, so he decided to use all the elements of array **A** to create the array **B**. In other words, array **B** is obtained by shuffling the elements of array **A**.
 
-The little brother doesn't want Chef to know that he has copied the elements of his array **A**. Therefore, he wants to create the array **B** in such a way that the _Hamming distance_ between the two arrays **A** and **B** is maximized. The Hamming distance between **A** and **B** is the number of indices **i** (1 ≤ **i** ≤ **N**) such that **Ai ≠ Bi**.
+The little brother doesn't want Chef to know that he has copied the elements of his array **A**. Therefore, he wants to create the array **B** in such a way that the *Hamming distance* between the two arrays **A** and **B** is maximized. The Hamming distance between **A** and **B** is the number of indices **i** (1 ≤ **i** ≤ **N**) such that **Ai ≠ Bi**.
 
 The brother needs your help in finding any such array **B**. Can you please find one such array for him?
 

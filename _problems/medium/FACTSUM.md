@@ -20,7 +20,8 @@ K = p1^a1 * p2^a2 ... * pn^an
 Compute the following:
 
 S = a1*p1 + a2*p2 ... + an*pn.
-</pre>### Input
+</pre>
+### Input
 
 A list of <100 integers, one on each line, all less than 2\*10^19.
 

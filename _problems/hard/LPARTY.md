@@ -72,7 +72,7 @@ time:
     current: 1493556759
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/APRIL15/mandarin/LPARTY.pdf) and [Russian](http://www.codechef.com/download/translated/APRIL15/russian/LPARTY.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/APRIL15/mandarin/LPARTY.pdf) and [Russian](http://www.codechef.com/download/translated/APRIL15/russian/LPARTY.pdf).
 
 A little party never killed nobody... After listening to this song many times Leha has decided to get together with his friends and have some fun again. But things are not as simple as you might think.
 
@@ -84,7 +84,7 @@ Now Leha wants to analyze previous events and find some groups of his friends(ma
 
 Let's consider an example: Leha has 3 friends and he had 3 parties with them with states **AbC**(friends A and C were in good mood, but B was in bad mood), **Abc**(A was in good mood, others were in bad), **aBC**(A was in bad mood, others were in good). During all these parties something had gone wrong. We can notice that when there is subset **Ab**(A was in good mood, but B was in bad mood) party is spoiled and the mood of friend **C** doesn't matter. We also have party with state **aBC** which gives us problems. We can't say anything special about other subsets(for example: here all parties are spoiled with subsets **A**, **b** but we don't have enough information to assume that these subsets are always bad)
 
-So we have two subsets which if are presented guarantee us some problems: **Ab** and **aBC**. We will call them _key subsets_. Leha wants to find several key subsets with minimal total size that describe all problem parties. In the example enough key subsets with minimal total size are: **Ab** and **aBC** with total size of 5. He could also find subsets straightforwardly **AbC**, **Abc**, **aBC** but their total size would be 9, so he will choose the first option.
+So we have two subsets which if are presented guarantee us some problems: **Ab** and **aBC**. We will call them *key subsets*. Leha wants to find several key subsets with minimal total size that describe all problem parties. In the example enough key subsets with minimal total size are: **Ab** and **aBC** with total size of 5. He could also find subsets straightforwardly **AbC**, **Abc**, **aBC** but their total size would be 9, so he will choose the first option.
 
 The idea of finding problem key subsets with minimal total size is good, but Leha doesn't like time-consuming and boring tasks. He asks you to do this job for him.
 
@@ -123,7 +123,8 @@ AbC
 <b>Output:</b>
 5
 6
-</pre>### Explanation
+</pre>
+### Explanation
 
 The first test case is explained in the problem statement.
 

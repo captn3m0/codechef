@@ -65,8 +65,8 @@ time:
     current: 1493556966
 layout: problem
 ---
-All submissions for this problem are available._Dancing Elephants_ is a spectacular show in Pattaya that features **N** elephants dancing on a line, known
- as the _stage_.
+All submissions for this problem are available.*Dancing Elephants* is a spectacular show in Pattaya that features **N** elephants dancing on a line, known
+ as the *stage*.
 
 After years of training, elephants in this show are capable of many amazing dances. The show consists of a series of
  acts. In each act, exactly one elephant performs a cute dance while possibly moving to a different position.
@@ -139,7 +139,8 @@ Output should consist of **M** integers in separate lines, denoting the **minimu
 3 35
 0 38
 2 0
-</pre>**Output**
+</pre>
+**Output**
 />
 
 <pre>
@@ -148,7 +149,8 @@ Output should consist of **M** integers in separate lines, denoting the **minimu
 2
 2
 3
-</pre>**Example 2:**
+</pre>
+**Example 2:**
 />
 
 **Input**
@@ -161,14 +163,16 @@ Output should consist of **M** integers in separate lines, denoting the **minimu
 1 76543
 0 66321
 0 78754
-</pre>**Output**
+</pre>
+**Output**
 />
 
 <pre>
 2
 1
 1
-</pre>### Subtasks
+</pre>
+### Subtasks
 
 **Subtask 1 (10 points)**
 

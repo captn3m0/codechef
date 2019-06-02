@@ -70,7 +70,7 @@ time:
     current: 1493556794
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME26/mandarin/PUPPYGCD.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME26/russian/PUPPYGCD.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME26/mandarin/PUPPYGCD.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME26/russian/PUPPYGCD.pdf).
 
 One fine sunny day Tuzik was waiting for his master Vanka near their house. Time kept going by but the boy just wouldn't come out of the house. "Oh no, maybe he is participating in some programming contest like Lunchtime again. If I help him, we can go and start playing some interesting game outdoors sooner." - thought Tuzik, so he went into the house.
 
@@ -104,6 +104,7 @@ For each test case, output a single line containing the answer for this test cas
 
 <b>Output:</b>
 6
-</pre>### Explanation
+</pre>
+### Explanation
 
 6 such pairs: (3, 3), (3, 6), (3, 9), (3, 12), (6, 9), and (9, 12).

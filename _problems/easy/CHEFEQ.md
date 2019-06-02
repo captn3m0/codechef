@@ -70,7 +70,7 @@ time:
     current: 1493558118
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/FEB15/mandarin/CHEFEQ.pdf) and [Russian](http://www.codechef.com/download/translated/FEB15/russian/CHEFEQ.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/FEB15/mandarin/CHEFEQ.pdf) and [Russian](http://www.codechef.com/download/translated/FEB15/russian/CHEFEQ.pdf).
 
 Chef has a box full of infinite number of identical coins. One day while playing, he made **N** piles each containing equal number of coins. Chef suddenly remembered an important task and left the room for sometime. While he was away, his newly hired assistant came across the piles and mixed them up while playing.
 When Chef returned home, he was angry to see that all of his piles didn't contain equal number of coins as he very strongly believes in the policy of equality for all, may it be people or piles of coins.
@@ -112,6 +112,7 @@ The assistant wants to do this task as fast as possible. So he wants to know the
 
 <b>Output:</b>
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 - In test case 1, if you decide to convert all the piles to contain either of 1, 2, 3, or 4 coins you will have to change the other 3 piles. For any other choice you will have to alter more than 3 (i.e. 4) piles.

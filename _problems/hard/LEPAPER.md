@@ -115,7 +115,8 @@ For each test case output a single line containing the number of different sheet
 47
 3
 57
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Case 1.** Here the sheet consists of one cell of color **1**. We have **47** available colors. Using one move we can color this cell in any of available colors. So we can get **47** different sheets.
 

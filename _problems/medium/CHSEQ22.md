@@ -67,12 +67,12 @@ time:
     current: 1493557914
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/FEB14/mandarin/CHSEQ22.pdf) and [Russian](http://www.codechef.com/download/translated/FEB14/russian/CHSEQ22.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/FEB14/mandarin/CHSEQ22.pdf) and [Russian](http://www.codechef.com/download/translated/FEB14/russian/CHSEQ22.pdf).
 
 Chef has an integer sequence **a1**, **a2**, ..., **aN** of size **N**, where all the elements of the sequence are 0 initially. Chef also has **M** segments, here the **i**th one is **\[Li, Ri\]**. He wants to create new sequences using the following operation:
 
 - In a single operation, he picks a segment from the **M** segments. Let the chosen segment be **\[s, t\]**.
-- Then _flip_ the all elements from **s**th to **t**th elements, namely, **ai** is changed to **1 − ai** for all **s ≤ i ≤ t**.
+- Then *flip* the all elements from **s**th to **t**th elements, namely, **ai** is changed to **1 − ai** for all **s ≤ i ≤ t**.
 
 Chef can perform the operation as many times as Chef likes. Chef wants to know how many different sequences Chef can make. Since the answer can be very large, please print it modulo **1000000007 (109+7)**.
 
@@ -100,6 +100,7 @@ Print a single line containing one integer, denoting the number of the sequences
 
 <b>Output:</b>
 8
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the example case, all the sequences **(0,0,0)**, **(0,0,1)**, **(0,1,0)**, **(1,0,0)**, **(0,1,1)**, **(1,0,1)**, **(1,1,0)**, **(1,1,1)** can be created by Chef.

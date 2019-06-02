@@ -66,7 +66,7 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JUNE14/mandarin/DARTS1.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE14/russian/DARTS1.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JUNE14/mandarin/DARTS1.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE14/russian/DARTS1.pdf).
 
 Note: This is an interactive problem. Interactive problems differ from classic problems in that your solution will send and receive data from a special judge program instead of from static files. Pay special attention to the notice on output buffering described in the "Input + Output" section below.
 
@@ -99,7 +99,7 @@ after each throw  **you will get the answer in one line**  with format:/>
 (C,D) is the real position where your darts flew. M is an integer between 1 and 3 representing the dart multiplier (1- simple, 2- double, 3- triple) and S is another integer number representing dart score (without a multiplier).
 Now the compete mode begins. Here will use 99999 darts. (This doesn't mean you will throw 99999 darts. You may lose some dart in invalid turns.) The communication is the same as the training mode.
 
- _Attention: the program should clear the output buffer after printing each line. It can be done using fflush(stdout) command or by setting the proper type of buffering at the beginning of the execution - setlinebuf(stdout). Failure to flush the output buffer will result in Time Limit Exceeded verdict._
+ *Attention: the program should clear the output buffer after printing each line. It can be done using fflush(stdout) command or by setting the proper type of buffering at the beginning of the execution - setlinebuf(stdout). Failure to flush the output buffer will result in Time Limit Exceeded verdict.*
 
 ### Test Case Generation
 
@@ -110,9 +110,9 @@ We have 30 official test files. You must correctly solve all test files to recei
 
 ### More information about the game: 
 
-[Hint.](http://www.nicedarts.com/how_to_501.html)
+[ Hint. ](http://www.nicedarts.com/how_to_501.html)
 
- The dimensions of the[board.](http://www.darts501.com/Bristleboards.htm)
+ The dimensions of the[ board. ](http://www.darts501.com/Bristleboards.htm)
 
 26. outside of the double 170mm from the center.
 27. outside of the triple 107 mm from the center.

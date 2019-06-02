@@ -71,7 +71,7 @@ time:
     current: 1493558134
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/APRIL15/mandarin/CSEQ.pdf) and [Russian](http://www.codechef.com/download/translated/APRIL15/russian/CSEQ.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/APRIL15/mandarin/CSEQ.pdf) and [Russian](http://www.codechef.com/download/translated/APRIL15/russian/CSEQ.pdf).
 
 Given three positive integers **N**, **L** and **R**, find the number of non-decreasing sequences of size at least **1** and at most **N**, such that each element of the sequence lies between **L** and **R**, both inclusive.
 
@@ -107,7 +107,8 @@ For each test case print the answer modulo **106+3** in a single line.
 <b>Output:</b>
 2
 5
-</pre>### Explanation
+</pre>
+### Explanation
 
 **test #1:** \[4\] and \[5\] are the two sequences.
 

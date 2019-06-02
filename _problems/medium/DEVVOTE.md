@@ -71,7 +71,7 @@ time:
     current: 1493557918
 layout: problem
 ---
-###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/APRIL15/mandarin/DEVVOTE.pdf) and [Russian](http://www.codechef.com/download/translated/APRIL15/russian/DEVVOTE.pdf).
+###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/APRIL15/mandarin/DEVVOTE.pdf) and [Russian](http://www.codechef.com/download/translated/APRIL15/russian/DEVVOTE.pdf).
 
 Devus are creatures living in Devupur. There are total **n** Devus in Devupur. **ith** Devu live in **ith** house. Houses **1, 2, 3, , , n** are placed in a single lane i.e. **1** is a neighbor of **2**, **2** is a neighbor of **1** and **3** etc.
 
@@ -114,7 +114,8 @@ For each test case, print a single real number corresponding to the answer of th
 <b>Output:</b>
 1.000000
 2.000000
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example 1:**
  **1st** Devu votes himself and get elected for president. So expected number of presidents are **1**.

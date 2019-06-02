@@ -69,9 +69,9 @@ time:
     current: 1493556996
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JAN14/mandarin/TAPAIR.pdf) and [Russian](http://www.codechef.com/download/translated/JAN14/russian/TAPAIR1.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JAN14/mandarin/TAPAIR.pdf) and [Russian](http://www.codechef.com/download/translated/JAN14/russian/TAPAIR1.pdf).
 
-_\[**a simple graph** is an undirected graph that has no loops (edges connected at both ends to the same vertex) and no more than one edge between any two different vertices.\]_
+*\[**a simple graph** is an undirected graph that has no loops (edges connected at both ends to the same vertex) and no more than one edge between any two different vertices.\]*
 
  -Retrieved from http://en.wikipedia.org/wiki/Graph\_(mathematics)
 
@@ -108,7 +108,8 @@ The first line of the input contains two integers **N M** which are the number o
 
 <b>Output:</b>
 6
-</pre>### Explanation
+</pre>
+### Explanation
 
 There are 5 cities and 6 roads (numbered from 1 to 6). There are 6 pairs of roads cannot be chosen which are
 (1, 2), (1, 3), (2, 3), (4, 5), (4, 6) and (5, 6).

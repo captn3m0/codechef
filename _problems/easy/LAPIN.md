@@ -68,7 +68,7 @@ time:
     current: 1493558159
 layout: problem
 ---
-All submissions for this problem are available._Lapindrome_ is defined as a string which when split in the middle, gives two halves having the same characters and same frequency of each character. If there are odd number of characters in the string, we ignore the middle character and check for lapindrome. For example **_gaga_** is a lapindrome, since the two halves **_ga_** and **_ga_** have the same characters with same frequency. Also, **_abccab_**, **_rotor_** and **_xyzxy_** are a few examples of lapindromes. Note that **_abbaab_** is NOT a lapindrome. The two halves contain the same characters but their frequencies do not match. 
+All submissions for this problem are available.*Lapindrome* is defined as a string which when split in the middle, gives two halves having the same characters and same frequency of each character. If there are odd number of characters in the string, we ignore the middle character and check for lapindrome. For example ***gaga*** is a lapindrome, since the two halves ***ga*** and ***ga*** have the same characters with same frequency. Also, ***abccab***, ***rotor*** and ***xyzxy*** are a few examples of lapindromes. Note that ***abbaab*** is NOT a lapindrome. The two halves contain the same characters but their frequencies do not match. 
  Your task is simple. Given a string, you need to tell if it is a lapindrome.
 
 ### Input:
@@ -96,7 +96,8 @@ abbaab
 ababc
 
 
-<pre>**Output:**```
+<pre>
+**Output:**```
 
 YES
 NO

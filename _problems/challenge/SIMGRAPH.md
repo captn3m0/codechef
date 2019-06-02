@@ -102,14 +102,16 @@ Your score for each test case is the similarity of the 2 graphs using the labell
 0 0 0 0
 1 0 0 0
 1 0 0 0
-</pre>### Sample Output
+</pre>
+### Sample Output
 
 <pre>1 2 3
 1 2 3
 1 4 2 3
 2 4 1 3
 
-</pre>This output would score 2\*0/3 = 0.0 on the first test case, and 2\*2/4 = 1.0 on the second test case, for an overall score of 0.5. Note that better scores are possible.
+</pre>
+This output would score 2\*0/3 = 0.0 on the first test case, and 2\*2/4 = 1.0 on the second test case, for an overall score of 0.5. Note that better scores are possible.
 
 ### Test case generation
 

@@ -68,7 +68,7 @@ time:
     current: 1493558167
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/NOV13/mandarin/MCHAIRS.pdf) and [Russian](http://www.codechef.com/download/translated/NOV13/russian/MCHAIRS.PDF).
+All submissions for this problem are available.###  Read problems statements in [ Mandarin Chinese ](http://www.codechef.com/download/translated/NOV13/mandarin/MCHAIRS.pdf) and [ Russian](http://www.codechef.com/download/translated/NOV13/russian/MCHAIRS.PDF).
 
 A new school in Byteland is now in the process of renewing some classrooms with new, stronger and better chairs, so that the students can stay still and pay attention to class :)
 

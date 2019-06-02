@@ -116,6 +116,7 @@ Your goal is to minimize this score.
 4 4 4 4 4 4 4 4
 4 4 4 4 4 4 4 4
 
-</pre>In the first test case S = 81, so the score is equal to approximately 6.33985. In the second test case S = 67, so the score is equal to approximately 6.06609. The overall score is thus the average of these values, or approximately 6.20297. ### Test Case Generation
+</pre>
+In the first test case S = 81, so the score is equal to approximately 6.33985. In the second test case S = 67, so the score is equal to approximately 6.06609. The overall score is thus the average of these values, or approximately 6.20297. ### Test Case Generation
 
 Every official input file contains exactly 10 test cases. In every test case M and N are chosen randomly and uniformly between 10 and 100, inclusive, and the values of all cells are set to zero. Then, a random integer K between 1 and 10, inclusive, is chosen. Then the following operation is executed exactly N\*M\*K/100 (rounded down) times: a random cell with zero value is chosen among cells which don't have any side-by-side neighboring cells with non-zero value, and the chosen cell is filled with a random integer between 1 and 50, inclusive.

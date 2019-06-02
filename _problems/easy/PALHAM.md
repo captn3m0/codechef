@@ -114,6 +114,7 @@ abc
 76
 2
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 in second test-case the only possible strings are "aba" and "cbc"

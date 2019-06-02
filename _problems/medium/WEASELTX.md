@@ -129,7 +129,8 @@ You should print **Q** lines, each containing **XΔ0**.
 11
 9
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 Initially **X0 = \[1, 5, 8, 7\]**.
 

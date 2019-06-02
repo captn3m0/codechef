@@ -152,7 +152,8 @@ wait
 wait
 5
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**
 

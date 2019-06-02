@@ -129,7 +129,8 @@ For each test case, print a single line containing one real number — the time 
 
 4.000000000
 3.000000000
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** Each car takes 5/5 = 1 second to go from one tunnel to the next tunnel.
 

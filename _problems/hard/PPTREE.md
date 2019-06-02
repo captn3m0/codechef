@@ -110,7 +110,8 @@ For each test case, output a single line containing the answer to the correspond
 <b>Output:</b>
 3
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** In this case there are tree ways to choose pair of vertices:
 

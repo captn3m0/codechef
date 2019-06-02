@@ -103,7 +103,8 @@ Ouput an integer corresponding to the answer to the only test case in a line.
 
 <b>Output:</b>
 19
-</pre>### Explanation
+</pre>
+### Explanation
 
 The perfect Quadruples and their individual contribution is calculated as.
 
@@ -112,4 +113,5 @@ The perfect Quadruples and their individual contribution is calculated as.
 <b>F(1, 1, 3, 3) = 2*3 = 6</b>
 <b>F(1, 2, 3, 3) = 2*3 = 6</b>
 <b>F(2, 2, 3, 3) = 1*3 = 3</b>
-</pre>All these values sum up to **19**.
+</pre>
+All these values sum up to **19**.

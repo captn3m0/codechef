@@ -68,7 +68,7 @@ time:
     current: 1493558181
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JULY14/mandarin/RETPO.pdf) and [Russian](http://www.codechef.com/download/translated/JULY14/russian/RETPO.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JULY14/mandarin/RETPO.pdf) and [Russian](http://www.codechef.com/download/translated/JULY14/russian/RETPO.pdf).
 
 Recently Chef bought a bunch of robot-waiters. And now he needs to know how much to pay for the electricity that robots use for their work. All waiters serve food from the kitchen (which is in the point **(0, 0)**) and carry it to some table (which is in some point **(x, y)**) in a shortest way. But this is a beta version of robots and they can only do the next moves: turn right and make a step forward or turn left and make a step forward. Initially they look in direction of **X-axis**. Your task is to calculate for each query the number of moves they’ll do to reach corresponding table.
 
@@ -95,6 +95,7 @@ For each test case, output a single line containing number of moves that robot w
 <b>Output:</b>
 6
 7
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** Sequence of moves would be LRLRLR

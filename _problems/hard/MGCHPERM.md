@@ -118,7 +118,8 @@ For each test case, output a single line containing a single integer — the sol
 367816
 989165211
 930411765</tt>
-</pre>### Explanation:
+</pre>
+### Explanation:
 
 **Example case 1.** There is only one subset: {1, 2, 3}. Since, **F**(1, 2, 3) = 0, the answer is 0.
 

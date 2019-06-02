@@ -70,7 +70,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [English](http://www.codechef.com/download/translated/COOK50/english/WW2.pdf), [Mandarin Chinese](http://www.codechef.com/download/translated/COOK50/mandarin/WW2.pdf) and [Russian](http://www.codechef.com/download/translated/COOK50/russian/WW2.pdf) as well.
 
-_**Richard Winters: We're not lost, Private... we're in Normandy.**_
+***Richard Winters: We're not lost, Private... we're in Normandy.***
 
 ![](//www.codechef.com/download/COOK50/ww2.jpg)
 
@@ -114,7 +114,8 @@ For each testcase, print the required answer in one line.
 <b>Output:</b>
 5
 8
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**You can start at any of the 5 cells available.
 

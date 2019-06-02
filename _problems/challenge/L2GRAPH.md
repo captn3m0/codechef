@@ -67,7 +67,8 @@ Each test case will be given a score d\*L/K where d is the dimension provided in
 2
 3
 
-</pre>### Explanation Of Sample Data
+</pre>
+### Explanation Of Sample Data
 
 The provided answers are certainly not optimal for either test case, but they are valid solutions according to the output specification and such output would be accepted. The score for this output would be as follows.
 

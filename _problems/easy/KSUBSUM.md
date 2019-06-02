@@ -11,7 +11,7 @@ layout: problem
 ---
 ###  All submissions for this problem are available. 
 
-Did you know that the Hindus believe there are 330 million deities ? Lets discuss about them in long contests. The three main forces of god Brahma, Vishnu and Mahesh, also called Trimurti ( 3 forms ), want to decide when to end the world. Given an array A, which contains the 'Good' ( or 'Evil' ) score of each place on earth, they can easily find the maximum sum of the scores of a (contiguous) sub-array of places. But this is not much useful to them. So, _each_ of them gives a value K and want to know the Kth maximum sum of scores of a contiguous sub-array. In other words, find the value of S\[K\] (1-based index), where the array S contains the sums of all possible contiguous sub-arrays in non-increasing order.
+Did you know that the Hindus believe there are 330 million deities ? Lets discuss about them in long contests. The three main forces of god Brahma, Vishnu and Mahesh, also called Trimurti ( 3 forms ), want to decide when to end the world. Given an array A, which contains the 'Good' ( or 'Evil' ) score of each place on earth, they can easily find the maximum sum of the scores of a (contiguous) sub-array of places. But this is not much useful to them. So, *each* of them gives a value K and want to know the Kth maximum sum of scores of a contiguous sub-array. In other words, find the value of S\[K\] (1-based index), where the array S contains the sums of all possible contiguous sub-arrays in non-increasing order.
 
 ### Input
 
@@ -46,10 +46,11 @@ K3 ≤ N\*(N+1)/2
 30 30 10
 15 -5 -20
 </pre>
+
 **Explanation:**
 Case 1 & 2 : A = { 10, 20, 30 }. All possible sums of sub-arrays in non-increasing order, S\[1..6\] = { 60, 50, 30, 30, 20, 10 }
 
 
-_**Warning :** "Large input / output. Be careful with certain languages. Eg: Prefer using scanf/printf to cin/cout for C++"_
+***Warning :** "Large input / output. Be careful with certain languages. Eg: Prefer using scanf/printf to cin/cout for C++"*
 
-_**Note :** There are multiple test sets, and the judge shows the sum of the time taken over all test sets of your submission, if Accepted._
+***Note :** There are multiple test sets, and the judge shows the sum of the time taken over all test sets of your submission, if Accepted.*

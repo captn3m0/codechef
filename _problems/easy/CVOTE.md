@@ -120,7 +120,8 @@ Leibniz
 <b>Output:</b>
 Germany
 Leibniz
-</pre>### Example 2
+</pre>
+### Example 2
 
 <pre>
 <b>Input:</b>
@@ -138,7 +139,8 @@ Lagrange
 <b>Output:</b>
 Italy
 Ramanujan
-</pre>### Example 3
+</pre>
+### Example 3
 
 <pre>
 <b>Input:</b>
@@ -151,7 +153,8 @@ Euclid
 <b>Output:</b>
 England
 Euclid
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example 1.** Here we have only one chef **Leibniz** and he is from **Germany**. Clearly, all votes are for him. So **Germany** is the country-winner and **Leibniz** is the **"Chef of the Year"**.
 

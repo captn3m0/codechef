@@ -82,8 +82,10 @@ There are $N$ workers; each worker is of one of the following three types: - A \
 1 3 4 6 8   
 1 2 1 2 3   
 </tt>
-<pre>\### Example Output ```
+<pre>
+\### Example Output ```
 <tt>
 4
 </tt>
-</pre>\### Explanation Chef can hire 2 workers: worker 1, who is a translator, and worker 2, who is an author. In total, he pays them $1 + 3 = 4$ coins.
+</pre>
+\### Explanation Chef can hire 2 workers: worker 1, who is a translator, and worker 2, who is an author. In total, he pays them $1 + 3 = 4$ coins.

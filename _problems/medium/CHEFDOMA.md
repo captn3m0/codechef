@@ -71,7 +71,7 @@ time:
     current: 1493557521
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME33/mandarin/CHEFDOMA.pdf), [Russian](http://www.codechef.com/download/translated/LTIME33/russian/CHEFDOMA.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME33/vietnamese/CHEFDOMA.pdf) as well.
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME33/mandarin/CHEFDOMA.pdf), [Russian](http://www.codechef.com/download/translated/LTIME33/russian/CHEFDOMA.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME33/vietnamese/CHEFDOMA.pdf) as well.
 
 Chef likes problems with arrays. Let's call an array **V** dominating if there exists a number **x** (the dominator) whose number of occurrences is strictly greater than half the size of the array (that is, floor(|**V**|/2)).
 
@@ -108,7 +108,8 @@ Output the answer to the query in a single line.
 <b>Output:</b>
 11
 
-</pre>### Subtasks
+</pre>
+### Subtasks
 
 - **Subtask 1:**  **N** ≤ 102. **Points - 10**
 - **Subtask 2:**  **N** ≤ 104. **Points - 20**

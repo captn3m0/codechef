@@ -120,7 +120,8 @@ The hash function is calculated this way:
 <b>Output:</b>
 <tt>99116027
 515191750</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** The roads are:
 

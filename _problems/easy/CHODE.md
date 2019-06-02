@@ -68,7 +68,7 @@ time:
     current: 1493558127
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/DEC13/mandarin/CHODE.pdf) and [Russian](http://www.codechef.com/download/translated/DEC13/russian/CHODE.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/DEC13/mandarin/CHODE.pdf) and [Russian](http://www.codechef.com/download/translated/DEC13/russian/CHODE.pdf).
 
 Once upon a time chef decided to learn encodings. And, obviously, he started with the easiest one (well, actually the easiest after Caesar cypher) – substitution cypher.
 

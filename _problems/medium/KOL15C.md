@@ -63,7 +63,8 @@ Output the array in a single line after all updates.
 
 <b>Output:</b>
 0 1 2 2 1 2 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 Array after first update : \[0,0,1,1,1,1,1\]
 Array after second update : \[0,0,1,1,1,1,2\]

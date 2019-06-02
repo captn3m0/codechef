@@ -73,7 +73,7 @@ layout: problem
 ---
 All submissions for this problem are available.You are given a rooted unweighted tree with **N** nodes. The nodes are numbered from 1 to **N**. Node 1 is the root. You want to paint all the vertices of this tree. There are different brushes already present in each of the nodes. You can pick the brush at one node and in a single stroke paint some consecutive nodes on the path from this node to the root, starting at this node. You want to make sure that you paint each node exactly once. Now that you have the story in mind, we will shift to a more formal description:
 
-A path in this tree is _good_ if no two different vertices on this path are at the same distance from the root. Informally, good paths refer to paths between a node and its ancestor. A path containing a single node is good.
+A path in this tree is *good* if no two different vertices on this path are at the same distance from the root. Informally, good paths refer to paths between a node and its ancestor. A path containing a single node is good.
 
 You need to partition all the vertices into good paths such that the total cost (describe below) is minimized. That is, you should select a set of good paths such that every node is in exactly one of the selected paths.
 
@@ -157,7 +157,8 @@ For each test case, output one integer per line denoting the minimum total cost.
 <b>Output</b>
 15
 11
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example Test case 2.**
 

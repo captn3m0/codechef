@@ -66,7 +66,7 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JULY14/mandarin/GERALD091.pdf) and [Russian](http://www.codechef.com/download/translated/JULY14/russian/GERALD09.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JULY14/mandarin/GERALD091.pdf) and [Russian](http://www.codechef.com/download/translated/JULY14/russian/GERALD09.pdf).
 
 Chef has an empty matrix of **N**x**M**. He wants to construct rectangle genome. For this reason Chef should fill the matrix with letters G, С, A, T.
 
@@ -109,6 +109,7 @@ There are 10 cases in total, and only 2 of them are evaluated during the contest
 AAA
 AAA
 T
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** In this testcase the output matrix contains 6 different submatrices. So, your scoring for this testcase will be 1/5.

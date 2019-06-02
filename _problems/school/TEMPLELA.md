@@ -123,7 +123,8 @@ no
 yes
 no
 no
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first strip, all the conditions are satisfied, hence it is valid.
 

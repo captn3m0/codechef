@@ -72,7 +72,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/COOK58/mandarin/MINPOLY.pdf) and [Russian](http://www.codechef.com/download/translated/COOK58/russian/MINPOLY.pdf) as well.
 
-As you know already, it is Devu's birthday today. He wants to make a [Rangoli](http://en.wikipedia.org/wiki/Rangoli) to decorate his house. He created **n** points having integer coordinates on the front door of his house. He also made sure no three points are collinear in it because collinear points break beauty of it. For each point, there is parameter beauty which is a positive integer.
+As you know already, it is Devu's birthday today. He wants to make a [ Rangoli ](http://en.wikipedia.org/wiki/Rangoli) to decorate his house. He created **n** points having integer coordinates on the front door of his house. He also made sure no three points are collinear in it because collinear points break beauty of it. For each point, there is parameter beauty which is a positive integer.
 
 Now, when Devu's little sister saw the points drawn, she thought of creating patterns by drawing a convex polygon by choosing some of the **n** point as vertices of it. Also, as she is very naughty, instead of creating most beautiful pattern, she wants to create least beautiful pattern. Beauty of a polygon is sum of beauties of all the points lying inside or on the boundary of it.
 
@@ -105,7 +105,8 @@ Print **n - 2** space separated integers corresponding to the answer for **k** =
 0 1 3
 <b>Output:</b>
 6
-</pre><pre><b>Input:</b>
+</pre>
+<pre><b>Input:</b>
 4
 0 0 1
 1 0 2
@@ -113,7 +114,8 @@ Print **n - 2** space separated integers corresponding to the answer for **k** =
 1 1 2
 <b>Output:</b>
 5 8
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** The triangle given in the input has beauty equal to 6.
 

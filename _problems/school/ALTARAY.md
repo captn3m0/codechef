@@ -72,7 +72,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/COOK68/mandarin/ALTARAY.pdf), [Russian](http://www.codechef.com/download/translated/COOK68/russian/ALTARAY.pdf) and [Vietnamese](http://www.codechef.com/download/translated/COOK68/vietnamese/ALTARAY.pdf) as well.
 
-There's an array **A** consisting of **N** **non-zero** integers **A1..N**. A subarray of **A** is called _alternating_ if any two adjacent elements in it have different signs (i.e. one of them should be negative and the other should be positive).
+There's an array **A** consisting of **N** **non-zero** integers **A1..N**. A subarray of **A** is called *alternating* if any two adjacent elements in it have different signs (i.e. one of them should be negative and the other should be positive).
 
 For each **x** from **1** to **N**, compute the length of the longest alternating subarray that starts at **x** - that is, a subarray **Ax..y** for the maximum possible **y ≥ x**. The length of such a subarray is **y-x+1**.
 
@@ -107,7 +107,8 @@ For each test case, output one line with **N** space-separated integers - the le
 1 1 1 1
 4 3 2 1
 1 1 3 2 1 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** No two elements have different signs, so any alternating subarray may only consist of a single number.
 

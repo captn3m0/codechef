@@ -117,6 +117,7 @@ For each test case, print a single line containing **N** characters. For each **
 10100
 1101
 1010
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** There are two possible partitions: into exactly 1 array (with sum 1+4+3+2+5) or into exactly 3 arrays (with sums 1+4 = 2+3 = 5).

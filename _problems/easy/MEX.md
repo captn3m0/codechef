@@ -122,7 +122,8 @@ For each testcase, output the answer in a single line.
 4
 6
 0
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** As **K** = 0, so we can't add any element to the multi-set. Elements of the set are {1, 0, 2}. The MEX value of this set is 3.
 

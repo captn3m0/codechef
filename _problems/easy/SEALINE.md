@@ -110,7 +110,8 @@ For each test case, output a single line with the answer — the minimal number 
 0
 0
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 3.**
 

@@ -135,7 +135,8 @@ For each event print the value Chef asked you about on a separate line.
 1
 0
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example event 1.** Branch **5** can hold at most **4** acorns, so after **5** have grown there, it immediately falls down. Notice that the branch **3** doesn't fall down (even though it also can't hold **5** acorns), because the branch **5** no longer grows out of it. We output **5** as this branch has fallen down and create a state of the oak with index **1** having branch **5** fallen and having no acorns in the other four branches.
 

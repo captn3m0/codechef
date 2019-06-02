@@ -72,9 +72,9 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
-All submissions for this problem are available.You are given a string **s** of length 8 consisting solely of '0's and '1's. Assume that the characters of the string are written in a circular fashion. You need to find the number of 0-1 or 1-0 transitions that one has to make while making a single traversal over the string. ie. start from any character and go circularly until you get back to the same character, and find the number of transitions that you made. The string is said to be said to be _uniform_ if there are at most two such transitions. Otherwise, it is called _non-uniform_.
+All submissions for this problem are available.You are given a string **s** of length 8 consisting solely of '0's and '1's. Assume that the characters of the string are written in a circular fashion. You need to find the number of 0-1 or 1-0 transitions that one has to make while making a single traversal over the string. ie. start from any character and go circularly until you get back to the same character, and find the number of transitions that you made. The string is said to be said to be *uniform* if there are at most two such transitions. Otherwise, it is called *non-uniform*.
 
-Given the string **s**, tell whether the string is _uniform_ or not.
+Given the string **s**, tell whether the string is *uniform* or not.
 
 ### Input
 
@@ -84,7 +84,7 @@ The only line of input contains the string **s**.
 
 ### Output
 
-For each test case, output "uniform" if the given string is _uniform_ and "non-uniform" otherwise.
+For each test case, output "uniform" if the given string is *uniform* and "non-uniform" otherwise.
 
 ### Constraints
 
@@ -106,6 +106,7 @@ uniform
 non-uniform
 uniform
 non-uniform
-</pre>### Explanation
+</pre>
+### Explanation
 
 The number of transitions are 0, 8, 2 and 4 for the respective cases. So, the first and third one are uniform while the second and fourth one are non-uniform.

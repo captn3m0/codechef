@@ -75,7 +75,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
  Their test consists of **Q** queries. Each query is actually a task (given as a point in the same 2D plane). This task has to be executed on some available CPU (of some server in the network). A CPU (of some server) is available if there is **no** task that currently runs on it. For example, if a task arrives at time **5** and is executed on a CPU with a processing time of **10** then the CPU is busy in **\[5..14\]** (i.e. it is again available at time **15**). Any attempt to execute a task on a busy CPU will be punished with a network crash (and neither Chef nor Batman wants to reconfigure the whole network again).
 
- There is a cost associated with scheduling (and running) a task. Let's assume that we have a server, located at **(a, b)**, with a CPU of processing time **p**. If you execute a task located at **(x, y)**, then the cost will be **_euclid\_distance((a, b), (x, y)) + p_** (which is the cost of sending the task to the server plus the time to actually run the task on the CPU).
+ There is a cost associated with scheduling (and running) a task. Let's assume that we have a server, located at **(a, b)**, with a CPU of processing time **p**. If you execute a task located at **(x, y)**, then the cost will be ***euclid\_distance((a, b), (x, y)) + p*** (which is the cost of sending the task to the server plus the time to actually run the task on the CPU).
 
  The test framework is not perfect and doesn't allow multiple tasks waiting to be executed at the same time (i.e. the network will receive another task only after all previous tasks have been scheduled and are running or have finished). We can say that the interaction between the testing framework and the network is **interactive**.
 
@@ -93,7 +93,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 ### Output
 
- The output file should contain **Q** lines, each line containing two integers: **si** and **ci**, where **si** is the index of the server and **ci** is the index of the CPU on that server that runs the _i_th task.
+ The output file should contain **Q** lines, each line containing two integers: **si** and **ci**, where **si** is the index of the server and **ci** is the index of the CPU on that server that runs the *i*th task.
 
 ### Interactive
 
@@ -107,7 +107,7 @@ The problem is **interactive**. You will get the coordinates of each task one at
 
 ### Scoring
 
- Your score for one test is the sum of costs for all the queries (using the cost measure from the problem's description). The final score is the sum of scores in all tests. The goal is to **_minimize_** that score.
+ Your score for one test is the sum of costs for all the queries (using the cost measure from the problem's description). The final score is the sum of scores in all tests. The goal is to ***minimize*** that score.
 
  If your program works incorrectly (e.g. it exceeds the time limit or the answer is not valid) on any of the tests, you will get a suitable verdict (e.g. TLE or WA). Otherwise, you will get AC and your score will be decided by only a part of the tests (see test generation). The final score will be revealed after the contest.
 
@@ -126,7 +126,7 @@ The problem is **interactive**. You will get the coordinates of each task one at
 - If a task is executed at time **t** on a CPU of processing time **p** then the CPU will be busy in the time interval **\[t, t+1, ..., t+p-1\].** (the CPU becomes available at time **t+p**).
 - A task cannot be stopped or rescheduled.
 - **Note**: there is **no** actual time-stamp associated with a task. The times are introduced so it is easier to express the availability of a CPU and the fact that tasks arrive one after the other (separated by one unit of time). The judge also uses time 0 as the original time in order to check if a schedule is valid.
-- **Note**: We use the **classical euclidean distance**: _euclid\_distance((a, b), (x, y)) = sqrt((a - x)2 + (b - y)2)_
+- **Note**: We use the **classical euclidean distance**: *euclid\_distance((a, b), (x, y)) = sqrt((a - x)2 + (b - y)2)*
 - **Note**: The TL is given for one test and not for a single interaction (i.e. single message exchange).
 
 ### Test generation
@@ -170,7 +170,8 @@ Distribution (20 tests):
 2 2
 1 1
 1 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 There are 3 tasks that are given as 2D points (0,2), (5,7) and (8,3).
 
@@ -196,7 +197,8 @@ The user should first read the description of the servers from standard input (a
 ! 1 2
 end
 
-</pre>The cost of the first query: sqrt((0 - 0)2 + (0 - 2)2) + 5 = sqrt(4) + 5 = 7
+</pre>
+The cost of the first query: sqrt((0 - 0)2 + (0 - 2)2) + 5 = sqrt(4) + 5 = 7
 
 The cost of the second query: sqrt((9 - 5)2 + (9 - 7)2) + 7 = sqrt(42 + 22) + 7 = sqrt(16 + 4) + 7 = 11.472135
 

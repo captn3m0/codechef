@@ -80,7 +80,7 @@ All submissions for this problem are available.### Read problems statements in [
 
 You are given **n** points **p1, p2, ..., pn** in a plane and **n** integers **a1, a2, ..., an**.
 
-For any index **i** (1 ≤ **i** ≤ **n**), it is possible to perform the following operation (let's call it _**i**-rotation_) on an arbitrary point **P**: Rotate **P** by **ai** degrees counter-clockwise around the point **pi**.
+For any index **i** (1 ≤ **i** ≤ **n**), it is possible to perform the following operation (let's call it ***i**-rotation*) on an arbitrary point **P**: Rotate **P** by **ai** degrees counter-clockwise around the point **pi**.
 
 Note that **ai** will always be a multiple of 90. Also note that such an operation changes the point **P**.
 

@@ -136,7 +136,8 @@ For each query print out the corresponding result in one line.
 4
 2
 6
-</pre>### Explaination
+</pre>
+### Explaination
 
 **Test 2:** the graph is shown in the picture below.
 

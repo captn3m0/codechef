@@ -39,4 +39,5 @@ For each test case output just one line containing the required smallest positiv
 3
 
 <b>Explanation:</b>
-</pre>In the example test case **N** = 22\*31 = 12. Then **N1** = 4, **N2** = 2 and **NX** = 1 for **X** ≥ 3, so the answer is 3.
+</pre>
+In the example test case **N** = 22\*31 = 12. Then **N1** = 4, **N2** = 2 and **NX** = 1 for **X** ≥ 3, so the answer is 3.

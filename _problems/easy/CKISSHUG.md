@@ -92,7 +92,8 @@ First line of the input contains **T (T ≤ 1000)** denoting the number of test 
 2
 3
     
-<pre> **Output**
+<pre>
+ **Output**
 
  ```
 
@@ -100,7 +101,8 @@ First line of the input contains **T (T ≤ 1000)** denoting the number of test 
 4
 6
    
-</pre> **Explanation:**
+</pre>
+ **Explanation:**
 
  In the first case the possible ways are
 

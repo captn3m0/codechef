@@ -74,7 +74,7 @@ time:
     current: 1493558135
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/AUG15/mandarin/DCGAME.pdf) and [Russian](http://www.codechef.com/download/translated/AUG15/russian/DCGAME.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/AUG15/mandarin/DCGAME.pdf) and [Russian](http://www.codechef.com/download/translated/AUG15/russian/DCGAME.pdf).
 
 Devu and Churu love to play games a lot. Today, they have an array **A** consisting of **N** positive integers. First they listed all **N × (N+1) / 2** non-empty continuous subarrays of the array **A** on a piece of paper and then replaced all the subarrays on the paper with the maximum element present in the respective subarray.
 
@@ -125,7 +125,8 @@ Output consists of a single line containing a string of length **M** made up fro
 
 <b>Output:</b>
 DCDDC
-</pre>### Explanation: 
+</pre>
+### Explanation: 
 
 **Subarray List :**
 

@@ -73,7 +73,7 @@ time:
     current: 1493557852
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/OCT15/mandarin/PERSHFTS.pdf) and [Russian](http://www.codechef.com/download/translated/OCT15/russian/PERSHFTS.pdf) 
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/OCT15/mandarin/PERSHFTS.pdf) and [Russian](http://www.codechef.com/download/translated/OCT15/russian/PERSHFTS.pdf) 
 
 You have a permutation **P** of integers **1**, **2**, ... , **N**. You want to change it a little. To do this, you choose an integer **K** that satisfies an inequality **2** ≤ **K** ≤ **N**. After that, you perform several (possibly, zero, if you're feeling lazy) cyclic shifts. For each cyclic shift you choose a **K**-length segment of the permutation **P** (let's denote it as **Px**, **Px + 1**, ..., **Px + K - 2**, **Px + K - 1**) and perform a cyclic shift on it towards the right. That is, rearrange elements of this segment in the order **Px + K - 1**, **Px**, ... , **Px + K - 3**, **Px + K - 2**.
 
@@ -139,7 +139,8 @@ For each test case, output a single line. It must contain **-1**, if permutation
 <b>Output:</b>
 <tt>2
 -1</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** Cyclic shift of segment of length **2** is swapping consecutive elements of the permutation. Using them, we are able to get any possible permutation. Permutation **Q** has index **2** in the list of all permutations of length **4**.
 

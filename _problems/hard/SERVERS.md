@@ -64,7 +64,8 @@ For each test case you are to output a single line consisting of a single intege
 2
 3
 3
-</pre>### Notes On The Sample Data
+</pre>
+### Notes On The Sample Data
 
 One solution to the first test cases uses communicating pairs (1,2) and (2,3). We can't have 3 pairs since one of the frequencies would then be used by two devices. A solution for the second test case uses pairs (1,2), (2,3), and (3,4). All four pairs may not be used since there would be multiple ways for 1 and 3 to communicate (using either 2 or 4 as an intermediate device).
 

@@ -38,12 +38,15 @@ For each test case, output the number of black colored cells in the given hyperc
 0 3 0 2
 6 8 1 5
 
-<pre>**Output:**```
+<pre>
+**Output:**```
 9
 32
 22
 
-</pre>**Constraints**```
+</pre>
+**Constraints**```
 T < 51
 0 < N < 9
-<pre>All the co-ordinates will be non negative integers with at most 15 digits.
+<pre>
+All the co-ordinates will be non negative integers with at most 15 digits.

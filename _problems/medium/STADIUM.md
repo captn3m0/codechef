@@ -41,7 +41,8 @@ Sample input:
 9 7
 15 6
 9 3
-</pre>Sample output:
+</pre>
+Sample output:
 
 <pre>
 3

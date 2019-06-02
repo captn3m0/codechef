@@ -71,7 +71,7 @@ time:
     current: 1493557938
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME29/mandarin/SVNTR.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME29/russian/SVNTR.pdf)
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME29/mandarin/SVNTR.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME29/russian/SVNTR.pdf)
 
 The new king of Byteland, John-2318, has just ascended the throne. As every new king, he wants to build a spectacular palace to showcase his wealth and power.
 
@@ -119,7 +119,8 @@ For each testcase, output a single line containing one integer - the number of r
 <b>Output:</b>
 <tt>11
 27</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Test case 1**: we have the following matrix **A**:
 1 2 3

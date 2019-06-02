@@ -73,7 +73,7 @@ time:
     current: 1492506773
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME35/mandarin/TRICOIN.pdf), [Russian](http://www.codechef.com/download/translated/LTIME35/russian/TRICOIN.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME35/vietnamese/TRICOIN.pdf) as well.
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME35/mandarin/TRICOIN.pdf), [Russian](http://www.codechef.com/download/translated/LTIME35/russian/TRICOIN.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME35/vietnamese/TRICOIN.pdf) as well.
 
 Chef belongs to a very rich family which owns many gold mines. Today, he brought **N** gold coins and decided to form a triangle using these coins. Isn't it strange?
 
@@ -119,7 +119,8 @@ For each test case, output a single line containing an integer corresponding to 
 <tt>2
 2
 3</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 - **Test 1:** Chef can't form a triangle with height > 2 as it requires atleast 6 gold coins.
 - **Test 2:** Chef can't form a triangle with height > 2 as it requires atleast 6 gold coins.

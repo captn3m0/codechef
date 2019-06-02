@@ -124,7 +124,7 @@ Time limit is 3 seconds./>
 
 ### Subtask 5 (20 points): 
 
- _No special constraints_ 
+ *No special constraints* 
 
 Time limit is 0.3 seconds./>
 

@@ -69,7 +69,7 @@ time:
     current: 1493558181
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/SNCK151B/mandarin/RNUM.pdf) , [Russian](http://www.codechef.com/download/translated/SNCK151B/russian/RNUM.pdf) and [Vietnamese](http://www.codechef.com/download/translated/SNCK151B/vietnamese/RNUM.pdf)
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/SNCK151B/mandarin/RNUM.pdf) , [Russian](http://www.codechef.com/download/translated/SNCK151B/russian/RNUM.pdf) and [Vietnamese](http://www.codechef.com/download/translated/SNCK151B/vietnamese/RNUM.pdf)
 
 Princess Rupsa came across a very interesting game. In the game, you have to face against a number army consisting of **N** distinct integers **A1, A2, , , AN**. In one move, you can shoot one magic bullet aiming at an alive enemy number, say **X**. The magic bullet will kill **X** and it will also kill **X + 1** and **X - 1** if they are alive when the bullet is shot. Game ends when the entire number army is killed.
 
@@ -100,7 +100,8 @@ Princess Rupsa wants to find out the minimum and maximum number of moves that ca
 
 <b>Output:</b>
 1 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 - For minimum moves, you could aim for **2**, killing **1**, **2** and **3** in the same move.
 - For maximum moves, you could aim for **1**, killing **1** and **2** in the first move and then aim for **3** in the second move.

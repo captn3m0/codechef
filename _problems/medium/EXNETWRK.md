@@ -70,7 +70,7 @@ time:
     current: 1493557918
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME31/mandarin/EXNETWRK.pdf), [Russian](http://www.codechef.com/download/translated/LTIME31/russian/EXNETWRK.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME31/vietnamese/EXNETWRK.pdf) as well.
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME31/mandarin/EXNETWRK.pdf), [Russian](http://www.codechef.com/download/translated/LTIME31/russian/EXNETWRK.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME31/vietnamese/EXNETWRK.pdf) as well.
 
 You have been appointed as the designer for your school's computer network.
 
@@ -118,7 +118,8 @@ If it is impossible to construct a network with the given parameters for the cor
 3 4
 4 5
 5 1</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** There are not enough connections even to satisfy the first requirement.
 

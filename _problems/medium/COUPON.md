@@ -69,10 +69,10 @@ time:
     current: 1493557611
 layout: problem
 ---
-All submissions for this problem are available.Alice likes to shop online. The main reason is that she gets a lot of discounts! There are **M** online shops from where she purchases her items. The prices of the same item vary in both the shops. She needs to buy **N** items in all. And each she can buy each item in any one of the shops. All the shops offer certain discounts. If she buys the _i_th item in one shop, she gets a discount coupon for the _i+1_th item in the same shop. But if she purchases the _i+1_th item from a different shop, she cannot use the discount coupon.
- For example, if she buys the _i_th item in Shop _j_ and gets a discount of _**X**_ rupees. Let the price of _i+1_th item be _**Y**_ rupees in shop _j_ and _**Z**_ rupees in shop _k_. If she purchases the _i+1_th item from shop _j_ she can use the discount coupon and hence, will have to pay _**Y-X**_ rupees. If she purchases the _i+1_th item from shop _k_ she cannot use the discount coupon and hence, will have to pay _**Z**_ rupees.
+All submissions for this problem are available.Alice likes to shop online. The main reason is that she gets a lot of discounts! There are **M** online shops from where she purchases her items. The prices of the same item vary in both the shops. She needs to buy **N** items in all. And each she can buy each item in any one of the shops. All the shops offer certain discounts. If she buys the *i*th item in one shop, she gets a discount coupon for the *i+1*th item in the same shop. But if she purchases the *i+1*th item from a different shop, she cannot use the discount coupon.
+ For example, if she buys the *i*th item in Shop *j* and gets a discount of ***X*** rupees. Let the price of *i+1*th item be ***Y*** rupees in shop *j* and ***Z*** rupees in shop *k*. If she purchases the *i+1*th item from shop *j* she can use the discount coupon and hence, will have to pay ***Y-X*** rupees. If she purchases the *i+1*th item from shop *k* she cannot use the discount coupon and hence, will have to pay ***Z*** rupees.
 
-**Note:** If the discount given is more than price of the item in the shop, i.e. if _**Y-X**_ < 0, the item is given free but she does NOT get any money back./>/>
+**Note:** If the discount given is more than price of the item in the shop, i.e. if ***Y-X*** < 0, the item is given free but she does NOT get any money back./>/>
 
 Alice wants to spend as less as possible and wants your help. She starts buying from item 1 and goes on till item N in that order. Your task is simple. Tell her the least amount to spend to get all the **N** items.
 
@@ -81,9 +81,9 @@ Alice wants to spend as less as possible and wants your help. She starts buying 
 First line of input contains a single integer **T**, the number of test cases.
 
 Each test case starts with a line consisting of two space separated integers **N** & **M**.
-The next **N** lines consist of **M** space separated integers each. The _j_th number on the _i_th line denotes the price of _i_th item in the _j_th shop.
+The next **N** lines consist of **M** space separated integers each. The *j*th number on the *i*th line denotes the price of *i*th item in the *j*th shop.
 
-The next **N** lines consist of **M** space separated integers each. The _j_th number on the _i_th line denotes the value of discount coupon given after purchasing _i_th item in the _j_th shop.
+The next **N** lines consist of **M** space separated integers each. The *j*th number on the *i*th line denotes the value of discount coupon given after purchasing *i*th item in the *j*th shop.
 
 />/>/>/>
 
@@ -101,7 +101,8 @@ For each test case, output on a separate line the least amount that has to be sp
 0 ≤ Prices, Discounts ≤ 1000000
 1 ≤ <b>T * N * M</b> ≤ 1000000
 
-</pre>### Example:
+</pre>
+### Example:
 
 **Input:**
 
@@ -119,13 +120,15 @@ For each test case, output on a separate line the least amount that has to be sp
 1 2 1 1
 
 
-</pre>**Output:**
+</pre>
+**Output:**
 
 <pre>
 3
 2
 
-</pre>### Scoring:
+</pre>
+### Scoring:
 
 You will be awarded **40** points for solving the problem correctly for **M = 2**.
 

@@ -67,7 +67,7 @@ time:
     current: 1493558190
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/FEB15/mandarin/STRQ.pdf) and [Russian](http://www.codechef.com/download/translated/FEB15/russian/STRQ.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/FEB15/mandarin/STRQ.pdf) and [Russian](http://www.codechef.com/download/translated/FEB15/russian/STRQ.pdf).
 
 Chef likes strings a lot but moreover he likes good strings. Chef calls a string **str** a good string if **str** starts and ends at different characters. For eg : strings such as **abab** , **baccba** , **abc** are all good strings whereas strings like **aba**, **baab** , **baacaab** are not good at all .
 
@@ -121,7 +121,8 @@ c f 6 10
 2
 2
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 - Q1 : good strings are **ch** , **checfch** , **cfch** , **ch**
 - Q2 : good strings are **checf** , **checfchef** , **checfcheff** , **cf** , **cfchef** , **cfcheff** , **chef** , **cheff**

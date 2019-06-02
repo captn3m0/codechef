@@ -11,7 +11,7 @@ layout: problem
 ---
 ###  All submissions for this problem are available. 
 
-Chef Ciel bought a new video game for guests to kill time until their orders arrive. In this game, you are a fighter in a battle arena, and you will fight against a fighter called _Shindannin_. In Japan, many people believe that the next day will be a happy day if they beat Shindannin, otherwise the next day will be an unhappy day.
+Chef Ciel bought a new video game for guests to kill time until their orders arrive. In this game, you are a fighter in a battle arena, and you will fight against a fighter called *Shindannin*. In Japan, many people believe that the next day will be a happy day if they beat Shindannin, otherwise the next day will be an unhappy day.
 
 Let's start by defintions of some variables. **VA** and **VB** denote your initial HP (health points) and Shindannin's initial HP respectively. **SA** and **SB** denote your strength and Shindannin's strength respectively. **MA** denotes your initial MP (magical points), which is used when you use a skill. Note that only you can use a skill in the battle.
 
@@ -40,14 +40,25 @@ Print the maximum winning percentage you can achieve. This value must have an ab
 
 ### Sample Input 1
 
-`5 5 3 3 0`### Sample Output 1
+<pre>5 5 3 3 0
+</pre>
+### Sample Output 1
 
-`0.5`### Sample Input 2
+<pre>0.5
+</pre>
+### Sample Input 2
 
-`5 5 3 3 1`### Sample Output 2
+<pre>5 5 3 3 1
+</pre>
+### Sample Output 2
 
-`0.58886609097948`### Sample Input 3
+<pre>0.58886609097948
+</pre>
+### Sample Input 3
 
-`58 85 8 13 0`### Sample Output 3
+<pre>58 85 8 13 0
+</pre>
+### Sample Output 3
 
-`0.00011046536069`
+<pre>0.00011046536069
+</pre>

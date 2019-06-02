@@ -69,7 +69,7 @@ time:
     current: 1493557550
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/NOV14/mandarin/CHEFWORD.pdf) and [Russian](http://www.codechef.com/download/translated/NOV14/russian/CHEFWORD.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/NOV14/mandarin/CHEFWORD.pdf) and [Russian](http://www.codechef.com/download/translated/NOV14/russian/CHEFWORD.pdf).
 
 Nobody knows but Chef can play with words! He has a word. He claps and each letter of the word transform to another letter(independently)! All letters are only in range **a-z**. For each pair of symbols from **'a'** to **'z'** there is a probability that first symbol will transform into second one after clapping. Note that the symbol can also transform into the same symbol.
 
@@ -142,7 +142,8 @@ ccc
 zz
 <b>Output:</b>
 0.125000000000000
-</pre>### Explanation
+</pre>
+### Explanation
 
 <pre>
 daa (a->d) * (b->a) * (c->a) | 0.25*0.5*0.1 = 0,0125

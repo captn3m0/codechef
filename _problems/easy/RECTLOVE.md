@@ -113,6 +113,7 @@ Output **T** lines, each containing a single real number, containing the expecte
 
 <b>Output:</b>
 0.8888888888888888
-</pre>### Explanation
+</pre>
+### Explanation
 
 There are a total of 9 possible rectangles Thik could draw, shown in the figure above, and grid squares 1 and 2 are painted with a heart. The top row of possible selections (shown in the figure) contain 1, 0, 1, 2, and 2 hearts (from left to right), and the bottom row of possible selections (in the figure) contain 1, 0, 1, and 0 hearts. Therefore, 3/9 of the time 0 hearts are contained in the rectangle, 4/9 of the times 1 heart is contained in the rectangle, and 2/9 of the time 2 hearts are contained in the rectangle. The expected value is then 0 \* 3/9 + 1 \* 4/9 + 2 \* 2/9 = 8/9.

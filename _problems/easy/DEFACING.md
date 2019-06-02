@@ -124,6 +124,7 @@ For each test case, output a single line containing the maximum possible score D
 20130120
 19889989
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 The first three example cases correspond to the figure in the problem statement.

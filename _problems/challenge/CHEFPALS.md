@@ -117,7 +117,8 @@ wwwwbbwwww
 wwb
 wwwwbbww
 2 1 3 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 - In the first sequence of cells, painting the third and fourth cell gives **"wwbbw"** with white blocks of lengths 2 and 1, which gives Chef the string **"21"**.
 - **"wwwwbbwwww"** gives Chef the string **"44"**.

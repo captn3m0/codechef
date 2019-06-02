@@ -71,7 +71,7 @@ time:
     current: 1493557755
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/OCT15/mandarin/LOTERY.pdf) and [Russian](http://www.codechef.com/download/translated/OCT15/russian/LOTERY.pdf) 
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/OCT15/mandarin/LOTERY.pdf) and [Russian](http://www.codechef.com/download/translated/OCT15/russian/LOTERY.pdf) 
 
 Chef is exploring a new mathematical problem, which can be stated as follows:
 
@@ -82,7 +82,7 @@ Chef is exploring a new mathematical problem, which can be stated as follows:
 where **\[x\]** means greatest integer which doesn't exceed **x**.
 
 Chef wants you to answer some questions for a given pair of integers **N**, **K**:
-What is the [**least common multiple**](https://en.wikipedia.org/wiki/Least_common_multiple) of **F(N, 1)**, **F(N, 2)**, ... , **F(N, K)** modulo **109 + 7**.
+What is the [  **least common multiple**](https://en.wikipedia.org/wiki/Least_common_multiple) of **F(N, 1)**, **F(N, 2)**, ... , **F(N, K)** modulo **109 + 7**.
 
 Chef is not willing to give you all queries at once. Instead, he gives you the first query and suggests you generate all the following queries in this way:
 
@@ -141,7 +141,8 @@ For each test case, output a single integer — the answer for the given query.
 <tt>2
 3
 6</tt>
-</pre><pre><b>Input:</b>
+</pre>
+<pre><b>Input:</b>
 <tt>4
 5 2
 2 3 6

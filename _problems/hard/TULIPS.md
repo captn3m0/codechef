@@ -125,7 +125,8 @@ Cherry has never been to school and is not very good at counting, so she always 
 2
 1
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** There are **3** queries. The tulips take **4** days to grow fully. In the first query, Cherry will visit nodes **1** and **2**, because the trail **3-1** has length greater than **8**. Both the nodes will have fully grown tulips. After Cherry picks them, the tulips will grow back on day **5+4**, if Cherry doesn't visit them again. So the output is **2**.
 

@@ -99,11 +99,13 @@ For each test case, print the maximum number of coins that can be obtained by To
 2 2
 3 1 1 58
 30 28 2
-</pre>### Sample Output
+</pre>
+### Sample Output
 
 <pre>80
 2
-</pre>### Explanations
+</pre>
+### Explanations
 
 In the first sample, one of the strategy to obtain 80 coins is as follow:
 At first, Tomya bets 0 coins. Let the color 2 be chosen by Ciel. (Now, **S**1 = 2, **S**2 = 1, Coins = 30)

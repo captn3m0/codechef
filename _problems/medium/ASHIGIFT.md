@@ -70,15 +70,15 @@ time:
     current: 1493557485
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME22/mandarin/ASHIGIFT.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME22/russian/ASHIGIFT.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME22/mandarin/ASHIGIFT.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME22/russian/ASHIGIFT.pdf).
 
 Suraj, the Chief Prankster is back in action now and this time he has stolen the valentine's day gift given by Ashi (the love of Chef) to the Chef and ran away with it to Byteland.
 
-Byteland is a not a regular place like Chef's town. The safest way from Chef's town to Byteland is through _the path of tasty dishes_. The path is named so because there are magical tasty dishes which appear to the traveler that no one can resist eating. Also, Suraj has added a strong sleep potion to each of the dish on this path to stop anyone from following him.
+Byteland is a not a regular place like Chef's town. The safest way from Chef's town to Byteland is through *the path of tasty dishes*. The path is named so because there are magical tasty dishes which appear to the traveler that no one can resist eating. Also, Suraj has added a strong sleep potion to each of the dish on this path to stop anyone from following him.
 
-Knowing the devilish nature of Suraj, Ashi is concerned about the Chef and has asked all of Chef's town people to help. The distance from Chef's town to Byteland through the _the path of tasty dishes_ is **X** units. They have the location where the magic dishes are and how many people are required to eat it completely. Anyone who eats a dish would go to a long sleep and won't be able to continue. They have the information about the tribal clans that live along the _the path of tasty dishes_ who can be of real help in this journey.
+Knowing the devilish nature of Suraj, Ashi is concerned about the Chef and has asked all of Chef's town people to help. The distance from Chef's town to Byteland through the *the path of tasty dishes* is **X** units. They have the location where the magic dishes are and how many people are required to eat it completely. Anyone who eats a dish would go to a long sleep and won't be able to continue. They have the information about the tribal clans that live along the *the path of tasty dishes* who can be of real help in this journey.
 
-The journey Chef and his friends can be described as follows: There is a total of **B** dishes on _the path of tasty dishes_. Each dish is located at some distance from Chef's town denoted by **xi** for the ith dish ( **xi-1** < **xi**). To minimize the number of friends Chef has to leave behind, all of them have decided that exactly **yi** of them will eat the ith dish, which is the required number of people needed to finish it completely. Also, there are a total of **C** tribal chef clans, each with their own population and location on the path that Chef and his friends will meet on their way to Byteland. They know that for some clan (say _i_), they are located at a distance of **pi** ( **pi-1** < **pi**) from Chef's town with a population of **ri**. And if a group of **at least qi** men approaches them, they would be able to convince them to join their forces against Suraj.
+The journey Chef and his friends can be described as follows: There is a total of **B** dishes on *the path of tasty dishes*. Each dish is located at some distance from Chef's town denoted by **xi** for the ith dish ( **xi-1** < **xi**). To minimize the number of friends Chef has to leave behind, all of them have decided that exactly **yi** of them will eat the ith dish, which is the required number of people needed to finish it completely. Also, there are a total of **C** tribal chef clans, each with their own population and location on the path that Chef and his friends will meet on their way to Byteland. They know that for some clan (say *i*), they are located at a distance of **pi** ( **pi-1** < **pi**) from Chef's town with a population of **ri**. And if a group of **at least qi** men approaches them, they would be able to convince them to join their forces against Suraj.
 
 Given the information about all this, help the Chef to find out the minimum size of the group (including him and his friends) he should start with to reach Byteland and get back Ashi's gift from Suraj.
 
@@ -88,7 +88,7 @@ The first line of the input contains an integer **T** denoting the number of tes
 
 First line of each test case contains **X**, the distance of Byteland from Chef's town.
 
-Next line contains an integer **B**, the number of dishes on _the path of tasty dishes_. Then follows **B** pairs of space separated integers of the form **xi yi**, where **xi yi** are as defined above for the ith dish.
+Next line contains an integer **B**, the number of dishes on *the path of tasty dishes*. Then follows **B** pairs of space separated integers of the form **xi yi**, where **xi yi** are as defined above for the ith dish.
 Next line contains an integer **C**, followed **C** space separated triplets of integers **pi qi ri** as defined above.
 
 ### Output
@@ -128,9 +128,10 @@ For each test case, print the minimum size of the group (including Chef) that is
 5
 9
 6
-</pre>### Explanation
+</pre>
+### Explanation
 
-**Example case 1.** In the first case, there are no tribal clans, and two dishes, one which needs to be eaten by 3 chefs on their way and one to be eaten by 1 chef. Hence, we have to start with atleast 5 people in total to pass _the path of tasty dishes_.
+**Example case 1.** In the first case, there are no tribal clans, and two dishes, one which needs to be eaten by 3 chefs on their way and one to be eaten by 1 chef. Hence, we have to start with atleast 5 people in total to pass *the path of tasty dishes*.
 
 **Example case 2.** Similar as Example Case 1.
 

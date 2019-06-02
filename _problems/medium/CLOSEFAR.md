@@ -147,7 +147,8 @@ F 2 4</tt>
 6
 5
 2</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 Given below is the tree corresponding to the sample input. Each node has two numbers written in it.
 

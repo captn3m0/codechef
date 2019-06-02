@@ -71,7 +71,7 @@ time:
     current: 1493556613
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME33/mandarin/ARRAYSUM.pdf), [Russian](http://www.codechef.com/download/translated/LTIME33/russian/ARRAYSUM.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME33/vietnamese/ARRAYSUM.pdf) as well.
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME33/mandarin/ARRAYSUM.pdf), [Russian](http://www.codechef.com/download/translated/LTIME33/russian/ARRAYSUM.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME33/vietnamese/ARRAYSUM.pdf) as well.
 
 You are given an array **A**, consisting of **N** integers and an array **B**, consisting of **M** integers.
 
@@ -130,7 +130,8 @@ Output a single line containing the number of subsequences **C** as asked in the
 
 <b>Output #2:</b>
 6
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** The suitable subsequences are (1, 2, 7), (1, 4, 7), (5, 4, 7), (2, 4, 7).
 

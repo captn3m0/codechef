@@ -122,7 +122,8 @@ For each test case, print a single line containing **Q** space separate integers
 
 <b>Output:</b>
 34 66 73741819
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Test case 1.** The initial **4** numbers Chef has are **1, 2, 0, 1**, so, the function **f** was defined as follows: **f(k) = (1k + 2k + 0k + 1k) mod (109 + 7) = (2k + 2) mod (109 + 7)**.
 

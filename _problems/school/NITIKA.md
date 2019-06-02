@@ -123,6 +123,7 @@ Mohndas KaramChand gandhi
 Gandhi 
 M. Gandhi 
 M. K. Gandhi 
-</pre>### Explanation
+</pre>
+### Explanation
 
 The examples are already explained in the problem statement.

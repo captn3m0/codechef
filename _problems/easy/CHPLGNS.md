@@ -71,7 +71,7 @@ time:
     current: 1493558129
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JUNE15/mandarin/CHPLGNS.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE15/russian/CHPLGNS.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JUNE15/mandarin/CHPLGNS.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE15/russian/CHPLGNS.pdf).
 
 Chef has **N** [simple polygons](http://en.wikipedia.org/wiki/Simple_polygon) (non self intersecting polygons) in which no two of them intersect with each other. For any two polygons **P1, P2**, either **P1** lies inside **P2** or vice versa.
 
@@ -110,7 +110,7 @@ For each test case, output a single line containing **N** space-separated intege
  
 **Subtask 2: (20 points)**
 
-- All polygons are [convex polygons](http://en.wikipedia.org/wiki/Convex_polygon).
+- All polygons are [ convex polygons ](http://en.wikipedia.org/wiki/Convex_polygon).
 
  
 **Subtask 3: (70 points)**
@@ -130,7 +130,8 @@ For each test case, output a single line containing **N** space-separated intege
 3 3 -3 3 -3 -3 3 -3
 <b>Output:</b>
 1 0 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the picture the first polygon is marked in green, second - in red and third in blue color.
 

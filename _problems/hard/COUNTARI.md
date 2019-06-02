@@ -79,7 +79,8 @@ Output the number of ways to choose a triplet such that they are three consecuti
 <b>Output:</b>
 9
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 The followings are all 9 ways to choose a triplet
 

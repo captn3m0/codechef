@@ -95,14 +95,16 @@ Output single integer in a line denoting the count of number of positive integer
 
 <b>Output:</b>
 1
-</pre>### Example 2
+</pre>
+### Example 2
 
 <pre><b>Input:</b>
 9939
 
 <b>Output:</b>
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example 1**. Only one positive integer **X = 2** satisfies the equation **X + S(X) + S(S(X)) = 6**, as **X + S(X) + S(S(X)) = 2 + 2 + 2 = 6**.
 

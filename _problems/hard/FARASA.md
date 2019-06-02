@@ -110,6 +110,7 @@ Output a single line containing the answer to the problem.
 <b>Output</b>
 28
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Test Case 1:** Furik can decide one of the following numbers: 1, 2, 3, 5, 6. For example, let us assume Furik has decided 3. In the worst case, Rubik may call out 4 numbers, since there are only 5 such numbers.

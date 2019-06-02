@@ -166,7 +166,8 @@ For each visit of each test, output a single line containing the inconvenience c
 -134
 1
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 Guest's nameCur TimePrev. inconv.RNG outputRoomStatusOrder of roomsOutputBrad00:10091513 + 01`----`10Kanye00:12013097144 + 00`-B--`00Angelina01:10060979313407 + 03`KB--`30John05:380375983 + 03`KB-A`3 → 0 → 22Bill12:55282083 + 21`-BJA`1 → 2 → 02Tom12:56422288 + 40`BBJA`0 → 1 → 3 → 2-134Nicole20:01138558693338 + 1380`B-JA`0 → 11Daniel03:00139158240589 + 1390`B-J-`0 → 11- The **Prev. inconv.** column contains the total inconvenience caused to all previous guests.
 - By **RNG output** here we mean the value before taking it modulo **R**.

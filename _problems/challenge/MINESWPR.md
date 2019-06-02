@@ -97,7 +97,7 @@ Note that you will receive Wrong Answer verdict if one of the following happens:
    In particular, **x** and **y** should be between 0 and **N − 1**, inclusive./>
 - You will output "Done" but not all mines are neutralized.
 
-_Attention: the program should clear the output buffer after printing each line. It can be done using fflush(stdout) command or by setting the proper type of buffering at the beginning of the execution - setlinebuf(stdout). Failure to flush the output buffer will result in Time Limit Exceeded verdict._
+*Attention: the program should clear the output buffer after printing each line. It can be done using fflush(stdout) command or by setting the proper type of buffering at the beginning of the execution - setlinebuf(stdout). Failure to flush the output buffer will result in Time Limit Exceeded verdict.*
  For example, at C/C++ you could use the following routines:/>
 
 <pre>char Survey(int x, int y) {
@@ -113,7 +113,9 @@ void Neutralize(int x, int y) {
     fflush(stdout); /* but it is not necessary here */
 }
 
-</pre>### Scoring
+</pre>
+### Scoring
+
 Suppose you successfully neutralized all mines using **S** survey operations.
  Then your score is **10 \* (S + 1) / N2**. Lower scores will earn more points./>
 
@@ -135,7 +137,9 @@ Out: N 2 2
 Out: N 3 3
 Out: Done
 
-</pre>### Explanation
+</pre>
+### Explanation
+
 The mines are located at (1, 2) and (3, 3). The operations proceed as follows:
 
 - Survey (0, 0). This cell does not contain a mine, nor do any of its 3 neighbors ((0, 1), (1, 0) and (1, 1)), so the result is "0".
@@ -154,4 +158,4 @@ Note that the above sequence of operations is also consistent with the mines hav
 
 **N** is chosen randomly and uniformly between 30 and 50, inclusive. A real number **P** is chosen randomly and uniformly between 0.1 and 0.3, inclusive. Each cell is independently chosen to contain a mine with probability **P**. Then **M** is set to be the number of mines on the generated field. With 50% probability, **K** is chosen to be equal to **M**. Otherwise, **K** is chosen randomly and uniformly between **M** and **N**2/2, inclusive.
 
-_Note: The locations of the mines are not guaranteed to be the same across multiple submissions, however **N**, **M**, and **K** will be the same for each official input file across all submissions._
+*Note: The locations of the mines are not guaranteed to be the same across multiple submissions, however **N**, **M**, and **K** will be the same for each official input file across all submissions.*

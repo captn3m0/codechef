@@ -108,12 +108,14 @@ a.ba
 cb.bc
 a.b
 
-<pre>**Output**```
+<pre>
+**Output**```
 
 abba
 cbabc
 -1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **In example 1**, you can create a palindrome by filling the faded character by 'b'.
 

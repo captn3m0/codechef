@@ -118,7 +118,8 @@ Chef can perform operations of the following kind: take some edge, and extend it
 
 <b>Output:</b>
 50
-</pre><pre>
+</pre>
+<pre>
 <h3>Explanation</h3>
 <p><b>Example case 1.</b></p>
 Without any changes made by Chef, we will have the following knowledge propagation:

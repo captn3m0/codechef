@@ -69,7 +69,7 @@ time:
     current: 1493557762
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JULY14/mandarin/LUCKG.pdf) and [Russian](http://www.codechef.com/download/translated/JULY14/russian/LUCKG.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JULY14/mandarin/LUCKG.pdf) and [Russian](http://www.codechef.com/download/translated/JULY14/russian/LUCKG.pdf).
 
 Chef, to entertain customers, decided to establish some kind of game in his restaurant. And here is what he invented:
 n players sit around a round table. There is n \* m cards with unique numbers of range **1..n\*m**.
@@ -83,7 +83,7 @@ First line of input contains **T** – number of test cases. Then **T** test cas
 
 ### Output
 
-For each test case, if there’s no solution output single line _“No Solution”_ (without quotes), otherwise output **n** lines with cards for each player. **ith** line should contain **m** numbers in increasing order – numbers on **ith** player’s cards.
+For each test case, if there’s no solution output single line *“No Solution”* (without quotes), otherwise output **n** lines with cards for each player. **ith** line should contain **m** numbers in increasing order – numbers on **ith** player’s cards.
 
 Extra spaces at the end of the line are not allowed./>
 
@@ -106,5 +106,6 @@ No Solution
 2 6 7
 3 4 8
 1 5 9
-</pre>**Explanation**
+</pre>
+**Explanation**
 For second test case, probability is 5/9 for each player to get a point.

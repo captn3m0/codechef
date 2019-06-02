@@ -64,7 +64,8 @@ For each test case, output a real number corresponding to the maximum area of th
 0.000000
 1.0000
 0.0
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Testcase 1**: The figure below shows the three squares:
 

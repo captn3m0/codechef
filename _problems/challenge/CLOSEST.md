@@ -113,7 +113,8 @@ That is, **|Xi|, |Yi|, |Zi|, |Aj|, |Bj|, |Cj|** ≤ **109**
 <b>Output:</b>
 0
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 Consider the 0th bank. It has coordinates **(0, -1, 0)**. Hence the squares of distances from this bank to response centers are
 

@@ -72,7 +72,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/COOK66/mandarin/FRUITS.pdf), [Russian](http://www.codechef.com/download/translated/COOK66/russian/FRUITS.pdf) and [Vietnamese](http://www.codechef.com/download/translated/COOK66/vietnamese/FRUITS.pdf) as well.
 
-Today is Chef's birthday. His mom has surprised him with truly fruity gifts: **2 fruit baskets**. The first basket contains **N** apples, and the second one contains **M** oranges. Chef likes apples and oranges very much but he likes them equally, and therefore, wants to have the minimum possible difference between the number of apples and oranges he has. To do so, he can purchase **1** apple or **1** orange by paying exactly **1** gold coin (that's some expensive fruit, eh?). Chef can purchase fruits at most **K** times (as he has _only_ **K** gold coins in his pocket) to make the difference the minimum possible.
+Today is Chef's birthday. His mom has surprised him with truly fruity gifts: **2 fruit baskets**. The first basket contains **N** apples, and the second one contains **M** oranges. Chef likes apples and oranges very much but he likes them equally, and therefore, wants to have the minimum possible difference between the number of apples and oranges he has. To do so, he can purchase **1** apple or **1** orange by paying exactly **1** gold coin (that's some expensive fruit, eh?). Chef can purchase fruits at most **K** times (as he has *only* **K** gold coins in his pocket) to make the difference the minimum possible.
 
 Our little Chef is busy in celebrating his birthday to the fullest, and therefore, he has handed this job to his best friend — **you**. Can you help him by finding the minimum possible difference he can achieve between the number of apples and orange he owns?
 
@@ -100,7 +100,8 @@ For each test case, output the minimum possible difference between the number of
 0
 2
 0
-<pre>### Explanation
+<pre>
+### Explanation
 
 - **Test 1:** Chef will buy 1 apple by paying 1 gold coin and will have equal number of apples and oranges.
 - **Test 2:** Chef will buy 1 orange by paying 1 gold coin and will have 5 apples and 3 oranges.

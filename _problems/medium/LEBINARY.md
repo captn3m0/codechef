@@ -90,15 +90,18 @@ Print YES if N is an Asmany number, NO otherwise.
 
 <pre>1 ≤ T ≤ 100
 1 ≤ Number of digits in N ≤ 1000
-</pre>### Sample Input
+</pre>
+### Sample Input
 
 <pre>2
 3
 4
-</pre>### Sample Output
+</pre>
+### Sample Output
 
 <pre>NO
 YES
-</pre>### Explanation
+</pre>
+### Explanation
 
 4 is an Asmany number. To be precise, it is the 4th Asmany number: There are 4 Asmany strings of length 4. 0011, 1100, 0101, 1010.

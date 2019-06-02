@@ -69,4 +69,5 @@ We may only assign f(a) = b or f(b) = a if a,b is an input pair. Furthermore, a 
 impossible
 19
 </pre>
+
  Note, one possible solution for the first test case is f(1) = 2, f(2) = 3, and f(3) = 1. The second is impossible since the only possiblity for f(5) is 6 and the only possiblity for f(6) is 5 and both cannot be used in a backup function. Finally, a possible solution for the last test case is f(1) = 2, f(2) = 3, f(3) = 1, and f(4) = 2.

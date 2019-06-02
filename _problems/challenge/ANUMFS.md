@@ -66,7 +66,7 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MAY14/mandarin/ANUMFS.pdf) and [Russian](http://www.codechef.com/download/translated/MAY14/russian/ANUMFS.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MAY14/mandarin/ANUMFS.pdf) and [Russian](http://www.codechef.com/download/translated/MAY14/russian/ANUMFS.pdf).
 
 ### Problem description.
 
@@ -119,7 +119,8 @@ bool SendPlane(int id, int x, int y) {
     scanf("%s", temp);
     return temp[0]=='y';
 }
-</pre>### Sample Input/Output
+</pre>
+### Sample Input/Output
 
 **NOTE : This sample input/output does not follow constrains**
 <pre>
@@ -138,7 +139,8 @@ in: no
 out: 0 1 2
 in: yes
 out: -1 1 2</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 The search area is a square of unit lenght with bottom left corner at (1,1). The missing flight is located at (1,2). We took all the input. Then issued the plane 0 to go to (1, 1). Special judge returned "no". Finally we issued the plane 0 to go to (1, 2) and special judge gave "yes". So we found the missing flight. we then output the same by giving command "-1 1 2". Score will be 2\*(1+1)\*100 + 2\*(2+2)\*100 + 2\*(1+2)\*100 = 1800/4 = 450.
 

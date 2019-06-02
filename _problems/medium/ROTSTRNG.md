@@ -44,4 +44,5 @@ Monkey : fAbcDe , Po : DefAbc, Monkey : cDefAb , Po : AbcDef
 Case 2 :
 Monkey : cabcab , Po : bcabca, Monkey : abcabc
 </pre>
-_Warning : Large input / output. You may have to use efficient input / output methods if you are using languages with heavy input / output overload. Eg: Prefer using scanf/printf to cin/cout for C/C++_
+
+*Warning : Large input / output. You may have to use efficient input / output methods if you are using languages with heavy input / output overload. Eg: Prefer using scanf/printf to cin/cout for C/C++*

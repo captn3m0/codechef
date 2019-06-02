@@ -67,7 +67,7 @@ time:
     current: 1493558137
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/NOV14/mandarin/DISCHAR.pdf) and [Russian](http://www.codechef.com/download/translated/NOV14/russian/DISCHAR.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/NOV14/mandarin/DISCHAR.pdf) and [Russian](http://www.codechef.com/download/translated/NOV14/russian/DISCHAR.pdf).
 
 You have initially a string of **N** characters, denoted by **A1,A2...AN**. You have to print the size of the largest subsequence of string **A** such that all the characters in that subsequence are distinct ie. no two characters in that subsequence should be same.
 A subsequence of string **A** is a sequence that can be derived from **A** by deleting some elements and without changing the order of the remaining elements.
@@ -97,7 +97,8 @@ aba
 3
 2
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 For first testcase, the whole string is a subsequence which has all distinct characters.
 In second testcase, the we can delete last or first 'a' to get the required subsequence.

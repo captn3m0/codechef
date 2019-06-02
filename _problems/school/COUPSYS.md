@@ -69,7 +69,8 @@ For each test case, output three lines. The first line should contain two space-
 20 1
 100 2
 75 5
-</pre>### Explanation
+</pre>
+### Explanation
 
 For Level 1, there are two discount coupons, which give a discount of 10 and 20 respectively. We choose the maximum, and that is for city 1. Hence the first line of output is "20 1".
 

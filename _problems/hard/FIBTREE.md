@@ -71,7 +71,7 @@ time:
     current: 1493556704
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/SEPT14/mandarin/FIBTREE.pdf) and [Russian](http://www.codechef.com/download/translated/SEPT14/russian/FIBTREE.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/SEPT14/mandarin/FIBTREE.pdf) and [Russian](http://www.codechef.com/download/translated/SEPT14/russian/FIBTREE.pdf).
 
 In mathematical terms, the sequence **F\[N\]** of Fibonacci numbers is defined by the recurrence relation **F\[N\]** = **F\[N-1\]** + **F\[N-2\]**, with seed values **F\[1\] = 1**,**F\[2\] = 1**.
 
@@ -144,7 +144,8 @@ QC 6 4
 13
 7
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 Let’s denote the first state of integers as **0 0 0 0 0**, where the **i**-th interger means the integer associated with the node **i**.
 

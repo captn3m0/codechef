@@ -69,7 +69,7 @@ time:
     current: 1493558178
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/FEB15/mandarin/RANKLIST.pdf) and [Russian](http://www.codechef.com/download/translated/FEB15/russian/RANKLIST.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/FEB15/mandarin/RANKLIST.pdf) and [Russian](http://www.codechef.com/download/translated/FEB15/russian/RANKLIST.pdf).
 
 A **rank list** is a list of ranks of persons in a programming contest. Note that some of the persons might be having same rank. {1, 2}, {1, 2, 2} and {1, 1, 2, 3, 4, 4} are few examples of rank lists whereas {1, 3}, {0, 2}, {1, 2, 4} are not rank lists.
 Also note that a rank list need not to be sorted e.g. {2, 2, 1} and {3, 3, 2, 1} are valid rank lists.
@@ -114,7 +114,8 @@ For each test case, print a single line containing a single integer correspondin
 1
 2
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**
 Only possible rank list in this case is {1}, As it is already an ideal rank list, hence you need zero operations.

@@ -70,7 +70,7 @@ time:
     current: 1493557933
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME29/mandarin/STDPRGS.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME29/russian/STDPRGS.pdf)
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME29/mandarin/STDPRGS.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME29/russian/STDPRGS.pdf)
 
 Leha is a usual student at 'The Usual University for Usual Students'. Sometimes he studies hard; at other times he plays truant and gets busy with other things besides academics. He has already studied at the university for **N** months. For the **i**th month (1 ≤ **i** ≤ **N**), he has received some non-negative integer grade **A\[i\]**.
 
@@ -123,7 +123,8 @@ For each query, output one integer — the result of the progress analysis for t
 0
 5</tt>
 
-</pre>**Explanation**
+</pre>
+**Explanation**
 The first query: sorted array looks like **(1, 2, 3, 4, 5)** and the answer is calculated as **(2-1)2 + (3-2)2 + (4-3)2 + (5-4)2 = 4**
 The second query: sorted array looks like **(1, 2, 3, 4)** and the answer is calculated as **(2-1)2 + (3-2)2 + (4-3)2 = 3**
 The last query: sorted array looks like **(2, 4, 5)** and the answer is calculated as **(4-2)2 + (5-4)2 = 5**

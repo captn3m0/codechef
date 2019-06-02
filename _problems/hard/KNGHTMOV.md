@@ -114,7 +114,8 @@ The absolute values of all other input values are at most 500.
 0
 
 
-</pre>**Explanations:**
+</pre>
+**Explanations:**
 
 In the first and second examples, our knight's move is the similar to ordinary knight's, but only 2 directions are allowed. In the first example, there are 2 ways (0, 0) -> (1, 2) -> (3, 3) and (0, 0) -> (2, 1) -> (3, 3).
 

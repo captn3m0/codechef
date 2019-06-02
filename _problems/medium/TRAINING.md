@@ -102,6 +102,7 @@ For each case, output K, the total number of teams formed, in the first line. In
 4
 1 2 1 2 
 </pre>
+
 **Explanation:**
 
 Case 1 : There are 3 kids initially in the line, (3,4) (5,5) (4,3)

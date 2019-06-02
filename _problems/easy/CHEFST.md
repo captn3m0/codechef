@@ -126,7 +126,8 @@ For each test case, output a single line containing the minimum sum of the numbe
 <tt>0
 1
 3</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** : Remove 1 stone from each of the piles. Now 0 stones are remaining, so chef cannot remove any more stones from the piles. Hence, answer is 0+0 = 0
 

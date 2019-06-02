@@ -100,7 +100,8 @@ All submissions for this problem are available. Lo and Behold! For you may be su
 <b>Output:</b>
 2
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**
 

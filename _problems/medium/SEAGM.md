@@ -69,7 +69,7 @@ time:
     current: 1493557926
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MAY14/mandarin/SEAGM.pdf) and [Russian](http://www.codechef.com/download/translated/MAY14/russian/SEAGM.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MAY14/mandarin/SEAGM.pdf) and [Russian](http://www.codechef.com/download/translated/MAY14/russian/SEAGM.pdf).
 
 Sereja and Dima play the game. The rules are as follows:
 

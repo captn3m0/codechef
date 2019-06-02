@@ -71,7 +71,7 @@ time:
     current: 1493557949
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME30/mandarin/TREEPROD.pdf), [Russian](http://www.codechef.com/download/translated/LTIME30/russian/TREEPROD.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME30/vietnamese/TREEPROD.pdf)
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME30/mandarin/TREEPROD.pdf), [Russian](http://www.codechef.com/download/translated/LTIME30/russian/TREEPROD.pdf) and [ Vietnamese](http://www.codechef.com/download/translated/LTIME30/vietnamese/TREEPROD.pdf)
 
 Chef is going to leave his home town and shift to a new city. The new city contains exactly **N** houses. There are roads connecting the houses in such a way that there is exactly one way to go from a house to any other house. Length of each of the roads is known to Chef.
 
@@ -107,6 +107,7 @@ A single integer denoting the number of pair of houses. ### Constraints
 
 <b>Output:</b>
 6
-</pre>### Explanation
+</pre>
+### Explanation
 
 If we multiply the lengths of the roads on the path between any pair of the vertices, it will be divisible by 2.

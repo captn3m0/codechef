@@ -27,7 +27,7 @@ All submissions for this problem are available.Watson is going to play mind game
 
 Among all possible positive integers **N** having sum of digits **d**, consider the integer **N+1**, and find the minimum possible digit sum **N+1** can have.
 
-For example, if **d** = 9, then **N** could be 9, 18, 27, 36,711 and so on. However, if Sherlock chooses **N** = 9, then sum of digits of **N + 1** _i.e._ 10 will be 1, which is the minimum possible.
+For example, if **d** = 9, then **N** could be 9, 18, 27, 36,711 and so on. However, if Sherlock chooses **N** = 9, then sum of digits of **N + 1** *i.e.* 10 will be 1, which is the minimum possible.
 
 ### Input
 
@@ -52,6 +52,7 @@ For each test case output the required answer in one line.
 
 <b>Output:</b>
 6
-</pre>### Explanation
+</pre>
+### Explanation
 
 Possible value of **N** in given case are: 32,23,113,131 and so on, in each case digit sum of **(N+1)** would be **6**.

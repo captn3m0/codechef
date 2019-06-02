@@ -82,10 +82,12 @@ aba 2
 baa 3
 bba 3
 </tt>
-<pre>\### Sample Output ```
+<pre>
+\### Sample Output ```
 <tt>
 5
 6
 0
 </tt>
-</pre> ### Explanation \*\*Example case 1:\*\* The string $t$ is "abaaba". It has five prefixes which contain more a-s than b-s: "a", "aba", "abaa", "abaab" and "abaaba". \*\*Example case 2:\*\* The string $t$ is "baabaabaa". The strings "baa", "baaba", "baabaa", "baabaab", "baabaaba" and "baabaabaa" are the six valid prefixes. \*\*Example case 3:\*\* The string $t$ is "bbabbabba". There is no prefix of this string which consists of more a-s than b-s. Therefore, the answer is zero.
+</pre>
+ ### Explanation \*\*Example case 1:\*\* The string $t$ is "abaaba". It has five prefixes which contain more a-s than b-s: "a", "aba", "abaa", "abaab" and "abaaba". \*\*Example case 2:\*\* The string $t$ is "baabaabaa". The strings "baa", "baaba", "baabaa", "baabaab", "baabaaba" and "baabaabaa" are the six valid prefixes. \*\*Example case 3:\*\* The string $t$ is "bbabbabba". There is no prefix of this string which consists of more a-s than b-s. Therefore, the answer is zero.

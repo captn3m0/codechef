@@ -120,6 +120,7 @@ baba
 <b>Output:</b>
 
 5
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** One possible way to choose the string **C** to get the desired answer is "abbaabba".

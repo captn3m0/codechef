@@ -71,7 +71,7 @@ time:
     current: 1493557686
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/SNCK151A/mandarin/HISTJUNK.pdf) , [Russian](http://www.codechef.com/download/translated/SNCK151A/russian/HISTJUNK.pdf) and [Vietnamese](http://www.codechef.com/download/translated/SNCK151A/vietnamese/HISTJUNK.pdf)
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/SNCK151A/mandarin/HISTJUNK.pdf) , [Russian](http://www.codechef.com/download/translated/SNCK151A/russian/HISTJUNK.pdf) and [Vietnamese](http://www.codechef.com/download/translated/SNCK151A/vietnamese/HISTJUNK.pdf)
 
 After the Great ChefLand War, ChefTown consisted of **N** historical junctions with a sightseeing place in each of them and **M** cobbled roads, connecting them. It is possible to reach any junction from any other one, possibly, via intermediate junctions. The ChefTown Restoration Committee (CTRC) now wants to make the town more convenient, thus, attractive, for the tourists.
 
@@ -140,7 +140,8 @@ If it is impossible to accomplish the requirement, print "-1 -1" (without quotes
 3 7
 4 8
 0 0
-</pre>### Explanation
+</pre>
+### Explanation
 
 **In the first example**, the obtained road system satisfies the required constraints. Please note that you don't need to minimize the number of added roads and junctions.
 

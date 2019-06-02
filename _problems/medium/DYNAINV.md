@@ -69,7 +69,7 @@ time:
     current: 1493557641
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME13/mandarin/DYNAINV.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME13/russian/DYNAINV.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME13/mandarin/DYNAINV.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME13/russian/DYNAINV.pdf).
 
 You are given a permutation **A** of the first **N** positive integers. You are also given **Q** queries to perform one-by-one, the **i**-th is defined by a pair **Xi** **Yi** and has the meaning that you swap the **Xi**-th number in the permutation with the **Yi**-th one. After performing each query you should output the number of inversions in the obtained permutation, modulo 2.
 

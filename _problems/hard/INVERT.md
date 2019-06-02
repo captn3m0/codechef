@@ -73,7 +73,7 @@ time:
     current: 1493556738
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME27/mandarin/INVERT.pdf) , [Russian](http://www.codechef.com/download/translated/LTIME27/russian/INVERT.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME27/vietnamese/INVERT.pdf)
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME27/mandarin/INVERT.pdf) , [Russian](http://www.codechef.com/download/translated/LTIME27/russian/INVERT.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME27/vietnamese/INVERT.pdf)
 
 Devu and Churu like to play mathematical games. Today, Devu got hold of a 1-indexed array **A** consisting of **N** integers while Churu has an empty array **B**. They have decided to play with these arrays and have agreed to make their moves turn by turn. Devu in his turn will choose a contiguous segment from his array, i.e, 2 integers **L** and **R** such that **1 ≤ L ≤ R ≤ |A|**, where **|A|** denotes the current size of array **A**. He then inserts this contiguous subarray into Churu’s array at some position **K** such that **1 ≤ K ≤ |B|+1** where **|B|** denotes the current size of array **B**.
 
@@ -119,14 +119,16 @@ After each of the Devu's move, report the required answer for Churu.
 3 3 2
 2 2 3
 1 1 2
-</pre>**Input**
+</pre>
+**Input**
 
 <pre>
 1
 2
 3
 5
-</pre>### Explanation
+</pre>
+### Explanation
 
 - After Q1, **A** = {2, 5, 1}, **B** = {4, 3}. Therefore, inversion count in **B** is 1.
 - After Q2, **A** = {2, 5}, **B** = {4, 1, 3}. Therefore, inversion count in **B** is 2.

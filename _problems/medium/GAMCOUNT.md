@@ -72,7 +72,7 @@ Henry and Derek are waiting in a room. They have successfully qualified for the 
 
 Before the game starts, they select **N** numbers: **v(0)**, **v(1)**, ..., **v(N-1)**. These numbers will stay fixed throughout the game.
 
-The initial state of the game consists of **K** integers **x1**, **x2**, ..., **xK**, each of which is in the range **\[0, N-1\]**. Thus, there are **NK** distinct states all in all. Then the players take turns, starting with Henry. In a turn, a player selects one of the integers, say **xi**, and decreases it by some _positive multiple_ of **2v(xi)**. However, this is only valid if the resulting number is nonnegative. A player loses if there are no more valid moves left.
+The initial state of the game consists of **K** integers **x1**, **x2**, ..., **xK**, each of which is in the range **\[0, N-1\]**. Thus, there are **NK** distinct states all in all. Then the players take turns, starting with Henry. In a turn, a player selects one of the integers, say **xi**, and decreases it by some *positive multiple* of **2v(xi)**. However, this is only valid if the resulting number is nonnegative. A player loses if there are no more valid moves left.
 
 Henry and Derek have gotten really good at playing this game, so much that they have figured out the optimal strategy, and they always play optimally! This made the game really boring for them, because the winner is solely determined by the initial state of the game. So instead of playing the game, they decided to just answer the following question instead:
 
@@ -112,6 +112,7 @@ For each test case, output a single line containing a single integer, the number
 <tt>4
 94
 100</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first case, the following initial states result in a win for Henry: \[1,1,1\], \[0,0,1\], \[0,1,0\], \[1,0,0\].

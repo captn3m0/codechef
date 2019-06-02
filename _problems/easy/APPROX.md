@@ -101,7 +101,8 @@ For each test case output a single line containing the value of **103993/33102**
 3
 3.141592
 3.14159265301190260407
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** Here **K = 0** so we don't need to output any digits after the decimal point. The decimal point itself also should not be output.
 

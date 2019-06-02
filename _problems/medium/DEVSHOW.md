@@ -68,7 +68,7 @@ time:
     current: 1493557618
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/SNCK151C/mandarin/DEVSHOW.pdf) , [Russian](http://www.codechef.com/download/translated/SNCK151C/russian/DEVSHOW.pdf) and [Vietnamese](http://www.codechef.com/download/translated/SNCK151C/vietnamese/DEVSHOW.pdf)
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/SNCK151C/mandarin/DEVSHOW.pdf) , [Russian](http://www.codechef.com/download/translated/SNCK151C/russian/DEVSHOW.pdf) and [Vietnamese](http://www.codechef.com/download/translated/SNCK151C/vietnamese/DEVSHOW.pdf)
 
 Devu and his friend Amit got selected in a random television reality show. One of the task in the show was really interesting. The task was called "the survival" task. In the task, each person has to vote two person's names. One should not vote a single person twice. Also he/ she should not vote himself/ herself. After the voting, all the person having votes equal to highest and lowest votes are kicked out of the show. Naturally highest voted persons should go out of the show, but to maintain interestingness of the show, they also kick out lowest voted persons too.
 
@@ -117,7 +117,8 @@ both
 3 5
 2 4
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** There is exactly one way of voting for Devu and Amit. So after the voting, all the persons will have equal votes. So they all will be kicked out of the show. So as Devu and Amit both are kicked out, print "none" in first line. In second line, print votes of Devu(index 2) and in third line print votes of Amit.
 

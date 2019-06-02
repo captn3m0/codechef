@@ -139,7 +139,8 @@ For each test case, print answers to all queries in the test case, one per line.
 3
 1
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 There are two test cases to handle
 

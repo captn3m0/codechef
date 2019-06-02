@@ -73,7 +73,7 @@ All submissions for this problem are available.Little Elephant loves bubble sort
 
 Bubble sorting for any array **A** of **n** integers works in the following way:
 
- _var int i, j; 
+ *var int i, j; 
  for i from n downto 1 
  { 
  for j from 1 to i-1 
@@ -81,7 +81,7 @@ Bubble sorting for any array **A** of **n** integers works in the following way:
  if (A\[j\] > A\[j+1\]) 
  swap(A\[j\], A\[j+1\]) 
  } 
-}_
+}*
 
 You are given an array **B** of **n** integers. Then the array **A** is created using array **B** as following : for each **i** (**1 <= i <= n**), we set **Ai** = **Bi + d** with the probability **Pi**, otherwise **Ai** = **Bi**.
 

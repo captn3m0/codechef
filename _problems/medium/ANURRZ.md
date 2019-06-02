@@ -108,7 +108,8 @@ For each test case, output a single line containing the required answer modulo 1
 <b>Output:</b>
 2
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Test case 1**
 

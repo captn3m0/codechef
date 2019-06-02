@@ -69,7 +69,7 @@ time:
     current: 1493557976
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/AUG14/mandarin/TSHIRTS.pdf) and [Russian](http://www.codechef.com/download/translated/AUG14/russian/TSHIRTS.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/AUG14/mandarin/TSHIRTS.pdf) and [Russian](http://www.codechef.com/download/translated/AUG14/russian/TSHIRTS.pdf).
 
 Little Elephant and his friends are going to a party. Each person has his own collection of T-Shirts. There are **100** different kind of T-Shirts. Each T-Shirt has a unique id between **1** and **100**. No person has two T-Shirts of the same ID.
 
@@ -105,6 +105,7 @@ For each test case, print in single line the required number of ways modulo **10
 <b>Output:</b>
 4
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 For the first case, **4** possible ways are **(3,8)**, **(3,100)**, **(5,8)** and **(5,100)**.For the second case, **4** possible ways are **(5,2,100)**, **(100,2,5)**, **(1,2,100)**, and **(1,2,5)**.

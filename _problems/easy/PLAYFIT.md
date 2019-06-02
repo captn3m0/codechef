@@ -67,7 +67,7 @@ time:
     current: 1493558174
 layout: problem
 ---
-All submissions for this problem are available._Who's interested in football?_
+All submissions for this problem are available.*Who's interested in football?*
 
 Rayne Wooney has been one of the top players for his football club for the last few years. But unfortunately, he got injured during a game a few months back and has been out of play ever since.
 
@@ -103,4 +103,4 @@ UNFIT
 **Explanation:**
 In the first test case, Rayne can choose the first and second game. Thus he gets a difference of 7-3=4 goals. Any other pair would give him a lower improvement. In the second test case, Rayne has not been improving in any match. Thus he's declared UNFIT.
 
-**_Note:_** Large input data. Use faster I/O methods. Prefer scanf,printf over cin/cout.
+***Note:*** Large input data. Use faster I/O methods. Prefer scanf,printf over cin/cout.

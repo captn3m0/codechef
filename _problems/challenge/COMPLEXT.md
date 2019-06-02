@@ -83,13 +83,14 @@ Output (n\*n - 1) lines denoting (n\*n - 1) edges in the spanning tree you selec
 <pre>n = 20
 -100 = weight-x, weight-y = 100
 
-</pre>### Scoring
+</pre>
+### Scoring
 
 The Score for any file / input, would be the modulus of the complex sum of the weights of the edges that you select. The overall score for all files / inputs would be the average of the scores for each test file / input. Your objective is to **maximize** your score!
 
 ### Sample Input
 
-_For the sake of space, small value of n is chosen._ ```
+*For the sake of space, small value of n is chosen.* ```
 3
 2 -1 -1 2
 1 3 3 -1
@@ -98,7 +99,8 @@ _For the sake of space, small value of n is chosen._ ```
 2 0 4 -3
 0 1 1 2
 
-<pre>### Sample Output
+<pre>
+### Sample Output
 
 </pre>1 1 2 1
 1 2 2 2
@@ -109,7 +111,8 @@ _For the sake of space, small value of n is chosen._ ```
 3 2 2 2
 2 3 3 3
 
-<pre>### Explanation
+<pre>
+### Explanation
 
 There are 12 edges to be considered. They are given as follows:
 

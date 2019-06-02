@@ -69,7 +69,7 @@ time:
     current: 1493556801
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/SEPT14/mandarin/QRECT.pdf) and [Russian](http://www.codechef.com/download/translated/SEPT14/russian/QRECT.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/SEPT14/mandarin/QRECT.pdf) and [Russian](http://www.codechef.com/download/translated/SEPT14/russian/QRECT.pdf).
 
 You are given a Cartesian plane, and you are asked to support the following three kinds of operations:
 
@@ -113,6 +113,7 @@ Q 3 3 4 4
 1
 0  
 <pre>
+
 
 ### Explanation
 

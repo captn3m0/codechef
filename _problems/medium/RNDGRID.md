@@ -136,7 +136,8 @@ RLLRDDLUUL
 <b>Output:</b>
 2
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Test case 1.** We are given the grid of size **N** = 4, and a sequence of **L** = 3 moves. For each empty cell of the grid, below you can see the number of moves Limak would make:
 
@@ -145,7 +146,8 @@ RLLRDDLUUL
 # 3 1 0 
 1 1 0 # 
 0 0 # 0
-</pre>The answer is 3 xor 3 xor 3 xor 1 xor 1 xor 1 = 2.
+</pre>
+The answer is 3 xor 3 xor 3 xor 1 xor 1 xor 1 = 2.
 
 **Test case 2.** Again, below you can see the number of moves Limak would make from each cell:
 

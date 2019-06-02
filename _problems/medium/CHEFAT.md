@@ -83,4 +83,5 @@ A food fair is being organised in Chef's town. $N$ booths were set up in a strai
 0.99951473
 0.99998009
 </tt>
-<pre>\### Explanation The answer to the first query is $(1 - 0.1) \\cdot (1 - 0.25) \\cdot (1 - 0.85) = 0.10125$. After the second query, the probabilities of getting food poisoning at each booth become $\[0.1, 0.1825, 0.6205, 0.3139\]$.
+<pre>
+\### Explanation The answer to the first query is $(1 - 0.1) \\cdot (1 - 0.25) \\cdot (1 - 0.85) = 0.10125$. After the second query, the probabilities of getting food poisoning at each booth become $\[0.1, 0.1825, 0.6205, 0.3139\]$.

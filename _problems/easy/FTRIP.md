@@ -93,7 +93,8 @@ For each test case, output a line containing the required probability. The answe
 1 ≤ <b>M</b> ≤ <b>S</b>
 0 ≤ <b>K</b> < <b>M</b>
 
-</pre>### Example:
+</pre>
+### Example:
 
 **Input:**
 
@@ -104,13 +105,15 @@ For each test case, output a line containing the required probability. The answe
 3 2 2 1
 
 
-</pre>**Output:**
+</pre>
+**Output:**
 
 <pre>
 1.000000
 0.000000
 0.500000
-</pre>### Explanation:
+</pre>
+### Explanation:
 
 **Case #1:**
 Every student will be taken to the trip. So all her 4 friends will accompany her to the trip no matter what. 

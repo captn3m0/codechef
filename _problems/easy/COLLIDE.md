@@ -52,6 +52,7 @@ DIRE, DIRA is one of 'U', 'R', 'D', 'L'
 SAFE
 1.5
 </pre>
+
 **Explanation:**Case 1 : 
 Time 0 - Earth (0,0) Asteroids { (1,-2), (2,2) }
 Time 1 - Earth (1,0) Asteroids { (1,-1), (2,1) }
@@ -66,4 +67,4 @@ Time 1 - Earth (1,0) Asteroid (2,0)
 Time 1.5 - Earth (1.5,0) Asteroid (1.5,0)
 
 
-_**Note :** There are multiple test sets, and the judge shows the sum of the time taken over all test sets of your submission, if Accepted._
+***Note :** There are multiple test sets, and the judge shows the sum of the time taken over all test sets of your submission, if Accepted.*

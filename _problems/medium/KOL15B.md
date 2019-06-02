@@ -91,7 +91,8 @@ For each test cases, output the minimum cost as asked in the problem.
 -46
 -15
 -64
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**All 4 friends stay at the apartment which has rent -10.
 

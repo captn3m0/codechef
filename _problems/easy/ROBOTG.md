@@ -73,7 +73,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/COOK80/mandarin/ROBOTG.pdf), [Russian](http://www.codechef.com/download/translated/COOK80/russian/ROBOTG.pdf) and [Vietnamese](http://www.codechef.com/download/translated/COOK80/vietnamese/ROBOTG.pdf) as well.
 
-There is a rectangular grid of cells consisting of **n** rows and **m** columns. You will place a robot on one of the grid cells and provide it with a _command string_ **s**, consisting of characters ‘L’, ‘R’, ‘U’, ‘D’. After being placed, the robot will follow the instructions of the command string, where 'L' corresponds moving to the left, 'R' towards the right, 'U' for moving up, and 'D' means down.
+There is a rectangular grid of cells consisting of **n** rows and **m** columns. You will place a robot on one of the grid cells and provide it with a *command string* **s**, consisting of characters ‘L’, ‘R’, ‘U’, ‘D’. After being placed, the robot will follow the instructions of the command string, where 'L' corresponds moving to the left, 'R' towards the right, 'U' for moving up, and 'D' means down.
 
 You have already selected the command string **s**, and are wondering if it is possible to place the robot in one of the grid cells initially and have it always stay entirely within the grid upon execution of the command string **s**. Output “safe” if there is a starting cell for which the robot doesn’t fall off the grid on following command **s**, otherwise, output "unsafe".
 
@@ -119,7 +119,8 @@ safe
 unsafe
 safe
 safe
-</pre>### Explanation
+</pre>
+### Explanation
 
 For the first case, there is only one grid square, so we must place our robot there. When the robot follows the command, it'll fall off, so it is unsafe.
 

@@ -124,7 +124,8 @@ For each test case, print a single line with the maximum value of the given expr
 
 2.82842712
 -0.17157287
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** Tie the rope from tree 1 (1,1) to tree 3 (3,3). You don't need to cut down any trees. Note that this rope would touch the top of tree 2, but that is fine. Answer = length of rope = 2 · sqrt(2) = 2.82842.
 

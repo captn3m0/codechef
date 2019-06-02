@@ -126,7 +126,8 @@ For each test case you should print an integer, the maximum area of a staircase 
 33
 29
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 The cells which form the staircase are colored with yellow. The discarded cells are colored with grey.
 

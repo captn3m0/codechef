@@ -115,7 +115,8 @@ For each test case output a single integer corresponding to the answer of the pr
 0
 1
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example 1**. The snakes have a common cell at coordinates (1, 1). So, they will be able to talk to each other. There is no need to move them.
 

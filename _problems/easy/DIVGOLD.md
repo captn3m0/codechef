@@ -75,7 +75,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 You have a string **S** consisting of **N** uppercase English letters. You are allowed to perform at most one operation of following kind: Choose any position in the string, remove the character at that position and insert it back to any other place in the string.
 
-Find the [lexicographically smallest](http://en.wikipedia.org/wiki/Lexicographical_order) string you can achieve.
+Find the [ lexicographically smallest ](http://en.wikipedia.org/wiki/Lexicographical_order) string you can achieve.
 
 ### Input
 
@@ -107,7 +107,8 @@ XYZZYZZ
 <b>Output:</b>
 ADCB
 XYYZZZZ
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** The optimal solution here is to choose the last character and put it in the beginning of the string. So the answer will be **ADCB**
 

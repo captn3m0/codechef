@@ -118,6 +118,7 @@ For each test case, output an integer corresponding to the answer, in a new line
 <b>Output</b>
 6
 19627
-</pre>### Explanation
+</pre>
+### Explanation
 
 **In example 1**. Chef dislikes the integers 24 because the digit 4 appears exactly 1 time in 24, and **a**4 = 1. Similarly, he also dislikes the integer 25 because the digit 5 appears exactly 1 time in 25 and **a**5 = 1. These are the only two integers which Chef dislikes in the range \[21,28\]. Thus Chef loves the integers 21, 22, 23, 26, 27, and 28. Therefore the answer is 6.

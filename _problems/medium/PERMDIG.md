@@ -45,7 +45,8 @@ For each test case, output a single line containing the number of possible permu
 1
 0
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first case the appropriate ways are 01+10=11 and 10+01=11.
 

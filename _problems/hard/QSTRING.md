@@ -68,7 +68,7 @@ time:
     current: 1493556981
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/OCT14/mandarin/QSTRING.pdf) and [Russian](http://www.codechef.com/download/translated/OCT14/russian/QSTRING.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/OCT14/mandarin/QSTRING.pdf) and [Russian](http://www.codechef.com/download/translated/OCT14/russian/QSTRING.pdf).
 
 You have been given a string **T** with **n** lowercase letters **T\[1..n\]**. For each substrings **T\[l..r\]**, we can assign them two values, **k1** and **k2**, which are defined as following.
 
@@ -110,7 +110,8 @@ Select 2 1
 Rank 1 1
 Rank 2 2
 Rank 1 2
-</pre><pre><b>Output:</b>
+</pre>
+<pre><b>Output:</b>
 1 1
 2 2
 1 2

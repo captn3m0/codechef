@@ -70,7 +70,7 @@ time:
     current: 1493556724
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MAY15/mandarin/GRAPHCNT.pdf) and [Russian](http://www.codechef.com/download/translated/MAY15/russian/GRAPHCNT.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MAY15/mandarin/GRAPHCNT.pdf) and [Russian](http://www.codechef.com/download/translated/MAY15/russian/GRAPHCNT.pdf).
 
 Given an directed graph with **N** nodes (numbered from 1 to **N**) and **M** edges, calculate the number of unordered pairs **(X, Y)** such there exist two paths, one from node 1 to node **X**, and another one from node 1 to node **Y**, such that they don't share any node except node 1.
 
@@ -91,7 +91,7 @@ Print a single integer corresponding to the number of unordered pairs as asked i
 
 **Subtask 1: (30 points)**
 
-- The graph is a [Directed Acyclic Graph (DAG)](http://en.wikipedia.org/wiki/Directed_acyclic_graph) i.e. there is no cycle in the graph.
+- The graph is a [Directed Acyclic Graph (DAG) ](http://en.wikipedia.org/wiki/Directed_acyclic_graph) i.e. there is no cycle in the graph.
 
 **Subtask 2: (20 points)**
 
@@ -114,7 +114,8 @@ Print a single integer corresponding to the number of unordered pairs as asked i
 
 <b>Output:</b>
 14
-</pre>### Explanation
+</pre>
+### Explanation
 
 There are 14 pairs of vertices as follows: 
  (1,2) 

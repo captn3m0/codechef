@@ -68,7 +68,7 @@ time:
     current: 1493556839
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME10/mandarin/SEQCOUNT.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME10/russian/SEQCOUNT.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME10/mandarin/SEQCOUNT.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME10/russian/SEQCOUNT.pdf).
 
 Consider the sequence of **K** natural numbers: **a1**, **a2**, ..., **aK**. Tooru thinks that this sequence is nice if and only if:
 
@@ -96,7 +96,8 @@ Output the number of nice sequences on the first line of the output modulo **109
 
 <b>Output:</b>
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 The only suitable sequence is (1, 2, 3, 4).
 

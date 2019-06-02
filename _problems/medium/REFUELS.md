@@ -130,7 +130,8 @@ For each of the **Q** races, in a separate line, print a single integer — the 
 176
 30666666576
 41111110788607
-</pre>### Explanation
+</pre>
+### Explanation
 
 Your car fits up to **N** = 3 units of fuel. Let's take a look at the first two races.
 

@@ -96,6 +96,7 @@ All submissions for this problem are available.**Problem description**.
 
 <b>Output:</b>
 XXXDDD
-</pre>### Explanation
+</pre>
+### Explanation
 
 Some of the possible strings are - XXDDDXD,XXXDDD,XDXXXDD,XDXDXDD etc. Of these, XXXDDD is the smallest.

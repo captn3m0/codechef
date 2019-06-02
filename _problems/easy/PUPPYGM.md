@@ -69,7 +69,7 @@ time:
     current: 1493558178
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME26/mandarin/PUPPYGM.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME26/russian/PUPPYGM.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME26/mandarin/PUPPYGM.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME26/russian/PUPPYGM.pdf).
 
 Tuzik and his master Vanka are playing some unusual game. Initially there are two stacks of nuts. The first stack contains **A** nuts and the second contains **B** nuts. A player's move consists of two steps:
 
@@ -104,7 +104,8 @@ For each test case, output a single line containing the word "Tuzik" or "Vanka" 
 <b>Output:</b>
 Vanka
 Tuzik
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the **first test case** Tuzik can't finish even the first move, so Vanka wins.
 

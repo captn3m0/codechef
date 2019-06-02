@@ -117,7 +117,8 @@ For each test case, print a single line containing the maximum subarray sum of *
 
 9
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** **B** = {1, 2, 1, 2, 1, 2} and the subarray with maximum sum is the whole {1, 2, 1, 2, 1, 2}. Hence, the answer is 9.
 

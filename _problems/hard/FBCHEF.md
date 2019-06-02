@@ -69,7 +69,7 @@ time:
     current: 1493556704
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/APRIL14/mandarin/FBCHEF.pdf) and [Russian](http://www.codechef.com/download/translated/APRIL14/russian/FBCHEF.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/APRIL14/mandarin/FBCHEF.pdf) and [Russian](http://www.codechef.com/download/translated/APRIL14/russian/FBCHEF.pdf).
 
 Chef declared war on Byteland. Chefs best scientist Pramod has designed a new Fighter Plane which can fly with Speed of Light!! So none of the defence forces of Byteland can defeat or defend it.
 
@@ -128,7 +128,8 @@ For each query of type **2** print the required value asked in the question.
 <b>Sample Output</b>
 1
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 Path from Capital to City 1 : 1
 

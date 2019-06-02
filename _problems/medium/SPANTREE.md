@@ -145,7 +145,8 @@ The query of second type doesn't cost you any coin.
 4 3 5
                                                                 2 18
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 The graph (which is hidden) in the sample has 5 nodes and the sum of the weights in the MST is 18.
 

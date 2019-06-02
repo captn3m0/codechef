@@ -128,7 +128,8 @@ For each test case on different lines print an array **a**, after executing all 
 7 7 0 7 7
 2
 512 512 512 512 512 512 512 512 512 512
-</pre>### Explanation:
+</pre>
+### Explanation:
 
 **Example case 1.**.
 

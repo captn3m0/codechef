@@ -77,7 +77,7 @@ Memeland is a country consisting of **N** cities. There are exactly **N - 1** un
 
 As the country is located in mountains, cities may be at different heights. The heigh of **i-th** city is **ai**.
 
-Kirito is going to travel around Memeland. Kirito is an unusual man, thus he wants to travel only interesting routes. He calls a sequence of cities **i1, i2, ..., iK** an _interesting route_ if:
+Kirito is going to travel around Memeland. Kirito is an unusual man, thus he wants to travel only interesting routes. He calls a sequence of cities **i1, i2, ..., iK** an *interesting route* if:
 
 - no two cities in the sequence are the same: i.e. **ij** ≠ **ij'** for any two **j** ≠ **j'**.
 - cities **ij** and **ij+1** are connected by a road for each **1** ≤ **j** < **K**.

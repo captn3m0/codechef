@@ -113,7 +113,8 @@ aa</tt>
 <tt>1
 3
 7</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**
 chefand|**charliethebest**|

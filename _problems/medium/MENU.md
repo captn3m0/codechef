@@ -16,8 +16,8 @@ Help him to build the menu which maximizes the benefit value under the constrain
 
 ### Input
 
-The input consists of several test cases. Each test case begins with 3 integers in a line: The number of days _k_ (_1 ≤ k ≤ 21_) Alfred wants to plan for, the number of dishes _n_ (_1 ≤ n ≤ 50_) he can cook and his budget _m_ (_0 ≤ m ≤ 100_). The following _n_ lines describe the dishes Alfred can cook. The i-th line contains two integers: the costs _c_ (_1 ≤ c ≤ 50_) and the benefit value _v_ (_1 ≤ v ≤ 10000_) of the i-th dish.
-The end of the input is signaled by a test case with _k = n = m = 0_. You don't need to process this test case.
+The input consists of several test cases. Each test case begins with 3 integers in a line: The number of days *k* (*1 ≤ k ≤ 21*) Alfred wants to plan for, the number of dishes *n* (*1 ≤ n ≤ 50*) he can cook and his budget *m* (*0 ≤ m ≤ 100*). The following *n* lines describe the dishes Alfred can cook. The i-th line contains two integers: the costs *c* (*1 ≤ c ≤ 50*) and the benefit value *v* (*1 ≤ v ≤ 10000*) of the i-th dish.
+The end of the input is signaled by a test case with *k = n = m = 0*. You don't need to process this test case.
 
 ### Output
 

@@ -100,14 +100,17 @@ BBWWB
 BBWWB
 WBBBW
 
-</pre>### Sample Output
+</pre>
+### Sample Output
+
 <pre>5
 0 0 3 4 B
 2 2 4 3 F
 4 1 4 1 B
 0 1 0 1 W
 1 3 1 4 W
-</pre>### Explanation
+</pre>
+### Explanation
 
 The painting of the grid proceeds as follows:
 
@@ -147,7 +150,9 @@ BBWWB
 BBWWB
 WBBBW
 
-</pre>This sample output would score **10\*5/52 = 2**.
+</pre>
+This sample output would score **10\*5/52 = 2**.
+
 ### Test Generation
 
 We have **50** official test cases, each of them is created as follows:

@@ -69,7 +69,7 @@ time:
     current: 1493556620
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME12/mandarin/BNGAME.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME12/russian/BNGAME.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME12/mandarin/BNGAME.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME12/russian/BNGAME.pdf).
 
 Consider the following game that is played on the field of the size of 1 x **N** cells. The cells are numbered from 1 to **N**. In the i-th cell there are two positive integers written - **Ai** and **Bi**.
 

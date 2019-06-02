@@ -71,7 +71,7 @@ time:
     current: 1493558104
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/OCT15/mandarin/ADTRI.pdf) and [Russian](http://www.codechef.com/download/translated/OCT15/russian/ADTRI.pdf) 
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/OCT15/mandarin/ADTRI.pdf) and [Russian](http://www.codechef.com/download/translated/OCT15/russian/ADTRI.pdf) 
 
 Rupsa really loves triangles. One day she came across an equilateral triangle having length of each side as an integer **N**. She started wondering if it was possible to transform the triangle keeping two sides fixed and alter the third side such that it still remains a triangle, but the altered side will have its length as an even integer, and the line drawn from the opposite vertex to the mid-point of the altered side is of integral length.
 
@@ -108,6 +108,7 @@ For each test case, output "YES" if the triangle transformation is possible, oth
 <b>Output:</b>
 <tt>YES
 NO</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 - In test case 1, make the length of any one side **6**, and it will suffice.

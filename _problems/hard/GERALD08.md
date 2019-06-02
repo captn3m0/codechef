@@ -68,7 +68,7 @@ time:
     current: 1493556718
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/APRIL14/mandarin/GERALD08.pdf) and [Russian](http://www.codechef.com/download/translated/APRIL14/russian/GERALD08.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/APRIL14/mandarin/GERALD08.pdf) and [Russian](http://www.codechef.com/download/translated/APRIL14/russian/GERALD08.pdf).
 
 Chef has a rooted tree **G**, consisting of **N** vertices. Each edge of the tree has a color black or white.
 

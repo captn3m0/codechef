@@ -68,7 +68,7 @@ time:
     current: 1493557462
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/SNCK151C/mandarin/ANKINTER.pdf) , [Russian](http://www.codechef.com/download/translated/SNCK151C/russian/ANKINTER.pdf) and [Vietnamese](http://www.codechef.com/download/translated/SNCK151C/vietnamese/ANKINTER.pdf)
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/SNCK151C/mandarin/ANKINTER.pdf) , [Russian](http://www.codechef.com/download/translated/SNCK151C/russian/ANKINTER.pdf) and [Vietnamese](http://www.codechef.com/download/translated/SNCK151C/vietnamese/ANKINTER.pdf)
 
 Chef Rahul likes those arrays that can be rearranged to form an **interval of values** - an increasing sequence where each element is greater than the previous by exactly one. For example:
 
@@ -106,12 +106,14 @@ You should output exactly **T** lines each containing answer for corresponding t
 2 3 1
 6 3
 6 1 5 3 4 2 
-</pre>**Output:**
+</pre>
+**Output:**
 
 <pre>
 5
 5  
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case #1:**
 The following **5** subarrays form an interval:

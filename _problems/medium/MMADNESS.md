@@ -38,7 +38,8 @@ B D
 <b>Output:</b>
 200
 
-</pre>Explanation: In this case, the least cost you have to incur is $200 and it can be achieved by converting machines A and B to administrative machines.
+</pre>
+Explanation: In this case, the least cost you have to incur is $200 and it can be achieved by converting machines A and B to administrative machines.
 
 The diagrammatic representation for the example test case above:
 

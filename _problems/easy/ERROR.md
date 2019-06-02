@@ -68,7 +68,7 @@ time:
     current: 1493558143
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JAN14/mandarin/ERROR.pdf) and [Russian](http://www.codechef.com/download/translated/JAN14/russian/ERROR.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JAN14/mandarin/ERROR.pdf) and [Russian](http://www.codechef.com/download/translated/JAN14/russian/ERROR.pdf).
 
  Lots of geeky customers visit our chef's restaurant everyday. So, when asked to fill the feedback form, these customers represent the feedback using a binary string (i.e a string that contains only characters **'0'** and **'1'**.
 
@@ -113,7 +113,8 @@ Bad
 Good
 <br></br>
 />/>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**
 

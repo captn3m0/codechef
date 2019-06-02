@@ -70,7 +70,7 @@ time:
     current: 1493556627
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MAY15/mandarin/CBAL.pdf) and [Russian](http://www.codechef.com/download/translated/MAY15/russian/CBAL.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MAY15/mandarin/CBAL.pdf) and [Russian](http://www.codechef.com/download/translated/MAY15/russian/CBAL.pdf).
 
 Chef Smurf likes strings a lot but he likes balanced strings more. Smurf calls a string **S** a balanced string if and only if characters of strings **S** can be partitioned into two multi-sets **M1** and **M2** such that **M1 = M2**.
 **For eg :** Strings such as **aabbcc**, **abcabc** , **baccba** , **abccba** are all balanced strings as their characters can be partitioned into two multi-sets **M1** and **M2** such that **M1 = M2 = {a,b,c}**  whereas strings such as **aba**, **abc** , **abcdef**, **blablah** are not balanced strings./>
@@ -113,6 +113,8 @@ void decode(){
 }
 
 </pre>
+
+
 />
 
 Smurf cannot accomplish this task alone. Can you help him ?
@@ -166,7 +168,8 @@ cchheeff
 80
 10
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 <pre>
 <b>After decoding queries will take the following form : </b>

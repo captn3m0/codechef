@@ -65,4 +65,5 @@ All submissions for this problem are available.f(x) and g(x) are two quadratic p
 
 <b>Sample Output</b>
 15/2
-</pre>![](https://codechef_shared.s3.amazonaws.com/download/upload/AMR17AMR/QUADFUNC/1.png)
+</pre>
+![](https://codechef_shared.s3.amazonaws.com/download/upload/AMR17AMR/QUADFUNC/1.png)

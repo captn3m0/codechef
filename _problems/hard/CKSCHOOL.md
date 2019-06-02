@@ -53,6 +53,7 @@ For each query, print the answer in a new line.
 1
 2
 </pre>
+
 **Explanation :**  Listing the schools in 'Max Special S' for each of the queries in the given sample case. Schools are listed in (distance, fee) pairs.
 5 3 4 --> (4,3) (3,4) ; 
 5 4 6 --> (3,4) (1,5) ; 
@@ -61,6 +62,6 @@ For each query, print the answer in a new line.
 4 2 6 --> (2,2) (1,5) ; (2,2) is preferred over (3,4) and (4,3)
 
 
-_**Warning :**  Large input / output. You may have to use efficient input / output methods if you are using languages with heavy input / output overload. Eg: Prefer using scanf/printf to cin/cout for C/C++_
+***Warning :**  Large input / output. You may have to use efficient input / output methods if you are using languages with heavy input / output overload. Eg: Prefer using scanf/printf to cin/cout for C/C++*
 
-_**Note :** There are multiple test sets, and the judge shows the sum of the time taken over all test sets of your submission, if Accepted. Time limit on each test set is 3 sec_
+***Note :** There are multiple test sets, and the judge shows the sum of the time taken over all test sets of your submission, if Accepted. Time limit on each test set is 3 sec*

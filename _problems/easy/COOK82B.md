@@ -111,7 +111,8 @@ In case there is no need to insert an additional number output "justdoit" (witho
 
 <b>Output:</b>
 9261
-</pre>### Example 2
+</pre>
+### Example 2
 
 <pre><b>Input:</b>
 4
@@ -119,7 +120,8 @@ In case there is no need to insert an additional number output "justdoit" (witho
 
 <b>Output:</b>
 justdoit
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first Example, after inserting 9261, the array becomes {4, 6, 14, 9261}. We will show a series of moves through which Farah can make the array elements equal. We follow 1-based indexing.
 

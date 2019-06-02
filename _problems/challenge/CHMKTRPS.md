@@ -110,7 +110,8 @@ You will get "Wrong Answer" verdict if some element of the array is repeated in 
 <b>Output:</b>
 3
 5 6 11 3 4 1 10 2 9
-</pre>### Explanation
+</pre>
+### Explanation
 
 In this example we made three triples: (**A5**, **A6**, **A11**) = (1, 11, 5), (**A3**, **A4**, **A1**) = (2, 12, 3) and (**A10**, **A2**, **A9**) = (6, 7, 4). As you can see, 1 + 11 + 5 = 2 + 12 + 3 = 6 + 7 + 4 = 17. So, this output is correct because the sum of numbers in each triple is equal to the same number and there is no element of array that occurs more than once in triples. Score for this testcase will be 3 because you found three triples. Note that this test case can't be in the official test data because **N** doesn't equal 105.
 

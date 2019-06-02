@@ -71,7 +71,7 @@ time:
     current: 1493556738
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/OCT15/mandarin/JUMP.pdf) and [Russian](http://www.codechef.com/download/translated/OCT15/russian/JUMP.pdf) 
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/OCT15/mandarin/JUMP.pdf) and [Russian](http://www.codechef.com/download/translated/OCT15/russian/JUMP.pdf) 
 
 Chef the chief is participating in a hill jumping competition.
 
@@ -123,6 +123,7 @@ Output a single line containing the answer to the problem i.e. the minimal possi
 <b>Output:</b>
 <tt>10</tt>
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** jumping from first hill to 4th one then to 5th; the answer will be 0 + 0 + 0 + (4-1)^2 + (5-4)^2 = 10

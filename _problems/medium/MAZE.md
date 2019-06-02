@@ -117,7 +117,8 @@ For each test case, output either "Chefland is doomed" (without quotes), or a si
 <b>Output:</b>
 2
 0
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**
 

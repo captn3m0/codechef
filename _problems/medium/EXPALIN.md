@@ -70,13 +70,13 @@ time:
     current: 1493557649
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME32/mandarin/EXPALIN.pdf), [Russian](http://www.codechef.com/download/translated/LTIME32/russian/EXPALIN.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME32/vietnamese/EXPALIN.pdf) as well.
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME32/mandarin/EXPALIN.pdf), [Russian](http://www.codechef.com/download/translated/LTIME32/russian/EXPALIN.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME32/vietnamese/EXPALIN.pdf) as well.
 
 You are given a binary string **S** of **N** bits. The bits in the string are indexed starting from 1. **S\[i\]** denotes the **i**th bit of **S**.
 
-Let's say that a sequence **i1**, **i2**, …, **iK**(1 ≤ **K**; 1 ≤ **i1** < **i2** < … < **iK** ≤ **N**) _produces_ a palindrome when applied to **S**, if the string **S\[i1\]** **S\[i2\]** … **S\[ik\]** is a palindrome (that is, reads the same backward or forward).
+Let's say that a sequence **i1**, **i2**, …, **iK**(1 ≤ **K**; 1 ≤ **i1** < **i2** < … < **iK** ≤ **N**) *produces* a palindrome when applied to **S**, if the string **S\[i1\]** **S\[i2\]** … **S\[ik\]** is a palindrome (that is, reads the same backward or forward).
 
-In addition, a sequence **i1**, **i2**, …, **iK**(1 ≤ **K**; 1 ≤ **i1** < **i2** < … < **iK** ≤ **N**) is said to be _exponential_, if **ij + 1 = p \* ij** for each integer **1 ≤ j < K** and for some integer **p > 1**. Note, that a sequence of one element is always exponential.
+In addition, a sequence **i1**, **i2**, …, **iK**(1 ≤ **K**; 1 ≤ **i1** < **i2** < … < **iK** ≤ **N**) is said to be *exponential*, if **ij + 1 = p \* ij** for each integer **1 ≤ j < K** and for some integer **p > 1**. Note, that a sequence of one element is always exponential.
 
 Your task is to count the number of exponential sequences that produce a palindrome when applied to **S**.
 
@@ -117,6 +117,7 @@ Time limit for the first and the second subtasks is 3s. Time limit for the third
 9
 18
 
-</pre>### Explanation of the first case in the example test
+</pre>
+### Explanation of the first case in the example test
 
 The following sequences are counted in the answer: {1}, {2}, {3}, {4}, {5}, {1, 2}, {1, 4}, {2, 4}, {1, 2, 4}.

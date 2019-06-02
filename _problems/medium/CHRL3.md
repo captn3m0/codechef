@@ -94,14 +94,16 @@ Output a single line containing the minimal number of moves required to remove a
 <b>Output:</b>
 1
 
-</pre><pre><b>Input:</b>
+</pre>
+<pre><b>Input:</b>
 4
 4 1 2 3
 
 <b>Output:</b>
 2
 
-</pre>### Scoring
+</pre>
+### Scoring
 
 Subtask 1 (10 points):  **N = 10**  
 

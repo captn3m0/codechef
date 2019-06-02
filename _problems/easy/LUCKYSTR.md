@@ -67,9 +67,9 @@ time:
     current: 1493558165
 layout: problem
 ---
-All submissions for this problem are available.A Little Elephant from the Zoo of Lviv likes _lucky strings_, i.e., the strings that consist only of the lucky digits **4** and **7**.
+All submissions for this problem are available.A Little Elephant from the Zoo of Lviv likes *lucky strings*, i.e., the strings that consist only of the lucky digits **4** and **7**.
 
-The Little Elephant has **K** favorite lucky strings **A1, A2, ..., AK**. He thinks that the lucky string **S** is _good_ if either **|S|** ≥ **47** or for some **j** from **1** to **K** we have that  **Aj** is a substring of **S**.
+The Little Elephant has **K** favorite lucky strings **A1, A2, ..., AK**. He thinks that the lucky string **S** is *good* if either **|S|** ≥ **47** or for some **j** from **1** to **K** we have that  **Aj** is a substring of **S**.
 
 The Little Elephant has found **N** lucky strings **B1, B2, ..., BN** under the pillow. Now he wants to know which of them are good. Help him and find for each **i** from **1** to **N** whether the string **Bi** is good or not.
 
@@ -77,7 +77,7 @@ The Little Elephant has found **N** lucky strings **B1, B2, ..., BN** under the 
 
 Let **S** be some lucky string. Then - **|S|** denotes the length of the string **S**;
 - **S\[i\]** (**1 ≤ i ≤ |S|**) denotes the **i**th character of **S** (the numeration of characters starts from **1**);
-- The string **T** of the length **M** is called a _substring_ of **S** if for some **k** from 0 to **|S| - M** we have 
+- The string **T** of the length **M** is called a *substring* of **S** if for some **k** from 0 to **|S| - M** we have 
   **T\[1\] = S\[k + 1\], T\[2\] = S\[k + 2\], ..., T\[M\] = S\[k + M\]**.
 
 ### Input
@@ -115,7 +115,8 @@ Good
 Bad
 Good
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 The string **S = 7444** is good since the favorite string **744** is its substring.
 

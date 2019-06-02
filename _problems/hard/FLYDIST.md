@@ -42,6 +42,7 @@ Output the minimum sum of modifications as a reduced fraction "X/Y" - greatest c
 <b>Output:</b>
 5/1
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 One possible scenario is to decrease the length of flight (0,3) by 1, increase (0,1) by 3 and (1,2) by 1.

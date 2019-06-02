@@ -68,7 +68,7 @@ time:
     current: 1493557588
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/APRIL14/mandarin/CNPIIM.pdf) and [Russian](http://www.codechef.com/download/translated/APRIL14/russian/CNPIIM.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/APRIL14/mandarin/CNPIIM.pdf) and [Russian](http://www.codechef.com/download/translated/APRIL14/russian/CNPIIM.pdf).
 
 Lira loves Linear Algebra and she is especially keen about matrix :).
 
@@ -111,7 +111,8 @@ Read here for additional info:
 
 <b>Output:</b>
 2	
-</pre>### Explanation
+</pre>
+### Explanation
 
 The only two matrices that exist with trace equal to 3 and that satisfy all the given conditions are:
 

@@ -95,10 +95,12 @@ Chef has to cross a highway with infinite length consisting of $N$ parallel lane
 -100000
 10
 </tt>
-<pre>\### Example Output ```
+<pre>
+\### Example Output ```
 <tt>
 4.000000
 44.346053
 2000.100000
 </tt>
-</pre>\### Explanation \*\*Example case 1:\*\* Chef has to wait at the side of the highway and allow the first car to pass. As soon as the car passes by, he can reach the first divider. At this divider, he has to wait again for the second car to pass. Chef's situation is drawn in the image. ![](https://codechef_shared.s3.amazonaws.com/download/APRIL18/HIGHWAY/HIGHWAYC/highwayc.jpg)\*\*Example case 2:\*\* We see that Chef needs time at least $\\frac{177}{8} = 22.125$ to cross the highway, but the car would arrive at Chef's position at an earlier time $22.1105$. Hence, Chef must wait for the car to pass. Also, since Chef must wait until the car passes completely, he will wait for $\\frac{4222}{190}=22.221053$ before starting to cross the lane. Hence, the total time taken to cross the highway is $44.346053$. \*\*Example case 3:\*\* Chef can cross the road in time $1000$, but at that time, the car will reach $x=0$. Hence, at that moment, the distance between Chef and the car will be $0$, which is less than $10^{-6}$. Therefore, Chef has to wait for the car to pass before crossing.
+</pre>
+\### Explanation \*\*Example case 1:\*\* Chef has to wait at the side of the highway and allow the first car to pass. As soon as the car passes by, he can reach the first divider. At this divider, he has to wait again for the second car to pass. Chef's situation is drawn in the image. ![](https://codechef_shared.s3.amazonaws.com/download/APRIL18/HIGHWAY/HIGHWAYC/highwayc.jpg)\*\*Example case 2:\*\* We see that Chef needs time at least $\\frac{177}{8} = 22.125$ to cross the highway, but the car would arrive at Chef's position at an earlier time $22.1105$. Hence, Chef must wait for the car to pass. Also, since Chef must wait until the car passes completely, he will wait for $\\frac{4222}{190}=22.221053$ before starting to cross the lane. Hence, the total time taken to cross the highway is $44.346053$. \*\*Example case 3:\*\* Chef can cross the road in time $1000$, but at that time, the car will reach $x=0$. Hence, at that moment, the distance between Chef and the car will be $0$, which is less than $10^{-6}$. Therefore, Chef has to wait for the car to pass before crossing.

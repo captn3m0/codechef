@@ -34,14 +34,18 @@ Given matrix A as input, calculate matrix B.
 ### Output
 
 Output n lines, each contains n integers, the j-th integer of the i-th line shows the value of B(i,j).
- **_(Each integer on a same line must be separated by exactly one space character)_**
+ ***(Each integer on a same line must be separated by exactly one space character)***
 
 ### Example
 
 **Input:**
 
-`10<br></br>..X....XX.<br></br>XX.X..XX.X<br></br>.....XX..X<br></br>.XXX..X.X.<br></br>.....X..XX<br></br>....X....X<br></br>X.X....XX.<br></br>.X...X.X.X<br></br>X.X..X....<br></br>..XXXXX.XX<br></br>`**Output:**
+<pre>10<br></br>..X....XX.<br></br>XX.X..XX.X<br></br>.....XX..X<br></br>.XXX..X.X.<br></br>.....X..XX<br></br>....X....X<br></br>X.X....XX.<br></br>.X...X.X.X<br></br>X.X..X....<br></br>..XXXXX.XX<br></br>
+</pre>
+**Output:**
 
-`0 0 2 0 0 0 0 3 3 0 <br></br>2 2 0 2 0 0 3 3 0 2 <br></br>0 0 0 0 0 3 3 0 0 2 <br></br>0 3 3 3 0 0 3 0 2 0 <br></br>0 0 0 0 0 3 0 0 2 2 <br></br>0 0 0 0 3 0 0 0 0 3 <br></br>4 0 3 0 0 0 0 2 3 0 <br></br>0 4 0 0 0 3 0 3 0 2 <br></br>3 0 4 0 0 3 0 0 0 0 <br></br>0 0 5 5 5 5 5 0 2 2<br></br>`### Limitations
+<pre>0 0 2 0 0 0 0 3 3 0 <br></br>2 2 0 2 0 0 3 3 0 2 <br></br>0 0 0 0 0 3 3 0 0 2 <br></br>0 3 3 3 0 0 3 0 2 0 <br></br>0 0 0 0 0 3 0 0 2 2 <br></br>0 0 0 0 3 0 0 0 0 3 <br></br>4 0 3 0 0 0 0 2 3 0 <br></br>0 4 0 0 0 3 0 3 0 2 <br></br>3 0 4 0 0 3 0 0 0 0 <br></br>0 0 5 5 5 5 5 0 2 2<br></br>
+</pre>
+### Limitations
 
 0<n 1 000

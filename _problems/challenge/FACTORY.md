@@ -111,7 +111,8 @@ For each test case you are to output two lines. The first line consists of F val
 3 1 1
 1 0
 1 1 1
-</pre>### Scoring
+</pre>
+### Scoring
 
 For each test case, let K be the cost of the solution that keeps all factories open and assigns each client to any nearest factory (i.e. the current cost of manufacturing and supplying gadgets before your, hopefully cheaper, solution is applied). We will compute the cost of your solution, say L, and assign a score of L/K to the test case (we guarantee K >= 1 for each test case). The final score is then the sum of the scores for each test case. The goal is, of course, to minimize the total score.
 

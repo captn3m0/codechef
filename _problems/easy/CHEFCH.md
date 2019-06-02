@@ -68,7 +68,7 @@ time:
     current: 1493558116
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/FEB15/mandarin/CHEFCH.pdf) and [Russian](http://www.codechef.com/download/translated/FEB15/russian/CHEFCH.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/FEB15/mandarin/CHEFCH.pdf) and [Russian](http://www.codechef.com/download/translated/FEB15/russian/CHEFCH.pdf).
 
 Chef had a hard day and want to play little bit. The game is called "Chain". Chef has the sequence of symbols. Each symbol is either '**-**' or '**+**'. The sequence is called Chain if each two neighboring symbols of sequence are either '**-+**' or '**+-**'.
 
@@ -105,7 +105,8 @@ Chef had a hard day and want to play little bit. The game is called "Chain". Che
 <b>Output:</b>
 2
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**
 

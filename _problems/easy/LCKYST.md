@@ -70,7 +70,7 @@ time:
     current: 1493558159
 layout: problem
 ---
-All submissions for this problem are available.### Read problems statements in [Mandarin Chinese](/download/translated/JULY15/mandarin/LCKYST.pdf) and [Russian](/download/translated/JULY15/russian/LCKYST.pdf).
+All submissions for this problem are available.### Read problems statements in [Mandarin Chinese ](/download/translated/JULY15/mandarin/LCKYST.pdf) and [Russian](/download/translated/JULY15/russian/LCKYST.pdf).
 
 A number is called as a lucky number if its decimal representation contains only the lucky digits, 4 and 7. e.g. 47, 744, 4 are lucky numbers, whereas 5, 17, 467 are not.
 
@@ -122,7 +122,8 @@ Na2a has **N** numbers in his bag which are denoted by array **A**. For each num
 <b>Output:</b>
 2
 60
-<pre>### Explanation
+<pre>
+### Explanation
 
 **Example case 1.** You can't get any number having zeros at the end multiplying 2 by lucky numbers.
 

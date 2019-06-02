@@ -74,9 +74,9 @@ layout: problem
 ---
 All submissions for this problem are available.### Read problems statements in [Mandarin chinese](http://www.codechef.com/download/translated/JAN18/mandarin/XYHUMOQ.pdf) and [Vietnamese](http://www.codechef.com/download/translated/JAN18/vietnamese/XYHUMOQ.pdf) as well.
 
-Let's define a _10-string_ as a string that contains only characters '1' and '0', starts with '1' and ends with '0'. For example, **"10101010"**, **"100"** or **"1010"** are 10-strings, while **"011"**, **"11120"** or **"10101"** are not.
+Let's define a *10-string* as a string that contains only characters '1' and '0', starts with '1' and ends with '0'. For example, **"10101010"**, **"100"** or **"1010"** are 10-strings, while **"011"**, **"11120"** or **"10101"** are not.
 
-A subsequence of any 10-string is called _humongous_ if it is of the form "1010...10" ("10" concatenated an arbitrary number of times).
+A subsequence of any 10-string is called *humongous* if it is of the form "1010...10" ("10" concatenated an arbitrary number of times).
 
 For example, the 10-string **"110"** contains exactly 2 humongous subsequences and **"1010"** contains exactly 4 humongous subsequences (formed using indices **{1, 2}**, **{3, 4}**, **{1, 4}**, **{1, 2, 3, 4}**).
 
@@ -137,7 +137,8 @@ For each test case:
 YES
 1
 NO
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** We can convert the given 10-string into **U** = "1010" using only one flip; this string has exactly 4 humongous subsequences. This is the minimum possible number of flips.
 

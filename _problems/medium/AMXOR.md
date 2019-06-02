@@ -112,7 +112,8 @@ For each test case, output a single line containing the number of ways your frie
 16
 6
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Test Case 1:** The only possible sequence is **{ 5 }**.
 

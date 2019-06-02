@@ -69,7 +69,7 @@ time:
     current: 1493556988
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JULY14/mandarin/SEAEQ.pdf) and [Russian](http://www.codechef.com/download/translated/JULY14/russian/SEAEQ.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JULY14/mandarin/SEAEQ.pdf) and [Russian](http://www.codechef.com/download/translated/JULY14/russian/SEAEQ.pdf).
 
 Sereja call two arrays **A** and **B** with length **n** almost equal if for every **i (1 <= i <= n) CA(A\[i\]) = CB(B\[i\])**. **CX\[x\]** equal to number of index **j (1 <=j <= n)** such that **X\[j\] < x**.
 

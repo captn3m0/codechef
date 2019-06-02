@@ -104,7 +104,8 @@ For each test case, output a single integer – the minimum no. of moves require
 <b>Output:</b>
 2
 12
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**
 In first case, we can first choose (2,2) and then (1,2)

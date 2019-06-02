@@ -76,7 +76,7 @@ All submissions for this problem are available.###  Read problems statements in 
 There is new delicious item in Chef's menu - a doughnut chain. Doughnuts connected successively in line forming a chain.
 
 
-![](https://s3.amazonaws.com/codechef_shared/download/SEPT15/DONUT1.jpg)_Chain of 3 doughnuts_
+![](https://s3.amazonaws.com/codechef_shared/download/SEPT15/DONUT1.jpg)*Chain of 3 doughnuts*
 
 Chef has received an urgent order for making a chain of **N** doughnuts. He noticed that there are exactly **N** cooked doughnuts in the kitchen, some of which are already connected in chains. The only thing he needs to do is connect them in one chain.
 
@@ -89,7 +89,7 @@ Help Chef determine the minimum number of cuts needed to complete the order.
 - The first line of each test case contains two integer **N** and **M** denoting the size of order and number of cooked chains respectively.
 - The second line contains **M** space-separated integers **A1**, **A2**, ..., **AM** denoting the size of the chains.
 
-_It is guaranteed that **N** is equal to the sum of all **Ai**'s over **1<=_i_<=M**._
+*It is guaranteed that **N** is equal to the sum of all **Ai**'s over **1<=*i*<=M**.*
 
 ### Output
 
@@ -127,7 +127,8 @@ For each test case, output a single line containing an integer corresponding to 
 2
 1
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example 1:** We could cut 2 doughnut from any "chain" and use them to connect chains to the one. 
  For example, let's cut it from the first chain. After this we will have chains of sizes 2, 3, 4 and two doughnuts that have been cut. So we could connect the first chain with second and second with third using these two doughnuts./>
@@ -136,4 +137,4 @@ For each test case, output a single line containing an integer corresponding to 
 
 ![](https://s3.amazonaws.com/codechef_shared/download/SEPT15/DONUT2.png)
 
-_Image for second example. Yellow doughnut has been cut._
+*Image for second example. Yellow doughnut has been cut.*

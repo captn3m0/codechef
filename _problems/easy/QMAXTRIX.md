@@ -70,9 +70,9 @@ time:
     current: 1493558178
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME31/mandarin/SVNTR.pdf), [Russian](http://www.codechef.com/download/translated/LTIME31/russian/SVNTR.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME31/vietnamese/SVNTR.pdf) as well.
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME31/mandarin/SVNTR.pdf), [Russian](http://www.codechef.com/download/translated/LTIME31/russian/SVNTR.pdf) and [Vietnamese ](http://www.codechef.com/download/translated/LTIME31/vietnamese/SVNTR.pdf) as well.
 
-###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME30/mandarin/QMAXTRIX.pdf), [Russian](http://www.codechef.com/download/translated/LTIME30/russian/QMAXTRIX.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME30/vietnamese/QMAXTRIX.pdf)
+###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME30/mandarin/QMAXTRIX.pdf), [Russian](http://www.codechef.com/download/translated/LTIME30/russian/QMAXTRIX.pdf) and [ Vietnamese](http://www.codechef.com/download/translated/LTIME30/vietnamese/QMAXTRIX.pdf)
 
 There is a **N\*N** square matrix. You have been given **N** specifications, one per row of the matrix. The **ith** specifications is represented by a pair of integers **L\[i\]** and **R\[i\]**, denoting that all element belonging to columns between **L\[i\]** and **R\[i\]** (both inclusive) in row **i** are 1, while the rest of the elements of the **i**th row are 0.
 
@@ -111,7 +111,8 @@ Now you will be given an integer **Q**, followed by **Q** operations: Each query
 <b>Output:</b>
 E
 E
-</pre>### Explanation
+</pre>
+### Explanation
 
 The given array is:
 1 1 1

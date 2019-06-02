@@ -68,11 +68,11 @@ time:
     current: 1493557974
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME17/mandarin/CSS2.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME17/russian/CSS2.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME17/mandarin/CSS2.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME17/russian/CSS2.pdf).
 
-Cascading Style Sheets, or _CSS_ is a style sheet language, most popularly known for styling web pages. Each _object_ on a web page (like a picture, a paragraph, a table) can have various properties (like height, width, size, colour), and these properties can be set using CSS. Each of these _objects_ has a unique identifier called _id_, using which CSS can identify the object and assign value to its property.
+Cascading Style Sheets, or *CSS* is a style sheet language, most popularly known for styling web pages. Each *object* on a web page (like a picture, a paragraph, a table) can have various properties (like height, width, size, colour), and these properties can be set using CSS. Each of these *objects* has a unique identifier called *id*, using which CSS can identify the object and assign value to its property.
 
-Due to hierarchical nature of the web page, often same property of an object gets assigned different values in different CSS statements. To decide what the final value will be, each statement has a _priority_ assigned to it. The statement with the highest priority will be the one that sets the value of the property. If there are more than one statements with same priority, then the one which was executed last amongst those will set the value.
+Due to hierarchical nature of the web page, often same property of an object gets assigned different values in different CSS statements. To decide what the final value will be, each statement has a *priority* assigned to it. The statement with the highest priority will be the one that sets the value of the property. If there are more than one statements with same priority, then the one which was executed last amongst those will set the value.
 
 Given multiple CSS statements in the order they were executed, answer a few queries about the final values of certain objects
 
@@ -90,7 +90,8 @@ Print exactly M lines, ith line contains the answer to the ith query as describe
 
 
 <pre>
-</pre>12. 1 ≤ value, priority ≤ 106, for all subtasks.
+</pre>
+12. 1 ≤ value, priority ≤ 106, for all subtasks.
 13. **For 20 points :** 1 ≤ id, N, M, attr ≤ 103
 14. **For 30 points :** 1 ≤ N, M ≤ 103, 1 ≤ id, attr ≤ 106
 15. **For 50 points :** 1 ≤ N, M ≤ 105, 1 ≤ id, attr ≤ 106
@@ -98,7 +99,10 @@ Print exactly M lines, ith line contains the answer to the ith query as describe
 
 **Input:**
 
-`3 1<br></br>22 1 200 2<br></br>22 1 300 2<br></br>22 1 100 1<br></br>22 1`
+<pre>3 1<br></br>22 1 200 2<br></br>22 1 300 2<br></br>22 1 100 1<br></br>22 1
+</pre>
+
 **Output:**
 
-`300`
+<pre>300
+</pre>

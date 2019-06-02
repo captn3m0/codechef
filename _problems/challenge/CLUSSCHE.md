@@ -106,7 +106,8 @@ After reading a batch, you should output **B** integers, each showing the corres
 2 3
 		2
 		1
-</pre>### Explanation
+</pre>
+### Explanation
 
 In our example, number of nodes, number of batches and number of jobs per batch and networking cost, all are equal to 2. Cost of moving a job from node 1 to node 2 is 1.
 

@@ -81,7 +81,8 @@ All submissions for this problem are available.Chef wants to play the famous gam
 ..........         ..#..#....
 ..........         ..........
 </tt>
-</pre> These ones are incorrect
+</pre>
+ These ones are incorrect
 
 <pre>
 <tt>
@@ -96,7 +97,8 @@ All submissions for this problem are available.Chef wants to play the famous gam
 ..........         ..#.......
 ..........         ..........
 </tt>
-</pre>The first fleet is not correct as the battleships shown in bold are adjacent. The second one is incorrect, as it contains 7 battleships, whereas it should have contained only 4 battleships.
+</pre>
+The first fleet is not correct as the battleships shown in bold are adjacent. The second one is incorrect, as it contains 7 battleships, whereas it should have contained only 4 battleships.
 
  In Chef's case, you need to help him to play against the AI (judge program), which will be run by a computer. The computer will play randomly (it chooses an empty cell with equal probability), but when the computer hits a ship, it will try to hit free neighbors of this cell. Please help Chef find a strategy to win, and to make the minimal total number of moves in the game.
 
@@ -181,7 +183,8 @@ Let's consider a smaller example: a field 4x4 with two ships 1x1 and one ship 1x
                                          3 3
                                          1 4                                          
 0
-<pre>### Explanation
+<pre>
+### Explanation
 
 Initially, you print 1, meaning that you chose to start the game. After that, you print a 10x10 field with correct arrangement of ships(where '#' denotes a cell with a ship, and '.' denotes a cell without a ship). In the example, we print a 4x4 field with 3 ships. After that, you make a shot in the position (2, 2). The computer prints a code 1, which means that no ship is located at the position (2, 2). Thereafter, the program hit your cell (1, 1), and after that makes one more turn in position (2, 1). Your ship on cells (1, 1)-(2, 1) is sunk now. The third shot of the program is at position (2, 3), but there is no ship there. So, computer made K=3 shots, and next 3 lines contain coordinates of the computer's shots on its turn.
 

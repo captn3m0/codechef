@@ -107,7 +107,8 @@ For each node, these coordinates should be integers satisfying -109 ≤ **xi**, 
 4 5
 10 -10
 10 10
-</pre>### Explanation
+</pre>
+### Explanation
 
 ![](https://discuss.codechef.com/upfiles/embtree.png)
 

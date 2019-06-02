@@ -29,7 +29,8 @@ For each odd number in the input, print 3 primes P1, P2, P3 on a line, where P1 
 85
 155
 0
-</pre>### Sample Output
+</pre>
+### Sample Output
 
 <pre>5 7 3
 73 2 2

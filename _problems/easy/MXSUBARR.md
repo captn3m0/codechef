@@ -121,7 +121,8 @@ For each test case, output a single line corresponding to maximum number of grou
 1
 3
 18
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** **M** will be equal to 2. The subarrays will be {\[1, 1\], \[2, 2\]}.
 

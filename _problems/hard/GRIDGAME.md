@@ -102,13 +102,15 @@ For each test case, print the winner of each of the **Q** games, one per line.
 1 2
 3 4
 6 5
-</pre>### Sample Output
+</pre>
+### Sample Output
 
 <pre>Alice
 Bob
 Alice
 Bob
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first game, the pawn is at cell (2, 2). In order to win Alice can begin by moving the pawn to (1, 2). Bob's only available move is to (0, 2) since (1, 1) is impassable. Alice then moves the pawn to (0, 0), leaving Bob with no available moves.
 

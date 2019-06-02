@@ -133,7 +133,8 @@ BOTH_SUBTASKS
 SMALL_SUBTASK
 1
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** There are two persons. Person 1 and 2 love each other. Now, according to magician's suggestion, if person 1 loves person 2, then sadness of both the persons will be equal to 1. Same is the case with person 2 loving person 1. Hence answer is 1.
 

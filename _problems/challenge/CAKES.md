@@ -106,7 +106,8 @@ For each test case you are to output m different lines, each describing the orde
 2 3 1
 2 1
 2 1
-</pre>### Scoring
+</pre>
+### Scoring
 
 For each test case, we will compute the weighted completion time of the schedule where each baker simply processes the cakes in the order 1, 2, ..., n. Call this value K. We will also compute the weighted completion time of the schedule specified by your output, call this value L. The score for this test case is then L/K and the total score for the entire data set is L/K. Your goal is to minimize this quantity.
 

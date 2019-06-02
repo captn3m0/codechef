@@ -61,7 +61,7 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
-All submissions for this problem are available.If you've ever dealt with the theory of information, you are no doubt familiar with the theoretical notion of a _Turing Machine_. But have you ever wondered what you could do if you got a _real_ Turing Machine -- one of those big metal things with all the cranks and levers and rolls of infinite tape that looks suspiciously like toilet paper?...
+All submissions for this problem are available.If you've ever dealt with the theory of information, you are no doubt familiar with the theoretical notion of a *Turing Machine*. But have you ever wondered what you could do if you got a *real* Turing Machine -- one of those big metal things with all the cranks and levers and rolls of infinite tape that looks suspiciously like toilet paper?...
 
 The sad answer is: there are few interesting things that can be done with such a machine. Even problems that have a little charm in the theoretical model (like the intractable Halting Problem) can be solved very efficiently with practical brute-force algorithms (see e.g. the figure at the end of the problem description). But there is one thing that you can do with a practical Turing Machine, and can't do with a theoretical one, and it is: to use it as a music box.
 
@@ -91,7 +91,8 @@ Consider the following set of rules output by a program:
 000 shsh 000 shsh da
 000 didi 001 didi di
 001 dada 002 didi di
-</pre>Then the results of exemplary testing could be as follows:
+</pre>
+Then the results of exemplary testing could be as follows:
 
 <pre>
 <b>Music:</b> da da|da da|da da|di di|um um
@@ -103,6 +104,7 @@ Consider the following set of rules output by a program:
 <b>Score:</b> 3
 
 <b>Total:</b> 5 + 3 = 8 points
-</pre>_Bonus info:_ There are no more than 100 tests. The score format is _s.xxyy_, where _xx_ denotes the number of tests for which your machine played the music perfectly, _yy_ - the number of tests for which it received a positive score.
+</pre>
+*Bonus info:* There are no more than 100 tests. The score format is *s.xxyy*, where *xx* denotes the number of tests for which your machine played the music perfectly, *yy* - the number of tests for which it received a positive score.
 
 ![](http://www.codechef.com/download/adrian_halting.png)

@@ -84,10 +84,12 @@ A non-negative number is called "\*$S$ semi-palindromic\*" if it is divisible by
 2 3
 3 4
 </tt>
-<pre>\### Example Output ```
+<pre>
+\### Example Output ```
 <tt>
 19
 131
 163
 </tt>
-</pre>\### Explanation \*\*Example case 1:\*\* The $1$ semi-palindromic numbers are $0,1,2,3,4,5,6,7,8,9,11,22,33,44,55,66,77,88,99$.
+</pre>
+\### Explanation \*\*Example case 1:\*\* The $1$ semi-palindromic numbers are $0,1,2,3,4,5,6,7,8,9,11,22,33,44,55,66,77,88,99$.

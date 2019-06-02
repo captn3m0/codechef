@@ -109,7 +109,8 @@ The goal is to visit as many distinct stores as possible before they close. Note
 <b>Output:</b>
 1 2 -1
 1 0 2 3 -1
-</pre>### Scoring
+</pre>
+### Scoring
 
 The score for each test case is simply the number of distinct stores visited by the Chef (recall the Chef starts at store 0 so it is counted even if it does not appear in the output list). The total score for a test file is then the sum of the scores of each test case. Finally, there are multiple input files and the displayed score will be the average of the scores of the individual test files.
 

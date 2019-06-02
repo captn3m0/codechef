@@ -76,7 +76,7 @@ Chef likes to play with graphs a lot. Today he created a graph in the following 
 
 Chef wants to find a **walk** from node **start** to node **end** using the above described edges. Chef has to pay cost for each edge in the walk equal to the integer associated with the edge. He wants to minimize the total cost he will incur. Also, Chef does not like to move through an edge more than twice. Find out minimum cost that Chef has to pay.
 
-Note that a walk from a node **u** to **v** can contain repeated vertices in it. Please refer to [link](http://mathworld.wolfram.com/Walk.html) for a formal definition.
+Note that a walk from a node **u** to **v** can contain repeated vertices in it. Please refer to [ link](http://mathworld.wolfram.com/Walk.html) for a formal definition.
 
 ### Input
 
@@ -118,7 +118,8 @@ For each test case, output a single line containing the minimal possible cost Ch
 <b>Output:</b>
 <tt>2
 -8</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** Chef's walk starts with node 1. He goes to node **4** by incurring a cost of 1. Then from node 4, he goes to node 3 by incurring a cost of 1 more. Total cost incurred is 2.
 

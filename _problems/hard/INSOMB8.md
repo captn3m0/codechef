@@ -56,10 +56,12 @@ Line 1: Yes/No
 </pre>
 
 
+
 **Sample Output:**/>/>
 
 <pre>
 Yes
-</pre>**The figure for the sample input is:**
+</pre>
+**The figure for the sample input is:**
 
 ![](/fallingsnow.jpg)/>

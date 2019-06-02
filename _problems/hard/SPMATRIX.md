@@ -71,7 +71,7 @@ layout: problem
 All submissions for this problem are available.Let **N ≥ 3** be a fixed positive integer.
  Further, let **A\[1..N\]\[1..N\]** be **N × N** integer matrix.
  The **y**-th element in the **x**-th row will be denoted as **A\[x\]\[y\]**.
- This matrix is called **_special_** if it satisfies the following conditions:/>/>/>
+ This matrix is called ***special*** if it satisfies the following conditions:/>/>/>
 
 - **A\[x\]\[x\] = 0** for **1 ≤ x ≤ N**.
 - **A\[x\]\[y\] = A\[y\]\[x\] > 0** for **1 ≤ x < y ≤ N**.
@@ -85,14 +85,18 @@ For example,
 1 0 1
 1 1 0
 
-</pre>is the only special matrix of order **3**.
+</pre>
+is the only special matrix of order **3**.
+
 The following matrices of order 3 are not special:
 
 <pre>1 1 1    0 1 0    0 1 2
 1 0 1    1 0 1    1 0 1
 1 1 0    1 1 0    2 1 0
 
-</pre>The first one violates the first condition, the second one - the second condition, the third one - the third condition (as well as the fourth condition).
+</pre>
+The first one violates the first condition, the second one - the second condition, the third one - the third condition (as well as the fourth condition).
+
 It can be verified that there are **13** special matrices of order **4** in all.
  The full list of special matrices of order **4** looks as follows:/>
 
@@ -106,7 +110,9 @@ It can be verified that there are **13** special matrices of order **4** in all.
 1 2 0 2    2 2 0 2    2 2 0 1    2 2 0 1    1 2 0 1    2 1 0 1
 2 1 2 0    1 1 2 0    2 2 1 0    2 2 1 0    1 2 1 0    2 1 1 0
 
-</pre>Your task is simple. For the given **N** count overall number of special matrices of order **N**. Since the answer could be extremely large output it modulo **109 + 7 = 1000000007**./>
+</pre>
+Your task is simple. For the given **N** count overall number of special matrices of order **N**.
+ Since the answer could be extremely large output it modulo **109 + 7 = 1000000007**./>
 
 ### Input
 
@@ -136,6 +142,7 @@ For each test case output the overall number of special matrices of order **N** 
 1
 13
 719666144
-</pre>### Explanation
+</pre>
+### Explanation
 
 Example cases 1 and 2 are explained above.

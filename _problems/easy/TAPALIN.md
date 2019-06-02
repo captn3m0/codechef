@@ -121,6 +121,7 @@ For each test case, output a single line containing the answer for the correspon
 728
 1404
 508533804
-</pre>### Explanation
+</pre>
+### Explanation
 
 The first three examples are explained in the problem statement above.

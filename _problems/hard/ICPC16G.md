@@ -23,15 +23,15 @@ time:
     current: 1493556973
 layout: problem
 ---
-All submissions for this problem are available.Today is the Robolympics athletic event. **N** batons numbered 0 to **N - 1** are placed in a circular fashion where baton numbers increase in clockwise direction. Also, some of the batons are _special_. **M** robots start in the event by standing near a baton position and picking it up. Note that a baton cannot be held by more than one robot, therefore all robots have distinct positions in the circular array of batons.
+All submissions for this problem are available.Today is the Robolympics athletic event. **N** batons numbered 0 to **N - 1** are placed in a circular fashion where baton numbers increase in clockwise direction. Also, some of the batons are *special*. **M** robots start in the event by standing near a baton position and picking it up. Note that a baton cannot be held by more than one robot, therefore all robots have distinct positions in the circular array of batons.
 
-Now, this event lasts for **N** seconds. In each second, each robot drops the baton currently in its hand and moves to next position in clockwise direction _i.e._ if a robot has baton **i** in its hand at **t = 0**, at **t = 1** he will be holding baton **(i + 1) % N**.
+Now, this event lasts for **N** seconds. In each second, each robot drops the baton currently in its hand and moves to next position in clockwise direction *i.e.* if a robot has baton **i** in its hand at **t = 0**, at **t = 1** he will be holding baton **(i + 1) % N**.
 
-Crowd goes berserk whenever there comes a moment when all robots have picked up _special_ batons. Your aim is to count how many times it will happen during the whole race. Note that crowd can go berserk even at **t = 0**. But since race is over at **t = N**, crowd doesn't care anymore. e. The crowd will not go berserk at **t = N**.
+Crowd goes berserk whenever there comes a moment when all robots have picked up *special* batons. Your aim is to count how many times it will happen during the whole race. Note that crowd can go berserk even at **t = 0**. But since race is over at **t = N**, crowd doesn't care anymore. e. The crowd will not go berserk at **t = N**.
 
 ### Input
 
-First line contains **N** and **M** denoting the number of batons and number of robots participating in the event. Next line contains **N** space separated integers where **i**th integer is 0 or 1 denoting whether baton numbered **i - 1** is _special_ or not. Next line contains **M** integers denoting the index(0 to N-1) of initial baton that robots have picked up.
+First line contains **N** and **M** denoting the number of batons and number of robots participating in the event. Next line contains **N** space separated integers where **i**th integer is 0 or 1 denoting whether baton numbered **i - 1** is *special* or not. Next line contains **M** integers denoting the index(0 to N-1) of initial baton that robots have picked up.
 
 ### Output
 

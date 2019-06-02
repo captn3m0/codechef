@@ -73,11 +73,11 @@ All submissions for this problem are available.A few days ago Chef decided to co
 
 ### Input
 
-Input contains two integers: width _a (1 ≤ a ≤ 6)_ and length _b (1 ≤ b < 263)_.
+Input contains two integers: width *a (1 ≤ a ≤ 6)* and length *b (1 ≤ b < 263)*.
 
 ### Output
 
-Print in output a single integer which is the answer. Answer can be a very big number, so print it modulo _109+7 (1000000007)_.
+Print in output a single integer which is the answer. Answer can be a very big number, so print it modulo *109+7 (1000000007)*.
 
 ### Example
 
@@ -93,16 +93,19 @@ Print in output a single integer which is the answer. Answer can be a very big n
 
 <b>Output:</b>
 322
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first sample, there are 2^(2\*2) = 16 ways coloring the chocolate in total, and the only following 2 chocolates are not good
 
 <pre>
 <b>WW</b>
 <b>WW</b>
-</pre>The bar contains a totally white rectangle of length = 2 and width = 2.
+</pre>
+The bar contains a totally white rectangle of length = 2 and width = 2.
 
 <pre>
 <b>BB</b>
 <b>BB</b>
-</pre>The bar contains a totally black rectangle of length = 2 and width = 2.
+</pre>
+The bar contains a totally black rectangle of length = 2 and width = 2.

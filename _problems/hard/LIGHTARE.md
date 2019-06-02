@@ -82,7 +82,8 @@ For each test case, output a real number representing the illuminated area. Your
 46.8944978986765346
 38.3417468480148019
 29.7889957973530693
-</pre>### Explanation
+</pre>
+### Explanation
 
 More examples are given in the webpage, but not printed here. Please check them as well.
 

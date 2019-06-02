@@ -119,7 +119,8 @@ For each test case, output a single line containing a string "yes" or "no" (both
 yes
 yes
 no
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example 1.** There is one cat and one dog. The number of legs of these animals on the ground are 8, it can be possible when both cat and dog are standing on the ground.
 

@@ -112,7 +112,8 @@ For each test case, output answer modulo 109+7 in a single line.
 9
 4
 9
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**
 

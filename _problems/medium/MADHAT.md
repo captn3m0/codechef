@@ -110,7 +110,8 @@ For each test case, output the answer to the problem modulo **109+7**.
 <b>Output:</b><tt>
 3
 0</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the **first example**, the possible students IQs are the following:
 

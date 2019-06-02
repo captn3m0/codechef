@@ -107,7 +107,8 @@ For each test case output the answer on the separate line.
 0
 1
 7
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** We have **C(1, 0) = C(1, 1) = 1**. Hence **C(1, K) mod 2 ≠ 0** for all **K**. Therefore, the answer is **-1**.
 

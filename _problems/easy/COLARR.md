@@ -67,7 +67,7 @@ time:
     current: 1493558132
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/FEB14/mandarin/COLARR.pdf) and [Russian](http://www.codechef.com/download/translated/FEB14/russian/COLARR.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/FEB14/mandarin/COLARR.pdf) and [Russian](http://www.codechef.com/download/translated/FEB14/russian/COLARR.pdf).
 
 Chef had a hard time arguing with his friend, and after getting a great old kick Chef saw a colored array with **N** cells, numbered from **1** to **N**.
 
@@ -119,7 +119,8 @@ For each test case, output a single line containing the maximal possible points.
 
 <b>Output:</b>
 5
-</pre>**Explanation:**
+</pre>
+**Explanation:**
 
  For this sample, we can repaint only once, since **K = 1**. We should repaint **4**th cell with color **1**. We will pay **1** for this, and receive:
 

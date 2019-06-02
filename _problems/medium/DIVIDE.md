@@ -70,7 +70,7 @@ time:
     current: 1493557918
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME18/mandarin/DIVIDE.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME18/russian/DIVIDE.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME18/mandarin/DIVIDE.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME18/russian/DIVIDE.pdf).
 
 In the city of "M", there are N girls who attend a certain high school. Historically, all of the students of this school are divided into two groups, not necessarily equal in size, right before they start to study.
 
@@ -113,6 +113,7 @@ For each test case output a single line with a single integer - the answer to th
 
 <b>Output:</b>
 1048576
-</pre>### Explanation
+</pre>
+### Explanation
 
 The first and the fourth girl will form the first group; the second and the third will form the second group.

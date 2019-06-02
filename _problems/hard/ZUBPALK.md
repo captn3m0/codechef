@@ -26,7 +26,7 @@ layout: problem
 ---
 All submissions for this problem are available.A king in a distant land wants to build a new palace for himself. There are some plots of land in the country. Some of them don't have any owner, some of the plots are owned by the citizens of the country. Being a good person, the king wants to pay the appropriate amount of money for the land he uses. If he uses some portion of a plot, he needs to buy the whole plot. Also, this is a weird country where the plots owned by the citizens may overlap. For an area, the king needs to buy all the overlapping plots to use that area. To use some area not owned by any citizen, the king doesn't need to spend any money.
 
-Formally, the country is an **M × N** grid with **L** plots owned by the citizens. Each of these plots is rectangular in shape. The **ith** plot has its lower left corner at **(xi, yi)**, length **li** (along with the _x_-axis), width **wi** (along with the _y_-axis), and price **pi**. The palace the king is going to build should be rectangular in shape as well. Please help him to find the rectangular place with the largest area which he can use without spending more than **C** amount of money.
+Formally, the country is an **M × N** grid with **L** plots owned by the citizens. Each of these plots is rectangular in shape. The **ith** plot has its lower left corner at **(xi, yi)**, length **li** (along with the *x*-axis), width **wi** (along with the *y*-axis), and price **pi**. The palace the king is going to build should be rectangular in shape as well. Please help him to find the rectangular place with the largest area which he can use without spending more than **C** amount of money.
 
 **(0,0)** is the lower left corner of the country and **(M, N)** is the upper right corner. All the plots owned by the citizens are inside this area. The palace should be inside this area as well. The sides of the palace should be axis-parallel.
 
@@ -64,7 +64,8 @@ For each test case, print "Case i: ", and then the answer (mod 109 + 7), where i
 
 <b>Output:</b>
 Case 1: 12
-</pre>### Explanation
+</pre>
+### Explanation
 
 ![](https://codechef_shared.s3.amazonaws.com/download/upload/ACM17KOL/ZUBPALK/palace_of_king.png)
 The image above shows the lands owned by the citizens and the palace with area **12** (lower left corner at **(0,0)** and upper right corner at **(4,3)**).

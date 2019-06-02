@@ -69,7 +69,7 @@ time:
     current: 1493558232
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME36/mandarin/ASTRING.pdf), [Russian](http://www.codechef.com/download/translated/LTIME36/russian/ASTRING.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME36/vietnamese/ASTRING.pdf) as well.
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME36/mandarin/ASTRING.pdf), [Russian](http://www.codechef.com/download/translated/LTIME36/russian/ASTRING.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME36/vietnamese/ASTRING.pdf) as well.
 
 Akhil comes across a string **S** of length **N**. He started wondering about the smallest lexicographical subsequence of string **S** of length **K**.
 
@@ -110,7 +110,8 @@ bacb
 <b>Output:</b>
 abc
 ab
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** "abc" is the smallest lexicographical subsequence out of \["abd", "bdc", "abc", "adc"\].
 

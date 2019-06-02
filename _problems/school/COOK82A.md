@@ -103,7 +103,8 @@ Eibar 6
 <b>Output:</b>
 RealMadrid
 Barcelona
-</pre>### Explanations
+</pre>
+### Explanations
 
 In the first scenario, Barcelona wins against Eibar, because they scored more goals (2 > 0). But Real Madrid draws against Malaga, because they both score 1 goal each. So, Real Madrid wins the league title.
 

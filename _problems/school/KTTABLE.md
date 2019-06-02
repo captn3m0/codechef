@@ -121,7 +121,8 @@ Should contain all the constraints on the input data that you may have. Format i
 <b>Output:</b>
 <tt>2
 1</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** The first student has **1** unit of time - the moment 0. It will be enough for her to cook. The second student has **9** units of time, but wants to cook for **10** units of time, and won't fit in time. The third student has **5** units of time and will fit in time, because needs to cook only for **3** units of time.
 

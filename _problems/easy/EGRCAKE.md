@@ -116,7 +116,8 @@ No 1
 Yes
 No 2
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 In test case 1, we have two robots indexed 1 and 2. They are arranged as (1 2). Chef goes to the first robot, gives him a cake, and moves to position 1. In the next step, he sees that robot at this position already has a has cake. So Chef stops moving, and our **answer** is **"No 1"**.
 

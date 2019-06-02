@@ -69,7 +69,7 @@ time:
     current: 1493557656
 layout: problem
 ---
-All submissions for this problem are available.The Head Chef has opened **N** new restaurants across the city. But he is exhausted since he has to travel so much when he has to go from one restaurant to another. Further, the city traffic is driving him crazy. So he wishes to construct fly-overs between restaurants. A fly-over is a road at a raised height between any two restaurants. If two restaurants are connected by a fly-over, it takes only **1** second for the Chef to move from one restaurant to the other. When commuting between restaurants, our Head Chef wishes to use one or more fly-overs. _He doesn't want to travel by the regular roads at all_.
+All submissions for this problem are available.The Head Chef has opened **N** new restaurants across the city. But he is exhausted since he has to travel so much when he has to go from one restaurant to another. Further, the city traffic is driving him crazy. So he wishes to construct fly-overs between restaurants. A fly-over is a road at a raised height between any two restaurants. If two restaurants are connected by a fly-over, it takes only **1** second for the Chef to move from one restaurant to the other. When commuting between restaurants, our Head Chef wishes to use one or more fly-overs. *He doesn't want to travel by the regular roads at all*.
 
 Unfortunately, construction of fly-overs costs money. A construction company has agreed to build **1** fly-over for a payment of **C** rupees. It is up to the Chef to decide which restaurants he wants to connect using fly-overs. He asks his assistant chefs to give him suggestions. Each assistant chef proposes his own model. The Chef is now confused, he has no way of comparing models. Some models have too many fly-overs, while other models have too few.
 
@@ -121,7 +121,8 @@ All **M** unordered pairs **{U, V}** will be different.
 20.920000000
 11.141592653
 0.000000000
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Case 1.** We will compare two models: **M1** and **M2**. We will denote a fly-over that connects the restaurants with indexes **U** and **V** by **\[U, V\]**.
 

@@ -31,7 +31,7 @@ Malvika always keeps a graph **G** with **n** vertices and **m** edges with her.
 
 Animesh thought for days and days about how he could add edges into the empty graph **H** so that he can get a graph that Malvika likes. After putting in a lot of effort, he found such a graph and said that this is the graph you desired.
 
-Malvika was still really angry with him and asked _little_ Animesh to come up as many graphs as possible, such that Malvika likes them. Given his recent track record, you know this is going to take him at least a few years to solve by himself. Can you help Animesh find out how many such graphs he has to come up with? Please output your answer modulo **109 + 7**.
+Malvika was still really angry with him and asked *little* Animesh to come up as many graphs as possible, such that Malvika likes them. Given his recent track record, you know this is going to take him at least a few years to solve by himself. Can you help Animesh find out how many such graphs he has to come up with? Please output your answer modulo **109 + 7**.
 
 Two ways of adding edges **A, B** are considered different if there is a an edge **(u, v)** which is present in **A** but not in **B**.
 
@@ -70,7 +70,8 @@ Note that adjacency matrix of a graph **G** containing **n** vertices is a matri
 <b>Output:</b>
 1
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 **In the first example**, the graph **G** has an edge between 1 and 2. Animesh has to add only one edge in the graph **H** between vertices 1 and 2 to please her. This is the only graph he has to come up with.
 

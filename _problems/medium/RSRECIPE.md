@@ -52,7 +52,8 @@ If there is a solution output **N** space separated integer numbers - the sequen
 
 <b>Output 2:</b>
 -1
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first test case the answer is not unique. Possible answers are also **{0, 3, -2, 0}**, **{2, 1, 0, -2}** and many others. 
 

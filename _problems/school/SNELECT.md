@@ -109,7 +109,8 @@ mongooses
 tie
 tie
 snakes
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example 1**. The mongoose will eat the snake. Only the mongoose will be left. So, on the election day, there is one mongoose and zero snakes. So mongooses will win.
 

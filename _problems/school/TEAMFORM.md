@@ -113,7 +113,8 @@ yes
 yes
 no
 no
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example 1**. Persons 1 and 2 have already formed the team. No other person is left. So, the answer is yes.
 

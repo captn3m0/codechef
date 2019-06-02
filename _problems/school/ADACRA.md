@@ -98,6 +98,7 @@ UUDDDUUU
 
 <b>Output:</b>
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** In one step we can flip all the crayons pointing downwards

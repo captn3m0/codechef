@@ -70,7 +70,7 @@ time:
     current: 1493556690
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/DEC14/mandarin/DIVIDEN.pdf) and [Russian](http://www.codechef.com/download/translated/DEC14/russian/DIVIDEN.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/DEC14/mandarin/DIVIDEN.pdf) and [Russian](http://www.codechef.com/download/translated/DEC14/russian/DIVIDEN.pdf).
 
 Many of you know about a popular logic game called [Euclid: The Game](http://euclidthegame.com/). Everything was fine, but then the game came into the real world because of a horrible mistake of one of the players. Now the whole world is in danger! The world can be described as the Cartesian plane where each point has two real coordinates **x** and **y**. In order to save the world you are to complete the following task.
 
@@ -91,7 +91,7 @@ If the above construction is possible, you are able to perform two types of oper
 1. Construct a line that connects two known points **A** and **B**.
 2. Construct a circle with center at a known point **C**, and radius equal to the distance between two known points **A** and **B**.
 
-A point **P** is called _known_ if it satisfies one of these two statements:
+A point **P** is called *known* if it satisfies one of these two statements:
 
 - **P** is equal to one of **V**, **R1**, or **R2**.
 - **P** is one of the points of intersection of any lines or circles constructed in previous steps.
@@ -152,12 +152,13 @@ Circle -843.3504692364 -292.2882079766 -844.0655568007 -298.0169842162 -843.3504
 Line -848.6692787746 -294.5333120998 -838.7467472625 -295.7718800931
 Answer
 -843.7080130185 -295.1525960964
-</pre>_There are other acceptable solutions._
+</pre>
+*There are other acceptable solutions.*
 
-_The line breaks inside the second to last coordinates for each circle are for website display reasons only, and should not exist in your output._
+*The line breaks inside the second to last coordinates for each circle are for website display reasons only, and should not exist in your output.*
 
 ### Explanation
 
-The measure of the given angle is 2 degrees. It is well known that we can bisect _any_ angle with a compass and straightedge, so we can certainly do so for a 2 degree angle. This divides the angle into two 1-degree angles as required. The method presented is one way of doing so and looks like this:
+The measure of the given angle is 2 degrees. It is well known that we can bisect *any* angle with a compass and straightedge, so we can certainly do so for a 2 degree angle. This divides the angle into two 1-degree angles as required. The method presented is one way of doing so and looks like this:
 
 ![](/download/extimages/18803cb00817e914893a22e99f054829.png)

@@ -80,7 +80,7 @@ Unfortunately, Chef isn't too knowledgeable about computers so he didn't ensure 
 
 Even worse, from time to time, someone gets disconnected from the network, further increasing the number of sad pairs. When a resident is disconnected, all direct connections to and from his/her computer becomes unusable.
 
-Chef didn't anticipate all these problems and has turned to you for help. Your first task is to submit a report containing **N** integers, where the **i**th integer is _the number of sad pairs in the network if the **i**th resident was disconnected_.
+Chef didn't anticipate all these problems and has turned to you for help. Your first task is to submit a report containing **N** integers, where the **i**th integer is *the number of sad pairs in the network if the **i**th resident was disconnected*.
 
 ### Input
 
@@ -129,7 +129,8 @@ Output **N** lines. The **i**th line must contain a single integer, the number o
 7
 7
 </tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the given network, residents 1, 4, 5 and 7 all have team 1 as their favorite, and 2, 3 and 6 all have team 3 as their favorite.
 

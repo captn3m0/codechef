@@ -94,6 +94,7 @@ For each test case, output a single line containing minimal cost required to mak
 
 <b>Output:</b>
 5
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** Use the first type operation twice and the second type once.

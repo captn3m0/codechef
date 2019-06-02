@@ -73,7 +73,7 @@ layout: problem
 ---
 All submissions for this problem are available.### Read problems statements in [Mandarin chinese](http://www.codechef.com/download/translated/LTIME58/mandarin/FRK.pdf), [Russian](http://www.codechef.com/download/translated/LTIME58/russian/FRK.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME58/vietnamese/FRK.pdf) as well.
 
-Chef decided to find the connections with all of his friends in an unnamed social network. He calls a user of the social network his _friend_ if there is a common substring of the string "chef" and the nickname of that user with length ≥ 2.
+Chef decided to find the connections with all of his friends in an unnamed social network. He calls a user of the social network his *friend* if there is a common substring of the string "chef" and the nickname of that user with length ≥ 2.
 
 Given a list of users of the social network, compute the number of Chef's friends.
 
@@ -110,7 +110,8 @@ chemthan
 <b>Output:</b>
 
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 - gennady.korotkevich is a friend to Chef because he has "ch" at the end of his nickname, which is also a substring of "chef" with length 2
 - the common substring with kefaa is "ef" and the common substring with chemthan is "che"

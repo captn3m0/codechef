@@ -99,7 +99,8 @@ All submissions for this problem are available.Chef loves to cook pies. But more
 <b>Output:</b>
 0
 3
-</pre>### Scoring
+</pre>
+### Scoring
 
 Subtask 1 (15 points): **3 ≤ N ≤ 100** 
 

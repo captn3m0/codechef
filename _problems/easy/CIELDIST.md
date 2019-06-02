@@ -72,7 +72,7 @@ All submissions for this problem are available.In Wolf town there are **2** big 
 
 Chef Ciel would like to build her restaurants as close as possible to each other for convenient communication. Your task is to calculate the minimum distance that could be achieved between her restaurants.
 
-**Note.** Wolf town can be considered as an infinite 2D Cartesian plane. The markets and Ciel's restaurants should be considered as _points_ on a plane. The distance between the two points **A** and **B**, whose coordinates are **(Ax, Ay)** and **(Bx, By)** respectively, is defined by **Dist(A, B) = ((Ax − Bx)2 + (Ay − By)2)1/2**.
+**Note.** Wolf town can be considered as an infinite 2D Cartesian plane. The markets and Ciel's restaurants should be considered as *points* on a plane. The distance between the two points **A** and **B**, whose coordinates are **(Ax, Ay)** and **(Bx, By)** respectively, is defined by **Dist(A, B) = ((Ax − Bx)2 + (Ay − By)2)1/2**.
 
 ### Input
 
@@ -80,7 +80,7 @@ The first line of the input contains an integer **T** denoting the number of tes
 
 ### Output
 
-For each test case, output a single line containing the minimum possible distance between Ciel's restaurants that could be achieved. The output must have an absolute or relative error at most **0.000001 (10−6)**. Please, note that your output should not have more than **1000** digits after the decimal point, otherwise you may (or may not) get _wrong answer_ or _runtime error (SIGXFSZ)_.
+For each test case, output a single line containing the minimum possible distance between Ciel's restaurants that could be achieved. The output must have an absolute or relative error at most **0.000001 (10−6)**. Please, note that your output should not have more than **1000** digits after the decimal point, otherwise you may (or may not) get *wrong answer* or *runtime error (SIGXFSZ)*.
 
 Note also that the answer could be 0, which means that two Ciel's restaurants should be located at the same building.
 
@@ -104,7 +104,8 @@ Note also that the answer could be 0, which means that two Ciel's restaurants sh
 0.0
 69.00000
 0
-</pre>### Explanation 
+</pre>
+### Explanation 
 
 **Example case 1.** The distance between markets **S** and **T** is **50**. Assume for simplicity that **S** has coordinates **(0, 0)** and **T** has coordinates **(50, 0)**. Then Ciel could build her first restaurant **RS** at the point **(15, 0)** and the second restaurant **RT** at the point **(35, 0)**. This will ensure that the distance between **S** and **RS** is **DS = 15** and the distance between **T** and **RT** is **DT = 15**. The distance between restaurants appear to be **20** in this scenario. One can prove that this is the minimum possible distance.
 

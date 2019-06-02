@@ -116,7 +116,8 @@ For each test case, print a single line containing one integer — the minimum r
 105
 2
 8
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** No operations are needed because 0-(-5) = 5-0.
 

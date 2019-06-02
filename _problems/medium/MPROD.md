@@ -70,7 +70,7 @@ time:
     current: 1493557807
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME11/mandarin/MPROD.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME11/russian/MPROD.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME11/mandarin/MPROD.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME11/russian/MPROD.pdf).
 
 You are given a array **A** of **N** positive integers, and you can perform the following operation on the array
 

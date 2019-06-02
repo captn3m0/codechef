@@ -12,7 +12,7 @@ layout: problem
 ###  All submissions for this problem are available. 
 
 
-Given two vessels, one of which can accommodate _a_ liters of water and the other which can accommodate _b_ liters of water, determine the number of steps required to obtain exactly _c_ liters of water in one of the vessels.
+Given two vessels, one of which can accommodate *a* liters of water and the other which can accommodate *b* liters of water, determine the number of steps required to obtain exactly *c* liters of water in one of the vessels.
 
 
 At the beginning both vessels are empty. The following operations are counted as 'steps':
@@ -26,7 +26,7 @@ At the beginning both vessels are empty. The following operations are counted as
 ### Input
 
 
-An integer _t_, 1<=_t_<=100, denoting the number of test cases, followed by _t_ sets of input data, each consisting of three positive integers a (the number of liters the first container can hold), b (the number of liters the second container can hold), and c (the final amount of liters of water one vessel should contain), not larger than 40000, given in separate lines.
+An integer *t*, 1<=*t*<=100, denoting the number of test cases, followed by *t* sets of input data, each consisting of three positive integers a (the number of liters the first container can hold), b (the number of liters the second container can hold), and c (the final amount of liters of water one vessel should contain), not larger than 40000, given in separate lines.
 
 ### Output
 
@@ -44,7 +44,8 @@ Sample input:
 2
 3
 4
-</pre>Sample output:
+</pre>
+Sample output:
 
 <pre>
 2

@@ -244,7 +244,8 @@ Your score for the test case equals to the percentage of the matrix that is cove
 0 0 4 0 0 5 5 5 5 5 
 0 0 0 0 0 5 0 5 5 0 
 0 0 0 0 0 0 0 5 5 0 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **How to assign coordinates to the pieces. ?**
 

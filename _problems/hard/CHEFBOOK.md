@@ -71,7 +71,7 @@ time:
     current: 1493556633
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JUNE15/mandarin/CHEFBOOK.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE15/russian/CHEFBOOK.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JUNE15/mandarin/CHEFBOOK.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE15/russian/CHEFBOOK.pdf).
 
 The Chief Chef has built a new social network call **Chefbook**. Everyone who is interested in cooking can join Chefbook. Already **N** chefs joined the chefbook and loved it so much.
 

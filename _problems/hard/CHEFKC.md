@@ -122,7 +122,8 @@ Output a single integer in a line - weight of **k**-th minimum cut of graph **G*
 <b>Output:</b>
 9
 
-</pre><pre><b>Input:</b>
+</pre>
+<pre><b>Input:</b>
 5 19 6
 1 5
 1 2 1

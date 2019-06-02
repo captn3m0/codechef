@@ -71,7 +71,7 @@ time:
     current: 1493557506
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/APRIL15/mandarin/CARLOS.pdf) and [Russian](http://www.codechef.com/download/translated/APRIL15/russian/CARLOS.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/APRIL15/mandarin/CARLOS.pdf) and [Russian](http://www.codechef.com/download/translated/APRIL15/russian/CARLOS.pdf).
 
 The Aa'ugld alphabet consists of **M** letters, which we'll denote by integers from **1** to **M** in alphabetical order - the smaller number a letter has, the earlier it appears in the alphabet. Since the author of this alphabet wasn't very creative, many letters can be transformed to other ones using some simple operations, which we'll call "inversions".
 
@@ -131,7 +131,8 @@ Subtask 3 (22 points):
 <b>Output:</b>
 2
 -1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** It's possible to transform the first letter to 1 and the last letter to 2. The resulting word has letters 1 2 2.
 

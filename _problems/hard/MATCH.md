@@ -73,7 +73,7 @@ All submissions for this problem are available.You are given two sets of vertexe
 
 What exactly does it mean?
 
-Let's call our complete bipartite graph with random edges as _random bipartite graph_.
+Let's call our complete bipartite graph with random edges as *random bipartite graph*.
 Consider some arbitrary [bipartite graph](http://en.wikipedia.org/wiki/Bipartite_graph) **G = (U, V, E)**. Denote by **P(G)** the probability that our random bipartite graph is equal to **G**. How to calculate **P(G)**? Consider some pair of vertexes **(U\[i\], V\[j\])**. If these vertexes are connected by the edge in **G** then put **PG\[i\]\[j\] = P\[i\]\[j\]** otherwise put **PG\[i\]\[j\] = 1 – P\[i\]\[j\]**. Then **P(G)** is equal to the product of **PG\[i\]\[j\]** for all **N ∙ M** pairs of **(i, j)**, where **1 ≤ i ≤ N** and **1 ≤ j ≤ M**.
 
 Next, denote by **MM(G)** the size of the [maximum matching](http://en.wikipedia.org/wiki/Maximum_matching#Definition) in the graph **G**. In other words, **MM(G)** is the size of the largest set of edges of **G** such that no two edges share a common vertex.
@@ -118,7 +118,8 @@ In the only line of the output file print the expected size of the maximum match
 
 <b>Output 2:</b>
 1.46
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the second example we have four different graphs with non-zero value of **P(G)**. Their adjacent matrices with marked maximum matching as well as the values of **MM(G)** and **P(G)** are listed in the table below.
 

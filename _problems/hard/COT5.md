@@ -69,7 +69,7 @@ time:
     current: 1493556669
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/FEB14/mandarin/COT5.pdf) and [Russian](http://www.codechef.com/download/translated/FEB14/russian/COT5.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/FEB14/mandarin/COT5.pdf) and [Russian](http://www.codechef.com/download/translated/FEB14/russian/COT5.pdf).
 
 In computer science, a treap is a binary search tree according to the keys and meanwhile a heap according to the weights. Follow the link for more details: [http://en.wikipedia.org/wiki/Treap](http://en.wikipedia.org/wiki/Treap "http://en.wikipedia.org/wiki/Treap")
 

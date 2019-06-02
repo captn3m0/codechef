@@ -110,6 +110,7 @@ For each test case, print a single line containing one integer - the minimum pos
 2
 2
 5
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 4:** Chef will walk from **x** = 0 to **x** = 1 in one minute, then he will enter the subway and move from station 1 (at **x** = 1) to station 2 (at **x** = 3) in one minute, then from station 2 to station 3 (at **x** = 6) in one minute, from station 3 to station 4 (at **x** = 10) in one minute, and finally, he will walk from **x** = 10 to **x** = 9 in one minute, which makes the total travel time 5 minutes.

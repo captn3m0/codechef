@@ -109,7 +109,8 @@ For each capacity **C** (**1 ≤ C ≤ M**) of the knapsack, output a single int
 
 <b>Output:</b>
 1 5 6 9 10 12 13 14 15 
-</pre>### Explanations
+</pre>
+### Explanations
 
 In the test case, **M** equals to 9.
 

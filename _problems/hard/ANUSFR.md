@@ -113,7 +113,8 @@ abcc
 0 1
 1 3
 -1 -1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Testcase #1**
 We need a substring with 2 different characters, of length 1 or 2 or 3 and in between S\[0..3\].

@@ -123,7 +123,8 @@ For each test case, output a single line containing the sum of answers of all th
 
 <b>Output:</b>
 5
-</pre>### Explanation
+</pre>
+### Explanation
 
 Array: **\[2, 4, 3, 5, 5\]**
 

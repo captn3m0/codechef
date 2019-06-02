@@ -41,19 +41,22 @@ For each testcase output the maximum value m or "IMPOSSIBLE" if no assignment is
 3 2
 1 2
 1 3
-</pre>### SAMPLE OUTPUT
+</pre>
+### SAMPLE OUTPUT
 
 <pre>
 IMPOSSIBLE
 2
-</pre>### CONSTRAINTS
+</pre>
+### CONSTRAINTS
 
 <pre>
 t <= 20
 N <= 10000
 M <= 20000
 1 <= a,b <= N
-</pre>### EXPLANATION
+</pre>
+### EXPLANATION
 
 <pre>
 A feasible assignment for the second testcase is: 

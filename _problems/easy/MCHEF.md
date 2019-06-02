@@ -71,7 +71,7 @@ time:
     current: 1493558167
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JULY15/mandarin/MCHEF.pdf) and [Russian](http://www.codechef.com/download/translated/JULY15/russian/MCHEF.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JULY15/mandarin/MCHEF.pdf) and [Russian](http://www.codechef.com/download/translated/JULY15/russian/MCHEF.pdf).
 
 Chef loves to prepare delicious dishes. He has prepared **N** dishes numbered from **1** to **N** for this year's MasterChef contest. He has presented all the **N** dishes to a panel of judges. Judging panel consists of **M** judges numbered from **1** to **M**. Rating for each dish was decided by voting from all the judges. Rating for the dishes has been given by a **1**-indexed array **A** where **Ai** denotes rating of the **ith** dish.
 
@@ -121,6 +121,7 @@ For each test case, print a single integer in a line corresponding to the answer
 
 <b>output</b>
 5
-</pre>### Explanation 
+</pre>
+### Explanation 
 
 - Chef can drop dish numbered 3rd with rating -5 by paying 10 rupees to the 4th judge, and get the maximum possible total rating of 5.

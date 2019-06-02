@@ -72,9 +72,9 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/COOK68/mandarin/ONOZ.pdf), [Russian](http://www.codechef.com/download/translated/COOK68/russian/ONOZ.pdf) and [Vietnamese](http://www.codechef.com/download/translated/COOK68/vietnamese/ONOZ.pdf) as well.
 
-_3:33_
+*3:33*
 
-It's possible for all the digits displayed on a digital clock in the _hours:minutes_ format to be identical. The time shown above (_3:33_) is an example of such a situation. Other examples are _2:2_ and _1:11_. Note that the digits of _33:33_ are identical, but it is not a valid time on a usual digital clock.
+It's possible for all the digits displayed on a digital clock in the *hours:minutes* format to be identical. The time shown above (*3:33*) is an example of such a situation. Other examples are *2:2* and *1:11*. Note that the digits of *33:33* are identical, but it is not a valid time on a usual digital clock.
 
 The above example was for a usual 24-hour format digital clock. Let's consider a more general clock, where an hour lasts **M** minutes and a day lasts **H** hours (therefore, the clock can show any number of hours between 0 and **H-1**, inclusive, and any number of minutes between 0 and **M-1**, inclusive). Both the hours and the minutes are shown **without leading zeroes** in decimal notation and their separator (e.g., ':') doesn't matter.
 
@@ -112,10 +112,11 @@ For each test case, output a single line corresponding to the answer of the prob
 11
 10
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
-**Example case 1.** A clock shows two identical digits at times _0:0_, _1:1_, .., _9:9_, three identical digits at times _11:1_, _22:2_, _1:11_, _2:22_, _3:33_, _4:44_, _5:55_, and four identical digits at times _11:11_ and _22:22_. So, there are 19 minutes during which the time displayed by the clock will have identical digits.
+**Example case 1.** A clock shows two identical digits at times *0:0*, *1:1*, .., *9:9*, three identical digits at times *11:1*, *22:2*, *1:11*, *2:22*, *3:33*, *4:44*, *5:55*, and four identical digits at times *11:11* and *22:22*. So, there are 19 minutes during which the time displayed by the clock will have identical digits.
 
-**Example case 2.** Compared to the previous case, the clock doesn't show _5:55_, but can show _33:3_ and _33:33_.
+**Example case 2.** Compared to the previous case, the clock doesn't show *5:55*, but can show *33:3* and *33:33*.
 
 **Example case 6.** In this example, our day consists of one hour and one hour consists of one minute. Hence, the entire day is just 1 minute - the only time the digital clock will display is 0:0 during the entire day, (i.e. the entire hour, i.e. entire minute). And 0:0 has all digits identical, so the answer is 1.

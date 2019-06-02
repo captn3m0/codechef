@@ -73,7 +73,7 @@ layout: problem
 ---
 All submissions for this problem are available.### Read problems statements in [Mandarin chinese](http://www.codechef.com/download/translated/FEB18/mandarin/CHEFCHR.pdf), [Russian](http://www.codechef.com/download/translated/FEB18/russian/CHEFCHR.pdf) and [Vietnamese](http://www.codechef.com/download/translated/FEB18/vietnamese/CHEFCHR.pdf) as well.
 
-Chef was reading a book. He decided to highlight all the lovely sentences of the book. He calls a sentence a _lovely_ sentence if, after removing all the non-alphabetical characters (like punctuation and spaces) from it and converting all uppercase letters to lowercase, it is possible to choose **four contiguous characters** from the sentence and reorder them to create the string “chef”.
+Chef was reading a book. He decided to highlight all the lovely sentences of the book. He calls a sentence a *lovely* sentence if, after removing all the non-alphabetical characters (like punctuation and spaces) from it and converting all uppercase letters to lowercase, it is possible to choose **four contiguous characters** from the sentence and reorder them to create the string “chef”.
 
 Chef has almost completed the highlighting work, only a few sentences are left to be checked and highlighted. Now, he wants your help in checking the remaining sentences, as he has to help his mother in the kitchen.
 
@@ -122,7 +122,8 @@ lovely 3
 lovely 1
 lovely 3
 normal
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** We can select “fche” (the substring starting at index 2) or “chef” (index 3).
 

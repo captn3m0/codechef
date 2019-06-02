@@ -68,7 +68,7 @@ time:
     current: 1493558121
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/NOV14/mandarin/CHEFSEG.pdf) and [Russian](http://www.codechef.com/download/translated/NOV14/russian/CHEFSEG.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/NOV14/mandarin/CHEFSEG.pdf) and [Russian](http://www.codechef.com/download/translated/NOV14/russian/CHEFSEG.pdf).
 
 Chef loves to play games. Now he plays very interesting game called "Segment". At the beginning Chef has segment **\[0, X\]** and no points on it. On each step Chef chooses the subsegment of maximal length possible such as it contains **no** points on it. If there are more than one such subsegment Chef chooses the one with the minimal left coordinate. Once Chef chosed the subsegment he put the point in it's middle and the step is over.
 
@@ -108,6 +108,7 @@ Help Chef to define the coordinate of the point he will put on the **K**-th step
 2.5000
 7.5000
 177375316.6198730500000000
-</pre>### Explanation
+</pre>
+### Explanation
 
 You can see the points coordinates for the third sample from first two samples.

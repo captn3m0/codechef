@@ -74,7 +74,7 @@ All submissions for this problem are available.Heavy-light decomposition of a tr
 
 Heavy-light decomposition is to be built on a rooted tree. In this problem, the node with the number **1** should be considered the root of a tree. Heavy light decomposition is a colouring of edges of the tree. Each edge is either heavy or light. For each non leaf node (node having degree greater than 1), from all the edges emanating from it into the subtree rooted at this vertex should have exactly one heavy edge.
 
-The heavy-light decomposition is called correct, if you can reach any node from the root node by using no more that **⌊ log2 N ⌋** _light_ edges, where **N** is the number of nodes in the tree.
+The heavy-light decomposition is called correct, if you can reach any node from the root node by using no more that **⌊ log2 N ⌋** *light* edges, where **N** is the number of nodes in the tree.
 
 Given a tree, calculate the number of its' correct heavy-light decompositions. As answer could be very large, please print it modulo **19101995**.
 
@@ -109,6 +109,7 @@ Output the number of correct heavy-light decompositions of the given tree. Since
 
 <b>Output:</b>
 8
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** Input is a complete binary tree. It consists of 7 nodes, therefore you can't have more than **⌊log2 7⌋ = ⌊(2.80735492206)⌋ = 2**  light edges on the path from the root node to any other one. But the tree's height is 2, so you can choose the decomposition in any way you like. All the decompositions will be correct ones. There are three nodes that has outgoing edges from them (in the direction opposite to the root's one), their numbers are **1**, **2** and **3**. Each of them has 2 outgoing edges from which you can colour exactly one of them heavy, so overall you'll have 2 \* 2 \* 2 = 8 options of creating the correct heavy-light decompositions.

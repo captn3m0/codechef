@@ -152,40 +152,87 @@ NOT OK
 10 ! 6 -1 720
 15 ^ 341 12 2062435601
 NOT OK
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**
  The expression is:
 
-`- 5 * 6 7`Considering evaluation rules we see that only the third rule with operation **\*** is applicable.
- So we calculate **\* 6 7**, which is **42**, and replace **\* 6 7** with **42**: `- 5 42`Now we are left with only one operation followed by two integers.
- So we calculate **- 5 42**, which is **-37**, and replace **- 5 42** with **-37**: `-37`We are left with a single integer.
+<pre>- 5 * 6 7
+</pre>
+Considering evaluation rules we see that only the third rule with operation **\*** is applicable.
+ So we calculate **\* 6 7**, which is **42**, and replace **\* 6 7** with **42**: ```
+- 5 42
+<pre>
+Now we are left with only one operation followed by two integers.
+ So we calculate **- 5 42**, which is **-37**, and replace **- 5 42** with **-37**: ```
+-37
+</pre>
+We are left with a single integer.
  Therefore, expression is correct and we output **"OK"**. **Example case 2.**
  The expression is:
 
-`- * / 15 - 7 <u><b>+ 1 1</b></u> 3 + 2 + 1 1`The underlined operation will be performed first as it is the only operation followed by at least three integers. So we replace **+ 1 1** with **2**: `- * / 15 <u><b>- 7 2</b></u> 3 + 2 + 1 1`By the same reason as above we replace **- 7 2** with **5**: `- * <u><b>/ 15 5</b></u> 3 + 2 + 1 1`By the same reason as above we replace **/ 15 5** with **3**: `- <u><b>* 3 3</b></u> + 2 + 1 1`Among candidates **\* 3 3** and **+ 1 1**, the \* is performed as it has higher priority.
- So we replace **\* 3 3** with **9**: `- 9 + 2 <u><b>+ 1 1</b></u>`The underlined operation is the only one followed by at least 2 integers.
- So we replace **+ 1 1** with **2**: `- 9 <u><b>+ 2 2</b></u>`By the same reason as above we replace **+ 2 2** with **4**: `- 9 4`Now we are left with only one operation followed by two integers.
- So we replace **- 9 4** with **5**: `5` We are left with a single integer.
+<pre>- * / 15 - 7 <u><b>+ 1 1</b></u> 3 + 2 + 1 1
+</pre>
+The underlined operation will be performed first as it is the only operation followed by at least three integers. So we replace **+ 1 1** with **2**: ```
+- * / 15 <u><b>- 7 2</b></u> 3 + 2 + 1 1
+<pre>
+By the same reason as above we replace **- 7 2** with **5**: ```
+- * <u><b>/ 15 5</b></u> 3 + 2 + 1 1
+</pre>
+By the same reason as above we replace **/ 15 5** with **3**: ```
+- <u><b>* 3 3</b></u> + 2 + 1 1
+<pre>
+Among candidates **\* 3 3** and **+ 1 1**, the \* is performed as it has higher priority.
+ So we replace **\* 3 3** with **9**: ```
+- 9 + 2 <u><b>+ 1 1</b></u>
+</pre>
+The underlined operation is the only one followed by at least 2 integers.
+ So we replace **+ 1 1** with **2**: ```
+- 9 <u><b>+ 2 2</b></u>
+<pre>
+By the same reason as above we replace **+ 2 2** with **4**: ```
+- 9 4
+</pre>
+Now we are left with only one operation followed by two integers.
+ So we replace **- 9 4** with **5**: ```
+5
+<pre>
+ We are left with a single integer.
  Therefore, expression is correct and we output **"OK"**. **Example case 3.**
  The expression is:
 
-`+ 2 3 4 <u><b>* 1 2</b></u> 3 4 ^ 6 7 * 5 6 7`Among all the operations followed by at least 3 integers, \* has the highest priority.
+</pre>+ 2 3 4 <u><b>* 1 2</b></u> 3 4 ^ 6 7 * 5 6 7
+<pre>
+Among all the operations followed by at least 3 integers, \* has the highest priority.
  As there are more than one such multiplications, we consider the leftmost one, which is underlined.
- So we replace **\* 1 2** with **2**: `+ 2 3 4 2 3 4 ^ 6 7 <u><b>* 5 6</b></u> 7`Similarly as above, among all the operations followed by at least 3 integers, \* has the highest priority.
- So we replace **\* 5 6** with **30**: `+ 2 3 4 2 3 4 <u><b>^ 6 7</b></u> 30 7`Now, among all the operations followed by at least 3 integers, ^ has the highest priority.
- So we replace **^ 6 7** with **279936**: `<u><b>+ 2 3</b></u> 4 2 3 4 279936 30 7`Now, there is only one operation that can be performed.
- So we replace **+ 2 3** with **5**: `5 4 2 3 4 279936 30 7`Now, no evaluation rule can be applied and we stop the evaluation.
+ So we replace **\* 1 2** with **2**: ```
++ 2 3 4 2 3 4 ^ 6 7 <u><b>* 5 6</b></u> 7
+</pre>
+Similarly as above, among all the operations followed by at least 3 integers, \* has the highest priority.
+ So we replace **\* 5 6** with **30**: ```
++ 2 3 4 2 3 4 <u><b>^ 6 7</b></u> 30 7
+<pre>
+Now, among all the operations followed by at least 3 integers, ^ has the highest priority.
+ So we replace **^ 6 7** with **279936**: ```
+<u><b>+ 2 3</b></u> 4 2 3 4 279936 30 7
+</pre>
+Now, there is only one operation that can be performed.
+ So we replace **+ 2 3** with **5**: ```
+5 4 2 3 4 279936 30 7
+<pre>
+Now, no evaluation rule can be applied and we stop the evaluation.
  Since we are left with more than one token, the expression is incorrect and we output **"NOT OK"**. **Example case 4.**
  The evaluation proceeds as follows:
 
-<pre>
+</pre>
 <u><b>! -3</b></u> + * 167 164 - 257 + 190 ! 6 - / 272 0 ^ 341 12 18 !
 -6 + * 167 164 - 257 + 190 <u><b>! 6</b></u> - / 272 0 ^ 341 12 18 !
 -6 + * 167 164 - 257 + 190 720 - / 272 0 <u><b>^ 341 12</b></u> 18 !
 -6 + * 167 164 - 257 + 190 720 - <u><b>/ 272 0</b></u> 2062435601 18 !
 NOT OK
-</pre>Here at first two steps the first rule (with factorials) was applied.
+<pre>
+Here at first two steps the first rule (with factorials) was applied.
  At the 3rd and the 4th step the 3rd rule was applied.
  Since quotient **272 / 0** is undefined (see the definition) we stop evaluation.
  So the expression is incorrect and we output **"NOT OK"**.

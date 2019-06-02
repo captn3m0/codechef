@@ -77,7 +77,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 A palindrome is a string that reads same in both directions: forwards and backwards. For example, the strings **radar** and **noon** are palindromes, whereas the string **chef** is not a palindrome as being read backwards is becomes equal to **fehc**, which is not equal to **chef**.
 
-Let's say that the pair of indices **(i, j)** _denotes a palindrome_ in some string **S** iff **i ≤ j** and the substring starting at the **i**-th character and ending at the **j**-th character of **S** is a palindrome.
+Let's say that the pair of indices **(i, j)** *denotes a palindrome* in some string **S** iff **i ≤ j** and the substring starting at the **i**-th character and ending at the **j**-th character of **S** is a palindrome.
 
 Given an integer **N**. Your task is to construct a string **S** such that there are exactly **N** different pairs **(i, j)** that denotes a palindrome.
 
@@ -110,7 +110,8 @@ If such string **S** doesn't exist, output **-1** instead of it.
 <tt>noon
 radar
 ab</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** In the string "noon", the pairs that denote a palindrome are (1-indexed): **(1, 1), (1, 4), (2, 2), (2, 3), (3, 3), (4, 4)**.
 

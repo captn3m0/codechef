@@ -25,7 +25,7 @@ time:
     current: 1493558176
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/AUG14/mandarin/PRGIFT.pdf) and [Russian](http://www.codechef.com/download/translated/AUG14/russian/PRGIFT.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/AUG14/mandarin/PRGIFT.pdf) and [Russian](http://www.codechef.com/download/translated/AUG14/russian/PRGIFT.pdf).
 
 Today is chef's friend's birthday. He wants to give a gift to his friend. So he was desperately searching for some gift here and there.
 
@@ -70,15 +70,9 @@ YES
 YES
 NO
 YES
-</pre><pre><br></br>
-for (int i = 0; i < n; i++)<br></br>
-    if (i > 0) {<br></br>
-       ans++;<br></br>
-    } else {<br></br>
-       ans--;<br></br>
-    }<br></br>
-
 </pre>
+`<br></br>for (int i = 0; i < n; i++)<br></br>    if (i > 0) {<br></br>       ans++;<br></br>    } else {<br></br>       ans--;<br></br>    }<br></br>`
+
 ### Explanation
 
 For  **first**  test case, we can select a\[2, 2\] = {2}. 

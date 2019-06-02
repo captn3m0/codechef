@@ -77,7 +77,7 @@ layout: problem
 ---
 All submissions for this problem are available.Consider the 2-d plane which is white. You are given **n** semi-discs on it which are colored black. They are placed on the x - axis at various positions, in such a way that its center is on the x-axis and the entire semi-disc is **on or above** the x-axis. By center of a semi-disc, we mean the center of the disc of which it is a part. For each semi-disc you know its radius and the coordinate of its center in the x-axis. There may be overlaps or one may be completely inside / outside another semi-disc.
 
-There are **q** queries. In each query you will be given a circle with radius **r** and center C at coordinates (x, y). It is guaranteed that  _y ≥ r_ (meaning that no part of the circle is below the x-axis). You need to find the area within the circle _which is **black**_. Meaning, area of the circle which is overlapping with some part of any semi-disc.
+There are **q** queries. In each query you will be given a circle with radius **r** and center C at coordinates (x, y). It is guaranteed that  *y ≥ r* (meaning that no part of the circle is below the x-axis). You need to find the area within the circle *which is **black***. Meaning, area of the circle which is overlapping with some part of any semi-disc.
 
 ### Input
 
@@ -118,7 +118,8 @@ There are **q** queries. In each query you will be given a circle with radius **
 <b>Output:</b>
 9.3204778956
 10.2198951180
-</pre>### Explanation
+</pre>
+### Explanation
 
  Note that the example shown above has only two queries (for brief representation) and hence doesn't satisfy the 20 ≤ **q** constraint. However, in the original test data the constraints will be followed.
 

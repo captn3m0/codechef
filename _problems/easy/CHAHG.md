@@ -73,12 +73,12 @@ All submissions for this problem are available.###  Read problems statements in 
 
 Chef is an advocate for Go Green Initiative. Today he had **n** trees planted in a row outside his his restaurant. Today, the height of **i**-th tree is **hi** feet. The trees grow at a rate of **mi** feet per day.
 
-Chef knows that trees will look beautiful if they form a _zig-zag_ sequence. The trees will be said to be in _Zig-zag_ sequence if the heights of tree first increases or decreases, then alternates between decreasing/increasing respectively. Formally, the trees will be said to in _Zig-zag_ sequence if one of the following two conditions holds.
+Chef knows that trees will look beautiful if they form a *zig-zag* sequence. The trees will be said to be in *Zig-zag* sequence if the heights of tree first increases or decreases, then alternates between decreasing/increasing respectively. Formally, the trees will be said to in *Zig-zag* sequence if one of the following two conditions holds.
 
 - **h1 2 > h3 4** and so on..
 - **h1 > h2 3 > h4** and so on..
 
-Chef wants to know intervals of time when the heights of the trees will form a _zig-zag_ sequence.
+Chef wants to know intervals of time when the heights of the trees will form a *zig-zag* sequence.
 
 ### Input
 
@@ -127,6 +127,7 @@ The test cases are designed in such a way that the total output won't exceed 2 M
 0 0
 2 Inf
 0</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
-**Example case 1.** In the first case **0 2 0** is already a _zig-zag_ sequence, but on the 2nd second it will become **2 6 6** and will never turn back into _zig-zag_
+**Example case 1.** In the first case **0 2 0** is already a *zig-zag* sequence, but on the 2nd second it will become **2 6 6** and will never turn back into *zig-zag*

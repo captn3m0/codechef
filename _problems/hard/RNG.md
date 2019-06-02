@@ -68,7 +68,7 @@ time:
     current: 1493556816
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MARCH15/mandarin/RNG.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH15/russian/RNG.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MARCH15/mandarin/RNG.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH15/russian/RNG.pdf).
 
 You may know how to write a random number generator (RNG) after solving [this problem (SEAPROAR)](http://www.codechef.com/MARCH15/problems/SEAPROAR).
 
@@ -116,7 +116,8 @@ Print a single integer denoting value of **AN**.
 
 <b>Output:</b>
 139
-</pre>### Explanation
+</pre>
+### Explanation
 
 **A1 = 1.**
 **A2 = 2.**

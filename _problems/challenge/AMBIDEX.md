@@ -90,12 +90,14 @@ Your score for each test case is (C\*N-H)/M, where C is the number of complete c
 8 12
 6 6 8 7 1 1 6 5 3 8 7 6
 2 8 1 5 8 2 7 7 1 3 4 4
-</pre>### Sample Output
+</pre>
+### Sample Output
 
 <pre>2 2 1 3 3 1 3 2 1
 2 0 1 1 2 1 0 2 2 1 2 1
 
-</pre>The score for the first test case is (3\*5-9)/9 = 0.666667, and the score for the second test case is (2\*8-10)/12 = 0.5. Hence the overall score is 0.583333.
+</pre>
+The score for the first test case is (3\*5-9)/9 = 0.666667, and the score for the second test case is (2\*8-10)/12 = 0.5. Hence the overall score is 0.583333.
 
 ### Test case generation
 

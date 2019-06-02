@@ -70,7 +70,7 @@ time:
     current: 1492507579
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME27/mandarin/MNMX.pdf) , [Russian](http://www.codechef.com/download/translated/LTIME27/russian/MNMX.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME27/vietnamese/MNMX.pdf)
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME27/mandarin/MNMX.pdf) , [Russian](http://www.codechef.com/download/translated/LTIME27/russian/MNMX.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME27/vietnamese/MNMX.pdf)
 
 Chef loves to play with arrays by himself. Today, he has an array **A** consisting of **N** distinct integers. He wants to perform the following operation on his array **A**.
 
@@ -111,6 +111,7 @@ For each test case, print the minimum cost required for the transformation.
 <b>Output</b>
 3
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Test 1 :**  Chef will make only 1 move: pick up both the elements (that is, 3 and 4), remove the larger one (4), incurring a cost equal to the smaller one (3).

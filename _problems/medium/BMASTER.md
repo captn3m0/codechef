@@ -141,7 +141,8 @@ For every Maelk's query output on a separate line the numbers of images Maelk wi
 4
 12
 17
-</pre>### Explanation
+</pre>
+### Explanation
 
 The initial grid looks as follows:
 100

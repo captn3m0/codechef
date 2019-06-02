@@ -102,7 +102,8 @@ Output a single line containing one integer, the minimum number of operations th
 
 <b>Output:</b>
 6
-<pre>### Explanation
+<pre>
+### Explanation
 
 For the given sample case, let us look at the way where we achieved minimum number of operations.
 

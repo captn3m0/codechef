@@ -75,9 +75,9 @@ layout: problem
 ---
 All submissions for this problem are available.### Read problems statements in [mandarin chinese](http://www.codechef.com/download/translated/SEPT17/mandarin/FILLMTR.pdf), [russian](http://www.codechef.com/download/translated/SEPT17/russian/FILLMTR.pdf) and [vietnamese](http://www.codechef.com/download/translated/SEPT17/vietnamese/FILLMTR.pdf) as well.
 
-A matrix B (consisting of integers) of dimension N × N is said to be _good_ if there exists an array A (consisting of integers) such that B\[i\]\[j\] = |A\[i\] - A\[j\]|, where |x| denotes absolute value of integer x.
+A matrix B (consisting of integers) of dimension N × N is said to be *good* if there exists an array A (consisting of integers) such that B\[i\]\[j\] = |A\[i\] - A\[j\]|, where |x| denotes absolute value of integer x.
 
-You are given a partially filled matrix **B** of dimension **N × N**. **Q** of the entries of this matrix are filled by either 0 or 1. You have to identify whether it is possible to fill the remaining entries of matrix **B** (the entries can be filled by **any** integer, not necessarily by 0 or 1) such that the resulting fully filled matrix **B** is _good_.
+You are given a partially filled matrix **B** of dimension **N × N**. **Q** of the entries of this matrix are filled by either 0 or 1. You have to identify whether it is possible to fill the remaining entries of matrix **B** (the entries can be filled by **any** integer, not necessarily by 0 or 1) such that the resulting fully filled matrix **B** is *good*.
 
 ### Input
 
@@ -130,11 +130,13 @@ yes
 no
 yes
 no
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example 1**. You can fill the entries of matrix **B** as follows.
 
 <pre>
 0 1
 <b>1 0</b>
-</pre>This matrix corresponds to the array A = \[1, 2\]. **Example 2**. It is impossible to fill the remaining entries of matrix B such that the resulting matrix is good, as **B**\[1\]\[2\] = 1 and **B**\[2\]\[1\] = 0, which is impossible.
+</pre>
+This matrix corresponds to the array A = \[1, 2\]. **Example 2**. It is impossible to fill the remaining entries of matrix B such that the resulting matrix is good, as **B**\[1\]\[2\] = 1 and **B**\[2\]\[1\] = 0, which is impossible.

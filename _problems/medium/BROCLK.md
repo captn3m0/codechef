@@ -123,7 +123,8 @@ For each test case, print a single line containing one number (**p** · **r**) m
 2
 1000000005
 1000000003
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:**
 

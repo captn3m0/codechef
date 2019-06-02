@@ -116,7 +116,8 @@ It is guaranteed that a solution exists. And if there are multiple solutions, pr
 10 
 3
 5 1 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** We first pick 3 coins from \[3, 2\] then we pick 2 coins from \[2, 1\]
 **Example case 2.** As 3rd column contains 10 coins in cell \[5, 3\] we pick it.

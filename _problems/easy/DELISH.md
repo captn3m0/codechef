@@ -113,7 +113,8 @@ Print the maximum delish value of the dish that the chef can get.
 <b>Output:</b>
 13
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**
 

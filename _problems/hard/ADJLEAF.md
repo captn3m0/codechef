@@ -137,7 +137,8 @@ For each test-case output **N** lines, in i-th line output a single integer deno
 27
 27
 27
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** all subsets of leaves are good whatever the root is, so the answer is 7 when there are 3 leaves and 3 when there are 2 leaves
 

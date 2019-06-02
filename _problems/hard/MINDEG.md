@@ -98,7 +98,8 @@ For the constraints given below, it can be proved that the answer (the expected 
 <b>Output2:</b>
 199648875
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example #1.** The graph contains 3 vertices and Chef will add 3 edges. No matter what the order of adding edges is, the cost of adding the first edge is 0 because degrees of vertices are 0 initially. Similarly, the cost of adding the second edge is 0 because at least one of two vertices connected with a new edge has degree 0. Finally, the third edge connects vertices that both have degree 1 after adding first two edges, so the cost is min(1, 1) = 1. The total cost is always 1, so its expected value is 1 as well.
 

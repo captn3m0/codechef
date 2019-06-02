@@ -81,18 +81,21 @@ Usually, I am skeptical of such legends. So, I want to check for myself whether 
 ##
 ##
 </tt>
-</pre>Now, the legend could be true. A snake can be on it, and one possible configuration is as follows. The head of the snake is at (1, 1), then the next portion at (1, 2), then at (2, 2) and then the finally the tail at (2, 1). Notice that the parts of the snake can be adjacent only if the corresponding cells have a common side. ```
+</pre>
+Now, the legend could be true. A snake can be on it, and one possible configuration is as follows. The head of the snake is at (1, 1), then the next portion at (1, 2), then at (2, 2) and then the finally the tail at (2, 1). Notice that the parts of the snake can be adjacent only if the corresponding cells have a common side. ```
 <tt>
 ##.#..
 .###..
 </tt>
-<pre>There can be a snake on the plate above.
+<pre>
+There can be a snake on the plate above.
 
 </pre><tt>
 ##.##
 .#.#.
 </tt>
-<pre>The legend is surely false if the plate is as above. These are not marks of a single snake. There could be more than one possible snakes here. But not a single snake.
+<pre>
+The legend is surely false if the plate is as above. These are not marks of a single snake. There could be more than one possible snakes here. But not a single snake.
 
 Given the description of the plate, figure out if the legend could be true, or if it is definitely false.
 

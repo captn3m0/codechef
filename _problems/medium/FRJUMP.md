@@ -73,9 +73,9 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JUNE16/mandarin/FRJUMP.pdf), [Russian](http://www.codechef.com/download/translated/JUNE16/russian/FRJUMP.pdf) and [Vietnamese](http://www.codechef.com/download/translated/JUNE16/vietnamese/FRJUMP.pdf) as well.
 
-Chef likes to travel a lot. Every day Chef tries to visit as much cities as possible. Recently he had a quite a few trips of great Chefland for learning various recipes. Chefland had **N** cities numbered from 1 to **N**. People in Chefland are very friendly, _friendliness_ of **i**-th city is given by **Fi**.
+Chef likes to travel a lot. Every day Chef tries to visit as much cities as possible. Recently he had a quite a few trips of great Chefland for learning various recipes. Chefland had **N** cities numbered from 1 to **N**. People in Chefland are very friendly, *friendliness* of **i**-th city is given by **Fi**.
 
-Before starting of each trip, Chef's initial enjoyment is 1 unit. Whenever he visits a city with _friendliness_ **Fi**, his enjoyment gets multiplied by **Fi** units.
+Before starting of each trip, Chef's initial enjoyment is 1 unit. Whenever he visits a city with *friendliness* **Fi**, his enjoyment gets multiplied by **Fi** units.
 
 City **1** is the home city of Chef. He starts each trip from his home city. Before starting a trip, he chooses a parameter **R** which denotes that he will start from city **1**, and go to city **1 + R**, then to **1 + 2 \* R**, then to **1 + 3 \* R**, till **1 + i \* R** such that **i** is largest integer satisfying **1 + i \* R ≤ N**.
 
@@ -141,7 +141,8 @@ For each query of type **2**, output two space separated integers, first digit o
 <b>Output:</b>
 1 120
 5 50
-</pre>### Explanation
+</pre>
+### Explanation
 
 **In the first query**, Chef is going to visit cities 1, 2, 3, 4, 5 in order. At the end of the trip, his total enjoyment will be 1 \* 2 \* 3 \* 4 \* 5 = 120. First digit of enjoyment is 1 and 120 modulo **109 + 7** is 120.
 

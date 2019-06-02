@@ -120,6 +120,7 @@ For each test case, output a single line containing answer for corresponding tes
 0.000000
 
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** Game will have only 1 turn. Chef will choose 3, while Sasha will choose 4. Since 34>43 girl will kiss boy. Hence answer is 1.

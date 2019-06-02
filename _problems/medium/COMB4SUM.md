@@ -75,7 +75,8 @@ All submissions for this problem are available.### Read problems statements in [
 
  ```
 <b>|a+b-c-d| + |a+c-b-d| + |a+d-b-c| + |c+d-a-b| + |b+d-a-c| + |b+c-a-d|</b>
-<pre>where **|x|** denotes absolute value of **x**.
+<pre>
+where **|x|** denotes absolute value of **x**.
 
 ### Read problems statements in [Mandarin Chinese](/download/translated/COOK60/mandarin/COMB4SUM.pdf) and [Russian](/download/translated/COOK60/russian/COMB4SUM.pdf) as well.
 
@@ -83,7 +84,8 @@ All submissions for this problem are available.### Read problems statements in [
 
  ```
 <b>|a+b-c-d| + |a+c-b-d| + |a+d-b-c| + |c+d-a-b| + |b+d-a-c| + |b+c-a-d|</b>
-</pre>where **|x|** denotes absolute value of **x**.
+</pre>
+where **|x|** denotes absolute value of **x**.
 
 Given an array **A** of size **N**, you need to find the sum of **Special Sum** of numbers taken over all quadruples of different indices of the array. 
  ![](https://s3.amazonaws.com/codechef_shared/download/specialsum.png)
@@ -123,7 +125,8 @@ For each test case output the sum as explained above.
 10
 76
 1176
-<pre>### Explanation:
+<pre>
+### Explanation:
 
 Test Case 1: SpecialSum(1,2,3,3) = 10 .
 

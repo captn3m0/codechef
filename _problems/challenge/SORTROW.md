@@ -114,7 +114,8 @@ The printed grid should contain all values 1 through **N**2. Each row should be 
 1 5 7 10
 16 13 6 4
 3 9 11 15
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the provided output, each row is indeed sorted — the third row is sorted decreasingly, while other rows are sorted increasingly. Let's compute the score:
 

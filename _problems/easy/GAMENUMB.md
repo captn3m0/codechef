@@ -126,6 +126,7 @@ For each test case, print a single line containing one integer — the sum of nu
 <b>Output:</b>
 
 7
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** The cards that are on table initially are 1, 1, 2, 2, 3, 3, 4, 4 Chef in his turn should select 6 cards to keep and discard the rest, so he will keep 2, 2, 3, 3, 4, 4 after that Chefu should keep 3 cards and discard the rest, so he will keep 2, 2, 3 after that the game ends and sum of cards remained on the table is 2 + 2 + 3 = 7

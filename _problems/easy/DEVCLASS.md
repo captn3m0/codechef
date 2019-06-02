@@ -69,7 +69,7 @@ time:
     current: 1493558135
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MARCH15/mandarin/DEVCLASS.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH15/russian/DEVCLASS.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MARCH15/mandarin/DEVCLASS.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH15/russian/DEVCLASS.pdf).
 
 Devu is a class teacher of a class of **n** students. One day, in the morning prayer of the school, all the students of his class were standing in a line. You are given information of their arrangement by a string **s**. The string **s** consists of only letters **'B'** and **'G'**, where **'B'** represents a boy and **'G'** represents a girl.
 
@@ -150,7 +150,8 @@ BGB
 3
 1
 0
-</pre>### Explanation
+</pre>
+### Explanation
 
 Note **type** of the first **3** test cases is 0. So **c(i, j) = 1**. Hence we just have to count minimum number of swaps needed.
 

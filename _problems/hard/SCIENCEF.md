@@ -132,7 +132,8 @@ Print a single integer **(A\*B-1) mod** **109+7** where **A/B** is the expected 
 
 <b>Output:</b>
 125000005
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Official List****Probability****Path travelled****Length****Students**
 **in trip****Talk**

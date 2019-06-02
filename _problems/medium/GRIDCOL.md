@@ -70,11 +70,11 @@ time:
 layout: problem
 ---
 All submissions for this problem are available.The Chef wants to color a **3xN** grid and he has **N** different types of colors to do that. Each cell of the grid has to be colored with exactly one color. A coloring of the grid is
-considered _beautiful_ if no two cells of the same row or same column have the same color.
+considered *beautiful* if no two cells of the same row or same column have the same color.
 
-The cells of first two rows are already colored and they don’t violate the _beautiful_ condition (one color doesn’t appear more than once on the same row or on the same column).
+The cells of first two rows are already colored and they don’t violate the *beautiful* condition (one color doesn’t appear more than once on the same row or on the same column).
 
-Find how many different ways he can color the **3rd** row such that the resulting grid is _beautiful_. Two ways of coloring are considered different if there is at least one cell which is colored with different color.
+Find how many different ways he can color the **3rd** row such that the resulting grid is *beautiful*. Two ways of coloring are considered different if there is at least one cell which is colored with different color.
 
 ### Input
 
@@ -87,7 +87,7 @@ The first line of the input contains an integer **T** denoting the number of tes
 
 ### Output
 
-For each test case, output the number of ways to color the **3rd** row such that the resulting grid is _beautiful_. Output the result modulo **1000000007**.
+For each test case, output the number of ways to color the **3rd** row such that the resulting grid is *beautiful*. Output the result modulo **1000000007**.
 
 ### Constraints
 
@@ -111,7 +111,8 @@ For each test case, output the number of ways to color the **3rd** row such that
 <b>Output:</b>
 2
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 For the 1st case the valid ways to color the **3rd** row are: {1,3,2,4} and {3,4,1,2}.
 For the 2nd case the valid ways are: {3,1,4,2} , {3,2,4,1} , {4,1,3,2} and {4,2,3,1}.

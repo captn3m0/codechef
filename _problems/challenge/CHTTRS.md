@@ -71,7 +71,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 Chef has created his own game called **Chetris** and now he wants you to play this game. The rules of Chetris are very similar to a rather well-known game [**Tetris**](https://en.wikipedia.org/wiki/Tetris), but there are some subtle differences, so we recommend you to read the rules before start playing.
 
-**Rules of the game:** _Tetrominos_ are game pieces — geometric shapes composed of four square blocks each. There are seven types of Tetrominos and each of them can be rotated (lets enumerate types of Tetrominos by numbers from 1 to 7 and their rotational configuration by small Latin letters _a_ through _d_ ). You can see this enumeration in the picture below.
+**Rules of the game:** *Tetrominos* are game pieces — geometric shapes composed of four square blocks each. There are seven types of Tetrominos and each of them can be rotated (lets enumerate types of Tetrominos by numbers from 1 to 7 and their rotational configuration by small Latin letters *a* through *d* ). You can see this enumeration in the picture below.
 
 ![picture](https://s3.amazonaws.com/codechef_shared/download/SEPT15/CHTTRS1.jpg)
 
@@ -132,7 +132,8 @@ a 7 7
 c 6 7
 a 3 8
 a 1 6
-</pre><pre><b>Input:</b>
+</pre>
+<pre><b>Input:</b>
 1 1
 1 1
 1 3
@@ -149,7 +150,8 @@ a 15 13
 c 15 4
 b 15 12
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**
 

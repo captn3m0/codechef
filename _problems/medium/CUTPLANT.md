@@ -93,11 +93,13 @@ Daniil is a royal gardener. He takes care of a garden with $N$ plants numbered $
 1 2
 2 1
 </tt>
-<pre>\### Example Output ```
+<pre>
+\### Example Output ```
 <tt>
 2
 3
 0
 -1
 </tt>
-</pre>\### Explanation \*\*Example case 1:\*\* Daniil can perform two operations: reduce the height of the first plant to $2$ and reduce the height of the third plant to $2$. Note that it is not possible to reduce the heights of all three plants to $2$ in one operation, because the second plant's height is less than $2$. We need two operations, thus the answer is $2$. \*\*Example case 2:\*\* In the first operation, cut the plants in the interval $\[2, 4\]$ down to height $2$. Afterwards, cut the third plant down to height $1$. Finally, cut the plants in the interval $\[6, 7\]$. \*\*Example case 3:\*\* All plants already have the desired heights, so the answer is $0$. \*\*Example case 4:\*\* It is impossible to achieve the desired sequence of heights.
+</pre>
+\### Explanation \*\*Example case 1:\*\* Daniil can perform two operations: reduce the height of the first plant to $2$ and reduce the height of the third plant to $2$. Note that it is not possible to reduce the heights of all three plants to $2$ in one operation, because the second plant's height is less than $2$. We need two operations, thus the answer is $2$. \*\*Example case 2:\*\* In the first operation, cut the plants in the interval $\[2, 4\]$ down to height $2$. Afterwards, cut the third plant down to height $1$. Finally, cut the plants in the interval $\[6, 7\]$. \*\*Example case 3:\*\* All plants already have the desired heights, so the answer is $0$. \*\*Example case 4:\*\* It is impossible to achieve the desired sequence of heights.

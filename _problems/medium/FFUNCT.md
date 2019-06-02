@@ -68,7 +68,7 @@ time:
     current: 1493557656
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/SNCK15EL/mandarin/FFUNCT.pdf) , [Russian](http://www.codechef.com/download/translated/SNCK15EL/russian/FFUNCT.pdf) and [Vietnamese](http://www.codechef.com/download/translated/SNCK15EL/vietnamese/FFUNCT.pdf)
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/SNCK15EL/mandarin/FFUNCT.pdf) , [Russian](http://www.codechef.com/download/translated/SNCK15EL/russian/FFUNCT.pdf) and [Vietnamese](http://www.codechef.com/download/translated/SNCK15EL/vietnamese/FFUNCT.pdf)
 
 You are given **N** boolean functions. Formally, each boolean function is a mapping from **{0, 1}K** to **{0, 1}**, where **K** is a number of variables of the function. Different functions in this problem can have different parameters of **K**.
 
@@ -127,7 +127,8 @@ q 2 3
 <b>Output:</b>
 3
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 The first function of an initial array corresponds to conjunction (AND operation), the second one corresponds to disjunction (OR operation) and the third one corresponds to negation (NOT operation).
 

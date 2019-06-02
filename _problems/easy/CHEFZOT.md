@@ -68,7 +68,7 @@ time:
     current: 1493558213
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JUNE14/mandarin/CHEFZOT1.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE14/russian/CHEFZOT.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JUNE14/mandarin/CHEFZOT1.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE14/russian/CHEFZOT.pdf).
 
 Chef loves research! Now he is looking for subarray of maximal length with non-zero product.
 
@@ -114,7 +114,8 @@ Product of subarray **Aij** is product of all its elements (from **ith** to **jt
 
 <b>Output:</b>
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 For the first sample subarray is: {2, 3}.
 

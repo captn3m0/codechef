@@ -90,7 +90,8 @@ Output the number of steps in your program. In the following lines describe thes
 2 1+2=2 4+5=5
 2 2+3=3 5+6=6
 3 3+4=4 3+5=5 3+6=6
-</pre>### Explanation
+</pre>
+### Explanation
 
 Lets name values in the array with letters from a to f. The table below describes contents of the array after each step:
 

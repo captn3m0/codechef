@@ -68,7 +68,7 @@ time:
     current: 1493558130
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/AUG14/mandarin/CLETAB.pdf) and [Russian](http://www.codechef.com/download/translated/AUG14/russian/CLETAB.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/AUG14/mandarin/CLETAB.pdf) and [Russian](http://www.codechef.com/download/translated/AUG14/russian/CLETAB.pdf).
 
 Haku has been newly hired by Chef to clean tables at his restaurant. So whenever a customer wants a table, Haku must clean it.
 
@@ -114,7 +114,8 @@ For each test case output the minimum number of times Haku must clean the table(
 2
 4
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** In the starting all tables i.e. 2 tables are unoccupied. When customer 1 asks for table, he can be given any of the 2 tables. Haku has to clean either of the table. Next customer 2 can occupy the other free table. Haku must clean second time. When customer 3 comes Haku can ask either customer 1 or 2 to leave. Suppose he asks customer 1 to leave. Then he has to clean table for the third time. When customer 4 comes, Haku can ask customer 2 or 3 to leave. In either case Haku will have to clean the table for the fourth time. Phew!!
 

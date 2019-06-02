@@ -36,4 +36,5 @@ For each test case output one line containing the required number. It's guarante
 116
 
 <b>Explanation:</b>
-</pre>In the first test case the sought pairs are (3,3), (3,4), (3,5), (3,8), (4,3), (4,4), (4,6), (5,3), (5,12), (6,4), (6,8), (8,3), (8,6) and (12,5).
+</pre>
+In the first test case the sought pairs are (3,3), (3,4), (3,5), (3,8), (4,3), (4,4), (4,6), (5,3), (5,12), (6,4), (6,8), (8,3), (8,6) and (12,5).

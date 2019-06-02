@@ -101,7 +101,8 @@ For each test case, output a single integer in a separate line denoting the mini
 <b>Output:</b>
 <tt>1
 2</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** The rooted tree will consist of only 1 node. So, Chef can cut the entire cake into 1 vertex-disjoint path consisting of the single node itself.
 

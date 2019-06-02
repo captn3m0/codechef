@@ -114,7 +114,8 @@ For each test case, output a single line containing an integer denoting the valu
 <b>Output:</b>
 5
 6
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example 1:** As **A = 12, N = 2, X = 1212**, **1212 modulo 17 = 5**
 

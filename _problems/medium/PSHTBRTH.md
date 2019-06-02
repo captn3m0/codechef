@@ -76,13 +76,13 @@ All submissions for this problem are available.###  Read problems statements in 
 
 A little boy Pishty lives in Khust - an ancient town in the best country of the world - Uzhlyandia (also Khust is a wonderful town with their own castle and smart bears, but this is not relevant for us). And he is celebrating his birthday today!
 
-Citizens of Uzhlyandia love two things : cakes and [goulash](https://en.wikipedia.org/wiki/Goulash) , but Pishty prefer cakes. So his friend Lotsy decided to buy **N**  cakes, because a friend's birthday must be the best day of his life!
+Citizens of Uzhlyandia love two things : cakes and [ goulash ](https://en.wikipedia.org/wiki/Goulash) , but Pishty prefer cakes. So his friend Lotsy decided to buy **N**  cakes, because a friend's birthday must be the best day of his life!
 
 A cake can be thought of as a 4 × 4 square matrix, and in each cell of the matrix no more than 1 candle can be placed.
 
 The two boys like to play a game, in which they extinguish candles.
 
-They play in turns, with the birthday boy Pishty taking the first turn. In each turn, one of the boys picks a cake with burning candles on it, chooses a rectangle (ie. a [submatrix](http://mathworld.wolfram.com/Submatrix.html)) which has burning candles in all its cells, and extinguishes all those candles. If a boy can't make a move, he loses. You should assume that they play optimally. No one likes to lose a game, even to their best friend!
+They play in turns, with the birthday boy Pishty taking the first turn. In each turn, one of the boys picks a cake with burning candles on it, chooses a rectangle (ie. a [ submatrix ](http://mathworld.wolfram.com/Submatrix.html)) which has burning candles in all its cells, and extinguishes all those candles. If a boy can't make a move, he loses. You should assume that they play optimally. No one likes to lose a game, even to their best friend!
 
 Because Pishty and Lotsy are best friends, Lotsy wants to buy the best collection of cakes, and so he has M queries to make to the Chef. There are 2 types of queries :
 

@@ -69,7 +69,7 @@ time:
     current: 1493558145
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JAN14/mandarin/FGFS.pdf) and [Russian](http://www.codechef.com/download/translated/JAN14/russian/FGFS1.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JAN14/mandarin/FGFS.pdf) and [Russian](http://www.codechef.com/download/translated/JAN14/russian/FGFS1.pdf).
 
  Our chef has recently opened a new restaurant with a unique style. The restaurant is divided into **K** compartments (numbered from **1** to **K**) and each compartment can be occupied by at most one customer.
 
@@ -112,7 +112,8 @@ Note that the **ith** customer wants to occupy the **pith** compartment from **\
 <b>Output:</b>
 3
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**
 

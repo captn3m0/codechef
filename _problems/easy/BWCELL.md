@@ -67,7 +67,7 @@ time:
     current: 1493558111
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME30/mandarin/BWCELL.pdf), [Russian](http://www.codechef.com/download/translated/LTIME30/russian/BWCELL.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME30/vietnamese/BWCELL.pdf)
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME30/mandarin/BWCELL.pdf), [Russian](http://www.codechef.com/download/translated/LTIME30/russian/BWCELL.pdf) and [ Vietnamese](http://www.codechef.com/download/translated/LTIME30/vietnamese/BWCELL.pdf)
 
 Chef and his best friend Aleksa are into mathematical games these days. Today, they have some **( ≥ 0 )** black cells represented as **B**, and a white cell represented as **W**, lying randomly in a straight line. They have decided to play with these cells. In a move, a player chooses some **( > 0 )** black cells lying on any one side of the white cell and remove them. It should be noted that a player is not allowed to choose black cells from both side of the given white cell. Both the players alternate their moves, and play optimally. The player who is unable to move in his respective turn will lose the game.
 
@@ -100,7 +100,8 @@ BWBB
 Chef
 Aleksa
 Aleksa
-</pre>###  Explanation
+</pre>
+###  Explanation
 
 - **Test 1 :** Aleksa cannot make a move in her first turn as there is no black cell in the given configuration.
 - **Test 2 :** Aleksa can remove 1 black cell lying on the left of white cell in her turn. But then, Chef cannot make a move in his turn as there will be no black cells left.

@@ -29,4 +29,5 @@ For each coordinate pair in the input file you are to output the distance betwee
 
 ### Example
 
-`<b>Input:</b><br></br>8<br></br>0 0<br></br>1 0<br></br>1 1<br></br>0 1<br></br>3 3<br></br>-3 -3<br></br>-1 2<br></br>0 -3<br></br><br></br><b>Output:</b><br></br>1<br></br>1<br></br>0<br></br>0<br></br>1<br></br>1<br></br>2<br></br>2<br></br><br></br>`
+<pre><b>Input:</b><br></br>8<br></br>0 0<br></br>1 0<br></br>1 1<br></br>0 1<br></br>3 3<br></br>-3 -3<br></br>-1 2<br></br>0 -3<br></br><br></br><b>Output:</b><br></br>1<br></br>1<br></br>0<br></br>0<br></br>1<br></br>1<br></br>2<br></br>2<br></br><br></br>
+</pre>

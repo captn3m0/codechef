@@ -67,7 +67,7 @@ All submissions for this problem are available.Given the list of numbers, you ar
 
 ### Input
 
-_t_ – the number of numbers in list, then _t_ lines follow \[_t_ Each line contains one integer: _N_ \[0 N Output
+*t* – the number of numbers in list, then *t* lines follow \[*t* Each line contains one integer: *N* \[0 N Output
 
 Output given numbers in non decreasing order.
 
@@ -82,7 +82,8 @@ Output given numbers in non decreasing order.
 6
 7
 1
-</pre>**Output:**
+</pre>
+**Output:**
 
 <pre>
 1

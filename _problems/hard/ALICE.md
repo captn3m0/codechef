@@ -108,7 +108,8 @@ If there are multiple passwords that satisfies the information, print any of the
 0 1 2 3
 0 3 3 2
 </tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 One of the possible passwords is depicted in the above figure.
 

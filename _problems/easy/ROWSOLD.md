@@ -114,7 +114,8 @@ For each test case, output a single line containing one integer — the maximum 
 10
 0
 48
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Test case 1.**The initial string is 10100. There are N = 5 cells. There is one soldier in the first cell, and one soldier in the third cell. The following scenario maximizes the total time:
 

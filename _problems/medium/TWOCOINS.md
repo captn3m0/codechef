@@ -127,7 +127,8 @@ For each test case, output a single integer corresponding to the minimum number 
 <b>Output</b>
 3
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1**.
 

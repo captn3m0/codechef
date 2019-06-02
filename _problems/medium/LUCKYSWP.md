@@ -67,9 +67,9 @@ time:
     current: 1493557770
 layout: problem
 ---
-All submissions for this problem are available.A Little Elephant from the Zoo of Lviv likes _lucky strings_, i.e., the strings that consist only of the lucky digits **4** and **7**.
+All submissions for this problem are available.A Little Elephant from the Zoo of Lviv likes *lucky strings*, i.e., the strings that consist only of the lucky digits **4** and **7**.
 
-He is now studying some special transformation defined on the set of the lucky strings. The lucky string **T** is called a _swap permutation_ of the lucky string **S** with **|S| = N** if it can be derived from **S** by the following process. - Choose some integers **L** and **R** such that **1 ≤ L ≤ R ≤ N**.
+He is now studying some special transformation defined on the set of the lucky strings. The lucky string **T** is called a *swap permutation* of the lucky string **S** with **|S| = N** if it can be derived from **S** by the following process. - Choose some integers **L** and **R** such that **1 ≤ L ≤ R ≤ N**.
 - Denote by **A** the substring **S\[L, R\]** and by **B** the concatenation **S\[1, L - 1\] + S\[R + 1, N\]**.
 - Choose some integer **K** such that **0 ≤ K ≤ |B|**.
 - Put **T = B\[1, K\] + A + B\[K + 1, |B|\]**.
@@ -85,12 +85,12 @@ Denote by **F(S)** the length of the longest non-decreasing subsequence of **S**
 
 Let **S** be some lucky string. Then - **|S|** denotes the length of the string **S**;
 - **S\[i\]** (**1 ≤ i ≤ |S|**) denotes the **i**th character of **S** (the numeration of characters starts from **1**);
-- **S\[L, R\]** (**1 ≤ L ≤ R ≤ |S|**) denotes the string with the following sequence of characters: **S\[L\], S\[L + 1\], ..., S\[R\]**, and is called a _substring_ of **S**. For **L > R** we mean by **S\[L, R\]** an empty string.
+- **S\[L, R\]** (**1 ≤ L ≤ R ≤ |S|**) denotes the string with the following sequence of characters: **S\[L\], S\[L + 1\], ..., S\[R\]**, and is called a *substring* of **S**. For **L > R** we mean by **S\[L, R\]** an empty string.
 
 
-For any two lucky strings **S** and **T** their _concatenation_ is defined as the sequence of characters in **S** followed by the sequence of characters in **T**, and is denoted by **S + T**.
+For any two lucky strings **S** and **T** their *concatenation* is defined as the sequence of characters in **S** followed by the sequence of characters in **T**, and is denoted by **S + T**.
 
-The string **T** is called a _subsequence_ of the string **S** if **T** can be derived from **S** by deleting some (possibly zero) number of characters without changing the order of the remaining characters. For example, **T = 474** is a subsequence of **S = 74477747** since after deleting characters at positions **1, 2, 5, 6, 8** from **S** we obtain **T**. Note that, the empty string and the string **S** itself are always the subsequences of **S**.
+The string **T** is called a *subsequence* of the string **S** if **T** can be derived from **S** by deleting some (possibly zero) number of characters without changing the order of the remaining characters. For example, **T = 474** is a subsequence of **S = 74477747** since after deleting characters at positions **1, 2, 5, 6, 8** from **S** we obtain **T**. Note that, the empty string and the string **S** itself are always the subsequences of **S**.
 
 ### Input
 
@@ -126,7 +126,8 @@ For each test case, output a single line containing the answer for this test cas
 4
 11
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first test case all different swap permutations of **S = 7474** are **4747, 4774, 7447, 7474, 7744**. Corresponding values of **F(T)** are **3, 3, 3, 2, 2**. Hence the answer is **3**.
 

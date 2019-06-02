@@ -23,11 +23,11 @@ Both the citizens and the gangsters of Byteland have very positive feelings abou
 
 ### Input
 
-The first line contains integer _t_, the number of test cases (about 100). Then _t_ test cases follow. Each test case starts with _n_, the number of banknotes in your wallet, and _m_, the amount of money the muggers asked of you. Then _n_ numbers follow, representing values of your banknotes. Your wallet does not hold more than 20 banknotes, and the value of a single banknote is never more than 1000.
+The first line contains integer *t*, the number of test cases (about 100). Then *t* test cases follow. Each test case starts with *n*, the number of banknotes in your wallet, and *m*, the amount of money the muggers asked of you. Then *n* numbers follow, representing values of your banknotes. Your wallet does not hold more than 20 banknotes, and the value of a single banknote is never more than 1000.
 
 ### Output
 
-For each test case output a single line with the word 'Yes' if there is a subset of your banknotes that sums to _m_, and 'No' otherwise.
+For each test case output a single line with the word 'Yes' if there is a subset of your banknotes that sums to *m*, and 'No' otherwise.
 
 ### Example
 
@@ -83,4 +83,5 @@ Yes
 Yes
 No
 Yes
-</pre>**Explanation:** For example, in the last case you have to pay up, since: 6+3+123=132.
+</pre>
+**Explanation:** For example, in the last case you have to pay up, since: 6+3+123=132.

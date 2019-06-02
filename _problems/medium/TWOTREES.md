@@ -66,7 +66,8 @@ For each test case, output a single line containing the number of distinct trees
 <b>Output:</b>
 2
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** There are two distinct trees that can be formed: the first type is making the entire tree 2 a child of one of the 2 leaves of tree 2 and the other being making one of the leaves of tree 2 a child of one of the leaves of tree 1. Note that which leaf doesn't matter as they can be rearranged to obtain the other way (i.e. if we add it to left leaf, then it is same as adding to the right leaf as we can rearrange the leafs to make it same)
 

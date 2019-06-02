@@ -70,11 +70,11 @@ time:
     current: 1492507586
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME25/mandarin/CHEFSTLT.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME25/russian/CHEFSTLT.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME25/mandarin/CHEFSTLT.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME25/russian/CHEFSTLT.pdf).
 
 Chef has found two very old sheets of paper, each of which originally contained a string of lowercase Latin letters. The strings on both the sheets have equal lengths. However, since the sheets are very old, some letters have become unreadable.
 
-Chef would like to estimate the _difference_ between these strings. Let's assume that the first string is named **S1**, and the second **S2**. The unreadable symbols are specified with the question mark symbol '?'. The _difference_ between the strings equals to the number of positions **i**, such that **S1i** is not equal to **S2i**, where **S1i** and **S2i** denote the symbol at the **i** the position in **S1** and **S2**, respectively.
+Chef would like to estimate the *difference* between these strings. Let's assume that the first string is named **S1**, and the second **S2**. The unreadable symbols are specified with the question mark symbol '?'. The *difference* between the strings equals to the number of positions **i**, such that **S1i** is not equal to **S2i**, where **S1i** and **S2i** denote the symbol at the **i** the position in **S1** and **S2**, respectively.
 
 Chef would like to know the minimal and the maximal difference between the two strings, if he changes all unreadable symbols to lowercase Latin letters. Now that you're fully aware of Chef's programming expertise, you might have guessed that he needs you help solving this problem as well. Go on, help him!
 
@@ -115,7 +115,8 @@ aba?w</tt>
 <tt>1 3
 0 3
 3 5</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1**. You can change the question marks in the strings so that you obtain **S1** = abc and **S2** = abb. Then **S1** and **S2** will differ in one position. On the other hand, you can change the letters so that **S1** = abc and **S2** = bab. Then, the strings will differ in all three positions.
 

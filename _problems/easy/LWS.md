@@ -67,7 +67,7 @@ time:
     current: 1493558165
 layout: problem
 ---
-All submissions for this problem are available.Finding the longest increasing subsequence is an old and well-known problem now. Here you will have to do something similar. You need to find the longest _weird_ subsequence (LWS) of the given string. The subsequence is called _weird_ if it can be split into two disjoint subsequences, one of which is non-decreasing and the other one is non-increasing.
+All submissions for this problem are available.Finding the longest increasing subsequence is an old and well-known problem now. Here you will have to do something similar. You need to find the longest *weird* subsequence (LWS) of the given string. The subsequence is called *weird* if it can be split into two disjoint subsequences, one of which is non-decreasing and the other one is non-increasing.
 
 Just for clarity, by subsequence of the given string **S** we mean any string that can be obtained from **S** by erasing from it zero or more characters. So empty string is a subsequence of any string and any string is a subsequence of itself. Further, note that we consider only strings composed of lowercase Latin letters and these letters compared by their ASCII codes. So, for example, 'a' is smaller than 'b' and 'p' is larger than 'h'.
 
@@ -87,7 +87,8 @@ For every test case, output the length of the LWS of the given string.
 1 ≤ <b>T</b> ≤ 10
 1 ≤ length of <b>S</b> ≤ 2000
 
-</pre>### Example
+</pre>
+### Example
 
 <pre>
 <b>Input</b>
@@ -101,7 +102,8 @@ ddaabbaacc
 6
 10
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **First case:** The string itself is LWS since it can be split into non-decreasing subsequence **"abc"** and non-increasing empty subsequence.
 

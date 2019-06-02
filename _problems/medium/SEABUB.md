@@ -69,7 +69,7 @@ time:
     current: 1493557924
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/SEPT14/mandarin/SEABUB.pdf) and [Russian](http://www.codechef.com/download/translated/SEPT14/russian/SEABUB.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/SEPT14/mandarin/SEABUB.pdf) and [Russian](http://www.codechef.com/download/translated/SEPT14/russian/SEABUB.pdf).
 
 Sereja has an array **A** that contains **n** integers, namely **A1, A2, ..., An**. A single action consists of performing one of two following operations:
 

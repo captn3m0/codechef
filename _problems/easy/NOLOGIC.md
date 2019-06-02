@@ -69,7 +69,8 @@ Bunny
 Day
 ~
 You Can output aLoMsT anytihng HERE
-</pre>### Explanation
+</pre>
+### Explanation
 
 Example cases 1 and 2 correspond to the dialog in the problem statement. Note that we don't print dots since it is allowed to have only spaces and letters in the answer.
 

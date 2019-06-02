@@ -45,6 +45,7 @@ For each case, output the maximum possible value of (shuffle-A xor shuffle-B) in
 16
 14
 </pre>
+
  **Explanation:**
 
 Case 1: 5 and 4 as 3-bit binary strings are (101)2 and (100)2 respectively. After shuffling, xor can be maximum for (110)2 ^ (001)2 = (111)2 = 7

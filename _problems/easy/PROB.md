@@ -121,7 +121,8 @@ For each test case, output a single line containing the probability that Artem w
 0.5
 0.4
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **In the first test case**, the **5** possible outcomes after Chef discards 2 tickets is
 

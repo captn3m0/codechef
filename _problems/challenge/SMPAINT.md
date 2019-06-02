@@ -68,7 +68,7 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/DEC13/mandarin/SMPAINT.pdf) and [Russian](http://www.codechef.com/download/translated/DEC13/russian/SMPAINT.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/DEC13/mandarin/SMPAINT.pdf) and [Russian](http://www.codechef.com/download/translated/DEC13/russian/SMPAINT.pdf).
 
 Being a CS student, Ron really don't understand why he has to take a compulsory course called "Art in Digital Age".
 The objective of this course from what his school said is to help the CS students release the stress by doing something new other from coding/programming. The problem is Ron really love coding and he doesn't care about other stuff. This course even gives him
@@ -124,7 +124,8 @@ Each line must contain 5 integers which are the values (they must be in this ord
 2
 1 2 4 2 4
 2 2 4 3 3
-</pre>###  Scoring & the test data generation 
+</pre>
+###  Scoring & the test data generation 
 
 Your solution will not get point if it performs more than **N2** Paint operations or the final image is different
 with the sample one. Your solution will be marked as Wrong Answer for that two cases.

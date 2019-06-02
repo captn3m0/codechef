@@ -69,13 +69,13 @@ time:
     current: 1493557679
 layout: problem
 ---
-All submissions for this problem are available.Chef feels pretty greedy today. As you know Chef lives in ChefLand. It consists of **N** cities, connected by **M** one-directional roads. There are plenty of festivals in ChefLand and Chef does not want to miss any of them. So he has invented an efficient (as he thinks) algorithm of finding the shortest paths between cities. To get from city _S_ to city _T_ then he uses following method:
+All submissions for this problem are available.Chef feels pretty greedy today. As you know Chef lives in ChefLand. It consists of **N** cities, connected by **M** one-directional roads. There are plenty of festivals in ChefLand and Chef does not want to miss any of them. So he has invented an efficient (as he thinks) algorithm of finding the shortest paths between cities. To get from city *S* to city *T* then he uses following method:
 
-- The trip starts at city _S_
+- The trip starts at city *S*
 
 />
 
-- If Chef reaches city _T_ then the algorithm stops
+- If Chef reaches city *T* then the algorithm stops
 
 />
 
@@ -92,7 +92,7 @@ All submissions for this problem are available.Chef feels pretty greedy today. A
 />
 
 
-If in the end of the algorithm Chef is in the City T then he assumes this path to be the shortest, otherwise Chef believes that it is impossible to get from city _S_ to city _T_ by current system of roads.
+If in the end of the algorithm Chef is in the City T then he assumes this path to be the shortest, otherwise Chef believes that it is impossible to get from city *S* to city *T* by current system of roads.
 You want to check his greedy algorithm. To do this you need to find number of such different pairs of cities (U,V) that this algorithm can probably find the shortest path from city U to city V. Note that if it is impossible to reach city V from U and Chef's algorithm can conclude the same that this pair of cities is also counted to the answer. Have a look at the example for better understanding.
 
 ### Input:
@@ -115,19 +115,22 @@ Output should contain a single integer on the first line - answer for the proble
 1 ≤ <b>u,v</b> ≤ <b>N</b>
 1 ≤ <b>w</b> ≤ 10000
 
-</pre>### Example:
+</pre>
+### Example:
 
 **Input #1:**
 
 <pre>
 2 0
 
-</pre>**Output #1:**
+</pre>
+**Output #1:**
 
 <pre>
 4
 
-</pre>**Input#2:**
+</pre>
+**Input#2:**
 
 <pre>
 3 3
@@ -135,12 +138,14 @@ Output should contain a single integer on the first line - answer for the proble
 1 3 2
 2 3 2
 
-</pre>**Output#2:**
+</pre>
+**Output#2:**
 
 <pre>
 8
 
-</pre>**Explanation:**
+</pre>
+**Explanation:**
 
 For input#1 every possible pair is valid. for input#2 pair(1,3) is not valid, since Chef's algorithm will always go this way 1->2->3, while 1->3 is right way to get from 1 to 3. 
 

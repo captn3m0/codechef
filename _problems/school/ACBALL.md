@@ -69,7 +69,7 @@ time:
     current: 1492506728
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME36/mandarin/ACBALL.pdf), [Russian](http://www.codechef.com/download/translated/LTIME36/russian/ACBALL.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME36/vietnamese/ACBALL.pdf) as well.
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME36/mandarin/ACBALL.pdf), [Russian](http://www.codechef.com/download/translated/LTIME36/russian/ACBALL.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME36/vietnamese/ACBALL.pdf) as well.
 
 Akhil has many balls of white and black colors. One day, he was playing with them. During the play, he arranged the balls into two rows both consisting of **N** number of balls. These two rows of balls are given to you in the form of strings **X, Y**. Both these string consist of 'W' and 'B', where 'W' denotes a white colored ball and 'B' a black colored.
 

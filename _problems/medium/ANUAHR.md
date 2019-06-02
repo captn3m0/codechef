@@ -115,7 +115,8 @@ For each test case, output a single line containing the required answer.
 100
 25
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1**
 

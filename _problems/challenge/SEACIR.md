@@ -95,7 +95,8 @@ After this you will be given **N** queries. The **i**-th of the query will conta
 <h3>Test generation</h3>
 <p>
 </p><h3>Test Plan #1</h3>
-</pre>- **N = 200, S = 5000, skip = 50**
+</pre>
+- **N = 200, S = 5000, skip = 50**
 - 1 ≤ **R\[i\] ≤ 100**
 - **R\[i\]** are generated uniformly randomly
 
@@ -109,7 +110,7 @@ After this you will be given **N** queries. The **i**-th of the query will conta
 
 - **N = 200, S = 5000, skip = 25**
 - 1 ≤ **R\[i\] ≤ 100**
-- Radius of circles of Sereja is generated according to following probability distribution, denoted as _nice_ distribution. Let **total** denote the sum of **log(r)** for **r** from 1 to 100. Probability of occurrence of radius **r** (takes values in the range \[1, 100\]) will be **log(r) / total**.
+- Radius of circles of Sereja is generated according to following probability distribution, denoted as *nice* distribution. Let **total** denote the sum of **log(r)** for **r** from 1 to 100. Probability of occurrence of radius **r** (takes values in the range \[1, 100\]) will be **log(r) / total**.
 - **R\[i\]**'s of Dima are generated uniformly randomly
 
 ### Test Plan #4
@@ -117,7 +118,7 @@ After this you will be given **N** queries. The **i**-th of the query will conta
 - **N = 200, S = 5000, skip = 25**
 - 1 ≤ **R\[i\] ≤ 100**
 - Radius of circles of Sereja is generated uniformly randomly.
-- **R\[i\]**'s of Dima are generated according to the _nice_ probability distribution.
+- **R\[i\]**'s of Dima are generated according to the *nice* probability distribution.
 
 ### Scoring
 

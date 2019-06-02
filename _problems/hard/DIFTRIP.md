@@ -70,14 +70,14 @@ layout: problem
 ---
 All submissions for this problem are available.The Chef is enjoying a wonderful vacation in Byteland. What makes the Chef impressed the most is the road system of the country. Byteland has **N** cities numbered 1 through **N**. City 1 is the capital of Byteland. The country also has **N**-1 bidirectional roads connecting the cities. The **i**-th road connects two different cities **ui** and **vi**. In this road system, people can travel between every pair of different cities by going through exactly one path of roads.
 
-The roads are arranged in such a way that people can distinguish two cities only when both cities have different number of roads connected to it. Such two cities will be considered _similar_. For example, city **A** is similar to the capital if the number of roads connected to city **A** is equal to the number of roads connected to the capital.
+The roads are arranged in such a way that people can distinguish two cities only when both cities have different number of roads connected to it. Such two cities will be considered *similar*. For example, city **A** is similar to the capital if the number of roads connected to city **A** is equal to the number of roads connected to the capital.
 
 On each day during the vacation, the Chef wants to have a trip as follows. He chooses two cities **A** and **B** such that the Chef will visit city **B** if he goes from **A** to the capital using the shortest path. Then, the Chef will visit the cities on the shortest path from **A** to **B** through this path. Please note that **A** may be equal to **B**; that means the Chef will enjoy the day in a single city.
 
-The Chef does not want to have _similar_ trips. Two trips are considered _similar_ if and only if
-they both have the same number of visited cities and for each **i**, the **i**-th city visited in one trip is _similar_ to the **i**-th city visited in the other trip.
+The Chef does not want to have *similar* trips. Two trips are considered *similar* if and only if
+they both have the same number of visited cities and for each **i**, the **i**-th city visited in one trip is *similar* to the **i**-th city visited in the other trip.
 
-The Chef wants to have as many different, namely not _similar_, trips as possible. Help him count the maximum number of possible trips such that no two of them are similar.
+The Chef wants to have as many different, namely not *similar*, trips as possible. Help him count the maximum number of possible trips such that no two of them are similar.
 
 ### Input
 
@@ -104,7 +104,8 @@ Every pair of different cities can be traveled by going through exactly one path
 
 <b>Output</b>:
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the sample, the country consists of three cities.
 There are two roads. The first road connects city 1 and city 2.

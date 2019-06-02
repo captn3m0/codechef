@@ -69,7 +69,7 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JAN14/mandarin/TOURBUS.pdf) and [Russian](http://www.codechef.com/download/translated/JAN14/russian/TOURBUS.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JAN14/mandarin/TOURBUS.pdf) and [Russian](http://www.codechef.com/download/translated/JAN14/russian/TOURBUS.pdf).
 
 As part of a new program to attract tourists to Byteland, Chef has been placed in charge of organizing a series of bus tours around the city. There are **N** scenic locations (points on the plane) in Byteland (numbered 0 through **N-1**), and **M** bidirectional scenic roads, each of which connects two scenic locations via a straight line. Chef wishes to organize the tours according to the following rules:
 
@@ -119,14 +119,16 @@ NYNYYN
 YYYNYN
 NNYYNY
 YNNNYN
-</pre>### Sample Output
+</pre>
+### Sample Output
 
 <pre>3
 4 3 0 5 4 2
 1 4 3
 3 1 2 3 1
 
-</pre>This sample output would score **3\*6/8 = 2.25** points.
+</pre>
+This sample output would score **3\*6/8 = 2.25** points.
 
 ### Test Case Generation
 

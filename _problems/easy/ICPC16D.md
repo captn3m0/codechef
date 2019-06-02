@@ -23,9 +23,9 @@ time:
     current: 1493558154
 layout: problem
 ---
-All submissions for this problem are available.You are given array **a** consisting of **n** distinct integers. A set **s** of numbers is called _good_ if you can rearrange the elements in such a way that each element divides the next element in the order, i.e. **si | si + 1**, such that **i , where **|s|** denotes size of set **|s|**.**
+All submissions for this problem are available.You are given array **a** consisting of **n** distinct integers. A set **s** of numbers is called *good* if you can rearrange the elements in such a way that each element divides the next element in the order, i.e. **si | si + 1**, such that **i , where **|s|** denotes size of set **|s|**.**
 
-Find out number of distinct _good_ sets that you can create using the values of the array. You can use one value only once in a particular set; ie. a set cannot have duplicate values. Two sets are said to be different from each other if there exists an element in one set, which does not exist in the other.
+Find out number of distinct *good* sets that you can create using the values of the array. You can use one value only once in a particular set; ie. a set cannot have duplicate values. Two sets are said to be different from each other if there exists an element in one set, which does not exist in the other.
 
 As the answer could be large, print your answer modulo **109 + 7**.
 
@@ -60,7 +60,8 @@ For each test case, output a single line containing the corresponding answer.
 <b>Output:</b>
 3
 5
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Test case 1.** There are three sets which are good **{1}**, **{2}**, **{1, 2}**.
 

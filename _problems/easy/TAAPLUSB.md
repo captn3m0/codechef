@@ -104,7 +104,8 @@ Your answer will be accepted if the error is less than 10 -6.
 0.945
 1.4445
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**
 We have 10\*10 = 100 cases of adding two 1-digit number.

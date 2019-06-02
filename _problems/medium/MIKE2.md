@@ -68,7 +68,7 @@ time:
     current: 1493557922
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME07/mandarin/MIKE2.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME07/russian/MIKE2.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME07/mandarin/MIKE2.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME07/russian/MIKE2.pdf).
 
 Mike takes part in olympiads in informatics. You think he is a rookie? Wrong! He is an experienced and well-prepared competitor! He participated in many important contests and won some of them. Now his level is rather high.
 
@@ -101,7 +101,8 @@ The first line should contain two integers: the number of failed packages and th
 3 4 5
 <b>Output:</b>
 0 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the test case **N** equals to 3, **X** equals to 10, **A** equals to {3, 4, 5}. It is optimal to solve all the problems in the first and the second packages and to solve 3 problems in the third package.
 

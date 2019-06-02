@@ -79,7 +79,7 @@ You are given a [convex polygon](https://en.wikipedia.org/wiki/Convex_polygon) w
 
 You have to find any ⌊**N**/10⌋ distinct points with integer coordinates that lie **strictly inside** the polygon, or determine that such a set of points doesn't exist.
 
-_Note:_ ⌊⌋ denotes the [floor function](https://en.wikipedia.org/wiki/Floor_and_ceiling_functions), typically used in integer division.
+*Note:* ⌊⌋ denotes the [floor function](https://en.wikipedia.org/wiki/Floor_and_ceiling_functions), typically used in integer division.
 
 ### Input
 
@@ -129,7 +129,8 @@ The coordinates of all points should be integers with absolute value not exceedi
 <b>Output</b>
 
 0 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** The polygon is shown in the picture: ![](https://discuss.codechef.com/upfiles/poinpoly_axUFPiA.png)
 

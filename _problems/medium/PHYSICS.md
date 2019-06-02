@@ -70,7 +70,7 @@ time:
     current: 1493557852
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME17/mandarin/PHYSICS.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME17/russian/PHYSICS.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME17/mandarin/PHYSICS.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME17/russian/PHYSICS.pdf).
 
 The Physics teacher in Tanu's class is teaching concepts of a bouncing ball. The rubber ball that she is using has the property that if the ball is dropped from height H then, it bounces back to maximum height H/F. So after first bounce it rises up to maximum height H/F, after second bounce to maximum height H/F2, after third bounce to maximum height H/F3, and so on.
 
@@ -94,10 +94,14 @@ For each testcase, print a single line containing the answer to the problem.
 
 **Input:**
 
-`2<br></br>3 2<br></br>2 2 2<br></br>3 2<br></br>2 1 4`
+<pre>2<br></br>3 2<br></br>2 2 2<br></br>3 2<br></br>2 1 4
+</pre>
+
 **Output:**
 
-`3<br></br>3`
+<pre>3<br></br>3
+</pre>
+
 **Explanation:**
 
 - In the first case, the three pairs are (child 1, child 2), (child 2, child 3) and (child 1, child 3).

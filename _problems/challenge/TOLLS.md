@@ -104,11 +104,13 @@ From the output, we will calculate the total revenue obtained from all customers
 1 2 10
 2 3 10
 1 4 15
-</pre>### Output:
+</pre>
+### Output:
 
 <pre>
 5 5
 10 10 0
-</pre>In the first test case, the first two customers only pay a total toll of 5 and the last customer pays 10 so the total revenue is 20. The score for this case is 20/30.
+</pre>
+In the first test case, the first two customers only pay a total toll of 5 and the last customer pays 10 so the total revenue is 20. The score for this case is 20/30.
 
 In the second case, the first two clients pay their full budget but the last client cannot afford the desired route. The total revenue is then 20 and the score for this case is 20/35.

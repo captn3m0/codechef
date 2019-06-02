@@ -67,7 +67,7 @@ time:
     current: 1493558141
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/FEB14/mandarin/DRGHTS.pdf) and [Russian](http://www.codechef.com/download/translated/FEB14/russian/DRGHTS.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/FEB14/mandarin/DRGHTS.pdf) and [Russian](http://www.codechef.com/download/translated/FEB14/russian/DRGHTS.pdf).
 
 Furik and Rubik have come to the sanatorium, which consists of **N** rooms and **M** passageways. Each passageway connects two rooms, and there is at most one way to move between each pair of rooms. Some rooms have opened windows. There is a draught between two different rooms if both rooms have opened windows, and are connected with each other by some way.
 

@@ -63,7 +63,7 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JUNE15/mandarin/SEADIVM.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE15/russian/SEADIVM.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JUNE15/mandarin/SEADIVM.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE15/russian/SEADIVM.pdf).
 
 Sereja has a matrix with size **N\*M**, a cell with coordinate **(i,j)** contains the integer **A\[i\]\[j\]**. Sereja wants to divide the matrix into two parts between him and Dima. Sereja wants to choose **C** rectangles, i-th rectangle has coordinates **X1\[i\], Y1\[i\], X2\[i\], Y2\[i\]** (**1 , **1 , we assume that any cell with coordinate **(x, y)** fits condition **X1\[i\] and **Y1\[i\] lies inside i-th rectangle). They need to be chosen in such a way that rectangles divide matrix in two equal parts. Lets **Q\[x\]** be number of number **x** from given matrix, that lies in at least one of the chosen rectangles, let **W\[x\]** be the opposite value - number of number **x** from the given matrix, that lies outside of each rectangle. Set of chosen rectangles divide matrix on two equal parts if and only if **Q\[x\]=W\[x\]** for all **x**.******** Help Sereja minimize number **C**. Also find **C** rectangles that divide matrix in two equal parts. ### Input
 
@@ -89,7 +89,8 @@ First line of each test case should contain number **C**. Each of next **C** lin
 2
 1 1 1 5
 4 1 4 5
-</pre>### Scoring
+</pre>
+### Scoring
 
 For each test case you will gain score **Y** as sum of all **C** in output. Lets **yourscore** is equal to sum of all **Y**. Score you will see on dashboard will be equal to **bestscore**/**yourscore**. ### Tests generation
 

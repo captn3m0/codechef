@@ -72,7 +72,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JAN16/mandarin/CHINFL.pdf), [Russian](http://www.codechef.com/download/translated/JAN16/russian/CHINFL.pdf) and [Vietnamese](http://www.codechef.com/download/translated/JAN16/vietnamese/CHINFL.pdf) as well.
 
-A recent glut in Chefland's markets has caused the local currency _Peppercorn_ to devaluate sharply. (Peppercorns are getting cheaper on an average, though there could be ups and downs).
+A recent glut in Chefland's markets has caused the local currency *Peppercorn* to devaluate sharply. (Peppercorns are getting cheaper on an average, though there could be ups and downs).
 
 And Chef needs to rescue his wealth! Initially, he had **D** Peppercorns. There are **N** exchange kiosks in the city he lives in, where he can go and exchange his Peppercorns for a well-known stable currency, the Antarctican Dollar. For each kiosk, the exchange rate for the first **M** seconds of the day is known (both for buying and selling). All kiosks are arranged in a row, and to travel from the **ith** to the **jth** kiosk, you need to spend **|i-j|** seconds, and to exchange currency at any kiosk, you also need **1** second. So, starting at point of time 0 at any of the kiosks (he can get there before trading starts for the day), Chef runs from one kiosk to another to buy and sell currency. You need to find the maximum amount of Peppercorns Chef could have after the **Mth** second.
 
@@ -89,7 +89,7 @@ First line of input contains three numbers — **N**, **M** and **D**. **N** lin
 
 Output a single number: the maximum amount of money (in Peppercorns - in the end Chef ought to have all the money converted to local currency since it's the only valid currency in the country for financial operations) he could have after **M** seconds, with absolute or relative error not more than **1e-6**.
 
-If the amount of money of any currency that Chef will own at any point of time exceeds **1018**, output file should contain **only a single line** containing the string _“Quintillionnaire”_ (without quotes, followed by a newline character).
+If the amount of money of any currency that Chef will own at any point of time exceeds **1018**, output file should contain **only a single line** containing the string *“Quintillionnaire”* (without quotes, followed by a newline character).
 
 ### Constraints
 

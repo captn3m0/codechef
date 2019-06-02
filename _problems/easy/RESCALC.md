@@ -130,7 +130,8 @@ For each test case, output a single line containing the answer as specified in t
 chef
 2
 tie</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1**.
 

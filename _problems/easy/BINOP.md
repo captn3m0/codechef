@@ -135,7 +135,8 @@ Lucky Chef
 2
 Unlucky Chef
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**
 

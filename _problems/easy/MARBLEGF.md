@@ -67,7 +67,7 @@ time:
     current: 1493558165
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/DEC13/mandarin/MARBLEGF.pdf) and [Russian](http://www.codechef.com/download/translated/DEC13/russian/MARBLEGF.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/DEC13/mandarin/MARBLEGF.pdf) and [Russian](http://www.codechef.com/download/translated/DEC13/russian/MARBLEGF.pdf).
 
 ### Story-line
 

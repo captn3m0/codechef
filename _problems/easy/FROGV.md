@@ -68,7 +68,7 @@ time:
     current: 1493558147
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JULY14/mandarin/FROGV.pdf) and [Russian](http://www.codechef.com/download/translated/JULY14/russian/FROGV.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JULY14/mandarin/FROGV.pdf) and [Russian](http://www.codechef.com/download/translated/JULY14/russian/FROGV.pdf).
 
 Nobody knows, but **N** frogs live in Chef's garden.
 
@@ -108,7 +108,8 @@ Yes
 Yes
 No
 
-</pre><pre>
+</pre>
+<pre>
 <h3>Explanation</h3>
 <p>For pair <b>(1, 2)</b> frog <b>1</b> can directly speak to the frog <b>2</b> as the distance between them is <b>3 - 0 = 3 <= K </b>. </p>
 <p>For pair <b>(1, 3)</b> frog <b>1</b> can send a message to frog <b>2</b>, frog <b>2</b> can send it to frog <b>4</b> and it can send it to frog <b>3</b>.

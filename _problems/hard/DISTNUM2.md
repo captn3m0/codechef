@@ -76,7 +76,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 You are given an array **A** consisting of **N** positive integers. You have to answer **Q** queries on it of following type:
 
-- **l r k** : Let **S** denote the _sorted (in increasing order)_ set of elements of array **A** with its indices between **l** and **r**. Note that set **S** contains distinct elements (i.e. no duplicates).
+- **l r k** : Let **S** denote the *sorted (in increasing order)* set of elements of array **A** with its indices between **l** and **r**. Note that set **S** contains distinct elements (i.e. no duplicates).
   You need to find **kth** number in it. If such a number does not exist, i.e. the **S** has less than **k** elements, output -1.
 
 All the indices in the queries are 1-based.
@@ -97,7 +97,8 @@ Define <b>l<sub>i</sub></b> = (<b>a<sub>i</sub></b> x <b>max(ans<sub>i - 1</sub>
 <b>r<sub>i</sub></b> = (<b>c<sub>i</sub></b> x <b>max(ans<sub>i-1</sub>, 0)</b> + <b>d<sub>i</sub></b>) mod <b>N</b> + 1. 
 If <b>l<sub>i</sub></b> > <b>r<sub>i</sub></b>, then swap <b>l<sub>i</sub></b> and <b>r<sub>i</sub></b>.
 	
-</pre>### Output
+</pre>
+### Output
 
 For each query, output the answer to the query in a single line. If such a number doesn't exist, output **-1**.
 
@@ -150,7 +151,8 @@ For each query, output the answer to the query in a single line. If such a numbe
 4
 6
 4
-</pre>### Subtasks
+</pre>
+### Subtasks
 
 - **Subtask #1 (10 points) :** **Q** x **N** ≤ 107
 - **Subtask #2 (20 points) :** **ki** = 1
@@ -161,10 +163,10 @@ For each query, output the answer to the query in a single line. If such a numbe
 
 **Example #1:**
 
-_Query 1._ Sorted set of elements : {1, 2}. Second number in this is 2.
+*Query 1.* Sorted set of elements : {1, 2}. Second number in this is 2.
 
-_Query 2._ Sorted set of elements : {1, 2, 3}. Fourth number doesn't exist, hence answer is -1.
+*Query 2.* Sorted set of elements : {1, 2, 3}. Fourth number doesn't exist, hence answer is -1.
 
-_Query 3._ Sorted set of elements : {1, 2}. Second number in this set is 2.
+*Query 3.* Sorted set of elements : {1, 2}. Second number in this set is 2.
 
-_Query 4._ Sorted set of elements : {1, 2, 3}. Third number in this set is 3.
+*Query 4.* Sorted set of elements : {1, 2, 3}. Third number in this set is 3.

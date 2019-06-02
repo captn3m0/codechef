@@ -112,4 +112,5 @@ If your program solves a test case, it receives the score of **Q \* K** for that
 5
 1 3 5 7 8
 
-</pre>The above sample will receive a score of **0\*1 + 3\*3 + 5\*3 = 24**.
+</pre>
+The above sample will receive a score of **0\*1 + 3\*3 + 5\*3 = 24**.

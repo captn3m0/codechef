@@ -115,7 +115,8 @@ RDL
 4
 6
 6
-</pre>### Explanation
+</pre>
+### Explanation
 
 Initially Tuzik stays at cell **(0, 0)**. Let's consider his path:
 

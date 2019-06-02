@@ -69,7 +69,7 @@ layout: problem
 ---
 All submissions for this problem are available.Given an **n**\***m** board with a number between -1 and **n**\***m** in every entries.
 
-And an **n**\***m** matrix **M** is also given, where **M**i,j is the cost of selecting the _(i,j)_ entry of the given board.
+And an **n**\***m** matrix **M** is also given, where **M**i,j is the cost of selecting the *(i,j)* entry of the given board.
 
 Your task is to find a connected block (which means these entries can reach each other by just go up, down, left and right without going out the block) in the board that contains at least **K** distinct positive numbers without any -1, and it must have minimum total cost for selecting these entries. Output the minimum total cost.
 
@@ -79,9 +79,9 @@ First line consists of three integers, **n**, **m**, **K** (1 <= **n**, **m** <=
 
 The followings are two **n**\***m** matrices, the first denotes the numbers on the board and the second denotes the cost of every entry.
 
-Namely, the first **n** lines contain **m** integers, where the _j_th number in _i_th line denotes the number on the entry (_i_,_j_) of the board. These integers are in \[-1, **n**\***m**\].
+Namely, the first **n** lines contain **m** integers, where the *j*th number in *i*th line denotes the number on the entry (*i*,*j*) of the board. These integers are in \[-1, **n**\***m**\].
 
-Next **n** lines contain **m** integers too. The _j_th number in _i_th line denotes the cost of selecting the entry (_i_,_j_) of the board. These integers are in \[1, 100000\].
+Next **n** lines contain **m** integers too. The *j*th number in *i*th line denotes the cost of selecting the entry (*i*,*j*) of the board. These integers are in \[1, 100000\].
 
 ### Output
 

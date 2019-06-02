@@ -104,7 +104,8 @@ For each test case, output a single line containing the required answer. Answers
 <b>Output:</b>
 3.000000
 6.000000
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1**
 

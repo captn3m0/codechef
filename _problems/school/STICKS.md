@@ -107,7 +107,8 @@ For each test case, output a single line containing an integer representing the 
 <b>Output:</b>
 <tt>2
 -1</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** Chef's brother can choose sticks of lengths 1, 2, 1, 2. He can create a rectangle with area 1 \* 2 = 2.
 

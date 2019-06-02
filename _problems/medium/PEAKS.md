@@ -71,7 +71,7 @@ time:
     current: 1493557845
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME32/mandarin/PEAKS.pdf), [Russian](http://www.codechef.com/download/translated/LTIME32/russian/PEAKS.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME32/vietnamese/PEAKS.pdf) as well.
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME32/mandarin/PEAKS.pdf), [Russian](http://www.codechef.com/download/translated/LTIME32/russian/PEAKS.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME32/vietnamese/PEAKS.pdf) as well.
 
 As you already know, Chef has many friends. Out of all his friends, Akshit and Aditi are the two biggest foodies. Chef knows that their weakness is food. He wants them to strengthen their programming skills. But they are too lazy to do stuff without motivation. So chef promises that he would get them special european chocolates if they solved the problem that he gives them. Chef also knows that his friends are fiercely competitive. So to make sure they like the problem, this is what he gives them:
 
@@ -83,9 +83,9 @@ Now, we define what local minimum and local maximum mean.
 
 Let's consider some subsequence of **S** formed by indices **i1**, **i2**, ..., **iK**(1 ≤ **K**; 1 ≤ **i1** < **i2** < ... < **iK** ≤ **N**).
 
-Index **ij**(1 < ij < **K**) is said to be a _local minimum_ if the **S\[ij - 1\] > S\[ij\] < S\[ij + 1\]** condition holds.
+Index **ij**(1 < ij < **K**) is said to be a *local minimum* if the **S\[ij - 1\] > S\[ij\] < S\[ij + 1\]** condition holds.
 
-In a similar way, index **ij**(1 < ij < **K**) is said to be a _local maximum_ if the **S\[ij - 1\] < S\[ij\] > S\[ij + 1\]** condition holds.
+In a similar way, index **ij**(1 < ij < **K**) is said to be a *local maximum* if the **S\[ij - 1\] < S\[ij\] > S\[ij + 1\]** condition holds.
 
 ### Input
 
@@ -134,7 +134,8 @@ Time limit for the first and the second subtasks is 2 s. Time limit for the thir
 1023
 14
 
-</pre>### Explanation of the first two cases in the example test
+</pre>
+### Explanation of the first two cases in the example test
 
 In the first case, there is only one valid subsequence - the whole sequence **S**.
 

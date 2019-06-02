@@ -67,7 +67,7 @@ time:
     current: 1493557762
 layout: problem
 ---
-All submissions for this problem are available.A Little Elephant from the Zoo of Lviv likes _lucky strings_, i.e., the strings that consist only of the lucky digits **4** and **7**.
+All submissions for this problem are available.A Little Elephant from the Zoo of Lviv likes *lucky strings*, i.e., the strings that consist only of the lucky digits **4** and **7**.
 
 The Little Elephant has the string **S** such that each character in **S** is either the lucky digit (**4** or **7**) or the question mark **?**. He can replace each question mark with one of the lucky digits in order to obtain the lucky string. He wants to know the number of different ways he can do this such that the resulting lucky string has no more than **K** different substrings. Help him and find this number. Note, that **he need to replace all question marks.**
 
@@ -77,7 +77,7 @@ Consider some example. From the string **47?4?** we can obtain four lucky string
 
 Let **S** be some lucky string. Then - **|S|** denotes the length of the string **S**;
 - **S\[i\]** (**1 ≤ i ≤ |S|**) denotes the **i**th character of **S** (the numeration of characters starts from **1**);
-- The string **T** of the length **M** is called a _substring_ of **S** if for some **k** from 0 to **|S| - M** we have 
+- The string **T** of the length **M** is called a *substring* of **S** if for some **k** from 0 to **|S| - M** we have 
   **T\[1\] = S\[k + 1\], T\[2\] = S\[k + 2\], ..., T\[M\] = S\[k + M\]**.
 
 ### Input

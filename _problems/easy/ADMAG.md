@@ -71,11 +71,11 @@ time:
     current: 1493558104
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/AUG15/mandarin/ADMAG.pdf) and [Russian](http://www.codechef.com/download/translated/AUG15/russian/ADMAG.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/AUG15/mandarin/ADMAG.pdf) and [Russian](http://www.codechef.com/download/translated/AUG15/russian/ADMAG.pdf).
 
 Aditi recently discovered a new magic trick. First, she gives you an integer **N** and asks you to think an integer between **1** and **N**. Then she gives you a bundle of cards each having a sorted list (in ascending order) of some distinct integers written on it. The integers in all the lists are between **1** and **N**. Note that the same integer may appear in more than one card. Now, she shows you these cards one by one and asks whether the number you thought is written on the card or not. After that, she immediately tells you the integer you had thought of.
 
-Seeing you thoroughly puzzled, she explains that she can apply the trick so fast because she is just adding the first integer written on the cards that contain the integer you had thought of, and then gives the sum as the answer. She calls a bundle _interesting_ if when the bundle is lexicographically sorted, no two consecutive cards have any number in common. Now she challenges you to find out the minimum number of cards she will need for making an _interesting_ bundle such that the magic trick will work every time.
+Seeing you thoroughly puzzled, she explains that she can apply the trick so fast because she is just adding the first integer written on the cards that contain the integer you had thought of, and then gives the sum as the answer. She calls a bundle *interesting* if when the bundle is lexicographically sorted, no two consecutive cards have any number in common. Now she challenges you to find out the minimum number of cards she will need for making an *interesting* bundle such that the magic trick will work every time.
 
 ### Input
 
@@ -107,7 +107,8 @@ Seeing you thoroughly puzzled, she explains that she can apply the trick so fast
 <b>Output:</b>
 1
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 - **In example 1**, only **1** card containing **{1}** will work.
 - **In example 2**, make **3** cards containing **{1,4}, {2}** and **{3,4}**. 

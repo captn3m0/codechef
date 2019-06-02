@@ -76,7 +76,7 @@ Chef's dog Snuffles has so many things to play with! This time around, Snuffles 
 
 Bad news: Snuffles only loves to play with an array in which **all** the elements are equal.
 
-Good news: We have a _mover_ of size **D**. !
+Good news: We have a *mover* of size **D**. !
 
 A mover of size **D** is a tool which helps to change arrays. Chef can pick two existing elements **Ai** and **Aj** from the array, such that i + **D** = j and subtract 1 from one of these elements (the element should have its value at least 1), and add 1 to the other element. In effect, a single operation of the mover, moves a value of 1 from one of the elements to the other.
 
@@ -119,7 +119,8 @@ Chef wants to find the minimum number of times she needs to use the mover of siz
 3
 2
 -1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Testcase 1:**
 

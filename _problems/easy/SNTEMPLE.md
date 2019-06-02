@@ -112,7 +112,8 @@ For each test case, output a new line with an integer corresponding to the answe
 0
 1
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example 1**. The entire mountain range is already a temple. So, there is no need to make any operation.
 

@@ -104,7 +104,8 @@ Your score for each test file is **100\*N/M**. Your overall score is the average
 4
 1 4 6 9
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 This sample output would score **100\*4/10=40**.
 

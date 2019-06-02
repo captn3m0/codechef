@@ -67,7 +67,7 @@ time:
     current: 1493556831
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/NOV14/mandarin/SEAORD.pdf) and [Russian](http://www.codechef.com/download/translated/NOV14/russian/SEAORD.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/NOV14/mandarin/SEAORD.pdf) and [Russian](http://www.codechef.com/download/translated/NOV14/russian/SEAORD.pdf).
 
 Sereja have **N** programs. Sereja should run every program on two computers. Program number **i** works **A\[i\]** seconds on first computer and **B\[i\]** seconds on second. On each computer Sereja isn't able to run two programs in parallel, also Sereja isn't able to run one program on two computers in one moment. Sereja need to run all programs on both computers in minimal time. Help Sereja in his problem.
 

@@ -72,7 +72,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME46/mandarin/HAIRCUT.pdf), [Russian](http://www.codechef.com/download/translated/LTIME46/russian/HAIRCUT.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME46/vietnamese/HAIRCUT.pdf) as well.
 
-Bear Limak has just gotten his hair cut. Looking in a mirror, he realized that his fur looks so-so just after a haircut. After some thinking, he stated that he _looks good_ when his most recent haircut was between **A** and **B** days ago (inclusive). It's guaranteed that **A** ≥ 1, so Limak doesn't look good on a day of a haircut in particular (you can assume that he gets a haircut in the morning).
+Bear Limak has just gotten his hair cut. Looking in a mirror, he realized that his fur looks so-so just after a haircut. After some thinking, he stated that he *looks good* when his most recent haircut was between **A** and **B** days ago (inclusive). It's guaranteed that **A** ≥ 1, so Limak doesn't look good on a day of a haircut in particular (you can assume that he gets a haircut in the morning).
 
 After his new realization, Limak decided to plan his haircuts. Today is the day 0, and he has just gotten a haircut. For each of the following days, starting from the day 1, he can decide whether to get a haircut or not. It's allowed to get a haircut many days in a row.
 
@@ -131,7 +131,8 @@ For each test case, output a single line containing one integer — the maximum 
 5
 20
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Test case 1.**There are 5 important days. Since Limak had his hair cut on the day 0, he can just wait and he will look good on days 4 through 8 (during that time, the number of days from the most recent haircut will be between **A** and **B**). There are 2 important days (6 and 8) in that interval. There exists a strategy that allows Limak to look good on 3 important days. For example, he could get a new haircut on the day 1 — then he will look good on days 5 through 9, including 3 important days. It turns out that it's impossible that Limak would look good on 4 or more important days. So the answer is 3.
 

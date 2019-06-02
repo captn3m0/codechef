@@ -86,18 +86,21 @@ Shortly after joining the Parliament, our Chef has been elected as the new Prime
 2 2
 5 0
 </tt>
-<pre>\### Example Output ```
+<pre>
+\### Example Output ```
 <tt>
 4
 </tt>
-</pre>\### Explanation There are only 4 ways to do 5 good and 2 bad deeds without losing the cabinet's confidence and without being caught by Vaibhav: ```
+</pre>
+\### Explanation There are only 4 ways to do 5 good and 2 bad deeds without losing the cabinet's confidence and without being caught by Vaibhav: ```
 <tt>
 - G G G G B G B
 - G G G G B B G
 - G G G B G G B
 - G G G B G B G
 </tt>
-<pre>\### Note ```
+<pre>
+\### Note ```
 <tt>
 - G G B G G G B is not a valid sequence since after doing G G his reputation
 is just 2 units and committing a B after that him lose the confidence of the

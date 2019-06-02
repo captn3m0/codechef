@@ -68,7 +68,7 @@ time:
     current: 1493558217
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/NOV14/mandarin/PRPALN.pdf) and [Russian](http://www.codechef.com/download/translated/NOV14/russian/PRPALN.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/NOV14/mandarin/PRPALN.pdf) and [Russian](http://www.codechef.com/download/translated/NOV14/russian/PRPALN.pdf).
 
 Given a string **s**. Can you make it a palindrome by deleting exactly one character? Note that size of the string after deletion would be one less than it was before.
 
@@ -110,7 +110,8 @@ YES
 NO
 YES
 YES
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** Delete any one 'a', resulting string is "aa" which is a palindrome.
 

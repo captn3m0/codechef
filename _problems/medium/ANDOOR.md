@@ -116,7 +116,8 @@ For each test case, output a single line containing the sum of the perimeters of
 <b>Output:</b>
 33.6404284
 17.2058395
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** The answer is the length of the bold lines on the following picture:
 

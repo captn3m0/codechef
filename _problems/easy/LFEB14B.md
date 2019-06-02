@@ -69,7 +69,7 @@ time:
     current: 1493558164
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME09/mandarin/LFEB14B.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME09/russian/LFEB14B.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME09/mandarin/LFEB14B.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME09/russian/LFEB14B.pdf).
 
 Sereja have an array that consist of **n** integers **a\[1\], a\[2\], ..., a\[n\]**. Now Sereja want to delete some(possible none, but not all) elements from the array, such that arithmetical mean of all remaining numbers will as big as possible.
 
@@ -101,7 +101,8 @@ For each testcase print the answer modulo **10^9+7**.
 1
 3
 
-</pre>### Note
+</pre>
+### Note
 
 **Test #0-1(25 points) n ≤** 20
 

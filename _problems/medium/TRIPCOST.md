@@ -114,7 +114,7 @@ For each test case, output a separate line containing the values of **L** and **
 
 ### Subtask 3 (40 points): 
 
- _No special constraints_
+ *No special constraints*
 
 Example:
 

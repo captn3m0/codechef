@@ -79,7 +79,7 @@ All submissions for this problem are available.### Read problems statements in [
 
 Everybody's heard about Chefland — the digital country where dreams come true, where nobody hears about crime and where everyone can get Accepted without submitting solutions. Of course, Chefland has the shape of a [tree](https://en.wikipedia.org/wiki/Tree_(graph_theory)) — there are **N** servers and **N-1** bidirectional channels connecting pairs of servers in such a way that there is exactly one path between each pair of servers.
 
-The citizens in Chefland are living online; each citizen lives on exactly one server at any point in time. Don't be surprised, it's a futuristic scenario! Each channel connecting two servers has a value called _ping_. Each citizen can move to a different server through channels; moving through a channel with ping **2w** takes **w** nanoseconds. Initially, there are **ci** citizens living on the **i**-th server (for each 1 ≤ **i** ≤ **N**).
+The citizens in Chefland are living online; each citizen lives on exactly one server at any point in time. Don't be surprised, it's a futuristic scenario! Each channel connecting two servers has a value called *ping*. Each citizen can move to a different server through channels; moving through a channel with ping **2w** takes **w** nanoseconds. Initially, there are **ci** citizens living on the **i**-th server (for each 1 ≤ **i** ≤ **N**).
 
 Recently, Chef has created an [ICO](https://en.wikipedia.org/wiki/Initial_coin_offering) for Chefcoin — the cryptocurrency of the future in Chefland. Everyone in Chefland should receive exactly 1 Chefcoin. How to organize this process? Chefcoins can only be received on certain servers containing cryptoexchanges. Unfortunately, Chef can only create cryptoexchanges on two servers, since they consume a lot of electric power. The citizens want to receive Chefcoin as fast as possible; therefore, each citizen chooses the closest server with a cryptoexchange and moves to that server. Receiving Chefcoin at a cryptoexchange takes zero time.
 
@@ -128,6 +128,7 @@ For each test case, print a single line containing one integer — the minimal s
 
 55
 1148402043
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** Chef can create cryptoexchanges on servers 2 and 4. Citizens on these servers receive Chefcoins immediately. The total time for Chefland's remaining citizens is the time it takes 15 citizens to move from server 3 to server 2 (3 · 15 = 45) plus the time it takes 10 citizens to move from server 1 to server 2 (1 · 10 = 10), so the optimal total time is 55.

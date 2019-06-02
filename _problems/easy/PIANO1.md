@@ -70,13 +70,13 @@ time:
     current: 1493558174
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/APRIL15/mandarin/PIANO1.pdf) and [Russian](http://www.codechef.com/download/translated/APRIL15/russian/PIANO1.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/APRIL15/mandarin/PIANO1.pdf) and [Russian](http://www.codechef.com/download/translated/APRIL15/russian/PIANO1.pdf).
 
 Recently, Chef got obsessed with piano. He is a just a rookie in this stuff and can not move his fingers from one key to other fast enough. He discovered that the best way to train finger speed is to play scales.
 
 There are different kinds of scales which are divided on the basis of their interval patterns. For instance, major scale is defined by pattern **T-T-S-T-T-T-S**, where **‘T’** stands for a whole tone whereas **‘S’** stands for a semitone. Two semitones make one tone. To understand how they are being played, please refer to the below image of piano’s octave – two consecutive keys differ by one semitone.
 
-If we start playing from first key (note _C_), then we’ll play all white keys in a row (notes _C-D-E-F-G-A-B-C_ – as you can see _C_ and _D_ differ for a tone as in pattern, and _E_ and _F_ differ for a semitone).
+If we start playing from first key (note *C*), then we’ll play all white keys in a row (notes *C-D-E-F-G-A-B-C* – as you can see *C* and *D* differ for a tone as in pattern, and *E* and *F* differ for a semitone).
 
 This pattern could be played some number of times (in cycle).
 
@@ -84,11 +84,11 @@ This pattern could be played some number of times (in cycle).
 
 Each time Chef takes some type of a scale and plays using some number of octaves. Sometimes Chef can make up some scales, so please don’t blame him if you find some scale that does not exist in real world.
 
-_Formally_, you have a set of **12** keys (i.e. one octave) and you have **N** such sets in a row. So in total, you have **12\*N** keys. You also have a pattern that consists of letters _'T'_ and _'S'_, where _'T'_ means move forward for two keys (from key **x** to key **x + 2**, and _'S'_ means move forward for one key (from key **x** to key **x + 1**).
+*Formally*, you have a set of **12** keys (i.e. one octave) and you have **N** such sets in a row. So in total, you have **12\*N** keys. You also have a pattern that consists of letters *'T'* and *'S'*, where *'T'* means move forward for two keys (from key **x** to key **x + 2**, and *'S'* means move forward for one key (from key **x** to key **x + 1**).
 
 Now, you can start playing from any of the **12\*N** keys. In one play, you can repeat the pattern as many times as you want, but you cannot go outside the keyboard.
 
-Repeating pattern means that if, for example, you have pattern _STTST_, you can play _STTST_ as well as _STTSTSTTST_, as well as _STTSTSTTSTSTTST_, as well as any number of repeating. For this pattern, if you choose to repeat it once, if you start at some key **x**, you'll press keys: **x (letter 'S')-> x + 1 (letter 'T')-> x + 3 (letter 'T')-> x + 5 (letter 'S') -> x + 6 (letter 'T')-> x + 8**. Also **1 ≤ x, x + 8 ≤ 12\*N** so as to avoid going off the keyboard.
+Repeating pattern means that if, for example, you have pattern *STTST*, you can play *STTST* as well as *STTSTSTTST*, as well as *STTSTSTTSTSTTST*, as well as any number of repeating. For this pattern, if you choose to repeat it once, if you start at some key **x**, you'll press keys: **x (letter 'S')-> x + 1 (letter 'T')-> x + 3 (letter 'T')-> x + 5 (letter 'S') -> x + 6 (letter 'T')-> x + 8**. Also **1 ≤ x, x + 8 ≤ 12\*N** so as to avoid going off the keyboard.
 
 You are asked to calculate number of different plays that can be performed. Two plays differ if and only if they start at different keys or patterns are repeated different number of times.
 
@@ -127,6 +127,7 @@ TTSTTTS
 4
 36
 
-</pre>### Explanation
+</pre>
+### Explanation
 
-**Example case 1.** In the first case there is only one octave and Chef can play scale (not in cycle each time) starting with notes _C, C#, D, D#_ - four together.
+**Example case 1.** In the first case there is only one octave and Chef can play scale (not in cycle each time) starting with notes *C, C#, D, D#* - four together.

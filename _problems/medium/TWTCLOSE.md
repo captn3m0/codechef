@@ -78,13 +78,13 @@ There are **N** tweets on the page and each tweet can be opened by clicking on i
 
 First line contains two integers **N K**, the number of tweets (numbered 1 to **N**) and the number of clicks respectively (1 ≤ **N**, **K** ≤ 1000). Each of the following **K** lines has one of the following.
 
-- CLICK _X_ , where _X_ is the tweet number (1 ≤ _X_ ≤ N)
+- CLICK *X* , where *X* is the tweet number (1 ≤ *X* ≤ N)
 - CLOSEALL
 
 
 ### Output
 
-Output **K** lines, where the _i_th line should contain the number of open tweets just after the _i_th click.
+Output **K** lines, where the *i*th line should contain the number of open tweets just after the *i*th click.
 
 ### Example
 
@@ -106,6 +106,7 @@ CLICK 1
 0
 1
 </pre>
+
 **Explanation:**
 
 Let open\[x\] = 1 if the xth tweet is open and 0 if its closed.

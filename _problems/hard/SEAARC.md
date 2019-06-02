@@ -68,7 +68,7 @@ time:
     current: 1493556988
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JUNE14/mandarin/SEAARC1.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE14/russian/SEAARC1.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JUNE14/mandarin/SEAARC1.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE14/russian/SEAARC1.pdf).
 
 Sereja have **N** points, with coordinates **(1, 0), (2, 0), ..., (N, 0)**. Every point has a color, point with coordinate **(i, 0)** has color **A\[i\]**.
 

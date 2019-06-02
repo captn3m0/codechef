@@ -72,7 +72,7 @@ layout: problem
 ---
 All submissions for this problem are available.Few people know that the Chef is also a modern artist. In his spare time, he makes paintings which do not stink of traditions. They are like whiffs of fresh air, full of experimentation. So, now you know all those err.. beautiful pieces of art in the Chef’s restaurant, are his own works!
 
-Here is how he makes a piece of modern art - First he takes a large thin wooden board. Then he draws a big polygon on it, using crayons. Then in several wild swings, he draws several lines on the board. You may think it is simple, but it is not so. After so many years of experience in slicing potatoes and tomatoes he has become very accurate in marking points on the board. So what is remarkable is, that every corner of the polygon, and every starting and ending point of the line is an integral point, i.e can be represented as <x, y> where x and y both are integers. Another point worth pointing out is that Chef believes in symmetry. This is visible from following fact- "If we divide entire wooden board into 16 square shaped (virtual) regions, the difference in number of lines _contained_ in the region with maximum lines and the region with minimum lines does not exceed 50%". A region is said to _contain_ a line if at least one end point of line is inside it.
+Here is how he makes a piece of modern art - First he takes a large thin wooden board. Then he draws a big polygon on it, using crayons. Then in several wild swings, he draws several lines on the board. You may think it is simple, but it is not so. After so many years of experience in slicing potatoes and tomatoes he has become very accurate in marking points on the board. So what is remarkable is, that every corner of the polygon, and every starting and ending point of the line is an integral point, i.e can be represented as <x, y> where x and y both are integers. Another point worth pointing out is that Chef believes in symmetry. This is visible from following fact- "If we divide entire wooden board into 16 square shaped (virtual) regions, the difference in number of lines *contained* in the region with maximum lines and the region with minimum lines does not exceed 50%". A region is said to *contain* a line if at least one end point of line is inside it.
 
 It doesn't end here. Then the Chef takes colourful (sewing) needles and nails them on every point on the line traced by crayon, such that the point is integral and it lies either on or inside the polygon. As polygon boundaries are also lines, needles are pinned on them as well. Finally he takes board pins with colourful heads and pins them inside the polygon such that the point is not already occupied by needle and the point is integral. Lo and behold! The painting is ready!
 
@@ -111,7 +111,8 @@ For each test case - output on a single line the number of needles required and 
 <b>Output</b>
 14 1
 
-</pre>### Note
+</pre>
+### Note
 
 1\) The symmetry constraint - "If we divide entire wooden board into 16 square shaped (virtual) regions .... " is enforced only if number of lines (**M**) is ≥ 1000.
 

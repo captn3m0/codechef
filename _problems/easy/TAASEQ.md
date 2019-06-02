@@ -114,7 +114,8 @@ For each test case print out single integer which is the number you will remove 
 3
 -1
 7
-</pre>### Explaination
+</pre>
+### Explaination
 
 **test 1:** an array contain a single integer is considered to be an arithmetic progression so you can remove any number in the array. But note that we must print out the **smallest result** which is 3.
 

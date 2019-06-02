@@ -107,7 +107,8 @@ For each test case, output a single line containing one integer: the answer for 
 1
 0
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** Only candle with number **2** is suitable.
 

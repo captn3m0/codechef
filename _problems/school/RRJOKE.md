@@ -103,7 +103,8 @@ Output the answer for every test case in a separate line. The answer for every t
 <b>Output:</b>
 3
 0
-</pre>### Explanation
+</pre>
+### Explanation
 
 For the first test case permutation **\[1, 2\]** is optimal.  **1 xor 2 = 3**. 
 For the second one both **\[2, 3, 1\]** and **\[1, 3, 2\]** lead us to the shortest walk, but the second one is lexicographically smaller. So the answer is **H(\[1, 3, 2\]) = 1 xor 3 xor 2 = 0** .

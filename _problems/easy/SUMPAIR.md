@@ -71,7 +71,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/COOK60/mandarin/SUMPAIR.pdf) and [Russian](http://www.codechef.com/download/translated/COOK60/russian/SUMPAIR.pdf) as well.
 
-Given an array of **N** numbers, a pair of numbers is called _good_ if difference between the two numbers is strictly less than **D**.
+Given an array of **N** numbers, a pair of numbers is called *good* if difference between the two numbers is strictly less than **D**.
 
 Find out maximum possible sum of all good disjoint pairs that can be made from these numbers.
 
@@ -109,7 +109,8 @@ For each test case, output the answer in a separate line.
 8
 22
 37
-</pre>### Explanation:
+</pre>
+### Explanation:
 
 Test Case 1: You can only take 1 pair out of 3 numbers. So pair(3,5) is only valid pair whose difference is 2.
 

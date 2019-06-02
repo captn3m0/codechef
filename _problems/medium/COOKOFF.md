@@ -33,12 +33,14 @@ For each test case, output on a single line the minimum possible value of the la
 
 6 3 0 100
 21 64 34 55 64 89
-</pre>### Sample Output:
+</pre>
+### Sample Output:
 
 <pre>55
 30
 34
-</pre>### Contsraints
+</pre>
+### Contsraints
 
 T≤250
 0≤M≤N≤1000

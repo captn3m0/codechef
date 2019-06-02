@@ -67,7 +67,7 @@ time:
     current: 1492507586
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME20/mandarin/LCH15JAB.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME20/russian/LCH15JAB.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME20/mandarin/LCH15JAB.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME20/russian/LCH15JAB.pdf).
 
 This is a very easy warm-up problem.
 

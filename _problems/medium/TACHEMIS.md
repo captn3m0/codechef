@@ -112,7 +112,8 @@ A 11
 9
 66
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** 
 The original string is AABB so the sub-strings

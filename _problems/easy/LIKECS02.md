@@ -103,20 +103,23 @@ If the solution exists, output **N** space separated integers denoting the eleme
 <pre>
 1 ≤ T ≤ 20
 1 ≤ N ≤ 100
-</pre>### Sample Input
+</pre>
+### Sample Input
 
 <pre>
 3
 1
 2
 3
-</pre>### Sample Output
+</pre>
+### Sample Output
 
 <pre>
 1
 1 2
 1 2 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 For test case **3**, the subarrays and their median are as follows:
 

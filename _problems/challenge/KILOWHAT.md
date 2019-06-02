@@ -123,7 +123,8 @@ Let **D** be the greatest distance between any two citizens, and **P** the perim
 3 4
 1 4
 2 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 For this sample output, the Decocrats at (2, 2) and (2, 3) are inside the fence. The Rebytelicans at (1, 1), (1, 2), (1, 3), (4, 2), (4, 3), (4, 4) are outside the fence. Everyone else is on the border of the fence. Here **D** = 3 \* sqrt(2) = 4.2426, **P** = sqrt(2) + 2 + 2 + sqrt(10) + 2 = 10.5765, and **N** = 16. The sample output would therefore score 10 \* 10.5765 / (4.2426 \* sqrt(16)) = 6.2323. Note that this output is optimal for this case. But you can output any polygon satisfying constraints above in order to get Accepted.
 

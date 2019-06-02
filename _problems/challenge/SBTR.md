@@ -169,14 +169,16 @@ If your program works incorrectly (e.g. it exceeds the time limit or the plan is
 <b>Output:</b>
 2
 6 4
-</pre><pre><b>Input:</b>
+</pre>
+<pre><b>Input:</b>
 2 1
 5 9
 1 2
 
 <b>Output:</b>
 0
-</pre><pre><b>Input:</b>
+</pre>
+<pre><b>Input:</b>
 3 2
 6 7 8
 1 3
@@ -185,7 +187,8 @@ If your program works incorrectly (e.g. it exceeds the time limit or the plan is
 <b>Output:</b>
 3
 1 2 3
-</pre>**Explanation for the first example**There is only one cycle containing the nodes 2, 6, and 10. One can remove any of them but should make sure that the resulting network is connected. For example, you can remove 6 but you'd also have to remove 4; Another valid solution: 3 and 10 (higher cost). A valid solution can also include other nodes: 7, 3, 10, 5, and 9.
+</pre>
+**Explanation for the first example**There is only one cycle containing the nodes 2, 6, and 10. One can remove any of them but should make sure that the resulting network is connected. For example, you can remove 6 but you'd also have to remove 4; Another valid solution: 3 and 10 (higher cost). A valid solution can also include other nodes: 7, 3, 10, 5, and 9.
 
 [![sbtr](https://image.ibb.co/j2Db5v/sbtr.png)](https://imgbb.com/)
 **Explanation for the last two examples**As both of them are trees, almost any subset of nodes will be a valid solution. The suggested output is not intended to be unique or optimal.

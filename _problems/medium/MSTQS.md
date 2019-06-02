@@ -138,7 +138,8 @@ For each query of type 3, output an integer in a single line corresponding to th
 3
 2
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 The input graph has 4 vertices and 4 edges, it can be drawn like this:
 
@@ -150,7 +151,8 @@ The input graph has 4 vertices and 4 edges, it can be drawn like this:
 |_____ |
 1         2
 
-</pre>Initially, all edges have weight equal 1. There are 5 queries to handle.
+</pre>
+Initially, all edges have weight equal 1. There are 5 queries to handle.
 
 In the first query, we are asked for the weight of Minimal Spanning Tree, which is 3 (taking any 3 edges produces such a tree).
 

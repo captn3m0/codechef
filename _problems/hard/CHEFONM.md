@@ -75,7 +75,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/COOK72/mandarin/CHEFONM.pdf), [Russian](http://www.codechef.com/download/translated/COOK72/russian/CHEFONM.pdf) and [Vietnamese](http://www.codechef.com/download/translated/COOK72/vietnamese/CHEFONM.pdf) as well.
 
-Chef has permutation **P** consisting of first **N** numbers, (i.e. from 1 to **N**). He wants to sort it, but he doesn't know any type of sort, except[Bogosort](https://en.wikipedia.org/wiki/Bogosort) . Chef is afraid that Bogosort might take a lot of time, so he optimized that algorithm and called it Chefsort. But he doesn't know expected time complexity of this algorithm. Formally, he wants to find expected value of findSwaps function. Please help him to find it. Below is the pseudo code of Chefsort.
+Chef has permutation **P** consisting of first **N** numbers, (i.e. from 1 to **N**). He wants to sort it, but he doesn't know any type of sort, except[ Bogosort](https://en.wikipedia.org/wiki/Bogosort) . Chef is afraid that Bogosort might take a lot of time, so he optimized that algorithm and called it Chefsort. But he doesn't know expected time complexity of this algorithm. Formally, he wants to find expected value of findSwaps function. Please help him to find it. Below is the pseudo code of Chefsort.
 
 
 <pre>
@@ -89,7 +89,9 @@ function findSwaps(permutation P) {
 	return swaps;
 }
 
-</pre>### Input
+</pre>
+
+### Input
 
 First line of the input contains one integer **T**, denoting number of tests. **T** test case follow.
 

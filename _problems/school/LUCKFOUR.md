@@ -69,7 +69,7 @@ time:
     current: 1492507629
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME21/mandarin/LUCKFOUR.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME21/russian/LUCKFOUR.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME21/mandarin/LUCKFOUR.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME21/russian/LUCKFOUR.pdf).
 
 Kostya likes the number **4** much. Of course! This number has such a lot of properties, like:
 

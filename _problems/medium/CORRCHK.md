@@ -68,7 +68,7 @@ time:
     current: 1493557915
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME10/mandarin/CORRCHK.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME10/russian/CORRCHK.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME10/mandarin/CORRCHK.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME10/russian/CORRCHK.pdf).
 
 Run has given you a list of statements of the form "A+B=C", where A, B and C consist only of decimal digits and small latin letters from 'a' to 'f'. Moreover, the first symbol of **A**, **B**, **C** is always not a zero and the length of **A**, **B**, **C** is not greater than 8. How many statements have an integer **Q** in the range \[2; 16\] such that **A**+**B** equals to **C** in the base **Q**?
 
@@ -90,7 +90,8 @@ Output an answer to the problem of the first line of output.
 
 <b>Output:</b>
 2
-</pre>### Scoring
+</pre>
+### Scoring
 
 **T** = 105, Every statement is either true in the base 10, either false in all the bases : 50 points.
 

@@ -76,7 +76,7 @@ It's final exam week of Chef's cooking class. His class of **N** students are bu
 
 Chef prepared **N** tasks for exam. He intends to assign each task to exactly one student. Each task requires exactly one topic to pass. The **j**-th task requires topic **Tj**.
 
-Chef is a sadistic teacher, he doesn't want the students to pass! Therefore he wants to assign the tasks in such that _the number of students assigned to the topic he/she studied for is minimized_. Can you please help Chef in finding any such assignment?
+Chef is a sadistic teacher, he doesn't want the students to pass! Therefore he wants to assign the tasks in such that *the number of students assigned to the topic he/she studied for is minimized*. Can you please help Chef in finding any such assignment?
 
 If there are multiple possible assignments, you may output any one.
 
@@ -122,7 +122,8 @@ The second line should describes assignment. It should contain **N** space separ
 2 3 4 1
 1
 2 3 1</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** Here, there exists an assignment where no student is assigned to the topic he/she studied for:
 

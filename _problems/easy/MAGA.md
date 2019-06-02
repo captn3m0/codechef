@@ -77,7 +77,7 @@ You are a citizen of Arrayland. Your President (Mr. P) has given you a mundane p
 
 You're given an array **a** with size **N** (1-based indexing). You are allowed to perform an arbitrary number (including zero) of operations of the following type: choose an integer **i** (1 ≤ **i** ≤ **N**) and swap **ai** with **aN-i+1**.
 
-Your goal is to make the array **a** _great_. An array is great if it satisfies one of the following conditions:
+Your goal is to make the array **a** *great*. An array is great if it satisfies one of the following conditions:
 
 - **a1** > **a2** a3 > **a4** aN
 - **a1** a2 > **a3** a4 > ... **aN**
@@ -109,6 +109,7 @@ Print a single line containing one integer — the minimum number of operations 
 
 <b>Output:</b>
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** The given array is NOT great. If you swap the second and the fifth element, then the array becomes great.

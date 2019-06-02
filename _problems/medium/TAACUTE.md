@@ -114,6 +114,7 @@ Output a single line containing the number of acute triangles.
 3 4
 <b>Output3:</b>
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 3.** Two acute triangles are {(1, 1), (3, 2), (1, 3)} and {(3, 2), (1, 3), (3, 4)}

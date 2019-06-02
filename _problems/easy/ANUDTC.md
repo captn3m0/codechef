@@ -115,7 +115,8 @@ Answers for 3 questions (in the order above) must be space separated on the same
 <b>Output:</b>
 y y y
 n y y
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**
 

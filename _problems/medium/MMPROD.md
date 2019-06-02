@@ -80,7 +80,7 @@ The **maximum K-product** of the array is the maximum product of any **K** lengt
 
 What is the **maximum **K**-product** you can achieve? Since the answer can be very large, output it modulo **109 + 7**.
 
-_Note:_ Recall that the result of a modulo operation is always non-negative. For example, **-8 mod 5 = 2**.
+*Note:* Recall that the result of a modulo operation is always non-negative. For example, **-8 mod 5 = 2**.
 
 ### Input
 
@@ -119,7 +119,8 @@ For each test case, output a single line containing the **maximum K-product** of
 30
 999999937
 1000000006</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** The maximum 2-product of the array **\[5, -3, -4, 6\]** is **30** and is achieved by the subsequence **\[5, 6\]**.
 

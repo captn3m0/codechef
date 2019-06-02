@@ -121,7 +121,8 @@ For each test case, output a single line containing the minimum amount of penalt
 0
 147
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example 1:** There is only 1 order and all of the items from this order can be served. So zero penalty
 

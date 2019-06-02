@@ -103,7 +103,8 @@ kayla jayla
 YES
 YES
 NO
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Case 1:** Consider **S = "johanna"**. So, **S\[0\] = 'j', S\[1\] = 'o', S\[2\] = 'h'** and so on. If we remove the indices \[3, 4, 6\] or \[3, 5, 6\] from S, it becomes **"john"**. Hence **"john"** is a subsequence of **S**, so the answer is "YES".
 

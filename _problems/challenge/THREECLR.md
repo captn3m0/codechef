@@ -124,6 +124,7 @@ The score for a single test case is simply the largest integer that appears in t
 1 2 3 3
 1 2 1 2 3 4 4 3 3 2
 1 3 1
-</pre>### Sample Output Score
+</pre>
+### Sample Output Score
 
 The score for the first test case is 3 since only three rounds are used. The score for the second test case is 4 since four rounds are used. Note that this is not optimum as the assignment 1 2 3 1 2 2 1 1 3 3 is a valid way to schedule the dishes in only three rounds. Finally, the last test case has score 3. Even though only two rounds are used (rounds 1 and 3), the output specification says that the score will be the largest integer used as a round in the output.

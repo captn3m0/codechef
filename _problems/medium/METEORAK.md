@@ -68,7 +68,7 @@ time:
     current: 1493557792
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JAN14/mandarin/METEORAK.pdf) and [Russian](http://www.codechef.com/download/translated/JAN14/russian/METEORAK.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JAN14/mandarin/METEORAK.pdf) and [Russian](http://www.codechef.com/download/translated/JAN14/russian/METEORAK.pdf).
 
 A meteor fell on Andrew's house. That's why he decided to build a new home and chose a site where he wanted to build it. Let the whole area be a rectangular field of size **N**x**M**. Naturally, Andrew wanted to build a house on the entire area of the site. However, the Hazardous Construction Prevention Bureau did not let Andrew's plans come true. The Bureau said that some of the cells of the field are dangerous for the foundation. There are exactly **K** such cells.
 

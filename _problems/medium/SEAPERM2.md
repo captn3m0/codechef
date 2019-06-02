@@ -69,7 +69,7 @@ time:
     current: 1493557926
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/NOV14/mandarin/SEAPERM2.pdf) and [Russian](http://www.codechef.com/download/translated/NOV14/russian/SEAPERM2.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/NOV14/mandarin/SEAPERM2.pdf) and [Russian](http://www.codechef.com/download/translated/NOV14/russian/SEAPERM2.pdf).
 
 Sereja have permutation **p\[1\], p\[2\], ..., p\[n\]**. Sereja have made **n** permutations **q\[1\], q\[2\], ..., q\[n\]**, **q\[i\]** is permutation **p** without element **i** (we subtract 1 from all elements bigger than **i**). For example **8 1 2 3 4 5 6 7** without **5** is **7 1 2 3 4 5 6**. Sereja have made random shuffle of **q**. Help Sereja find initial permutation **p**.
 

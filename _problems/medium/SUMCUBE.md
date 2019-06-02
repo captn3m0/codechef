@@ -145,7 +145,8 @@ For each test case, output one line containing one integer, the answer modulo (*
 56
 194
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**
 

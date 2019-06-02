@@ -111,7 +111,8 @@ For each value of **S** in the input, output the maximum number of different col
 1
 2
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 - It is not possible to represent **S = 1** since every coin has value more than 1.
 - **S = 3** can only be represented using one coin of the second type, hence only one color is used in the representation.

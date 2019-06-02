@@ -71,7 +71,7 @@ time:
     current: 1493554567
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JAN15/mandarin/XRQRS.pdf) and [Russian](http://www.codechef.com/download/translated/JAN15/russian/XRQRS.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JAN15/mandarin/XRQRS.pdf) and [Russian](http://www.codechef.com/download/translated/JAN15/russian/XRQRS.pdf).
 
 Given an initially empty integer array (1-indexed) and some queries:
 

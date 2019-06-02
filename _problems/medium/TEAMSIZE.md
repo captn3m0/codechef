@@ -71,9 +71,9 @@ All submissions for this problem are available.Battle of the Chefs is coming up!
 
 - A team can have any number of cooks.
 - Each team should consist of consecutive cooks. So, for example, cooks with positions 3, 4, 5 can form a team, but cooks with positions 4, 5, 7, 8 can not.
-- A team is a _candidate team_ if the difference between the maximum skill and the minimum skill of the cooks in the team does not exceed the threshold **C**.
-- A cook can be in 0 or more _candidate teams_. Which means that _candidate teams_ can intersect.
-- Two _candidate teams_ are considered to be different if there exists at least one cook who is in one team but not in the other.
+- A team is a *candidate team* if the difference between the maximum skill and the minimum skill of the cooks in the team does not exceed the threshold **C**.
+- A cook can be in 0 or more *candidate teams*. Which means that *candidate teams* can intersect.
+- Two *candidate teams* are considered to be different if there exists at least one cook who is in one team but not in the other.
 
 Chef has not yet decided the team of what size he is going to send to the battle. To be precise we note, that the team size is the total number of cooks in it. For the given team size Chef wants to consider all candidate teams of this size according to the rules described above, evaluate them for himself and choose the best one. Denote the total number of candidate teams for the given size **K** as **cand\[K\]**. To increase the chances of choosing better team he wants the number of candidate teams to be as large as possible. But Chef is a human and can't evaluate too many teams. The maximal number of teams he can evaluate depends on many factors such as his mood or fatigue. We call it the Chef's limit. Denote the current Chef's limit as **M**. Since Chef still wants the total number of candidate teams to be as large as possible you need to find the team size **K** such that **cand\[K\] ≤ M**, among all such **K** find the value for which **cand\[K\]** is maximal and if such **K** is not unique find the minimal **K** among them. Since Chef's limit always changes according to his mood or fatigue you should find the required team size for several values of **M**. Chef also wants to know the total number of candidate teams for the size you will find. There will be **Q** values of **M** in all.
 
@@ -112,7 +112,8 @@ For each test case, output **Q** lines containing the optimal team size for the 
 3 3
 1 6
 2 0
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Case 1.**
 With team size 2, we have 4 candidate teams: {2, 4}, {4, 5}, {5, 6}, and {6, 3}. Here numbers denote the cooks' skills. With any other team size, the number of candidate teams is either less than 4 or greater than 4. Similarly, with team size 3, we have 3 candidate teams, which are {2, 4, 5}, {4, 5, 6} and {5, 6, 3}.

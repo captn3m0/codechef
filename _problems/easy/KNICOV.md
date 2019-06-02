@@ -99,7 +99,8 @@ For each test case print the minimum number of knights required to cover every c
 
 <b>Output:</b>
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 One optimal configuration is:
 

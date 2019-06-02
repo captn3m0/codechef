@@ -126,7 +126,8 @@ It is advised to use fast I/O methods.
 <b>Output:</b>
 10
 0
-</pre>### Explanation
+</pre>
+### Explanation
 
 For query ‘2 1’, the satisfying triplets are (1,3,5), (1,3,6), (1,4,5), (1,4,6), (1,5,6), (1,5,3), (1,5,4), (1,6,5), (1,6,3) and (1,6,4).
 

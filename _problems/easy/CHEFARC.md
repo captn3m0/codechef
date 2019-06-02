@@ -120,7 +120,8 @@ Original Constraints
 <b>Output:</b>
 5
 -1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** Robot 1 can move (1, 1) -> (2, 1) -> (3, 1) -> (4, 1) -> (4, 2) -> (4, 3), and robot 2 can move (1, 4) -> (2, 4) -> (3, 4) -> (4, 4) -> (4, 3) -> (4, 3), they meet at cell (4, 3) after 5 moves.
 

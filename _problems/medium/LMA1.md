@@ -98,7 +98,8 @@ For each test case, output a single line containing the answer to the correspond
 17.903573407202216066481994459833795013850415
 796.867901234567901234
 0.187143148658300173451688603203754718906234057749209264360779512294
-</pre>### Scoring
+</pre>
+### Scoring
 
 In all the test cases, 0.01 <= **a** < 1.00, 0.00 <= **p** <= 10.00, 0.00 <= **q** <= 10.00
 

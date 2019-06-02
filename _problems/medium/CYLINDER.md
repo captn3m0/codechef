@@ -104,7 +104,8 @@ For each test case, output a single line containing the maximum volume of the co
 3.471819240663
 0.824190535860
 0.785398163397
-</pre>### Explanation
+</pre>
+### Explanation
 
 In all examples blue circles are top and bottom of container. Yellow rectangle is used to create lateral surface. Namely, we roll up it along the direction of blue arrow to match green borders.
 

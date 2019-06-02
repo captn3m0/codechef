@@ -119,7 +119,8 @@ baab</tt>
 <tt>1
 0
 2</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **In the first example**, the minimum value of LCS of all the strings is 1, the string by oracle can be one of these {aa, ab, ba, bb}.
 

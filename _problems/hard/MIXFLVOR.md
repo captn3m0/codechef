@@ -120,11 +120,12 @@ Output the answer of each test-case in new line, the maximum flavor that the Che
 <b>Output:</b>
 13
 8
-</pre>### Explanation
+</pre>
+### Explanation
 
-**Test case 1:** The binary representations of the 5 flavors, in order, are: (_0100, 0001, 1001, 0110, 1100_), and the corresponding prices are (2,7,5,15,3).
+**Test case 1:** The binary representations of the 5 flavors, in order, are: (*0100, 0001, 1001, 0110, 1100*), and the corresponding prices are (2,7,5,15,3).
 
-If Chef buys only the 5th ice-cream with cost 3 and flavor 12. But if Chef buys the first 3 ice-creams, his total cost is 2+7+5 = 14, which is within his budget of 15, and hence valid. Now, from these three bought ice-creams, he can choose to mix just the first and third, and get a flavor of _0100^1001_ = _1101_, which is 13. You can verify that this is the best that he can do.
+If Chef buys only the 5th ice-cream with cost 3 and flavor 12. But if Chef buys the first 3 ice-creams, his total cost is 2+7+5 = 14, which is within his budget of 15, and hence valid. Now, from these three bought ice-creams, he can choose to mix just the first and third, and get a flavor of *0100^1001* = *1101*, which is 13. You can verify that this is the best that he can do.
 
 **Test case 2:** Chef can afford the first or the last ice-cream. He could afford them both but he must buy a consecutive segment of ice-creams while the cost of the second ice-cream is beyond his budget.
 

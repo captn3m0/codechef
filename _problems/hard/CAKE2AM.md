@@ -105,7 +105,8 @@ For each test case, output a single line containing an integer denoting the maxi
 <b>Output:</b>
 16
 19
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example 1:** You have only a single cut and the cake now have two pieces(as seen by the figure in the left). The amount of cake in piece 1 is 9 and the amount of cake in piece 2 is 16. So you will take the piece 2 and leave piece 1 for your friend.
 

@@ -23,6 +23,8 @@ For each test case, output a single line containing number **S** - the sum of mo
 
 ### Example
 
-`<b>Input:</b><br></br>3<br></br>2<br></br>-1 1<br></br>1 -1<br></br>2<br></br>0 1<br></br>1 -1<br></br>3<br></br>-1 1<br></br>2 -1<br></br>3 -5<br></br><br></br><b>Output:</b><br></br>1<br></br>1/2<br></br>2 5/12<br></br>`### Explanation
+<pre><b>Input:</b><br></br>3<br></br>2<br></br>-1 1<br></br>1 -1<br></br>2<br></br>0 1<br></br>1 -1<br></br>3<br></br>-1 1<br></br>2 -1<br></br>3 -5<br></br><br></br><b>Output:</b><br></br>1<br></br>1/2<br></br>2 5/12<br></br>
+</pre>
+### Explanation
 
 In the third test case we have collisions in the following moments of time: 1/4, 2/3 and 3/2.

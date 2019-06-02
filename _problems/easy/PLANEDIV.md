@@ -80,9 +80,9 @@ Chef is working with lines on a 2-D plane.
 
 He knows that every line on a plane can be clearly defined by three coefficients **A**, **B** and **C**: any point **(x, y)** lies on the line if and only if **A \* x + B \* y + C = 0**.
 
-Let's call a set of lines to be _perfect_ if there does not exist a point that belongs to two or more distinct lines of the set.
+Let's call a set of lines to be *perfect* if there does not exist a point that belongs to two or more distinct lines of the set.
 
-He has a set of lines on a plane and he wants to find out the size of the largest _perfect_ subset of this set.
+He has a set of lines on a plane and he wants to find out the size of the largest *perfect* subset of this set.
 
 ### Input
 
@@ -121,6 +121,7 @@ For each test case output the cardinality of the largest perfect subset in a sin
 
 <b>Output:</b>
 <tt>2</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 Lines **3\*x + 4\*y + 5 = 0** and **30\*x + 40\*y + 0 = 0** form a biggest perfect subset.

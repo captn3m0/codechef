@@ -69,7 +69,7 @@ time:
     current: 1493558191
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MARCH15/mandarin/STRSUB.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH15/russian/STRSUB.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MARCH15/mandarin/STRSUB.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH15/russian/STRSUB.pdf).
 
 You are given a string **S** of length **N** consisting only of 0s and **1**s. You are also given an integer **K**.
 
@@ -127,7 +127,8 @@ For each query, print the required answer in a single line.
 8
 5
 7
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Query 1:** Consider substring **P = S\[1, 4\] = "0111"**.
 Out of **10** total substrings of **P**, substrings **P\[1, 4\]** and **P\[2, 4\]** are not valid because both contain more than two **1**s.

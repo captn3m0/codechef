@@ -79,9 +79,9 @@ Your goal is to construct words from the tiles, by placing them on the unoccupie
 
 Each turn consists of placing at least one of the tiles on some node of the graph which currently has no tile. Then, you need to construct a path in this graph that contains **at least one of the just placed tiles** such that the string obtained by writing out the letters from the nodes on this path (and previously replacing blank tiles with arbitrary Latin letters) is included in the provided dictionary of **existing English words**. You can't play one word twice, though the same blank tile can represent different letters in different turns.
 
-Moreover, each node has its own _multiplier value_, denoting the value by which the score of the placed tile will be multiplied anytime this node participates in the creation of a word.
+Moreover, each node has its own *multiplier value*, denoting the value by which the score of the placed tile will be multiplied anytime this node participates in the creation of a word.
 
-The score you get for the turn will be equal to the sum of the scores for every tile used in the construction of the word, each multiplied by the _multiplier value_ of the corresponding node. The number of points for each letter is based on the letter's frequency in standard English writing and will be listed below; commonly used letters such as vowels are worth one point, while less common letters score higher, goign up to **10** points each for Q and Z.
+The score you get for the turn will be equal to the sum of the scores for every tile used in the construction of the word, each multiplied by the *multiplier value* of the corresponding node. The number of points for each letter is based on the letter's frequency in standard English writing and will be listed below; commonly used letters such as vowels are worth one point, while less common letters score higher, goign up to **10** points each for Q and Z.
 
 You need to get as many points as possible in total, in the end (by the last of your output moves). For making game more interesting, you will be aware only of the first **min(20, number\_of\_remaining\_letter\_tiles)** letter tiles in the initially shuffled letter tiles queue.
 
@@ -106,7 +106,7 @@ Each of the following **D** lines contains a string of uppercase Latin letters, 
 
 The following line contains two space separated integerd **N** and **M**, denoting the number of the nodes and edges in the game graph.
 
-The following line contains **N** space separated integers, where the **i**th of them denotes the _multiplier value_ of the **i**th node.
+The following line contains **N** space separated integers, where the **i**th of them denotes the *multiplier value* of the **i**th node.
 
 The next line contains **N** characters. The **i**th of these characters is either a dot (character ".", ASCII code 46), in case there is no letter written in the **i**th node, or an uppercase latin letter - in case this letter is written in the **i**th node, or a dash (symbol "\_", ASCII code 95) in case there is a blank tile on the corresponding node.
 
@@ -118,17 +118,17 @@ The following line contains a string **S** of **min(20, number-of-remaining-lett
 
 Output a few blocks, describing the moves. After the last move description, output **-1** on the separate line.
 
-In the first line of the block describing a move, output **C** - the number of nodes where you will put the tiles during this move. **C** should be positive, otherwise you will get a _wrong answer_ verdict.
+In the first line of the block describing a move, output **C** - the number of nodes where you will put the tiles during this move. **C** should be positive, otherwise you will get a *wrong answer* verdict.
 
-Then, output **C** lines, each should contain a single-space-separated uppercase an integer and an uppercase Latin letter or a dash, denoting the tile you'll put and the node where you'll put it. In case there is no such tile currently, or you put a tile to the node that already has a tile in it, you will get a _wrong answer_ verdict.
+Then, output **C** lines, each should contain a single-space-separated uppercase an integer and an uppercase Latin letter or a dash, denoting the tile you'll put and the node where you'll put it. In case there is no such tile currently, or you put a tile to the node that already has a tile in it, you will get a *wrong answer* verdict.
 
-The following line should contain a single integer **L**, denoting the number of letters in the word you'll construct. If **L** is not positive, you will get a _wrong answer_ verdict.
+The following line should contain a single integer **L**, denoting the number of letters in the word you'll construct. If **L** is not positive, you will get a *wrong answer* verdict.
 
-The following line should contain **L** space separated integers, denoting a correct path in the graph which forms a word that has never been formed before. As you may have noted, **the path doesn't have to be simple** If these integers don't represent a correct path, or none of the newly placed tiles is used, you will get a _wrong answer_ verdict.
+The following line should contain **L** space separated integers, denoting a correct path in the graph which forms a word that has never been formed before. As you may have noted, **the path doesn't have to be simple** If these integers don't represent a correct path, or none of the newly placed tiles is used, you will get a *wrong answer* verdict.
 
-The following line should contain a string of **L** uppercase Latin letters, denoting the word you want to play now. In case this is not a dictionary word, or this word had already been played, or the provided path doesn't correspond to this word, you will get a _wrong answer_ verdict.
+The following line should contain a string of **L** uppercase Latin letters, denoting the word you want to play now. In case this is not a dictionary word, or this word had already been played, or the provided path doesn't correspond to this word, you will get a *wrong answer* verdict.
 
-Finally, if all the requirements are met, you will get an _accepted_ verdict.
+Finally, if all the requirements are met, you will get an *accepted* verdict.
 
 Pay attention that you're allowed to play the same blank tile differently in different moves. Also, you should use at least one node among those you've just put a tile on.
 
@@ -245,7 +245,8 @@ GHIJKL</tt>
 ABCDEF
 -1</tt>
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 Let's calculate the scores for two words you've played.
 

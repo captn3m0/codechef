@@ -29,14 +29,14 @@ All submissions for this problem are available.Everybody is worried about Rakesh
 
 The city can be considered as a grid. Rakesh starts his journey from **(0, 0)** position of the grid. His relative's house is situated at **(Rx, Ry)**. Rakesh can move in four directions: up, down, right, or left indicated by **U, D, R,** and **L** respectively.
 
-Any position of the city with _x_ ordinate negative or greater than **M** is considered as dangerous. Also, any position of the city with _y_ ordinate negative or greater than **N** is considered as dangerous. You will be given the total sequence of Rakesh's movement. You need to determine if Rakesh ended up being at his relative's house, at a dangerous place, or at a random place in the city.
+Any position of the city with *x* ordinate negative or greater than **M** is considered as dangerous. Also, any position of the city with *y* ordinate negative or greater than **N** is considered as dangerous. You will be given the total sequence of Rakesh's movement. You need to determine if Rakesh ended up being at his relative's house, at a dangerous place, or at a random place in the city.
 
 To make things clear,
 
-- **U** indicates a move that increases position along _y_-axis by 1
-- **D** indicates a move that decreases position along _y_-axis by 1
-- **R** indicates a move that increases position along _x_-axis by 1
-- **L** indicates a move that decreases position along _x_-axis by 1
+- **U** indicates a move that increases position along *y*-axis by 1
+- **D** indicates a move that decreases position along *y*-axis by 1
+- **R** indicates a move that increases position along *x*-axis by 1
+- **L** indicates a move that decreases position along *x*-axis by 1
 
 Note that we are interested in the position of Rakesh at the end of his journey only. He may visit some dangerous place or his relative's house at some intermediate point but that won't affect the answer.
 

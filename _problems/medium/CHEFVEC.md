@@ -59,6 +59,7 @@ Output a single line containing a single integer — the answer to Chef's proble
 <b>Output:</b>
 <tt>6
 </tt>
-</pre>### Explanation:
+</pre>
+### Explanation:
 
 There are 6 such vectors: (17, 30), (18, 29), (19, 28), (20, 27), (21, 26), (22, 25).

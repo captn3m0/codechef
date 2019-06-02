@@ -80,21 +80,27 @@ Berth Number   	Compartment
 17 - 24               3  
 ... and so on
 
-</pre>Each of these size-8 blocks are further arranged as:
+</pre>
+Each of these size-8 blocks are further arranged as:
+
 <pre>
  1LB,  2MB,  3UB,  4LB,  5MB,  6UB,  7SL,  8SU  
  9LB, 10MB, ...
  ...   
  ...
 
-</pre>Here `LB` denotes lower berth, `MB` middle berth and `UB` upper berth. The following berths are called **Train-Partners**:
+</pre>
+Here `LB` denotes lower berth, `MB` middle berth and `UB` upper berth. The following berths are called **Train-Partners**:
+
 <pre>
 3UB   |  6UB  
 2MB   |  5MB  
 1LB   |  4LB  
 7SL   |  8SU  
 
-</pre>and the pattern is repeated for every set of 8 berths.
+</pre>
+and the pattern is repeated for every set of 8 berths.
+
 Rahul and Rashi are playing this game of finding the train partner of each berth. Can you write a program to do the same?
 
 ### Input

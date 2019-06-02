@@ -28,7 +28,8 @@ For each test case, output on a single line the smallest positive integer that c
 0 1 1 1 1 1 1 1 1 1
 2 2 1 2 1 1 3 1 1 1
  
-</pre>### Sample output:
+</pre>
+### Sample output:
 
 <pre>4
 10

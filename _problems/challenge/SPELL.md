@@ -65,7 +65,7 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/NOV14/mandarin/SPELL.pdf) and [Russian](http://www.codechef.com/download/translated/NOV14/russian/SPELL.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/NOV14/mandarin/SPELL.pdf) and [Russian](http://www.codechef.com/download/translated/NOV14/russian/SPELL.pdf).
 
 Fedya and Alex are OI-ers. They live in different cities, but they like to write letters to each other, in which they discuss complicated data structure problems, contests, nice girls/ boys, animes and other not so important things.
 
@@ -129,6 +129,7 @@ thus is the sample text.
 
 <b>Output:</b>
 this is the sample text.
-</pre>### Explanation
+</pre>
+### Explanation
 
 This answer will get a score of **103** points.

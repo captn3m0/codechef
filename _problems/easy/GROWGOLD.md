@@ -104,6 +104,7 @@ For each test case, output the tax in units of gold to be paid in the **N**th ye
 1536
 18811834
 </pre>
+
 **Explanation:**
 
 Let tax\[i\] be the tax paid in ith year.

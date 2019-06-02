@@ -121,7 +121,8 @@ For each test cases output the number of ways modulo 1e9+7 (i.e. 1000000007)
 1
 0
 12
-</pre>###  Explanation 
+</pre>
+###  Explanation 
 
 <pre>
 Explanation for the sample input 1:

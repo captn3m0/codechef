@@ -69,7 +69,8 @@ The output for each test case is a single floating point number with 1 decimal o
 36.5
 57.0
 66.5
-</pre>### Figures
+</pre>
+### Figures
 
 The following figures illustrate the solutions for each test case. The dotted lines indicate the x and y axis. The bold line on a crown indicates that the endpoints of this line are the endpoints p1 and pk of the crown.
 

@@ -78,14 +78,14 @@ You are working in a company with **N** employees numbered from 0 to **N - 1**, 
 
 Also, each employee belongs to exactly one club. Employee **i** belongs to club number **Ci**. And each club has some internal levels, which are actually independent of the company hierarchy. Each member of a club has a Level Number. The Level Number of employee **i** is denoted by **Ki**. The higher the Level Number, the more important he is in the club.
 
-Each club wants to advertise, and for that, they want to claim that people who are more important in their club, end up being superior in the company. So they want to find such instances. More precisely, for every employee **v**, a sequence of company employees (**e1, e2, ..., eq**) is a _good_ sequence starting at **v**, if all of these conditions hold true:
+Each club wants to advertise, and for that, they want to claim that people who are more important in their club, end up being superior in the company. So they want to find such instances. More precisely, for every employee **v**, a sequence of company employees (**e1, e2, ..., eq**) is a *good* sequence starting at **v**, if all of these conditions hold true:
 
 - **e1 = v**.
 - All of them are part of the same club.
 - **ei** is an ancestor of **ei+1**, for i = 1 to q - 1.
 - **K**\[**e1**\] = q - 1, **K**\[**e2**\] = q - 2, ..., **K**\[**eq**\] = 0.
 
-For each employee **v**, you want to find the total number of _good_ sequences starting with it. As these numbers could be very large, output the answers modulo 109+7.
+For each employee **v**, you want to find the total number of *good* sequences starting with it. As these numbers could be very large, output the answers modulo 109+7.
 
 ### Input
 
@@ -146,7 +146,8 @@ For each test case, you have to output **N** lines. Line number **i + 1** should
 1
 1
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 - Good sequences starting at employee 0: (0, 1, 3), (0, 1, 4), (0, 2, 3), (0, 2, 4)
 - Good sequences starting at employee 1: (1, 3), (1, 4)

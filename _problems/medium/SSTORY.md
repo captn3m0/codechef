@@ -71,7 +71,7 @@ time:
     current: 1493557933
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MARCH14/mandarin/SSTORY.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH14/russian/SSTORY.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MARCH14/mandarin/SSTORY.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH14/russian/SSTORY.pdf).
 
 Lira and her best friend are now ending highschool and soon they both will head separate ways...
 
@@ -123,20 +123,23 @@ fdyusgfdfyu
 <b>Output 1:</b>
 fd
 2
-</pre><pre><b>Input 2:</b>
+</pre>
+<pre><b>Input 2:</b>
 adsyufsfdsfdsf
 bbbbbbbbb
 
 <b>Output 2:</b>
 0
-</pre><pre><b>Input 3:</b>
+</pre>
+<pre><b>Input 3:</b>
 abcdef
 defabc
 
 <b>Output 3:</b>
 def
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**The longest life event is **"fd"** whose length is 2.
 

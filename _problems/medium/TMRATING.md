@@ -89,6 +89,7 @@ for K = 1 to Q
      V<sub>K</sub> = Update array V<sub>(K-1)</sub> by changing V<sub>(K-1)</sub> [ ( B * R1 + D ) % N ] = ( C * R2 + D ) % M
 end-for
 </pre>
+
 Note: Take care of potential overflows in intermediate calculations in the equations mentioned above. The authors algorithm doesn't depend on the values of A B C D M, they are just used to generate some values. 
 ### Input
 
@@ -116,6 +117,7 @@ For each query, output the top-2 maximum ratings R1 R2 ( R1 ≥ R2 ) in a new li
 12 4
 12 8
 </pre>
+
 **Explanation:**
 
 V0 = { 1, 2, 3, 4, 5, 6 }

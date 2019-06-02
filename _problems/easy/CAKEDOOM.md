@@ -68,7 +68,7 @@ time:
     current: 1493558213
 layout: problem
 ---
-All submissions for this problem are available._From the FAQ:_
+All submissions for this problem are available.*From the FAQ:*
 
 ### What am I allowed to post as a comment for a problem?
 
@@ -84,7 +84,7 @@ What does it mean?
 
 Let's numerate positions for the cherries by the numbers **1**, **2**, ..., **N** starting from one of the positions in a clockwise direction. Then the current (possibly partial) arrangement of the cherries can be represented by a string of **N** characters. For each position **i** of the arrangement if the cherry of the color **C** is placed at this position then the **i**th character of the string is equal to the digit **C**. Otherwise, it is equal to the question mark **?**. We identify the arrangement with the string that represents it.
 
-One arrangement is called _lexicographically smaller_ than the other arrangement if at the first position where they differ the first one has smaller digit (we compare only complete arrangements so we don't care about relation between digits and the question mark). For example, the arrangement **1230123** is lexicographically smaller than **1231230** since they have first **3** equal characters but the **4**th character in the first arrangement is 0 and it is less than **1** which is the **4**th character of the second arrangement.
+One arrangement is called *lexicographically smaller* than the other arrangement if at the first position where they differ the first one has smaller digit (we compare only complete arrangements so we don't care about relation between digits and the question mark). For example, the arrangement **1230123** is lexicographically smaller than **1231230** since they have first **3** equal characters but the **4**th character in the first arrangement is 0 and it is less than **1** which is the **4**th character of the second arrangement.
 
 **Notes**
 
@@ -146,7 +146,8 @@ NO
 021
 01012
 012
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Case 2.** The only possible replacement here is **10**. Note that we output **10** since we **can not rotate the answer** to obtain **01** which is smaller.
 

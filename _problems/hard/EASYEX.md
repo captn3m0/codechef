@@ -73,7 +73,7 @@ time:
     current: 1493556697
 layout: problem
 ---
-All submissions for this problem are available.### Read problems statements in [Mandarin Chinese](/download/translated/JULY15/mandarin/EASYEX.pdf) and [Russian](/download/translated/JULY15/russian/EASYEX.pdf).
+All submissions for this problem are available.### Read problems statements in [Mandarin Chinese ](/download/translated/JULY15/mandarin/EASYEX.pdf) and [Russian](/download/translated/JULY15/russian/EASYEX.pdf).
 
 One day Chef had an exam on probability theory. Nothing interesting, but the exam was going fishily easy. And finally Chef got to the last question:
 
@@ -107,6 +107,7 @@ Let the answer for a test case be an fraction **P / Q**, where **P** and **Q** a
 
 <b>Output:</b>
 779
-<pre>### Explanation
+<pre>
+### Explanation
 
 We roll the 6-face dice 2 times, and we are interested in the value **a1 \* a2**. The only two possible scenarios when this value is not zero are **(1, 2)** and **(2, 1)**. Both of them have **a1 \* a2 = 1** and happen with probability **1 / 36** each. It means that **P / Q = (1 + 1) / 36 = 1 / 18**, so the answer is, **X = 779**.

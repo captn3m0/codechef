@@ -66,7 +66,8 @@ But today being his birthday, some friends came to visit Andy, and Andy decided 
 3
 5
 8
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Testcase 1:** The only candy is contained in five levels of boxes.
 

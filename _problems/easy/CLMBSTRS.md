@@ -120,7 +120,8 @@ Your code will be judged against several input files.
 CORRECT
 INCORRECT
 (and 99998 more answers...)
-</pre>### Output Explanation:
+</pre>
+### Output Explanation:
 
 On the first case, when there is only one step to climb, there is only one way to do it. 1 in binary is 1, and as the village's population guess is also 1 the answer is correct.
 

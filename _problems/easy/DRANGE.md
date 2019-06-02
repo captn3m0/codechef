@@ -68,7 +68,7 @@ time:
     current: 1493558141
 layout: problem
 ---
-All submissions for this problem are available.Alice has **N** pieces of paper. These papers are numbered from **1** to **N**. She writes down the numbers **1** to **N** in order (one number on each paper), i.e. paper _i_ has number _i_ written on it. Bob messes the numbers on these papers. He either **adds** a constant to a number or **subtracts** a constant from the number. He performs **M** such operations. Each operation is of the form: **w x y z** where each of them is an integer. If **w = 1**, then Alice has to **add z** to every number on papers **x** to **y** (_both inclusive_). If **w = 2,** then Alice has to **subtract z** from every number on papers **x** to **y** (_both inclusive_). After doing this, Bob challenges Alice to tell him the range of this data, where _range_ denotes the count of numbers from the smallest number to the largest (See [here](http://www.wikihow.com/Find-the-Range-of-a-Data-Set) for more details). Your task is to help Alice in finding the range.
+All submissions for this problem are available.Alice has **N** pieces of paper. These papers are numbered from **1** to **N**. She writes down the numbers **1** to **N** in order (one number on each paper), i.e. paper *i* has number *i* written on it. Bob messes the numbers on these papers. He either **adds** a constant to a number or **subtracts** a constant from the number. He performs **M** such operations. Each operation is of the form: **w x y z** where each of them is an integer. If **w = 1**, then Alice has to **add z** to every number on papers **x** to **y** (*both inclusive*). If **w = 2,** then Alice has to **subtract z** from every number on papers **x** to **y** (*both inclusive*). After doing this, Bob challenges Alice to tell him the range of this data, where *range* denotes the count of numbers from the smallest number to the largest (See [here](http://www.wikihow.com/Find-the-Range-of-a-Data-Set) for more details). Your task is to help Alice in finding the range.
 
 ### Input:
 
@@ -87,7 +87,8 @@ For each test case output a single line containing the range of the new data set
 1 ≤ N ≤ 1000000
 1 ≤ x ≤ y ≤ N
 0 ≤ z ≤ 100000
-</pre>### Example:
+</pre>
+### Example:
 
 <pre>
 <b>Input</b>
@@ -99,4 +100,5 @@ For each test case output a single line containing the range of the new data set
 <b>Output:</b>
 11
 
-</pre>**Explanation:** Initially the papers are as follows: 1 2 3 4 5 6 7 8 9 10. First operation decreases the numbers on paper number 3,4,5 and 6 by 4. Now, the papers look like: 1 2 -1 0 1 2 7 8 9 10. The second operation increases the numbers on papers 5 to 9 by 1. The numbers will now be 1 2 -1 0 2 3 8 9 10 10. Thus, the range is 10 - (-1) = 11.
+</pre>
+**Explanation:** Initially the papers are as follows: 1 2 3 4 5 6 7 8 9 10. First operation decreases the numbers on paper number 3,4,5 and 6 by 4. Now, the papers look like: 1 2 -1 0 1 2 7 8 9 10. The second operation increases the numbers on papers 5 to 9 by 1. The numbers will now be 1 2 -1 0 2 3 8 9 10 10. Thus, the range is 10 - (-1) = 11.

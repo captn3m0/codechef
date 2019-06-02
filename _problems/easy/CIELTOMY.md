@@ -104,11 +104,13 @@ There is at least one path from Tomya's house to Ciel's restaurant.
 1 2 3
 2 3 6
 1 3 9
-</pre>### Sample Output
+</pre>
+### Sample Output
 
 <pre>1
 2
-</pre>### Explanations
+</pre>
+### Explanations
 
 In the first sample, only one shortest path exists, which is 1-3.
 

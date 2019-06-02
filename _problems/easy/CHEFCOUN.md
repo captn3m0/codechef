@@ -74,26 +74,15 @@ layout: problem
 ---
 All submissions for this problem are available.### Read problems statements in [mandarin chinese](http://www.codechef.com/download/translated/OCT17/mandarin/CHEFCOUN.pdf) and [vietnamese](http://www.codechef.com/download/translated/OCT17/vietnamese/CHEFCOUN.pdf) as well.
 
-Once Chef was writing test data for the problem [CHEFSUM](https://codechef.com/problems/CHEFSUM). For your convenience, the summary of this problem is provided as below.
+Once Chef was writing test data for the problem [ CHEFSUM ](https://codechef.com/problems/CHEFSUM). For your convenience, the summary of this problem is provided as below.
 
 You are given an array **a** of size **n**. Let **prefSum\[i\]** denote the sum of first **i** elements and **sufSum\[i\]** denote the sum of last **n - i + 1** elements of the array **a**. You have to find the least index **i** such that value of **prefSum\[i\] + sufSum\[i\]** is the minimum possible. The bounds/constraints on **n** could be as large as 105.
 
-A newbie programmer was trying to solve this problem. He didn't take care of the fact that the values of **prefSum\[i\] + sufSum\[i\]** might not fit into _unsigned int_ data type. He wrote the following C++ code to solve the problem.
+A newbie programmer was trying to solve this problem. He didn't take care of the fact that the values of **prefSum\[i\] + sufSum\[i\]** might not fit into *unsigned int* data type. He wrote the following C++ code to solve the problem.
 
-<pre>
-<pre>int wrongSolver(std::vector <unsigned int> a) {
-	int n = a.size();
-	std::vector<unsigned int> prefSum(n), sufSum(n);
-	prefSum[0] = a[0];
-	for (int i = 1; i = 0; i--) {
-		sufSum[i] = sufSum[i + 1] + a[i];
-	}
-	unsigned int mn = prefSum[0] + sufSum[0];
-	int where = 1;
-	for (int i = 1; i 
-</pre>
-</pre>
-Assume that an _unsigned int_ is 4 bytes long, i.e. it stores values from 0 up to **232 - 1**. Addition of two unsigned int's **x** and **y** is done as **(x + y) modulo 232**. This way, you can see that whenever the value of an unsigned int exceeds the maximum possible value (**232 - 1**), it wraps around.
+`<pre>int wrongSolver(std::vector <unsigned int> a) {	int n = a.size();	std::vector<unsigned int> prefSum(n), sufSum(n);	prefSum[0] = a[0];	for (int i = 1; i = 0; i--) {		sufSum[i] = sufSum[i + 1] + a[i];	}	unsigned int mn = prefSum[0] + sufSum[0];	int where = 1;	for (int i = 1; i </pre>`
+
+Assume that an *unsigned int* is 4 bytes long, i.e. it stores values from 0 up to **232 - 1**. Addition of two unsigned int's **x** and **y** is done as **(x + y) modulo 232**. This way, you can see that whenever the value of an unsigned int exceeds the maximum possible value (**232 - 1**), it wraps around.
 
 Chef as a problem setter knows that the above program should not get an AC. Hence, he wants to generate a counter case to fail this solution. He asks your help in generating such a counter case.
 

@@ -24,11 +24,11 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
-All submissions for this problem are available.There are **n** people who call themselves _friends_. However, you can't trust people blindly these days! Not each of these people trusts all the other people. The good thing is, still there are some pairs of people who trust each other and consider each other as _true friend_s. Also, each person has a _best friend_. Note that a _best friend_ is also a _true friend_.
+All submissions for this problem are available.There are **n** people who call themselves *friends*. However, you can't trust people blindly these days! Not each of these people trusts all the other people. The good thing is, still there are some pairs of people who trust each other and consider each other as *true friend*s. Also, each person has a *best friend*. Note that a *best friend* is also a *true friend*.
 
-These relations are symmetric. Formally, person **A** has several _true friend_s who also consider **A** as a _true friend_. Person **A** has exactly one _best friend_, **B**, and **A** is also the _best friend_ of **B**.
+These relations are symmetric. Formally, person **A** has several *true friend*s who also consider **A** as a *true friend*. Person **A** has exactly one *best friend*, **B**, and **A** is also the *best friend* of **B**.
 
-Each person has a secret. Those **n** secrets are written on **n** pieces of papers. Those papers are sealed inside **n** envelopes. The name of the person, whose secret is written on the paper inside an envelop, is written on the envelope. These **n** envelopes are distributed among the **n** people. At each step, one person exchanges the envelope (without opening it) he/she is holding with one of his/her _true friend_s. Your job is to determine the minimum number of steps (exchanges) required to end up at an arrangement where secret about each person reaches the hand of that person or the best friend of that person, i.e. finally after these exchanges when the envelopes are opened, the secrets of a particular person is either seen by himself or his best friend.
+Each person has a secret. Those **n** secrets are written on **n** pieces of papers. Those papers are sealed inside **n** envelopes. The name of the person, whose secret is written on the paper inside an envelop, is written on the envelope. These **n** envelopes are distributed among the **n** people. At each step, one person exchanges the envelope (without opening it) he/she is holding with one of his/her *true friend*s. Your job is to determine the minimum number of steps (exchanges) required to end up at an arrangement where secret about each person reaches the hand of that person or the best friend of that person, i.e. finally after these exchanges when the envelopes are opened, the secrets of a particular person is either seen by himself or his best friend.
 
 ### Input
 
@@ -37,7 +37,7 @@ Each person has a secret. Those **n** secrets are written on **n** pieces of pap
 - The second line will contain **n** space-separated numbers **e1, e2, ... , en** which is a permutation of **1, 2, ... , n**. Initially, the **ith** person will hold the secret for **eith** person.
 - The third line will contain **n** space-separated numbers **f1, f2, ... , fn** which is a permutation of **1, 2, ... , n**. The **fith** person is the best friend of the **ith** person.
 - The fourth line will contain a number **m**.
-- Each of next **m** lines will contain two space-separated integers **ai** and **bi** denoting that **ai** and **bi** are _true friend_s. Note that _best friend_s are _true friend_s by definition. They will not be explicitly listed as _true friend_s.
+- Each of next **m** lines will contain two space-separated integers **ai** and **bi** denoting that **ai** and **bi** are *true friend*s. Note that *best friend*s are *true friend*s by definition. They will not be explicitly listed as *true friend*s.
 - An empty line will be printed after each test case.
 
 ### Output

@@ -70,7 +70,7 @@ time:
     current: 1493557528
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/FEB15/mandarin/CHEFGRPH.pdf) and [Russian](http://www.codechef.com/download/translated/FEB15/russian/CHEFGRPH.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/FEB15/mandarin/CHEFGRPH.pdf) and [Russian](http://www.codechef.com/download/translated/FEB15/russian/CHEFGRPH.pdf).
 
 Consider directed graph which has **n + 2** layers numbered from left to right by integers from 0 up to **n + 1**. The leftmost (0) and the rightmost (**n + 1**) layers both contain **only one** vertex while every other layer contains exactly **m** vertices. Vertices are numbered independently in each layer by integers from 0 to **m - 1**. For each pair of vertices which are in the adjacent layers (**i** and **i + 1** for any **i (0 <= i <= n)**), there exists an edge. The vertex which is in the layer with smaller number is the initial vertex for such edge and the other one is the terminal vertex.
 
@@ -115,6 +115,7 @@ Output a single integer: the number of ways to reach the last layer from the ini
 
 <b>Output:</b>
 19
-</pre>### Explanation
+</pre>
+### Explanation
 
 Consider the graph without **2** edges added by Chef. There are **16** ways to get from the layer **\#0** to the layer **\#5**. Now recall added edges. There are **2** ways to get from the layer **\#0** to the layer **\#5** using the edge **2 1 5 0** (0, 0 -> 1, 0 -> 2, 1 -> 5, 0 and 0, 0 -> 1, 1 -> 2, 1 -> 5, 0) and also **1** way to do it using the edge **0 0 4 0** (0, 0 -> 4, 0 -> 5, 0). Note, that there is no path traversing both added edges.

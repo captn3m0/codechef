@@ -156,7 +156,8 @@ Find out number of ways in which bunnies can get from cell (1, 1) to cell (**N**
 0
 1
 0
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**
 

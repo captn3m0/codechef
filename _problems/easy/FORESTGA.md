@@ -111,7 +111,8 @@ Output a single integer denoting the number of months that have to pass before C
 
 <b>Output:</b>
 7
-</pre>### Explanation
+</pre>
+### Explanation
 
 After **6** months, heights of each tree will be **14**, **47** and **56** respectively. Chef is allowed to cut only the third tree, sadly it is not enough to fulfill an order of 74 meters of wood.
 

@@ -120,6 +120,7 @@ For each question, output an integer in a separate line containing the answer of
 1
 1
 11
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1 and 2**. 48 is both **1** and **2** special as explained in the problem statement. Hence answer is 1.

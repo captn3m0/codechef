@@ -57,7 +57,8 @@ For each test case, output in a single line "#coderlifematters" if the coder has
 #allcodersarefun
 #allcodersarefun
 #coderlifematters
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Testcase 1**: The coder is working all days in the month. She is very bored.
 

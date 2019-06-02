@@ -69,7 +69,7 @@ time:
     current: 1493557941
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME19/mandarin/TADELIVE.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME19/russian/TADELIVE.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME19/mandarin/TADELIVE.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME19/russian/TADELIVE.pdf).
 
 Andy and Bob are the only two delivery men of Pizza-chef store. Today, the store received **N** orders. It's known that the amount of tips may be different when handled by different delivery man. More specifically, if Andy takes the **i**th order, he would be tipped **Ai** dollars and if Bob takes this order, the tip would be **Bi** dollars.
 
@@ -112,6 +112,7 @@ Please find out the maximum possible amount of total tip money after processing 
 
 <b>Output:</b>
 21
-</pre>### Explanation
+</pre>
+### Explanation
 
 Bob will take the first three orders (or the first two) and Andy will take the rest (of course).

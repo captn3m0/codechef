@@ -74,7 +74,7 @@ time:
     current: 1493556683
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/FEB15/mandarin/DEVLOCK.pdf) and [Russian](http://www.codechef.com/download/translated/FEB15/russian/DEVLOCK.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/FEB15/mandarin/DEVLOCK.pdf) and [Russian](http://www.codechef.com/download/translated/FEB15/russian/DEVLOCK.pdf).
 
 Devu likes to play with a lock of **N** dials. Each dial rotates from numbers 0 to 9 clockwise (i.e. 0 to 1, 2 to 3 and 8 to 9). You can not rotate from 9 to 0.
 
@@ -96,10 +96,10 @@ answer for the problem with given **N, P** and **M = i**.
 
 ### Constraints
 
-- _Subtask #1: (10 points)_  **1** ≤ **N** ≤ **1000**, **1** ≤ **P** ≤ **50**, **1** ≤ **MM** ≤ **50** **TL : 5 secs**
-- _Subtask #2: (20 points)_  **1** ≤ **N** ≤ **10^9**, **1** ≤ **P** ≤ **50**, **1** ≤ **MM** ≤ **50** **TL : 5 secs**
-- _Subtask #3: (30 points)_  **1** ≤ **N** ≤ **10^9**, **1** ≤ **P** ≤ **50**, **1** ≤ **MM** ≤ **500** **TL : 10 secs**
-- _Subtask #4: (40 points)_  **1** ≤ **N** ≤ **10^9**, **1** ≤ **P** ≤ **16**, **1** ≤ **MM** ≤ **15000** **TL : 15 secs**
+- *Subtask #1: (10 points)*  **1** ≤ **N** ≤ **1000**, **1** ≤ **P** ≤ **50**, **1** ≤ **MM** ≤ **50** **TL : 5 secs**
+- *Subtask #2: (20 points)*  **1** ≤ **N** ≤ **10^9**, **1** ≤ **P** ≤ **50**, **1** ≤ **MM** ≤ **50** **TL : 5 secs**
+- *Subtask #3: (30 points)*  **1** ≤ **N** ≤ **10^9**, **1** ≤ **P** ≤ **50**, **1** ≤ **MM** ≤ **500** **TL : 10 secs**
+- *Subtask #4: (40 points)*  **1** ≤ **N** ≤ **10^9**, **1** ≤ **P** ≤ **16**, **1** ≤ **MM** ≤ **15000** **TL : 15 secs**
 
 ### Example
 
@@ -108,12 +108,14 @@ answer for the problem with given **N, P** and **M = i**.
 
 <b>Output:</b>
 1 1 1 5
-</pre><pre><b>Input:</b>
+</pre>
+<pre><b>Input:</b>
 2 4 4
 
 <b>Output:</b>
 1 1 2 3 5
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example #1.** 
 For M = 0, we can have only one lock, ie. all zeros 00, it is divisible by 3. 

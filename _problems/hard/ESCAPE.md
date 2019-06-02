@@ -54,7 +54,8 @@ The output for each test case consists of a single integer on a single line indi
 3
 Impossible!
 2
-</pre>### Explanation of Sample Data
+</pre>
+### Explanation of Sample Data
 
 In the first case, Harry can step from (0,0) to (0,1) using d=1 steps. Then, the tiles (1,0) and (2,1), which are adjacent to the hole at (2,0), will collapse. Harry takes one more step from (0,1) to the exit at (1,1) and can safely exit the grid even though the tile (1,1) will collapse in the next expansion of the holes.
 

@@ -67,7 +67,7 @@ time:
     current: 1493558196
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/FEB14/mandarin/TWODOGS.pdf) and [Russian](http://www.codechef.com/download/translated/FEB14/russian/TWODOGS.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/FEB14/mandarin/TWODOGS.pdf) and [Russian](http://www.codechef.com/download/translated/FEB14/russian/TWODOGS.pdf).
 
 In Chef's house there are **N** apples lying in a row on the floor. These apples are numbered from **1** (left most one) to **N** (right most one). The types of apples are also numbered by positive integers, and the type of apple **i** is **Ti**.
 
@@ -104,7 +104,8 @@ Print one integer describing the minimum number of seconds that Chef needs to wa
 
 <b>Sample Output 2:</b>
 -1
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first example, if Chef leaves the first dog from left and gives it integer **4**, and the second dog from right and gives it integer **1**, then the first dog takes **2** seconds and the second dog takes **1** second to get the apples. Thus Chef needs to wait **2** seconds. In any other way, Chef can't get the desired apples in less than **2** seconds.
 

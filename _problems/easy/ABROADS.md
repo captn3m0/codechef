@@ -72,7 +72,7 @@ time:
     current: 1493558102
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME31/mandarin/ABROADS.pdf), [Russian](http://www.codechef.com/download/translated/LTIME31/russian/ABROADS.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME31/vietnamese/ABROADS.pdf) as well.
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME31/mandarin/ABROADS.pdf), [Russian](http://www.codechef.com/download/translated/LTIME31/russian/ABROADS.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME31/vietnamese/ABROADS.pdf) as well.
 
 In Ancient Berland, there were **N** towns, along with **M** bidirectional roads connecting them. With time, some roads became unusable, and nobody repaired them.
 
@@ -130,7 +130,8 @@ D 3</tt>
 6
 13
 10</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 - After the first query, the populations are **(3, 2, 3)** and the most populated region is **{1, 2, 3}**.
 - After the second query the populations and the regions remain the same.

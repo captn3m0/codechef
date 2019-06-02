@@ -114,7 +114,8 @@ Should contain all the constraints on the input data that you may have. Format i
 3
 3
 3.
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** After the first operation **A** will be = {1, 7, 2, 4, 3} , the Chef's number for the **A** can be computed with next connections: **1** with **2**, **2** with **3** and **7** with **4**, sum of this values |**1**-**2**|+|**2**-**3**|+|**7**-**4**|=**5**. After the second operation **A** = {1, 7, 2, 4, 3, 6}, Chef's number = |**1**-**2**|+|**4**-**3**|+|**7**-**6**| = 3. After the third operation **A** = {7, 2, 4, 3, 6}, Chef's number = |**4**-**3**|+|**2**-**3**|+|**7**-**6**| = 3
 

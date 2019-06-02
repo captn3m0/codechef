@@ -71,7 +71,7 @@ time:
     current: 1493558148
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME29/mandarin/FSTSQ.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME29/russian/FSTSQ.pdf)
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME29/mandarin/FSTSQ.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME29/russian/FSTSQ.pdf)
 
 A squarer is a simple and convenient device. You give it some positive integer **X** and it calculates its square.
 
@@ -115,6 +115,7 @@ where **M** is the length of the array representation of **Y** and **p** equals 
 40079781
 32745632</tt>
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first test case, **X = 4** and **Y = 16**. Its hash equals **1\*1 + 23\*6 = 139**.

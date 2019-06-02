@@ -105,7 +105,8 @@ For each test case, output a single integer, the number of ways the winning play
 <b>Output:</b>
 4
 6
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first test case, say four players with Messi are Xavi, Busquets, Iniesta and Jordi Alba. Then the ways of the winning play to happen when **exactly** 2 passes are to be performed are:
 1\) Messi - Xavi - Messi

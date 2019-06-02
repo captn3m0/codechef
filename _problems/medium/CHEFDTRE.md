@@ -72,7 +72,7 @@ time:
     current: 1493557521
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME25/mandarin/CHEFDTRE.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME25/russian/CHEFDTRE.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME25/mandarin/CHEFDTRE.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME25/russian/CHEFDTRE.pdf).
 
 Chef passed all the exams. This month was really tiring. So, he decided to relax for a little bit. Well, there is no better way to relax than to play with sets of numbers.
 
@@ -122,7 +122,8 @@ GET 9 1</tt>
 3
 2
 1</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 - Initially, the sets are: {1}, {2}, {3}, {4}, {5}, {6}, {7}.
 - After the first query: {}, {}, {3}, {4}, {5}, {6}, {7}, {1, 2}.

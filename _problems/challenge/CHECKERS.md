@@ -95,14 +95,17 @@ Let K be the number of turns in your solution, and let S be the sum of x+y over 
 ....
 ..*.
 
-</pre>### Sample Output
+</pre>
+### Sample Output
+
 <pre>5
 2 3 2 2
 2 2 2 1
 2 1 2 0
 2 0 1 0
 1 0 0 0
-</pre>### Sample Input 2
+</pre>
+### Sample Input 2
 
 <pre>5
 .....
@@ -111,7 +114,9 @@ Let K be the number of turns in your solution, and let S be the sum of x+y over 
 .....
 ..*..
 
-</pre>### Sample Output 2
+</pre>
+### Sample Output 2
+
 <pre>10
 2 4 2 3
 2 3 4 1
@@ -124,7 +129,8 @@ Let K be the number of turns in your solution, and let S be the sum of x+y over 
 0 1 0 0
 1 1 0 1
 
-</pre>The sample output uses 5 turns on the first test case, and 8 on the second. The sequence of turns on the second test case is:
+</pre>
+The sample output uses 5 turns on the first test case, and 8 on the second. The sequence of turns on the second test case is:
 
 1. (2 4) - (2 3)
 2. (2 3) - (4 1) - (2 1)

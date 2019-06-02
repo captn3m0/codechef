@@ -75,9 +75,9 @@ layout: problem
 ---
 All submissions for this problem are available.### Read problems statements in [Mandarin chinese](http://www.codechef.com/download/translated/COOK91/mandarin/CARRAY.pdf), [Russian](http://www.codechef.com/download/translated/COOK91/russian/CARRAY.pdf) and [Vietnamese](http://www.codechef.com/download/translated/COOK91/vietnamese/CARRAY.pdf) as well.
 
-Chef has a sequence **A** with length **N** and a line given by the equation **y**(**x**) = **k · x + b**. Let us say that an element **Aj** is _reachable_ from another element **Ai** if the point (**Ai**, **Aj**) is lying above or on the line **y**(**x**), i.e. if **Aj** ≥ **k · Ai + b**.
+Chef has a sequence **A** with length **N** and a line given by the equation **y**(**x**) = **k · x + b**. Let us say that an element **Aj** is *reachable* from another element **Ai** if the point (**Ai**, **Aj**) is lying above or on the line **y**(**x**), i.e. if **Aj** ≥ **k · Ai + b**.
 
-Consider an arbitrary subsequence of **A**; let's denote it by **B**. Subsequence **B** is called _good_ if its elements can be reordered in such a way that for each valid **i**, **Bi+1** is reachable from **Bi**.
+Consider an arbitrary subsequence of **A**; let's denote it by **B**. Subsequence **B** is called *good* if its elements can be reordered in such a way that for each valid **i**, **Bi+1** is reachable from **Bi**.
 
 Chef asked you to compute the maximum possible length of a good subsequence. Can you help him?
 
@@ -110,6 +110,7 @@ For each test case, print a single line containing one integer — the length of
 <b>Output:</b>
 
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** We can choose the subsequence (100, 4, 17) and reorder it to get the sequence (4, 17, 100). In this sequence, 17 is reachable from 4 because 4 · 4 + 1 = 17 ≤ 17 and 100 is reachable from 17 because 4 · 17 + 1 = 69 ≤ 100. Hence, (100, 4, 17) is a good subsequence; there is no good subsequence of **A** with length 4 or more, so the answer is 3.

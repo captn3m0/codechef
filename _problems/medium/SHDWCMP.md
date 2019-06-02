@@ -121,7 +121,8 @@ You have to output **Q + 1** lines. Line number **i + 1** should contain the ans
 6
 3
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 We represent employee **v** introducing employee **a** to employee **b**, by the triplet (**a, v, b**).
 

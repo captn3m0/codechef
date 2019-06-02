@@ -130,7 +130,8 @@ You have to find the number of the candidates that will end up with a job, the t
 
 <b>Output:</b>
 3 22000 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 There are 5 candidates and 6 companies. The first candidate wants a job that pays at least 5000 Rs. He has qualified in all the companies, so he will choose the 1st company that provides him the maximum money, 10000 Rs.
 

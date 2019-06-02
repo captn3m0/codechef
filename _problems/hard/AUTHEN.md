@@ -11,7 +11,7 @@ layout: problem
 ---
 ###  All submissions for this problem are available. 
 
-Several days ago Chef decided to register at one of the programming sites. For registering he was asked to choose a nickname and a password. There was no problem with choosing a nickname ("Chef" is his favorite nickname), but choosing a password in a secure way seemed to be a real problem for Chef. Therefore, he decided to write a program which would generate the password of length **N** consisting of small Latin letters _a_.._z_. Then Chef successfully registered at the site and saved the password in a file (as it was too hard to remember).
+Several days ago Chef decided to register at one of the programming sites. For registering he was asked to choose a nickname and a password. There was no problem with choosing a nickname ("Chef" is his favorite nickname), but choosing a password in a secure way seemed to be a real problem for Chef. Therefore, he decided to write a program which would generate the password of length **N** consisting of small Latin letters *a*..*z*. Then Chef successfully registered at the site and saved the password in a file (as it was too hard to remember).
 
 Today Chef decided to visit the site once again. He entered his nickname, copied the password from the file... "Authentication failed!" was the answer. Trying to understand the reason of this, he noticed that the password in his file had length **N+K** instead of **N**! Sure enough of the source of the problem, Chef went straight to his young brother.
 
@@ -21,7 +21,7 @@ As there is no other way to recover the password, Chef is now starting to remove
 
 ### Input
 
-The first line of the input file contains one integer **T** -- the number of test cases (no more than 10). Each test case is described by a line containing two integers **N** and **K** (1 ≤ **N** ≤ 10000, 1 ≤ **K** ≤ 100) separated by a single space, followed by a line containing a string of length **N+K** consisting of small Latin letters _a_.._z_.
+The first line of the input file contains one integer **T** -- the number of test cases (no more than 10). Each test case is described by a line containing two integers **N** and **K** (1 ≤ **N** ≤ 10000, 1 ≤ **K** ≤ 100) separated by a single space, followed by a line containing a string of length **N+K** consisting of small Latin letters *a*..*z*.
 
 ### Output
 
@@ -45,4 +45,5 @@ ababab
 10
 
 <b>Explanation:</b>
-</pre>In the first test case, the password is definitely "aa". In the second test case, it can be "abc", "abd", "acd" or "bcd", so in the worst case Chef will guess the correct option from the fourth attempt, thus making 3 unsuccessful attempts.
+</pre>
+In the first test case, the password is definitely "aa". In the second test case, it can be "abc", "abd", "acd" or "bcd", so in the worst case Chef will guess the correct option from the fourth attempt, thus making 3 unsuccessful attempts.

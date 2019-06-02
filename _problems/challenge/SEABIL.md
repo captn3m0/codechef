@@ -118,7 +118,8 @@ Sereja wants to make at most **4\*M** moves. Each move also decreases the total 
 0
 
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Test case 2.** The grid size is **N** = 100. To get points for the only ball, we should give it velocity (1, 1) and the starting energy at least 2, so it could reach the point (101, 101). The starting energy is 50 in the provided output, what is also allowed and will lead to the ball reaching the point (101, 101) after 2 units of time and giving us 15 points. But because we have made 1 move, the total score reduces by 1, and hence the final total score is 15 - 1 = 14.
 

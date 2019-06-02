@@ -119,7 +119,8 @@ Can you help Hasan and answer the queries?
 3
 2
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 We show the multiset sorted at each step, for convenience.
 

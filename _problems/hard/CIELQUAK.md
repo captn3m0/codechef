@@ -95,7 +95,8 @@ For each test case output the required probability. Your answer must have an abs
 2 3 0.7
 1 1 0.2
 7 7 0.8
-</pre>### Sample Output
+</pre>
+### Sample Output
 
 <pre>0.4375
 0.0768204

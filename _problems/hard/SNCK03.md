@@ -11,7 +11,9 @@ layout: problem
 ---
 ###  All submissions for this problem are available. 
 
-`<br></br><b>[Problem Idea : Varun Jalan]</b>`You are given K indices, A\[1\], A\[2\], ... , A\[K\].
+<pre><br></br><b>[Problem Idea : Varun Jalan]</b>
+</pre>
+You are given K indices, A\[1\], A\[2\], ... , A\[K\].
 
 A\[1\] < A\[2\] < ... < A\[K\].
 
@@ -56,12 +58,14 @@ Time Limit : 20 seconds.
 1 3 4
 10 6
 1 2 5 7 8 10
-</pre>### Sample Output :
+</pre>
+### Sample Output :
 
 <pre>2
 3
 6166
-</pre>### Note :
+</pre>
+### Note :
 
 For the first test case,
 

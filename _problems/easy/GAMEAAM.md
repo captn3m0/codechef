@@ -107,7 +107,8 @@ NO
 NO
 YES
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** The first player don't have any choice other subtracting 2 from 3. So during the turn of the second player integer pair will be (2,1). The second player will win by subtracting 1 from 2.
 

@@ -70,9 +70,9 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/APRIL17/mandarin/SIMDISH.pdf), [Russian](http://www.codechef.com/download/translated/APRIL17/russian/SIMDISH.pdf) and [Vietnamese](http://www.codechef.com/download/translated/APRIL17/vietnamese/SIMDISH.pdf) as well.
 
-Chef has just found a recipe book, where every dish consists of exactly four ingredients. He is going to choose some two dishes and prepare them for dinner. Of course, he likes diversity and wants to know whether the two dishes are _similar_.
+Chef has just found a recipe book, where every dish consists of exactly four ingredients. He is going to choose some two dishes and prepare them for dinner. Of course, he likes diversity and wants to know whether the two dishes are *similar*.
 
-Two dishes are called _similar_ if at least half of their ingredients are the same. In other words, at least two of four ingredients of the first dish should also be present in the second dish. The order of ingredients doesn't matter.
+Two dishes are called *similar* if at least half of their ingredients are the same. In other words, at least two of four ingredients of the first dish should also be present in the second dish. The order of ingredients doesn't matter.
 
 Your task is to examine **T** pairs of dishes. For each pair, check if the two dishes are similar and print "similar" or "dissimilar" accordingly.
 
@@ -114,7 +114,8 @@ similar
 dissimilar
 similar
 dissimilar
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Test case 1.** The first dish consists of ingredients: eggs, sugar, flour, salt, while the second dish consists of: sugar, eggs, milk, flour. Three of four ingredients are present in both dishes (eggs, sugar, flour) so the two dishes are similar.
 

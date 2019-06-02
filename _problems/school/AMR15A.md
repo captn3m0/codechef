@@ -57,7 +57,8 @@ Generate one line output saying "READY FOR BATTLE", if the army satisfies the co
 
 <b>Output:</b>
 NOT READY
-</pre>### Example 2
+</pre>
+### Example 2
 
 <pre><b>Input:</b>
 1
@@ -65,7 +66,8 @@ NOT READY
 
 <b>Output:</b>
 READY FOR BATTLE
-</pre>### Example 3
+</pre>
+### Example 3
 
 <pre><b>Input:</b>
 4
@@ -73,7 +75,8 @@ READY FOR BATTLE
 
 <b>Output:</b>
 NOT READY
-</pre>### Example 4
+</pre>
+### Example 4
 
 <pre><b>Input:</b>
 3
@@ -81,7 +84,8 @@ NOT READY
 
 <b>Output:</b>
 READY FOR BATTLE
-</pre>### Example 5
+</pre>
+### Example 5
 
 <pre><b>Input:</b>
 5
@@ -89,7 +93,8 @@ READY FOR BATTLE
 
 <b>Output:</b>
 NOT READY
-</pre>### Explanation
+</pre>
+### Explanation
 
 - **Example 1**: For the first example, **N = 1** and the array **A = \[1\]**. There is only 1 soldier and he is holding 1 weapon, which is odd. The number of soldiers holding an even number of weapons = 0, and number of soldiers holding an odd number of weapons = 1. Hence, the answer is "NOT READY" since the number of soldiers holding an even number of weapons is not greater than the number of soldiers holding an odd number of weapons.
 - **Example 2**: For the second example, **N = 1** and the array **A = \[2\]**. There is only 1 soldier and he is holding 2 weapons, which is even. The number of soldiers holding an even number of weapons = 1, and number of soldiers holding an odd number of weapons = 0. Hence, the answer is "READY FOR BATTLE" since the number of soldiers holding an even number of weapons is greater than the number of soldiers holding an odd number of weapons.

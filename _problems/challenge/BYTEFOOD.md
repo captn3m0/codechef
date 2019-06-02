@@ -68,21 +68,21 @@ layout: problem
 ---
 All submissions for this problem are available.Fanatics from the BBFO blew up all the food factories in the Bytelandian capital! Hurry up! There is still some food left in shops. Some shops are located in the centre, others in the suburbs, so Johnny has to decide which of them are worth visiting. Some shops can be very big and have plenty of food in them, others may be so small that food dissappears from them at an alarming rate... So? Help Johnny buy as much food as possible. 
 
-There are _n_ open shops, each of them located at position (_xi_,_yi_), for _i_=1,...,_n_, where 0 xi,_yi_
+There are *n* open shops, each of them located at position (*xi*,*yi*), for *i*=1,...,*n*, where 0 xi,*yi*
 
-_fi_ = **max**{0, _ai_ - _bi_ \* _time_}where 0 ai bi time is the time (in minutes) that has elapsed from the moment Johnny left the house (assume that Johnny does not live in the same place as any shop). If Johnny decides to stay in a shop, he can buy at most _bi_ units of food per minute. Otherwise, he can move along the ortogonal system of streets of the city at a constant speed of unit distance per minute. Johnny only ever changes the action he is performing at the full minute. Because his family is slowly beginning to starve, he should be back at home not later than _m_ minutes after he left. Since there are thousands of starving families in the capital, Johnny can't spent more that 1 ci
+*fi* = **max**{0, *ai* - *bi* \* *time*}where 0 ai bi time is the time (in minutes) that has elapsed from the moment Johnny left the house (assume that Johnny does not live in the same place as any shop). If Johnny decides to stay in a shop, he can buy at most *bi* units of food per minute. Otherwise, he can move along the ortogonal system of streets of the city at a constant speed of unit distance per minute. Johnny only ever changes the action he is performing at the full minute. Because his family is slowly beginning to starve, he should be back at home not later than *m* minutes after he left. Since there are thousands of starving families in the capital, Johnny can't spent more that 1 ci
 
 ### Input
 
-The first line of input contains a single positive integer _t_ n m n lines consist of four integers _xi yi ai bi ci_ each, describing the position and the parameters of the function for food availability of the _i_-th shop. At the end of every test case comes a line with two integers_p q_ (between 0 and 250), corresponding to the x and y coordinates of the position of Johnny's house. 
+The first line of input contains a single positive integer *t* n m n lines consist of four integers *xi yi ai bi ci* each, describing the position and the parameters of the function for food availability of the *i*-th shop. At the end of every test case comes a line with two integers*p q* (between 0 and 250), corresponding to the x and y coordinates of the position of Johnny's house. 
 
 All the input data are integers.
 
 ### Output
 
-Process all test cases. The correct output for the _i_-th test case takes the following form: 
-_i_ \[the number of the test case, in the input order\] 
-_s m_ \[_s_ is the number of the target shop and _m_ > 0 is the number of minutes spent in it\]. 
+Process all test cases. The correct output for the *i*-th test case takes the following form: 
+*i* \[the number of the test case, in the input order\] 
+*s m* \[*s* is the number of the target shop and *m* > 0 is the number of minutes spent in it\]. 
 At the end of the series of moves you should always write a line conisting of two zeros ('0 0'). 
 
 All the output data should be integers.

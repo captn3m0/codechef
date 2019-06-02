@@ -120,7 +120,8 @@ For each test case, print a single line containing the string "Alice" if Alice w
 Alice
 Bob
 Draw
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** Alice will choose the finish time in the last race to be considered zero, which means her sum of finish times is 3 + 1 + 3 + 3 + 0 = 10, while Bob will choose the finish time of his second race to be considered zero, so his total sum of finish times is 1 + 0 + 2 + 5 + 3 = 11. Since Alice's sum is smaller, she is considered the winner.
 

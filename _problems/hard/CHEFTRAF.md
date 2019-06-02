@@ -149,7 +149,8 @@ All submissions for this problem are available.### Read problems statements in [
 7
 39
 
-</pre>###  Explanation
+</pre>
+###  Explanation
 
  **Example case 1:** There are 3 people:
 

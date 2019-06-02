@@ -110,7 +110,8 @@ RGGRGRG
 
 <b>Output:</b>
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** One optimal solution (with 4 steps) looks like this:
 

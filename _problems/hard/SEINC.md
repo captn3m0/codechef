@@ -68,7 +68,7 @@ time:
     current: 1493556839
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MAY14/mandarin/SEINC.pdf) and [Russian](http://www.codechef.com/download/translated/MAY14/russian/SEINC.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MAY14/mandarin/SEINC.pdf) and [Russian](http://www.codechef.com/download/translated/MAY14/russian/SEINC.pdf).
 
 Sereja has an array **A** that contains **n** integers: **A1, A2, ..., An**.
 Sereja also has an array **B** that contains **n** integers **B1, B2, ..., Bn**.

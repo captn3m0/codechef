@@ -88,7 +88,9 @@ Procedure Dfs(Integer <b>v</b>)
     End;
 
 
-</pre>One can notice that the state of **marked\[\]** array depends on the order vertices **u** processed. You are to check for every integer number **s** from **1** to the sum of **Wi** whether there exists some order of viewing children in **Dfs** that **marked\[s\] = true.** Note that **marked\[\]** and **sum** are global variables and **Dfs(1)** is initially called.
+</pre>
+
+One can notice that the state of **marked\[\]** array depends on the order vertices **u** processed. You are to check for every integer number **s** from **1** to the sum of **Wi** whether there exists some order of viewing children in **Dfs** that **marked\[s\] = true.** Note that **marked\[\]** and **sum** are global variables and **Dfs(1)** is initially called.
 
 ### Input
 

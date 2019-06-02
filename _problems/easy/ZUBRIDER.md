@@ -65,7 +65,8 @@ For each test case, print "Case i: ", and then the answer (mod 109 + 7), where i
 <b>Output:</b>
 Case 1: 2
 Case 2: 0
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Testcase 1:** The valid arrangements are the following:
 

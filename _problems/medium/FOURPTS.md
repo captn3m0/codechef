@@ -97,7 +97,8 @@ The triangle will be accepted if, for every input point A = (**xi, yi**), there 
 <b>Output:</b>
 YES 1.000 1.000 1.000 4.000 3.000 1.000
 YES 0.000 0.000 3.000 3.000 3.000 0.000
-</pre>### Explanation
+</pre>
+### Explanation
 
 The first testcase corresponds to this image:
 

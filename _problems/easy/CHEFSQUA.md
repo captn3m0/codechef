@@ -68,7 +68,7 @@ time:
     current: 1493558121
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/OCT14/mandarin/CHEFSQUA.pdf) and [Russian](http://www.codechef.com/download/translated/OCT14/russian/CHEFSQUA.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/OCT14/mandarin/CHEFSQUA.pdf) and [Russian](http://www.codechef.com/download/translated/OCT14/russian/CHEFSQUA.pdf).
 
 Chef loves squares! You are given **N** points with integers coordinates, Chef asks you to find out how many points he should add to these set of **N** points, so that one could create at least one square having its vertices from the points of the resulting set. Note that the square created need not to be parallel to the axis.
 
@@ -109,7 +109,8 @@ In a single line print single integer - the minimal number of points Chef need t
 
 <b>Output:</b>
 0
-</pre>### Explanation
+</pre>
+### Explanation
 
 For the first example Chef can add points **(2, 0), (0, 2)** or **(2, 3), (3, 2)**
 

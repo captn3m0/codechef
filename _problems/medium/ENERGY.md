@@ -37,7 +37,9 @@ Recall that a pair between a particular boy and a particular girl can only be fo
 
 ### Example
 
-`<b>Input:</b><br></br>4<br></br>2 3 10<br></br>0 10 2 0 1<br></br>1 6 3 0 2 1<br></br>4 5 2 0 1<br></br>3 8 1 1<br></br>2 8 1 0<br></br>3 3 20<br></br>0 12 3 0 1 2<br></br>1 13 3 0 1 2<br></br>2 14 3 0 1 2<br></br>3 15 3 0 1 2<br></br>4 16 3 0 1 2<br></br>5 17 3 0 1 2<br></br>4 3 40<br></br>0 17 3 0 1 3<br></br>5 34 2 2 3<br></br>21 40 3 0 1 2<br></br>1 35 2 3 1<br></br>0 27 2 0 3<br></br>11 40 4 0 1 2 3<br></br>5 29 3 0 2 1<br></br>1 1 10<br></br>0 5 1 0<br></br>5 10 1 0<br></br><br></br><b>Output:</b><br></br>7 2 1<br></br>9 2 2 7<br></br>0 16 18 6<br></br>10 0<br></br><br></br>`### Test Case Annotation
+<pre><b>Input:</b><br></br>4<br></br>2 3 10<br></br>0 10 2 0 1<br></br>1 6 3 0 2 1<br></br>4 5 2 0 1<br></br>3 8 1 1<br></br>2 8 1 0<br></br>3 3 20<br></br>0 12 3 0 1 2<br></br>1 13 3 0 1 2<br></br>2 14 3 0 1 2<br></br>3 15 3 0 1 2<br></br>4 16 3 0 1 2<br></br>5 17 3 0 1 2<br></br>4 3 40<br></br>0 17 3 0 1 3<br></br>5 34 2 2 3<br></br>21 40 3 0 1 2<br></br>1 35 2 3 1<br></br>0 27 2 0 3<br></br>11 40 4 0 1 2 3<br></br>5 29 3 0 2 1<br></br>1 1 10<br></br>0 5 1 0<br></br>5 10 1 0<br></br><br></br><b>Output:</b><br></br>7 2 1<br></br>9 2 2 7<br></br>0 16 18 6<br></br>10 0<br></br><br></br>
+</pre>
+### Test Case Annotation
 
 For the first test case, we have:
 

@@ -68,7 +68,7 @@ layout: problem
 ---
 All submissions for this problem are available.A number is called a square free number if there does not exist a number greater than 1, whose square divides the number evenly/perfectly. For example, number 8 is not a square free number as number 4 (which is square of 2), divides 8. Similarly, number 4 is also not a square free number. However numbers 1, 3, 6 all are square free numbers.
 
-A number **n** is called a _good number_ if following properties hold.
+A number **n** is called a *good number* if following properties hold.
 
 - It is a square free number.
 - Let **s** denote the sum of all divisors of **n** (including non-trivial divisors like 1 and itself). Let **c** denote the number of prime numbers dividing **s**. Number **c** should be a prime number.
@@ -109,7 +109,8 @@ For each test case, output a single line corresponding to answer of the test cas
 <b>Output:</b>
 6
 30
-</pre>### Explanation
+</pre>
+### Explanation
 
 - Following number in the range 1 to 10 are square free numbers : 1, 2, 3, 5, 6, 7, 10.
 - Sum of their divisors will be 1, 3, 4, 6, 12, 8, 18 respectively.

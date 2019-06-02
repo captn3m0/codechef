@@ -84,7 +84,7 @@ Here comes Chef to the rescue! Chef bought an infinite number of candy packs. Th
 - Packs containing exactly **C** apple candies.
 - Packs containing exactly **D** banana candies.
  
-Chef wants to give some (could be zero) apple candy packs to Alvin and some (could be zero) banana candy packs to Berto in such a way that _the absolute difference between the number of candies they have is minimized_. What is this minimum absolute difference?
+Chef wants to give some (could be zero) apple candy packs to Alvin and some (could be zero) banana candy packs to Berto in such a way that *the absolute difference between the number of candies they have is minimized*. What is this minimum absolute difference?
 
 Note that Chef doesn't want to open any pack; he gives each pack in full.
 
@@ -115,7 +115,8 @@ For each test case, output a single line containing a single integer, the minimu
 <tt>0
 1
 </tt>
-<pre>### Explanation
+<pre>
+### Explanation
 
 **Example case 1.** In this test case, Alvin has 1 candy and Berto has 5. The apple candies come in packs of 10, and the banana ones come in packs of 3. In this situation, Chef can make them equal by giving 1 pack of 10 to Alvin and 2 packs of 3 to Berto, so they now have 1 + 10 = 5 + 3 + 3 = 11 candies each.
 

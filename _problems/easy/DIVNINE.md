@@ -68,7 +68,7 @@ time:
     current: 1493558139
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/SNCK15EL/mandarin/DIVNINE.pdf) , [Russian](http://www.codechef.com/download/translated/SNCK15EL/russian/DIVNINE.pdf) and [Vietnamese](http://www.codechef.com/download/translated/SNCK15EL/vietnamese/DIVNINE.pdf)
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/SNCK15EL/mandarin/DIVNINE.pdf) , [Russian](http://www.codechef.com/download/translated/SNCK15EL/russian/DIVNINE.pdf) and [Vietnamese](http://www.codechef.com/download/translated/SNCK15EL/vietnamese/DIVNINE.pdf)
 
 Chef Zidane likes the number **9**. He has a number **N**, and he wants to turn it into a multiple of **9**. He cannot add or remove digits, and he can only change one digit at a time. The only allowed operation is to increment or decrement a digit by one, and doing this takes exactly one second. Note that he cannot increase a digit **9** or decrease a digit 0, and the resulting number must not contain any leading zeroes unless **N** has a single digit.
 
@@ -107,7 +107,8 @@ For each test case, output a single line containing the answer.
 3
 2
 
-<pre></pre>### Explanation
+<pre></pre>
+### Explanation
 
 **Example case 1.** 1989 is already divisible by 9, so no operations are needed to be performed.
 

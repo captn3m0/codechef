@@ -109,6 +109,7 @@ For each test case, output a single line containing "YES" or "NO" (without quote
 <b>Output:</b>
 YES
 NO
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** In this case Sebi bought a Rubik's of size 2 \* 2 \* 2. His sisters wanted 5 units of cube. He disassembled the cube into 8 units immediately and gave 5 of them to his sisters. Now he is left with 3 units. He buys 3 cubes at the shop. Now, after disassembling, he has 3 + 3 \* 8 = 27 cubes. By making use of these 27 cubes, he can make a Rubik's cube of size 3 \* 3 \* 3.

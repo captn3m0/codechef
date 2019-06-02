@@ -70,7 +70,7 @@ time:
     current: 1493558178
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/NOV14/mandarin/RBTREE.pdf) and [Russian](http://www.codechef.com/download/translated/NOV14/russian/RBTREE.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/NOV14/mandarin/RBTREE.pdf) and [Russian](http://www.codechef.com/download/translated/NOV14/russian/RBTREE.pdf).
 
 Chef likes trees a lot. Today he has an infinte full binary tree (each node has exactly two childs) with special properties.
 Chef's tree has the following special properties :

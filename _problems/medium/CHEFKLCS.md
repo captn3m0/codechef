@@ -73,7 +73,8 @@ ab
 </tt>
 <b>Output:</b>
 <tt>-1</tt>
-</pre>### Explanation:
+</pre>
+### Explanation:
 
 **Example case 1.**L = LCS(**A**, **B**) = 1. There are three common sequences with length L, S = {"a", "b", "c"}. Answer is "c".
 

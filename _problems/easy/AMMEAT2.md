@@ -99,7 +99,8 @@ For each test case, output **K** distinct integers, denoting the number of selec
 <b>Output:</b>
 45 63 35
 -1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1**: One of the possible choices is that he takes **45**th plate, **63**rd plate, and **35**th plate. Because
 **GCD(45, 63) = 9**,

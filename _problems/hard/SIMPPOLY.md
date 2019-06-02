@@ -64,7 +64,8 @@ For each test case, output 500 lines each containing two integers which should b
 <b>Output</b>
 1 3
 4 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 Please note the samples provided are wrong. They are for representative purposes only. These samples are provided assuming that you just print only 1 line segment. Also, the samples don't follow the constraints of **N**, which will be followed in the actual input.
 

@@ -65,7 +65,8 @@ Two arrangements of the army — **A** and **B** — are said to be distinct if 
 2
 4
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **In the first example**, the strength of the army is zero irrespective of the way she arranges her army. There are two ways of arranging the army, namely {1, 2} and {2, 1}.
 

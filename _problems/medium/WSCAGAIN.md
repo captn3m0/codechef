@@ -68,11 +68,11 @@ time:
     current: 1493557955
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME18/mandarin/WSCAGAIN.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME18/russian/WSCAGAIN.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME18/mandarin/WSCAGAIN.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME18/russian/WSCAGAIN.pdf).
 
 The following is an easy game that the setter of this problem played when he was 8:
 
-_A boatman, a wolf, a sheep, and a cabbage are on the bank of a river. They have a small boat that is capable of carrying the boatman and at most one other animal/item with him. However, if left alone by the boatman, the wolf can eat the sheep, and the sheep can eat the cabbage. How can all four be moved safely to the opposite bank of the river?_
+*A boatman, a wolf, a sheep, and a cabbage are on the bank of a river. They have a small boat that is capable of carrying the boatman and at most one other animal/item with him. However, if left alone by the boatman, the wolf can eat the sheep, and the sheep can eat the cabbage. How can all four be moved safely to the opposite bank of the river?*
 
 [Here](http://coolmath-games.com/Logic-wolfsheepcabbage/index.html) is a nice visualization of the whole process in the original game. Disclaimer: writers, testers and CodeChef are not related to this link.
 
@@ -117,6 +117,7 @@ For each test case, output a single line containing a single integer - the minim
 <b>Output:</b>
 7
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 The first example is the original version of the problem.

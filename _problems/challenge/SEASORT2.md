@@ -68,7 +68,7 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MARCH14/mandarin/SEASORT2.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH14/russian/SEASORT2.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MARCH14/mandarin/SEASORT2.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH14/russian/SEASORT2.pdf).
 
 Sereja has an array **A\[1 .. N\]**, which contains **N** integers. Now Sereja wants to sort it.
 The only thing that Sereja can do, is to reverse all elements in some sub-array, which is a consecutive parts of **A**. In other words, in one operation, Sereja can choose two integers **L** and **R (1 <= L < R <= N)**, and swap elements **A\[L\]** and **A\[R\]**, **A\[L+1\]** and **A\[R-1\]**, **A\[L+2\]** and **A\[R-2\]** and so on.

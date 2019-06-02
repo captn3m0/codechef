@@ -70,7 +70,7 @@ time:
     current: 1493557747
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME09/mandarin/LFEB14A.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME09/russian/LFEB14A.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME09/mandarin/LFEB14A.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME09/russian/LFEB14A.pdf).
 
 Sereja and Arrays
 
@@ -109,7 +109,8 @@ For each testcase print expected number of inversions.
 <b>Output:</b>
 13.833333333
 87.818181818
-</pre>### Note
+</pre>
+### Note
 
 **Test #0-1 (25 points): n,m ≤ 10**
 

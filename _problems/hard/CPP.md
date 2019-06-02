@@ -77,7 +77,7 @@ The rules used by Chef for specifying a **format of an ID string** are (formats 
 
 - A portion of string can be a fixed string, i.e. matches itself exactly only. Like XYZ, A321, D-409 etc.
 - The specification contains keywords in lowercase to describe the ID string. This is the list of keywords, along with their meaning-
-   - **to** : is used for specifying a _range_ from a letter to letter or a digit to digit. Like 3 to 8, D to Z etc. Note that ranges of numbers cannot be specified using **to**. 1 to 1000 is **invalid** because 1000 is not a digit but a number. Also D to A is invalid because the left-hand-side should not be greater than the right-hand-side.
+   - **to** : is used for specifying a *range* from a letter to letter or a digit to digit. Like 3 to 8, D to Z etc. Note that ranges of numbers cannot be specified using **to**. 1 to 1000 is **invalid** because 1000 is not a digit but a number. Also D to A is invalid because the left-hand-side should not be greater than the right-hand-side.
    - **or** : is used to specify a list of exclusive options. Like XYZ or Y2K, 1 or 3 or 55 etc.
    - **times** : is used to specify the number of times (**N**) a portion of the format string is to be repeated. Like A 3 times, S01 12 times etc. The first example can also be specified simply as AAA instead. Thus as you will see there are multiple ways to specify same type of ID strings. Also the portion (to be repeated) is smallest meaningful expression. Like in A B 2 times, 'B' is repeated 2 times and not 'AB'.
    - **optional** : is used to specify that the string portion is optional, i.e can be present or absent. Like LP optional, 12KL optional etc. Also the portion (to be made optional) is smallest meaningful expression. Like in A B optional, 'B' is optional and not 'AB'.
@@ -175,7 +175,8 @@ Invalid-ID
 
 Format does not conform
 
-</pre>### Notes
+</pre>
+### Notes
 
 - "or" has the least precedence among all keywords. For example 1 or 2 3 times is interpreted as 1 or (2 3 times) instead of (1 or 2) 3 times.
 - "optional" and "times" have equal precedence, which is lower than all other keywords but higher than "or". Like 1 to 3 4 times is interpreted as (1 to 3) 4 times.

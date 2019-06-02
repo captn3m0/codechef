@@ -112,7 +112,8 @@ For each test case, output one integer- the number of the best plan (from 1 to N
 2
 0
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Test Case 1:** This test case is same as the example in the problem statement.
 **Test Case 2:** This is for you to work out!

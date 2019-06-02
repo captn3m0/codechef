@@ -65,7 +65,7 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
-All submissions for this problem are available.There are the big enemies for all chefs, that is, _G_s (the plural form of _G_). Chef Ciel find **N** Gs in her restaurant. Ciel is very scared, and she is going to kill the Gs by using insecticides. Here **M** insecticides are available, and the price of the **j**-th insecticide is **Cj**, and she can use the **j**-th insecticide for all **N** Gs if she buys it. Unfortunately Gs may have resistance to insecticides, so Gs may be still alive after using some insecticides. But we know that if Ciel use the **j**-th insecticide, the **i**-th G will be dead with the probability **P****i**,**j**%, and these are statistically independent.
+All submissions for this problem are available.There are the big enemies for all chefs, that is, *G*s (the plural form of *G*). Chef Ciel find **N** Gs in her restaurant. Ciel is very scared, and she is going to kill the Gs by using insecticides. Here **M** insecticides are available, and the price of the **j**-th insecticide is **Cj**, and she can use the **j**-th insecticide for all **N** Gs if she buys it. Unfortunately Gs may have resistance to insecticides, so Gs may be still alive after using some insecticides. But we know that if Ciel use the **j**-th insecticide, the **i**-th G will be dead with the probability **P****i**,**j**%, and these are statistically independent.
 
 Chef Ciel would like to buy some insecticides, and then, Ciel may use the insecticides one by one. Ciel hopes that the **i**-th G will be dead with a probability at least 90%, for all **i**, after using all insecticides which she buys.
 
@@ -112,13 +112,15 @@ A test case generator is available [here](http://www.codechef.com/download/CKROA
 1 5
 10 20 40 60 85
 10 20 40 60 85
-</pre>### Sample Output
+</pre>
+### Sample Output
 
 <pre>1
 3
 2
 3 5
-</pre>### Output details
+</pre>
+### Output details
 
 In the first case, the third insecticide will kill the **i**-th G with probability 90% for all **i**.
 

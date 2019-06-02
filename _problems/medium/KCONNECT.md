@@ -67,9 +67,9 @@ time:
     current: 1493557709
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME31/mandarin/SVNTR.pdf), [Russian](http://www.codechef.com/download/translated/LTIME31/russian/SVNTR.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME31/vietnamese/SVNTR.pdf) as well.
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME31/mandarin/SVNTR.pdf), [Russian](http://www.codechef.com/download/translated/LTIME31/russian/SVNTR.pdf) and [Vietnamese ](http://www.codechef.com/download/translated/LTIME31/vietnamese/SVNTR.pdf) as well.
 
-###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME30/mandarin/KCONNECT.pdf), [Russian](http://www.codechef.com/download/translated/LTIME30/russian/KCONNECT.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME30/vietnamese/KCONNECT.pdf)
+###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME30/mandarin/KCONNECT.pdf), [Russian](http://www.codechef.com/download/translated/LTIME30/russian/KCONNECT.pdf) and [ Vietnamese](http://www.codechef.com/download/translated/LTIME30/vietnamese/KCONNECT.pdf)
 
 Chef loves to play with graphs. Today, Chef has a [complete graph](https://en.wikipedia.org/wiki/Complete_graph) **G** consisting of **N** vertices and he is eager to count the number of non-empty subsets of the edge set of **G** such that the removal of any chosen subset separates the graph into exactly **K** connected components. Chef is unable to solve this task on his own and has, therefore, requested your assistance. Please help him.
 
@@ -107,6 +107,7 @@ For each test case, output the required answer.
 8
 7
 
-</pre>### Explanation:
+</pre>
+### Explanation:
 
 ![](https://s3.amazonaws.com/hr-challenge-images/3194/1448608384-4e93622266-final_image.png "final_image.png")

@@ -67,7 +67,7 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME33/mandarin/CHEFTIC.pdf), [Russian](http://www.codechef.com/download/translated/LTIME33/russian/CHEFTIC.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME33/vietnamese/CHEFTIC.pdf) as well.
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME33/mandarin/CHEFTIC.pdf), [Russian](http://www.codechef.com/download/translated/LTIME33/russian/CHEFTIC.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME33/vietnamese/CHEFTIC.pdf) as well.
 
 Tic-Tac-Toe used to be Chef's favourite game during his childhood. Reminiscing in his childhood memories, he decided to create his own "Tic-Tac-Toe", with rules being similar to the original Tic-Tac-Toe, other than the fact that it is played on an **NxN** board.
 
@@ -123,7 +123,8 @@ OXOX
 <b>Output:</b>
 YES
 
-</pre>### Subtasks
+</pre>
+### Subtasks
 
 - **Subtask 1:**  **K**  = 1. **Points - 10**
 - **Subtask 2:**  **N**  =  **K**  = 3. **Points - 30**

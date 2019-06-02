@@ -35,12 +35,14 @@ Sample Input :
 2 4
 3 5
 
-</pre><pre>
+</pre>
+<pre>
 Sample Output :
 5
 23
 
-</pre><pre>
+</pre>
+<pre>
 Constraints :
 1 <= T <= 2000
 2 <= N <= 60

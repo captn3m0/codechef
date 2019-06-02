@@ -26,7 +26,7 @@ layout: problem
 ---
 All submissions for this problem are available.You will be given **m** strings. For each of those strings, you need to count the total number of appearances of that string as substrings in all possible strings of length **n** containing only lower case English letters.
 
-A string may appear in a string multiple times. Also, these appearances may overlap. All these must be counted separately. For example, _aa_ appears thrice in the string _aaacaa_: _**aa**acaa_, _a**aa**caa_ and _aaac**aa**_.
+A string may appear in a string multiple times. Also, these appearances may overlap. All these must be counted separately. For example, *aa* appears thrice in the string *aaacaa*: ***aa**acaa*, *a**aa**caa* and *aaac**aa***.
 
 ### Input
 
@@ -70,6 +70,7 @@ Case 3:
 443568031
 71288256
 41317270
-</pre>### Explanation:
+</pre>
+### Explanation:
 
-**Testcase 1**: _aa_ is the only string of length 2 which contains _aa_ as a substring. And it occurs only once. Hence the answer is 1.
+**Testcase 1**: *aa* is the only string of length 2 which contains *aa* as a substring. And it occurs only once. Hence the answer is 1.

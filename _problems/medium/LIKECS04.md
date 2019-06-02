@@ -98,16 +98,19 @@ Output the number of possible winning arrays modulo **109 + 7**.
 <pre>
 2 ≤ N ≤ 50
 0 ≤ B[i] ≤ 50, where B[i] denotes the i<sup>th</sup> element of the array.
-</pre>### Sample Input
+</pre>
+### Sample Input
 
 <pre>
 3
 2 0 1
-</pre>### Sample Output
+</pre>
+### Sample Output
 
 <pre>
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 The possible winning arrays are **(1, 0, 0)**, **(0, 0, 1)**, **(2, 0, 0)** and **(1, 0, 1)**.
 

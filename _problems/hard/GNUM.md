@@ -69,7 +69,7 @@ time:
     current: 1493556718
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JULY14/mandarin/GNUM1.pdf) and [Russian](http://www.codechef.com/download/translated/JULY14/russian/GNUM.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JULY14/mandarin/GNUM1.pdf) and [Russian](http://www.codechef.com/download/translated/JULY14/russian/GNUM.pdf).
 
 Mr. Yagami is playing a game of numbers. He has two arrays, each of size **N** denoted by **A1,A2...AN** and **B1,B2...BN**.
 
@@ -106,7 +106,8 @@ For each testcase, print the maximum number of moves Mr. Yagami can make, in one
 3
 0
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 First testcase:
 Following are the possible moves denoting by (i,j) and (p,q)

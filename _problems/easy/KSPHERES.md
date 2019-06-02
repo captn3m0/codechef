@@ -70,7 +70,7 @@ time:
     current: 1493558158
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/OCT15/mandarin/KSPHERES.pdf) and [Russian](http://www.codechef.com/download/translated/OCT15/russian/KSPHERES.pdf) 
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/OCT15/mandarin/KSPHERES.pdf) and [Russian](http://www.codechef.com/download/translated/OCT15/russian/KSPHERES.pdf) 
 
 Eugene has a sequence of upper hemispheres and another of lower hemispheres. The first set consists of **N** upper hemispheres indexed 1 to **N** and the second has **M** lower hemispheres indexed 1 to **M**. The hemispheres in any sequence can have different radii.
 
@@ -123,7 +123,8 @@ Output a single line containing **C** space-separated integers **D1**, **D2**, .
 
 <b>Output:</b>
 <tt>5 2 0</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 We can build spheres with such radii:
 

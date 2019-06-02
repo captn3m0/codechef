@@ -68,7 +68,7 @@ time:
     current: 1493558134
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/AUG14/mandarin/CRAWA.pdf) and [Russian](http://www.codechef.com/download/translated/AUG14/russian/CRAWA.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/AUG14/mandarin/CRAWA.pdf) and [Russian](http://www.codechef.com/download/translated/AUG14/russian/CRAWA.pdf).
 
 Oh no! Chef’s robot from problem "Reach The Point" ([RETPO](http://www.codechef.com/JULY14/problems/RETPO)) has broken up.
 It's old oil tank has got leaked, it is leaking oil now.
@@ -120,6 +120,7 @@ YES
 NO
 YES
 
-</pre> **Explanation**
+</pre>
+ **Explanation**
 
 The points **(0, 0)** and **(3, 3)** will be having trace of oil while point **(3, 5)** will not have any trace of oil because point **(3, 5)** does not lie on the trajectory of robot.

@@ -86,7 +86,9 @@ Each Payton number is a triplet of ordinary integers **(a,b,c)**, with the restr
     else:
         return (A-533,B-533,11)
 
-</pre>Eventually, Payton found out that he can define many interesting things about his numbers:
+</pre>
+Eventually, Payton found out that he can define many interesting things about his numbers:
+
 A **zero** is a Payton number **z** whose product with any other Payton number is **z**. Payton proved that there is a unique zero in Payton numbers, namely **(11,11,11)**.
 
 A **unity** is a Payton number whose product with any other Payton number is that Payton number. Payton proved that there is a unique unity in Payton numbers, namely **(4,4,24)**.
@@ -134,7 +136,8 @@ NOT PRIME
 NOT PRIME
 PRIME
 
-<pre></pre>### Explanation
+<pre></pre>
+### Explanation
 
 **Example case 1.** The number **(11,11,11)** is a zero, so it's not prime.
 

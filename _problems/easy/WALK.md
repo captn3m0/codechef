@@ -68,7 +68,7 @@ time:
     current: 1493558197
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MARCH14/mandarin/WALK.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH14/russian/WALK.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MARCH14/mandarin/WALK.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH14/russian/WALK.pdf).
 
 Chef and his girlfriend are going to have a promenade. They are walking along the straight road which consists of segments placed one by one. Before walking Chef and his girlfriend stay at the beginning of the first segment, they want to achieve the end of the last segment.
 
@@ -109,7 +109,8 @@ There are few problems:
 
 6
 5
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**
 

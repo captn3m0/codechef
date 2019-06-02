@@ -69,7 +69,7 @@ time:
     current: 1493557535
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/SEPT14/mandarin/CHEFINV.pdf) and [Russian](http://www.codechef.com/download/translated/SEPT14/russian/CHEFINV.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/SEPT14/mandarin/CHEFINV.pdf) and [Russian](http://www.codechef.com/download/translated/SEPT14/russian/CHEFINV.pdf).
 
 This time, Chef has given you an array **A** containing **N** elements.
 
@@ -110,7 +110,8 @@ Output **M** lines. Output the answer to the **i**-th question of the **i**-th l
 6
 0
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 Inversions for the first case: **(2, 3), (2, 4), (2, 5), (3, 5), (4, 5)**.
 

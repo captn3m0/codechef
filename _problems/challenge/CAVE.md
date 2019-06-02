@@ -97,11 +97,14 @@ tt#...
 ....t.
 ..t..t
 
-</pre>### Sample Output
+</pre>
+### Sample Output
+
 <pre>SSEESEE
 SENSSSESSENNNWEEENSWSSESWE
 
-</pre>The score for the first test case is 8/16=0.5. The score for the second test case is 23/32=0.71875. The overall score is thus (0.5+0.71875)/2=0.609375. Note that the solution to the first test case is unique (in particular, the solution "EEEESSS" is invalid because Chef would run out of torch light during his final step), but in the second test case there are many alternate solutions (including some that visit more than 23 distinct cells).
+</pre>
+The score for the first test case is 8/16=0.5. The score for the second test case is 23/32=0.71875. The overall score is thus (0.5+0.71875)/2=0.609375. Note that the solution to the first test case is unique (in particular, the solution "EEEESSS" is invalid because Chef would run out of torch light during his final step), but in the second test case there are many alternate solutions (including some that visit more than 23 distinct cells).
 
 ### Test Case Generation
 

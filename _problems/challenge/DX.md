@@ -81,7 +81,7 @@ If we want to be precise, the coordinates of the points written to output must f
 
  The goal is to minimize the height h of the box, where h = maxi (zi+ri). For each data set, your program will be scored by the proportion of the box volume actually used by the balls:
 
-_score_ = 4/3\*π\*(r13+..+rn3)/(a\*b\*h).
+*score* = 4/3\*π\*(r13+..+rn3)/(a\*b\*h).
 
 The program is run independently for a number of data sets, and the displayed score is the mean of scores obtained for individual data sets.
 

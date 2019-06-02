@@ -97,7 +97,8 @@ For each test case, output the distance you walked.
 <b>Output</b>
 2
 5
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Testcase #2**
 You are initially at (0, 0)

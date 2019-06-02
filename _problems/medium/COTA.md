@@ -144,7 +144,8 @@ There will always be a valid answer.
 <b>Output:</b>
 5
 9
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** If the odd numbered players are assigned as Radiant and even numbered players as Dire, and Chef assigns players {0, 1, 3} as elite players and keeps only the friendships between (0, 1) and (0, 3) and breaks up any other pair of friendships. So the total power of friendship is 1 + 4 = 5. Elite player 1 and 3 have friendship with only elite player 0. So each Radiant player has odd number of elite friends. Similarly player 0 has friendship with 1 and 3, and players 2 do not have any friend(0 elite friends). So each Dire player has even number of elite friends.
 

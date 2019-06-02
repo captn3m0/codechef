@@ -15,7 +15,7 @@ Given a graph G on nodes V with undirected edges E, an independent set X is a su
 
 Consider the following generalization of an independent set. A function f that maps each node v to a non-negative value f(v) is said to be a partially generalized independent set if, for any edge e = (u,v), we have f(u) + f(v) ≤ 1. Unfortunately, this doesn't provide a great generalization. Consider a graph G where every possible edge exists in E. The size of a maximum independent set is only 1 whereas assigning 1/2 to every value f(v) has the total fractional value of the f(v) values being |V|/2.
 
-So, let's add one more constraint to strengthen the notion of a generalized independent set. A cycle in a graph is a sequence of k ≥ 2 distinct nodes v1, v2, ..., vk where there is an edge between vi and vi+1 for any 1 ≤ i < k as well as an edge between v1 and vk. Notice that cycles of length 2 (_i.e._ edges) are permitted by this definition.
+So, let's add one more constraint to strengthen the notion of a generalized independent set. A cycle in a graph is a sequence of k ≥ 2 distinct nodes v1, v2, ..., vk where there is an edge between vi and vi+1 for any 1 ≤ i < k as well as an edge between v1 and vk. Notice that cycles of length 2 (*i.e.* edges) are permitted by this definition.
 
 If C is a cycle of G of length |C|, then no independent set can have more than floor(|C|/2) nodes from C. Given this, define a generalized independent set as a function f on nodes in V that satisfies the following conditions. For any cycle C = v1, v2, ..., v|C|, we have f(v1) + f(v2) + ... + f(v|C|) ≤ floor(|C|/2). Finally, for each node v we must have 0 ≤ f(v) ≤ 1.
 

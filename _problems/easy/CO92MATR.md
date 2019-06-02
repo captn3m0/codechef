@@ -74,7 +74,7 @@ layout: problem
 ---
 All submissions for this problem are available.### Read problems statements in [Mandarin chinese](http://www.codechef.com/download/translated/COOK92/mandarin/CO92MATR.pdf), [Russian](http://www.codechef.com/download/translated/COOK92/russian/CO92MATR.pdf) and [Vietnamese](http://www.codechef.com/download/translated/COOK92/vietnamese/CO92MATR.pdf) as well.
 
-Chef defines a _non-decreasing_ matrix as a matrix that satisfies the following rules:
+Chef defines a *non-decreasing* matrix as a matrix that satisfies the following rules:
 
 - For each row of the matrix, the elements of this row form a non-decreasing sequence.
 - For each column of the matrix, the elements of this column form a non-decreasing sequence.

@@ -103,6 +103,7 @@ Output the answer for initial value of **N** and also after each of the **M** up
 2
 1
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 After the final operation, **N** becomes 7. All numbers in range **\[0..7\]** that have even number of ones in their binary representation are: **0, 3, 5** and **6**.

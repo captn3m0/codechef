@@ -74,7 +74,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 Chef has finished his freshman year in college. As a present, his parents gave him a new problem to solve:
 
-Chef has to fill a **K x K** square grid of integers in a certain way. Let us say that such a grid is _valid_ if:
+Chef has to fill a **K x K** square grid of integers in a certain way. Let us say that such a grid is *valid* if:
 
 - Each cell contains an integer from **1** and **K** (inclusive).
 - No integer appears twice in the same row or the same column.

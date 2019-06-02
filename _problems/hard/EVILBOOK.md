@@ -67,7 +67,7 @@ time:
     current: 1493556704
 layout: problem
 ---
-All submissions for this problem are available.Chef Ciel got enormous cooking power from the _Evil Book_. Instead, Ciel must devote 666 magical power to the Evil Book.
+All submissions for this problem are available.Chef Ciel got enormous cooking power from the *Evil Book*. Instead, Ciel must devote 666 magical power to the Evil Book.
 
 Other than Ciel, there are **N** chefs in the world. The **i**-th chef has **Ci** cooking power and **Mi** magical power. Ciel may get **Mi** magical power by defeating the **i**-th chef in a cooking battle, which needs **Ci** effort. After that, the **i**-th chef's magical power **Mi** becomes 0.
 
@@ -108,13 +108,15 @@ For each test case, print the minimum total effort (rounded to the nearest integ
 2 10
 1000000000 1000000000
 0 130
-</pre>### Sample Output
+</pre>
+### Sample Output
 
 <pre>168
 impossible
 1000000000
 1882
-</pre>### Output details
+</pre>
+### Output details
 
 In the first case, the optimal way is the following.
 

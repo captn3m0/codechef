@@ -35,4 +35,5 @@ AAbaz
 1
 2
 60
-</pre>**Description:** In first case "ab" & "ba" are two different words. In third case, note that A & a are different alphabets and hence "Aa" & "aA" are different words.
+</pre>
+**Description:** In first case "ab" & "ba" are two different words. In third case, note that A & a are different alphabets and hence "Aa" & "aA" are different words.

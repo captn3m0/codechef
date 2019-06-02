@@ -68,7 +68,7 @@ time:
     current: 1493558174
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JAN14/mandarin/PLZLYKME.pdf) and [Russian](http://www.codechef.com/download/translated/JAN14/russian/PLZLYKME.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JAN14/mandarin/PLZLYKME.pdf) and [Russian](http://www.codechef.com/download/translated/JAN14/russian/PLZLYKME.pdf).
 
  In a far away dystopian world, the measure of the quality of a person’s life is the numbers of likes he gets for an article about their life. For a person to stay alive, he has to acquire at least **L** number of likes before **D** days pass.
 
@@ -108,7 +108,8 @@ For each test case, print a single line containing “**ALIVE AND KICKING**” i
 <b>Output</b>
 ALIVE AND KICKING
 DEAD AND ROTTING
-</pre>**Explanation**
+</pre>
+**Explanation**
 
 In the first case by the end of Day-1 we would be having **S** that is **5** number of likes, as it is ≥ **L**, the answer is **ALIVE AND KICKING**.
 

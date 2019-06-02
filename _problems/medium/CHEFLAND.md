@@ -106,6 +106,7 @@ Output "YES" (without quotes) if it possible to make all pairs of node good by a
 
 <b>Output:</b>
 <tt>YES</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 We can connect nodes 3 and 4 via an edge. After that all the pair of vertices will be good.

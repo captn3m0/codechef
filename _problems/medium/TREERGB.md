@@ -105,7 +105,8 @@ Output the answer to the problem on the first line.
 
 <b>Output #1:</b>
 12
-</pre><pre><b>Input #2:</b>
+</pre>
+<pre><b>Input #2:</b>
 8 2 1 3
 1 2
 1 4

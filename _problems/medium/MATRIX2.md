@@ -89,7 +89,8 @@ Output should consist of a single integer - the answer to the problem.
 
 <b>Output:</b>
 6
-</pre>### Scoring
+</pre>
+### Scoring
 
 Subtask 1 (9 points): 1 <= **N,M** <= 2000, All the numbers in the matrix are equal to one.
 

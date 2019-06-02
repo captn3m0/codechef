@@ -68,9 +68,9 @@ time:
     current: 1493558152
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME15/mandarin/HHAL.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME15/russian/HHAL.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME15/mandarin/HHAL.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME15/russian/HHAL.pdf).
 
-_Harrenhal is the largest castle in the Seven Kingdoms and is the seat of House Whent in the Riverlands, on the north shore of the Gods Eye lake. Since the War of Conquest, however, it has become a dark and ruinous place._
+*Harrenhal is the largest castle in the Seven Kingdoms and is the seat of House Whent in the Riverlands, on the north shore of the Gods Eye lake. Since the War of Conquest, however, it has become a dark and ruinous place.*
 
 (c) A Wiki of Ice and Fire
 
@@ -78,9 +78,9 @@ _Harrenhal is the largest castle in the Seven Kingdoms and is the seat of House 
 
 Now Harrenhal is too dangerous since it's a nice place for bandits to hide, or even for rebels to start planning overthrowing of the king. So, the current Lord of the Seven Kingdoms has decided, that it's time to completely ruin the castle. For that puposes, he's planning to send some military troops.
 
-In this problem we assume, that Harrenhal can be described as a string **H**, which consists only of symbols _'a'_ and _'b'_. Harrenhal is completely ruined if and only if the length of **H** is equal to zero.
+In this problem we assume, that Harrenhal can be described as a string **H**, which consists only of symbols *'a'* and *'b'*. Harrenhal is completely ruined if and only if the length of **H** is equal to zero.
 
-So, how to make **H** empty? Send a military troop! When a military troop of the king reach the castle, they delete some palindromic subsequence **S** of **H**. For example, let **H** = _'abbabaab'_. Then the current military troop can choose **S** = _'ababa'_(Let's make symbols of **S** bold in **H**: _'**ab**b**ab**a**a**b'_). After deleting **S**, **H** will be equal to _'bab'_. Military troops are free to choose any possible palindromic subsequence of **H**.
+So, how to make **H** empty? Send a military troop! When a military troop of the king reach the castle, they delete some palindromic subsequence **S** of **H**. For example, let **H** = *'abbabaab'*. Then the current military troop can choose **S** = *'ababa'*(Let's make symbols of **S** bold in **H**: *'**ab**b**ab**a**a**b'*). After deleting **S**, **H** will be equal to *'bab'*. Military troops are free to choose any possible palindromic subsequence of **H**.
 
 Your task is pretty simple: determine the minimal number of military troops, that the Lord of the Seven Kingdoms has to send in order to ruin Harrenhal.
 
@@ -97,7 +97,7 @@ The first line of the input contains an integer **T**, denoting the number of te
 
 The next **T** lines contain a string **H** each, denoting the string, that describes the current state of Harrenhal for the corresponding test cases.
 
-It's guaranteed, that each **H** consists only of symbols _'a'_ and _'b'_.
+It's guaranteed, that each **H** consists only of symbols *'a'* and *'b'*.
 
 ### Output
 
@@ -117,10 +117,11 @@ abbabaab
 
 <b>Output:</b>
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 There're multiple ways to ruin Harrenhal in the example test. Let's consider one of them.
 
-The first troop can delete **S** = _'ababa'_(_'**ab**b**ab**a**a**b'_). After that, **H** = _'bab'_.
+The first troop can delete **S** = *'ababa'*(*'**ab**b**ab**a**a**b'*). After that, **H** = *'bab'*.
 
-The second troop can delete **S** = _'bab'_(_'**bab**'_). After that, **H** is empty and that's it.
+The second troop can delete **S** = *'bab'*(*'**bab**'*). After that, **H** is empty and that's it.

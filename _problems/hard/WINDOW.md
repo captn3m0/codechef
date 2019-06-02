@@ -42,7 +42,8 @@ Chef is interested in knowing how many ways he can choose the window. But since 
 5
 4
 579415965
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first case we need calculate the number of rectangles which lie in triangle with vertices **(0; 0), (4; 0), (4; 8/3)**. There exist 5 such rectangles. Among them 3 have size **1 x 1**. One has size **2 x 1** and one have size **1 x 2**. 
 

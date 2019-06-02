@@ -104,7 +104,8 @@ For each test case output a single line containing an integer represent how much
 <b>Output</b>:
 45
 131351258112
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first test case, Jem will proceed as below:
 

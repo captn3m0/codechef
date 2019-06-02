@@ -65,7 +65,7 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/APRIL14/mandarin/SEAPERM.pdf) and [Russian](http://www.codechef.com/download/translated/APRIL14/russian/SEAPERM.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/APRIL14/mandarin/SEAPERM.pdf) and [Russian](http://www.codechef.com/download/translated/APRIL14/russian/SEAPERM.pdf).
 
 Sereja have array **A'** that contain **N** integers. Now Sereja want to permute elements of the array, he want to use some permutation **p**, such that **A\[i\] = A'\[p\[i\]\]**, where **A** - new array.
 
@@ -102,7 +102,8 @@ For each testcase output **N** numbers in one line - permutation **p**.
 2 1 3
 4 3 2 1
 
-</pre>### Scoring
+</pre>
+### Scoring
 
 Suppose **Sum** will be sum of yours **(f(A, 1) + f(A, 2) + ... f(A, k))/k** per each testcase.
 Lets **B** will be the smallest such sum. Your score will be equal to **B/Sum**. Lower scores will earn more points.

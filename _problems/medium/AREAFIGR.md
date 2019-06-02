@@ -110,7 +110,8 @@ For each test case, print a single line containing one real number corresponding
 138.1789
 163.712
 173.2064190
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 2:** The black colored area shown in the figure is the intersection between the triangle and the three circles.
 

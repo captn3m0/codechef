@@ -107,7 +107,8 @@ If Chef cannot arrive at the bus station **N** before or at the time **T**, outp
 
 <b>Output:</b>
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 There are three different traveling plans:
 

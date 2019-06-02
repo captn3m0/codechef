@@ -31,7 +31,7 @@ layout: problem
 ---
 All submissions for this problem are available.### Read problems statements in [Mandarin chinese](http://www.codechef.com/download/translated/COOK90/mandarin/FARGRAPH.pdf), [Russian](http://www.codechef.com/download/translated/COOK90/russian/FARGRAPH.pdf) and [Vietnamese](http://www.codechef.com/download/translated/COOK90/vietnamese/FARGRAPH.pdf) as well.
 
-Consider a positive even integer **L** and **N** distinct integers **a1, a2, ..., aN** such that **| ai - aj |** ≤ **L** for all 1 ≤ **i**, **j** ≤ **N**. Now, we define a _far graph_ induced by **L** and **a1..N** as a graph with **N** vertices (numbered 1 through **N**) satisfying the following condition: for each pair of vertices **u** and **v**, there is an undirected edge between **u** and **v** if and only if **| au - av |** ≥ **L/2**.
+Consider a positive even integer **L** and **N** distinct integers **a1, a2, ..., aN** such that **| ai - aj |** ≤ **L** for all 1 ≤ **i**, **j** ≤ **N**. Now, we define a *far graph* induced by **L** and **a1..N** as a graph with **N** vertices (numbered 1 through **N**) satisfying the following condition: for each pair of vertices **u** and **v**, there is an undirected edge between **u** and **v** if and only if **| au - av |** ≥ **L/2**.
 
 Given a simple graph **G**, you should find integers **L** and **a1, a2, ..., aN** such that **G** is a far graph induced by them, or determine that no such integers exist.
 
@@ -94,7 +94,8 @@ Yes
 Yes
 20 7 12 1 20 4 17 10
 No
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** There are 3 vertices connected in a cycle. We can take **L** = 2, **a1** = 12, **a2** = 10 and **a3** = 11. Since | 12 - 10 | ≥ 1, | 10 - 11 | ≥ 1, and | 11 - 12 | ≥ 1, this means that there are edges between pairs of vertices (1, 2), (2, 3) and (3, 1) respectively. This is exactly the given graph, so the answer is "Yes", and we print these values.
 

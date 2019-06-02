@@ -72,15 +72,15 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/COOK59/mandarin/ANKMARKS.pdf) and [Russian](http://www.codechef.com/download/translated/COOK59/russian/ANKMARKS.pdf) as well.
 
-Chef VS recently conducted an exam on the subject of Computer Science. Being biased as well as lazy, he awards marks looking at only the students' roll numbers, and not their actual answers on the exam. Students have roll numbers ranging from 1 to **N**, where **N** is the number of students in his class. For a student with roll number **i**, chef VS's _favouritism_ value is given by **favi**.
+Chef VS recently conducted an exam on the subject of Computer Science. Being biased as well as lazy, he awards marks looking at only the students' roll numbers, and not their actual answers on the exam. Students have roll numbers ranging from 1 to **N**, where **N** is the number of students in his class. For a student with roll number **i**, chef VS's *favouritism* value is given by **favi**.
 
-For any two students with roll numbers next to each other, VS ensures that the one with the higher _favouritism_ value gets **strictly** more than _twice_ the marks received by the less favourite student.
+For any two students with roll numbers next to each other, VS ensures that the one with the higher *favouritism* value gets **strictly** more than *twice* the marks received by the less favourite student.
 
 The paper consisted of many problems and each problem must be graded with either the full score allotted to that problem, or zero score.
 
 Since he does not want to get caught, VS must make sure that the number of marks awarded to any student must be expressible as a sum of maximum possible scores of problems, repeated any number of times. For example, suppose that the problems in the problem set carry marks from the set {2,5,7}. Clearly, no student can be awarded 1 mark. 7 marks may be awarded, as 7 = 2 + 5. 4 marks may also be handed out, as 4 = 2 + 2. Note that 0 marks can be awarded as well.
 
-One of the students, Sahil, aspires to top the class, and is therefore very concerned about the marks he would get. While Sahil topping the class could have really been possible if the exam was on _The Harry Potter_ series, his chances are rather bleak on a Computer Science test. So, he finds out the **fav** array by breaking into VS's office, and uses this information to find the **minimum possible average** of marks obtained by the class and judge the ground reality. It is certain that VS never violates the conditions mentioned in the earlier paragraphs. Print the minimum possible average. Please note that test data is generated so as to ensure that every answer is always less than 252
+One of the students, Sahil, aspires to top the class, and is therefore very concerned about the marks he would get. While Sahil topping the class could have really been possible if the exam was on *The Harry Potter* series, his chances are rather bleak on a Computer Science test. So, he finds out the **fav** array by breaking into VS's office, and uses this information to find the **minimum possible average** of marks obtained by the class and judge the ground reality. It is certain that VS never violates the conditions mentioned in the earlier paragraphs. Print the minimum possible average. Please note that test data is generated so as to ensure that every answer is always less than 252
 
 ### Input
 
@@ -118,12 +118,14 @@ Output exactly **T** lines, each containing the answer for the corresponding tes
 3
 2 4 8
 
-</pre>**Sample Output:**
+</pre>
+**Sample Output:**
 
 <pre>
 2.333333
 1.000000
-</pre>**Explanation:**
+</pre>
+**Explanation:**
 
 **Test 1:**
 Award 0 to student 1, 2 to student 2 and 5 to student 3.

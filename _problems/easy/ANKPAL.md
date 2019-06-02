@@ -68,11 +68,11 @@ time:
     current: 1493558106
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/SNCK15EL/mandarin/ANKPAL.pdf) , [Russian](http://www.codechef.com/download/translated/SNCK15EL/russian/ANKPAL.pdf) and [Vietnamese](http://www.codechef.com/download/translated/SNCK15EL/vietnamese/ANKPAL.pdf)
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/SNCK15EL/mandarin/ANKPAL.pdf) , [Russian](http://www.codechef.com/download/translated/SNCK15EL/russian/ANKPAL.pdf) and [Vietnamese](http://www.codechef.com/download/translated/SNCK15EL/vietnamese/ANKPAL.pdf)
 
 Mark has recently started studying string algorithms. So, as to gauge his knowledge, Lucy challenges him to a task.
 
-"Given a string **s**, answer several times a query to determine whether a _substring_ **s\[i, j\]** (inclusive) is palindromic or not.", said Lucy in a confident tone!
+"Given a string **s**, answer several times a query to determine whether a *substring* **s\[i, j\]** (inclusive) is palindromic or not.", said Lucy in a confident tone!
 
 As smart as Mark is, he was able to instantly find the solution!
 
@@ -80,7 +80,7 @@ Now, Mark has challenged little Lucy to do the same task by reversing a specific
 
 You have to write a program that answers **Q** queries on a string **S**.
 
-Each query contains four integers (**i**, **j**, **k**, **l**). For every query, first reverse the _substring_ **s\[i, j\]** (inclusive) and then report if _substring_ **s\[k, l\]** (inclusive) is a palindrome.
+Each query contains four integers (**i**, **j**, **k**, **l**). For every query, first reverse the *substring* **s\[i, j\]** (inclusive) and then report if *substring* **s\[k, l\]** (inclusive) is a palindrome.
 
 Note that the reversal operations are only for the specific query and should not persist for further queries. Please check the explanation section for better understanding.
 
@@ -91,7 +91,7 @@ Each of the following **Q** lines each contain 4 space separated integers **i, j
 
 ### Output:
 
-Output exactly _Q_ lines, each containing the result of corresponding query as _"Yes"_ or _"No"_.
+Output exactly *Q* lines, each containing the result of corresponding query as *"Yes"* or *"No"*.
 
 ### Constraints:
 
@@ -111,22 +111,24 @@ ababa
 1 3 3 5
 2 4 1 5
 
-</pre>**Sample Output:**
+</pre>
+**Sample Output:**
 
 <pre>
 Yes
 No
 Yes
 Yes
-</pre>### Explanation:
+</pre>
+### Explanation:
 
-**Query 1:**The string becomes a**ab**ba. The queried substring is _bb_, which is a palindrome.
+**Query 1:**The string becomes a**ab**ba. The queried substring is *bb*, which is a palindrome.
 
-**Query 2:**The string becomes **ba**aba. The queried substring is _ab_, which is not a palindrome.
+**Query 2:**The string becomes **ba**aba. The queried substring is *ab*, which is not a palindrome.
 
-**Query 3:**The string becomes **aba**ba. The queried substring is _aba_, which is a palindrome.
+**Query 3:**The string becomes **aba**ba. The queried substring is *aba*, which is a palindrome.
 
-**Query 4:**The string becomes a**bab**a. The queried substring is _ababa_, which is a palindrome.
+**Query 4:**The string becomes a**bab**a. The queried substring is *ababa*, which is a palindrome.
 
 ### Notes:
 

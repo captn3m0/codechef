@@ -68,7 +68,7 @@ time:
     current: 1493558159
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MAY14/mandarin/LEBALONS.pdf) and [Russian](http://www.codechef.com/download/translated/MAY14/russian/LEBALONS.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MAY14/mandarin/LEBALONS.pdf) and [Russian](http://www.codechef.com/download/translated/MAY14/russian/LEBALONS.pdf).
 
 The Little Elephant from the Zoo of Lviv is going to the Birthday Party of the Big Hippo tomorrow. Now he wants to prepare a gift for the Big Hippo.
 

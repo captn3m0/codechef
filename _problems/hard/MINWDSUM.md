@@ -77,7 +77,8 @@ For each test case, output a single line containing the required sum.
 9435
 10
 6500672892792
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** Here **M = 1**. So we need to find **F(Nmin(0))**. Since **Smin(0) = Nmin(0) = 0** and **F(0) = 0**, the answer is 0.
 

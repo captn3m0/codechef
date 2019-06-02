@@ -29,6 +29,9 @@ Output the number of different ways to make a "good" hexagon **% 1000000007.**
 
 ### Sample Input
 
-`10 8 6 2`### Sample Output
+<pre>10 8 6 2
+</pre>
+### Sample Output
 
-`374`
+<pre>374
+</pre>

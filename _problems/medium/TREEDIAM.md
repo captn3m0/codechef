@@ -133,7 +133,8 @@ On the **i**th line, output the product of the diameters of all the trees after 
 <tt>6
 9
 6</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 The diameter of the initial tree is **6** (node **2** to node **1** to node **3**).
 

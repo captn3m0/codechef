@@ -128,7 +128,8 @@ For each query of type 2, print a single line containing one integer - the answe
 
 2
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first query, **gcd**(**A2**, 2) = 1 and **gcd**(**A4**, 2) = 1, so the answer is 2.
 

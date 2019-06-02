@@ -122,12 +122,16 @@ E##..#
 #..#.#
 ##....
 
-</pre>### Sample Output
+</pre>
+### Sample Output
+
 <pre>SSSWENENNWWWWSSE
 ESSSWWWWNWNNESEEEWNNEE
 
 
-</pre>This sample output would score 16+22=38. Note that better scores may be possible.
+</pre>
+This sample output would score 16+22=38. Note that better scores may be possible.
+
 ### Test case generation
 
 For each official test file, T is 10. K is chosen uniformly between 2 and 25, inclusive. An integer L is calculated as floor(45/sqrt(K)) and H as floor(70/sqrt(K)). Then for each maze M and N are each chosen uniformly between L and H, inclusive.

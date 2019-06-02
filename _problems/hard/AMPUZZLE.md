@@ -26,7 +26,7 @@ layout: problem
 ---
 All submissions for this problem are available.Famous company Strange Puzzles Inc. has designed a brand new series of puzzles aimed at students who are fond of competitive programming. In this problem we are going to consider one of them named "Sliding Windows".
 
-The puzzle consists of an infinite two-dimensional plane and **n** rectangles located in it. Each of the rectangles has its sides parallel to the coordinate axes. The puzzle is considered to be solved if for any two rectangles it is true that at least one of them is _covered_ by the other one. Formally, rectangle i _covers_ rectangle j if and only if for any point of the plane (x, y) which lies inside rectangle j, it also lies inside rectangle i.
+The puzzle consists of an infinite two-dimensional plane and **n** rectangles located in it. Each of the rectangles has its sides parallel to the coordinate axes. The puzzle is considered to be solved if for any two rectangles it is true that at least one of them is *covered* by the other one. Formally, rectangle i *covers* rectangle j if and only if for any point of the plane (x, y) which lies inside rectangle j, it also lies inside rectangle i.
 
 The only action that you are allowed to perform is to shift the rectangles up, down, left or right. In one unit of time you can take one of the rectangles and shift it exactly by 1 unit in one of these four directions.
 
@@ -66,7 +66,8 @@ As a true competitive programmer you wonder what the minimum number of time unit
 <b>Output:</b>
 -1
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Testase 1:** No matter how we move the rectangles, one rectangle cannot cover the other rectangle. Hence the answer is -1.
 

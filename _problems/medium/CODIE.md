@@ -68,7 +68,8 @@ Print a single line containing one integer — the expected number of paths from
 <b>Output:</b>
 
 666666679
-</pre>### Explanation
+</pre>
+### Explanation
 
 Let **X** denote the starting and ending coordinate, and **B** denote the cells blocked by pipes.
 

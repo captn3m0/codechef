@@ -128,7 +128,8 @@ For each test case, print a single line containing one integer — the value of 
 7
 4
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** F(5 · 5) = F(25) = F(2+5) = F(7) = 7
 

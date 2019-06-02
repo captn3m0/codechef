@@ -60,10 +60,12 @@ RowAdd 2 1
 
 <b>Output:</b>
 7
-</pre>### Explanation
+</pre>
+### Explanation
 
 The grid changes as follows:
 
 <pre>00  33  34  74  74
 00  00  01  41  52
-</pre>The maximum number in the final grid is 7.
+</pre>
+The maximum number in the final grid is 7.

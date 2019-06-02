@@ -68,18 +68,18 @@ time:
     current: 1493558211
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MARCH14/mandarin/BINTOUR.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH14/russian/BINTOUR.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MARCH14/mandarin/BINTOUR.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH14/russian/BINTOUR.pdf).
 
 Knights' tournaments were quite popular in the Middle Ages. A lot of boys were dreaming of becoming a knight, while a lot of girls were dreaming of marrying a knight on a white horse.
 
 In this problem we consider one of these tournaments.
 
-Let's us call a tournament _binary_, if it runs according to the scheme described below:
+Let's us call a tournament *binary*, if it runs according to the scheme described below:
 
 - Exactly **N** knights take part in the tournament, **N**=2**K** for some integer **K** > 0.
-- Each knight has a unique skill called _strength_, described as an integer from the interval \[1, **N**\].
+- Each knight has a unique skill called *strength*, described as an integer from the interval \[1, **N**\].
 - Initially, all the knights are standing in a line, waiting for a battle. Since all their strengths are unique, each initial configuration can be described as a permutation of numbers from 1 to **N**.
-- There are exactly **K** rounds in the tournament, 2**K - i + 1** knights take part in the **i**'th round. The **K**'th round is called _the final_.
+- There are exactly **K** rounds in the tournament, 2**K - i + 1** knights take part in the **i**'th round. The **K**'th round is called *the final*.
 - The **i**'th round runs in the following way: for each positive integer **j** ≤ 2**K - i** happens a battle between a knight on the **2∙j**'th position and a knight on the **2∙j+1**'th position. The strongest of two continues his tournament, taking the **j**'th position on the next round, while the weakest of two is forced to leave.
 - The only knight, who has won **K** rounds, is the winner. The only knight, who has won **K - 1** rounds, but lost the final, is the runner-up.
 
@@ -107,7 +107,8 @@ Output should consist of **2K** lines. The **i**'th line should contain the numb
 <b>Output:</b>
 2
 2
-</pre><pre><b>Input:</b>
+</pre>
+<pre><b>Input:</b>
 2
 
 <b>Output:</b>
@@ -115,7 +116,8 @@ Output should consist of **2K** lines. The **i**'th line should contain the numb
 8
 16
 24
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first example we have **N**=2 knights. Let's consider each initial configuration that could appear and simulate the tournament.
 

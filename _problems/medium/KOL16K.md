@@ -68,7 +68,8 @@ For a each test case, output a single integer in separate line corresponding to 
  3
  3
  4
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Explanation case 1.**
 

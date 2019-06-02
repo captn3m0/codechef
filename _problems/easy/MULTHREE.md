@@ -109,7 +109,8 @@ For each test case, print a single line containing the string "YES" (without quo
 NO
 YES
 YES
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** The whole number **N** is **34748**, which is not divisible by 3, so the answer is NO.
 

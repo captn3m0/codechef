@@ -70,7 +70,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 You are given a 2 × **N** grid (2 rows, **N** columns) consisting of lower case English characters (i.e. from 'a' to 'z'). Two cells are said to be adjacent if they share a side with each other.
 
-The _score_ of such a grid is defined to be the number of unordered pairs of adjacent cells, which have the same character in them.
+The *score* of such a grid is defined to be the number of unordered pairs of adjacent cells, which have the same character in them.
 
 You want to rearrange the letters of the grid in such a way that the score is maximized and print the new rearranged grid. If there are multiple solutions, you can print any.
 
@@ -107,7 +107,8 @@ aa
 bb
 bbac
 bbac
-</pre>### Explanation
+</pre>
+### Explanation
 
 Let (r, c) denote the cell on the r-th row and c-th column.
 

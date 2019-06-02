@@ -96,6 +96,7 @@ For each test case, output a single line containing the answer to the correspond
 <b>Output:</b>
 75
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** The answer is **9\*1 + 10\*2 + 11\*2 + 12\*2 = 75**.

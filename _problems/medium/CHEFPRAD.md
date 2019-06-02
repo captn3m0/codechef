@@ -83,7 +83,9 @@ FOR x = -2*10^9..2*10^9
 	 ans = max(ans, maxMatching(F, D, e))
 output ans
 
-<pre>### Input
+<pre>
+### Input
+
 - The first line contains one integer **T**, denoting the number of tests. **T** test cases follows.
 - The first line of each test case contains three integers: **N** - number of elements of array **C**, **M** - number of elements of array **D** and **e**.
 - The second line contains **N** space-separated integers denoting elements of array **C**.

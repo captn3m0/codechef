@@ -117,7 +117,8 @@ For each test case, output a single line containing the minimal amount of number
 <b>Output:</b>
 <tt>1
 0</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** If Alice throws away the number **3** from her collection, she would obtain **{1, 2}** which is disjoint with **{3, 4, 5, 6}**.
 

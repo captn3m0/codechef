@@ -72,11 +72,11 @@ time:
     current: 1493558141
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME29/mandarin/EMITL.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME29/russian/EMITL.pdf)
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME29/mandarin/EMITL.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME29/russian/EMITL.pdf)
 
 You are given a string **S** constisting of uppercase Latin letters. Is it possible to reorder the characters in this string to get a string with prefix "**LTIME**" and suffix "**EMITL**"?
 
-_We remind you that a **prefix** of a string is any substring which contains its first character, while a **suffix** of a string is substring containing its last character._
+*We remind you that a **prefix** of a string is any substring which contains its first character, while a **suffix** of a string is substring containing its last character.*
 
 ### Input
 
@@ -106,7 +106,8 @@ LTIMEM</tt>
 YES
 NO</tt>
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Test case 1**: we can permute the last 5 letters and get LTIMEAZAZAEMITL
 

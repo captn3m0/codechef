@@ -70,21 +70,21 @@ time:
     current: 1493557919
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JAN14/mandarin/FRBSUM.pdf) and [Russian](http://www.codechef.com/download/translated/JAN14/russian/FRBSUM.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JAN14/mandarin/FRBSUM.pdf) and [Russian](http://www.codechef.com/download/translated/JAN14/russian/FRBSUM.pdf).
 
-Mike likes to invent new functions. The latest one he has invented is called _ForbiddenSum_. Let's consider how it can be calculated:
+Mike likes to invent new functions. The latest one he has invented is called *ForbiddenSum*. Let's consider how it can be calculated:
 
-You are given a set **S** of positive integers. The integers are not necessary distinct. _ForbiddenSum_ of **S** equals to the minimal **non-negative** integer, that can't be returned by the algorithm described below:
+You are given a set **S** of positive integers. The integers are not necessary distinct. *ForbiddenSum* of **S** equals to the minimal **non-negative** integer, that can't be returned by the algorithm described below:
 
-- Choose a _random_ subset **S'** of **S**(it can be empty as well);
+- Choose a *random* subset **S'** of **S**(it can be empty as well);
 - Calculate the sum of all the numbers of **S'** and assign it to the variable **T**;
 - Return the value of the variable **T**.
 
-I.e. if **S** = {1, 1, 3, 7}, the algorithm can return 0(**S'** = {}), 1(**S'** = {1}), 2(**S'** = {1, 1}), 3(**S'** = {3}), 4(**S'** = {1, 3}), 5(**S'** = {1, 1, 3}), but it can't return 6. So, _ForbiddenSum_ of **S** equals to 6.
+I.e. if **S** = {1, 1, 3, 7}, the algorithm can return 0(**S'** = {}), 1(**S'** = {1}), 2(**S'** = {1, 1}), 3(**S'** = {3}), 4(**S'** = {1, 3}), 5(**S'** = {1, 1, 3}), but it can't return 6. So, *ForbiddenSum* of **S** equals to 6.
 
 Inventing of new function is not the only Mike's hobby. Also, he likes to collect rare and unusual arrays. He is going to share with you one of them.
 
-Formally, Mike gives you one array **A**, consisting of **N** positive integers. After that, he asks you **M** questions, two integers **Li** and **Ri** describe **i**'th question: What does _ForbiddenSum_ of **S**={**ALi**, **ALi+1**, ..., **ARi-1**, **ARi**} equal to?
+Formally, Mike gives you one array **A**, consisting of **N** positive integers. After that, he asks you **M** questions, two integers **Li** and **Ri** describe **i**'th question: What does *ForbiddenSum* of **S**={**ALi**, **ALi+1**, ..., **ARi-1**, **ARi**} equal to?
 
 ### Input
 
@@ -122,7 +122,8 @@ Output should consists of **M** lines. The **i**'th line should contains the ans
 8
 8
 8
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the example test there are **M**=5 questions. We won't describe all of them, only two ones.
 

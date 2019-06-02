@@ -72,7 +72,7 @@ time:
     current: 1493558131
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME27/mandarin/CLOST.pdf) , [Russian](http://www.codechef.com/download/translated/LTIME27/russian/CLOST.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME27/vietnamese/CLOST.pdf)
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME27/mandarin/CLOST.pdf) , [Russian](http://www.codechef.com/download/translated/LTIME27/russian/CLOST.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME27/vietnamese/CLOST.pdf)
 
 Churu is taking the course called “Introduction to Data Structures”. Yesterday, he learned how to use a stack to check is a given parentheses expression is balanced or not. He finds it intriguing, and more importantly, he was given an assignment. The professor gave him a string **S** containing characters “(” and “)”, and asked him numerous queries of the form **(x, y)**, i.e., if the substring **S\[x, y\]** represents a balanced parentheses expression or not. Here, **S\[x, y\]** refers to the substring of **S** from index **x** to **y** (both inclusive), assuming 0-based indexing. Diligently working through his assignment, our ace student Churu finds that all the queries given by the professor represented balanced substrings. Later, Churu lost his original string but he has all the queries.
 
@@ -107,6 +107,7 @@ Print **T** lines, with the **i**th one containing the solution string for the *
 <b>Output:</b>
 ()()
 (())
-</pre>### Explanation
+</pre>
+### Explanation
 
 For the first sample case, "(())" are "()()" are two possible outputs. Printing anyone will do.

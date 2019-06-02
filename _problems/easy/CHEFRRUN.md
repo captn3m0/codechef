@@ -117,7 +117,8 @@ For each test case, output a single line containing number of magical boxes.
 <tt>4
 1
 2</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**
 
@@ -127,7 +128,8 @@ Here are Chef's paths if he starting from each the box: ```
 <b>2</b>-><b>4</b>-><b>2</b>
 <b>3</b>-><b>1</b>-><b>3</b>
 <b>4</b>-><b>2</b>-><b>4</b>
-<pre>As you see, all **4** boxes are magical. **Example case 2.**
+<pre>
+As you see, all **4** boxes are magical. **Example case 2.**
 
 Here are Chef's paths if he starts from each box appropriately: ```
 
@@ -135,4 +137,5 @@ Here are Chef's paths if he starts from each box appropriately: ```
 <b>2</b>-><b>3</b>-><b>4</b>-><b>1</b>-><b>1</b>
 <b>3</b>-><b>4</b>-><b>1</b>-><b>1</b>
 <b>4</b>-><b>1</b>-><b>1</b>
-</pre>AS you see, only box **1** is magical.
+</pre>
+AS you see, only box **1** is magical.

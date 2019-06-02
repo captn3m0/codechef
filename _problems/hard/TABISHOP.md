@@ -102,7 +102,8 @@ Output a single line containing the number of safe cells.
 
 <b>Output:</b>
 22
-</pre>### Explanation
+</pre>
+### Explanation
 
 <pre>
 -------*
@@ -114,6 +115,8 @@ Output a single line containing the number of safe cells.
 -*o--*--
 *-----*-
 
-</pre>Bishops are marked by 'b'. Other chess pieces are marked by 'o'.
+</pre>
+Bishops are marked by 'b'.
+ Other chess pieces are marked by 'o'.
  Safe cells other than bishop positions are marked by '\*'.
  There are 20 '\*'s plus two 'b's so the result is 22. />/>/>

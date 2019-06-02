@@ -120,7 +120,8 @@ For each test case print in the first line number **q**, the number of moves you
 2 1
 1 1
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the third case
 

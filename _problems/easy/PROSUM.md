@@ -68,7 +68,7 @@ time:
     current: 1493558176
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MARCH14/mandarin/PROSUM.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH14/russian/PROSUM.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MARCH14/mandarin/PROSUM.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH14/russian/PROSUM.pdf).
 
 Little chef has just been introduced to the world of numbers! While experimenting with addition and multiplication operations, the little chef came up with the following problem:
 
@@ -107,7 +107,8 @@ For each test, print the required number of pairs in a single line.
 <b>Output:</b>
 3
 0
-</pre>### Explanation
+</pre>
+### Explanation
 
 /> **Example case 1.**
 

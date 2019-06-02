@@ -76,9 +76,9 @@ All submissions for this problem are available. After finishing his internship a
  Your application must handle three types of events:
 
 - **0 cid q**
- Client with id _cid_ wants to store _q_ cells of data. - **1 cid p**
- Client with id _cid_ wants to retrieve his _p-th_ data-cell. - **2 hid**
- Hard-disk with id _hid_ has crashed and all data that was stored on it is lost. The hard-disk can still be used in the future! 
+ Client with id *cid* wants to store *q* cells of data. - **1 cid p**
+ Client with id *cid* wants to retrieve his *p-th* data-cell. - **2 hid**
+ Hard-disk with id *hid* has crashed and all data that was stored on it is lost. The hard-disk can still be used in the future! 
 In order to simplify the problem, you can assume that a client is allowed to store data only once. But he is allowed to query the warehouse as many times as he wants.
 
 A client will not query the data warehouse if he has no data stored!
@@ -86,18 +86,18 @@ A client will not query the data warehouse if he has no data stored!
  In order to handle some events, your application can send these types of commands involving storing/retrieving data:
 
 - **s hid pid**
- This command **must** follow a client's request to store data and means that you store the previous client's data on hard-disk _hid_, starting at cell _pid_ (0-based indexing) 
+ This command **must** follow a client's request to store data and means that you store the previous client's data on hard-disk *hid*, starting at cell *pid* (0-based indexing) 
  For example, you might have a request of form **0 100 10**. The client with id 100 wants to store 10 units (cells) of data in our warehouse. Let's assume you have a hard-disk (with id 5). You can respond with a command **s 5 120**, meaning that you store the client's 100 units of data on only one hard-disk, hdd5 from cell 120 to cell 129. All ids **must** be valid. You must be careful not to overflow any HDD!
- **Note: You can choose not to store the data (a risky move). In this case, you have to print -1 -1 for _hid_ and _pid_. No penalty fee will be charged in this case!** ?> - **i hid pid**
+ **Note: You can choose not to store the data (a risky move). In this case, you have to print -1 -1 for *hid* and *pid*. No penalty fee will be charged in this case!** ?> - **i hid pid**
  This command **must** follow a client's request to retrieve his data. 
- For example, let's assume that you had the commands described above and you get a new one **1 100 5**. In this case, we have to respond with **i 5 125** as you stored the data from client 100 on hdd5 and the _5-th_ cell of data is located on the _125-th_ cell on hdd5.
- **Note: If you do not have the requested data, _hid_ and _pid_ must be equal to -1 (and you will pay a **fixed penalty** - see input and scoring sections).
- Note: If you report a false information (i.e. the _pid-th_ cell on the hdd _hid_ doesn't contain the request cell), you will get a WA. Everyone hates fake information!** 
+ For example, let's assume that you had the commands described above and you get a new one **1 100 5**. In this case, we have to respond with **i 5 125** as you stored the data from client 100 on hdd5 and the *5-th* cell of data is located on the *125-th* cell on hdd5.
+ **Note: If you do not have the requested data, *hid* and *pid* must be equal to -1 (and you will pay a **fixed penalty** - see input and scoring sections).
+ Note: If you report a false information (i.e. the *pid-th* cell on the hdd *hid* doesn't contain the request cell), you will get a WA. Everyone hates fake information!** 
  There are other types of commands that you can use in order to manage the data warehouse:
 
 - **b t**
- Buy a new hard-disk of type _t_. The newly purchased hard-disk will get the next available id starting from zero (the first one you buy will have id 0, the second one will have id 1 and so on). - **cp hidsource pidsource q hiddestination piddestination**
- Copy _q_ cells of data from hard-disk _hidsource_, starting at _pidsource_, to hard-disk _hiddestination_, starting at _piddestination_. 
+ Buy a new hard-disk of type *t*. The newly purchased hard-disk will get the next available id starting from zero (the first one you buy will have id 0, the second one will have id 1 and so on). - **cp hidsource pidsource q hiddestination piddestination**
+ Copy *q* cells of data from hard-disk *hidsource*, starting at *pidsource*, to hard-disk *hiddestination*, starting at *piddestination*. 
 ### Interactive
 
  This task is **interactive**. You have to write a program that will interact with a custom judge (i.e. the judge is deterministic but the events you get will depend on your program behavior).
@@ -121,9 +121,9 @@ Hard-disks cost money and they read and write at different speeds (so there are 
 
 Storing and retrieving data also has a price.
 
-If you store _q_ units of data on a hard-disk that writes data at _w_ units per second the cost of this operation will be _q \* w_.
+If you store *q* units of data on a hard-disk that writes data at *w* units per second the cost of this operation will be *q \* w*.
 
-If you read _q_ units of data from a hard-disk that reads at speed _r_ units per second, the operation will cost you _q \* r_.
+If you read *q* units of data from a hard-disk that reads at speed *r* units per second, the operation will cost you *q \* r*.
 
 If you do not have some requested data (you didn't store it or you overwrote the cell) you **must** pay a fixed **penalty**.
 
@@ -202,7 +202,8 @@ The output file will be your program's interaction with the judge.
 100 10 20 2000
 50 20 10 2000
 30000
-</pre>**Interaction**The user should first read N, H, the description of the hard-disks, and the penalty from standard input (as mentioned in the Input section). Then, the interaction between the two programs (some message exchanges and the end command) should be: ```
+</pre>
+**Interaction**The user should first read N, H, the description of the hard-disks, and the penalty from standard input (as mentioned in the Input section). Then, the interaction between the two programs (some message exchanges and the end command) should be: ```
 
 <b>User</b>              <b>Judge</b>
 p b 0
@@ -223,7 +224,8 @@ g
                           1 123 12
 p i 1 12
 end
-<pre>### Explanation
+<pre>
+### Explanation
 
 The cost for buying the two hard-disks is 100 + 50 = 150.
 
@@ -235,7 +237,7 @@ The second post operations is a copy from a type 0 hdd to a type 1 hdd and so it
 
 The crash doesn't cost you a thing! :)
 
-The fourth get will cost you a penalty fee (of 30000) because the _0-th_ cell was not copied on the second hard-disk and was erased by the crash.
+The fourth get will cost you a penalty fee (of 30000) because the *0-th* cell was not copied on the second hard-disk and was erased by the crash.
 
 The fifth (and last) get is a read from a type 1 hdd and so it costs 20.
 

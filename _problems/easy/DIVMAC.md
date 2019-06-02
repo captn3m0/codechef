@@ -72,33 +72,17 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/SEPT16/mandarin/DIVMAC.pdf), [Russian](http://www.codechef.com/download/translated/SEPT16/russian/DIVMAC.pdf) and [Vietnamese](http://www.codechef.com/download/translated/SEPT16/vietnamese/DIVMAC.pdf) as well.
 
-Chef has created a _special dividing machine_ that supports the below given operations on an array of positive integers.
+Chef has created a *special dividing machine* that supports the below given operations on an array of positive integers.
 
 There are two operations that Chef implemented on the machine.
 
-**Type 0 Operation**```
+**Type 0 Operation**`<pre><b>Update(L,R):</b>	for i = L to R:		a[i] = a[i] / LeastPrimeDivisor(a[i])</pre>`
 
-<pre>
-<b>Update(L,R):</b>
-	for i = L to R:
-		a[i] = a[i] / LeastPrimeDivisor(a[i])
-</pre>
+**Type 1 Operation**`<pre><b>Get(L,R):</b>	result = 1	for i = L to R:		result = max(result, LeastPrimeDivisor(a[i]))	return result;</pre>`
 
-<pre>
-**Type 1 Operation**```
-
-<pre>
-<b>Get(L,R):</b>
-	result = 1
-	for i = L to R:
-		result = max(result, LeastPrimeDivisor(a[i]))
-	return result;
-</pre>
-
-</pre>
 The function **LeastPrimeDivisor(x)** finds the smallest prime divisor of a number. If the number does not have any prime divisors, then it returns 1.
 
-Chef has provided you an array of size **N**, on which you have to apply **M** operations using the special machine. Each operation will be one of the above given two types. Your task is to implement the _special dividing machine_ operations designed by Chef. Chef finds this task quite easy using his machine, do you too?
+Chef has provided you an array of size **N**, on which you have to apply **M** operations using the special machine. Each operation will be one of the above given two types. Your task is to implement the *special dividing machine* operations designed by Chef. Chef finds this task quite easy using his machine, do you too?
 
 ### Input
 
@@ -157,7 +141,8 @@ For each test case, output answer of each query of type 1 (**Get** query) separa
 5 3 5 11
 1
 </tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**The states of array A after each **Update**-operation:
 

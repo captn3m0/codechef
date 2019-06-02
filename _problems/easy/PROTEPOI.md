@@ -128,7 +128,8 @@ The King has other duties for the snakes, and hence wants to remove as many snak
 <b>Output:</b>
 3
 -1
-</pre>### Explanation
+</pre>
+### Explanation
 
 The first example corresponds to:
 

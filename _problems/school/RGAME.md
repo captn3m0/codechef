@@ -116,6 +116,7 @@ Princess Rupsa wants to find out the sum of scores obtained by all possible diff
 <b>Output:</b>
 4
 14
-</pre>### Explanation
+</pre>
+### Explanation
 
 - There are **2** possible gameplays. **A0A1** which gives score of **2** and **A1A0** which also gives score of **2**. So the answer is **2 + 2 = 4**

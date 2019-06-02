@@ -116,7 +116,8 @@ For each test case, print a single line containing one integer — the minimum p
 
 2
 1
-</pre>### Example
+</pre>
+### Example
 
 **Example case 1:** There is no pair of elements with an even sum. Thus, the sequence must remain the same and the answer is 2.
 

@@ -104,7 +104,8 @@ The output should be such that Jack and Jill receive the same number of each ing
 1 3 5
 4
 1 3 4 6
-</pre>### Scoring:
+</pre>
+### Scoring:
 
 The score for each test case is simply c, the number of cuts made. The score for all test cases in a file is the sum of the scores for the individual test cases in that file. There are multiple files used to test this problem and your overall score is the average of the scores for each file. Your goal should be to make this score as small as possible.
 

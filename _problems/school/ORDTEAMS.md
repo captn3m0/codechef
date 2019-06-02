@@ -30,9 +30,9 @@ layout: problem
 ---
 All submissions for this problem are available.In ACM-ICPC contests, there are usually three people in a team. For each person in the team, you know their scores in three skills - hard work, intelligence and persistence.
 
-You want to check whether it is possible to order these people (assign them numbers from 1 to 3) in such a way that for each **1 ≤ i ≤ 2**, **i+1**-th person is stricly _better_ than the **i**-th person.
+You want to check whether it is possible to order these people (assign them numbers from 1 to 3) in such a way that for each **1 ≤ i ≤ 2**, **i+1**-th person is stricly *better* than the **i**-th person.
 
-A person **x** is said to be _better_ than another person **y** if **x** doesn't score less than **y** in any of the skills and scores more than **y** in at least one skill.
+A person **x** is said to be *better* than another person **y** if **x** doesn't score less than **y** in any of the skills and scores more than **y** in at least one skill.
 
 Determine whether such an ordering exists.
 
@@ -70,6 +70,7 @@ For each test case, output a single line containing "yes" if such an ordering ex
 yes
 no
 yes
-</pre>### Explanation
+</pre>
+### Explanation
 
-**Test Case 1**: We can order them as (3, 2, 1). Person 3 is _better_ than Person 2 because his scores in the first two skills are not lesser than Person 2's. And in skill 3, Person 3 scores higher. Similarly, Person 2 is _better_ than Person 1. He scores more than Person 1 in every skill, in fact.
+**Test Case 1**: We can order them as (3, 2, 1). Person 3 is *better* than Person 2 because his scores in the first two skills are not lesser than Person 2's. And in skill 3, Person 3 scores higher. Similarly, Person 2 is *better* than Person 1. He scores more than Person 1 in every skill, in fact.

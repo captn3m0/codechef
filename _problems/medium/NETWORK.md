@@ -49,7 +49,8 @@ For each test case, output C lines, where the i'th line contains the greatest di
 10 5 1
 6 8 1
 3 3
-</pre>### Sample Output
+</pre>
+### Sample Output
 
 <pre>2.000
 3.000
@@ -61,7 +62,8 @@ For each test case, output C lines, where the i'th line contains the greatest di
 7.071
 
 5.831
-</pre>### Constraints
+</pre>
+### Constraints
 
 T is between 1 and 15, inclusive.
  S is between 1 and 30, inclusive.

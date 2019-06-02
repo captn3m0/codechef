@@ -68,7 +68,7 @@ time:
     current: 1493558134
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JULY14/mandarin/CSUB.pdf) and [Russian](http://www.codechef.com/download/translated/JULY14/russian/CSUB.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JULY14/mandarin/CSUB.pdf) and [Russian](http://www.codechef.com/download/translated/JULY14/russian/CSUB.pdf).
 
 Given a string **S** consisting of only **1s** and **0s**, find the number of substrings which start and end both in **1**.
 In this problem, a substring is defined as a sequence of continuous characters **Si, Si+1, ..., Sj** where **1 ≤ i ≤ j ≤ N**.
@@ -99,7 +99,8 @@ For each testcase, print the required answer in one line.
 <b>Output:</b>
 10
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 \#test1: All substrings satisfy.
 \#test2: Three substrings S\[1,1\], S\[5,5\] and S\[1,5\] satisfy.

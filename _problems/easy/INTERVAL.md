@@ -115,7 +115,8 @@ For each test case, output a single integer in a separate line corresponding to 
 
 <b>Output:</b>
 <tt>20</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** Chef chooses the interval **\[1, 6\]** (i.e. **(3, 7, 5, 4, 9, 6)**). The score now is 34 points.
 

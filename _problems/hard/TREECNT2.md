@@ -71,7 +71,7 @@ time:
     current: 1493556875
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MARCH15/mandarin/TREECNT2.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH15/russian/TREECNT2.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MARCH15/mandarin/TREECNT2.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH15/russian/TREECNT2.pdf).
 
 You are given an unrooted tree with **N** nodes, numbered from **1** to **N**. Each edge of the tree has a positive integer, associated with it. Your goal is to calculate the number of unordered pairs **(S, T)** of tree's nodes such that the greatest common divisor of all the integers associated with the edges of the path between **S** and **T** is equal to one. Of course, we consider only the pairs where **S** isn't equal to **T**.
 
@@ -120,7 +120,8 @@ In the first line, print the answer for the initial tree. Then print the answer 
 2
 3
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 The below figure shows the initial graph and the graph after each query.
 

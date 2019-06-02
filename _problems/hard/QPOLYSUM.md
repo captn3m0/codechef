@@ -76,7 +76,7 @@ Here **A mod B** means the remainder of the division of **A** by **B**.
 
 Usually polynomials are given by the sequence of their coefficients. However, in this problem you will be given the sequence **A0, A1, ..., AD**, where **Ai = P(i) mod M**, as an input. One can prove that these values are enough to restore the value of **P(K) mod M** for any integer **K**. Therefore, the value of the above sum is uniquely determined by the values **M, Q, N, D, A0, A1, ..., AD**.
 
-The function of the form **P(X) \* QX** sometimes is called _quasi-polynomial_, hence the title of the problem.
+The function of the form **P(X) \* QX** sometimes is called *quasi-polynomial*, hence the title of the problem.
 
 ### Input
 
@@ -112,7 +112,8 @@ For each test case, output a single line containing the value of the correspondi
 <b>Output:</b>
 31
 91
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** We have **M = 101, Q = 2, N = 5, D = 0** and **P(0) mod M = 1**. Therefore, **P(X) = C0** and **P(0) mod 101 = 1**. Hence,  **C0 mod 101 = 1**. So we can take, for example, **C0 = 1**. Then the corresponding sum takes the form of **(P(0) \* Q0 + P(1) \* Q1 + ... + P(N − 1) \* QN − 1) mod M = (1 \* 20 + 1 \* 21 + 1 \* 22 + 1 \* 23 + 1 \* 24) mod 101 = (1 + 2 + 4 + 8 + 16) mod 101 = 31 mod 101 = 31.** Note, that the polynomial **P(X)** is not unique. We can take, for example, **C0 = 102** or **C0 = 2021**. However, the same will be always the same.
 

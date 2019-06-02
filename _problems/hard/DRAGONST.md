@@ -71,9 +71,9 @@ time:
     current: 1493556697
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME15/mandarin/DRAGONST.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME15/russian/DRAGONST.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME15/mandarin/DRAGONST.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME15/russian/DRAGONST.pdf).
 
-_Dragonstone is the name of the island located at the entrance to Blackwater Bay and the castle thereon, which was shaped from stone to look like dragons. Dragonstone was the original seat of House Targaryen in Westeros, which they had colonized and fortified as the westernmost outpost of the Valyrian Freehold._
+*Dragonstone is the name of the island located at the entrance to Blackwater Bay and the castle thereon, which was shaped from stone to look like dragons. Dragonstone was the original seat of House Targaryen in Westeros, which they had colonized and fortified as the westernmost outpost of the Valyrian Freehold.*
 
 (c) A Wiki of Ice and Fire
 
@@ -89,7 +89,7 @@ The passages are extremely dark, so it isn't safe to travel through them without
 
 Stannis Baratheon has a very special lantern, which he's planning to use during the next **Q** trips between the secret chambers. Let's consider a single trip:
 
-At first, Stannis chooses a chamber **S** - where he's starting the trip - and a chamber **F** - where he's finishing the trip. After that, he chooses an integer **C**, which is the _capacity_ of the lantern for the current trip. Stannis can refill the oil in his lantern at any chamber, but not passage. It means, that he cannot walk passages, that take more than **C** minutes to travel through. If **C** is too small, then there's a chance that Stannis won't be able to travel from chamber **S** to chamber **F**. On other hand, if **C** is too large, then the lantern will be quite heavy and Stannis will be exhausted by the end of the trip.
+At first, Stannis chooses a chamber **S** - where he's starting the trip - and a chamber **F** - where he's finishing the trip. After that, he chooses an integer **C**, which is the *capacity* of the lantern for the current trip. Stannis can refill the oil in his lantern at any chamber, but not passage. It means, that he cannot walk passages, that take more than **C** minutes to travel through. If **C** is too small, then there's a chance that Stannis won't be able to travel from chamber **S** to chamber **F**. On other hand, if **C** is too large, then the lantern will be quite heavy and Stannis will be exhausted by the end of the trip.
 
 Your task is pretty simple: determine the minimal number **C** for each Stannis's trip, such that he will be able to travel from **S** to **F**.
 
@@ -154,7 +154,8 @@ Do not add any newlines between different testcases.
 1
 7
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 First testcase:
 

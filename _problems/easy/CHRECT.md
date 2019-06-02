@@ -106,7 +106,8 @@ For each test case, output the smallest value possible for **S**, if the Chef ch
 1
 12
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Test Case 1:** Chef may choose any way. The maximum value on any cell would be 1.
 

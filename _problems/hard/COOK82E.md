@@ -134,7 +134,8 @@ For each testcase, output **Q** lines, the i-th of which contains the number of 
 15
 12
 11
-</pre>### Explanation
+</pre>
+### Explanation
 
 We will explain the first testcase. At the beginning, there is just the root, and the tree is as follows:
 

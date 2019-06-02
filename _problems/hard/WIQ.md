@@ -103,7 +103,8 @@ For each testcase, output a single line containing **n** integers, the i-th inte
 
 <b>Output:</b>
 8 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 We will see what happens at every minute:
 

@@ -137,7 +137,8 @@ No
 Yes
 No
 
-</pre>### Explanation: 
+</pre>
+### Explanation: 
 
 Query 1: The path corresponding to it is 8->5->3->4->10.
 

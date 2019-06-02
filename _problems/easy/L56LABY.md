@@ -147,7 +147,8 @@ NNNYY
 YYYB
 YBBN
 YYNN
-</pre>###  Explanation 
+</pre>
+###  Explanation 
 
 **Example case 1:** Cell (3, 1) can be used as the exit when starting in cells (2, 1), (3, 1), (4, 1) or (3, 2). Cell (1, 5) can be used as the exit if Chef starts in cells (3, 2), (3, 3), (2, 3), (4, 3), (3, 4), (4, 4), (5, 4), (1, 5), (2, 5), (3, 5), (4, 5) or (5, 5). Please note that if Chef starts in cell (3, 2), he can use either of the two exit cells for escaping.
 

@@ -70,7 +70,7 @@ time:
     current: 1492506773
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME24/mandarin/DEVUGRAP.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME24/russian/DEVUGRAP.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME24/mandarin/DEVUGRAP.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME24/russian/DEVUGRAP.pdf).
 
 Grapes of Coderpur are very famous. Devu went to the market and saw that there were **N** people selling grapes. He didn’t like it because things were not very structured. So, he gave a task to Dhinwa to make things better. If Dhinwa successfully completes the task, Devu will be happy.
 
@@ -114,7 +114,8 @@ For each test case, print a single integer representing the answer of that test 
 <b>Output:</b>
 2
 8
-</pre>### Explanation
+</pre>
+### Explanation
 
 For the first test case, add or remove 1 grape in each of the bucket.
 

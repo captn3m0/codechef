@@ -76,7 +76,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
  For example, suppose **N** is equal to 5. Then **S** = {0, 1, 2, 3, 4}. Let's assume **S'** = {0, 3, 4}. Then **B(S')** = 1 × 20 + 0 × 21 + 0 × 22 + 1 × 23 + 1 × 24 = 110012 = 2510.
 
- Let's say that a triple (**A**, **B**, **C**) of subsets of **S** _covers_ a subset **D** of **S**, if **D** is a subset of the union of subsets **A**, **B** and **C**. In other words, every element of **D** is an element of at least one of **A**, **B**, or **C**.
+ Let's say that a triple (**A**, **B**, **C**) of subsets of **S** *covers* a subset **D** of **S**, if **D** is a subset of the union of subsets **A**, **B** and **C**. In other words, every element of **D** is an element of at least one of **A**, **B**, or **C**.
 
  Let's consider four functions **F**, **G**, **H** and **R**. Each takes a subset of **S** as the only parameter and returns a non-negative integer. You are given the values of **F(i)**, **G(i)**, and **H(i)** for each 0 ≤ **i** < 2**N**.
 
@@ -111,7 +111,8 @@ All submissions for this problem are available.###  Read problems statements in 
 <b>Output:</b>
 7680
 
-</pre>### Explanations
+</pre>
+### Explanations
 
 Here's the table of what sets are covered by all the possible triples for **N** = 1:
 

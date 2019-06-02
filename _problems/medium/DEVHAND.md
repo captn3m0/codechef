@@ -72,7 +72,7 @@ time:
     current: 1493557619
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MAY15/mandarin/DEVHAND.pdf) and [Russian](http://www.codechef.com/download/translated/MAY15/russian/DEVHAND.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MAY15/mandarin/DEVHAND.pdf) and [Russian](http://www.codechef.com/download/translated/MAY15/russian/DEVHAND.pdf).
 
 As you have probably realized up to now that Devu is not a normal guy, he is a very weird and abnormal guy. Normally people have two hands, but Devu has three of them. So he wears three wrist watches on his hands.
 
@@ -91,10 +91,10 @@ For each test case, print a single line corresponding to the answer of the probl
 
 ### Constraints
 
-- _Subtask #1: (3 points)_  **1** ≤ **T** ≤ **9**, **1** ≤ **N** ≤ **3**, **1** ≤ **K** ≤ **3**
-- _Subtask #2: (20 points)_  **1** ≤ **T** ≤ **200**, **1** ≤ **N** ≤ **100**, **1** ≤ **K** ≤ **26**
-- _Subtask #3: (30 points)_  **1** ≤ **T** ≤ **200**, **1** ≤ **N** ≤ **10^5**, **1** ≤ **K** ≤ **26**
-- _Subtask #4: (47 points)_  **1** ≤ **T** ≤ **2000**, **1** ≤ **N** ≤ **10^9**, **1** ≤ **K** ≤ **26**
+- *Subtask #1: (3 points)*  **1** ≤ **T** ≤ **9**, **1** ≤ **N** ≤ **3**, **1** ≤ **K** ≤ **3**
+- *Subtask #2: (20 points)*  **1** ≤ **T** ≤ **200**, **1** ≤ **N** ≤ **100**, **1** ≤ **K** ≤ **26**
+- *Subtask #3: (30 points)*  **1** ≤ **T** ≤ **200**, **1** ≤ **N** ≤ **10^5**, **1** ≤ **K** ≤ **26**
+- *Subtask #4: (47 points)*  **1** ≤ **T** ≤ **2000**, **1** ≤ **N** ≤ **10^9**, **1** ≤ **K** ≤ **26**
 
 ### Example
 
@@ -108,7 +108,8 @@ For each test case, print a single line corresponding to the answer of the probl
 0
 6
 36
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example #1.** 
 There is no valid arrangement of three strings to the watches, because at least one of the string will be equal to other which will violate the property stated in the problem.

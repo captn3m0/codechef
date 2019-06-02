@@ -74,7 +74,7 @@ All submissions for this problem are available.Tug of war is a sport that direct
 2. There are an infinite number of long ropes available. When a rope is held by exactly two players, it is termed as bonding.
 3. At least one bonding is necessary to conduct a game.
 4. A player can play against multiple people simultaneously i.e he can have more than one bonding at the same time.
-5. Both members of a pair of players that have a bonding must have the same number of total bondings. That is, if the player _A_ makes bonding with the player _B_, then the number of total bondings of the player _A_ must be the same as that of the player _B_.
+5. Both members of a pair of players that have a bonding must have the same number of total bondings. That is, if the player *A* makes bonding with the player *B*, then the number of total bondings of the player *A* must be the same as that of the player *B*.
 6. Bondings should be created in such a fashion that ropes must not intersect each other.
 7. The number of bondings of every player must be no more than **K**.
 
@@ -97,7 +97,8 @@ For each test case, output the number of ways to conduct the game modulo 1000000
 4
 0
 1
-</pre>**Explanation:**For the 1st case, there are 3 players. Let's call them p1, p2, p3. Different games possible are:
+</pre>
+**Explanation:**For the 1st case, there are 3 players. Let's call them p1, p2, p3. Different games possible are:
 Game 1: p1-p2 (numbers of bondings of p1, p2 are 1 ≤ **K** = 2)
 Game 2: p1-p3 (numbers of bondings of p1, p3 are 1 ≤ **K** = 2)
 Game 3: p2-p3 (numbers of bondings of p2, p3 are 1 ≤ **K** = 2)

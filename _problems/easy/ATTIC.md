@@ -97,7 +97,7 @@ For each case, output the number of days it takes them to cross the passage.
 
 - **1** ≤ **T** ≤ **1,000,000** (**106**)
 - **1** ≤ |**P**| ≤ **1,000,000** (**106**)
-- _The total length of **P** will be ≤ **5,000,000** (**5 \* 106**)across all test-cases of a test-file_
+- *The total length of **P** will be ≤ **5,000,000** (**5 \* 106**)across all test-cases of a test-file*
 - **P** will consist of only the characters # and .
 - The first and the last characters of **P** will be #.
 
@@ -116,7 +116,8 @@ For each case, output the number of days it takes them to cross the passage.
 2
 1
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 For the first example, they do not need to learn any jump size. They are able to cross the entire passage by "jumping" lengths 1-1-1.
 

@@ -102,7 +102,8 @@ Output a single number denoting the maximum happiness you can get from the feast
 
 <b>Output:</b>
 -10
-</pre>### Example 2
+</pre>
+### Example 2
 
 <pre><b>Input:</b>
 1
@@ -111,6 +112,7 @@ Output a single number denoting the maximum happiness you can get from the feast
 
 <b>Output:</b>
 18
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** You can eat the first dish in the first step, the second dish in the second step and the third dish in the third step. total happiness = 1\*(-8) + 1\*0 + 1\*(-2) = -10

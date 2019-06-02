@@ -62,7 +62,8 @@ For each test case, print three real numbers, **x y z**, in a new line where **(
 <b>Output:</b>
 1.00000000 2.00000000 -1.00000000
 -2.29963939 -6.31303751 4.33640147
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Test case 1:** The figure below shows the scenario:
 

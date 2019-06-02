@@ -95,7 +95,8 @@ Find the type of doll that doesn't have a pair
 <br></br>
 <b>Output:</b>
 2
-</pre><pre><b>Input:</b>
+</pre>
+<pre><b>Input:</b>
 1
 5
 1

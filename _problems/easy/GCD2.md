@@ -21,7 +21,8 @@ int gcd(int a, int b)
 	else
 		return gcd(b,a%b);
 }
-</pre>and it proposes to Frank that makes it but with a little integer and another integer that has up to 250 digits. Your task is to help Frank programming an efficient code for the challenge of Felman.
+</pre>
+and it proposes to Frank that makes it but with a little integer and another integer that has up to 250 digits. Your task is to help Frank programming an efficient code for the challenge of Felman.
 
 ### Input
 

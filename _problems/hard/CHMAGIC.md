@@ -108,7 +108,8 @@ The first line of the input contains an integer **q**. The next line contains an
 10
 10636
 10654 
-</pre>### Scoring
+</pre>
+### Scoring
 
 Subtask 1 (30 points): **200 ≤ q ≤ 109**. 
 

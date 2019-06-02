@@ -39,10 +39,12 @@ Output on a single line an integer which is the minimum length found.
 abc
 ac
 aaa
-</pre>**Output:**
+</pre>
+**Output:**
 
 <pre>2
-</pre>### Limitations
+</pre>
+### Limitations
 
 - 0<l≤250
 - 0<n≤30

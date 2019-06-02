@@ -69,7 +69,7 @@ time:
     current: 1493557619
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/DEC13/mandarin/DECORATE.pdf) and [Russian](http://www.codechef.com/download/translated/DEC13/russian/DECORATE.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/DEC13/mandarin/DECORATE.pdf) and [Russian](http://www.codechef.com/download/translated/DEC13/russian/DECORATE.pdf).
 
 The staff of one of the most famous ChefLand's restaurants have just received the news! A delegation from the neighbouring country is going to visit the restaurant. The staff want to make this visit exciting and pleasant. Lucy is also a member of the staff and among all the things that the staff want to do, her assignment is to arrange the flowers on the tables.
 

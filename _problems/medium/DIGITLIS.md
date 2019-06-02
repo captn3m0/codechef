@@ -117,7 +117,8 @@ For each test case, output a single integer ― count of different **n**-digit n
 36
 54
 84
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** All one-digit numbers have the same **LIS** array, so the answer is **10**: **0, 1, 2, 3, ..., 9**.
 

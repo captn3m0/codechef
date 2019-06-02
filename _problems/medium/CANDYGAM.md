@@ -73,7 +73,7 @@ All submissions for this problem are available.Alice and Bob have come to spend 
 - The game is a two-player game which is played on an **NxM** grid.
 - Each cell of the grid has a certain number of candies. **A\[i\]\[j\]** denotes the number of candies in the **jth** column of the **ith** row.
 - The players make alternate turns.
-- In each turn, a player _must_ remove one _complete row_ or one _complete column_ from the grid. He will add all the candies in that row/column into his account.
+- In each turn, a player *must* remove one *complete row* or one *complete column* from the grid. He will add all the candies in that row/column into his account.
 - The only possible rows that a player can remove in his/her turn are the top row or the bottom row. Similarly, only leftmost column or the rightmost column can be removed in one turn.
 - After removing the row or column, the game is played on the new reduced grid with one less row or column respectively.
 - When the entire matrix is emptied, the player with higher number of candies wins the game and can take all those candies with him/her. The loser has to give back the candies collected so far and return empty-handed.
@@ -81,7 +81,7 @@ All submissions for this problem are available.Alice and Bob have come to spend 
 
 Alice and Bob want to take as many candies home as possible. They don't have much time with themselves. So they come up with a strategy using which they want to increase Bob's share of candies and decrease Alice's share. This way, they plan to make Bob win and take his entire share of candies! The strategy is as follows:
 
-- Alice decides to pick the row or column from the present grid which has the _least_ number of candies in every turn of hers.
+- Alice decides to pick the row or column from the present grid which has the *least* number of candies in every turn of hers.
 - If there are more than one such options, then her order of preference will be:
    1) first row
    2) last row
@@ -108,7 +108,8 @@ For each test case, output a single line containing the number of candies the wi
 1 ≤ <b>N, M</b> ≤ 50
 0 ≤ <b>A[i][j]</b> ≤ 1000000000 
 
-</pre>### Example:
+</pre>
+### Example:
 
 **Input:**
 
@@ -123,12 +124,14 @@ For each test case, output a single line containing the number of candies the wi
 1 4
 1 2 3 4
 
-</pre>**Output:**
+</pre>
+**Output:**
 
 <pre>39
 4
 9
 
-</pre>**Explanation:**
- _1st case:_ Alice picks the first column (with all 0's). We're left with a 3x2 grid now. Bob picks the first column (9+6+9=24). We're left with a 3x1 grid. Alice picks the last row (6). A 2x1 grid is left. Bob picks the entire column (9+6=15). Thus, Bob has 24+15=39 candies and Alice has 6. So clearly, Bob is the winner.
- _2nd case:_ Here, both end up with two candies each. Hence both are the winners. Thus the winner(s) have 2+2=4 candies in all.
+</pre>
+**Explanation:**
+ *1st case:* Alice picks the first column (with all 0's). We're left with a 3x2 grid now. Bob picks the first column (9+6+9=24). We're left with a 3x1 grid. Alice picks the last row (6). A 2x1 grid is left. Bob picks the entire column (9+6=15). Thus, Bob has 24+15=39 candies and Alice has 6. So clearly, Bob is the winner.
+ *2nd case:* Here, both end up with two candies each. Hence both are the winners. Thus the winner(s) have 2+2=4 candies in all.

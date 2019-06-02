@@ -79,8 +79,10 @@ Chef has started learning to solve dynamic programming problems recently. He has
 <tt>
 4 1 2 1
 </tt>
-<pre>\### Example Output ```
+<pre>
+\### Example Output ```
 <tt>
 57
 </tt>
-</pre>\### Explanation The first four terms of this sequence are: - $dp(1) = 1$ - $dp(2) = 2 \\cdot dp(1) + dp(1) \\cdot dp(1) = 3$ - $dp(3) = 2 \\cdot dp(2) + dp(1) \\cdot dp(2) + dp(2) \\cdot dp(1) = 12$ - $dp(4) = 2 \\cdot dp(3) + dp(1) \\cdot dp(3) + dp(2) \\cdot dp(2) + dp(3) \\cdot dp(1) = 57$
+</pre>
+\### Explanation The first four terms of this sequence are: - $dp(1) = 1$ - $dp(2) = 2 \\cdot dp(1) + dp(1) \\cdot dp(1) = 3$ - $dp(3) = 2 \\cdot dp(2) + dp(1) \\cdot dp(2) + dp(2) \\cdot dp(1) = 12$ - $dp(4) = 2 \\cdot dp(3) + dp(1) \\cdot dp(3) + dp(2) \\cdot dp(2) + dp(3) \\cdot dp(1) = 57$

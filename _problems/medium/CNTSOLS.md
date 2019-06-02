@@ -105,7 +105,8 @@ For each test case, output a single line containing number of solutions for the 
 4
 1
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 The first equation has 4 solutions:
 

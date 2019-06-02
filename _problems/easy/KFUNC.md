@@ -125,7 +125,8 @@ Example:
 6
 12
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**
 

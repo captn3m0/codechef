@@ -114,7 +114,8 @@ abababa
 bacde
 1
 aaabecxd
-</pre>### Scoring
+</pre>
+### Scoring
 
 Subtask 1 (16 points): **T** = 50, 1 <= **N** <= 8, 1 <= **M** <= 10. Only the characters a, b and c and question marks occur in the string. Only the characters a, b, and c occur in the dictionary words. All the words in the dictionary consist of no more than 10 letters.
 

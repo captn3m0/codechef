@@ -69,7 +69,7 @@ time:
     current: 1493556613
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MAY14/mandarin/ANUDTQ.pdf) and [Russian](http://www.codechef.com/download/translated/MAY14/russian/ANUDTQ.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MAY14/mandarin/ANUDTQ.pdf) and [Russian](http://www.codechef.com/download/translated/MAY14/russian/ANUDTQ.pdf).
 
 Given a directed tree with **N** nodes. You need to process **M** queries.
 Each node has a **key** and a **value**, a node is referenced by its key. **N** nodes have **keys** from 0 to **N-1**.
@@ -142,7 +142,8 @@ For each query of type 4, output the required answer.
 <b>Output:</b>
 30
 38
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Query #1**
 

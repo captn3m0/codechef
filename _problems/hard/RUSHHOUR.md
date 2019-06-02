@@ -76,4 +76,5 @@ f.g..j
 <b>Output</b>
 5
 6
-</pre>The first sample test case is explained in the figure.
+</pre>
+The first sample test case is explained in the figure.

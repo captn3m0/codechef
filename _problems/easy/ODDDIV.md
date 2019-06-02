@@ -104,7 +104,8 @@ For each test case, output the required sum on a separate line.
 <b>Output:</b>
 45
 32
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first example case, **f(1) + f(2) + ... + f(10) = 1 + 1 + 4 + 1 + 6 + 4 + 8 + 1 + 13 + 6 = 45**
 

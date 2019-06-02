@@ -74,7 +74,7 @@ layout: problem
 ---
 All submissions for this problem are available.### Read problems statements in [Mandarin chinese](http://www.codechef.com/download/translated/LTIME58/mandarin/ZOZ.pdf), [Russian](http://www.codechef.com/download/translated/LTIME58/russian/ZOZ.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME58/vietnamese/ZOZ.pdf) as well.
 
-You are given an array **A** with size **N** and a number **K**. Let's call a position **i** (1 ≤ **i** ≤ **N**) _valid_ if, after increasing **Ai** by **K**, it would be greater than the sum of all other elements in the array **A**.
+You are given an array **A** with size **N** and a number **K**. Let's call a position **i** (1 ≤ **i** ≤ **N**) *valid* if, after increasing **Ai** by **K**, it would be greater than the sum of all other elements in the array **A**.
 
 Determine the number of distinct valid positions.
 
@@ -117,6 +117,7 @@ For each test case, print a single line containing one integer — the number of
 
 1
 0
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** **A1 + K** = 6 isn't greater than **A2 + A3 + A4** = 14, so position 1 isn't valid. **A2 + K** = 5 isn't greater than **A1 + A3 + A4** = 15, so position 2 isn't valid. **A3 + K** = 10 isn't greater than **A1 + A2 + A4** = 10, so position 3 also isn't valid. **A4 + K** = 11 is greater than **A1 + A2 + A3** = 9. Therefore, there is only one valid position — position 4.

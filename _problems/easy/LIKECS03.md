@@ -81,20 +81,8 @@ Chef Tobby is trying to run a code given to him by Bhuvan for an experiment they
 
 The code given by Bhuvan is the following which runs given an array of **N** integers and another integer **K** :
 
-<pre>
-<pre>
-void recurse ( array a, int n )
-{
-	// n = size of array
-	define array b currently empty
-	consider all 2^n subsets of a[]
-	{
-		x = bitwise OR of elements in the subsets
-		add x into "b" if it is not present yet
-	}
-	if (sizeof( b ) == 1 
-</pre>
-</pre>Chef Tobby tried to run an experiment with only one integer in the array with value 2 and K = 3. To his horror, he found out that the algorithm is resulting in an infinite loop. He is livid with the possibility that the algorithm can lead to infinite loops for certain cases. On closer inspection he determines that it might be possible to insert additional elements in the initial array to subvert the problem. Since time is very less, Chef Tobby would like to insert the minimum number of elements.
+`<pre>void recurse ( array a, int n ){	// n = size of array	define array b currently empty	consider all 2^n subsets of a[]	{		x = bitwise OR of elements in the subsets		add x into "b" if it is not present yet	}	if (sizeof( b ) == 1 </pre>`Chef Tobby tried to run an experiment with only one integer in the array with value 2 and K = 3. To his horror, he found out that the algorithm is resulting in an infinite loop. He is livid with the possibility that the algorithm can lead to infinite loops for certain cases. On closer inspection he determines that it might be possible to insert additional elements in the initial array to subvert the problem. Since time is very less, Chef Tobby would like to insert the minimum number of elements.
+
 Chef Tobby has to finish writing the paper, so he asks his graduate student Leamas to fix it. Leamas has no idea how to fix the problem so he asks you for help.
 
 ### Input section
@@ -116,17 +104,20 @@ Output the minimum number of elements that need to be inserted so that inifinite
 1 ≤ Sum of N over all test cases ≤ 10<sup>5</sup>
 1 ≤ K ≤ 20
 0 ≤ A[i] ≤ 2<sup>K</sup>-1, where A[i] denotes the i<sup>th</sup> element of the array.
-</pre>### Sample Input - 1
+</pre>
+### Sample Input - 1
 
 <pre>
 1
 2 2
 3 1
-</pre>### Sample Output - 1
+</pre>
+### Sample Output - 1
 
 <pre>
 1
-</pre>### Explanation - 1
+</pre>
+### Explanation - 1
 
 You can win the game by inserting the element **2** into the array.
 
@@ -136,10 +127,12 @@ You can win the game by inserting the element **2** into the array.
 1
 7 3
 3 7 5 4 6 2 1
-</pre>### Sample Output - 2
+</pre>
+### Sample Output - 2
 
 <pre>
 0
-</pre>### Explanation - 2
+</pre>
+### Explanation - 2
 
 The initial array will result will terminate in the first step of algorithm only. Thus there is no need to insert any new element.

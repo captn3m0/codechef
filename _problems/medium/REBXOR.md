@@ -110,6 +110,7 @@ Output a single integer denoting the **maximum possible** value of the given exp
 <b>Output:</b>
 6
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 Choose (**l1**, **r1**, **l2**, **r2**) = (1, 2, 3, 3) or (1, 2, 4, 5) or (3, 3, 4, 5).

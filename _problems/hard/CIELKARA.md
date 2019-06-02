@@ -70,7 +70,7 @@ layout: problem
 ---
 All submissions for this problem are available.You need to find the distance from the given piecewise-constant function to the set of all functions, satisfying Lipschitz condition with the constant **K**, in the space **L1(−∞, +∞)**. If you understand nothing here then read the problem statement below :P
 
-Chef Ciel and her friends go to _karaoke_ after the New Year's party. In karaoke, they sing songs, and moreover, recent karaoke machines can score their performance. To get a high score, one of the most important things is to sing with correct pitches.
+Chef Ciel and her friends go to *karaoke* after the New Year's party. In karaoke, they sing songs, and moreover, recent karaoke machines can score their performance. To get a high score, one of the most important things is to sing with correct pitches.
 
 The correct pitch at time **t** for some song is represented as **f(t)**, where **f(t)** is a piecewise-constant function. In this problem, let us consider the infinitely long time **−∞** < **t** < **+∞** for simplicity. Let **N−1** integers **A1** < **A2** < ... < **AN−1** denote the time moments when the correct pitch is changed. That is,
 
@@ -90,7 +90,7 @@ Each test case consists of exactly 3 lines. The first line of each test case con
 
 ### Output
 
-For each test case, output a single line containing the minimum value of the integral mentioned in the problem statement. The output must have an absolute or relative error at most **0.000001 (10−6)**. Please, note that your output should not have more than **1000** digits after the decimal point, otherwise you may (or may not) get _wrong answer_ or _runtime error (SIGXFSZ)_.
+For each test case, output a single line containing the minimum value of the integral mentioned in the problem statement. The output must have an absolute or relative error at most **0.000001 (10−6)**. Please, note that your output should not have more than **1000** digits after the decimal point, otherwise you may (or may not) get *wrong answer* or *runtime error (SIGXFSZ)*.
 
 ### Constraints
 
@@ -121,7 +121,8 @@ For each test case, output a single line containing the minimum value of the int
 2500.0000000000
 1250.0000000000
 625.0000000000
-</pre>### Explanation
+</pre>
+### Explanation
 
 The following figure corresponds to the example case 1. Here the bold red line denotes the correct pitch **f(t)** and the blue line denotes the optimal Ciel's pitch **g(t)**. The answer is the area of the green region.
 

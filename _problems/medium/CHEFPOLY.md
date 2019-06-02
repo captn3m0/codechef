@@ -70,7 +70,7 @@ time:
     current: 1493557542
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME33/mandarin/CHEFPOLY.pdf), [Russian](http://www.codechef.com/download/translated/LTIME33/russian/CHEFPOLY.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME33/vietnamese/CHEFPOLY.pdf) as well.
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME33/mandarin/CHEFPOLY.pdf), [Russian](http://www.codechef.com/download/translated/LTIME33/russian/CHEFPOLY.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME33/vietnamese/CHEFPOLY.pdf) as well.
 
 Chef is not very good with geometric problems, and he, therefore, asks you to solve one of them. He has **N** red points and **M** black points, and **Q** queries on them. In each query, he will give you a subset of red points, you have to find out number of black points lying strictly inside the convex polygon formed by using the given subset as vertices.
 
@@ -152,7 +152,8 @@ For each query, output a new line containing the answer to it.
 0
 3
 
-</pre>### Subtasks
+</pre>
+### Subtasks
 
 - **Subtask 1:**  **N**  = 3. **Points - 10**
 - **Subtask 2:**  **N, M** ≤ 100. **Points - 20**

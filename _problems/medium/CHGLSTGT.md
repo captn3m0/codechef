@@ -105,7 +105,8 @@ All characters in the given string are upper case English alphabets.
 ABCCBDA <br></br>
 <b>Output:</b>
 4</p>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** The given string can be broken into **"A" , "BCCB" , "D" , "A"**. It can be verified that you can't break the given string into less than 4 substrings such that each substring in a palindrome.
 

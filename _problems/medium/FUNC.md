@@ -69,7 +69,7 @@ time:
     current: 1493557919
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JUNE14/mandarin/FUNC.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE14/russian/FUNC.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JUNE14/mandarin/FUNC.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE14/russian/FUNC.pdf).
 
  Chef has just been introduced to functions and he has been experimenting a lot with the different kinds of functions. In the process, the chef has come up with an interesting problem for you.
 
@@ -118,7 +118,8 @@ where  **A**  is an array of integers of size  **N**  (indexed from 1 onwards) a
 54 163
 <br></br>
 />/>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Query 1.**
 

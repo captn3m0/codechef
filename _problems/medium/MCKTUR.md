@@ -115,7 +115,8 @@ For each game, output a single line containing the answer to the problem, since 
 <b>Output:</b><tt>
 1
 3</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the **first query** the Mock Turtle can build only the parentheses ()()()
 

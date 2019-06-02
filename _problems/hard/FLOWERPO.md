@@ -75,7 +75,7 @@ The Chef wants to celebrate Independence Day with fireworks. He's particularly f
 
 ![](https://codechef_shared.s3.amazonaws.com/download/upload/AUG17/FLOWERPO.png)He's decided that he wants a row of **N** of these crackers. He has decided where exactly each of them will be placed. In particular, we can say that the crackers will be on a line with coordinates **A1**, **A2**, ..., **AN**.
 
-These crackers come in many _strengths_. For any integer S ≥ 0, unlimited number of crackers of strength S are available for sale at the shop. The larger the strength of a cracker, the higher and wider it will spew fire. In particular, a cracker whose strength is s, and which is placed at coordinate X will spew fire everywhere in the interval \[X - S, X + S\], both end points inclusive. The cost of a cracker of strength S is S2.
+These crackers come in many *strengths*. For any integer S ≥ 0, unlimited number of crackers of strength S are available for sale at the shop. The larger the strength of a cracker, the higher and wider it will spew fire. In particular, a cracker whose strength is s, and which is placed at coordinate X will spew fire everywhere in the interval \[X - S, X + S\], both end points inclusive. The cost of a cracker of strength S is S2.
 
 Chef wants to decide what the strengths of each of the **N** crackers should be. He wants to light up only one of the **N** crackers, the **C**-th one, which is as coordinate **AC**. The other **N** - 1 crackers should light up automatically. That is, suppose the cracker at **AC** has a strength of S**C**, then it will light up any unlit cracker in the interval \[**AC** - S**C**, **AC** + S**C**\]. And these should then explode and light up more crackers, etc. This should continue until all the crackers are lit. Also, each cracker, once lit, takes 1 second to explode. Once it explodes, it instantaneously lights up all the unlit crackers in its interval. And Chef wants all the crackers to be lit up (not necessarily explode) within **B** seconds after he has lit **AC**. That is, if a cracker is lit up **B** seconds after he has lit **AC**, even though it has not exploded, Chef is happy with it, and it is valid.
 
@@ -114,7 +114,8 @@ Find out the minimum amount Chef has to spend in buying the crackers so as to ac
 
 <b>Output:</b>
 89
-</pre>### Explanation
+</pre>
+### Explanation
 
 One optimal way is to choose the strengths of the crackers as (0, 0, 8, 5, 0). That is, the leftmost cracker has strength 0, the next has 0, the next has 8, etc. Now, Chef lights up the 4-th cracker.
 

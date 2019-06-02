@@ -32,11 +32,11 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
-All submissions for this problem are available.You are given an undirected graph **G = (V, E)** containing **N** nodes and **M** edges. The nodes are numbered from 1 to **N**. A subset **C** of **V** is a _vertex cover_ if for every edge (**u**, **v**) ∈ **E**, at least one of **u** and **v** belong to **C**. Note that **C = V** is always a vertex cover.
+All submissions for this problem are available.You are given an undirected graph **G = (V, E)** containing **N** nodes and **M** edges. The nodes are numbered from 1 to **N**. A subset **C** of **V** is a *vertex cover* if for every edge (**u**, **v**) ∈ **E**, at least one of **u** and **v** belong to **C**. Note that **C = V** is always a vertex cover.
 
-Consider a partition of **V** into two sets **A** and **B**. It is said to be a _valid_ partition, if the following two conditions are satisfied: **A** should be a vertex cover. And for each **i** such that 1 ≤ **i** ≤ **n/2**, nodes **2\*i** and **2\*i - 1** don't belong to the same set (i.e. one belongs to set **A** and the other to set **B**).
+Consider a partition of **V** into two sets **A** and **B**. It is said to be a *valid* partition, if the following two conditions are satisfied: **A** should be a vertex cover. And for each **i** such that 1 ≤ **i** ≤ **n/2**, nodes **2\*i** and **2\*i - 1** don't belong to the same set (i.e. one belongs to set **A** and the other to set **B**).
 
-Determine if a _valid_ partition exists. If it exists, provide an example of one _valid_ partition.
+Determine if a *valid* partition exists. If it exists, provide an example of one *valid* partition.
 
 ### Input
 
@@ -78,8 +78,9 @@ Determine if a _valid_ partition exists. If it exists, provide an example of one
 possible
 011
 impossible
-</pre>### Explanation
+</pre>
+### Explanation
 
-**Example case 1:** We can put nodes numbered 2 and 3 in set A and node 1 in set B. Note that this is a _valid_ partition because set A is a vertex cover; also, nodes numbered 1 and 2 belong to different sets.
+**Example case 1:** We can put nodes numbered 2 and 3 in set A and node 1 in set B. Note that this is a *valid* partition because set A is a vertex cover; also, nodes numbered 1 and 2 belong to different sets.
 
 **Example case 2:** There exists no partition which satisfies the conditions.

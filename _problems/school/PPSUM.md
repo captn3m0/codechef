@@ -102,7 +102,8 @@ For each testcase, output one integer on a separate line.
 <b>Output:</b>
 10
 21
-</pre>### Explanation:
+</pre>
+### Explanation:
 
 The first test case: sum(1, 4) = sum(4) = 1 + 2 + 3 + 4 = 10.
 

@@ -69,7 +69,7 @@ time:
     current: 1493556860
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME13/mandarin/SUBQUERY.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME13/russian/SUBQUERY.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME13/mandarin/SUBQUERY.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME13/russian/SUBQUERY.pdf).
 
 You are given a string **S** and **N** queries. Each query is defined by two integers - **Li** and **Pi**. Count the number of strings of the length **Li** that occur **exactly Pi** times (as the consecutive substrings) in the string **S**.
 
@@ -101,6 +101,7 @@ abacaba
 
 <b>Output:</b>
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 The only such string is **aba**.

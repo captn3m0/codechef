@@ -68,7 +68,7 @@ time:
     current: 1493557928
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/OCT14/mandarin/SEATSR.pdf) and [Russian](http://www.codechef.com/download/translated/OCT14/russian/SEATSR.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/OCT14/mandarin/SEATSR.pdf) and [Russian](http://www.codechef.com/download/translated/OCT14/russian/SEATSR.pdf).
 
 Sereja has two strings **s** and **w**. Sereja can do **3** types of operations:
 

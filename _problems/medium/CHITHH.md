@@ -112,7 +112,8 @@ For each request output a single line containing **k-th** digit of **MagicIntege
 0
 So sad
 3
-</pre>### Scoring
+</pre>
+### Scoring
 
 Subtask 1 (30 points): **N ≤ 1000**
 

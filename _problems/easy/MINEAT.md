@@ -78,7 +78,7 @@ Minion Chef likes to eat bananas a lot. There are **N** piles of bananas in fron
 
 Chef's mother wants her to eat the bananas and be healthy. She has gone to the office right now and will come back in **H** hours. Chef would like to make sure that she can finish eating all bananas by that time.
 
-Suppose Chef has an _eating speed_ of **K** bananas per hour. Each hour, she will choose some pile of bananas. If this pile contains at least **K** bananas, then she will eat **K** bananas from it. Otherwise, she will simply eat the whole pile (and won't eat any more bananas during this hour).
+Suppose Chef has an *eating speed* of **K** bananas per hour. Each hour, she will choose some pile of bananas. If this pile contains at least **K** bananas, then she will eat **K** bananas from it. Otherwise, she will simply eat the whole pile (and won't eat any more bananas during this hour).
 
 Chef likes to eat slowly, but still wants to finish eating all the bananas on time. Therefore, she would like to choose the minimum **K** such that she is able to eat all the bananas in **H** hours. Help Chef find that value of **K**.
 
@@ -125,6 +125,7 @@ For each test case, print a single line containing one integer — the minimum p
 3
 2
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** With a speed of **K** = 3 bananas per hour, Chef can finish eating all the bananas in 3 hours. It's the minimum possible speed with which she can eat all the bananas in 3 hours. With a speed of 2 bananas per hour, she would take at least 4 hours and with a speed of 1 banana per hour, she would take at least 6 hours.

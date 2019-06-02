@@ -129,7 +129,8 @@ Output a single integer - sum of the rent and support costs per month.
 2 3 11 22
 <b>Output:</b>
 48
-</pre>### Explanation
+</pre>
+### Explanation
 
 Here's the scheme of the floor
 

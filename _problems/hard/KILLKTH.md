@@ -131,7 +131,8 @@ abc
 a
 b
 a
-</pre>### Explanation
+</pre>
+### Explanation
 
 The substrings of **S** are "a", "b", "c", "ab", "abc", "bc". The lexicographical order of these strings is "a", "ab", "abc", "b", "bc", "c", so the hidden string is "a"+"ab"+"abc"+"b"+"bc"+"c" = "aababcbbcc".
 

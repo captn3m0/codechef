@@ -72,7 +72,8 @@ The overall risk of the sequence of trades is the **maximum risk** in the sequen
 <b>Output</b>
 1
 Impossible
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Testcase 1**: Mr. X can start with cryptocurrency **C1** and follow the following sequence to minimize overall risk:
 

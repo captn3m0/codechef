@@ -64,7 +64,8 @@ For each test case, output an single integer on a separate line denoting the ans
 1
 2
 8
-</pre>### Explanation
+</pre>
+### Explanation
 
 **For the first test case**, **N = 1**, and **A = \[1\]**. There are 2 possible subsets => **{}, {1}** and both have a gcd of 1. Hence, the answer is 1 \* 1 = **1**.
 

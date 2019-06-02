@@ -69,7 +69,7 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/OCT15/mandarin/EFFDELIV.pdf) and [Russian](http://www.codechef.com/download/translated/OCT15/russian/EFFDELIV.pdf) 
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/OCT15/mandarin/EFFDELIV.pdf) and [Russian](http://www.codechef.com/download/translated/OCT15/russian/EFFDELIV.pdf) 
 
 Sergey works as a delivery boy. Every day he has a number of deliveries to be completed.
 
@@ -105,11 +105,11 @@ The following line contains three space-separated integers **S**, **D** and **W*
 
 The first line of output should contain a single integer **Op**, denoting the number of operations. Each of the following **Op** lines should contain the operation code and the parameter. The following are the descriptions of the operation codes and the meanings of the parameters:
 
-- 0 **P**. Here 0 is the operation code and **P** is the parameter. The meaning is that Sergey should move from his current junction to the adjacent junction **P**. In case there is no **direct one-street** connection between Sergey's current position and the junction **P**, you will receive a _wrong answer_ verdict. In case Sergey is unable to reach the junction **P** because the amount of fuel is too low, you will also get _wrong answer_ verdict.
-- 1 **P**. Here **1** is the operation code and **P** is the parameter. The meaning is that Sergey should takes the order numbered **P** in the orders' list. In case this order was already taken or Sergey is not in the junction which is the pick-up junction for the order, you will get a _wrong answer_ verdict. In case the weight that Sergey will have to carry exceeds **W** after taking this order, you'll also get a _wrong answer_ verdict.
-- 2 **P**. Here **2** is the operation code and **P** is the parameter. The meaning is that Sergey should deliver the parcel for the order number **P** in 1-based orders' list. In case Sergey doesn't carry the parcel from this order, you'll receive _wrong answer_ verdict.
+- 0 **P**. Here 0 is the operation code and **P** is the parameter. The meaning is that Sergey should move from his current junction to the adjacent junction **P**. In case there is no **direct one-street** connection between Sergey's current position and the junction **P**, you will receive a *wrong answer* verdict. In case Sergey is unable to reach the junction **P** because the amount of fuel is too low, you will also get *wrong answer* verdict.
+- 1 **P**. Here **1** is the operation code and **P** is the parameter. The meaning is that Sergey should takes the order numbered **P** in the orders' list. In case this order was already taken or Sergey is not in the junction which is the pick-up junction for the order, you will get a *wrong answer* verdict. In case the weight that Sergey will have to carry exceeds **W** after taking this order, you'll also get a *wrong answer* verdict.
+- 2 **P**. Here **2** is the operation code and **P** is the parameter. The meaning is that Sergey should deliver the parcel for the order number **P** in 1-based orders' list. In case Sergey doesn't carry the parcel from this order, you'll receive *wrong answer* verdict.
 
-You can also get a _wrong answer_ if your output doesn't satisfy the format above or some parcels picked up by Sergey are left undelivered. If all the requirements are satisfied, you'll receive an _accepted_ verdict ;).
+You can also get a *wrong answer* if your output doesn't satisfy the format above or some parcels picked up by Sergey are left undelivered. If all the requirements are satisfied, you'll receive an *accepted* verdict ;).
 
 ### Test data and scoring
 
@@ -182,7 +182,8 @@ During the contest, you won't see the score of your solution on the complete tes
 0 4
 2 1</tt>
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 Sergey starts at the junction numbered the **1**st. Before moving on, he takes the order numbered the **1**st. Then he moves to the **2**nd junction and there he takes the **2**nd order. Then, Sergey moves to the **5**th junction, where he delivers the parcel from the **2**nd order. Finally, he moves to the **4**th junction, where he delivers the parcel from the **1**th order.
 

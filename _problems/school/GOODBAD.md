@@ -116,7 +116,8 @@ chef
 brother
 both
 none
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** Only one flip is possible. So it is possible that Chef sent "fraud" and the channel flipped the last character to get "frauD". However, it is not possible for the brother to have sent "FRAUD", because then it would need 4 flips. Hence the answer is "chef".
 

@@ -117,7 +117,8 @@ For each test case, output a single integer corresponding to the answer of the p
 <b>Output:</b>
 1
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 **In the first example**, it will take Devu one second for putting the perfume at the only house. So, the answer is 1.
 

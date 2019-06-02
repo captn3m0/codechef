@@ -72,7 +72,7 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/AUG15/mandarin/SCLUSTER.pdf) and [Russian](http://www.codechef.com/download/translated/AUG15/russian/SCLUSTER.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/AUG15/mandarin/SCLUSTER.pdf) and [Russian](http://www.codechef.com/download/translated/AUG15/russian/SCLUSTER.pdf).
 
 This problem deals with the effective formation of a cluster among **K** individuals living in a society. A society can be represented as a **N × N** grid. Individuals are located at certain points on the grid. Each individual's social interaction is measured by a positive integer, called **interaction power** denoted by **Ii**. The **dissimilarity** between two individuals is defined as the absolute difference between their interaction powers. Less the absolute difference between interaction powers of two individuals, more the probability that they will interact with each other.
 
@@ -134,7 +134,8 @@ Then **K** lines follow. The **ith** of these lines contains the value of **Ii**
 0 2 5 4 0
 0 0 3 0 0
 0 0 0 0 0
-</pre>### Explanation
+</pre>
+### Explanation
 
 <pre>Calculation of value <b>A</b> :
 <b>d<sub>1</sub></b> = 2        <b>I<sub>1</sub></b> = 2
@@ -166,7 +167,8 @@ Now <b>Cost</b> = <b>1000×A</b> + <b>10×B</b>
                  = <b>2705</b>
 								
 A different configuration of the cluster may result in a different cost. The task is to minimize this clustering cost.
-</pre>### Test generation method and scoring
+</pre>
+### Test generation method and scoring
 
 All test file has **T = 60**. Then each test case is generated as follows.
 

@@ -21,9 +21,9 @@ Johnny believes he has managed to count the number of leaves at each of the leve
 
 ### Input
 
-The input starts with a line containing integer _t_, the number of test cases (1<= _t_ <= 20). The descriptions of exactly _t_ test cases follow.
+The input starts with a line containing integer *t*, the number of test cases (1<= *t* <= 20). The descriptions of exactly *t* test cases follow.
 
-Each test case starts with an integer _k_, representing the number of levels of the beanstalk (1<= _k_<=106). The next _k_ non-negative space-separated integers (not greater than 106) represent the number of leaves of the beanstalk at successive levels, starting from level 1.
+Each test case starts with an integer *k*, representing the number of levels of the beanstalk (1<= *k*<=106). The next *k* non-negative space-separated integers (not greater than 106) represent the number of leaves of the beanstalk at successive levels, starting from level 1.
 
 ### Output
 

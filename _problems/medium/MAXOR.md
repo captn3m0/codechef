@@ -110,7 +110,8 @@ For each test case, output a single line containing the answer for that test cas
 
 <b>Output:</b>
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 There are three possible pairs of indices which satisfy 1 ≤ **i** j ≤ **N**: (1, 2), (1, 3) and (2, 3). Let us see which of those satisfy **Ai** | **Aj** ≤ max(**Ai**, **Aj**):
 

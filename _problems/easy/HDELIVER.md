@@ -89,7 +89,8 @@ For each test case print **Q** lines - one for each query. Output "YO" if the or
 1 ≤ <b>M</b> ≤ 1000
 0 ≤ <b>A, B, X, Y</b> ≤ <b>N-1</b>
 1 ≤ <b>Q</b> ≤ 3000
-</pre>### Example
+</pre>
+### Example
 
 <pre>
 <b>Input:</b>
@@ -106,6 +107,7 @@ For each test case print **Q** lines - one for each query. Output "YO" if the or
 YO
 NO
 YO
-</pre>### Warning!
+</pre>
+### Warning!
 
 **There are large input and output files in this problem. Make sure you use fast enough I/O methods.**

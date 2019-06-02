@@ -78,7 +78,8 @@ Output the account balance after the attempted transaction, given as a number wi
 
 <b>Output:</b>
 89.50
-</pre>### Example - Incorrect Withdrawal Amount (not multiple of 5)
+</pre>
+### Example - Incorrect Withdrawal Amount (not multiple of 5)
 
 <pre>
 <b>Input:</b>
@@ -86,7 +87,8 @@ Output the account balance after the attempted transaction, given as a number wi
 
 <b>Output:</b>
 120.00
-</pre>### Example - Insufficient Funds
+</pre>
+### Example - Insufficient Funds
 
 <pre>
 <b>Input:</b>

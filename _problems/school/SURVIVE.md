@@ -106,7 +106,8 @@ For each test case, print a single line containing one integer — the minimum n
 <b>Output:</b>
 2
 -1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** One possible solution is to buy a box on day 1 (Monday); it's sufficient to eat from this box up to day 8 (Monday) inclusive. Now, on day 9 (Tuesday), you buy another box and use the chocolates in it to survive days 9 and 10.
 

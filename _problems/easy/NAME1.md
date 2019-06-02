@@ -110,7 +110,8 @@ man
 YES
 YES
 NO
-</pre>### Explanation:
+</pre>
+### Explanation:
 
 Let **Y** denote the concatenation of names of all the children, and **X** denote the concatenation of the names of the parents.
 

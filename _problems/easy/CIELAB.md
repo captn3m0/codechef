@@ -21,7 +21,7 @@ An input contains 2 integers **A** and **B**.
 
 ### Output
 
-Print a wrong answer of **A**-**B**. Your answer must be a _positive_ integer containing the same number of digits as the correct answer, and exactly one digit must differ from the correct answer. Leading zeros are not allowed. If there are multiple answers satisfying the above conditions, anyone will do.
+Print a wrong answer of **A**-**B**. Your answer must be a *positive* integer containing the same number of digits as the correct answer, and exactly one digit must differ from the correct answer. Leading zeros are not allowed. If there are multiple answers satisfying the above conditions, anyone will do.
 
 ### Constraints
 
@@ -29,9 +29,13 @@ Print a wrong answer of **A**-**B**. Your answer must be a _positive_ integer co
 
 ### Sample Input
 
-`5858 1234`### Sample Output
+<pre>5858 1234
+</pre>
+### Sample Output
 
-`1624`### Output details
+<pre>1624
+</pre>
+### Output details
 
 The correct answer of 5858-1234 is 4624. So, for instance, 2624, 4324, 4623, 4604 and 4629 will be accepted, but 0624, 624, 5858, 4624 and 04624 will be rejected.
 

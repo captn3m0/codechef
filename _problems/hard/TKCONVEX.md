@@ -106,7 +106,8 @@ Yes
 
 <b>Output 2:</b>
 No
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** 1 1 1 and 2 2 2 form two triangles.
 

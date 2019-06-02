@@ -120,6 +120,7 @@ Your program's score is the sum of each test case's score, the lower the better.
 
 <b>Output:</b>
 4.000 1.000 2.000
-</pre>The sample output's score is 0.023444. The secure circle is red and the tower is yellow.
+</pre>
+The sample output's score is 0.023444. The secure circle is red and the tower is yellow.
 
 ![](https://www.spoj.pl/content/paulmcvn:circle.png)

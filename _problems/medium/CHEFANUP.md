@@ -70,7 +70,7 @@ time:
     current: 1493557513
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME22/mandarin/CHEFANUP.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME22/russian/CHEFANUP.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME22/mandarin/CHEFANUP.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME22/russian/CHEFANUP.pdf).
 
 Chef Anup is making dishes. Each dish consists of **N** ingredients, and quantity of each ingredient is an integer between 1 and **K** inclusive.
 
@@ -110,7 +110,8 @@ Given an integer **L**, determine the **L**th possible dish in increasing order 
 1 1 2
 1 1 3
 1 2 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 First 4 dishes in order have ingredients (1,1,1), (1,1,2), (1,1,3), and (1,2,1).
 
@@ -126,6 +127,7 @@ First 4 dishes in order have ingredients (1,1,1), (1,1,2), (1,1,3), and (1,2,1).
 1 1 1 2
 1 1 1 3
 1 1 2 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 First 4 dishes in order have ingredients (1,1,1,1), (1,1,1,2), (1,1,1,3), and (1,1,2,1).

@@ -120,7 +120,8 @@ Output **Q** lines, the i-th of which should contain a single word: "Yes" if the
 Yes
 No
 Yes
-</pre>### Explanation
+</pre>
+### Explanation
 
 The given original graph is as follows:
 

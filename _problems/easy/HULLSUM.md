@@ -70,7 +70,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 Chef prepares the following problem for a programming contest:
 
-_You are given **N** points with integer coordinates (-1000 ≤ xi, yi ≤ 1000). No two points collide and no three points are collinear. For each of the 2**N**-1 non-empty subsets of points, find the size (the number of points) of its convex hull. Print the sum of those sizes._
+*You are given **N** points with integer coordinates (-1000 ≤ xi, yi ≤ 1000). No two points collide and no three points are collinear. For each of the 2**N**-1 non-empty subsets of points, find the size (the number of points) of its convex hull. Print the sum of those sizes.*
 
 Chef has already prepared some tests for his problem, including a test with the maximum possible answer. He now needs a test with a quite small answer (but not necessarily the minimum possible one). For given **N**, your task is to find any valid set of **N** points for which the answer doesn't exceed 4 \* 1015 (4,000,000,000,000,000).
 
@@ -102,7 +102,8 @@ Note: Remember that you don't print **N** in the first line.
 -150 -150
 150 -150
 11 13
-</pre>### Explanation
+</pre>
+### Explanation
 
 Let's analyze sizes of convex hulls for the provided output. There are 25-1 non-empty sets of points.
 

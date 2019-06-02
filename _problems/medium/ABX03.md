@@ -135,7 +135,8 @@ For each query, print the answer to it on a separate line.
 
 6
 0
-</pre>### Explanation
+</pre>
+### Explanation
 
 For the first query, they will eat at the restaurant connecting halls 1 and 2; the cost of the meal there is 6.
 

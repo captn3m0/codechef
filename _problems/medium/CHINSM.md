@@ -73,7 +73,7 @@ time:
     current: 1493557558
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/AUG15/mandarin/CHINSM.pdf) and [Russian](http://www.codechef.com/download/translated/AUG15/russian/CHINSM.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/AUG15/mandarin/CHINSM.pdf) and [Russian](http://www.codechef.com/download/translated/AUG15/russian/CHINSM.pdf).
 
 Chef sometimes suffers from insomnia. During sleepless nights, he often plays this game: He creates an array **A** of **N** integers and also decides one integer **K**. After that, he tries to count the number of non-empty contiguous subsequences (subsegments) of **A**, such that there are no bad pairs of integers in this subsegment. A pair **(x, y)** of integers is called bad if **x** is situated to the left of **y** in the array and **x mod y = K**. Finally, before going to sleep, Chef wrote down the answer on a sheet of paper. Sadly, he has forgotten it this morning and want your help regarding that.
 
@@ -106,6 +106,7 @@ A single line containing an integer - the answer to the problem.
 
 <b>Output:</b>
 4
-</pre>### Explanation:
+</pre>
+### Explanation:
 
 We can check **5 mod 3 = 2**, **5 mod 1 = 0** and **3 mod 1 = 0**. Thus **(5, 3)** is the only bad pair in the array. The **4** subsegments **A\[1;1\] = {5}, A\[2;2\] = {3}, A\[3;3\] = {1}, A\[2;3\] = {3, 1}** are OK. The other subsegments **A\[1;2\] = {5, 3}, A\[1;3\] = {5, 3, 1}** have a bad pair.

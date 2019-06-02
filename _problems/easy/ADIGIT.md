@@ -68,7 +68,7 @@ time:
     current: 1493558102
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/APRIL14/mandarin/ADIGIT.pdf) and [Russian](http://www.codechef.com/download/translated/APRIL14/russian/ADIGIT.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/APRIL14/mandarin/ADIGIT.pdf) and [Russian](http://www.codechef.com/download/translated/APRIL14/russian/ADIGIT.pdf).
 
  Yesterday Chef had a great party and doesn't remember the way he celebreated it. But he found a strange paper in his kitchen containing **n** digits (lets give them indices from **1** to **n** and name them **a1**, **a2** ... **aN**).
 
@@ -110,7 +110,8 @@ Chef remembers the game, but forgot the answer. Please, help him!
 7
 9
 
-</pre><pre>
+</pre>
+<pre>
 <p> </p>
 <h3>Explanation</h3>
 <p>For index <b>1</b> there are no indexes which are less, so <b>B1 = B2 = 0</b> and the answer is <b>0</b>.</p>

@@ -73,7 +73,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/COOK57/mandarin/EQUALITY.pdf) and [Russian](http://www.codechef.com/download/translated/COOK57/russian/EQUALITY.pdf) as well.
 
-An _equation_ is an equality containing one or more variables. Solving the equation consists of determining which values of the variables make the equality true. In this situation, variables are also known as unknowns and the values which satisfy the equality are known as solutions. An equation differs from an identity in that an equation is not necessarily true for all possible values of the variable.
+An *equation* is an equality containing one or more variables. Solving the equation consists of determining which values of the variables make the equality true. In this situation, variables are also known as unknowns and the values which satisfy the equality are known as solutions. An equation differs from an identity in that an equation is not necessarily true for all possible values of the variable.
 
 There are many types of equations, and they are found in all areas of mathematics. For instance, a linear equation is an algebraic equation in which each term is either a constant or the product of a constant and (the first power of) a single variable.
 
@@ -121,7 +121,8 @@ For each test case, output a single line containing **N** integers: a sequence *
 1 4 5 
 1 3 4 6 
 
-</pre>### Explanation
+</pre>
+### Explanation
 
  In the first test case, we can simply replace the variables with the values from the correct output to make sure, that all the conditions are satisfied:
 

@@ -78,9 +78,11 @@ Chef has started learning to solve dynamic programming problems recently. He has
 4 4
 1 4
 </tt>
-<pre>\### Example Output ```
+<pre>
+\### Example Output ```
 <tt>
 3249
 3403
 </tt>
-</pre>\### Explanation The first four terms of this sequence are: - $dp(1) = 1$ - $dp(2) = 2 \\cdot dp(1) + dp(1) \\cdot dp(1) = 3$ - $dp(3) = 2 \\cdot dp(2) + dp(1) \\cdot dp(2) + dp(2) \\cdot dp(1) = 12$ - $dp(4) = 2 \\cdot dp(3) + dp(1) \\cdot dp(3) + dp(2) \\cdot dp(2) + dp(3) \\cdot dp(1) = 57$ The answers for first and second query are: - $(dp(4) \\cdot dp(4)) \\;\\%\\; (10^9+7) = 3249$ - $(dp(1) \\cdot dp(1) + dp(2) \\cdot dp(2) + dp(3) \\cdot dp(3) + dp(4) \\cdot dp(4)) \\;\\%\\; (10^9+7) = 3403$
+</pre>
+\### Explanation The first four terms of this sequence are: - $dp(1) = 1$ - $dp(2) = 2 \\cdot dp(1) + dp(1) \\cdot dp(1) = 3$ - $dp(3) = 2 \\cdot dp(2) + dp(1) \\cdot dp(2) + dp(2) \\cdot dp(1) = 12$ - $dp(4) = 2 \\cdot dp(3) + dp(1) \\cdot dp(3) + dp(2) \\cdot dp(2) + dp(3) \\cdot dp(1) = 57$ The answers for first and second query are: - $(dp(4) \\cdot dp(4)) \\;\\%\\; (10^9+7) = 3249$ - $(dp(1) \\cdot dp(1) + dp(2) \\cdot dp(2) + dp(3) \\cdot dp(3) + dp(4) \\cdot dp(4)) \\;\\%\\; (10^9+7) = 3403$

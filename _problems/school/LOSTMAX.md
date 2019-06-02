@@ -105,7 +105,8 @@ He wants to find the largest of the **N** numbers. Help him find this.
 1
 8
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Test case 1:**
 

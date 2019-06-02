@@ -69,7 +69,8 @@ Output a single line containing a single integer — sum of elements in the set 
 </tt>
 <b>Output:</b>
 <tt>5362358669068782</tt>
-</pre>### Explanation:
+</pre>
+### Explanation:
 
 The sequence {Si} is 1, 2, 3, 4, 5:
 

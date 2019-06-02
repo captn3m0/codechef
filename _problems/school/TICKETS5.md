@@ -69,7 +69,7 @@ time:
     current: 1492506736
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME23/mandarin/TICKETS5.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME23/russian/TICKETS5.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME23/mandarin/TICKETS5.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME23/russian/TICKETS5.pdf).
 
 Every day, Mike goes to his job by a bus, where he buys a ticket. On the ticket, there is a letter-code that can be represented as a string of upper-case Latin letters.
 

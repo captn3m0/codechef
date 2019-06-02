@@ -117,7 +117,8 @@ For each tattoo, output the value of the color that Baahubali creates using the 
 8
 14
 14
-</pre>### Explanation
+</pre>
+### Explanation
 
 For the first tattoo, **L = 1** and **R = 1**, and there is only 1 unique color (= **1**) in that range. Hence, the answer is **1**.
 

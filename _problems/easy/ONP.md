@@ -27,7 +27,8 @@ Followed by t lines, containing an expression to be translated to RPN form, wher
 
 <pre>
 The <em>expression</em>s in RPN form, one per line.
-</pre>### Example
+</pre>
+### Example
 
 <pre>
 Input:

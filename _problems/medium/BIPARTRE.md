@@ -123,7 +123,8 @@ You need to compute the size of the maximum matching in G.
 
 <b>Output:</b>
 6
-</pre>### Explanation
+</pre>
+### Explanation
 
 The left bipartition of G contains 8 vertices: l1, l2, ..., l8 and the right bipartition contains 12: r1, r2, ..., r12. Some of the edges of this bipartite graph are:
 

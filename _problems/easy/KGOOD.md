@@ -75,7 +75,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 Chef Al Gorithm was reading a book about climate and oceans when he encountered the word “**glaciological**”. He thought it was quite curious, because it has the following interesting property: For every two letters in the word, if the first appears **x** times and the second appears **y** times, then **|x - y| ≤ 1**.
 
-Chef Al was happy about this and called such words **1-good** words. He also generalized the concept: He said a word was **K-good** if _for every two letters in the word, if the first appears **x** times and the second appears **y** times, then **|x - y| ≤ K**_.
+Chef Al was happy about this and called such words **1-good** words. He also generalized the concept: He said a word was **K-good** if *for every two letters in the word, if the first appears **x** times and the second appears **y** times, then **|x - y| ≤ K***.
 
 Now, the Chef likes **K**-good words a lot and so was wondering: Given some word **w**, how many letters does he have to remove to make it **K**-good?
 
@@ -110,7 +110,8 @@ defenselessness 3
 0
 1
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** The word “**glaciological**” is already 1-good, so the Chef doesn't have to remove any letter.
 

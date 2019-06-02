@@ -114,7 +114,8 @@ For each test case, output a single line containing the minimum number of operat
 1
 1
 -1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** Let's follow the poor math definition of arrest. We will consider all values of **i** from 0 to **N-K = 2**, inclusive, and should count the number of values of **j** described in the definition. If it less than **M = 2** then this value of **i** does not cause the arrest, otherwise causes.
 

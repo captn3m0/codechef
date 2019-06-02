@@ -116,7 +116,8 @@ For each test case, output two space-separated integers denoting the number of n
 1 1
 0 4
 999999999 0
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example 1**. There is a single neuron with weight = 1 and bias = 2. Let us check the output for x = 1: w \* x + b = 1 \* 1 + 2 = 3. Output for x = 2 would be 2 \* 1 + 2 = 4. You can see that one of these is even and the other is odd. So, there is one spammer and one non-spammer.
 

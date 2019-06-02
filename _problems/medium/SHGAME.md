@@ -68,7 +68,7 @@ time:
     current: 1493557931
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME10/mandarin/SHGAME.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME10/russian/SHGAME.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME10/mandarin/SHGAME.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME10/russian/SHGAME.pdf).
 
 Yuuko and Nagi like to play the following game:
 
@@ -94,7 +94,8 @@ For each test case, output a single line containing the number of ways to choose
 <b>Output:</b>
 40
 42
-</pre>### Scoring
+</pre>
+### Scoring
 
 **T** = 100, 1 <= **N**, **M** <= 10 : 25 points.
 

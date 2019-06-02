@@ -69,7 +69,7 @@ All submissions for this problem are available.There is a large kitchen in one o
 
 The kitchen-to-be can be imagined as a rectangular grid with N rows and M columns consisting of N\*M equal cells which are currently empty. As unlikely as it may seem, each piece of the aforementioned stuff takes exactly one cell of the grid. Chef would like to use as many cells as possible for the stuff, but there's just one restriction: there should be no "closed" areas at the kitchen -- areas which can't be reached without moving anything, otherwise it would be too hard for chefs to pick up, for example, a fallen knife. In other words, there should exist **no** sequences of used cells X1, X2, ..., XK, K > 2, such that for every i between 1 and K-1, inclusive, cells Xi and Xi+1 are neighbouring, cells X1 and XK are neighbouring too, and no cell is repeated twice. Two cells are called neighbouring if they share a common side.
 
-Yet there is another strange restriction. The set of used cells must be _connected_, that is, for every pair of used cells there should exist a sequence of used cells X1, X2, ..., XK such that X1 is one of these cells, XK is another one, and for every i between 1 and K-1, inclusive, cells Xi and Xi+1 are neighbouring. 
+Yet there is another strange restriction. The set of used cells must be *connected*, that is, for every pair of used cells there should exist a sequence of used cells X1, X2, ..., XK such that X1 is one of these cells, XK is another one, and for every i between 1 and K-1, inclusive, cells Xi and Xi+1 are neighbouring. 
 
 Your task is to use as many cells as possible under these restrictions. Note that this is a challenge problem: you don't have to find the optimal solution, it's enough to find any of them (but the better is your solution, the more points you receive).
 
@@ -106,6 +106,7 @@ Your score for each test case is one hundred times the total number of used cell
 ##.###..
 .###.###
 
-<pre></pre>The score for the first test case is 100\*12/16 = 75. The score for the second test case is 100\*26/40 = 65. The overall score is thus (75+65)/2 = 70. Note that the solution to the first test case is optimal (there is no correct output with a larger number of used cells), but in the second test case there exist several solutions with more than 26 used cells. ### Test Case Generation
+<pre></pre>
+The score for the first test case is 100\*12/16 = 75. The score for the second test case is 100\*26/40 = 65. The overall score is thus (75+65)/2 = 70. Note that the solution to the first test case is optimal (there is no correct output with a larger number of used cells), but in the second test case there exist several solutions with more than 26 used cells. ### Test Case Generation
 
 Every official input file contains exactly 30 test cases. In every test case M and N are chosen randomly and uniformly between 10 and 100, inclusive.

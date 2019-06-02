@@ -78,9 +78,9 @@ All submissions for this problem are available.### Read problems statements in [
 
 Chef has a tree with **N** nodes numbered 1 through **N**.
 
-A subset **S** of nodes of the tree is called _connected_ if, for any two nodes from **S**, the simple path between these two nodes in the tree contains only nodes which belong to **S**.
+A subset **S** of nodes of the tree is called *connected* if, for any two nodes from **S**, the simple path between these two nodes in the tree contains only nodes which belong to **S**.
 
-Chef defines the _cost_ of a connected subset **S** as **|S| · AND(S)**. Here, **|S|** denotes the size of the set **S** and  **AND(S)** denotes the bitwise AND of indices of all nodes from **S**.
+Chef defines the *cost* of a connected subset **S** as **|S| · AND(S)**. Here, **|S|** denotes the size of the set **S** and  **AND(S)** denotes the bitwise AND of indices of all nodes from **S**.
 
 Chef would like to know the maximum of costs of all connected subsets. Can you help him?
 

@@ -31,13 +31,15 @@ Sample Input :
 3 2
 1 2 3
 
-</pre><pre>
+</pre>
+<pre>
 Sample Output :
 YES
 YES
 NO
 
-</pre><pre>
+</pre>
+<pre>
 Constraints :
 1 <= T <= 1000
 2 <= n <= 100

@@ -69,7 +69,7 @@ time:
     current: 1493558137
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JUNE14/mandarin/DIGJUMP.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE14/russian/DIGJUMP.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JUNE14/mandarin/DIGJUMP.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE14/russian/DIGJUMP.pdf).
 
 Chef loves games! But he likes to invent his own. Now he plays game "Digit Jump". Chef has sequence of digits **S1, S2,..., SN,**. He is staying in the first digit (**S1**) and want to reach the last digit (**SN**) in the minimal number of jumps.
 
@@ -103,7 +103,8 @@ In a single line print single integer - the minimal number of jumps he needs.
 
 <b>Output:</b>
 4
-</pre><pre>
+</pre>
+<pre>
 <p> </p>
 <h3>Explanation</h3>
 <p>In the first case Chef can directly jump from the first digit (it is <b>0</b>) to the last (as it is also <b>0</b>).</p>

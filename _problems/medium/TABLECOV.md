@@ -72,7 +72,7 @@ time:
     current: 1493557938
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME32/mandarin/TABLECOV.pdf), [Russian](http://www.codechef.com/download/translated/LTIME32/russian/TABLECOV.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME32/vietnamese/TABLECOV.pdf) as well.
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME32/mandarin/TABLECOV.pdf), [Russian](http://www.codechef.com/download/translated/LTIME32/russian/TABLECOV.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME32/vietnamese/TABLECOV.pdf) as well.
 
 Chef's friend Aayan loves Ghariyals (those long-mouthed crocodile like creatures). Chef's other friend, Mr. KG, knows about this love of Aayan's. So one day, he gives Aayan an interesting problem:
 
@@ -80,7 +80,7 @@ Mr. KG gives Aayan a table **A** of **N** rows and **M** columns filled with non
 
 Let's consider some sequence (**i1**, **j1**), (**i2**, **j2**), ..., (**iK**, **jK**)(1 ≤ **K**) of the table cells.
 
-A sequence of table cells is said to be a _valid Ghariyal-path_ if all of the following conditions holds:
+A sequence of table cells is said to be a *valid Ghariyal-path* if all of the following conditions holds:
 
 - (**i1**, **j1**) equals to (1, 1) - the top-left cell of the table
 - (**iK**, **jK**) equals to (N, M) - the bottom-right cell of the table
@@ -137,7 +137,8 @@ Time limit for the first subtask is 2 s. Time limit for the second and the third
 6
 8
 
-</pre>### Explanation of the example test
+</pre>
+### Explanation of the example test
 
 In the first case, the following set of valid Ghariyal-paths is one of the optimal ones:
 

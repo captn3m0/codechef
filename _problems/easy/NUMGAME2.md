@@ -45,4 +45,5 @@ BOB
 1 <= T <= 1000000
 1 <= N <= 1000000000
 </pre>
+
 Note : For the first test case, Bob cannot make any move and hence Alice wins the game. For the second test case, Bob subtracts 1 from N. Now, Alice cannot make a move and loses the game.

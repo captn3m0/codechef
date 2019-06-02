@@ -54,7 +54,8 @@ baaba
 1
 0
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 **In the first example**,
 you can change amber to brass or brass to amber. In both the cases, both the balloons will have same colors. So, you will need to paint 1 balloon. So the answer is 1.

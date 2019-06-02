@@ -70,7 +70,7 @@ time:
     current: 1493557440
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME36/mandarin/AHWORK.pdf), [Russian](http://www.codechef.com/download/translated/LTIME36/russian/AHWORK.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME36/vietnamese/AHWORK.pdf) as well.
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME36/mandarin/AHWORK.pdf), [Russian](http://www.codechef.com/download/translated/LTIME36/russian/AHWORK.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME36/vietnamese/AHWORK.pdf) as well.
 
 Akhil is a professor at University of Alexia. This semester, he is taking a course on Algorithms. One day after teaching about palindrome and related algorithms, he gave the following task to his students. Students found it very easy and solved it quickly. Can you solve it too?
 
@@ -104,6 +104,7 @@ ab a b ba
 
 <b>Output:</b>
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** You need to delete strings either "a" or "b" (one of them), rest of the strings can be concatenated to form a palindrome, i.e. "abbba" and "ababa" respectively.

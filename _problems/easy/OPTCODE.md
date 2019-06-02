@@ -45,7 +45,9 @@ for i := 1 to N do
             set res = max(res, Y[i] + Y[j] + Y[k])
 return res
 
-</pre>Luckily enough this code gets triggered only if the Head Chef makes a submission. But still there is a possibility that this can crash the judge. So help Chef by writing a new function which does the same thing but is faster.
+</pre>
+
+Luckily enough this code gets triggered only if the Head Chef makes a submission. But still there is a possibility that this can crash the judge. So help Chef by writing a new function which does the same thing but is faster.
 
 ### Input
 
@@ -82,6 +84,7 @@ For each test case, output an integer corresponding to the return value of the f
 <b>Output</b>
 0
 11
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Testcase 2:** The maximum is attained when i = 1, j = 2 and k = 5. This leads to res being 3 + 4 + 4 = 11. This value is attained in other iterations as well, but it never exceeds this, and hence this is the answer.

@@ -107,7 +107,8 @@ For each test case, output a single line containing an integer corresponding to 
 
 <b>Output:</b>
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 Leha can obtain total score 4 in the following way.
 

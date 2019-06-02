@@ -73,7 +73,7 @@ All submissions for this problem are available.Given an array A = **A1**, **A2**
 - **Type 1** - represented as 1 **i** **v** meaning that you have to change **Ai** = **v** (change is carried on for further queries too)
 - **Type 2** - represented as 2 and explained below
 
-A subsegment **Al**, **Al+1**, ..., **Ar**, is called _interesting_, if for all i, such that l Ai is either equal to **Ai-1**, or it is equal to **Ai-1** + 1. A subsegment of length 1 is also considered to be interesting.
+A subsegment **Al**, **Al+1**, ..., **Ar**, is called *interesting*, if for all i, such that l Ai is either equal to **Ai-1**, or it is equal to **Ai-1** + 1. A subsegment of length 1 is also considered to be interesting.
 
 Consider another new array B, which has the elements of A, but in sorted, increasing order. Partition the array B into minimum number of interesting subsegments. You can prove that there is an unique way to do so. In each of those interesting subsegments, find the minimum frequency of an existing element, and add this minimum frequency over all the interesting subsegments in the partition. Output this sum as the answer to the query of Type 2.
 
@@ -113,7 +113,8 @@ Note: Since the input is large, it is recommended to use Fast I/O techniques.
 <b>Output:</b>
 3 
 7
-</pre>### Explanation
+</pre>
+### Explanation
 
 - Initially, array A = {2,7,2,7,1,2,3}.
 - After the first query array A = {2,7,2,7,2,2,3}.

@@ -66,7 +66,7 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
-All submissions for this problem are available.### Read problems statements in [Mandarin Chinese](/download/translated/JULY15/mandarin/MAXDIFFW.pdf) and [Russian](/download/translated/JULY15/russian/MAXDIFFW.pdf).
+All submissions for this problem are available.### Read problems statements in [Mandarin Chinese ](/download/translated/JULY15/mandarin/MAXDIFFW.pdf) and [Russian](/download/translated/JULY15/russian/MAXDIFFW.pdf).
 
 Chef has a complete directed graph composed of **N** vertices. The graph contains a directed edge from every vertex **i** (**1 ≤ i ≤ N**) to every other vertex **j** (**j != i**) .We will denote such an edge by **(i, j)** and we will say that **i** is its **starting vertex** and **j** is its **destination vertex**. Thus, there are **N(N-1)** directed edges overall. Each of the directed edges has a unique cost in the range **1, 2, ... N(N-1)**.
 
@@ -119,6 +119,7 @@ During the contest, your score is computed on only the first 4 test cases (they 
 3 1
 3 2
 
-<pre>### Explanation
+<pre>
+### Explanation
 
 The example test case describes a graph with **N = 3** vertices. The Output section describes your moves, while the Input section contains Chef's moves using strategy **MAX** (after the description of the graph). The interaction is as follows. First, you choose the edge (1,2) (with cost 1). Then, Chef chooses the maximum outgoing edge from 2: edge (2,3) (with cost 4). Then you choose the edge (3,1) (with cost 5). Then, Chef chooses the only remaining outgoing edge from 1: edge (1,3) (with cost 2). Then you choose the edge (3,2) (with cost 6). Then, Chef chooses the only remaining outgoing edge from 2: edge (2,1) (with cost 3). At your turn, you cannot make any moves anymore, so the game ends. GSyou is equal to 1+5+6 = 12. GSChef is equal to 4+2+3 = 9. The score for this test is 12-9 = 3.

@@ -71,11 +71,11 @@ time:
     current: 1493558152
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/AUG15/mandarin/GRGUY.pdf) and [Russian](http://www.codechef.com/download/translated/AUG15/russian/GRGUY.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/AUG15/mandarin/GRGUY.pdf) and [Russian](http://www.codechef.com/download/translated/AUG15/russian/GRGUY.pdf).
 
 Chef likes to play games a lot. Gravity Guy is one such interesting game.
 
-"_Gravity Guy is an arcade side-scrolling game in which the player controls Gravity Guy by tapping the screen to switch gravity. The objective in this game is to run as far as possible while avoiding being trapped by obstacles, falling, or flying off the screen. If hit by obstacles, the game is over._"
+"*Gravity Guy is an arcade side-scrolling game in which the player controls Gravity Guy by tapping the screen to switch gravity. The objective in this game is to run as far as possible while avoiding being trapped by obstacles, falling, or flying off the screen. If hit by obstacles, the game is over.*"
 
 Chef is so addicted to this game that each night he dreams of himself being in the game as Gravity Guy. He has two lanes in front of him represented by two strings of equal length named as **L1** and **L2**. Each of the two lanes consists of some clean blocks represented by **'.'** and some dirty blocks represented by **'#'**.
 
@@ -143,7 +143,8 @@ Yes
 Yes
 5
 No
-</pre>### Explanation
+</pre>
+### Explanation
 
 - **Test 1:** Chef will start his journey from **L2**, switch from **L2** to **L1** and finally land up at last block of **L2** by switching from **L1** to **L2**. Therefore, he requires total 2 gravity switches to reach the destination.
 - **Test 3:** Chef cannot start his journey as starting block of both the lanes **L1 & L2** are dirty and he cannot step over them.
@@ -158,4 +159,5 @@ Yes
 8
 No
 
-</pre>is considered as a correct output for the example input.
+</pre>
+is considered as a correct output for the example input.

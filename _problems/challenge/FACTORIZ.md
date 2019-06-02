@@ -67,7 +67,7 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/SEPT14/mandarin/FACTORIZ.pdf) and [Russian](http://www.codechef.com/download/translated/SEPT14/russian/FACTORIZ.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/SEPT14/mandarin/FACTORIZ.pdf) and [Russian](http://www.codechef.com/download/translated/SEPT14/russian/FACTORIZ.pdf).
 
 The statement of this problem is as easy as never before.
 You are given an integer **N**, you need to find **M** positive integers **A1, A2, A3, ..., AM**, so that **A1\*A2\*A3\*...\*AM** would be equal to **N**. You should maximize the number **M**.

@@ -67,7 +67,7 @@ time:
     current: 1493558107
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME12/mandarin/APPROX2.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME12/russian/APPROX2.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME12/mandarin/APPROX2.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME12/russian/APPROX2.pdf).
 
 You are given an array of **N** integers **a1, a2, ..., aN** and an integer **K**. Find the number of such unordered pairs {**i**, **j**} that
 
@@ -104,6 +104,7 @@ For each test case, output a single line containing two single space separated i
 
 <b>Output:</b>
 1 4
-</pre>### Explanation:
+</pre>
+### Explanation:
 
 The minimal possible absolute difference of **1** can be obtained by taking the pairs of **a1** and **a2**, **a1** and **a4**, **a2** and **a4**, **a3** and **a4**.

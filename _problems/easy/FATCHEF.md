@@ -68,7 +68,7 @@ time:
     current: 1493558143
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/OCT14/mandarin/FATCHEF.pdf) and [Russian](http://www.codechef.com/download/translated/OCT14/russian/FATCHEF.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/OCT14/mandarin/FATCHEF.pdf) and [Russian](http://www.codechef.com/download/translated/OCT14/russian/FATCHEF.pdf).
 
 Our chef Remy ate all the delicious food he made. As a result, he has become really fat :). Chef's assistant Linguini has taken up the herculean task of bringing back chef Remy to shape.
 

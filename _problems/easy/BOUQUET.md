@@ -74,11 +74,11 @@ It's autumn now, the time of the leaf fall.
 
 Sergey likes to collect fallen leaves in autumn. In his city, he can find fallen leaves of maple, oak and poplar. These leaves can be of three different colors: green, yellow or red.
 
-Sergey has collected some leaves of each type and color. Now he wants to create the biggest _nice_ bouquet from them. He considers the bouquet _nice_ iff all the leaves in it are either from the same type of tree or of the same color (or both). Moreover, he doesn't want to create a bouquet with even number of leaves in it, since this kind of bouquets are considered to attract bad luck. However, if it's impossible to make any nice bouquet, he won't do anything, thus, obtaining a bouquet with zero leaves.
+Sergey has collected some leaves of each type and color. Now he wants to create the biggest *nice* bouquet from them. He considers the bouquet *nice* iff all the leaves in it are either from the same type of tree or of the same color (or both). Moreover, he doesn't want to create a bouquet with even number of leaves in it, since this kind of bouquets are considered to attract bad luck. However, if it's impossible to make any nice bouquet, he won't do anything, thus, obtaining a bouquet with zero leaves.
 
-Please help Sergey to find the maximal number of leaves he can have in a _nice_ bouquet, which satisfies all the above mentioned requirements.
+Please help Sergey to find the maximal number of leaves he can have in a *nice* bouquet, which satisfies all the above mentioned requirements.
 
-Please note that Sergey _doesn't have to_ use all the leaves of the same color or of the same type. For example, if he has **20** maple leaves, he can still create a bouquet of **19** leaves.
+Please note that Sergey *doesn't have to* use all the leaves of the same color or of the same type. For example, if he has **20** maple leaves, he can still create a bouquet of **19** leaves.
 
 ### Input
 
@@ -92,7 +92,7 @@ The third line of each test case contains three space-separated integers **PG PY
 
 ### Output
 
-For each test case, output a single line containing the maximal amount of flowers in _nice_ bouquet, satisfying all conditions or 0 if it's impossible to create any bouquet, satisfying the conditions.
+For each test case, output a single line containing the maximal amount of flowers in *nice* bouquet, satisfying all conditions or 0 if it's impossible to create any bouquet, satisfying the conditions.
 
 ### Constraints
 
@@ -110,6 +110,7 @@ For each test case, output a single line containing the maximal amount of flower
 
 <b>Output:</b>
 <tt>7</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** We can create a bouquet with **7** leaves, for example, by collecting all yellow leaves. This is not the only way to create the nice bouquet with **7** leaves (for example, Sergey can use all but one red leaves), but it is impossible to create a nice bouquet with more than **7** leaves.

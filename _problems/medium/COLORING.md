@@ -72,7 +72,7 @@ time:
     current: 1493557596
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME35/mandarin/COLORING.pdf), [Russian](http://www.codechef.com/download/translated/LTIME35/russian/COLORING.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME35/vietnamese/COLORING.pdf) as well.
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME35/mandarin/COLORING.pdf), [Russian](http://www.codechef.com/download/translated/LTIME35/russian/COLORING.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME35/vietnamese/COLORING.pdf) as well.
 
 Chef has recently learnt about binary trees and immediately fell in love with them. His best friend Shasha has promised him to gift a binary tree only if he is able to show his love for binary trees by solving the following problem about binary trees.
 
@@ -86,7 +86,7 @@ Chef has to perform **Q** queries on tree **T** where each query can have one of
   
   Formally, color all nodes that are at distance **(1 ≤ D ≤ K)** units from node **X** with color **D** and make node **X** colourless.
   
-  Please note that when we say node at distance **D** from node **X**, _you have to consider all the nodes in the tree, not just the ones in the subtree of **X**_.
+  Please note that when we say node at distance **D** from node **X**, *you have to consider all the nodes in the tree, not just the ones in the subtree of **X***.
 - **2 X Y**Count the number of distinct colors on the unique simple path from node **X** to node **Y**.
 - **3 X**Count the number of distinct colors in the subtree rooted at node **X**.
 

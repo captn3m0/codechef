@@ -75,9 +75,9 @@ All submissions for this problem are available.###  Read problems statements in 
 
 ### Problem Statement
 
-Chef studies combinatorics. He tries to group objects by their _rang_ (a positive integer associated with each object). He also gives the formula for calculating the number of different objects with _rang_ **N** as following:
+Chef studies combinatorics. He tries to group objects by their *rang* (a positive integer associated with each object). He also gives the formula for calculating the number of different objects with *rang* **N** as following:
 
-**the number of different objects with _rang_ N = F(N) = A0 + A1 \* N + A2 \* N2 + A3 \* N3**.Now Chef wants to know how many different multisets of these objects exist such that sum of _rang_s of the objects in the multiset equals to **S**. You are given the coefficients in **F(N)** and the target sum **S**. Please, find the number of different multisets modulo **1,000,000,007**.
+**the number of different objects with *rang* N = F(N) = A0 + A1 \* N + A2 \* N2 + A3 \* N3**.Now Chef wants to know how many different multisets of these objects exist such that sum of *rang*s of the objects in the multiset equals to **S**. You are given the coefficients in **F(N)** and the target sum **S**. Please, find the number of different multisets modulo **1,000,000,007**.
 
 You should consider a multiset as an unordered sequence of integers. Two multisets are different if and only if there at least exists one element which occurs **X** times in the first multiset but **Y** times in the second one, where **(X ≠ Y)**.
 
@@ -116,13 +116,14 @@ For each test case, output a single line containing a single integer - the answe
 3
 3
 213986343
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 2.** 
 
-In the second example function looks as follows **F(N) = 1**. So for each _rang_ there is a single object of the _rang_. To get multiset with sum of _rang_s equal to 3, you can pick: three objects of _rang_ 1, or one object of _rang_ 1 and one of _rang_ 2, or only one object of _rang_ 3. 
+In the second example function looks as follows **F(N) = 1**. So for each *rang* there is a single object of the *rang*. To get multiset with sum of *rang*s equal to 3, you can pick: three objects of *rang* 1, or one object of *rang* 1 and one of *rang* 2, or only one object of *rang* 3. 
 
 **Example case 3.** 
 
-In the third example function looks as follows **F(N) = N**. So, you have one distinct object of _rang_ 1, two distinct objects of _rang_ 2, three distinct objects of _rang_ 3 and so on. To get
-multiset with sum of _rang_s equal to 2, you can pick: two objects of _rang_ 1, one of objects of _rang_ 2 (two ways).
+In the third example function looks as follows **F(N) = N**. So, you have one distinct object of *rang* 1, two distinct objects of *rang* 2, three distinct objects of *rang* 3 and so on. To get
+multiset with sum of *rang*s equal to 2, you can pick: two objects of *rang* 1, one of objects of *rang* 2 (two ways).

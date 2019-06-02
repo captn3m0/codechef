@@ -95,7 +95,9 @@ void postorder(node subroot)
 			postorder(subroot.children[i]);
 	output subroot.label;
 
-</pre>Two rooted **K**-ary trees **T1** and **T2** are considered different if there is some node **n**, such that the **children\[\]** array of node **n** is different in **T1** and in **T2**.
+</pre>
+
+Two rooted **K**-ary trees **T1** and **T2** are considered different if there is some node **n**, such that the **children\[\]** array of node **n** is different in **T1** and in **T2**.
 
 <pre>
 Some examples of differences:
@@ -131,7 +133,8 @@ K=2.
     \
      1 : (1.children = [null, null], 2.children = [null, 1])
 
-<pre></pre>### Input
+<pre></pre>
+### Input
 
 The first line contains **T**, the number of test-cases. 
 
@@ -175,7 +178,8 @@ For each testcase, output the possible number of rooted **K**-ary trees having t
 0
 1
 0
-</pre>### Explanation
+</pre>
+### Explanation
 
 The first case has two possibilities:
 
@@ -191,6 +195,8 @@ The first case has two possibilities:
    \
     2
 
-</pre>The second case gives us a tree where the root 1 has 2, 3 and 4 as its children. Since **K = 2**, this violates the condition that each node has **atmost K children**.
+</pre>
+
+The second case gives us a tree where the root 1 has 2, 3 and 4 as its children. Since **K = 2**, this violates the condition that each node has **atmost K children**.
 
 The fourth case is impossible for any tree to have the given preorder and postorder traversals.

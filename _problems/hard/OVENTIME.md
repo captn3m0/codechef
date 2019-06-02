@@ -48,7 +48,8 @@ The output for each test case consists of a single integer indicating the maximu
 
 <b>Output:</b>
 7
-</pre>### Explanation of Sample Output
+</pre>
+### Explanation of Sample Output
 
 In the given test case, a profit of 7 can be obtained by satisfying the first and last request in the input. Time 0 has 2 free racks and both are used by these requests. Times 1 and 2 have only 1 free rack but these times are not required by the first request so there are enough racks to accommodate the requests at these times.
 

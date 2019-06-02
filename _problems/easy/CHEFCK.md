@@ -75,7 +75,7 @@ All submissions for this problem are available.The Chef once decided to prepare 
 
 He wants to make **Q** dishes. A dish will be made using some ingredients in the continuous range **AL, AL + 1, , , AR** (1-base indexing). Quality of the dish will be determined by the ingredient with minimum taste.
 
-### Read problems statements in [Mandarin Chinese](/download/translated/MAY15/mandarin/CHEFCK.pdf) and [Russian](/download/translated/MAY15/russian/CHEFCK.pdf).
+### Read problems statements in [Mandarin Chinese ](/download/translated/MAY15/mandarin/CHEFCK.pdf) and [Russian](/download/translated/MAY15/russian/CHEFCK.pdf).
 
 The Chef once decided to prepare some nice dishes on his birthday. There are **N** items kept on his shelf linearly from position **1** to **N**. Taste of the i-th item is denoted by a integer **Ai**.
 
@@ -83,7 +83,7 @@ He wants to make **Q** dishes. A dish will be made using some ingredients in the
 
 Chef wants help of his assistant Rupsa to find out sum and product of qualities of the dishes. As product of the qualities of the dishes could be very large, print it modulo **109 + 7**. Also, you are given an integer **K** and you are assured that for each dish, the size of continuous range of the ingredients (i.e. **R - L + 1**) will always lie between **K** and **2 \* K**, both inclusive.
 
-**_Method of generation of Array A_** 
+***Method of generation of Array A*** 
  You are given non-negative integer parameters **a, b, c, d, e, f, r, s, t, m, A\[1\]**
 
  ```
@@ -94,7 +94,9 @@ for x = 2 to N:
 	else
 		A[x] = (d*A[x-1]^2 + e*A[x-1] + f) mod m
 
-<pre>**Method of generation of range of ingredients for Q dishes**  You are given non-negative integer parameters **L1, La, Lc, Lm, D1, Da, Dc, Dm**
+<pre>
+**Method of generation of range of ingredients for Q dishes** 
+ You are given non-negative integer parameters **L1, La, Lc, Lm, D1, Da, Dc, Dm**
 
  ```
 
@@ -104,7 +106,9 @@ for i = 1 to Q:
 	L = L1 + 1;
 	R = min(L + K - 1 + D1, N);
 
-</pre>### Input
+</pre>
+### Input
+
 - The first line contains three integers **N**, **K** and **Q**.
 - The second line contains the integers **a, b, c, d, e, f, r, s, t, m,** and **A\[1\]**.
 - Then third line contains the integers **L1, La, Lc, Lm, D1, Da, Dc,** and **Dm**
@@ -144,7 +148,8 @@ Output two space separated integers:
 
 <b>Output:</b>
 13 13
-<pre>### Explanation
+<pre>
+### Explanation
 
 - The array **A** comes out to be **{1, 3, 13, 83}** and the first dish has **L = 3** and **R = 4**. The minimum in this range is **13**, thus the sum and product both are **13** and hence the answer.
  

@@ -70,7 +70,7 @@ time:
     current: 1493556846
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MAY15/mandarin/SEZ.pdf) and [Russian](http://www.codechef.com/download/translated/MAY15/russian/SEZ.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MAY15/mandarin/SEZ.pdf) and [Russian](http://www.codechef.com/download/translated/MAY15/russian/SEZ.pdf).
 
 Fox Ciel is the queen of Fox Kingdom. There are **n** cities and **m** bidirectional roads between them. Two cities are called neighbours if there is a road between them. She wants to select some of the cities to establish as SEZs (Special Economic Zones). Also she must ensure that no two neighbouring cities are SEZ's as it will hinders growth of both the cities.
 
@@ -111,6 +111,7 @@ Print a single integer corresponding to the maximal value of **(x - y)**.
 
 <b>Output:</b>
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 Ciel will select city **1** and **3** as SEZ. So **x = 2** (city **1** and **3**), **y = 1** (city **2**), **x - y = 1**.

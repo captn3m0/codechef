@@ -117,7 +117,8 @@ Yes
 No
 Yes
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** We can obtain (6, 8, 10).
 

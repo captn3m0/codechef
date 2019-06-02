@@ -67,9 +67,9 @@ time:
     current: 1493558164
 layout: problem
 ---
-All submissions for this problem are available.A Little Elephant from the Zoo of Lviv likes _lucky strings_, i.e., the strings that consist only of the lucky digits **4** and **7**.
+All submissions for this problem are available.A Little Elephant from the Zoo of Lviv likes *lucky strings*, i.e., the strings that consist only of the lucky digits **4** and **7**.
 
-The Little Elephant calls some string **T** of the length **M** _balanced_ if there exists at least one integer **X** (**1 ≤ X ≤ M**) such that the number of digits **4** in the substring **T\[1, X - 1\]** is equal to the number of digits **7** in the substring **T\[X, M\]**. For example, the string **S = 7477447** is balanced since **S\[1, 4\] = 7477** has 1 digit **4** and **S\[5, 7\] = 447** has 1 digit **7**. On the other hand, one can verify that the string **S = 7** is not balanced.
+The Little Elephant calls some string **T** of the length **M** *balanced* if there exists at least one integer **X** (**1 ≤ X ≤ M**) such that the number of digits **4** in the substring **T\[1, X - 1\]** is equal to the number of digits **7** in the substring **T\[X, M\]**. For example, the string **S = 7477447** is balanced since **S\[1, 4\] = 7477** has 1 digit **4** and **S\[5, 7\] = 447** has 1 digit **7**. On the other hand, one can verify that the string **S = 7** is not balanced.
 
  The Little Elephant has the string **S** of the length **N**. He wants to know the number of such pairs of integers **(L; R)** that **1 ≤ L ≤ R ≤ N** and the substring **S\[L, R\]**  is balanced. Help him to find this number.
 
@@ -77,7 +77,7 @@ The Little Elephant calls some string **T** of the length **M** _balanced_ if th
 
 Let **S** be some lucky string. Then - **|S|** denotes the length of the string **S**;
 - **S\[i\]** (**1 ≤ i ≤ |S|**) denotes the **i**th character of **S** (the numeration of characters starts from **1**);
-- **S\[L, R\]** (**1 ≤ L ≤ R ≤ |S|**) denotes the string with the following sequence of characters: **S\[L\], S\[L + 1\], ..., S\[R\]**, and is called a _substring_ of **S**. For **L > R** we mean by **S\[L, R\]** an empty string.
+- **S\[L, R\]** (**1 ≤ L ≤ R ≤ |S|**) denotes the string with the following sequence of characters: **S\[L\], S\[L + 1\], ..., S\[R\]**, and is called a *substring* of **S**. For **L > R** we mean by **S\[L, R\]** an empty string.
 
 ### Input
 
@@ -109,7 +109,8 @@ For each test case output a single line containing the answer for this test case
 3
 23
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first test case balance substrings are **S\[1, 1\] = 4** and **S\[1, 2\] = 47**.
 

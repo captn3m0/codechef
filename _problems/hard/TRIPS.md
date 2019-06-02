@@ -68,7 +68,7 @@ time:
     current: 1493557001
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/OCT14/mandarin/TRIPS.pdf) and [Russian](http://www.codechef.com/download/translated/OCT14/russian/TRIPS.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/OCT14/mandarin/TRIPS.pdf) and [Russian](http://www.codechef.com/download/translated/OCT14/russian/TRIPS.pdf).
 
 There's a new trend among Bytelandian schools. The "Byteland Touristic Bureau" has developed a new project for the high-schoolers. The project is so-called "Children's Trips".
 

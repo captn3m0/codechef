@@ -110,7 +110,8 @@ For each test case, output a single line containing either “Henry” or “Der
 <tt>Henry
 Derek
 </tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** In this test case, the numbers on the board are \[3,4\]. Henry can win by selecting 4 and then dividing it by 2. The integers on the board are now \[3,2\]. Derek now has a couple of choices:
 

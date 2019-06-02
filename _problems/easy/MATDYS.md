@@ -126,13 +126,15 @@ The output file will contain **Q** lines, each one representing the answer to on
 6
 2
 </pre>
+
 <pre><b>Input:</b>
 1
 64 11047805202224836936
 
 <b>Output:</b>
 1337369305470044825
-</pre>### Explanation
+</pre>
+### Explanation
 
 <pre>
 In all questions, we have <b>N</b> = 3. Therefore, we have a deck with 8 cards.

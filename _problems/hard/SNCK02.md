@@ -11,7 +11,9 @@ layout: problem
 ---
 ###  All submissions for this problem are available. 
 
-`<b>[Problem Idea : Varun Jalan and Yu Yiu Ho]</b>`In a small world not so far away, there is an ongoing war between two nations, A and B. There are n (3 n 20) strongholds in this world, with roads between some of them. Two strongholds are neighbors if there is a road between them, all roads are bidirectional. The Chef is at war and he recently came up with a scheme that will help his country to never lose the war. He would like to select a set of powerful strongholds (defined below) of minimum size and conquer those strongholds to ensure that his country will never be defeated. A set of powerful strongholds is a set of strongholds S, such that
+<pre><b>[Problem Idea : Varun Jalan and Yu Yiu Ho]</b>
+</pre>
+In a small world not so far away, there is an ongoing war between two nations, A and B. There are n (3 n 20) strongholds in this world, with roads between some of them. Two strongholds are neighbors if there is a road between them, all roads are bidirectional. The Chef is at war and he recently came up with a scheme that will help his country to never lose the war. He would like to select a set of powerful strongholds (defined below) of minimum size and conquer those strongholds to ensure that his country will never be defeated. A set of powerful strongholds is a set of strongholds S, such that
 
 **1**.For every stronghold y which does not belong to S, there is a road leading to it from a stronghold x which belongs to S. This way, any stronghold not in S is threatened by a stronghold in S.
 
@@ -62,7 +64,8 @@ For each test case, output a single line of integers. The first integer is |S|, 
 3 4
 
 0 0
-</pre>### Sample Output:
+</pre>
+### Sample Output:
 
 <pre>2 0 1
 4 0 1 2 3

@@ -67,7 +67,7 @@ time:
     current: 1493558176
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/OCT14/mandarin/PRLADDU.pdf) and [Russian](http://www.codechef.com/download/translated/OCT14/russian/PRLADDU.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/OCT14/mandarin/PRLADDU.pdf) and [Russian](http://www.codechef.com/download/translated/OCT14/russian/PRLADDU.pdf).
 
  DevuLand is a very strange place. There are **n** villages in it. Some of the villages are occupied by dinosaurs while the remaining ones by villagers.
  You are given the information of DevuLand
@@ -126,7 +126,8 @@ For each test case, print a single line containing the integer corresponding to 
 5
 5
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** Each villager in village 1, need to walk 1 km to reach to the dinosaur in 2nd village.
 

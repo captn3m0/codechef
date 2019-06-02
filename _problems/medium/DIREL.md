@@ -136,7 +136,8 @@ john anne
 3
 1
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 Consider the first query: kel is son of john, so the distance = 1
 

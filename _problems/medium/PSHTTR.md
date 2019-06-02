@@ -79,7 +79,7 @@ The gem of Khust is a very valuable castle because it protects the citizens of U
 
 The castle can be described as an undirected tree with **N** vertices and **N - 1** edges. Each edge has a magic number **C**.
 
-When a group of tourists visit the castle, they are interested in a path between vertices **U** and **V**. They think that an edge is _interesting_ if its magic number is less than or equal to **K**. The total _attractivity_ of the path is the [xor](https://en.wikipedia.org/wiki/Bitwise_operation#XOR) of all interesting edges on it.
+When a group of tourists visit the castle, they are interested in a path between vertices **U** and **V**. They think that an edge is *interesting* if its magic number is less than or equal to **K**. The total *attractivity* of the path is the [xor](https://en.wikipedia.org/wiki/Bitwise_operation#XOR) of all interesting edges on it.
 
 The emperor of Uzhlyandia is interested in tourism development, and so he wants to find the total attractivity of the paths for each group. Because Pishty wants to become the emperor's knight, he wants to know all of this information too. But he can't do it on his own because there are a large number of groups. Please help Pishty to solve this unthinkable problem.
 

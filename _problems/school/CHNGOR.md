@@ -104,7 +104,8 @@ For each test case, output answer in a separate line.
 
 <b>Output:</b>
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**
 

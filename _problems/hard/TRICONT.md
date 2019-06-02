@@ -75,11 +75,11 @@ All submissions for this problem are available.###  Read problems statements in 
 
 Chef holds all his secret recipes inside his house. For this reason, Chef wants to make his house secure. To do so, Chef wants to install **guard towers** in his house.
 
-Unfortunately, due to high costs, Chef can only activate **3** guard towers each night. Chef considers his house **safe** if the triangle formed by these **3** guard towers as vertices _strictly_ contains his house. Chef's house is located at **(0, 0)**.
+Unfortunately, due to high costs, Chef can only activate **3** guard towers each night. Chef considers his house **safe** if the triangle formed by these **3** guard towers as vertices *strictly* contains his house. Chef's house is located at **(0, 0)**.
 
 On the **ith** day, Chef plans to install a guard tower at location **(xi, yi)**. Chef wants to know how effective each installation is. Specifically, after every installation, Chef wants to know the number of subsets of **3** guard towers he can activate so that his house becomes safe. Please help him answer this question!
 
-This is an _online_ problem, so you won't get the next point unless you answer the question first. Don't forget to flush the output after every print statement. Please see the note section for details about how to flush the standard output.!
+This is an *online* problem, so you won't get the next point unless you answer the question first. Don't forget to flush the output after every print statement. Please see the note section for details about how to flush the standard output.!
 
 ### Input
 
@@ -122,7 +122,8 @@ Output **N** lines. The **ith** line must contain a single integer, the answer t
 1
 2
 2</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 - After the first and second installations, there aren't enough guard towers for Chef to choose from.
 - After the third and fourth installations, there is one set of guard towers that make Chef's house safe: **{(2, 3), (3, 2), (-1, -1)}**.

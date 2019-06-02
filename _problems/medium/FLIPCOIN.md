@@ -23,4 +23,9 @@ Output :
 
 Output 1 line for each of the queries of the form "1 A B" containing the required answer for the corresponding query.
 
-`Sample Input :<br></br>4 7<br></br>1 0 3<br></br>0 1 2<br></br>1 0 1<br></br>1 0 0<br></br>0 0 3<br></br>1 0 3 <br></br>1 3 3<br></br><br></br>``Sample Output :<br></br>0<br></br>1<br></br>0<br></br>2<br></br>1<br></br><br></br>``Constraints :<br></br>1 <= N <= 100000<br></br>1 <= Q <= 100000<br></br>0 <= A <= B <= N - 1<br></br>`
+<pre>Sample Input :<br></br>4 7<br></br>1 0 3<br></br>0 1 2<br></br>1 0 1<br></br>1 0 0<br></br>0 0 3<br></br>1 0 3 <br></br>1 3 3<br></br><br></br>
+</pre>
+<pre>Sample Output :<br></br>0<br></br>1<br></br>0<br></br>2<br></br>1<br></br><br></br>
+</pre>
+<pre>Constraints :<br></br>1 <= N <= 100000<br></br>1 <= Q <= 100000<br></br>0 <= A <= B <= N - 1<br></br>
+</pre>

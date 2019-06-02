@@ -72,8 +72,8 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MAY16/mandarin/CHEFNUM.pdf), [Russian](http://www.codechef.com/download/translated/MAY16/russian/CHEFNUM.pdf) and [Vietnamese](http://www.codechef.com/download/translated/MAY16/vietnamese/CHEFNUM.pdf) as well.
 
-Chef defined _amazingness_ of a number **n** as follows. Let array **a** denote the decimal representation of **n**.
-_amazingness_ of **n** is defined by following pseudo code.
+Chef defined *amazingness* of a number **n** as follows. Let array **a** denote the decimal representation of **n**.
+*amazingness* of **n** is defined by following pseudo code.
 
 
 <pre>
@@ -95,7 +95,9 @@ amazingness(a)
    return ans;
 }
 />
-</pre>Given two integers **L, R**. Find out the following sum : _amazingness_**L** + _amazingness_**L + 1** + ... + _amazingness_**R**. As the answer could be large, print your answer modulo **109 + 7 (1000000007)**
+</pre>
+Given two integers **L, R**. Find out the following sum : *amazingness***L** + *amazingness***L + 1** + ... + *amazingness***R**. As the answer could be large, print your answer modulo **109 + 7 (1000000007)**
+
 ### Input
 
 - First line of the input contains an integer **T** denoting the number of test cases.
@@ -130,6 +132,7 @@ For each test case, output a single integer in separate line corresponding to th
 <b>Output:</b>
 15
 23
-</pre>### Explanation
+</pre>
+### Explanation
 
-**Example case 2:** The _amazingness_ values of numbers 11, 12, 13, 14 are 1, 6, 6 and 10 respectively. They sum up to 23.
+**Example case 2:** The *amazingness* values of numbers 11, 12, 13, 14 are 1, 6, 6 and 10 respectively. They sum up to 23.

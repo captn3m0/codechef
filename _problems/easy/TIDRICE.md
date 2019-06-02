@@ -47,6 +47,7 @@ bhavani -
 -2
 -1
 </pre>
+
 **Explanation**
 
 <pre>Case 1 : Initially score = 0. Updation of scores in the order of user tilak's votes is as follows,<br></br>

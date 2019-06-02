@@ -121,7 +121,8 @@ For each query output its answer in a new line. If it's possible to reach one pl
 4
 2
 
-</pre>**Explanation 1**: There are **N** = 3 planets in each universe. And they are connected by the edges (1, 2) and (2, 3) in each universe, as described by the 2nd and 3rd lines of the input. There are **M** = 3 special teleports, which are described by the 4th, 5th and 6th lines of the input. For example, the fourth line is "1 1 1 2", which means that there is a special teleport between the first planet of the first universe and the first planet of the second universe. The next **Q** = 3 lines denote the queries. For example, the 7th line is "2 1 2 2", which asks for the shortest distance between the second planet of the first universe and the second planet of the second universe.
+</pre>
+**Explanation 1**: There are **N** = 3 planets in each universe. And they are connected by the edges (1, 2) and (2, 3) in each universe, as described by the 2nd and 3rd lines of the input. There are **M** = 3 special teleports, which are described by the 4th, 5th and 6th lines of the input. For example, the fourth line is "1 1 1 2", which means that there is a special teleport between the first planet of the first universe and the first planet of the second universe. The next **Q** = 3 lines denote the queries. For example, the 7th line is "2 1 2 2", which asks for the shortest distance between the second planet of the first universe and the second planet of the second universe.
 
 The map of the multi-verse would look like this:
 
@@ -158,4 +159,5 @@ impossible
 3
 2
 
-</pre>**Explanation 2**: Note that there can be teleports between two planets of the same universe. As example, the only teleport in this testcase is between the first and fourth planets of the 30th universe.
+</pre>
+**Explanation 2**: Note that there can be teleports between two planets of the same universe. As example, the only teleport in this testcase is between the first and fourth planets of the 30th universe.

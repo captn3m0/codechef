@@ -67,19 +67,19 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
-All submissions for this problem are available.For a given two words **x** = _x_1_x_2_...xn_and **y** = _y_1_y_2_...ym_find the longest common subsequence, i.e. **z** = _z_1_z_2_...zk_such that every two consecutive elements of **z** are equal to some two elements of **x**: xa, xb, and **y**: yc, yd where _a_ b and _c_ d. Assume, that elements of words are letters 'a' - 'z' and _m_,_n_
+All submissions for this problem are available.For a given two words **x** = *x*1*x*2*...xn*and **y** = *y*1*y*2*...ym*find the longest common subsequence, i.e. **z** = *z*1*z*2*...zk*such that every two consecutive elements of **z** are equal to some two elements of **x**: xa, xb, and **y**: yc, yd where *a* b and *c* d. Assume, that elements of words are letters 'a' - 'z' and *m*,*n*
 
 ### Input
 
-_t_ \[the number of test cases _n_ **x**
-_m_ **y**
+*t* \[the number of test cases *n* **x**
+*m* **y**
 ...
 
 ### Output
 
 case 1 Y \[or N when no answer to this case\] 
-_d_ \[the length of the lcs\] 
-_zj_ _p q_ \[position of _zj_ in **x** and in **y**, respectively\] 
+*d* \[the length of the lcs\] 
+*zj* *p q* \[position of *zj* in **x** and in **y**, respectively\] 
 ...
 
 ### Example

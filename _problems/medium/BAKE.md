@@ -49,7 +49,8 @@ Q 2 4.1 F 37
 95
 0
 
-</pre>**Sample I/O Explanation**
+</pre>
+**Sample I/O Explanation**
 
  For the first query at the 4th line of input, only the first input is relevant as the the second input has location specification as 4.1 whereas in the query it is 2. Location specification 2 includes all the cities in the province 2 such as 2.1 whic is the case with the first input. Hence the solution is 22. 
 

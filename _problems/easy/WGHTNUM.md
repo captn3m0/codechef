@@ -79,8 +79,10 @@ VK gave a problem to Chef, but Chef is too lazy, so he asked you to solve the pr
 1
 2 3
 </tt>
-<pre>\### Example Output ```
+<pre>
+\### Example Output ```
 <tt>
 6
 </tt>
-</pre>\### Explanation \*\*Example case 1:\*\* Remember that the digits are arranged from most significant to least significant as $D\_1, D\_2$. The two-digit integers with weight $3$ are $14, 25, 36, 47, 58, 69$. For example, the weight of $14$ is $D\_2-D\_1 = 4-1 = 3$. We can see that there are no other possible numbers.
+</pre>
+\### Explanation \*\*Example case 1:\*\* Remember that the digits are arranged from most significant to least significant as $D\_1, D\_2$. The two-digit integers with weight $3$ are $14, 25, 36, 47, 58, 69$. For example, the weight of $14$ is $D\_2-D\_1 = 4-1 = 3$. We can see that there are no other possible numbers.

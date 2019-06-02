@@ -117,7 +117,8 @@ For each test case, output a single line containing "SEBI", "FATHER" or "DRAW" (
 <b>Output:</b>
 SEBI
 FATHER
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**
 

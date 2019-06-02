@@ -103,7 +103,8 @@ For each test case, output a single line containing the answer to the correspond
 0
 2
 1
-</pre>### Notes
+</pre>
+### Notes
 
 XOR-sum of **n** integers **A\[1\], , , A\[n\]** will be **A\[1\] xor A\[2\] xor .. A\[n\]**. By xor, we mean [bit-wise xor](http://en.wikipedia.org/wiki/Bitwise_operation#XOR).
 

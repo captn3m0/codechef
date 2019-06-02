@@ -69,13 +69,13 @@ time:
     current: 1493557581
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME11/mandarin/CIRCLE.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME11/russian/CIRCLE.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME11/mandarin/CIRCLE.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME11/russian/CIRCLE.pdf).
 
-El Macho's army of mutated minions is marching towards Gru, the army is standing in a rectangular formation measuring **NxM**. The spray of antidotes done by Gru has turned some of the minions back to normal, but now they are trapped within the army of mutated ones. Formally, a normal minion is _"not trapped"_ if :
+El Macho's army of mutated minions is marching towards Gru, the army is standing in a rectangular formation measuring **NxM**. The spray of antidotes done by Gru has turned some of the minions back to normal, but now they are trapped within the army of mutated ones. Formally, a normal minion is *"not trapped"* if :
 
 1\) either he is on one of the edges of the rectangle
 
-2\) or one of his direct neighbors (directly in front/back of him, or left/right of him) is _not trapped_.
+2\) or one of his direct neighbors (directly in front/back of him, or left/right of him) is *not trapped*.
 
 
 

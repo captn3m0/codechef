@@ -70,7 +70,7 @@ time:
     current: 1493558193
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/OCT15/mandarin/TIMEASR.pdf) and [Russian](http://www.codechef.com/download/translated/OCT15/russian/TIMEASR.pdf) 
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/OCT15/mandarin/TIMEASR.pdf) and [Russian](http://www.codechef.com/download/translated/OCT15/russian/TIMEASR.pdf) 
 
  Chef is sitting in a very boring lecture, waiting for it to end. He has recently asked his friend about the time, and instead of the straightforward answer, his friend, being an absolute jerk, told him the absolute value of angle between hour and minute hands.
 

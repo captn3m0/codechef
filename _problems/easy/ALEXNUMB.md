@@ -65,7 +65,7 @@ time:
     current: 1493558104
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/DEC13/mandarin/ALEXNUMB.pdf) and [Russian](http://www.codechef.com/download/translated/DEC13/russian/ALEXNUMB.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/DEC13/mandarin/ALEXNUMB.pdf) and [Russian](http://www.codechef.com/download/translated/DEC13/russian/ALEXNUMB.pdf).
 
 Alexandra has some distinct integer numbers **a1,a2...an**.
 Count number of pairs **(i,j)** such that:
@@ -96,12 +96,14 @@ For each test case, output a single line containing number of pairs for correspo
 2 1
 3
 3 1 2
-</pre>**Output:**
+</pre>
+**Output:**
 
 <pre>
 1
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 Case 1: Only one such pair: (2,1)
 

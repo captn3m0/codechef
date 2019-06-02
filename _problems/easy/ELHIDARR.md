@@ -113,7 +113,8 @@ If you ask more than 60 queries, your program will get the verdict Wrong Answer.
 						1 1
 1
 						2 5
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** Suppose the array is \[1, 1, 5\]. Note that the value of **K** is 2, but it is hidden from you.
 

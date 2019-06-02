@@ -167,7 +167,8 @@ All submissions for this problem are available.### Read problems statements in [
 -1
 4
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 <pre>
 First test

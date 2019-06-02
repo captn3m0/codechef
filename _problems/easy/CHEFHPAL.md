@@ -116,6 +116,7 @@ All submissions for this problem are available.### Read problems statements in [
 1 codechef
 3 aaababb
 
-</pre>###  Explanation
+</pre>
+###  Explanation
 
  **Example case 1.** There are multiple solutions. For example, "abaaa" is also correct. **Note that "abbaa" is not a correct solution, since "abba" is a palindromic substring of length 4, which is not optimal.**

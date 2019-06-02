@@ -97,7 +97,8 @@ Your score for each test case is the height of your tower divided by N. Your tot
 10 3 9
 10 10 8
 4 4 1
-</pre>### Sample output:
+</pre>
+### Sample output:
 
 <pre>5
 4 1 4
@@ -106,4 +107,5 @@ Your score for each test case is the height of your tower divided by N. Your tot
 2 7 9
 8 10 10
 
-</pre>Score: (4+1+10+2+8)/10 = 2.5
+</pre>
+Score: (4+1+10+2+8)/10 = 2.5

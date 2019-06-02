@@ -124,44 +124,45 @@ For each query of the second type, print one integer as asked in the question.
 <b>Sample Output</b>
 1
 1
-</pre>### Example explanation
+</pre>
+### Example explanation
 
 In this sample, chef-**1** and chef-**2** have Chief Chef(chef-0) as immediate superior and chef-**3** and chef-**4** have chef-**2** as immediate-superior.
 
 Immediate inferiors of the chefs are :
 
 chef-0 -> chef-**1** and chef-**2**
-chef-**1** -> _None_
+chef-**1** -> *None*
 chef-**2** -> chef-**3** and chef-**4**
-chef-**3** -> _None_
-chef-**4** -> _None_
+chef-**3** -> *None*
+chef-**4** -> *None*
 
 Inferior chefs of the respective chefs are :
 
 chef-0 -> chef-**1**,chef-**2**,chef-**3**,chef-**4**
-chef-**1** -> _None_
+chef-**1** -> *None*
 chef-**2** -> chef-**3**, chef-**4**
-chef-**3** -> _None_
-chef-**4** -> _None_
+chef-**3** -> *None*
+chef-**4** -> *None*
 
 Initially the healths of these **4** chefs are (**1**, **2**, **2**, **1**).
 
-On the _first_ day Chief Chef poisons the dish of chef-**2**, which will be tasted by his inferiors 
+On the *first* day Chief Chef poisons the dish of chef-**2**, which will be tasted by his inferiors 
  (chef-**3**, chef-**4**), with a poison of sickness value **1**. So after that the healths of these chefs become (**1**, **2**, **1**, 0).
-As the **4**-th chef's health dropped to _zero_, he dies on this day. He will be replaced by a new chef with INF (infinite) health.
+As the **4**-th chef's health dropped to *zero*, he dies on this day. He will be replaced by a new chef with INF (infinite) health.
 
 Healths of Chefs after Day-1 = (1,2,1,INF).
 
-On the _second_ day Chief-Chef asked you the second type query to give the number of old chefs among the inferiors of chef-**2**. As one inferior of chef-**2** died on first day, only one inferior chef of chef-**2**
+On the *second* day Chief-Chef asked you the second type query to give the number of old chefs among the inferiors of chef-**2**. As one inferior of chef-**2** died on first day, only one inferior chef of chef-**2**
 is old chef, and output is **1**.
 
 Healths of Chefs after Day-2 = (1,2,1,INF).
 
-On the _third_ day Chief Chef poisons the dish of chef-0(i.e, his dish) with poison sickness **1**, and it is tasted by everyone and poisons all the **4** other chefs, so after that the healths of these chefs
- become (0, **1**, 0, **INF**). As the **1**-st and the **3**-rd chefs' health dropped to _zero_, they die on this day and are replaced by two new chefs with INF(infinite) health.
+On the *third* day Chief Chef poisons the dish of chef-0(i.e, his dish) with poison sickness **1**, and it is tasted by everyone and poisons all the **4** other chefs, so after that the healths of these chefs
+ become (0, **1**, 0, **INF**). As the **1**-st and the **3**-rd chefs' health dropped to *zero*, they die on this day and are replaced by two new chefs with INF(infinite) health.
 
 The health of Chefs after Day-3 is (INF,1,INF,INF).
 
-On the _fourth_ day Chief Chef asked you the second type query to give the number of old chefs among the inferiors of chef-0(Chief Chef himself). As only chef-**2** is an old chef, output is **1**.
+On the *fourth* day Chief Chef asked you the second type query to give the number of old chefs among the inferiors of chef-0(Chief Chef himself). As only chef-**2** is an old chef, output is **1**.
 
 Healths of Chefs after Day-4 = (INF,1,INF,INF).

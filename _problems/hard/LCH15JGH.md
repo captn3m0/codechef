@@ -70,7 +70,7 @@ time:
     current: 1493556981
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME20/mandarin/LCH15JGH.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME20/russian/LCH15JGH.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME20/mandarin/LCH15JGH.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME20/russian/LCH15JGH.pdf).
 
 You are a tribal leader and live in jungle with your people. Life of the leader is not easy sometimes. One of your responsibilities is food distribution. Let's consider this process in details.
 

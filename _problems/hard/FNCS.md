@@ -71,7 +71,7 @@ time:
     current: 1493556966
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/NOV14/mandarin/FNCS.pdf) and [Russian](http://www.codechef.com/download/translated/NOV14/russian/FNCS.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/NOV14/mandarin/FNCS.pdf) and [Russian](http://www.codechef.com/download/translated/NOV14/russian/FNCS.pdf).
 
 Chef has recently learnt Function and Addition. He is too exited to teach this to his friend Churu. Chef and Churu are very fast friends, they share their knowledge whenever they meet. Chef use to give a lot of exercises after he teaches some concept to Churu.
 

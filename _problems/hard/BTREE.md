@@ -68,7 +68,7 @@ time:
     current: 1493556627
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/OCT14/mandarin/BTREE.pdf) and [Russian](http://www.codechef.com/download/translated/OCT14/russian/BTREE.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/OCT14/mandarin/BTREE.pdf) and [Russian](http://www.codechef.com/download/translated/OCT14/russian/BTREE.pdf).
 
 There is a country whose road system is a tree, the nodes in the tree represent cities and the edge is the road between them, and each edge is of unit length. For safety, the government should put guards to protect all cities. But the government is in shortage of money. So they might not be able to protect all cites.
 
@@ -95,8 +95,9 @@ For each day, output the answer in one line.
 
 ### Example
 
-`<strong>Input:</strong>````
-
+<pre><strong>Input:</strong>
+</pre>
+<pre>
 20
 1 2
 1 3
@@ -123,8 +124,10 @@ For each day, output the answer in one line.
 3 3 3 10 4 19 2 
 2 3 4 10 2 
 5 5 4 11 2 16 2 18 1 19 2
-<pre>`<strong>Output:</strong>````
-
+</pre>
+<pre><strong>Output:</strong>
+</pre>
+<pre>
 16
 16
 13

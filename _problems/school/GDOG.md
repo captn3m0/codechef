@@ -69,7 +69,7 @@ time:
     current: 1492507608
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME26/mandarin/GDOG.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME26/russian/GDOG.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME26/mandarin/GDOG.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME26/russian/GDOG.pdf).
 
 Tuzik is a little dog. But despite the fact he is still a puppy he already knows about the pretty things that coins are. He knows that for every coin he can get very tasty bone from his master. He believes that some day he will find a treasure and have loads of bones.
 
@@ -100,7 +100,8 @@ For each test case output one integer - the maximum possible number of coins Tuz
 <b>Output:</b>
 1
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the **first example** he should call two people. Each of them will take 2 coins and they will leave 1 coin for Tuzik.
 

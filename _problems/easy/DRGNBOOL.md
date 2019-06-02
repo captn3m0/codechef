@@ -79,7 +79,7 @@ Each warrior (**Soint** or **Sofloat**) has his level of skills which is denoted
 
 Lets follow the following convention to denote the warriors. A **Soint** of level **L** and power **C** will be denoted as **(I, C, L)**, while **Sofloat** of level **L** and power **C** will be denoted as **(F, C, L)**. Consider some examples. If **A = (I, 50, 1)** fights with **B = (F, 20, 1)**, **B** dies and **A** becomes **(I, 30, 1)**. On the other hand, **(I, 50, 1)** cannot fight with **(F, 20, 2)** as they have different levels.
 
-There is a battle between **Soints** and **Sofloats**. There are **N Soints** and **M Sofloats** in all. The battle will consist of series of fights. As was mentioned above in each fight one **Soint** and one **Sofloat** _of the same level_ take part and after the fight the warrior with lower power will die (or both will die if they have the same power). The battle proceeds as long as there exists at least one pair of warriors who can fight. The distribution of warriors by levels satisfies the following condition: for every **Soint** of level **L** there exists at least one **Sofloat** of the same level **L** and vice-versa. So if for some level **L** we have at least one warrior of this level then there is at least one **Soint** of level **L** and at least one **Sofloat** of level **L**.
+There is a battle between **Soints** and **Sofloats**. There are **N Soints** and **M Sofloats** in all. The battle will consist of series of fights. As was mentioned above in each fight one **Soint** and one **Sofloat** *of the same level* take part and after the fight the warrior with lower power will die (or both will die if they have the same power). The battle proceeds as long as there exists at least one pair of warriors who can fight. The distribution of warriors by levels satisfies the following condition: for every **Soint** of level **L** there exists at least one **Sofloat** of the same level **L** and vice-versa. So if for some level **L** we have at least one warrior of this level then there is at least one **Soint** of level **L** and at least one **Sofloat** of level **L**.
 
 There is a powerful wizard, whose name is **SoChef**, on the side of **Soints**. He can increase the amount of chakra of each **Soint** by any number. **SoChef** wants the army of **Soints** to win this battle. But increasing amount of chakra of any **Soint** by one costs him a lot of his magic power. Hence he wants to minimize the total amount of additional chakra he should give to **Soints** in order for them to win. Note, however, that the win here means that all **Sofloats** should be dead irregardless of whether any **Soint** is alive. Also note that the battle can proceed by different scenarios and the **SoChef** need to distribute additional chakra among the **Soints** in such a way that they will win for any possible battle scenario. Help **SoChef** and find the minimal amount of additional chakra he should give to **Soints** in order for them to win.
 
@@ -130,7 +130,8 @@ For every **Soint** of level **L** there exists at least one **Sofloat** of the 
 <b>Output:</b>
 8
 89
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Case 1.**The warriors are **I1 = (I, 10, 1), I2 = (I, 20, 2), F1 = (F, 5, 2), F2 = (F, 5, 2), F3 = (F, 18, 1)**. Without the **SoChef** help the battle can proceed as follows.
 

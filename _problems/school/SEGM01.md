@@ -113,7 +113,8 @@ NO
 YES
 NO
 NO
-</pre>### Explanation
+</pre>
+### Explanation
 
 The answer is "YES" for strings 001111110 and 1111.
 

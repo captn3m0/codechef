@@ -138,6 +138,7 @@ Your score for each test case is equal to max(0,**N** \* (**N**-1)/ 4 - **inv**)
 7 4 2
 <b>Output:</b>
 4 6 8
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** participant 1 will have total score equal to (1\*4 + 5\*6 + 6\*8)/1000000 = 82/1000000, participant 2 will have total score equal to (2\*4 + 4\*6 + 5\*8)/1000000 = 72/1000000, participant 3 will have score equal to (7\*4 + 4\*6 + 2\*8)/1000000 = 68/1000000, so participants will be ranked in the standings by 1, 2, 3, which has 0 inversions

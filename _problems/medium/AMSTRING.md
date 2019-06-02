@@ -110,7 +110,8 @@ a
 14
 13
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1**: There are **14** fours as following:
 **(1, 1, 1, 1) : dist(A\[1, 1\], B\[1, 1\]) = dist(a, a) = 0 ≤ 2**

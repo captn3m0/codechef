@@ -70,9 +70,9 @@ time:
     current: 1493556738
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME15/mandarin/IRONISL.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME15/russian/IRONISL.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME15/mandarin/IRONISL.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME15/russian/IRONISL.pdf).
 
-_The Iron Islands is one of the constituent regions of the Seven Kingdoms, and it was formerly a sovereign nation under the same name, until the War of Conquest. The Iron Islands are home to a fierce people who call themselves the ironborn and are ruled by House Greyjoy from the castle of Pyke._
+*The Iron Islands is one of the constituent regions of the Seven Kingdoms, and it was formerly a sovereign nation under the same name, until the War of Conquest. The Iron Islands are home to a fierce people who call themselves the ironborn and are ruled by House Greyjoy from the castle of Pyke.*
 
 (c) A Wiki of Ice and Fire
 
@@ -98,7 +98,7 @@ The first line of the input contains an integer **T**, denoting the number of te
 
 The first line of each testcase contains an integer **N**, denoting the number of vertices in **G**.
 
-Each of the next **N** lines contains a string **Ei**, consisting of **N** symbols(only _'0'_ and _'1'_ are allowed). If **j**'th symbol of **Ei** equals to _'1'_, then the arc from vertex **i** to vertex **j** belongs to **G**, otherwise there's no such arc.
+Each of the next **N** lines contains a string **Ei**, consisting of **N** symbols(only *'0'* and *'1'* are allowed). If **j**'th symbol of **Ei** equals to *'1'*, then the arc from vertex **i** to vertex **j** belongs to **G**, otherwise there's no such arc.
 
 The next line contains an integer **Q**, denoting the number of phases of the big project. The description of the phases follows.
 

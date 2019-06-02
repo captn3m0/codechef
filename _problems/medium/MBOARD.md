@@ -111,7 +111,8 @@ ColQuery 1
 2
 0
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 At first, the magic board is
 
@@ -119,9 +120,10 @@ At first, the magic board is
 000
 000
 </b>
-</pre>So the answer of first query _"RowQuery 1"_ is **3**.
+</pre>
+So the answer of first query *"RowQuery 1"* is **3**.
 
-After the _"ColSet 1 1"_, the board becomes
+After the *"ColSet 1 1"*, the board becomes
 
 <pre><b>column 1
 |
@@ -130,12 +132,14 @@ V
 100
 100
 </b>
-</pre>So the answer of the second query _"RowQuery 1"_ is clearly **2**, since the cell **(1,1)** became **1**. And the answer of the third query _"ColQuery 1"_ is 0.
+</pre>
+So the answer of the second query *"RowQuery 1"* is clearly **2**, since the cell **(1,1)** became **1**. And the answer of the third query *"ColQuery 1"* is 0.
 
-Finally, apply the operation _"RowSet 1 0"_, the board has changed to
+Finally, apply the operation *"RowSet 1 0"*, the board has changed to
 
 <pre><b>000
 100
 100
 </b>
-</pre>From this board, the answer of the last query _"ColQuery 1"_ should be **1**.
+</pre>
+From this board, the answer of the last query *"ColQuery 1"* should be **1**.

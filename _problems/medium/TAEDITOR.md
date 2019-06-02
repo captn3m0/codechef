@@ -70,7 +70,7 @@ time:
     current: 1493557941
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME14/mandarin/TAEDITOR.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME14/mandarin/TAEDITOR.pdf).
 
 In this problem you will have to implement a simple editor. The editor maintains the content of a string **S** and have two following functions:
 
@@ -121,7 +121,8 @@ For each query of the second type, print out the answer sub-string in one line.
 <b>Output:</b>
 acb
 acddb
-</pre>### Explanation
+</pre>
+### Explanation
 
 - "+ 0 ab": S = "ab"
 - "+ 1 c": S = "acb"

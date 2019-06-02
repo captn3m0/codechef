@@ -68,7 +68,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/SNCKFL17/mandarin/MINIMAX.pdf), [Russian](http://www.codechef.com/download/translated/SNCKFL17/russian/MINIMAX.pdf) and [Vietnamese](http://www.codechef.com/download/translated/SNCKFL17/vietnamese/MINIMAX.pdf) as well.
 
-Let's consider a square grid with **N** rows and **N** columns, both numbered 1 through **N**. Each cell contains one integer. Let ri denote the minimum value in the i-th row, and let Ci denote the maximum value in the i-th column. A grid is called _nice_ if and only if the following condition holds true:
+Let's consider a square grid with **N** rows and **N** columns, both numbered 1 through **N**. Each cell contains one integer. Let ri denote the minimum value in the i-th row, and let Ci denote the maximum value in the i-th column. A grid is called *nice* if and only if the following condition holds true:
 
 max(r1, r2, ..., r**N**) = min(C1, C2, ..., C**N**)
 
@@ -122,7 +122,8 @@ Print one integer, denoting the minimum number of changes required to make the g
 
 <b>Output3:</b>
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example #1.** In the first example, initially we have r1 = 10, r2 = 10 and r3 = 5. For columns, we have C1 = 20, C2 = 20 and C3 = 35.
 
@@ -131,6 +132,7 @@ max(r1, r2, r3) = 10 and min(C1, C2, C3) = 20, and so the given grid isn't nice.
 <pre>10 <b>10</b> 30
 20 10 30
 10 5 35
-</pre>The answer is 1 because we must change at least 1 number.
+</pre>
+The answer is 1 because we must change at least 1 number.
 
 **Example #2.** The provided grid is already nice, so the answer is 0.

@@ -73,7 +73,7 @@ All submissions for this problem are available.Chef has been constantly expandin
 
 Chef knows that the number of people working in his office can be very large. In order to avoid crowding of a common fire escape route during emergency, Chef has decided to build multiple fire escapes. For the safety of every employee, each cabin has a fire exit which is connected to one of the fire escape routes.
 
-A lot of employees are friends with each other. The friendship is mutual. This means that if employee **_i_** is a friend of employee **_j_** then employee **_j_** is a friend of employee **_i_** as well. But friendship is NOT necessarily transitive. This means that if employee **_i_** is a friend of employee **_j_** AND employee **_j_** is a friend of employee **_k_**, then employee **_i_** and employee **_k_** need not necessarily be friends.
+A lot of employees are friends with each other. The friendship is mutual. This means that if employee ***i*** is a friend of employee ***j*** then employee ***j*** is a friend of employee ***i*** as well. But friendship is NOT necessarily transitive. This means that if employee ***i*** is a friend of employee ***j*** AND employee ***j*** is a friend of employee ***k***, then employee ***i*** and employee ***k*** need not necessarily be friends.
 
 **If two employees are friends, they do not want to escape through different routes.**
 
@@ -81,7 +81,7 @@ This complicates the task for the Chef. As already mentioned, he wants to have t
 
 ### Input
 
-The first line of the input contains a single integer **T**, denoting the number of test cases. The description of **T** test cases follows. The first line of each test case contains two space-separated integers **N** and **M**, denoting the number of employees and the number of friendship relations, respectively. Each of the following **M** lines contains two space-separated integers **i** and **j**, denoting employee **_i_** and employee **_j_** are friends.
+The first line of the input contains a single integer **T**, denoting the number of test cases. The description of **T** test cases follows. The first line of each test case contains two space-separated integers **N** and **M**, denoting the number of employees and the number of friendship relations, respectively. Each of the following **M** lines contains two space-separated integers **i** and **j**, denoting employee ***i*** and employee ***j*** are friends.
 
 ### Output
 
@@ -94,7 +94,7 @@ For each test case, output a single line containing two space separated integers
 - 0 ≤ **M** ≤ **100000** (**105**)
 - **1** ≤ **i**, **j** ≤ **N**
 - **i** ≠ **j**
-- For any pair of employees **_i_** and **_j_** such that **1** ≤ **i** < **j** ≤ **N**, at most one pair among (**i**, **j**) and (**j**, **i**) will appear in the input
+- For any pair of employees ***i*** and ***j*** such that **1** ≤ **i** < **j** ≤ **N**, at most one pair among (**i**, **j**) and (**j**, **i**) will appear in the input
 
 ### Example
 
@@ -117,7 +117,8 @@ For each test case, output a single line containing two space separated integers
 2 3
 3 3
 3 8
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** Here employees 1 and 2 are friends and should share the same fire escape. Also employees 2 and 3 share the same fire escape. This means employees 1, 2 and 3 will have a common route. But to maximize number of routes Chef could assign another route to employee 4 since it is not a friend of other employee. So we have two escape routes with the following distribution of employees by routes: {1, 2, 3}, {4}. Therefore, there are 3 ways to chose drill captains: (1, 4), (2, 4), (3, 4), where first element in the pair denotes the captain for the first route and second element denotes the captain for the second route.
 

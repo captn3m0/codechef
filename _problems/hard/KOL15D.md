@@ -67,6 +67,7 @@ For each person arriving, output the seat number that he occupies. ### Constrain
 1
 1
 </pre>
+
 **Explanation:**
 Initially both seats are empty (x denotes empty seat and number denotes id of person occupying it):
 xx

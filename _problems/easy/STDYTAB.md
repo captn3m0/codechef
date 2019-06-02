@@ -69,7 +69,7 @@ time:
     current: 1493558190
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JUNE15/mandarin/STDYTAB.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE15/russian/STDYTAB.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JUNE15/mandarin/STDYTAB.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE15/russian/STDYTAB.pdf).
 
 Let's consider a rectangular table **R** consisting of **N** rows and **M** columns. Rows are enumerated from **1** to **N** from top to bottom. Columns are enumerated from 1 to **M** from left to right. Each element of **R** is a non-negative integer. **R** is called **steady** if the sum of elements in the **ith** row is not less then the sum of elements in the **(i-1)th** row for each **i** where **2 ≤ i ≤ N** and the sum of elements in the **Nth** row is less than or equal to **M**. Your task is to find the number of different steady tables of size **N x M** modulo **1 000 000 000**.
 
@@ -104,6 +104,7 @@ For each test case, print a single integer corresponding to the answer.
 2
 25
 273
-</pre>### Explanation
+</pre>
+### Explanation
 
 Test case 1 : There are only 2 such grids possible 0 and 1.

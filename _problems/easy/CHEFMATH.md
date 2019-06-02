@@ -82,7 +82,9 @@ f(0) = 1;
 f(1) = 2; 
 For i > 1 : f(i) = f(i - 1) + f(i - 2)
 
-</pre>Chef asked you to help him with this task. There will be **Q** question of form **X, K** : How many different ways are there to create **X** by adding **K** Chefonacci numbers. Note that the order of numbers in the addition does not matter, i.e. (f(i) + f(j) + f(k)) and (f(j) + f(i) + f(k)) will not be counted as distinct ways. Also note that you are allowed to use a Chefonacci number any number of times (zero or more).
+</pre>
+
+Chef asked you to help him with this task. There will be **Q** question of form **X, K** : How many different ways are there to create **X** by adding **K** Chefonacci numbers. Note that the order of numbers in the addition does not matter, i.e. (f(i) + f(j) + f(k)) and (f(j) + f(i) + f(k)) will not be counted as distinct ways. Also note that you are allowed to use a Chefonacci number any number of times (zero or more).
 
 As the answer could be large, print your answer modulo **109 + 7 (1000000007)**.
 
@@ -140,7 +142,8 @@ For each question, output a separate line containing the answer of the question.
 1
 2
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**
 There is no way to create 12 by adding one Chefonacci number, as 12 is not a Chefonacci number.

@@ -87,7 +87,8 @@ The alphabets need not be adjacent in any way.
 IBC
 DEF
 AJN
-</pre>In the above configuration, **"CAN"**, is a valid word.
+</pre>
+In the above configuration, **"CAN"**, is a valid word.
 
 **Note 2:**
 
@@ -96,12 +97,14 @@ Consider a **2 \* 2** of the grid
 <pre><pre style="font-family:monospace">
 BE
 ED
-</pre>Let the dictionary be:
+</pre>
+Let the dictionary be:
 
 <pre><pre style="font-family:monospace">
 BED
 BEE
-</pre>Say a player made the word **"BED"**. This word can be make in two ways:
+</pre>
+Say a player made the word **"BED"**. This word can be make in two ways:
 
 <pre><pre style="font-family:monospace">
 --
@@ -111,12 +114,14 @@ or
 
 -E
 --
-</pre>Note that after making **"BED"**, not all the **E**(s) are inactive. However, after **"BEE"** is created, both **E**s are inactive, namely the board will be
+</pre>
+Note that after making **"BED"**, not all the **E**(s) are inactive. However, after **"BEE"** is created, both **E**s are inactive, namely the board will be
 
 <pre><pre style="font-family:monospace">
 --
 -D
-</pre>### Input
+</pre>
+### Input
 
 The first line of input contains **D** denoting the number of words in the dictionally.
 The next **D** lines contain words in the dictionally.

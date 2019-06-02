@@ -70,7 +70,7 @@ time:
     current: 1493557800
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JUNE15/mandarin/MOREFB.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE15/russian/MOREFB.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JUNE15/mandarin/MOREFB.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE15/russian/MOREFB.pdf).
 
 Apurva is obsessed with Fibonacci numbers. She finds Fibonacci numbers very interesting. Fibonacci numbers can be defined as given below.
 
@@ -121,6 +121,7 @@ Print a single integer representing the answer.
 
 <b>Output:</b>
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 **FIBOSUM(S)**  = Fib(1) + Fib(2) + Fib(3) = 4.

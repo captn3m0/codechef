@@ -115,7 +115,8 @@ Starting from intersection 0, the Chef will visit these clients in the order the
 1 3 2
 2 4 8 10 3 5 7 9 1 6
 1 2 3 4 5 6 7 8 9 10
-</pre>### Explanation of Sample Data
+</pre>
+### Explanation of Sample Data
 
 The optimal solution for the first test case is actually 1 2 3, but 1 3 2 is a valid ordering according to the problem description so it is accepted. Client 1 only waits 1 unit of time to be served. The time to travel from client 1 to client 3 is 100 units of time so client 3 must wait a total of 101 units of time to be served. Then, traveling from client 3 to client 2 takes 111 units of time so client 2 waits a total of 212 units of time to be served. Thus, the average amount of time it takes for a client to be served is then (1 + 101 + 212)/3 = 314/3 and that will be the score for the output on this test case.
 

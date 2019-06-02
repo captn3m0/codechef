@@ -69,16 +69,16 @@ time:
     current: 1493557974
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME09/mandarin/SEARRAYS.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME09/russian/SEARRAYS.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME09/mandarin/SEARRAYS.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME09/russian/SEARRAYS.pdf).
 
 ### Sereja and Arrays
 
-Sereja have an array that consist of _n_ integers _a_1, _a_2, ..., _a__n_ (0 ≤ _a__i_ ≤ 1). Sereja can make next operation:
+Sereja have an array that consist of *n* integers *a*1, *a*2, ..., *a**n* (0 ≤ *a**i* ≤ 1). Sereja can make next operation:
 
-- fix some integer _i_ (1 ≤ _i_ ≤ _n_ - _k_ + 1)
-- subtract _1_ from values: _a__i_, _a__i_ + 1, ..., _a__i_ + _k_ - 1
+- fix some integer *i* (1 ≤ *i* ≤ *n* - *k* + 1)
+- subtract *1* from values: *a**i*, *a**i* + 1, ..., *a**i* + *k* - 1
 
-Sereja call array _a_ _good_ if it is possible to make some operations, that he can and get array that contain only zeros. Now Sereja interested in next question: how many good arrays _a_ with length _n_ exist?
+Sereja call array *a* *good* if it is possible to make some operations, that he can and get array that contain only zeros. Now Sereja interested in next question: how many good arrays *a* with length *n* exist?
 
 
 
@@ -86,12 +86,12 @@ Sereja call array _a_ _good_ if it is possible to make some operations, that he 
 
 
 
-First line contain integer _T_ — number of testcases. _T_ tests follow. Each testcase is given by two integers _n_ and _k_.
+First line contain integer *T* — number of testcases. *T* tests follow. Each testcase is given by two integers *n* and *k*.
 
 ### Constrains
 
-- 1 ≤ _T_ ≤ 10
-- 1 ≤ _k_ ≤ _n_ ≤ 105
+- 1 ≤ *T* ≤ 10
+- 1 ≤ *k* ≤ *n* ≤ 105
 
 
 
@@ -109,11 +109,15 @@ For each testcase output answer modulo 109 + 7.
 
 Input
 
-`<pre class="content">3<br></br>3 3<br></br>5 2<br></br>5 1<br></br>`
+<pre><pre class="content">3<br></br>3 3<br></br>5 2<br></br>5 1<br></br>
+</pre>
+
 
 Output
 
-`<pre class="content">2<br></br>8<br></br>32<br></br>`
+<pre><pre class="content">2<br></br>8<br></br>32<br></br>
+</pre>
+
 
 
 

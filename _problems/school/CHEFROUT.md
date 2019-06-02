@@ -111,7 +111,8 @@ yes
 yes
 no
 no
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** "CES" can correspond to a possible record of activities of Chef. He starts the day with cooking, then eating and then sleeping.
 

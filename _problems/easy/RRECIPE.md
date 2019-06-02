@@ -99,7 +99,8 @@ aba
 1
 0
 1
-</pre>### Constraints
+</pre>
+### Constraints
 
 1 ≤ T ≤ 20
 

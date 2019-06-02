@@ -65,9 +65,9 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
-All submissions for this problem are available.**Attention!** _This is challenge problem with the longest problem statement ever (it is even longer than for the legendary problem [CIELHACK](http://www.codechef.com/OCT12/problems/CIELHACK)). You should invest some time in order to get all necessary points. But in the end there is a hint on how to get **Accepted**. So you will be awarded for your patience :)_
+All submissions for this problem are available.**Attention!** *This is challenge problem with the longest problem statement ever (it is even longer than for the legendary problem [CIELHACK](http://www.codechef.com/OCT12/problems/CIELHACK)). You should invest some time in order to get all necessary points. But in the end there is a hint on how to get **Accepted**. So you will be awarded for your patience :)*
 
-Let's play [WordNinjas](https://itunes.apple.com/us/app/wordninjas/id472994571?mt=8)! (_**Note!** CodeChef is not affiliated with iTunes/Apple in any ways :)_)
+Let's play [WordNinjas](https://itunes.apple.com/us/app/wordninjas/id472994571?mt=8)! (***Note!** CodeChef is not affiliated with iTunes/Apple in any ways :)*)
 
 In short, you should create words from letters that your ninja will get by attacking tiles. Some special tiles contain bonuses.
 
@@ -89,13 +89,13 @@ You will get 2 points by taking tiles of the last four types since each such til
 
 **How many points will you get for a particular word?** Each letter has some point value which is based on the letter's frequency in standard English writing: commonly used letters such as **A** or **S** are worth one point, while less common letters score higher, with **Q** and **Z** each worth 10 points. The full distribution of points by letters coincides with the standard Scrabble's one and can be found [here](http://en.wikipedia.org/wiki/Scrabble_letter_distributions#English). For the sake of completeness we provide it here:
 
-- _1 point_: **A**, **E**, **I**, **L**, **N**, **O**, **R**, **S**, **T**, **U**
-- _2 points_: **D**, **G**
-- _3 points_: **B**, **C**, **M**, **P**
-- _4 points_: **F**, **H**, **V**, **W**, **Y**
-- _5 points_: **K**
-- _8 points_: **J**, **X**
-- _10 points_: **Q**, **Z**
+- *1 point*: **A**, **E**, **I**, **L**, **N**, **O**, **R**, **S**, **T**, **U**
+- *2 points*: **D**, **G**
+- *3 points*: **B**, **C**, **M**, **P**
+- *4 points*: **F**, **H**, **V**, **W**, **Y**
+- *5 points*: **K**
+- *8 points*: **J**, **X**
+- *10 points*: **Q**, **Z**
 
 Now assume that you play a word of length **L**, where **2 ≤ L ≤ 7** (there are no words of length 1 in SOWPODS). Denote by **C\[i\]** the score of the **i**-th letter in this word according to the distribution above. As mentioned above, if some letter is created from the blank tile then the corresponding score is 0. Further denote by **M\[i\]** the multiplier of the **i**-th cell of the array and by **M** the multiplier of the whole array. Then the number of points you will get for this word equals to
 
@@ -195,7 +195,8 @@ Take E
 Take 2
 Throw ED
 Play CHEF
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Output 1:**
 
@@ -217,6 +218,6 @@ The dictionary will be the same in all official test files and can be found [her
 
 ### Hint
 
-_In order to get **Accepted** you can simply output **M** times string **Take A** and then output **Play AA**_.
+*In order to get **Accepted** you can simply output **M** times string **Take A** and then output **Play AA***.
 
 Why is this correct? Since special judge ignores tries to take incorrect tiles, all your moves for blocks that do not contain tile with letter **A** will be considered as skip moves. In the end you will definitely have all 7 positions in the array filled by letters **A** since there are **810** tiles with letter **A** in the input. Since **AA** is a correct word and the special judge will throw away unnecessary tiles before playing the word, you will successfully play the word **AA** in the end.

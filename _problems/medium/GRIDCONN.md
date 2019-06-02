@@ -70,7 +70,7 @@ time:
     current: 1493557679
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME18/mandarin/GRIDCONN.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME18/russian/GRIDCONN.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME18/mandarin/GRIDCONN.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME18/russian/GRIDCONN.pdf).
 
 The problem is completely unrelated to its problem code :).
 
@@ -108,6 +108,7 @@ For each test case, output a single line containing the minimal position number 
 <b>Output:</b>
 7
 2679
-</pre>### Explanation
+</pre>
+### Explanation
 
 Please pay attention that in the second test case the answer is not 788, as it may seem at first glance. This is because the part 2982**9930**0301 doesn't contain any integer completely in it - neither 299, nor 300. But the part 92892**9930**931932 contains the integer 930 completely.

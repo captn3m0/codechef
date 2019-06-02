@@ -111,7 +111,8 @@ For each test case, output a single line with the answer. ### Constraints
 <b>Output:</b>
 1
 6
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 2.** In this case, one possible way in which Sereja can perform the operations could be as follows.
 

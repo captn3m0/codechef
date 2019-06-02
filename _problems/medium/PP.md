@@ -108,6 +108,7 @@ abb
 
 <b>Output:</b>
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 ab|a and abb|a

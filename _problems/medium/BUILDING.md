@@ -32,9 +32,13 @@ Output on a single line an integer which is the minimum cost found.
 
 **Input:**
 
-`4 3 1 4<br></br>1 3 5<br></br>3 3 4<br></br>2 2 1<br></br>2 1 2<br></br>`**Output:**
+<pre>4 3 1 4<br></br>1 3 5<br></br>3 3 4<br></br>2 2 1<br></br>2 1 2<br></br>
+</pre>
+**Output:**
 
-`2<br></br>`### Limitations
+<pre>2<br></br>
+</pre>
+### Limitations
 
 - 2 <= w,h <= 1 000
 - 0 <= n <= 200 000

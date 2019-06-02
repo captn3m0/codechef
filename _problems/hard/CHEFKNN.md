@@ -129,7 +129,8 @@ For each test case, print a single line containing one integer — the number of
 3
 5
 6
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** the final array can be \[0, 1\], \[1, 0\] or \[1, 1\].
 

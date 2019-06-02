@@ -68,7 +68,7 @@ time:
     current: 1493558169
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MARCH14/mandarin/MIKE3.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH14/russian/MIKE3.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MARCH14/mandarin/MIKE3.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH14/russian/MIKE3.pdf).
 
 Mike is fond of collecting stamps. He has a lot of rare and unusual ones in his collection. Unfortunately, a few days ago he was fired from his well-paid job.
 
@@ -106,6 +106,7 @@ Output should contain the only integer, denoting the maximal number of the offer
 
 <b>Output:</b>
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the example test Mike should accept the first and the third offer.

@@ -146,7 +146,8 @@ For each test case, output a single line containing the number of unsuccessful t
 <b>Output:</b>
 20
 13
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**
 

@@ -68,7 +68,7 @@ time:
     current: 1493558212
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/APRIL14/mandarin/BINTREE.pdf) and [Russian](http://www.codechef.com/download/translated/APRIL14/russian/BINTREE.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/APRIL14/mandarin/BINTREE.pdf) and [Russian](http://www.codechef.com/download/translated/APRIL14/russian/BINTREE.pdf).
 
 Consider an infinite full binary tree (each node has two children except the leaf nodes) defined as follows. For a node labelled **v** its left child will be labelled **2\*v** and its right child will be labelled **2\*v+1**. The root is labelled as **1**.
 
@@ -99,6 +99,7 @@ For each query, print the required answer in one line.
 1
 2
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 For first query, 1 is directly connected to 2 by an edge. Hence distance 1.

@@ -119,12 +119,14 @@ For each of the chef's question, Print the maximum number of birds he can feed.
 10
 15
 
-<pre>**Output**```
+<pre>
+**Output**```
 
 2
 4
 5
-</pre>### Explanation
+</pre>
+### Explanation
 
 ![](https://s3.amazonaws.com/hr-challenge-images/16094/1456949882-92fd6e6d3e-final.jpg "final.jpg")There are these 10 birds possible with their hungriness as follows:
 
@@ -139,5 +141,6 @@ For each of the chef's question, Print the maximum number of birds he can feed.
 (H) 2
 (I) 0
 (J) 3
-</pre>Note that bird **(I)** is not hungry and therefore we don't need to feed it. 31. With **5** grams of grains, we can only feed maximum of **2** birds say birds **(C)** and **(F)**.
+</pre>
+Note that bird **(I)** is not hungry and therefore we don't need to feed it. 31. With **5** grams of grains, we can only feed maximum of **2** birds say birds **(C)** and **(F)**.
 32. With **10** grams of grains, we can only feed at maximum of **4** birds say birds **(C), (F), (G)** and **(H)**.

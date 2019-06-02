@@ -132,7 +132,8 @@ All submissions for this problem are available.###  Read problems statements in 
 <b>Output:</b>
 1 4 8 4 5 
 
-</pre>### Explanation
+</pre>
+### Explanation
 
  The first lexicographically valid sequence is equal to (0, 5, 9, 5, 4);
 

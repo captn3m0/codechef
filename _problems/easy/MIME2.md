@@ -39,7 +39,8 @@ nodotsatall
 virus.exe
 dont.let.the.png.fool.you
 case.matters.TXT
-</pre>### Sample Output
+</pre>
+### Sample Output
 
 <pre>text/html
 text/plain

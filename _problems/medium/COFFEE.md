@@ -70,7 +70,7 @@ time:
     current: 1493557915
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME28/mandarin/COFFEE.pdf) , [Russian](http://www.codechef.com/download/translated/LTIME28/russian/COFFEE.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME28/vietnamese/COFFEE.pdf)
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME28/mandarin/COFFEE.pdf) , [Russian](http://www.codechef.com/download/translated/LTIME28/russian/COFFEE.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME28/vietnamese/COFFEE.pdf)
 
 Sergey works as a programmer. Like all programmers, he is a coffee fan. He likes coffee so much that has **K** cups of coffee daily. However, having more than **K** cups doesn't suit him, because the excess caffeine won't allow him to sleep at night.
 
@@ -112,6 +112,7 @@ For each test case, output a single line containing the maximum number of kiloby
 <b>Output:</b>
 <tt>110</tt>
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** Sergey will have coffee during the periods numbered **1** and **3**. In these periods, the amount of code he produces will be zero, but during the rest, his code production quantities will get multiplied by **10**. Thus, we will write **(2 + 4 + 5) \* 10** KB of code.

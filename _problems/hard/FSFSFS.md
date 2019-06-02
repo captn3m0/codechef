@@ -102,6 +102,7 @@ For each test case, output the answer per line.
 2
 2
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first case, you can either remove 2 or remove both 1 and 2. In the second case, you can either remove 2, 3, 5 or remove 1, 2, 3, 5.

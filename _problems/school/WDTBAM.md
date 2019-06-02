@@ -70,7 +70,7 @@ time:
     current: 1492506750
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/OCT15/mandarin/WDTBAM.pdf) and [Russian](http://www.codechef.com/download/translated/OCT15/russian/WDTBAM.pdf) 
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/OCT15/mandarin/WDTBAM.pdf) and [Russian](http://www.codechef.com/download/translated/OCT15/russian/WDTBAM.pdf) 
 
 Chef is going to participate in a new quiz show: "Who dares to be a millionaire?"
 
@@ -132,7 +132,8 @@ ABABABAB
 4
 100</tt>
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** If questions will be placed in order: **2nd** (Chef's answer is B, which is correct), **3rd** (Chef's answer is C, and it is correct as well), **4th** (Chef's answer is D, and he is right), **5th** (Chef's answer is A but correct answer is E and the game is over), **1st**, Chef will correctly answer **3** questions, and therefore win **30** dollars.
 

@@ -119,7 +119,8 @@ thequickbrownfoxjumpsoverthelazydog
 <b>Output:</b>
 63
 0
-</pre>### Explanation
+</pre>
+### Explanation
 
 <pre>
 First test

@@ -69,7 +69,7 @@ time:
     current: 1493558121
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME33/mandarin/CHEFSOCK.pdf), [Russian](http://www.codechef.com/download/translated/LTIME33/russian/CHEFSOCK.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME33/vietnamese/CHEFSOCK.pdf) as well.
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME33/mandarin/CHEFSOCK.pdf), [Russian](http://www.codechef.com/download/translated/LTIME33/russian/CHEFSOCK.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME33/vietnamese/CHEFSOCK.pdf) as well.
 
 Today, Chef woke up to find that he had no clean socks. Doing laundry is such a turn-off for Chef, that in such a situation, he always buys new socks instead of cleaning the old dirty ones. He arrived at the fashion store with **money** rupees in his pocket and started looking for socks. Everything looked good, but then Chef saw a new jacket which cost **jacketCost** rupees. The jacket was so nice that he could not stop himself from buying it.
 
@@ -104,7 +104,8 @@ Unlucky Chef
 <b>Output:</b>
 Lucky Chef
 
-</pre>### Subtasks
+</pre>
+### Subtasks
 
 - **Subtask 1:**  **jacketCost, money, sockCost** ≤ 103. **Points - 20**
 - **Subtask 2:** Original constraints. **Points - 80**

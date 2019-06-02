@@ -69,9 +69,9 @@ time:
     current: 1493557953
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME15/mandarin/WALL1.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME15/russian/WALL.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME15/mandarin/WALL1.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME15/russian/WALL.pdf).
 
-_The Wall is a massive wall over 700 feet high and is made of ice, stretching 300 miles across the northern border of the Seven Kingdoms, separating it from the wild lands beyond. Appearing as one of the nine Wonders Made by Man in the book by Lomas Longstrider, the Wall is defended and held by the Sworn Brothers of the Night's Watch, who patrol and guard the castles from the Frostfangs mountain range in the west to the Bay of Seals in the east._
+*The Wall is a massive wall over 700 feet high and is made of ice, stretching 300 miles across the northern border of the Seven Kingdoms, separating it from the wild lands beyond. Appearing as one of the nine Wonders Made by Man in the book by Lomas Longstrider, the Wall is defended and held by the Sworn Brothers of the Night's Watch, who patrol and guard the castles from the Frostfangs mountain range in the west to the Bay of Seals in the east.*
 
 (c) A Wiki of Ice and Fire
 
@@ -118,7 +118,9 @@ begin
       IND = (A * IND + B) % M
 end
 
-</pre>### Note
+</pre>
+### Note
+
 Maybe, some of you aren't familiar with definitions from the statement. Here're some articles that could help you to understand the problem correctly:
 
 - Cartesian plane: [http://en.wikipedia.org/wiki/Cartesian\_plane](http://en.wikipedia.org/wiki/Cartesian_plane)

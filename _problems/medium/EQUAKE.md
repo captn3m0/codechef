@@ -69,7 +69,7 @@ time:
     current: 1493557641
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/AUG14/mandarin/EQUAKE.pdf) and [Russian](http://www.codechef.com/download/translated/AUG14/russian/EQUAKE.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/AUG14/mandarin/EQUAKE.pdf) and [Russian](http://www.codechef.com/download/translated/AUG14/russian/EQUAKE.pdf).
 
 Earthquake in Bytetown! Situation is getting out of control!
 
@@ -81,8 +81,8 @@ At any moment every building has the number that indicates its height (may have 
 
 Major of Bytetown got some ideas how to protect residents, so sometimes he needs such kind of stats: find height of the highest building on some interval. You are given information about all the heights before the very first shake and then you get queries of two types:
 
-- _Type 0_, described by **0 Li Ri Fi**: Shake occurred on interval **\[Li, Ri\]** with force **Fi**.
-- _Type 1_, described by **1 Li Ri**: The major wants to know the biggest height on interval **\[Li, Ri\]**.
+- *Type 0*, described by **0 Li Ri Fi**: Shake occurred on interval **\[Li, Ri\]** with force **Fi**.
+- *Type 1*, described by **1 Li Ri**: The major wants to know the biggest height on interval **\[Li, Ri\]**.
  
 Here, of course, the interval **\[L, R\]** contains all the building **k** such that **L ≤ k ≤ R**.
 
@@ -92,11 +92,11 @@ You want to get a promotion and promised to complete this task. Now it's time to
 
 Each test file contains only one test case.
 
- The first line of input contains an integer **N** denoting the number of buildings in Bytetown. The second line contains **N** space-separated integers **A0, A1, ..., AN−1** denoting the initial height of the buildings. The third line contains an integer **M** denoting the number of queries. Each of next **M** lines starts with 0 or **1**, where 0 denotes a query _Type 0_ and **1** denotes a _Type 1_ query. If it's a _Type 0_ query then **3** integers follows **Li**, **Ri**, **Fi**, denoting number of the leftmost building, number of the rightmost building and force of this shake. If it's a _Type 1_ query then **2** integers follows **Li**, **Ri**, denoting numbers of the leftmost building and the rightmost building of necessary segment.
+ The first line of input contains an integer **N** denoting the number of buildings in Bytetown. The second line contains **N** space-separated integers **A0, A1, ..., AN−1** denoting the initial height of the buildings. The third line contains an integer **M** denoting the number of queries. Each of next **M** lines starts with 0 or **1**, where 0 denotes a query *Type 0* and **1** denotes a *Type 1* query. If it's a *Type 0* query then **3** integers follows **Li**, **Ri**, **Fi**, denoting number of the leftmost building, number of the rightmost building and force of this shake. If it's a *Type 1* query then **2** integers follows **Li**, **Ri**, denoting numbers of the leftmost building and the rightmost building of necessary segment.
 
 ### Output
 
-For each _Type 1_ query, output an integer denoting the answer for the query without leading zeroes.
+For each *Type 1* query, output an integer denoting the answer for the query without leading zeroes.
 
 ### Constraints
 
@@ -127,12 +127,13 @@ For each _Type 1_ query, output an integer denoting the answer for the query wit
 71
 832
 3140
-</pre>### Explanation
+</pre>
+### Explanation
 
 The initial array: **\[17, 3140, 832\]**.
 
-The first query is a _Type 1_ query with numbers of buildings 0 and **2**, so the answer is the maximum of the array: **3140**.
+The first query is a *Type 1* query with numbers of buildings 0 and **2**, so the answer is the maximum of the array: **3140**.
 
-The second query is a _Type 0_ query with numbers of buildings 0 and **2**, and force **1**, so the array turns to: **\[71, 1403, 328\]**.
+The second query is a *Type 0* query with numbers of buildings 0 and **2**, and force **1**, so the array turns to: **\[71, 1403, 328\]**.
 
-The third query is a _Type 1_ query again with numbers of buildings **1** and **2**, so the answer is the maximum of **1403** and **328**: **1403**
+The third query is a *Type 1* query again with numbers of buildings **1** and **2**, so the answer is the maximum of **1403** and **328**: **1403**

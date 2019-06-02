@@ -114,7 +114,8 @@ For each test case, output a single integer denoting the number of pairs of stud
 0
 1
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** The updated configuration will be . No students are talking to each other, so no one will be punished.
 

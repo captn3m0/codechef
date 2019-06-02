@@ -113,7 +113,8 @@ For each query, output a single line containing the minimal total cost to add al
 <b>Output:</b>
 40
 6
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Query 1.**
 

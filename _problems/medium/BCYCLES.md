@@ -115,7 +115,8 @@ In the next **C** lines describe one cycle per line: the i-th line should contai
 6 3 6 2 5 1 4
 6 3 5 2 4 1 6
 6 3 5 1 6 2 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 The following image depicts the three cycles in the output of the sample case. Note that for every edge in the original graph, there are two cycles that contain it.
 

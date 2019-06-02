@@ -114,7 +114,8 @@ For each test case, output a line containing the answer for the task.
 <b>Output:</b>
 <tt>4
 8</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 'L' - needs left
 'R - needs right

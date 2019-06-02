@@ -121,7 +121,8 @@ For each test case, output a single line containing an integer corresponding to 
 <tt>2
 3
 3</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
  In Test **1**, Lumpy has just **3** one rupee coins. He can pay creatures numbered **{1, 2}** or creatures numbered **{1, 3}** with these coins. Thus, answer is 2.
 

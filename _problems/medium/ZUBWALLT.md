@@ -65,7 +65,8 @@ For each test case, print the minimum number of steps required to organize the w
 <tt>1
 2
 </tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Testcase 1**: We can move the last 100 rupee note and insert it to the right of 1st 100 rupee note. The result would be 500 500 100 100 200 200.
 

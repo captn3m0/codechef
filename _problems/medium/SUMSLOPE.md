@@ -28,13 +28,15 @@ Sample Input :
 1 100
 100 150
 
-</pre><pre>
+</pre>
+<pre>
 Sample Output :
 1
 0
 19
 
-</pre><pre>
+</pre>
+<pre>
 Constraints :
 1 <= T <= 50000
 1 <= A <= B <= 1000000000000000 (10^15)

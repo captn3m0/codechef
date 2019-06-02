@@ -68,7 +68,7 @@ time:
     current: 1493558135
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/SNCK151C/mandarin/DEVJERRY.pdf) , [Russian](http://www.codechef.com/download/translated/SNCK151C/russian/DEVJERRY.pdf) and [Vietnamese](http://www.codechef.com/download/translated/SNCK151C/vietnamese/DEVJERRY.pdf)
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/SNCK151C/mandarin/DEVJERRY.pdf) , [Russian](http://www.codechef.com/download/translated/SNCK151C/russian/DEVJERRY.pdf) and [Vietnamese](http://www.codechef.com/download/translated/SNCK151C/vietnamese/DEVJERRY.pdf)
 
 Devu loves to play with his dear mouse Jerry. One day they play a game on 2 dimensional grid of dimensions **n \* n** (**n** ≥ 2). Jerry is currently at coordinates **(sx, sy)** and wants to move to location **(ex, ey)** where cheese is placed by Devu. Also Devu is very cunning and has placed a bomb at location **(bx, by)**. All these three locations are distinct.
 
@@ -100,7 +100,8 @@ In a single move, Jerry can go either up, down, left or right in the grid such t
 <b>Output:</b>
 2
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** ...
 

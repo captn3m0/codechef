@@ -76,7 +76,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 Chef is given a tree of **N** nodes. Let M denote the number of simple paths with at least two nodes. Notice that M = **N \* (N - 1) / 2**.
 
-There are (M \* (M - 1) \* (M - 2) / 6) unordered triples of such paths. Your task is to count how many of them are nice. A triple of paths (**A**, **B**, **C**) is _nice_ if and only if **either** of the following conditions is satisfied:
+There are (M \* (M - 1) \* (M - 2) / 6) unordered triples of such paths. Your task is to count how many of them are nice. A triple of paths (**A**, **B**, **C**) is *nice* if and only if **either** of the following conditions is satisfied:
 
 - The three paths are pairwise disjoint (no two of them share a node).
 - Each pair of paths intersect with each other. In other words: paths **A** and **B** share at least one node, paths **A** and **C** share at least one node, and also paths **B** and **C** share at least one node.
@@ -138,7 +138,8 @@ Each of the next **N-1** lines contains two integers **a**i and **b**i denoting 
 
 <b>Output 2:</b>
 <tt>43484</tt>
-</pre>###  Explanation
+</pre>
+###  Explanation
 
  **Example test 1.** Let (**x**, **y**) denote the simple path between nodes **x** and **y**. There are **16** nice triples of paths: - (1, 2), (1, 3), (1, 4)
 - (1, 2), (1, 3), (2, 3)

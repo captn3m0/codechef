@@ -125,7 +125,8 @@ For each test case, output a single line containing a single integer, which is t
 2
 2
 </tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** The answer is 2 because we can change the string to: 110101011
 

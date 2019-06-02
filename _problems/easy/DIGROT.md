@@ -30,7 +30,8 @@ For each test case, print the largest integer that can result from performing on
 211011
 7
 90
-</pre>### Sample Output
+</pre>
+### Sample Output
 
 <pre>51234
 54321

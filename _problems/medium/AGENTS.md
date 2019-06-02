@@ -73,7 +73,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/COOK57/mandarin/AGENTS.pdf) and [Russian](http://www.codechef.com/download/translated/COOK57/russian/AGENTS.pdf) as well.
 
-A _special agent_ is usually the title for a detective or investigator for a state, county, municipal, federal or tribal government who conducts criminal investigations and has arrest authority. An agent is a federal law enforcement officer with arrest authority but who does not conduct major criminal investigations or who may conduct investigations but does not have arrest authority. Special agents are distinctly able to do both.
+A *special agent* is usually the title for a detective or investigator for a state, county, municipal, federal or tribal government who conducts criminal investigations and has arrest authority. An agent is a federal law enforcement officer with arrest authority but who does not conduct major criminal investigations or who may conduct investigations but does not have arrest authority. Special agents are distinctly able to do both.
 
 Special agents are often involved in breaking secret ciphers. In this problem we'll consider one of the challenges that agents usually face while decrypting secret messages.
 
@@ -122,7 +122,8 @@ It's guaranteed that the correct polynomial **P(x)** is not a zero polynomial.
 1
 -1.5 2
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the sample case, we are given the following data:
 

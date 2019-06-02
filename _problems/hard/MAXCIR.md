@@ -127,7 +127,8 @@ Output should contain a single real number rounded to exactly **13** digits afte
 
 <b>Output 2:</b>
 7.8416192529638
-</pre>### Explanation:
+</pre>
+### Explanation:
 
 **Case 1.** Here the optimal way is to use the 1st and the 3rd spell cards. The new coordinates of the point **A** will be **(1, 2)**. So the circumference of the new triangle **ABC** is: **|(1, 2) − (1, 0)| + |(1, 0) − (-1, 0)| + |(-1, 0) − (1, 2)| = 4 + 2 \* sqrt(2)**.
 

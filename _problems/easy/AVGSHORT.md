@@ -74,7 +74,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME39/mandarin/AVGSHORT.pdf), [Russian](http://www.codechef.com/download/translated/LTIME39/russian/AVGSHORT.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME39/vietnamese/AVGSHORT.pdf) as well.
 
-There are a lot of problems related to the shortest paths. Nevertheless, there are not much problems, related to the shortest paths _in average_.
+There are a lot of problems related to the shortest paths. Nevertheless, there are not much problems, related to the shortest paths *in average*.
 
 Consider a directed graph **G**, consisting of **N** nodes and **M** edges. Consider a walk from the node **A** to the node **B** in this graph. The average length of this walk will be total sum of weight of its' edges divided by number of edges. Every edge counts as many times as it appears in this path.
 
@@ -92,7 +92,7 @@ The next line contains a pair of space separated integers **A** and **B**, denot
 
 ### Output
 
-For each test case, output a single line containing the length of the shortest path _in average_.
+For each test case, output a single line containing the length of the shortest path *in average*.
 
 If there is no path at all, output just **-1** on the corresponding line of the output.
 
@@ -130,6 +130,7 @@ If there is no path at all, output just **-1** on the corresponding line of the 
 <b>Output:</b>
 <tt>1.5
 1.0</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** The walk 1 -> 2 and 2 -> 3 has average length of 3/2 = 1.5. Any other walks in the graph will have more or equal average length than this.

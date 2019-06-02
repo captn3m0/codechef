@@ -80,7 +80,7 @@ You are given a matrix **B** with size **N × N**. Each element of this matrix i
 
 Determine if it's possible to express **B** as **A · AT**, where **A** is a matrix of integers with size **N × N**. (Here, **AT** is the transpose of **A**; see below for its definition.) If it is possible, find the lexicographically smallest **A** such that **B** = **A · AT**.
 
-The _transpose_ of a matrix is created by flipping that matrix around its main diagonal — formally, the element at row **i** and column **j** of matrix **AT** is the same as the element at row **j** and column **i** of matrix **A**, for each valid **i**, **j**. For more details, see [Wikipedia](https://en.wikipedia.org/wiki/Transpose).
+The *transpose* of a matrix is created by flipping that matrix around its main diagonal — formally, the element at row **i** and column **j** of matrix **AT** is the same as the element at row **j** and column **i** of matrix **A**, for each valid **i**, **j**. For more details, see [Wikipedia](https://en.wikipedia.org/wiki/Transpose).
 
 For two matrices **C** and **D** with size **N × N**, we will say that **C** is lexicographically smaller than **D** if the sequence **c** = **C1,1, C1,2, ..., C1,N, C2,1, C2,2, ..., C2,N, ..., CN,1, ..., CN,N** is lexicographically smaller than **d** = **D1,1, D1,2, ..., D1,N, D2,1, D2,2, ..., D2,N, ..., DN,1, ..., DN,N**. That is, there must be a valid index **i** such that **ci** and **di** differ, and the smallest such index must satisfy **ci** < **di**.
 
@@ -114,6 +114,7 @@ For each test case: - If no valid matrix **A** exists, print a single line conta
 <b>Output:</b>
 -1 0
 1 0
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** You can check by brute force that this is the lexicographically smallest possible valid matrix **A**.

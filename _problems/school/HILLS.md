@@ -122,7 +122,8 @@ For each test case, print a single line containing one integer — the index of 
 3
 5
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** Chef can jump to second hill because it's higher by no more than **U**=3 than first hill, to jump to third hill Chef has to use parachute because it's lower than second hill by 3 which is more than **D**=2, Chef can't jump to fourth hill because it's higher than third hill by 4 which is more than **U**=3
 

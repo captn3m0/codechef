@@ -132,7 +132,8 @@ front
 both
 back
 none
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** The glove can be worn normally, with its front side facing Chef. The lengths of the glove sheaths are 2, 3, 4. The lengths of the fingers are 1, 2, 3. Each of the fingers will fit in the corresponding glove sheath, that is, 1 ≤ 2, 2 ≤ 3 and 3 ≤ 4.
 

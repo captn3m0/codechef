@@ -109,7 +109,8 @@ For each test case, output **n** space separated integers corresponding to answe
 
 <b>Output</b>
 0 3 4 4 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example 1**. The degree of the nodes are \[1, 3, 1, 2, 1\].
 

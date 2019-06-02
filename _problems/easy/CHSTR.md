@@ -72,7 +72,7 @@ time:
     current: 1493558214
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JUNE15/mandarin/CHSTR.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE15/russian/CHSTR.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JUNE15/mandarin/CHSTR.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE15/russian/CHSTR.pdf).
 
 Chef has a string **S** consisting of **N** lowercase English alphabets. He has prepared a list **L** consisting of all non empty [substrings](http://en.wikipedia.org/wiki/Substring) of the string **S**.
 
@@ -126,7 +126,8 @@ ababa
 15
 1
 0
-</pre>### Explanation
+</pre>
+### Explanation
 
 **L** = {**"a", "b", "a", "b", "a", "ab", "ba", "ab", "ba", "aba", "bab", "aba", "abab", "baba", "ababa"**}.
 

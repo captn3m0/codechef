@@ -70,7 +70,7 @@ time:
     current: 1493558120
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MAY15/mandarin/CHEFRP.pdf) and [Russian](http://www.codechef.com/download/translated/MAY15/russian/CHEFRP.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MAY15/mandarin/CHEFRP.pdf) and [Russian](http://www.codechef.com/download/translated/MAY15/russian/CHEFRP.pdf).
 
 Rupsa recently started to intern under Chef. He gave her **N** type of ingredients of varying quantity  **A1, A2, ..., AN** respectively to store it. But as she is lazy to arrange them she puts them all in a storage box.
 
@@ -111,7 +111,8 @@ She, being lazy, wants to know the maximum number of times she would need to pic
 <b>Output:</b>
 4
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 - **In Example 1,** she need to pick up all items.
 - **In Example 2,** since there is only one type of ingredient, picking two items is enough.

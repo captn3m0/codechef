@@ -53,6 +53,7 @@ ab1231da
 
 <b>Output:</b>
 7
-</pre>### Explanation
+</pre>
+### Explanation
 
 The digits in this string are 1, 2, 3 and 1. Hence, the sum of all of them is 7.

@@ -132,7 +132,8 @@ Output **K** space separated integers denoting the indices of the nodes in the o
 
 <b>Output:</b>
 <tt>2 14 6</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 The above example is well illustrated through following figures. Infection is represented by red circle and vaccination is represented by green circle. At the end of the process nodes 2, 3, 4, 6, 9 and 14 are saved. The sum of the weights of these nodes is 21. So, the score is 21.
 

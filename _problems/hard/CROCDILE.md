@@ -67,7 +67,7 @@ layout: problem
 ---
 All submissions for this problem are available.Archaeologist Benjamas is running for her life after investigating the mysterious Crocodile's Underground City. The city has **N** chambers. There are **M** bidirectional corridors, each connecting a different pair of distinct chambers. Running through different corridors may require different amounts of time. Only **K** of the **N** chambers are exit chambers that allow her to escape. Benjamas starts in chamber 0. She wants to reach an exit chamber as quickly as possible.
 
-The Crocodile gatekeeper wants to prevent Benjamas from escaping. From his den, he controls secret doors that can block any _single_ corridor. That is, whenever he blocks a new corridor, the previously blocked one has to be reopened.
+The Crocodile gatekeeper wants to prevent Benjamas from escaping. From his den, he controls secret doors that can block any *single* corridor. That is, whenever he blocks a new corridor, the previously blocked one has to be reopened.
 
 Benjamas's situation can be described as follows: Each time she tries to leave a chamber, the Crocodile gatekeeper may choose to block one of the corridors adjacent to it. Benjamas then chooses and follows one of the unblocked corridors to the next chamber. Once Benjamas enters a corridor, the Crocodile gatekeeper may not block it until Benjamas reaches the other end. Once she enters the next chamber, the gatekeeper may again choose to block one of the outgoing corridors (possibly the corridor that Benjamas just followed), and so on.
 
@@ -77,7 +77,7 @@ She would like to have a simple escape plan in advance. More precisely, she woul
 - "Don't bother about chamber **A**; according to this escape plan you cannot possibly reach
   it."
 
-Note that in some cases (for example, if your plan directs Benjamas to run in a cycle) the gatekeeper may be able to prevent Benjamas from reaching an exit. An escape plan is good if Benjamas is guaranteed to reach an exit chamber after a finite amount of time, regardless of what the _gatekeeper_ does. For a good escape plan, let **T** be the smallest time such that after time **T**, Benjamas is guaranteed to reach an exit. In that case, we say that the _good escape plan_ takes time **T**.
+Note that in some cases (for example, if your plan directs Benjamas to run in a cycle) the gatekeeper may be able to prevent Benjamas from reaching an exit. An escape plan is good if Benjamas is guaranteed to reach an exit chamber after a finite amount of time, regardless of what the *gatekeeper* does. For a good escape plan, let **T** be the smallest time such that after time **T**, Benjamas is guaranteed to reach an exit. In that case, we say that the *good escape plan* takes time **T**.
 
 Let us assume that:
 
@@ -111,10 +111,13 @@ Output an integer, denoting the smallest time **T** for which there exists a goo
 3 2 1
 2 4 4
 1 3 4
-</pre>**Output**
+</pre>
+**Output**
 />
 
-`7`**Explaination**: Consider the case shown in Figure 1, where **N=5, M=4, K=3**, and
+<pre>7
+</pre>
+**Explaination**: Consider the case shown in Figure 1, where **N=5, M=4, K=3**, and
 
 
 ![croc](http://www.codechef.com/download/croc.png)
@@ -143,11 +146,13 @@ Chambers are shown as circles, and corridors connecting them are shown as lines.
 0 4 7
 3 4 9
 1 3
-</pre>**Output**
+</pre>
+**Output**
 
 <pre>
 14
-</pre>**Explaination**: Consider the case shown in Figure 2, where **N=5, M=7, K=2**, and
+</pre>
+**Explaination**: Consider the case shown in Figure 2, where **N=5, M=7, K=2**, and
 
 ![croc_1](http://www.codechef.com/download/croc_1.png)
  

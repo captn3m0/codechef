@@ -110,7 +110,8 @@ For each test case, output a single line containing two space separated integers
 <b>Output:</b>
 3 6
 5 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** The minimum number of sandwiches is 3, and there are 6 ways to make 2 cuts:
 

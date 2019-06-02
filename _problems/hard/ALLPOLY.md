@@ -138,6 +138,7 @@ For each test case, output a single real number denoting the probability of a su
 <b>Output:</b>
 <tt>0.25
 0.00045</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 The second example is depicted by the image above.

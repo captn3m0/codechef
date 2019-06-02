@@ -69,7 +69,7 @@ time:
     current: 1493558167
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JUNE14/mandarin/MAXPR.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE14/russian/MAXPR.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JUNE14/mandarin/MAXPR.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE14/russian/MAXPR.pdf).
 
 Maxim likes arithmetic progressions and does not like sequences which are not arithmetic progressions.
 

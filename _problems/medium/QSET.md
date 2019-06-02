@@ -71,7 +71,7 @@ time:
     current: 1493557868
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JAN15/mandarin/QSET.pdf) and [Russian](http://www.codechef.com/download/translated/JAN15/russian/QSET.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JAN15/mandarin/QSET.pdf) and [Russian](http://www.codechef.com/download/translated/JAN15/russian/QSET.pdf).
 
 You have a string of **N** decimal digits, denoted by numbers **A1,A2, ..., AN**.
 
@@ -126,7 +126,8 @@ For each query of type 2, print the required answer in a single line.
 <b>Output:</b>
 3
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 For first query, the sub-strings S\[1,1\]="0", S\[1,3\]="012" and S\[2,3\]="12" are divisible by 3.
 After second query, the string A becomes "01255".

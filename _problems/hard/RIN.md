@@ -70,7 +70,7 @@ time:
     current: 1493557251
 layout: problem
 ---
-All submissions for this problem are available.### Read problems statements in [Mandarin Chinese](/download/translated/DEC14/mandarin/RIN.pdf) and [Russian](/download/translated/DEC14/russian/RIN.pdf).
+All submissions for this problem are available.### Read problems statements in [Mandarin Chinese ](/download/translated/DEC14/mandarin/RIN.pdf) and [Russian](/download/translated/DEC14/russian/RIN.pdf).
 
 Rin is attending a university.
 
@@ -141,7 +141,8 @@ Output one real number: the maximal average score, rounded to 2 digits after the
 
 <b>Output 2:</b>
 32.50
-<pre>### Explanation
+<pre>
+### Explanation
 
 **Example case 1**
 

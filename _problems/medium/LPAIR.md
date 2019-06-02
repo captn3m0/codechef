@@ -110,7 +110,8 @@ Output the number of marriage line pairs that intersect with each other on a sin
 <b>Output:</b>
 6
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** Only marriage lines (3, 6) and (5, 4) intersect with each other.
 

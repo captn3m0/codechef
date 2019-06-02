@@ -127,7 +127,8 @@ Subtask 3 (69 points):
 
 <b>Output:</b>
 <tt>4</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 Let's list all the four possible decompositions:
 

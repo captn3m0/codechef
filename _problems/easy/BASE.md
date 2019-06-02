@@ -114,6 +114,7 @@ For each test case, output a single line containing the number of bases **b**, o
 7
 8
 14</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first test case, **6** has a leading digit **1** in bases **2**, **4**, **5** and **6**: **610 = 1102 = 124 = 115 = 106**.

@@ -108,7 +108,8 @@ Output exactly **Q** integers on separate lines, where the output on the **ith**
 <b>Output:</b>
 10
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 **For the first query**, **K = 0**. Hence, Bhallaladeva cannot take gold plates from any of the houses for free. It will cost him 3 + 2 + 1 + 4 = **10** nimbdas.
 

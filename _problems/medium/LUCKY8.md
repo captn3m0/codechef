@@ -99,6 +99,7 @@ All submissions for this problem are available. A Little Elephant from the Zoo o
 0
 1
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 In both second and third test cases the maximal product is achieved at the numbers **47** and **74**.

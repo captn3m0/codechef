@@ -70,9 +70,9 @@ time:
     current: 1493557899
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME09/mandarin/SEAD.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME09/russian/SEAD.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME09/mandarin/SEAD.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME09/russian/SEAD.pdf).
 
-Sereja have array that consist of _n_ integers _a_1 ≤ _a_2 ≤ ... ≤ _a__n_. Now Sereja have _m_ queries as pair of two integers _t_ and _d_. Answer for query will be minimal integer _i_ such that exist some _k_ (_i_ ≤ _k_) for which _a__i_ + _d_ ≥ _a__i_ + 1, _a__i_ + 1 + _d_ ≥ _a__i_ + 2, ..., _a__k_ - 1 + _d_ ≥ _a__k_, _a__k_ ≤ _t_ and _a__k+1_ > _t_(if it exists).
+Sereja have array that consist of *n* integers *a*1 ≤ *a*2 ≤ ... ≤ *a**n*. Now Sereja have *m* queries as pair of two integers *t* and *d*. Answer for query will be minimal integer *i* such that exist some *k* (*i* ≤ *k*) for which *a**i* + *d* ≥ *a**i* + 1, *a**i* + 1 + *d* ≥ *a**i* + 2, ..., *a**k* - 1 + *d* ≥ *a**k*, *a**k* ≤ *t* and *a**k+1* > *t*(if it exists).
 
 Help Sereja, find the answer for each query.
 
@@ -84,7 +84,7 @@ Help Sereja, find the answer for each query.
 
 
 
-First line of input contain integer _n_. Next line contain _n_ integers _a_1, _a_2, ..., _a__n_. Next line contain integer _m_. Next _m_ lines contain pairs of integers — queries.
+First line of input contain integer *n*. Next line contain *n* integers *a*1, *a*2, ..., *a**n*. Next line contain integer *m*. Next *m* lines contain pairs of integers — queries.
 
 ### Output
 
@@ -96,17 +96,21 @@ For each query output answer.
 
 ### Constraints
 
-- 1 ≤ _n_, _m_ ≤ 105.
-- 1 ≤ _a__i_ ≤ 1066. 
-   _a_1 ≤ _t_ ≤ 106
-- 0 ≤ _d_ ≤ 106
+- 1 ≤ *n*, *m* ≤ 105.
+- 1 ≤ *a**i* ≤ 1066. 
+   *a*1 ≤ *t* ≤ 106
+- 0 ≤ *d* ≤ 106
 
 ### Example
 
 **Input**
 
-`<pre class="content">5<br></br>1 2 3 10 50<br></br>6<br></br>1 1<br></br>5 3<br></br>11 7<br></br>100000 1<br></br>1000000 1000000<br></br>11 6<br></br>`**Output**
+<pre><pre class="content">5<br></br>1 2 3 10 50<br></br>6<br></br>1 1<br></br>5 3<br></br>11 7<br></br>100000 1<br></br>1000000 1000000<br></br>11 6<br></br>
+</pre>
+**Output**
 
-`<pre class="content">1<br></br>1<br></br>1<br></br>5<br></br>1<br></br>4<br></br>`For **30 points(tests 0..20)** 1 ≤ _n_, _m_ ≤ 10000.
+<pre><pre class="content">1<br></br>1<br></br>1<br></br>5<br></br>1<br></br>4<br></br>
+</pre>
+For **30 points(tests 0..20)** 1 ≤ *n*, *m* ≤ 10000.
 
-For **70 points(tests 21..33)** 1 ≤ _n_, _m_ ≤ 100000.
+For **70 points(tests 21..33)** 1 ≤ *n*, *m* ≤ 100000.

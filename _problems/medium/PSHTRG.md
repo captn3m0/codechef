@@ -129,7 +129,8 @@ For each query of the second type, print a single line containing one integer â€
 24
 0
 29
-</pre>### Explanation
+</pre>
+### Explanation
 
 The first query asks us to find the maximum perimeter of a triangle using some of the elements {3, 1, 8, 9, 7}. We can take the elements 7, 8, and 9 and construct a triangle using these three elements as side lengths. This triangle has perimeter 7 + 8 + 9 = 24, which is the maximum possible perimeter. Hence the answer is 24.
 

@@ -181,7 +181,8 @@ Your score for the problem will be calculated as a sum of individual scores for 
 <b>Output:</b>
 <tt>5
 2 -1 -2 3 4</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 ### Input
 

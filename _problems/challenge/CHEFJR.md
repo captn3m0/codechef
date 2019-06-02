@@ -129,7 +129,8 @@ Some books are part of a series, and need to be read in order. In other words, s
 2 1 8 3 2
 2 3 3 2 7
 3 4 4 5 3 6 3
-</pre>###  Test generation plan
+</pre>
+###  Test generation plan
 
 Sum of **Ri**'s will be **rand(5 \* 105, 106)**. Sum of **Pi**'s will be **rand(3 \* sum of R's, 8 \* sum of R's)**. Let **Rmin** and **Rmax** denote the minimum and maximum values of **Ri**, respectively. **Rmin** will be **rand(20, 100).** **Rmax** will be **rand(Rmin + 50, 200)**. We will generate the number of pages of the books in an incremental fashion such that number of pages in a book will be **rand(Rmin / 2, Rmax\* 4 / 5)**.
 

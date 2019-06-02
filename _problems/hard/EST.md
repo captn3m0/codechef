@@ -83,7 +83,7 @@ You're given a single string consisting of lowercase Latin letters. Your task is
 
 ### Input
 
-The first line contains a single number **T** -- the number of test cases (no more than 10). Each of the next **T** lines contains a single non-empty string of length no more than 100000 consisting of lowercase Latin letters _a_.._z_.
+The first line contains a single number **T** -- the number of test cases (no more than 10). Each of the next **T** lines contains a single non-empty string of length no more than 100000 consisting of lowercase Latin letters *a*..*z*.
 
 ### Output
 
@@ -108,4 +108,5 @@ helloworld
 6221124
 
 <b>Explanation:</b>
-</pre>In the first test case every string of length 1 satisfies the condition. In the second test case every string consisting of two equal letters is fine. In the third test case every string comprising three pairwise distinct letters adds 1 to the answer. In the fourth test case string 'bee' is one of the 1300 good strings.
+</pre>
+In the first test case every string of length 1 satisfies the condition. In the second test case every string consisting of two equal letters is fine. In the third test case every string comprising three pairwise distinct letters adds 1 to the answer. In the fourth test case string 'bee' is one of the 1300 good strings.

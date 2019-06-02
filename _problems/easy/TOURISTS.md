@@ -125,7 +125,8 @@ YES
 1 2
 2 3
 3 1
-</pre>### Example 2
+</pre>
+### Example 2
 
 <pre><b>Input:</b>
 3 2
@@ -134,7 +135,8 @@ YES
 
 <b>Output:</b>
 NO
-</pre>### Example 3
+</pre>
+### Example 3
 
 <pre><b>Input:</b>
 5 6

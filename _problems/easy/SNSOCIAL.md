@@ -115,7 +115,8 @@ For each test case output a single integer corresponding to the minimum number o
 0
 1
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example 1**. The wealth of all the snakes is already equal. So, no time is required for the transition.
 
@@ -127,4 +128,5 @@ For each test case output a single integer corresponding to the minimum number o
 2 2 2 2
 2 2 2 2
 1 2 2 2
-</pre>After the end of the second hour, the wealth of all the snakes will be equal. So, the answer is 2.
+</pre>
+After the end of the second hour, the wealth of all the snakes will be equal. So, the answer is 2.

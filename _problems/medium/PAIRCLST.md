@@ -71,9 +71,9 @@ time:
     current: 1493557837
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME33/mandarin/PAIRCLST.pdf), [Russian](http://www.codechef.com/download/translated/LTIME33/russian/PAIRCLST.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME33/vietnamese/PAIRCLST.pdf) as well.
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME33/mandarin/PAIRCLST.pdf), [Russian](http://www.codechef.com/download/translated/LTIME33/russian/PAIRCLST.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME33/vietnamese/PAIRCLST.pdf) as well.
 
-You are given a weighted graph with **N** nodes and **M** edges. Some of the nodes are marked as _special_ nodes. Your task is to find the shortest pairwise distance between any two different _special_ nodes.
+You are given a weighted graph with **N** nodes and **M** edges. Some of the nodes are marked as *special* nodes. Your task is to find the shortest pairwise distance between any two different *special* nodes.
 
 ### Input
 
@@ -115,6 +115,7 @@ Output the shortest pairwise distance between any two different special nodes.
 
 <b>Output:</b>
 <tt>7</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 Nodes 1, 3 and 5 are special nodes. Shortest distance between nodes 1 and 3 is 7 and that between nodes 3 and 5 is 9. Shortest distance between nodes 1 and 5 is 16. Minimum of these distances is 7. Hence answer is 7.

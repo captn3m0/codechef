@@ -74,9 +74,9 @@ All submissions for this problem are available.###  Read problems statements in 
 
 Watson has infinite supply of **K** different type of objects denoted by numbers **1** to **K**. He makes an array **A** of **N** objects, **A1, A2, ..., AN** using these objects.
 
-Now, he'll update this array **Q** times. In **i**th update, he'll replace an existing object in array with a new object of different type from **1** to **K** _i.e._ **Axi = yi**.
+Now, he'll update this array **Q** times. In **i**th update, he'll replace an existing object in array with a new object of different type from **1** to **K** *i.e.* **Axi = yi**.
 
-After each update, he wants Sherlock to report the smallest size of a contiguous subarray which contains all types of objects _i.e._ smallest value of **R - L + 1** such that number of distinct values in **AL, AL + 1, ..., Ar** is **K**. If no such subarray exists, Sherlock should output **-1**.
+After each update, he wants Sherlock to report the smallest size of a contiguous subarray which contains all types of objects *i.e.* smallest value of **R - L + 1** such that number of distinct values in **AL, AL + 1, ..., Ar** is **K**. If no such subarray exists, Sherlock should output **-1**.
 
 ### Input
 
@@ -108,7 +108,8 @@ After each update, output an integer in one line denoting the smallest contiguou
 4
 3
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 After first update, the array is **\[1, 3, 1, 1, 1\]**. No valid subarray exists at this stage.
 After next update, the array is **\[1, 3, 1, 1, 2\]**. Here you can observe that contiguous subarray **\[A2, A3, ..., A5\]** consists of all types of objects. 

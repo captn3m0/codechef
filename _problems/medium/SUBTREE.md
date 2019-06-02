@@ -71,7 +71,7 @@ layout: problem
 ---
 All submissions for this problem are available.The Chef is enjoying his vacation at the Tree city. As the name of it says, in this city, **N** locations, numbered from **1** to **N**, are connected by **N − 1** bidirectional roads. Each road connects two cities and you can travel between any pair of cities through this roads system. Each road has the length, which is some positive integer. For any two locations the distance between them is the sum of the roads lengths for the path that connects them.
 
-Some festivals are regularly held in each location. Someday, several festivals (at least 2) take place at different locations. On that day people often participate in two festivals such that the distance between their locations is as large as possible. They move between these two locations to enjoy the festivals. Note that there may be more than one pair of locations satisfying this condition. The path connecting two such locations is called _an ideal path_.
+Some festivals are regularly held in each location. Someday, several festivals (at least 2) take place at different locations. On that day people often participate in two festivals such that the distance between their locations is as large as possible. They move between these two locations to enjoy the festivals. Note that there may be more than one pair of locations satisfying this condition. The path connecting two such locations is called *an ideal path*.
 
 Knowing this, the Chef wants to find an optimal road where he will open temporary fast-food restaurant to earn as much money as possible from hungry festival participants that move by this road. In his honest opinion the best such road is **the shortest road belonging to each ideal path**.
 
@@ -120,7 +120,8 @@ For each question, output on a separate line two space-separated integers **A** 
 <b>Output:</b>
 5 2
 8 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example question 1.** The only ideal path is between 2 and 5. This path contains two roads: (5, 1) and (1, 2); and (5, 1) is the shortest road among them.
 

@@ -47,4 +47,5 @@ For each test case, output a single line containing the numbers **x\[1\], x\[2\]
 1 2 4 5 10 11 13 14 28 29
 1 2 3 4 5
 1 3 4 5
-</pre>- - - - - -
+</pre>
+- - - - - -

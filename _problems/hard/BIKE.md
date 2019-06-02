@@ -73,7 +73,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/NOV16/mandarin/BIKE.pdf), [Russian](http://www.codechef.com/download/translated/NOV16/russian/BIKE.pdf) and [Vietnamese](http://www.codechef.com/download/translated/NOV16/vietnamese/BIKE.pdf) as well.
 
-In Chefland, there are **n** cities and **m** one-way roads between cities. The chef will travel between cities along these roads using a very unusual bike. The circumference of the front wheel is **n** (the same as the number of cities) yet the circumference of its rear wheel is only **n - 1**. We think of the circumference of each wheel as being broken up into equal-spaced _positions_. So the front wheel has positions **0, 1, ..., n-1** and the rear wheel has positions **0, 1, ..., n-2**. Each unit of distance travelled will advance each wheel 1 position.
+In Chefland, there are **n** cities and **m** one-way roads between cities. The chef will travel between cities along these roads using a very unusual bike. The circumference of the front wheel is **n** (the same as the number of cities) yet the circumference of its rear wheel is only **n - 1**. We think of the circumference of each wheel as being broken up into equal-spaced *positions*. So the front wheel has positions **0, 1, ..., n-1** and the rear wheel has positions **0, 1, ..., n-2**. Each unit of distance travelled will advance each wheel 1 position.
 
 For example, when the chef travels a distance of **d** when both wheels start at position 0, the position of the front wheel is left at **d (mod n)** and the position of the rear wheel is left at **d (mod (n - 1))**.
 
@@ -133,6 +133,7 @@ The **j**'th number on the **i**'th line of the **k**'th block should describe t
 1 8
 0 10
 1 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 I have discovered a truly marvellous enumeration of this, which this margin is too narrow to contain.

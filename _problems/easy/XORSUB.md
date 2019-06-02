@@ -69,7 +69,7 @@ time:
     current: 1493558197
 layout: problem
 ---
-All submissions for this problem are available.### Read problems statements in [Mandarin Chinese](/download/translated/DEC14/mandarin/XORSUB.pdf) and [Russian](/download/translated/DEC14/russian/XORSUB.pdf).
+All submissions for this problem are available.### Read problems statements in [Mandarin Chinese ](/download/translated/DEC14/mandarin/XORSUB.pdf) and [Russian](/download/translated/DEC14/russian/XORSUB.pdf).
 
 You have an array of integers **A1, A2, ..., AN**. The function **F(P)**, where **P** is a [subset](http://en.wikipedia.org/wiki/Subset) of **A**, is defined as the [XOR](http://en.wikipedia.org/wiki/Exclusive_or) (represented by the symbol **⊕**) of all the integers present in the subset. If **P** is empty, then **F(P)**=0.
 
@@ -100,7 +100,8 @@ For each test case, print the required answer in one line.
 
 <b>Output:</b>
 7
-<pre>### Explanation
+<pre>
+### Explanation
 
 Considering all subsets:
 

@@ -28,9 +28,9 @@ layout: problem
 ---
 All submissions for this problem are available.You are given two right angled triangles. You are given their side lengths. The first triangle is ABC, where side AB is the hypotenuse. Length of AB is **c**, that of AC is **b**, and that of BC is **a**. Similarly, the second triangle is DEF, where DE is the hypotenuse. Length of DE is **f**, that of DF is **e**, and that of EF is **d**.
 
-First we define _minimum area enclosing axis-parallel rectangle_ of some figures. It will be a rectangle which is axis parallel (i.e. each of its sides should be parallel to x or y axis) that encloses all the figures and has the minimum possible area. By enclosing, we mean that all the figures should be inside the rectangle.
+First we define *minimum area enclosing axis-parallel rectangle* of some figures. It will be a rectangle which is axis parallel (i.e. each of its sides should be parallel to x or y axis) that encloses all the figures and has the minimum possible area. By enclosing, we mean that all the figures should be inside the rectangle.
 
-You have to find a set of coordinates to assign to the points A, B, C, D, E, F such that the _minimum area enclosing axis-parallel rectangle_ of the two triangles has sides **L** and **R**, i.e. one side is of length **L**, and the other is of length **R**. Also, each of the sides AC, BC, DF, EF should be parallel to either x or y axis. If it is not possible to assign the coordinates, output -1.
+You have to find a set of coordinates to assign to the points A, B, C, D, E, F such that the *minimum area enclosing axis-parallel rectangle* of the two triangles has sides **L** and **R**, i.e. one side is of length **L**, and the other is of length **R**. Also, each of the sides AC, BC, DF, EF should be parallel to either x or y axis. If it is not possible to assign the coordinates, output -1.
 
 ### Input
 
@@ -64,13 +64,14 @@ For each test case, either output -1 if it is impossible to assign the coordinat
 6 1
 6 4
 -1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Testcase 1**: The output corresponds to the image shown below:
 
 ![](https://codechef_shared.s3.amazonaws.com/download/upload/ACM17GWR/TALETRI-1.png)
 
-Notice that all the 6 side lengths are maintained, and the sides AC, BC, DF, EF are all axis-parallel. The _minimum area enclosing axis-parallel rectangle_ of these two triangles is shown in the next image:
+Notice that all the 6 side lengths are maintained, and the sides AC, BC, DF, EF are all axis-parallel. The *minimum area enclosing axis-parallel rectangle* of these two triangles is shown in the next image:
 
 ![](https://codechef_shared.s3.amazonaws.com/download/upload/ACM17GWR/TALETRI-2.png)
 

@@ -113,7 +113,8 @@ For each query, output the number of guilds after the execution.
 4
 2
 3</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 Initially there is just one guild.
 

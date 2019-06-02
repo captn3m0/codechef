@@ -116,7 +116,8 @@ For each operation, output a single line containing "DA" (without quotes) if we 
 <b>Output:</b>
 DA 
 NET
-</pre>### Explanation
+</pre>
+### Explanation
 
 The first two operations make us add teleports at the locations (2, 2) and (3, 3).
 

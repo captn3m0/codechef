@@ -89,7 +89,8 @@ For each case the output should be a single integer representing the number of w
 2
 1
 2
-</pre>**Output**
+</pre>
+**Output**
 
 <pre>
 1

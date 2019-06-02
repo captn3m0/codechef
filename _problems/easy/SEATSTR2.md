@@ -72,13 +72,13 @@ All submissions for this problem are available.###  Read problems statements in 
 
 Sereja has a string **A** consisting of **n** lower case English letters.
 
-Sereja calls two strings **X** and **Y** each of length **n** _similar_ if they can be made equal by applying the following operation at most once in **each** of them.
+Sereja calls two strings **X** and **Y** each of length **n** *similar* if they can be made equal by applying the following operation at most once in **each** of them.
 
 - Chose any two position **i, j** in the string (**i** can be equal to **j** too). Swap the characters at position **i** with character at position **j**.
 
-For example strings _"abcd"_ and _"acbd"_ are similar, strings _"ab"_ and _"ab"_ are similar, but strings _"abcde"_ and _"bcdea"_ are not similar. Note that strings _"abc"_ and _"cab"_ are also similar, as you can swap 'a' and 'c' in the first string to get _"cba"_ and 'a' and 'b' in the second string to get _"cba"_.
+For example strings *"abcd"* and *"acbd"* are similar, strings *"ab"* and *"ab"* are similar, but strings *"abcde"* and *"bcdea"* are not similar. Note that strings *"abc"* and *"cab"* are also similar, as you can swap 'a' and 'c' in the first string to get *"cba"* and 'a' and 'b' in the second string to get *"cba"*.
 
-Now Sereja is interested in finding number of **ordered** pairs of non _similar_ strings **X** and **Y** such that they can be constructed from a given string **A** by permutation of its characters. As answer could be large, please output your answer modulo (109 + 7).
+Now Sereja is interested in finding number of **ordered** pairs of non *similar* strings **X** and **Y** such that they can be constructed from a given string **A** by permutation of its characters. As answer could be large, please output your answer modulo (109 + 7).
 
 **Note** 
 A string **s** (of size **n**) is said to be constructed from string **t** (also of size **n**) by permutation of its characters if there exists a permutation **P** (of length **n**), such that **s\[i\] = t\[P\[i\]\]** for each **i** from 1 to **n**.

@@ -71,9 +71,9 @@ time:
     current: 1492507602
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME28/mandarin/SPALNUM.pdf) , [Russian](http://www.codechef.com/download/translated/LTIME28/russian/SPALNUM.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME28/vietnamese/SPALNUM.pdf)
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME28/mandarin/SPALNUM.pdf) , [Russian](http://www.codechef.com/download/translated/LTIME28/russian/SPALNUM.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME28/vietnamese/SPALNUM.pdf)
 
-A number is called _palindromic_ if its decimal representation is a palindrome. You are given a range, described by a pair of integers **L** and **R**. Find the sum of all palindromic numbers lying in the range **\[L, R\]**, inclusive of both the extrema.
+A number is called *palindromic* if its decimal representation is a palindrome. You are given a range, described by a pair of integers **L** and **R**. Find the sum of all palindromic numbers lying in the range **\[L, R\]**, inclusive of both the extrema.
 
 ### Input
 
@@ -102,7 +102,8 @@ For each test case, output a single line containing the sum of all the palindrom
 <tt>45
 272</tt>
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** The palindromic numbers between **1** and **10** are all numbers except the number **10**. Their sum is 45.
 

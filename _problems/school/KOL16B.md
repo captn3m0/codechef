@@ -39,7 +39,8 @@ void encodeArray(int *A, int *B, int n){
     	    A[i] = encodeInteger(A[i], B[i]);
 	}
 }
-</pre>Lajuk passed **A** and **B** into the encodeArray function. After that she discarded array **B** and saved the modified version of array **A** in the hard-drive.
+</pre>
+Lajuk passed **A** and **B** into the encodeArray function. After that she discarded array **B** and saved the modified version of array **A** in the hard-drive.
 
 Now in her 15th birthday Lajuk wants to play with those arrays again. She found the modified version of array A in the hard-drive but she forgot how to recover the original arrays from it. Being upset, she asked for your help. Can you help her to recover the original arrays?
 

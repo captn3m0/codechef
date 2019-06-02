@@ -69,7 +69,7 @@ time:
     current: 1493557946
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME19/mandarin/TASUMOBC.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME19/russian/TASUMOBC.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME19/mandarin/TASUMOBC.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME19/russian/TASUMOBC.pdf).
 
  As we all know, [Binomial Coefficient](http://en.wikipedia.org/wiki/Binomial_coefficient) **C(n, r)** is defined by the
 following formula.

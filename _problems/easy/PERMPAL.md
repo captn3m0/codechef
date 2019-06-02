@@ -121,7 +121,8 @@ abab
 2 1 3
 -1
 1 2 4 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** The string **t** obtained using the identity permutation will have **t**\[1\] = **s**\[1\] and **t**\[2\] = **s**\[2\]. That means **t** = "aa", which is a palindrome.
 

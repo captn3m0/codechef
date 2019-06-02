@@ -114,7 +114,9 @@ VISIT(R, C, r, c, tr, tc)
 	     VISIT(R,C,r-1,c,tr,tc)
 
 
-</pre> The above algorithm is both time and memory inefficient. Your task is to produce the same output but more efficiently. That is to print the value of `visitcount` when the cell **(tr,tc)** is found, if the above algorithm is called with `VISIT(R,C,sr,sc,tr,tc)`.
+</pre>
+ The above algorithm is both time and memory inefficient. Your task is to produce the same output but more efficiently. That is to print the value of `visitcount` when the cell **(tr,tc)** is found, if the above algorithm is called with `VISIT(R,C,sr,sc,tr,tc)`.
+
 ### Input
 
 The first line of the input contains an integer **T** denoting the number of test cases. Each of the following **T** lines contain six separated integers **R, C, sr, sc, tr and tc.**

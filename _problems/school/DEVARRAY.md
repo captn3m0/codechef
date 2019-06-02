@@ -134,7 +134,8 @@ Yes
 Yes
 Yes
 No
-</pre>### Explanation
+</pre>
+### Explanation
 
 **In the first example**, Devu can't apply any operation. So the final element in the array will be 1 itself.
 

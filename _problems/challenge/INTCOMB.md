@@ -107,7 +107,8 @@ Furthermore, the integer combination of the input vectors using these coefficien
 <b>Output:</b>
 -3 1
 -1 0 1 0
-</pre>### Scoring
+</pre>
+### Scoring
 
 The score for a test case is the length of the integer combination as given by the output coefficients divided by the length of the shortest input vector. The total score for the entire data set is simply the sum of the scores of the individual test cases.
 

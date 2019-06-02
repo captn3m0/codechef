@@ -83,7 +83,8 @@ Given a description of the city and indices of junctions **s** and **t** you hav
 <b>Output:</b>
 2
 -1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Testcase 1**: Consider the strategy where the drunk man first moves to junction 3 in Step 1 of the first minute. Then in Step 3 of the first minute, he randomly picks the road to junction 2 or the road to junction 4. In case he had picked the road to junction 2, he reaches home in just 1 minute. If not, he ends up at junction 4 at the end of the first minute. Then, in Step 1 of the second minute, he picks the road between 4 and 2, and goes to junction 2, thus reaching his home in the second minute. Thus, no matter what random choices he makes in the Step 3's, he is guaranteed to reach his house within the first two minutes.
 

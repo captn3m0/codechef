@@ -48,12 +48,14 @@ For each 1 ≤ **i** < **N**, Ciel can go from the **i**-th intersection to the 
 3 1
 2 4
 3 4
-</pre>### Sample Output 1
+</pre>
+### Sample Output 1
 
 <pre>0
 0.5
 0.5
-</pre>### Sample Input 2
+</pre>
+### Sample Input 2
 
 <pre>4 6 1
 2
@@ -63,15 +65,21 @@ For each 1 ≤ **i** < **N**, Ciel can go from the **i**-th intersection to the 
 3 1
 2 4
 3 4
-</pre>### Sample Output 2
+</pre>
+### Sample Output 2
 
-`0.6666666666667`### Sample Input 3
+<pre>0.6666666666667
+</pre>
+### Sample Input 3
 
 <pre>2 1 1
 1
 1 2
-</pre>### Sample Output 3
+</pre>
+### Sample Output 3
 
-`1`### Notes
+<pre>1
+</pre>
+### Notes
 
 The sum of output values can be less than 1, because Ciel may go back to her house without seeing beautiful flowers.

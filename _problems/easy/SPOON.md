@@ -105,12 +105,14 @@ opqrs
 ddddd
 india
 yucky
-</pre>### Sample Output
+</pre>
+### Sample Output
 
 <pre>
 There is a spoon!
 There is a spoon!
 There is indeed no spoon!
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first test case, "Spoon" occurs in the second row. In the second test case, "spOon" occurs in the last column.

@@ -103,7 +103,8 @@ For each test case, output a single line containing one integer: the answer for 
 <b>Output:</b>
 28
 56
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Test case 1:**
  There are:

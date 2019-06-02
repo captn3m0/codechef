@@ -77,9 +77,9 @@ All submissions for this problem are available.###  Read problems statements in 
 
 ![](https://s3.amazonaws.com/codechef_shared/download/SEPT15/THEGAME.jpg)
 
-Consider a maze like this one, encoded in ASCII as a grid of **R** by **C** cells, denoted by characters \# (a wall) and o (a walkable cell). The top left cell of the maze is the _start_ and the bottom right one is the _goal_. All walkable cells are initially white.
+Consider a maze like this one, encoded in ASCII as a grid of **R** by **C** cells, denoted by characters \# (a wall) and o (a walkable cell). The top left cell of the maze is the *start* and the bottom right one is the *goal*. All walkable cells are initially white.
 
-Cell B is _reachable_ from cell A iff A and B are both walkable and it's possible to get to B by starting at A and moving only to walkable cells in the four cardinal directions — up, right, down and left.
+Cell B is *reachable* from cell A iff A and B are both walkable and it's possible to get to B by starting at A and moving only to walkable cells in the four cardinal directions — up, right, down and left.
 
 The maze is complicated and you're too lazy. That's why you try to solve it using the following algorithm:
 
@@ -106,8 +106,8 @@ For each test case, output a single line containing one real number: the expecte
 ### Constraints
 
 - **1** ≤ **T** ≤ **100**
-- _subtask 1 (15 pts):_ **1** ≤ **RC** ≤ **30**
-- _subtask 2 (85 pts):_ **1** ≤ **RC** ≤ **50000**
+- *subtask 1 (15 pts):* **1** ≤ **RC** ≤ **30**
+- *subtask 2 (85 pts):* **1** ≤ **RC** ≤ **50000**
 - At least one path from the start to the goal exists in each test case.
 
 ### Example
@@ -126,6 +126,7 @@ oo
 1.166666667
 1.000000000
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** With 5/6 chance, the first click you'll make will be on the only path from the start to the goal. With 1/6 chance, you'll click on the top right cell before that. The expected number of clicks is therefore 5/6\*1+1/6\*2.

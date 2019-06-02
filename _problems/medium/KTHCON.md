@@ -74,7 +74,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/COOK68/mandarin/KTHCON.pdf), [Russian](http://www.codechef.com/download/translated/COOK68/russian/KTHCON.pdf) and [Vietnamese](http://www.codechef.com/download/translated/COOK68/vietnamese/KTHCON.pdf) as well.
 
-A _1-concave_ polygon is a [simple polygon](https://en.wikipedia.org/wiki/Simple_polygon) (its sides don't intersect or touch) which has at least 1 concave interior angle.
+A *1-concave* polygon is a [simple polygon](https://en.wikipedia.org/wiki/Simple_polygon) (its sides don't intersect or touch) which has at least 1 concave interior angle.
 
 There are **N** points on a plane. Let **S** be the maximum area of a 1-concave polygon with vertices in those points. Compute **2S**. Note that if there is no such (1-concave) polygon, you should print -1.
 

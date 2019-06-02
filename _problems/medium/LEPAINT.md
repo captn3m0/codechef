@@ -68,7 +68,7 @@ time:
     current: 1493557921
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JULY14/mandarin/LEPAINT1.pdf) and [Russian](http://www.codechef.com/download/translated/JULY14/russian/LEPAINT.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JULY14/mandarin/LEPAINT1.pdf) and [Russian](http://www.codechef.com/download/translated/JULY14/russian/LEPAINT.pdf).
 
 Little Elephant from Zoo of Lviv likes to paint.
 

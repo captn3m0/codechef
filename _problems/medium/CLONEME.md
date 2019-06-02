@@ -68,7 +68,7 @@ layout: problem
 ---
 All submissions for this problem are available.### Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JUNE17/mandarin/CLONEME.pdf), [Russian](http://www.codechef.com/download/translated/JUNE17/russian/CLONEME.pdf) and [Vietnamese](http://www.codechef.com/download/translated/JUNE17/vietnamese/CLONEME.pdf) as well.
 
-Given an array **A** consisting of **N** integers, you have to execute **Q** queries on it. These queries ask you to determine whether the two sub-arrays **a** to **b** and **c** to **d**, which are of equal length, are _similar_ or not. The two sub-arrays **a** to **b** and **c** to **d** are said to be _similar_, if, after being sorted individually and then compared element by element, they have at most one mismatch. The output should be YES or NO for each query.
+Given an array **A** consisting of **N** integers, you have to execute **Q** queries on it. These queries ask you to determine whether the two sub-arrays **a** to **b** and **c** to **d**, which are of equal length, are *similar* or not. The two sub-arrays **a** to **b** and **c** to **d** are said to be *similar*, if, after being sorted individually and then compared element by element, they have at most one mismatch. The output should be YES or NO for each query.
 
  Note - The two sub-arrays can intersect each other and during the query process they will not affect each other in any way.
 
@@ -86,7 +86,7 @@ The queries are given as "**a b c d**" (without the double quotes) where **a** a
 
 ### Output
 
-For each query output "YES" or "NO" (without the double quotes) depending on whether the two sub-arrays given in that query are _similar_ or not.
+For each query output "YES" or "NO" (without the double quotes) depending on whether the two sub-arrays given in that query are *similar* or not.
 
 ### Constraints
 
@@ -129,10 +129,11 @@ For each query output "YES" or "NO" (without the double quotes) depending on whe
 YES
 NO
 YES
-</pre>### Explanation
+</pre>
+### Explanation
 
-In the first query the first sub-array looks like \[1, 3, 4\] on sorting and the second sub-array looks like \[2, 3, 4\] on sorting. These two sub-arrays only differ at first position so they are _similar_.
+In the first query the first sub-array looks like \[1, 3, 4\] on sorting and the second sub-array looks like \[2, 3, 4\] on sorting. These two sub-arrays only differ at first position so they are *similar*.
 
-In the second query the first sub-array on sorting looks like \[1, 3\] on sorting and the second sub-array looks like \[3, 4\] on sorting. These two sub-arrays differ at both the positions so they are not _similar_.
+In the second query the first sub-array on sorting looks like \[1, 3\] on sorting and the second sub-array looks like \[3, 4\] on sorting. These two sub-arrays differ at both the positions so they are not *similar*.
 
-In the third query the first sub-array look like \[2, 3, 4\] on sorting and the second sub-array also looks like \[2, 3, 4\] on sorting. Since these two sub-arrays don't differ at any position so they are _similar_.
+In the third query the first sub-array look like \[2, 3, 4\] on sorting and the second sub-array also looks like \[2, 3, 4\] on sorting. Since these two sub-arrays don't differ at any position so they are *similar*.

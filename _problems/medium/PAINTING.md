@@ -96,6 +96,7 @@ R 200
 10
 99
 </pre>
+
 **Explanation:**
 R 100 : all 100 cells from (1,0) to (100,0) are painted white
 

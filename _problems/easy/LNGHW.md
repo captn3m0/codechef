@@ -58,6 +58,7 @@ For each query output one integer, **j**(1-indexed), which is the index such tha
   4
   -1
   ```
+  
   ### Explanation
   
   **Example case 1.** For the first query the answer is 1 because a\[1\] is 1, which is the smallest element in the array with remainder 1.

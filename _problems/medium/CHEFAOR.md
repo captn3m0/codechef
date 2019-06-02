@@ -70,7 +70,7 @@ time:
     current: 1493557914
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME25/mandarin/CHEFAOR.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME25/russian/CHEFAOR.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME25/mandarin/CHEFAOR.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME25/russian/CHEFAOR.pdf).
 
 Chef studies very well in his University. There is only one professor who doesn't want to give him the highest grade, **A**. Chef has had a long argument with him, and eventually they agreed, that if Chef solves an algorithmic problem, he gets the highest grade. After looking at the problem, he realized he can't solve it. Once again, he approached Codechef admins for help, and once again we decided to put it off and pass on the task to you. Please, help him (and us)!
 
@@ -78,7 +78,7 @@ Chef studies very well in his University. There is only one professor who doesn'
 
 You are given an array **A** of integers and an integer **K**. Your goal is to divide the array into **K** consecutive disjoint non-empty groups, so that any array element belongs to **exactly one** group.
 
-Each group can be specified by two integers **L** and **R** (**L ≤ R**) with the meaning that the group contains all the elements from the **L**th to the **R**th one (both inclusive) in the given array. The _cost_ of such a group equals to the value of **bitwise OR** of all elements in the group.
+Each group can be specified by two integers **L** and **R** (**L ≤ R**) with the meaning that the group contains all the elements from the **L**th to the **R**th one (both inclusive) in the given array. The *cost* of such a group equals to the value of **bitwise OR** of all elements in the group.
 
 The cost of array for some particular group division equals to the sum of costs for all the groups. You have to find the maximal achievable cost of the given array.
 
@@ -125,7 +125,8 @@ For each test case, output a single line, containing the maximal achievable cost
 10
 3
 704</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1**. The optimal group division is the following one: put the first two numbers to the first group, and the next one into the second. This way, you will obtain the cost of the array equal to (1 OR 2) + 2 = 3 + 2 = 5.
 

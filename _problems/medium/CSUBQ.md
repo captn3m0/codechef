@@ -126,6 +126,7 @@ For each query of type 2, print the required answer in a new line.
 2
 4
 </pre>
+
 ### Explanation
 
 **Query 1.**

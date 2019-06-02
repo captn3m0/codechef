@@ -69,7 +69,7 @@ time:
     current: 1493557521
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME16/mandarin/CHEFD.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME16/russian/CHEFD.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME16/mandarin/CHEFD.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME16/russian/CHEFD.pdf).
 
 Chef has an array containing **N** integers. You have to make **M** queries. Each query has one of the two types:
 

@@ -76,7 +76,9 @@ $..##
 @$
 ..
 
-</pre>### Sample Output:
+</pre>
+### Sample Output:
+
 <pre>22
 18
 -1

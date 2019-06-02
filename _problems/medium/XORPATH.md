@@ -122,6 +122,7 @@ Output **Q** lines, one for each query. The **jth** line must contain a single i
 13
 0
 XIT</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 The sample input is illustrated by the image above.

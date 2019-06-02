@@ -116,7 +116,8 @@ For each test case output a single integer in separate line, the amount that Che
 6
 3
 110
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** For the first two minutes, internet data of usage of Chef is free. He has to pay for last 2 minutes only, for which he will be charged at 3 dollars per minute, i.e. total 6 dollars.
 

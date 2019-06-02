@@ -95,6 +95,7 @@ Output a single integer — number of friendship suggestions Ilya has to send.
 
 <b>Output:</b>
 6
-</pre>### Explanation
+</pre>
+### Explanation
 
 Each of users **\[2, 3, 4\]** should receive two friendship suggestions, while user **1** does not need any, since he already has all other users in his friend-list.

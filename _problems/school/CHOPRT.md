@@ -100,6 +100,7 @@ For each line of input produce one line of output. This line contains any one of
 ≺
 ≻
 =
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** In this example 1 as 10 is lesser than 20.

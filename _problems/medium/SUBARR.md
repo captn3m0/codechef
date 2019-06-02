@@ -71,7 +71,7 @@ time:
     current: 1493557934
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME07/mandarin/SUBARR.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME07/russian/SUBARR.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME07/mandarin/SUBARR.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME07/russian/SUBARR.pdf).
 
 You are given an array **A**, which consists of **N** integers. Also, you have an integer **K**.
 
@@ -98,7 +98,8 @@ The first line should contain an integer, denoting the number of perfect subarra
 1 2 3 -1
 <b>Output:</b>
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the test case **N** equals to 4, **K** equals to 2, **A** equals to {1, 2, 3, -1}. The following subarrays are perfect: \[2..2\], \[3..3\], \[2..3\], \[1..3\].
 

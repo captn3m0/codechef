@@ -77,7 +77,7 @@ layout: problem
 ---
 All submissions for this problem are available.### Read problems statements in [mandarin chinese](http://www.codechef.com/download/translated/OCT17/mandarin/LKYEDGE.pdf), [russian](http://www.codechef.com/download/translated/OCT17/russian/LKYEDGE.pdf) and [vietnamese](http://www.codechef.com/download/translated/OCT17/vietnamese/LKYEDGE.pdf) as well.
 
-In an undirected unweighted graph, an edge of the graph is said to be _lucky_ if it is a part of some cycle of the graph.
+In an undirected unweighted graph, an edge of the graph is said to be *lucky* if it is a part of some cycle of the graph.
 
 You are given a list **E** of **M** edges. We define **f(i)** as the number of intervals **\[l, r\]** (**1 ≤ l ≤ i ≤ r ≤ M**) such that if you build a graph from edges **El, El+1, ..., Er**, the edge **Ei** will be a lucky edge in this graph.
 

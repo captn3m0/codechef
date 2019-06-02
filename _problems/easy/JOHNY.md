@@ -67,7 +67,7 @@ time:
     current: 1493558154
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/NOV13/mandarin/JOHNY.pdf) and [Russian](http://www.codechef.com/download/translated/NOV13/russian/JOHNY.PDF).
+All submissions for this problem are available.###  Read problems statements in [ Mandarin Chinese ](http://www.codechef.com/download/translated/NOV13/mandarin/JOHNY.pdf) and [ Russian](http://www.codechef.com/download/translated/NOV13/russian/JOHNY.PDF).
 
 Vlad enjoys listening to music. He lives in Sam's Town. A few days ago he had a birthday, so his parents gave him a gift: MP3-player! Vlad was the happiest man in the world! Now he can listen his favorite songs whenever he wants!
 
@@ -101,7 +101,8 @@ For each test case, output a single line containing the position of "Uncle Johny
 3
 4
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the example test there are **T**=3 test cases.
 

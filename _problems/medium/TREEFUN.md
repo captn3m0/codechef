@@ -59,7 +59,8 @@ For each test case output **M** lines containing a single integer each -- the an
 2
 1
 0
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first query, vertex 1 is such a vertex. If you remove vertex 1 and all the edges that connect 1 to other vertices, then vertices 2 and 5 will belong to separate connected components. Similarly, vertex 4 is also valid.
 

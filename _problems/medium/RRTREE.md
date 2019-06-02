@@ -71,7 +71,7 @@ time:
     current: 1493557924
 layout: problem
 ---
-All submissions for this problem are available.You are given a tree that is built in a following way: initially there is single vertex **1**. All the other vertices are added one by one, from vertex **2** to vertex **N**, by connecting it to one of those that have been added before. You are to find the _diameter_ of the tree after adding each vertex. Let the distance between vertex **u** and **v** be the minimal number of edges you have to pass to get from **u** to **v**, then _diameter_ is the maximum distance between any two pairs **(u,v)** that have already been added to the tree.
+All submissions for this problem are available.You are given a tree that is built in a following way: initially there is single vertex **1**. All the other vertices are added one by one, from vertex **2** to vertex **N**, by connecting it to one of those that have been added before. You are to find the *diameter* of the tree after adding each vertex. Let the distance between vertex **u** and **v** be the minimal number of edges you have to pass to get from **u** to **v**, then *diameter* is the maximum distance between any two pairs **(u,v)** that have already been added to the tree.
 
 ### Input
 

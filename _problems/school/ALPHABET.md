@@ -115,7 +115,8 @@ dog</tt>
 <b>Output:</b>
 <tt>Yes
 No</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 The first word can be read.
 

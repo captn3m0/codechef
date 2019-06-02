@@ -69,7 +69,7 @@ time:
     current: 1493557955
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME21/mandarin/WPROB.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME21/russian/WPROB.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME21/mandarin/WPROB.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME21/russian/WPROB.pdf).
 
 Olya works as a warehouse keeper for a T-Shirt factory. Now the factory is facing hard times, so currently they produce only the T-shirts of three kinds: red, green and blue T-Shirts. All the T-shirts are stored in the containers, each of the containers contain the T-Shirts of a single colour.
 
@@ -118,7 +118,8 @@ rgbr
 0
 0
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**We can move the second container to the beginning of the line. This will take one second.
 

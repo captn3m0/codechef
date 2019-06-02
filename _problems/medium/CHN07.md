@@ -56,7 +56,8 @@ BB
 <b>Output:</b>
 Malvika
 Animesh
-</pre>### Explanation
+</pre>
+### Explanation
 
 **In the first example**, Malvika will flip the red faced card in the first move, so it will now be blue faced. Now Animesh can't make any move, so he will lose. Hence Malvika is the winner.
 

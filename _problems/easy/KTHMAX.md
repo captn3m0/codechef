@@ -83,7 +83,9 @@ Now you want to sort these subarrays in descending order. You can compare two su
                 <b>return</b> B is greater than C
         <b>return</b> B and C are equal.
 
-</pre>You are given **M** queries asking for the maximum element in the **pth** subarray (1-based indexing).
+</pre>
+
+You are given **M** queries asking for the maximum element in the **pth** subarray (1-based indexing).
 
 ### Input
 

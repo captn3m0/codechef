@@ -68,7 +68,7 @@ time:
     current: 1493557867
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME26/mandarin/PUPPYCT.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME26/russian/PUPPYCT.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME26/mandarin/PUPPYCT.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME26/russian/PUPPYCT.pdf).
 
  Tuzik is a very brave puppy. But there is still one thing he is afraid of - big black cats. He always tries to avoid them.
 
@@ -105,6 +105,7 @@ For each test case, output a single line containing one integer - number of cell
 
 <b>Output:</b>
 5
-</pre>### Sample explanation
+</pre>
+### Sample explanation
 
 We have cells **(2, 1) (2, 3)** on the same diagonals with **(1, 2) or (3, 2)**. Thus 4 cells are occupied by cats and 5 are free of cats.

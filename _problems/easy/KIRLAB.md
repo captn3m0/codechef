@@ -106,7 +106,8 @@ For each test case, output the maximum number of rooms he could clear. (Kirito s
 <b>Output:</b>
 <tt>5
 2</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example 1**. Kirito can clear the monsters in the rooms 2, 3, 4, 5, 7 in that order. These rooms consist of 2, 8, 6, 3, and 9 monsters, respectively. You can check that gcd(2, 8), gcd(8, 6), gcd(6, 3) and gcd(3, 9), all are greater than 1.
 

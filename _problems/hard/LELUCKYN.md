@@ -117,7 +117,8 @@ For each test case output a single line containing the answer for the correspond
 6
 5
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Case 1.** Here **C4 = C7 = 0** for all pairs **(L; R)**. So **00 = 1 ≤ R − L + 1** for each pair. There are **6** pairs **(L; R)** in all: **(1; 1), (1; 2), (1; 3), (2; 2), (2; 3), (3; 3)**. So the answer is **6**.
 

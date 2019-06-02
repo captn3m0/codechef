@@ -54,7 +54,8 @@ For each test case, output a single line containing the required answer modulo *
 1
 12
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** The only way is to fill all cells with same color.
 **Example case 2.** Assume that the two colors are 1 and 2. The 12 distinct ways are:

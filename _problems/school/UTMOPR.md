@@ -103,7 +103,8 @@ Thus, at the end of the **K** operations, the array will have **N** + **K** elem
 1
 2 3
 5 7
-</pre>**Sample Output:**
+</pre>
+**Sample Output:**
 
 <pre>
 even

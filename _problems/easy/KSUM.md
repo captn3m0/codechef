@@ -73,7 +73,7 @@ time:
     current: 1493558158
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME35/mandarin/KSUM.pdf), [Russian](http://www.codechef.com/download/translated/LTIME35/russian/KSUM.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME35/vietnamese/KSUM.pdf) as well.
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME35/mandarin/KSUM.pdf), [Russian](http://www.codechef.com/download/translated/LTIME35/russian/KSUM.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME35/vietnamese/KSUM.pdf) as well.
 
 Chef likes arrays a lot. Today, he found an array **A** consisting of **N** positive integers.
 
@@ -115,7 +115,8 @@ Output **K** space separated integers where the **ith** integer denotes the **it
 
 <b>Output 2</b>
 <tt>19 12 10</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Test 1:**
 ![](https://s3.amazonaws.com/hr-challenge-images/15909/1461161918-8d79d8843c-B.png "B.png")

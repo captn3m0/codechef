@@ -108,6 +108,7 @@ Your goal is to minimize the overall score.
 1 2 1 2 1 2
 
 <b>Explanation:</b>
-</pre>Both of the answers are correct. The score is 100\*7/2 = 350 for the first test case and 100\*6/2 = 300 for the second test case. The score for this file is thus (350+300)/2 = 325. Note that the second test case allows a better solution, 1 1 2 2 3 3. ### Test Case Generation
+</pre>
+Both of the answers are correct. The score is 100\*7/2 = 350 for the first test case and 100\*6/2 = 300 for the second test case. The score for this file is thus (350+300)/2 = 325. Note that the second test case allows a better solution, 1 1 2 2 3 3. ### Test Case Generation
 
 Every official input file contains exactly 10 test cases. In each test case **N** is chosen randomly and uniformly between 10 and 1000, inclusive, and **M** is chosen randomly and uniformly between 5 and 60, inclusive. Then, the values of **Ai** for 1 ≤ **i** < **N** are generated randomly and uniformly between 1 and 2**M**-1, inclusive, and the value of **AN** is calculated as XOR of all other **Ai**'s (note that this way the generated set of heaps is certainly winning for Chef). If the value of **AN** appears to be 0, the whole process of test case generation is restarted.

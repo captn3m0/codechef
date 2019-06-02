@@ -129,7 +129,8 @@ YES
 NO
 YES
 </tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**
 

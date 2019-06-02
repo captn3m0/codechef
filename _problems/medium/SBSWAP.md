@@ -145,7 +145,8 @@ For each query of type 1, output the answer for such a query in a single line. M
 7
 -1
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 The input tree has 10 nodes and each of them has assigned value of 1 at the beginning. Initial tree can be drawn as follows:
 

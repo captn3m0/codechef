@@ -68,7 +68,7 @@ time:
     current: 1493558180
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/DEC13/mandarin/RECTQUER.pdf) and [Russian](http://www.codechef.com/download/translated/DEC13/russian/RECTQUER.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/DEC13/mandarin/RECTQUER.pdf) and [Russian](http://www.codechef.com/download/translated/DEC13/russian/RECTQUER.pdf).
 
 This time Chef does not want to bother you with long story, so the problem description will be as short as possible. You are given a square matrix **A**, which has **N** rows and **N** columns. Chef wants you to answer following queries: given a rectangular submatrix with upper-left corner in (**X1**, **Y1**) and lower-right corner in (**X2**, **Y2**), and you are to count number of disctinct elements in this submarix, i.e count number of such distinct **Ai, j** that (**X1**  **≤ i ≤**  **X2**) and (**Y1**  **≤ j ≤**  **Y2**). \[You may assume that **i** is looping through the rows and **j** through columns\]
 

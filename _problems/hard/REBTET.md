@@ -74,11 +74,11 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/NOV15/mandarin/REBTET.pdf), [Russian](http://www.codechef.com/download/translated/NOV15/russian/REBTET.pdf) and [Vietnamese](http://www.codechef.com/download/translated/NOV15/vietnamese/REBTET.pdf) as well.
 
-A _dark tetrahedron_'s size is said to be **N** if each of its edges consists of **N** segments.
+A *dark tetrahedron*'s size is said to be **N** if each of its edges consists of **N** segments.
 
 To destroy a dark tetrahedron of size **N**, you have to erase at least **N** segments (you can't destroy a dark tetrahedron partially: the tetrahedron uses dark magic to self-cure if you erase less than **N** segments, and so it's the same as not erasing any segment). Also, to protect yourself from the tetraheldral curse, you must ensure that each vertex of a tetrahedron needs to have at least 2 incident segments. Note that a dark tetrahedron has 4 vertices, just like regular tetrahedrons.
 
-A _Sauron-tetrahedron_ of size **N** with resistance **K** is made of **N** dark tetrahedrons with sizes **1**, **2**, ... , **N**. To destroy a Sauron-tetrahedron, you have to destroy at least **K** of its constituent tetrahedrons.
+A *Sauron-tetrahedron* of size **N** with resistance **K** is made of **N** dark tetrahedrons with sizes **1**, **2**, ... , **N**. To destroy a Sauron-tetrahedron, you have to destroy at least **K** of its constituent tetrahedrons.
 
 Wizard Nikitosh needs to detroy a Sauron-tetahedron of size **N** with resistance **K** and he wants to know how many ways to destroy it are there. Since Nikitosh's creative juices only flow for wizardry, he needs your mathematical talent to solve this problem.
 

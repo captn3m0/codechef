@@ -76,7 +76,9 @@ All submissions for this problem are available.###  Read problems statements in 
 
 In competitive programming, one of the common mistakes is using a variable type that stores too few bits, which leads to overflows and underflows. We will focus on the "unsigned int" type, which makes all calculations modulo 232, always giving a non-negative result between 0 and 232 - 1, inclusive. Sample calculations on type "unsigned int" are:
 
-`7 - 5 = 2,        5 - 7 = 4294967294,        5 * 1,000,000,000 = 705032704`
+<pre>7 - 5 = 2,        5 - 7 = 4294967294,        5 * 1,000,000,000 = 705032704
+</pre>
+
 Limak wants to become a great coder. Right now he learns the computional geometry. He already knows that three points (ax, ay), (bx, by), (cx, cy) are collinear if and only if:
 
 (bx - ax) \* (cy - ay) = (by - ay) \* (cx - ax)
@@ -91,6 +93,8 @@ Without thinking which type to use, Limak wrote the following C++ function:
 	}
 
 </pre>
+
+
 If you are more familiar with Python, you can assume that he wrote:
 
 <pre>
@@ -105,7 +109,8 @@ If you are more familiar with Python, you can assume that he wrote:
 <p>To show Limak how important it is to watch for overflows, you must find any set of <b>N</b> distinct points that:
 
 </p>
-</pre>- Any three distinct points in any order would be treated as collinear by Limak's function.
+</pre>
+- Any three distinct points in any order would be treated as collinear by Limak's function.
 - None three points are collinear (what implies that points are distinct).
 - Coordinates are non-negative integers not exceeding 106.
 
@@ -149,7 +154,8 @@ Remember that one of requirements is 0 ≤ xi, yi ≤ 106.
 914958 554338
 518360 23016
 441824 483616
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Test case 1.** The provided function areCollinear() should return True for the found three points given in any order (there are 3! = 6 possible orders of 3 points). Let's analyze the evaluation of areCollinear(42, 483426, 106732, 139820, 210379, 490375):
 

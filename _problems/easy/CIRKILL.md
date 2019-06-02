@@ -117,7 +117,8 @@ For each test case, output a single line containing the probability that **Team 
 0.25
 0.4
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Test 1:** There are 4 ways TR may be placed. Each one of them has the probability 0.25, of occuring.
 

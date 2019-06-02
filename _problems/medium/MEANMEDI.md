@@ -40,12 +40,14 @@ For each test case, print the minimum absolute difference between the mean and t
 5 4
 10 7 4 5 9
 
-</pre>### Sample output
+</pre>
+### Sample output
 
 <pre>0.000
 0.500
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first case, you can select \[4, 4\].
 

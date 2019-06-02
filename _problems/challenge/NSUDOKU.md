@@ -66,7 +66,7 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
-All submissions for this problem are available.Quoting [Wikipedia](http://en.wikipedia.org/wiki/Sudoku) : "Sudoku is a logic-based, combinatorial number-placement puzzle. The objective is to fill a 9×9 grid so that each column, each row, and each of the nine 3×3 boxes (also called blocks or regions) contains the digits from 1 to 9 only one time each. The puzzle setter provides a partially completed grid." The rules for an N2 X N2 sudoku are as follows :
+All submissions for this problem are available.Quoting [ Wikipedia ](http://en.wikipedia.org/wiki/Sudoku) : "Sudoku is a logic-based, combinatorial number-placement puzzle. The objective is to fill a 9×9 grid so that each column, each row, and each of the nine 3×3 boxes (also called blocks or regions) contains the digits from 1 to 9 only one time each. The puzzle setter provides a partially completed grid." The rules for an N2 X N2 sudoku are as follows :
 
 - The board is consists of N2 rows and N2 columns.
 - Numbers between 1 and N2(inclusive) are to be filled in each row such that :
@@ -99,13 +99,15 @@ A box (as explained above) is a N X N square and the grid can be divided into N2
 2 4 4
 3 3 1
 4 1 3
-</pre>### Output:
+</pre>
+### Output:
 
 <pre>
 2 1 3 4
 1 2 4 4
 3 4 1 2
 3 2 4 1
-</pre>### Penalty:
+</pre>
+### Penalty:
 
  (0 + 1 + 0 + 0) + (1 + 1 + 1 + 1) + (2 + 2 + 1 + 1) = 11

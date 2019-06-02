@@ -99,14 +99,16 @@ For each test case, output a single integer indicating the maximum number of tic
 1 4
 2 3
 3 4
-</pre>### Sample Output
+</pre>
+### Sample Output
 
 <pre>
 4
 2
 4
 
-</pre>In the second example, Chef cannot sell 3 tickets because it's possible that 3 patrons will arrive all preferring dishes 1 or 2.
+</pre>
+In the second example, Chef cannot sell 3 tickets because it's possible that 3 patrons will arrive all preferring dishes 1 or 2.
 
 ### Constraints
 

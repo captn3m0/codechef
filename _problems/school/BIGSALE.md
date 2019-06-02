@@ -122,7 +122,8 @@ For each test case, print a single line containing one real number — the total
 
 30.000000000
 3995.0081000
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** There are two recipes.
 

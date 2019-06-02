@@ -70,7 +70,7 @@ time:
     current: 1493557625
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/SNCK151A/mandarin/DINING.pdf) , [Russian](http://www.codechef.com/download/translated/SNCK151A/russian/DINING.pdf) and [Vietnamese](http://www.codechef.com/download/translated/SNCK151A/vietnamese/DINING.pdf)
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/SNCK151A/mandarin/DINING.pdf) , [Russian](http://www.codechef.com/download/translated/SNCK151A/russian/DINING.pdf) and [Vietnamese](http://www.codechef.com/download/translated/SNCK151A/vietnamese/DINING.pdf)
 
 Sergey is visiting ChefTown - a town famous for its' restaurants with famous ChefLand's cuisine. Among the most recommended things to do in ChefTown is to taste ChefLand's all **N** national dishes. Sergey has decided to do it, but as the person who is fond of planning everything, he needs to plan his restaurants' visit's in advance.
 
@@ -81,7 +81,7 @@ On the other hand, everything is even more complicated. Sergey is a thin guy and
 Now, in order to process all this information, Sergey asks you to help him. Please make a plan for him such that:
 
 - In the plan, he will taste every dish exactly once.
-- During any day, he will eat at least one dish, but no more than **K** dishes in total. Here we mean, that he will _plan_ to eat no more than **K** dishes (and at least one dish), but note that he might fail in this because of unavailability of some dishes on a particular day.
+- During any day, he will eat at least one dish, but no more than **K** dishes in total. Here we mean, that he will *plan* to eat no more than **K** dishes (and at least one dish), but note that he might fail in this because of unavailability of some dishes on a particular day.
 - The total probability that all the dishes will be available on their planned days of eating is maximal.
 
 ### Input
@@ -120,6 +120,7 @@ For each test case, output two lines.
 <b>Output:</b>
 0.8
 1 2 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**On the first day, Sergey will eat the first dish. On the second day, he'll eat the second dish. On the third day, he'll try eat the third dish that will appear with the probability of **0.8**. The total probability of dishes being available on these days is 0.8. It is impossible to achieve the better result.

@@ -133,7 +133,8 @@ MOVE 1 2 2 2 (judge's move to extend the snake)
 EXIT (your move to exit the game as there is no empty cell)
 
 Your score for this will be = 2 * floor(sqrt(2)) - floor(sqrt(2)) = floor(sqrt(2)) = 1;
-</pre>### Example 2
+</pre>
+### Example 2
 
 <pre>
 
@@ -155,7 +156,8 @@ EXIT (your move to exit the game, as there are no empty cells to continue the ga
 You have created one snake of length 6. So your score is 6 * sqrt(6) - sqrt(6) = 5 * floor(sqrt(6)) = 5 * 2 = 10.
 
 Judge created two snakes of length 2 and 1.
-</pre>### Example 3
+</pre>
+### Example 3
 
 <pre>
 3 4 2
@@ -172,7 +174,8 @@ NEW 2 1
 MOVE 3 2 2 2
 MOVE 2 1 3 1
 EXIT
-</pre>###  Test data generation 
+</pre>
+###  Test data generation 
 
 There will be two types of the test files.
 

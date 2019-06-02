@@ -141,7 +141,8 @@ You can give the following commands to Santa:
 3 1
 1 0
 0
-</pre>### Explanation:
+</pre>
+### Explanation:
 
 start with empty bag from 0, 0
 

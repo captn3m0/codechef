@@ -95,7 +95,9 @@ F(L, R, X, Y) {
 }
 
 
-</pre>**isPrime(x)** returns true if **x** is Prime otherwise false.
+</pre>
+**isPrime(x)** returns true if **x** is Prime otherwise false.
+
 ### Input
 
 - First line of the input contains a single integer **N** denoting the number of elements in a given array.
@@ -132,7 +134,8 @@ F(L, R, X, Y) {
 <b>Output:</b>
 4
 5
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Query 1** :
 

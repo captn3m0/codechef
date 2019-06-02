@@ -179,7 +179,8 @@ All submissions for this problem are available.### Read problems statements in [
 188
 24
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 <pre>
 First test

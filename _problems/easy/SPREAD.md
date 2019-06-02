@@ -27,7 +27,7 @@ Help Bob do operations of the second type.
   - **S u v k** to describe an operation of the first type.
   - **Q p** to describe an operation of the second type.
 
-**_(Each integer on a same line, or between the characters S, Q and the integers is separated by at least one space character)_**
+***(Each integer on a same line, or between the characters S, Q and the integers is separated by at least one space character)***
 ### Output
 
 For each operation of the second type, output (on a single line) an integer answering to the respective query (follows the respective Input order).
@@ -42,12 +42,14 @@ S 1 7 1
 Q 3
 S 1 3 1
 Q 3
-<pre>**Output:**```
+<pre>
+**Output:**```
 
 0
 1
 2
-</pre>### Limitations
+</pre>
+### Limitations
 
 - 0<n≤106
 - 0<m≤250 000

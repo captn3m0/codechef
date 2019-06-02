@@ -69,7 +69,7 @@ time:
     current: 1493557732
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME20/mandarin/LCH15CD.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME20/russian/LCH15CD.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME20/mandarin/LCH15CD.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME20/russian/LCH15CD.pdf).
 
  Elections in Bytetown are coming soon!
 

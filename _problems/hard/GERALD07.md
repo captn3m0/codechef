@@ -69,7 +69,7 @@ time:
     current: 1493556718
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MARCH14/mandarin/GERALD07.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH14/russian/GERALD07_new.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MARCH14/mandarin/GERALD07.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH14/russian/GERALD07_new.pdf).
 
 ### Problem Statement
 

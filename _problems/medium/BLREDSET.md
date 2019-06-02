@@ -127,7 +127,8 @@ For each test case, print a single line containing one integer denoting the numb
 <b>Output</b>
 5
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** The possible subsets **W** are **{1}, {3}, {1, 3}, {3, 6}** and **{1, 3, 6}**.
 

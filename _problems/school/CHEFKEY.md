@@ -107,7 +107,8 @@ For each test case, output a single line containing the answer for the test case
 <b>Output:</b>
 3
 0
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Test case 1.** Possible pairs of dimensions are **(2, 6)**, **(3, 4)** and **(4, 3)**. Note that the rectangular section of dimension **(1, 12)** can't be painted as it can't fit into the screen, because 12 > 6.
 

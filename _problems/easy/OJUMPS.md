@@ -68,7 +68,7 @@ time:
     current: 1493558217
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MAY14/mandarin/OJUMPS.pdf) and [Russian](http://www.codechef.com/download/translated/MAY14/russian/OJUMPS.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MAY14/mandarin/OJUMPS.pdf) and [Russian](http://www.codechef.com/download/translated/MAY14/russian/OJUMPS.pdf).
 
 This morning Chef wants to jump a little. In a few minutes he will arrive at the point 0. Then he will perform a lot of jumps in such a sequence: **1**-jump, **2**-jump, **3**-jump, **1**-jump, **2**-jump, **3**-jump, **1**-jump, and so on.
 
@@ -136,6 +136,7 @@ yes
 <b>Output:</b>
 no
 
-</pre>### Explanation
+</pre>
+### Explanation
 
  The first reached points are: 0 (+1) 1 (+2) 3 (+3) 6 (+1) 7, and so on.

@@ -71,7 +71,7 @@ time:
     current: 1493558137
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MAY15/mandarin/DEVSTR.pdf) and [Russian](http://www.codechef.com/download/translated/MAY15/russian/DEVSTR.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MAY15/mandarin/DEVSTR.pdf) and [Russian](http://www.codechef.com/download/translated/MAY15/russian/DEVSTR.pdf).
 
  Devu loves to play with binary strings a lot. One day he borrowed a binary string **s** of size **n** from his friend Churu. Before starting to play with it, he wants to make sure that string does not contain more than  **k** consecutive equal characters. For achieving that, only kind of operation he is allowed to perform is to flip any **ith** character of the string.
 
@@ -123,7 +123,8 @@ As Devu is always in hurry to meet his girlfriend, he wants you to help him in f
 11
 2
 1010
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** As 1 is occurring twice consecutively, we can convert 11 to 10 in a single operation.
 

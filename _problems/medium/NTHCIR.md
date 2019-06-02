@@ -72,7 +72,7 @@ time:
     current: 1493557822
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JULY15/mandarin/NTHCIR.pdf) and [Russian](http://www.codechef.com/download/translated/JULY15/russian/NTHCIR.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JULY15/mandarin/NTHCIR.pdf) and [Russian](http://www.codechef.com/download/translated/JULY15/russian/NTHCIR.pdf).
 
  Chef has a friend named Rohith who is very good at geometry. One day Chef came across an interesting problem on the topic of circles and shared it with Rohith.
 

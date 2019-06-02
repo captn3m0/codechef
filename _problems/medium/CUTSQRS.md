@@ -11,7 +11,7 @@ layout: problem
 ---
 ###  All submissions for this problem are available. 
 
-Two players take it in turns to cut off squares from a rectangle. If the lengths of the sides of the rectangle are _a_ and _b_ (a<=b) at the beginning of a player's turn, he may cut off as many squares with a side of length _a_ as he likes (but at least 1 square), provided the square he is cutting off has at least three of its sides lying on the sides of the rectangle he is trimming. After every cut, the cut off square is removed from the rectangle. When the last part of the rectangle is removed, the game ends and the person who cut it off wins.
+Two players take it in turns to cut off squares from a rectangle. If the lengths of the sides of the rectangle are *a* and *b* (a<=b) at the beginning of a player's turn, he may cut off as many squares with a side of length *a* as he likes (but at least 1 square), provided the square he is cutting off has at least three of its sides lying on the sides of the rectangle he is trimming. After every cut, the cut off square is removed from the rectangle. When the last part of the rectangle is removed, the game ends and the person who cut it off wins.
 
 Michael, a friend of the players', is taking down a log of the games they are playing in the form of a sequence of consecutive numbers, each number denoting how many squares a player cut off in his turn. Since the game is rather slow, Michael is getting a little bored and he has started writing a detailed analysis of the game in his notebook. For given starting dimensions a and b, he always writes down:
 
@@ -42,4 +42,5 @@ For each test case, output the number of characters Michael has to write down (e
 <b>Sample output:</b>
 7
 8
-</pre>(In the first case Michael has to write '1 1 first', in the second case '2 1 second'.)
+</pre>
+(In the first case Michael has to write '1 1 first', in the second case '2 1 second'.)

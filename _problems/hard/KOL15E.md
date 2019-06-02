@@ -87,7 +87,8 @@ For each query, output the sum modulo **M**.
 7
 52
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Query 1:** Nodes in the subtree 1 are \[1,2,5,6\]. Valid Paths are 5→2 , 2→1, 1→6, 2→1→6 . Corresponding sums are 7, 3, 7, and 9. Total sum is 26.
 

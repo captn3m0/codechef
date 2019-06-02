@@ -105,6 +105,7 @@ For each test case, output a single line containing one integer ― the number o
 1
 0
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:** There is a direct edge from vertex 1 to vertex 2 and this is the only path between these two vertices. **Example case 2:** Vertex 3 contains only one incoming edge in graph **G** and this edge is from vertex 0, but as there are no path from vertex 1 to vertex 0, thus there are no paths to vertex 3 as well. **Example case 3:** The two paths are: 1 → 2 → 4 and 1 → 4.

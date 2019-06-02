@@ -99,7 +99,8 @@ Output a single integer, the number of sub rectangles which contains even number
 </tt>
 <b>Output:</b>
 <tt>3</tt>
-</pre>### Example 2
+</pre>
+### Example 2
 
 <pre>
 <b>Input:</b>

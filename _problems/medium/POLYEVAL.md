@@ -108,7 +108,8 @@ For each query, output a single line containing the answer to the corresponding 
 <tt>162
 209
 262</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.**
 

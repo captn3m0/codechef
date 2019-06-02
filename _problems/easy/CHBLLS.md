@@ -120,7 +120,8 @@ Please note that the content in left side denotes output of your program where c
 					-1
 2
 5
-</pre>### Example 2
+</pre>
+### Example 2
 
 <pre><b>Input and Output</b>
 1
@@ -137,7 +138,8 @@ Please note that the content in left side denotes output of your program where c
 					-2
 2
 5
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the **first example**, you first printed :
 
@@ -145,7 +147,8 @@ In the **first example**, you first printed :
 1
 1 1
 1 1
-</pre>This means that you want to use the scale. Each of the first and second pan has one ball of colour 1. Don't forget to flush the standard output after printing this.
+</pre>
+This means that you want to use the scale. Each of the first and second pan has one ball of colour 1. Don't forget to flush the standard output after printing this.
 
 After that you should read the input, the difference of weights between the two pans, in this case, it will be 0.
 
@@ -155,7 +158,8 @@ Now you printed :
 1
 1 1
 1 5
-</pre>It means, that you decided to use scale again. Now first pan contains one ball of colour 1 and the second pan contains one ball of colour 5.
+</pre>
+It means, that you decided to use scale again. Now first pan contains one ball of colour 1 and the second pan contains one ball of colour 5.
 
 Now, you should read the input, the difference of weights between the two pans, in this case, it will be -1.
 

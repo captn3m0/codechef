@@ -70,9 +70,9 @@ time:
     current: 1493557686
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME23/mandarin/HCLEAN.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME23/russian/HCLEAN.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME23/mandarin/HCLEAN.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME23/russian/HCLEAN.pdf).
 
-Jane lives in **N**-dimensional space. Her house is a **N**-dimensional [hypercube](http://en.wikipedia.org/wiki/Hypercube), with the centre located in the origin, with each edge having length equal to **2**. There is a room in every vertex of the hypercube. The room can be denoted with **N** it's coordinates. For any two rooms, there is a corridor between them if the square of the euclidean distance is no more than **D** units.
+Jane lives in **N**-dimensional space. Her house is a **N**-dimensional [ hypercube](http://en.wikipedia.org/wiki/Hypercube), with the centre located in the origin, with each edge having length equal to **2**. There is a room in every vertex of the hypercube. The room can be denoted with **N** it's coordinates. For any two rooms, there is a corridor between them if the square of the euclidean distance is no more than **D** units.
 
 Sometimes, Jane wants to make a clean-up in her house. In order to do that, she needs to visit all the rooms. She starts with a room with the coordinates **(S1, S2, ... SN)** and then wants to move through all the rooms via corridors in such a way that she will visit all the rooms, and, at the same time, won't visit any room twice (she does not want to step on a floor which is not dried yet).
 
@@ -135,7 +135,8 @@ Subtask 4 (71 point):
 -1 1
 -2
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** It is easy to see that the square of the euclidean distance between any two adjacent rooms in the route will not exceed **D = 5**.
 

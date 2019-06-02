@@ -23,9 +23,9 @@ time:
     current: 1492506692
 layout: problem
 ---
-All submissions for this problem are available.An array **a** is called _beautiful_ if for every pair of numbers **ai, aj**, (**i ≠ j**), there exists an **ak** such that **ak = ai \* aj**. Note that **k** can be equal to **i** or **j** too.
+All submissions for this problem are available.An array **a** is called *beautiful* if for every pair of numbers **ai, aj**, (**i ≠ j**), there exists an **ak** such that **ak = ai \* aj**. Note that **k** can be equal to **i** or **j** too.
 
-Find out whether the given array **a** is _beautiful_ or not!
+Find out whether the given array **a** is *beautiful* or not!
 
 ### Input
 
@@ -61,8 +61,9 @@ For each test case, output a single line containing "yes" or "no" (without quote
 yes
 yes
 no
-</pre>### Explanation
+</pre>
+### Explanation
 
-**Test case 1.** If you multiply 0 with 1, you get 0, we see that **a0 = 0**. So, the array is _beautiful_.
+**Test case 1.** If you multiply 0 with 1, you get 0, we see that **a0 = 0**. So, the array is *beautiful*.
 
-**Test case 3.** If you multiply 5 with 6, you get 30, there does not exist an **k** such that **ak = 30**. So, the array is not _beautiful_.
+**Test case 3.** If you multiply 5 with 6, you get 30, there does not exist an **k** such that **ak = 30**. So, the array is not *beautiful*.

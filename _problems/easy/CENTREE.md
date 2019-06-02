@@ -113,6 +113,7 @@ YES
 1 2
 1 3
 1 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 Vertex 1 is the center and centroid of the tree.

@@ -73,9 +73,9 @@ All submissions for this problem are available.###  Read problems statements in 
 
 Chef is teaching his students about properties of integers. Today he is teaching them about numbers which are squares of some number, e.g. 1, 4, 9, 16, 25 etc. These numbers are said perfect squares.
 
-He gave his students the following task as homework. He gives an array **a** consisting of **n** positive integers. He calls the array **_w0w_** if for every pair of indices **i, j**, the product **ai \* aj** is a perfect square.
+He gave his students the following task as homework. He gives an array **a** consisting of **n** positive integers. He calls the array ***w0w*** if for every pair of indices **i, j**, the product **ai \* aj** is a perfect square.
 
-Chef wants you to make this array _w0w_. For achieving this, you can pick any integer **ai** and can multiply it by any prime number. You can perform this operation several times, even multiple times on the same number. Find out the minimum number of operations that you will require.
+Chef wants you to make this array *w0w*. For achieving this, you can pick any integer **ai** and can multiply it by any prime number. You can perform this operation several times, even multiple times on the same number. Find out the minimum number of operations that you will require.
 
 ### Input
 
@@ -87,7 +87,7 @@ The next line will contain **n** space separated integers denoting elements of a
 
 ### Output
 
-For each test case, output a single integer corresponding to minimum number of operations required to make array _w0w_.
+For each test case, output a single integer corresponding to minimum number of operations required to make array *w0w*.
 
 ### Constraints
 
@@ -132,8 +132,9 @@ For each test case, output a single integer corresponding to minimum number of o
 0
 1
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
-**Example case 1.** If you multiply any pair of integers in the array, the product is 4, which is square. So, the array is _w0w_ already.
+**Example case 1.** If you multiply any pair of integers in the array, the product is 4, which is square. So, the array is *w0w* already.
 
-**Example case 2.** You can multiply the first number by 2, then the array will become _w0w_. So the minimum number of operations required will be 1.
+**Example case 2.** You can multiply the first number by 2, then the array will become *w0w*. So the minimum number of operations required will be 1.

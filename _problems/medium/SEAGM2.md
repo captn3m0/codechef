@@ -69,9 +69,9 @@ time:
     current: 1493557907
 layout: problem
 ---
-All submissions for this problem are available.### Read problems statements in [Mandarin Chinese](/download/translated/JULY15/mandarin/SEAGM2.pdf) and [Russian](/download/translated/JULY15/russian/SEAGM2.pdf).
+All submissions for this problem are available.### Read problems statements in [Mandarin Chinese ](/download/translated/JULY15/mandarin/SEAGM2.pdf) and [Russian](/download/translated/JULY15/russian/SEAGM2.pdf).
 
-Sereja is playing a game called _Winner Eats Sandwich_ with his friends. There are **N** persons in total, including Sereja. Sereja is allotted the number 1, while his friends are allotted numbers from 2 to **N**. A set of this game consists of **M** parts. Probability that a player numbered **i** wins part **j** of any set is **p\[i\]\[j\]**. Sereja and his friends play all the **M** parts of the first set. If someone wins all the parts, he is declared the winner of the match. Otherwise, another set of the game is played. A match of the game continues until someone wins a set. The winner of the set is then declared the winner of the game, and gets to eat the sandwich.
+Sereja is playing a game called *Winner Eats Sandwich* with his friends. There are **N** persons in total, including Sereja. Sereja is allotted the number 1, while his friends are allotted numbers from 2 to **N**. A set of this game consists of **M** parts. Probability that a player numbered **i** wins part **j** of any set is **p\[i\]\[j\]**. Sereja and his friends play all the **M** parts of the first set. If someone wins all the parts, he is declared the winner of the match. Otherwise, another set of the game is played. A match of the game continues until someone wins a set. The winner of the set is then declared the winner of the game, and gets to eat the sandwich.
 
 Now Sereja is interested in the probability with which he can win the match in no more than 10^(10^(10^(10^(10^10)))) sets. This is because the sandwich gets cold by the end of these many sets, and Sereja hates cold sandwiches.
 

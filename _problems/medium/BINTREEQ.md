@@ -89,7 +89,7 @@ Let's consider four operations, that are allowed to apply during the tree traver
 - **move to the parent as a left son** - move from **v** to **v / 2** if **v** is an even integer
 - **move to the parent as a right son** - move from **v** to **(v - 1) / 2** if **v** is an odd integer
 
-It can be proven, that for any pair of two nodes **u** and **v**, there is only one sequence of such commands, that moves from **u** to **v** and visits each node of the tree at most once. Let's call such a sequence of commands a _path configuration_ for a pair of nodes (**u**, **v**).
+It can be proven, that for any pair of two nodes **u** and **v**, there is only one sequence of such commands, that moves from **u** to **v** and visits each node of the tree at most once. Let's call such a sequence of commands a *path configuration* for a pair of nodes (**u**, **v**).
 
 You are asked to process a series of the following queries:
 
@@ -122,7 +122,8 @@ For each query, print the answer on a separate line.
 2
 10
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first query from the example test case, you should count pairs (**5, 7**) and (**9, 11**).
 

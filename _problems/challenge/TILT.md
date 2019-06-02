@@ -131,12 +131,15 @@ Note that if the score for any individual test case is non-positive, the submiss
 --%*
 +%-*
 
-</pre>### Sample Output
+</pre>
+### Sample Output
+
 <pre>LDRDLRULR
 RDLRRRDR
 
 
-</pre>The score for the first test case after each tilt is: 4, 8, 7, 6, 10, 9, 8, 2, 6.
+</pre>
+The score for the first test case after each tilt is: 4, 8, 7, 6, 10, 9, 8, 2, 6.
 
 The score for the second test case after each tilt is: -6, -2, -3, 1, 5, 14, 13, 12.
 

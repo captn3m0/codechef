@@ -125,7 +125,8 @@ Consider the answer to be a proper fraction **P**/**Q**, where gcd(**P**, **Q**)
 1 1
 400000004 200000003
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 You can see every possible tree with 1, 2, 3 or 4 vertices on the diagram below.
 

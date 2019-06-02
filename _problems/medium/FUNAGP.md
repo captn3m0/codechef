@@ -54,7 +54,7 @@ time:
     current: 1493557671
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MAY14/mandarin/FUNAGP.pdf) and [Russian](http://www.codechef.com/download/translated/MAY14/russian/FUNAGP.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MAY14/mandarin/FUNAGP.pdf) and [Russian](http://www.codechef.com/download/translated/MAY14/russian/FUNAGP.pdf).
 
 You are given an 1-based array **A** and its fixed parameters: **R**, **p1**, **p2**. You need to mantain this array, performing some operations. The operations are as follows:
 

@@ -114,6 +114,7 @@ For each test case, output a single integer ― the **xor sum** of all the numbe
 1
 6
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** First row is filled with ones, so our rectangle contains **23** ones and their **xor sum** is one. **Example case 2.** Here we have a rectangle that consists of one cell **G\[23959042, 1\] = 23959042**. **Example case 3.** The rectangle contains four numbers: **1 1 2 3** and their **xor sum** is **1**.

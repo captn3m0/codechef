@@ -69,7 +69,7 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
-All submissions for this problem are available.### Read problems statements in [Mandarin Chinese](/download/translated/DEC14/mandarin/KALKI.pdf) and [Russian](/download/translated/DEC14/russian/KALKI.pdf).
+All submissions for this problem are available.### Read problems statements in [Mandarin Chinese ](/download/translated/DEC14/mandarin/KALKI.pdf) and [Russian](/download/translated/DEC14/russian/KALKI.pdf).
 
 The apocalyptic demon **[Kali](http://en.wikipedia.org/wiki/Kali_%28demon%29)** is on a rampage. The ground shudders under his feet, trees shrivel and animals and birds scurry away from his path. In order to save the universe from devastation, all the devtas led by devraj **[Indra](http://en.wikipedia.org/wiki/Indra)** decide to meditate to please Lord **[Vishnu](http://en.wikipedia.org/wiki/Vishnu)** so that he appears in the form of **[Kalki](http://en.wikipedia.org/wiki/Kalki)**, his last avatar, and kill the demon.
 
@@ -84,7 +84,7 @@ In simple terms, the astral projections must form a tree connecting all devtas.
 
 **What needs to be optimized ?**
 
-Once the devtas have taken their positions and are connected as a single group to start meditation, a _ring of influence_ is formed around each devta. This ring is centered at the position of the devta, and has a radius equal to the Euclidean distance from this devta to the furthest devta directly connected via an astral projection.
+Once the devtas have taken their positions and are connected as a single group to start meditation, a *ring of influence* is formed around each devta. This ring is centered at the position of the devta, and has a radius equal to the Euclidean distance from this devta to the furthest devta directly connected via an astral projection.
 
 Since different devtas have their own supernatural powers (**[Indra](http://en.wikipedia.org/wiki/Indra)** is the rain god, **[Agni](http://en.wikipedia.org/wiki/Agni)** is the fire god,**[Varuna](http://en.wikipedia.org/wiki/Varuna)** is the water god, **[Vayu](http://en.wikipedia.org/wiki/Vayu)** is the air god , etc), the influence ring of each devta has an adverse effect on all other devtas which lie within or on this ring. In other words, the efficiency of a devta to perform meditation decreases as the number of influence rings that include him increases.
 
@@ -130,7 +130,8 @@ The score is **C**, where **C = max(Ci)** for **1 <= i <= N**. The sequence of p
 2 3
 3 4
 4 5
-<pre>### Explanation
+<pre>
+### Explanation
 
 The second devta is connected to two other devtas: the first devta (a distance of 2 away), and the third devta (a distance of sqrt(2) away). The larger of these distances is 2, so the radius of the second devta's ring of influence is 2. We can calculate the other rings similarly.
 

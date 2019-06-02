@@ -91,4 +91,5 @@ If your program does not produce a sorting machine which works for every input (
 
 ### Example
 
-`<strong>Input:</strong><br></br>3 2<br></br>1 2 3<br></br>1 3 2<br></br><br></br><strong>Output:</strong><br></br>2<br></br>2 3 min<br></br>2 3 max<br></br>1 4 5<br></br><br></br><strong>Score:</strong><br></br> 0.5`
+<pre><strong>Input:</strong><br></br>3 2<br></br>1 2 3<br></br>1 3 2<br></br><br></br><strong>Output:</strong><br></br>2<br></br>2 3 min<br></br>2 3 max<br></br>1 4 5<br></br><br></br><strong>Score:</strong><br></br> 0.5
+</pre>

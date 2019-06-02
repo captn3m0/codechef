@@ -115,13 +115,15 @@ b
 abba
 baab
 
-</pre>**Output**
+</pre>
+**Output**
 
 <pre>
 Yes
 No
 Yes
-</pre>### Explanation
+</pre>
+### Explanation
 
 - **Test 1:** One possible way of choosing **s1 & s2** is **s1 = "ab"**, **s2 = "a"** such that **s1 + s2** i.e **"aba"** is a palindrome.
 - **Test 2:** There is no possible way to choose **s1 & s2** such that **s1 + s2** is a palindrome.

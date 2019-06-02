@@ -76,7 +76,7 @@ Chef is very fascinated by the **Longest Increasing Subsequence** problem. He co
 
 Once again, Chef has come up with another problem involving them:
 
-Given three integers **A**, **B** and **N**, output a _permutation_ of **\[1,2,...,N\]** such that length of the longest increasing subsequence in the permutation is **A** and the length of the longest decreasing subsequence is **B**.
+Given three integers **A**, **B** and **N**, output a *permutation* of **\[1,2,...,N\]** such that length of the longest increasing subsequence in the permutation is **A** and the length of the longest decreasing subsequence is **B**.
 
 In case there are multiple possible answers, any one of them will be accepted.
 
@@ -107,7 +107,8 @@ For each test case, output a single line containing **N** space separated intege
 <b>Output:</b>
 <tt>3 5 1 6 2 4
 -1</tt>
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** In the array **\[3, 5, 1, 6, 2, 4\]**, the longest increasing subsequence has length **3** (e.g. **\[3,5,6\]**), and the longest decreasing subsequence has length **2** (e.g. **\[3, 2\]**).
 

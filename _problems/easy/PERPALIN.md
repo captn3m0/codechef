@@ -117,7 +117,8 @@ impossible
 aba
 abba
 abaaba
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example 1**: The only strings possible are either aaa or bbb, which Chef doesn't like. So, the answer is impossible.
 

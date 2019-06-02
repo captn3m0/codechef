@@ -120,7 +120,8 @@ For each test case, print a single line containing **N** space-separated integer
 
 1 2 3 2
 2 3 2 3 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1:**
 

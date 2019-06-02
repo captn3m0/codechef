@@ -54,7 +54,7 @@ time:
     current: 1493556901
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME23/mandarin/XETF.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME23/russian/XETF.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME23/mandarin/XETF.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME23/russian/XETF.pdf).
 
 Euler totient function (denoted by **phi(N)**) for a positive integer **N** is defined as number of positive integers less than or equal **N** that are coprime to **N**
 
@@ -106,7 +106,8 @@ Subtask 4 (55 points):
 <b>Output:</b>
 20
 6
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** The numbers that are coprime to **10** are **1, 3, 7, 9**. Their sum is **20**.
 

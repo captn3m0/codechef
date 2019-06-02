@@ -121,7 +121,8 @@ There are 5 subtasks, each worth 20 points. 1. **B** = 3 and the checker checks 
 2
 1 6 7
 0 0 0
-</pre>### Explanation
+</pre>
+### Explanation
 
 The provided output has valid formatting but isn't correct. Let's analyze the printed moves to multiply X = 7 and Y = 5. These X and Y in base 3 are 21 and 12 respectively, so the initial numbers in cells are: 0, 1, 2, 2, 1, 1, 2, 0, 0, ...
 

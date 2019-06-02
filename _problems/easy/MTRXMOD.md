@@ -119,6 +119,7 @@ Print **Q + 1** lines which contain **N** space-separated integers, Miron's init
 0 -1 -2
 0 -4 -3
 0 -4 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** Initially, sequence **{0, 1, 2}** is also suitable, but **{0, -1, -2}** is lexicografically smaller.

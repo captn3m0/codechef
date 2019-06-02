@@ -68,7 +68,7 @@ time:
     current: 1493556973
 layout: problem
 ---
-All submissions for this problem are available.### Read problems statements in [Mandarin Chinese](/download/translated/DEC14/mandarin/GOODGAL.pdf) and [Russian](/download/translated/DEC14/russian/GOODGAL.pdf).
+All submissions for this problem are available.### Read problems statements in [Mandarin Chinese ](/download/translated/DEC14/mandarin/GOODGAL.pdf) and [Russian](/download/translated/DEC14/russian/GOODGAL.pdf).
 
 A galaxy is a set of planets with some connections between pairs of planets. Connections between planets are mutual and no planet can be connected with itself. The distance between a pair of planets is the least number of connections that you have to pass through while travelling from the first planet to the second.
 
@@ -82,11 +82,11 @@ This diagram shows how the galaxy grows over the first two iterations. Dark grey
 
 However, galaxies do not continue growing forever. Why? The answer is simple: comets. At any point after the galaxy has started growing, a comet may pass through the galaxy. When it does, it changes the connections between planets by the following rule:
 
-_Two planets are connected after the comet arrives if and only if the distance between the planets was equal to 2 before the comet arrives._
+*Two planets are connected after the comet arrives if and only if the distance between the planets was equal to 2 before the comet arrives.*
 
 It can be shown that a comet will split a growing galaxy into two disconnected galaxies with identical structures.
 
-After a comet has arrived, the galaxy stops growing. Researchers have discovered that each of the two identical galaxies formed by the comet are 'good galaxies' - fit for living. In fact, galaxies formed in this way are the _only_ good galaxies that exist.
+After a comet has arrived, the galaxy stops growing. Researchers have discovered that each of the two identical galaxies formed by the comet are 'good galaxies' - fit for living. In fact, galaxies formed in this way are the *only* good galaxies that exist.
 
 This diagram shows the result when a comet arrives after each of the first three iterations. In each one the red and blue colours show the two equivalent good galaxies.
 
@@ -154,7 +154,8 @@ NO
 NO
 YES
 NO
-<pre>### Explanation
+<pre>
+### Explanation
 
 **Test case 1.** This galaxy is equivalent to the red (or blue) galaxy in step 2 in the above image.
 

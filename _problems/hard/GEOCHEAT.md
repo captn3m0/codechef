@@ -120,7 +120,8 @@ Output **N** lines. The **i**-th line should contain the square of the diameter 
 500
 2000
 999999980000029000
-</pre>### Explanation
+</pre>
+### Explanation
 
 1. After the first query, the set contains only one point **(20, 20)**. You should print 0 because there are no two points with positive distance between them.
 2. After the second query, the set contains points **(20, 20)** and **(40, 30)**. The distance between them is **sqrt((40-20)^2+(30-20)^2) = sqrt(500)** so the squared distance is **500**.

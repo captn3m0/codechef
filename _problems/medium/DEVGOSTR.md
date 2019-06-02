@@ -73,9 +73,9 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/APRIL16/mandarin/DEVGOSTR.pdf), [Russian](http://www.codechef.com/download/translated/APRIL16/russian/DEVGOSTR.pdf) and [Vietnamese](http://www.codechef.com/download/translated/APRIL16/vietnamese/DEVGOSTR.pdf) as well.
 
-A string **str** is called a _good_ string if there does not exist three difference indices **i, j, k** such that **i, j, k** are consecutive three terms of an arithmetic progression and **str\[i\] = str\[j\] = str\[k\]**.
+A string **str** is called a *good* string if there does not exist three difference indices **i, j, k** such that **i, j, k** are consecutive three terms of an arithmetic progression and **str\[i\] = str\[j\] = str\[k\]**.
 
-You are given a string **s** and two integers **K**, **A**. You have to find the number of _good_ strings **t** with alphabet size **A** (i.e. if **A = 1**, then string can only have a's and if **A = 2**, string can only contain 'a' or 'b'. e.g. if **A = 2**, **t** can be aa, ab, bb etc., for **A = 3**, string can only contain 'a', 'b' and 'c', i.e. it can be aab bac, bbb, cbb etc.) of length **|s|** such that hamming distance between strings **s** and **t** is less than or equal to **K**. As the answer could be very large, print answers modulo **109 + 7**.
+You are given a string **s** and two integers **K**, **A**. You have to find the number of *good* strings **t** with alphabet size **A** (i.e. if **A = 1**, then string can only have a's and if **A = 2**, string can only contain 'a' or 'b'. e.g. if **A = 2**, **t** can be aa, ab, bb etc., for **A = 3**, string can only contain 'a', 'b' and 'c', i.e. it can be aab bac, bbb, cbb etc.) of length **|s|** such that hamming distance between strings **s** and **t** is less than or equal to **K**. As the answer could be very large, print answers modulo **109 + 7**.
 
 Hamming distance between two strings of same size is defined as the number of indices where their corresponding characters differ. Formally, for two strings **s, t** of length **N**, hamming distance will be number of indices **1 ≤ i ≤ N** such that **s\[i\] != t\[i\]**.
 
@@ -124,7 +124,8 @@ aba
 <b>Output:</b>
 1
 5
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** Only string of length 1 and alphabet size 1 will be 'a'. Hamming distance of "a" with "a" is zero which is ≤ 1. So answer is 1.
 

@@ -68,7 +68,7 @@ time:
     current: 1493558183
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MAY14/mandarin/RRSTONE.pdf) and [Russian](http://www.codechef.com/download/translated/MAY14/russian/RRSTONE.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MAY14/mandarin/RRSTONE.pdf) and [Russian](http://www.codechef.com/download/translated/MAY14/russian/RRSTONE.pdf).
 
 Roman has no idea, why this problem is called Stone. He also has no idea on how to solve the followong problem: given array of **N** integers **A** and a number **K**. During a turn the maximal value over all **Ai** is chosen, let's call it **MAX**. Then **Ai** =
 **MAX** - **Ai** is done for every **1 <= i <= N**. Help Roman to find out how will the array look like after **K** turns.

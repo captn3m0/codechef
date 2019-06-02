@@ -112,6 +112,7 @@ abba
 0
 2
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 2.** The good substrings of **abba** are: { **bb** } and { **abba** }.

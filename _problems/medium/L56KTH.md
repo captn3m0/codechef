@@ -128,7 +128,8 @@ For each test case, print a single line containing one integer — the **K**-th 
 <b>Output:</b>
 
 9
-</pre>### Example
+</pre>
+### Example
 
 There are **N(N+1)/2** = 10 distinct pairs (**l**, **r**). The values of **MIN**(**l**, **r**), **XOR**(**l**, **r**) and **f**(**l**, **r**) for each pair are:
 

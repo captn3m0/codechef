@@ -72,9 +72,9 @@ layout: problem
 ---
 All submissions for this problem are available.### Read problems statements in [mandarin chinese](http://www.codechef.com/download/translated/LTIME49/mandarin/MAXSEGM.pdf), [russian](http://www.codechef.com/download/translated/LTIME49/russian/MAXSEGM.pdf) and [vietnamese](http://www.codechef.com/download/translated/LTIME49/vietnamese/MAXSEGM.pdf) as well.
 
-You are given 2 arrays **W** = (**W1**, **W2**, .., **WN**) and **C** = (**C1**, **C2**, .., **CN**) with **N** elements each. A range \[l, r\] is _unique_ if all the elements **Cl**, **Cl+1**, .., **Cr** are unique (ie. no duplicates). The _sum_ of the range is **Wl** + **Wl+1** + ... + **Wr**.
+You are given 2 arrays **W** = (**W1**, **W2**, .., **WN**) and **C** = (**C1**, **C2**, .., **CN**) with **N** elements each. A range \[l, r\] is *unique* if all the elements **Cl**, **Cl+1**, .., **Cr** are unique (ie. no duplicates). The *sum* of the range is **Wl** + **Wl+1** + ... + **Wr**.
 
-You want to find an _unique_ range with the maximum _sum_ possible, and output this sum.
+You want to find an *unique* range with the maximum *sum* possible, and output this sum.
 
 ### Input
 
@@ -85,7 +85,7 @@ You want to find an _unique_ range with the maximum _sum_ possible, and output t
 
 ### Output
 
-For each testcase, output a single integer in a new line, which should be the maximum possible _sum_ of an _unique_ range.
+For each testcase, output a single integer in a new line, which should be the maximum possible *sum* of an *unique* range.
 
 ### Constraints
 
@@ -110,6 +110,7 @@ For each testcase, output a single integer in a new line, which should be the ma
 
 <b>Output:</b>
 21
-</pre>### Explanation
+</pre>
+### Explanation
 
-The range \[2, 4\] is an _unique_ range because (1, 2, 0) has no duplicates. Its _sum_ is 6 + 7 + 8 = 21. This is the maximum possible, and hence is the answer.
+The range \[2, 4\] is an *unique* range because (1, 2, 0) has no duplicates. Its *sum* is 6 + 7 + 8 = 21. This is the maximum possible, and hence is the answer.

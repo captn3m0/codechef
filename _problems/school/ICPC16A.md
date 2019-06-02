@@ -53,6 +53,7 @@ For each test case, output a single line containing **"left"** or **"right"** or
 right
 up
 sad
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Test case 1.** If you give Bunny the command to move to the right, it will reach its home.

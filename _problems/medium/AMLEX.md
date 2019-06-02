@@ -24,7 +24,7 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
-All submissions for this problem are available.Dhinwaji is an acclaimed poet and likes to play with words and letters. He has bought some stickers where each sticker has a lower case english letter (a-z). The letters are indexed from 1 - 26 i.e. a has index 1, b has index 2 and so on. He has **ai** stickers with letter _i_ on it. He needs to create a new word having exactly **n** letters. Being a programmer, Dhinwaji imposed another constraint: a letter with index _j_ can only be placed at position _i_ in the word if _i % j_ = 0 i.e. _i_ should be a multiple of _j_. Note that everything is 1-indexed. Note also that not all the stickers need to be used.
+All submissions for this problem are available.Dhinwaji is an acclaimed poet and likes to play with words and letters. He has bought some stickers where each sticker has a lower case english letter (a-z). The letters are indexed from 1 - 26 i.e. a has index 1, b has index 2 and so on. He has **ai** stickers with letter *i* on it. He needs to create a new word having exactly **n** letters. Being a programmer, Dhinwaji imposed another constraint: a letter with index *j* can only be placed at position *i* in the word if *i % j* = 0 i.e. *i* should be a multiple of *j*. Note that everything is 1-indexed. Note also that not all the stickers need to be used.
 
 Dhinwaji wonders what is the lexicographically smallest word he can create that follows the above constraints. Since he is too busy writing poems, you have to help him find this word. Note that it is possible that there is no valid word of **n** letters that can be formed.
 
@@ -60,7 +60,8 @@ Dhinwaji wonders what is the lexicographically smallest word he can create that 
 abc
 aacbab
 #rekt
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Testcase 1:** There is 1 sticker with a, b and c each. "abc" is the only valid word possible
 

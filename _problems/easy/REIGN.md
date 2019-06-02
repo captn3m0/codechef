@@ -67,7 +67,7 @@ time:
     current: 1493558180
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/DEC13/mandarin/REIGN.pdf) and [Russian](http://www.codechef.com/download/translated/DEC13/russian/REIGN.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/DEC13/mandarin/REIGN.pdf) and [Russian](http://www.codechef.com/download/translated/DEC13/russian/REIGN.pdf).
 
 The Baratheons have been ruling in the Seven Kingdoms for many years. They have seen a lot: prosperity and hunger, tranquility and rebellions, live and death. But nevertheless, they still hold the throne.
 
@@ -121,7 +121,8 @@ For each test case, output a single line containing the required integer.
 -2
 12
 18
-</pre>### Explanation
+</pre>
+### Explanation
 
 There are **T** = 3 test cases the input.
 

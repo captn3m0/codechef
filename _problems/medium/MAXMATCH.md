@@ -71,7 +71,7 @@ time:
     current: 1493557785
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME24/mandarin/MAXMATCH.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME24/russian/MAXMATCH.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME24/mandarin/MAXMATCH.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME24/russian/MAXMATCH.pdf).
 
 Devu is very frustrated with the following problem. So, he wants your help in solving it.
 
@@ -124,7 +124,8 @@ For each test case, print a single integer representing the answer of that test 
 <b>Output:</b>
 1
 17
-</pre>### Explanation
+</pre>
+### Explanation
 
 **For N=3, graph can be shown as below:**
 

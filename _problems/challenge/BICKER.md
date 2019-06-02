@@ -109,7 +109,8 @@ The only further restriction on the output is that d(S,T) must be non-zero. Othe
 <b>Output:</b>
 1 2
 3 1 2 5
-</pre>### Scoring
+</pre>
+### Scoring
 
 Say the output for a test case describes a set S. Then T will automatically be equal to the cooks that are not in S. The score for the test case is then (q(S,T)/d(S,T))\*(dTot/qTot). The overall score over all test cases in a single file is the sum of the scores for each individual test case. Finally, there are multiple input files and the final score is the average of the scores over all files.
 

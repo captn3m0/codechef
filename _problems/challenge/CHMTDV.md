@@ -104,7 +104,8 @@ Your solution will be tested only on **20**% of the test files during the contes
 <b>Output:</b>
 2 3
 1 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 As you can see at the picture below, this array is divided into **p2** = 9 blocks by **p**-1 horizontal(red lines) and **p**-1 vertical(green lines) dividers. Also there are two vertical (**v0** = 0 and **v3** = 4) dividers and two horizontal (**h0** = 0 and **h3** = 4) for better understanding of this division.
 

@@ -97,7 +97,8 @@ For each test case, output a single line containing the number of prime permutat
 2
 6
 18
-</pre>### Constraints:
+</pre>
+### Constraints:
 
 1 ≤ T ≤ 500,000
 1 ≤ N ≤ 5,000,000

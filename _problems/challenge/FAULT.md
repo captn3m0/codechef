@@ -135,7 +135,8 @@ Your score for each test file is **10\*K/(S−N+1)**. The total score is the ave
 <b>Output:</b>
 1
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 This sample output would score **10\*1/(6−4+1) = 3.333...**. If server **2** is lost, there is no way to recover data chunks 0, **1**, or **3**.
 

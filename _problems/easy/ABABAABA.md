@@ -70,7 +70,7 @@ time:
     current: 1493558102
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME33/mandarin/ABABAABA.pdf), [Russian](http://www.codechef.com/download/translated/LTIME33/russian/ABABAABA.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME33/vietnamese/ABABAABA.pdf) as well.
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME33/mandarin/ABABAABA.pdf), [Russian](http://www.codechef.com/download/translated/LTIME33/russian/ABABAABA.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME33/vietnamese/ABABAABA.pdf) as well.
 
 You are given a **uniformly randomly generated** string **S**, consisting of letters from the set **{"A", "B"}**. Your task is to find a string **T** that appears in **S** as a subsequence **exactly twice**.
 
@@ -108,7 +108,8 @@ BAB
 <b>Output:</b>
 -1
 B
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Test case #1**:
 

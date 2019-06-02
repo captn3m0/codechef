@@ -132,7 +132,8 @@ Output **Q** lines: the answer for each friend.
 10
 22
 5</tt>
-</pre>### Subtasks
+</pre>
+### Subtasks
 
 - **Subtask #1 (10 points) : N, M, Q ≤ 102, wi ≤ 105**
 - **Subtask #2 (15 points) : N, M, Q ≤ 103, wi ≤ 108**
@@ -143,8 +144,8 @@ Output **Q** lines: the answer for each friend.
 
 **Example #1:**
 
-_Query 1._ There is only one ticket he/she can purchase in city 5 and it can be used 3 times. It's enough to reaching capital, thus overall cost is 10.
+*Query 1.* There is only one ticket he/she can purchase in city 5 and it can be used 3 times. It's enough to reaching capital, thus overall cost is 10.
 
-_Query 2._ There is only one ticket he/she can purchase in city 6 and it can be used only one time. Thus, he/she have to purchase another ticket in city 3 with cost 2. Overall cost is 22.
+*Query 2.* There is only one ticket he/she can purchase in city 6 and it can be used only one time. Thus, he/she have to purchase another ticket in city 3 with cost 2. Overall cost is 22.
 
-_Query 3._ There are two tickets he/she can purchase in city 7. One can buy either **2nd** ticket or **1**st ticket. He/She can buy the first ticket and travel, and buy one more ticket at city 3 by paying a cost of 2. Total cost for this combination is 5. For all other combination of buying tickets, he/she will have to spend at least 5 cost.
+*Query 3.* There are two tickets he/she can purchase in city 7. One can buy either **2nd** ticket or **1**st ticket. He/She can buy the first ticket and travel, and buy one more ticket at city 3 by paying a cost of 2. Total cost for this combination is 5. For all other combination of buying tickets, he/she will have to spend at least 5 cost.

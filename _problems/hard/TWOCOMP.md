@@ -68,7 +68,7 @@ time:
     current: 1493556888
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JUNE14/mandarin/TWOCOMP1.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE14/russian/TWOCOMP.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JUNE14/mandarin/TWOCOMP1.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE14/russian/TWOCOMP.pdf).
 
 The tram service will start its' work soon in Bytetown - the capital of Byteland. There are **N** junctions in Bytetown and **N-1** tram ways between them. Every tram way connects some two distinct junctions. It's possible to go from any junction to any other one using a sequence of tram ways and there is only one way to go from one junction to another one. So, we can conclude that the graph consisting of junctions as vertices and tram ways as edges is a tree.
 
@@ -115,6 +115,7 @@ Output the maximal possible sum of amounts of joy over all the chosen roads.
 
 <b>Output:</b>
 25
-</pre>### Explanation
+</pre>
+### Explanation
 
 If you take the only route of GTN, you'll not be able to take anything of BTS. So, it's better to take the both routes of BTS (a route of a company can cross with another route of this company as well) and to end up with the total sum of 25.

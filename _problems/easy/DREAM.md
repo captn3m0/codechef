@@ -70,7 +70,7 @@ layout: problem
 ---
 All submissions for this problem are available. The Chef is sleeping now. He tries to cook new kind of meals in his dream.
  
-These meals are arranged in a row and numbered from 1 to **N** consecutively. For each meal _i_ (1<=_i_<=**N**) there is given one integer _f(i)_ which denotes the time needed to cook it. Initially, all meals are uncooked. Each assistant of The Chef (there are infinite number of them) can help him with cooking.
+These meals are arranged in a row and numbered from 1 to **N** consecutively. For each meal *i* (1<=*i*<=**N**) there is given one integer *f(i)* which denotes the time needed to cook it. Initially, all meals are uncooked. Each assistant of The Chef (there are infinite number of them) can help him with cooking.
  
 The abilities of all assistants are same. There can be at most one assistant cooking at each moment. He must choose some continuous subsequence of meals with length **K**(any such subsequence can be chosen). And if there are uncooked meals in it, he will cook all uncooked meals which has the minimum cooking time among uncooked meals in the chosen subsequence. Nothing done to another meals. 
  
@@ -78,7 +78,7 @@ The abilities of all assistants are same. There can be at most one assistant coo
 
 ### Input
 
-First line of input file contains two integers **N** (1<=**N**<=105) and **K** (1<=**K**<=**N**), followed by a line containing **N** integers. The _ith_ integer denotes _f(i)_-the cooking time of meal number _i_ (1<=_f(i)_<=109)
+First line of input file contains two integers **N** (1<=**N**<=105) and **K** (1<=**K**<=**N**), followed by a line containing **N** integers. The *ith* integer denotes *f(i)*-the cooking time of meal number *i* (1<=*f(i)*<=109)
 
 ### Output
 
@@ -94,6 +94,7 @@ Print minimum number of assistans which can cook all the meals in one line.
 <b>Output:</b>
 3
 </pre>
+
 **Explanation:**
 3 assistants are enough to cook all the meals. They can work in following schedule: 
 1st assistant chooses interval \[2,4\] and cooks meals 2 and 4. 

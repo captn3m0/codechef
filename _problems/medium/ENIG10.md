@@ -102,7 +102,8 @@ For every testcase print **N** integers on a single line, the required sequence.
 2 0 1 
 0 1 3 2 
 4 0 1 3 2 
-</pre>### Explanation
+</pre>
+### Explanation
 
 Binary representation of the numbers in the output for **N**=5 are :
 

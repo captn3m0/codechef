@@ -85,18 +85,18 @@ To avoid detection by the Empire, Chef decided that rebels must never travel alo
 - Each route must be traversable within at most **K** days.
 - Roads may be traversed any number times in a single route, in both directions.
 
-After some time has passed, Chef and his engineers were able to _build a spaceship for every possible route between stars_.
+After some time has passed, Chef and his engineers were able to *build a spaceship for every possible route between stars*.
 
 Unfortunately, the powerful Empire discovered this and plans to destroy these spaceships to maintain control of the galaxy. Specifically, they deployed a new superweapon called the Death Starkiller Base, which is able to destroy **X** spaceships at once! It works by analyzing all spaceships that pass through Empire-controlled star systems.
 
 Unfortunately, since the destruction of the Empire's two previous superweapons, the budget for the new superweapon is crippled, so the Death Starkiller Base has some severe restrictions:
 
 - It can only destroy **exactly** **X** spaceships per usage. Not more, not less.
-- It can only destroy a group of spaceships if they travel between the _same pair of stars_.
+- It can only destroy a group of spaceships if they travel between the *same pair of stars*.
 
 Despite these flaws, the Empire still used the superweapon as many times as possible, until there aren't enough groups of spaceships any more to destroy.
 
-To avoid more casualties, Chef decided to retire most of the surviving spaceships. Chef wants to retire as many spaceships as possible, but in order to stay connected, Chef wants to do this such that _there is still a way to get from any star to another using spaceships_. How many ways are there for Chef to retire spaceships so that this is satisfied?
+To avoid more casualties, Chef decided to retire most of the surviving spaceships. Chef wants to retire as many spaceships as possible, but in order to stay connected, Chef wants to do this such that *there is still a way to get from any star to another using spaceships*. How many ways are there for Chef to retire spaceships so that this is satisfied?
 
 Note that a spaceship can only pick up or drop off people at the start or end of its journey, so a single spaceship that happens to pass through all stars isn't enough (unless there are only two stars).
 
@@ -134,7 +134,8 @@ Output a single line containing a single integer — the solution of Chef's prob
 </tt>
 <b>Output:</b>
 <tt>75</tt>
-</pre><pre>
+</pre>
+<pre>
 <b>Input:</b>
 <tt>3 3 2 3
 1 2
@@ -143,7 +144,8 @@ Output a single line containing a single integer — the solution of Chef's prob
 </tt>
 <b>Output:</b>
 <tt>3</tt>
-</pre><pre>
+</pre>
+<pre>
 <b>Input:</b>
 <tt>5 8 10000 1000000000
 4 5
@@ -157,7 +159,8 @@ Output a single line containing a single integer — the solution of Chef's prob
 </tt>
 <b>Output:</b>
 <tt>2220611572265625</tt>
-</pre>### Explanation:
+</pre>
+### Explanation:
 
 **Example case 1.** There are five possible routes between stars 1 and 2 traversable in not more than 3 days: {1-2, 1-3-2, 1-2-1-2, 1-2-3-2, 1-3-1-2}. There are also five routes between stars 2 and 3, and also between stars 1 and 3. There are three possible plans for the remaining routes:
 

@@ -53,7 +53,7 @@ time:
     current: 1493556780
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/NOV13/mandarin/MONOPLOY.pdf) and [Russian](http://www.codechef.com/download/translated/NOV13/russian/MONOPLOY.PDF).
+All submissions for this problem are available.###  Read problems statements in [ Mandarin Chinese ](http://www.codechef.com/download/translated/NOV13/mandarin/MONOPLOY.pdf) and [ Russian](http://www.codechef.com/download/translated/NOV13/russian/MONOPLOY.PDF).
 
 Treeland is a kingdom consisting of **N** cities labelled 0, **1**, **2**, ... **N-1**. There are **N-1** roads connecting these cities such that each pair of cities is connected by a unique path(forming a tree structure). Needless to say, city 0 is the **capital** of Treeland. Initially, each city is controlled by a different gangster. The citizens are allowed to move from any city to any of its adjacent city. However, if the two cities are controlled by different gangsters, they need to pay unit cost in order to move. The distance between any pair u, v of cities denoted by **dist(u,v)** is defined as the minimum cost a person has to pay to go from **u** to **v**(or v to u).
 
@@ -119,7 +119,8 @@ q 2
 0.5000000000
 1.8571428571
 
-</pre>### Explanation
+</pre>
+### Explanation
 
  Initially, distance of each city from capital is equal to the number of edges on the shortest path, because each city is controlled by a different gangster.
 Therefore, value of f(0) is (0+1+1+2+2+2+3+2+2+3+2+3+3)/13 = 2.

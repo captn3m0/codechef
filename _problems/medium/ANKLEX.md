@@ -68,7 +68,7 @@ time:
     current: 1493557462
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/SNCK15EL/mandarin/ANKLEX.pdf) , [Russian](http://www.codechef.com/download/translated/SNCK15EL/russian/ANKLEX.pdf) and [Vietnamese](http://www.codechef.com/download/translated/SNCK15EL/vietnamese/ANKLEX.pdf)
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/SNCK15EL/mandarin/ANKLEX.pdf) , [Russian](http://www.codechef.com/download/translated/SNCK15EL/russian/ANKLEX.pdf) and [Vietnamese](http://www.codechef.com/download/translated/SNCK15EL/vietnamese/ANKLEX.pdf)
 
 Lucy has been gifted a string **S**, by her best friend. Now, She is going to write all the sub-strings of different lengths on different pages of her diary. So, she writes the sub-strings of length 1 on page 1, substrings of length 2 on page 2 and so on.
 
@@ -107,14 +107,16 @@ abcb
 2 3
 2 2
 
-</pre>**Output:**
+</pre>
+**Output:**
 
 <pre>
 2
 2
 -1
 3
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Request 1:**
 The last written substring was **a**, so the next substring should be **b**, which is present at index 2 as well as index 4.

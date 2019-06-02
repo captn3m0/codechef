@@ -69,7 +69,7 @@ time:
     current: 1493556881
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME12/mandarin/TROOT.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME12/russian/TROOT.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME12/mandarin/TROOT.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME12/russian/TROOT.pdf).
 
 You are given a tree with **N** nodes, numbered from 1 to **N**. You need to handle the queiries of the following two types:
 

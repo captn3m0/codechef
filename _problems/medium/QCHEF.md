@@ -68,7 +68,7 @@ time:
     current: 1493557868
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MARCH15/mandarin/QCHEF.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH15/russian/QCHEF.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MARCH15/mandarin/QCHEF.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH15/russian/QCHEF.pdf).
 
 Chef was invited to the party of **N** people numbered from **1** to **N**. Chef knows the growth of all the people, i.e. he knows the growth of the **i**th person is denoted by an integer **Ai** not exceeding **M**.
 
@@ -120,7 +120,8 @@ For each group, output the integer denoting the maximum difference between numbe
 1
 1
 6
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Group 1.** There is only one person in the group. Thus the maximum difference of numbers should be 0.
 

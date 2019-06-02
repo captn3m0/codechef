@@ -72,7 +72,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/DEC15/mandarin/CHEFFILT.pdf), [Russian](http://www.codechef.com/download/translated/DEC15/russian/CHEFFILT.pdf) and [Vietnamese](http://www.codechef.com/download/translated/DEC15/vietnamese/CHEFFILT.pdf) as well.
 
-Nobody outside the cooking community knows that Chef is a big fan of Chefgram™ — a social network where chefs and cooks upload their secret kitchen photos. Recently Chef clicked a _beautiful_ photo, which is represented using **10** pixels in a single row. Respecting Chefgram™'s boolean roots, every pixel is either white or black.
+Nobody outside the cooking community knows that Chef is a big fan of Chefgram™ — a social network where chefs and cooks upload their secret kitchen photos. Recently Chef clicked a *beautiful* photo, which is represented using **10** pixels in a single row. Respecting Chefgram™'s boolean roots, every pixel is either white or black.
 
 Chefgram™ has **N** filters. Every filter is a string containing **10** symbols. Every symbol is either **'+'** or **'-'**.
 
@@ -139,7 +139,8 @@ bbbbbbbbbb
 0
 2
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** There is no filter or combination of filters transforming the picture to whole black.
 

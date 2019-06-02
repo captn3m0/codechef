@@ -77,7 +77,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 Sereja had an non-negative integer **A** in the range **\[0, 10100\]**.
 
-One day, he wrote **N** pairs of the form **(X\[i\], [floor](https://en.wikipedia.org/wiki/Floor_and_ceiling_functions)(A / X\[i\]) )** on a piece of paper. Let us denote **floor(A / X\[i\])** by **D\[i\]**.
+One day, he wrote **N** pairs of the form **(X\[i\], [ floor](https://en.wikipedia.org/wiki/Floor_and_ceiling_functions)(A / X\[i\]) )** on a piece of paper. Let us denote **floor(A / X\[i\])** by **D\[i\]**.
 
 Sereja's little brother Sergey is very naughty, he changed the **D** values for some of the pairs. When confronted for his mischief by Sereja, he said that he did not touch more than **K** such pairs.
 

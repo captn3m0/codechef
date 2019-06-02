@@ -117,7 +117,8 @@ The first line of the input contains an integer **T** denoting the number of tes
 5
 486
 2349595
-</pre>###  Explanation
+</pre>
+###  Explanation
 
 **Example case 1.** No 2-digit number has **DIVPRO** value of 0 (as leading zeros are not allowed). Hence the answer is zero.
 

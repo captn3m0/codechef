@@ -68,7 +68,7 @@ time:
     current: 1492507193
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/SNCK15EL/mandarin/TTENIS.pdf) , [Russian](http://www.codechef.com/download/translated/SNCK15EL/russian/TTENIS.pdf) and [Vietnamese](http://www.codechef.com/download/translated/SNCK15EL/vietnamese/TTENIS.pdf)
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/SNCK15EL/mandarin/TTENIS.pdf) , [Russian](http://www.codechef.com/download/translated/SNCK15EL/russian/TTENIS.pdf) and [Vietnamese](http://www.codechef.com/download/translated/SNCK15EL/vietnamese/TTENIS.pdf)
 
 Chef likes to play table tennis. He found some statistics of matches which described who won the points in order. A game shall be won by the player first scoring 11 points except in the case when both players have 10 points each, then the game shall be won by the first player subsequently gaining a lead of 2 points. Could you please help the Chef find out who the winner was from the given statistics? (It is guaranteed that statistics represent always a valid, finished match.)
 
@@ -94,7 +94,8 @@ For each test case, output on a separate line a string describing who won the ma
 <b>Output:</b>
 WIN
 LOSE
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** Chef won the match 11:2, his opponent won just two points, the first and the third of the match.
 

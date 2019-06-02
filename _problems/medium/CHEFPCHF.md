@@ -139,7 +139,8 @@ All submissions for this problem are available.### Read problems statements in [
 12
 30
 
-</pre>###  Explanation
+</pre>
+###  Explanation
 
  **Example case 1:** s={0,0,0,0,1,1,0}. The 9 pairs (i,j) are: (1,1), (2,2), ..., (7,7), (1,3) and (2,4).
 

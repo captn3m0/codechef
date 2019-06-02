@@ -134,7 +134,8 @@ For each test case, output a single integer corresponding to time at which Tom w
 <b>Output:</b>
 2
 1
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** In first query, Tom is in room 1, whereas Jerry is in room 2. In first second, Jerry first moves from 2 to 3 followed by Tom moving from 1 to 2. In the next second, if Jerry moves from 3 to 2, Tom will stay at his position and attack Jerry. If Jerry decides to stay in room 3 itself, then Tom will move to room 3, and kill it. Overall, Tom is going to take 2 seconds to kill Jerry.
 

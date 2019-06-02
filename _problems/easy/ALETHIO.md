@@ -78,7 +78,7 @@ Given the set of symbols the alethiometer pointed out, help her find the maximum
 
 **Note:** We consider a substring to be a contiguous part of the string **S** 
 
-Also, the alethiometer wrongly reports only a **letter**. All the **digits** _remain as they are_.
+Also, the alethiometer wrongly reports only a **letter**. All the **digits** *remain as they are*.
 
 ### Input
 
@@ -107,7 +107,8 @@ C0D3C43F
 
 <b>Output2:</b>
 3943
-</pre>### Explanation
+</pre>
+### Explanation
 
 In the first example, there is no choice as to what the number can be. It has to be 6,454.
 

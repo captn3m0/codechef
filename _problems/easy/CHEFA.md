@@ -68,7 +68,7 @@ time:
     current: 1493558115
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME16/mandarin/CHEFA.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME16/russian/CHEFA.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME16/mandarin/CHEFA.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME16/russian/CHEFA.pdf).
 
 Chef and Roma are playing a game. Rules of the game are quite simple.
 Initially there are **N** piles of stones on the table.

@@ -36,7 +36,8 @@ For each test case, output a single integer on a line, giving the minimum value 
 11
 7Q2
 PIES
-</pre>### Sample Output
+</pre>
+### Sample Output
 
 <pre>9
 8

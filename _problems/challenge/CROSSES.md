@@ -61,15 +61,15 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
-All submissions for this problem are available.The game of [gomoku](http://en.wikipedia.org/wiki/Gomoku) (otherwise known as naughts & crosses), played on an _n x n_ board has many interesting variations. One of them is the Game of Crosses & Crosses, with the following set of rules:
+All submissions for this problem are available.The game of [gomoku](http://en.wikipedia.org/wiki/Gomoku) (otherwise known as naughts & crosses), played on an *n x n* board has many interesting variations. One of them is the Game of Crosses & Crosses, with the following set of rules:
 
-- Two players - red and black - take it in turns to place one cross of their respective color on an unoccupied square of the _n x n_ gaming board. Red starts the game.
+- Two players - red and black - take it in turns to place one cross of their respective color on an unoccupied square of the *n x n* gaming board. Red starts the game.
 - After each player's move, any rectangles with sides equal to at least 2, lying entirely within the gaming board and covered completely by crosses, are simultaneously removed (cut off) from the gaming board and the game continues.
 - When all the squares remaining in the gaming board are covered by crosses, the game comes to an end. The score of each player is equal to the number of crosses of his color left standing on the gaming board, and the player with the higher score is considered the winner.
 
 The game of crosses & crosses has been the favorite pastime of Bytelandian schoolchildren during their lessons. Little Johnny was no different, and among his friends he actually became a notable crossing champion.
 
-But not many people knew about Johnny's crossing talent, and Johnny often used this to his advantage. So when a few years after Johnny's abdication from the throne of Byteland an unsuspecting publisher signed a million dolar contract with the ex-king for a series of memoirs entitled _The famous victories of Johnny the Great_, he was certainly not prepared for what he received -- a detailed account of Johnny's childhood games of crosses & crosses. To make matters worse, all accounts are written by Johnny in exciting prose, rich in action, e.g.: "Then I played yet another game on a 3x3 board. I placed my first cross at (1,1). Then I placed a cross at (2,3). The next cross I placed at (2,2). The cross after that I placed at (3,3). Finally, I placed a cross at (1,2) and I won the game 2:1.".
+But not many people knew about Johnny's crossing talent, and Johnny often used this to his advantage. So when a few years after Johnny's abdication from the throne of Byteland an unsuspecting publisher signed a million dolar contract with the ex-king for a series of memoirs entitled *The famous victories of Johnny the Great*, he was certainly not prepared for what he received -- a detailed account of Johnny's childhood games of crosses & crosses. To make matters worse, all accounts are written by Johnny in exciting prose, rich in action, e.g.: "Then I played yet another game on a 3x3 board. I placed my first cross at (1,1). Then I placed a cross at (2,3). The next cross I placed at (2,2). The cross after that I placed at (3,3). Finally, I placed a cross at (1,2) and I won the game 2:1.".
 
 In a desperate effort to save the day, the publisher employed you to create illustrations for the book. You are given a free hand in reinacting the games (and in particular the oponent's moves, which Johnny has modestly left out), provided your version of events is not an evident contradiction of Johnny's text.
 
@@ -108,6 +108,7 @@ case 1 Y
 
 <b>Score:</b>
 1
-</pre>![Illustration to sample test data](http://www.codechef.com/download/adrian_crosses.png)
+</pre>
+![Illustration to sample test data](http://www.codechef.com/download/adrian_crosses.png)
 
 **Warning: large Input/Output data, be careful with certain languages**

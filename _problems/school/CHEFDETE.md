@@ -110,7 +110,8 @@ Output a list of space-separated integers in ascending order — the indices of 
 
 <b>Output:</b>
 4 5 6
-</pre>### Explanation
+</pre>
+### Explanation
 
 The reporting structure:
 

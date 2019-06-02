@@ -69,7 +69,7 @@ layout: problem
 ---
 All submissions for this problem are available.The classical game of OneLeft is played as follows. Some pegs are placed on an NxN grid. Initially, at least one cell is empty and at least one contains a peg (each cell contains at most one peg). A move consists of jumping one peg over an adjacent peg to an empty cell, and removing the peg that was jumped over. Formally, if there is a peg in cell (x1, y1), and cell (x2, y2) is empty, and (x1-x2, y1-y2) is one of (0, 2), (0, -2), (2, 0), or (-2, 0), and there is a peg in cell ((x1+x2)/2, (y1+y2)/2), then the peg in cell (x1, y1) may be moved to cell (x2, y2) and the peg in cell ((x1+x2)/2, (y1+y2)/2) removed. The coordinate (0, 0) indicates the top-left corner, (N-1, 0) indicates the top-right corner, (0, N-1) indicates the bottom-left corner, and (N-1, N-1) indicates the bottom-right corner.
 
-The game continues until no more moves are possible. Normally the goal of OneLeft is to leave a single peg on the grid. However, in this problem the goal is to leave _as many pegs as possible_. Optimal solutions are not required, but solutions that leave more pegs will score more points.
+The game continues until no more moves are possible. Normally the goal of OneLeft is to leave a single peg on the grid. However, in this problem the goal is to leave *as many pegs as possible*. Optimal solutions are not required, but solutions that leave more pegs will score more points.
 
 ### Input
 
@@ -93,7 +93,9 @@ Your score for each test case is the fraction of cells containing pegs after per
 ****..
 **.*.*
 
-</pre>### Sample Output 1
+</pre>
+### Sample Output 1
+
 <pre>13
 1 3 1 1
 3 3 1 3
@@ -108,7 +110,8 @@ Your score for each test case is the fraction of cells containing pegs after per
 3 0 1 0
 0 0 2 0
 0 5 2 5
-</pre>### Sample Input 2
+</pre>
+### Sample Input 2
 
 <pre>5
 .*.*.
@@ -117,10 +120,13 @@ Your score for each test case is the fraction of cells containing pegs after per
 ...*.
 .*...
 
-</pre>### Sample Output 2
+</pre>
+### Sample Output 2
+
 <pre>0
 
-</pre>The first sample output scores 8/36 = 0.2222.
+</pre>
+The first sample output scores 8/36 = 0.2222.
 The second sample output scores 7/25 = 0.28.
 Recall that the goal is to maximize your score.
 

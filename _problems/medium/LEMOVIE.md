@@ -67,20 +67,20 @@ time:
     current: 1493557747
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/FEB14/mandarin/LEMOVIE.pdf) and [Russian](http://www.codechef.com/download/translated/FEB14/russian/LEMOVIE.pdf).
+All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/FEB14/mandarin/LEMOVIE.pdf) and [Russian](http://www.codechef.com/download/translated/FEB14/russian/LEMOVIE.pdf).
 
 Little Elephant from Zoo of Lviv likes to watch movies.
 
 There are **N** different movies (numbered from 0 to **N − 1**) he wants to watch in some order. Of course, he will watch each movie exactly once. The priority of **i**th movie is **Pi**.
 
-A watching of a movie is called _exciting_ if and only if one of the following two conditions holds:
+A watching of a movie is called *exciting* if and only if one of the following two conditions holds:
 
 - This is the first watching.
 - The priority of this movie is strictly greater than the maximal priority of the movies watched so far.
 
-Let us call the number of _exciting_ watchings the _excitingness_ of the order.
+Let us call the number of *exciting* watchings the *excitingness* of the order.
 
-Help him to find the number of different watching orders whose _excitingness_ does not exceed **K**. Since the answer can be large, print it modulo **1000000007 (109+7)**.
+Help him to find the number of different watching orders whose *excitingness* does not exceed **K**. Since the answer can be large, print it modulo **1000000007 (109+7)**.
 
 ### Input
 
@@ -90,7 +90,7 @@ The first line of each test case contains two space-separated integers **N** and
 
 ### Output
 
-For each test case, print the number of different watching orders having at most **K** _excitingness_ modulo **1000000007 (109+7)**.
+For each test case, print the number of different watching orders having at most **K** *excitingness* modulo **1000000007 (109+7)**.
 
 ### Constraints
 
@@ -111,8 +111,9 @@ For each test case, print the number of different watching orders having at most
 <b>Output:</b>
 2
 24
-</pre>### Explanation
+</pre>
+### Explanation
 
-In the first case, there are two boring watching orders whose _excitingness_ not greater than **K=1**: **\[3, 1, 2\]**, **\[3, 2, 1\]**. Both watching orders have one _exciting_ watching: the first watching.
+In the first case, there are two boring watching orders whose *excitingness* not greater than **K=1**: **\[3, 1, 2\]**, **\[3, 2, 1\]**. Both watching orders have one *exciting* watching: the first watching.
 
-In the second case, every watching order has at most **3** _excitingness_.
+In the second case, every watching order has at most **3** *excitingness*.

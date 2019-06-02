@@ -102,6 +102,7 @@ For each test case, output a single line containing the answer to the correspond
 
 <b>Output:</b>
 11
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example case 1.** The best choice is to learn the first and the third questions and get **1\*2 + 3\*3 = 11** points.

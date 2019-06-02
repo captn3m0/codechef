@@ -131,7 +131,8 @@ For each testcase, output **Q** lines, the **i-th** line of them must contain a 
 5
 5
 4
-</pre>### Explanation
+</pre>
+### Explanation
 
 The original list of edges is { (1, 2), (1, 3), (2, 3), (3, 5), (1, 5), (4, 5), (1, 4) }.
 

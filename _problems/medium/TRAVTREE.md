@@ -120,7 +120,8 @@ For each day output one integer on a separate line - the number of previous rout
 1
 2
 2
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Day 1**. As there is no previous route, the route from **4** to **5** can't intersect with any round. Hence answer is 0.
 

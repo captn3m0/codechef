@@ -80,7 +80,7 @@ All submissions for this problem are available.### Read problems statements in [
 
 You are given a sequence of **n** integers **a1**, **a2**, ..., **an** and an integer **d**.
 
-Find the length of the shortest non-empty _contiguous_ subsequence with sum of elements at least **d**. Formally, you should find the smallest positive integer **k** with the following property: there is an integer **s** (1 ≤ **s** ≤ **N-k+1**) such that **as + as+1 + ... + as+k-1** ≥ **d**.
+Find the length of the shortest non-empty *contiguous* subsequence with sum of elements at least **d**. Formally, you should find the smallest positive integer **k** with the following property: there is an integer **s** (1 ≤ **s** ≤ **N-k+1**) such that **as + as+1 + ... + as+k-1** ≥ **d**.
 
 ### Input
 

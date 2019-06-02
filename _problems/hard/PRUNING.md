@@ -17,7 +17,7 @@ You happen to like heavy trees so you want to delete the minimum possible total 
 
 ### Input
 
-The first line of each test case is an integer T ≤ 40 indicating the number of test cases to follow. The first line of each test case contains two integers n and d that indicate there are n nodes in the tree and d is as specified in the problem description. Suppose the nodes in the tree are indexed by integers between 0 and n-1. Then n-1 lines follow, each containing three integers u,v, and w. This indicates that there is an edge of weight w between nodes u and v. The input will be such that the graph is connected with no cycles. No edge will be given more than once and no edge in the input will be a loop (_i.e._ u ≠ v for each input edge).
+The first line of each test case is an integer T ≤ 40 indicating the number of test cases to follow. The first line of each test case contains two integers n and d that indicate there are n nodes in the tree and d is as specified in the problem description. Suppose the nodes in the tree are indexed by integers between 0 and n-1. Then n-1 lines follow, each containing three integers u,v, and w. This indicates that there is an edge of weight w between nodes u and v. The input will be such that the graph is connected with no cycles. No edge will be given more than once and no edge in the input will be a loop (*i.e.* u ≠ v for each input edge).
 
 Bounds: 1 ≤ n ≤ 100, 0 ≤ d ≤ 109, and, for each edge u,v,w in the input, 0 ≤ u < v ≤ n-1 and 1 ≤ w ≤ 107.
 

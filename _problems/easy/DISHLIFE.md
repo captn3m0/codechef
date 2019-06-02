@@ -128,7 +128,8 @@ sad
 some
 all
 
-</pre>### Explanation
+</pre>
+### Explanation
 
 **Example 1**. The ingredient 4 is not available in any island, so Chef can't make the dish of life. Hence, the answer is "sad".
 

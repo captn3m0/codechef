@@ -87,6 +87,7 @@ function f(A[0..N-1], L, R, P):
 				ANSWER = MAX(ANSWER, SIZE(S))
 	return ANSWER
 </pre>
+
 Clarifications:
 Line 5 loops over all 2^(R-L+1) subsets.
 GCD(S) returns the Greatest common divisor of all the elements in S.
@@ -124,7 +125,8 @@ Output single integer which is the required answer modulo 1000000007
 
 <b>Output:</b>
 34
-</pre>### Explanation
+</pre>
+### Explanation
 
 Here are the answers of few calls to function f()
 f(A, 2, 0, 2) = 1
