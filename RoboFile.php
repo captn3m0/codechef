@@ -1,6 +1,6 @@
 <?php
 
-use KubAT\PhpSimple\HtmlDomParser;
+use voku\helper\HtmlDomParser;
 use KzykHys\FrontMatter\Document;
 use KzykHys\FrontMatter\FrontMatter;
 use League\HTMLToMarkdown\HtmlConverter;
@@ -43,9 +43,7 @@ class RoboFile extends \Robo\Tasks
     }
 
     private function parseUrl($url) {
-
         $headers = "Accept-language: en\r\n" .
-            "Cookie: foo=bar\r\n" .
             "User-Agent: Mozilla/Safari/Chrome";
 
         $opts = [
@@ -59,6 +57,9 @@ class RoboFile extends \Robo\Tasks
 
         // Open the file using the HTTP headers set above
         $contents = file_get_contents($url, false, $context);
+        if (strlen($contents) < 1000) {
+            throw new \Exception("Invalid response from server");
+        }
         return HtmlDomParser::str_get_html($contents);
     }
 
@@ -68,6 +69,9 @@ class RoboFile extends \Robo\Tasks
         $this->say("Fetching $url");
         $dom = $this->parseUrl($url);
 
+        if ($dom === false) {
+            throw new \Exception("DOM parsing failed");
+        }
         $links = $dom->find('.problemname a');
 
         $problems = [];
@@ -103,12 +107,7 @@ class RoboFile extends \Robo\Tasks
 
         foreach ($categories as $category) {
             $this->say("Downloading Category: $category");
-            try {
-                $this->parseCategory($category);
-            }
-            catch(\Throwable $e) {
-                $this->say($e->getMessage());
-            }
+            $this->parseCategory($category);
         }
     }
 

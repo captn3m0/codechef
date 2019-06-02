@@ -1,6 +1,6 @@
 Codechef Problem Viewer is an offline browser for codechef problems, which comes with all the practice problems of Codechef.
 
-Visit <http://captnemo.in/codechef/> for more details
+Visit <https://captnemo.in/codechef/> for more details
 
 ## Todo List
 
@@ -16,4 +16,6 @@ Visit <http://captnemo.in/codechef/> for more details
 
 ## License
 
-All code is licensed under MIT. Problems are copyright CodeChef.
+Licensed under the WTFPL License. See LICENSE file for details.
+
+Problems are copyright CodeChef.
