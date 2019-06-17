@@ -1107,7 +1107,7 @@
         },
         {
             "name": "symfony/css-selector",
-            "version": "v4.3.0",
+            "version": "v4.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
@@ -1728,16 +1728,16 @@
         },
         {
             "name": "voku/simple_html_dom",
-            "version": "4.5.3",
+            "version": "4.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/voku/simple_html_dom.git",
-                "reference": "ebc63c36dc75a350c390b51f0fc134daa469adda"
+                "reference": "c4aa071f3f784d7557144858a540e4c41092b131"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voku/simple_html_dom/zipball/ebc63c36dc75a350c390b51f0fc134daa469adda",
-                "reference": "ebc63c36dc75a350c390b51f0fc134daa469adda",
+                "url": "https://api.github.com/repos/voku/simple_html_dom/zipball/c4aa071f3f784d7557144858a540e4c41092b131",
+                "reference": "c4aa071f3f784d7557144858a540e4c41092b131",
                 "shasum": ""
             },
             "require": {
@@ -1783,7 +1783,7 @@
                 "dom",
                 "php dom"
             ],
-            "time": "2019-05-20T07:56:13+00:00"
+            "time": "2019-06-17T22:50:21+00:00"
         }
     ],
     "packages-dev": [],
