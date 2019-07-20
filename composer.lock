@@ -1728,16 +1728,16 @@
         },
         {
             "name": "voku/simple_html_dom",
-            "version": "4.6.0",
+            "version": "4.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/voku/simple_html_dom.git",
-                "reference": "f24249b7bfb04043728b4130a1d8792017cafb61"
+                "reference": "afc52b7ab6646744b370d3d45bbc5d622829c02f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voku/simple_html_dom/zipball/f24249b7bfb04043728b4130a1d8792017cafb61",
-                "reference": "f24249b7bfb04043728b4130a1d8792017cafb61",
+                "url": "https://api.github.com/repos/voku/simple_html_dom/zipball/afc52b7ab6646744b370d3d45bbc5d622829c02f",
+                "reference": "afc52b7ab6646744b370d3d45bbc5d622829c02f",
                 "shasum": ""
             },
             "require": {
@@ -1783,7 +1783,7 @@
                 "dom",
                 "php dom"
             ],
-            "time": "2019-07-01T07:59:39+00:00"
+            "time": "2019-07-19T00:06:42+00:00"
         }
     ],
     "packages-dev": [],
