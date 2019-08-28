@@ -1107,16 +1107,16 @@
         },
         {
             "name": "symfony/css-selector",
-            "version": "v4.3.2",
+            "version": "v4.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
-                "reference": "105c98bb0c5d8635bea056135304bd8edcc42b4d"
+                "reference": "c6e5e2a00db768c92c3ae131532af4e1acc7bd03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/css-selector/zipball/105c98bb0c5d8635bea056135304bd8edcc42b4d",
-                "reference": "105c98bb0c5d8635bea056135304bd8edcc42b4d",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/c6e5e2a00db768c92c3ae131532af4e1acc7bd03",
+                "reference": "c6e5e2a00db768c92c3ae131532af4e1acc7bd03",
                 "shasum": ""
             },
             "require": {
@@ -1142,12 +1142,12 @@
             ],
             "authors": [
                 {
-                    "name": "Jean-François Simon",
-                    "email": "jeanfrancois.simon@sensiolabs.com"
-                },
-                {
                     "name": "Fabien Potencier",
                     "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Jean-François Simon",
+                    "email": "jeanfrancois.simon@sensiolabs.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -1156,7 +1156,7 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
-            "time": "2019-01-16T21:53:39+00:00"
+            "time": "2019-08-20T14:07:54+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -1728,16 +1728,16 @@
         },
         {
             "name": "voku/simple_html_dom",
-            "version": "4.6.1",
+            "version": "4.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/voku/simple_html_dom.git",
-                "reference": "afc52b7ab6646744b370d3d45bbc5d622829c02f"
+                "reference": "c3f5ad78b200de18393cf90215e7c2751bf78706"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voku/simple_html_dom/zipball/afc52b7ab6646744b370d3d45bbc5d622829c02f",
-                "reference": "afc52b7ab6646744b370d3d45bbc5d622829c02f",
+                "url": "https://api.github.com/repos/voku/simple_html_dom/zipball/c3f5ad78b200de18393cf90215e7c2751bf78706",
+                "reference": "c3f5ad78b200de18393cf90215e7c2751bf78706",
                 "shasum": ""
             },
             "require": {
@@ -1765,15 +1765,15 @@
             ],
             "authors": [
                 {
-                    "name": "Lars Moelleken",
-                    "homepage": "http://www.moelleken.org/",
-                    "role": "Developer"
+                    "name": "dimabdc",
+                    "role": "Developer",
+                    "email": "support@titor.ru",
+                    "homepage": "http://github.com/dimabdc"
                 },
                 {
-                    "name": "dimabdc",
-                    "email": "support@titor.ru",
-                    "homepage": "http://github.com/dimabdc",
-                    "role": "Developer"
+                    "name": "Lars Moelleken",
+                    "role": "Developer",
+                    "homepage": "http://www.moelleken.org/"
                 }
             ],
             "description": "Simple HTML DOM package.",
@@ -1783,7 +1783,7 @@
                 "dom",
                 "php dom"
             ],
-            "time": "2019-07-19T00:06:42+00:00"
+            "time": "2019-08-27T00:07:55+00:00"
         }
     ],
     "packages-dev": [],
