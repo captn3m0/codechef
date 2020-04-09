@@ -1108,16 +1108,16 @@
         },
         {
             "name": "symfony/css-selector",
-            "version": "v5.0.3",
+            "version": "v5.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
-                "reference": "ff60c90cb7950b592ebc84ad1289d0345bf24f9f"
+                "reference": "5f8d5271303dad260692ba73dfa21777d38e124e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/css-selector/zipball/ff60c90cb7950b592ebc84ad1289d0345bf24f9f",
-                "reference": "ff60c90cb7950b592ebc84ad1289d0345bf24f9f",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/5f8d5271303dad260692ba73dfa21777d38e124e",
+                "reference": "5f8d5271303dad260692ba73dfa21777d38e124e",
                 "shasum": ""
             },
             "require": {
@@ -1157,7 +1157,7 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
-            "time": "2020-01-04T14:08:26+00:00"
+            "time": "2020-03-27T16:56:45+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -1729,16 +1729,16 @@
         },
         {
             "name": "voku/simple_html_dom",
-            "version": "4.7.12",
+            "version": "4.7.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/voku/simple_html_dom.git",
-                "reference": "9eba9460896bca215e1e1d8814dd4b90c45be85d"
+                "reference": "804aca422f1fe0104b1320ca09fd06cd0062782c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voku/simple_html_dom/zipball/9eba9460896bca215e1e1d8814dd4b90c45be85d",
-                "reference": "9eba9460896bca215e1e1d8814dd4b90c45be85d",
+                "url": "https://api.github.com/repos/voku/simple_html_dom/zipball/804aca422f1fe0104b1320ca09fd06cd0062782c",
+                "reference": "804aca422f1fe0104b1320ca09fd06cd0062782c",
                 "shasum": ""
             },
             "require": {
@@ -1784,7 +1784,7 @@
                 "dom",
                 "php dom"
             ],
-            "time": "2020-01-22T00:08:59+00:00"
+            "time": "2020-04-09T21:20:43+00:00"
         }
     ],
     "packages-dev": [],
