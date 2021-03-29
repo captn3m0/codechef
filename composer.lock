@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ece83628bdc65b083da91e7720dcc9e2",
+    "content-hash": "89ea71a3e9d404b7e86ef290f03cc285",
     "packages": [
         {
             "name": "consolidation/annotated-command",
@@ -693,27 +693,30 @@
         },
         {
             "name": "league/html-to-markdown",
-            "version": "4.10.0",
+            "version": "5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/html-to-markdown.git",
-                "reference": "0868ae7a552e809e5cd8f93ba022071640408e88"
+                "reference": "c4dbebbebe0fe454b6b38e6c683a977615bd7dc2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/html-to-markdown/zipball/0868ae7a552e809e5cd8f93ba022071640408e88",
-                "reference": "0868ae7a552e809e5cd8f93ba022071640408e88",
+                "url": "https://api.github.com/repos/thephpleague/html-to-markdown/zipball/c4dbebbebe0fe454b6b38e6c683a977615bd7dc2",
+                "reference": "c4dbebbebe0fe454b6b38e6c683a977615bd7dc2",
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
                 "ext-xml": "*",
-                "php": ">=5.3.3"
+                "php": "^7.2.5 || ^8.0"
             },
             "require-dev": {
-                "mikehaertl/php-shellcommand": "~1.1.0",
-                "phpunit/phpunit": "^4.8|^5.7",
-                "scrutinizer/ocular": "~1.1"
+                "mikehaertl/php-shellcommand": "^1.1.0",
+                "phpstan/phpstan": "^0.12.82",
+                "phpunit/phpunit": "^8.5 || ^9.2",
+                "scrutinizer/ocular": "^1.6",
+                "unleashedtech/php-coding-standard": "^2.7",
+                "vimeo/psalm": "^4.6"
             },
             "bin": [
                 "bin/html-to-markdown"
@@ -721,7 +724,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.10-dev"
+                    "dev-master": "5.1-dev"
                 }
             },
             "autoload": {
@@ -771,7 +774,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-07-01T00:34:03+00:00"
+            "time": "2021-03-29T01:29:08+00:00"
         },
         {
             "name": "psr/container",
