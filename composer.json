@@ -1,6 +1,6 @@
 {
     "require": {
-        "league/html-to-markdown": "^4.4",
+        "league/html-to-markdown": "^5.0",
         "consolidation/robo": "~2",
         "kzykhys/yaml-front-matter": "^1.0",
         "kub-at/php-simple-html-dom-parser": "^1.8",
