@@ -1011,16 +1011,16 @@
         },
         {
             "name": "symfony/css-selector",
-            "version": "v5.1.8",
+            "version": "v5.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
-                "reference": "6cbebda22ffc0d4bb8fea0c1311c2ca54c4c8fa0"
+                "reference": "f65f217b3314504a1ec99c2d6ef69016bb13490f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/css-selector/zipball/6cbebda22ffc0d4bb8fea0c1311c2ca54c4c8fa0",
-                "reference": "6cbebda22ffc0d4bb8fea0c1311c2ca54c4c8fa0",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/f65f217b3314504a1ec99c2d6ef69016bb13490f",
+                "reference": "f65f217b3314504a1ec99c2d6ef69016bb13490f",
                 "shasum": ""
             },
             "require": {
@@ -1053,7 +1053,7 @@
                     "homepage": "https://symfony.com/contributors"
                 }
             ],
-            "description": "Symfony CssSelector Component",
+            "description": "Converts CSS selectors to XPath expressions",
             "homepage": "https://symfony.com",
             "funding": [
                 {
@@ -1069,7 +1069,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-24T12:01:57+00:00"
+            "time": "2021-01-27T10:01:46+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -2167,16 +2167,16 @@
         },
         {
             "name": "voku/simple_html_dom",
-            "version": "4.7.28",
+            "version": "4.7.29",
             "source": {
                 "type": "git",
                 "url": "https://github.com/voku/simple_html_dom.git",
-                "reference": "78d5894c7f0facfb4fb6369af15b1a87baea958c"
+                "reference": "079067c704b714b7c2813971297bb340307813e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voku/simple_html_dom/zipball/78d5894c7f0facfb4fb6369af15b1a87baea958c",
-                "reference": "78d5894c7f0facfb4fb6369af15b1a87baea958c",
+                "url": "https://api.github.com/repos/voku/simple_html_dom/zipball/079067c704b714b7c2813971297bb340307813e7",
+                "reference": "079067c704b714b7c2813971297bb340307813e7",
                 "shasum": ""
             },
             "require": {
@@ -2240,7 +2240,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-11-17T23:30:43+00:00"
+            "time": "2021-03-29T14:56:56+00:00"
         }
     ],
     "packages-dev": [],
