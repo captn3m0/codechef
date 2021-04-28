@@ -1,0 +1,12 @@
+version: 2
+updates:
+- package-ecosystem: composer
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "23:30"
+  open-pull-requests-limit: 99
+  ignore:
+  - dependency-name: consolidation/robo
+    versions:
+    - 2.2.2
