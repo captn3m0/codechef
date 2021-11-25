@@ -942,20 +942,21 @@
         },
         {
             "name": "symfony/css-selector",
-            "version": "v5.2.4",
+            "version": "v5.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
-                "reference": "f65f217b3314504a1ec99c2d6ef69016bb13490f"
+                "reference": "7fb120adc7f600a59027775b224c13a33530dd90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/css-selector/zipball/f65f217b3314504a1ec99c2d6ef69016bb13490f",
-                "reference": "f65f217b3314504a1ec99c2d6ef69016bb13490f",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/7fb120adc7f600a59027775b224c13a33530dd90",
+                "reference": "7fb120adc7f600a59027775b224c13a33530dd90",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2.5"
+                "php": ">=7.2.5",
+                "symfony/polyfill-php80": "^1.16"
             },
             "type": "library",
             "autoload": {
@@ -1000,7 +1001,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-27T10:01:46+00:00"
+            "time": "2021-07-21T12:38:00+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -2098,16 +2099,16 @@
         },
         {
             "name": "voku/simple_html_dom",
-            "version": "4.7.29",
+            "version": "4.7.30",
             "source": {
                 "type": "git",
                 "url": "https://github.com/voku/simple_html_dom.git",
-                "reference": "079067c704b714b7c2813971297bb340307813e7"
+                "reference": "f2be14b8afa7d9a8e5fbc90d93541c23a2134876"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voku/simple_html_dom/zipball/079067c704b714b7c2813971297bb340307813e7",
-                "reference": "079067c704b714b7c2813971297bb340307813e7",
+                "url": "https://api.github.com/repos/voku/simple_html_dom/zipball/f2be14b8afa7d9a8e5fbc90d93541c23a2134876",
+                "reference": "f2be14b8afa7d9a8e5fbc90d93541c23a2134876",
                 "shasum": ""
             },
             "require": {
@@ -2171,7 +2172,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-03-29T14:56:56+00:00"
+            "time": "2021-11-25T05:03:35+00:00"
         }
     ],
     "packages-dev": [],
