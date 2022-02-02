@@ -132,10 +132,10 @@ For each query, print the required answer in a single line.
 
 **Query 1:** Consider substring **P = S\[1, 4\] = "0111"**.
 Out of **10** total substrings of **P**, substrings **P\[1, 4\]** and **P\[2, 4\]** are not valid because both contain more than two **1**s.
- Other substrings contains at most two 0s and at most two **1**s, thus the answer is **8**./>/>
+ Other substrings contains at most two 0s and at most two **1**s, thus the answer is **8**.
 
 **Query 2:** Consider substring **P = S\[2, 4\] = "111"**.
-Out of **6** total substrings of **P**, substrings **P\[1, 3\]** is not valid because it contains more than two 1s./>
+Out of **6** total substrings of **P**, substrings **P\[1, 3\]** is not valid because it contains more than two 1s.
 
 **Query 3:** Consider substring **P = S\[5, 8\] = "0000"**.
-Out of **10** total substrings of **P**, substrings **P\[1, 3\]**, **P\[1, 4\]** and **P\[2, 4\]** are not valid because all contain more than two 0s./>
+Out of **10** total substrings of **P**, substrings **P\[1, 3\]**, **P\[1, 4\]** and **P\[2, 4\]** are not valid because all contain more than two 0s.

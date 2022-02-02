@@ -66,9 +66,9 @@ All submissions for this problem are available.###  Read problems statements in 
 
 Sereja have **N** vectors **v\[1\], v\[2\], ..., v\[N\]**. Every vector is given by **K** numbers **(x\[1\], x\[2\], ..., x\[K\])**. Sereja want to choose few vectors, such that sum of those vectors will be smaller than or equal to vector A.
 
-In other word you should find such numbers: **i\[1\] < i\[2\] < ...< i\[m\]**, such that **v\[i\[1\]\]+v\[i\[2\]\]+...+v\[i\[m\]\] <= A**.
+In other word you should find such numbers: **i\[1\] &lt; i\[2\] &lt; ...&lt; i\[m\]**, such that **v\[i\[1\]\]+v\[i\[2\]\]+...+v\[i\[m\]\] &lt;= A**.
 
-Vector **Q** <= vector **W** when **Q.x\[1\] <= W.x\[1\], Q.x\[2\] <= W.x\[2\], ..., Q.x\[K\] <= W.x\[K\]**.
+Vector **Q** &lt;= vector **W** when **Q.x\[1\] &lt;= W.x\[1\], Q.x\[2\] &lt;= W.x\[2\], ..., Q.x\[K\] &lt;= W.x\[K\]**.
 
 Help Sereja, find best subset of vectors in such way that all conditions will hold.
 
@@ -80,13 +80,13 @@ First line of each testcase contain integer **N** - number of vectors and **K** 
 
 ### Output
 
-For each testcase in first line should contain number **q** - number of vectors in your subset. Next line should contain **q** numbers - coordiates of vector: **1 <= i\[1\] < i\[2\] < ... < i\[q\] <= N** . If **q** equal to 0, you shouldn't output second string.
+For each testcase in first line should contain number **q** - number of vectors in your subset. Next line should contain **q** numbers - coordiates of vector: **1 &lt;= i\[1\] &lt; i\[2\] &lt; ... &lt; i\[q\] &lt;= N** . If **q** equal to 0, you shouldn't output second string.
 
 ### Constraints
 
-**1 <= T <= 10**
+**1 &lt;= T &lt;= 10**
 
-**1 <= N\*K <= 100000**
+**1 &lt;= N\*K &lt;= 100000**
 
 all corrdiantes are positive integers, that are not exceeded 1000000000.
 

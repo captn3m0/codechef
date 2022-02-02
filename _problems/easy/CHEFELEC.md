@@ -94,7 +94,7 @@ For each test case, output a single line containing a integer corresponding to t
 
 - **1 ≤ T ≤ 10**
 - It is guaranteed that there will be at least one village which will have electricity.
-- **1 ≤ x1 < x2 < ... < xn ≤ 109**
+- **1 ≤ x1 &lt; x2 &lt; ... &lt; xn ≤ 109**
 
 ### Subtasks
 

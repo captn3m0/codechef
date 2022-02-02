@@ -86,7 +86,7 @@ The v-th of the following **n** lines contains **2** integers ― **pv** and **w
 
 The i-th of the following **m** lines describes the i-th event Chef has observed:
 
-- The first integer is **state** ― the state of the oak we are applying the new event to. **state = 0** means the state at the very beginning with no branches fallen and no acorns grown. **state > 0** means the state right after the event number **state**
+- The first integer is **state** ― the state of the oak we are applying the new event to. **state = 0** means the state at the very beginning with no branches fallen and no acorns grown. **state &gt; 0** means the state right after the event number **state**
 - The second integer is **q** ― the type of the event
 - If **q = 1**, two integers **u** and **x** follow, meaning that **x** acorns have grown on the branch **u**. After this event some branch could have fallen, and if this is the case, output the number of this branch. Otherwise output 0
 - If **q = 2**, an integer **u** follows meaning that a bird has sat down on the branch **u** and all the acorns from this branch and from all the branches below it have fallen. For this type of event Chef asks you to print the total number of acorns that have fallen

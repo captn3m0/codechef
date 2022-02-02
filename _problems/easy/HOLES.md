@@ -15,7 +15,7 @@ Chef wrote some text on a piece of paper and now he wants to know how many holes
 
 ### Input
 
- The first line contains a single integer **T <= 40**, the number of test cases. **T** test cases follow. The only line of each test case contains a non-empty text composed only of uppercase letters of English alphabet. The length of the text is less then 100. There are no any spaces in the input.
+ The first line contains a single integer **T &lt;= 40**, the number of test cases. **T** test cases follow. The only line of each test case contains a non-empty text composed only of uppercase letters of English alphabet. The length of the text is less then 100. There are no any spaces in the input.
 
 ### Output
 

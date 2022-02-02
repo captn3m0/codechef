@@ -72,7 +72,7 @@ All submissions for this problem are available.Dr. Bobo, while working in his la
 
 For a positive integer **N**, he defines a function **DIVPRO(N**) as follows.
 
-- Let **N** be **L**-digit number and **ni** is the **i**-th digit in the decimal representation of **N** (**i** = **1**, **2**, ..., **L**). So we can write **N** = **n1****n2**...**nL**.
+- Let **N** be **L**-digit number and **ni** is the **i**-th digit in the decimal representation of **N** (**i** = **1**, **2**, ..., **L**). So we can write **N** = **n1n2**...**nL**.
 - Then **DIVPRO(N)** = **n1** / **n2** \* **n3** / **n4 \* ...**  (i.e., we alternate division and multiplication of digits).
 - The result is calculated from left to right.
 - Division here is performed in standard mathematical way, so the result of the division can be non-integer number.
@@ -100,7 +100,7 @@ The first line of the input contains an integer **T** denoting the number of tes
 
 - **1** ≤ **T** ≤ **320000** (**320** thousands)
 - **1** ≤ **L** ≤ **36**
-- 0 ≤ **V** < **1018**
+- 0 ≤ **V** &lt; **1018**
 
 ### Example
 

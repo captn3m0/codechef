@@ -84,7 +84,7 @@ More formally he is asking you two questions as follows. Suppose in day **X**, t
 ### Input
 
 The first line of the input contains a single integer **N**, denoting the overall number of locations in the Tree city. Each of the following **N − 1**  lines describes a road and contains three space-separated integers **U**, **V** and **C**, which means that the road of length **C** connects locations **U** and **V**.
- The next line contains a single integer **Q**, denoting the number of questions Chef is asking you. Each of the following **Q** lines describes a question and contains an integer **K** followed by **K** space separated integers **F1**, **F2**, ..., **FK**, denoting the locations where the festivals take place./>
+ The next line contains a single integer **Q**, denoting the number of questions Chef is asking you. Each of the following **Q** lines describes a question and contains an integer **K** followed by **K** space separated integers **F1**, **F2**, ..., **FK**, denoting the locations where the festivals take place.
 
 ### Output
 

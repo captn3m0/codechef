@@ -17,7 +17,7 @@ Oil excavation is a common phenomenon in the sea. At every excavation site a rig
 
 ### Input
 
-The first line contains the number of test cases (An integer <= 100). 
+The first line contains the number of test cases (An integer &lt;= 100). 
  
  Each test case comprises of multiple lines containing list of integers as described below. 
  

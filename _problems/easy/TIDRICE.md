@@ -17,7 +17,7 @@ A user might have voted multiple times and Tid is worried that the final score s
 
 ### Input
 
-First line contains T ( number of testcases, around 20 ). T cases follow. Each test case starts with N ( total number of votes, 1 <= N <= 100 ). Each of the next N lines is of the form "userid vote" ( quotes for clarity only ), where userid is a non-empty string of lower-case alphabets ( 'a' - 'z' ) not more than 20 in length and vote is either a + or - . See the sample cases below, for more clarity.
+First line contains T ( number of testcases, around 20 ). T cases follow. Each test case starts with N ( total number of votes, 1 &lt;= N &lt;= 100 ). Each of the next N lines is of the form "userid vote" ( quotes for clarity only ), where userid is a non-empty string of lower-case alphabets ( 'a' - 'z' ) not more than 20 in length and vote is either a + or - . See the sample cases below, for more clarity.
 
 ### Output
 

@@ -98,10 +98,10 @@ Now, Chef has an array **a** with size **n**; he wants to ask you **q** queries.
 - The second line contains **n** space-separated integers **a1, a2, ..., an**.
 - The next line contains a single integer **q** denoting the number of queries you must answer.
 - Each of the following **q** lines contains four space-separated integers **x**, **z**, **c**, **d** describing one query. The indices **y** and **t** are generated in the following way: 
-  - Let **k** = min(**n** − **x**, **n** − **z**) + 1.
-  - Let **last** be equal to the index of the last query for which its answer was "YES" (queries are indexed from 1), or **last** = 0 if there isn't such query yet.
-  - **y** = **x** + (**c** + **d** · **last**) % **k**
-  - **t** = **z** + (**c** + **d** · **last**) % **k**
+    - Let **k** = min(**n** − **x**, **n** − **z**) + 1.
+    - Let **last** be equal to the index of the last query for which its answer was "YES" (queries are indexed from 1), or **last** = 0 if there isn't such query yet.
+    - **y** = **x** + (**c** + **d** · **last**) % **k**
+    - **t** = **z** + (**c** + **d** · **last**) % **k**
 
 ### Output
 

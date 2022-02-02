@@ -87,15 +87,15 @@ In **T** lines print **T** integers - the answers for the corresponding test cas
 
 ### Constraints
 
-1 <= **T** <= 10
+1 &lt;= **T** &lt;= 10
 
-1 <= **n, Ci** <= 100
+1 &lt;= **n, Ci** &lt;= 100
 
-1 <= **m** <= 10^4
+1 &lt;= **m** &lt;= 10^4
 
-0 <= **Pi** < n
+0 &lt;= **Pi** &lt; n
 
-1 <= **Vi** <= 10^5
+1 &lt;= **Vi** &lt;= 10^5
 
 ### Example
 

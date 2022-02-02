@@ -17,7 +17,7 @@ Here, we need to find a way to create two evenly balanced teams for any game(or 
 
 ### Input
 
-The first line of input will contain the number of test cases 'T'(1<=T<=100). This is followed by 'T' test cases. Each test case starts with a blank line, followed by N, the total number of players. N lines will follow with the first line giving the skill-point of person 1; the second line, the skill-point of person 2; and so on. Each skill-point shall be an integer between 1 and 450. There shall be at most 100 players in all(1<=N<=100).
+The first line of input will contain the number of test cases 'T'(1&lt;=T&lt;=100). This is followed by 'T' test cases. Each test case starts with a blank line, followed by N, the total number of players. N lines will follow with the first line giving the skill-point of person 1; the second line, the skill-point of person 2; and so on. Each skill-point shall be an integer between 1 and 450. There shall be at most 100 players in all(1&lt;=N&lt;=100).
 
 ### Output
 

@@ -11,7 +11,7 @@ layout: problem
 ---
 ###  All submissions for this problem are available. 
 
-Two players take it in turns to cut off squares from a rectangle. If the lengths of the sides of the rectangle are *a* and *b* (a<=b) at the beginning of a player's turn, he may cut off as many squares with a side of length *a* as he likes (but at least 1 square), provided the square he is cutting off has at least three of its sides lying on the sides of the rectangle he is trimming. After every cut, the cut off square is removed from the rectangle. When the last part of the rectangle is removed, the game ends and the person who cut it off wins.
+Two players take it in turns to cut off squares from a rectangle. If the lengths of the sides of the rectangle are *a* and *b* (a&lt;=b) at the beginning of a player's turn, he may cut off as many squares with a side of length *a* as he likes (but at least 1 square), provided the square he is cutting off has at least three of its sides lying on the sides of the rectangle he is trimming. After every cut, the cut off square is removed from the rectangle. When the last part of the rectangle is removed, the game ends and the person who cut it off wins.
 
 Michael, a friend of the players', is taking down a log of the games they are playing in the form of a sequence of consecutive numbers, each number denoting how many squares a player cut off in his turn. Since the game is rather slow, Michael is getting a little bored and he has started writing a detailed analysis of the game in his notebook. For given starting dimensions a and b, he always writes down:
 
@@ -25,7 +25,7 @@ After writing for several hours Michael began to worry whether he had enough roo
 
 ### Input
 
-An integer t denoting the number of test cases, (t<=10000) followed by t pairs of integers a, b, (1<=a<=b<=109) given in separate lines.
+An integer t denoting the number of test cases, (t&lt;=10000) followed by t pairs of integers a, b, (1&lt;=a&lt;=b&lt;=109) given in separate lines.
 
 ### Output
 

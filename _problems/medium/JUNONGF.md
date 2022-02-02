@@ -104,11 +104,11 @@ P\[i\] = A0 \* A0 \* P\[i-1\] + B0 \* P\[i-2\] + C0 modulo (M0)
 
 Q\[i\] = A1 \* A1 \* Q\[i-1\] + B1 \* Q\[i-2\] + C1 modulo (M1)
 
-for i>=2 and i < N
+for i&gt;=2 and i &lt; N
 
 From this, the ith dimension can be calculated as follows: 
 
-The ith dimension, L\[i\] = P\[i\]\*(M1)+Q\[i\]+1 for i>=0 and i < N
+The ith dimension, L\[i\] = P\[i\]\*(M1)+Q\[i\]+1 for i&gt;=0 and i &lt; N
 
 ### Output
 
@@ -116,20 +116,20 @@ For each test case, output a single line containing the answer. As was mentioned
 
 ### Constraints
 
-1 <= T <= 100000
+1 &lt;= T &lt;= 100000
 
-2 <= N <= 100
+2 &lt;= N &lt;= 100
 
-1 <= V <= 2^63 - 1
+1 &lt;= V &lt;= 2^63 - 1
 
-0<=A\[0\],A\[1\],B\[0\],B\[1\],C\[0\],C\[1\]<=100000
+0&lt;=A\[0\],A\[1\],B\[0\],B\[1\],C\[0\],C\[1\]&lt;=100000
 
-0 <= P\[0\], P\[1\] < max(10^5+1, M0)
+0 &lt;= P\[0\], P\[1\] &lt; max(10^5+1, M0)
 and
 
-0 <= Q\[0\], Q\[1\] < max(10^5+1, M1)
+0 &lt;= Q\[0\], Q\[1\] &lt; max(10^5+1, M1)
 
-1<=M0 and M1<=2^31-1
+1&lt;=M0 and M1&lt;=2^31-1
 
 All N dimensions after calculation will be between 1 and 2^63 – 1.
 

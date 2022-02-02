@@ -113,4 +113,4 @@ In each official test file **H**, **W** ≥ **200**.
 </pre>
 ### Explanation
 
-In this output the set of one row **R = {1}** and the set of two columns **C = {1, 2}** have been chosen. The chosen cells of the matrix are **M\[1\]\[1\] = 3**, **M\[1\]\[2\] = -1** (recall that the numeration of rows and columns is 0-based). So the sum of the chosen sub-rectangle is **3 + (-1) = 2 > 0**. The sum of all positive elements of the matrix is **4 + 2 + 3 + 8 + 9 = 26**. So the score you will get for such output is **2 / 26 = 0.0769231**. Note that this is not the optimal solution for this matrix.
+In this output the set of one row **R = {1}** and the set of two columns **C = {1, 2}** have been chosen. The chosen cells of the matrix are **M\[1\]\[1\] = 3**, **M\[1\]\[2\] = -1** (recall that the numeration of rows and columns is 0-based). So the sum of the chosen sub-rectangle is **3 + (-1) = 2 &gt; 0**. The sum of all positive elements of the matrix is **4 + 2 + 3 + 8 + 9 = 26**. So the score you will get for such output is **2 / 26 = 0.0769231**. Note that this is not the optimal solution for this matrix.

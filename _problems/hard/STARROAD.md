@@ -114,7 +114,7 @@ Output a single line containing a single integer — the solution of Chef's prob
 - 0 ≤ **M** ≤ **N**x**(N-1)**/2
 - 1 ≤ **K** ≤ 1018
 - 1 ≤ **X** ≤ 7777777
-- 1 ≤ **U** < **V** ≤ **N**
+- 1 ≤ **U** &lt; **V** ≤ **N**
 - Each space road (**U**, **V**) will be in input at most once.
 
 ### Subtasks

@@ -85,9 +85,9 @@ All submissions for this problem are available. There are coins of 2 different d
 
  **Constraints**
 
- 0 <= **T** <= 10000
+ 0 &lt;= **T** &lt;= 10000
 
- 1 <= **N** <= 1000000000
+ 1 &lt;= **N** &lt;= 1000000000
 
  **Output**
 

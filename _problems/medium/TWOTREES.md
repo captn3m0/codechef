@@ -50,7 +50,7 @@ For each test case, output a single line containing the number of distinct trees
 - **2** ≤ **N1, N2** ≤ **105**
 - The sum of **N1** across all test cases does not exceed **106**
 - The sum of **N2** across all test cases does not exceed **106**
-- **1** ≤ **Ai**, **Bi** < **i**
+- **1** ≤ **Ai**, **Bi** &lt; **i**
 
 ### Example
 

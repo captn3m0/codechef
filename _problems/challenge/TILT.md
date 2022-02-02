@@ -144,7 +144,7 @@ The score for the first test case after each tilt is: 4, 8, 7, 6, 10, 9, 8, 2, 6
 The score for the second test case after each tilt is: -6, -2, -3, 1, 5, 14, 13, 12.
 
 The total score is therefore 18.
-Note that better scores may be possible, but the only requirement is that the score be positive. />/>
+Note that better scores may be possible, but the only requirement is that the score be positive.
 
 ### Test Case Generation
 

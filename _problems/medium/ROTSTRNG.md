@@ -17,7 +17,7 @@ A k-rotation on a string takes the trailing k characters of the string and attac
 
 ### Input
 
-First line contains T ( number of test cases, around 10 ). T cases follow. Each case consists of two lines. First line has the string S of length n ( 1 <= n <= 500,000 ), having ('a'-'z' , 'A'-'Z'). Second line contains two integers M P separated by a space ( 1 <= M, P <= n ). Comparisons are case sensitive i.e., 'a' is not equal to 'A'.
+First line contains T ( number of test cases, around 10 ). T cases follow. Each case consists of two lines. First line has the string S of length n ( 1 &lt;= n &lt;= 500,000 ), having ('a'-'z' , 'A'-'Z'). Second line contains two integers M P separated by a space ( 1 &lt;= M, P &lt;= n ). Comparisons are case sensitive i.e., 'a' is not equal to 'A'.
 
 ### Output
 

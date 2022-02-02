@@ -75,7 +75,7 @@ All submissions for this problem are available.###  Read problems statements in 
  Chef remembers that he played such game:
 
 - On each step he choose an index **x** from **1** to **n**.
-- For all indices **y (y < x)** he calculated the difference **by** = **ax** - **ay**.
+- For all indices **y (y &lt; x)** he calculated the difference **by** = **ax** - **ay**.
 - Then he calculated **B1** - sum of all **by** which are greater than 0 and **B2** - sum of all **by** which are less than 0.
 - The answer for this step is **B1 - B2**.
 

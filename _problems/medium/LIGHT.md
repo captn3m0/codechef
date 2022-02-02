@@ -88,9 +88,9 @@ Output the maximum height you can reach. The value must have an absolute error l
 ### Constraints
 
 1 ≤ **N** ≤ 50000
--1000 ≤ **L** < **R** ≤ 1000
+-1000 ≤ **L** &lt; **R** ≤ 1000
 -1000 ≤ **Xi** ≤ 1000
-0 < **Yi** ≤ 1000
+0 &lt; **Yi** ≤ 1000
 15 ≤ **Zi** ≤ 75
 **N** is an integer, but all other input values can be non-integers.
 

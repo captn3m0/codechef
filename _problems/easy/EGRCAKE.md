@@ -93,7 +93,7 @@ For each of the **T** test cases, output a single line:
 ### Constraints and Subtasks
 
 - **1** ≤ **T** ≤ **10**
-- 0 ≤ **M** < **N**
+- 0 ≤ **M** &lt; **N**
 
 **Subtask 1: 25 points**
 

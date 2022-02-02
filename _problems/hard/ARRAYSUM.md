@@ -81,8 +81,8 @@ Your task is to count the number of such subsequences **C** of **A** that:
 
 - **C** contains exactly **M** elements.
 - The array **(C+B)** is non-decreasing. Here by **+** operation, we mean element-wise sum. 
-  For example, the array **(4, 8, 5)** plus the array **(10, 20, 30)** is **(14, 28, 35)**.
-  Formally, **(C+B)** is an array of size **M** such that **(C+B)i** = **Ci** + **Bi**.
+    For example, the array **(4, 8, 5)** plus the array **(10, 20, 30)** is **(14, 28, 35)**.
+    Formally, **(C+B)** is an array of size **M** such that **(C+B)i** = **Ci** + **Bi**.
 
 In case some subsequence appears more that once, you should counts it as many times as it appears.
 Formally, two subarrays of an array **a**, (**ai\_1**, **ai\_2**, ... ,**ai\_n**) and (**aj\_1**, **aj\_2**, ... ,**aj\_m**) will be considered different if either their lengths are different i.e. **n != m** or there exists an index **k** such that such that **i\_k**  **!= j\_k**.

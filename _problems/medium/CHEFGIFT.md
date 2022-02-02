@@ -38,11 +38,11 @@ Output a single integer: the maximum amount they will be able to spend on a cara
 
 ### Constraints:
 
-1<=T<=30
- 0<=D<=20000
- 1<=n,m<=100 
- 0<=toll<=200
- 0<=C\[i\]\[j\]<=100
+1&lt;=T&lt;=30
+ 0&lt;=D&lt;=20000
+ 1&lt;=n,m&lt;=100 
+ 0&lt;=toll&lt;=200
+ 0&lt;=C\[i\]\[j\]&lt;=100
 
  **Input:**
  3

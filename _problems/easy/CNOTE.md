@@ -89,7 +89,7 @@ For each test case, Print "**LuckyChef**" if Chef can select such a notebook, ot
 ### Constraints and Subtasks
 
 - **1 ≤ T ≤ 105**
-- **1 ≤ Y < X ≤ 103**
+- **1 ≤ Y &lt; X ≤ 103**
 - **1 ≤ K ≤ 103**
 - **1 ≤ N ≤ 105**
 - **1 ≤ Pi, Ci ≤ 103**

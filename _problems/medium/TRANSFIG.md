@@ -152,7 +152,7 @@ For each testcase, output the possible number of rooted **K**-ary trees having t
 
 - **1** ≤ **T** ≤ **5**
 - **2** ≤ **N** ≤ **105**
-- **1** ≤ **K** < **N**
+- **1** ≤ **K** &lt; **N**
 - Both lines will contain permutations of **1** to **N**
 
 ### Example

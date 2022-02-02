@@ -87,7 +87,7 @@ The following **M** lines contains the queries in the form "**X** **Y**", where 
 
 Output the length of the longest nice subarray of the initial array at the first line of output. Then, output **M** integers at separate lines. The **i**-th such line should contain the length of the longest nice subarray after the **i**-th changing query.
 
-Anytime **ai** <= 2 \* **N** holds.
+Anytime **ai** &lt;= 2 \* **N** holds.
 
 ### Example
 
@@ -110,8 +110,8 @@ Anytime **ai** <= 2 \* **N** holds.
 </pre>
 ### Scoring
 
-1 <= **N** <= 100, 1 <= **M** <= 1000 : 20 points. 
+1 &lt;= **N** &lt;= 100, 1 &lt;= **M** &lt;= 1000 : 20 points. 
 
-1 <= **N**, **M** <= 5000 : 26 points. 
+1 &lt;= **N**, **M** &lt;= 5000 : 26 points. 
 
-1 <= **N**, **M** <= 105 : 54 points.
+1 &lt;= **N**, **M** &lt;= 105 : 54 points.

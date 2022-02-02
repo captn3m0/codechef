@@ -115,6 +115,6 @@ In **T** lines print **T** integer - the answers for the corresponding test.
 </pre>
 ### Explanation
 
-**Example case 1:** The optimized path is: (0, 0) -> (0, 1) -> (0, 2) -> (0, 3) -> (0, 4) -> (0, 5) -> (0, 6) -> (0, 7) -> (0, 8) -> (1, 8) -> (2, 8). The mouses that scared the Little Elephant are at the following cells: (1, 0), (1, 1), (1, 2), (1, 3), (1, 4), (1, 5), (1, 7), (0, 2), (0, 8).
+**Example case 1:** The optimized path is: (0, 0) -&gt; (0, 1) -&gt; (0, 2) -&gt; (0, 3) -&gt; (0, 4) -&gt; (0, 5) -&gt; (0, 6) -&gt; (0, 7) -&gt; (0, 8) -&gt; (1, 8) -&gt; (2, 8). The mouses that scared the Little Elephant are at the following cells: (1, 0), (1, 1), (1, 2), (1, 3), (1, 4), (1, 5), (1, 7), (0, 2), (0, 8).
 
-**Example case 2:** The optimized path is: (0, 0) -> (1, 0) -> (1, 1) -> (2, 1) -> (2, 2) -> (3, 2) -> (3, 3) -> (4, 3) -> (4, 4) -> (5, 4) -> (5, 5) -> (6, 5) -> (6, 6) -> (6, 7) -> (6, 8). The 10 mouses that scared the Little Elephant are at the following cells: (0, 1), (1, 0), (1, 1), (2, 1), (3, 3), (4, 4), (5, 4), (5, 5), (6, 6), (6, 8).
+**Example case 2:** The optimized path is: (0, 0) -&gt; (1, 0) -&gt; (1, 1) -&gt; (2, 1) -&gt; (2, 2) -&gt; (3, 2) -&gt; (3, 3) -&gt; (4, 3) -&gt; (4, 4) -&gt; (5, 4) -&gt; (5, 5) -&gt; (6, 5) -&gt; (6, 6) -&gt; (6, 7) -&gt; (6, 8). The 10 mouses that scared the Little Elephant are at the following cells: (0, 1), (1, 0), (1, 1), (2, 1), (3, 3), (4, 4), (5, 4), (5, 5), (6, 6), (6, 8).

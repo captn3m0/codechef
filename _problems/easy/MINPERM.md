@@ -84,10 +84,10 @@ Please find the **lexicographically** smallest *good* permutation **p**.
 
 For two permutations **p** and **q**, we say that **p** is lexicographically smaller than **q** if and only if there exists a index **1** ≤ **l** ≤ **n** such that:
 
-- For any **1** ≤ **i** < **l**, **pi** = **q****i**. Note that if **l** = **1**, this constraint means nothing.
-- and, **p****l** < **q****l**.
+- For any **1** ≤ **i** &lt; **l**, **pi** = **qi**. Note that if **l** = **1**, this constraint means nothing.
+- and, **pl** &lt; **ql**.
 
-For example, (2, 3, 1, 4) < (2, 3, 4, 1) < (3, 4, 1, 2). The lexicographically smallest permutation is, of course, (1, 2, ..., **n**), though this one is not *good*.
+For example, (2, 3, 1, 4) &lt; (2, 3, 4, 1) &lt; (3, 4, 1, 2). The lexicographically smallest permutation is, of course, (1, 2, ..., **n**), though this one is not *good*.
 
 ### Input
 

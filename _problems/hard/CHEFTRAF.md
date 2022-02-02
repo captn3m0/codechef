@@ -83,7 +83,7 @@ All submissions for this problem are available.### Read problems statements in [
 
  A businessman named Fehc came to Chefland to compete with Chef's company and created his own traffic network. It also contains **N**-**1** roads. The **i**-th of these roads connects city **pi** and city **qi**, and has length **ri** kms. Again, it is possible to travel between any two cities by going through Fehc's roads (and ignoring Chef's). Similar to Chef, only those people who have Fehc's VIP card can travel on these roads and it costs 1 Chefcoin/km to travel on one of Fehc's roads.
 
- On New Year's Day in Chefland, there is expected to be a huge traffic flow because of people travelling to celebrate with family and friends. For any **1** ≤ **i** < **j** ≤ **N**, there will be exactly one person who wants to go from city **i** to city **j**. To achieve this, he should ask Chef or Fehc for VIP cards and travel along the roads permitted by the cards. However, Chef and Fehc are in a competing relationship, and hence any one person can only get one VIP card. A person will choose that company that has a shorter(cheaper) route from city **i** to city **j**, buy that company's VIP card, and travel along that company's roads. If there is a tie, he chooses an arbitrary company(this doesn't affect the answer of the problem).
+ On New Year's Day in Chefland, there is expected to be a huge traffic flow because of people travelling to celebrate with family and friends. For any **1** ≤ **i** &lt; **j** ≤ **N**, there will be exactly one person who wants to go from city **i** to city **j**. To achieve this, he should ask Chef or Fehc for VIP cards and travel along the roads permitted by the cards. However, Chef and Fehc are in a competing relationship, and hence any one person can only get one VIP card. A person will choose that company that has a shorter(cheaper) route from city **i** to city **j**, buy that company's VIP card, and travel along that company's roads. If there is a tie, he chooses an arbitrary company(this doesn't affect the answer of the problem).
 
  There are **M**=**N\*(N-1)/2** people who will travel on New Year's Day. Your task is to compute the total amount of Chefcoins spent by them.
 
@@ -113,7 +113,7 @@ All submissions for this problem are available.### Read problems statements in [
 
  Subtask #2 (10 points):
 
-- For any **1** ≤ **i** < **N**, **ai** = **pi**, **bi** = **qi**, **ci** = **ri**. In other words, Chef's and Fehc's traffic networks are exactly the same.
+- For any **1** ≤ **i** &lt; **N**, **ai** = **pi**, **bi** = **qi**, **ci** = **ri**. In other words, Chef's and Fehc's traffic networks are exactly the same.
 
  Subtask #3 (23 points):
 

@@ -74,9 +74,9 @@ All submissions for this problem are available.###  Read problems statements in 
 
 You are given a binary string **S** of **N** bits. The bits in the string are indexed starting from 1. **S\[i\]** denotes the **i**th bit of **S**.
 
-Let's say that a sequence **i1**, **i2**, …, **iK**(1 ≤ **K**; 1 ≤ **i1** < **i2** < … < **iK** ≤ **N**) *produces* a palindrome when applied to **S**, if the string **S\[i1\]** **S\[i2\]** … **S\[ik\]** is a palindrome (that is, reads the same backward or forward).
+Let's say that a sequence **i1**, **i2**, …, **iK**(1 ≤ **K**; 1 ≤ **i1** &lt; **i2** &lt; … &lt; **iK** ≤ **N**) *produces* a palindrome when applied to **S**, if the string **S\[i1\]** **S\[i2\]** … **S\[ik\]** is a palindrome (that is, reads the same backward or forward).
 
-In addition, a sequence **i1**, **i2**, …, **iK**(1 ≤ **K**; 1 ≤ **i1** < **i2** < … < **iK** ≤ **N**) is said to be *exponential*, if **ij + 1 = p \* ij** for each integer **1 ≤ j < K** and for some integer **p > 1**. Note, that a sequence of one element is always exponential.
+In addition, a sequence **i1**, **i2**, …, **iK**(1 ≤ **K**; 1 ≤ **i1** &lt; **i2** &lt; … &lt; **iK** ≤ **N**) is said to be *exponential*, if **ij + 1 = p \* ij** for each integer **1 ≤ j &lt; K** and for some integer **p &gt; 1**. Note, that a sequence of one element is always exponential.
 
 Your task is to count the number of exponential sequences that produce a palindrome when applied to **S**.
 

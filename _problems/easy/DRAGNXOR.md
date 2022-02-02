@@ -25,7 +25,7 @@ Did you ever hear about 'Dragon Food' ? Its used to refer to the chocolates boug
 
 ### Input
 
-First line contains an integer T ( number of test cases, around 100 ). T cases follow, each having N A B in a single line, separated by a space. ( 1 <= N <= 30, 0 <= A,B < 2N )
+First line contains an integer T ( number of test cases, around 100 ). T cases follow, each having N A B in a single line, separated by a space. ( 1 &lt;= N &lt;= 30, 0 &lt;= A,B &lt; 2N )
 
 ### Output
 

@@ -25,7 +25,7 @@ Output one real number correct up to 4 decimal digits which is equal to the expe
 
 ### Constraints
 
-Number of printed Sides<=2000. All other values abide by the number of printed sides.
+Number of printed Sides&lt;=2000. All other values abide by the number of printed sides.
 
 ### Example
 

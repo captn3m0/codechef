@@ -71,8 +71,8 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME14/mandarin/TAAND1.pdf).
 
-Given an array of **n** non-negative integers: **A1**, **A2**, …, **AN**. Your mission is finding a pair of integers **Au**, **Av** (1 ≤  **u** < **v** ≤ **N**) such that (**Au** and **Av**) is as large as possible.
-**And** is a bit-wise operation which is corresponding to **&** in C++ and Java.
+Given an array of **n** non-negative integers: **A1**, **A2**, …, **AN**. Your mission is finding a pair of integers **Au**, **Av** (1 ≤  **u** &lt; **v** ≤ **N**) such that (**Au** and **Av**) is as large as possible.
+**And** is a bit-wise operation which is corresponding to **&amp;** in C++ and Java.
 
 ### Input
 
@@ -80,7 +80,7 @@ The first line of the input contains a single integer **N**. The **i**th line in
 
 ### Output
 
-Contains a single integer which is the largest value of **Au** and **Av** where 1 ≤  **u** < **v** ≤ **N**.
+Contains a single integer which is the largest value of **Au** and **Av** where 1 ≤  **u** &lt; **v** ≤ **N**.
 
 ### Constraints
 

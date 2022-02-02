@@ -17,7 +17,7 @@ Your goal is to assign B beds from the smaller rooms in such a way that the maxi
 
 ### Input
 
-The first line contains a positive integer t<=1000 indicating the number of test cases. Each test case is an instance of the problem defined above. The first line of each test case is a pair of positive integers L and B (the number of children L<=100 and beds B<=100). The next lines contain a sequence of (c,b) pairs ending with two zeros. (c,b) means that the child c will be happy if it gets to sleep in bed b.
+The first line contains a positive integer t&lt;=1000 indicating the number of test cases. Each test case is an instance of the problem defined above. The first line of each test case is a pair of positive integers L and B (the number of children L&lt;=100 and beds B&lt;=100). The next lines contain a sequence of (c,b) pairs ending with two zeros. (c,b) means that the child c will be happy if it gets to sleep in bed b.
 
 ### Output
 

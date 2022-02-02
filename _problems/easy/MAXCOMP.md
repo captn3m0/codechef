@@ -79,7 +79,7 @@ The first line of the input contains an integer **T**, the number of test cases.
 
 **1 ≤ T ≤ 10**
 **1 ≤ N ≤ 2000**
-**0 ≤ Si < Ei ≤ 48**
+**0 ≤ Si &lt; Ei ≤ 48**
 **0 ≤ Ci ≤ 106**
 
 ### Output

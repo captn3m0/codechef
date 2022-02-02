@@ -133,7 +133,7 @@ Output a single integer corresponding to the answer of the problem.
 
 Here we have, **A** = 11 and **B** = 12.
 
-The Score of the *divisor tree* which has 12 written on its root is 12. This because the path 12 -> 6 -> 3 -> 1 (look at the figure below) has sum of the degrees of all nodes in it = 5 + 4 + 2 + 1 = 12. This is the maximum score of a path among all paths from root to the leaves. Hence, the Score of this tree is 12. ![](https://codechef_shared.s3.amazonaws.com/download/upload/APRIL17/chefdiv.png)
+The Score of the *divisor tree* which has 12 written on its root is 12. This because the path 12 -&gt; 6 -&gt; 3 -&gt; 1 (look at the figure below) has sum of the degrees of all nodes in it = 5 + 4 + 2 + 1 = 12. This is the maximum score of a path among all paths from root to the leaves. Hence, the Score of this tree is 12. ![](https://codechef_shared.s3.amazonaws.com/download/upload/APRIL17/chefdiv.png)
 
 Note that in the figure, the nodes are denoted by (value written on it, degree of node), and the leaves are marked green.
 

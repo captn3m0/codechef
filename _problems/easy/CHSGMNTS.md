@@ -72,7 +72,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JULY16/mandarin/CHSGMNTS.pdf), [Russian](http://www.codechef.com/download/translated/JULY16/russian/CHSGMNTS.pdf) and [Vietnamese](http://www.codechef.com/download/translated/JULY16/vietnamese/CHSGMNTS.pdf) as well.
 
-Chef has an array **A** consisting of **N** elements. He wants to find number of pairs of non-intersecting segments \[**a**, **b**\] and \[**c**, **d**\] (1 ≤ **a** ≤ **b** < **c** ≤ **d** ≤ **N**) such there is no number that occurs in the subarray {**Aa**, **Aa+1**, ... , **Ab**} and {**Ac**, **Ac+1**, ... , **Ad**} simultaneously.
+Chef has an array **A** consisting of **N** elements. He wants to find number of pairs of non-intersecting segments \[**a**, **b**\] and \[**c**, **d**\] (1 ≤ **a** ≤ **b** &lt; **c** ≤ **d** ≤ **N**) such there is no number that occurs in the subarray {**Aa**, **Aa+1**, ... , **Ab**} and {**Ac**, **Ac+1**, ... , **Ad**} simultaneously.
 
 Help Chef to find this number.
 

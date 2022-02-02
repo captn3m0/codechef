@@ -29,7 +29,7 @@ All submissions for this problem are available.It is now 2050 AD. A city will be
 
 ### Input
 
-First line of the input file contains an integer **T (0 < T ≤ 20)** which denotes how many test cases to follow. Each of the next **T** lines contains two strictly positive integers **Davg (0 < Davg <1000)** and **dmin (0 < dmin < Davg)**. The meaning of **Davg** and **dmin** are given in the problem statement above.
+First line of the input file contains an integer **T (0 &lt; T ≤ 20)** which denotes how many test cases to follow. Each of the next **T** lines contains two strictly positive integers **Davg (0 &lt; Davg &lt;1000)** and **dmin (0 &lt; dmin &lt; Davg)**. The meaning of **Davg** and **dmin** are given in the problem statement above.
 
 ### Output
 

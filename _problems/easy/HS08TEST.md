@@ -17,9 +17,9 @@ Calculate Pooja's account balance after an attempted transaction.
 
 ### Input
 
- Positive integer 0 < X <= 2000 - the amount of cash which Pooja wishes to withdraw.
+ Positive integer 0 &lt; X &lt;= 2000 - the amount of cash which Pooja wishes to withdraw.
 
- Nonnegative number 0<= Y <= 2000 with two digits of precision - Pooja's initial account balance.
+ Nonnegative number 0&lt;= Y &lt;= 2000 with two digits of precision - Pooja's initial account balance.
 
 ### Output
 

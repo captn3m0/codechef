@@ -72,7 +72,7 @@ All submissions for this problem are available.**Chef** and **Sous Chef** are pl
 
 Chef will place the **N** rooks within the **R**\***C** cells of the chessboard. **He may keep multiple rooks on the same cell**. You may assume that each cell is large enough to hold all of the **N** rooks. After placing the **N** rooks, some of the cells may remain empty.
 
-Note that not all possible placements of rooks within the **R\*C** cells are **valid**. **If there is a rook at cell (r, c) then there should be no rooks in the cells (u, v)** where **u < r AND v > c**.
+Note that not all possible placements of rooks within the **R\*C** cells are **valid**. **If there is a rook at cell (r, c) then there should be no rooks in the cells (u, v)** where **u &lt; r AND v &gt; c**.
 
 Following the Chef's placement of the rooks, the Sous Chef will make an **unlimited number of moves** - including, of course, the possibility of **no move at all**. In each move he may move a rook to **one cell up** or **one cell left** of its position. He cannot move a rook out of the chessboard. At the end of all the moves (**i.e. not necessarily at the end of each move, but at the end of all of them**), Sous Chef must also ensure that the board is **valid** according to the condition given above.
 

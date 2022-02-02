@@ -25,9 +25,9 @@ For each test case, output minimum total elevation so that chef can achieve his 
 
 ### Constraints
 
-- T <= 10
-- 1 <= H,W <= 50
-- 0 <= Ei,j <= 200 000
+- T &lt;= 10
+- 1 &lt;= H,W &lt;= 50
+- 0 &lt;= Ei,j &lt;= 200 000
 
 ### Example
 

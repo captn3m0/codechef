@@ -20,9 +20,9 @@ Calculate the shortest time (how many seconds more) the squirrels can take enoug
 ### Input
 
 - The first line contains an integer t, the number of test cases, for each: 
-  - The first line contains the integers m,n,k, respectively.
-  - The second line contains the integers Ti (i=1..m), respectively.
-  - The third line contains the integers Pi (i=1..m), respectively.
+    - The first line contains the integers m,n,k, respectively.
+    - The second line contains the integers Ti (i=1..m), respectively.
+    - The third line contains the integers Pi (i=1..m), respectively.
 ***(Each integer on a same line is separated by at least one space character, there is no added line between test cases)*** 
 ### Output
 
@@ -49,7 +49,7 @@ For each test cases, output in a single line an integer which is the shortest ti
 
 ### Limitations
 
-- 0<t≤20
-- 0<m,n≤10,000
-- 0<k≤107
-- 0<Ti,Pi≤100
+- 0&lt;t≤20
+- 0&lt;m,n≤10,000
+- 0&lt;k≤107
+- 0&lt;Ti,Pi≤100

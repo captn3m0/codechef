@@ -83,7 +83,7 @@ Make a bipartite graph having partites **X** and **Y**. Partite **X** will conta
 
 string **y** will be signature of permutation **x** if :
 
- **y\[i\] = ‘I’ => x\[i\] < x\[i+1\] && y\[i\] = ‘D’ => x\[i\] > x\[i+1\] …. for all i from 0 to N-2.**
+ **y\[i\] = ‘I’ =&gt; x\[i\] &lt; x\[i+1\] &amp;&amp; y\[i\] = ‘D’ =&gt; x\[i\] &gt; x\[i+1\] …. for all i from 0 to N-2.**
 
 There will be an edge between permutation **x** and string **y** if string **y** is the signature of the permutation **x** and weight of the edge will be the square of the inversion count in permutation **x**.
 

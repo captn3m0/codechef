@@ -78,7 +78,7 @@ Sereja has an array **A** of **N** positive integers : **A\[1\], A\[2\], A\[3\],
 
 In a single operation on the array, he performs the following two steps :
 
-- Pick two indices **i, j** s.t. **A\[i\] > A\[j\]**
+- Pick two indices **i, j** s.t. **A\[i\] &gt; A\[j\]**
 - **A\[i\] -= A\[j\]**
 
 Sereja can apply these operations any number of times (possibly zero), such that the sum of resulting elements of the array is as small as possible.

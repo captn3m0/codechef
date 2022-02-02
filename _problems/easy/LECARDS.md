@@ -72,7 +72,7 @@ All submissions for this problem are available.Little Elephant from the Zoo of L
 
 Little Elephant and Big Hippo are playing the following game. At first Little Elephant takes some subset of cards, and Big Hippo takes the rest of them. Here, Little Elephant can choose to take all of the cards, or none of the cards.
 
-Then they play **1000** rounds: in round **k** (**k = 1, 2, ..., 1000**), they count the number of cards each has of the color **k**. Let Little Elephant has **a** cards of the color **k**, and Big Hippo has **b** cards of the color **k**. Then if **a > b** Little Elephant scores **|a-b|** points, otherwise Big Hippo scores **|a-b|** points in this round, where **|x|** denotes the absolute value of **x**.
+Then they play **1000** rounds: in round **k** (**k = 1, 2, ..., 1000**), they count the number of cards each has of the color **k**. Let Little Elephant has **a** cards of the color **k**, and Big Hippo has **b** cards of the color **k**. Then if **a &gt; b** Little Elephant scores **|a-b|** points, otherwise Big Hippo scores **|a-b|** points in this round, where **|x|** denotes the absolute value of **x**.
 
 You are given the number of cards **N** and the array **C** - list of colors of all **N** cards. Find the number of subsets (among all **2N** subsets) for which Little Elephant wins the game: that is, he gains more points than Big Hippo in total, if Little Elephant takes the subset at first. Since the answer can be large, print it modulo **1000000007 (109+7)**.
 

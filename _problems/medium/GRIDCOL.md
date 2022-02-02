@@ -81,7 +81,7 @@ Find how many different ways he can color the **3rd** row such that the resultin
 The first line of the input contains an integer **T** denoting the number of test cases.
 
 - The first line of each test
-  case contains an integer **N**.
+    case contains an integer **N**.
 - The next line contains **N** integers **A1, A2, ..., AN**, where **Ai**(**1** ≤ **i** ≤ **N**) is the color of the cell at column **i** of **1st** row.
 - The next line contains **N** integers **B1, B2, ..., BN**, where **Bi**(**1** ≤ **i** ≤ **N**) is the color of the cell at column **i** of **2nd** row.
 

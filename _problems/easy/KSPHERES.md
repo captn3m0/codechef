@@ -86,7 +86,7 @@ If there is a sequence of (**D+1**) nested spheres, we can call this sequence as
 ![](https://www.codechef.com/download/OCT15/1-sequence.png)
 ![](https://www.codechef.com/download/OCT15//2-sequence.png)
 
-Eugene has to find out how many different **X**-sequence are possible (**1** <= **X** <= **C**). An **X** sequence is different from another if the index of any of the hemisphere used in one **X**-sequence is different from the other. Eugene doesn't know how to do it, so Chef agreed to help him. Of course, Chef is too busy now and he asks you to help him.
+Eugene has to find out how many different **X**-sequence are possible (**1** &lt;= **X** &lt;= **C**). An **X** sequence is different from another if the index of any of the hemisphere used in one **X**-sequence is different from the other. Eugene doesn't know how to do it, so Chef agreed to help him. Of course, Chef is too busy now and he asks you to help him.
 
 ### Input
 
@@ -136,16 +136,16 @@ We can build spheres with such radii:
 
 We can build these **1**-sequences:
 
-1->2 and there are 2 ways to do it. ( sphere with radius 1 is inside sphere with radius 2, we can choose any of 2 ways of building sphere with radius 1)
+1-&gt;2 and there are 2 ways to do it. ( sphere with radius 1 is inside sphere with radius 2, we can choose any of 2 ways of building sphere with radius 1)
 
-1->3 and there are 2 ways to do it.
+1-&gt;3 and there are 2 ways to do it.
 
-2->3 and there is 1 way to do it.
+2-&gt;3 and there is 1 way to do it.
 
 **2 + 2 + 1 = 5**
 
 We can build these **2**-sequences:
 
-1->2->3 and there are 2 ways to do it.
+1-&gt;2-&gt;3 and there are 2 ways to do it.
 
 We can't build **3**-sequences, because we don't have 4 spheres of different radii.

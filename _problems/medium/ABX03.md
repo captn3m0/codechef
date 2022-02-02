@@ -96,14 +96,14 @@ For each query, compute the total cost of all meals bought when travelling from 
 9. The first line of the input contains two space-separated integers **N** and **Q** denoting the number of halls and the number of queries respectively.
 10. Each of the following **N-1** lines contains three space-separated integers **U**, **V** and **C** denoting an edge connecting halls **U** and **V** and containing a restaurant which provides a meal with cost **C**.
 11. Each of the following **Q** lines contains eight space-separated integers **in1**, **in2**, **in3**, **in4**, **in5**, **in6**, **in7** and **in8** describing one query. Lets define **last** as the answer of the previous query modulo **100,000** (if it was the first query then **last** = 0), the parameters of the query can be calculated by: 
-  - **U** = **in1** + **last**
-  - **V** = **in2** + **last**
-  - **X1** = **in3** + **last**
-  - **Y1** = **in4** + **last**
-  - **X2** = **in5** + **last**
-  - **Y2** = **in6** + **last**
-  - **X3** = **in7** + **last**
-  - **Y3** = **in8** + **last**
+    - **U** = **in1** + **last**
+    - **V** = **in2** + **last**
+    - **X1** = **in3** + **last**
+    - **Y1** = **in4** + **last**
+    - **X2** = **in5** + **last**
+    - **Y2** = **in6** + **last**
+    - **X3** = **in7** + **last**
+    - **Y3** = **in8** + **last**
 ### Output
 
 For each query, print the answer to it on a separate line.

@@ -73,7 +73,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MARCH17/mandarin/BANDMATR.pdf?v=1), [Russian](http://www.codechef.com/download/translated/MARCH17/russian/BANDMATR.pdf?v=1) and [Vietnamese](http://www.codechef.com/download/translated/MARCH17/vietnamese/BANDMATR.pdf?v=1) as well.
 
-[Bandwidth](https://en.wikipedia.org/wiki/Band_matrix#Bandwidth) of a matrix **A** is defined as the smallest non-negative integer **K** such that **A(i, j) = 0** for **|i - j| > K**.
+[Bandwidth](https://en.wikipedia.org/wiki/Band_matrix#Bandwidth) of a matrix **A** is defined as the smallest non-negative integer **K** such that **A(i, j) = 0** for **|i - j| &gt; K**.
 
 For example, a matrix with all zeros will have its bandwith equal to zero. Similarly bandwith of [diagonal matrix](https://en.wikipedia.org/wiki/Diagonal_matrix) will also be zero.
 

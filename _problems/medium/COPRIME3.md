@@ -73,7 +73,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME13/mandarin/COPRIME3.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME13/russian/COPRIME3.pdf).
 
-You are given a sequence **a1, a2, ..., aN**. Count the number of triples (**i, j, k**) such that 1 ≤ **i** < **j** < **k** ≤ **N** and GCD(**ai, aj, ak**) = 1. Here **GCD** stands for the Greatest Common Divisor.
+You are given a sequence **a1, a2, ..., aN**. Count the number of triples (**i, j, k**) such that 1 ≤ **i** &lt; **j** &lt; **k** ≤ **N** and GCD(**ai, aj, ak**) = 1. Here **GCD** stands for the Greatest Common Divisor.
 
 ### Input
 

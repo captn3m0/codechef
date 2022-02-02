@@ -21,7 +21,7 @@ An unparenthesized Boolean expression containing literals T and F which are conn
 
 ### Output
 
-Line 1: A single value C >= 0 representing the number of true parenthesizations possible.
+Line 1: A single value C &gt;= 0 representing the number of true parenthesizations possible.
 
 ### Example
 

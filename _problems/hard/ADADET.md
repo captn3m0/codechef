@@ -93,7 +93,7 @@ For each testcase print **n** integers: **ai**, the rightmost building shot at, 
 
 11. 1 ≤ **n** ≤ 105
 12. 1 ≤ **xi, hi** ≤ 106
-13. **xi** < **xi+1**, for all 1 ≤ **i** < n
+13. **xi** &lt; **xi+1**, for all 1 ≤ **i** &lt; n
 14. No two different buildings are of the same height
 15. The sum of **n** over all test cases is at most 5 \* 105
 ### Example

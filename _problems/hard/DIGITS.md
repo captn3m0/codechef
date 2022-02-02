@@ -15,7 +15,7 @@ The chef may be losing his mind. He has demanded you solve the following task: g
 
 ### Input:
 
-Input will begin with a positive integer T<=15, the number of test cases. T lines follow, each containing an integer P between 0 and 1000000006, inclusive.
+Input will begin with a positive integer T&lt;=15, the number of test cases. T lines follow, each containing an integer P between 0 and 1000000006, inclusive.
 
 ### Output:
 

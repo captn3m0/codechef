@@ -82,9 +82,9 @@ Find the type of doll that doesn't have a pair
 
 ### Constraints
 
-1<=T<=10 
-1<=N<=100000 (10^5) 
-1<=ti<=100000
+1&lt;=T&lt;=10 
+1&lt;=N&lt;=100000 (10^5) 
+1&lt;=ti&lt;=100000
 
 <pre><b>Input:</b>
 1

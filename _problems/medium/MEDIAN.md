@@ -69,7 +69,7 @@ layout: problem
 ---
 All submissions for this problem are available.Little Elephant from Zoo of Lviv likes medians so much. Let us define **median** term for some array **A**. Let **B** be the same array **A**, but sorted in non-decreasing order. Median of **A** is **Bm** (1-based indexing), where **m** equals to **(n div 2)+1**. Here **'div'** is an integer division operation. So, for a sorted array with 5 elements, median is the 3rd element and for a sorted array with 6 elements, it is the 4th element.
 
-Little Elephant has an array **A** with **n** integers. In one turn he can apply the following operation to any consecutive subarray **A\[l..r\]**: assign to all **Ai (l <= i <= r)** median of subarray **A\[l..r\]**.
+Little Elephant has an array **A** with **n** integers. In one turn he can apply the following operation to any consecutive subarray **A\[l..r\]**: assign to all **Ai (l &lt;= i &lt;= r)** median of subarray **A\[l..r\]**.
 
 Let **max** be the maximum integer of **A**. Little Elephant wants to know the minimum number of operations needed to change **A** to an array of **n** integers each with value **max**.
 
@@ -85,11 +85,11 @@ In **T** lines print the results for each test case, one per line.
 
 ### Constraints
 
-1 <= **T** <= 100
+1 &lt;= **T** &lt;= 100
 
-1 <= **n** <= 30
+1 &lt;= **n** &lt;= 30
 
-1 <= **A\[i\]** <= 10^9
+1 &lt;= **A\[i\]** &lt;= 10^9
 
 ### Example
 

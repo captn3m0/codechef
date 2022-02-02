@@ -110,7 +110,7 @@ For each test case, print the maximum possible cost among all correct decomposit
 
 - 1 ≤ **N** ≤ 200
 - 1 ≤ sum of **N** over all testcases ≤ 400
-- for each **i** (1 < **i** ≤ **N**), there is an edge connecting nodes **i** and **i-1**
+- for each **i** (1 &lt; **i** ≤ **N**), there is an edge connecting nodes **i** and **i-1**
 
 **Subtask #2 (35 points, time limit 1 second):**
 

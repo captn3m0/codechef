@@ -40,9 +40,9 @@ All submissions for this problem are available.f(x) and g(x) are two quadratic p
 
 - First line contains a single integer **T** - the total number of testcases.
 - Each testcase is described by 3 lines. 
-  - The first line contains 3 space-separated integers **A**, **B** and **C**.
-  - The second line contains 3 space-separated integers **D**, **E** and **F**.
-  - The third line contains 2 space-separated integers **L** and **R**.
+    - The first line contains 3 space-separated integers **A**, **B** and **C**.
+    - The second line contains 3 space-separated integers **D**, **E** and **F**.
+    - The third line contains 2 space-separated integers **L** and **R**.
  
 ### Output
 

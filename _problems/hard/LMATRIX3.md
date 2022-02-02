@@ -127,7 +127,7 @@ All subarrays are generated as follows:
 
 - Denote **Bi,j** as the **jth** element of the **ith** subarray.
 - **Bi,1 = Fi**
-- For each **1 < j ≤ Li**, **Bi,j = (Bi,j-1 \* Ci + Di) module P**
+- For each **1 &lt; j ≤ Li**, **Bi,j = (Bi,j-1 \* Ci + Di) module P**
 
 You can assume that **N = L1 + L2 + ... + LM**.
 
@@ -141,7 +141,7 @@ denoting the minimal number of the moves for erasing all non zero numbers from t
 - **1** ≤ **T** ≤ **100**
 - **1** ≤ **M** ≤ **100**
 - **1** ≤ **P** ≤ **10**
-- 0 ≤ **Fi**, **Ci**, **Di** < **P**
+- 0 ≤ **Fi**, **Ci**, **Di** &lt; **P**
 - **1** ≤ **Li** ≤ **1015**
 
 ### Example

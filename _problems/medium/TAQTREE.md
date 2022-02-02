@@ -77,14 +77,14 @@ The **i**th edge connecting node **ui** and **vi** has a weight of **wi**.
 Your target is to handle the queries of the following two types:
 
 - **"1 i c"** : Update the weight of **i**th edge with the new weight **c**.
-   (1 represents the query type).
+     (1 represents the query type).
 - **"2 u v"** : Find the length of the path from node **u** to **v**. (2 represents the query type).
 
 ### Input
 
 - The first line contains a single integer **N**.
 - Each of the next **N - 1** lines contains three integers **u v w**, representing an edge
-   between **u** and **v** with the weight of **w**.
+     between **u** and **v** with the weight of **w**.
 - The next line contains a single integer **Q** representing the number of queries
 - Each of the next **Q** lines contains three integers representing a query as described above.
 
@@ -96,7 +96,7 @@ Your target is to handle the queries of the following two types:
 
 **All test:**
 
-- **1** ≤ **i** < **N**
+- **1** ≤ **i** &lt; **N**
 - **1** ≤ **u, v** ≤ **N**; **u** ≠ **v**
 - **1** ≤ **w, c** ≤ **104**
 
@@ -128,5 +128,5 @@ Your target is to handle the queries of the following two types:
 </pre>
 ### Explanation
 
-The path from 5 to 3 is 5 -> 4 -> 2 -> 3. Initially this path has the length of 1 + 3 + 4 = 8.
+The path from 5 to 3 is 5 -&gt; 4 -&gt; 2 -&gt; 3. Initially this path has the length of 1 + 3 + 4 = 8.
 After the weight of the edge connect 4 and 2 was changed to 1, the new length of the path is 1 + 1 + 4 = 6.

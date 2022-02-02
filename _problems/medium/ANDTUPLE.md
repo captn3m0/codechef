@@ -73,7 +73,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME17/mandarin/ANDTUPLE.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME17/russian/ANDTUPLE.pdf).
 
-A pair of non-negative integers (A,B) is called *and-pair* if **A & B = B**, i.e., bitwise-and of A and B is equal to B. Similarly, a tuple of K non-negative integers (A1,A2,A3 .. AK) is called *and-tuple* if **Ai & Ai+1 = Ai+1** for 1≤i≤K-1.
+A pair of non-negative integers (A,B) is called *and-pair* if **A &amp; B = B**, i.e., bitwise-and of A and B is equal to B. Similarly, a tuple of K non-negative integers (A1,A2,A3 .. AK) is called *and-tuple* if **Ai &amp; Ai+1 = Ai+1** for 1≤i≤K-1.
 
 Given two integers **N** and **K**, how many *and-tuples* of size K exist such that the sum of the elements of the tuple is N?
 

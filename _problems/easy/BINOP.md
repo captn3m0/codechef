@@ -79,9 +79,9 @@ She purchases the string **A** and tries to convert it to string **B** by applyi
 **AND Operation:**
 She will choose a pair of indices **i** and **j** such that **i != j** and perform following sequence of operations.
 
-**1. result = Ai & Aj** 
-**1. Ai = result & Ai** 
-**1. Aj = result & Aj** 
+**1. result = Ai &amp; Aj** 
+**1. Ai = result &amp; Ai** 
+**1. Aj = result &amp; Aj** 
 **OR Operation:**
 She will choose a pair of indices **i** and **j** such that **i != j** and perform following sequence of operations.
 
@@ -119,8 +119,8 @@ For each test case, Print "Lucky Chef" (without quotes) in first line and minimu
 **1. sum of |B| over all test cases does not exceed 106** 
 ### Subtasks
 
-**1. Subtask #1 (40 points) : Sum of |A| & |B| over all test cases does not exceed 103** 
-**1. Subtask #2 (60 points) : Sum of |A| & |B| over all test cases does not exceed 106** 
+**1. Subtask #1 (40 points) : Sum of |A| &amp; |B| over all test cases does not exceed 103** 
+**1. Subtask #2 (60 points) : Sum of |A| &amp; |B| over all test cases does not exceed 106** 
 ### Example
 
 <pre>

@@ -109,20 +109,20 @@ The next contains **must** contain **K** different integers, **t1**, **t2** ... 
 There are several types of datasets:
 
 - Dataset #0: small network 
-  - **N** ≤ **20**
+    - **N** ≤ **20**
 - Dataset #1: smallish network 
-  - **N** ≤ **40**
+    - **N** ≤ **40**
 - Dataset #2: almost tree 
-  - **M** = **N**
+    - **M** = **N**
 - Dataset #3: close-enough tree 
-  - **M** ≤ **N + 3**
+    - **M** ≤ **N + 3**
 - Dataset #4: complete network 
-  - The network is a [complete graph](https://en.wikipedia.org/wiki/Complete_graph).
-  - **M** = **N \* (N - 1) ⁄ 2**
+    - The network is a [complete graph](https://en.wikipedia.org/wiki/Complete_graph).
+    - **M** = **N \* (N - 1) ⁄ 2**
 - Dataset #5: wheel network 
-  - The network is a [wheel graph](https://en.wikipedia.org/wiki/Wheel_graph).
+    - The network is a [wheel graph](https://en.wikipedia.org/wiki/Wheel_graph).
 - Dataset #6: random network 
-  - The network is a randomly generated graph.
+    - The network is a randomly generated graph.
 
 Distribution (20 tests):
 

@@ -29,8 +29,8 @@ The Government of Byteland has decide to issue new currency notes with special p
 
 ### Input
 
-First line will contain the number of test cases T (1<=T<=6666). 
- Each test case will have one line containing an integer N (<= 2^31-1).
+First line will contain the number of test cases T (1&lt;=T&lt;=6666). 
+ Each test case will have one line containing an integer N (&lt;= 2^31-1).
 
 ### Output
 

@@ -80,7 +80,7 @@ The first line contains 2 space-separated integers **N** and **M** - the total n
 
 **M** lines follow - each line contains 2 space-separated integers **u** and **v**, indicating that employee **u** is a friend of employee **v** and vice-versa.
 
-The employees are numbered from 1 to N, and each employee is assigned a distinct integer./>/>/>/>
+The employees are numbered from 1 to N, and each employee is assigned a distinct integer.
 
 ### Output
 
@@ -95,7 +95,6 @@ For each testcase, print the **minimum** number of employees to be informed on a
 1 ≤ **N** ≤ 4
 
 0 ≤ **M** ≤ N\*(N-1)/2
-/>/>/>/>
 
 **Subtask 2: 35 points**
 
@@ -104,7 +103,6 @@ For each testcase, print the **minimum** number of employees to be informed on a
 1 ≤ **N** ≤ 15
 
 0 ≤ **M** ≤ N\*(N-1)/2
-/>/>/>/>
 
 **Subtask 3: 60 points**
 
@@ -112,7 +110,7 @@ For each testcase, print the **minimum** number of employees to be informed on a
 
 1 ≤ **N** ≤ 20
 
-0 ≤ **M** ≤ N\*(N-1)/2/>/>/>
+0 ≤ **M** ≤ N\*(N-1)/2
 
 ### Example
 

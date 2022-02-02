@@ -71,7 +71,7 @@ All submissions for this problem are available.###  Read problems statements in 
 You are given a list of **M** positive numbers, **A0**, **A1**, ..., **AM-1**. You have to answer **Q** queries. Each query has four parameters, **l, r, n, k**. Given a query with parameters **l, r, n, k** here is how to compute the answer:
 
 - Let **(B1, B2 ..., Bd) = (Al, Al+1, ... ,Ar)**, where **d = r-l+1**.
-- Let **S** = set of all points **(x1, x2, ..., xd)** in **d**-dimensional space such that **0 < xi ≤ Bi**.
+- Let **S** = set of all points **(x1, x2, ..., xd)** in **d**-dimensional space such that **0 &lt; xi ≤ Bi**.
 - For **x, y ∈ S**, define **dist(x, y) = min1 ≤ i ≤ d | xi - yi |**
 - The answer is number of subsets of **S** of size exactly **n** such that distance (denoted by above defined **dist** function) between any two points is at least **k**.
 
@@ -88,8 +88,8 @@ For each query, output a single line containing the answer modulo **1000000007 (
 - **1** ≤ **M** ≤ **5 × 105**
 - **1** ≤ **Q** ≤ **3 × 105**
 - **1** ≤ **Ai** ≤ **105**
-- **∑ 0 ≤ i < M Ai** ≤ **3 × 106**
-- For each query, 0 ≤ **l** ≤ **r** < **M**
+- **∑ 0 ≤ i &lt; M Ai** ≤ **3 × 106**
+- For each query, 0 ≤ **l** ≤ **r** &lt; **M**
 - **1** ≤ **k** ≤ **105**
 - 0 ≤ **n** ≤ **105**
 

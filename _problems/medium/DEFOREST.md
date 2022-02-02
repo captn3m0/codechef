@@ -77,7 +77,7 @@ All submissions for this problem are available.The Chef has come to a forest. He
 
 Formally, you are given **N** trees on the X-axis. Tree **Ti** has height **Hi** and is planted at **x = xi**.
 
-You need to choose two trees **Ti** and **Tj** (where **xi** < **xj** and **Hi** < **Hj**) and connect the **tops** of these trees with a rope such that the following conditions are satisfied:
+You need to choose two trees **Ti** and **Tj** (where **xi** &lt; **xj** and **Hi** &lt; **Hj**) and connect the **tops** of these trees with a rope such that the following conditions are satisfied:
 
 - The angle between the rope and the X-axis is equal to **45** degrees.
 - The rope **does not pass** through any other trees.

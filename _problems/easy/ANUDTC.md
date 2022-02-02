@@ -77,7 +77,6 @@ Chef loves circular cakes. He divides them into smaller pieces and sells them. Y
 Today Chef has cooked the brand new circular cake. To split the cake Chef can make several (possibly, zero) cuts. Each cut should be a straight line going from the center of the cake to its border. Also, the angle between any two cuts should have positive integer value (Chef measure all the angles in degrees). Chef consider two pieces of cake equal if the appropriate angles are equal.
 
 ![](http://codechef.com/download/Sector_central_angle_arc.svg)
-/>
 
 The picture contains two distinct pieces, and two cuts. Red part on the image shows one piece. The appropriate angle is **AOB**.
 
@@ -86,9 +85,6 @@ Chef gives to you an integer **N**, denoting the number of pieces Chef wants to 
 - Is it possible to make exactly **N** equal pieces from the whole cake?
 - Is it possible to make exactly **N** pieces from the whole cake?
 - Is it possible to make exactly **N** pieces from the whole cake, in such a way that no two of them are equal?
-
-
-/>
 
 ### Input
 
@@ -131,4 +127,3 @@ Yes, you can cut 4 pieces each with 90 degrees angle.
 Is it possible to make **N** pieces, such that no two of them are equal?
 
 Yes, you can cut 4 pieces with angles 88, 89, 91, 92.
-/>/>/>/>/>/>/>

@@ -75,10 +75,10 @@ You are given a character parenthesis array and an integer array.
 
 You need to find the maximum sum sub-array in the integer array such that the corresponding sub-array in the character array has balanced parenthesis.
 
-Formally, a balanced parentheses is subset of **{** \[,\],{,},<,>,(,) **}**∗ defined recursively as follows:
+Formally, a balanced parentheses is subset of **{** \[,\],{,},&lt;,&gt;,(,) **}**∗ defined recursively as follows:
 
 - The empty string is balanced parentheses.
-- If A is balanced parentheses, then so are the strings \[A\], {A} , <A>, (A).
+- If A is balanced parentheses, then so are the strings \[A\], {A} , &lt;A&gt;, (A).
 - If A and B are balanced parenthesis, then so is the string AB.
 
 ### Input Format
@@ -97,7 +97,7 @@ For each test case, output the maximum sum obtained using the constraints above.
 - **1 ≤ **N** ≤ 105**
 - **1 ≤ **T** ≤ 105**
 - **1 ≤ Abs(value of the integer array) ≤ 109**
-- **Character array contains chars from this set: \[,\],{,},<,>,(,)**
+- **Character array contains chars from this set: \[,\],{,},&lt;,&gt;,(,)**
 
 <pre>
 <b>Sample Input</b>

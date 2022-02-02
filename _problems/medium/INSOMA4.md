@@ -27,11 +27,10 @@ APJQ Ravi
 APJRS Rahul
 
 PJQ Bharat
-/>/>/>/>
 
 The following observations hold:
 
-**APJQ Ravi** was of the same family as **APJ Rahul** but **PJQ Bharat** was not of the same family. />
+**APJQ Ravi** was of the same family as **APJ Rahul** but **PJQ Bharat** was not of the same family.
 
 The length of the ancestor list for Ravi and Rahul was 3 whereas Bharat has an ancestor length of 0 as there is no other member of his family living. However, if there existed a person named PJ Varun, Bharat and Varun would both have an ancestor list length of 2.
 
@@ -41,7 +40,7 @@ As a member of the Royal Court of Lapatrecta, you have been entrusted the task o
 
 Line 1: N – The number of people coming to the ball
 
-Line 2-N+1: The initials list of all the people coming to the ball. No initials list is longer than 100 characters. />
+Line 2-N+1: The initials list of all the people coming to the ball. No initials list is longer than 100 characters.
 
 ### Output
 

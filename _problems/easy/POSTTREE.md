@@ -111,7 +111,7 @@ Output a single line containing **N** integers, the i-th of which should be the 
 </pre>
 ### Explanation
 
-For example, take a look at the path from vertex 7: The path is 7 -> 8 -> 6 -> 5 -> 1.
+For example, take a look at the path from vertex 7: The path is 7 -&gt; 8 -&gt; 6 -&gt; 5 -&gt; 1.
 
 Cost(7) has no choice but to be **A7**. So Cost(7) = 70.
 

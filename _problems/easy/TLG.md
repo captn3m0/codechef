@@ -43,7 +43,7 @@ Your task is to help the Manager find the winner and the winning lead. You may a
 
 Input
 
-The first line of the input will contain a single integer N (N <= 10000) indicating the number of rounds in the game. Lines 2,3,...,N+1 describe the scores of the two players in the N rounds. Line i+1 contains two integer Si and Ti, the scores of the Player 1 and 2 respectively, in round i. You may assume that 1 <= Si <= 1000 and 1 <= Ti <= 1000.
+The first line of the input will contain a single integer N (N &lt;= 10000) indicating the number of rounds in the game. Lines 2,3,...,N+1 describe the scores of the two players in the N rounds. Line i+1 contains two integer Si and Ti, the scores of the Player 1 and 2 respectively, in round i. You may assume that 1 &lt;= Si &lt;= 1000 and 1 &lt;= Ti &lt;= 1000.
 
 Output
 

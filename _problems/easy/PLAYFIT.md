@@ -78,13 +78,13 @@ He wants to convince the coach and the manager that he's improved over time and 
 ### Input:
 
 The first line of the input contains a single integer T, the number of test cases. Each test case begins with a single integer N, the number of practice matches Rayne has played.
-The next line contains N integers. The ith integer, gi, on this line represents the number of goals Rayne scored in his ith practice match. The matches are given in chronological order i.e. j > i means match number j took place after match number i. ### Output:
+The next line contains N integers. The ith integer, gi, on this line represents the number of goals Rayne scored in his ith practice match. The matches are given in chronological order i.e. j &gt; i means match number j took place after match number i. ### Output:
 
 For each test case output a single line containing the maximum goal difference that Rayne can show to his coach and manager. If he's not fit yet, print "UNFIT". ### Constraints:
 
-1<=T<=10
-1<=N<=100000
-0<=gi<=1000000 (Well, Rayne's a legend! You can expect him to score so many goals!) ### Example:
+1&lt;=T&lt;=10
+1&lt;=N&lt;=100000
+0&lt;=gi&lt;=1000000 (Well, Rayne's a legend! You can expect him to score so many goals!) ### Example:
 
 **Input:**
 3

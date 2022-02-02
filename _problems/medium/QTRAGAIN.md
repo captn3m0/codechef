@@ -31,11 +31,11 @@ layout: problem
 All submissions for this problem are available.You have a rooted tree with **N** nodes which are numbered from 1 to **N**. It is rooted at node 1. Each node has a value associated with it, which is 0 initially. The distance between two nodes is the number of edges in the unique path between them. You need to support the following two operations:
 
 - Update operation at node **x** with value **y**: 
-  - Add 2**y** to node **x**.
-  - Consider every node in the subtree of **x**, and suppose d is distance from **x** to the node. If **y** - d ≥ 0, add 2(**y** - d) to the value associated with that node.
-  - Consider all the ancestors of **x**, and suppose d is distance from **x** to the ancestor. If **y** - d ≥ 0, add 2(**y** - d) to the value associated with that ancestor.
+    - Add 2**y** to node **x**.
+    - Consider every node in the subtree of **x**, and suppose d is distance from **x** to the node. If **y** - d ≥ 0, add 2(**y** - d) to the value associated with that node.
+    - Consider all the ancestors of **x**, and suppose d is distance from **x** to the ancestor. If **y** - d ≥ 0, add 2(**y** - d) to the value associated with that ancestor.
 - Query operation at node **x**: 
-  - Output the current value associated with node **x**, modulo 109 + 7.
+    - Output the current value associated with node **x**, modulo 109 + 7.
 
 ### Input
 
@@ -43,8 +43,8 @@ All submissions for this problem are available.You have a rooted tree with **N**
 - The first line of each test case contains two space-separated integers **N, Q** denoting the number of nodes, and the number of operations respectively.
 - Each of the next **N** - 1 lines contains two space-separated integers: **u**, **v**, denoting that there is an edge between nodes **u** and **v** in the tree.
 - Each of the next **Q** lines contain description of an operation, which will be of one of these formats: 
-  - Update operation: You will be given three space-separated integers: 1, **x**, **y**.
-  - Query operation: You will be given two space-separated integers: 2, **x**.
+    - Update operation: You will be given three space-separated integers: 1, **x**, **y**.
+    - Query operation: You will be given two space-separated integers: 2, **x**.
 
 ### Output
 

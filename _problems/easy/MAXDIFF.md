@@ -88,7 +88,7 @@ For each test case, output the maximum possible difference between the weights c
 ### Constraints:
 
 - **1 ≤ T ≤ 100**
-- **1 ≤ K < N ≤ 100**
+- **1 ≤ K &lt; N ≤ 100**
 - **1 ≤ Wi ≤ 100000 (105)**
 
 ### Example:

@@ -29,7 +29,7 @@ As an example, look at the figures below. The president's car is painted in yell
 
 The first line contains the number of test cases (about 10). Each test case has the following form.
 
-The first line contains three numbers M, N and K. M and N are the size of the board. K are the total number of cars and trucks. (6 <= M, N <= 12, 3 <= K <= 26)
+The first line contains three numbers M, N and K. M and N are the size of the board. K are the total number of cars and trucks. (6 &lt;= M, N &lt;= 12, 3 &lt;= K &lt;= 26)
 
 Each line in the next M lines contains N characters. Each character can be '.' or 'a'..'z'. '.' stands for an empty square. 'a'..'z' represents the ID of the car of truck that occupies the square. The president's car is always 'a'.
 

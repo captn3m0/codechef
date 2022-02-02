@@ -96,7 +96,7 @@ For each query, output the corresponding answer in single line.
 
 - **Subtask #1: (10 points)** **1** ≤ **N** ≤ **10**
 - **Subtask #2: (20 points)** **1** ≤ **N** ≤ **1000**
-- **Subtask #3: (70 points)** original constraints plus additionally 0 ≤ number of pairs **i, j (1 ≤ i i > Pj)** over all test cases ≤ **3\*106**
+- **Subtask #3: (70 points)** original constraints plus additionally 0 ≤ number of pairs **i, j (1 ≤ i i &gt; Pj)** over all test cases ≤ **3\*106**
 
 ### Example
 

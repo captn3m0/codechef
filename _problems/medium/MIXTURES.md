@@ -25,7 +25,7 @@ Find out what is the minimum amount of smoke that Harry can get when mixing all 
 
 There will be a number of test cases in the input.
 
-The first line of each test case will contain n, the number of mixtures, 1 <= n <= 100.
+The first line of each test case will contain n, the number of mixtures, 1 &lt;= n &lt;= 100.
 
 The second line will contain n integers between 0 and 99 - the initial colors of the mixtures.
 

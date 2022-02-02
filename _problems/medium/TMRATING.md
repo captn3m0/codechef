@@ -93,7 +93,7 @@ end-for
 Note: Take care of potential overflows in intermediate calculations in the equations mentioned above. The authors algorithm doesn't depend on the values of A B C D M, they are just used to generate some values. 
 ### Input
 
-First line contains 6 integers N M A B C D and the second line contains N integers, the initial ratings of N players in order ( 2 ≤ N, A, B, C, D ≤ 100,000 ; 0 ≤ V0\[i\] , M < 1,000,000,000 ; M ≥ 2 ). Next line contains Q ( number of queries 1 ≤ Q ≤ 100,000 ), followed by Q lines. The Kth line in this has the query number K, and has two integers qi qj ( 0 ≤ qi < qj < N ).
+First line contains 6 integers N M A B C D and the second line contains N integers, the initial ratings of N players in order ( 2 ≤ N, A, B, C, D ≤ 100,000 ; 0 ≤ V0\[i\] , M &lt; 1,000,000,000 ; M ≥ 2 ). Next line contains Q ( number of queries 1 ≤ Q ≤ 100,000 ), followed by Q lines. The Kth line in this has the query number K, and has two integers qi qj ( 0 ≤ qi &lt; qj &lt; N ).
 
 ### Output
 
@@ -122,19 +122,19 @@ For each query, output the top-2 maximum ratings R1 R2 ( R1 ≥ R2 ) in a new li
 
 V0 = { 1, 2, 3, 4, 5, 6 }
 
-1.) t = 0 --> top-2 max of V0\[0..5\] = 6 , 5
+1.) t = 0 --&gt; top-2 max of V0\[0..5\] = 6 , 5
 Updating V0\[2\] with 12
 V1 = { 1, 2, 12, 4, 5, 6 }
 
-2.) t = ( A(=2) \* R1(=6) + D(=2) ) % 2 = 0 --> top-2 max of V0\[0..3\] = 4 , 3
+2.) t = ( A(=2) \* R1(=6) + D(=2) ) % 2 = 0 --&gt; top-2 max of V0\[0..3\] = 4 , 3
 R1 = 4, R2 = 3
 Updating index = ( B(=2) \* R1(=4) + D(=2) ) % N(=6) = 4 with value = ( C(=2) \* R2(=3) + D(=2) ) % M(=1000) = 8
 V2 = { 1, 2, 12, 4, 8, 6 }
 
-3.) t = 1 --> top-2 max of V1\[1..3\] = 12 , 4
+3.) t = 1 --&gt; top-2 max of V1\[1..3\] = 12 , 4
 Updating V2\[2\] = 10
 V3 = { 1, 2, 10, 4, 8, 6 }
 
-4.) t = 2 --> top-2 max of V2\[2..5\] = 12 , 8
+4.) t = 2 --&gt; top-2 max of V2\[2..5\] = 12 , 8
 Updating V3\[2\] = 18
 V4 = { 1, 2, 18, 4, 8, 6 }

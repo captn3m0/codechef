@@ -69,7 +69,7 @@ time:
     current: 1493557499
 layout: problem
 ---
-All submissions for this problem are available.###  Read problems statements in Mandarin Chinese [here](http://www.codechef.com/download/translated/OCT13/mandarin/CAOS3.pdf )
+All submissions for this problem are available.###  Read problems statements in Mandarin Chinese [here](<http://www.codechef.com/download/translated/OCT13/mandarin/CAOS3.pdf >)
 
 ### Problem Statement
 

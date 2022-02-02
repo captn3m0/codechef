@@ -17,7 +17,7 @@ The chef has turned into an entrepreneur running a bakery business. He is sellin
 
 There are 10 different products which will be packaged in maximum 3 different sizes. There are 10 different provinces and each province can have upto 20 cities which can be further divided in at maximum 5 different regions.
 
- The first line of the input contains the total number S (<= 100000) of input lines. Each input line either begins with character 'I' (which stands for sale input)or 'Q' (which stands for query). The format of sale input is 
+ The first line of the input contains the total number S (&lt;= 100000) of input lines. Each input line either begins with character 'I' (which stands for sale input)or 'Q' (which stands for query). The format of sale input is 
 
  **I product\_id\[.size\_id\] province\[.city\_id\[.region\_id\]\] M/F age units\_sold**
 

@@ -24,7 +24,7 @@ Given the initial number of idlis served to each student, find the number of tim
 
 ### Input
 
-First line contains an integer T ( number of test cases, around 20 ). T cases follows. Each case starts with an integer N ( 1 <= N <= 3000 ). Next line contains an array A of N integers separated by spaces, the initial number of idlis served ( 0 <= A\[i\] <= N )
+First line contains an integer T ( number of test cases, around 20 ). T cases follows. Each case starts with an integer N ( 1 &lt;= N &lt;= 3000 ). Next line contains an array A of N integers separated by spaces, the initial number of idlis served ( 0 &lt;= A\[i\] &lt;= N )
 
 ### Output
 
@@ -51,8 +51,8 @@ For each case, output the number of times Dexter has to repeat the given step to
 
 Case 1 : { 1, 2, 2, 3}. Maximum 3, Minimum 1. R = ceil((3-1)/2) = 1. Transfer 1 idli from person having 3 idlis to the person having 1 idli. Each of them has 2 idlis now, so just 1 step is enough.
 
-Case 2 : {1,2} R = ceil((2-1)/2) = 1. {1,2} -> {2,1} -> {1,2} .... they can never get equal idlis :(
+Case 2 : {1,2} R = ceil((2-1)/2) = 1. {1,2} -&gt; {2,1} -&gt; {1,2} .... they can never get equal idlis :(
 
-Case 3 : Sorted arrays, in the order encountered {1, 2, 3, 4, 5, 6, 7} -> {2, 3, 4, 4, 4, 5, 6} -> {3, 4, 4, 4, 4, 4, 5} -> {4, 4, 4, 4, 4, 4, 4} 
+Case 3 : Sorted arrays, in the order encountered {1, 2, 3, 4, 5, 6, 7} -&gt; {2, 3, 4, 4, 4, 5, 6} -&gt; {3, 4, 4, 4, 4, 4, 5} -&gt; {4, 4, 4, 4, 4, 4, 4} 
 
 ***Note**There are multiple test sets, and the judge shows the sum of the time taken over all test sets of your submission, if Accepted. Time limit on each test set is 3 sec*

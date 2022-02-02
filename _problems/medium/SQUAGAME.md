@@ -19,8 +19,8 @@ The first line of input contains t - the number of test cases. Each test case st
 
 ### Constraints
 
-1 <= t <= 10
-1 <= n <= 50000
+1 &lt;= t &lt;= 10
+1 &lt;= n &lt;= 50000
 The total number of squares over all test cases in one file won't exceed 250000.
 x, y won't exceed 108 in absolute value. a will be positive and less than 108.
 

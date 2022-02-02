@@ -85,13 +85,13 @@ Output **T** lines, each containing a single real number - answer for the corres
 
 ### Constraints
 
-1 <= **T** <= 10
+1 &lt;= **T** &lt;= 10
 
-1 <= **n** <= 50
+1 &lt;= **n** &lt;= 50
 
-1 <= **Ai, Bi** <= 16
+1 &lt;= **Ai, Bi** &lt;= 16
 
-0 <= **Pi** <= 100
+0 &lt;= **Pi** &lt;= 100
 
 ### Example
 

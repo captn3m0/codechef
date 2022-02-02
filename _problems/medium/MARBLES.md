@@ -19,7 +19,7 @@ Assume that marbles of equal color can't be distinguished, and the order of the 
 ### Input
 
 
-The first line of input contains a number T <= 100 that indicates the number of test cases to follow. Each test case consists of one line containing n and k, where n is the number of marbles Rohit selects and k is the number of different colors of the marbles. You can assume that 1<=k<=n<=1000000.
+The first line of input contains a number T &lt;= 100 that indicates the number of test cases to follow. Each test case consists of one line containing n and k, where n is the number of marbles Rohit selects and k is the number of different colors of the marbles. You can assume that 1&lt;=k&lt;=n&lt;=1000000.
 
 ### Output
 

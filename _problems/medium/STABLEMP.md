@@ -15,7 +15,7 @@ There are given *n* men and *n* women. Each woman ranks all men in order of her 
 
 ### Input
 
-The first line contains a positive integer *t*<=100 indicating the number of test cases. Each test case is an instance of the stable marriage problem defined above. The first line of each test case is a positive integer *n*<=500 (the number of marriages to find). The next *n* lines are the woman's preferences: *i*th line contains the number *i* (which means that this is the list given by the *i*th woman) and the numbers of men (the first choice of *i*th woman, the second choice,...). Then, the men's preferences follow in the same format.
+The first line contains a positive integer *t*&lt;=100 indicating the number of test cases. Each test case is an instance of the stable marriage problem defined above. The first line of each test case is a positive integer *n*&lt;=500 (the number of marriages to find). The next *n* lines are the woman's preferences: *i*th line contains the number *i* (which means that this is the list given by the *i*th woman) and the numbers of men (the first choice of *i*th woman, the second choice,...). Then, the men's preferences follow in the same format.
 
 ### Output
 

@@ -81,7 +81,7 @@ The first line has an integer **N**. Each of the following **N** lines has two i
 1 ≤ **Q** ≤ 5000 (5 · 103)
 1 ≤ **K** ≤ 20
 1 ≤ **S***i*, **E***i*, **t** ≤ 1000000000 (109)
-**S***i* < **E***i*
+**S***i* &lt; **E***i*
 
 ### Output
 

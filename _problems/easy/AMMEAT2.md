@@ -72,7 +72,7 @@ Andrew likes meatballs very much as you know.
 
 He has **N** plates of meatballs, here the **i**th plate contains exactly **i** meatballs. Andrew wants to take exactly **K** plates to his trip to Las Vegas.
 
-On this occasion, he wants to choose the **K** plates by a strange way: if both **i**th and **j**th plates are chosen, then **i** and **j** must not be [relative prime](http://en.wikipedia.org/wiki/Coprime_integers), for all **1 ≤ i < j ≤ N**.
+On this occasion, he wants to choose the **K** plates by a strange way: if both **i**th and **j**th plates are chosen, then **i** and **j** must not be [relative prime](http://en.wikipedia.org/wiki/Coprime_integers), for all **1 ≤ i &lt; j ≤ N**.
 
 Please help him to choose **K** plates. Output one of the possible choices.
 

@@ -76,12 +76,10 @@ First line of input contains a single integer **T**, the number of test cases.
 
 Each test starts with a line containing a single integer **N**.
  The next line consists of **N** space separated integers (**Ai**).
-/>/>/>
 
 ### Output:
 
 For each test case, output on a separate line the total number of factors of the product of given numbers.
-/>
 
 ### Constraints:
 
@@ -120,4 +118,3 @@ You will be awarded **40** points for correctly solving for **Ai** ≤ 100.
 You will be awarded another **30** points for correctly solving for **Ai** ≤ 10000.
 
 The remaining **30** points will be awarded for correctly solving for **Ai** ≤ 1000000.
-/>/>/>

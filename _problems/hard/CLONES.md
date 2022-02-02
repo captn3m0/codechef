@@ -11,7 +11,7 @@ layout: problem
 ---
 ###  All submissions for this problem are available. 
 
-A boolean function is a function of the form f: Bn -> B, where B = {0, 1} and n is a non-negative integer called the arity of the function. Some Boolean functions are projections: pnk(x1, ..., xn) = xk. And given an m-ary function f, and n-ary functions g1, ..., gm, we can construct another n-ary function: h(x1, ..., xn) = f(g1(x1, ..., xn), ..., gm(x1, ..., xn)), called their composition. A set of functions closed under composition and containing all projections is called a clone. One trivial clone is a set of all boolean functions. Some of the special clones are:
+A boolean function is a function of the form f: Bn -&gt; B, where B = {0, 1} and n is a non-negative integer called the arity of the function. Some Boolean functions are projections: pnk(x1, ..., xn) = xk. And given an m-ary function f, and n-ary functions g1, ..., gm, we can construct another n-ary function: h(x1, ..., xn) = f(g1(x1, ..., xn), ..., gm(x1, ..., xn)), called their composition. A set of functions closed under composition and containing all projections is called a clone. One trivial clone is a set of all boolean functions. Some of the special clones are:
 
 - Z is a set of 0-preserving functions: f(0, ..., 0) = 0;
 - P is a set of 1-preserving functions: f(1, ..., 1) = 1;
@@ -26,8 +26,8 @@ The first line of the input file contains n - the arity of the boolean functions
 
 ### Constraints
 
-1 <= n <= 100
-1 <= q <= 100
+1 &lt;= n &lt;= 100
+1 &lt;= q &lt;= 100
 The length of each expression won't exceed 100 characters.
 
 ### Output

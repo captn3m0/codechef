@@ -74,7 +74,7 @@ All submissions for this problem are available.###  Read problems statements in 
 Chef has an array containing **N** integers. You have to make **M** queries. Each query has one of the two types:
 
 - **1 l r p** - Select all the numbers having indices between **l** and **r** (inclusive) that are divisible by **p** and divide them by **p**,
-   where **p** is in set {2, 3, 5}.
+     where **p** is in set {2, 3, 5}.
 - **2 l d** - Modify the **l**-th number in the array to **d**.
 
 Please help Chef in finding out the array after all the **M** queries.

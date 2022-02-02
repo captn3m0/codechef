@@ -109,7 +109,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 1 ≤ **Q** ≤ 500,000(5 × 105);
 
-0 ≤ **X'**, **Y'**, **N'** < 231 for each query;
+0 ≤ **X'**, **Y'**, **N'** &lt; 231 for each query;
 
 0 ≤ **X**, **Y** ≤ 109 for each query.
 

@@ -93,15 +93,15 @@ For each of the **T** test cases, output a single line - the minimum time to plu
 
 ### Constraints
 
-- 1 <= **T** <= 10
-- 1 <= **N** <= 105
-- 1 <= Number of apples on a tree <= 105
+- 1 &lt;= **T** &lt;= 10
+- 1 &lt;= **N** &lt;= 105
+- 1 &lt;= Number of apples on a tree &lt;= 105
 
 ### Scoring
 
-- Subtask 1 : 1 <= **T** <= 10 , 1 <= **N** <= 103:  **(27 pts)**
-- Subtask 2 : 1 <= **T** <= 10 , 1 <= **N** <= 104:  **(25 pts)**
-- Subtask 3 : 1 <= **T** <= 10 , 1 <= **N** <= 105:  **(48 pts)**
+- Subtask 1 : 1 &lt;= **T** &lt;= 10 , 1 &lt;= **N** &lt;= 103:  **(27 pts)**
+- Subtask 2 : 1 &lt;= **T** &lt;= 10 , 1 &lt;= **N** &lt;= 104:  **(25 pts)**
+- Subtask 3 : 1 &lt;= **T** &lt;= 10 , 1 &lt;= **N** &lt;= 105:  **(48 pts)**
 
 ### Example
 

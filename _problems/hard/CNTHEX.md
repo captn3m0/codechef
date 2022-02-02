@@ -21,7 +21,7 @@ Dexter wants to make a hexagon by using six sticks for sides from a collection o
 
 ### Input
 
-Input contains four integers **N( 2 <= N <= 10^9)** , **L ( 2 <= L <= N** and **N-L<=100)** ,  **X( 1<=X< L )** and **K ( 1 <= K <= 5)** .
+Input contains four integers **N( 2 &lt;= N &lt;= 10^9)** , **L ( 2 &lt;= L &lt;= N** and **N-L&lt;=100)** ,  **X( 1&lt;=X&lt; L )** and **K ( 1 &lt;= K &lt;= 5)** .
 
 ### Output
 

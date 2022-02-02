@@ -13,7 +13,7 @@ layout: problem
 
 Code and Chef play a game on the set of all points with positive integer coordinates of the usual coordinate plane. Initially the lame queen stands in the point with coordinates **(x0, y0)** or shortly: in the point **(x0, y0)**. Players alternate moves. **Code moves first.** During each move the player can move the queen from the point **(x, y)** to the point **(x - a, y)**, **(x, y - a)** or **(x - a, y - a)** for some positive integer **a**, provided that the new point has positive coordinates. But since the queen is lame she possibly can't make all diagonal moves. Namely she can move from the point **(x, y)** to the point **(x - a, y - a)** only if **a** is divisible by **d**, where **d** is some positive integer that is called the queen lameness. So if **d = 2** the queen can move diagonally from the point **(x, y)** only to the points **(x - 2, y - 2), (x - 4, y - 4), (x - 6, y - 6)** and so on. However if **d = 1** then the queen becomes the usual chess queen.  **The first player who can't make a valid move loses the game.**  Both players play optimally in their respective moves. 
 
- After playing this game for some time Chef realizes that he loses almost always. Now he wants to know what is the probability that he wins if initial point **(x0, y0)** is chosen randomly from the rectangle **x1 <= x0 <= x2, y1 <= y0 <= y2**. But I should warn that he wants to know this for a large number of rectangles.
+ After playing this game for some time Chef realizes that he loses almost always. Now he wants to know what is the probability that he wins if initial point **(x0, y0)** is chosen randomly from the rectangle **x1 &lt;= x0 &lt;= x2, y1 &lt;= y0 &lt;= y2**. But I should warn that he wants to know this for a large number of rectangles.
 
 ### Input
 
@@ -25,10 +25,10 @@ For each rectangle from the input file, output a single line containing the prob
 
 ### Constraints
 
- **1 <= d <= 20 
- 1 <= T <= 100000 
- 1 <= x1 <= x2 <= 200000 
- 1 <= y1 <= y2 <= 200000**
+ **1 &lt;= d &lt;= 20 
+ 1 &lt;= T &lt;= 100000 
+ 1 &lt;= x1 &lt;= x2 &lt;= 200000 
+ 1 &lt;= y1 &lt;= y2 &lt;= 200000**
 
 ### Example
 

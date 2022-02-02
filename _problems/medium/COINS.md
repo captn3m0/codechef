@@ -21,7 +21,7 @@ You have one gold coin. What is the maximum amount of American dollars you can g
 
 ### Input
 
-The input will contain several test cases (not more than 10). Each testcase is a single line with a number n, 0 <= n <= 1 000 000 000. It is the number written on your coin.
+The input will contain several test cases (not more than 10). Each testcase is a single line with a number n, 0 &lt;= n &lt;= 1 000 000 000. It is the number written on your coin.
 
 ### Output
 

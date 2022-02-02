@@ -90,8 +90,8 @@ For each rectangle, output a single line containing the number of ways, modulo 1
 
 1 ≤ **R** ≤ 10
  2 ≤ **Ni**, **Mi** ≤ 400,000
-1 ≤ **Ai** < **Ni**
-1 ≤ **Bi** < **Mi**
+1 ≤ **Ai** &lt; **Ni**
+1 ≤ **Bi** &lt; **Mi**
 
 ### Example
 

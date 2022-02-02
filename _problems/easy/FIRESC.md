@@ -94,7 +94,7 @@ For each test case, output a single line containing two space separated integers
 - 0 ≤ **M** ≤ **100000** (**105**)
 - **1** ≤ **i**, **j** ≤ **N**
 - **i** ≠ **j**
-- For any pair of employees ***i*** and ***j*** such that **1** ≤ **i** < **j** ≤ **N**, at most one pair among (**i**, **j**) and (**j**, **i**) will appear in the input
+- For any pair of employees ***i*** and ***j*** such that **1** ≤ **i** &lt; **j** ≤ **N**, at most one pair among (**i**, **j**) and (**j**, **i**) will appear in the input
 
 ### Example
 
@@ -125,4 +125,4 @@ For each test case, output a single line containing two space separated integers
 **Example case 2.** Here the optimal distribution of employees by routes is {1, 2, 3}, {4}, {5}. Therefore, there are 3 ways to chose drill captains: (1, 4, 5), (2, 4, 5), (3, 4, 5).
 
 **Example case 3.** Here the optimal distribution of employees by routes is {1, 2}, {3, 4}, {5, 6}. Therefore, there are 8 ways to chose drill captains:
- (1, 3, 5), (1, 3, 6), (1, 4, 5), (1, 4, 6), (2, 3, 5), (2, 3, 6), (2, 4, 5), (2, 4, 6)./>
+ (1, 3, 5), (1, 3, 6), (1, 4, 5), (1, 4, 6), (2, 3, 5), (2, 3, 6), (2, 4, 5), (2, 4, 6).

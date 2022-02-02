@@ -79,7 +79,7 @@ Mathison has bought a new deck of cards that contains 2**N** cards, numbered and
 
 Mathison is getting bored and decides to learn the [Dynamo shuffle](https://www.youtube.com/watch?v=8T9yeV9oT2o) (or Sybil cut) - a flashy manner to shuffle cards. Unfortunately, the Dynamo shuffle is a little too complicated so Mathison decides to create his own shuffle.
 
- This newly invented shuffle is done in **N** steps. At step k (0 ≤ k < **N**) the deck is divided into 2k equal-sized decks where each one contains cards that lie on consecutive positions. Each one of those decks is then reordered: all the cards that lie on even positions are placed first followed by all cards that lie on odd positions (the order is preserved in each one of the two subsequences and all positions are 0-based). Then all the decks are put back together (preserving the order of decks).
+ This newly invented shuffle is done in **N** steps. At step k (0 ≤ k &lt; **N**) the deck is divided into 2k equal-sized decks where each one contains cards that lie on consecutive positions. Each one of those decks is then reordered: all the cards that lie on even positions are placed first followed by all cards that lie on odd positions (the order is preserved in each one of the two subsequences and all positions are 0-based). Then all the decks are put back together (preserving the order of decks).
 
  Mathison has spent hours practising the shuffle and he now believes that he has perfected his technique. However, Chef doesn't believe him yet so he asks Mathison to answer **Q** questions that given a deck of size 2**N** where i-th card is labelled i, find the position of the card labelled **K** in the final, shuffled deck.
 
@@ -97,7 +97,7 @@ The output file will contain **Q** lines, each one representing the answer to on
 
 - 1 ≤ **Q** ≤ 1000
 - 1 ≤ **N** ≤ 64
-- 0 ≤ **K** < 2**N**
+- 0 ≤ **K** &lt; 2**N**
 
 ### Subtaks
 

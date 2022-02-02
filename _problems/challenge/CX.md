@@ -138,7 +138,7 @@ First output the number of pieces used, k 6. Then write k successive description
 </pre>
 ### Scoring
 
-For each square you will receive a penalty, calculated in the following way: Let a be the number a square should be covered by (either 0 or 1), and let b be the actual number *of times* the square has been covered by a # piece (pieces **may overlap**). If a > b (the square should have been covered, but was not), the penalty is **3**. If b > a (the square should not have be covered and was covered, or should have been covered, but was covered more than once), the penalty is **b-a**. The total penalty is the sum of individual penalties, taken over all squares.
+For each square you will receive a penalty, calculated in the following way: Let a be the number a square should be covered by (either 0 or 1), and let b be the actual number *of times* the square has been covered by a # piece (pieces **may overlap**). If a &gt; b (the square should have been covered, but was not), the penalty is **3**. If b &gt; a (the square should not have be covered and was covered, or should have been covered, but was covered more than once), the penalty is **b-a**. The total penalty is the sum of individual penalties, taken over all squares.
 
 In the example the penalty is 3+3+1+1 = 8.
 

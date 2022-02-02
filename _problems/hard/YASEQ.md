@@ -13,7 +13,7 @@ layout: problem
 
 You are given the first N terms of a sequence. The remaining terms of the sequence are defined as follows:
 
-> A \[ i \] = number of j such that 0 ≤ j < i and A\[ j \] ≥ i - j
+> A \[ i \] = number of j such that 0 ≤ j &lt; i and A\[ j \] ≥ i - j
 
 The sequence is indexed starting at 0. The first N terms of the sequence will each be equal to N-1, N, or N+1. In addition to the first terms of the sequence, you will be given a number of queries. For each query you are to calculate the value of the sequence at that index.
 
@@ -50,8 +50,8 @@ For each test case, output Q integers on a line, one per query, indicating the r
 ### Constraints
 
 - T≤100
-- 0<N≤100000
-- 0<Q≤100000
+- 0&lt;N≤100000
+- 0&lt;Q≤100000
 - Each query will be between 0 and 10^15, inclusive
 - The sum of N+Q over all test cases will not exceed 500000
 

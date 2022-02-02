@@ -16,7 +16,7 @@ A positive rational number is a real number which can be expressed as P/Q where 
 
 ### Input
 
-The first line contain a single integer T, the number of test cases. Following T (<= 1000) lines will contain a test case, a single number N (<= 1000000).
+The first line contain a single integer T, the number of test cases. Following T (&lt;= 1000) lines will contain a test case, a single number N (&lt;= 1000000).
 
 
 ### Output

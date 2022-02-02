@@ -23,9 +23,9 @@ m a1 a2 ... am
 
 ### **Limits**
 
-1 <= m <= 15
-0 <= ai < 260
-1 <= TC <= 1000
+1 &lt;= m &lt;= 15
+0 &lt;= ai &lt; 260
+1 &lt;= TC &lt;= 1000
 
 ### Output
 

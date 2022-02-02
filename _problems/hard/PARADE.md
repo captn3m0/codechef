@@ -117,5 +117,5 @@ Output **K** lines: each line contain an integer, corresponding to the minimal c
 
 **Explanation**
 In the first year, since **C** is very small, an optimal solution is: no hero travel, we pay 1 dollar for each city as compensate. 
-In the second year, an optimal solution is: One hero traveling in the path: 1->3->4->5. We pay 2+2+2=6 dollars for the roads, 5 dollars for taking him back to city 1, and pay 5 dollars for city 2 and 6 as compensate. 
-In the third year, one optimal solution is: One hero traveling in the path: 1->3->4->5, and another hero traveling in the path: 2->3->4->6.
+In the second year, an optimal solution is: One hero traveling in the path: 1-&gt;3-&gt;4-&gt;5. We pay 2+2+2=6 dollars for the roads, 5 dollars for taking him back to city 1, and pay 5 dollars for city 2 and 6 as compensate. 
+In the third year, one optimal solution is: One hero traveling in the path: 1-&gt;3-&gt;4-&gt;5, and another hero traveling in the path: 2-&gt;3-&gt;4-&gt;6.

@@ -70,20 +70,14 @@ layout: problem
 ---
 All submissions for this problem are available.It's finally summer in Chefland! So our chef is looking forward to prepare some of the best "beat-the-heat" dishes to attract more customers. He summons the Wizard of Dessert to help him with one such dish.
 
- The wizard provides the chef with a sequence of **N** ingredients where the **ith** ingredient has a delish value of **D\[i\]**. The preparation of the dish takes place in two phases. 
+ The wizard provides the chef with a sequence of **N** ingredients where the **ith** ingredient has a delish value of **D\[i\]**. The preparation of the dish takes place in two phases.
 
-/>/>
-
-**Phase 1 :** The chef chooses two indices **i** and **j** and adds the ingredients **i, i+1, ..., j** to his dish. He also finds the sum of the delish value in this range i.e **D\[i\] + D\[i+1\] + ... + D\[j\]**. 
-
- />/>
+**Phase 1 :** The chef chooses two indices **i** and **j** and adds the ingredients **i, i+1, ..., j** to his dish. He also finds the sum of the delish value in this range i.e **D\[i\] + D\[i+1\] + ... + D\[j\]**.
 
 **Phase 2 :** The chef chooses two more indices **k** and **l** and adds the ingredients **k, k+1, ..., l** to his dish. He also finds the sum of the delish value in this range i.e **D\[k\] + D\[k+1\] + ... + D\[l\]**. 
  
 
-Note that **1** ≤ **i** ≤ **j** < **k** ≤ **l** ≤ **N**. 
-
-/>/>/>/>
+Note that **1** ≤ **i** ≤ **j** &lt; **k** ≤ **l** ≤ **N**.
 
 The total delish value of the dish is determined by the absolute difference between the values obtained in the two phases. Obviously, the chef wants to maximize the total delish value for his dish. So, he hires you to help him.
 
@@ -120,10 +114,10 @@ Print the maximum delish value of the dish that the chef can get.
 
 Chef can choose **i = j = 1, k = 2, l = 5**.
 
-The delish value hence obtained is  **| (2+3+4+5) − (1) | = 13** . />/>
+The delish value hence obtained is  **| (2+3+4+5) − (1) | = 13** .
 
 **Example case 2.**
 
  Chef can choose **i = 1, j = 2, k = 3, l = 4**.
 
-The delish value hence obtained is  **| ( ( −1 ) + ( −1 ) ) − ( 1 + 1 ) | = 4** ./>/>
+The delish value hence obtained is  **| ( ( −1 ) + ( −1 ) ) − ( 1 + 1 ) | = 4** .

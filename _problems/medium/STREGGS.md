@@ -23,9 +23,9 @@ For each test case, print the minimal number of taps for the worst-case.
 
 ### Constraints
 
-1 <= **T** <= 10
- 1 <= **K** <= **N** <= 500
- 1 <= **Ai** <= 1000000 (106)
+1 &lt;= **T** &lt;= 10
+ 1 &lt;= **K** &lt;= **N** &lt;= 500
+ 1 &lt;= **Ai** &lt;= 1000000 (106)
 
 ### Sample Input
 

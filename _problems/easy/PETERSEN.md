@@ -76,7 +76,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
  ![](//www.codechef.com//download/Petersen1tinysvg.png)
 
- Let's consider a walk **W** in graph **G**, which consists of **L** vertices **W1**, **W2**, ..., **WL**, such that **Wi** is connected with **Wi + 1** for 1 ≤ **i** < **L**. A string **S** of **L** letters **'A'-'E'** is realized by walk **W** if the sequence of letters written along **W** is equal to **S**. Vertices can be visited multiple times while walking along **W**.
+ Let's consider a walk **W** in graph **G**, which consists of **L** vertices **W1**, **W2**, ..., **WL**, such that **Wi** is connected with **Wi + 1** for 1 ≤ **i** &lt; **L**. A string **S** of **L** letters **'A'-'E'** is realized by walk **W** if the sequence of letters written along **W** is equal to **S**. Vertices can be visited multiple times while walking along **W**.
 
 For example, **S** = **'ABBECCD'** is realized by **W** = (0, 1, 6, 9, 7, 2, 3).
 

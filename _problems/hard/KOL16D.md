@@ -32,11 +32,11 @@ All submissions for this problem are available.There are **nm** men living in a 
 
 ### Constraints
 
-- d (0 < d ≤ 10000)
-- nm (1 < nm ≤ 1000)
-- nh (0 < nh ≤ 1000)
-- vm (0 < vm ≤ 20)
-- vh (0 < vh ≤ 50)
+- d (0 &lt; d ≤ 10000)
+- nm (1 &lt; nm ≤ 1000)
+- nh (0 &lt; nh ≤ 1000)
+- vm (0 &lt; vm ≤ 20)
+- vh (0 &lt; vh ≤ 50)
 
 ### Input
 

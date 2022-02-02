@@ -102,13 +102,13 @@ All submissions for this problem are available.### Read problems statements in [
 - **5** ≤ **N** ≤ **100000**
 - sum of **N** in all test cases ≤ **600000**
 - **si** can only be one of the following strings: 
-  - "cakewalk"
-  - "simple"
-  - "easy"
-  - "easy-medium"
-  - "medium"
-  - "medium-hard"
-  - "hard"
+    - "cakewalk"
+    - "simple"
+    - "easy"
+    - "easy-medium"
+    - "medium"
+    - "medium-hard"
+    - "hard"
 
  Subtask #1 (11 points):
 

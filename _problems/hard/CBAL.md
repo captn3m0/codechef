@@ -73,7 +73,7 @@ layout: problem
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MAY15/mandarin/CBAL.pdf) and [Russian](http://www.codechef.com/download/translated/MAY15/russian/CBAL.pdf).
 
 Chef Smurf likes strings a lot but he likes balanced strings more. Smurf calls a string **S** a balanced string if and only if characters of strings **S** can be partitioned into two multi-sets **M1** and **M2** such that **M1 = M2**.
-**For eg :** Strings such as **aabbcc**, **abcabc** , **baccba** , **abccba** are all balanced strings as their characters can be partitioned into two multi-sets **M1** and **M2** such that **M1 = M2 = {a,b,c}**  whereas strings such as **aba**, **abc** , **abcdef**, **blablah** are not balanced strings./>
+**For eg :** Strings such as **aabbcc**, **abcabc** , **baccba** , **abccba** are all balanced strings as their characters can be partitioned into two multi-sets **M1** and **M2** such that **M1 = M2 = {a,b,c}**  whereas strings such as **aba**, **abc** , **abcdef**, **blablah** are not balanced strings.
 
 Today, Smurf found a special string **P** consisting of **N** lower case Latin letters. Smurf wants to make some queries about his string **P**.
 
@@ -81,9 +81,9 @@ Each of Smurf's query consists of **3** integers **L R type**. For a given query
 
  ![](https://s3.amazonaws.com/codechef_shared/download/CBAL/4.png)
 
-For all **Ts,e**, where **Ts,e** is balanced string such that starting index **s** and ending index **e** of a chosen string **Ts,e** satisfies **L ≤ s < e ≤ R.**
+For all **Ts,e**, where **Ts,e** is balanced string such that starting index **s** and ending index **e** of a chosen string **Ts,e** satisfies **L ≤ s &lt; e ≤ R.**
 
-**Note :** **|Ts,e|** denotes the length of string **Ts,e**.
+**Note : |Ts,e|** denotes the length of string **Ts,e**.
 
 Just to make this problem little bit more interesting, given input is encoded. Instead of **L** and **R** in each query, you will be provided with two integers **X** and **Y**. Two keys **A** and **B** are used to decode the given input.
 
@@ -114,9 +114,6 @@ void decode(){
 
 </pre>
 
-
-/>
-
 Smurf cannot accomplish this task alone. Can you help him ?
 
 ### Input
@@ -136,7 +133,7 @@ Two substrings **Ts1,e1** and **Ts2,e2** are considered to be different if eithe
 - **1 ≤ T ≤ 105.**
 - **1 ≤ |P| ≤ 105.**
 - **1 ≤ Q ≤ 105.**
-- **0 ≤ X,Y < |P|.**
+- **0 ≤ X,Y &lt; |P|.**
 - **type = { 0 , 1 , 2 }.**
 - **sum of N over all test cases i.e SN does not exceed 105.**
 - **sum of Q over all test cases i.e SQ does not exceed 105.**
@@ -181,7 +178,7 @@ cchheeff
 1 6 2
 1 8 0
 2 4 2
-<p>Q1 : "cc" is the only balanced string. Type = 0 and therefore answer = 1.<br></br>Q2 : "cc" , "hh" , "cchh" are the only balanced strings. Type = 1 and therefore answer = 2 + 2 + 4 = 8.<br></br>Q3 : "cc" , "hh" , "ee" , "cchh" , "hhee" , "cchhee" are the only balanced strings. Type = 2 and therefore answer = 2<sup>2</sup> + 2<sup>2</sup> + 2<sup>2</sup> + 4<sup>2</sup> + 4<sup>2</sup> + 6<sup>2</sup>= 80./>/></p>
+<p>Q1 : "cc" is the only balanced string. Type = 0 and therefore answer = 1.<br></br>Q2 : "cc" , "hh" , "cchh" are the only balanced strings. Type = 1 and therefore answer = 2 + 2 + 4 = 8.<br></br>Q3 : "cc" , "hh" , "ee" , "cchh" , "hhee" , "cchhee" are the only balanced strings. Type = 2 and therefore answer = 2<sup>2</sup> + 2<sup>2</sup> + 2<sup>2</sup> + 4<sup>2</sup> + 4<sup>2</sup> + 6<sup>2</sup>= 80.</p>
 <h3>Warning</h3>
 <p>Large test data set, Prefer to use faster input/output methods .</p>
 </pre>

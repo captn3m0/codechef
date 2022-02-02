@@ -90,7 +90,7 @@ Output the number of points H scored by home team and the number of points G sco
 ### Constraints
 
 - 1 ≤ N ≤ 100
-- 0 ≤ Ai,j, Bi,j < 1012
+- 0 ≤ Ai,j, Bi,j &lt; 1012
 
 ### Example
 

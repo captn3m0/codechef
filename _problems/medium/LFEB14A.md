@@ -80,7 +80,7 @@ Sereja have an array that consist of **n** integers **a\[1\], a\[2\], ..., a\[n\
 
 \- **random\_merge(a, b)** — merge array **a** and **b** to array **a**. From all possible merges Sereja chooses a random one. For better understanding you can imagine, that merged array is sequence **q** of **n+m** elements, each element if either zero or one. It contains exactly **n** zeroes and **m** ones. Then zeroes are replaced with elements of **a**, and ones are replaced with elements of **b** (without changing their relative order inside initial sequences).
 
-Now Sereja want to know expected number of inversions in array a after described operations. Inversion is a pair **(i, j) (1 ≤ i < j ≤ n + m)** such that **a\[i\] > a\[j\]**.
+Now Sereja want to know expected number of inversions in array a after described operations. Inversion is a pair **(i, j) (1 ≤ i &lt; j ≤ n + m)** such that **a\[i\] &gt; a\[j\]**.
 
 ### Input
 

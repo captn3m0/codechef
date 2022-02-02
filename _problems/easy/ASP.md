@@ -92,9 +92,9 @@ For each test case, output "YES" or "NO" (without quotes) to indicate whether th
 
 ### Constraints
 
-- **1** <= **T** <= **10**
-- **1** <= **n** <= **10^6**
-- **1** <= **a**\[**i**\] <= **10^9**
+- **1** &lt;= **T** &lt;= **10**
+- **1** &lt;= **n** &lt;= **10^6**
+- **1** &lt;= **a**\[**i**\] &lt;= **10^9**
 
 ### Example
 

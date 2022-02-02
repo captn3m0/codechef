@@ -75,7 +75,7 @@ This time, Chef has given you an array **A** containing **N** elements.
 
 He had also asked you to answer **M** of his questions. Each question sounds like: "How many inversions will the array **A** contain, if we swap the elements at the **i**-th and the **j**-th positions?".
 
-The inversion is such a pair of integers (**i**, **j**) that **i < j** and **Ai > Aj**.
+The inversion is such a pair of integers (**i**, **j**) that **i &lt; j** and **Ai &gt; Aj**.
 
 ### Input
 

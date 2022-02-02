@@ -89,7 +89,7 @@ The GFA also has financial problems and want to spend as little money as possibl
 
 ### Input
 
-The first line of the input consists of two integers - **N** and **M**. **N** is number of planets and **M** is number of pairs of planets which have a mutual agreement, i.e they have a spaceway between them. Then, **M** lines follow, each containing two space separated integers **A** and **B**, denoting a mutual agreement and hence a spaceway to travel, between plenet **A** and planet **B**. Then, **N** lines follow. The **ith** line has an integer **C**. If **C ≥ 0**, then it represents the tax value which the GFA has to pay to the government of planet i (it's a **type 1** government). If **C < 0**, then it represents the money the ith government will pay to the GFA (it's a **type 2** government).
+The first line of the input consists of two integers - **N** and **M**. **N** is number of planets and **M** is number of pairs of planets which have a mutual agreement, i.e they have a spaceway between them. Then, **M** lines follow, each containing two space separated integers **A** and **B**, denoting a mutual agreement and hence a spaceway to travel, between plenet **A** and planet **B**. Then, **N** lines follow. The **ith** line has an integer **C**. If **C ≥ 0**, then it represents the tax value which the GFA has to pay to the government of planet i (it's a **type 1** government). If **C &lt; 0**, then it represents the money the ith government will pay to the GFA (it's a **type 2** government).
 
 ### Output
 

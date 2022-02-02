@@ -86,12 +86,12 @@ At the beginning of the game the only Blade Master's image stands on some starti
 - **P1** and **P2** are integer numbers.
 - New mirror images will appear at every cell in the direction **D1** with the period **P1** starting from cell **(i, j)** and in the direction **D2** with the period **P2** also starting from the cell **(i, j)**. Of course, no images will appear out of the grid. For example, if **D1 = 'U'** and **P1 = 2** then images appear at the cells **(i − 2, j), (i − 4, j), (i − 6, j)**, and so on.
 - Loda always use the same values for **D1** and **D2**. Namely,
-  **D1 = 'U', D2 = 'D'** for **X = 0,**
-  **D1 = 'L', D2 = 'R'** for **X = 1,**
-  **D1 = 'U', D2 = 'R'** for **X = 2,**
-  **D1 = 'R', D2 = 'D'** for **X = 3,**
-  **D1 = 'D', D2 = 'L'** for **X = 4,**
-  **D1 = 'L', D2 = 'U'** for **X = 5.**
+    **D1 = 'U', D2 = 'D'** for **X = 0,**
+    **D1 = 'L', D2 = 'R'** for **X = 1,**
+    **D1 = 'U', D2 = 'R'** for **X = 2,**
+    **D1 = 'R', D2 = 'D'** for **X = 3,**
+    **D1 = 'D', D2 = 'L'** for **X = 4,**
+    **D1 = 'L', D2 = 'U'** for **X = 5.**
 - But values **P1** and **P2** may vary for different games. But once chosen they will be the same for all moves.
 
 

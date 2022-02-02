@@ -76,7 +76,7 @@ Many of you know about a popular logic game called [Euclid: The Game](http://euc
 
 ### Task
 
-Suppose you are given an angle which measures exactly **N** degrees, where **N** is an integer with 0 < **N** < 360.
+Suppose you are given an angle which measures exactly **N** degrees, where **N** is an integer with 0 &lt; **N** &lt; 360.
 
 You are to answer the question: is it possible to construct, [using only a straightedge and compass](http://en.wikipedia.org/wiki/Compass-and-straightedge_construction), **N-1** rays which divide this angle into **N** equal angles of size 1 degree?
 
@@ -84,7 +84,7 @@ If the answer is **YES**, you must demonstrate this by listing the steps you wou
 
 ### Instructions
 
-You will be given three points: **V**, **R1**, and **R2**. The angle you are to consider is the clockwise angle from the ray **VR1** to the ray **VR2**. This angle, in degrees, will always be an integer **N** with 0 < **N** < 360.
+You will be given three points: **V**, **R1**, and **R2**. The angle you are to consider is the clockwise angle from the ray **VR1** to the ray **VR2**. This angle, in degrees, will always be an integer **N** with 0 &lt; **N** &lt; 360.
 
 If the above construction is possible, you are able to perform two types of operations:
 
@@ -120,7 +120,7 @@ Once you have performed all necessary operations, output a single line with the 
 
 The absolute value of any coordinate given in the input does not exceed **1000**.
 
-All input coordinates have a precision of at least **1e-6**. Prior to precision adjustments, the clockwise angle formed by the input points, in degrees, is guaranteed to be an integer **N** with 0 < **N** < 360.
+All input coordinates have a precision of at least **1e-6**. Prior to precision adjustments, the clockwise angle formed by the input points, in degrees, is guaranteed to be an integer **N** with 0 &lt; **N** &lt; 360.
 
 All coordinates in the output are compared for equality with precision **1e-5**. This means that you can use point **H** as a known point if there is a true known point **K** with **|Hx-Kx|** and **|Hy-Ky|** no more than **1e-5** each.
 

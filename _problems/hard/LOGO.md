@@ -77,7 +77,7 @@ The logo is made using only triangles and quadrilaterals (convex and concave, bu
 
 1\) They may be tilted in any direction.
 2\) They have a solid colour. There are 9 colours numbered from 1 to 9.
-3\) They are allowed to intersect./>/>
+3\) They are allowed to intersect.
 
 One logo which appeared during designing:
 
@@ -85,21 +85,21 @@ One logo which appeared during designing:
 Notice the "jaggies"(jagged edges) in image; they are unavoidable hence acceptable in solution.
 The XYZ axis are oriented as:
 ![](//www.codechef.com/download/Xb82VFH.png)
-Note that +Z axis is coming out./>/>/>/>/>/>
+Note that +Z axis is coming out.
 
 **Important points:**
 1\. If  value of 2 polygons are exactly same, then the greater color value of two will be visible. Example at end (in Notes)
-2\. The edges of triangle or quadrilateral should be as accurate as if drawn by [Bresenham's algorithm](http://en.wikipedia.org/wiki/Bresenham%27s_line_algorithm). Note that you don't have to implement Bresenham's algorithm, any approach which doesn't suffers from floating point error is acceptable. Also when rounding off **X or Y** whose decimal part is exactly **0.5**, you have to round up. Like 21.5 becomes 22.,>
+2\. The edges of triangle or quadrilateral should be as accurate as if drawn by [Bresenham's algorithm](http://en.wikipedia.org/wiki/Bresenham%27s_line_algorithm). Note that you don't have to implement Bresenham's algorithm, any approach which doesn't suffers from floating point error is acceptable. Also when rounding off **X or Y** whose decimal part is exactly **0.5**, you have to round up. Like 21.5 becomes 22.
 
 ### Input
 
-First line contains **N**, the number of polygons (triangles and quadrilaterals). Then **N** lines follow, each consists of **T** the type of polygon, **C** the color of polygon and 3D coordinates of polygon <**X, Y, Z**>.
+First line contains **N**, the number of polygons (triangles and quadrilaterals). Then **N** lines follow, each consists of **T** the type of polygon, **C** the color of polygon and 3D coordinates of polygon &lt;**X, Y, Z**&gt;.
 
 When **T** is 1, the polygon is Triangle and 3 coordinates are given for the triangle's vertices. When **T** is 2, the polygon is Quadrilateral and 4 coordinates are given for the quadrilateral's vertices.
 
 ### Output
 
-Output 240 lines, each containing 320 characters to describe the canvas. The background color of canvas is '0'. The ith(i starts from 0) character on jth(j starts from 0) line should have color value visible at <**i, j**>
+Output 240 lines, each containing 320 characters to describe the canvas. The background color of canvas is '0'. The ith(i starts from 0) character on jth(j starts from 0) line should have color value visible at &lt;**i, j**&gt;
 
 ### Constraints
 
@@ -124,8 +124,7 @@ Output 240 lines, each containing 320 characters to describe the canvas. The bac
 </pre>
 ### Notes
 
-If <**X, Y, Z**> value of 2 polygons are exactly same, then the greater color value of two will be visible. Example, for the following input:
-/>
+If &lt;**X, Y, Z**&gt; value of 2 polygons are exactly same, then the greater color value of two will be visible. Example, for the following input:
 
 <pre>2
 2 1 10 10 0 10 110 0 110 110 0 110 10 0
@@ -134,4 +133,4 @@ If <**X, Y, Z**> value of 2 polygons are exactly same, then the greater color va
 
 The (pictorial) output will be:
 ![](//www.codechef.com/download/hR8s1dO.png)
-assuming color '0' is black, color '1' is red, color '2' is blue./>/>/>
+assuming color '0' is black, color '1' is red, color '2' is blue.

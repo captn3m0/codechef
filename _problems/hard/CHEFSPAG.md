@@ -92,7 +92,7 @@ For each test case, output a single line containing the integer: the answer for 
 
 ### Constraints
 
-- 0 ≤ **a**, **b**, **c**, **d**, **F0**, **F1**, **F2** **F3** < **109 + 9**
+- 0 ≤ **a**, **b**, **c**, **d**, **F0**, **F1**, **F2** **F3** &lt; **109 + 9**
 - The polygon is simple and non-degenerate.
 - **1** ≤ **T** ≤ **2000**
 - **3** ≤ **N** ≤ **16**

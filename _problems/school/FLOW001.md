@@ -70,7 +70,7 @@ All submissions for this problem are available.Shivam is the youngest programmer
 
 
 
-Program is very simple, Given two integers A and B, write a program to add these two numbers. />/>
+Program is very simple, Given two integers A and B, write a program to add these two numbers.
 
 ### Input
 

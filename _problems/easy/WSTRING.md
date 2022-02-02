@@ -84,16 +84,16 @@ He also call the strings which can generate a 'W' shape (satisfying the above co
 
 More formally, a string **S** is a *W string* if and only if it satisfies the following conditions (some terms and notations are explained in **Note**, please see it if you cannot understand):
 
-- The string **S** contains **exactly** **3** '#' characters. Let the indexes of all '#' be **P1 < P2 < P3** (indexes are 0-origin).
+- The string **S** contains **exactly** **3** '#' characters. Let the indexes of all '#' be **P1 &lt; P2 &lt; P3** (indexes are 0-origin).
 - Each substring of **S\[0, P1−1\], S\[P1+1, P2−1\], S\[P2+1, P3−1\], S\[P3+1, |S|−1\]** contains exactly one kind of characters, where **S\[a, b\]** denotes the non-empty substring from **a+1**th character to **b+1**th character, and **|S|** denotes the length of string **S** (See **Note** for details).
 
-Now, his friend Ryuk gives him a string **S** and asks him to find the length of the longest *W string* which is a subsequence of **S**, with only one condition that there must not be any '#' symbols between the positions of the first and the second '#' symbol he chooses, nor between the second and the third (here the "positions" we are looking at are in **S**), i.e. suppose the index of the '#'s he chooses to make the *W string* are **P1, P2, P3** (in increasing order) in the original string **S**, then there must be no index **i** such that **S\[i\]** = '#' where **P1 < i < P2 or P2 < i < P3**.
+Now, his friend Ryuk gives him a string **S** and asks him to find the length of the longest *W string* which is a subsequence of **S**, with only one condition that there must not be any '#' symbols between the positions of the first and the second '#' symbol he chooses, nor between the second and the third (here the "positions" we are looking at are in **S**), i.e. suppose the index of the '#'s he chooses to make the *W string* are **P1, P2, P3** (in increasing order) in the original string **S**, then there must be no index **i** such that **S\[i\]** = '#' where **P1 &lt; i &lt; P2 or P2 &lt; i &lt; P3**.
 
 Help Kira and he won't write your name in the **Death Note**.
 
 **Note**:
 
-For a given string **S**, let **S\[k\]** denote the **k+1**th character of string **S**, and let the index of the character **S\[k\]** be **k**. Let **|S|** denote the length of the string **S**. And a substring of a string **S** is a string **S\[a, b\] = S\[a\] S\[a+1\] ... S\[b\]**, where **0 ≤ a ≤ b < |S|**. And a subsequence of a string **S** is a string **S\[i0\] S\[i1\] ... S\[in−1\]**, where **0 ≤ i0 < i1 < ... < in−1 < |S|**.
+For a given string **S**, let **S\[k\]** denote the **k+1**th character of string **S**, and let the index of the character **S\[k\]** be **k**. Let **|S|** denote the length of the string **S**. And a substring of a string **S** is a string **S\[a, b\] = S\[a\] S\[a+1\] ... S\[b\]**, where **0 ≤ a ≤ b &lt; |S|**. And a subsequence of a string **S** is a string **S\[i0\] S\[i1\] ... S\[in−1\]**, where **0 ≤ i0 &lt; i1 &lt; ... &lt; in−1 &lt; |S|**.
 
 For example, let **S** be the string "kira", then **S\[0\]** = 'k', **S\[1\]** = 'i', **S\[3\]** = 'a', and **|S| = 4**. All of **S\[0, 2\]** = "kir", **S\[1, 1\]** = "i", and **S\[0, 3\]** = "kira" are substrings of **S**, but "ik", "kr", and "arik" are not. All of "k", "kr", "kira", "kia" are subsequences of **S**, but "ik", "kk" are not.
 

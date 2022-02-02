@@ -79,8 +79,8 @@ You're given an array **a** with size **N** (1-based indexing). You are allowed 
 
 Your goal is to make the array **a** *great*. An array is great if it satisfies one of the following conditions:
 
-- **a1** > **a2** a3 > **a4** aN
-- **a1** a2 > **a3** a4 > ... **aN**
+- **a1** &gt; **a2** a3 &gt; **a4** aN
+- **a1** a2 &gt; **a3** a4 &gt; ... **aN**
 
 Compute the minimum number of operations necessary to make the array **a** great or determine that it's impossible to make it great.
 

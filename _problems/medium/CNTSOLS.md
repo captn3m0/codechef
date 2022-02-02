@@ -91,7 +91,7 @@ For each test case, output a single line containing number of solutions for the 
 - **1 ≤ upper ≤ 1,000,000,000**
 - **0 ≤ d ≤ 1,000,000,000**
 - **1 ≤ N ≤ 40**
-- **0 ≤ m < N**
+- **0 ≤ m &lt; N**
 
 ### Example
 

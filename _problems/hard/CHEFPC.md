@@ -96,7 +96,7 @@ Output a single line denoting the answer of the problem. Your answer will be con
 
 - **1** ≤ **M** ≤ **50**
 - **-10^4** ≤ **x, y** ≤ **10^4**
-- 0 < **r** ≤ **10^4**
+- 0 &lt; **r** ≤ **10^4**
 
 ### Subtasks
 

@@ -11,9 +11,9 @@ layout: problem
 ---
 ###  All submissions for this problem are available. 
 
-You are given three positive integers **A**, **B** and **C** written in base **X <= 10** without leading zeros. In how many ways you can permute the digits of **A** and permute the digits of **B** such that their sum will be equal to **C** (in base **X** of course)? Leading zeros after permutation are allowed. So for example for **A=101** written in some base all possible ways to permute its digits are: **011, 101, 110**. 
+You are given three positive integers **A**, **B** and **C** written in base **X &lt;= 10** without leading zeros. In how many ways you can permute the digits of **A** and permute the digits of **B** such that their sum will be equal to **C** (in base **X** of course)? Leading zeros after permutation are allowed. So for example for **A=101** written in some base all possible ways to permute its digits are: **011, 101, 110**. 
 
- **Remark.** For positive integer **A** and base **X >= 2** the digits of **A** in base **X** are uniquely determined by the equality **A = Ak \* Xk + Ak-1 \* Xk - 1 + ... + A1 \* X + A0**  and inequalities **0 <= A0, A1, ..., Ak < X** and **Ak > 0** . Then **A** is written as **0...0AkAk-1...A1A0** in base **X**. Here an arbitrary non-negative number of leading zeros is allowed. If there are no leading zeros we say that **A** is written in canonical form.
+ **Remark.** For positive integer **A** and base **X &gt;= 2** the digits of **A** in base **X** are uniquely determined by the equality **A = Ak \* Xk + Ak-1 \* Xk - 1 + ... + A1 \* X + A0**  and inequalities **0 &lt;= A0, A1, ..., Ak &lt; X** and **Ak &gt; 0** . Then **A** is written as **0...0AkAk-1...A1A0** in base **X**. Here an arbitrary non-negative number of leading zeros is allowed. If there are no leading zeros we say that **A** is written in canonical form.
 
 ### Input
 
@@ -25,9 +25,9 @@ For each test case, output a single line containing the number of possible permu
 
 ### Constraints
 
- **1 <= T <= 10 
- 2 <= X <= 10 
- 1 <= len(A), len(B), len(C) <= 80/X**  where **len(N)** stands for the number of digits of number **N** when it is written in base **X** in canonical form.
+ **1 &lt;= T &lt;= 10 
+ 2 &lt;= X &lt;= 10 
+ 1 &lt;= len(A), len(B), len(C) &lt;= 80/X**  where **len(N)** stands for the number of digits of number **N** when it is written in base **X** in canonical form.
 
 ### Example
 

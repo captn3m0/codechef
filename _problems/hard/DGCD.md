@@ -71,7 +71,7 @@ layout: problem
 ---
 All submissions for this problem are available.You're given a [tree](http://en.wikipedia.org/wiki/Tree_%28graph_theory%29) on **N** vertices. Each vertex has a positive integer written on it, number on the ith vertex being **vi**. Your program must process two types of queries :
 
-1\. Find query represented by **F u v** : Find out [gcd](http://en.wikipedia.org/wiki/Greatest_common_divisor) of all numbers on the unique path between vertices **u** and **v** in the tree (both inclusive)./> 2. Change query represented by **C u v d** : Add **d** to the number written on all vertices along the unique path between vertices **u** and **v** in the tree (both inclusive).
+1\. Find query represented by **F u v** : Find out [gcd](http://en.wikipedia.org/wiki/Greatest_common_divisor) of all numbers on the unique path between vertices **u** and **v** in the tree (both inclusive). 2. Change query represented by **C u v d** : Add **d** to the number written on all vertices along the unique path between vertices **u** and **v** in the tree (both inclusive).
 
 ### Input
 

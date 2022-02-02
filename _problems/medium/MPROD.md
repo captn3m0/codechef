@@ -102,11 +102,11 @@ For each testcase, output single line indicating the answer to that testcase
 
 **CONSTRAINTS:**
 
-1<=T<=10
+1&lt;=T&lt;=10
 
-30 points : 1<=N<=2000, 1<=A\[i\]<=106
+30 points : 1&lt;=N&lt;=2000, 1&lt;=A\[i\]&lt;=106
 
-70 points : 1<=N<=20000, 1<=A\[i\]<=108
+70 points : 1&lt;=N&lt;=20000, 1&lt;=A\[i\]&lt;=108
 
 
 

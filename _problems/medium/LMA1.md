@@ -101,14 +101,14 @@ For each test case, output a single line containing the answer to the correspond
 </pre>
 ### Scoring
 
-In all the test cases, 0.01 <= **a** < 1.00, 0.00 <= **p** <= 10.00, 0.00 <= **q** <= 10.00
+In all the test cases, 0.01 &lt;= **a** &lt; 1.00, 0.00 &lt;= **p** &lt;= 10.00, 0.00 &lt;= **q** &lt;= 10.00
 
 Output will not exceed 1 MB
 
-Subtask 1 (31 point): **T** = 100000, 5 <= **D** <= 7, 0.01 <= **a** <= 0.50
+Subtask 1 (31 point): **T** = 100000, 5 &lt;= **D** &lt;= 7, 0.01 &lt;= **a** &lt;= 0.50
 
-Subtask 2 (29 points): **T** = 100, 50 <= **D** <= 100
+Subtask 2 (29 points): **T** = 100, 50 &lt;= **D** &lt;= 100
 
-Subtask 3 (15 points): **T** = 10000, 50 <= **D** <= 100
+Subtask 3 (15 points): **T** = 10000, 50 &lt;= **D** &lt;= 100
 
-Subtask 4 (25 points): 10 <= **T** <= 100, 1 <= **D** <= 100000
+Subtask 4 (25 points): 10 &lt;= **T** &lt;= 100, 1 &lt;= **D** &lt;= 100000

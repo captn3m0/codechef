@@ -83,9 +83,9 @@ Surveying is very dangerous, so you need to try to minimize the number of survey
 
 Input begins with the line containing 3 space separated integers **N**, **M**, and **K**, the size of the field, the number of mines, and the number of pieces of dynamite, respectively. The locations of mines are predetermined but currently unknown to you.
 
-To perform a neutralize operation, print a line containing "N x y" (without quotes), where **x** and **y** are the coordinates of the cell you wish to neutralize (0 ≤ **x**, **y** < **N**).
+To perform a neutralize operation, print a line containing "N x y" (without quotes), where **x** and **y** are the coordinates of the cell you wish to neutralize (0 ≤ **x**, **y** &lt; **N**).
 
-To perform a survey operation, print "S x y" (without quotes), where **x** and **y** are the coordinates of the cell you wish to check (0 ≤ **x**, **y** < **N**). Then read a line containing a single character. This character will be 'M' if the cell contains a mine, otherwise it will be an integer between 0 and 8, indicating the number of cells adjacent to the specified cell that contain mines.
+To perform a survey operation, print "S x y" (without quotes), where **x** and **y** are the coordinates of the cell you wish to check (0 ≤ **x**, **y** &lt; **N**). Then read a line containing a single character. This character will be 'M' if the cell contains a mine, otherwise it will be an integer between 0 and 8, indicating the number of cells adjacent to the specified cell that contain mines.
 
 When you are finished, print "Done" (without quotes).
 
@@ -94,11 +94,11 @@ Note that you will receive Wrong Answer verdict if one of the following happens:
 - You will perform more than **N2** survey operations.
 - You will perform more than **K** neutralize operations.
 - You will output operation in wrong format.
-   In particular, **x** and **y** should be between 0 and **N − 1**, inclusive./>
+     In particular, **x** and **y** should be between 0 and **N − 1**, inclusive.
 - You will output "Done" but not all mines are neutralized.
 
 *Attention: the program should clear the output buffer after printing each line. It can be done using fflush(stdout) command or by setting the proper type of buffering at the beginning of the execution - setlinebuf(stdout). Failure to flush the output buffer will result in Time Limit Exceeded verdict.*
- For example, at C/C++ you could use the following routines:/>
+ For example, at C/C++ you could use the following routines:
 
 <pre>char Survey(int x, int y) {
     printf("S %d %d\n", x, y);
@@ -117,7 +117,7 @@ void Neutralize(int x, int y) {
 ### Scoring
 
 Suppose you successfully neutralized all mines using **S** survey operations.
- Then your score is **10 \* (S + 1) / N2**. Lower scores will earn more points./>
+ Then your score is **10 \* (S + 1) / N2**. Lower scores will earn more points.
 
 ### Sample Input + Output
 

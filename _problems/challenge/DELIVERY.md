@@ -80,7 +80,7 @@ Bounds: 1 ≤ n ≤ 300, 0 ≤ m ≤ 10,000, and 0 ≤ b ≤ 1,000,000,000.
 
 ### Output
 
-The output for each test case consists of a single line. This line should begin with a sequence of integers between 0 and n-1 and end with -1. A sequence s1, s2, ..., sk followed by a -1 means the chef travels along a single one way street from store 0 (the bakery) to store s1, then from store s1 to store s2, and so on until store sk is reached. That is, there should be a one way street from store 0 to store s1 and, for each 0 < j < k there should be a one way street from store sj to store sj+1.
+The output for each test case consists of a single line. This line should begin with a sequence of integers between 0 and n-1 and end with -1. A sequence s1, s2, ..., sk followed by a -1 means the chef travels along a single one way street from store 0 (the bakery) to store s1, then from store s1 to store s2, and so on until store sk is reached. That is, there should be a one way street from store 0 to store s1 and, for each 0 &lt; j &lt; k there should be a one way street from store sj to store sj+1.
 
 This should be done such that the total time taken along all streets should be at most b. Finally, since the Chef doesn't want the driving instructions to be too complicated the output should be such that k ≤ 10,000. A store may appear multiple times in this output list.
 

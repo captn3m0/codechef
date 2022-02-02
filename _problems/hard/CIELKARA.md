@@ -72,11 +72,11 @@ All submissions for this problem are available.You need to find the distance fro
 
 Chef Ciel and her friends go to *karaoke* after the New Year's party. In karaoke, they sing songs, and moreover, recent karaoke machines can score their performance. To get a high score, one of the most important things is to sing with correct pitches.
 
-The correct pitch at time **t** for some song is represented as **f(t)**, where **f(t)** is a piecewise-constant function. In this problem, let us consider the infinitely long time **−∞** < **t** < **+∞** for simplicity. Let **N−1** integers **A1** < **A2** < ... < **AN−1** denote the time moments when the correct pitch is changed. That is,
+The correct pitch at time **t** for some song is represented as **f(t)**, where **f(t)** is a piecewise-constant function. In this problem, let us consider the infinitely long time **−∞** &lt; **t** &lt; **+∞** for simplicity. Let **N−1** integers **A1** &lt; **A2** &lt; ... &lt; **AN−1** denote the time moments when the correct pitch is changed. That is,
 
-- **f(t)** = **B0**, for **−∞** < **t** < **A1**,
-- **f(t)** = **Bk**, for **Ak** ≤ **t** < **Ak+1** (**1** ≤ **k** ≤ **N−2**),
-- **f(t)** = **BN−1**, for **AN−1** ≤ **t** < **+∞**.
+- **f(t)** = **B0**, for **−∞** &lt; **t** &lt; **A1**,
+- **f(t)** = **Bk**, for **Ak** ≤ **t** &lt; **Ak+1** (**1** ≤ **k** ≤ **N−2**),
+- **f(t)** = **BN−1**, for **AN−1** ≤ **t** &lt; **+∞**.
 
 On the other hand, Ciel cannot change her pitch instantly. So Ciel's pitch **g(t)** must satisfy the condition **|g(x) − g(y)| ≤ K |x − y|** for all real **x** and **y**. In particular **g(t)** is a continuous function and **|g'(t)|** ≤ **K** for all **t** where **g'(t)** exists (**g'(t)** denotes the derivative of **g(t)**).
 
@@ -97,7 +97,7 @@ For each test case, output a single line containing the minimum value of the int
 - **1** ≤ **T** ≤ **250**
 - **2** ≤ **N** ≤ **8**
 - **1** ≤ **K** ≤ **4**
-- 0 ≤ **A1** < **A2** < ... < **AN−1** ≤ **20130120**
+- 0 ≤ **A1** &lt; **A2** &lt; ... &lt; **AN−1** ≤ **20130120**
 - 0 ≤ **B0**, **B1**, ..., **BN−1** ≤ **20130120**
 - It can occur that **Bi−1** = **Bi** for some **i = 1, 2, ..., N−1**
 - The sum of **N3** in one test file does not exceed **2013**

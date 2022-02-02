@@ -26,7 +26,7 @@ end function
 </pre>
 The function split in the above pseudocode takes a binary string S as the parameter and returns a pair of binary strings (S1, S2) such that:
 
-- |S1| <= |S2|.
+- |S1| &lt;= |S2|.
 - The difference of |S1| and |S2| is at most 1.
 - The concatenation of S1 and S2 (in that order) is S.
 

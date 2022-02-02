@@ -78,7 +78,7 @@ Recently Chef invented a new structure that he has called **Xor Grid**. It is an
 
 1. **G\[1, c\] = 1** for all **c ≥ 1**
 2. **G\[r, 1\] = r** for all **r ≥ 1**
-3. **G\[r, c\] = G\[r - 1, c\] [xor](http://en.wikipedia.org/wiki/Bitwise_operation#XOR) G\[r, c - 1\]** for all **r > 1** and **c > 1**
+3. **G\[r, c\] = G\[r - 1, c\] [xor](http://en.wikipedia.org/wiki/Bitwise_operation#XOR) G\[r, c - 1\]** for all **r &gt; 1** and **c &gt; 1**
 
 Now Chef is wondering, what are the **xor sums** of all the numbers within some specific rectangles of the **Xor Grid**?
 

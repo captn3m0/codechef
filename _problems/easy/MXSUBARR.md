@@ -66,11 +66,11 @@ time:
     current: 1493558169
 layout: problem
 ---
-All submissions for this problem are available.You are given an array **A** consisting of **N** integers. A group of disjoint subarrays in it will be a collection of subarrays of the array. Formally a group of subarrays consisting of **K** subarrays can be denoted by **2 \* K** indices, **\[i1, j1\]**, **\[i2, j2\]** , ..., **\[iK, jK\]**, such that **i1 ≤ j1 < i2 ≤ j2** < ... < **iK ≤ jK.**
+All submissions for this problem are available.You are given an array **A** consisting of **N** integers. A group of disjoint subarrays in it will be a collection of subarrays of the array. Formally a group of subarrays consisting of **K** subarrays can be denoted by **2 \* K** indices, **\[i1, j1\]**, **\[i2, j2\]** , ..., **\[iK, jK\]**, such that **i1 ≤ j1 &lt; i2 ≤ j2** &lt; ... &lt; **iK ≤ jK.**
 
-For example, in array **A = {5, 6, 7}**. A group of subarrays could be the subarrays denoted by indices **\[1, 1\], \[2, 3\]**. The subarray corresponding to indices **\[1, 1\]** will be **{5}**. The subarray corresponding to indices **\[2, 3\]** will be **{6, 7}**. So, we have **i1 = 1, j1 = 1, i2 = 2, j2 = 3** and **K = 2**. You can check that the indices satisfy the property **i1 ≤ j1 < i2 ≤ j2**.
+For example, in array **A = {5, 6, 7}**. A group of subarrays could be the subarrays denoted by indices **\[1, 1\], \[2, 3\]**. The subarray corresponding to indices **\[1, 1\]** will be **{5}**. The subarray corresponding to indices **\[2, 3\]** will be **{6, 7}**. So, we have **i1 = 1, j1 = 1, i2 = 2, j2 = 3** and **K = 2**. You can check that the indices satisfy the property **i1 ≤ j1 &lt; i2 ≤ j2**.
 
-Note that the group of subarrays **\[1, 2\]** and **\[2, 3\]** won't be disjoint, as it does not satisfy the property **j1 < i2**. In other words, the index 2 is common in two subarrays, which should not happen.
+Note that the group of subarrays **\[1, 2\]** and **\[2, 3\]** won't be disjoint, as it does not satisfy the property **j1 &lt; i2**. In other words, the index 2 is common in two subarrays, which should not happen.
 
 Let **M** denote the maximum value of **K** in a group of **K** disjoint subarrays of array **A**, such that there are not two elements (**not indices**) common in those subarrays. This means, that if the group contained subarrays **\[A\[i1\], A\[j1\]**, **\[A\[i2\], A\[j2\]\]** , ..., **A\[\[iK, jK\]\]**, then there should not be an element which is present in more than one subarrays.
 

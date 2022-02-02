@@ -134,15 +134,15 @@ The problem is **interactive**. You will get the coordinates of each task one at
 There are several types of datasets:
 
 - Dataset #0: single server 
-  - **N** = **1**
+    - **N** = **1**
 - Dataset #1: small network 
-  - **2** ≤ **N** ≤ **100**
+    - **2** ≤ **N** ≤ **100**
 - Dataset #2: small number of tasks 
-  - **Q** ≤ **1000**
+    - **Q** ≤ **1000**
 - Dataset #3: fast network 
-  - All processing times ≤ **1000**
+    - All processing times ≤ **1000**
 - Dataset #4: small Batcave 
-  - All coordinates ≤ **3000**
+    - All coordinates ≤ **3000**
 - Dataset #5: random network and testing framework
  
 Distribution (20 tests):

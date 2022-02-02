@@ -104,8 +104,8 @@ All submissions for this problem are available.### Read problems statements in [
 - 1 ≤ **T** ≤ 100
 - 1 ≤ **R, C** ≤ 1000
 - 1 ≤ **N** ≤ 9
-- 0 ≤ **Sx** < **R**
-- 0 ≤ **Sy** < **C**
+- 0 ≤ **Sx** &lt; **R**
+- 0 ≤ **Sy** &lt; **C**
 - 0 ≤ **dx** ≤ **R**
 - 0 ≤ **dy** ≤ **C**
 - The value of a cell is a natural number between 1 and 1,000,000 (i.e. 106).

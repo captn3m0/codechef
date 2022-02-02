@@ -80,7 +80,7 @@ Raghav studies in NSIT and is bored of the regular hostel mess food. For a chang
 
 Initially, both boxes are closed. Raghav wants to eat exactly **N** sweets in total during the following process:
 
-- Choose an index **i** (1 ≤ **i** ≤ 2) of one box and a number **s** (0 < **s** ≤ number of sweets in box **i**).
+- Choose an index **i** (1 ≤ **i** ≤ 2) of one box and a number **s** (0 &lt; **s** ≤ number of sweets in box **i**).
 - Open box **i**, take out **s** sweets, eat them and then close box **i**.
 - Write down number **i** exactly **s** times.
 - If less than **N** sweets have been eaten in total, repeat from the first step.

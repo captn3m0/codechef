@@ -92,7 +92,7 @@ We can ask the Chefland government to capture a tank, and then provide us with t
 - Capture a tank of type **i** (1 ≤ i ≤ K). This costs **Ci**.
 - Special capture: capture a tank of any type. This operation has a cost **C**.
 
-Every tank type has different armour, and therefore we need different kinds of bomb for each of them, which also have different prices (**Bi** for the bomb piercing the armor of the **i**th tank type). After we finish the above scouting process, we need to provide the number (**Di**) of bombs we need (for each type). Each bomb can destroy one tank (but the bomb completely annihilates the tank to little bits of scrap metal, so we can't extract any information from a destroyed tank.) If the enemy has **Ri** tanks remaining after the captures, and we ask for **Di** bombs but **Ri** > **Di**, than we have to pay **Pi** penalty for each remaining tank (after **Di** of them have been destroyed).
+Every tank type has different armour, and therefore we need different kinds of bomb for each of them, which also have different prices (**Bi** for the bomb piercing the armor of the **i**th tank type). After we finish the above scouting process, we need to provide the number (**Di**) of bombs we need (for each type). Each bomb can destroy one tank (but the bomb completely annihilates the tank to little bits of scrap metal, so we can't extract any information from a destroyed tank.) If the enemy has **Ri** tanks remaining after the captures, and we ask for **Di** bombs but **Ri** &gt; **Di**, than we have to pay **Pi** penalty for each remaining tank (after **Di** of them have been destroyed).
 
  The goal is to minimize the capture\_cost + destroy\_cost + penalty\_cost:
 
@@ -147,12 +147,12 @@ The test cases for the problem are divided into **4** groups, each containing **
 - Group 4: M = 106
 
 Moreover, in all the test cases: - **T = 20**
-- **0 < U12 , U23 < 100000**
+- **0 &lt; U12 , U23 &lt; 100000**
 - **3 ≤ K ≤ 20**
 - **100 ≤ C ≤ 200**
-- **C < Ci ≤ 3\*C**
+- **C &lt; Ci ≤ 3\*C**
 - **10 ≤ Bi ≤ C**
-- **Ci < Pi ≤ 1000**
+- **Ci &lt; Pi ≤ 1000**
 - **0 ≤ serial\_id ≤ 109**
 
 ### Test Case Generation

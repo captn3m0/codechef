@@ -73,7 +73,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JULY17/mandarin/CHEFSIGN.pdf), [Russian](http://www.codechef.com/download/translated/JULY17/russian/CHEFSIGN.pdf) and [Vietnamese](http://www.codechef.com/download/translated/JULY17/vietnamese/CHEFSIGN.pdf) as well.
 
-Chef found a strange string yesterday - a string of signs **s**, where each sign is either a **', **'='** or a **'>'**. Let N be the length of this string. Chef wants to insert N + 1 positive integers into this sequence and make it valid. A valid sequence is a sequence where every sign is preceded and followed by an integer, and the signs are correct. That is, if a sign 'a and followed by an integer *b*, then *a* should be less than *b*. Likewise for the other two signs as well.**
+Chef found a strange string yesterday - a string of signs **s**, where each sign is either a **', **'='** or a **'&gt;'**. Let N be the length of this string. Chef wants to insert N + 1 positive integers into this sequence and make it valid. A valid sequence is a sequence where every sign is preceded and followed by an integer, and the signs are correct. That is, if a sign 'a and followed by an integer *b*, then *a* should be less than *b*. Likewise for the other two signs as well.**
 
 Chef can take some positive integers in the range **\[1, P\]** and use a number in the range as many times as he wants.
 
@@ -83,7 +83,7 @@ Help Chef find the minimum possible **P** with which he can create a valid seque
 
 The first line of the input contains an integer **T** denoting the number of test cases. The description of **T** test cases follows.
 
-The only line of each test case contains the string of signs **s**, where each sign is either **', **'='** or a **'>'**.**
+The only line of each test case contains the string of signs **s**, where each sign is either **', **'='** or a **'&gt;'**.**
 
 ### Output
 

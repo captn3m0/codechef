@@ -82,7 +82,7 @@ The first line contains integer **T**, denoting the number of stages. The descri
 
 The first line of each stage's description contains an integer **N**, denoting the number of weapons.
 
-The second line contains **N** space-separated integers: **L1**, **L2**, ..., **LN**, where **Li** is the level of the i-th weapon. The i-th and (i+1)-th weapons are adjacent for all i which satisfy 1 ≤ i < **N**. Additionally, the first and **N**-th weapons are also adjacent.
+The second line contains **N** space-separated integers: **L1**, **L2**, ..., **LN**, where **Li** is the level of the i-th weapon. The i-th and (i+1)-th weapons are adjacent for all i which satisfy 1 ≤ i &lt; **N**. Additionally, the first and **N**-th weapons are also adjacent.
 
 ### Output
 

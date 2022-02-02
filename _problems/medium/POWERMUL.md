@@ -99,7 +99,7 @@ For every test case , output **Q** lines , each line containing the answer.
 - 1 ≤ **M** ≤ 109
 - 2 ≤ Sum of **N** over all test cases ≤ 5\*105
 - 2 ≤ Sum of **Q** over all test cases ≤ 105
-- 1 < **r** < **N**
+- 1 &lt; **r** &lt; **N**
 
 ### Subtasks
 

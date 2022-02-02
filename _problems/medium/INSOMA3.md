@@ -29,9 +29,9 @@ As the criteria for determining the disorderliness is complex, the BHMC has requ
 
 ### Input
 
-Line 1: N – The size of the array. 1 <= N <= 10^5
+Line 1: N – The size of the array. 1 &lt;= N &lt;= 10^5
 
-Line 2: N integers denoting the heights of the various buildings in order of their locations on the street. />
+Line 2: N integers denoting the heights of the various buildings in order of their locations on the street.
 
 ### Output
 

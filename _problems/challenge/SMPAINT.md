@@ -80,7 +80,7 @@ sample image using an simple graphic painting program called SMPaint. Only two t
 
 - Init: Make the new image with the specific size, all the pixels of the new image are white.
 - Paint: User gives 5 integers **C**, **U**, **D**, **L**, **R** and SMPaint will change colour to **C** at all the pixels (**x**, **y**) such that (**U** ≤ **x** ≤ **D** and **L** ≤ **y** ≤ **R**).
-  The pixel (**x**, **y**) is the pixel at the **xth** row (from the top, 1-indexed) and the **yth** column (from the left side, 1-indexed).
+    The pixel (**x**, **y**) is the pixel at the **xth** row (from the top, 1-indexed) and the **yth** column (from the left side, 1-indexed).
 
 [![Image and video hosting by TinyPic](http://i40.tinypic.com/33wa5wo.png)](http://tinypic.com?ref=33wa5wo)
 
@@ -125,7 +125,7 @@ Each line must contain 5 integers which are the values (they must be in this ord
 1 2 4 2 4
 2 2 4 3 3
 </pre>
-###  Scoring & the test data generation 
+###  Scoring &amp; the test data generation 
 
 Your solution will not get point if it performs more than **N2** Paint operations or the final image is different
 with the sample one. Your solution will be marked as Wrong Answer for that two cases.

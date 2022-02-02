@@ -95,7 +95,7 @@ If there are more than one possible pair of beat notations, output any one of th
 1 ≤ **T** ≤ 100
  2 ≤ **N** ≤ 10,000
  1 ≤ **Fi** ≤ 100,000
-**F1** < **F2** < ... < **FN**
+**F1** &lt; **F2** &lt; ... &lt; **FN**
 It is guaranteed that at least one pair of valid beat notations exists.
 
 ### Example
@@ -106,7 +106,6 @@ It is guaranteed that at least one pair of valid beat notations exists.
 
 <b>Output:</b>
 2 5 8 11<br></br>2 4 8 16<br></br>1 2 3 4 5<br></br>1 2 4<br></br>1 10 19 28<br></br>1 3 9 27 81<br></br>1 7 13<br></br>4 10 25<br></br><br></br>
-/>/>/>/>/>/>/>/>/>/>/>/>/>/>/>/>/>/>
 </pre>
 ### Note
 

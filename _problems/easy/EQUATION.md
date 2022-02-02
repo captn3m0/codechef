@@ -17,7 +17,7 @@ Given N,A,B,C, find how many solutions exist to the equation : a + b + c ≤ N, 
 
 ### Input
 
-The first line contains the number of test cases T (1<= T <= 50). Each test case contains 4 integers, N,A,B,C. 0 ≤ N,A,B,C ≤ 2500
+The first line contains the number of test cases T (1&lt;= T &lt;= 50). Each test case contains 4 integers, N,A,B,C. 0 ≤ N,A,B,C ≤ 2500
 
 ### Output
 

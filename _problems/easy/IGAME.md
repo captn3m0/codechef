@@ -15,7 +15,7 @@ After a long period of relaxation Alice and Bob decided to play a game. This tim
 
 There is a vehicle situated at the point **(m, n)** of a rectangular grid. Only one corner of the rectangular grid is defined, i.e. the left-top point **(0, 0)**, which is also known as the origin. The grid extends infinitely towards east and infinitely towards south. Alice and Bob are both sitting in a vehicle, initially situated at the point **(m, n)**. The game they are playing ends as soon as one of them reaches **(p, q)**.
 
-Now, Alice and Bob have to drive the vehicle in their respective turn. In their own turn they can move the vehicle, from **(x, y)** to **(x', y)**or **(x, y')**; where **p ≤ x' < x** and **q ≤ y' < y**. They can also move the vehicle to the point **(x-a, y-a)**, where **0 < a ≤ min(x-p, y-q)**. Also, **0 ≤ p < m** and **0 ≤ q < n**. The winner is the game is the one who drives the vehicle to **(p, q)**.
+Now, Alice and Bob have to drive the vehicle in their respective turn. In their own turn they can move the vehicle, from **(x, y)** to **(x', y)**or **(x, y')**; where **p ≤ x' &lt; x** and **q ≤ y' &lt; y**. They can also move the vehicle to the point **(x-a, y-a)**, where **0 &lt; a ≤ min(x-p, y-q)**. Also, **0 ≤ p &lt; m** and **0 ≤ q &lt; n**. The winner is the game is the one who drives the vehicle to **(p, q)**.
 
 Cunning Alice uses a biased coin for tossing purpose and always plays first. It is assumed that both Alice and Bob play optimally in their respective turns.
 
@@ -31,8 +31,8 @@ For each test case print a string - either "Alice" or "Bob" (without the quotes)
 
 1 ≤ T ≤ 1000
 1 ≤ m, n ≤ 1000
-0 ≤ p < m
-0 ≤ q < n
+0 ≤ p &lt; m
+0 ≤ q &lt; n
 
 ### Sample Input
 

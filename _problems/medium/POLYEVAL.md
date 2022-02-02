@@ -90,7 +90,7 @@ For each query, output a single line containing the answer to the corresponding 
 
 ### Constraints and Subtasks
 
-- 0 ≤ **ai**, **xj** < **786433**
+- 0 ≤ **ai**, **xj** &lt; **786433**
 - **Subtask #1** (37 points): 0 ≤ **N, Q** ≤ **1000**
 - **Subtask #2** (63 points): 0 ≤ **N, Q** ≤ **2.5 × 105**
 

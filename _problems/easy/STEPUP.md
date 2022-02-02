@@ -15,7 +15,7 @@ layout: problem
 
 Given a directed graph G with N vertices and M edges. For each vertex u, you must assign positive integer F(u) such that:
 
-1. For each edge e from a to b, F(b) > F(a)
+1. For each edge e from a to b, F(b) &gt; F(a)
 2. The maximum value m = max( F(u) ) is minimized
 
 

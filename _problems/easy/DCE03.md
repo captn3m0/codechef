@@ -27,7 +27,7 @@ For n=4, the different ways are
 Hence the required answer would be 5.
 ### Input
 
-The first line contains the number of test cases t <=10. Each of the next t lines contain single integers <=1000 denoting n.
+The first line contains the number of test cases t &lt;=10. Each of the next t lines contain single integers &lt;=1000 denoting n.
 
 ### Output
 

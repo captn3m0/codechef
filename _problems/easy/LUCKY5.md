@@ -33,7 +33,7 @@ For each **T** test cases print one integer, the minimum number of operations th
 
 1 ≤ **T** ≤ 10
 
-1 ≤ **N** < 10100000
+1 ≤ **N** &lt; 10100000
 
 ### Example
 

@@ -91,8 +91,8 @@ For each "query L R" request, output the number of ways, asked in the statement,
 
 ### Constraints
 
-- **1**<=**N**<=**100000**
-- **1**<=**Q**<=**100000**
+- **1**&lt;=**N**&lt;=**100000**
+- **1**&lt;=**Q**&lt;=**100000**
 - You can assume that the number of berries on a single bush will not exceed **30**
 
 ### Example

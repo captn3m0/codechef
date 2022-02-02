@@ -71,17 +71,17 @@ layout: problem
 ---
 All submissions for this problem are available.Alice and Bob are studying for their class test together. The topic of the test is *Prime Numbers*. The preparation is getting too boring for their liking. To make it interesting, they turn it into a game. The winner will get an ice-cream treat from the other.
 
-The game is called *Count K-Primes*. A number is a **k**-prime if it has exactly **k** *distinct* prime factors. The game is quite simple. Alice will give three numbers **A**, **B** & **K** to Bob. Bob needs to tell Alice the number of **K**-prime numbers between **A** & **B** (both inclusive). If Bob gives the correct answer, he gets a point. If not, Alice gets a point. They play this game **T** times.
+The game is called *Count K-Primes*. A number is a **k**-prime if it has exactly **k** *distinct* prime factors. The game is quite simple. Alice will give three numbers **A**, **B** &amp; **K** to Bob. Bob needs to tell Alice the number of **K**-prime numbers between **A** &amp; **B** (both inclusive). If Bob gives the correct answer, he gets a point. If not, Alice gets a point. They play this game **T** times.
 
 Bob hasn't prepared so well. But he really wants to win the game. He wants you to tell him the correct answer.
 
 ### Input
 
-First line of input contains a single integer **T**, the number of times they play. Each game is described in a single line containing the three numbers **A**,**B** & **K**.
+First line of input contains a single integer **T**, the number of times they play. Each game is described in a single line containing the three numbers **A**,**B** &amp; **K**.
 
 ### Output
 
-For each game, output on a separate line the number of **K**-primes between **A** & **B**.
+For each game, output on a separate line the number of **K**-primes between **A** &amp; **B**.
 
 ### Constraints:
 

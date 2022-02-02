@@ -89,7 +89,7 @@ For instance, suppose the serial numbers on the cartons in the order in which th
  • Exchange 34, 78 — 90, 29, 78, 34, 12
 
 
-In this example, it can be shown that 7 exchanges are needed to reorder the cartons as desired./>
+In this example, it can be shown that 7 exchanges are needed to reorder the cartons as desired.
 
 Clearly, you want to get the job done with minimum eﬀort. Given the initial arrangement of the cartons and the ﬁnal sequence that the teacher wants, your goal is to compute the minimum number of exchanges required to rearrange the cartons in the desired order.
 

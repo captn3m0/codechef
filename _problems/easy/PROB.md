@@ -107,7 +107,7 @@ For each test case, output a single line containing the probability that Artem w
 
 **1 ≤ T ≤ 10000**
 **1 ≤ T1, T2, T3 ≤ 1000000000**
-**0 ≤ T4 < T1 + T2**
+**0 ≤ T4 &lt; T1 + T2**
 
 ### Sample
 
@@ -131,7 +131,7 @@ For each test case, output a single line containing the probability that Artem w
 - **(2,1,0)** with probability **(1/5)**. Probability of winning is **(2/3)** - there are no second chances!
 - **(1,2,0)** with probability **(1/5)**. Probability of winning is **(1/3)** - there are no second chances!
 - **(1,1,1)** with probability **(2/5)**. Probability of winning is **(1/3) + (1/3)\*(1/2) = (1/2)**. This is calculated by considering the two cases 
-  - The winning ticket is picked in the first turn - probability **(1/3)**.
-  - A **Type-3** ticket is picked in first turn, followed by the winning ticket - probability **(1/3)\*(1/2)**.
+    - The winning ticket is picked in the first turn - probability **(1/3)**.
+    - A **Type-3** ticket is picked in first turn, followed by the winning ticket - probability **(1/3)\*(1/2)**.
 
 The over-all probability of winning is **(1/10) + (2/15) + (1/15) + (1/5) = (1/2)**.

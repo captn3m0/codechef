@@ -118,7 +118,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 1 ≤ **Uj** ≠ **Vj** ≤ **N**;
 
-0 ≤ **Yj** < 231.
+0 ≤ **Yj** &lt; 231.
 
 ### Example
 

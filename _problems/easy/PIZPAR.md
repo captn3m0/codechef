@@ -46,8 +46,8 @@ Output a single integer - the maximum number of slices chef can get.
 
 ### Subtasks
 
-- **Subtask 1:** **1** ≤ **M,N** ≤ **100** - 10 points
-- **Subtask 2:** **1** ≤ **N** ≤ **100**, **1** ≤ **M** ≤ **105** - 20 points
+- **Subtask 1: 1** ≤ **M,N** ≤ **100** - 10 points
+- **Subtask 2: 1** ≤ **N** ≤ **100**, **1** ≤ **M** ≤ **105** - 20 points
 - **Subtask 3:** Original Constraints - 70 points
 
 ### Example

@@ -85,7 +85,7 @@ Output M lines where each line contains the answer to the **i**-th query.
 
 ### Constraints
 
-- **1** ≤ **N, M** **≤ 105**
+- **1** ≤ **N, M ≤ 105**
 - **1** ≤ **L** ≤ **R** ≤ **N**
 - **floor((R-L+1)/2)** k ≤ **R-L+1**
 - 0 ≤ **Ai** ≤ **109**

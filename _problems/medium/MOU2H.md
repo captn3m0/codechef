@@ -83,7 +83,7 @@ For example, the mountain described by **N = 9, H = \[0, 2, 1, 2, 1, 3, 0, 1, 0\
 </pre>
  In the mountain, all of the tourists will go from the point **1** to point **N**.
 
-For comfort of the tourists, Chef has bought teleports too. Using a teleport, a tourist can be transferred from point **i** to point **j**, for all **i** < **j**. Of course, tourists can also walk from point **i** to point **i+1** on foot.
+For comfort of the tourists, Chef has bought teleports too. Using a teleport, a tourist can be transferred from point **i** to point **j**, for all **i** &lt; **j**. Of course, tourists can also walk from point **i** to point **i+1** on foot.
 
 Now Chef wants to calculate the attractiveness of the mountain, as the number of the different climbs.
 
@@ -92,7 +92,7 @@ A climb is defined by the *nonempty* sequence **(p1, p1+1), (p2, p2+1), ..., (ps
 Two climbs, say **(p1, p1+1), (p2, p2+1), ..., (ps, ps+1)** and **(q1, q1+1), (q2, q2+1), ..., (qt, qt+1)** are different if and only if
 
 - **s ≠ t** or
-- There exists at least one **k** such that **1 ≤ k < min(s, t)** and **Hpk+1 – Hpk ≠ Hqk+1 – Hqk**.
+- There exists at least one **k** such that **1 ≤ k &lt; min(s, t)** and **Hpk+1 – Hpk ≠ Hqk+1 – Hqk**.
 
 You are given the array **H**, find the number of the different climbs that exist on the mountain. Since the answer can be very large, output it modulo **109+9 = 1000000009**.
 

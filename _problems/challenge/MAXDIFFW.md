@@ -99,7 +99,7 @@ All the **10** graphs have **N = 50** and the cost of each directed edge is chos
 
 Your score for each test case will be the value **FS**. If **FS ≤ 0**, then you will get **Wrong answer** - this means that you need to obtain a game score larger than Chef's on every test case. It is guaranteed that this is possible on all the official test cases. Your overall score will be the average score on all the test cases.
 
-During the contest, your score is computed on only the first 4 test cases (they correspond to 2 different graphs and each of the 2 strategies for each graph). The score for the other 16 test cases is considered 0 during the contest (but your program is evaluated on all the test cases and you will only get **Correct answer** if you correctly solve all the 20 test cases, i.e., if **FS > 0** on all the test cases). After the contest, your program will be re-evaluated on all the test cases and the correct score for each test case will be considered.
+During the contest, your score is computed on only the first 4 test cases (they correspond to 2 different graphs and each of the 2 strategies for each graph). The score for the other 16 test cases is considered 0 during the contest (but your program is evaluated on all the test cases and you will only get **Correct answer** if you correctly solve all the 20 test cases, i.e., if **FS &gt; 0** on all the test cases). After the contest, your program will be re-evaluated on all the test cases and the correct score for each test case will be considered.
 
 ### Example
 

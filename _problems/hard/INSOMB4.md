@@ -38,46 +38,35 @@ This can be done by:
 6\. Transfer these bearings to Box 2
 7\. Fill Box 3 again
 8\. Transfer to Box 2 again so that Box 2 contains exactly 14 bearings.
-9\. These bearings from Box 2 are then transferred to the production box. />/>/>/>/>/>/>/>/>
+9\. These bearings from Box 2 are then transferred to the production box.
 
 Thus, the minimum number of transfers that take place for the first production box is 9.
-
-
-/>/>
 
 **Input Format:**
 
 
-Line 1: N - Number of measuring boxes. 1 <= N <= 10
+Line 1: N - Number of measuring boxes. 1 &lt;= N &lt;= 10
 
 
 Line 2: N Space separated integers representing the number of ball bearings that can be accommodated into the measuring boxes. These integers will be in the range (0, 50) exclusive.
 
 
-Line 3: C – The number of ball bearings to be put into the production boxes. 1 <= C <= 100
-
-
-/>/>/>/>/>
+Line 3: C – The number of ball bearings to be put into the production boxes. 1 &lt;= C &lt;= 100
 
 **Output Format:**
 
 
 Line 1: The minimum number of transfers to be effected for the first production box. In case obtaining the exact number of bearings required in the production boxes is not possible, output -1.
 
-/>/>
 
 
-
-**Sample Input:**/>
+**Sample Input:**
 
 <pre>
 3
 30 17 5
 14
 </pre>
-
-/>
-
 **Sample Output:**
 
 <pre>

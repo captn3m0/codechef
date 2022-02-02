@@ -25,8 +25,8 @@ Alice is interested in knowing the longest control string which is valid for at 
 
 ### Input
 
-First line of input contains an integer t (t<=5), the number of test cases. Each test case starts with an integer M (1<=M<=100), the number of maps. Then M maps description follow.
- The ith map description starts with an integer N (2<=N<=1000), the number of cities on the island. Each of the following N-1 lines contain two space separated integers u c v (1<=u,v<=N , c=L or R) which means a road between city u and city v on the ith island and if c is L(R) then v is in the left(right) subtree of u. The capital city of each island is the city with number 1.
+First line of input contains an integer t (t&lt;=5), the number of test cases. Each test case starts with an integer M (1&lt;=M&lt;=100), the number of maps. Then M maps description follow.
+ The ith map description starts with an integer N (2&lt;=N&lt;=1000), the number of cities on the island. Each of the following N-1 lines contain two space separated integers u c v (1&lt;=u,v&lt;=N , c=L or R) which means a road between city u and city v on the ith island and if c is L(R) then v is in the left(right) subtree of u. The capital city of each island is the city with number 1.
 
 ### Output
 

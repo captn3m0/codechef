@@ -100,15 +100,15 @@ For each testcase, output a single line containing the answer to the question
 
 **CONSTRAINTS:**
 
-1<=T<=10
+1&lt;=T&lt;=10
 
-1<=X\[i\],Y\[i\]<=N 
+1&lt;=X\[i\],Y\[i\]&lt;=N 
 
-0<=M<=N\*N 
+0&lt;=M&lt;=N\*N 
 
-40 points : 1<=N<=8
+40 points : 1&lt;=N&lt;=8
 
-60 points : 1<=N<=1000
+60 points : 1&lt;=N&lt;=1000
 
 No two queens can be in the same square.
 

@@ -69,7 +69,7 @@ time:
     current: 1493556868
 layout: problem
 ---
-All submissions for this problem are available. Let S = s1, s2, ...,sn be a string and let S\[i, j\] denote the substring si, si+1, ... sj. The **suffix array** A of S is an array of integers giving the starting positions of suffixes of S in lexicographical order. This means, the entry A\[i\] contains the starting position of the i-th smallest(lexicographically) suffix of S. In other words, for all 1 < i ≤ n: S\[A\[i - 1\], n\] < S\[A\[i\], n\].
+All submissions for this problem are available. Let S = s1, s2, ...,sn be a string and let S\[i, j\] denote the substring si, si+1, ... sj. The **suffix array** A of S is an array of integers giving the starting positions of suffixes of S in lexicographical order. This means, the entry A\[i\] contains the starting position of the i-th smallest(lexicographically) suffix of S. In other words, for all 1 &lt; i ≤ n: S\[A\[i - 1\], n\] &lt; S\[A\[i\], n\].
 
 Let us take an example. Suppose S = "12323". Then all suffixes of S are "12323", "2323", "323", "23", "3". If we sort the suffixes lexicographically, we get "12323", "23", "2323", "3", "323". Therefore the suffix array, which gives the starting positions of suffixes in lexicographic order, will be A = 1, 4, 2, 5, 3.
 
@@ -78,10 +78,10 @@ There is exactly one suffix array for each string. However, several strings can 
 However, N can be very large, so the array A is not given directly. You should initialize the array A as A\[i\] = i for all 1 ≤ i ≤ N and apply **M** operations to it in order to obtain the desired suffix array A. Each operation can be of one of the following types:
 
 - **0 u v**: Remove the sub-sequence A\[u,v\] and bring it to the front. After this operation, the N elements would be in the following order: 
-   A\[u\], A\[u + 1\], ...
-  A\[v\], A\[1\], A\[2\], ... A\[u - 1\], A\[v + 1\], A\[v + 2\], ... A\[N\]. />
+     A\[u\], A\[u + 1\], ...
+    A\[v\], A\[1\], A\[2\], ... A\[u - 1\], A\[v + 1\], A\[v + 2\], ... A\[N\].
 - **1 u v**: Flip A\[u,v\]. After this operation, the N elements would be in the following order: 
-   A\[1\], A\[2\], ... A\[u-1\], A\[v\], A\[v-1\], ... A\[u+1\], A\[u\], A\[v+1\], A\[v+2\], ... A\[N\]. />
+     A\[1\], A\[2\], ... A\[u-1\], A\[v\], A\[v-1\], ... A\[u+1\], A\[u\], A\[v+1\], A\[v+2\], ... A\[N\].
 
 For this problem, a string is **an array of positive integers**. Additionally, the number of different integers used in a string must be same as the largest integer in the string. For example: (1, 2, 2) and (4, 5, 1, 2, 3) are valid strings while (1, 1, 3) and (-1, 0, 1, 2) are not.
 

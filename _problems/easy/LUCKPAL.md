@@ -15,7 +15,7 @@ Chef Palin, as his name suggests, is always very interested in palindromic strin
 
 **Input**
 
-The first line contains a single integer T <= 100 the number of testcases. The following T lines each contain a string of length <= 1000 and only containing characters 'a'-'z'. 
+The first line contains a single integer T &lt;= 100 the number of testcases. The following T lines each contain a string of length &lt;= 1000 and only containing characters 'a'-'z'. 
 
 **Output**
 

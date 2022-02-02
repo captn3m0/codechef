@@ -15,8 +15,8 @@ In poker, you have 5 cards. There are 10 kinds of poker hands (from highest to l
 
 - royal flush - ace, king, queen, jack and ten, all in the same suit
 - straight flush - five cards of the same suit in sequence, such
-  as 10,9,8,7,6 of clubs; ace can be counted both as the highest card or as the
-  lowest card - A,2,3,4,5 of hearts is a straight flush. But 4,3,2,A,K of hearts is not a straight flush - it's just a flush.
+    as 10,9,8,7,6 of clubs; ace can be counted both as the highest card or as the
+    lowest card - A,2,3,4,5 of hearts is a straight flush. But 4,3,2,A,K of hearts is not a straight flush - it's just a flush.
 - four of a kind - four cards of the same rank, such as four kings.
 - full house - three cards of one rank plus two cards of another rank
 - flush - five cards of the same suit (but not a straight flush)

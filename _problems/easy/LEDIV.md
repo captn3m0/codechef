@@ -70,7 +70,7 @@ layout: problem
 ---
 All submissions for this problem are available.The Little Elephant from the Zoo of Lviv has an array **A** that consists of **N** positive integers. Let **A\[i\]** be the **i**-th number in this array (**i = 1, 2, ..., N**).
 
-Find the minimal number **x > 1** such that **x** is a divisor of all integers from array **A**. More formally, this **x** should satisfy the following relations:
+Find the minimal number **x &gt; 1** such that **x** is a divisor of all integers from array **A**. More formally, this **x** should satisfy the following relations:
 
 **A\[1\] mod x = 0**, **A\[2\] mod x = 0**, ..., **A\[N\] mod x = 0**,
 
@@ -115,4 +115,4 @@ The sum of values of **N** in each test file does not exceed **100000**
 
 **Case 2.** Let's perform check for several first values of **x**.
 
-**x****4 mod x****7 mod x****5 mod x**20113112403154206415740584759475As we see each number up to 9 does not divide all of the numbers in the array. Clearly all larger numbers also will fail to do this. So there is no such number **x > 1** and the answer is **-1**.
+**x****4 mod x****7 mod x****5 mod x**20113112403154206415740584759475As we see each number up to 9 does not divide all of the numbers in the array. Clearly all larger numbers also will fail to do this. So there is no such number **x &gt; 1** and the answer is **-1**.

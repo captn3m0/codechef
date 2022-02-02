@@ -67,7 +67,7 @@ time:
     current: 1493557957
 layout: problem
 ---
-All submissions for this problem are available.Chef has given you a sequence **A\[1\], A\[2\], ..., A\[N\]** composed of **N** nonnegative integer numbers. Then, for each pair (**i**; **j**) such that **1 <= i < j <= N**, we have written a number that equals to **A\[i\] xor A\[j\]** (xor is exclusive or, "xor" in Pascal, "^" in C++). Thus, we have obtained **N\*(N-1)/2** numbers. Your task is to find **K** minimal numbers among them.
+All submissions for this problem are available.Chef has given you a sequence **A\[1\], A\[2\], ..., A\[N\]** composed of **N** nonnegative integer numbers. Then, for each pair (**i**; **j**) such that **1 &lt;= i &lt; j &lt;= N**, we have written a number that equals to **A\[i\] xor A\[j\]** (xor is exclusive or, "xor" in Pascal, "^" in C++). Thus, we have obtained **N\*(N-1)/2** numbers. Your task is to find **K** minimal numbers among them.
 
 ### Input
 
@@ -83,7 +83,7 @@ In the only line of output print space separated sequence of **K** numbers, the 
 
  1 ≤ **K** ≤ **min{250000, N\*(N-1)/2}**
 
- 0 ≤ **A\[i\]** < 231
+ 0 ≤ **A\[i\]** &lt; 231
 
 ### Example
 

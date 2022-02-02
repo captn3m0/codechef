@@ -92,7 +92,7 @@ If Chef cannot arrive at the bus station **N** before or at the time **T**, outp
 - **1** ≤ **U** ≤ **N**
 - **1** ≤ **V** ≤ **N**
 - **U** ≠ **V**
-- 0 ≤ **S** < **E** ≤ **109**
+- 0 ≤ **S** &lt; **E** ≤ **109**
 
 ### Example
 

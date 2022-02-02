@@ -75,14 +75,14 @@ But today, Ciel being little casual stepped in wrong direction on her way to her
  She does not go past her restaurant because it is altogether different world and once she reaches her restaurant she stops.
 
 For example, if **N** is **3** then
-0 -> **1** -> **-1** -> 0 -> **1** -> **3**,
-0 -> **2** -> **1** -> **3**
+0 -&gt; **1** -&gt; **-1** -&gt; 0 -&gt; **1** -&gt; **3**,
+0 -&gt; **2** -&gt; **1** -&gt; **3**
 are some possible ways where as
-0 -> **-1** -> **1** -> **3**, (She did not set her foot wrong at her home)
-0 -> **1** -> **3**, (She sets her foot wrong direction exactly once)
-0 -> **1** -> 0 -> **3**, (Her steps are always size 1 or 2)
-0 -> **1** -> **2** -> **4** -> **3**, (She does not go past her restaurant)
-0 -> **1** -> **2** -> **3** -> **2** -> **3** (Once she reaches her restaurant, she stops)
+0 -&gt; **-1** -&gt; **1** -&gt; **3**, (She did not set her foot wrong at her home)
+0 -&gt; **1** -&gt; **3**, (She sets her foot wrong direction exactly once)
+0 -&gt; **1** -&gt; 0 -&gt; **3**, (Her steps are always size 1 or 2)
+0 -&gt; **1** -&gt; **2** -&gt; **4** -&gt; **3**, (She does not go past her restaurant)
+0 -&gt; **1** -&gt; **2** -&gt; **3** -&gt; **2** -&gt; **3** (Once she reaches her restaurant, she stops)
 are not.
 
 ### Input

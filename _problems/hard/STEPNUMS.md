@@ -17,7 +17,7 @@ For example, 8789A9 is a 6-digit base 11 stepping number. 9A0A and 234 are not s
 
 ### Input
 
-The first line contains an integer T, the number of test cases (about 20000). Each of the next T lines contains an integer n (2 <= n < 264).
+The first line contains an integer T, the number of test cases (about 20000). Each of the next T lines contains an integer n (2 &lt;= n &lt; 264).
 
 ### Output
 

@@ -83,7 +83,7 @@ Chef know that most of all Sasha loves numbers, that's why he bought **N** posit
 
 8. Chef randomly choose some number **x** from his gift.
 9. Sasha randomly choose some number **y** form her gift.
-10. If **xy > yx** then girl will kiss fellow.
+10. If **xy &gt; yx** then girl will kiss fellow.
 11. Numbers **x,y** will be discarded from gifts.
 Now chef is wondering what is the expected number of times he will be kissed by Sasha ? ### Input
 
@@ -123,4 +123,4 @@ For each test case, output a single line containing answer for corresponding tes
 </pre>
 ### Explanation
 
-**Example case 1.** Game will have only 1 turn. Chef will choose 3, while Sasha will choose 4. Since 34>43 girl will kiss boy. Hence answer is 1.
+**Example case 1.** Game will have only 1 turn. Chef will choose 3, while Sasha will choose 4. Since 34&gt;43 girl will kiss boy. Hence answer is 1.

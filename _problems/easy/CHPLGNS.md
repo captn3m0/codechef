@@ -100,7 +100,7 @@ For each test case, output a single line containing **N** space-separated intege
 
 
 
-**Subtask 1: (10 points)**/>
+**Subtask 1: (10 points)**
 
 - **T** ≤ **6**
 - **2** ≤ **N** ≤ **10**

@@ -80,9 +80,9 @@ A name can have at most three parts: first name, middle name and last name. It w
 
 Let us look at some examples of formatting according to these rules:
 
-- gandhi -> Gandhi
-- mahatma gandhI -> M. Gandhi
-- Mohndas KaramChand ganDhi -> M. K. Gandhi
+- gandhi -&gt; Gandhi
+- mahatma gandhI -&gt; M. Gandhi
+- Mohndas KaramChand ganDhi -&gt; M. K. Gandhi
 
 ### Input
 

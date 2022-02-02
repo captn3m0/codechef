@@ -35,7 +35,7 @@ For each **R** from 0 to **M − 1**, inclusive, denote **Smin(R) = min{WS(R + K
 As mentioned above, your task is for the given **M** and **W\[0\], W\[1\], ..., W\[9\]** find the sequence **Nmin(0), Nmin(1), ..., Nmin(M − 1)**. Since the output could be quite large output the following sum instead:
 **F(Nmin(0)) + F(Nmin(1)) + ... + F(Nmin(M − 1))**,
 where **F(0) = 0** and for positive integer **N** with decimal representation **D1D2...DK**:
-**F(N) = (D1 \* 3141K−1 + D2 \* 3141K−2 + ... + DK−1 \* 3141 + DK) mod 232**./>/>/>
+**F(N) = (D1 \* 3141K−1 + D2 \* 3141K−2 + ... + DK−1 \* 3141 + DK) mod 232**.
 
 ### Input
 

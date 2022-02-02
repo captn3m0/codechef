@@ -72,9 +72,9 @@ All submissions for this problem are available.Chef is playing a game on a seque
 
 - If all the numbers are equal, the game ends.
 - Otherwise 
-  - Select two numbers which are unequal
-  - Subtract the smaller number from the larger number
-  - Replace the larger number with the result from above
+    - Select two numbers which are unequal
+    - Subtract the smaller number from the larger number
+    - Replace the larger number with the result from above
 
 Chef has already figured out that the game **always terminates**. He also knows, for a given sequence of integers, the game will always terminate on the **same value**, no matter how the game is played. Chef wants you to simulate the game for him and tell him if the game terminates on **1**.
 
@@ -141,11 +141,11 @@ For each test case, **output a single integer** - the number of **sub-sequences*
 
 **Test Case 3:** There are 8 subsequences of { 6, 10, 15 }
 
-- {} => The game cannot be played on this sub-sequence
-- { 6 } => The game cannot be played on this sub-sequence
-- { 10 } => The game cannot be played on this sub-sequence
-- { 15 } => The game cannot be played on this sub-sequence
-- { 6, 10 } => The game cannot end at { 1, 1 }
-- { 6, 15 } => The game cannot end at { 1, 1 }
-- { 10, 15 } => The game cannot end at { 1, 1 }
-- { 6, 10, 15 } => The game ends at { 1, 1, 1 }. Hence this is the only sub-sequence that is counted in the result.
+- {} =&gt; The game cannot be played on this sub-sequence
+- { 6 } =&gt; The game cannot be played on this sub-sequence
+- { 10 } =&gt; The game cannot be played on this sub-sequence
+- { 15 } =&gt; The game cannot be played on this sub-sequence
+- { 6, 10 } =&gt; The game cannot end at { 1, 1 }
+- { 6, 15 } =&gt; The game cannot end at { 1, 1 }
+- { 10, 15 } =&gt; The game cannot end at { 1, 1 }
+- { 6, 10, 15 } =&gt; The game ends at { 1, 1, 1 }. Hence this is the only sub-sequence that is counted in the result.

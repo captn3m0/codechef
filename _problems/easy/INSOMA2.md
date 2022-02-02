@@ -25,7 +25,7 @@ The string ABA can be found in 14 different ways – corresponding to the follow
 
 ### Input
 
-Line 1: N. 1 <= N <= 1000
+Line 1: N. 1 &lt;= N &lt;= 1000
  Line 2 to N+1: Elements of the NxN matrix in row major order (separated by a space)
  Line N+2: The string to search. Maximum length of this string will be N2.
 

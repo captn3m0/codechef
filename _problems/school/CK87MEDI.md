@@ -101,7 +101,7 @@ For each test case output a single line, containing a single integer, indicating
 ### Constraints
 
 - **1 ≤ T ≤ 100.**
-- **0 ≤ K < N ≤ 100.**
+- **0 ≤ K &lt; N ≤ 100.**
 - **0 ≤ Ai ≤ 1000**.
 - **N + K** is guaranteed to be **odd.**
 

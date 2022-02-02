@@ -19,11 +19,11 @@ In each of his queries, he wants you to consider only a set S of schools that sa
 
 ### Notes
 
-If school X has distanceX & feeX and school Y has distanceY & feeY, then Mr.Nagulu prefers school X over school Y if and only if ( distanceX <= distanceY AND feeX <= feeY ). You can assume that no two schools have both distance and fee equal. Also, a school can not be preferred over itself.
+If school X has distanceX &amp; feeX and school Y has distanceY &amp; feeY, then Mr.Nagulu prefers school X over school Y if and only if ( distanceX &lt;= distanceY AND feeX &lt;= feeY ). You can assume that no two schools have both distance and fee equal. Also, a school can not be preferred over itself.
 
 ### Input
 
-First line contains an integer N ( total number of schools 1 <= **N** <= 100,000 ). Each of the next N lines contains D F ( D is the distance and F is the fee of each school, 1 <= **D**, **F** <= 1,000,000,000 and no two schools have both distance and fee equal. ) Next line has an integer Q ( number of queries 1 <= Q <= 100,000 ). Each of the next Q lines describe a query, having maxDistance minFee maxFee ( as described in the problem, 1 <= **maxDistance**, **minFee**, **maxFee** <= 1,000,000,000 and minFee <= maxFee ).
+First line contains an integer N ( total number of schools 1 &lt;= **N** &lt;= 100,000 ). Each of the next N lines contains D F ( D is the distance and F is the fee of each school, 1 &lt;= **D**, **F** &lt;= 1,000,000,000 and no two schools have both distance and fee equal. ) Next line has an integer Q ( number of queries 1 &lt;= Q &lt;= 100,000 ). Each of the next Q lines describe a query, having maxDistance minFee maxFee ( as described in the problem, 1 &lt;= **maxDistance**, **minFee**, **maxFee** &lt;= 1,000,000,000 and minFee &lt;= maxFee ).
 
 ### Output
 
@@ -55,11 +55,11 @@ For each query, print the answer in a new line.
 </pre>
 
 **Explanation :**  Listing the schools in 'Max Special S' for each of the queries in the given sample case. Schools are listed in (distance, fee) pairs.
-5 3 4 --> (4,3) (3,4) ; 
-5 4 6 --> (3,4) (1,5) ; 
-5 1 4 --> (1,1) ; This school is preferred over all other schools ;
-3 1 4 --> (1,1) ; 
-4 2 6 --> (2,2) (1,5) ; (2,2) is preferred over (3,4) and (4,3)
+5 3 4 --&gt; (4,3) (3,4) ; 
+5 4 6 --&gt; (3,4) (1,5) ; 
+5 1 4 --&gt; (1,1) ; This school is preferred over all other schools ;
+3 1 4 --&gt; (1,1) ; 
+4 2 6 --&gt; (2,2) (1,5) ; (2,2) is preferred over (3,4) and (4,3)
 
 
 ***Warning :**  Large input / output. You may have to use efficient input / output methods if you are using languages with heavy input / output overload. Eg: Prefer using scanf/printf to cin/cout for C/C++*

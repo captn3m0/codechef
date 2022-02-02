@@ -102,7 +102,7 @@ Cherry has never been to school and is not very good at counting, so she always 
 - **1** ≤ **ui**,**vi** ≤ **N**
 - **1** ≤ **Li**,**kj** ≤ **108**
 - **1** ≤ **d1** ≤ **108**
-- **dj-1** < **dj** ≤ **108** for **2** ≤ **j** ≤ **Q**
+- **dj-1** &lt; **dj** ≤ **108** for **2** ≤ **j** ≤ **Q**
 
 ### Subtasks
 

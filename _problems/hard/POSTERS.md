@@ -19,11 +19,11 @@ Time to get to work! Oh, the reason you were hired is that you are very good at 
 
 The first line consists of a single integer T indicating the number of test cases (about 25).
 
-Each test case consists begins with a single integer n indicating the number of posters. The next n lines consist of 4 integers x0, x1, y0, and y1 satisfying x0 < x1 and y0 < y1. This means the poster covers all points (x,y) satisfying x0 <= x <= x1 and y0 <= y <= y1.
+Each test case consists begins with a single integer n indicating the number of posters. The next n lines consist of 4 integers x0, x1, y0, and y1 satisfying x0 &lt; x1 and y0 &lt; y1. This means the poster covers all points (x,y) satisfying x0 &lt;= x &lt;= x1 and y0 &lt;= y &lt;= y1.
 
-As stated before hand, no corner of any poster will intersect any other poster anywhere. That is, if (x,y) is a corner point of one poster and another poster is described by x0, x1, y0, and y1, then we do not have x0 <= x <= x1 and y0 <= y <= y1.
+As stated before hand, no corner of any poster will intersect any other poster anywhere. That is, if (x,y) is a corner point of one poster and another poster is described by x0, x1, y0, and y1, then we do not have x0 &lt;= x &lt;= x1 and y0 &lt;= y &lt;= y1.
 
-Bounds: 1 <= n <= 100 and each integer in a poster description fits in a signed 32 bit integer.
+Bounds: 1 &lt;= n &lt;= 100 and each integer in a poster description fits in a signed 32 bit integer.
 
 ### Output
 

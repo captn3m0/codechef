@@ -94,7 +94,7 @@ For each test case, print a single line containing one number — the number of 
 ### Constraints
 
 - 1 ≤ **T** ≤ 4
-- 1 ≤ **n** < 10501
+- 1 ≤ **n** &lt; 10501
 - **n** does not contain leading zeroes
 - 2 ≤ **p** ≤ 100,000
 - **p** is prime

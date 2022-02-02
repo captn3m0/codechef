@@ -95,7 +95,7 @@ Print a single integer corresponding to the maximal value of **(x - y)**.
 
 ### Subtasks
 
-- 5%: n <= 20
+- 5%: n &lt;= 20
 - 95%: no other constraints
 
 ### Example

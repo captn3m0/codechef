@@ -21,9 +21,9 @@ For each test case print the number of days Johnny will be happy in this situati
 
 ### Constraints
 
-1 <= t <= 5
-2 <= n <= 30
-1 <= p <= min(6, n-1)
+1 &lt;= t &lt;= 5
+2 &lt;= n &lt;= 30
+1 &lt;= p &lt;= min(6, n-1)
 
 ### Example
 

@@ -123,7 +123,7 @@ For each test case, output a single **n**-digit number (without leading zeroes) 
 
 **Example case 1.** All one-digit numbers have the same **LIS** array, so any answer from 0 to **9** will be accepted.
 
-**Example cases 2 & 3.** For a two digit number we always have **LIS1 = 1**, but the value of **LIS2** depends on whether the first digit is strictly less than the second one. If this is the case (like for number **36**), **LIS2 = 2**, otherwise (like for numbers **54** or **77**) the values of **LIS2** is **1**.
+**Example cases 2 &amp; 3.** For a two digit number we always have **LIS1 = 1**, but the value of **LIS2** depends on whether the first digit is strictly less than the second one. If this is the case (like for number **36**), **LIS2 = 2**, otherwise (like for numbers **54** or **77**) the values of **LIS2** is **1**.
 
 **Example case 4.** This has already been explained in the problem statement.
 

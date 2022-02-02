@@ -82,12 +82,10 @@ Each test starts with a single line having an integer, **N**, the number of leve
 Next line contains contains **N** integers with the ith integer being **ai** as described above.
 
 Next line contains contains **N** integers with the ith integer being **pi** as described above. Note that the probabilities given will be in percents.
-/>/>/>/>
 
 ### Output:
 
 For each test case, output a line containing the required probability. The answer will be accepted if the relative error is not more than 10-6.
-/>
 
 ### Constraints:
 

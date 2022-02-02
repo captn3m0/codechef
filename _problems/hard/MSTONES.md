@@ -23,9 +23,9 @@ For each test case, output the maximum number of collinear milestones.
 
 ### Constraints
 
-- T <= 30
-- 1 <= N <= 10 000
-- -15 000 <= Xi, Yi <= 15 000
+- T &lt;= 30
+- 1 &lt;= N &lt;= 10 000
+- -15 000 &lt;= Xi, Yi &lt;= 15 000
 
 ### Example
 

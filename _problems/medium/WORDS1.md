@@ -17,7 +17,7 @@ There is a large number of magnetic plates on every door. Every plate has one wo
 
 ### Input
 
-The input consists of T test cases. The number of them (T, equal to about 500) is given on the first line of the input file. Each test case begins with a line containing a single integer number N that indicates the number of plates (1 <= N <= 100000). Then exactly Nlines follow, each containing a single word. Each word contains at least two and at most 1000 lowercase characters, that means only letters '`a`' through '`z`' will appear in the word. The same word may appear several times in the list.
+The input consists of T test cases. The number of them (T, equal to about 500) is given on the first line of the input file. Each test case begins with a line containing a single integer number N that indicates the number of plates (1 &lt;= N &lt;= 100000). Then exactly Nlines follow, each containing a single word. Each word contains at least two and at most 1000 lowercase characters, that means only letters '`a`' through '`z`' will appear in the word. The same word may appear several times in the list.
 
 ### Output
 

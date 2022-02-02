@@ -76,7 +76,7 @@ Chef wants to make **M** queries. Each query has one of the two types:
 
 - **1 l r** - Calculate some interesting function **F** for subarray indexed from **l** to **r** inclusive.
 - **2 l r** - Modify the given array by removing all elements having indices in range from **l** to **r** and then putting these numbers at the beginning of
-  array. Order of all other elements remains same.
+    array. Order of all other elements remains same.
 
 For example: you have array \[1, 2, 3, 4, 5, 6, 7, 8\] and query (2 4 6), the modified array after the operation will look like \[4, 5, 6, 1, 2, 3, 7, 8\].
 All queries that goes after this query have to be executed at new the array.

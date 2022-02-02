@@ -101,7 +101,7 @@ Each of the next **n** lines, each line contains **n** space separated integers.
 
 Each of the next **F** lines, each line contains **4** space separated integers denoting **x1i**, **y1i**, **x2i**, **y2i**, denoting the top left coordinates and bottom right coordinates of the region enclosed by the **i**-th fence.
 
-### Example Input & Output
+### Example Input &amp; Output
 
 <pre>
 <b>Input</b>

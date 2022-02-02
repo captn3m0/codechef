@@ -114,7 +114,7 @@ Output single integer which is the required answer modulo 1000000007
 - **1** ≤ **N** ≤ **100000**
 - **1** ≤ **M** ≤ **500**
 - **1** ≤ **A\[i\]** ≤ **100000**
-- 0 ≤ **B\[i\]** < **N**
+- 0 ≤ **B\[i\]** &lt; **N**
 
 ### Example
 

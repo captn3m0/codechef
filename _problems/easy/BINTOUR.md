@@ -76,7 +76,7 @@ In this problem we consider one of these tournaments.
 
 Let's us call a tournament *binary*, if it runs according to the scheme described below:
 
-- Exactly **N** knights take part in the tournament, **N**=2**K** for some integer **K** > 0.
+- Exactly **N** knights take part in the tournament, **N**=2**K** for some integer **K** &gt; 0.
 - Each knight has a unique skill called *strength*, described as an integer from the interval \[1, **N**\].
 - Initially, all the knights are standing in a line, waiting for a battle. Since all their strengths are unique, each initial configuration can be described as a permutation of numbers from 1 to **N**.
 - There are exactly **K** rounds in the tournament, 2**K - i + 1** knights take part in the **i**'th round. The **K**'th round is called *the final*.
@@ -97,7 +97,7 @@ Output should consist of **2K** lines. The **i**'th line should contain the numb
 
 ### Constraints
 
-1 ≤ **K** < 20
+1 ≤ **K** &lt; 20
 
 ### Examples
 
@@ -121,14 +121,14 @@ Output should consist of **2K** lines. The **i**'th line should contain the numb
 
 In the first example we have **N**=2 knights. Let's consider each initial configuration that could appear and simulate the tournament.
 
-(1, 2) -> (2)
+(1, 2) -&gt; (2)
 
-(2, 1) -> (2)
+(2, 1) -&gt; (2)
 
 In the second example we have **N**=4 knights. Let's consider some initial configurations that could appear and simulate the tournament.
 
-(1, 2, 3, 4) -> (2, 4) -> (4)
+(1, 2, 3, 4) -&gt; (2, 4) -&gt; (4)
 
-(3, 2, 4, 1) -> (3, 4) -> (4)
+(3, 2, 4, 1) -&gt; (3, 4) -&gt; (4)
 
-(4, 1, 3, 2) -> (4, 3) -> (4)
+(4, 1, 3, 2) -&gt; (4, 3) -&gt; (4)

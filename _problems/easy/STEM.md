@@ -87,9 +87,9 @@ For each test case, output the stem in a new line.
 
 ### Constraints
 
-- **1** <= **T** <= **10**
-- **1** <= **n** <= **10**
-- **1** <= |**w**\[**i**\]| <= **20**
+- **1** &lt;= **T** &lt;= **10**
+- **1** &lt;= **n** &lt;= **10**
+- **1** &lt;= |**w**\[**i**\]| &lt;= **20**
 
 ### Example
 

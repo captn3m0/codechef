@@ -11,7 +11,7 @@ layout: problem
 ---
 ###  All submissions for this problem are available. 
 
-Given a square table sized NxN (3 ≤ N ≤ 5,000; rows and columns are indexed from 1) with a robot on it. The robot has a mission of moving from cell (1, 1) to cell (N, N) using only the directions "right" or "down". You are requested to find the number of different ways for the robot using exactly K turns (we define a "turn" as a right move followed immediately by a down move, or a down move followed immediately by a right move; 0 < K < 2N-2).
+Given a square table sized NxN (3 ≤ N ≤ 5,000; rows and columns are indexed from 1) with a robot on it. The robot has a mission of moving from cell (1, 1) to cell (N, N) using only the directions "right" or "down". You are requested to find the number of different ways for the robot using exactly K turns (we define a "turn" as a right move followed immediately by a down move, or a down move followed immediately by a right move; 0 &lt; K &lt; 2N-2).
 
 ### Input
 

@@ -86,7 +86,7 @@ Let us consider some examples for better understanding:
 - The palindromeness of the string **aa** is **2**, beucase for "aa" we get **1** + palindromeness of "a", that is one, so we get **2**.
 - The palindromeness of the string **abacaba** is **3**.
 
-You are given a string **S**. Find the sum of the palindromenesses of all the non empty substrings of  **S** (i.e. **S\[i..j\]**, where **i** <= **j**). In other words, you have to calculate the sum of palindromenesses of **N \* (N + 1) / 2** substrings of **S**, where **N** is the length of **S**.
+You are given a string **S**. Find the sum of the palindromenesses of all the non empty substrings of  **S** (i.e. **S\[i..j\]**, where **i** &lt;= **j**). In other words, you have to calculate the sum of palindromenesses of **N \* (N + 1) / 2** substrings of **S**, where **N** is the length of **S**.
 
 ### Input
 

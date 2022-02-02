@@ -71,12 +71,12 @@ layout: problem
 All submissions for this problem are available.Let **N ≥ 3** be a fixed positive integer.
  Further, let **A\[1..N\]\[1..N\]** be **N × N** integer matrix.
  The **y**-th element in the **x**-th row will be denoted as **A\[x\]\[y\]**.
- This matrix is called ***special*** if it satisfies the following conditions:/>/>/>
+ This matrix is called ***special*** if it satisfies the following conditions:
 
 - **A\[x\]\[x\] = 0** for **1 ≤ x ≤ N**.
-- **A\[x\]\[y\] = A\[y\]\[x\] > 0** for **1 ≤ x < y ≤ N**.
+- **A\[x\]\[y\] = A\[y\]\[x\] &gt; 0** for **1 ≤ x &lt; y ≤ N**.
 - **A\[x\]\[y\] ≤ max(A\[x\]\[z\], A\[z\]\[y\])** for **1 ≤ x, y, z ≤ N**.
-- **A\[x\]\[y\] ∈ {1, 2, ..., N − 2}** for **1 ≤ x < y ≤ N**.
+- **A\[x\]\[y\] ∈ {1, 2, ..., N − 2}** for **1 ≤ x &lt; y ≤ N**.
 - For each **k ∈ {1, 2, ..., N − 2}** there exist **x, y ∈ {1, 2, ..., N}** such that **A\[x\]\[y\] = k**.
 
 For example,
@@ -98,7 +98,7 @@ The following matrices of order 3 are not special:
 The first one violates the first condition, the second one - the second condition, the third one - the third condition (as well as the fourth condition).
 
 It can be verified that there are **13** special matrices of order **4** in all.
- The full list of special matrices of order **4** looks as follows:/>
+ The full list of special matrices of order **4** looks as follows:
 
 <pre>0 1 2 2    0 2 1 2    0 2 2 2    0 1 1 2    0 2 2 1    0 2 2 1    0 2 2 2
 1 0 2 2    2 0 2 2    2 0 1 2    1 0 1 2    2 0 2 2    2 0 1 2    2 0 2 1
@@ -112,13 +112,13 @@ It can be verified that there are **13** special matrices of order **4** in all.
 
 </pre>
 Your task is simple. For the given **N** count overall number of special matrices of order **N**.
- Since the answer could be extremely large output it modulo **109 + 7 = 1000000007**./>
+ Since the answer could be extremely large output it modulo **109 + 7 = 1000000007**.
 
 ### Input
 
 The first line of the input contains an integer **T**, denoting the number of test cases.
  The description of **T** test cases follows.
- The only line of each test case contains a single integer **N**./>/>
+ The only line of each test case contains a single integer **N**.
 
 ### Output
 

@@ -88,8 +88,8 @@ You're one of Varys' spider and he has asked you to predict the outcome of this 
 **Notes:**  
 1\) **v** can be chosen after **u** iff either of the following conditions hold :
 
-1. **v** > **u** and **u** | **v** and (**v** / **u**) is prime
-2. **u** > **v** and **v** | **u** and (**u** / **v**) is prime
+1. **v** &gt; **u** and **u** | **v** and (**v** / **u**) is prime
+2. **u** &gt; **v** and **v** | **u** and (**u** / **v**) is prime
 
 2) A natural number if prime if it has exactly two distinct positive factors. 1 is not a prime number. 
 ### Input

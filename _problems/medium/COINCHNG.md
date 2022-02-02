@@ -98,7 +98,7 @@ For each test case, output a separate line containing the required answer.
 
 the answer will be at most 40000000
 
-Time limit is 3 seconds./>/>
+Time limit is 3 seconds.
 
 ### Subtask 2 (20 points)
 
@@ -106,7 +106,7 @@ Time limit is 3 seconds./>/>
 
 the answer will be at most 40000000
 
-Time limit is 3 seconds./>/>
+Time limit is 3 seconds.
 
 ### Subtask 3 (20 points)
 
@@ -114,19 +114,19 @@ Time limit is 3 seconds./>/>
 
 the answer will be at most 40000000
 
-Time limit is 3 seconds./>/>
+Time limit is 3 seconds.
 
 ### Subtask 4 (20 points): 
 
 the answer will be at most 40000000
 
-Time limit is 3 seconds./>
+Time limit is 3 seconds.
 
 ### Subtask 5 (20 points): 
 
  *No special constraints* 
 
-Time limit is 0.3 seconds./>
+Time limit is 0.3 seconds.
 
 ### Sample Input
 
@@ -137,7 +137,6 @@ Time limit is 0.3 seconds./>
 4 3 5
 
 5 4 4
-/>/>/>/>
 
 ### Sample Output
 
@@ -146,7 +145,6 @@ Time limit is 0.3 seconds./>
 18
 
 16
-/>/>/>
 
 ### Explanation
 
@@ -154,5 +152,4 @@ For test case# 1, all the amounts which require exactly 1 note are: 1, 5, 25, 12
 
 For test case# 2, all the amounts which require exactly 3 notes are: 3, 6, 9, 12, 18 ... 
 
-For test case# 3, all the amounts which require exactly 4 notes are: 4, 8, 12, 16 ... 
-/>/>/>
+For test case# 3, all the amounts which require exactly 4 notes are: 4, 8, 12, 16 ...

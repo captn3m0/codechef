@@ -15,7 +15,7 @@ For a given positive integer **N** find the number of all positive integers **X*
 
 ### Input
 
- The first line contains a single positive integer **T <= 100**, the number of test cases. **T** test cases follow. The only line of each test case contains a positive integer **N** , where **N <= 10^18**.
+ The first line contains a single positive integer **T &lt;= 100**, the number of test cases. **T** test cases follow. The only line of each test case contains a positive integer **N** , where **N &lt;= 10^18**.
 
 ### Output
 

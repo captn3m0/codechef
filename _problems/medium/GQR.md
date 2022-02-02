@@ -74,7 +74,7 @@ layout: problem
 ---
 All submissions for this problem are available.### Read problems statements in [Mandarin chinese](http://www.codechef.com/download/translated/LTIME58/mandarin/GQR.pdf), [Russian](http://www.codechef.com/download/translated/LTIME58/russian/GQR.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME58/vietnamese/GQR.pdf) as well.
 
-You are given a sequence **A** with **N** elements and **Q** queries on this sequence. In each query, you are given two indices **L** and **R**; you should compute the maximum value of the [greatest common divisor](https://en.wikipedia.org/wiki/Greatest_common_divisor) (GCD) of two elements **Ax**, **Ay** satisfying **L** ≤ **x** < **y** ≤ **R**.
+You are given a sequence **A** with **N** elements and **Q** queries on this sequence. In each query, you are given two indices **L** and **R**; you should compute the maximum value of the [greatest common divisor](https://en.wikipedia.org/wiki/Greatest_common_divisor) (GCD) of two elements **Ax**, **Ay** satisfying **L** ≤ **x** &lt; **y** ≤ **R**.
 
 ### Input
 
@@ -91,7 +91,7 @@ For each query, print a single line containing the maximum GCD.
 - 1 ≤ **N** ≤ 104
 - 1 ≤ **Q** ≤ 5 · 105
 - 1 ≤ **Ai** ≤ 108 for each valid **i**
-- 1 ≤ **L** < **R** ≤ **N**
+- 1 ≤ **L** &lt; **R** ≤ **N**
 
 ### Subtasks
 

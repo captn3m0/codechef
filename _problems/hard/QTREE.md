@@ -76,7 +76,7 @@ The vertices are numbered from 1 to **N**. Each edge is assigned a corresponding
 Your mission is to stimulate two types of queries :
 
 - Update query represented by **f u v**: change the sign of all the weights of the edges on the shortest path (you can see the definition of shortest path in this problem later on) from vertex **u** to vertex **v**.
-- Find query represented by **? u v**: On the shortest path from vertex **u** to vertex **v**, find the (possibly empty) set of consecutive edges such that the sum of the weights is maximal. In other words, let's define the shortest path from **u** to **v** as **a\_1, a\_2, ..., a\_k** (where **a\_1** = **u** and **a\_k** = **v**). You have to find **a\_i** and **a\_j** such that **i** <= **j** and the sum of the weights of the edges of the path **a\_i, a\_(i + 1), ..., a\_j** is as large as possible. You just have to find that sum.
+- Find query represented by **? u v**: On the shortest path from vertex **u** to vertex **v**, find the (possibly empty) set of consecutive edges such that the sum of the weights is maximal. In other words, let's define the shortest path from **u** to **v** as **a\_1, a\_2, ..., a\_k** (where **a\_1** = **u** and **a\_k** = **v**). You have to find **a\_i** and **a\_j** such that **i** &lt;= **j** and the sum of the weights of the edges of the path **a\_i, a\_(i + 1), ..., a\_j** is as large as possible. You just have to find that sum.
 
 The shortest path between two vertices **u** and **v** is the path connecting them with the minimal number of vertices. In this problem, it is obvious that there is only one shortest path between any pair of vertices of **G**.
 

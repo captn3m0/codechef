@@ -86,7 +86,7 @@ First line contains two integers **R** and **C**, the number of rows and columns
 
 ### Constraints
 
- 1 <= **R**, **C** <= 100
+ 1 &lt;= **R**, **C** &lt;= 100
 
  All gift costs are positive and less than 100000000 (10^8)
 

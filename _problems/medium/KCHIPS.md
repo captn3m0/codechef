@@ -17,7 +17,7 @@ In each of the **R** rounds, Po serves potato chips to a group of people sitting
 
 ### Input
 
-First line contains two integers N K ( N is the number of persons, 1 <= N <= 100,000 and K is the limit in each round 0 <= K <= N ). Next line contains N numbers, the array V (as described above. 0 <= V\[i\] <= 100,000,000 ). Third line contains R (number of rounds, 1 <= R <= 100,000 ). R rounds follow, each in a new line, having integers i j (0 <= i <= j < N ). Po serves all the persons \[ i, i+1, ... , j \] in that round.
+First line contains two integers N K ( N is the number of persons, 1 &lt;= N &lt;= 100,000 and K is the limit in each round 0 &lt;= K &lt;= N ). Next line contains N numbers, the array V (as described above. 0 &lt;= V\[i\] &lt;= 100,000,000 ). Third line contains R (number of rounds, 1 &lt;= R &lt;= 100,000 ). R rounds follow, each in a new line, having integers i j (0 &lt;= i &lt;= j &lt; N ). Po serves all the persons \[ i, i+1, ... , j \] in that round.
 
 ### Output
 

@@ -77,7 +77,7 @@ All submissions for this problem are available.### Read problems statements in [
 
 One day Chef had an exam on probability theory. Nothing interesting, but the exam was going fishily easy. And finally Chef got to the last question:
 
- "Suppose you have a dice with **K** faces with numbers from **1** to **K** written on it, and integers **L** and **F**(**0 < L <= K**). You roll it **N** times. Let **ai** be the number of times (out of the **N** rolls) that a face with number **i** written on it came up as the top face of the dice. Find the mathematical expectation of the value **a1F \* a2F \* ... \* aL**F." 
+ "Suppose you have a dice with **K** faces with numbers from **1** to **K** written on it, and integers **L** and **F**(**0 &lt; L &lt;= K**). You roll it **N** times. Let **ai** be the number of times (out of the **N** rolls) that a face with number **i** written on it came up as the top face of the dice. Find the mathematical expectation of the value **a1F \* a2F \* ... \* aL**F." 
 
  "I'll drop out of university and won't be allowed to cook" - Chef is frightened! Help him now or he will never be able to please you with tasty dishes again.
 
@@ -92,9 +92,9 @@ Let the answer for a test case be an fraction **P / Q**, where **P** and **Q** a
 ### Constraints
 
 - **1** ≤ **T** ≤ **50**
-- 0 < **N, K** ≤ **109**
-- 0 < **F ≤ 1000**
-- 0 < **L \* F** ≤ **50 000**
+- 0 &lt; **N, K** ≤ **109**
+- 0 &lt; **F ≤ 1000**
+- 0 &lt; **L \* F** ≤ **50 000**
 - **Subtask #1\[39 points\]: F = 1**
 - **Subtask #2\[61 points\] : no additional constraints**
  

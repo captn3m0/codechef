@@ -106,4 +106,4 @@ aba
 
 1 ≤ sum of length of all input strings ≤ 1,000,000
 
-Each input string contains only lowercase roman letters ('a' - 'z') or question marks. />/>
+Each input string contains only lowercase roman letters ('a' - 'z') or question marks.

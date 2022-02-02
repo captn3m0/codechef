@@ -71,8 +71,8 @@ All submissions for this problem are available.In the world of **DragonBool** th
 
 The power of each warrior is determined by the amount of chakra he possesses which is some positive integer. Warriors with zero level of chakra are dead warriors :) When the fight between **Soint** with power **CI** and **Sofloat** with power **CF** occurs the warrior with lower power will die and the winner will lose the amount of chakra that his enemy have possessed before the fight. So three cases are possible:
 
-- **CI** > **CF**. Then **Sofloat** will die while the new power of **Soint** will be **CI – CF**.
-- **CI** < **CF**. Then **Soint** will die while the new power of **Sofloat** will be **CF – CI**.
+- **CI** &gt; **CF**. Then **Sofloat** will die while the new power of **Soint** will be **CI – CF**.
+- **CI** &lt; **CF**. Then **Soint** will die while the new power of **Sofloat** will be **CF – CI**.
 - **CI** = **CF**. In this special case both warriors die.
 
 Each warrior (**Soint** or **Sofloat**) has his level of skills which is denoted by some positive integer. The fight between two warriors can occur only when these warriors are **Soint** and **Sofloat** of the same level. In particual, friendly fights are not allowed, i.e., a **Soint** cannot fight with another **Soint** and the same holds for **Sofloats**.

@@ -101,13 +101,13 @@ For each testcase, output in a single line answer given by Charlie to Tracy modu
 
 **CONSTRAINTS:**
 
-1<=T<=1000
+1&lt;=T&lt;=1000
 
-2<=M<=109
+2&lt;=M&lt;=109
 
-30 points : 1<=R<=10000
+30 points : 1&lt;=R&lt;=10000
 
-70 points : 1<=R<=109
+70 points : 1&lt;=R&lt;=109
 
 M is a prime number
 
@@ -130,4 +130,4 @@ M is a prime number
 **EXPLANATION:**
 
 This list is :
-\[1,8,27,64,125..\] -> \[7,19,37,61..\] -> \[12,18,24..\] -> \[6,6,6..\]. Number of times 2 divides 6 is 1. Hence the answer is 1.
+\[1,8,27,64,125..\] -&gt; \[7,19,37,61..\] -&gt; \[12,18,24..\] -&gt; \[6,6,6..\]. Number of times 2 divides 6 is 1. Hence the answer is 1.

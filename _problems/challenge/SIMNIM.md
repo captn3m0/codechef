@@ -87,7 +87,7 @@ For each test case, output one line containing exactly **N** positive integers. 
 
 If any of the test cases is solved incorrectly, you'll receive Wrong Answer. Incorrect answers include outputting something else than **N** positive integers for each test case, making some sets of heaps empty and making some sets of heaps losing for Chef.
 
-**Note** that it's possible to output the answer with **K** = 1 (i.e., making no splits of the initial set is allowed). Nevertheless, if your output corresponds to **K** = 1 for **all** test cases in a single output file, you'll receive Wrong Answer as well. It's guaranteed that each official test file contains at least one test case for which a solution with **K** > 1 exists.
+**Note** that it's possible to output the answer with **K** = 1 (i.e., making no splits of the initial set is allowed). Nevertheless, if your output corresponds to **K** = 1 for **all** test cases in a single output file, you'll receive Wrong Answer as well. It's guaranteed that each official test file contains at least one test case for which a solution with **K** &gt; 1 exists.
 
 If all your answers are correct, your score for each test case will be calculated as 100\***N**/**K**. Your score for each file is the average of your scores on the individual test cases in this file. Your overall score is the average of your scores on the individual test files.
 
@@ -111,4 +111,4 @@ Your goal is to minimize the overall score.
 </pre>
 Both of the answers are correct. The score is 100\*7/2 = 350 for the first test case and 100\*6/2 = 300 for the second test case. The score for this file is thus (350+300)/2 = 325. Note that the second test case allows a better solution, 1 1 2 2 3 3. ### Test Case Generation
 
-Every official input file contains exactly 10 test cases. In each test case **N** is chosen randomly and uniformly between 10 and 1000, inclusive, and **M** is chosen randomly and uniformly between 5 and 60, inclusive. Then, the values of **Ai** for 1 ≤ **i** < **N** are generated randomly and uniformly between 1 and 2**M**-1, inclusive, and the value of **AN** is calculated as XOR of all other **Ai**'s (note that this way the generated set of heaps is certainly winning for Chef). If the value of **AN** appears to be 0, the whole process of test case generation is restarted.
+Every official input file contains exactly 10 test cases. In each test case **N** is chosen randomly and uniformly between 10 and 1000, inclusive, and **M** is chosen randomly and uniformly between 5 and 60, inclusive. Then, the values of **Ai** for 1 ≤ **i** &lt; **N** are generated randomly and uniformly between 1 and 2**M**-1, inclusive, and the value of **AN** is calculated as XOR of all other **Ai**'s (note that this way the generated set of heaps is certainly winning for Chef). If the value of **AN** appears to be 0, the whole process of test case generation is restarted.

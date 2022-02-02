@@ -42,27 +42,27 @@ For each query output "Yes" or "No" in a new line(without quotes). ### Constrain
 31. **Subtask 1**(20 points): **N ≤ 2\*103, Q ≤ 2\*103**
 32. **Subtask 2**(20 points): Sum of all **A\[i\]** is less than **2\*106**.
 33. **Subtask 2**(60 points): Original constraints ### Example
-  
-  ```
-  <b>Input:</b>
-  6 4
-  1 5 7 3 9 2
-  1 2
-  1 3
-  3 4
-  3 5
-  5 6
-  5
-  27
-  40
-  21
-  <b>Output:</b>
-  Yes
-  No
-  No
-  Yes
-  ```
-  
-  ### Explanation
-  
-  **Example case 1.** For the first query the answer is "Yes" because the edge between 5 and 6 can be removed. For the second query, it is not possible to remove an edge and get a difference of 27.
+    
+    ```
+    <b>Input:</b>
+    6 4
+    1 5 7 3 9 2
+    1 2
+    1 3
+    3 4
+    3 5
+    5 6
+    5
+    27
+    40
+    21
+    <b>Output:</b>
+    Yes
+    No
+    No
+    Yes
+    ```
+    
+    ### Explanation
+    
+    **Example case 1.** For the first query the answer is "Yes" because the edge between 5 and 6 can be removed. For the second query, it is not possible to remove an edge and get a difference of 27.

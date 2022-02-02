@@ -96,7 +96,7 @@ If the amount of money of any currency that Chef will own at any point of time e
 - **1** ≤ **D** ≤ **1018**
 - **1** ≤ **N, M** ≤ **103**
 - **1** ≤ **Ai, j** ≤ **109**
-- **Ai, 2j** > **Ai, 2j+1** (because there are no miracles in Chefland — you’ll always pay more than what the kiosk will pay you. Otherwise, one could’ve indefinitely sold and bought and increased their money this way).
+- **Ai, 2j** &gt; **Ai, 2j+1** (because there are no miracles in Chefland — you’ll always pay more than what the kiosk will pay you. Otherwise, one could’ve indefinitely sold and bought and increased their money this way).
 
 ### Subtasks
 

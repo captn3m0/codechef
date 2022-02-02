@@ -92,7 +92,7 @@ In order to reinforce the Wall, the brothers of the Night's Watch have placed a 
 - **H**, if **i** is odd.
 
 11. **X0** equals to 0;
-12. **Xi** < **Xi + 1** for **0 ≤ i < N - 1**;
+12. **Xi** &lt; **Xi + 1** for **0 ≤ i &lt; N - 1**;
 13. **XN - 1** equals to **W**.
 Your task is pretty simple: calculate the area of **R**, which is lying under **P**.
 
@@ -152,8 +152,8 @@ Also, do not add any newlines between different testcases.
 
 - 1 ≤ **T** ≤ 6, for each input file;
 - 1 ≤ **H** ≤ 100000;
-- 0 ≤ **A**, **B**, **IND** < **M**;
-- 1 ≤ **Di** < 104;
+- 0 ≤ **A**, **B**, **IND** &lt; **M**;
+- 1 ≤ **Di** &lt; 104;
 - Subtask 1(34 points): 2 ≤ **N** ≤ 524288, 1 ≤ **M** ≤ 524288;
 - Subtask 2(33 points): 2 ≤ **N** ≤ 1000000000, 1 ≤ **M** ≤ 256;
 - Subtask 3(33 points): 2 ≤ **N** ≤ 1000000000, 1 ≤ **M** ≤ 524288.

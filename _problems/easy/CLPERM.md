@@ -86,7 +86,7 @@ As Chef is a small child, he needs your help to decide who should move first. Pl
 
 - First Line of input contains a single integer **T** denoting the number of test cases.
 - First line of each test case contains two space separated integers **N** and **K** denoting the size of
-   permutation and number of numbers fall down from the table.
+     permutation and number of numbers fall down from the table.
 - Next line of each test case contains **K** space separated integers denoting the values of missing numbers.
 
 ### Output
@@ -103,7 +103,7 @@ For each test case, print **"Chef"** if chef should move first otherwise print *
 
 ### Scoring
 
-- Subtask 1 (13 pts): 1 ≤ **T** ≤ 100, 1 ≤ **N** ≤ 102, 1 ≤ K < N.
+- Subtask 1 (13 pts): 1 ≤ **T** ≤ 100, 1 ≤ **N** ≤ 102, 1 ≤ K &lt; N.
 - Subtask 2 (17 pts): 1 ≤ **T** ≤ 100, 1 ≤ **N** ≤ 105, K = 0.
 - Subtask 3 (70 pts): Original Constraints.
 

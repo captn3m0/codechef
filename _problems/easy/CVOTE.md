@@ -83,12 +83,12 @@ If several countries got the maximal number of votes, consider the country with 
 
 The string **A** = **a1a2...an** is called lexicographically smaller then the string **B** = **b1b2...bm** in the following two cases:
 
-- there exists index **i** ≤ **min{n, m}** such that **aj** = **bj** for **1 ≤ j < i** and **ai** < **bi**;
-- **A** is a proper prefix of **B**, that is, **n < m** and **aj** = **bj** for **1 ≤ j ≤ n**.
+- there exists index **i** ≤ **min{n, m}** such that **aj** = **bj** for **1 ≤ j &lt; i** and **ai** &lt; **bi**;
+- **A** is a proper prefix of **B**, that is, **n &lt; m** and **aj** = **bj** for **1 ≤ j ≤ n**.
 
 The characters in strings are compared by their ASCII codes.
 
-Refer to function **strcmp** in C or to standard comparator **<** for **string** data structure in C++ for details.
+Refer to function **strcmp** in C or to standard comparator **&lt;** for **string** data structure in C++ for details.
 
 ### Input
 

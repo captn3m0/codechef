@@ -31,7 +31,7 @@ All submissions for this problem are available.Consider the following dialog.
 \- Father, what is the lack of logic?
 \- Bunny.
 \- Where?
-\- Day./>/>/>
+\- Day.
 
 As you see, father's answers have no logic demonstrating the son the notion of "lack of logic" using live example :D
 

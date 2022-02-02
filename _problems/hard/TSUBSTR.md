@@ -85,18 +85,18 @@ Then, **Q** queries will follow.
 For the **i**-th query, the permutation **Pi** of **26** latin alphabet letters and an integer **Ki** will be given.
 That means that if we sort all distinct substrings of the given treestring according to the **alphabetical order described in Pi**, you will have to output the **Ki**-th string.
 "According to the alphabetical order described in **Pi**" means that letter **X** is lexicographically smaller that letter **Y** if and only **X** appears
-in **Pi** earlier than **Y**. For example if the **alphabetical order** is "cbadefghijklmnopqrstuvwxyz", then letter "c" is **lexicographically smaller** than letter "a" because "c" is the first symbol of this permutation, and "a" is the third symbol of this permutation, therefore 1<3 and for the given arrangement, "c" is **alphabetically less** than "a".
+in **Pi** earlier than **Y**. For example if the **alphabetical order** is "cbadefghijklmnopqrstuvwxyz", then letter "c" is **lexicographically smaller** than letter "a" because "c" is the first symbol of this permutation, and "a" is the third symbol of this permutation, therefore 1&lt;3 and for the given arrangement, "c" is **alphabetically less** than "a".
 Here note that the string **A** is smaller than the string **B** (that means **A** comes earlier than **B**
 after sorting) if and only if
 **A** is a prefix of **B**,
-or **Ai** = **Bi** (for all **i** < **k**) and **Ak** < **Bk** (in terms of alphabetical order)
+or **Ai** = **Bi** (for all **i** &lt; **k**) and **Ak** &lt; **Bk** (in terms of alphabetical order)
 where **Ai** denotes the **i**-th letter of **A**.
 
 ### Constraints
 
-- 1<=**N**<=250000
-- 1<=**Q**<=50000
-- 1<=**Ki**<=9223372036854775807 (2^63-1)
+- 1&lt;=**N**&lt;=250000
+- 1&lt;=**Q**&lt;=50000
+- 1&lt;=**Ki**&lt;=9223372036854775807 (2^63-1)
 - Output will not exceed 800 KB.
 - It is guaranteed that the N lowercase latin letters have been generated randomly.
 

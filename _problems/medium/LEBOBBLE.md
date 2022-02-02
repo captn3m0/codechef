@@ -78,12 +78,12 @@ Bubble sorting for any array **A** of **n** integers works in the following way:
  { 
  for j from 1 to i-1 
  { 
- if (A\[j\] > A\[j+1\]) 
+ if (A\[j\] &gt; A\[j+1\]) 
  swap(A\[j\], A\[j+1\]) 
  } 
 }*
 
-You are given an array **B** of **n** integers. Then the array **A** is created using array **B** as following : for each **i** (**1 <= i <= n**), we set **Ai** = **Bi + d** with the probability **Pi**, otherwise **Ai** = **Bi**.
+You are given an array **B** of **n** integers. Then the array **A** is created using array **B** as following : for each **i** (**1 &lt;= i &lt;= n**), we set **Ai** = **Bi + d** with the probability **Pi**, otherwise **Ai** = **Bi**.
 
 Help Little Elephant to find the expect number of swaps that bubble sorting will make when the array **A** is sorted with the above bubble sorting algorithm.
 
@@ -97,13 +97,13 @@ In **T** lines print **T** real numbers - the answers for the corresponding test
 
 ### Constraint
 
-1 <= **T** <= 5
+1 &lt;= **T** &lt;= 5
 
-1 <= **n** <= 50000
+1 &lt;= **n** &lt;= 50000
 
-1 <= **Bi, d** <= 10^9
+1 &lt;= **Bi, d** &lt;= 10^9
 
-0 <= **Pi,** <= 100
+0 &lt;= **Pi,** &lt;= 100
 
 ### Example
 

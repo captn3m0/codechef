@@ -70,7 +70,7 @@ layout: problem
 ---
 All submissions for this problem are available.The Chef is given a sequence of **N** integers **A1, A2, ..., AN**. He has to process **Q** queries on the above sequence. Each query is represented by three integers:
 
-- **L R K** => report cardinality of **{ i : K** divides **Ai**, **L** ≤ **i** ≤ **R }**. In other words, how many integers in the subsequence starting at **L**th element and ending at **R**th element are divisible by **K**.
+- **L R K** =&gt; report cardinality of **{ i : K** divides **Ai**, **L** ≤ **i** ≤ **R }**. In other words, how many integers in the subsequence starting at **L**th element and ending at **R**th element are divisible by **K**.
 
 ### Input
 

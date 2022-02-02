@@ -77,7 +77,7 @@ All submissions for this problem are available.###  Read problems statements in 
 You are given an array **A** consisting of **N** positive integers. You have to answer **Q** queries on it of following type:
 
 - **l r k** : Let **S** denote the *sorted (in increasing order)* set of elements of array **A** with its indices between **l** and **r**. Note that set **S** contains distinct elements (i.e. no duplicates).
-  You need to find **kth** number in it. If such a number does not exist, i.e. the **S** has less than **k** elements, output -1.
+    You need to find **kth** number in it. If such a number does not exist, i.e. the **S** has less than **k** elements, output -1.
 
 All the indices in the queries are 1-based.
 

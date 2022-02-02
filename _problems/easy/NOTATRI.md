@@ -40,4 +40,4 @@ For each test case, output a single line containing the number of triples.
 2
 
 </pre>
-For the first test case, 4 + 2 < 10, so you will win with the one available triple. For the second case, 1 + 2 is equal to 3; since degenerate triangles are allowed, the answer is 0.
+For the first test case, 4 + 2 &lt; 10, so you will win with the one available triple. For the second case, 1 + 2 is equal to 3; since degenerate triangles are allowed, the answer is 0.

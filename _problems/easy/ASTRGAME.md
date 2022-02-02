@@ -53,8 +53,8 @@ Teddy
 </pre>
 ### Constraints
 
-- 1 <= *T* <= 5
-- 1 <= *N* <= 30
-- 1 <= |*S*| <= 30
-- 1 <= |*wi*| <= 30
+- 1 &lt;= *T* &lt;= 5
+- 1 &lt;= *N* &lt;= 30
+- 1 &lt;= |*S*| &lt;= 30
+- 1 &lt;= |*wi*| &lt;= 30
 - *S* and *wi* contain only characters 'a'-'z'

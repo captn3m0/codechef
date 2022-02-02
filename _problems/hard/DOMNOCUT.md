@@ -25,9 +25,9 @@ For each test case output in the first line the word **"IMPOSSIBLE"** without qu
 
 ### Constraints
 
-1 <= T <= 3000 
- 1 <= N, M <= 500 
- sum of N\*M in the file <= 2,000,000
+1 &lt;= T &lt;= 3000 
+ 1 &lt;= N, M &lt;= 500 
+ sum of N\*M in the file &lt;= 2,000,000
 
 ### Sample input
 

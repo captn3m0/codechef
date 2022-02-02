@@ -99,7 +99,7 @@ Each term should have **N** + 1 lines. The first line of each term should contai
 
 - 1 ≤ **T** ≤ 103
 - 1 ≤ **N, M** ≤ 20
-- There will be at most 100 test cases where **N** > 10 or **M** > 10.
+- There will be at most 100 test cases where **N** &gt; 10 or **M** &gt; 10.
 - The matrix **A** is guaranteed to have at least one non-zero element.
 
 ### Example

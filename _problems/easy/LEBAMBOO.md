@@ -90,11 +90,11 @@ In **T** lines print **T** integers - the answers for the corresponding test cas
 
 ### Constraints
 
-1 <= **T** <= 50
+1 &lt;= **T** &lt;= 50
 
-1 <= **n** <= 50
+1 &lt;= **n** &lt;= 50
 
-1 <= **Hi, Di** <= 50
+1 &lt;= **Hi, Di** &lt;= 50
 
 ### Example
 

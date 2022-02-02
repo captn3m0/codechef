@@ -95,7 +95,7 @@ For each distance query, print the distance between **u** and **v**.
 ### Constraints
 
 - **1 ≤ N ≤ 200000**
-- **0 < k, w, ku, kv < 232**
+- **0 &lt; k, w, ku, kv &lt; 232**
 
 ### Example
 

@@ -91,8 +91,8 @@ Chef also shifts his city frequently. These details and details of when and wher
 - The first line of each testcase contains two space-separated numbers **N** and **M**, which denote the number of cities in Chef's country and the number of events (queries) which will happen, respectively.
 - The next **N - 1** lines will contain two space-separated numbers **U**, **V** which means that there is a bidirectional road between cities **U** and **V**.
 - The next **M** lines will contain two space-separated numbers **type**, **C**, which denote the queries as described below: . 
-  - If **type = 1**, this means that the bank is opening a branch in city **C**.
-  - If **type = 2**, this means that Chef now lives in city **C**.
+    - If **type = 1**, this means that the bank is opening a branch in city **C**.
+    - If **type = 2**, this means that Chef now lives in city **C**.
 
 ### Output
 
@@ -111,8 +111,8 @@ That is, Chef now lives in City **C**, and you know where all the bank branches 
 ### Subtasks
 
 - Subtask #1 (20 points): 
-  - 1 ≤ **T** ≤ 10
-  - 1 ≤ **N, M** ≤ 1000
+    - 1 ≤ **T** ≤ 10
+    - 1 ≤ **N, M** ≤ 1000
 - Subtask #2 (80 points): Original constraints.
 
 ### Example

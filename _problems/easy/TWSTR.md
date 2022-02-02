@@ -91,11 +91,11 @@ If for a query no recipe matches print **"NO"**. (Without quotes)
 
 **Constraints:**
 
-0 <= **N** <= 1000
-0 <= **Q** <= 1000
--10^9 <= **Vi** <= 10^9
-1 <= **|Si|** <= 1000 (length of **Si**)
-1 <= **|Qi|** <= 1000 (length of **Qi**)
+0 &lt;= **N** &lt;= 1000
+0 &lt;= **Q** &lt;= 1000
+-10^9 &lt;= **Vi** &lt;= 10^9
+1 &lt;= **|Si|** &lt;= 1000 (length of **Si**)
+1 &lt;= **|Qi|** &lt;= 1000 (length of **Qi**)
 
 ### Example
 

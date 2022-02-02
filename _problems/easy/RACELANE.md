@@ -27,7 +27,7 @@ Then B lines follow with 0 ≤ B ≤ 300, each describing a single bubble. A bub
 
 For example, if a bubble starts at meter 12 and ends at meter 15 on paint line 3, then there is no paint appearing on line number 3 over meters 12, 13, 14, and 15. In total, 4 meters of the line are not painted due to this particular bubble.
 
-Say the lanes are numbered from 1 to 9. Then lane 1 is delimited by lines 0 and 1, lane 2 by lines 1 and 2, lane 3 by lines 2 and 3, and so on. Also, the input will be such that no two bubbles in the same paint line share a common meter of the track. That is, if S,E and S',E' are the start and endpoints of two different bubbles on a common line L, then either E < S' or E' < S.
+Say the lanes are numbered from 1 to 9. Then lane 1 is delimited by lines 0 and 1, lane 2 by lines 1 and 2, lane 3 by lines 2 and 3, and so on. Also, the input will be such that no two bubbles in the same paint line share a common meter of the track. That is, if S,E and S',E' are the start and endpoints of two different bubbles on a common line L, then either E &lt; S' or E' &lt; S.
 
 ### Output
 

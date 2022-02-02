@@ -104,7 +104,7 @@ Output **Q** lines each containing distance for **i**th query. Print '-1' (witho
 ### Constraints
 
 - **2** ≤ **N** ≤ **256**
-- **1** ≤ **R** < **N**
+- **1** ≤ **R** &lt; **N**
 - **1** ≤ **Q** ≤ **16384**
 - **1** ≤ **Length of string A, B, X, Y** ≤ **4**
 - **A** ≠ **B**

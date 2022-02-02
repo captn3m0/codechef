@@ -86,8 +86,8 @@ Note that you can transport from a teleport to a location which does not contain
 
 - The first line of the input contains two integers, **Q**, and **R**, denoting the total number of operations and the radius of each teleport.
 - The i-th of the next **Q** lines contains one operation, which will be one of the following two types: 
-  - + **x y** — add a new teleport at location (**x**, **y**). This teleport will be called teleport i.
-  - ? **i j** — Report whether it is possible to reach teleport **j** from teleport **i**
+    - + **x y** — add a new teleport at location (**x**, **y**). This teleport will be called teleport i.
+    - ? **i j** — Report whether it is possible to reach teleport **j** from teleport **i**
 
 ### Output
 

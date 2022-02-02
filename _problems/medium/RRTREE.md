@@ -89,24 +89,24 @@ For each test case, output **N-1** lines - the diameter after adding vertices **
 9. 1 ≤ N ≤ 105
 10. Pi ≤ i
 11. Sum of **N** over all test cases in a file does not exceed **2 \* 105**### Example
-  
-  ```
-  <b>Input:</b>
-  2
-  3
-  1
-  1
-  5
-  1
-  2
-  3
-  3
-  
-  <b>Output:</b>
-  1
-  2
-  1
-  2
-  3
-  3
-  ```
+    
+    ```
+    <b>Input:</b>
+    2
+    3
+    1
+    1
+    5
+    1
+    2
+    3
+    3
+    
+    <b>Output:</b>
+    1
+    2
+    1
+    2
+    3
+    3
+    ```

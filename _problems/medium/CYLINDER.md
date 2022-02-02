@@ -113,16 +113,16 @@ In all examples blue circles are top and bottom of container. Yellow rectangle i
 
 ![](//codechef.com/download/CYLINDER_Example1.png)
 
-**R ≅ 0.63662, A ≅ 2.72676.**/>/>
+**R ≅ 0.63662, A ≅ 2.72676.**
 
 **Example case 2:**
 
 ![](//codechef.com/download/CYLINDER_Example2.png)
 
-**R ≅ 0.36218, A = 2.**/>/>
+**R ≅ 0.36218, A = 2.**
 
 **Example case 3:**
 
 ![](//codechef.com/download/CYLINDER_Example3.png)
 
-**R = 0.5, A = 1.**/>
+**R = 0.5, A = 1.**

@@ -164,7 +164,7 @@ Find out number of ways in which bunnies can get from cell (1, 1) to cell (**N**
 \*\*\*
 \*\*\*
 In this case there is only one variant how bunnies can get from the cell (1,1) to the cell (2, 3). 
-First bunny - (1, 1) -> (2, 1) -> (2, 2) -> (2. 3) and the second bunny - (1, 1) -> (1, 2) -> (1, 3) -> (2, 3).
+First bunny - (1, 1) -&gt; (2, 1) -&gt; (2, 2) -&gt; (2. 3) and the second bunny - (1, 1) -&gt; (1, 2) -&gt; (1, 3) -&gt; (2, 3).
 
 **Example case 2.**
 
@@ -176,4 +176,4 @@ In this example there are no two nonintersecting ways without cells with carrot.
 
 \*x
 x\*
-In this case there is only one variant how bunnies can move. First bunny - (1, 1) -> (2, 1) -> (2, 2) and the second bunny - (1, 1) -> (1, 2) -> (2, 2). But in this case, in total, bunnies will eat two carrots(when only one carrot is allowed). Therefore the answer is 0.
+In this case there is only one variant how bunnies can move. First bunny - (1, 1) -&gt; (2, 1) -&gt; (2, 2) and the second bunny - (1, 1) -&gt; (1, 2) -&gt; (2, 2). But in this case, in total, bunnies will eat two carrots(when only one carrot is allowed). Therefore the answer is 0.

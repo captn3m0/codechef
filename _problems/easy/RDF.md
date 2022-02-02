@@ -85,13 +85,13 @@ The first line of the input contains an integer **T** denoting the number of tes
 ### Output
 
 For each test case, output a single line containing the expected result of **RDF(N, K)**. Your answer will be considered as correct if it has an absolute or relative error less than **10−6**. More formally if the expected output is **A** and your output is **B**, your output will be considered as correct if and only if
-**|A − B| ≤ 10−6 \* max{|A|, |B|, 1}**./>
+**|A − B| ≤ 10−6 \* max{|A|, |B|, 1}**.
 
 ### Constrains
 
 - **1** ≤ **T** ≤ **500000** (**5 \* 105**)
-- **1** ≤ **N** < **100000** (**105**)
-- 0 ≤ **K** < **100000** (**105**)
+- **1** ≤ **N** &lt; **100000** (**105**)
+- 0 ≤ **K** &lt; **100000** (**105**)
 
 ### Example
 
@@ -110,7 +110,7 @@ For each test case, output a single line containing the expected result of **RDF
 ### Explanation
 
 **Example case 1.** **RDF(6, 1)** returns each of the numbers **0, 1, 2, 3, 4, 5** with probability **1/6**. Hence the expected value is
- **(0 + 1 + 2 + 3 + 4 + 5) / 6 = 2.5**./>
+ **(0 + 1 + 2 + 3 + 4 + 5) / 6 = 2.5**.
 
 **Example case 2.** Value of **N** when **RDF(4, 2)** is called may change by one of the following scenarios:
 
@@ -123,6 +123,6 @@ For each test case, output a single line containing the expected result of **RDF
 - **4 → 3 → 2** with probability **1/12**.
 
 Hence the expected value is
- **0 \* 1/4 + 0 \* 1/4 + 0 \* 1/8 + 1 \* 1/8 + 0 \* 1/12 + 1 \* 1/12 + 2 \* 1/12 = 1/8 + 1/12 + 1/6 = 3/8 = 0.375**./>
+ **0 \* 1/4 + 0 \* 1/4 + 0 \* 1/8 + 1 \* 1/8 + 0 \* 1/12 + 1 \* 1/12 + 2 \* 1/12 = 1/8 + 1/12 + 1/6 = 3/8 = 0.375**.
 
 **Example case 3.** You should figure it out by yourself.

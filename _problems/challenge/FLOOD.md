@@ -84,7 +84,7 @@ The government wants to achieve the goal using the fewest units of clay possible
 
 The first line contains t, the number of test cases (about 20), each test case has the following form.
 
-The first line contains two number M and N (1 <= M, N <= 200).
+The first line contains two number M and N (1 &lt;= M, N &lt;= 200).
 
 Each line in the next M lines contain N numbers describing the status of each cell in the land. If a cell is not flooded, the corresponding number is -1 while if it is flooded the corresponding number is the cell's water depth level.
 

@@ -96,14 +96,12 @@ For each test case, print total memory allocated for running the solution progra
 ### Subtasks
 
 Subtask 1 (30 points):
-/>
 
 - 1 ≤ T ≤ 100
 - 1 ≤ N ≤ 100
 - 1 ≤ Mi ≤ 100
 
-Subtask 3 (70 points): 
-/>
+Subtask 3 (70 points):
 
 - Original constraints.
 

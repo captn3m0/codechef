@@ -96,7 +96,7 @@ Can you help Hasan and answer the queries?
 ### Constraints
 
 - 1 ≤ **N, M** ≤ 106
-- The queries are given in chronological order. That is,  **Q\[i\] > Q\[i-1\]**
+- The queries are given in chronological order. That is,  **Q\[i\] &gt; Q\[i-1\]**
 - Every element of the multiset will be a positive integer less than 263
 - It's guaranteed that the set will contain at least one element at the time of any query.
 

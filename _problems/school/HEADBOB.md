@@ -87,12 +87,12 @@ For each person, print "INDIAN" if he/she is from India, "NOT INDIAN" if not fro
 <pre></pre>
 12. **For 30 points:** 1 ≤ T,N ≤ 100
 13. **For 70 points:** 1 ≤ T,N ≤ 1000### Example
-  
-  **Input:**```
-  3<br></br>5<br></br>NNNYY<br></br>6<br></br>NNINNI<br></br>4<br></br>NNNN<br></br>
-  ```
-  
-  
-  **Output:**```
-  NOT INDIAN<br></br>INDIAN<br></br>NOT SURE
-  ```
+    
+    **Input:**```
+    3<br></br>5<br></br>NNNYY<br></br>6<br></br>NNINNI<br></br>4<br></br>NNNN<br></br>
+    ```
+    
+    
+    **Output:**```
+    NOT INDIAN<br></br>INDIAN<br></br>NOT SURE
+    ```

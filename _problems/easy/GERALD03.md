@@ -96,7 +96,7 @@ without any whitespaces.
 ### Constraints
 
 - **1** ≤ **T**, **N** ≤ **1000**.
-- **-1000** ≤ **Li** < **Ri** ≤ **1000**.
+- **-1000** ≤ **Li** &lt; **Ri** ≤ **1000**.
 
 The total sum of **N** values for all test cases doesn't exceed 1000.
 

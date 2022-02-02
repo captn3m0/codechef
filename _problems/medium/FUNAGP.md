@@ -59,20 +59,20 @@ All submissions for this problem are available.###  Read problems statements in 
 You are given an 1-based array **A** and its fixed parameters: **R**, **p1**, **p2**. You need to mantain this array, performing some operations. The operations are as follows:
 
 4. 0 **S D X Y**
-  
-  Add an [AGP](https://en.wikipedia.org/wiki/Arithmetico-geometric_sequence) with the start term of **S**, the common difference of **D**, common ratio of **R** from the **X**-th to the to **Y**-th element of **A**.
-  
-  In other words: add **S** , **(S+D)\*R** , **(S+2D)\*R2** ,....., **(S+(Y-X)\*D)\*RY-X** respectively to **A\[X\]**, **A\[X+1\]**, ..., **A\[Y\]**.
+    
+    Add an [AGP](https://en.wikipedia.org/wiki/Arithmetico-geometric_sequence) with the start term of **S**, the common difference of **D**, common ratio of **R** from the **X**-th to the to **Y**-th element of **A**.
+    
+    In other words: add **S** , **(S+D)\*R** , **(S+2D)\*R2** ,....., **(S+(Y-X)\*D)\*RY-X** respectively to **A\[X\]**, **A\[X+1\]**, ..., **A\[Y\]**.
 5. 1 **X g**
-  
-  Replace the value of **A\[X\]** to **(A\[X\])g** modulo **p2**.
-  
-  In other words: **A\[x\]** = **(A\[X\])g** modulo **p2**.
+    
+    Replace the value of **A\[X\]** to **(A\[X\])g** modulo **p2**.
+    
+    In other words: **A\[x\]** = **(A\[X\])g** modulo **p2**.
 6. 2 **X Y**
-  
-  Report the sum of elements in **A** from the **X**-th to the **Y**-th modulo **p1**.
-  
-  In other words: output (**A\[X\]** + ...... + **A\[Y\]**) modulo **p1**.
+    
+    Report the sum of elements in **A** from the **X**-th to the **Y**-th modulo **p1**.
+    
+    In other words: output (**A\[X\]** + ...... + **A\[Y\]**) modulo **p1**.
 ### Input
 
 The first line of input contains an integer **T** denoting the number of test cases. The description of **T** test cases follows.
@@ -136,22 +136,22 @@ For each query of the type 2 output the sum of all elements of **A** from the **
 **Explanation**
 
 15. **The first test case**
-  
-  
-  Initially **A** = \[0,0,0,0,0\] 
-  
-  After the first query : **A** = \[2,10,32,0,0\]
-  
-  After the second query : **A** = \[2,1,32,0,0\] as (10 \* 10) modulo 11 = 1
-  
-  So in the third query : 2 + 1 + 32 + 0 + 0 = 35 , so 35 modulo 7 = 0
+    
+    
+    Initially **A** = \[0,0,0,0,0\] 
+    
+    After the first query : **A** = \[2,10,32,0,0\]
+    
+    After the second query : **A** = \[2,1,32,0,0\] as (10 \* 10) modulo 11 = 1
+    
+    So in the third query : 2 + 1 + 32 + 0 + 0 = 35 , so 35 modulo 7 = 0
 16. **The second test case**
-  
-  
-  Initially **A** = \[1,2,3,4,5\] 
-  
-  After the first query : **A** = \[3,17,75,4,5\]
-  
-  After the second query : **A** = \[3,2,75,4,5\] as (17\*17) modulo 7 = 2
-  
-  So in the third query : 3 + 2 + 75 + 4 + 5 = 89 , so 89 modulo 11 = 1
+    
+    
+    Initially **A** = \[1,2,3,4,5\] 
+    
+    After the first query : **A** = \[3,17,75,4,5\]
+    
+    After the second query : **A** = \[3,2,75,4,5\] as (17\*17) modulo 7 = 2
+    
+    So in the third query : 3 + 2 + 75 + 4 + 5 = 89 , so 89 modulo 11 = 1

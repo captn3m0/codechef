@@ -84,9 +84,9 @@ A sequence of table cells is said to be a *valid Ghariyal-path* if all of the fo
 
 - (**i1**, **j1**) equals to (1, 1) - the top-left cell of the table
 - (**iK**, **jK**) equals to (N, M) - the bottom-right cell of the table
-- **it** ≤ **it + 1** for each integer **1 ≤ t < K**
-- **jt** ≤ **jt + 1** for each integer **1 ≤ t < K**
-- |**it + 1** - **it**| + |**jt + 1** - **jt**| = 1 for each integer **1 ≤ t < K**
+- **it** ≤ **it + 1** for each integer **1 ≤ t &lt; K**
+- **jt** ≤ **jt + 1** for each integer **1 ≤ t &lt; K**
+- |**it + 1** - **it**| + |**jt + 1** - **jt**| = 1 for each integer **1 ≤ t &lt; K**
 
 One can easily prove that the length of any valid Ghariyal-path is exactly **N + M - 1** cells. It's also easy to prove that any valid Ghariyal-path contains any of the table cells at most once.
 
@@ -148,7 +148,7 @@ In the first case, the following set of valid Ghariyal-paths is one of the optim
 28. (1, 1), (2, 1), (3, 1), (3, 2), (3, 3), (4, 3), (4, 4), (5, 4)
 29. (1, 1), (2, 1), (3, 1), (4, 1), (4, 2), (5, 2), (5, 3), (5, 4)
 30. (1, 1), (2, 1), (3, 1), (4, 1), (5, 1), (5, 2), (5, 3), (5, 4)
-  In the second case, the following set of valid Ghariyal-paths is one of the optimal ones:
+    In the second case, the following set of valid Ghariyal-paths is one of the optimal ones:
 31. (1, 1), (1, 2), (1, 3), (2, 3)
 32. (1, 1), (1, 2), (1, 3), (2, 3)
 33. (1, 1), (1, 2), (1, 3), (2, 3)

@@ -133,7 +133,7 @@ Output a single integer denoting the **sum** of the answers to the questions.
 </pre>
 ### Explanation
 
-28. The first question: **x1** = 0, **y1** = 1 => **ans1** = 2
-29. The second question: **x2** = (0 + 7) mod 2 = 1, **y2** = (1 + 11) mod 3 = 0 => **ans2** = 2
-30. The third question: **x3** = (1 + 7) mod 2 = 0, **y3** = (0 + 11) mod 3 = 2 => **ans3** = 3
+28. The first question: **x1** = 0, **y1** = 1 =&gt; **ans1** = 2
+29. The second question: **x2** = (0 + 7) mod 2 = 1, **y2** = (1 + 11) mod 3 = 0 =&gt; **ans2** = 2
+30. The third question: **x3** = (1 + 7) mod 2 = 0, **y3** = (0 + 11) mod 3 = 2 =&gt; **ans3** = 3
 As **ans1** + **ans2** + **ans3** = 2 + 2 + 3 = 7. So you have to print **7**.

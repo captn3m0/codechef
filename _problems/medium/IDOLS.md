@@ -79,9 +79,9 @@ Let's define functions **F** and **G** for a person with ID equals to **X**:
 
 - If **X** = 1(which means that person **X** is Mike), then **FX** = **AX** and **GX** = 1;
 - Otherwise, let **Y** be the personal idol for **X**. 
-  - If **FY** + 1 < **AX**, then **FX** = **AX** and **GX** = 1;
-  - If **FY** + 1 > **AX**, then **FX** = **FY** + 1 and **GX** = **GY**;
-  - If **FY** + 1 = **AX**, then **FX** = **FY** + 1 and **GX** = **GY** + 1.
+    - If **FY** + 1 &lt; **AX**, then **FX** = **AX** and **GX** = 1;
+    - If **FY** + 1 &gt; **AX**, then **FX** = **FY** + 1 and **GX** = **GY**;
+    - If **FY** + 1 = **AX**, then **FX** = **FY** + 1 and **GX** = **GY** + 1.
 
 It's guaranteed, that it's possible to calculate functions **F** and **G** for every person in the school.
 
@@ -96,7 +96,7 @@ The first line of the input contains two integers **N** and **Q**, denoting the 
 
 The second line contains **N** integers **Ai**, denoting **A1**, **A2**, ..., **AN**.
 
-The third line contains **N - 1** integers **Pi**, denoting the personal idols of persons with IDs equal to 2, 3, ..., **N**. 1 ≤ **Pi** < **i**.
+The third line contains **N - 1** integers **Pi**, denoting the personal idols of persons with IDs equal to 2, 3, ..., **N**. 1 ≤ **Pi** &lt; **i**.
 
 The next **Q** lines contain information about the queries. The format of the queries is the same with the one described in the statement.
 

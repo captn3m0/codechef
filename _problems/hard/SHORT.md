@@ -11,11 +11,11 @@ layout: problem
 ---
 ###  All submissions for this problem are available. 
 
-Given **n** and **k**, find the number of pairs of integers (**a**, **b**) such that **n** < **a** < **k**, **n** < **b** < **k** and **ab-n** is divisible by **(a-n)(b-n)**.
+Given **n** and **k**, find the number of pairs of integers (**a**, **b**) such that **n** &lt; **a** &lt; **k**, **n** &lt; **b** &lt; **k** and **ab-n** is divisible by **(a-n)(b-n)**.
 
 ### Input
 
-The first line contains the number of test cases **t** (1 ≤ **t** ≤ 5). Then **t** test cases follow, each test case consists of a line containing two integers **n** and **k** (0 ≤ **n** ≤ 100000, **n** < **k** ≤ 1018).
+The first line contains the number of test cases **t** (1 ≤ **t** ≤ 5). Then **t** test cases follow, each test case consists of a line containing two integers **n** and **k** (0 ≤ **n** ≤ 100000, **n** &lt; **k** ≤ 1018).
 
 ### Output
 

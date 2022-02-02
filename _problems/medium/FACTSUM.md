@@ -23,7 +23,7 @@ S = a1*p1 + a2*p2 ... + an*pn.
 </pre>
 ### Input
 
-A list of <100 integers, one on each line, all less than 2\*10^19.
+A list of &lt;100 integers, one on each line, all less than 2\*10^19.
 
 ### Output
 

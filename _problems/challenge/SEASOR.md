@@ -67,7 +67,7 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
-All submissions for this problem are available.Sereja has an array, which consists of **N** integers. Let the integers be denoted by **a1, a2, ... aN**. Sereja has just started learning about sorting. Sereja wrote a program, which takes input of an index **idx** and then sorts the elements of Sereja's array which satisfy **{ ai : idx ≤ i < min(N + 1, idx + K) }**.
+All submissions for this problem are available.Sereja has an array, which consists of **N** integers. Let the integers be denoted by **a1, a2, ... aN**. Sereja has just started learning about sorting. Sereja wrote a program, which takes input of an index **idx** and then sorts the elements of Sereja's array which satisfy **{ ai : idx ≤ i &lt; min(N + 1, idx + K) }**.
 
 Now, Sereja wants to solve the more interesting problem of sorting the original array. But, Sereja is not very keen on writing more programs. So he asks you to write a program that provides input to his program so that his array is sorted. He shall be more pleased if you sort his array in as few operations (where an operation is one invocation of Sereja's program) as possible.
 

@@ -80,7 +80,7 @@ The organizing committee didn't announce the maximum number of points for each p
 
 After the contest, participants are ranked according to the total score; in case of a tie, the participant with the highest id has the best (lowest) rank.
 
-For each valid **i**, let's denote the rank of the participant with id **i** by **Ri**. An inversion in the standings is a pair **i**, **j** such that **i** < **j** and **Ri > Rj**.
+For each valid **i**, let's denote the rank of the participant with id **i** by **Ri**. An inversion in the standings is a pair **i**, **j** such that **i** &lt; **j** and **Ri &gt; Rj**.
 
 The committee now wants to assign maximum scores to problems. However, they can't assign the scores arbitrarily. For each problem, you are given two numbers **L** and **U** denoting the lower and upper bound for the maximum score — the maximum score for this problem has to be an integer between **L** and **U** (both inclusive).
 

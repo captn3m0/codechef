@@ -92,7 +92,7 @@ For each test case, output a single integer denoting the number ways you can par
 **1 ≤ T ≤ 10**
 **1 ≤ N ≤ 200000**
 **1 ≤ M ≤ 18**
-**1 ≤ Ai < 2M**
+**1 ≤ Ai &lt; 2M**
 
 ### Sample
 
@@ -122,14 +122,14 @@ For each test case, output a single integer denoting the number ways you can par
 If you don't see why the answer is 32, consider the following
 
 - There is only 1 partition of { 4 }
-- There are 2 partitions of { 4, 4 } => { {4}, {4} } and { {4,4} }
-- There are 4 partitions of { 4, 4, 4 } => { {4}, {4}, {4} }, { {4}, {4,4} }, { {4,4}, {4} } and { {4,4,4} }
+- There are 2 partitions of { 4, 4 } =&gt; { {4}, {4} } and { {4,4} }
+- There are 4 partitions of { 4, 4, 4 } =&gt; { {4}, {4}, {4} }, { {4}, {4,4} }, { {4,4}, {4} } and { {4,4,4} }
 - There are 8 partitions of { 4, 4, 4, 4 } and so on..
 
 **Test Case 2.**The following 4 ways are the only ways to partition the sequence so that the Sous Chef's program accepts all the partitions.
 
-- { {4,4}, {4,4}, {4,4} } => The 3rd bit is 0 in 8, which is the sum of values in each of the partitions.
-- { {4,4}, {4,4,4,4} } => The 3rd bit is 0 in 8 as well as 16, which is the sum of values in the two partitions respectively.
+- { {4,4}, {4,4}, {4,4} } =&gt; The 3rd bit is 0 in 8, which is the sum of values in each of the partitions.
+- { {4,4}, {4,4,4,4} } =&gt; The 3rd bit is 0 in 8 as well as 16, which is the sum of values in the two partitions respectively.
 - { {4,4,4,4}, {4,4} }
 - { {4,4,4,4,4,4} }
 

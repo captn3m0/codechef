@@ -89,8 +89,8 @@ For each test case, output a single line containing two space separated integers
 
 ### Constraints
 
-- **T<=100 in each test file**
-- **0 <= N,K <= 233 - 1**
+- **T&lt;=100 in each test file**
+- **0 &lt;= N,K &lt;= 233 - 1**
 
 ### Example
 

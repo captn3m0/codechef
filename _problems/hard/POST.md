@@ -48,8 +48,8 @@ For each test case, output a line containing the number of shortest paths to the
 </pre>
 ### Constraints
 
-1<=T<=30
- 1<=W,H<=107
- 0<=xi<=W
- 0<=yi<=H
- 0<=N<=max(100,min(W,H,1000))
+1&lt;=T&lt;=30
+ 1&lt;=W,H&lt;=107
+ 0&lt;=xi&lt;=W
+ 0&lt;=yi&lt;=H
+ 0&lt;=N&lt;=max(100,min(W,H,1000))

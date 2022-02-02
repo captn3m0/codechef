@@ -108,7 +108,7 @@ For each testcase, output a single line containing **n** integers, the i-th inte
 
 We will see what happens at every minute:
 
-- time = 1: The queue is (1, 2), and so the owner of Request 1 is checked as to whether he is ready or not. This checking process takes up this entire minute. He is not ready, because **b1** > time (2 > 1). So the queue now becomes (2, 1).
+- time = 1: The queue is (1, 2), and so the owner of Request 1 is checked as to whether he is ready or not. This checking process takes up this entire minute. He is not ready, because **b1** &gt; time (2 &gt; 1). So the queue now becomes (2, 1).
 - time = 2: The owner of Request 2 is checked as to whether he is ready or not. This checking process takes up this entire minute. He is ready, because **b2** ≤ time (2 ≤ 2).
 - time = 3, and 4: These two (**a2**) minutes are taken to finish Request 2. So Request 2 is completed in minute 4.
 - time = 5: The queue is now (1). The owner of Request 1 is checked as to whether he is ready or not. This checking process takes up this entire minute. He is ready, because **b1** ≤ time (2 ≤ 5).

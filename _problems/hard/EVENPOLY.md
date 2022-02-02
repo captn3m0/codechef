@@ -15,7 +15,7 @@ In this problem, you are given a polynomial P over multiple variables with integ
 
 Unfortunately, you will not be given an explicit description of the polynomial. Rather, you will be given a square matrix whose entries are polynomials and the polynomial P is the determinant of this matrix.
 
-Here, we are defining the determinant of a matrix by the usual cofactor expansion formula. That is, say the matrix M is of size d x d and denote the polynomial located at row i, column j by Mi,j for any i,j between 1 and d. For a permutation X on the set {1,2,...,d}, let sgn(X) be (-1)inv(X) where inv(X) is the number of pairs 1 ≤ i < j ≤ d with X(i) > X(j) (*i.e.* the number of inversions of X). Then the determinant of M is the sum, over all permutations X, of the products sgn(X)M1,X(1)M2,X(2)...Md,X(d).
+Here, we are defining the determinant of a matrix by the usual cofactor expansion formula. That is, say the matrix M is of size d x d and denote the polynomial located at row i, column j by Mi,j for any i,j between 1 and d. For a permutation X on the set {1,2,...,d}, let sgn(X) be (-1)inv(X) where inv(X) is the number of pairs 1 ≤ i &lt; j ≤ d with X(i) &gt; X(j) (*i.e.* the number of inversions of X). Then the determinant of M is the sum, over all permutations X, of the products sgn(X)M1,X(1)M2,X(2)...Md,X(d).
 
 ### Input
 

@@ -13,14 +13,14 @@ layout: problem
 
 Given A and B, compute the sum of lcm(a, b) over all pairs of positive integers a and b such that:
 
-(1) a<=A and b<=B. 
-(2) There is no integer n>1 such that n2 divides both a and b.
+(1) a&lt;=A and b&lt;=B. 
+(2) There is no integer n&gt;1 such that n2 divides both a and b.
 
 Give your answer modulo 230.
 
 ### Input
 
-The first line contains the number of test cases, t (about 200). Each of the next t lines contains two space-separated integers A and B (1<=A, B<=4000000).
+The first line contains the number of test cases, t (about 200). Each of the next t lines contains two space-separated integers A and B (1&lt;=A, B&lt;=4000000).
 
 ### Output
 

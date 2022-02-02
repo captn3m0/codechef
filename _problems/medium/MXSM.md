@@ -86,8 +86,8 @@ Since the second answer to this problem can be very large, output it modulo **10
 - First line of input contains a single integer **T** denoting the number of test cases.
 - First line of each test case contains a single integer **N** denoting the number of lists of integers.
 - Next **N** lines of each test case contains some space separated integers where integers in the **ith** line make up the **ith** list. Each list description has the following format. 
-  - First integer **Si** in the **ith** line denotes the size of the **ith** list, and
-  - the next **Si** space separated integers are the elements in the list.
+    - First integer **Si** in the **ith** line denotes the size of the **ith** list, and
+    - the next **Si** space separated integers are the elements in the list.
 
 ### Output
 

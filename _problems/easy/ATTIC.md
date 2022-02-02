@@ -79,7 +79,7 @@ The next day they return to their mission, but somehow find that there is anothe
 Note the following:
 
 - At each point, they are able to sense only how much they need to jump at that point, and have no idea of the further reaches of the passage till they reach there. That is, they are able to only see how far ahead is the next floorboard.
-- The amount they choose to practice for their jump is exactly the amount they need to get across that particular part of the passage. That is, if they can currently jump upto a length **L0**, and they require to jump a length **L1**(> L0) at that point, they will practice jumping length **L1** that day.
+- The amount they choose to practice for their jump is exactly the amount they need to get across that particular part of the passage. That is, if they can currently jump upto a length **L0**, and they require to jump a length **L1**(&gt; L0) at that point, they will practice jumping length **L1** that day.
 - They start by being able to "jump" a length of 1.
 
 Find how many days it will take them to cross the passageway. In the input, the passageway is described as a string **P** of '#'s and '.'s. A '#' represents a floorboard, while a '.' represents the absence of a floorboard. The string, when read from left to right, describes the passage from Polly's house to Digory's, and not vice-versa.

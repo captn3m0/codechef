@@ -40,25 +40,25 @@ For each query output one integer, **j**(1-indexed), which is the index such tha
 
 39. **Subtask 1**(20 points): **N\*Q ≤ 106,**
 40. **Subtask 2**(80 points): Original constraints ### Example
-  
-  ```
-  <b>Input:</b>
-  8 5 4
-  1 5 7 3 9 11 0 4
-  1 1
-  2 1
-  3 1
-  1 3
-  5 3
-  
-  <b>Output:</b>
-  1
-  2
-  5
-  4
-  -1
-  ```
-  
-  ### Explanation
-  
-  **Example case 1.** For the first query the answer is 1 because a\[1\] is 1, which is the smallest element in the array with remainder 1.
+    
+    ```
+    <b>Input:</b>
+    8 5 4
+    1 5 7 3 9 11 0 4
+    1 1
+    2 1
+    3 1
+    1 3
+    5 3
+    
+    <b>Output:</b>
+    1
+    2
+    5
+    4
+    -1
+    ```
+    
+    ### Explanation
+    
+    **Example case 1.** For the first query the answer is 1 because a\[1\] is 1, which is the smallest element in the array with remainder 1.

@@ -91,7 +91,7 @@ Your solution will be tested against only on **20%** of the test files during th
 
 - **1** ≤ **N** ≤ **106**
 - **1** ≤ **M** ≤ **106**
-- 0 ≤ **ai, bi** < **N**
+- 0 ≤ **ai, bi** &lt; **N**
 - **1** ≤ **ci** ≤ **109**
 
 ### Subtasks

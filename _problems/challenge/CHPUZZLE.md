@@ -96,7 +96,7 @@ Then **K** blocks, describing a piece follow.
 
 Each description starts with a line, containing a single integer **P**, denoting the number of cells that this piece cover.
 
-Then there are **P** lines, each contains a pair of integers **X, Y (1 <= X <= H, 1 <= Y <= W)**, denoting **1-based** coordinates of piece's cell in its' bounding box. That is, the minimal **X**-coordinate and the minimal **Y**-coordinate in each piece's description are both 1.
+Then there are **P** lines, each contains a pair of integers **X, Y (1 &lt;= X &lt;= H, 1 &lt;= Y &lt;= W)**, denoting **1-based** coordinates of piece's cell in its' bounding box. That is, the minimal **X**-coordinate and the minimal **Y**-coordinate in each piece's description are both 1.
 
 All the pieces are identified by consecutive positive integers (starting from 1) in the order of input.
 
@@ -113,7 +113,7 @@ There will be several groups in this problem (**20** test cases in total):
 - The third group will contain **3** test cases. In these test cases, **W** and **H** will be chosen randomly between **600** and **800**. **K** will be chosen randomly between **W \* H / 100** and **W \* H / 34**, inclusively.
 - The fourth group will contain **4** test cases. In these test cases, **W** and **H** will be chosen randomly between **500** and **1000**. **K** will be chosen randomly between **W \* H / 50** and **W \* H / 5**, inclusively.
 
-In the test data provided, the maximal number of pixels in a piece and the minimal number of pixels in a piece will differ in no more than 3 times. That is, the **max\_P - min\_P <= 3 \* min\_P**.
+In the test data provided, the maximal number of pixels in a piece and the minimal number of pixels in a piece will differ in no more than 3 times. That is, the **max\_P - min\_P &lt;= 3 \* min\_P**.
 
 ### Scoring
 

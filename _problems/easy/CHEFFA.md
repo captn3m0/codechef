@@ -70,7 +70,7 @@ layout: problem
 ---
 All submissions for this problem are available.### Read problems statements in [mandarin chinese](http://www.codechef.com/download/translated/AUG17/mandarin/CHEFFA.pdf), [russian](http://www.codechef.com/download/translated/AUG17/russian/CHEFFA.pdf) and [vietnamese](http://www.codechef.com/download/translated/AUG17/vietnamese/CHEFFA.pdf) as well.
 
-Chef has an array **A** = (**A1**, **A2**, ..., **AN**), which has **N** integers in it initially. Chef found that for i ≥ 1, if **Ai** > 0, **Ai+1** > 0, and **Ai+2** exists, then he can decrease both **Ai**, and **Ai+1** by one and increase **Ai+2** by one. If **Ai+2** doesn't exist, but **Ai** > 0, and **Ai+1** > 0, then he can decrease both **Ai**, and **Ai+1** (which will be the currently last two elements of the array) by one and add a new element at the end, whose value is 1.
+Chef has an array **A** = (**A1**, **A2**, ..., **AN**), which has **N** integers in it initially. Chef found that for i ≥ 1, if **Ai** &gt; 0, **Ai+1** &gt; 0, and **Ai+2** exists, then he can decrease both **Ai**, and **Ai+1** by one and increase **Ai+2** by one. If **Ai+2** doesn't exist, but **Ai** &gt; 0, and **Ai+1** &gt; 0, then he can decrease both **Ai**, and **Ai+1** (which will be the currently last two elements of the array) by one and add a new element at the end, whose value is 1.
 
 Now Chef wants to know the number of different arrays that he can make from **A** using this operation as many times as he wishes. Help him find this, and because the answer could be very large, he is fine with you reporting the answer modulo 109+7.
 

@@ -25,7 +25,7 @@ For each test case, output the K1th, K2th and K3th maximum sum in a single line,
 
 1 ≤ T ≤ 3
 2 ≤ N ≤ 10000
-1 ≤ K1 < K2 < K3 ≤ 2012
+1 ≤ K1 &lt; K2 &lt; K3 ≤ 2012
 K3 ≤ N\*(N+1)/2
 -10000 ≤ A\[i\] ≤ 10000
 
@@ -48,7 +48,7 @@ K3 ≤ N\*(N+1)/2
 </pre>
 
 **Explanation:**
-Case 1 & 2 : A = { 10, 20, 30 }. All possible sums of sub-arrays in non-increasing order, S\[1..6\] = { 60, 50, 30, 30, 20, 10 }
+Case 1 &amp; 2 : A = { 10, 20, 30 }. All possible sums of sub-arrays in non-increasing order, S\[1..6\] = { 60, 50, 30, 30, 20, 10 }
 
 
 ***Warning :** "Large input / output. Be careful with certain languages. Eg: Prefer using scanf/printf to cin/cout for C++"*

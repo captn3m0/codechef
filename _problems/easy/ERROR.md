@@ -72,13 +72,9 @@ All submissions for this problem are available.###  Read problems statements in 
 
  Lots of geeky customers visit our chef's restaurant everyday. So, when asked to fill the feedback form, these customers represent the feedback using a binary string (i.e a string that contains only characters **'0'** and **'1'**.
 
-Now since chef is not that great in deciphering binary strings, he has decided the following criteria to classify the feedback as **Good** or **Bad** : 
-
-/>/>
+Now since chef is not that great in deciphering binary strings, he has decided the following criteria to classify the feedback as **Good** or **Bad** :
 
 If the string contains the substring **"010"** or **"101"**, then the feedback is **Good**, else it is **Bad**. Note that, to be **Good** it is not necessary to have both of them as substring.
- 
-/>/>
 
  So given some binary strings, you need to output whether according to the chef, the strings are **Good** or **Bad**.
 
@@ -99,8 +95,6 @@ If the string contains the substring **"010"** or **"101"**, then the feedback i
 
 Sum of length of all strings in one test file will not exceed **6\*106**.
 
-/>/>
-
 ### Example
 
 <pre><b>Input:</b>
@@ -112,14 +106,13 @@ Sum of length of all strings in one test file will not exceed **6\*106**.
 Bad
 Good
 <br></br>
-/>/>
 </pre>
 ### Explanation
 
 **Example case 1.**
 
-The string doesn't contain **010** or **101** as substrings. />
+The string doesn't contain **010** or **101** as substrings.
 
 **Example case 2.**
 
-The string contains both **010** and **101** as substrings. />
+The string contains both **010** and **101** as substrings.

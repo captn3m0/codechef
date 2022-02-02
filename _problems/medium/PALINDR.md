@@ -109,14 +109,14 @@ abacaba
 </pre>
 ### Scoring
 
-In all the subtasks, 1 <= **L** <= **R** <= **N**.
+In all the subtasks, 1 &lt;= **L** &lt;= **R** &lt;= **N**.
 
-Subtask 1 (33 points): 1 <= **N** <= 10, 1 <= **M** <= 1000
+Subtask 1 (33 points): 1 &lt;= **N** &lt;= 10, 1 &lt;= **M** &lt;= 1000
 
-Subtask 2 (17 points): 1 <= **N** <= 1000, 1 <= **M** <= 1000
+Subtask 2 (17 points): 1 &lt;= **N** &lt;= 1000, 1 &lt;= **M** &lt;= 1000
 
-Subtask 3 (23 points): 1 <= **N** <= 4\*104, 1 <= **M** <= 4\*104
+Subtask 3 (23 points): 1 &lt;= **N** &lt;= 4\*104, 1 &lt;= **M** &lt;= 4\*104
 
-Subtask 4 (27 points): 1 <= **N** <= 105, 1 <= **M** <= 105
+Subtask 4 (27 points): 1 &lt;= **N** &lt;= 105, 1 &lt;= **M** &lt;= 105
 
 Time limit for subtasks 1 and 2 is 1 sec, and for the subtasks 3 and 4 it's equal to 2 sec.

@@ -17,7 +17,7 @@ You are asked to calculate factorials of some small positive integers.
 
 ### Input
 
-An integer t, 1<=t<=100, denoting the number of testcases, followed by t lines, each containing a single integer n, 1<=n<=100.
+An integer t, 1&lt;=t&lt;=100, denoting the number of testcases, followed by t lines, each containing a single integer n, 1&lt;=n&lt;=100.
 
 ### Output
 

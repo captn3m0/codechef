@@ -90,7 +90,7 @@ Output a single line corresponding to the answer of the problem.
 
 ### Constraints
 
-- **2** ≤ **N** **≤ 106**
+- **2** ≤ **N ≤ 106**
 - **1** ≤ **L** ≤ **R** ≤ **1018**
 - **1** ≤ **Li** ≤ **1018**
 

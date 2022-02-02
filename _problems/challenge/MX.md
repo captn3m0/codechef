@@ -81,7 +81,7 @@ First, two numbers, 2≤n≤20, 1≤k≤1000, the number of inputs and the numbe
 
 ### Output
 
-First, output p, the number of gates in your device (0≤p≤106). The next p lines should contain definitions of the gates used, in the form of a pair of integers, xi,yi, and exactly one of the strings "min" or "max". To be able to use the output of a gate as the input of a subsequent gate, we use the following convention. First of all, the range for inputs xi and yi is as follows: 1 ≤ xi,yi < n+p. The output of the i-th gate is assumed to be input n+i.
+First, output p, the number of gates in your device (0≤p≤106). The next p lines should contain definitions of the gates used, in the form of a pair of integers, xi,yi, and exactly one of the strings "min" or "max". To be able to use the output of a gate as the input of a subsequent gate, we use the following convention. First of all, the range for inputs xi and yi is as follows: 1 ≤ xi,yi &lt; n+p. The output of the i-th gate is assumed to be input n+i.
 
 Finally, a sequence of exactly n integers in the range 1..n+p should follow, describing which of the "inputs" should be hard-wired to successive outputs of the device.
 

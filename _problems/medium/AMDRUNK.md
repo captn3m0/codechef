@@ -57,8 +57,8 @@ Given a description of the city and indices of junctions **s** and **t** you hav
 - **ui** ≠ **vi**
 - It is guaranteed that it is possible to get from any junction to any other junction moving along the roads, each junction has at least two incident roads and no two roads connect the same pair of junctions.
 - It is guaranteed that both the total number of intersections and the total number of roads over all test cases in one input file won't exceed 1000000
-
 ### Example
+
 
 <pre>
 <b>Input:</b>

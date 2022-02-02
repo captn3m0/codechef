@@ -99,7 +99,7 @@ happen.
 
 
 10. If after this move there is at least one connected component of opponent dead, then stones from these dead components
-  will be removed. (In this case, after remove all dead components of your opponent, we can prove all your connected component are not dead.)
+    will be removed. (In this case, after remove all dead components of your opponent, we can prove all your connected component are not dead.)
 11. Otherwise, if there are at least one connected component of yours dead, then this move is invalid.
 In order to avoid infinite loops, there is a rule called "No same state". The state of board can be expressed as a string with length 82:
 the first character indicate who is the next player, then 9\*9 character indicate the state of a certain cell. If after one move the game

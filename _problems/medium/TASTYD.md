@@ -76,13 +76,9 @@ There is only one list of **N** ingredients in the menu. Every ingredient has it
 
 First line of the input consists of two positive integers - **N** and **K**. There are **N** space separated positive integers - beauty values of the ingredients.
 
-/>/>
-
 ### Output:
 
-Output should consist of a single integer - the answer for the problem. 
-
-/>/>
+Output should consist of a single integer - the answer for the problem.
 
 ### Constraints:
 
@@ -115,10 +111,8 @@ Output should consist of a single integer - the answer for the problem.
 
 There are no special constrains for the remaining **40** points.
 
-/>/>/>/>
-
 ### Test generation details: 
 
 Delivery and sorting of ingredients is quite random thing, so all the test cases will look as follows:
 
-**N** and **K** are chosen by setter. An integer **M** is chosen by setter from interval **\[100..10^9\]**. Let **B\[\]** be the array of beauty values of ingredients. **B\[i\]** is chosen uniformly at random from an interval **\[1..M\]** for every **1** ≤ **i** ≤ **N**. After **B\[\]** is generated setter can choose a positive integer **R** and do **B\[i\]** = **B\[i\]**\***R** for every **1** ≤ **i** ≤ **N**. It's guaranteed that even after multiplying every **B\[i\]** won't exceed **10^9**. />
+**N** and **K** are chosen by setter. An integer **M** is chosen by setter from interval **\[100..10^9\]**. Let **B\[\]** be the array of beauty values of ingredients. **B\[i\]** is chosen uniformly at random from an interval **\[1..M\]** for every **1** ≤ **i** ≤ **N**. After **B\[\]** is generated setter can choose a positive integer **R** and do **B\[i\]** = **B\[i\]**\***R** for every **1** ≤ **i** ≤ **N**. It's guaranteed that even after multiplying every **B\[i\]** won't exceed **10^9**.

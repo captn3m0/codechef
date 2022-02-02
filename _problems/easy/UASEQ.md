@@ -72,7 +72,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
  You are given an array that consists of **n** integer numbers. You have to change at most **K** elements of this array, so that the resulting array will be a arithmetic progression. From all the possible arithmetic progressions, you should choose most *beautiful*.
 
-You can uniquely define the arithmetic progression by two numbers **a0** and **d** - the first element of the given progression and the step that defines next element. (**ai = a0+i \* d**). The progression **A(a0 , d0)** is more *beautiful* than the progression **B(b0, d1)** iff **(a0 < b0 or (a0 = b0 and d0 < d1))**
+You can uniquely define the arithmetic progression by two numbers **a0** and **d** - the first element of the given progression and the step that defines next element. (**ai = a0+i \* d**). The progression **A(a0 , d0)** is more *beautiful* than the progression **B(b0, d1)** iff **(a0 &lt; b0 or (a0 = b0 and d0 &lt; d1))**
 
 ### Input
 

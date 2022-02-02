@@ -104,7 +104,7 @@ Should contain all the constraints on the input data that you may have. Format i
 
 - **1** ≤ **T** ≤ **10**
 - **1** ≤ **N** ≤ **104**
-- 0 < **A1** < **A2** < ... < **AN** < **109**
+- 0 &lt; **A1** &lt; **A2** &lt; ... &lt; **AN** &lt; **109**
 - **1** ≤ **Bi** ≤ **109**
 
 ### Example

@@ -75,7 +75,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 Sebi's father gives him a maths question every night after dinner which he has to solve before sleeping. Today's question is as follows.
 
-There are four integers **A, B, C, N**. Consider the following equation in two non-negative integer variables **x** and **y**`<pre><b>x * y = (x | y) * (x & y) + A * x + B * y + C</b></pre>`where **|** denotes [bitwise OR](https://en.wikipedia.org/wiki/Bitwise_operation#OR) and **&** denotes [bitwise AND](https://en.wikipedia.org/wiki/Bitwise_operation#AND) operation.
+There are four integers **A, B, C, N**. Consider the following equation in two non-negative integer variables **x** and **y**`<pre><b>x * y = (x | y) * (x & y) + A * x + B * y + C</b></pre>`where **|** denotes [bitwise OR](https://en.wikipedia.org/wiki/Bitwise_operation#OR) and **&amp;** denotes [bitwise AND](https://en.wikipedia.org/wiki/Bitwise_operation#AND) operation.
 
 Sebi's father asks him to consider solutions such that **x, y** don't exceed **N**. Let **X** be the sum of **x**'s for all solutions **(x, y)** and **Y** be the sum of **y**'s for all solutions **(x, y)**.
 
@@ -119,7 +119,7 @@ Output a **T** line containing two space separated integers **X** and **Y**.
 
 **Example 1.**
 
-There are two solutions - (3, 9) and (9, 3). For example, (9, 3) is a solution because: 9 | 3 = 11 and 9 & 3 = 1, so 9 \* 3 = 11 \* 1 + 1 \* 9 + 1 \* 3 + 4.
+There are two solutions - (3, 9) and (9, 3). For example, (9, 3) is a solution because: 9 | 3 = 11 and 9 &amp; 3 = 1, so 9 \* 3 = 11 \* 1 + 1 \* 9 + 1 \* 3 + 4.
 
 The value of **X** will be 3 + 9 = 12, and where **Y** will be 9 + 3 = 12.
 

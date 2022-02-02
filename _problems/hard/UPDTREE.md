@@ -85,7 +85,7 @@ Operations are defined by:
 
 Queries are of the following type:
 
-**E F**: Print the sum of values of all the edges on the path between two distinct nodes **E** and **F**. Again the path will be unique. />/>/>/>/>/>/>
+**E F**: Print the sum of values of all the edges on the path between two distinct nodes **E** and **F**. Again the path will be unique.
 
 ### Input
 

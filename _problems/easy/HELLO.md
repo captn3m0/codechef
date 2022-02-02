@@ -87,7 +87,7 @@ For each test case, output one integer- the number of the best plan (from 1 to N
 1 ≤ **U** ≤ 10000
 1 ≤ **N** ≤ 100
 1 ≤ **M** ≤ 36
-0.05 ≤ **R** < **D** (exactly 2 digits after the decimal point)
+0.05 ≤ **R** &lt; **D** (exactly 2 digits after the decimal point)
 1 ≤ **C** ≤ 1000
 
 ### Example

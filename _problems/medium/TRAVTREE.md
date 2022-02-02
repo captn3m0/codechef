@@ -93,13 +93,13 @@ For each day output one integer on a separate line - the number of previous rout
 ### Constraints with Subtasks
 
 - **Subtask #1\[18 points\]**:
-  **1** ≤ **N, Q** ≤ **102**
+    **1** ≤ **N, Q** ≤ **102**
 - **Subtask #2\[19 points\]**:
-  **1** ≤ **N, Q** ≤ **103**
+    **1** ≤ **N, Q** ≤ **103**
 - **Subtask #3\[21 points\]**:
-  **1** ≤ **N, Q** ≤ **5\*104**
+    **1** ≤ **N, Q** ≤ **5\*104**
 - **Subtask #4\[42 points\]**:
-  **1** ≤ **N** ≤ **2\*105**, **1** ≤ **Q** ≤ **3\*105**
+    **1** ≤ **N** ≤ **2\*105**, **1** ≤ **Q** ≤ **3\*105**
 
 ### Example
 

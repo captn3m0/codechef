@@ -124,4 +124,4 @@ Optimal solution is to add the first node from the query to node 1 of the tree a
 
 Optimal solution is to add the first node from the query to node 1 of the tree for a cost 2. Then add next two nodes from the query to newly added node.
 
-Total cost is 2 + 2 + 2 = 6./>/>/>/>
+Total cost is 2 + 2 + 2 = 6.

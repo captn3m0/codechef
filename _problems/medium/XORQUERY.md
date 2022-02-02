@@ -84,12 +84,12 @@ He now wants to test his disciple's understanding of this function. He tells the
 Total **Q** events occur each of which can be in one of the following forms:
 
 - **1 u v r**: 
-   Mr. X says that f(**u**, **v**) = **r**. For this type of event you must print: 
-  - *AC* if the given information is consistent with all the previous information that you have accepted as AC and there is *no way* you can argue that this information is wrong. Accept this new information as correct.
-  - *WA* when you can prove that the given information is wrong and does not fit in with the previously *AC* events.
+     Mr. X says that f(**u**, **v**) = **r**. For this type of event you must print: 
+    - *AC* if the given information is consistent with all the previous information that you have accepted as AC and there is *no way* you can argue that this information is wrong. Accept this new information as correct.
+    - *WA* when you can prove that the given information is wrong and does not fit in with the previously *AC* events.
 - **2 u v**:
-   Print the value of f(**u**, **v**) using only the information provided in the previously *AC* events. 
-   If it is not possible to correctly determine this value based on only previously *AC* events print -1.
+     Print the value of f(**u**, **v**) using only the information provided in the previously *AC* events. 
+     If it is not possible to correctly determine this value based on only previously *AC* events print -1.
 
 ### Input
 
@@ -97,8 +97,8 @@ Total **Q** events occur each of which can be in one of the following forms:
 - First line of each test case contains two space separated integers **n** and **Q** denoting the number of nodes and number of events respectively.
 - Each of the next **n** - 1 lines contains two space separated integers **u v** denoting that there is an edge between **u** and **v** in the tree.
 - Description of **Q** events follow. Each line follows one of these two formats: 
-  - **1 u v r**, denoting first type of event.
-  - **2 u v**, denoting second type of event.
+    - **1 u v r**, denoting first type of event.
+    - **2 u v**, denoting second type of event.
 
 ### Output
 

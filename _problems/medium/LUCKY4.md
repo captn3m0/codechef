@@ -71,11 +71,11 @@ All submissions for this problem are available. Chef loves lucky numbers. Everyb
 
  Chef likes sequences of **n** positive integers, each of which does not exceed **m**. The total number of such sequences is equal to **m^n**.
 
- Chef has an array **C** of **n-1** integers. Let **F(x)** be equal to the number of lucky digits in decimal representation of integer **x**. Let there be a sequence **A** of **n** integers (1-based numeration). Chef calls it lucky when the following hold: if for each **i (1 <= i < n)** if **C\[i\]** equals to **1**, then **F(A\[i\])** must be equal to **F(A\[i+1\])** and if **C\[i\]** equals to 0, then **F(A\[i\])** must not be equal to **F(A\[i+1\])**.
+ Chef has an array **C** of **n-1** integers. Let **F(x)** be equal to the number of lucky digits in decimal representation of integer **x**. Let there be a sequence **A** of **n** integers (1-based numeration). Chef calls it lucky when the following hold: if for each **i (1 &lt;= i &lt; n)** if **C\[i\]** equals to **1**, then **F(A\[i\])** must be equal to **F(A\[i+1\])** and if **C\[i\]** equals to 0, then **F(A\[i\])** must not be equal to **F(A\[i+1\])**.
 
  Chef has integers **n, m, k** and an array **C**. He wants to find out the **k-th** lucky sequence for a given array **C**. Help him. If the **k-th** lucky sequence does not exist, print the only integer **-1**.
 
- The **k-th** lucky sequence is the **k-th** (1-based numeration) sequence in lexicographically sorted list of all lucky sequences for given integers **n, m** and an array **C**. The sequence **A** is lexicographic less than the sequence **B** if there exits integer **x (1 <= x <= n)** that **A\[x\] < B\[x\]** and **A\[y\] = B\[y\]** for all **y (1 <= y < x)**.
+ The **k-th** lucky sequence is the **k-th** (1-based numeration) sequence in lexicographically sorted list of all lucky sequences for given integers **n, m** and an array **C**. The sequence **A** is lexicographic less than the sequence **B** if there exits integer **x (1 &lt;= x &lt;= n)** that **A\[x\] &lt; B\[x\]** and **A\[y\] = B\[y\]** for all **y (1 &lt;= y &lt; x)**.
 
 ### Input
 
@@ -87,13 +87,13 @@ For each **T** test cases print sequence of integers - answer for corresponding 
 
 ### Constraints
 
-2 <= **T** <= 10
+2 &lt;= **T** &lt;= 10
 
-2 <= **n** <= 50
+2 &lt;= **n** &lt;= 50
 
-1 <= **m, k** <= 10^9
+1 &lt;= **m, k** &lt;= 10^9
 
-0 <= **C\[i\]** <= 1
+0 &lt;= **C\[i\]** &lt;= 1
 
 ### Example
 

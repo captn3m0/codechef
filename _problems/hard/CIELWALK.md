@@ -32,11 +32,11 @@ An output should contain **S** lines. In the **i**-th line, print the probabilit
 
 ### Constraints
 
-1 ≤ **S** < **N** ≤ 30
-1 ≤ **F1** < **F2** < ... < **FS** < N
+1 ≤ **S** &lt; **N** ≤ 30
+1 ≤ **F1** &lt; **F2** &lt; ... &lt; **FS** &lt; N
 **Ai** ≠ **Bi**
 If **i** ≠ **j** and **Ai** = **Aj**, then **Bi** ≠ **Bj**
-For each 1 ≤ **i** < **N**, Ciel can go from the **i**-th intersection to the **N**-th intersection, directly or indirectly.
+For each 1 ≤ **i** &lt; **N**, Ciel can go from the **i**-th intersection to the **N**-th intersection, directly or indirectly.
 
 ### Sample Input 1
 

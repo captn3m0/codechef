@@ -140,14 +140,14 @@ For each test case, output a single line containing the shortest Chef length amo
 
 Let's look at all correct simple paths:
 
-- 1-3-6, lengths = **{3, 2}** => Chef length = **3**
-- 1-2-4, lengths = **{1, 1}** => Chef length = **1**
-- 1-2-5, lengths = **{1, 2}** => Chef length = **2**
-- 2-1-3, lengths = **{1, 3}** => Chef length = **3**
-- 2-1-3-6, lengths = **{1, 3, 2}** => Chef length = **2**
-- 4-2-5, lengths = **{1, 2}** => Chef length = **2**
-- 4-2-1-3, lengths = **{1, 1, 3}** => Chef length = **1**
-- 5-2-1-3, lengths = **{2, 1, 3}** => Chef length = **2**
+- 1-3-6, lengths = **{3, 2}** =&gt; Chef length = **3**
+- 1-2-4, lengths = **{1, 1}** =&gt; Chef length = **1**
+- 1-2-5, lengths = **{1, 2}** =&gt; Chef length = **2**
+- 2-1-3, lengths = **{1, 3}** =&gt; Chef length = **3**
+- 2-1-3-6, lengths = **{1, 3, 2}** =&gt; Chef length = **2**
+- 4-2-5, lengths = **{1, 2}** =&gt; Chef length = **2**
+- 4-2-1-3, lengths = **{1, 1, 3}** =&gt; Chef length = **1**
+- 5-2-1-3, lengths = **{2, 1, 3}** =&gt; Chef length = **2**
 
 And the reverse of these paths. So, the smallest value we get is **1** and it is the answer.
 
@@ -155,9 +155,9 @@ And the reverse of these paths. So, the smallest value we get is **1** and it is
 
 All correct paths:
 
-- 1-2-3-4, lengths = **{1, 3, 4}** => Chef length = **3**
-- 2-3-4-5, lengths = **{1, 2, 4}** => Chef length = **2**
-- 1-2-3-4-5, lengths = **{1, 2, 3, 4}** => Chef length = **3**
+- 1-2-3-4, lengths = **{1, 3, 4}** =&gt; Chef length = **3**
+- 2-3-4-5, lengths = **{1, 2, 4}** =&gt; Chef length = **2**
+- 1-2-3-4-5, lengths = **{1, 2, 3, 4}** =&gt; Chef length = **3**
 
 The shortest Chef length is **2**.
 

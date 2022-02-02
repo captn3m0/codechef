@@ -67,7 +67,7 @@ time:
     current: 1493557455
 layout: problem
 ---
-All submissions for this problem are available.You are given a sequence of **N** integer numbers **A**. Calculate the sum of **Ai AND Aj** for all the pairs (**i**, **j**) where **i < j**.
+All submissions for this problem are available.You are given a sequence of **N** integer numbers **A**. Calculate the sum of **Ai AND Aj** for all the pairs (**i**, **j**) where **i &lt; j**.
 
  The **AND** operation is the **Bitwise AND** operation, defined as in [here](http://en.wikipedia.org/wiki/Bitwise_operation#AND).
 
@@ -93,10 +93,10 @@ Output the answer to the problem on the first line of the output.
 </pre>
 ### Scoring
 
-Subtask 1 (13 points): **N** <= 1000, **Ai** <= 1. 
+Subtask 1 (13 points): **N** &lt;= 1000, **Ai** &lt;= 1. 
 
-Subtask 2 (39 points): **N** <= 1000, **Ai** <= 109. 
+Subtask 2 (39 points): **N** &lt;= 1000, **Ai** &lt;= 109. 
 
-Subtask 3 (21 points): **N** <= 105, **Ai** <= 1. 
+Subtask 3 (21 points): **N** &lt;= 105, **Ai** &lt;= 1. 
 
-Subtask 4 (27 points): **N** <= 105, **Ai** <= 106.
+Subtask 4 (27 points): **N** &lt;= 105, **Ai** &lt;= 106.

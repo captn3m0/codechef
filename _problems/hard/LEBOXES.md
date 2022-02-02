@@ -83,17 +83,17 @@ In **T** lines print **T** real numbers - the answers for the corresponding test
 
 ### Constraints
 
-1 <= **T** <= 5
+1 &lt;= **T** &lt;= 5
 
-2 <= **n** <= 30
+2 &lt;= **n** &lt;= 30
 
-1 <= **m** <= 30
+1 &lt;= **m** &lt;= 30
 
-1 <= **Vi**, **Cj** <= 10^7
+1 &lt;= **Vi**, **Cj** &lt;= 10^7
 
-0 <= **Dj** <= 30
+0 &lt;= **Dj** &lt;= 30
 
-0 <= **Pi** <= 100
+0 &lt;= **Pi** &lt;= 100
 
 ### Example
 

@@ -75,8 +75,8 @@ Given **N**, count how many permutations of **\[1, 2, 3, ..., N\]** satisfy the 
 
 Let **P1, P2, ..., PN** denote the permutation. The property we want to satisfy is that there exists an **i** between **2** and **n-1** (inclusive) such that
 
-- **Pj > Pj + 1 ∀ i ≤ j ≤ N - 1**.
-- **Pj > Pj - 1 ∀ 2 ≤ j ≤ i**.
+- **Pj &gt; Pj + 1 ∀ i ≤ j ≤ N - 1**.
+- **Pj &gt; Pj - 1 ∀ 2 ≤ j ≤ i**.
 
 ### Input
 

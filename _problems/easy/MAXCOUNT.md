@@ -15,11 +15,11 @@ Given an array A of length N, your task is to find the element which repeats in 
 
 ### Input
 
-First line of input contains an integer T, denoting the number of test cases. Then follows description of T cases. Each case begins with a single integer N, the length of A. Then follow N space separated integers in next line. Assume that 1 <= T <= 100, 1 <= N <= 100 and for all i in \[1..N\] : 1 <= A\[i\] <= 10000
+First line of input contains an integer T, denoting the number of test cases. Then follows description of T cases. Each case begins with a single integer N, the length of A. Then follow N space separated integers in next line. Assume that 1 &lt;= T &lt;= 100, 1 &lt;= N &lt;= 100 and for all i in \[1..N\] : 1 &lt;= A\[i\] &lt;= 10000
 
 ### Output
 
-For each test case, output two space separated integers V & C. V is the value which occurs maximum number of times and C is its count.
+For each test case, output two space separated integers V &amp; C. V is the value which occurs maximum number of times and C is its count.
 
 ### Example
 

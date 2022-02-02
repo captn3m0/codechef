@@ -76,7 +76,7 @@ Apurva is obsessed with Fibonacci numbers. She finds Fibonacci numbers very inte
 
 Fib(1) = 1 , Fib(2) = 1.
 
-Fib(n) = Fib(n-1) + Fib(n-2) for n > 2 .
+Fib(n) = Fib(n-1) + Fib(n-2) for n &gt; 2 .
 
  Given a set  **S**  having **N** elements and an integer **K**, She wants to find out the value of **FIBOSUM(S)**.
 

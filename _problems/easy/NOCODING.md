@@ -74,7 +74,7 @@ A program in Sprout is written using three kinds of instructions.
 - Increment Instruction: Increment the value in buffer.
 - Print Instruction: Print the value from buffer.
 
-The buffer stores a single integer between 0 and 25, both inclusive. If the value in the buffer is x, the increment instruction makes the value (x+1), if x < 25. At x = 25 the increment instruction makes the value 0.
+The buffer stores a single integer between 0 and 25, both inclusive. If the value in the buffer is x, the increment instruction makes the value (x+1), if x &lt; 25. At x = 25 the increment instruction makes the value 0.
 
 Load Instruction can be used to load any value between 0 and 25 (inclusive) into the buffer.
 

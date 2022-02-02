@@ -72,7 +72,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MARCH15/mandarin/MTRWY.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH15/russian/MTRWY.pdf).
 
-You have a rectangular grid of size **N × M**, namely, there are cells **(x, y)** for **1 ≤ x ≤ N, 1 ≤ y ≤ M**. Two cells are adjacent if they share a side. More formally, two cells **(x1, y1), (x2, y2)** are adjacent if **|x1 − x2| + |y1 − y2| = 1**. Between two adjacent cells there can be a wall. Two cells **a** and **b** are connected if there is a way between them (in other words there is a sequence of cells **c1, c2, ..., ck** that **c1 = a, ck = b**, and for each **1 ≤ i < k**, **ci, ci+1** are adjacent cells without wall between them).
+You have a rectangular grid of size **N × M**, namely, there are cells **(x, y)** for **1 ≤ x ≤ N, 1 ≤ y ≤ M**. Two cells are adjacent if they share a side. More formally, two cells **(x1, y1), (x2, y2)** are adjacent if **|x1 − x2| + |y1 − y2| = 1**. Between two adjacent cells there can be a wall. Two cells **a** and **b** are connected if there is a way between them (in other words there is a sequence of cells **c1, c2, ..., ck** that **c1 = a, ck = b**, and for each **1 ≤ i &lt; k**, **ci, ci+1** are adjacent cells without wall between them).
 
 Now you are given **Q** queries, each of whom is of following four types.
 

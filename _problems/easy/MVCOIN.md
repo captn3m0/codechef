@@ -23,7 +23,7 @@ One coin movement takes exactly one second. Find the smallest time in which Bob 
 
 ### Input
 
-The first line of the input file contains one integer **T** -- the number of test cases (no more than 10). Then **T** test cases follow, and every test case is described by two lines: the first of them contains two integers **N** and **K** (1 <= **N**, **K** <= 1000), the second of them contains **N** integers **X1**, ..., **XN** in strictly increasing order (1 <= **Xi** <= 1000).
+The first line of the input file contains one integer **T** -- the number of test cases (no more than 10). Then **T** test cases follow, and every test case is described by two lines: the first of them contains two integers **N** and **K** (1 &lt;= **N**, **K** &lt;= 1000), the second of them contains **N** integers **X1**, ..., **XN** in strictly increasing order (1 &lt;= **Xi** &lt;= 1000).
 
 ### Output
 

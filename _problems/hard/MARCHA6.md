@@ -15,7 +15,7 @@ layout: problem
 
 In the computer science class at the school in Byteland, the teacher handed out the following assignment as homework:
 
-"For an integer *n*, let *bn* denote the bit parity of the binary representation of *n*, i.e. *bn*=0 if *n* has an even number of ones when written down in the binary system, and *bn*=1 otherwise. The numbers *bn*, for *n* >=0, form an infinite sequence of bits (zeros and ones). Given a sequence *c*=(*c*0, ..., *c*p-1) of *p* bits, find the first occurrence of sequence *c* as a subsequence of *b* (i.e., the smallest value of index *k* such that for all *i* between 0 and *p*-1, we have *c**i* = *b**i+k*)."
+"For an integer *n*, let *bn* denote the bit parity of the binary representation of *n*, i.e. *bn*=0 if *n* has an even number of ones when written down in the binary system, and *bn*=1 otherwise. The numbers *bn*, for *n* &gt;=0, form an infinite sequence of bits (zeros and ones). Given a sequence *c*=(*c*0, ..., *c*p-1) of *p* bits, find the first occurrence of sequence *c* as a subsequence of *b* (i.e., the smallest value of index *k* such that for all *i* between 0 and *p*-1, we have *c**i* = *b**i+k*)."
 
 And the teacher gave his students several short sequences *c*, asking them to provide the answers next day. Most, as expected, wrote programs to solve the task. Only Johnny computed the results by hand, claiming (quite correctly) that it was quicker that way. The teacher, slightly exasperated, decided to teach Johnny a lesson, and prepared a harder assignment, just for him.
 
@@ -25,9 +25,9 @@ And to be doubly sure that Johnny does his homework using a computer, the teache
 
 ### Input
 
-The first line of input contains a positive integer *t* < 10, describing the number of tests. Exactly *t* test cases follow.
+The first line of input contains a positive integer *t* &lt; 10, describing the number of tests. Exactly *t* test cases follow.
 
-Each test case is given in two lines. The first line contains integer *p* (1<=*p*<=106, the length of sequence *k*). The next line contains exactly *p* space-separated numbers (0 or 1), denoting successive elements of sequence *c*.
+Each test case is given in two lines. The first line contains integer *p* (1&lt;=*p*&lt;=106, the length of sequence *k*). The next line contains exactly *p* space-separated numbers (0 or 1), denoting successive elements of sequence *c*.
 
 ### Output
 

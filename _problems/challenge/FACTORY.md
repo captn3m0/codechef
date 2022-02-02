@@ -114,7 +114,7 @@ For each test case you are to output two lines. The first line consists of F val
 </pre>
 ### Scoring
 
-For each test case, let K be the cost of the solution that keeps all factories open and assigns each client to any nearest factory (i.e. the current cost of manufacturing and supplying gadgets before your, hopefully cheaper, solution is applied). We will compute the cost of your solution, say L, and assign a score of L/K to the test case (we guarantee K >= 1 for each test case). The final score is then the sum of the scores for each test case. The goal is, of course, to minimize the total score.
+For each test case, let K be the cost of the solution that keeps all factories open and assigns each client to any nearest factory (i.e. the current cost of manufacturing and supplying gadgets before your, hopefully cheaper, solution is applied). We will compute the cost of your solution, say L, and assign a score of L/K to the test case (we guarantee K &gt;= 1 for each test case). The final score is then the sum of the scores for each test case. The goal is, of course, to minimize the total score.
 
 For example, the first test case has of K = (1 + 2.5 + 3) + (1.5 + 1 + 1.4) = 10.4 (the first set of parenthesis contains the cost of the factories and the second contains the cost of assigning stores to their cheapest factory). The output solution has L = (1 + 3) + (1.5 + 1 + 2.1) = 8.6. Therefore, the score for the first test case is 8.6/10.4 = 0.826923. Similarly, the second test case has K = (0 + 15) + (0 + 0 + 0) and the solution output has L = 0 + (4 + 4 + 4) = 12 so the score is 12/15 = 0.8.
 

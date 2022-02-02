@@ -88,10 +88,10 @@ Hussain will perform **Q** operations on this tree. After each operation, Alex m
 - The first line contains a single integer, **M**, the number of testcases. Each testcase is described as follows:
 - The first line of each testcase contains a single integer, **Q**, denoting the number of operations.
 - The next **Q** lines of the testcase each contain an integer, **cmd**, at the beginning. **cmd** equals to 1 or 2. 
-  - If **cmd = 1**, then Hussain will make the tree travel into the future. The line will also contain another integer **T**, denoting the number of seconds that will pass after Hussain runs his time machine.
-  - If **cmd = 2**, then Hussain will send his robot. You will be given a non-empty string describing the sequence of commands that the robot will follow to reach some existing node, which it then destroys along with the subtree.
-  
-  Please note that in second case the string will be nonempty, so the root will never be deleted.
+    - If **cmd = 1**, then Hussain will make the tree travel into the future. The line will also contain another integer **T**, denoting the number of seconds that will pass after Hussain runs his time machine.
+    - If **cmd = 2**, then Hussain will send his robot. You will be given a non-empty string describing the sequence of commands that the robot will follow to reach some existing node, which it then destroys along with the subtree.
+    
+    Please note that in second case the string will be nonempty, so the root will never be deleted.
 
 ### Output
 

@@ -91,8 +91,8 @@ For each test case, output one integer in a new line: the answer for the test ca
 - **1** ≤ **T** ≤ **10**
 - **1** ≤ **R** ≤ **10**
 - **R - 1** ≤ **|xi|, |yi|, |zi|** ≤ **50**
-- **Subtask 1\[11 points\]:** **1** ≤ **N** ≤ **2**
-- **Subtask 2\[89 points\]:** **1** ≤ **N** ≤ **150**
+- **Subtask 1\[11 points\]: 1** ≤ **N** ≤ **2**
+- **Subtask 2\[89 points\]: 1** ≤ **N** ≤ **150**
 
 ### Example
 

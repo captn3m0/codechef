@@ -97,7 +97,7 @@ For each test case, output a single line containing the minimum score Sergey sho
 ### Constraints
 
 - **1** ≤ **T** ≤ **5**
-- **1** ≤ **K** < **N** ≤ **104**
+- **1** ≤ **K** &lt; **N** ≤ **104**
 - **1** ≤ **M** ≤ **109**
 - **1** ≤ **E** ≤ **4**
 

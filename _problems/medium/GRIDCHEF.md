@@ -22,7 +22,7 @@ You have to help the Chef choose a path such that the amount of food collected i
 
 ###  Input 
 
-The first line contains t ( <= 100 ) which denotes the number of test cases. For each test case, the first line contains 2 space separared integers n,m which denote the dimension of the matrix. Then n lines follow, each containing m space separared integers. jth integer on the ith line denotes Gij 
+The first line contains t ( &lt;= 100 ) which denotes the number of test cases. For each test case, the first line contains 2 space separared integers n,m which denote the dimension of the matrix. Then n lines follow, each containing m space separared integers. jth integer on the ith line denotes Gij 
  **Warning : Enormous Input/Output.**
 
 ###  Output 
@@ -54,5 +54,5 @@ If there are multiple such optimal paths, any path would suffice.
 </pre>
 ###  Constraints 
 
-1 < m\*n ≤ 100000 
+1 &lt; m\*n ≤ 100000 
 0 ≤ Gij ≤ 10000

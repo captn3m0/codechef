@@ -81,9 +81,9 @@ First line of input will contains T, number of test cases. Then T lines follows,
 
  Constraints:
 
-T <= 500
+T &lt;= 500
 
-1<= a <= b <= 10000000000
+1&lt;= a &lt;= b &lt;= 10000000000
 
 Output:
 

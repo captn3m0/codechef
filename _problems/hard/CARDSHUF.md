@@ -32,7 +32,7 @@ In a single line output the cards in the deck after performing all the moves. Ca
 
 ### Constraints
 
-- 1 <= N, M <= 100 000
+- 1 &lt;= N, M &lt;= 100 000
 
 ### Example
 

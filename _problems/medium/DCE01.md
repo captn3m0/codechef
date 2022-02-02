@@ -38,7 +38,7 @@ A sector can only drown when one of the following conditions are met:
 ### Input
 
 The first line contains the number of test cases (about 10). t test cases follow. 
-For each test case, the first line contains three integers n(<=1000), k( The next k lines contain the integers denoting the time taken for the sectors in k-th level to drown completely.
+For each test case, the first line contains three integers n(&lt;=1000), k( The next k lines contain the integers denoting the time taken for the sectors in k-th level to drown completely.
 
 ### Output
 

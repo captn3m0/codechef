@@ -94,7 +94,7 @@ One integer – minimum energy required.
 - **1** ≤ **N** ≤ **106**
 - **1** ≤ sum of **N** over all test cases ≤ **106**
 - **1** ≤ **H** ≤ **N**
-- 0 ≤ **li** ≤ **hi** < **N**
+- 0 ≤ **li** ≤ **hi** &lt; **N**
 
 ### Subtasks
 

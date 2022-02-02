@@ -92,8 +92,8 @@ Note: **gcd**(**X**, **Y**) denotes the greatest common divisor — the highest 
 - The second line contains **N** space-separated integers **A1**, **A2**, ..., **AN**.
 - The third line contains a single integer **Q** denoting the number of queries.
 - Each of the following **Q** lines describes one query in the following format: 
-  - 1 **X** **Y** for a query of the first type
-  - 2 **L** **R** **G** for a query of the second type
+    - 1 **X** **Y** for a query of the first type
+    - 2 **L** **R** **G** for a query of the second type
 
 ### Output
 

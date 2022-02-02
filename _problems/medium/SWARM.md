@@ -15,15 +15,15 @@ There is a regular n-gon. Some points are marked on each of its sides. There are
 
 ### Input
 
-The first line of input file contains positive integer t the amount of test cases. Next t lines contain six integers each: n, k, a, b, c, m. Here n is the number of sides of the initial n-gon. The amount of marked points on the first side of this n-gon is x1 = a, the amount of the marked points on the following sides is xi = (b\*xi-1 + c) mod m, for i > 1.
+The first line of input file contains positive integer t the amount of test cases. Next t lines contain six integers each: n, k, a, b, c, m. Here n is the number of sides of the initial n-gon. The amount of marked points on the first side of this n-gon is x1 = a, the amount of the marked points on the following sides is xi = (b\*xi-1 + c) mod m, for i &gt; 1.
 
 ### Constraints
 
-1 <= t <= 30
-3 <= n <= 109
-3 <= k <= 20
-1 <= b, c, m <= 106
-0 <= a < m
+1 &lt;= t &lt;= 30
+3 &lt;= n &lt;= 109
+3 &lt;= k &lt;= 20
+1 &lt;= b, c, m &lt;= 106
+0 &lt;= a &lt; m
 
 ### Output
 

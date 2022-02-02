@@ -230,7 +230,7 @@ means that
 in terms of mathematical notations.
 
 Then there are some bit operations in the 2nd generator.
-The operators **<<** and **>>** denote bit shifts.
+The operators **&lt;&lt;** and **&gt;&gt;** denote bit shifts.
 For example,
 
 <pre>

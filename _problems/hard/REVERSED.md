@@ -25,7 +25,7 @@ As usual, please help Little Johnny with his task!
 
 The first line contains a number T (about 10) which is the number of the test cases. Each test case has the following form.
 
-The first line contains N (1 <= N <= 1000000).
+The first line contains N (1 &lt;= N &lt;= 1000000).
 
 The second line contains the number A.
 

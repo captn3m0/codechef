@@ -85,7 +85,7 @@ First line of input contains **T** – number of test cases. Then **T** test cas
 
 For each test case, if there’s no solution output single line *“No Solution”* (without quotes), otherwise output **n** lines with cards for each player. **ith** line should contain **m** numbers in increasing order – numbers on **ith** player’s cards.
 
-Extra spaces at the end of the line are not allowed./>
+Extra spaces at the end of the line are not allowed.
 
 ### Constraints
 

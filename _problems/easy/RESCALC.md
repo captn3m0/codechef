@@ -139,7 +139,7 @@ Chef has total 6 cookie, so he gets 6 points for that. Also, he can put all his 
 
 The second player has 9 cookies, he gets 9 points for that. Other than this, he can't create a bag with either 4, 5 or 6 distinct cookies. So, his final score is 9.
 
-10 > 9 - Chef wins.
+10 &gt; 9 - Chef wins.
 
 **Example case 2**.
 

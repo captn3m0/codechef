@@ -31,7 +31,7 @@ The rationale is that once the Chef occupies the strongholds in S, any other str
 
 ### Input:
 
-There will be multiple test cases. Each test case is a specification of the strongholds and roads. For each test case, there will be one line containing n (3 <= n <= 20), the number of strongholds, and r (0 <= r <= 190), the number of roads. Then, the next r lines each contains two integers x and y giving a road between stronghold x and y. The strongholds are numbered from 0 to n-1. There is a blank line following each test case. The last test case is followed by a line containing two zeros (after the blank line).
+There will be multiple test cases. Each test case is a specification of the strongholds and roads. For each test case, there will be one line containing n (3 &lt;= n &lt;= 20), the number of strongholds, and r (0 &lt;= r &lt;= 190), the number of roads. Then, the next r lines each contains two integers x and y giving a road between stronghold x and y. The strongholds are numbered from 0 to n-1. There is a blank line following each test case. The last test case is followed by a line containing two zeros (after the blank line).
 
 ### Output:
 

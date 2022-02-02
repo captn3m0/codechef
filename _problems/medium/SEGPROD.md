@@ -84,7 +84,7 @@ the first line of each test-case contains  **N, P, Q** .
 the third line contains **N** space-separated integers, the of elements array  **A** .
 
 the fourth line contains array **B** which consists of floor(Q/64) + 2 integers . Let's number the queries starting from 0. If **i** is divisible by 64 then:  **Li = (Bi / 64 + x) mod N, Ri = (Bi / 64 + 1 + x) mod n** .
-Otherwise:  **Li = (Li-1 + x) mod N, Ri = (Ri-1 + x) mod N** . If  **Li > Ri**  you should swap them. here x is equal to 0 if it's the first query, otherwise it's equal to the answer of the previous query plus 1 modulo **P**.
+Otherwise:  **Li = (Li-1 + x) mod N, Ri = (Ri-1 + x) mod N** . If  **Li &gt; Ri**  you should swap them. here x is equal to 0 if it's the first query, otherwise it's equal to the answer of the previous query plus 1 modulo **P**.
 
 ### Output
 

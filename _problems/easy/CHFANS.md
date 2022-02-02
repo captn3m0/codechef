@@ -70,13 +70,13 @@ All submissions for this problem are available.Chef is studying Rotational Motio
 
 
 Fans can rotate in either **clockwise** or **anticlockwise** direction. There is a dot marked on the blade of both the fans and the dot is marked at the same distance from the center of rotation.
-You're be given speeds of the fans. />/>
+You're be given speeds of the fans.
 
 3. Clockwise rotation - positive speed.
 4. Anticlockwise rotation - negative speed.
 
 
-Help Chef to find the number of distinct points the dots will coincide on the circumference of rotation. />
+Help Chef to find the number of distinct points the dots will coincide on the circumference of rotation.
 
 ### Input
 

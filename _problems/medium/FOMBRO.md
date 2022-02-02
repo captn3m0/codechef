@@ -105,7 +105,7 @@ For each test case, output **Q** lines, each line containing the required answer
 
 1 ≤ **T** ≤ 105
 
-1 < **r** < **N**
+1 &lt; **r** &lt; **N**
 
 <pre>
 <b>Sample Input</b>

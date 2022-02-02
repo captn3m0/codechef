@@ -169,15 +169,15 @@ For each test case print a line containing two numbers: **CMAX** and **CNT32**. 
 - 4 parts containing 1 city (1 part for each of the 4 cities)
 - 4 parts containing 2 cities and the road between them: {1,2}, {2, 3}, {2,4} and {3,4}
 - 5 parts containing 3 cities: 
-  - cities 1, 2, 3 and the roads (1,2) and (2,3)
-  - cities 1, 2, 4 and the roads (1,2) and (2,4)
-  - cities 2, 3, 4 and the roads (2,3) and (3,4)
-  - cities 2, 3, 4 and the roads (2,3) and (2,4)
-  - cities 2, 3, 4 and the roads (2,4) and (3,4)
+    - cities 1, 2, 3 and the roads (1,2) and (2,3)
+    - cities 1, 2, 4 and the roads (1,2) and (2,4)
+    - cities 2, 3, 4 and the roads (2,3) and (3,4)
+    - cities 2, 3, 4 and the roads (2,3) and (2,4)
+    - cities 2, 3, 4 and the roads (2,4) and (3,4)
 - 3 parts containing all the 4 cities and the following roads: 
-  - (1,2), (2,3), (3,4)
-  - (1,2), (2,3), (2,4)
-  - (1,2), (2,4), (3,4)
+    - (1,2), (2,3), (3,4)
+    - (1,2), (2,3), (2,4)
+    - (1,2), (2,4), (3,4)
 
 **Example case 3.** The maximum cost part P which satisfies the restrictions does not contain any of the roads. Thus, there are 5 possible ways of choosing P, consisting of the following sets of cities: **{1}, {2}, {3}, {4}, {}**.
 
@@ -190,5 +190,3 @@ For each test case print a line containing two numbers: **CMAX** and **CNT32**. 
 - it can choose the cities 5, 6, 7, 8 and the roads (5,6), (6,7), (7,8)
 
 **Example case 6.** Chef chooses the cities 1, 6, 7, 8 and the roads (1,6), (1,7), (1,8).
-
-/>

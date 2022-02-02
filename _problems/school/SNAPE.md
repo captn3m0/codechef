@@ -92,7 +92,7 @@ Output **T** lines, each containing minimum value of **RS** and maximum value of
 ### Constraints
 
 1 ≤ **T** ≤ 1000
-1 ≤ **B** < **LS** ≤ 1000
+1 ≤ **B** &lt; **LS** ≤ 1000
 
 ### Example
 

@@ -17,9 +17,9 @@ Recall that a knight can attack another knight if their vertical distance is 2 a
 
 ### Input
 
-The first line of input contains an integer T (0<T≤50), the number of test cases to follow.
+The first line of input contains an integer T (0&lt;T≤50), the number of test cases to follow.
 
-Each test case will begin with a line containing 2 integers M and N (0<M,N≤30), denoting the number of rows and columns, respectively. M lines follow, each containing exactly N characters. The j-th character of the i-th line is '.' if a knight may be placed in the j-th column of the i-th row, and '#' if the square is unusable.
+Each test case will begin with a line containing 2 integers M and N (0&lt;M,N≤30), denoting the number of rows and columns, respectively. M lines follow, each containing exactly N characters. The j-th character of the i-th line is '.' if a knight may be placed in the j-th column of the i-th row, and '#' if the square is unusable.
 
 ### Output
 

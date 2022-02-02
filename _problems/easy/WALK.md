@@ -76,7 +76,7 @@ There are few problems:
 
 - At the beginning Chef should choose constant integer - the velocity of mooving. It can't be changed inside one segment.
 - The velocity should be decreased by at least 1 after achieving the end of some segment.
-- There is exactly one shop on each segment. Each shop has an attractiveness. If it's attractiveness is **W** and Chef and his girlfriend move with velocity **V** then if **V** < **W** girlfriend will run away into the shop and the promenade will become ruined.
+- There is exactly one shop on each segment. Each shop has an attractiveness. If it's attractiveness is **W** and Chef and his girlfriend move with velocity **V** then if **V** &lt; **W** girlfriend will run away into the shop and the promenade will become ruined.
 
  Chef doesn't want to lose her girl in such a way, but he is an old one, so you should find the minimal possible velocity at the first segment to satisfy all conditions.
 
@@ -114,7 +114,7 @@ There are few problems:
 
 **Example case 1.**
 
- If we choose velocity 6, on the first step we have 6 >= 6 everything is OK, then we should decrease the velocity to 5 and on the 2nd segment we'll receive 5 >= 5, again OK, and so on.
+ If we choose velocity 6, on the first step we have 6 &gt;= 6 everything is OK, then we should decrease the velocity to 5 and on the 2nd segment we'll receive 5 &gt;= 5, again OK, and so on.
 
 **Example case 2.**
 

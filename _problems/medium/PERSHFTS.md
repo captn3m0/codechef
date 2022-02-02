@@ -77,7 +77,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 You have a permutation **P** of integers **1**, **2**, ... , **N**. You want to change it a little. To do this, you choose an integer **K** that satisfies an inequality **2** ≤ **K** ≤ **N**. After that, you perform several (possibly, zero, if you're feeling lazy) cyclic shifts. For each cyclic shift you choose a **K**-length segment of the permutation **P** (let's denote it as **Px**, **Px + 1**, ..., **Px + K - 2**, **Px + K - 1**) and perform a cyclic shift on it towards the right. That is, rearrange elements of this segment in the order **Px + K - 1**, **Px**, ... , **Px + K - 3**, **Px + K - 2**.
 
-For example, let's make a permutation **(6, 5, 1, 3, 2, 4)** from permutation **(1, 5, 4, 6, 3, 2)**, using **K = 4**. Segments that are cyclically shifted on every move are underlined: **(1, 5, 4, 6, 3, 2)** => **(6, 1, 5, 4, 3, 2)**=> **(6, 1, 2, 5, 4, 3)** => **(6, 1, 3, 2, 5, 4)** => **(6, 5, 1, 3, 2, 4)**.
+For example, let's make a permutation **(6, 5, 1, 3, 2, 4)** from permutation **(1, 5, 4, 6, 3, 2)**, using **K = 4**. Segments that are cyclically shifted on every move are underlined: **(1, 5, 4, 6, 3, 2)** =&gt; **(6, 1, 5, 4, 3, 2)**=&gt; **(6, 1, 2, 5, 4, 3)** =&gt; **(6, 1, 3, 2, 5, 4)** =&gt; **(6, 5, 1, 3, 2, 4)**.
 
 Let **S** denote the set of permutations that can be obtained from permutation **P** using zero or more cyclic shifts. You are given a permutation **Q** of integers **1**, **2**, ..., **N**. Your task is to find whether **S** contains **Q** or not. If so, also you must find the index of **Q** in the list of all permutations in set **S**, ordered lexicographically.
 

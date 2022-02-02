@@ -97,7 +97,7 @@ The first line of the input file contains an integer **T** -- the number of test
 
 ### Output
 
-For each test case output **-1** if you would like to skip this test case. Otherwise, output a line containing just one integer **K** (0 <= **K** <= 1000) and then **K** lines each containing a pair of integers **r c**, describing the corresponding move (1 <= **r**, **c** <= **N**; **r** is the row ID, **c** is the column ID).
+For each test case output **-1** if you would like to skip this test case. Otherwise, output a line containing just one integer **K** (0 &lt;= **K** &lt;= 1000) and then **K** lines each containing a pair of integers **r c**, describing the corresponding move (1 &lt;= **r**, **c** &lt;= **N**; **r** is the row ID, **c** is the column ID).
 
 ### Scoring
 

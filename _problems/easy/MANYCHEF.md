@@ -74,7 +74,7 @@ We can model the signboard as a string **S** having capital letters from **'A'**
 
 **Note 1.** The string **S = S1...SN** has the substring **"CHEF"** if for some **i** we have **SiSi+1Si+2Si+3 = "CHEF"**. The number of times **"CHEF"** is the substring of **S** is the number of those **i** for which **SiSi+1Si+2Si+3 = "CHEF"**.
 
-**Note 2.** The string **A = A1...AN** is called lexicographically smaller than the string **B = B1...BN** if there exists **K** from **1** to **N**, inclusive, such that **Ai = Bi** for **i = 1, ..., K-1**, and **AK < BK**. In particular, **A** is lexicographically smaller than **B** if **A1 < B1**. We compare capital letters by their positions in the English alphabet. So **'A'** is the smallest letter, **'B'** is the second smallest letter, ..., **'Z'** is the largest letter.
+**Note 2.** The string **A = A1...AN** is called lexicographically smaller than the string **B = B1...BN** if there exists **K** from **1** to **N**, inclusive, such that **Ai = Bi** for **i = 1, ..., K-1**, and **AK &lt; BK**. In particular, **A** is lexicographically smaller than **B** if **A1 &lt; B1**. We compare capital letters by their positions in the English alphabet. So **'A'** is the smallest letter, **'B'** is the second smallest letter, ..., **'Z'** is the largest letter.
 
 ### Input
 

@@ -68,7 +68,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 Chef has **n** × **n** array **A** of non-negative integers. He wants to divide this array by **p**-1 horizontal dividers and **p**-1 vertical dividers into **p2** blocks such that maximum sum of elements of each block will be the smallest.
 
-More formally, Chef want to choose **p**-1 horizontal dividers 0 = **h0** < **h1** < ... < **hp** = **n** and **p**-1 vertical dividers 0 = **v0** < **v1** < ... < **vp** = **n** to minimize the next value:
+More formally, Chef want to choose **p**-1 horizontal dividers 0 = **h0** &lt; **h1** &lt; ... &lt; **hp** = **n** and **p**-1 vertical dividers 0 = **v0** &lt; **v1** &lt; ... &lt; **vp** = **n** to minimize the next value:
 
 ![formula](https://www.codechef.com/download/upload/SEPT16/4.jpg)### Input
 

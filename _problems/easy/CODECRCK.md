@@ -81,7 +81,7 @@ However, he only kept one element from each sequence. Luckily, both the elements
 
 Right after Wet Shark loses his sequences, he finds that he actually needs them to break the code of [Cthulhu](https://en.wikipedia.org/wiki/Cthulhu) to escape a labyrinth. Cthulhu's code is a single floating point number **Q**. However, the code verifier is faulty. If Wet Shark enters any code **c** such that **|c - Q| ≤ 0.01** , Cthulhu's code checker will allow him to escape.
 
-Wet Shark now starts to panic, and consults Dry Dolphin for help via ultrasonic waves. After the Dry Dolphin Sequence Processing Factory processes data of Wet Shark's sequences, the machines give Wet Shark the following 2 relations his sequences follow for all 1 ≤ n < 109, where **x = sqrt(2)** and **y = sqrt(3)**.
+Wet Shark now starts to panic, and consults Dry Dolphin for help via ultrasonic waves. After the Dry Dolphin Sequence Processing Factory processes data of Wet Shark's sequences, the machines give Wet Shark the following 2 relations his sequences follow for all 1 ≤ n &lt; 109, where **x = sqrt(2)** and **y = sqrt(3)**.
 
 ![](http://i.imgur.com/Vvynmuh.png)
 

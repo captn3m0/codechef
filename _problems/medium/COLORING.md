@@ -83,10 +83,10 @@ Initially, all the nodes of tree are uncolored.
 Chef has to perform **Q** queries on tree **T** where each query can have one of the following three types:
 
 - **1 X K**Update the tree **T** such that node **X** becomes uncolored, all the nodes at distance **1** from **X** get colored with color **1**, all nodes at distance **2** from **X** get colored with color **2**, and so on up to nodes at distance **K** from **X**.
-  
-  Formally, color all nodes that are at distance **(1 ≤ D ≤ K)** units from node **X** with color **D** and make node **X** colourless.
-  
-  Please note that when we say node at distance **D** from node **X**, *you have to consider all the nodes in the tree, not just the ones in the subtree of **X***.
+    
+    Formally, color all nodes that are at distance **(1 ≤ D ≤ K)** units from node **X** with color **D** and make node **X** colourless.
+    
+    Please note that when we say node at distance **D** from node **X**, *you have to consider all the nodes in the tree, not just the ones in the subtree of **X***.
 - **2 X Y**Count the number of distinct colors on the unique simple path from node **X** to node **Y**.
 - **3 X**Count the number of distinct colors in the subtree rooted at node **X**.
 

@@ -72,12 +72,12 @@ All submissions for this problem are available.Quoting [ Wikipedia ](http://en.w
 - Numbers between 1 and N2(inclusive) are to be filled in each row such that :
 - All numbers in each row are distinct.
 - All numbers in each column are distinct.
-- All numbers in the sub-matrix having rows from (i\*N + 1) to(i + 1)\*N, and columns from (j\*N + 1) to (j + 1)\*N both inclusive, should be distinct. 0 <= i,j <= N-1. Rows and columns are 1 indexed. Each such sub-matrix is called a "box" or "region".
+- All numbers in the sub-matrix having rows from (i\*N + 1) to(i + 1)\*N, and columns from (j\*N + 1) to (j + 1)\*N both inclusive, should be distinct. 0 &lt;= i,j &lt;= N-1. Rows and columns are 1 indexed. Each such sub-matrix is called a "box" or "region".
 
 
 For this problem, you are required to solve a general N2X N2 sudoku puzzle. Given a partially filled sudoku board, you have to fill it in as "perfect" a manner as possible. ### Input : 
 
-The first line contains N,K. The following K lines contain 3 numbers: x, y and d. 1 <= x,y,d <= N^2. This means that a number d is present on the board at position (x,y) 2 <= N <= 30 0 <= K <= N4At most 50% of the board will be covered at the start. All positions (x,y) in the input will be unique.
+The first line contains N,K. The following K lines contain 3 numbers: x, y and d. 1 &lt;= x,y,d &lt;= N^2. This means that a number d is present on the board at position (x,y) 2 &lt;= N &lt;= 30 0 &lt;= K &lt;= N4At most 50% of the board will be covered at the start. All positions (x,y) in the input will be unique.
 
 ### Output :
 

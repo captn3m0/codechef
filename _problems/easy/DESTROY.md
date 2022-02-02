@@ -77,16 +77,13 @@ Arrays have fallen out of Chef's good books, and he plans to destroy all arrays 
 - Choose any **2** elements, say **X** and **Y**, from the given array **A** such that **X** != **Y**, and remove them, or
 - Choose any **1** element, say **X**, from **A**, and remove it.
 
-
-/>
-
 In order to destroy the array as quickly as possible, Chef is interested in knowing the minimum number of operations required to destroy it. Please help him achieve this task.
 
 ### Input
 
 The first line of input contains a single integer **T** denoting the number of test cases. First line of each test case contains a single integer **N** — the number of integers in the array **A**.
 
-Second line of each test case contains **N** space separated integers denoting the array **A**./>
+Second line of each test case contains **N** space separated integers denoting the array **A**.
 
 ### Output
 

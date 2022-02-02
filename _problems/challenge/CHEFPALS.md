@@ -140,11 +140,11 @@ After reordering the strings "21", "44", "2", "42" using the permutation (2, 1, 
 - Let random(**x**) denote a uniformly random integer in the range \[0, **x**\].
 - For each valid **i**, **li** = random(999) + 1.
 - There will be 8 groups of test cases, groups 1, 3, 5 have 3 test-cases each, and groups 2, 4 have 4 test-cases each, while groups 6, 7, 8 have one test-case each.
-  - In group 1, **bi** = random(random(**li** - 1)) for each valid **i**.
-  - In group 2, **bi** = random(random(random(**li** - 1))) for each valid **i**.
-  - In group 3, **bi** = random(random(random(random(**li** - 1)))) for each valid **i**.
-  - In group 4, **bi** = random(random(random(random(random(**li** - 1))))) for each valid **i**.
-  - In group 5. **bi** = random(random(random(random(random(random(**li** - 1)))))) for each valid **i**.
-  - In group 6. **bi** = random(random(random(random(random(random(random(random(**li** - 1)))))))) for each valid **i**.
-  - In group 7. **bi** = random(random(random(random(random(random(random(random(random(**li** - 1))))))))) for each valid **i**.
-  - In group 8. **bi** = random(random(random(random(random(random(random(random(random(random(**li** - 1)))))))))) for each valid **i**.
+    - In group 1, **bi** = random(random(**li** - 1)) for each valid **i**.
+    - In group 2, **bi** = random(random(random(**li** - 1))) for each valid **i**.
+    - In group 3, **bi** = random(random(random(random(**li** - 1)))) for each valid **i**.
+    - In group 4, **bi** = random(random(random(random(random(**li** - 1))))) for each valid **i**.
+    - In group 5. **bi** = random(random(random(random(random(random(**li** - 1)))))) for each valid **i**.
+    - In group 6. **bi** = random(random(random(random(random(random(random(random(**li** - 1)))))))) for each valid **i**.
+    - In group 7. **bi** = random(random(random(random(random(random(random(random(random(**li** - 1))))))))) for each valid **i**.
+    - In group 8. **bi** = random(random(random(random(random(random(random(random(random(random(**li** - 1)))))))))) for each valid **i**.

@@ -13,10 +13,10 @@ layout: problem
 
 There are n points with integer coordinates. We can form different quadrangles out of them by taking four different points and connecting them with lines. Let s call a quadrangle ABCD nice if and only if:
 
-- Ax > 0 and Ay > 0;
-- Bx > 0 and By < 0;
-- Cx < 0 and Cy < 0;
-- Dx < 0 and Dy > 0;
+- Ax &gt; 0 and Ay &gt; 0;
+- Bx &gt; 0 and By &lt; 0;
+- Cx &lt; 0 and Cy &lt; 0;
+- Dx &lt; 0 and Dy &gt; 0;
 - ABCD has an integer area.
 
 
@@ -28,9 +28,9 @@ The first line of input file contains number t the number of test cases. Then th
 
 ### Constraints
 
-1 <= t <= 10
-1 <= n <= 30000
--30000 <= x, y <= 30000
+1 &lt;= t &lt;= 10
+1 &lt;= n &lt;= 30000
+-30000 &lt;= x, y &lt;= 30000
 
 ### Output
 

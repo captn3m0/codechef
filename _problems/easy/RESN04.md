@@ -15,7 +15,7 @@ Alice and Bob play the following game : There are N piles of stones with Si ston
 
 ### Input
 
-The first line contains the number of test cases T (<= 100). There follow 2T lines, 2 per test case. The first line of each test case conains N (<= 100), the number of piles. The second line contains N space seperated integers, specifying the number of stones in pile 1, pile 2, ..., pile N. There will be atleast 1 and atmost 1000 stones in any pile.
+The first line contains the number of test cases T (&lt;= 100). There follow 2T lines, 2 per test case. The first line of each test case conains N (&lt;= 100), the number of piles. The second line contains N space seperated integers, specifying the number of stones in pile 1, pile 2, ..., pile N. There will be atleast 1 and atmost 1000 stones in any pile.
 
 ### Output
 

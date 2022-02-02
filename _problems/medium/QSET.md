@@ -76,15 +76,14 @@ All submissions for this problem are available.###  Read problems statements in 
 You have a string of **N** decimal digits, denoted by numbers **A1,A2, ..., AN**.
 
 Now you are given **M** queries, each of whom is of following two types.
-/>
 
 - Type 1: **1 X Y**: Replace **AX** by **Y**.
 - Type 2: **2 C D**: Print the number of sub-strings divisible by 3 of the string denoted by **AC,AC+1 ...
-  AD**.
-  
-  
-  Formally, you have to print the number of pairs **(i,j)** such that the string **Ai,Ai+1...Aj**,
-  **(C ≤ i ≤ j ≤ D)**, when considered as a decimal number, is divisible by 3. />
+    AD**.
+    
+    
+    Formally, you have to print the number of pairs **(i,j)** such that the string **Ai,Ai+1...Aj**,
+    **(C ≤ i ≤ j ≤ D)**, when considered as a decimal number, is divisible by 3.
 
 ### Input
 
@@ -94,7 +93,7 @@ Now you are given **M** queries, each of whom is of following two types.
 - For next **M** lines, each line contains a query.
 - Each query is given by three space separated integers.
 - The first integer denotes type of the query. For each query of type 1, next two integers denote **Xi, Yi**.
-  For each query of type 2, next two integers denote **Ci, Di**.
+    For each query of type 2, next two integers denote **Ci, Di**.
 
 ### Output
 

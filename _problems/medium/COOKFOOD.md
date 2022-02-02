@@ -100,7 +100,6 @@ For each Test case, output a separate line containing the answer modulo 10000000
 2 3
 
 1 3
-/>/>/>/>
 
 ### Sample Output
 
@@ -109,7 +108,6 @@ For each Test case, output a separate line containing the answer modulo 10000000
 18
 
 6
-/>/>/>
 
 ### Explanation
 
@@ -117,7 +115,7 @@ For first test case, there are two ways:
 a) A = {1, 2} and B = {2, 1} and b) A = {2, 1} and B = {1,2}.
 
 
-For third test case, A and B are of length 1. A0 can take three different values and for each value of A0, B0 can take any of the other two values./>
+For third test case, A and B are of length 1. A0 can take three different values and for each value of A0, B0 can take any of the other two values.
 
 ### Constraints
 
@@ -132,7 +130,7 @@ For third test case, A and B are of length 1. A0 can take three different values
 
 **N**, **K** ≤ 10000
 
-the answer(without taking modulo 1000000007) will be at most 104./>
+the answer(without taking modulo 1000000007) will be at most 104.
 
 ### Subtask 3 (25 points): 
 

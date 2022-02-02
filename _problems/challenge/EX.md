@@ -29,7 +29,7 @@ First, 1≤n≤1000, the size of the board. Then n rows of n numbers follow, rep
 
 ### Output
 
-First, you should output k, the number of operations you perform. The following k rows should describe a sequence of operations to be performed on the board, in the order in which they should be applied. Each operation is described by three space separated numbers i,j,c, where 0≤i,j<n are 0-based coordinates of the lightbulb at the starting point (i stands for the row number, j stands for the column number), and c is one character from the set {N,E,W,S}, N meaning moving to smaller row coordinates, S to larger row coordinates, W to smaller column coordinates, and E to larger column coordinates.
+First, you should output k, the number of operations you perform. The following k rows should describe a sequence of operations to be performed on the board, in the order in which they should be applied. Each operation is described by three space separated numbers i,j,c, where 0≤i,j&lt;n are 0-based coordinates of the lightbulb at the starting point (i stands for the row number, j stands for the column number), and c is one character from the set {N,E,W,S}, N meaning moving to smaller row coordinates, S to larger row coordinates, W to smaller column coordinates, and E to larger column coordinates.
 
 ### Scoring
 

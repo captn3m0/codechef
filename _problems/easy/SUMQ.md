@@ -68,7 +68,7 @@ layout: problem
 ---
 All submissions for this problem are available.### Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JUNE17/mandarin/SUMQ.pdf), [Russian](http://www.codechef.com/download/translated/JUNE17/russian/SUMQ.pdf) and [Vietnamese](http://www.codechef.com/download/translated/JUNE17/vietnamese/SUMQ.pdf) as well.
 
-Given a triplet of integers (X , Y , Z), such that X ≤ Y and Y ≥ Z, we define f(X , Y , Z) to be (X + Y) \* (Y + Z). If either X > Y or Y < Z, or both, then f(X , Y , Z) is defined to be 0.
+Given a triplet of integers (X , Y , Z), such that X ≤ Y and Y ≥ Z, we define f(X , Y , Z) to be (X + Y) \* (Y + Z). If either X &gt; Y or Y &lt; Z, or both, then f(X , Y , Z) is defined to be 0.
 
 You are provided three arrays  **A , B** and **C**  of any length (their lengths may or may not be equal).
 

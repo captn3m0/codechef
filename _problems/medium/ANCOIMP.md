@@ -82,7 +82,7 @@ But the solution space turned to be very large, so he reduced it to a matrices o
 
  Help Chef to resolve this difficult problem, or say that there is no solution.
 
- Here → denotes the logical implication. p → q = !p || (p && q). Here ¬ denotes logical negation. ¬p = !p
+ Here → denotes the logical implication. p → q = !p || (p &amp;&amp; q). Here ¬ denotes logical negation. ¬p = !p
 
 ### Input
 

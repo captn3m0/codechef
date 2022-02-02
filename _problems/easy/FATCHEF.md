@@ -92,11 +92,11 @@ First line contains **T**, the number of test cases. T test cases follow. The fi
 
 ###  Constraints 
 
-- 1 <= T <= 10
-- 1 <= N <= 100000
-- 1 <= M <= N
+- 1 &lt;= T &lt;= 10
+- 1 &lt;= N &lt;= 100000
+- 1 &lt;= M &lt;= N
 - x will be an uppercase letter between A to Z
-- 1 <= y <= N
+- 1 &lt;= y &lt;= N
 
 ### Output
 

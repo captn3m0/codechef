@@ -83,11 +83,11 @@ Alice and Bob want to take as many candies home as possible. They don't have muc
 
 - Alice decides to pick the row or column from the present grid which has the *least* number of candies in every turn of hers.
 - If there are more than one such options, then her order of preference will be:
-   1) first row
-   2) last row
-   3) first column
-   4) last column.
-   For example, if all these 4 rows/columns have the same number of candies, she will remove the first row in this turn.
+     1) first row
+     2) last row
+     3) first column
+     4) last column.
+     For example, if all these 4 rows/columns have the same number of candies, she will remove the first row in this turn.
 - Bob chooses an optimal strategy through which he maximizes his share of candies in the end of the game. Note that Bob's strategy maximizes the number of his candies, not winner's candies. Also note that Bob knows Alice's strategy, of course, and he will take into account her strategy when he decides his move.
 
 It's quite evident that their strategy is not optimal. It might happen that Bob loses a game. And sometimes, both might win (with equal number of candies). Given the grid and the number of candies in each cell, your task is to tell them how many candies will the winner get if they play with this combined strategy. Alice will always start the game (Ladies first!).

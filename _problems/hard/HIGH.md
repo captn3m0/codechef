@@ -17,7 +17,7 @@ In some countries building highways takes a lot of time... Maybe that's because 
 
 The input is to be read from the standard input of your program. It begins with an integer 't', the number of test cases (equal to about 1000), followed by a new line, followed by the 't' test cases.
 
-The first line of each test case contains two integers, the number of cities (1<=n<=12) and the number of direct connections between them.
+The first line of each test case contains two integers, the number of cities (1&lt;=n&lt;=12) and the number of direct connections between them.
 Each next line contains two integers, which are the specific numbers of cities that can be connected. Cities are numbered from 1 to n.
 Consecutive test cases are separated with one blank line. The last line of input is terminated by a newline.
 

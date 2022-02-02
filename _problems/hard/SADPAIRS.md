@@ -99,7 +99,7 @@ Output **N** lines. The **i**th line must contain a single integer, the number o
 - **5** ≤ **N** ≤ **2×105**
 - **1** ≤ **Gi** ≤ **106**
 - 0 ≤ **E** ≤ **min(2×105, **N(N-1)/2**)**
-- **1** ≤ **ai** < **bi** ≤ **N**
+- **1** ≤ **ai** &lt; **bi** ≤ **N**
 - No pair (**ai**, **bi**) will appear more than once in the input.
 
 ### Subtasks

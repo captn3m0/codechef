@@ -168,4 +168,4 @@ Polygon 1: (0, 0)-(0, 3)-(2, 3)-(2, 0), two black points inside it: (1, 1), (1, 
 
 Polygon 2: (0, 0)-(0, 3)-(2, 0), contains one black point inside: (1, 1).
 
-Polygon 3: (0, 0)-(2, 3)-(2, 0), encloses one black point: (1, 1)./>/>/>
+Polygon 3: (0, 0)-(2, 3)-(2, 0), encloses one black point: (1, 1).

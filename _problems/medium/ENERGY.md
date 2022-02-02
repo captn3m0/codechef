@@ -23,7 +23,7 @@ Say B is the total number of boys on the guest list and G is the total number of
 
 The first line contains a single positive integer T ≤ 30 describing the number of test cases. Each test case begins with three positive integers B, G, and L. B is the number of boys that will attend the dance and G is the number of girls. L indicates the length of the dance.
 
-B lines then follow, each describing a boy. Each such line begins with three integers S,T,N where 0 ≤ S < T ≤ L and 0 ≤ N ≤ G. Here, S is number of seconds after the dance starts that the boy enters and T is the number of seconds after the dance starts when the boy leaves. Then N distinct integers between 0 and G-1 follow on the same line that describe the girls that the boy is interested in dancing with.
+B lines then follow, each describing a boy. Each such line begins with three integers S,T,N where 0 ≤ S &lt; T ≤ L and 0 ≤ N ≤ G. Here, S is number of seconds after the dance starts that the boy enters and T is the number of seconds after the dance starts when the boy leaves. Then N distinct integers between 0 and G-1 follow on the same line that describe the girls that the boy is interested in dancing with.
 
 Then G lines follow, each describe a girl in the same manner. The only difference is that 0 ≤ N ≤ B and the last N integers on a line corresponding to a girl are distinct integers between 0 and B-1 describing the boys that the girl is interested in dancing with.
 

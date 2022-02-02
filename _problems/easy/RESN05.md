@@ -15,7 +15,7 @@ Let G(S) denote the sum of the elements of set S and F(n) be the sum of G(s) for
 
 ### Input
 
-The first line contains the number of test cases T (<= 1000). Each of the next T lines contains an integer n. (1 <= n <= 1000000000).
+The first line contains the number of test cases T (&lt;= 1000). Each of the next T lines contains an integer n. (1 &lt;= n &lt;= 1000000000).
 
 ### Output
 

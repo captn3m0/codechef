@@ -30,7 +30,7 @@ All submissions for this problem are available.I hope all of you remember that C
 
 Namely, let there be **R** rooms in the hotel and they are numbered by numbers from 0 to **R − 1**, inclusive. Suppose guest chooses the room **K**. Then the hotel manager checks rooms in order
 **K, K + 1, K + 2, ..., R − 2, R − 1, 0, 1, 2, ..., K − 2, K − 1**
- and allocates the guest in the first free room in this list or report the guest that all rooms are occupied if this is the case./>/>
+ and allocates the guest in the first free room in this list or report the guest that all rooms are occupied if this is the case.
 
 Chef has a logbook where hotel manager writes down information about each guest. Namely, he records the visit time, the preferable room for the guest (NOT the actual room where guest will live), the staying time and the inconvenience caused to the guest, which equals to the number of occupied rooms that hotel manager checks in the list above before allocating the guest (or **R** if all rooms are occupied). The visit time is provided in minutes after the moment when hotel was opened for visits. Before the first visit all rooms in the hotel were free. When guest leaves the room it could be occupied at the same moment of time by another guest if exactly at this moment the visit occurs.
 
@@ -49,7 +49,7 @@ For each test case output **N** lines. The **i**-th line among them should conta
 - **1** ≤ **T** ≤ **314159**
 - **1** ≤ **R** ≤ **314159**
 - **1** ≤ **N** ≤ **314159**
-- 0 ≤ **time** < **31415926**
+- 0 ≤ **time** &lt; **31415926**
 - 0 ≤ **inconv** ≤ **R**
 - The sum of **R** over the input does not exceed **314159**
 - The sum of **N** over the input does not exceed **314159**

@@ -38,7 +38,7 @@ At first you will be given **T (T ≤ 1000)**, the number of test cases. Then **
 
 ### Output
 
-For each line of input, produce exactly one line of output like either "Case <test-case>: <N>-sum" or "Case <test-case>: <N>-altersum". Please see sample input and output for details.
+For each line of input, produce exactly one line of output like either "Case &lt;test-case&gt;: &lt;N&gt;-sum" or "Case &lt;test-case&gt;: &lt;N&gt;-altersum". Please see sample input and output for details.
 
 ### Sample
 

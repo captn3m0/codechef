@@ -19,7 +19,7 @@ Now he wonders how many permutations could he have chosen in the first place whi
 
 ### Input
 
-The first line contains the number of test cases T (T <= 1000). The next T lines contain 2 space seperated integers N and K. (2 <= K <= N <= 100)
+The first line contains the number of test cases T (T &lt;= 1000). The next T lines contain 2 space seperated integers N and K. (2 &lt;= K &lt;= N &lt;= 100)
 
 ### Output
 

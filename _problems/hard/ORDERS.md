@@ -21,7 +21,7 @@ If you know how many positions each man has to walk to the left, can you try to 
 
 ### Input
 
-The first line of input contains an integer t<=50, the number of test cases. It is followed by t test cases, each consisting of 2 lines. The first line contains a single integer n (1<=n<=200000). The second line contains n space separated integers wi, denoting how far the i-th soldier in line must walk to the left when applying Sgt Johnny's algorithm.
+The first line of input contains an integer t&lt;=50, the number of test cases. It is followed by t test cases, each consisting of 2 lines. The first line contains a single integer n (1&lt;=n&lt;=200000). The second line contains n space separated integers wi, denoting how far the i-th soldier in line must walk to the left when applying Sgt Johnny's algorithm.
 
 ### Output
 

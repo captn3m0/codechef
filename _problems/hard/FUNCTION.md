@@ -25,7 +25,7 @@ The first line contains a single integer T ≤ 30 indicating the number of test 
 
 Each test case begins with two integers N and M where 3 ≤ N ≤ 10,000 and 3 ≤ M ≤ 50,000 where N is the number of items in the menu. The menu items will be numbered 1 through N.
 
-M lines follow, each containing three integers a,b, and v. Here 1 ≤ a < b ≤ N and |v| ≤ 100,000. Such a triple indicates that f(a) = b or f(b) = a (but not both) may be used in a backup function. Setting either f(a) = b or f(b) = a has effectiveness v. Each pair 1 ≤ a < b ≤ N will occur at most once in the input.
+M lines follow, each containing three integers a,b, and v. Here 1 ≤ a &lt; b ≤ N and |v| ≤ 100,000. Such a triple indicates that f(a) = b or f(b) = a (but not both) may be used in a backup function. Setting either f(a) = b or f(b) = a has effectiveness v. Each pair 1 ≤ a &lt; b ≤ N will occur at most once in the input.
 
 Test cases will be separated by a single blank line (including a blank line preceding the first test case).
 
@@ -33,7 +33,7 @@ Test cases will be separated by a single blank line (including a blank line prec
 
 The output for each test case consists of a single line containing the maximum possible quality of a backup function f that does not assign any pair of items to each other. To be explicit, the assignment f(a) = b has effectiveness v where v is the value associated with the a,b pair in the input. Then the quality of a backup function is just the sum of the effectiveness values of the assignment for each item. If no backup function can be constructed from the given input pairs, then simply output "impossible" (note the lowercase 'i').
 
-We may only assign f(a) = b or f(b) = a if a,b is an input pair. Furthermore, a backup function defines a single item f(a) for every item a between 1 and n. Note that f(a) = a is not valid since f(a) is supposed to be an alternative item if menu item a is not available (and all input pairs a,b have a < b anyway). Finally, based on the Chef's additional constraint we cannot have a backup function with both f(a) = b and f(b) = a for any input pair a,b.
+We may only assign f(a) = b or f(b) = a if a,b is an input pair. Furthermore, a backup function defines a single item f(a) for every item a between 1 and n. Note that f(a) = a is not valid since f(a) is supposed to be an alternative item if menu item a is not available (and all input pairs a,b have a &lt; b anyway). Finally, based on the Chef's additional constraint we cannot have a backup function with both f(a) = b and f(b) = a for any input pair a,b.
 
 ### Example
 

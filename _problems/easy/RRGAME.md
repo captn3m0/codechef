@@ -85,21 +85,21 @@ Output single integer - answer for the given problem modulo **109+7**.
 9. 1 ≤ N ≤ 105
 10. 1 ≤ M,K ≤ 1012
 11. 1 ≤ Ai ≤ M ### Example
-  
-  ```
-  <b>Input:</b>
-  3 3 2
-  1 2 3
-  <b>Output:</b>
-  2
-  ```
-  
-  ### Explanation
-  
-  All possible sums are 14 and 10. You can get them by, for example, these arrays:
-  
-  **A=(5, 4, 5),**
-  
-  **A=(1, 4, 5)**
-  
-  The above arrays are different because their sums are different.
+    
+    ```
+    <b>Input:</b>
+    3 3 2
+    1 2 3
+    <b>Output:</b>
+    2
+    ```
+    
+    ### Explanation
+    
+    All possible sums are 14 and 10. You can get them by, for example, these arrays:
+    
+    **A=(5, 4, 5),**
+    
+    **A=(1, 4, 5)**
+    
+    The above arrays are different because their sums are different.

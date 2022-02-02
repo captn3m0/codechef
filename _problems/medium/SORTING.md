@@ -77,7 +77,7 @@ procedure Sort(list **A**) defined as:
  **pivot** := **A(length(A)+1) / 2**
  for **i** := 1 to length(**A**) do:
  Increment(**comparison\_count**)
- if **Ai** pivot then append **Ai** to **less** else if **Ai** > **pivot** append **Ai** to **greater**
+ if **Ai** pivot then append **Ai** to **less** else if **Ai** &gt; **pivot** append **Ai** to **greater**
  end if
  end for
  return concatenate(Sort(**less**), **pivot**, Sort(**greater**) )

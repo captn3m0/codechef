@@ -92,9 +92,9 @@ For each query, output the corresponding answer as the form "**l** **r**" or "**
 
 ### Constraints
 
-- **1** <= **n** <= **10^6**
-- **1** <= **m** <= **10^6**
-- **1** <= **l** <= **r** <= **n**
+- **1** &lt;= **n** &lt;= **10^6**
+- **1** &lt;= **m** &lt;= **10^6**
+- **1** &lt;= **l** &lt;= **r** &lt;= **n**
 - **k1**, **k2** are legal
 .
 

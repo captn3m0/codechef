@@ -17,7 +17,7 @@ Formally, the course can be navigated by a car of radius c if there exists a clo
 
 ### Input:
 
-Input begins with an integer T (about 25), the number of test cases. Each test case begins with 2 integers r and R (1<=r<R<=25000). The racetrack is the area between the circles centered at (0,0) with radii r and R. The next line of input contains an integer N (0<=N<=500), the number of cones. N lines follow, each containing the coordinates of a cone. The coordinates are integers, and are guaranteed to lie within the track, and be distinct. Cases are separated by a blank line.
+Input begins with an integer T (about 25), the number of test cases. Each test case begins with 2 integers r and R (1&lt;=r&lt;R&lt;=25000). The racetrack is the area between the circles centered at (0,0) with radii r and R. The next line of input contains an integer N (0&lt;=N&lt;=500), the number of cones. N lines follow, each containing the coordinates of a cone. The coordinates are integers, and are guaranteed to lie within the track, and be distinct. Cases are separated by a blank line.
 
 ### Output:
 

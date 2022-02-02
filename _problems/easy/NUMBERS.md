@@ -106,12 +106,12 @@ Nobody wins.
 </pre>
 ### Scoring
 
-Subtask 1 (17 points): **T** = 10000, 1 <= **N** <= 10, 1 <= **Ai** <= 10 
+Subtask 1 (17 points): **T** = 10000, 1 &lt;= **N** &lt;= 10, 1 &lt;= **Ai** &lt;= 10 
 
-Subtask 2 (19 points): **T** = 10000, 1 <= **N** <= 10, 1 <= **Ai** <= 2\*109
+Subtask 2 (19 points): **T** = 10000, 1 &lt;= **N** &lt;= 10, 1 &lt;= **Ai** &lt;= 2\*109
 
-Subtask 3 (30 points): **T** = 100, 1 <= **N** <= 1000, 1<= **Ai** <= 2\*109
+Subtask 3 (30 points): **T** = 100, 1 &lt;= **N** &lt;= 1000, 1&lt;= **Ai** &lt;= 2\*109
 
-Subtask 4 (34 points): **T** = 10, 1 <= **N** <= 10000, 1 <= **Ai** <= 2\*109
+Subtask 4 (34 points): **T** = 10, 1 &lt;= **N** &lt;= 10000, 1 &lt;= **Ai** &lt;= 2\*109
 
 You can safely assume that in all the test cases the length of any name will not exceed five letters. All the players' names are unique.

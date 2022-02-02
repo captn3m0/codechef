@@ -72,7 +72,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 An analysis of the ongoing [Ebola](http://en.wikipedia.org/wiki/Ebola_virus_disease) outbreak reveals that transmission of the virus occurs in social networks. Usually a social network is represented as an undirected graph **G = (V, E)**, where **V** denotes the set of nodes and **E** denotes the set of edges. Each node in the graph is assigned an integer weight for it.
 
-At time **t = 0**, all the nodes of the graph are vulnerable. Node **S** of the graph has just been infected by Ebola. At each instant of time **t > 0**, any vulnerable node **v** which is connected to some infected node **u** (i.e. **(u, v) ∈ E**) also gets infected, unless it was vaccinated at some time **t' . A node once infected always remains infected and a vaccinated node can never be infected. Obviously once a node is infected, there is no point of vaccinating it. A node is called **saved** if it is not infected till the end (at **t = infinity**, a long time afterwards).**
+At time **t = 0**, all the nodes of the graph are vulnerable. Node **S** of the graph has just been infected by Ebola. At each instant of time **t &gt; 0**, any vulnerable node **v** which is connected to some infected node **u** (i.e. **(u, v) ∈ E**) also gets infected, unless it was vaccinated at some time **t' . A node once infected always remains infected and a vaccinated node can never be infected. Obviously once a node is infected, there is no point of vaccinating it. A node is called **saved** if it is not infected till the end (at **t = infinity**, a long time afterwards).**
 
 You, being in-charge of biggest hospital in the area, have been given the responsibility of vaccinating the nodes of the graph. There are total **K** units of supply of vaccines in the hosptial. Your target is to vaccinate certain number of nodes using these **K** units of vaccines. You will start vaccinating the nodes from time **t = 1**, up to time **t = K**. Note that you can not vaccinate more than one node a particular time. Also notice that it is better to not skip a vaccination at any time instance between **t = 1** to **t = K**, so we enforce you to vaccinate at least some node at each instant. You can choose to vaccinate a node more than once, but it will be pointless. You can also choose to try to vaccinate an already infected node, but it will also be pointless.
 
@@ -167,26 +167,26 @@ In other remaining three files, the graph will be random connected graphs satisf
 
 ### Group 1
 
-- **minN = 290** & **maxN = 300**
-- **minM = 900** & **maxM = 1000**
-- **minK = 35** & **maxK = 50**
+- **minN = 290** &amp; **maxN = 300**
+- **minM = 900** &amp; **maxM = 1000**
+- **minK = 35** &amp; **maxK = 50**
 
 ### Group 2
 
-- **minN = 970** & **maxN = 1000**
-- **minM = 9900** & **maxM = 10000**
-- **minK = 35** & **maxK = 50**
+- **minN = 970** &amp; **maxN = 1000**
+- **minM = 9900** &amp; **maxM = 10000**
+- **minK = 35** &amp; **maxK = 50**
 
 ### Group 3
 
-- **minN = 9990** & **maxN = 10000**
-- **minM = 35000** & **maxM = 40000**
-- **minK = 35** & **maxK = 50**
+- **minN = 9990** &amp; **maxN = 10000**
+- **minM = 35000** &amp; **maxM = 40000**
+- **minK = 35** &amp; **maxK = 50**
 
 ### Group 4
 
-- **minN = 9990** & **maxN = 10000**
-- **minM = 35000** & **maxM = 40000**
-- **minK = 350** & **maxK = 500**
+- **minN = 9990** &amp; **maxN = 10000**
+- **minM = 35000** &amp; **maxM = 40000**
+- **minK = 350** &amp; **maxK = 500**
 
 During the contest, your submissions will be evaluated on the test files. If you get a non-AC verdict in any of the test files, you will be notified about that. However, if you get an AC verdict, then the score displayed will be only of 20% of the test files. Those 20% of the test files will be 4-regular, bipartite and 2 random connected graphs of group 4. After the contest, your submission will be rejudged and score will correspond to all the test files.

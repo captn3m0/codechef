@@ -30,7 +30,7 @@ The ith meeting takes place from time units **si** to **ti**. Raw power wants to
 
 Of course moving meetings around affects a student's credibility. Specifically moving a meeting from time period \[**si**, **ti**\] to \[**si** + a, **ti** + a\] is possible for any *integer* a but reduces credibility by |a| (|x| denotes absolute value of x). Raw Power currently has a credibility of **K** and is willing to sacrifice it all. He needs your help to know the maximum possible intersection of all meeting times that he can achieve whilst keeping his credibility non-negative.
 
- Formalizing intersection: Given a set of meetings each with a start and end time, let the maximum start time over all meetings be s and the minimum end time over all meetings be e. The intersection time of all meetings is 0 if s>=e and e-s otherwise.
+ Formalizing intersection: Given a set of meetings each with a start and end time, let the maximum start time over all meetings be s and the minimum end time over all meetings be e. The intersection time of all meetings is 0 if s&gt;=e and e-s otherwise.
 
 ### Input
 

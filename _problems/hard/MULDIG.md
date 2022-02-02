@@ -80,11 +80,11 @@ Consider a computer memory consisting of 105 cells, numbered 0 through 105-1, ea
 - ti = i for i B
 - t**B** and t**B**+1 are digits of the number X, so X = t**B** \* **B** + t**B**+1
 - t**B**+2 and t**B**+3 are digits of the number Y, so Y = t**B+2** \* **B** + t**B**+3
-- ti = 0 for all i > **B**+3
+- ti = 0 for all i &gt; **B**+3
 
 ![](https://codechef_shared.s3.amazonaws.com/download/upload/JULY17/a9oimq.jpg)The first of the two drawings above shows the initial situation for **B** = 5 and multiplying numbers 8 and 4 (represented in base 5 as 13 and 04 respectively). After applying your sequence of moves, the result of the multiplication should be stored in cells **B**+4, **B**+5, **B**+6, **B**+7, which is shown in the second drawing (please note that 8 \* 4 = 32 and this number is represented as 0112 in base 5). Except for those 4 cells containing the answer, the final value of ti doesn't matter. In particular, you are allowed to change values in the first **B+4** cells.
 
-You should choose one function F : \[0,**B**-1\] × \[0,**B**-1\] -> \[0,**B**-1\]. It means that the function F should take two digits and return one, where each digit is in the set {0, 1, ..., **B**-1}. One example of F is addition F(x, y) = (x + y) % **B**. We don't require any particular properties from F (e.g. associativity or symmetricity).
+You should choose one function F : \[0,**B**-1\] × \[0,**B**-1\] -&gt; \[0,**B**-1\]. It means that the function F should take two digits and return one, where each digit is in the set {0, 1, ..., **B**-1}. One example of F is addition F(x, y) = (x + y) % **B**. We don't require any particular properties from F (e.g. associativity or symmetricity).
 
 You should create a sequence of at most 105 moves. In each move, choose three cells c1, c2 and c3, not necessarily distinct. The result of F for digits in cells c1 and c2 will be computed, and then written in the cell c3. In other words, in C++ or Python it's the operation t\[c3\] = F(t\[c1\], t\[c2\]). For every possible pair of 2-digit numbers X and Y, your sequence of moves should produce the correct answer X \* Y as described above.
 

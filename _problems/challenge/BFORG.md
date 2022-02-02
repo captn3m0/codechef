@@ -81,7 +81,7 @@ The first line of input contains a single integer t, the number of test cases (t
 
 Each test cases starts with a line containing two integers *n k*, denoting the number of students and the number of divisions to be formed, respectively (2knn lines contains two integers *xi yi* each (-1000 xi,yi Output
 
-For the *i*-th test case output a line with the text case *i* Y or case *i* N, specifying whether you wish to solve the given case. Then in the former case print exactly *k* lines. Each line should start with integer *nj* (*nj*>=2) and be followed by a space separated list of exactly *nj* increasing integers *sjl*, denoting the students belonging to the *j*-th division, numbered in input order (1sjlnj must equal *n*.
+For the *i*-th test case output a line with the text case *i* Y or case *i* N, specifying whether you wish to solve the given case. Then in the former case print exactly *k* lines. Each line should start with integer *nj* (*nj*&gt;=2) and be followed by a space separated list of exactly *nj* increasing integers *sjl*, denoting the students belonging to the *j*-th division, numbered in input order (1sjlnj must equal *n*.
 
 ### Score
 

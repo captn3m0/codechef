@@ -97,8 +97,8 @@ For each test case, output a single line containing the number of ways to choose
 </pre>
 ### Scoring
 
-**T** = 100, 1 <= **N**, **M** <= 10 : 25 points.
+**T** = 100, 1 &lt;= **N**, **M** &lt;= 10 : 25 points.
 
-**T** = 100, 1 <= **N**, **M** <= 1000 : 36 points.
+**T** = 100, 1 &lt;= **N**, **M** &lt;= 1000 : 36 points.
 
-**T** = 100, 1 <= **N**, **M** <= 106 : 39 points.
+**T** = 100, 1 &lt;= **N**, **M** &lt;= 106 : 39 points.

@@ -72,7 +72,7 @@ He was unhappy, and wanted both buildings to be of the same height.
 
 In one move, he could either add a floor to a building, or remove a floor from a building.
 
-Help him find the minimum number of moves to make the heights equal./>/>/>
+Help him find the minimum number of moves to make the heights equal.
 
 ### Input
 
@@ -80,18 +80,17 @@ First line contains a positive integer **T** - the total number of testcases.
 
 **T** lines follow, each representing a test case.
 
-Each line contains 2 space-separated positive integers - **N** and **M**./>/>
+Each line contains 2 space-separated positive integers - **N** and **M**.
 
 ### Output
 
 For each testcase, print the minimum number of moves on a new line.
-/>
 
 ### Constraints
 
 1 ≤ **T** ≤ 105
 
-1 ≤ **N**, **M** ≤ 1018/>
+1 ≤ **N**, **M** ≤ 1018
 
 ### Subtasks
 
@@ -102,14 +101,12 @@ For each testcase, print the minimum number of moves on a new line.
 1 ≤ **T** ≤ 105
 
 1 ≤ **N**, **M** ≤ 109
-/>/>/>/>
 
 **Subtask #2 (80 points)**
 
 1 ≤ **T** ≤ 105
 
 1 ≤ **N**, **M** ≤ 1018
-/>/>/>
 
 ### Sample Testcase
 

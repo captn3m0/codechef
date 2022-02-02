@@ -89,11 +89,11 @@ For each test case, output a single line containing the value of the correspondi
 ### Constraints
 
 - **1** ≤ **T** ≤ **5000**
-- **1** < **M** < **1018**
-- 0 ≤ **Q** < **M**
-- **1** ≤ **N** < **10100000**
-- 0 ≤ **D** < **20000**
-- 0 ≤ **Ai** < **M** for **i = 0, 1, ..., D**
+- **1** &lt; **M** &lt; **1018**
+- 0 ≤ **Q** &lt; **M**
+- **1** ≤ **N** &lt; **10100000**
+- 0 ≤ **D** &lt; **20000**
+- 0 ≤ **Ai** &lt; **M** for **i = 0, 1, ..., D**
 - The sum of **D + 1** over each input file does not exceed **20000**.
 - The overall number of digits in all numbers **N** in each input file does not exceed **105**.
 - ****M** is not divisible by any number from **2** to **D + 14**, inclusive.**

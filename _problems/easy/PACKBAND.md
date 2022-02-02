@@ -17,11 +17,11 @@ You have **N** boxes of Samosas, where each box is a cube. To pack a box, you ne
 
 ### Notes
 
-A pseudo-circular rubber band having a radius R has circumference of 2 \* K \* R , where K is a constant = 22 / 7. So, a (R1,R2) rubber band can be used to pack a cubical box of side length L, only if 2 \* K \* R1 <= 4 \* L <= 2 \* K \* R2
+A pseudo-circular rubber band having a radius R has circumference of 2 \* K \* R , where K is a constant = 22 / 7. So, a (R1,R2) rubber band can be used to pack a cubical box of side length L, only if 2 \* K \* R1 &lt;= 4 \* L &lt;= 2 \* K \* R2
 
 ### Input
 
-First line contains an integer T ( number of test cases, around 20 ). T cases follow. Each test case starts with an integer N ( number of boxes, 1 <= **N** <= 1000 ). Next line contains N integers, the side lengths L of the N boxes ( 1 <= **L** <= 100,000,000 ). Next line contains an integer M ( number of rubber bands, 1 <= **M** <= 1000 ). Each of the next M lines contains two integers R1 R2 ( 1 <= **R1** <= **R2** <= 100,000,000 ), separated by a space.
+First line contains an integer T ( number of test cases, around 20 ). T cases follow. Each test case starts with an integer N ( number of boxes, 1 &lt;= **N** &lt;= 1000 ). Next line contains N integers, the side lengths L of the N boxes ( 1 &lt;= **L** &lt;= 100,000,000 ). Next line contains an integer M ( number of rubber bands, 1 &lt;= **M** &lt;= 1000 ). Each of the next M lines contains two integers R1 R2 ( 1 &lt;= **R1** &lt;= **R2** &lt;= 100,000,000 ), separated by a space.
 
 ### Output
 

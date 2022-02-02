@@ -96,8 +96,8 @@ For each query of the first type you need to output two numbers: the minimal num
 - 1 ≤ **N** ≤ 250 000;
 - The number of the queries of the first type won't exceed 40000;
 - The number of the queries of the second type won't exceed 10000;
-- 0 ≤ **Ai** < 65536;
-- 0 ≤ **K** < 65536, for each query of the second type appeared in the input;
+- 0 ≤ **Ai** &lt; 65536;
+- 0 ≤ **K** &lt; 65536, for each query of the second type appeared in the input;
 - 1 ≤ **L** ≤ **R** ≤ **N**, for each query appeared in the input.
 
 ### Example

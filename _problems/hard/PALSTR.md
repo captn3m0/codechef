@@ -75,7 +75,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/COOK66/mandarin/PALSTR.pdf), [Russian](http://www.codechef.com/download/translated/COOK66/russian/PALSTR.pdf) and [Vietnamese](http://www.codechef.com/download/translated/COOK66/vietnamese/PALSTR.pdf) as well.
 
-Chef's love for symmetry is well-known. This love is especially expressed for palindromic strings. Today, he has a triplet of strings, <**A**, **B**, **C**>, where each string is consisting of lowercase characters. He is interested in counting the number of ordered triplet of strings <**S1, S2, S3**> such that **S1**, **S2**, and **S3** are non-empty substrings of **A**, **B**, and **C**, respectively, and **S1 + S2 + S3** is a palindromic string, with '+' denoting the string concatenation operator.
+Chef's love for symmetry is well-known. This love is especially expressed for palindromic strings. Today, he has a triplet of strings, &lt;**A**, **B**, **C**&gt;, where each string is consisting of lowercase characters. He is interested in counting the number of ordered triplet of strings &lt;**S1, S2, S3**&gt; such that **S1**, **S2**, and **S3** are non-empty substrings of **A**, **B**, and **C**, respectively, and **S1 + S2 + S3** is a palindromic string, with '+' denoting the string concatenation operator.
 
 Note that **2** triplets are considered to be different if any substring chosen from a string in **1** triplet is different from the substring chosen from the same string in other triplet. You can check the definition of a substring [here](https://en.wikipedia.org/wiki/Substring).
 
@@ -95,7 +95,7 @@ For each test case, output the required answer.
 
 **1. 1 ≤ T ≤ 20** 
 **1. 1 ≤ |A|, |B|, |C| ≤ 1000** 
-**1. A, B & C consist of lowercase characters only.** 
+**1. A, B &amp; C consist of lowercase characters only.** 
 ### Example
 
 **Input**

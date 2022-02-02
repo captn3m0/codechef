@@ -21,8 +21,8 @@ The importance of a city C(according to Alice and Bob), Im(C) is defined as the 
 
 ### Input
 
-First line of input contains an integer t (t<=25), the number of test cases. Each test case starts with an integer N (1<=N<=10000), the number of cities
- The next N-1 lines contain two space separated integers u v (1<=u,v<=N) denoting a road from u to v.
+First line of input contains an integer t (t&lt;=25), the number of test cases. Each test case starts with an integer N (1&lt;=N&lt;=10000), the number of cities
+ The next N-1 lines contain two space separated integers u v (1&lt;=u,v&lt;=N) denoting a road from u to v.
 
 ### Output
 

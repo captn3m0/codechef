@@ -81,7 +81,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
  The first line contains an integer **T** denoting the number of test cases. Each of the next **T** lines contains two integers **N** and  **K** , the number of customers that plan to visit the chef's restaurant and the number of compartments the restaurant is divided into respectively. Each of the next **N** lines contains three integers **si**, **fi** and **pi** , the arrival time, departure time and the strongly preferred compartment of the **ith** customer respectively. 
 
-Note that the **ith** customer wants to occupy the **pith** compartment from **\[si, fi)**  i.e the **ith** customer leaves just before  **fi**  so that another customer can occupy that compartment from  **fi**  onwards./>
+Note that the **ith** customer wants to occupy the **pith** compartment from **\[si, fi)**  i.e the **ith** customer leaves just before  **fi**  so that another customer can occupy that compartment from  **fi**  onwards.
 
 ### Output
 
@@ -92,7 +92,7 @@ Note that the **ith** customer wants to occupy the **pith** compartment from **\
 - **1** ≤ **T** ≤  **30**
 - 0  ≤ **N** ≤  **105**
 - **1**  ≤  **K** ≤  **109**
-- 0  ≤ **si** < **fi** ≤  **109**
+- 0  ≤ **si** &lt; **fi** ≤  **109**
 - **1**  ≤  **pi**  ≤  **K**
 
 ### Example
@@ -117,8 +117,8 @@ Note that the **ith** customer wants to occupy the **pith** compartment from **\
 
 **Example case 1.**
 
-All three customers want different compartments and hence all 3 can be accommodated. />
+All three customers want different compartments and hence all 3 can be accommodated.
 
 **Example case 2.**
 
-If we serve the **1st**, **2nd** and **4th** customers, then we can get a maximum of 3./>
+If we serve the **1st**, **2nd** and **4th** customers, then we can get a maximum of 3.

@@ -145,6 +145,6 @@ For each query print out the corresponding result in one line.
 
 The shortest path for each query are:
 
-- From 1 to 4: 1 -> 2 -> 3 -> 4
-- From 5 to 7: 5 -> 4 -> 7
-- From 1 to 6: 1 -> 2 -> 3 -> 4 -> 7 -> 6
+- From 1 to 4: 1 -&gt; 2 -&gt; 3 -&gt; 4
+- From 5 to 7: 5 -&gt; 4 -&gt; 7
+- From 1 to 6: 1 -&gt; 2 -&gt; 3 -&gt; 4 -&gt; 7 -&gt; 6

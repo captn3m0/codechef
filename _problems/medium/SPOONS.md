@@ -68,8 +68,7 @@ time:
     current: 1493557933
 layout: problem
 ---
-All submissions for this problem are available. Lo and Behold! For you may be surprised by what our chief chef Noodle has in mind for this season! Today, Noodle announced one of his most extra-ordinary ideas ever - **Project Spoon**. 
-/>
+All submissions for this problem are available. Lo and Behold! For you may be surprised by what our chief chef Noodle has in mind for this season! Today, Noodle announced one of his most extra-ordinary ideas ever - **Project Spoon**.
 
  Noodle plans to deploy large spoons in the atmosphere so that people all around the world can download food directly from his kitchen thereby saving him a lot of overhead cost. Yes, you read that right. Large spoons suspended in the atmosphere.
 
@@ -105,8 +104,8 @@ All submissions for this problem are available. Lo and Behold! For you may be su
 
 **Example case 1.**
 
-Each spoon caters to a different city. Since there are two spoons, two cities are sufficient. />
+Each spoon caters to a different city. Since there are two spoons, two cities are sufficient.
 
 **Example case 2.**
 
-Again, each spoon needs to cater to one city and there are three spoons. So, three cities are required at minimum. />
+Again, each spoon needs to cater to one city and there are three spoons. So, three cities are required at minimum.

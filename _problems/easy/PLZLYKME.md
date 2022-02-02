@@ -86,18 +86,17 @@ For each test case, print a single line containing “**ALIVE AND KICKING**” i
 
  **Constraints**
 
-**1 <= T <= 1000**
+**1 &lt;= T &lt;= 1000**
 
-**1 <= L <= 1000000000**
+**1 &lt;= L &lt;= 1000000000**
 
-**1 <= D <= 1000000000**
+**1 &lt;= D &lt;= 1000000000**
 
-**1 <= S <= 1000000000**
+**1 &lt;= S &lt;= 1000000000**
 
-**1 <= C <= 1000000000**
+**1 &lt;= C &lt;= 1000000000**
 
 **Sample cases:**
-/>
 
 <pre>
 <b>Input</b>
@@ -113,4 +112,4 @@ DEAD AND ROTTING
 
 In the first case by the end of Day-1 we would be having **S** that is **5** number of likes, as it is ≥ **L**, the answer is **ALIVE AND KICKING**.
 
-In the second case, **D2 =S + C\*S**, therefore **D2 = 2 + 2 \* 2 = 6**, as 6 is less than 10, the answer is **DEAD AND ROTTING**. />
+In the second case, **D2 =S + C\*S**, therefore **D2 = 2 + 2 \* 2 = 6**, as 6 is less than 10, the answer is **DEAD AND ROTTING**.

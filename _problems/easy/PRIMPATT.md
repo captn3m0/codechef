@@ -21,7 +21,7 @@ There is a very large field, colored white and divided into squares. There is a 
 
 ### Input
 
-Input file consists of a set of tests. The first line of the file is number T – the number of tests (T <= 500). Following T lines contains two integers each separated with a space: x and y – the coordinates of the square (-2000001 < x < 2000001, -2000001 < y < 2000001).
+Input file consists of a set of tests. The first line of the file is number T – the number of tests (T &lt;= 500). Following T lines contains two integers each separated with a space: x and y – the coordinates of the square (-2000001 &lt; x &lt; 2000001, -2000001 &lt; y &lt; 2000001).
 
 ### Output
 

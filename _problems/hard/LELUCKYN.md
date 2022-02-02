@@ -127,12 +127,12 @@ For each test case output a single line containing the answer for the correspond
 - **L = 1**, **R = 1**: **C4 = 1**, **C7 = 1**, **C4C7 = 11 = 1 ≤ 1 = R − L + 1**. **The pair is counted.**
 - **L = 1**, **R = 2**: **C4 = 1**, **C7 = 1**, **C4C7 = 11 = 1 ≤ 2 = R − L + 1**. **The pair is counted.**
 - **L = 1**, **R = 3**: **C4 = 2**, **C7 = 1**, **C4C7 = 21 = 2 ≤ 3 = R − L + 1**. But the pair is not counted since **C4 = 2**.
-- **L = 1**, **R = 4**: **C4 = 3**, **C7 = 3**, **C4C7 = 33 = 27 > 4 = R − L + 1**. The pair is not counted.
+- **L = 1**, **R = 4**: **C4 = 3**, **C7 = 3**, **C4C7 = 33 = 27 &gt; 4 = R − L + 1**. The pair is not counted.
 - **L = 2**, **R = 2**: **C4 = 0**, **C7 = 0**, **C4C7 = 00 = 1 ≤ 1 = R − L + 1**. **The pair is counted.**
 - **L = 2**, **R = 3**: **C4 = 1**, **C7 = 0**, **C4C7 = 10 = 1 ≤ 2 = R − L + 1**. **The pair is counted.**
-- **L = 2**, **R = 4**: **C4 = 2**, **C7 = 2**, **C4C7 = 22 = 4 > 3 = R − L + 1**. The pair is not counted. It is also not counted since **C4 = 2**, and also since **C7 = 2**.
+- **L = 2**, **R = 4**: **C4 = 2**, **C7 = 2**, **C4C7 = 22 = 4 &gt; 3 = R − L + 1**. The pair is not counted. It is also not counted since **C4 = 2**, and also since **C7 = 2**.
 - **L = 3**, **R = 3**: **C4 = 1**, **C7 = 0**, **C4C7 = 10 = 1 ≤ 1 = R − L + 1**. **The pair is counted.**
-- **L = 3**, **R = 4**: **C4 = 2**, **C7 = 2**, **C4C7 = 22 = 4 > 2 = R − L + 1**. The pair is not counted. It is also not counted since **C4 = 2**, and also since **C7 = 2**.
+- **L = 3**, **R = 4**: **C4 = 2**, **C7 = 2**, **C4C7 = 22 = 4 &gt; 2 = R − L + 1**. The pair is not counted. It is also not counted since **C4 = 2**, and also since **C7 = 2**.
 - **L = 4**, **R = 4**: **C4 = 1**, **C7 = 2**, **C4C7 = 12 = 1 ≤ 1 = R − L + 1**. But the pair is not counted since **C7 = 2**.
 
 As we see there are exactly **5** pairs **(L; R)** that satisfy required constraints.

@@ -23,15 +23,15 @@ Help the Chef determine the maximum possible profit he can receive from the coll
 
 The first line of input contains a single integer indicating the number of test cases T ≤ 50. Each test case begins with two integers n,m with 1 ≤ n ≤ 100 and 1 ≤ m ≤ 50. This means there are n requests to process and the oven is available from time 0 to time m.
 
-Each of the following n lines describes a request and consists of three integers s, e, and v. The numbers satisfy 0 ≤ s < e ≤ m and 1 ≤ v ≤ 1000. This means that the request requires use of a single rack in the oven during time units s, s+1, ..., e-1 and will pay v dollars if the request is satisfied.
+Each of the following n lines describes a request and consists of three integers s, e, and v. The numbers satisfy 0 ≤ s &lt; e ≤ m and 1 ≤ v ≤ 1000. This means that the request requires use of a single rack in the oven during time units s, s+1, ..., e-1 and will pay v dollars if the request is satisfied.
 
-Finally, a line follows with m integers c0, c1, ..., cm-1, each between 1 and 25. These indicate that at each time i, 0 ≤ i < m, there are ci racks available to rent.
+Finally, a line follows with m integers c0, c1, ..., cm-1, each between 1 and 25. These indicate that at each time i, 0 ≤ i &lt; m, there are ci racks available to rent.
 
 Test cases are separated by a single blank line including a blank line preceding the first test case.
 
 ### Output
 
-The output for each test case consists of a single integer indicating the maximum total value the Chef can receive from a subset of requests which can all be satisfied. Recall that we say a subset S of requests can be satisfied if at any time 0 ≤ t < m that the number of requests in S that require the oven at time t does not exceed ct.
+The output for each test case consists of a single integer indicating the maximum total value the Chef can receive from a subset of requests which can all be satisfied. Recall that we say a subset S of requests can be satisfied if at any time 0 ≤ t &lt; m that the number of requests in S that require the oven at time t does not exceed ct.
 
 ### Example
 

@@ -57,7 +57,7 @@ Print a single line containing one integer — the expected number of paths from
 - 3 ≤ **N** ≤ 109
 - 2 ≤ **K** ≤ 50
 - **K** is even
-- 1 ≤ **a** < **b** ≤ **K**
+- 1 ≤ **a** &lt; **b** ≤ **K**
 
 ### Example
 

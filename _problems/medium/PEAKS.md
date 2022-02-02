@@ -81,11 +81,11 @@ Their task is to count the number of subsequences in **S** that have exactly **A
 
 Now, we define what local minimum and local maximum mean.
 
-Let's consider some subsequence of **S** formed by indices **i1**, **i2**, ..., **iK**(1 ≤ **K**; 1 ≤ **i1** < **i2** < ... < **iK** ≤ **N**).
+Let's consider some subsequence of **S** formed by indices **i1**, **i2**, ..., **iK**(1 ≤ **K**; 1 ≤ **i1** &lt; **i2** &lt; ... &lt; **iK** ≤ **N**).
 
-Index **ij**(1 < ij < **K**) is said to be a *local minimum* if the **S\[ij - 1\] > S\[ij\] < S\[ij + 1\]** condition holds.
+Index **ij**(1 &lt; ij &lt; **K**) is said to be a *local minimum* if the **S\[ij - 1\] &gt; S\[ij\] &lt; S\[ij + 1\]** condition holds.
 
-In a similar way, index **ij**(1 < ij < **K**) is said to be a *local maximum* if the **S\[ij - 1\] < S\[ij\] > S\[ij + 1\]** condition holds.
+In a similar way, index **ij**(1 &lt; ij &lt; **K**) is said to be a *local maximum* if the **S\[ij - 1\] &lt; S\[ij\] &gt; S\[ij + 1\]** condition holds.
 
 ### Input
 

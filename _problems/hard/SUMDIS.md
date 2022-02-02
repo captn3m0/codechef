@@ -84,7 +84,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
  There are no other edges.
 
- For each pair of vertices **s**, **t** where **s < t**, let **d(s, t)** denote the length of the shortest path from **s** to **t**. Your task is to compute the sum of **d(s, t)** for every **1 ≤ s < t ≤ N.**
+ For each pair of vertices **s**, **t** where **s &lt; t**, let **d(s, t)** denote the length of the shortest path from **s** to **t**. Your task is to compute the sum of **d(s, t)** for every **1 ≤ s &lt; t ≤ N.**
 
 ###  Input
 
@@ -111,7 +111,7 @@ All submissions for this problem are available.###  Read problems statements in 
 - **1 ≤ T ≤ 104**
 - **4 **≤** N ≤ 105**
 - **1** ≤ sum of **N** over all test cases ≤ **3\*105**
-- **1** ≤ **ai******,** bi******,** ci** **≤ 104**
+- **1** ≤ **ai**,** bi**,** ci ≤ 104**
 
 ###  Subtasks
 

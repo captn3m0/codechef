@@ -73,7 +73,7 @@ All submissions for this problem are available.There is a **RxC** grid where the
 
 
 
-Chef uses an algorithm which starts at a cell **(sr,sc)** of the grid and visits the unvisited adjacent cells inside the grid recursively. The order in which the adjacent cells are looked for are: right, down, left and up. Your job is to find out the number of different cells that would be visited when the cell **(tr,tc)** is found. Given below is the pseudocode of the algorithm:/>/>
+Chef uses an algorithm which starts at a cell **(sr,sc)** of the grid and visits the unvisited adjacent cells inside the grid recursively. The order in which the adjacent cells are looked for are: right, down, left and up. Your job is to find out the number of different cells that would be visited when the cell **(tr,tc)** is found. Given below is the pseudocode of the algorithm:
 
 <pre>
 // A 2D boolean array to mark the visited cells

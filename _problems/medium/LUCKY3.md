@@ -29,11 +29,11 @@ For each **T** test cases print one integer - result for the corresponding test.
 
 ### Constraints
 
-1 <= **T** <= 10
+1 &lt;= **T** &lt;= 10
 
-1 <= **n** <= 50
+1 &lt;= **n** &lt;= 50
 
-1 <= **Wi** < 10^9
+1 &lt;= **Wi** &lt; 10^9
 
 ### Example
 

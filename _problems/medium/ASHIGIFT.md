@@ -78,7 +78,7 @@ Byteland is a not a regular place like Chef's town. The safest way from Chef's t
 
 Knowing the devilish nature of Suraj, Ashi is concerned about the Chef and has asked all of Chef's town people to help. The distance from Chef's town to Byteland through the *the path of tasty dishes* is **X** units. They have the location where the magic dishes are and how many people are required to eat it completely. Anyone who eats a dish would go to a long sleep and won't be able to continue. They have the information about the tribal clans that live along the *the path of tasty dishes* who can be of real help in this journey.
 
-The journey Chef and his friends can be described as follows: There is a total of **B** dishes on *the path of tasty dishes*. Each dish is located at some distance from Chef's town denoted by **xi** for the ith dish ( **xi-1** < **xi**). To minimize the number of friends Chef has to leave behind, all of them have decided that exactly **yi** of them will eat the ith dish, which is the required number of people needed to finish it completely. Also, there are a total of **C** tribal chef clans, each with their own population and location on the path that Chef and his friends will meet on their way to Byteland. They know that for some clan (say *i*), they are located at a distance of **pi** ( **pi-1** < **pi**) from Chef's town with a population of **ri**. And if a group of **at least qi** men approaches them, they would be able to convince them to join their forces against Suraj.
+The journey Chef and his friends can be described as follows: There is a total of **B** dishes on *the path of tasty dishes*. Each dish is located at some distance from Chef's town denoted by **xi** for the ith dish ( **xi-1** &lt; **xi**). To minimize the number of friends Chef has to leave behind, all of them have decided that exactly **yi** of them will eat the ith dish, which is the required number of people needed to finish it completely. Also, there are a total of **C** tribal chef clans, each with their own population and location on the path that Chef and his friends will meet on their way to Byteland. They know that for some clan (say *i*), they are located at a distance of **pi** ( **pi-1** &lt; **pi**) from Chef's town with a population of **ri**. And if a group of **at least qi** men approaches them, they would be able to convince them to join their forces against Suraj.
 
 Given the information about all this, help the Chef to find out the minimum size of the group (including him and his friends) he should start with to reach Byteland and get back Ashi's gift from Suraj.
 
@@ -101,10 +101,10 @@ For each test case, print the minimum size of the group (including Chef) that is
 - **1** ≤ **X** ≤ **109**
 - **1** ≤ **B** ≤ **10000**
 - Constraints on **C**
-  - Subproblem 1 (25 points):  **C = 0**
-  - Subproblem 2 (75 points): **1** ≤ **C** ≤ **10000**
-- **1** ≤ **xi** < **X**, **xi** < **xi+1**
-- **1** ≤ **pi** < **X**, **pi** < **pi+1**
+    - Subproblem 1 (25 points):  **C = 0**
+    - Subproblem 2 (75 points): **1** ≤ **C** ≤ **10000**
+- **1** ≤ **xi** &lt; **X**, **xi** &lt; **xi+1**
+- **1** ≤ **pi** &lt; **X**, **pi** &lt; **pi+1**
 - **1** ≤ **yi** ≤ **1014**
 - **1** ≤ **qi** ≤ **1014**
 - **1** ≤ **ri** ≤ **1014**

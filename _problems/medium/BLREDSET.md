@@ -81,8 +81,8 @@ Compute the number of subsets of vertices **W** such that:
 - Each vertex in **W** is uncolored.
 - **W** is a connected subgraph of **T**.
 - If you remove all the vertices of set **W**, there will be at least one pair of vertices (**u**, **v**) such that: 
-  - **u** is colored black and **v** red.
-  - There is no path from node **u** to node **v**.
+    - **u** is colored black and **v** red.
+    - There is no path from node **u** to node **v**.
 
 Output your answer **modulo 109 + 7**.
 

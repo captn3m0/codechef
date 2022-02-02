@@ -11,11 +11,11 @@ layout: problem
 ---
 ###  All submissions for this problem are available. 
 
-For a given positive integers **B** and **X** find the number of positive integers **N** such that number **N\*X** has at least one divisor **D** such that **N < D <= B**.
+For a given positive integers **B** and **X** find the number of positive integers **N** such that number **N\*X** has at least one divisor **D** such that **N &lt; D &lt;= B**.
 
 ### Input
 
- The first line contains a single positive integer **T <= 40**, the number of test cases. **T** test cases follow. The only line of each test case contains two positive integers **B <= 1012** and **X <= 60**.
+ The first line contains a single positive integer **T &lt;= 40**, the number of test cases. **T** test cases follow. The only line of each test case contains two positive integers **B &lt;= 1012** and **X &lt;= 60**.
 
 ### Output
 

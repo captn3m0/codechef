@@ -71,9 +71,6 @@ All submissions for this problem are available.###  Read problems statements in 
 
 This winter our chef plans to unveil his latest creation - Cube Cakes. As the name suggests, this new delicacy is a cake in the form of a perfect cube with secret ingredients from the chef's inventory. Since it is a relatively new creation of the chef, he wants to master the ability to make perfectly identical Cube Cakes. For this, he wants you to write a program that will calculate the similarity between two given Cube Cakes.
 
- 
-/>
-
  Each Cube Cake can be represented as a cube of size **N** where each cell of the cube contains a lowercase alphabet ('a'-'z'). The similarity between two Cube Cakes ( of size  **N**  each ) is defined as the maximum sized *common* sub-cube that exists at exactly the same position in both the Cube Cakes. Two sub-cubes are said to be *common* if at-least **P%** of their corresponding characters are equal. You need to find the size **S** of the largest such sub-cube and also the number of *common* sub-cubes of size **S** in the Cube Cake.
 
 ### Input
@@ -119,12 +116,12 @@ b
 
 **Example case 1.**
 
-Since both the Cube Cakes are identical, the whole cube matches and hence the similarity is **2**. Also, there is only one sub-cube of size **2**. />
+Since both the Cube Cakes are identical, the whole cube matches and hence the similarity is **2**. Also, there is only one sub-cube of size **2**.
 
 **Example case 2.**
 
-Since **P** is **100**, all characters in the sub-cube must match. The sub cube **'c'** and **'h'** each of size **1** are the largest cube satisfying this criteria. Hence the similarity is  **1**  and corresponding count is **2** ./>
+Since **P** is **100**, all characters in the sub-cube must match. The sub cube **'c'** and **'h'** each of size **1** are the largest cube satisfying this criteria. Hence the similarity is  **1**  and corresponding count is **2** .
 
 **Example case 3.**
 
-Since no characters match in the cube, we cannot find a *common* subcube here. />
+Since no characters match in the cube, we cannot find a *common* subcube here.

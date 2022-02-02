@@ -80,7 +80,7 @@ In this problem you will have to implement a simple editor. The editor maintains
 "**? i len**": Print the sub-string of length **len** starting at position **i**'th of **S**.
 
 
-At the beginning, the editor holds an empty string. There will be **Q** queries of the two types described above./>/>/>
+At the beginning, the editor holds an empty string. There will be **Q** queries of the two types described above.
 
 ### Input
 

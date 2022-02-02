@@ -85,12 +85,12 @@ A string is a palindromic string if it can be read same both forward as well as 
 
 - First line of input contains a single integer **T** denoting the number of test cases.
 - For each test case: 
-  - First line contains the string **A**
-  - Second line contains the string **B**.
+    - First line contains the string **A**
+    - Second line contains the string **B**.
 
 ### Output
 
-For each test case, Print **"Yes"** (without quotes) if it possible to choose such strings **s1 & s2**. Print **"No"** (without quotes) otherwise.
+For each test case, Print **"Yes"** (without quotes) if it possible to choose such strings **s1 &amp; s2**. Print **"No"** (without quotes) otherwise.
 
 ### Constraints
 
@@ -125,6 +125,6 @@ Yes
 </pre>
 ### Explanation
 
-- **Test 1:** One possible way of choosing **s1 & s2** is **s1 = "ab"**, **s2 = "a"** such that **s1 + s2** i.e **"aba"** is a palindrome.
-- **Test 2:** There is no possible way to choose **s1 & s2** such that **s1 + s2** is a palindrome.
+- **Test 1:** One possible way of choosing **s1 &amp; s2** is **s1 = "ab"**, **s2 = "a"** such that **s1 + s2** i.e **"aba"** is a palindrome.
+- **Test 2:** There is no possible way to choose **s1 &amp; s2** such that **s1 + s2** is a palindrome.
 - **Test 3:** You can figure it out yourself.

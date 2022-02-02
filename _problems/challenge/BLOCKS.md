@@ -78,7 +78,7 @@ Input begins with an integer T (about 500), the number of test cases. Each test 
 
 ### Output:
 
-For each case, first ouput an integer P>=3, indicating the number of blocks you wish to use. Follow with P lines, each containing the dimensions of a block, with the height of the block listed first (the order of the other 2 dimensions does not matter). Output the blocks in order from the top of the tower to bottom of the tower.
+For each case, first ouput an integer P&gt;=3, indicating the number of blocks you wish to use. Follow with P lines, each containing the dimensions of a block, with the height of the block listed first (the order of the other 2 dimensions does not matter). Output the blocks in order from the top of the tower to bottom of the tower.
 
 ### Scoring
 

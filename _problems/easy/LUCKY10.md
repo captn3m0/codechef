@@ -75,7 +75,7 @@ The Little Elephant wants the resulting string to be as lucky as possible. The f
 
 **Notes**- **|A|** denotes the length of the string **A**.
 - **A**\[**i**\] denotes the **i**-th digit of the string **A**. Here we numerate the digits starting from **1**. So **1** ≤ **i** ≤ |**A**|.
-- The string **A** is called lexicographically greater than the string **B** if either there exists some index **i** such that **A\[i\] > B\[i\]** and for each **j < i** we have **A\[j\] = B\[j\]**, or **B** is a proper prefix of **A**, that is, |**A**| > |**B**| and first |**B**| digits of **A** coincide with the corresponding digits of **B**.
+- The string **A** is called lexicographically greater than the string **B** if either there exists some index **i** such that **A\[i\] &gt; B\[i\]** and for each **j &lt; i** we have **A\[j\] = B\[j\]**, or **B** is a proper prefix of **A**, that is, |**A**| &gt; |**B**| and first |**B**| digits of **A** coincide with the corresponding digits of **B**.
 
 ### Input
 

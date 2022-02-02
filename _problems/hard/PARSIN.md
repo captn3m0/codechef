@@ -35,10 +35,10 @@ For each test case, print the value of **f**(**M**, **N**, **X**). This value mu
 
 ### Constraints
 
-1 <= **T** <= 10
-1 <= **M** <= 30
-1 <= **N** <= 1000000000 (10^9)
-0 <= **X** <= 6.28 < 2\*PI
+1 &lt;= **T** &lt;= 10
+1 &lt;= **M** &lt;= 30
+1 &lt;= **N** &lt;= 1000000000 (10^9)
+0 &lt;= **X** &lt;= 6.28 &lt; 2\*PI
 
 ### Sample Input
 

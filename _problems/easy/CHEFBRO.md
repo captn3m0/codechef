@@ -38,9 +38,9 @@ Given the number and dimensions of boards, for each test case, output in a singl
 
 ### Constraints:
 
-1<=T<=10000
- 1<=C<=20
- 2<=ni,mi<=1000
+1&lt;=T&lt;=10000
+ 1&lt;=C&lt;=20
+ 2&lt;=ni,mi&lt;=1000
 
 ### Example:
 
@@ -54,4 +54,4 @@ Given the number and dimensions of boards, for each test case, output in a singl
 
  **Explanation:**
 
-The Chef can move the coin on the board from (1,1)->(2,2). This coin cannot be moved any further. And so, the Chef wins. Notice that if the Chef moves it to any other valid position, i.e. either to (1,2) or (2,1) he will lose!
+The Chef can move the coin on the board from (1,1)-&gt;(2,2). This coin cannot be moved any further. And so, the Chef wins. Notice that if the Chef moves it to any other valid position, i.e. either to (1,2) or (2,1) he will lose!

@@ -70,14 +70,14 @@ layout: problem
 ---
 All submissions for this problem are available.Consider a positive integer **N**. Denote its decimal digits by **X1**, **X2**,..., **XK**. **N** is called a **Cool Number** if you can select at most three (but at least one) of its digits such that the following number is divisible by **N**: (**X1** + **X2** + ... + **XK** – **S**)**S**where **S** is the sum of the selected digits.
 
-Let **LC(N)** be the largest Cool Number which is not greater than **N**, and **UC(N)** be the smallest Cool Number which is greater than **N**. So the following inequalities hold **LC(N)** ≤ **N** < **UC(N)**.
+Let **LC(N)** be the largest Cool Number which is not greater than **N**, and **UC(N)** be the smallest Cool Number which is greater than **N**. So the following inequalities hold **LC(N)** ≤ **N** &lt; **UC(N)**.
 
 Your task is to find for the given positive integer **N** the values of **LC(N)** and **UC(N)**. As you will see from the examples **LC(N)** and **UC(N)** exist for every positive integer **N**.
 
 Consider some examples.
 
 - **1458** is a Cool Number since ((**1** + **4** + **5** + **8**) – (**1** + **5**))**1** + **5** = **126** = **2985984** is divisible by **1458**. Note that here we select two digits: **1** and **5**.
-- All numbers of the form **10n** (**n** = 0, **1**, **2**, ...) are Cool. Indeed, if we select just one digit **1** (the first digit of **10n**) in the definition of Cool Number we obtain the number (**1** + 0 + ... + 0 – **1**)**1** = **01** = 0 and it is divisible by **10n** (recall that 0 is divisible by every positive integer). Now consider some positive integer **N** of **n** digits. Then, clearly, **10n-1** ≤ **N** < **10n** where both **10n-1** and **10n** are Cool Numbers. Hence **LC(N)** and **UC(N)** always exist and, moreover, **LC(N)** ≥ **10n-1** and **UC(N)** ≤ **10n**.
+- All numbers of the form **10n** (**n** = 0, **1**, **2**, ...) are Cool. Indeed, if we select just one digit **1** (the first digit of **10n**) in the definition of Cool Number we obtain the number (**1** + 0 + ... + 0 – **1**)**1** = **01** = 0 and it is divisible by **10n** (recall that 0 is divisible by every positive integer). Now consider some positive integer **N** of **n** digits. Then, clearly, **10n-1** ≤ **N** &lt; **10n** where both **10n-1** and **10n** are Cool Numbers. Hence **LC(N)** and **UC(N)** always exist and, moreover, **LC(N)** ≥ **10n-1** and **UC(N)** ≤ **10n**.
 
 ### Input
 

@@ -77,7 +77,7 @@ Masterchef Oogway wants to place exactly one dumpling on the rope such that both
 
 First line contains **T**, the number of test cases. Each of the next **T** lines contains five positive integers, **A B C D K**.
 
-1<=**T**<=1000 1<=**A**,**B**,**C**,**D**,**K**<=10^18
+1&lt;=**T**&lt;=1000 1&lt;=**A**,**B**,**C**,**D**,**K**&lt;=10^18
 
 ### Output
 

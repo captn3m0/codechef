@@ -11,12 +11,12 @@ layout: problem
 ---
 ###  All submissions for this problem are available. 
 
-Byteland is a country located in the Archipelago of Rectangular Islands. The archipelago consists of 1<=n<=1000 islands. A fact that each island has a rectangular shape is very nice for Bytelandian cartographers.
+Byteland is a country located in the Archipelago of Rectangular Islands. The archipelago consists of 1&lt;=n&lt;=1000 islands. A fact that each island has a rectangular shape is very nice for Bytelandian cartographers.
 
 Bytelandian islands are rather small and none are very fertile, so each of the rectangular pieces of cultivated land is under special control, simply speaking: ‘never enter there if you value your life’. Other areas are guaranteed to be freely accessible for all people.
 
-The communication between islands is possible by ferries. On each island there is 0<=b<=10 terminals, from where crossings to another terminals on other islands are possible.
-It is known that total number of crossing connections is 0<=m<=100000. Other infrastructure is practically unknown. Specifically the only possible
+The communication between islands is possible by ferries. On each island there is 0&lt;=b&lt;=10 terminals, from where crossings to another terminals on other islands are possible.
+It is known that total number of crossing connections is 0&lt;=m&lt;=100000. Other infrastructure is practically unknown. Specifically the only possible
 way of traveling through the island is to do it on foot.
 
 Well, now we are close to a task you are requested to solve. John – one of the Bytelandian citizens is working as a sales manager. He is often requested to travel from one place to another which he rather dislikes. What he'd rather do is spend his time relaxing on the beach. Please help him to find a way to spare his time.

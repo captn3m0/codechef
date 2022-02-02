@@ -100,11 +100,11 @@ For each test case, output a single line containing an integer corresponding to 
 
 ### Subtasks
 
-**Subtask #1 (40 points), Time limit : 4 secs**- **1** ≤ **N, Ai, K, L ≤** **15**
+**Subtask #1 (40 points), Time limit : 4 secs**- **1** ≤ **N, Ai, K, L ≤ 15**
 
- **Subtask #2 (40 points), Time limit : 4 secs**- **1** ≤ **N, Ai, K, L ≤** **25**
+ **Subtask #2 (40 points), Time limit : 4 secs**- **1** ≤ **N, Ai, K, L ≤ 25**
 
- **Subtask #3 (20 points), Time limit : 2 secs**- **1** ≤ **N, Ai, K, L ≤** **27**
+ **Subtask #3 (20 points), Time limit : 2 secs**- **1** ≤ **N, Ai, K, L ≤ 27**
 
 ### Example
 

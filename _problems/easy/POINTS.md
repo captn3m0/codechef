@@ -15,7 +15,7 @@ You are given a set of points in the 2D plane. You start at the point with the l
 
 ### Input
 
-You will be given an integer t(1<=t<=20) representing the number of test cases. A new line follows; after which the t test cases are given. Each test case starts with a blank line followed by an integer n(2<=n<=100000), which represents the number of points to follow. This is followed by a new line. Then follow the n points, each being a pair of integers separated by a single space; followed by a new line. The X and Y coordinates of each point will be between 0 and 10000 both inclusive.
+You will be given an integer t(1&lt;=t&lt;=20) representing the number of test cases. A new line follows; after which the t test cases are given. Each test case starts with a blank line followed by an integer n(2&lt;=n&lt;=100000), which represents the number of points to follow. This is followed by a new line. Then follow the n points, each being a pair of integers separated by a single space; followed by a new line. The X and Y coordinates of each point will be between 0 and 10000 both inclusive.
 
 ### Output
 

@@ -77,7 +77,7 @@ Denote **A ⊕ B** as the result of combining chunks **A** and **B**. The follow
 
 Note that the first two properties imply that when combining more than two chunks, the order in which they are combined does not matter.
 
-Let's consider an example (this example will coincide with the sample input below). There are **4** chunks of data, and **6** servers. Denote **Ci (0 ≤ i < 4)** as the original chunks of data, and **Sj (0 ≤ j < 6)** as the data stored on the servers. Chef combines chunks as follows:
+Let's consider an example (this example will coincide with the sample input below). There are **4** chunks of data, and **6** servers. Denote **Ci (0 ≤ i &lt; 4)** as the original chunks of data, and **Sj (0 ≤ j &lt; 6)** as the data stored on the servers. Chef combines chunks as follows:
 
 - **S0 = C2**
 - **S1 = C0 ⊕ C3**

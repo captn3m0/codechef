@@ -70,7 +70,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Russian](http://www.codechef.com/download/translated/LTIME08/russian/CHRL4.pdf) also.
 
-After visiting a childhood friend, Chef wants to get back to his home. Friend lives at the first street, and Chef himself lives at the **N**-th (and the last) street. Their city is a bit special: you can move from the **X**-th street to the **Y**-th street if and only if 1 <= **Y** - **X** <= **K**, where **K** is the integer value that is given to you. Chef wants to get to home in such a way that the product of all the visited streets' special numbers is minimal (including the first and the **N**-th street). Please, help him to find such a product.
+After visiting a childhood friend, Chef wants to get back to his home. Friend lives at the first street, and Chef himself lives at the **N**-th (and the last) street. Their city is a bit special: you can move from the **X**-th street to the **Y**-th street if and only if 1 &lt;= **Y** - **X** &lt;= **K**, where **K** is the integer value that is given to you. Chef wants to get to home in such a way that the product of all the visited streets' special numbers is minimal (including the first and the **N**-th street). Please, help him to find such a product.
 
 ### Input
 
@@ -98,6 +98,6 @@ Please output the value of the minimal possible product, modulo **1000000007**.
 </pre>
 ### Scoring
 
-Subtask 1 (30 points): **N** <= 80 
+Subtask 1 (30 points): **N** &lt;= 80 
 
 Subtask 2 (70 points): See the constraints.

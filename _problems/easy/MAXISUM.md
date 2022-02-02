@@ -83,9 +83,9 @@ Find out the maximum value of *interaction* of the arrays that you can get.
 
 - The first line of input contains a single integer **T** denoting number of test cases.
 - For each test case: 
-  - First line contains two space separated integers **N, K**.
-  - Second line contains **N** space separated integers denoting array **A**.
-  - Third line contains **N** space separated integers denoting array **B**.
+    - First line contains two space separated integers **N, K**.
+    - Second line contains **N** space separated integers denoting array **A**.
+    - Third line contains **N** space separated integers denoting array **B**.
 
 ### Output
 

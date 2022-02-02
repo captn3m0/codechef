@@ -85,6 +85,7 @@ A single integer, the size of the largest collection of dragons that can be safe
 **Test data**
  In all cases, 1 ≤ N ≤ 106. In 30% of the inputs, 1 ≤ N ≤ 5000. The blood types of the dragons lie in the range 1 to 107
 
+
 Example
 
 <pre> 

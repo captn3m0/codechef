@@ -102,8 +102,8 @@ For each query of type **Qb** or **Qr**, print the required answer.
 
 **Constraints**
 
-**1. 1<=Q<=105** 
-**1. 1<=x,y<=109** 
+**1. 1&lt;=Q&lt;=105** 
+**1. 1&lt;=x,y&lt;=109** 
 
 
 **Sample Input**
@@ -126,12 +126,12 @@ Qr 4 5
 
 **Explanation**
 
-With the initial configuration of the tree, Path from node 4 to node 5 is 4->2->5 and color of nodes on the path is B->R->B.
+With the initial configuration of the tree, Path from node 4 to node 5 is 4-&gt;2-&gt;5 and color of nodes on the path is B-&gt;R-&gt;B.
 
 - Number of black nodes are 2.
 - Number of red nodes are 1.
 
-After Query Qi, New configuration of the path from node 4 to node 5 is R->B->R.
+After Query Qi, New configuration of the path from node 4 to node 5 is R-&gt;B-&gt;R.
 
 - Number of black nodes are 1.
 - Number of red nodes are 2.
@@ -140,6 +140,6 @@ After Query Qi, New configuration of the path from node 4 to node 5 is R->B->R.
 
 **Scoring**
 
-- Subtask #1: **1<=Q<=100 1<=x,y<=1000** **: 27 pts**
-- Subtask #2: **1<=Q<=103 1<=x,y<=105 : **25 pts****
-- Subtask #3: **1<=Q<=105 1<=x,y<=109 : **48 pts****
+- Subtask #1: **1&lt;=Q&lt;=100 1&lt;=x,y&lt;=1000** **: 27 pts**
+- Subtask #2: **1&lt;=Q&lt;=103 1&lt;=x,y&lt;=105 : **25 pts****
+- Subtask #3: **1&lt;=Q&lt;=105 1&lt;=x,y&lt;=109 : **48 pts****

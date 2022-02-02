@@ -23,7 +23,7 @@ Each person should be a part of at most one pair and most importantly, to make f
 
 ### Input
 
-First line contains an integer T ( number of test cases, around 1000 ). Each of the next T lines contains an integer N ( 2 <= N <= 10000 )
+First line contains an integer T ( number of test cases, around 1000 ). Each of the next T lines contains an integer N ( 2 &lt;= N &lt;= 10000 )
 
 ### Output
 

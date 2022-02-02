@@ -104,7 +104,7 @@ The next line contains an integer **Q**, denoting the number of phases of the bi
 
 The first line of a phase desription contains two integers **V** and **M**, denoting the vertex for caculating the sum of the minimal distances for all reachable vertices and the number of arcs to change.
 
-The next **M** lines of a phase desription contains two integers **A** and **B** each, denoting the next arc **A -> B** to change(it means, that if there's no **A -> B** arc in **G** by that moment, then you should add it; if there's **A -> B** arc in **G**, then you should delete it).
+The next **M** lines of a phase desription contains two integers **A** and **B** each, denoting the next arc **A -&gt; B** to change(it means, that if there's no **A -&gt; B** arc in **G** by that moment, then you should add it; if there's **A -&gt; B** arc in **G**, then you should delete it).
 
 **IMPORTANT:** you should not roll back all the edges after each of the phases. It's ok for the graph to be changed during the big project.
 

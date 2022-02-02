@@ -63,11 +63,11 @@ build 2
 </pre>
 ### Constraints
 
-- 1 <= N <= 30
-- 1 <= C <= 30
-- 1 <= D <= 30
-- -1000 <= Si <= 1000
-- 1 <= ui <= N
-- 1 <= vi <= N
+- 1 &lt;= N &lt;= 30
+- 1 &lt;= C &lt;= 30
+- 1 &lt;= D &lt;= 30
+- -1000 &lt;= Si &lt;= 1000
+- 1 &lt;= ui &lt;= N
+- 1 &lt;= vi &lt;= N
 - ui != vi
 - There is exactly one path between every pair of cities

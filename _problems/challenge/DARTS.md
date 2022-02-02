@@ -93,7 +93,7 @@ Firstly you can throw darts for practice. This phase is to detect how the curren
 15. **A B**
  A,B can be double numbers this is your target position
 
-after each throw  **you will get the answer in one line**  with format:/>
+after each throw  **you will get the answer in one line**  with format:
 
 17. **C D M S**
 (C,D) is the real position where your darts flew. M is an integer between 1 and 3 representing the dart multiplier (1- simple, 2- double, 3- triple) and S is another integer number representing dart score (without a multiplier).

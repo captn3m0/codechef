@@ -87,7 +87,7 @@ For each test case, print the maximum length of a segment which can be one of si
 4 ≤ **N** ≤ 1000
 1 ≤ **Xi**, **Yi** ≤ 5000
 The sum of **N** in one test file does not exceed 5000.
-No three points (**Xi**, **Yi**), (**Xj**, **Yj**), (**Xk**, **Yk**) lie in the same line (1 ≤ **i** < **j** < **k** ≤ **N**)
+No three points (**Xi**, **Yi**), (**Xj**, **Yj**), (**Xk**, **Yk**) lie in the same line (1 ≤ **i** &lt; **j** &lt; **k** ≤ **N**)
 
 ### Sample Input
 

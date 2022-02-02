@@ -76,7 +76,7 @@ Given an array **A1,A2...AN**, you have to print the size of the largest contigu
 [LCM](http://en.wikipedia.org/wiki/Least_common_multiple) of all integers in that subarray is equal to the product of all integers in that subarray.
 
 Formally,
- For a subarray **Ai,Ai+1...Aj** where **1 ≤ i < j ≤ N** to be valid: **LCM(Ai,Ai+1...Aj)** should be equal to **Ai\*Ai+1\*...\*Aj**. You have to print the size of the largest valid subarray./>/>
+ For a subarray **Ai,Ai+1...Aj** where **1 ≤ i &lt; j ≤ N** to be valid: **LCM(Ai,Ai+1...Aj)** should be equal to **Ai\*Ai+1\*...\*Aj**. You have to print the size of the largest valid subarray.
 
 If no subarray satisfies output **-1**.
 
@@ -119,8 +119,7 @@ For each testcase, print the required answer in one line.
 **Example case 2.**The subarrays A2 to A3 and A3 to A4 are the maximum size possible.
 
 **Example case 3.**No subarray will satisfy.
-/>/>/>
 
 **Warning: Use fast input/output. Large input files. Solutions may not pass in slower languages.
 
-Update: Time limit for python=10s/>**
+Update: Time limit for python=10s**

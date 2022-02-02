@@ -79,7 +79,7 @@ There are **N** chefs, numbered from **1** to **N**. Each chef has submitted a r
 
 - **P** is symmetric.
 - **Pi, j** is either equal to zero, or to **Mi, j**, where **Mi, j** is the rating given by ith chef to the jth chef.
-- There exists **S** > 0, such that each entry in **P + P2 + ... + PS** is positive.
+- There exists **S** &gt; 0, such that each entry in **P + P2 + ... + PS** is positive.
 - To make things more friendly between the admin panel of Chefs, the sum of values in **P** is minimum possible.
 
 Help the Codechef panel in selecting such a matrix **P** from **M**. Please find the minimum possible sum of entries in the matrix **P** such that **P** will still satisfy the constraints.

@@ -65,4 +65,4 @@ There are 6 sequences of 3 consecutive numbers in (2 5 9 0 9 9 4 1). Formally:
 - (9 4 1), sum = 14, which is divisible by 2
 
 
-Another possible answer is (4 5 9 0 1 9 2 9)./>
+Another possible answer is (4 5 9 0 1 9 2 9).

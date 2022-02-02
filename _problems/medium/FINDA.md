@@ -82,7 +82,7 @@ Determine if it's possible to express **B** as **A · AT**, where **A** is a mat
 
 The *transpose* of a matrix is created by flipping that matrix around its main diagonal — formally, the element at row **i** and column **j** of matrix **AT** is the same as the element at row **j** and column **i** of matrix **A**, for each valid **i**, **j**. For more details, see [Wikipedia](https://en.wikipedia.org/wiki/Transpose).
 
-For two matrices **C** and **D** with size **N × N**, we will say that **C** is lexicographically smaller than **D** if the sequence **c** = **C1,1, C1,2, ..., C1,N, C2,1, C2,2, ..., C2,N, ..., CN,1, ..., CN,N** is lexicographically smaller than **d** = **D1,1, D1,2, ..., D1,N, D2,1, D2,2, ..., D2,N, ..., DN,1, ..., DN,N**. That is, there must be a valid index **i** such that **ci** and **di** differ, and the smallest such index must satisfy **ci** < **di**.
+For two matrices **C** and **D** with size **N × N**, we will say that **C** is lexicographically smaller than **D** if the sequence **c** = **C1,1, C1,2, ..., C1,N, C2,1, C2,2, ..., C2,N, ..., CN,1, ..., CN,N** is lexicographically smaller than **d** = **D1,1, D1,2, ..., D1,N, D2,1, D2,2, ..., D2,N, ..., DN,1, ..., DN,N**. That is, there must be a valid index **i** such that **ci** and **di** differ, and the smallest such index must satisfy **ci** &lt; **di**.
 
 ### Input
 

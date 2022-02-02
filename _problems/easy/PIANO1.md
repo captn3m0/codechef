@@ -88,7 +88,7 @@ Each time Chef takes some type of a scale and plays using some number of octaves
 
 Now, you can start playing from any of the **12\*N** keys. In one play, you can repeat the pattern as many times as you want, but you cannot go outside the keyboard.
 
-Repeating pattern means that if, for example, you have pattern *STTST*, you can play *STTST* as well as *STTSTSTTST*, as well as *STTSTSTTSTSTTST*, as well as any number of repeating. For this pattern, if you choose to repeat it once, if you start at some key **x**, you'll press keys: **x (letter 'S')-> x + 1 (letter 'T')-> x + 3 (letter 'T')-> x + 5 (letter 'S') -> x + 6 (letter 'T')-> x + 8**. Also **1 ≤ x, x + 8 ≤ 12\*N** so as to avoid going off the keyboard.
+Repeating pattern means that if, for example, you have pattern *STTST*, you can play *STTST* as well as *STTSTSTTST*, as well as *STTSTSTTSTSTTST*, as well as any number of repeating. For this pattern, if you choose to repeat it once, if you start at some key **x**, you'll press keys: **x (letter 'S')-&gt; x + 1 (letter 'T')-&gt; x + 3 (letter 'T')-&gt; x + 5 (letter 'S') -&gt; x + 6 (letter 'T')-&gt; x + 8**. Also **1 ≤ x, x + 8 ≤ 12\*N** so as to avoid going off the keyboard.
 
 You are asked to calculate number of different plays that can be performed. Two plays differ if and only if they start at different keys or patterns are repeated different number of times.
 
@@ -110,7 +110,7 @@ For each test case output a single number in a line corresponding to number of d
 
 ### Subtasks
 
-Subtask 1: **T < 10 4, N = 1**
+Subtask 1: **T &lt; 10 4, N = 1**
 
 Subtask 2: No additional constraints.
 

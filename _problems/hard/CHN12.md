@@ -42,7 +42,7 @@ while T is not empty:
 </pre>
 Please check the example problem statement to understand how this process works. Note that Praveen cannot actually remove the nodes from the tree. He just simulates the procedure in his head's supercomputer.
 
-After Arjun comes back with the ladder, Praveen decides to ask him **Q** queries about the tree. Each query will contain two nodes **u, v**. Let the path in the tree from node **u** to **v**, be **u, u1, u2, .., ur, v**. Consider the array **S\[u\], S\[u1\],..,S\[ur\], S\[v\]**. For each query, Arjun has to find the number of inversion pairs in this array. **i** and **j** form an inversion pair, if **i > j** and **S\[i\] < S\[j\]**. All these hours sitting atop the tree have made Praveen light in the head, and he refuses to come down until Arjun answers all his queries. 
+After Arjun comes back with the ladder, Praveen decides to ask him **Q** queries about the tree. Each query will contain two nodes **u, v**. Let the path in the tree from node **u** to **v**, be **u, u1, u2, .., ur, v**. Consider the array **S\[u\], S\[u1\],..,S\[ur\], S\[v\]**. For each query, Arjun has to find the number of inversion pairs in this array. **i** and **j** form an inversion pair, if **i &gt; j** and **S\[i\] &lt; S\[j\]**. All these hours sitting atop the tree have made Praveen light in the head, and he refuses to come down until Arjun answers all his queries. 
 Unfortunately, Arjun does not have a supercomputer in his head like Praveen does and he has also left his laptop at home. So please help Arjun answer these queries and get Praveen down.
 
 ### Input

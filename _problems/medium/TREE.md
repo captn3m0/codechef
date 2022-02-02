@@ -72,13 +72,13 @@ layout: problem
 All submissions for this problem are available.Let's define a good tree:
 
 1. It is a tree with **k \* n** nodes labeled from 0 to **k \* n - 1**
-2. Node **i** and node **j** are not adjacent, for all **0 <= i, j < k \* n** such that **i div k = j div k** (here **div** means integer division. E.g. 7 **div** 2 = 3)
+2. Node **i** and node **j** are not adjacent, for all **0 &lt;= i, j &lt; k \* n** such that **i div k = j div k** (here **div** means integer division. E.g. 7 **div** 2 = 3)
 
 Given **n** and **k**, how many different good trees are there?
 
 ### Input
 
-Two integers **n(1 <= n <= 10^5), k(1<= k <=3)**
+Two integers **n(1 &lt;= n &lt;= 10^5), k(1&lt;= k &lt;=3)**
 
 ### Output
 

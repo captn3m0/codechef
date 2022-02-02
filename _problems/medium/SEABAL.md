@@ -82,7 +82,7 @@ The first line contains numbers **n** and **m** — the number of the boxes and 
 
 The following **m** lines contain **m** pairs of numbers **(l\[1\], r\[1\]), (l\[2\], r\[2\]), ..., (l\[m\], r\[m\])**.
 
-The next line contains number **k** — the number of times, when Sereja had his balloon bursted. The next **k** line contains integers **x\[1\], x\[2\], ..., x\[k\]**. Index of the box, in what Sereja bursted a balloon at the step number **i (1 ≤ i ≤ k)**, is denoted as **y\[i\]**., which can be found as: **y\[i\] = x\[i\] + ans\[i - 1\]**, wherein **ans\[0\] = 0**, аnd **ans\[i\] (i>0)** — is the answer on the problem after ith bursting of the balloons.
+The next line contains number **k** — the number of times, when Sereja had his balloon bursted. The next **k** line contains integers **x\[1\], x\[2\], ..., x\[k\]**. Index of the box, in what Sereja bursted a balloon at the step number **i (1 ≤ i ≤ k)**, is denoted as **y\[i\]**., which can be found as: **y\[i\] = x\[i\] + ans\[i - 1\]**, wherein **ans\[0\] = 0**, аnd **ans\[i\] (i&gt;0)** — is the answer on the problem after ith bursting of the balloons.
 
 ### Output
 
@@ -118,4 +118,4 @@ For each test case, print **k** lines — the answers after every steps.
 </pre>
 **Update:**
 
-You may assume that, y\[i\] <= n and k <= 100000
+You may assume that, y\[i\] &lt;= n and k &lt;= 100000

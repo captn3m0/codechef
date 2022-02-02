@@ -95,7 +95,7 @@ Output **T** lines. Every line should contain one integer - the minimal number o
 
 **Subtask #1**\[26 points\]: **N = 1**
 **Subtask #2**\[29 points\]: **N = 2**
-**Subtask #3**\[45 points\]: **N > 2**
+**Subtask #3**\[45 points\]: **N &gt; 2**
 
 <pre><h3>Example</h3>
 <b>Input:</b>

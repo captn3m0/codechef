@@ -75,7 +75,7 @@ Little Petya likes integer numbers a lot. Recently he has received a sequence of
 
 - At least one number **Bi** differs from 0.
 - For every **j** from 0 to **N**-1 the following holds: 
-   **A0\* Bj** + **A1\* B(j + 1) mod N** + ... + **AN-1\* B(j + N - 1) mod N** = 0.
+     **A0\* Bj** + **A1\* B(j + 1) mod N** + ... + **AN-1\* B(j + N - 1) mod N** = 0.
 
 
 

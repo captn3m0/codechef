@@ -27,9 +27,9 @@ For each test case, print the number of words with length between **L** and **R*
 
 ### Constraints
 
-**1 <= T <= 5 
-1 <= L <= R <= 1010
-R - L <= 50000**
+**1 &lt;= T &lt;= 5 
+1 &lt;= L &lt;= R &lt;= 1010
+R - L &lt;= 50000**
 
 ### Sample input
 

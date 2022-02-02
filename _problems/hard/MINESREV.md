@@ -25,8 +25,8 @@ Output a single line containing the minumum number of clicks necessary to close 
 
 ### Constraints
 
-- 1 <= T <= 50
-- 1 <= R,C <= 50
+- 1 &lt;= T &lt;= 50
+- 1 &lt;= R,C &lt;= 50
 
 ### Example
 

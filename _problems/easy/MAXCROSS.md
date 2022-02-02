@@ -16,9 +16,9 @@ On the matrix A sized n n, some cells were marked by crosses (X). For each cell 
 Clarification:
  Continuous crosses going across cell (i,j) in horizontal direction = x1 + x2 - 1
  where x1 = highest possible x such that
- j + x - 1<= n and A(i, j ... j + x - 1) are all 'X'
+ j + x - 1&lt;= n and A(i, j ... j + x - 1) are all 'X'
  and x2 = highest possible x such that
- j - x + 1 > 0 and A(i, j - x + 1...j) are all 'X'
+ j - x + 1 &gt; 0 and A(i, j - x + 1...j) are all 'X'
  
  Similarily we can extend the definition for vertical and diagonal directions.
 
@@ -48,4 +48,4 @@ Output n lines, each contains n integers, the j-th integer of the i-th line show
 </pre>
 ### Limitations
 
-0<n 1 000
+0&lt;n 1 000

@@ -106,7 +106,7 @@ Please note that we follow **1-based indexing** in the entire problem.
 
 Similarly, judge's move can also be one of the above kinds. Other than the above moves, judge will have one more move, called **FREEZE** move. During this move, the judge will be freezed and won't take its' turn of extending or creating snake. This move will be represented by **FREEZE turns**, where **turns** denotes the number of turns for which judge will be freezed.
 
-Note that if in its' turn, judge made **FREEZE turns** move, then in its' next move, it will have to make **FREEZE turns-1** move if **turns > 1**.
+Note that if in its' turn, judge made **FREEZE turns** move, then in its' next move, it will have to make **FREEZE turns-1** move if **turns &gt; 1**.
 Please see the second example for better understanding.
 
 ### Constraints
@@ -190,7 +190,7 @@ The judge will choose its' move according to following strategy:
 
 The judge maintains the head and the tail of the snake.
 
-- If its last move was **FREEZE turns** move such that **turns > 1**, then the current move will be **FREEZE turns'** where **turns' = turns - 1**.
+- If its last move was **FREEZE turns** move such that **turns &gt; 1**, then the current move will be **FREEZE turns'** where **turns' = turns - 1**.
 - Otherwise, with the probability of 1/500, the judge will make a freezing move, the number of turns of freezing move will be a random number between **1** and **50**.
 - If it is the beginning of the game, judge will start a new snake.
 - If the judge is unable to extend its' current snake, it will create a new snake by choosing one of the empty cells of the grid randomly as the head/tail of the new snake.

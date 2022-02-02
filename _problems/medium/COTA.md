@@ -116,7 +116,7 @@ There will always be a valid answer.
 - **2\*N-1** ≤ **M** ≤ **2\*N(2\*N-1)/2**
 - 0 ≤ **u, v** ≤ **2\*N-1** and **u** ≠ **v**
 - **1** ≤ **Pu,v** ≤ **106**
-- For each player **u** and **v (u≠v)** , there is a sequence **x0, x1, ... xk**, where **x0 = u** and **xk = v** and player **xi** and **xi+1** (**0≤i<k**) are friends of each other.
+- For each player **u** and **v (u≠v)** , there is a sequence **x0, x1, ... xk**, where **x0 = u** and **xk = v** and player **xi** and **xi+1** (**0≤i&lt;k**) are friends of each other.
 
 ### Example
 

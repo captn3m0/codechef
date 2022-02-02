@@ -80,8 +80,8 @@ As the country is located in mountains, cities may be at different heights. The 
 Kirito is going to travel around Memeland. Kirito is an unusual man, thus he wants to travel only interesting routes. He calls a sequence of cities **i1, i2, ..., iK** an *interesting route* if:
 
 - no two cities in the sequence are the same: i.e. **ij** ≠ **ij'** for any two **j** ≠ **j'**.
-- cities **ij** and **ij+1** are connected by a road for each **1** ≤ **j** < **K**.
-- the number of indices **j** with **1** < **j** < **K** with **aij-1** < **aij** > **aij+1** is at least **L** and at most **R** for some given **L** and **R**.
+- cities **ij** and **ij+1** are connected by a road for each **1** ≤ **j** &lt; **K**.
+- the number of indices **j** with **1** &lt; **j** &lt; **K** with **aij-1** &lt; **aij** &gt; **aij+1** is at least **L** and at most **R** for some given **L** and **R**.
 
 Help Kirito count the number of interesting routes in Memeland.
 

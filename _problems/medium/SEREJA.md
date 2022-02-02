@@ -70,7 +70,7 @@ layout: problem
 ---
 All submissions for this problem are available.Sereja is a little student from the University of Kyiv. He studies computer science. He is rather experienced programmer and he knows a lot of advanced algorithms. The only thing he likes more than advanced algorithms is [segment tree data structure](http://en.wikipedia.org/wiki/Segment_tree).
 
-Every evening he goes to the loveliest place in Kyiv - The Chef's cafe. Chef is also interested in computer science, so they often discuss different problems. Last evening Sereja told Chef following problem: given an array **A1**, **A2**, ..., **AN** of **N** integers. The task is to find the product of ranges of the segments **\[i, j\]** over 1 ≤ **i** < **j** ≤ **N**, where the range of the segment **\[i, j\]** means max(**Ai**, **Ai+1**, ..., **Aj**) - min(**Ai**, **Ai+1**, ..., **Aj**).
+Every evening he goes to the loveliest place in Kyiv - The Chef's cafe. Chef is also interested in computer science, so they often discuss different problems. Last evening Sereja told Chef following problem: given an array **A1**, **A2**, ..., **AN** of **N** integers. The task is to find the product of ranges of the segments **\[i, j\]** over 1 ≤ **i** &lt; **j** ≤ **N**, where the range of the segment **\[i, j\]** means max(**Ai**, **Ai+1**, ..., **Aj**) - min(**Ai**, **Ai+1**, ..., **Aj**).
 
 Both Sereja and Chef couldn't find any efficient algorithm for this problem with segment tree. They gave up thinking of it, and Chef said we may calculate this value only for a **random array**, that means **all elements of the array are generated uniformly and independently at random**. Sereja were surprised to hear that, and he wanted to know about details. However Chef is very busy at the moment, so he asked you to solve this problem for a random array.
 
@@ -85,7 +85,7 @@ Output a single line containing the required product modulo 1000000007 (109+7), 
 ### Constraints
 
 2 ≤ **N** ≤ 100000 (105)
-0 ≤ **Ai** < 1000000007 (109+7)
+0 ≤ **Ai** &lt; 1000000007 (109+7)
 All test cases, except Example, are created by the method described in Test Case Generation.
 
 ### Example

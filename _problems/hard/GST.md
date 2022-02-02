@@ -31,13 +31,13 @@ Your task is to determine if a given function is a GST of a given graph.
 
 The first line contains a single integer T (about 20) indicating the number of test cases to follow.
 
-Each test case begins with two integers N and M where N is the number of nodes and M is the number of edges. The following M lines describe the edges, one per line. Each line contains three values u, v, f where 1 <= u, v <= n are the endpoints of the edge and f is a rational number between 0 and 1 (inclusive). This rational number is the value of the edge in the proposed GST.
+Each test case begins with two integers N and M where N is the number of nodes and M is the number of edges. The following M lines describe the edges, one per line. Each line contains three values u, v, f where 1 &lt;= u, v &lt;= n are the endpoints of the edge and f is a rational number between 0 and 1 (inclusive). This rational number is the value of the edge in the proposed GST.
 
 The rational numbers are always presented as n/d (even if d=1) where both n and d are non-negative and have no common factors.
 
 The input graphs have no parallel edges or loops and are, of course, undirected. Consecutive cases will be separated by a blank line (including a blank line preceding the first case).
 
-Bounds: 1 <= N <= 50, 1 <= M <= 100, and no denominator of any fraction in the input exceeds 30.
+Bounds: 1 &lt;= N &lt;= 50, 1 &lt;= M &lt;= 100, and no denominator of any fraction in the input exceeds 30.
 
 ### Output:
 

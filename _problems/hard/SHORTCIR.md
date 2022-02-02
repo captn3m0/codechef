@@ -19,8 +19,8 @@ The first line of input file contains number t - the amount of test cases. Then 
 
 ### Constraints
 
-1 <= t <= 50
- 0 < p < 1 
+1 &lt;= t &lt;= 50
+ 0 &lt; p &lt; 1 
  The length of the expression won't exceed 30000 characters.
  There will be no more than 1000 variable in the expression.
  The length of the variable names won't exceed 5 characters.

@@ -88,7 +88,7 @@ Assume that both players play intelligently, if they can force win they will.
 **Output :** 
  Print "EVEN", "ODD" or "DON'T PLAY" accordingly.
 
-**Constraints :**  t <= 1000, k <=100, ni <= 45. Numbers in pile will be non-negative and less than 2^31.
+**Constraints :**  t &lt;= 1000, k &lt;=100, ni &lt;= 45. Numbers in pile will be non-negative and less than 2^31.
 
 **Sample Input :**
 

@@ -82,10 +82,10 @@ First line in the input contains **T**, number of test cases.
 First line of each test case contains **N**, number of restaurants.
 Each of the next **N** lines contain two integers **X** and **Y** separated by a space.
 
-**T** <= 100 
- **N**  <= 10^3 
--10^8 <= **X** <=10^8 
--10^8 <= **Y** <=10^8
+**T** &lt;= 100 
+ **N**  &lt;= 10^3 
+-10^8 &lt;= **X** &lt;=10^8 
+-10^8 &lt;= **Y** &lt;=10^8
 
 ### Output
 

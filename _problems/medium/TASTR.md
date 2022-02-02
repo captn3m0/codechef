@@ -80,7 +80,7 @@ For example, let **A = aacd** and **B = cdaa**. We can see that:
  **S = {a, aa, aac, aacd, ac, acd, c, cd, d}**,
  **T = {c, cd, cda, cdaa, d, da, daa, a, aa}**,
  **P = {aac, aacd, ac, acd, cda, cdaa, da, daa}**.
- Size of **P** is **8** and we can say the level of difference between **A** and **B** is **8**. />/>/>/>
+ Size of **P** is **8** and we can say the level of difference between **A** and **B** is **8**.
 
 Your task is to find this indicator.
 

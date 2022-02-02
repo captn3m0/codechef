@@ -77,8 +77,8 @@ Now Tomya defines the ***x**-pseudo Ciel numbers* as follows for non-negative in
 
 - A positive integer **k** is a 0-pseudo Ciel numbers if and only if **k** is a Ciel number.
 - For **x** ≥ 1, a positive integer **k** is a **x**-pseudo Ciel numbers if and only if
-  **k** is not a **y**-pseudo Ciel number for all 0 ≤ **y** < **x**
-  and, there exists a (**x**-1)-pseudo Ciel number **s** such that **s** have the same number of digits as **k**and exactly one digit differ from **k** in their decimal notations.
+    **k** is not a **y**-pseudo Ciel number for all 0 ≤ **y** &lt; **x**
+    and, there exists a (**x**-1)-pseudo Ciel number **s** such that **s** have the same number of digits as **k**and exactly one digit differ from **k** in their decimal notations.
 
 For example,
 583, 58588, 355388, and 5358388 are 0-pseudo Ciel numbers, and
@@ -100,7 +100,7 @@ For each test case, print the largest **x**-pseudo Ciel number less than or equa
 
 1 ≤ **T** ≤ 10000 (104)
 0 ≤ **x** ≤ 1000000000 (109)
-1 ≤ **N** < 10100000
+1 ≤ **N** &lt; 10100000
 The sum of the length of **N** in one judge input file does not exceed 1000000 (106).
 
 ### Sample Input

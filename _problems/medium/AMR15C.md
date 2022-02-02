@@ -74,9 +74,9 @@ layout: problem
 ---
 All submissions for this problem are available.The **Kalakeyas** were a powerful, ferocious and cruel clan of Danavas. They were known to be really strong and they did not have any war strategy. They would just attack the enemy randomly and overpower them with sheer number of soldiers. However, we all know that Baahubali and Bhallaladeva defeated the Kalakeyas by following the **Thrishul** strategy, and successfully defended their kingdom Maahishmati. We also know that Baahubali was very smart, and the truth is that he predicted how the Kalakeyas would attack and devised a counter strategy for the same, the night before the war. This is what he found:
 
-The Kalakeyas had **N** forts, numbered **1** to **N** and Baahubali had **N** soldiers, numbered **1** to **N**. Baahubali discovered that he can permute his soldiers in any way to get a permutation of **1** to **N** => **P1, P2, ..., PN**. He would then send his soldiers to attack the forts in the following way: soldier **P1** attacks **fort 1**, soldier **P2** attacks **fort 2**, ..., soldier **PN** attacks **fort N**. It is easy to note that each soldier attacks exactly one fort and no two soldiers attack the same fort. Baahubali also got to know about a secret key of the Kalakeyas, which is an integer **K**. A soldier **X** can destroy a fort **Y**, iff **abs(X - Y) >= K**. For more details on the **abs()** function, check [here](https://en.wikipedia.org/wiki/Absolute_value).
+The Kalakeyas had **N** forts, numbered **1** to **N** and Baahubali had **N** soldiers, numbered **1** to **N**. Baahubali discovered that he can permute his soldiers in any way to get a permutation of **1** to **N** =&gt; **P1, P2, ..., PN**. He would then send his soldiers to attack the forts in the following way: soldier **P1** attacks **fort 1**, soldier **P2** attacks **fort 2**, ..., soldier **PN** attacks **fort N**. It is easy to note that each soldier attacks exactly one fort and no two soldiers attack the same fort. Baahubali also got to know about a secret key of the Kalakeyas, which is an integer **K**. A soldier **X** can destroy a fort **Y**, iff **abs(X - Y) &gt;= K**. For more details on the **abs()** function, check [here](https://en.wikipedia.org/wiki/Absolute_value).
 
-Your task is to determine whether Baahubali's soldiers can be permuted in some way, such that all forts can be destroyed. In other words, for a permutation **P1, P2, ..., PN**, Baahubali's soldiers can destroy all the forts iff **abs(Pi - i) >= K,** for all **1 <= i <= N**. If this is possible, you are also required to output the **lexicographically** smallest such permutation. If it is not possible, output **-1**.
+Your task is to determine whether Baahubali's soldiers can be permuted in some way, such that all forts can be destroyed. In other words, for a permutation **P1, P2, ..., PN**, Baahubali's soldiers can destroy all the forts iff **abs(Pi - i) &gt;= K,** for all **1 &lt;= i &lt;= N**. If this is possible, you are also required to output the **lexicographically** smallest such permutation. If it is not possible, output **-1**.
 
 **Note**: A permutation **A1, A2, ..., AN** is said to be lexicographically smaller than a permutation **B1, B2, ..., BN**, if and only if at the first **i** where **Ai** and **Bi** differ, **Ai** comes before **Bi**. You can refer [here](https://en.wikipedia.org/wiki/Lexicographical_order) for a more detailed definition of lexicographic ordering.
 
@@ -110,7 +110,7 @@ For each test case, output a single line containing **N** space separated intege
 </pre>
 ### Explanation
 
-**For the first test case**, **N = 2** and **K = 2**. It is impossible to permute **\[1, 2\]** in any way such that **abs(P\[1\]-1) >= 2** and **abs(P\[2\]-2) >= 2**. Hence, output is **-1**.
+**For the first test case**, **N = 2** and **K = 2**. It is impossible to permute **\[1, 2\]** in any way such that **abs(P\[1\]-1) &gt;= 2** and **abs(P\[2\]-2) &gt;= 2**. Hence, output is **-1**.
 
 **For the second test case**, **N = 3** and **K = 0**. We can just set **P\[i\] = i**, and hence the answer is **1 2 3**
 

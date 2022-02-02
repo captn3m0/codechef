@@ -15,7 +15,7 @@ You are given a cyclic array A having N numbers. In an XOR round, each element o
 
 ### Input
 
-The first line contains the number of test cases T (T <= 50). There follow 2T lines, 2 per test case. The first line contains two space seperated integers N (3 <= N <= 500) and K (1 <= K <= 1000000000). The next line contains N space seperated integers Ai (0 <= Ai <= 1000000000), which are the initial values of the elements in array A.
+The first line contains the number of test cases T (T &lt;= 50). There follow 2T lines, 2 per test case. The first line contains two space seperated integers N (3 &lt;= N &lt;= 500) and K (1 &lt;= K &lt;= 1000000000). The next line contains N space seperated integers Ai (0 &lt;= Ai &lt;= 1000000000), which are the initial values of the elements in array A.
 
 ### Output
 

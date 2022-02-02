@@ -105,7 +105,7 @@ For each third type query output one integer per line - answer for this query.
 
 ###  Subtasks 
 
-**Subtask #1**\[25 points\]: **M** < **1000**
+**Subtask #1**\[25 points\]: **M** &lt; **1000**
 **Subtask #2**\[75 points\]: no additional conditions
 
 ### Example

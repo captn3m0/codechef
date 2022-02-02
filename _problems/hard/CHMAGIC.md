@@ -72,7 +72,7 @@ All submissions for this problem are available. Chef is the cleverest man in the
 
  Now Chef want to test his magical abilities. He knows how to solve this task, but who will check it? That is where you come in.
 
- The problem is as follows: there is an array of **N** numbers. Let **A** be the given array. Then **Bi** = **F(Ai)** for all **i** **(1 <= i <= N)**. This is followed by **M** queries of the form **(l, r)**. For each such query you need to find the sum of the elements of the array **B** that are in the interval **(l, r)** modulo 1000000007.
+ The problem is as follows: there is an array of **N** numbers. Let **A** be the given array. Then **Bi** = **F(Ai)** for all **i** **(1 &lt;= i &lt;= N)**. This is followed by **M** queries of the form **(l, r)**. For each such query you need to find the sum of the elements of the array **B** that are in the interval **(l, r)** modulo 1000000007.
 
 ### Input
 

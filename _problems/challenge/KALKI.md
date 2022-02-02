@@ -111,7 +111,7 @@ For each test case output exactly **N-1** lines. Each line should consist of two
  
 ### Scoring and test data generation
 
-The score is **C**, where **C = max(Ci)** for **1 <= i <= N**. The sequence of positions for devtas is generated randomly and the positions are distributed uniformly.
+The score is **C**, where **C = max(Ci)** for **1 &lt;= i &lt;= N**. The sequence of positions for devtas is generated randomly and the positions are distributed uniformly.
 
 ### Example
 

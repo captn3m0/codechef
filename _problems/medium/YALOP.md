@@ -19,12 +19,12 @@ The first line of input is the number of test cases. Then each of the test cases
 
 ### Constraints
 
-1 <= t <= 50
-1 <= n, m <= 109
-min(n, m) < 40
-0 <= k <= min(m\*n, 10000)
-1 <= x <= n
-1 <= y <= m
+1 &lt;= t &lt;= 50
+1 &lt;= n, m &lt;= 109
+min(n, m) &lt; 40
+0 &lt;= k &lt;= min(m\*n, 10000)
+1 &lt;= x &lt;= n
+1 &lt;= y &lt;= m
 
 ### Output
 

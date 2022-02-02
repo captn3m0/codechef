@@ -73,7 +73,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in Russian [here](http://www.codechef.com/download/translated/LTIME05/russian/EXPGAME.pdf)
 
- Little Chef is trying to learn exponents. He is especially interested in a number raised to the power of itself. Head Chef being his mentor has decided to give him a two player game to play. The game is as follows: You are given n piles of stones. The piles have **a\_1, a\_2 .. a\_n** number of stones . Each player on his/her turn can remove **x** number of stones where **x** = **n^n** (for some natural number **n > 0**) from any one pile. The player who is unable to move loses. Head Chef is playing this game with the Little Chef and being senior he gives the first move to the Little Chef .
+ Little Chef is trying to learn exponents. He is especially interested in a number raised to the power of itself. Head Chef being his mentor has decided to give him a two player game to play. The game is as follows: You are given n piles of stones. The piles have **a\_1, a\_2 .. a\_n** number of stones . Each player on his/her turn can remove **x** number of stones where **x** = **n^n** (for some natural number **n &gt; 0**) from any one pile. The player who is unable to move loses. Head Chef is playing this game with the Little Chef and being senior he gives the first move to the Little Chef .
 
 ### Input
 

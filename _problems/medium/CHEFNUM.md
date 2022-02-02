@@ -94,7 +94,7 @@ amazingness(a)
    }
    return ans;
 }
-/>
+
 </pre>
 Given two integers **L, R**. Find out the following sum : *amazingness***L** + *amazingness***L + 1** + ... + *amazingness***R**. As the answer could be large, print your answer modulo **109 + 7 (1000000007)**
 

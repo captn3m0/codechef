@@ -14,11 +14,11 @@ layout: problem
 Chef Ciel defined a sequence **S** as follows:
  **S**\[1\] = **A**
  **S**\[2\] = **B**
- **S**\[**i**\] = (**X**\***S**\[**i**-1\] + **Y**\***S**\[**i**-2\] + **Z**) mod **P**, for **i** >= 3
+ **S**\[**i**\] = (**X**\***S**\[**i**-1\] + **Y**\***S**\[**i**-2\] + **Z**) mod **P**, for **i** &gt;= 3
 
 Ciel considers **C** is a lucky number, and the **i**-th day is a lucky day if and only if **S**\[**i**\] = **C**. Ciel's restaurant may have special events in a lucky day.
 
-By the way, your work is calculating the numbers of lucky days in intervals. That is, for each **Q** intervals \[**L**\[**i**\], **R**\[**i**\]\], you should calculate the number of the integers **k** which satisfy **L**\[**i**\] <= **k** <= **R**\[**i**\] and **S**\[**k**\] = **C**.
+By the way, your work is calculating the numbers of lucky days in intervals. That is, for each **Q** intervals \[**L**\[**i**\], **R**\[**i**\]\], you should calculate the number of the integers **k** which satisfy **L**\[**i**\] &lt;= **k** &lt;= **R**\[**i**\] and **S**\[**k**\] = **C**.
 
 ### Input
 
@@ -30,12 +30,12 @@ For each interval, print the number of lucky days in the interval.
 
 ### Constraints
 
-1 <= **T** <= 2
- 2 <= **P** <= 10007
+1 &lt;= **T** &lt;= 2
+ 2 &lt;= **P** &lt;= 10007
  **P** is a prime.
- 0 <= **A**, **B**, **X**, **Y**, **Z**, **C** < **P**
- 1 <= **Q** <= 20000 (2\*10^4)
- 1 <= **L**\[**i**\] <= **R**\[**i**\] <= 1000000000000000000 (10^18)
+ 0 &lt;= **A**, **B**, **X**, **Y**, **Z**, **C** &lt; **P**
+ 1 &lt;= **Q** &lt;= 20000 (2\*10^4)
+ 1 &lt;= **L**\[**i**\] &lt;= **R**\[**i**\] &lt;= 1000000000000000000 (10^18)
 
 ### Sample Input
 

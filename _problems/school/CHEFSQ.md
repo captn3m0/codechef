@@ -81,7 +81,7 @@ Print "Yes" if the sequence contains the favourite sequence int it otherwise pri
 
 ### Constraints
 
-1<=T<=10 
+1&lt;=T&lt;=10 
 11```
 <b>Input:</b>
 2
@@ -98,4 +98,3 @@ Print "Yes" if the sequence contains the favourite sequence int it otherwise pri
 Yes
 No
 <pre>
-(f)(n)<1000>

@@ -146,4 +146,4 @@ Common substrings of length 2 are (0, 1, 1, 2), (1, 2, 0, 1), (2, 3, 1, 2).
 
 Common substrings of length 3 are (1, 3, 0, 2).
 
-There is no common substring of length 4./>/>/>
+There is no common substring of length 4.

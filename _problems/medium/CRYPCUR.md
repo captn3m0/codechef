@@ -37,8 +37,8 @@ The overall risk of the sequence of trades is the **maximum risk** in the sequen
 
 - The first line contains a single integer **T** - the total number of testcases.
 - Each testcase is of the following format: 
-  - First line contains 2 space-separated integers - **N** and **M**. **N** denotes the number of cryptocurrencies, **M** denotes the number of tradable ordered cryptocurrency pairs.
-  - **M** lines follow. Each line contains 3 space-separated positive integers - **Cx**, **Cy** and **Cxy**. This line denotes that one unit of currency **Cx** can be converted into one unit of currency **Cy** with risk **Cxy**.
+    - First line contains 2 space-separated integers - **N** and **M**. **N** denotes the number of cryptocurrencies, **M** denotes the number of tradable ordered cryptocurrency pairs.
+    - **M** lines follow. Each line contains 3 space-separated positive integers - **Cx**, **Cy** and **Cxy**. This line denotes that one unit of currency **Cx** can be converted into one unit of currency **Cy** with risk **Cxy**.
 
 ### Output
 
@@ -86,15 +86,15 @@ Impossible
 
  Starting with **C1**:
 
-- **C1** -> **C2** -> **C3**
-- **C1** -> **C2** -> **C4**
+- **C1** -&gt; **C2** -&gt; **C3**
+- **C1** -&gt; **C2** -&gt; **C4**
 
  In the first sequence, Mr. X won't be able to own **C4** because units of **C3** cannot be converted to units of **C4**. Similarly, in the second sequence, Mr. X won't be able to own **C3** because units of **C4** cannot be converted to units of **C3**.
 
  Starting with **C2**:
 
-- **C2** -> **C3**
-- **C2** -> **C4**
+- **C2** -&gt; **C3**
+- **C2** -&gt; **C4**
 
 Starting with **C3**:
 

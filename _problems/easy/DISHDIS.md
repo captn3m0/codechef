@@ -26,9 +26,9 @@ For every test case, output a single integer: the number of ways of distributing
 
 ### Constraints:
 
-1<=T<=50
-1<=n,m<=100
-0<=xi,yi<=100
+1&lt;=T&lt;=50
+1&lt;=n,m&lt;=100
+0&lt;=xi,yi&lt;=100
 ### Example:
 
 **Input**

@@ -113,8 +113,8 @@ Then, **Q** lines should follow. The **i**-th number should be equal to:
 
 ### Constraints
 
-- 1 <= **N** <= 30
-- 1 <= **M** <= 30
+- 1 &lt;= **N** &lt;= 30
+- 1 &lt;= **M** &lt;= 30
 
 ### Example
 
@@ -129,7 +129,7 @@ Then, **Q** lines should follow. The **i**-th number should be equal to:
 3 1 3 1 3
 
 </pre>
-### Scoring & the test data generation
+### Scoring &amp; the test data generation
 
 Your score is the number of the moves made, you should minimise it.
 

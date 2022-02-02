@@ -90,8 +90,8 @@ There are **q** queries. In each query you will be given a circle with radius **
 
 - For each query in a testcase, output a single line with the answer.
 - Your output will be considered correct if both these are true: 
-  - In each query, the absolute error is less than or equal to 0.02.
-  - In a single testcase, the average of absolute error over all queries must be less than 0.01.
+    - In each query, the absolute error is less than or equal to 0.02.
+    - In a single testcase, the average of absolute error over all queries must be less than 0.01.
 
 ### Constraints
 

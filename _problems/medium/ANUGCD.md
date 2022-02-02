@@ -75,7 +75,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 You will be given an array **A** of **N** integers. You need to answer **M** queries.
 Each query is of the form **G x y**.
-For each query, construct the set **S** from **A**. **A\[i\]** is included in **S** if **x** <= **i** <= **y** and **GCD(G,A\[i\])** > 1.
+For each query, construct the set **S** from **A**. **A\[i\]** is included in **S** if **x** &lt;= **i** &lt;= **y** and **GCD(G,A\[i\])** &gt; 1.
 
 Let **MAX** be the maximum number present in **S**. Output **MAX** and number of occurances of **MAX** in **S**. 
 If no such number exists, output "**-1 -1**" (without quotes).
@@ -125,7 +125,7 @@ MAX = 4
 **Query #2**
 S = {}
 
-There is no element in **A** such that GCD(121, A\[i\])>1
+There is no element in **A** such that GCD(121, A\[i\])&gt;1
 
 **Query #5**
 GCD(24,4)=4, GCD(24,5)=1, GCD(24,4)=4

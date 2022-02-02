@@ -15,7 +15,7 @@ layout: problem
 </pre>
 You are given K indices, A\[1\], A\[2\], ... , A\[K\].
 
-A\[1\] < A\[2\] < ... < A\[K\].
+A\[1\] &lt; A\[2\] &lt; ... &lt; A\[K\].
 
 A\[1\] = 1 and A\[K\] = N.
 
@@ -35,15 +35,15 @@ Output T lines, one for each test case. All answers should be output modulo 1000
 
 ### Constraints :
 
-T <= 111
+T &lt;= 111
 
-2 <= N <= 20000
+2 &lt;= N &lt;= 20000
 
-2 <= K <= 22
+2 &lt;= K &lt;= 22
 
-K <= N
+K &lt;= N
 
-A\[1\] < A\[2\] < ... < A\[K\].
+A\[1\] &lt; A\[2\] &lt; ... &lt; A\[K\].
 
 A\[1\] = 1 and A\[K\] = N.
 

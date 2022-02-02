@@ -89,11 +89,11 @@ The first line of the input contains a single integer **N**, denoting the number
 You need to print to the standard output, for the operations you wish to perform. There are two types of operations:
 
 - In the first type, you are asking the judge the least weight edge between 2 sets, **A** and **B**. You need to print **3** lines. 
-  - The first line starts with **1 |A| |B|**, where **|A|** and **|B|** are the size of the 2 sets.
-  - The second line contains **|A|** integers, denoting the elements of the set **A**.
-  - The thirdline contains **|B|** integers, denoting the elements of the set **B**.
-  
-  The judge will return a triplet of integers by printing the integers in the standard input. It will be in the format **u v w**, where **u** and **v** denote the end points of the least weight edge between the 2 sets and **w** denotes the cost of this edge. In case there is no such edge then **u = v = w = -1**
+    - The first line starts with **1 |A| |B|**, where **|A|** and **|B|** are the size of the 2 sets.
+    - The second line contains **|A|** integers, denoting the elements of the set **A**.
+    - The thirdline contains **|B|** integers, denoting the elements of the set **B**.
+    
+    The judge will return a triplet of integers by printing the integers in the standard input. It will be in the format **u v w**, where **u** and **v** denote the end points of the least weight edge between the 2 sets and **w** denotes the cost of this edge. In case there is no such edge then **u = v = w = -1**
 - In the second type, you are telling the judge the answer. For each test case you should perform this operation exactly once at the end. It does not cost you any coins. You will print the answer to the standard output in the format **2 X**, where **X** should be the sum of all edge weights in a minimum spanning tree of this graph.
 
 ### Note

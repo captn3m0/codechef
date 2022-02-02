@@ -104,7 +104,7 @@ For each query of type 1, print a single line containing two space-separated int
 
 - 1 ≤ **n** ≤ 105
 - 0 ≤ **xi**, **yi**, **x**, **y** ≤ 109
-- 0 ≤ **ai**, **b** < 360
+- 0 ≤ **ai**, **b** &lt; 360
 - 1 ≤ **q** ≤ 2 · 105
 - 1 ≤ **l** ≤ **r** ≤ **n**
 - 1 ≤ **u** ≤ **n**

@@ -21,7 +21,7 @@ As we know, in an n-based number system, there are n different types of digits. 
 
 - A block with a single 0 sets ‘flag’ variable to 1
 - A block with two 0s sets the ‘flag’ to 0
-- If there are n (n > 2) 0s in a block, n-2 binary digits with the current value of flag is appended to your number.
+- If there are n (n &gt; 2) 0s in a block, n-2 binary digits with the current value of flag is appended to your number.
 
 Note that, the first block of every number will have at most 2 0s. For example, the 1-base number 0 0000 00 000 0 0000 is equivalent to binary 11011.
 
@@ -32,7 +32,7 @@ Note that, the first block of every number will have at most 2 0s. For example, 
 - 5th block has a single 0. Set flag = 1
 - 6th and block has 4 0s. Append flag(= 0) 4 − 2 = 2 times (11011).
 
-The final binary number wont have more than 30 digits. Once, youve completed the process, convert the binary value to decimal & print, youre done!
+The final binary number wont have more than 30 digits. Once, youve completed the process, convert the binary value to decimal &amp; print, youre done!
 
 Input
 

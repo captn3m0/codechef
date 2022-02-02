@@ -17,7 +17,7 @@ Two colorings are considered different if there exists at least one **i** betwee
 
 ### Input
 
-The first line of the input file contains one integer **T** -- the number of test cases (no more than 10). Each of the next **T** lines contains two integers **N** and **M** -- the length of the chain presented to David and the number of colors (1 ≤ **M** < **N** ≤ 105).
+The first line of the input file contains one integer **T** -- the number of test cases (no more than 10). Each of the next **T** lines contains two integers **N** and **M** -- the length of the chain presented to David and the number of colors (1 ≤ **M** &lt; **N** ≤ 105).
 
 ### Output
 

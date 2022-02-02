@@ -77,7 +77,7 @@ The Little Elephant calls some string **T** of the length **M** *balanced* if th
 
 Let **S** be some lucky string. Then - **|S|** denotes the length of the string **S**;
 - **S\[i\]** (**1 ≤ i ≤ |S|**) denotes the **i**th character of **S** (the numeration of characters starts from **1**);
-- **S\[L, R\]** (**1 ≤ L ≤ R ≤ |S|**) denotes the string with the following sequence of characters: **S\[L\], S\[L + 1\], ..., S\[R\]**, and is called a *substring* of **S**. For **L > R** we mean by **S\[L, R\]** an empty string.
+- **S\[L, R\]** (**1 ≤ L ≤ R ≤ |S|**) denotes the string with the following sequence of characters: **S\[L\], S\[L + 1\], ..., S\[R\]**, and is called a *substring* of **S**. For **L &gt; R** we mean by **S\[L, R\]** an empty string.
 
 ### Input
 

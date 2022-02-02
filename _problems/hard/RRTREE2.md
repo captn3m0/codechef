@@ -105,7 +105,7 @@ Let **S** be the sum over all **Wi**. You should output S characters **ith** of 
 - **1** ≤ **N** ≤ **500**
 - **1** ≤ sum of all **Wi** ≤ **100000**
 - **1** ≤ **Wi** ≤ **100000**
-- If  **u**  is the parent of vertex **v** then  **u**  < **v**
+- If  **u**  is the parent of vertex **v** then  **u**  &lt; **v**
 
 ### Example
 

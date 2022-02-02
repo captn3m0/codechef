@@ -82,8 +82,8 @@ Devu and Churu decided to play a game with numbers on the paper. They both have 
 
 A constraint on a game can be any of following three types :
 
-- **> K** : They are allowed to choose numbers having values strictly greater than **K** only.
-- **< K** : They are allowed to choose numbers having values strictly less than **K** only.
+- **&gt; K** : They are allowed to choose numbers having values strictly greater than **K** only.
+- **&lt; K** : They are allowed to choose numbers having values strictly less than **K** only.
 - **= K** : They are allowed to choose numbers having values equal to **K** only.
 
 Given **M** constraints and who goes first, you have to tell the outcome of each game. Print **'D'** if Devu wins otherwise print **'C'** without quotes.
@@ -92,7 +92,7 @@ Note that **M** games are independent, that is, they'll rewrite numbers by using
 
 ### Input 
 
-First line of input contains two space separated integers **N** and **M** denoting the size of array **A** and number of game played by them. Next line of input contains **N** space-separated integers denoting elements of array **A**. Each of the next **M** lines of input contains three space-separated parameters describing a game. First two parameter are a character **C ∈ {<, >, =}** and an integer **K** denoting the constraint for that game. The last parameter is a character **X ∈ {D, C}** denoting the player who will start the game.
+First line of input contains two space separated integers **N** and **M** denoting the size of array **A** and number of game played by them. Next line of input contains **N** space-separated integers denoting elements of array **A**. Each of the next **M** lines of input contains three space-separated parameters describing a game. First two parameter are a character **C ∈ {&lt;, &gt;, =}** and an integer **K** denoting the constraint for that game. The last parameter is a character **X ∈ {D, C}** denoting the player who will start the game.
 
 ###  Output 
 
@@ -103,7 +103,7 @@ Output consists of a single line containing a string of length **M** made up fro
 - **1 ≤ N, M ≤ 106**
 - **1 ≤ Ai, K ≤ 109**
 - **X ∈ {D, C}**
-- **C ∈ {<, >, =}**
+- **C ∈ {&lt;, &gt;, =}**
 
 ### Subtasks: 
 
@@ -132,11 +132,11 @@ DCDDC
 
 **1. \[1\]** **1. \[2\]** **1. \[3\]** **1. \[1,2\]** **1. \[2,3\]** **1. \[1,2,3\]** 
 
-**Numbers on the paper after replacement :**/>
+**Numbers on the paper after replacement :**
 
 **1. \[1\]** **1. \[2\]** **1. \[3\]** **1. \[2\]** **1. \[3\]** **1. \[3\]** 
-**Game 1 :** There are only 5 numbers > 1 in the list.
-**Game 2 :** There is only 1 number < 2 in the list.
+**Game 1 :** There are only 5 numbers &gt; 1 in the list.
+**Game 2 :** There is only 1 number &lt; 2 in the list.
 **Game 3 :** There are only 3 numbers = 3 in the list.
-**Game 4 :** There are no numbers > 4 in the list. So the first player cannot make his move.
-**Game 5 :** There are 6 numbers < 5 in the list.
+**Game 4 :** There are no numbers &gt; 4 in the list. So the first player cannot make his move.
+**Game 5 :** There are 6 numbers &lt; 5 in the list.

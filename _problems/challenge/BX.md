@@ -77,7 +77,7 @@ First, 1nn pairs of numbers follow, representing the coordinates of sticks which
 
 ### Output
 
-First, you should output the number m of intermediate points you create. Then, the next m pairs of numbers are coordinates of intermediate points. Then, you should output e, the number of soap-bubble lines you create. Then, the next 2\*e numbers represent the indexes of points which are connected by the given line. Each index i should be a number 0i n+m. If i i-th input point (stick). If i>=n, then it corresponds to the (i-n)-th intermediate point.
+First, you should output the number m of intermediate points you create. Then, the next m pairs of numbers are coordinates of intermediate points. Then, you should output e, the number of soap-bubble lines you create. Then, the next 2\*e numbers represent the indexes of points which are connected by the given line. Each index i should be a number 0i n+m. If i i-th input point (stick). If i&gt;=n, then it corresponds to the (i-n)-th intermediate point.
 
 ### Scoring
 

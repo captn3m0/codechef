@@ -40,9 +40,9 @@ Output on a single line an integer which is the minimum cost found.
 </pre>
 ### Limitations
 
-- 2 <= w,h <= 1 000
-- 0 <= n <= 200 000
-- 2 <=2d <= min(w,h)
-- 0 < Ci <= 10 000
+- 2 &lt;= w,h &lt;= 1 000
+- 0 &lt;= n &lt;= 200 000
+- 2 &lt;=2d &lt;= min(w,h)
+- 0 &lt; Ci &lt;= 10 000
 - All the listed barricades are inside or on the boundaries of the CodeChef s land.
 - There is at most one barricade at each point.

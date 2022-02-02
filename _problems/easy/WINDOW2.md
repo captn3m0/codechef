@@ -11,15 +11,15 @@ layout: problem
 ---
 ###  All submissions for this problem are available. 
 
-After Chef successfully built a modern **(L, K)**-window on the attic wall he decided to expand the notion of the **(L, K)**-window in some other areas. Now he considers a rectangular grid that contains only zeroes and ones and has size **N x M**. He considers the **(L, K)**-window here as any submatrix of size **L x K** that contains only ones. Formally he defines **(L, K)**-window as any **(K+L)**-tuple **(R1, ..., RL, C1, ..., CK)** such that **1 <= R1 < ... < RL <= N**, **1 <= C1 < ... < CK <= M** and **A\[Ri\]\[Cj\]=1** for all **1 <= i <= L, 1<= j <= K**. Here **A\[r\]\[c\]** is the **c**-th element of the **r**-th row of considered rectangular grid. 
+After Chef successfully built a modern **(L, K)**-window on the attic wall he decided to expand the notion of the **(L, K)**-window in some other areas. Now he considers a rectangular grid that contains only zeroes and ones and has size **N x M**. He considers the **(L, K)**-window here as any submatrix of size **L x K** that contains only ones. Formally he defines **(L, K)**-window as any **(K+L)**-tuple **(R1, ..., RL, C1, ..., CK)** such that **1 &lt;= R1 &lt; ... &lt; RL &lt;= N**, **1 &lt;= C1 &lt; ... &lt; CK &lt;= M** and **A\[Ri\]\[Cj\]=1** for all **1 &lt;= i &lt;= L, 1&lt;= j &lt;= K**. Here **A\[r\]\[c\]** is the **c**-th element of the **r**-th row of considered rectangular grid. 
 
-Why does Chef call some **(K+L)**-tuple of numbers by the window? Just mark all points **(Ri,Cj)** (**1 <= i <= L, 1<= j <= K**) on the plane and join by line segments all pairs of points that has equal abscises or ordinates and you will see that this picture is like a window. 
+Why does Chef call some **(K+L)**-tuple of numbers by the window? Just mark all points **(Ri,Cj)** (**1 &lt;= i &lt;= L, 1&lt;= j &lt;= K**) on the plane and join by line segments all pairs of points that has equal abscises or ordinates and you will see that this picture is like a window. 
 
 Now Chef considers some particular **N x M** grid and wants to calculate the total number of **(L, K)**-windows in this rectangular grid. Help him. Since this number can be very large calculate the result modulo **1000000080798150871**.
 
 ### Input
 
- The first line contains a single positive integer **T <= 100**, the number of test cases. **T** test cases follow. The first line of each test case contains four positive integers **N, M, L, K**, where **L, N <= 1000, K, M <=3**. Next **N** lines describe the rectangular grid considered by Chef. Each of these lines contains **M** symbols. Every symbol is either one or zero.
+ The first line contains a single positive integer **T &lt;= 100**, the number of test cases. **T** test cases follow. The first line of each test case contains four positive integers **N, M, L, K**, where **L, N &lt;= 1000, K, M &lt;=3**. Next **N** lines describe the rectangular grid considered by Chef. Each of these lines contains **M** symbols. Every symbol is either one or zero.
 
 ### Output
 

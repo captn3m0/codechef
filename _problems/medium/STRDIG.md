@@ -77,8 +77,6 @@ obtained by concatenating the numbers written on the board consecutively. Given 
 Given another string **Q**, he is wondering whether **Q** is a substring of the string **P**.
 For example, **Q**="02122" is a substring of **P**, and has been marked in bold above.
 
-/>
-
 ### Input
 
 The first line of the input contains **T** denoting the number of test cases. Each of the following **T** lines contain a string **Q**.
@@ -105,5 +103,4 @@ For each test case, print "**YES**" if the given string is contained in the stri
 YES
 NO
 YES
-/>
 </pre>

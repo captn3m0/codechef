@@ -66,12 +66,12 @@ time:
 is_direct_submittable: false
 layout: problem
 ---
-All submissions for this problem are available.Eastern Draughts is played on an NxN grid, consisting of cells (x, y) with 0 ≤ x,y < N. Some cells of the grid have pieces on them, and no cell may ever have more than one piece at a time. The number of pieces will be equal to P\*(P+1)/2 for some positive integer P ≤ N. There are two types of moves in the game:
+All submissions for this problem are available.Eastern Draughts is played on an NxN grid, consisting of cells (x, y) with 0 ≤ x,y &lt; N. Some cells of the grid have pieces on them, and no cell may ever have more than one piece at a time. The number of pieces will be equal to P\*(P+1)/2 for some positive integer P ≤ N. There are two types of moves in the game:
 
 - A step consists of moving a piece from (x, y) to (x+1, y), (x-1, y), (x, y+1), (x, y-1), (x+1, y-1), or (x-1, y+1). The destination cell must be empty, and must lie within the bounds of the grid. Note that you cannot move a piece directly from (x, y) to (x-1, y-1) or (x+1, y+1).
 - A jump consists of moving a piece from (x, y) to (x+2, y), (x-2, y), (x, y+2), (x, y-2), (x+2, y-2), or (x-2, y+2). Not only must the destination cell be empty and lie within the bounds of the grid, but the cell between the source and destination cells must contain a piece.
 
-A turn consists of either a single step, or a sequence of one or more jumps where the same piece is moved with each jump. The goal is to move the pieces to the goal configuration in as few turns as possible. The goal configuration is such that each cell (x, y) contains a piece if and only if x+y < P.
+A turn consists of either a single step, or a sequence of one or more jumps where the same piece is moved with each jump. The goal is to move the pieces to the goal configuration in as few turns as possible. The goal configuration is such that each cell (x, y) contains a piece if and only if x+y &lt; P.
 
 For this problem, you do not need to use as few turns as possible, but the fewer turns you use the higher your score will be.
 

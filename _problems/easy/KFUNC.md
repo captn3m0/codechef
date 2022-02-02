@@ -77,9 +77,9 @@ If a sequence of numbers **A1**, **A2**, ... , **AN** form an arithmetic progres
 
 **F(X)** is defined as:
 
-If **X** < 10 then **F(X)** = **X**.
+If **X** &lt; 10 then **F(X)** = **X**.
 
-Else **F(X)** = **F(**sum\_of\_digits**(X))**. />/>
+Else **F(X)** = **F(**sum\_of\_digits**(X))**.
 
 Example:
 
@@ -89,7 +89,7 @@ Example:
 **F(**1 + 9**)** =
 **F(**10**)** =
 **F(**1+0**)** =
-**F(**1**)** = 1/>
+**F(**1**)** = 1
 
 ### Input
 
@@ -137,7 +137,7 @@ Example:
 **F(A1)** = 1
 **F(A2)** = 2
 **F(A3)** = 3
-**1+2+3=6**/>
+**1+2+3=6**
 
 **Example case 2.**
 
@@ -148,4 +148,4 @@ Example:
 **F(A2)** = 3
 **F(A3)** = 1
 **F(A4)** = 8
-**3+1+8=12**/>
+**3+1+8=12**

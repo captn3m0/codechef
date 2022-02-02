@@ -75,7 +75,7 @@ Your task is to find a connected block (which means these entries can reach each
 
 ### Input
 
-First line consists of three integers, **n**, **m**, **K** (1 <= **n**, **m** <= 15, 1 <= **K** <= 7).
+First line consists of three integers, **n**, **m**, **K** (1 &lt;= **n**, **m** &lt;= 15, 1 &lt;= **K** &lt;= 7).
 
 The followings are two **n**\***m** matrices, the first denotes the numbers on the board and the second denotes the cost of every entry.
 

@@ -33,11 +33,11 @@ For each test case, output a single line containing a permutation of the sequenc
 
 ### Constraints
 
-- 1 <= T <= 5
-- 1 <= N <= 50000
-- 1<= K<= N
+- 1 &lt;= T &lt;= 5
+- 1 &lt;= N &lt;= 50000
+- 1&lt;= K&lt;= N
 - N will be divisible by K
-- 0 <= ai <= 1000000000
+- 0 &lt;= ai &lt;= 1000000000
 
 ### Example
 

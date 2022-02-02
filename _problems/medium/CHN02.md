@@ -32,8 +32,8 @@ His friend Malvika, a long time shepherd herself (this is *the other* Malvika), 
 
 - First line will contain an integer **n**, denoting the number of polygons.
 - Then, the next lines will contain description of **n** polygons, description of the **i**th polygon is given as below. 
-  - First line will contains a single integer **c** denoting number of points in the polygon.
-  - each of the next **c** lines will have two space separated integers **x\[j\], y\[j\]** denoting **x** and **y** coordinate respectively of the **j**-th point of the polygon. These points will be given in anti-clockwise order.
+    - First line will contains a single integer **c** denoting number of points in the polygon.
+    - each of the next **c** lines will have two space separated integers **x\[j\], y\[j\]** denoting **x** and **y** coordinate respectively of the **j**-th point of the polygon. These points will be given in anti-clockwise order.
 
 ### Output
 

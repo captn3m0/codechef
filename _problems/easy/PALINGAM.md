@@ -120,4 +120,4 @@ B
 
 **Testcase 2**: Player A moves with 'a', player B can put any of the character 'c', 'd' or 'e', Now Player A can create a palindrome by adding 'a'.
 
-**Testcase 3**: None of the players will be able to make a palindrome of length > 1. So B will win.
+**Testcase 3**: None of the players will be able to make a palindrome of length &gt; 1. So B will win.

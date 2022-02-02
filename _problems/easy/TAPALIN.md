@@ -77,17 +77,17 @@ For the given positive integer **N**, your task is to calculate the number of pa
 For example:
 
 - For **N = 1**, we have **26** different palindromes of length not exceeding **N**:
-   "a", "b", ..., "z"./>
+     "a", "b", ..., "z".
 - For **N = 2** we have **52** different palindromes of length not exceeding **N**:
-   "a", "b", ..., "z",
-   "aa", "bb", ..., "zz"./>/>
+     "a", "b", ..., "z",
+     "aa", "bb", ..., "zz".
 - For **N = 3** we have **728** different palindromes of length not exceeding **N**:
-   "a", "b", ..., "z",
-   "aa", "bb", ..., "zz",
-   "aaa", "aba", ..., "aza",
-   "bab", "bbb", ..., "bzb",
-   ...,
-   "zaz", "zbz", ..., "zzz"./>/>/>/>/>/>
+     "a", "b", ..., "z",
+     "aa", "bb", ..., "zz",
+     "aaa", "aba", ..., "aza",
+     "bab", "bbb", ..., "bzb",
+     ...,
+     "zaz", "zbz", ..., "zzz".
 
 Since the answer can be quite large you should output it modulo **1000000007** (**109 + 7**). Yes, we know, most of you already hate this modulo, but there is nothing we can do with it :)
 

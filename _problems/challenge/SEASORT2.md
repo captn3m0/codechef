@@ -71,7 +71,7 @@ layout: problem
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MARCH14/mandarin/SEASORT2.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH14/russian/SEASORT2.pdf).
 
 Sereja has an array **A\[1 .. N\]**, which contains **N** integers. Now Sereja wants to sort it.
-The only thing that Sereja can do, is to reverse all elements in some sub-array, which is a consecutive parts of **A**. In other words, in one operation, Sereja can choose two integers **L** and **R (1 <= L < R <= N)**, and swap elements **A\[L\]** and **A\[R\]**, **A\[L+1\]** and **A\[R-1\]**, **A\[L+2\]** and **A\[R-2\]** and so on.
+The only thing that Sereja can do, is to reverse all elements in some sub-array, which is a consecutive parts of **A**. In other words, in one operation, Sereja can choose two integers **L** and **R (1 &lt;= L &lt; R &lt;= N)**, and swap elements **A\[L\]** and **A\[R\]**, **A\[L+1\]** and **A\[R-1\]**, **A\[L+2\]** and **A\[R-2\]** and so on.
 
 In such operation of **L, R**, the total energy that Sereja spends **R - L + 1**. Clearly, Sereja wants to minimize the spent energy. Also, Sereja would like to minimize the total number of all operations. Therefore, we give a mixed objective as shown in Scoring.
 
@@ -81,7 +81,7 @@ First line contains an integer **N**. Next line contains a sequence of integers 
 
 ### Output
 
-First line contains an integer **Q** - the total number of operations you need to sort the array. In each of next **Q** lines, there should be two integers **L** and **R** **(1 <= L < R <= N)** indicate the operation that Sereja should do.
+First line contains an integer **Q** - the total number of operations you need to sort the array. In each of next **Q** lines, there should be two integers **L** and **R** **(1 &lt;= L &lt; R &lt;= N)** indicate the operation that Sereja should do.
 
 Also you should remember, that **Q** shouldn't be greater than **N**.
 
@@ -93,8 +93,8 @@ We have 40 official test files. You must correctly solve all test files to recei
 
 ### Constraints
 
-- **1** <= **N** <= **10000**
-- **1** <= **A\[i\]** <= **5000**
+- **1** &lt;= **N** &lt;= **10000**
+- **1** &lt;= **A\[i\]** &lt;= **5000**
 
 ### Example
 

@@ -77,7 +77,7 @@ For instance, five is widely used in Chinese culture. The famous Chinese Five El
 
 You see how important the number is? That's why this number will be under our consideration in this problem!
 
-You are given a sequence **a1**, **a2**, ..., **aN** of non-negative integers. Your task is to process **Q** queries of the following format: each query is described by two integers **L ≤ R** and asks to calculate the number of triples (**i**, **j**, **k**), such that **L** < **i** < **j** < **k** < **R** and **aL** > **ai** < **aj** > **ak** < **aR**.
+You are given a sequence **a1**, **a2**, ..., **aN** of non-negative integers. Your task is to process **Q** queries of the following format: each query is described by two integers **L ≤ R** and asks to calculate the number of triples (**i**, **j**, **k**), such that **L** &lt; **i** &lt; **j** &lt; **k** &lt; **R** and **aL** &gt; **ai** &lt; **aj** &gt; **ak** &lt; **aR**.
 
 ### Input
 

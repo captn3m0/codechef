@@ -76,7 +76,7 @@ You are given a one dimensional integer array **A** of length **N**. You need to
 **Query 1** : 1 x y v 
 
  This implies adding v to array **A** to all the indices from x to y, i.e.,
-``
+ ``
 
  ```
 for (i = x; i <= y; i++)	
@@ -85,7 +85,7 @@ for (i = x; i <= y; i++)
 <pre>
 **Query 2** : 2 x y v 
  This implies multiplying the scalar v with the array **A** for all the indices from x to y, i.e.,
-``
+ ``
 
  ```
 for (i = x; i <= y; i++)	
@@ -94,7 +94,7 @@ for (i = x; i <= y; i++)
 </pre>
 **Query 3** : 3 x y v 
  This implies initializing the array **A** at all the indices from x to y with the value v, i.e.,
-``
+ ``
 
  ```
 for (i = x; i <= y; i++)	
@@ -103,7 +103,7 @@ for (i = x; i <= y; i++)
 **Query 4** : 4 x y
 
  This is a report query which needs to find the sum of the values in **A** from x to y, i.e.,
-``
+ ``
 
  ```
 sum = 0;

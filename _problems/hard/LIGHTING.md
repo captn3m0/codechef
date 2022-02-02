@@ -23,7 +23,7 @@ Write a program to help Johnny decorate the boards in such a way that the number
 
 The first line contains a number t (about 15), the number of test cases. Each test case has the following form.
 
-The first line contains two numbers m, n (1 <= m, n <= 700). Each line in the next m lines contains n characters '0' or '1' representing the board, in which '1' denotes a place which Johnny wants to put in a light bulb.
+The first line contains two numbers m, n (1 &lt;= m, n &lt;= 700). Each line in the next m lines contains n characters '0' or '1' representing the board, in which '1' denotes a place which Johnny wants to put in a light bulb.
 
 Each test case's input is separated by a blank line.
 

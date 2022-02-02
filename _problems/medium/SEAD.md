@@ -72,7 +72,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME09/mandarin/SEAD.pdf) and [Russian](http://www.codechef.com/download/translated/LTIME09/russian/SEAD.pdf).
 
-Sereja have array that consist of *n* integers *a*1 ≤ *a*2 ≤ ... ≤ *a**n*. Now Sereja have *m* queries as pair of two integers *t* and *d*. Answer for query will be minimal integer *i* such that exist some *k* (*i* ≤ *k*) for which *a**i* + *d* ≥ *a**i* + 1, *a**i* + 1 + *d* ≥ *a**i* + 2, ..., *a**k* - 1 + *d* ≥ *a**k*, *a**k* ≤ *t* and *a**k+1* > *t*(if it exists).
+Sereja have array that consist of *n* integers *a*1 ≤ *a*2 ≤ ... ≤ *a**n*. Now Sereja have *m* queries as pair of two integers *t* and *d*. Answer for query will be minimal integer *i* such that exist some *k* (*i* ≤ *k*) for which *a**i* + *d* ≥ *a**i* + 1, *a**i* + 1 + *d* ≥ *a**i* + 2, ..., *a**k* - 1 + *d* ≥ *a**k*, *a**k* ≤ *t* and *a**k+1* &gt; *t*(if it exists).
 
 Help Sereja, find the answer for each query.
 
@@ -98,7 +98,7 @@ For each query output answer.
 
 - 1 ≤ *n*, *m* ≤ 105.
 - 1 ≤ *a**i* ≤ 1066. 
-   *a*1 ≤ *t* ≤ 106
+     *a*1 ≤ *t* ≤ 106
 - 0 ≤ *d* ≤ 106
 
 ### Example

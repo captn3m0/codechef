@@ -84,7 +84,7 @@ Chef wants to rearrange the cards, such that the length of the longest common co
 The first line of input contains an integer **T** denoting the number of test cases.
 
 - The first line of each test
-  case contains an integer **N**.
+    case contains an integer **N**.
 - The next line contains **N** space separated integers **A1, A2, ... , AN**, where **Ai**(**1** ≤ **i** ≤ **N**) is the number written on the top of the **i**-th card.
 - The next line contains **N** space separated integers **B1, B2, ... , BN**, where **Bi**(**1** ≤ **i** ≤ **N**) is the number written at the bottom of the **i**-th card.
 
@@ -120,7 +120,7 @@ For each test case, output a single line containing the integer **L**: the maxim
 
 One of the possible card arrangements is: 
 1 2 3 
-2 3 1 />
+2 3 1
 
 Length of the longest common contiguous subsequence between \[1, 2, 3\] and \[2, 3, 1\] is 2, \[2, 3\]. And that's the maximum possible, so answer is 2.
 
@@ -130,11 +130,10 @@ One of the possible card arrangements is :
 
 7 3 2 8 6 5 4 1 
 
-1 5 3 2 8 6 4 7 
-/>/>/>/>
+1 5 3 2 8 6 4 7
 
 The longest common contiguous subsequence has length 4 \[3, 2, 8, 6\] here. There is no way to arrange these cards such that it's more than 4.
 
 ### Note
 
-Let **L** be the answer. Let **Ci** be the value written on the top of the card at **i**th position and **Di** be the value written on the bottom of the card at **i**th position after rearranging. Then, there should be a pair **(x, y)** (**1 ≤ x,y ≤ N-L+1**) such that the condition **Cx+j** = **Dy+j** is satisfied for all **j**, where **0 ≤ j < L**.
+Let **L** be the answer. Let **Ci** be the value written on the top of the card at **i**th position and **Di** be the value written on the bottom of the card at **i**th position after rearranging. Then, there should be a pair **(x, y)** (**1 ≤ x,y ≤ N-L+1**) such that the condition **Cx+j** = **Dy+j** is satisfied for all **j**, where **0 ≤ j &lt; L**.

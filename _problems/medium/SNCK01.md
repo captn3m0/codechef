@@ -43,9 +43,9 @@ Output T lines, one for each case. Output "FIRST" if player A wins, else output 
 
 ### Constraints :
 
-T <= 1000
+T &lt;= 1000
 
-1 <= N,M <= 50
+1 &lt;= N,M &lt;= 50
 
 The initial matrix values are between 1 and 50 inclusive.
 

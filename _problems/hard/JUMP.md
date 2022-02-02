@@ -78,7 +78,7 @@ Chef the chief is participating in a hill jumping competition.
 There are N hills arranged in a row, and each of them is assigned a unique index from 1 to **N** — the **i**th hill has an index **Pi** on it. The height of the **i**th hill is **Hi**.
 Chef starts at the first hill with a goal to reach the **Nth** hill by jumping over hills from left to right (he is not allowed to jump in the other direction), jumping from **i**th hill to **j**th costs (**Hj** - **Hi**)2 energy.
 
-When chief is on the **i**th hill, he has to prepare a special dish for the community of that hill as a thanks for letting him use their resources. This will cost him **Ai** energy (some dishes are chief's favorites and preparing it refreshes chef that why **Ai** may be negative). To make things more challenging for Chef the chief, he is allowed to jump from **i**th hill to **j**th if and only if **i < j** and **Pi < Pj**.
+When chief is on the **i**th hill, he has to prepare a special dish for the community of that hill as a thanks for letting him use their resources. This will cost him **Ai** energy (some dishes are chief's favorites and preparing it refreshes chef that why **Ai** may be negative). To make things more challenging for Chef the chief, he is allowed to jump from **i**th hill to **j**th if and only if **i &lt; j** and **Pi &lt; Pj**.
 
 Help Chef choose the sequence of jumps that consume the minimum energy possible. (Note that it's possible at any moment that energy consumed is negative.)
 
@@ -90,7 +90,6 @@ The second line contains **N** space-separated integers **P1**, **P2**, ... , **
 The third line contains **N** space-separated integers **A1**, **A2**, ... , **AN**.
 
 The fourth line contains **N** space-separated integers **H1**, **H2**, ... , **HN**.
-/>/>/>
 
 ### Output
 

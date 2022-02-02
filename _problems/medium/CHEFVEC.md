@@ -33,7 +33,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 Chef has an integer array **X**, and a binary array **S**, both of size **N**. He wants to know how many vectors (denote by **V**) of **N** elements exist, for which the following conditions hold for all valid indices **i** (that is, for all 1 ≤ **i** ≤ **N**).
 
-4. 0 ≤ **Vi** < 1018
+4. 0 ≤ **Vi** &lt; 1018
 5. If **Si** = 1, **Vi** is ≥ **Xi**, and if **Si** = 0, **Vi** ≤ **Xi**
 6. Sum of the elements of **V**, when viewed as a string, contains "47" as a substring.
 Please help Chef find this count. Since it may be a very large number, you should output the count modulo **109+7**.
@@ -45,7 +45,7 @@ The first line of input contains one integer **N**. The next **N** lines contain
 Output a single line containing a single integer — the answer to Chef's problem modulo **109**+**7**. ### Constraints
 
 - 1 ≤ **N** ≤ 8
-- 0 ≤ **Xi** < 1018
+- 0 ≤ **Xi** &lt; 1018
 - **Si** is either 0 or 1.
 
 ### Example

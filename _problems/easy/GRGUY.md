@@ -147,7 +147,7 @@ No
 ### Explanation
 
 - **Test 1:** Chef will start his journey from **L2**, switch from **L2** to **L1** and finally land up at last block of **L2** by switching from **L1** to **L2**. Therefore, he requires total 2 gravity switches to reach the destination.
-- **Test 3:** Chef cannot start his journey as starting block of both the lanes **L1 & L2** are dirty and he cannot step over them.
+- **Test 3:** Chef cannot start his journey as starting block of both the lanes **L1 &amp; L2** are dirty and he cannot step over them.
 
 
 In Subtask 1 and Subtask 3, only "Yes"/"No" response will be evaluated. Thus, for example, the output

@@ -76,7 +76,7 @@ All submissions for this problem are available.### Read problems statements in [
 
 Chef is playing a game named "Killing monsters". In this game, at the beginning, there are **n** monsters arranged in a row (numbered 0 through **n-1** from left to right). The **i**-th monster initially has **hi** health points. A monster dies if its health points become ≤ 0.
 
-Chef is going to perform **q** actions. For each action, Chef chooses two numbers **x**, **y** and shoots all living monsters whose index **k** satisfies **k** & **x** = **k** (& denotes the bitwise AND operator). Each monster he shoots loses **y** health points.
+Chef is going to perform **q** actions. For each action, Chef chooses two numbers **x**, **y** and shoots all living monsters whose index **k** satisfies **k** &amp; **x** = **k** (&amp; denotes the bitwise AND operator). Each monster he shoots loses **y** health points.
 
 After each action, please help Chef determine the number of living monsters.
 

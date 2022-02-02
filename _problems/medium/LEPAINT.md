@@ -90,13 +90,13 @@ Any results within 10^-6 absolute error will be accepted.
 
 ### Constraints
 
-1 <= **T** <= 10
+1 &lt;= **T** &lt;= 10
 
-1 <= **n, k** <= 50
+1 &lt;= **n, k** &lt;= 50
 
-2 <= **c** <= 100
+2 &lt;= **c** &lt;= 100
 
-1 <= **Li** <= **Ri** <= **n**
+1 &lt;= **Li** &lt;= **Ri** &lt;= **n**
 
 ### Example
 

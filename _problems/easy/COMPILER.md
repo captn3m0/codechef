@@ -84,23 +84,23 @@ as the semantics of such statement is incorrect, as we all know that the datatyp
 
  int x = 4;
 
-Today, Lira is concerned with an abstract instruction which is composed of the characters "<" and ">" , which she will use on the design of her language, L++ :D.
+Today, Lira is concerned with an abstract instruction which is composed of the characters "&lt;" and "&gt;" , which she will use on the design of her language, L++ :D.
 
-She is using it as an abstraction for generating XML code Tags in an easier fashion and she understood that, for an expression to be valid, a "<" symbol must always have a corresponding ">" character somewhere (not necessary immediately) after it. Moreover, each ">" symbol should correspond to exactly one "<" symbol.
+She is using it as an abstraction for generating XML code Tags in an easier fashion and she understood that, for an expression to be valid, a "&lt;" symbol must always have a corresponding "&gt;" character somewhere (not necessary immediately) after it. Moreover, each "&gt;" symbol should correspond to exactly one "&lt;" symbol.
 
 So, for instance, the instructions:
 
-  **<<>>**
+  **&lt;&lt;&gt;&gt;**
 
- **<>**
+ **&lt;&gt;**
 
- **<><>**
+ **&lt;&gt;&lt;&gt;**
 
 are all valid. While:
 
- **>>**
+ **&gt;&gt;**
 
- **><><**
+ **&gt;&lt;&gt;&lt;**
 
 are not.
 

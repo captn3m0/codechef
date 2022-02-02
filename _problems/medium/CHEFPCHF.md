@@ -101,7 +101,7 @@ All submissions for this problem are available.### Read problems statements in [
 - **1** ≤ **T** ≤ **10**
 - **1** ≤ **N** ≤ **109**
 - 0 ≤ **K** ≤ **105**
-- **1** ≤ **p1** < **p2** < ... < **pK** ≤ **N**
+- **1** ≤ **p1** &lt; **p2** &lt; ... &lt; **pK** ≤ **N**
 - **1** ≤ **qi** ≤ **109**
 
  Subtask #1 (9 points):

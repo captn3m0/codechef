@@ -31,7 +31,7 @@ All submissions for this problem are available.Devasena was the princess of an u
 
 Although everything is history now, recently archaeologists discovered the secret question that was asked at the Swayamvara, and you think - "Well, it's such a simple question. I could use a computer to solve it!". The question goes as follows:
 
-You are given **N** integers (not necessarily distinct) => **A1, A2, A3, ..., AN**. There are **2N** possible subsets (including the empty subset). The **GCD** of a subset is defined as the greatest common divisor of all the integers in that subset. You need to find the product of the **GCDs** of all the **2N** possible subsets you can construct from **A**. Since the answer can be large, you need to output the answer modulo **1000000007**. Do you think you can solve this question?
+You are given **N** integers (not necessarily distinct) =&gt; **A1, A2, A3, ..., AN**. There are **2N** possible subsets (including the empty subset). The **GCD** of a subset is defined as the greatest common divisor of all the integers in that subset. You need to find the product of the **GCDs** of all the **2N** possible subsets you can construct from **A**. Since the answer can be large, you need to output the answer modulo **1000000007**. Do you think you can solve this question?
 
 **Note**: The greatest common divisor of an empty subset is **1**. To know more about the definition of greatest common divisor, check [here](https://en.wikipedia.org/wiki/Greatest_common_divisor).
 
@@ -67,8 +67,8 @@ For each test case, output an single integer on a separate line denoting the ans
 </pre>
 ### Explanation
 
-**For the first test case**, **N = 1**, and **A = \[1\]**. There are 2 possible subsets => **{}, {1}** and both have a gcd of 1. Hence, the answer is 1 \* 1 = **1**.
+**For the first test case**, **N = 1**, and **A = \[1\]**. There are 2 possible subsets =&gt; **{}, {1}** and both have a gcd of 1. Hence, the answer is 1 \* 1 = **1**.
 
-**For the second test case**, **N = 2**, and **A = \[1, 2\]**. There are 4 possible subsets => **{}, {1}, {2}, {1, 2}**, having a gcd of 1, 1, 2 and 1 respectively. Hence, the answer is 1 \* 1 \* 2 \* 1 = **2**.
+**For the second test case**, **N = 2**, and **A = \[1, 2\]**. There are 4 possible subsets =&gt; **{}, {1}, {2}, {1, 2}**, having a gcd of 1, 1, 2 and 1 respectively. Hence, the answer is 1 \* 1 \* 2 \* 1 = **2**.
 
-**For the third test case**, **N = 3**, and **A = \[1, 2, 2\]**. There are 8 possible subsets => **{}, {1}, {2}, {2}, {1, 2}, {2, 2}, {1, 2}, {1, 2, 2}**, having a gcd of 1, 1, 2, 2, 1, 2, 1, 1. Hence, the answer is 1 \* 1 \* 2 \* 2 \* 1 \* 2 \* 1 \* 1 = **8**.
+**For the third test case**, **N = 3**, and **A = \[1, 2, 2\]**. There are 8 possible subsets =&gt; **{}, {1}, {2}, {2}, {1, 2}, {2, 2}, {1, 2}, {1, 2, 2}**, having a gcd of 1, 1, 2, 2, 1, 2, 1, 1. Hence, the answer is 1 \* 1 \* 2 \* 2 \* 1 \* 2 \* 1 \* 1 = **8**.

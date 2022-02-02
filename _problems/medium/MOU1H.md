@@ -83,7 +83,7 @@ Next to every place, is some mountain. A Mountain is a sequence of points **(0,h
  /        \/\
 
 </pre>
-Visitors may start their climbing from some position **i** and finish in position **j**, where **(i < j)**.They calculate the attractiveness of a mountain, as the number of different climbs that it offers. Of course, so does our Chef!
+Visitors may start their climbing from some position **i** and finish in position **j**, where **(i &lt; j)**.They calculate the attractiveness of a mountain, as the number of different climbs that it offers. Of course, so does our Chef!
 
 A climb from position **i** to position **j** is the sequence **(i,heighti), ... (j,heightj)**.Two climbs, say **i1** to **j1** and **i2** to **j2,** are different if and only if
 

@@ -71,7 +71,7 @@ layout: problem
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MAY14/mandarin/RRSTONE.pdf) and [Russian](http://www.codechef.com/download/translated/MAY14/russian/RRSTONE.pdf).
 
 Roman has no idea, why this problem is called Stone. He also has no idea on how to solve the followong problem: given array of **N** integers **A** and a number **K**. During a turn the maximal value over all **Ai** is chosen, let's call it **MAX**. Then **Ai** =
-**MAX** - **Ai** is done for every **1 <= i <= N**. Help Roman to find out how will the array look like after **K** turns.
+**MAX** - **Ai** is done for every **1 &lt;= i &lt;= N**. Help Roman to find out how will the array look like after **K** turns.
 
 ### Input
 
@@ -83,8 +83,8 @@ Output **N** numbers on a single line. It should be the array **A** after **K** 
 
 ### Constraints
 
-- **1** <= **N** <= **105**
-- 0 <= **K** <= **109**
+- **1** &lt;= **N** &lt;= **105**
+- 0 &lt;= **K** &lt;= **109**
 - **Ai** does not exceed **2 \* 109** by it's absolute value.
 
 ### Example

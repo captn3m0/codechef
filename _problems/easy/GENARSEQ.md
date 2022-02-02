@@ -11,10 +11,10 @@ layout: problem
 ---
 ###  All submissions for this problem are available. 
 
-For given two positive integers **a** and **b** let's construct the sequence **x\[1\], x\[2\], ...** by the following rules. For **k=1** we put **x\[1\]=1**. Now let **k >= 2**. Then **x\[k\]** is the least positive integer such that the following two conditions hold
+For given two positive integers **a** and **b** let's construct the sequence **x\[1\], x\[2\], ...** by the following rules. For **k=1** we put **x\[1\]=1**. Now let **k &gt;= 2**. Then **x\[k\]** is the least positive integer such that the following two conditions hold
 
-- **x\[k\] > x\[k - 1\]**;
-- for all **i, j < k** we have **x\[k\]** is not equal to **a \* x\[i\] - b \* x\[j\]**.
+- **x\[k\] &gt; x\[k - 1\]**;
+- for all **i, j &lt; k** we have **x\[k\]** is not equal to **a \* x\[i\] - b \* x\[j\]**.
 
 
  You need to find the first **n** terms of this sequence. 
@@ -31,9 +31,9 @@ For each test case, output a single line containing the numbers **x\[1\], x\[2\]
 
 ### Constraints
 
- **1 <= T <= 50 
- 1 <= a, b <= 50 
- 1 <= n <= 1000**
+ **1 &lt;= T &lt;= 50 
+ 1 &lt;= a, b &lt;= 50 
+ 1 &lt;= n &lt;= 1000**
 
 ### Example
 

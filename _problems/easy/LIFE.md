@@ -28,7 +28,7 @@ Given some state of the game, your task is to determine the state immediately pr
 
 ### Input
 
-Input will begin with an integer T<100, the number of test cases. Each test case consists of a single line, with between 3 and 50 characters, inclusive. Each character will be either '0' or '1'. Each '0' represents a dead cell, and each '1' represents an alive cell.
+Input will begin with an integer T&lt;100, the number of test cases. Each test case consists of a single line, with between 3 and 50 characters, inclusive. Each character will be either '0' or '1'. Each '0' represents a dead cell, and each '1' represents an alive cell.
 
 ### Output
 

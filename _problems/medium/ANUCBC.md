@@ -123,4 +123,4 @@ For each query output the required Answer modulo **1000000009**. Answer is the n
 ### Author's Note
 
 Time Limit is not very strict (Yes, not very loose either) if correct Algorithm is used.Author's solution passes with 2 sec Time Limit (C++ solution, using scanf and printf).
-Maximum Input File Size < 4MB.
+Maximum Input File Size &lt; 4MB.

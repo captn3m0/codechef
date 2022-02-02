@@ -21,9 +21,9 @@ Help Johnny write a program that checks whether a puzzle can be solved or not, g
 
 The first line contains a number t (about 10), the number of test cases. Each test case has the following form:
 
-The first line contains two numbers N and K (2 <= N <= 200, 0 <= K <= N). Each line in the next N lines contains N characters '0' or '1' representing the initial state of the grid. '1' denotes a light that is on and '0' a light that is off.
+The first line contains two numbers N and K (2 &lt;= N &lt;= 200, 0 &lt;= K &lt;= N). Each line in the next N lines contains N characters '0' or '1' representing the initial state of the grid. '1' denotes a light that is on and '0' a light that is off.
 
-Each line in the next K lines contains 2 integers, i and j (1 <= i, j <= N), representing the row and column of a faulty light. Rows are numbered from the top and columns from the left.
+Each line in the next K lines contains 2 integers, i and j (1 &lt;= i, j &lt;= N), representing the row and column of a faulty light. Rows are numbered from the top and columns from the left.
 
 ### Output
 

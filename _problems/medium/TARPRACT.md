@@ -45,5 +45,5 @@ In the first example, Chef shoots at the center target until any 2 targets have 
 
 - T≤30
 - 1≤N≤18
-- 0<L,S,R
+- 0&lt;L,S,R
 - L+S+R=100

@@ -28,7 +28,7 @@ The value of function CountPal(s), taking the modulo of 1 000 000 007 (109+7)
 
 ### Limitations
 
-0 < |s| <= 1000
+0 &lt; |s| &lt;= 1000
 
 ### Example
 

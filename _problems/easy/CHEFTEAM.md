@@ -15,7 +15,7 @@ Chef has **N** subordinates. In order to complete a very important order he will
 
 ### Input
 
- The first line contains a single positive integer **T <= 100**, the number of test cases. **T** test cases follow. The only line of each test case contains two integers **N** and **K**, where **0 <= N, K < 2^64**. It is guaranteed that the answer will be less than **2^64**.
+ The first line contains a single positive integer **T &lt;= 100**, the number of test cases. **T** test cases follow. The only line of each test case contains two integers **N** and **K**, where **0 &lt;= N, K &lt; 2^64**. It is guaranteed that the answer will be less than **2^64**.
 
 ### Output
 

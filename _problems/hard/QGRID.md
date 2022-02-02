@@ -80,8 +80,8 @@ Chef is helping out at a volunteering center for teaching. A child comes to Chef
 
  Consider an **M × N** grid graph. The vertices in the grid graph are identified by its row and column number, i.e., for a vertex there are two numbers **(i,j)** associated with it, where **1 ≤ i ≤ M** is its row, and **1 ≤ j ≤ N** is its column. There are two types of edges in a grid graph(note that all edges are bidirectional) :
 
-- When **i < M**, there is an edge of weight **down(i, j)** connecting **(i, j)** and **(i+1, j)**;
-- When **j < N**, there is an edge of weight **right(i, j)** connecting **(i, j)** and **(i, j+1)**.
+- When **i &lt; M**, there is an edge of weight **down(i, j)** connecting **(i, j)** and **(i+1, j)**;
+- When **j &lt; N**, there is an edge of weight **right(i, j)** connecting **(i, j)** and **(i, j+1)**.
 
  Initially, every vertex has a weight of zero.
 
@@ -115,13 +115,13 @@ For each query of type 2, output the weight of required vertex.
 - **1** ≤ **Q** ≤ **105**
 - **1** ≤ **down(i,j), right(i,j)** ≤ **1012**
 - In type 1 query : 
-  - **1** ≤ **i1, i2** ≤ **M**
-  - **1** ≤ **j1, j2** ≤ **N**
-  - **1** ≤ **c** ≤ **1013**
-  - The shortest path between **(i1, j1)** and **(i2, j2)** is **unique**.
+    - **1** ≤ **i1, i2** ≤ **M**
+    - **1** ≤ **j1, j2** ≤ **N**
+    - **1** ≤ **c** ≤ **1013**
+    - The shortest path between **(i1, j1)** and **(i2, j2)** is **unique**.
 - In type 2 query : 
-  - **1** ≤ **i** ≤ **M**
-  - **1** ≤ **j** ≤ **N**
+    - **1** ≤ **i** ≤ **M**
+    - **1** ≤ **j** ≤ **N**
 
 ### Subtasks
 
@@ -129,9 +129,9 @@ For each query of type 2, output the weight of required vertex.
 - **Subtask #2: (11 points)**: **M = 1**.
 - **Subtask #3: (30 points)**: **M = 2**.
 - **Subtask #4: (24 points)**: 
-  - **down(i,j)** and **right(i,j)** are uniformly randomly generated from **\[1,3 × 1010\]**.
-  - Queries are also randomly generated.
-  - There is only one test file for this subtask.
+    - **down(i,j)** and **right(i,j)** are uniformly randomly generated from **\[1,3 × 1010\]**.
+    - Queries are also randomly generated.
+    - There is only one test file for this subtask.
 - **Subtask #5: (29 points):**: Original Constraints
 
 ### Example
@@ -174,8 +174,8 @@ For each query of type 2, output the weight of required vertex.
 
  ![](https://codechef_shared.s3.amazonaws.com/upfiles/QGRID_sample_explanation_mfpOHUo4Bq.png)
 
- The shortest path between (2,2) and (3,3) is (2,2)->(2,1)->(3,1)->(3,2)->(3,3). We add 1 to these 5 vertices.
+ The shortest path between (2,2) and (3,3) is (2,2)-&gt;(2,1)-&gt;(3,1)-&gt;(3,2)-&gt;(3,3). We add 1 to these 5 vertices.
 
- The shortest path between (2,2) and (1,3) is (2,2)->(1,2)->(1,3). We add 2 to these 3 vertices.
+ The shortest path between (2,2) and (1,3) is (2,2)-&gt;(1,2)-&gt;(1,3). We add 2 to these 3 vertices.
 
  Note that the shortest path between (1,1) and (2,2) is not unique. However, the queried paths are (2,2)-(3,3) and (2,2)-(1,3), and the shortest paths of these pairs of points are unique, so this data is valid.

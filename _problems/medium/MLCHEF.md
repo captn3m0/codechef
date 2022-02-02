@@ -100,11 +100,11 @@ For each query of the second type, print one integer as asked in the question.
 
 ### Constraints
 
-1 <= **N** <= 105
-1 <= **Q** <= 105
-0 <= **A** <= **N**
-1 <= **H** <= 109
-1 <= **X** <= 104
+1 &lt;= **N** &lt;= 105
+1 &lt;= **Q** &lt;= 105
+0 &lt;= **A** &lt;= **N**
+1 &lt;= **H** &lt;= 109
+1 &lt;= **X** &lt;= 104
 
 ### Example
 
@@ -131,19 +131,19 @@ In this sample, chef-**1** and chef-**2** have Chief Chef(chef-0) as immediate s
 
 Immediate inferiors of the chefs are :
 
-chef-0 -> chef-**1** and chef-**2**
-chef-**1** -> *None*
-chef-**2** -> chef-**3** and chef-**4**
-chef-**3** -> *None*
-chef-**4** -> *None*
+chef-0 -&gt; chef-**1** and chef-**2**
+chef-**1** -&gt; *None*
+chef-**2** -&gt; chef-**3** and chef-**4**
+chef-**3** -&gt; *None*
+chef-**4** -&gt; *None*
 
 Inferior chefs of the respective chefs are :
 
-chef-0 -> chef-**1**,chef-**2**,chef-**3**,chef-**4**
-chef-**1** -> *None*
-chef-**2** -> chef-**3**, chef-**4**
-chef-**3** -> *None*
-chef-**4** -> *None*
+chef-0 -&gt; chef-**1**,chef-**2**,chef-**3**,chef-**4**
+chef-**1** -&gt; *None*
+chef-**2** -&gt; chef-**3**, chef-**4**
+chef-**3** -&gt; *None*
+chef-**4** -&gt; *None*
 
 Initially the healths of these **4** chefs are (**1**, **2**, **2**, **1**).
 

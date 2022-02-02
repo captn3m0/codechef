@@ -36,12 +36,12 @@ Let's formalize things a little. The rules Ranju made to describe a password (co
 - Ranju will use only the words *zero, one, two, three, four, five, six, seven, eight, nine, odd, even*. These are called *literal*s.
 - He will also use *comma*s to separate the *segment*s and a *full stop* to mark the end.
 - Each segment will consist of one *clause*. A clause can be either: 
-  - A literal followed by a clause. *or*,
-  - A literal.
+    - A literal followed by a clause. *or*,
+    - A literal.
 - A literal matches with a digit/number as per following rules: 
-  - *zero, one, two, ... , nine* match with *0, 1, 2, ... , 9* respectively.
-  - *odd* matches with any of the 5 odd digits/numbers - *1, 3, 5, 7, 9*
-  - *even* matches with any of the *5* even digits/numbers - *0, 2, 4, 6, 8*
+    - *zero, one, two, ... , nine* match with *0, 1, 2, ... , 9* respectively.
+    - *odd* matches with any of the 5 odd digits/numbers - *1, 3, 5, 7, 9*
+    - *even* matches with any of the *5* even digits/numbers - *0, 2, 4, 6, 8*
 - For a clause which has a literal followed by another clause, we call the literal *directive literal* and the following clause *child clause*. This kind of clause matches with the occurrence of the child clause a number of times directed by the directive literal.
 
 Let's consider the clause *two odd three*. Here the directive literal is *two* and child clause is *odd three*. The child clause also has a directive literal(*odd*) and a child clause(*three*). the clause *odd three* matches with *3*, *333*, *33333*, etc. The clause *two odd three* matches with *33* (two occurrences of *3*), *333333* (two occurrences of *333*), etc. Note that it doesn't match with *3333* (the concatenation of *3* and *333*). The child clauses should be identical.

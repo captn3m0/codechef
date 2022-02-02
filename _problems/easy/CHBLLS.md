@@ -82,7 +82,7 @@ To do that, you can use mechanical scales with two weighing pans. As your scales
 - But if you put into the first pan some balls of total weight 3 kg, and into the second pan of 5 kg, then scales will tell you "-2" because the second pan is 2 kg heavier than first.
 - Similarly, if you put 5 kg weight in first pan and 3 kg in the second pan, then scale will tell you "2" as first pan is 2 kg heavier than second.
 
-### Input & Output
+### Input &amp; Output
 
 - The interaction process have two phases. At first phase you perform sequence of weighings on the mechanical scales. At the second phase you should output the colour of the heavier balls.
 - To use the mechanical scales, you should print "1"(without quotes) and then print two lines, the first line will describe the enumeration of colours of balls on the first pan and second line should that of second pan.

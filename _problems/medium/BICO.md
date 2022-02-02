@@ -99,7 +99,7 @@ It is guaranteed that a solution exists. And if there are multiple solutions, pr
 1 ≤ **T** ≤ 10000
 0 ≤ **C** ≤ 49
 0 ≤ **R** ≤ 99
-1 ≤ **G** ≤ 1012/>/>/>
+1 ≤ **G** ≤ 1012
 
 ### Example
 
@@ -121,4 +121,4 @@ It is guaranteed that a solution exists. And if there are multiple solutions, pr
 
 **Example case 1.** We first pick 3 coins from \[3, 2\] then we pick 2 coins from \[2, 1\]
 **Example case 2.** As 3rd column contains 10 coins in cell \[5, 3\] we pick it.
-**Example case 3.** We first pick 5 coins from \[5, 4\] then we pick 1 coin from \[3, 3\] and again we pick 1 coin from \[2, 2\]./>/>
+**Example case 3.** We first pick 5 coins from \[5, 4\] then we pick 1 coin from \[3, 3\] and again we pick 1 coin from \[2, 2\].

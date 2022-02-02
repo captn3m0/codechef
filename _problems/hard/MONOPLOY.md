@@ -73,7 +73,7 @@ The next line contains **Q**, the number of queries. The next **Q** lines each c
 
 If **t='O'**, it means a new gangster has marched from capital to u, Occupying all cities along the path.
 
-If **t='q'**, it means you have to report **f(u)**/>/>
+If **t='q'**, it means you have to report **f(u)**
 
 ### Output
 

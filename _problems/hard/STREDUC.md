@@ -46,8 +46,8 @@ aaa
 </pre>
 ### Limitations
 
-- 0<l≤250
-- 0<n≤30
-- 0<|Si|≤20
+- 0&lt;l≤250
+- 0&lt;n≤30
+- 0&lt;|Si|≤20
 
 **NOTE:** Because the testcases were created in Windows environment so it may be different from the Unix systems. The problems occur when using getline or gets because they tend to read '\\r'. Instead using scanf("%s") or cin suffices for the given problem.

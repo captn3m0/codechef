@@ -48,7 +48,7 @@ For each test case, output the maximum possible sum of ratings along a path that
 1 ≤ R, C ≤ 2012
 -500 ≤ A\[i\]\[j\] ≤ 500
 1 ≤ P, Q ≤ 1,000,000
-1 < X < M ≤ 500
+1 &lt; X &lt; M ≤ 500
 
 ### Example
 

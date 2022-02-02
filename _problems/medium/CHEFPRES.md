@@ -82,7 +82,7 @@ After Chef has arrived and settled in, he plans to create a new recipe. This wil
 Specifically, suppose Chef will be living in the city **A**. For each city **i**, let **G(i)** be the smallest distance between **B** and any city on the unique path connecting cities **A** and **i**. Chef wants to travel to the city **C** such that:
 
 - **F(C)**=**P**
-- There is no other city **D** having **F(D)**=**P** and **G(D)** > **G(C)**.
+- There is no other city **D** having **F(D)**=**P** and **G(D)** &gt; **G(C)**.
 
 If there are several cities with this property, Chef will choose the one with the smallest number. It is possible that **C** may equal **A**, in which case he does not have to travel at all.
 

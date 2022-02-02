@@ -91,7 +91,7 @@ A city is constructed, which has **n \* m** houses. The house located at **(i, j
 
 Note than in the above construction, the heights of houses inside the city are not constant, but vary based on outcome of the previous algorithm.
 
-You have to answer **Q** queries, where each query is defined by an integer **k** (**0 < k < n \* m**). You have to find the smallest integer **X**, so that if there is **X** amount of rainfall, expected number of houses submerged in water are at least **k**.
+You have to answer **Q** queries, where each query is defined by an integer **k** (**0 &lt; k &lt; n \* m**). You have to find the smallest integer **X**, so that if there is **X** amount of rainfall, expected number of houses submerged in water are at least **k**.
 
 ### Input
 
@@ -113,7 +113,7 @@ For each test case, for each query, output a single line containing the smallest
 - **1 ≤ n,m ≤ 20**
 - **1 ≤ A\[i\]\[j\] ≤ 5**
 - **1 ≤ Q ≤ 400**
-- **0 < k < n\*m**
+- **0 &lt; k &lt; n\*m**
 - The sum of **n\*m** for all test cases in a single file does not exceed 500
 
 ### Example

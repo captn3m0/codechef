@@ -75,7 +75,7 @@ layout: problem
 ---
 All submissions for this problem are available.### Read problems statements in [Mandarin chinese](http://www.codechef.com/download/translated/JAN18/mandarin/SQRGOOD.pdf), [Russian](http://www.codechef.com/download/translated/JAN18/russian/SQRGOOD.pdf) and [Vietnamese](http://www.codechef.com/download/translated/JAN18/vietnamese/SQRGOOD.pdf) as well.
 
-Tiny Wong the chef used to be a mathematics teacher in a senior high school. At that time, he always used to tell his students that when there is a square root of some number in one’s final result, it should be simplified by factoring out the largest square divisor of this number. For example, √ 12  = 2 √ 3 . Therefore, if an integer **n** has a square divisor, i.e. there is a number **d** > 1 such that **d2** divides **n**, then the square root of **n** needs to be simplified.
+Tiny Wong the chef used to be a mathematics teacher in a senior high school. At that time, he always used to tell his students that when there is a square root of some number in one’s final result, it should be simplified by factoring out the largest square divisor of this number. For example, √ 12  = 2 √ 3 . Therefore, if an integer **n** has a square divisor, i.e. there is a number **d** &gt; 1 such that **d2** divides **n**, then the square root of **n** needs to be simplified.
 
 Tiny himself should generate for homework some number whose square root needs simplifying. Since he used to major in Computer Science, he prefers random numbers. Therefore, he randomly chose a number **n** and decided to use the **n**-th smallest number whose square root needs simplifying in today’s homework.
 

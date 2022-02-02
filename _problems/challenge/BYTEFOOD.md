@@ -82,7 +82,7 @@ All the input data are integers.
 
 Process all test cases. The correct output for the *i*-th test case takes the following form: 
 *i* \[the number of the test case, in the input order\] 
-*s m* \[*s* is the number of the target shop and *m* > 0 is the number of minutes spent in it\]. 
+*s m* \[*s* is the number of the target shop and *m* &gt; 0 is the number of minutes spent in it\]. 
 At the end of the series of moves you should always write a line conisting of two zeros ('0 0'). 
 
 All the output data should be integers.

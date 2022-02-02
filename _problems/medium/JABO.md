@@ -69,7 +69,7 @@ time:
 layout: problem
 ---
 All submissions for this problem are available.Jimmy is a very studious and obedient boy. He has recently joined Digital Circuits Course in his school. He is absolutely fascinated by digital circuits, and stays back in lab after school hours to make circuits. What interests him is plugging wires and voltage sources on Jam Board and then lighting up an LED.
-A Jam Board is a large plastic board, with lots of holes in it. The holes are arranged as following-/>
+A Jam Board is a large plastic board, with lots of holes in it. The holes are arranged as following-
 
 - Holes in a group of 5 share a common metallic plate, i.e if one of them gets a high voltage, then all 5 of them are at "High". The group is aligned vertically.
 - There are several groups placed horizontally as well as vertically, depending on the dimensions of the Jam Board.
@@ -99,13 +99,13 @@ Since the number of connections is rather enormous and confusing, he requires yo
 
 However Jimmy's cryptography classes have made him rather irksome. He is telling you the row or column not as a number, but in a Base-52 notation of his own. In this notation, each number is represented as 2 characters, where each character can be either A-Z or a-z.
 Here A = 0, B = 1, ... Z = 25, a = 26, ... z = 51. So 1 is represented as AB, 5 is AF, 97 is Bt.
-And to top that he doesn't give any gap between row number and column number, or between pair of coordinates (column and row), used to indicate the endpoints of wire. />
+And to top that he doesn't give any gap between row number and column number, or between pair of coordinates (column and row), used to indicate the endpoints of wire.
 
 ### Input
 
 The first line contains 3 space separated integers, **N** (≤ 1000000), **R** (≤ 500), **C** (≤ 2500).
 R is the number of rows and C is the number of columns in the Jam Board.
-Then N lines follow. Each line starts with one of the following characters-/>/>
+Then N lines follow. Each line starts with one of the following characters-
 
 - W - It means a wire is attached in the Board. W is followed by the pair of coordinates, for the two endpoints of wire.
 - V - It means a voltage is applied on the board. V is followed by the coordinate where the Voltage is applied.
@@ -113,7 +113,7 @@ Then N lines follow. Each line starts with one of the following characters-/>/>
 - L - It means an LED is attached on the Board. L is followed by the pair of coordinates, for the two endpoints of LED.
 
 
-Note that there is no space between coordinates, and between column and row, for any type of query. See example for clarity. />
+Note that there is no space between coordinates, and between column and row, for any type of query. See example for clarity.
 
 ### Output
 

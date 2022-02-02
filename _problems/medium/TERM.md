@@ -34,13 +34,13 @@ Output T lines, each line containing the Sum over (i=0 to n) f(i,k) for the give
 
 ### Limit:
 
-1<=T<=10000
+1&lt;=T&lt;=10000
 
-0<=n<=10^15
+0&lt;=n&lt;=10^15
 
-1<=k<=10^15
+1&lt;=k&lt;=10^15
 
-1<=p<=100
+1&lt;=p&lt;=100
 
 p prime number
 

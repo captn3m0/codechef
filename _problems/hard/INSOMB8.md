@@ -16,35 +16,33 @@ Mohit was an inquisitive physics student. When he saw snow falling from the sky 
 Given the coordinates of the edges of the snow crystals (assuming them to be flat bodies) in the order in which they drop onto the slides, determine if the slide surface that has been completely covered by snow crystals. Display Yes, if that is the case, No otherwise.
 
 
-Note: A polygon may be split into multiple regions by having non-adjacent edges meeting at a point but not crossing. />/>
+Note: A polygon may be split into multiple regions by having non-adjacent edges meeting at a point but not crossing.
 
 **Input Format:**
 
-Line 1: N – Number of snow crystals. (1 <= N <= 20) followed by 
+Line 1: N – Number of snow crystals. (1 &lt;= N &lt;= 20) followed by 
 
 Line 2 to N+1: K x1 y1 x2 y2 ... xk yk 
 
 
 
-Where K represents the number of sides of the polygon traced out by the flake on the glass slide and xi yi (i = 1 to K) are the 2D coordinates of the vertices of the polygon such that consecutive vertices form the end points of edges of the polygon with respect to an arbitrary coordinate system. (3 <= K <= 10). Abs(xi), Abs(yi) < 1000. No two non adjacent sides of the given polygon will intersect each other and the input vertices will always specify a valid polygon.
+Where K represents the number of sides of the polygon traced out by the flake on the glass slide and xi yi (i = 1 to K) are the 2D coordinates of the vertices of the polygon such that consecutive vertices form the end points of edges of the polygon with respect to an arbitrary coordinate system. (3 &lt;= K &lt;= 10). Abs(xi), Abs(yi) &lt; 1000. No two non adjacent sides of the given polygon will intersect each other and the input vertices will always specify a valid polygon.
 
 
 
 Line N+2: S x1 y1 x2 y2 ... xs ys 
 
-Where S represents the number of sides of the glass slide and xj yj (j = 1 to s) are the coordinates of the corners of the glass slide in the same coordinate system. (3 <= S <= 10). Abs(xj), Abs(yj) < 1000. />/>/>/>/>/>
+Where S represents the number of sides of the glass slide and xj yj (j = 1 to s) are the coordinates of the corners of the glass slide in the same coordinate system. (3 &lt;= S &lt;= 10). Abs(xj), Abs(yj) &lt; 1000.
 
 
 
 **Output Format:**
 
-/>/>
-
 Line 1: Yes/No
 
 
 
-**Sample Input:**/>
+**Sample Input:**
 
 <pre>
 4
@@ -57,11 +55,11 @@ Line 1: Yes/No
 
 
 
-**Sample Output:**/>/>
+**Sample Output:**
 
 <pre>
 Yes
 </pre>
 **The figure for the sample input is:**
 
-![](/fallingsnow.jpg)/>
+![](/fallingsnow.jpg)

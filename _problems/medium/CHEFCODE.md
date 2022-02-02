@@ -109,4 +109,4 @@ Print the answer to the given test case in a separate line.
 </pre>
 ### Explanation
 
-For the given sample case, there are **7** non-empty subsequences out of which **2** have their product > **4**. Those include {**2**, **3**} and {**1**, **2**, **3**}. Hence, the answer is **7** - **2** = **5**.
+For the given sample case, there are **7** non-empty subsequences out of which **2** have their product &gt; **4**. Those include {**2**, **3**} and {**1**, **2**, **3**}. Hence, the answer is **7** - **2** = **5**.

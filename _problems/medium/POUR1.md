@@ -26,7 +26,7 @@ At the beginning both vessels are empty. The following operations are counted as
 ### Input
 
 
-An integer *t*, 1<=*t*<=100, denoting the number of test cases, followed by *t* sets of input data, each consisting of three positive integers a (the number of liters the first container can hold), b (the number of liters the second container can hold), and c (the final amount of liters of water one vessel should contain), not larger than 40000, given in separate lines.
+An integer *t*, 1&lt;=*t*&lt;=100, denoting the number of test cases, followed by *t* sets of input data, each consisting of three positive integers a (the number of liters the first container can hold), b (the number of liters the second container can hold), and c (the final amount of liters of water one vessel should contain), not larger than 40000, given in separate lines.
 
 ### Output
 

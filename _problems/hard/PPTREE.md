@@ -123,9 +123,6 @@ So the maximal value Polo can get is **3**.
 
 **Example case 2.** If Polo chooses vertices **1** and **4**, then the XOR-sum is equal to **2** XOR **1** = **3**. This is the maximal value he can get in this case.
 
-
-/>
-
 ### NOTE
 
 [XOR operation](http://en.wikipedia.org/wiki/Exclusive_or) is a bitwise "Exclusive OR" operation performed on two integers in binary representation. First, the shorter number is prepended with leading zeroes until the numbers have equal size in binary. Then the resulting number (also in binary) contains 0 in all positions where the corresponding bits coincide, and **1** on the rest of the positions.

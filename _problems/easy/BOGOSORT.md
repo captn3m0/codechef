@@ -19,8 +19,8 @@ The first line of input file is number t - the number of test cases. Each of the
 
 ### Constraints
 
-1 <= t <= 150
-2 <= n <= 150
+1 &lt;= t &lt;= 150
+2 &lt;= n &lt;= 150
 
 ### Output
 

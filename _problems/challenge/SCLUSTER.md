@@ -99,9 +99,9 @@ The first line of input contains an integer **T**, denoting the number of test c
 
 The first line of each test case contains two space separated integers **N** and **K**, denoting the grid size and the number of individuals, respectively. Then **N** lines follow. The **ith** of these lines contains **N** space separated integers, denoting the information regarding the **ith** row. The **jth** value of **ith** row contains the index value of an individual at **(i, j)** cell. The index value, of course, ranges from **1** to **K**. Empty cells have zero value.
 
-Then **K** lines follow. The **ith** of these lines contains the value of **Ii**
+Then **K** lines follow. The **ith** of these lines contains the value of **Ii**, the interaction power of **ith** individual.
 
-, the interaction power of **ith** individual. ### Output
+### Output
 
  For each test case, print **N** lines, each line containing **N** space separated integers. It represents the **N × N** grid containing the cluster.
 

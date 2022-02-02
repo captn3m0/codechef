@@ -24,8 +24,8 @@ Help Bob do operations of the second type.
 
 - The first line contains the integers n,m,c, respectively.
 - m following lines, each forms: 
-  - **S u v k** to describe an operation of the first type.
-  - **Q p** to describe an operation of the second type.
+    - **S u v k** to describe an operation of the first type.
+    - **Q p** to describe an operation of the second type.
 
 ***(Each integer on a same line, or between the characters S, Q and the integers is separated by at least one space character)***
 ### Output
@@ -51,8 +51,8 @@ Q 3
 </pre>
 ### Limitations
 
-- 0<n≤106
-- 0<m≤250 000
-- 0<u≤v≤n
+- 0&lt;n≤106
+- 0&lt;m≤250 000
+- 0&lt;u≤v≤n
 - 0≤c,k≤109
-- 0<p≤n
+- 0&lt;p≤n

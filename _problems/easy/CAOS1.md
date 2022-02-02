@@ -80,7 +80,7 @@ Kirito is a known star player of CAO. You have to help him log out.
 **Present**
 
 
-*Stage 1*/>
+*Stage 1*
 
 A map is described by a 2D grid of cells. Each cell is either labelled as a **\#** or a **^**. **\#** denotes a wall. A monster exists in a cell if the cell is not a wall and the cell is a **centre of Prime-Cross (CPC)**.
 

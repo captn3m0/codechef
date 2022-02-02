@@ -103,6 +103,7 @@ $2$ $L$ $R$ $x$ Chef arrives at market to buy chocolates with $x$ coins in his p
 Print the answer for each query of type two in a new line. 
 ### Constraints
 
+
 17. $1 \\leq N \\leq 50000$
 18. $1 \\leq A\[i\] ,B\[i\] \\leq 10^5$
 19. $1 \\leq Q \\leq 10^5$

@@ -66,7 +66,7 @@ time:
     current: 1493557641
 layout: problem
 ---
-All submissions for this problem are available.**N** students were giving an examination. The students were sitting in a line from **1** to **N** in order. The **ith** student had knowledge **ki** in the subject on which the exam was being conducted. Every student is not confident about his own preparation, so each student wants to find some students (possibly zero), from whom they can copy the answers. Student **i** can copy from student **j** only if **kj** > **ki**.There are **M** teachers who are the exam checkers - **jth** checker will check the answer-sheets of some continuosly sitting students from the index **Li** to **Ri** inclusive. All the students got this information before hand, so they decided that they won't copy the solutions from a person whose answer-sheet is being checked by the same checker as that of himself. Also, each student can see only up to distance **D**, so a student at index **i**, can copy solutions of students in the range **i - D** to **i + D**, both inclusive. From all the candidate students from which a student can copy, the student will copy from the most knowledgeable students.
+All submissions for this problem are available.**N** students were giving an examination. The students were sitting in a line from **1** to **N** in order. The **ith** student had knowledge **ki** in the subject on which the exam was being conducted. Every student is not confident about his own preparation, so each student wants to find some students (possibly zero), from whom they can copy the answers. Student **i** can copy from student **j** only if **kj** &gt; **ki**.There are **M** teachers who are the exam checkers - **jth** checker will check the answer-sheets of some continuosly sitting students from the index **Li** to **Ri** inclusive. All the students got this information before hand, so they decided that they won't copy the solutions from a person whose answer-sheet is being checked by the same checker as that of himself. Also, each student can see only up to distance **D**, so a student at index **i**, can copy solutions of students in the range **i - D** to **i + D**, both inclusive. From all the candidate students from which a student can copy, the student will copy from the most knowledgeable students.
 
 For each student, print the knowledge of the student(s) from whom he can copy, as well as the number of such students.
 If a certain student can not copy, print **"-1"**.
@@ -79,7 +79,7 @@ Second line contains **N** space-separated integers, where the **ith** integer r
 
 **M** lines follow - each line contains 2 space-separated integers - **Lj** and **Rj**, representing the continuous range of indexes whose answer sheet will be checked by the **jth** checker.
 
-The **(M + 3)th** line contains a single integer **D** - the distance upto which each student can see for copying answers./>/>/>
+The **(M + 3)th** line contains a single integer **D** - the distance upto which each student can see for copying answers.
 
 ### Output
 
@@ -87,7 +87,7 @@ Print **N** lines, where **ith** line represents the answer for **ith** student.
 
 On each line, print the knowledge of the student(s) from whom the **ith** student can copy as per the rule mentioned in the statement, and the number of such students, separated by a space.
 
-If the student can not copy from any student, print **"-1"** (without the quotes)./>/>
+If the student can not copy from any student, print **"-1"** (without the quotes).
 
 ### Constraints
 
@@ -100,7 +100,6 @@ If the student can not copy from any student, print **"-1"** (without the quotes
 1 ≤ **Lj** ≤ **Rj** ≤ **N**
 
 1 ≤ **D** ≤ **N**
-/>/>/>/>/>
 
 ### Subtasks
 
@@ -119,12 +118,10 @@ Subtask 2: 20 points
 Subtask 3: 60 points
 
 No additional constraint
-/>/>/>/>/>/>/>/>
 
 ### Example
 
 **Input**
-/>
 
 <pre>
 10 5
@@ -139,7 +136,6 @@ No additional constraint
 
 
 **Output**
-/>/>
 
 <pre>
 -1

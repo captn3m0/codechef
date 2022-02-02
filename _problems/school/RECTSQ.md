@@ -80,9 +80,9 @@ Output is a single line which denotes the minimum number of square plots that ca
 
 ### Constraints
 
-1<=T<=20 
-1<=M<=10000 
-1<=N<=10000
+1&lt;=T&lt;=20 
+1&lt;=M&lt;=10000 
+1&lt;=N&lt;=10000
 
 <pre><b>Input:</b>
 2

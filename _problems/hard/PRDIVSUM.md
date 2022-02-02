@@ -11,11 +11,11 @@ layout: problem
 ---
 ###  All submissions for this problem are available. 
 
-For a given positive integer **N** find the number of all pairs **(a, b)** of positive integers such that **1 <= a < b <= N** and the sum **a + b** divides the product **a \* b**.
+For a given positive integer **N** find the number of all pairs **(a, b)** of positive integers such that **1 &lt;= a &lt; b &lt;= N** and the sum **a + b** divides the product **a \* b**.
 
 ### Input
 
-The first line contains a single positive integer **T <= 5**, the number of test cases. **T** test cases follow. The only line of each test case contains a positive integer **N <= 109**.
+The first line contains a single positive integer **T &lt;= 5**, the number of test cases. **T** test cases follow. The only line of each test case contains a positive integer **N &lt;= 109**.
 
 ### Output
 

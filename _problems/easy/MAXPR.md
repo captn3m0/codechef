@@ -75,12 +75,12 @@ Maxim likes arithmetic progressions and does not like sequences which are not ar
 
 Now he is interested in the question: how many subsequences of his sequence **a**, consisting of **n** elements, are not arithmetic progressions.
 
-Sequence **s\[1\], s\[2\], ..., s\[k\]** is called a subsequence of sequence **a\[1\], a\[2\], ..., a\[n\]**, if there will be such increasing sequence of indices **i\[1\], i\[2\], ..., i\[k\] (1 ≤ i\[1\] < i\[2\] < ... < i\[k\] ≤ n)**, that **a\[i\[j\]\]** = **s\[j\]**. In other words, sequence **s** can be obtained from the **a** by deleting some elements.
+Sequence **s\[1\], s\[2\], ..., s\[k\]** is called a subsequence of sequence **a\[1\], a\[2\], ..., a\[n\]**, if there will be such increasing sequence of indices **i\[1\], i\[2\], ..., i\[k\] (1 ≤ i\[1\] &lt; i\[2\] &lt; ... &lt; i\[k\] ≤ n)**, that **a\[i\[j\]\]** = **s\[j\]**. In other words, sequence **s** can be obtained from the **a** by deleting some elements.
 
 Sequence **s\[1\], s\[2\], ..., s\[k\]** is called an arithmetic progression, if it can be represented as :
 
 7. **s\[1\]** = **p**, where **p** — some integer;
-8. **s\[i\]** = **p + (i - 1)·q (i > 1)**, where **q** — some integer.
+8. **s\[i\]** = **p + (i - 1)·q (i &gt; 1)**, where **q** — some integer.
 In particular, the empty sequence or a sequence of one element is an arithmetic progression.
 
 ### Input

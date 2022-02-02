@@ -31,12 +31,12 @@ For each travel route from the input file output a single line containing word *
 
 ### Constraints
 
- **1 <= N <= 50 
- 0 <= M <= N \* (N - 1) 
- 1 <= D <= 20000 
- 1 <= T <= 50 
- 1 <= K <= 50 
- 1 <= length of each string <= 20**
+ **1 &lt;= N &lt;= 50 
+ 0 &lt;= M &lt;= N \* (N - 1) 
+ 1 &lt;= D &lt;= 20000 
+ 1 &lt;= T &lt;= 50 
+ 1 &lt;= K &lt;= 50 
+ 1 &lt;= length of each string &lt;= 20**
 
 ### Example
 

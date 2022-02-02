@@ -67,8 +67,8 @@ layout: problem
 ---
 All submissions for this problem are available.An *addition chain* for a positive integer **N** is a sequence of positive integers **C = (A0, A1, ..., AL)** such that
 
-- **1 = A0 < A1 < ... < AL – 1 < AL = N**,
-- for each **i** such that **1 ≤ i ≤ L** there exist integers **j** and **k** such that **0 ≤ j, k < i** and **Ai = Aj + Ak**.
+- **1 = A0 &lt; A1 &lt; ... &lt; AL – 1 &lt; AL = N**,
+- for each **i** such that **1 ≤ i ≤ L** there exist integers **j** and **k** such that **0 ≤ j, k &lt; i** and **Ai = Aj + Ak**.
 
 The integer **L** is called the *length* of the chain **C**.
 
@@ -96,8 +96,8 @@ The only line of the input file contains an integer **N**, the number for which 
 The first line of the output file should contain an integer **L ≤ 500**, the length of your addition chain for the value of **N** given in the input file. **L** lines should follow. **i**th line should contain two non-negative integers **j\[i\]** and **k\[i\]** both less than **i** separated by exactly one space. Their meaning is that for your addition chain, **Ai** is equal to **Aj\[i\] + Ak\[i\]**. More specifically, your output will be considered as correct if and only if all of the following conditions hold:
 
 - **1 ≤ L ≤ 500**;
-- **0 ≤ j\[i\], k\[i\] < i** for all **i** such that **1 ≤ i ≤ L**;
-- for the sequence  **(A0, A1, ..., AL)** defined by the rules **A0 = 1** and **Ai = Aj\[i\] + Ak\[i\]** for **i = 1, 2, ..., L** we have **1 = A0 < A1 < ... < AL – 1 < AL = N**.
+- **0 ≤ j\[i\], k\[i\] &lt; i** for all **i** such that **1 ≤ i ≤ L**;
+- for the sequence  **(A0, A1, ..., AL)** defined by the rules **A0 = 1** and **Ai = Aj\[i\] + Ak\[i\]** for **i = 1, 2, ..., L** we have **1 = A0 &lt; A1 &lt; ... &lt; AL – 1 &lt; AL = N**.
 
 **Your program will get Accepted if and only if it returns correct output for each test case within a given time limit.**
 
@@ -107,7 +107,7 @@ Your score for a test file is the length of your addition chain, that is, an int
 
 ### Constraints
 
-**1** < **N** < **10100**
+**1** &lt; **N** &lt; **10100**
 
 ### Example
 
@@ -130,4 +130,4 @@ Sample output represents an addition chain **(1, 2, 3, 4, 5, 10, 15)** for **N =
 
 ### Test Generation
 
-Values of **N** are generated using different strategies. There are **50** official test files in all. Among them there are **8** files where **N < 100000**, **5** files where **N** is a random decimal string of the length **100** (that is, each digit of **N** is distributed uniformly in the range **\[0, 9\]** except the first digit which is distributed in the range **\[1, 9\]**), **8** files where binary representation of **N** is a random string of the random length from **300** to **332** (that is, at first an integer **L** is chosen randomly in the range **\[300, 332\]** and then **L** digits **d1, d2, ..., dL** are chosen so that  **d1 = 1** and each  **di, 2 ≤ i ≤ L,** is uniformly distributed in the range **\[0, 1\]**. After that **N** is set to **d1 ∙ 2L-1 + d2 ∙ 2L-2 + ... + dL-1 ∙ 2 + dL**, that is, **d1d2...dL** is the binary representation of **N**). Other **29** files generated using some special strategies which we prefer to keep in secret.
+Values of **N** are generated using different strategies. There are **50** official test files in all. Among them there are **8** files where **N &lt; 100000**, **5** files where **N** is a random decimal string of the length **100** (that is, each digit of **N** is distributed uniformly in the range **\[0, 9\]** except the first digit which is distributed in the range **\[1, 9\]**), **8** files where binary representation of **N** is a random string of the random length from **300** to **332** (that is, at first an integer **L** is chosen randomly in the range **\[300, 332\]** and then **L** digits **d1, d2, ..., dL** are chosen so that  **d1 = 1** and each  **di, 2 ≤ i ≤ L,** is uniformly distributed in the range **\[0, 1\]**. After that **N** is set to **d1 ∙ 2L-1 + d2 ∙ 2L-2 + ... + dL-1 ∙ 2 + dL**, that is, **d1d2...dL** is the binary representation of **N**). Other **29** files generated using some special strategies which we prefer to keep in secret.

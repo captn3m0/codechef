@@ -74,9 +74,9 @@ All submissions for this problem are available.###  Read problems statements in 
 
 You are given a connected undirected graph **G**, consisting of **N** vertices and **M** edges. The vertices of **G** are indexed with integers 1, 2, 3, ..., **N**, the edges of **G** are indexed with integers 1, 2, 3, ..., **M**. Each edge of **G** has *a capacity* - a positive integer parameter. Each pair of the vertices is connected by at most one edge. No edge connects a vertex with itself.
 
-Let's call a sequence of vertices **A** = **A1**, **A2**, ..., **AK**(**K** > 2) *a simple cycle*, if:
+Let's call a sequence of vertices **A** = **A1**, **A2**, ..., **AK**(**K** &gt; 2) *a simple cycle*, if:
 
-- There's an edge between vertices **Ai** and **Ai + 1**, for each 1 ≤ **i** < **K**;
+- There's an edge between vertices **Ai** and **Ai + 1**, for each 1 ≤ **i** &lt; **K**;
 - There's an edge between vertices **A1** and **AK**;
 - **Ai** equals to **Aj** if and only if **i** equals to **j**.
 

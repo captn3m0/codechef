@@ -42,7 +42,7 @@ It is always possible to construct volume 0.
 <pre>
 ###  Constraints 
 
-1 < n ≤ 10 
+1 &lt; n ≤ 10 
 1 ≤ xi ≤ 107 
 MIN(xi) ≤ 100000 
 1 ≤ Q ≤ 1000000 

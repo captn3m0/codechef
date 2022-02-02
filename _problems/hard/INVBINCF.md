@@ -70,17 +70,17 @@ time:
 layout: problem
 ---
 All submissions for this problem are available.The binomial coefficient **C(N, K)** is defined as **N! / K! / (N − K)!** for **0 ≤ K ≤ N**.
- Here **N! = 1 \* 2 \* ... \* N** for **N ≥ 1**, and **0! = 1**./>
+ Here **N! = 1 \* 2 \* ... \* N** for **N ≥ 1**, and **0! = 1**.
 
 You are given integers **n** and **R**.
  You need to find the smallest **K** in the range **{0, 1, ..., 2n − 1}**, for which **C(2n − 1, K) mod 2n = R**.
- Here **A mod B** denotes the remainder of the division of **A** by **B**. If no such **K** exists output **-1**./>/>
+ Here **A mod B** denotes the remainder of the division of **A** by **B**. If no such **K** exists output **-1**.
 
 ### Input
 
 The first line of the input contains an integer **T**, denoting the number of test cases.
  The description of **T** test cases follows.
- The only line of each test case contains two space-separated integers **n** and **R**./>/>
+ The only line of each test case contains two space-separated integers **n** and **R**.
 
 ### Output
 
@@ -90,7 +90,7 @@ For each test case output the answer on the separate line.
 
 - **1** ≤ **T** ≤ **100**
 - **1** ≤ **n** ≤ **120**
-- 0 ≤ **R** < **2n**
+- 0 ≤ **R** &lt; **2n**
 
 ### Example
 

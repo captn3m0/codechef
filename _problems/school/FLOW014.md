@@ -74,7 +74,7 @@ All submissions for this problem are available.A certain grade of steel is grade
 
 
 
-The grades are as follows:/>/>
+The grades are as follows:
 
 7. Grade is 10 if all three conditions are met.
 8. Grade is 9 if conditions (i) and (ii) are met.
@@ -84,7 +84,7 @@ The grades are as follows:/>/>
 12. Grade is 5 if none of three conditions are met.
  
 
-Write a program, if the user gives values of hardness, carbon content and tensile strength of the steel under consideration and display the grade of the steel. />
+Write a program, if the user gives values of hardness, carbon content and tensile strength of the steel under consideration and display the grade of the steel.
 
 ### Input
 

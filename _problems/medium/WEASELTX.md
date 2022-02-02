@@ -78,7 +78,7 @@ All submissions for this problem are available.### Read problems statements in [
 
 A tree is an undirected graph in which each pair of vertices is connected to each other by exactly one path. Weasel has a tree with **N** nodes. The indexing of the nodes is 0-based and the tree is rooted at node 0. Every node **i** has an initial value **X0i**.
 
-Every day **d > 0**, he performs the following operations, starting from the root:
+Every day **d &gt; 0**, he performs the following operations, starting from the root:
 
 - Weasel computes **Xdu** as the bitwise-xor sum of all the values **Xd − 1v** for a node **v** in **u**'s subtree.
 - He recursively proceeds to perform the operation for every child of **u**.

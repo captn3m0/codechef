@@ -72,7 +72,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 Sereja has an array **A** that contains **n** integers: **A1, A2, ..., An**.
 Sereja also has an array **B** that contains **n** integers **B1, B2, ..., Bn**.
-In a single step Sereja can choose two indexes **i** and **j** **(1 <= i <= j <= n)** , and increase all the elements of **A** with indices between **i** and **j** inclusively by one, modulo 4.
+In a single step Sereja can choose two indexes **i** and **j** **(1 &lt;= i &lt;= j &lt;= n)** , and increase all the elements of **A** with indices between **i** and **j** inclusively by one, modulo 4.
 In other words, we make **Ap** equal to **(Ap + 1) modulo 4** if **p** is an integer from the range \[**i**; **j**\].
 
 Now Sereja is interested in the following question: what is the mininal number of steps necessary in order to make the array **A** equal to the array **B**.

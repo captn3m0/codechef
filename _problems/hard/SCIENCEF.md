@@ -106,7 +106,7 @@ Print a single integer **(A\*B-1) mod** **109+7** where **A/B** is the expected 
 - **1** ≤ **V** ≤ **1000**
 - **1** ≤ **E** ≤ **3000**
 - **1** ≤ **N** ≤ **16**
-- **1** ≤ **S, F,** **Pi** ≤ **V**
+- **1** ≤ **S, F, Pi** ≤ **V**
 - **S, F, Pi**'s are all distinct
 - 0 ≤ **Mi** ≤ **100**
 - 0 ≤ **Ti** ≤ **109+6**

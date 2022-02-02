@@ -97,7 +97,7 @@ Print a single integer denoting value of **AN**.
 ### Constraints and Subtasks
 
 - **1 ≤ N ≤ 1018**
-- **0 ≤ Ai, Ci < 104857601**
+- **0 ≤ Ai, Ci &lt; 104857601**
 
 **Subtask 1: 10 points**
 

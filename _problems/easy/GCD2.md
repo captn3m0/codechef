@@ -26,7 +26,7 @@ and it proposes to Frank that makes it but with a little integer and another int
 
 ### Input
 
-The first line of the input file contains a number representing the number of lines to follow. Each line consists of two number A and B (0 <= A <= 40000 and A <= B < 10^250).
+The first line of the input file contains a number representing the number of lines to follow. Each line consists of two number A and B (0 &lt;= A &lt;= 40000 and A &lt;= B &lt; 10^250).
 
 ### Output
 

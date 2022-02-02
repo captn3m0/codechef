@@ -122,7 +122,7 @@ For each test case, output a single integer ― count of different **n**-digit n
 
 **Example case 1.** All one-digit numbers have the same **LIS** array, so the answer is **10**: **0, 1, 2, 3, ..., 9**.
 
-**Example cases 2 & 3.** Overall we have **90** two-digit numbers (from **10** to **99**). Numbers with second digit strictly greater than first digit have **LIS** array **\[1, 2\]** and there are **36** such numbers. All the other two-digit numbers have **LIS** array **\[1, 1\]**.
+**Example cases 2 &amp; 3.** Overall we have **90** two-digit numbers (from **10** to **99**). Numbers with second digit strictly greater than first digit have **LIS** array **\[1, 2\]** and there are **36** such numbers. All the other two-digit numbers have **LIS** array **\[1, 1\]**.
 
 An example of how array **LIS** is constructed
 

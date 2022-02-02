@@ -88,7 +88,7 @@ A client will not query the data warehouse if he has no data stored!
 - **s hid pid**
  This command **must** follow a client's request to store data and means that you store the previous client's data on hard-disk *hid*, starting at cell *pid* (0-based indexing) 
  For example, you might have a request of form **0 100 10**. The client with id 100 wants to store 10 units (cells) of data in our warehouse. Let's assume you have a hard-disk (with id 5). You can respond with a command **s 5 120**, meaning that you store the client's 100 units of data on only one hard-disk, hdd5 from cell 120 to cell 129. All ids **must** be valid. You must be careful not to overflow any HDD!
- **Note: You can choose not to store the data (a risky move). In this case, you have to print -1 -1 for *hid* and *pid*. No penalty fee will be charged in this case!** ?> - **i hid pid**
+ **Note: You can choose not to store the data (a risky move). In this case, you have to print -1 -1 for *hid* and *pid*. No penalty fee will be charged in this case!**- **i hid pid**
  This command **must** follow a client's request to retrieve his data. 
  For example, let's assume that you had the commands described above and you get a new one **1 100 5**. In this case, we have to respond with **i 5 125** as you stored the data from client 100 on hdd5 and the *5-th* cell of data is located on the *125-th* cell on hdd5.
  **Note: If you do not have the requested data, *hid* and *pid* must be equal to -1 (and you will pay a **fixed penalty** - see input and scoring sections).

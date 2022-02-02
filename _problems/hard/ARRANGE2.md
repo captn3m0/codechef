@@ -11,7 +11,7 @@ layout: problem
 ---
 ###  All submissions for this problem are available. 
 
-A number X is called Permut number if X and 2X ( both without leading zeroes ) have same number of digits and are permutations of each other. Given A and B, find the number of Permut numbers >= A and <= B.
+A number X is called Permut number if X and 2X ( both without leading zeroes ) have same number of digits and are permutations of each other. Given A and B, find the number of Permut numbers &gt;= A and &lt;= B.
 
 Note : X is called permutation of Y if every digit ( 0 - 9 ) occurs same number of times in both the numbers ( maybe at different positions ).
 

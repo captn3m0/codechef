@@ -79,7 +79,7 @@ Laddu Accrual System is our new goodie distribution program. In this program, we
 
 Let us know about various activities and amount of laddus you get corresponding to them.
 
-- Contest Win (CodeChef’s Long, Cook-Off, LTIME, or any contest hosted with us) : 300 + Bonus (Bonus = 20 - contest rank). Note that if your rank is > 20, then you won't get any bonus.
+- Contest Win (CodeChef’s Long, Cook-Off, LTIME, or any contest hosted with us) : 300 + Bonus (Bonus = 20 - contest rank). Note that if your rank is &gt; 20, then you won't get any bonus.
 - Top Contributor on [Discuss](http://discuss.codechef.com) : 300
 - Bug Finder : 50 - 1000 (depending on the bug severity). It may also fetch you a CodeChef internship!
 - Contest Hosting : 50
@@ -92,13 +92,13 @@ You are given history of various activities of a user. The user has not redeemed
 
 - The first line of input contains a single integer **T** denoting number of test cases
 - For each test case: 
-  - First line contains an integer followed by a string denoting **activities, origin** respectively, where **activities** denotes number of activities of the user, **origin** denotes whether the user is Indian or the rest of the world. **origin** can be "INDIAN" or "NON\_INDIAN".
-  - For each of the next **activities** lines, each line contains an activity. 
-       An activity can be of four types as defined above. 
-      - Contest Win : Input will be of form of **CONTEST\_WON rank**, where **rank** denotes the rank of the user.
-      - Top Contributor : Input will be of form of **TOP\_CONTRIBUTOR**.
-      - Bug Finder : Input will be of form of **BUG\_FOUND severity**, where **severity** denotes the severity of the bug.
-      - Contest Hosting : Input will be of form of **CONTEST\_HOSTED**.
+    - First line contains an integer followed by a string denoting **activities, origin** respectively, where **activities** denotes number of activities of the user, **origin** denotes whether the user is Indian or the rest of the world. **origin** can be "INDIAN" or "NON\_INDIAN".
+    - For each of the next **activities** lines, each line contains an activity. 
+         An activity can be of four types as defined above. 
+        - Contest Win : Input will be of form of **CONTEST\_WON rank**, where **rank** denotes the rank of the user.
+        - Top Contributor : Input will be of form of **TOP\_CONTRIBUTOR**.
+        - Bug Finder : Input will be of form of **BUG\_FOUND severity**, where **severity** denotes the severity of the bug.
+        - Contest Hosting : Input will be of form of **CONTEST\_HOSTED**.
 
 ### Output
 

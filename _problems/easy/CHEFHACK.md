@@ -128,7 +128,7 @@ For each test case, output a single line containing the number of unsuccessful t
 
 - **1** ≤ **T** ≤ **8**
 - **1** ≤ **N** ≤ **350**
-- 0 ≤ **each password** < **107**
+- 0 ≤ **each password** &lt; **107**
 
 ### Example
 

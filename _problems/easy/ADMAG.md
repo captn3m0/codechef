@@ -112,9 +112,9 @@ Seeing you thoroughly puzzled, she explains that she can apply the trick so fast
 
 - **In example 1**, only **1** card containing **{1}** will work.
 - **In example 2**, make **3** cards containing **{1,4}, {2}** and **{3,4}**. 
-  - Assume you thought of **1**, then you will select the 1st card **{1,4}**, then she will correctly figure out the integer you thought being **1**.
-  - Assume you thought of **2**, then you will select the 2nd card **{2}**, then she will correctly figure out the integer you thought being **2**.
-  - Assume you thought of **3**, then you will select the 3rd card **{3,4}**, then she will correctly figure out the integer you thought being **3**.
-  - Assume you thought of **4**, then you will select 1st card **{1,4}** and 3rd card **{3,4}**, then she will calculate the sum of the first integers of the two card **1 + 3 = 4**, and she will answer it.
-  
-  Thus her trick will work well in every case. And we can check it easily that the cards are sorted in [lexicographical order](https://en.wikipedia.org/wiki/Lexicographical_order) and two consecutive cards have no common integers.
+    - Assume you thought of **1**, then you will select the 1st card **{1,4}**, then she will correctly figure out the integer you thought being **1**.
+    - Assume you thought of **2**, then you will select the 2nd card **{2}**, then she will correctly figure out the integer you thought being **2**.
+    - Assume you thought of **3**, then you will select the 3rd card **{3,4}**, then she will correctly figure out the integer you thought being **3**.
+    - Assume you thought of **4**, then you will select 1st card **{1,4}** and 3rd card **{3,4}**, then she will calculate the sum of the first integers of the two card **1 + 3 = 4**, and she will answer it.
+    
+    Thus her trick will work well in every case. And we can check it easily that the cards are sorted in [lexicographical order](https://en.wikipedia.org/wiki/Lexicographical_order) and two consecutive cards have no common integers.

@@ -102,7 +102,7 @@ In the first line, print the integer **Q (0 ≤ Q ≤ N \* M)**, denoting the nu
 
 - **66 ≤ N, M ≤ 99**
 - **1 ≤ Pi,j ≤ 10**
-- **0 ≤ Ai,j < Pi,j**
+- **0 ≤ Ai,j &lt; Pi,j**
 
 ### Example
 

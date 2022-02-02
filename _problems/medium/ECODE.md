@@ -15,14 +15,14 @@ Professor X got lost in a maze of an ancient tomb in Egypt. While he was finding
 
 - The code to open the exit door is the sequence C of n digits formed c1..cn (ci∈\[0,9\] ).
 - For every sequence C, combining with the given integers A,B, call:
-  
-  - h0=0
-  - hi=(hi-1×A+ci) mod B
+    
+    - h0=0
+    - hi=(hi-1×A+ci) mod B
 - The smallest sequence C (in lexicological order) satisfying hn=G (where G is a given integer) is the exit code which professor X needs. 
-  - 1≤n≤12
-  - 10≤A,B≤1015
-  - 0≤G<B
-  - The input satisfies that the answer always exist.
+    - 1≤n≤12
+    - 10≤A,B≤1015
+    - 0≤G&lt;B
+    - The input satisfies that the answer always exist.
 ### Request
 
 Give the integers n,A,B,G, help professor X find out the exit code! ### Input
@@ -43,10 +43,10 @@ Output in a single line the exit code found.
 <pre>
 ### Limitations
 
-* 1<=n<=12
+* 1&lt;=n&lt;=12
 
-* 10<=A,B<=1015
+* 10&lt;=A,B&lt;=1015
 
-* 0<=G<B
+* 0&lt;=G&lt;B
 
 * The input satisfies that the answer always exist.

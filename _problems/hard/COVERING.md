@@ -78,7 +78,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
  Let's say that a triple (**A**, **B**, **C**) of subsets of **S** *covers* a subset **D** of **S**, if **D** is a subset of the union of subsets **A**, **B** and **C**. In other words, every element of **D** is an element of at least one of **A**, **B**, or **C**.
 
- Let's consider four functions **F**, **G**, **H** and **R**. Each takes a subset of **S** as the only parameter and returns a non-negative integer. You are given the values of **F(i)**, **G(i)**, and **H(i)** for each 0 ≤ **i** < 2**N**.
+ Let's consider four functions **F**, **G**, **H** and **R**. Each takes a subset of **S** as the only parameter and returns a non-negative integer. You are given the values of **F(i)**, **G(i)**, and **H(i)** for each 0 ≤ **i** &lt; 2**N**.
 
  The value of the function **R** of a subset **X** of **S** is equal to the sum of **F(A)** × **G(B)** × **H(C)** for all triples (**A**, **B**, **C**) of subsets of **S** that cover **X**.
 
@@ -98,7 +98,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 1 ≤ **N** ≤ 20;
 
-0 ≤ **Fi**, **Gi**, **Hi** < 1,000,000,007(109 + 7).
+0 ≤ **Fi**, **Gi**, **Hi** &lt; 1,000,000,007(109 + 7).
 
 ### Example
 

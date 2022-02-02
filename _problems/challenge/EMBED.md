@@ -184,9 +184,9 @@ You can see that each segment does not intersect with others. Thus **C = 0**.
 
 The only point **4** on an evil coordinate, since
 
-- About point **1**: **(Ax1 mod 10007) + (By1 mod 10007) = (64761 mod 10007) + (53511 mod 10007) = 11827 > S**,
-- About point **2**: **(Ax2 mod 10007) + (By2 mod 10007) = (64762 mod 10007) + (53511 mod 10007) = 14597 > S**,
-- About point **3**: **(Ax3 mod 10007) + (By3 mod 10007) = (64762 mod 10007) + (53512 mod 10007) = 12420 > S**,
+- About point **1**: **(Ax1 mod 10007) + (By1 mod 10007) = (64761 mod 10007) + (53511 mod 10007) = 11827 &gt; S**,
+- About point **2**: **(Ax2 mod 10007) + (By2 mod 10007) = (64762 mod 10007) + (53511 mod 10007) = 14597 &gt; S**,
+- About point **3**: **(Ax3 mod 10007) + (By3 mod 10007) = (64762 mod 10007) + (53512 mod 10007) = 12420 &gt; S**,
 - About point **4**: **(Ax4 mod 10007) + (By4 mod 10007) = (64763 mod 10007) + (53512 mod 10007) = 8389 ≤ S**.
 
 Thus **W = 1**.

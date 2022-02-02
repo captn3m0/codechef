@@ -15,7 +15,7 @@ According to folklore, the great mathematician Gauss was able to calculate the s
 
 ### Input
 
-The first line consists of a number 't which specifies the number of test cases. 1<=t<=100. 't' lines follow with a number 'n' on each line. 'n' can have upto 20000 digits. 1<=n<=(10^20000).
+The first line consists of a number 't which specifies the number of test cases. 1&lt;=t&lt;=100. 't' lines follow with a number 'n' on each line. 'n' can have upto 20000 digits. 1&lt;=n&lt;=(10^20000).
 
 ### Output
 

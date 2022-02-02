@@ -77,12 +77,11 @@ Alice's friend circle has **M** students including her. Though she is excited ab
 
 First line of input contains a single integer **T**, the number of test cases.
 
-Each test starts with a single line having 4 space separated integers, **S**, **N**, **M** and **K**./>
+Each test starts with a single line having 4 space separated integers, **S**, **N**, **M** and **K**.
 
 ### Output:
 
 For each test case, output a line containing the required probability. The answer will be accepted if the relative error is not more than 10-6.
-/>
 
 ### Constraints:
 
@@ -119,4 +118,4 @@ For each test case, output a line containing the required probability. The answe
 Every student will be taken to the trip. So all her 4 friends will accompany her to the trip no matter what. 
 
 **Case #2:**
-Alice wants 4 out of her 5 friends to come along with her which isn't possible because the school is willing to pick only 4 students for the trip./>
+Alice wants 4 out of her 5 friends to come along with her which isn't possible because the school is willing to pick only 4 students for the trip.

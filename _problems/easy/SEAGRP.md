@@ -84,8 +84,8 @@ For each test case print **"YES"**, if you can remove the edges so that the degr
 
 ### Constraints
 
-- **1** <= **T** <= **10**
-- **1** <= **n, m** <= **100**
+- **1** &lt;= **T** &lt;= **10**
+- **1** &lt;= **n, m** &lt;= **100**
 
 ### Example
 

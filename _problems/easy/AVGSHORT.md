@@ -133,4 +133,4 @@ If there is no path at all, output just **-1** on the corresponding line of the 
 </pre>
 ### Explanation
 
-**Example case 1.** The walk 1 -> 2 and 2 -> 3 has average length of 3/2 = 1.5. Any other walks in the graph will have more or equal average length than this.
+**Example case 1.** The walk 1 -&gt; 2 and 2 -&gt; 3 has average length of 3/2 = 1.5. Any other walks in the graph will have more or equal average length than this.

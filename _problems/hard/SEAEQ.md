@@ -71,9 +71,9 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JULY14/mandarin/SEAEQ.pdf) and [Russian](http://www.codechef.com/download/translated/JULY14/russian/SEAEQ.pdf).
 
-Sereja call two arrays **A** and **B** with length **n** almost equal if for every **i (1 <= i <= n) CA(A\[i\]) = CB(B\[i\])**. **CX\[x\]** equal to number of index **j (1 <=j <= n)** such that **X\[j\] < x**.
+Sereja call two arrays **A** and **B** with length **n** almost equal if for every **i (1 &lt;= i &lt;= n) CA(A\[i\]) = CB(B\[i\])**. **CX\[x\]** equal to number of index **j (1 &lt;=j &lt;= n)** such that **X\[j\] &lt; x**.
 
-For two permutations **P1** and **P2** Sereja found new function **F(P1, P2)** that is equal to number of pairs **(l,r) (1 <= l <= r <= n)** such that **P1\[l..r\]** is almost equal to **P2\[l..r\]** and array **P1\[l..r\]** contain not more then **E** inversions.
+For two permutations **P1** and **P2** Sereja found new function **F(P1, P2)** that is equal to number of pairs **(l,r) (1 &lt;= l &lt;= r &lt;= n)** such that **P1\[l..r\]** is almost equal to **P2\[l..r\]** and array **P1\[l..r\]** contain not more then **E** inversions.
 
 Now Sereja is insterested in next question: what is the sum **F(P1,P2)** by all possible permutations **P1, P2** from **n** elements.
 

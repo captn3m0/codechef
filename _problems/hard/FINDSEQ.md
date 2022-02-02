@@ -13,7 +13,7 @@ layout: problem
 
 Given an array **A** of **N** integers **A\[0\], A\[1\], ..., A\[N-1\]** and a string **B** which is a permutation of **"12345"**. 
 You have to find a subsequence of 5 elements from **A** having **distinct values** such that their relative order is same as **B**. 
- Meaning that, if **(i0, i1, i2, i3, i4)** are the indexes of such a subsequence  **(0 <= i0 < i1 < i2 < i3 < i4 < N)** then:
+ Meaning that, if **(i0, i1, i2, i3, i4)** are the indexes of such a subsequence  **(0 &lt;= i0 &lt; i1 &lt; i2 &lt; i3 &lt; i4 &lt; N)** then:
 
 3. A\[i0\] is the B\[0\]-th smallest element among the 5 numbers.
 4. A\[i1\] is the B\[1\]-th smallest element among the 5 numbers.
@@ -22,7 +22,7 @@ You have to find a subsequence of 5 elements from **A** having **distinct values
 7. A\[i4\] is the B\[4\]-th smallest element among the 5 numbers.
 ### Input
 
-The first line of input contains **T(<=60)** which is the number of tests cases. The first line of each test case will be an integer **N (5<=N<=1000)** and a string **B** containing a permutation of **"12345"**. Next line will contain **N** integers **A\[0\], A\[1\], ..., A\[N-1\]**. Each of them will be between **-109 and +109** (inclusive).
+The first line of input contains **T(&lt;=60)** which is the number of tests cases. The first line of each test case will be an integer **N (5&lt;=N&lt;=1000)** and a string **B** containing a permutation of **"12345"**. Next line will contain **N** integers **A\[0\], A\[1\], ..., A\[N-1\]**. Each of them will be between **-109 and +109** (inclusive).
 
 ### Output
 

@@ -116,12 +116,12 @@ For each test case, print a single integer representing the answer of that test 
 
 For the first sample case,
 
-ways\[(0,1)->(2,1)\]= 1
+ways\[(0,1)-&gt;(2,1)\]= 1
 
-ways\[(0,2)->(2,2)\]= 1
+ways\[(0,2)-&gt;(2,2)\]= 1
 
-ways\[(0,1)->(2,2)\]= 3
+ways\[(0,1)-&gt;(2,2)\]= 3
 
-ways\[(0,2)->(2,1)\]= 3
+ways\[(0,2)-&gt;(2,1)\]= 3
 
 **So, the total number of ways = 8.**

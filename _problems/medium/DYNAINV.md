@@ -73,7 +73,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 You are given a permutation **A** of the first **N** positive integers. You are also given **Q** queries to perform one-by-one, the **i**-th is defined by a pair **Xi** **Yi** and has the meaning that you swap the **Xi**-th number in the permutation with the **Yi**-th one. After performing each query you should output the number of inversions in the obtained permutation, modulo 2.
 
-The inversion is such a pair (**i**, **j**) that **i** < **j** and **Ai** > **Aj**.
+The inversion is such a pair (**i**, **j**) that **i** &lt; **j** and **Ai** &gt; **Aj**.
 
 ### Input
 

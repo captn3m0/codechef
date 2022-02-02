@@ -76,7 +76,7 @@ layout: problem
 ---
 All submissions for this problem are available.### Read problems statements in [Mandarin chinese](http://www.codechef.com/download/translated/LTIME53/mandarin/MAXNUM3.pdf), [Russian](http://www.codechef.com/download/translated/LTIME53/russian/MAXNUM3.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME53/vietnamese/MAXNUM3.pdf) as well.
 
-Given an integer **A** that contains **n > 1** digits. You are asked to remove **exactly one** digit to make the result number is divisible by 6, also make it biggest possible.
+Given an integer **A** that contains **n &gt; 1** digits. You are asked to remove **exactly one** digit to make the result number is divisible by 6, also make it biggest possible.
 
 ### Input
 

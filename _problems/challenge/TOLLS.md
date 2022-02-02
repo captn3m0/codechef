@@ -82,13 +82,13 @@ Your task is to set the tolls on each of the tollbooths to generate some revenue
 
 The first line contains an integer T (about 40) indicating the number of test cases. Each test case begins with two positive integers N and M (both at most 100) where N is the number of nodes in the graph and M is the number of potential customers. M lines follow where the i'th line contains the information of the i'th client.
 
-Each such line consists of three integers S, E, B where 1 <= S,E <= N are, respectively, the start and end locations of the customer and 1 <= B <= 1,000,000 is the customer's budget.
+Each such line consists of three integers S, E, B where 1 &lt;= S,E &lt;= N are, respectively, the start and end locations of the customer and 1 &lt;= B &lt;= 1,000,000 is the customer's budget.
 
 A blank line separates test cases (as well as the first line containing T and the first test case).
 
 ### Output:
 
-For each test case, you are to output a single line consisting of N-1 integers, each of which is between 0 and 1,000,000. The i'th integer (1 <= i <= N-1) denotes the toll placed on the edge connecting nodes i and i+1. ### Scoring:
+For each test case, you are to output a single line consisting of N-1 integers, each of which is between 0 and 1,000,000. The i'th integer (1 &lt;= i &lt;= N-1) denotes the toll placed on the edge connecting nodes i and i+1. ### Scoring:
 
 From the output, we will calculate the total revenue obtained from all customers who can afford the total toll on their route according to the prices you set. The score for each test case is then calculated as R/T where R is the revenue obtained and T is the total budget of all customers. The score for the entire set of test cases is just the sum of the scores of each individual test case. ### Example: Input:
 

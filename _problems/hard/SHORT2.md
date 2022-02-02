@@ -11,11 +11,11 @@ layout: problem
 ---
 ###  All submissions for this problem are available. 
 
-Given a prime number **p**, find the number of pairs of integers (**a**, **b**) such that **p** < **a**, **p** < **b** and **ab** is divisible by **(a-p)(b-p)**.
+Given a prime number **p**, find the number of pairs of integers (**a**, **b**) such that **p** &lt; **a**, **p** &lt; **b** and **ab** is divisible by **(a-p)(b-p)**.
 
 ### Input
 
-The first line contains the number of test cases **t** (1 ≤ **t** ≤ 5). Then **t** test cases follow, each test case consists of a line containing one prime integer **p** (1 < **p** < 1012).
+The first line contains the number of test cases **t** (1 ≤ **t** ≤ 5). Then **t** test cases follow, each test case consists of a line containing one prime integer **p** (1 &lt; **p** &lt; 1012).
 
 ### Output
 

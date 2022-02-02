@@ -80,7 +80,7 @@ Chef has not yet decided the team of what size he is going to send to the battle
 In order to keep the input small the skills of the cooks will be given in the following way.
 
 - Skills of the first **X** cooks are given in the input, where **X = min(10000, N).**
-- If **N** > **10000** skills of the remaining cooks for **10000** < **i** ≤ **N** are calculated as **skill\[i\]** = (**A** \* **skill\[i-1\]** + **B** \* **skill\[i-2\]** + **D**) **mod 230**, where **A**, **B** and **D** are given in the input. Here **mod** denotes the modulo operation, that is, **Y mod Z** is the remainder of division of **Y** by **Z**.
+- If **N** &gt; **10000** skills of the remaining cooks for **10000** &lt; **i** ≤ **N** are calculated as **skill\[i\]** = (**A** \* **skill\[i-1\]** + **B** \* **skill\[i-2\]** + **D**) **mod 230**, where **A**, **B** and **D** are given in the input. Here **mod** denotes the modulo operation, that is, **Y mod Z** is the remainder of division of **Y** by **Z**.
 
 ### Input
 
@@ -92,8 +92,8 @@ For each test case, output **Q** lines containing the optimal team size for the 
 
 ### Constraints
 
-**1** ≤ **T** ≤ **5****1** ≤ **N** ≤ **500000**0 ≤ **C** < **230****1** ≤ **Q** ≤ **1000**
-0 ≤ **A**, **B**, **D** < **230**0 ≤ **skill\[i\]** < **230** for **1** ≤ **i** ≤ **X****1** ≤ **M** ≤ **N**
+**1** ≤ **T** ≤ **5****1** ≤ **N** ≤ **500000**0 ≤ **C** &lt; **230****1** ≤ **Q** ≤ **1000**
+0 ≤ **A**, **B**, **D** &lt; **230**0 ≤ **skill\[i\]** &lt; **230** for **1** ≤ **i** ≤ **X****1** ≤ **M** ≤ **N**
 
 ### Example
 
@@ -120,4 +120,4 @@ With team size 2, we have 4 candidate teams: {2, 4}, {4, 5}, {5, 6}, and {6, 3}.
 With team size 1, we have 6 candidate teams with one member in each team.
 
 **Case 2.**
-With team size 1, we have 6 possible candidate teams. But 6 > 4. For all other team sizes, the total number of candidate teams is 0. Thus, the answer is the smallest size among them, i.e., 2.
+With team size 1, we have 6 possible candidate teams. But 6 &gt; 4. For all other team sizes, the total number of candidate teams is 0. Thus, the answer is the smallest size among them, i.e., 2.

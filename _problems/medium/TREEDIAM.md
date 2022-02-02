@@ -104,7 +104,7 @@ Each of the following **(N-1)** lines contain a single integer **Kj**, denoting 
 
 Output **N** lines.
 
-On the **i**th line, output the product of the diameters of all the trees after **(i-1)** days modulo **109+7**. Formally, if **i > 1**, output the product of the diameters of the obtained trees after deleting the edges **K1**, **K2**, ..., **Ki - 1**, modulo **109+7**, otherwise output the diameter of the initial tree.
+On the **i**th line, output the product of the diameters of all the trees after **(i-1)** days modulo **109+7**. Formally, if **i &gt; 1**, output the product of the diameters of the obtained trees after deleting the edges **K1**, **K2**, ..., **Ki - 1**, modulo **109+7**, otherwise output the diameter of the initial tree.
 
 ### Constraints
 

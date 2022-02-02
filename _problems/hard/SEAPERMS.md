@@ -74,10 +74,10 @@ All submissions for this problem are available.###  Read problems statements in 
 Sereja has an array **A** of **N** integers: **A\[1\], A\[2\], …, A\[N\]**. Sereja also has an integer **D**.
 
 Sereja calls a permutation **P\[1\], P\[2\], …, P\[N\]** as ***good*** if the following conditions hold.
-**A\[P\[1\]\] + D > A\[P\[2\]\]**,
-**A\[P\[2\]\] + D > A\[P\[3\]\]**,
+**A\[P\[1\]\] + D &gt; A\[P\[2\]\]**,
+**A\[P\[2\]\] + D &gt; A\[P\[3\]\]**,
 ⋮
-**A\[P\[N-1\]\] + D > A\[P\[N\]\]**.
+**A\[P\[N-1\]\] + D &gt; A\[P\[N\]\]**.
 
 Sereja wants to sequentially perform **M** single-element replacement operations on the array. Each of these operations consists of choosing an index **p** of the array, and replacing **A\[p\]** with a new value **v**. Your task is to keep track of the number of ***good*** permutations **P\[1\], P\[2\], …, P\[N\]** after each operation.
 
@@ -94,9 +94,9 @@ Output **M** lines. The **i**th line should contain the number of good permutati
 
 ### Constraints
 
-- **Subtask #1 :****N, M** ≤ **10** (10 points)
-- **Subtask #2 :****N, M** ≤ **20** (10 points)
-- **Subtask #3:** **N, M** ≤ **1000** (20 points)
+- **Subtask #1 :N, M** ≤ **10** (10 points)
+- **Subtask #2 :N, M** ≤ **20** (10 points)
+- **Subtask #3: N, M** ≤ **1000** (20 points)
 - **Subtask #4:**  original constrains (60 points)
 
 ### Example

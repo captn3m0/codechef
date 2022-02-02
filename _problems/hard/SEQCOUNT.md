@@ -73,9 +73,9 @@ All submissions for this problem are available.###  Read problems statements in 
 Consider the sequence of **K** natural numbers: **a1**, **a2**, ..., **aK**. Tooru thinks that this sequence is nice if and only if:
 
 - **a1**+**a2**+...+**aK** = **N**
-- **a1** < **a2** < ... < **aK**
-- **ai+1** - **ai** <= **D** for every natural **i**, smaller than **K**
-- **a1** <= **D**
+- **a1** &lt; **a2** &lt; ... &lt; **aK**
+- **ai+1** - **ai** &lt;= **D** for every natural **i**, smaller than **K**
+- **a1** &lt;= **D**
 
 
 
@@ -103,9 +103,9 @@ The only suitable sequence is (1, 2, 3, 4).
 
 ### Scoring
 
-1 <= **N**, **K**, **D** <= 10 : 17 points.
+1 &lt;= **N**, **K**, **D** &lt;= 10 : 17 points.
 
-1 <= **N**, **K**, **D** <= 400 : 23 points.
- 1 <= **N**, **K**, **D** <= 2000 : 20 points.
+1 &lt;= **N**, **K**, **D** &lt;= 400 : 23 points.
+ 1 &lt;= **N**, **K**, **D** &lt;= 2000 : 20 points.
 
-1 <= **N**, **K**, **D** <= 105 : 40 points.
+1 &lt;= **N**, **K**, **D** &lt;= 105 : 40 points.

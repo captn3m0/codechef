@@ -17,7 +17,7 @@ There is a long long highway leading to Chef's new restaurant. But the problem i
 
 ### Input
 
-The first line of the input contains a single integer T -- the number of test cases (no more than 25). Each of the next T lines describes one test case and contains three integers N, M and K(1 <= K <= M <= 50, M <= N <= 10^9).
+The first line of the input contains a single integer T -- the number of test cases (no more than 25). Each of the next T lines describes one test case and contains three integers N, M and K(1 &lt;= K &lt;= M &lt;= 50, M &lt;= N &lt;= 10^9).
 
 ### Output
 

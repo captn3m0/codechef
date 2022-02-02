@@ -82,7 +82,7 @@ For each test case output a single one line containing number of such permutatio
 
 - **1** ≤ **T** ≤ **100000(105)**
 - **2** ≤ **N** ≤ **1000000(106)**
-- **N** < **M** < **2\*N**
+- **N** &lt; **M** &lt; **2\*N**
 
 ### Example
 

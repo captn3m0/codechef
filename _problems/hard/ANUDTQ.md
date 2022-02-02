@@ -116,8 +116,8 @@ For each query of type 4, output the required answer.
 
 - 1 ≤ **N** ≤ 10^5
 - 1 ≤ **M** ≤ 10^5
-- 0 ≤ **u** < N
-- 0 ≤ **v** < N, **u** is not equal to **v**
+- 0 ≤ **u** &lt; N
+- 0 ≤ **v** &lt; N, **u** is not equal to **v**
 - All the **keys** in the input are valid
 - If the type of the query is 3, the the **key** is nonzero.
 - **All the rest numbers in the input are in the range \[-1000, 1000\]**
@@ -175,4 +175,3 @@ Firstly, sorry for the mistake.
 **Old :** Let **SPECIAL** = 0 initially. Whenever a query of the type 4 occurs, **SPECIAL** is increased by the result of that query.
 
 **New :** Let **SPECIAL** = 0 initially. Whenever a query of the type 4 occurs, **SPECIAL** is updated to the result of that query.
-/>/>/>/>/>

@@ -85,7 +85,7 @@ Denote by **F(S)** the length of the longest non-decreasing subsequence of **S**
 
 Let **S** be some lucky string. Then - **|S|** denotes the length of the string **S**;
 - **S\[i\]** (**1 ≤ i ≤ |S|**) denotes the **i**th character of **S** (the numeration of characters starts from **1**);
-- **S\[L, R\]** (**1 ≤ L ≤ R ≤ |S|**) denotes the string with the following sequence of characters: **S\[L\], S\[L + 1\], ..., S\[R\]**, and is called a *substring* of **S**. For **L > R** we mean by **S\[L, R\]** an empty string.
+- **S\[L, R\]** (**1 ≤ L ≤ R ≤ |S|**) denotes the string with the following sequence of characters: **S\[L\], S\[L + 1\], ..., S\[R\]**, and is called a *substring* of **S**. For **L &gt; R** we mean by **S\[L, R\]** an empty string.
 
 
 For any two lucky strings **S** and **T** their *concatenation* is defined as the sequence of characters in **S** followed by the sequence of characters in **T**, and is denoted by **S + T**.

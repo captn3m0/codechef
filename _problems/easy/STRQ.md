@@ -73,7 +73,7 @@ Chef likes strings a lot but moreover he likes good strings. Chef calls a string
 
 Today, Chef has a special string **P** consisting of lower case letters **"c"** , **"h"** , **"e"** and **"f"** only. Chef wants to make some queries about his string **P**.
 
-Each of chef's query has the following form **a b L R**. For a given query, Chef wants to count the number of good strings which starts at letter **a** and ends at letter **b** such that starting index **Si** and ending index **Ei** of a chosen substring satisfies **L <= Si < Ei <= R**.
+Each of chef's query has the following form **a b L R**. For a given query, Chef wants to count the number of good strings which starts at letter **a** and ends at letter **b** such that starting index **Si** and ending index **Ei** of a chosen substring satisfies **L &lt;= Si &lt; Ei &lt;= R**.
 
 **NOTE**
 
@@ -91,17 +91,17 @@ For each chef's query, print the required answer.
 
 ### Constraints
 
-- **1 <= |P| <= 106**
-- **1 <= Q <= 106**
-- **1 <= L <= R <= |P|**
+- **1 &lt;= |P| &lt;= 106**
+- **1 &lt;= Q &lt;= 106**
+- **1 &lt;= L &lt;= R &lt;= |P|**
 - **P,a,b** belongs to the set of lower case letters **\[c,h,e,f\] and a != b**.
 - **All test files are strictly according to constraints.**
 
 ### Subtasks
 
-- Subtask #1: **1<=|P|,Q<=104 : 27 pts**
-- Subtask #2: **1<=|P|,Q<=105 : 25 pts**
-- Subtask #3: **1<=|P|,Q<=106 : 48 pts**
+- Subtask #1: **1&lt;=|P|,Q&lt;=104 : 27 pts**
+- Subtask #2: **1&lt;=|P|,Q&lt;=105 : 25 pts**
+- Subtask #3: **1&lt;=|P|,Q&lt;=106 : 48 pts**
 
 ### Example
 

@@ -25,7 +25,7 @@ This doesn't account for overflow when increasing from 2n-1 to 2n, but we'll ign
 
 Each time a bit is changed from 0 to 1 or from 1 to 0 we say the bit is "flipped". In the worst case, we may have to flip every bit. However, a standard result says the average number of bits flipped per increment when counting from 0 to 2n-1 is less than 2.
 
-Being the curious sort, you decide to explore this result in a slightly more general setting. That is, you want to know how many bits are flipped when the counter is incremented from a number a to b where a < b.
+Being the curious sort, you decide to explore this result in a slightly more general setting. That is, you want to know how many bits are flipped when the counter is incremented from a number a to b where a &lt; b.
 
 ### Input
 

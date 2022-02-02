@@ -25,7 +25,7 @@ Print a wrong answer of **A**-**B**. Your answer must be a *positive* integer co
 
 ### Constraints
 
-1 ≤ **B** < **A** ≤ 10000
+1 ≤ **B** &lt; **A** ≤ 10000
 
 ### Sample Input
 

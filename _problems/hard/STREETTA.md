@@ -90,9 +90,9 @@ a souvenir at that store (the amount of money includes the price of one of the s
 
 - The first line of the input contains two integers **N** and **M** represent the number of stores and the number of events
 - Each of the next **M** lines represents an event of three types below in the chronological order. 
-  - The new plan of the Chef: "1 **u v a b**".
-  - The new conservation fee: "2 **u v a b**".
-  - The query from tourist: "3 **i**".
+    - The new plan of the Chef: "1 **u v a b**".
+    - The new conservation fee: "2 **u v a b**".
+    - The query from tourist: "3 **i**".
 
 ### Output
 

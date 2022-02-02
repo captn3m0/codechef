@@ -130,7 +130,7 @@ For each test case, output a single line containing a single integer, denoting t
 
 - **1** ≤ **T** ≤ **5×104**
 - **1** ≤ **N** ≤ **1016**
-- 0 ≤ **a**, **b** < **m** ≤ **108**
+- 0 ≤ **a**, **b** &lt; **m** ≤ **108**
 
 ### Example
 

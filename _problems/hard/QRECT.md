@@ -76,7 +76,7 @@ You are given a Cartesian plane, and you are asked to support the following thre
 - **I x1 y1 x2 y2**: add an axes-parallel rectangle on the plane. The bottom-left corner has coordinates **(x1, y1)**, the top-right one has coordinates **(x2, y2)**
 - **D index**: remove the retangle that was added during the **index**-th addition operation
 - **Q x1 y1 x2 y2**: output the number of rectangles on the plane that have the common area with the rectangle with a bottom-left corner coordinates **(x1, y1)** and a top-right corner coordinates **(x2, y2)**.
-  Please notice that, even if the two rectangles only share a common point, they are still regarded as sharing common area
+    Please notice that, even if the two rectangles only share a common point, they are still regarded as sharing common area
 
 Also, there can be a few same rectangles on the plane, they should be regarded as a few different rectangles.
 
@@ -94,9 +94,9 @@ For each **Q**-type operation, output the result on the separate line of the out
 
 ### Constraints
 
-- 1 <= **Q** <= 100000
-- 1 <= **x1** <= **x2** <= 109
-- 1 <= **y1** <= **y2** <= 109
+- 1 &lt;= **Q** &lt;= 100000
+- 1 &lt;= **x1** &lt;= **x2** &lt;= 109
+- 1 &lt;= **y1** &lt;= **y2** &lt;= 109
 
 ### Example
 

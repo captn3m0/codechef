@@ -25,9 +25,9 @@ Output the minimum sum of modifications as a reduced fraction "X/Y" - greatest c
 
 ### Constraints
 
-- 2 <= N <= 10
-- 1 <= M <= 45
-- 1 <= Di <= 20
+- 2 &lt;= N &lt;= 10
+- 1 &lt;= M &lt;= 45
+- 1 &lt;= Di &lt;= 20
 
 ### Example
 

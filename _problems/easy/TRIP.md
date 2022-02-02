@@ -15,7 +15,7 @@ You are starting out on a long (really long) trip. On the way, there are N gas s
 
 ### Input : 
 
-The first line two space seperated integers N and M. N lines follow, and the ith line has the value a\_i (0 <= a\_i <= 1000000000). The input will be such that a solution will always exist. ### Output : 
+The first line two space seperated integers N and M. N lines follow, and the ith line has the value a\_i (0 &lt;= a\_i &lt;= 1000000000). The input will be such that a solution will always exist. ### Output : 
 
 Output two space seperated integers : The least number of stops, and the number of ways to plan the trip which uses the least number of stops. Output this value modulo 1000000007. ### Sample Input :
 

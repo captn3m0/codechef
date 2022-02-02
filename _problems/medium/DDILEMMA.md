@@ -30,7 +30,7 @@ For all domain name transformations that use 1 or 2 points, we wish to impose a 
 
 ### Input
 
-The input starts with a line containing 2 space separated integers m & n followed by a blank line. m is the number of already registered domain names. n is the list of names that a customer wishes to register - (1 m 2500) (1 n 7000). The next m lines are the already registered domain names. This is followed by a blank line. The next n lines are the list of names to be registered. There will be no space in the domain names, and they will consist only of a combination of lowercase alphabets from a to z and digits. The length of a domain name will be less than 31 characters.
+The input starts with a line containing 2 space separated integers m &amp; n followed by a blank line. m is the number of already registered domain names. n is the list of names that a customer wishes to register - (1 m 2500) (1 n 7000). The next m lines are the already registered domain names. This is followed by a blank line. The next n lines are the list of names to be registered. There will be no space in the domain names, and they will consist only of a combination of lowercase alphabets from a to z and digits. The length of a domain name will be less than 31 characters.
 
 ### Output
 

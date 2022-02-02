@@ -78,16 +78,9 @@ In WW2, allies have placed their mines on the ground which can be considered as 
 
 
 Two cells are neighbors if they share a boundary or a corner. Your aim is to move from the first row to the last row using some special rules that the automatic mine placing system follows. The mines won't blow if the following rules are followed:
-/>/>/>
 
 - If your current row number is odd, from a 'mined' cell(ie. cell having a mine in it) you can move only to a neighboring 'mined' cells in the next row, and similarly, from a 'not mined'(ie. an empty cell) cell you can only move to a neighboring 'not mined' cell in the next row.
-
-/>
-
 - If your current row number is even, you can move to any neighboring cell in the next row, irrespective of the mining.
-
-
-/>
 
 You have to find the number of ways to reach row number **N** starting from row number **1**, modulo **109+7**. Two ways are different, if there is at least one different cell on the paths.
 
@@ -101,9 +94,9 @@ For each testcase, print the required answer in one line.
 
 ### Constraints
 
-14. **1** ≤ **T** ≤ **10**
-15. **1** ≤ **N** ≤ **109**
-16. **1** ≤ **M** ≤ **30**
+13. **1** ≤ **T** ≤ **10**
+14. **1** ≤ **N** ≤ **109**
+15. **1** ≤ **M** ≤ **30**
 ### Example
 
 <pre><b>Input:</b>
@@ -138,4 +131,3 @@ For each testcase, print the required answer in one line.
 (1,4) to (2,5)
 
 (1,5) to (2,4)
-/>/>/>/>/>/>/>/>/>/>/>

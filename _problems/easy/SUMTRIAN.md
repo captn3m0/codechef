@@ -47,4 +47,4 @@ For each test case write the determined value in a separate line.
 </pre>
 
 
-**Warning: large Input/Output data, be careful with certain languages** />
+**Warning: large Input/Output data, be careful with certain languages**

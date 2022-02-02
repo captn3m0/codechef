@@ -91,7 +91,7 @@ Here is an example of a game: Suppose the numbers are **A** = 1003, **M** = 4. T
 ### Constraints
 
 - **1** ≤ **T** ≤ **100**
-- **10** ≤ **A** < **10106** (i.e. The number of digits in **A** can be upto 106)
+- **10** ≤ **A** &lt; **10106** (i.e. The number of digits in **A** can be upto 106)
 - **1** ≤ **M** ≤ **1000**
 - The sum of number of digits of **A** over all test cases will not exceed **5 \* 10^6**
 

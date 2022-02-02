@@ -78,7 +78,7 @@ All submissions for this problem are available.### Read problems statements in [
  Chef has an array **A** consisting of **N** non-negative integers. Initially, all the elements are zero. Assume 1-based indexing. Chef is given two positive integers **L** and **R**. **(L Chef has to execute **Q** number of queries on the array **A**. These queries can be of the following two types: 
  **1 x y (1 ≤ x ≤ n)** - Replace the value of **xth** array element by **y**. 
  **2 l r (1 ≤ l ≤ r ≤ n)** - Return the number of subarrays **\[a , b\]** that lies in subarray **\[l , r\]** such that the value of the maximum array element in that subarray is atleast **L** and atmost **R**. 
- (A subarray **\[a , b\]** lies in a subarray **\[l , r\]** if and only if **a >= l** and **b ) 
+ (A subarray **\[a , b\]** lies in a subarray **\[l , r\]** if and only if **a &gt;= l** and **b ) 
  Since, Chef couldn't solve this task, can you please help him solve this task?****
 
 ### Input

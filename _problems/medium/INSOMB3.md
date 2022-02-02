@@ -25,12 +25,9 @@ criteria for identifying an I is as follows:
 - The figure is completely filled with #s.
 - The thickness and width of the top and bottom rectangles is identical.
 - The central column is formed by leaving out floor(width/3) positions on both
-  sides.
-- The central column may be of any length >= 1
+    sides.
+- The central column may be of any length &gt;= 1
 - The I must be surrounded by "\*" or the border (i.e. no additional attachments to the I)
-
-
-/>
 
 Note: A given input figure is likely to contain multiple I's.
 
@@ -45,7 +42,7 @@ the rows and columns in the matrix respectively. Both R and C will be less than 
 
 
 Line 2 to R+1: Lines containing C space separated symbols. The symbols are
-chosen from the set {\*, #}/>/>/>/>
+chosen from the set {\*, #}
 
 
 
@@ -53,12 +50,12 @@ chosen from the set {\*, #}/>/>/>/>
 **Output Format:**
 
 
-Line 1: The number of I's in the given figure. />/>/>
+Line 1: The number of I's in the given figure.
 
 
 
 
-**Sample Input:**/>/>
+**Sample Input:**
 
 <pre>
 10 10
@@ -75,7 +72,7 @@ Line 1: The number of I's in the given figure. />/>/>
 </pre>
 
 
-**Sample Output:**/>
+**Sample Output:**
 
 <pre>
 0
@@ -89,7 +86,3 @@ It is not completely filled
 
 
 It has an extra attachment of a # on the right side of the central column.
-
-/>/>/>/>
-
-/>/>/>/>/>/>

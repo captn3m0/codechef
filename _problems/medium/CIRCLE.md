@@ -101,11 +101,11 @@ Print "YES or "NO" (quotes for clarity) to indicate wheather it is possible for 
 
 **CONSTRAINTS:**
 
-1<=T<=10
+1&lt;=T&lt;=10
 
-30 points : 1<=N,M<=100
+30 points : 1&lt;=N,M&lt;=100
 
-70 points : 1<=N,M<=1000
+70 points : 1&lt;=N,M&lt;=1000
 
 
 

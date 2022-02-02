@@ -100,8 +100,8 @@ For each test case, output a single line containing two integers: the number of 
 
 - 1 ≤ **T** ≤ 100
 - 1 ≤ **M**, **K** ≤ **N** ≤ 100
-- 1 ≤ **A1** < **A2** < ... < **AM** ≤ **N**
-- 1 ≤ **B1** < **B2** < ... < **BK** ≤ **N**
+- 1 ≤ **A1** &lt; **A2** &lt; ... &lt; **AM** ≤ **N**
+- 1 ≤ **B1** &lt; **B2** &lt; ... &lt; **BK** ≤ **N**
 
 ### Example
 

@@ -76,7 +76,7 @@ All submissions for this problem are available.### Read problems statements in [
 
 Ahmed Gafer failed to pass the test, but he got the job because of his friendship with Said and Shahhoud. After working in the kitchen for a while, he blew it. The customers didn't like the food anymore and one day he even burned the kitchen. Now the master Chef is very upset.
 
-Ahmed isn't useful anymore at being a co-Chef, so S&S decided to give him a last chance. They decided to give Ahmed a new job, and make him work as the cashier of the restaurant. Nevertheless, in order not to repeat their previous mistake, they decided to give him a little test to check if his counting skills are good enough for the job. The problem is as follows:
+Ahmed isn't useful anymore at being a co-Chef, so S&amp;S decided to give him a last chance. They decided to give Ahmed a new job, and make him work as the cashier of the restaurant. Nevertheless, in order not to repeat their previous mistake, they decided to give him a little test to check if his counting skills are good enough for the job. The problem is as follows:
 
 Given a string **A** of lowercase English letters, Ahmad was asked to find the number of good substrings. A substring **A\[L, R\]** is good if:
 

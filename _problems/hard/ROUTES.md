@@ -116,10 +116,10 @@ Output **M** lines. The **i**-th line should contain the number of unsafe pairs 
 </pre>
 ### Scoring
 
-Subtask 1 (22 points): 1 <= **N** <= 5, 1 <= **M** <= 5.
+Subtask 1 (22 points): 1 &lt;= **N** &lt;= 5, 1 &lt;= **M** &lt;= 5.
 
-Subtask 2 (13 points): 1 <= **N** <= 100, 1 <= **M** <= 100.
+Subtask 2 (13 points): 1 &lt;= **N** &lt;= 100, 1 &lt;= **M** &lt;= 100.
 
-Subtask 3 (20 points): 1 <= **N** <= 5000, 1 <= **M** <= 5000.
+Subtask 3 (20 points): 1 &lt;= **N** &lt;= 5000, 1 &lt;= **M** &lt;= 5000.
 
-Subtask 4 (45 points): 1 <= **N** <= 5\*105, 1 <= **M** <= 5\*105.
+Subtask 4 (45 points): 1 &lt;= **N** &lt;= 5\*105, 1 &lt;= **M** &lt;= 5\*105.

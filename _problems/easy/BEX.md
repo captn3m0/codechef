@@ -88,8 +88,8 @@ For each -1 in the input, output a single line containing the number of books Ha
 
 ### Constraints
 
-1 < **N** ≤ 1,000,000
- 0 ≤ (the number of remaining exercises of each book) < 100,000
+1 &lt; **N** ≤ 1,000,000
+ 0 ≤ (the number of remaining exercises of each book) &lt; 100,000
  The name of each book consists of between 1 and 15 characters 'a' - 'z'.
  Whenever he wants to do a book exercise, there is at least one book in the pile.
 

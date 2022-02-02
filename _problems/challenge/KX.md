@@ -74,11 +74,11 @@ In the first line of input there is an integer n (100≤n≤800), denoting the s
 
 ### Output
 
-First, an integer k (0<k), corresponding to the number of lines of the subsequent description of the output. The following k pairs of numbers should describe the squares of the route: i1,j1 ... ik,jk, where i is the row number (counting from 0) and y is the column number (counting from 0) of a square.
+First, an integer k (0&lt;k), corresponding to the number of lines of the subsequent description of the output. The following k pairs of numbers should describe the squares of the route: i1,j1 ... ik,jk, where i is the row number (counting from 0) and y is the column number (counting from 0) of a square.
 
 ### Correctness of the output
 
-For each i<k, squares i and i+1 of the route should share a common edge, and moreover the first and the k-th squares should also share a common edge. The route may not make a U-turn at any square, and may not lead through any squares with trees. The route should not self-intersect or touch itself. The route is not allowed to lead outside the park. Note that it is possible for the route to be twice in the same square (i.e. once enter from N exiting due E, later enter from S exiting due W).
+For each i&lt;k, squares i and i+1 of the route should share a common edge, and moreover the first and the k-th squares should also share a common edge. The route may not make a U-turn at any square, and may not lead through any squares with trees. The route should not self-intersect or touch itself. The route is not allowed to lead outside the park. Note that it is possible for the route to be twice in the same square (i.e. once enter from N exiting due E, later enter from S exiting due W).
 
 ### Example
 

@@ -74,8 +74,8 @@ In this problem we will have a few definitions as described below:
 
 - **Binary string**: A string containing only characters '0' and '1'.
 - **Hamming distance** of the two binary string of the same length is the number of the positions where the two strings have
-   different characters. eg. the hamming distance of "0**10**10101" and
-   "0**01**101**1**1" is 3, the hamming distance of a binary string with itself is 0.
+     different characters. eg. the hamming distance of "0**10**10101" and
+     "0**01**101**1**1" is 3, the hamming distance of a binary string with itself is 0.
 - **Sub-string** of a string is a segment of contiguous characters of that string.
 
 You would be given two binary strings **A** and **B** with the length of **N** and **M** respectively.

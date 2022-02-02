@@ -15,7 +15,7 @@ For any positive integer, we define a digit rotation as either moving the first 
 
 ### Input
 
-Input will begin with an integer T (at most 1000), the number of test cases. Each test case consists of a positive integer N<100000000 (10^8) on a line by itself.
+Input will begin with an integer T (at most 1000), the number of test cases. Each test case consists of a positive integer N&lt;100000000 (10^8) on a line by itself.
 
 ### Output
 

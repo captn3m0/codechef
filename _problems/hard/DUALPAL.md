@@ -90,7 +90,7 @@ For each test case, output a list of space separated integers which are Dual Pal
 ### Constraints
 
 - **1** ≤ **T** ≤ **5**
-- **2** ≤ **B1** < **B2** ≤ **16**
+- **2** ≤ **B1** &lt; **B2** ≤ **16**
 
 ### Example
 

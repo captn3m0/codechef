@@ -73,7 +73,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 Mr. Yagami is playing a game of numbers. He has two arrays, each of size **N** denoted by **A1,A2...AN** and **B1,B2...BN**.
 
-Now, he has to make a move each minute. Let us maintain two sets **S1** and **S2** which are empty intially. In one move , first he'll pick a pair of indexes **(i, j)** such that it's already not present in **S1**. Also, **Bj > Ai** and **GCD(Ai,Bj)** is not **1**. Further, he'll pick another pair of indices **(p, q)** such that it's already not present in **S2**. Also, **Bp < Aq** and **GCD(Aq,Bp)** is not **1**. Also, **GCD(Aq,Bp)** should not be coprime to **GCD(Ai,Bj)**. And, he'll add both pair of indices to **S1** and **S2**, respectively.
+Now, he has to make a move each minute. Let us maintain two sets **S1** and **S2** which are empty intially. In one move , first he'll pick a pair of indexes **(i, j)** such that it's already not present in **S1**. Also, **Bj &gt; Ai** and **GCD(Ai,Bj)** is not **1**. Further, he'll pick another pair of indices **(p, q)** such that it's already not present in **S2**. Also, **Bp &lt; Aq** and **GCD(Aq,Bp)** is not **1**. Also, **GCD(Aq,Bp)** should not be coprime to **GCD(Ai,Bj)**. And, he'll add both pair of indices to **S1** and **S2**, respectively.
 
 Help Mr. Yagami by printing the largest number of moves he can perform.
 

@@ -110,13 +110,13 @@ For each test case, output one line containing one integer, the answer modulo (*
 - **Subtask #2 (7 points)**: **k = 1**
 - **Subtask #3 (9 points)**: **k = 2**
 - **Subtask #4 (15 points)**: 
-  - **k = 3**.
-  - Sum of **n** over all test cases ≤ **300**
-  - Sum of **m** over all test cases ≤ **300**
+    - **k = 3**.
+    - Sum of **n** over all test cases ≤ **300**
+    - Sum of **m** over all test cases ≤ **300**
 - **Subtask #5 (24 points)**: 
-  - **k = 3**.
-  - Sum of **n** over all test cases ≤ **3000**
-  - Sum of **m** over all test cases ≤ **3000**
+    - **k = 3**.
+    - Sum of **n** over all test cases ≤ **3000**
+    - Sum of **m** over all test cases ≤ **3000**
 - **Subtask #6 (37 points)**: Original Constraints
 
 ### Example

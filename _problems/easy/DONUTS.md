@@ -89,7 +89,7 @@ Help Chef determine the minimum number of cuts needed to complete the order.
 - The first line of each test case contains two integer **N** and **M** denoting the size of order and number of cooked chains respectively.
 - The second line contains **M** space-separated integers **A1**, **A2**, ..., **AM** denoting the size of the chains.
 
-*It is guaranteed that **N** is equal to the sum of all **Ai**'s over **1<=*i*<=M**.*
+*It is guaranteed that **N** is equal to the sum of all **Ai**'s over **1&lt;=*i*&lt;=M**.*
 
 ### Output
 
@@ -131,7 +131,7 @@ For each test case, output a single line containing an integer corresponding to 
 ### Explanation
 
 **Example 1:** We could cut 2 doughnut from any "chain" and use them to connect chains to the one. 
- For example, let's cut it from the first chain. After this we will have chains of sizes 2, 3, 4 and two doughnuts that have been cut. So we could connect the first chain with second and second with third using these two doughnuts./>
+ For example, let's cut it from the first chain. After this we will have chains of sizes 2, 3, 4 and two doughnuts that have been cut. So we could connect the first chain with second and second with third using these two doughnuts.
 
 **Example 2:** We cut doughnut from the last "chain" and connect the first two chains.
 

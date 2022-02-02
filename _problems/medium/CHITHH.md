@@ -71,7 +71,7 @@ layout: problem
 ---
 All submissions for this problem are available.Chef studied science at school. But now he was tired of it. He likes to solve problems on Codechef. Here and now, he decided to go to his favourite site and solve several interesting problems. But as it turned out Chef is not yet ready to solve the harder problems. So you have to help him.
 
-If you take away all the foreword, then the task set is this: you have **N** non-negative numbers **A1, A2 ... AN** and **M** requests. Each request consists of three numbers **(l, v, k)**. **MagicInteger(l,v)** is equal to concatenation of the numbers **Ai**, such that **(i = l + v \* q & 1 <= i <= n & q >= 0)**. For each such request you have to write the **k-th** digit of **MagicInteger(l,v)**.
+If you take away all the foreword, then the task set is this: you have **N** non-negative numbers **A1, A2 ... AN** and **M** requests. Each request consists of three numbers **(l, v, k)**. **MagicInteger(l,v)** is equal to concatenation of the numbers **Ai**, such that **(i = l + v \* q &amp; 1 &lt;= i &lt;= n &amp; q &gt;= 0)**. For each such request you have to write the **k-th** digit of **MagicInteger(l,v)**.
 
 Concatanation example:
 If you have **2** numbers **11, 22** - after concatenation you will have **1122**.

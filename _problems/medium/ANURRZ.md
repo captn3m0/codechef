@@ -76,7 +76,7 @@ Rudreshwar likes random numbers and random arrays. Today Rudreshwar started play
 
 Initially **A** is filled with zeros. Rudreshwar filled **B** with random numbers.
 
-Rudreshwar visits each index **i** (1 <= **i** <= **N**) in random order. When at **i**, he selects another random index **j** such that **j** is greater or equal to **i**. He then increments **A\[i\]**, **A\[i+1\]**, **A\[i+2\]** ... **A\[j\]** by 1.
+Rudreshwar visits each index **i** (1 &lt;= **i** &lt;= **N**) in random order. When at **i**, he selects another random index **j** such that **j** is greater or equal to **i**. He then increments **A\[i\]**, **A\[i+1\]**, **A\[i+2\]** ... **A\[j\]** by 1.
 
 Finally if for any index **i**, **A\[i\]** is greater than **B\[i\]**, he then throws away that array **A**
 

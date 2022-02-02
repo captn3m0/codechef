@@ -15,7 +15,7 @@ A string is called beautiful if it has the form **AArAAr** where **A** is some n
 
 ### Input
 
- The first line contains a single integer **T <= 10**, the number of test cases. **T** test cases follow. The only line of each test case contains a non-empty string composed only of lowercase letters of the English alphabet. The length of the string is not greater than **100000**.
+ The first line contains a single integer **T &lt;= 10**, the number of test cases. **T** test cases follow. The only line of each test case contains a non-empty string composed only of lowercase letters of the English alphabet. The length of the string is not greater than **100000**.
 
 ### Output
 

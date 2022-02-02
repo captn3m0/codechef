@@ -97,8 +97,8 @@ For each test case, output a single line containing one integer corresponding to
 
 ###  Subtasks 
 
-**Subtask #1**\[30 points\]: **Xi, Yi** < **10**, **M** < **10 4**
-**Subtask #2**\[40 points\]: **M** < **109**
+**Subtask #1**\[30 points\]: **Xi, Yi** &lt; **10**, **M** &lt; **10 4**
+**Subtask #2**\[40 points\]: **M** &lt; **109**
 **Subtask #3**\[30 points\]: no additional conditions
 
 ### Example

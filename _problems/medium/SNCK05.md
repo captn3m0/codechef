@@ -73,7 +73,7 @@ How many compositions of a number n are with summands either 1 or 2.
 
 ### Input
 
-The first line contains a number, the number of test cases (<= 1000000). Each subsequent line contains a number n (<= 1000000000).
+The first line contains a number, the number of test cases (&lt;= 1000000). Each subsequent line contains a number n (&lt;= 1000000000).
 
 
 ### Output

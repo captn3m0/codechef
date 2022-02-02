@@ -47,12 +47,12 @@ For each test case:- If it's impossible to choose valid numbers **L** and **a1, 
 - Otherwise, print two lines.
 - The first line should contain a single string "Yes" (without quotes).
 - The second line should contain **N+1** space-separated integers **L, a1, a2, ..., aN** such that **G** is a far graph and the following constraints hold: 
-  - 1 ≤ **L** ≤ 2 · 109
-  - **L** is even
-  - all **ai** are distinct
-  - -109 ≤ **ai** ≤ 109 for each valid **i**
-  
-  It's guaranteed that if **G** is an induced far graph, then it's possible to choose **L, a1, a2, ..., aN** satisfying these constraints.
+    - 1 ≤ **L** ≤ 2 · 109
+    - **L** is even
+    - all **ai** are distinct
+    - -109 ≤ **ai** ≤ 109 for each valid **i**
+    
+    It's guaranteed that if **G** is an induced far graph, then it's possible to choose **L, a1, a2, ..., aN** satisfying these constraints.
 - If there are multiple solutions, you may output any one.
 
 ### Constraints

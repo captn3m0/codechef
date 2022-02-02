@@ -21,7 +21,7 @@ He however fears that a lot of people may win discounts. He is a great cook but 
 
 ### Input
 
-First line of the input contains a single integer T, the number of test cases. Each of the next T lines represents a single test case containing two integers N & M separated by a space. N & M are the dimensions of the board. You can assume that T <= 50000 and 1 <= N,M <= 10^18
+First line of the input contains a single integer T, the number of test cases. Each of the next T lines represents a single test case containing two integers N &amp; M separated by a space. N &amp; M are the dimensions of the board. You can assume that T &lt;= 50000 and 1 &lt;= N,M &lt;= 10^18
 
 ### Output
 

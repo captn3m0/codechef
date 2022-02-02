@@ -90,7 +90,7 @@ For each test case, output a single line containing the sum of the perimeters of
 - **1** ≤ **H** ≤ **1000**
 - **1** ≤ **N** ≤ **1000**
 - The sum of all values of **N** over the input does not exceed **5000**
-- 0 < **R** ≤ **1000**
+- 0 &lt; **R** ≤ **1000**
 - 0 ≤ **X**, **Y** ≤ **1000**
 - **X**, **Y**, **R** have exactly two digits after the decimal point
 - All circles are different, that is, every two circles have either different radii or different centers (or both)

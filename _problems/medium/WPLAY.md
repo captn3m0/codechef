@@ -77,7 +77,7 @@ In the player's turn, this player should make a **valid dictionary word** using 
 If a player is unable to make any such word, then the player lost the game. If a player makes a word, then all the alphabets used to make the word should be considered inactive till the end of the game. The turns of players alternate, until one of them loses. As usual **Alice plays first**.
 
 
-You are to say, if both **Alice** and **Bob** play optimally, who will win the game? />
+You are to say, if both **Alice** and **Bob** play optimally, who will win the game?
 
 **Note 1:**
 

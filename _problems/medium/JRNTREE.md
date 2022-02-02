@@ -122,9 +122,9 @@ Output the total number of possible trips Sergey could have done, which do not c
 
 Sergey could have obtained the following sequences:
 
-- 1 2 3 4 5: 1 -> 2 -> 1 -> 3 -> 4 -> 3 -> 5 -> 3 -> 1.
-- 1 2 3 5 4: 1 -> 2 -> 1 -> 3 -> 5 -> 3 -> 4 -> 3 -> 1.
-- 1 3 4 5 2: 1 -> 3 -> 4 -> 3 -> 5 -> 3 -> 1 -> 2 -> 1.
-- 1 3 5 4 2: 1 -> 3 -> 5 -> 3 -> 4 -> 3 -> 1 -> 2 -> 1.
+- 1 2 3 4 5: 1 -&gt; 2 -&gt; 1 -&gt; 3 -&gt; 4 -&gt; 3 -&gt; 5 -&gt; 3 -&gt; 1.
+- 1 2 3 5 4: 1 -&gt; 2 -&gt; 1 -&gt; 3 -&gt; 5 -&gt; 3 -&gt; 4 -&gt; 3 -&gt; 1.
+- 1 3 4 5 2: 1 -&gt; 3 -&gt; 4 -&gt; 3 -&gt; 5 -&gt; 3 -&gt; 1 -&gt; 2 -&gt; 1.
+- 1 3 5 4 2: 1 -&gt; 3 -&gt; 5 -&gt; 3 -&gt; 4 -&gt; 3 -&gt; 1 -&gt; 2 -&gt; 1.
 
 Here, all the trips have a length of **8** roads. No other trip has length less than or equal to **8** roads.

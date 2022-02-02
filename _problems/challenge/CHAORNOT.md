@@ -71,7 +71,7 @@ All submissions for this problem are available.### Problem description.
 
  Given **N** integers **A1**, **A2**, ..., **An**, print YES (or NO) if there exists (or not) **3** numbers that form an arithmetic sequence. All integers are between 0 and **99999** (inclusive).
 
- As Chef expected, during the contest, most teams cannot figure out an efficient algorithm to solve it. But in the last minute of the contest, judges get one 10-lines submission, which is judged as correct. The short solution works as follows, if **N** > **2000**, output YES, otherwise brute-force it.
+ As Chef expected, during the contest, most teams cannot figure out an efficient algorithm to solve it. But in the last minute of the contest, judges get one 10-lines submission, which is judged as correct. The short solution works as follows, if **N** &gt; **2000**, output YES, otherwise brute-force it.
 
  Chef felt extremely disappointed, and he/she believed that the solution is definitely wrong. Chef is now interested in how to challenge the submission.
 
@@ -88,7 +88,7 @@ First output the integer **N** on the first line. Then output **N** integers **A
 ### Constraints
 
 - **1** ≤ **M** ≤ **100000**
-- 0 ≤ **Bi** < **100000** for each **1** ≤ **i** ≤ **M**
+- 0 ≤ **Bi** &lt; **100000** for each **1** ≤ **i** ≤ **M**
 
 ### Scoring
 

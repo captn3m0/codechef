@@ -69,7 +69,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 Sereja have array **A'** that contain **N** integers. Now Sereja want to permute elements of the array, he want to use some permutation **p**, such that **A\[i\] = A'\[p\[i\]\]**, where **A** - new array.
 
-Lets function **f(A,i) = S - A\[i\] - A\[i +1\] - ... - A\[j\]**, where **j** is the maximum possible index, such that **A\[i\] + A\[i + 1\] + ... + A\[j\] <= S**, if **A\[i\] > S, f(A, i) = S**.
+Lets function **f(A,i) = S - A\[i\] - A\[i +1\] - ... - A\[j\]**, where **j** is the maximum possible index, such that **A\[i\] + A\[i + 1\] + ... + A\[j\] &lt;= S**, if **A\[i\] &gt; S, f(A, i) = S**.
 
 Help Sereja to find such permutation **p**, such that **(f(A, 1) + f(A, 2) + ... f(A, k))/k** will be as low as possible.
 

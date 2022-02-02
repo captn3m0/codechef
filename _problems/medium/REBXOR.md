@@ -75,7 +75,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 Nikitosh the painter has a 1-indexed array **A** of **N** elements. He wants to find the **maximum** value of expression 
 
-(**A\[l1\]** ⊕ **A\[l1 + 1\]** ⊕ **...** ⊕ **A\[r1\]**) + (**A\[l2\]** ⊕ **A\[l2 + 1\]** ⊕ **...** ⊕ **A\[r2\]**) where **1** ≤ **l1** ≤ **r1** < **l2** ≤ **r2** ≤ **N**.
+(**A\[l1\]** ⊕ **A\[l1 + 1\]** ⊕ **...** ⊕ **A\[r1\]**) + (**A\[l2\]** ⊕ **A\[l2 + 1\]** ⊕ **...** ⊕ **A\[r2\]**) where **1** ≤ **l1** ≤ **r1** &lt; **l2** ≤ **r2** ≤ **N**.
 
 Here, **x** ⊕ **y** means the [bitwise XOR](https://en.wikipedia.org/wiki/Bitwise_operation#XOR) of **x** and **y**.
 

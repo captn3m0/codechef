@@ -75,12 +75,12 @@ Animesh has at max **time** hours before he gets frustrated by his noobness and 
 **In the second example**, Malvika has prepared two programming contests.
 
 - First programming contest: 
-  - Easy problem — 1 hour and 5 units of pleasure.
-  - Medium problem — 2 hours and 3 units of pleasure.
-  - Hard problem — 1 hours and 3 units of pleasure.
+    - Easy problem — 1 hour and 5 units of pleasure.
+    - Medium problem — 2 hours and 3 units of pleasure.
+    - Hard problem — 1 hours and 3 units of pleasure.
 - Second programming contest: 
-  - Easy problem — 2 hours and 4 units of pleasure.
-  - Medium problem — 3 hours and 6 units of pleasure.
-  - Hard problem — 3 hours and 5 units of pleasure.
+    - Easy problem — 2 hours and 4 units of pleasure.
+    - Medium problem — 3 hours and 6 units of pleasure.
+    - Hard problem — 3 hours and 5 units of pleasure.
 
 Animesh has 6 hours and can use at max one swapping power. He can select the easy problem of the first programming contest and the medium problem of the second one. It will take him 4 hours and give him 11 units of pleasure.

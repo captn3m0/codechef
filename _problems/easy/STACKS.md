@@ -80,8 +80,8 @@ Little Mike has recently come up with the following algorithm after the order of
 
 - First, Mike initiates an empty set of disk stacks.
 - Then, Mike processes the disks in the chosen order using the following pattern: 
-  - If there is at least one stack such that Mike can put the current disk on the top of the stack without making it invalid, then he chooses the stack with the smallest top disk radius **strictly** greater than the radius of the current disk, and puts the current disk on top of that stack.
-  - Otherwise, Mike makes a new stack containing only the current disk.
+    - If there is at least one stack such that Mike can put the current disk on the top of the stack without making it invalid, then he chooses the stack with the smallest top disk radius **strictly** greater than the radius of the current disk, and puts the current disk on top of that stack.
+    - Otherwise, Mike makes a new stack containing only the current disk.
 
 For example, let's assume that the order of the disk radii is (3, 4, 5, 1, 1, 2). Here's how the set of the top stack disks will appear during the algorithm's run:
 

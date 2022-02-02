@@ -117,10 +117,10 @@ aaabecxd
 </pre>
 ### Scoring
 
-Subtask 1 (16 points): **T** = 50, 1 <= **N** <= 8, 1 <= **M** <= 10. Only the characters a, b and c and question marks occur in the string. Only the characters a, b, and c occur in the dictionary words. All the words in the dictionary consist of no more than 10 letters.
+Subtask 1 (16 points): **T** = 50, 1 &lt;= **N** &lt;= 8, 1 &lt;= **M** &lt;= 10. Only the characters a, b and c and question marks occur in the string. Only the characters a, b, and c occur in the dictionary words. All the words in the dictionary consist of no more than 10 letters.
 
-Subtask 2 (32 points): **T** = 50, 1 <= **N** <= 100, 1 <= **M** <= 100. Only the characters a, b and question marks occur in the string. Only the characters a and b occur in the dictionary words. All the words in the dictionary consist of no more than 10 letters.
+Subtask 2 (32 points): **T** = 50, 1 &lt;= **N** &lt;= 100, 1 &lt;= **M** &lt;= 100. Only the characters a, b and question marks occur in the string. Only the characters a and b occur in the dictionary words. All the words in the dictionary consist of no more than 10 letters.
 
-Subtask 3 (52 points): **T** = 10, 1 <= **N** <= 1000, 1 <= **M** <= 1000. Total length of all the dictionary strings will not exceed 1000.
+Subtask 3 (52 points): **T** = 10, 1 &lt;= **N** &lt;= 1000, 1 &lt;= **M** &lt;= 1000. Total length of all the dictionary strings will not exceed 1000.
 
 Time limit for the last subtask equals to 2 sec. For the first two subtasks it is 1 sec.

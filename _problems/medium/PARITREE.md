@@ -78,7 +78,7 @@ All submissions for this problem are available.###  Read problems statements in 
 You are given a tree consisting of **n** nodes numbered from **1** to **n**. The weights of edges of the tree can be any **binary** integer satisfying following **Q** conditions.
 
 - Each condition is of form **u, v, x** where **u, v** are nodes of the tree and **x** is a binary number. 
-   For satisfying this condition, sum of the weight of all the edges present in the path from node **u** to **v** of the tree, should have even if **x = 0**, odd otherwise.
+     For satisfying this condition, sum of the weight of all the edges present in the path from node **u** to **v** of the tree, should have even if **x = 0**, odd otherwise.
 
 Now, you have to find out number of ways of assigning **0/1** (binary) weights to the edges of the tree satisfying the above conditions.
 As the answer could be quite large, print your answer modulo **109 + 7**.
@@ -87,9 +87,9 @@ As the answer could be quite large, print your answer modulo **109 + 7**.
 
 - The first line of input contains a single integer **T** denoting number of test cases.
 - For each test case: 
-  - First line contains two space separated integers **n, Q**.
-  - Each of the next **n - 1** lines will contain two space separated integer **u, v** denoting that there is an edge between vertex **u** and **v** in the tree.
-  - Each of the next **Q** lines will contain three space separated integer **u, v, x** denoting a condition as stated in the probelm.
+    - First line contains two space separated integers **n, Q**.
+    - Each of the next **n - 1** lines will contain two space separated integer **u, v** denoting that there is an edge between vertex **u** and **v** in the tree.
+    - Each of the next **Q** lines will contain three space separated integer **u, v, x** denoting a condition as stated in the probelm.
 
 ### Output
 

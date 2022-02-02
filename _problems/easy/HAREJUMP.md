@@ -15,7 +15,7 @@ The chef got a new rabbit and he is going to train him so that he can perform fo
 
 ### Input
 
-The first line contains the number of the test cases T(<=100). Each test case consists of 2 lines. The first line defines the distance N (1<=N<=10^18) which tells us the number of units the chef wants the rabbit to cover. The next line contains k the number of jumps which are taught to the rabbit, k (k<=15) integers follow in the same line each denoting distinct distance L (L<=15) units which can be jumped by the rabbit.
+The first line contains the number of the test cases T(&lt;=100). Each test case consists of 2 lines. The first line defines the distance N (1&lt;=N&lt;=10^18) which tells us the number of units the chef wants the rabbit to cover. The next line contains k the number of jumps which are taught to the rabbit, k (k&lt;=15) integers follow in the same line each denoting distinct distance L (L&lt;=15) units which can be jumped by the rabbit.
 
 ### Output
 

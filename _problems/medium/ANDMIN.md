@@ -76,7 +76,7 @@ All submissions for this problem are available.###  Read problems statements in 
 You are given an array of **N** integers. You should support the following queries on this array.
 
 - **0 L R** : Find the minimum integer in the range **AL, AL+1, ..., AR**.
-- **1 L R X** : You should apply the assignment **A\[i\] = A\[i\] & X**, for all indices **i** in range **\[L, R\]**, where **&** denotes bitwise AND operation.
+- **1 L R X** : You should apply the assignment **A\[i\] = A\[i\] &amp; X**, for all indices **i** in range **\[L, R\]**, where **&amp;** denotes bitwise AND operation.
 
 ### Input
 

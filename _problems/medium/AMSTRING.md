@@ -130,4 +130,4 @@ a
 **(1, 3, 1, 3) : dist(A\[1, 3\], B\[1, 3\]) = dist(aba, abb) = 1 ≤ 2**
 
 **Example case 2**: The four **(1, 3, 1, 3)** no longer satisfies the conditions, because
-**(1, 3, 1, 3) : dist(A\[1, 3\], B\[1, 3\]) = dist(abc, def) = 3 > 2**
+**(1, 3, 1, 3) : dist(A\[1, 3\], B\[1, 3\]) = dist(abc, def) = 3 &gt; 2**

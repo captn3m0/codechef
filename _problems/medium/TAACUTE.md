@@ -69,7 +69,7 @@ time:
     current: 1493557938
 layout: problem
 ---
-All submissions for this problem are available.A triangle is **acute** if all its internal angles are acute (< 90o). You are given a set of **N** points on a 2D plane. Calculate the number of acute triangles that can be formed using points from the set as vertices.
+All submissions for this problem are available.A triangle is **acute** if all its internal angles are acute (&lt; 90o). You are given a set of **N** points on a 2D plane. Calculate the number of acute triangles that can be formed using points from the set as vertices.
 
 Two triangles are different if the set of three vertices of one triangle is not equal to the set of three vertices of the other triangle.
 

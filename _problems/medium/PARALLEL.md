@@ -67,7 +67,7 @@ time:
     current: 1493557837
 layout: problem
 ---
-All submissions for this problem are available.Chef needs a program to solve a simple task. The program will start with an array of integers X. After the execution it should hold values X\[1\] + X\[2\] + ... + X\[i\] at all positions 1 <= i <= N. However, he wants this done fast and efficiently. He needs your help to output a program which can be executed in parallel on N machines and will produce a correct result. Note that he needs a program for some fixed size of array 1 <= N <= 1000.
+All submissions for this problem are available.Chef needs a program to solve a simple task. The program will start with an array of integers X. After the execution it should hold values X\[1\] + X\[2\] + ... + X\[i\] at all positions 1 &lt;= i &lt;= N. However, he wants this done fast and efficiently. He needs your help to output a program which can be executed in parallel on N machines and will produce a correct result. Note that he needs a program for some fixed size of array 1 &lt;= N &lt;= 1000.
 
 A program consists of a series of synchronized steps. Instructions within one step are executed in parallel on multiple (at most N) machines which all have access to the shared memory where the array is located. You should not make any assumptions about the order in which these parallel instructions will be completed, but you can be sure that all instructions in the current step will be completed before any other instruction from the next step. There is only one type of instruction and it has the form "a+b=c". It reads the values X\[a\], X\[b\] and writes their sum in X\[c\]. The program should contain at most 20 steps and the total number of instructions should not exceed 2000.
 

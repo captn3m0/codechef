@@ -11,11 +11,11 @@ layout: problem
 ---
 ###  All submissions for this problem are available. 
 
-For a given prime number **p** find the number of all pairs **(m, n)** of positive integers such that **1 <= m, n <= p\*(p-1)** and **p** divides **nm - mn**. Output the result modulo **1000000007**.
+For a given prime number **p** find the number of all pairs **(m, n)** of positive integers such that **1 &lt;= m, n &lt;= p\*(p-1)** and **p** divides **nm - mn**. Output the result modulo **1000000007**.
 
 ### Input
 
- The first line contains a single positive integer **T <= 100**, the number of test cases. **T** test cases follow. The only line of each test case contains a prime number **p** , where **2 <= p <= 1012**.
+ The first line contains a single positive integer **T &lt;= 100**, the number of test cases. **T** test cases follow. The only line of each test case contains a prime number **p** , where **2 &lt;= p &lt;= 1012**.
 
 ### Output
 

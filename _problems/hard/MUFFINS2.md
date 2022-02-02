@@ -44,7 +44,7 @@ For each test case, output on a single line the minimum total energy consumption
 </pre>
 ### Constraints
 
-T<50
+T&lt;50
 1≤N≤30000
 0≤S≤30000
 0≤Ci≤20000

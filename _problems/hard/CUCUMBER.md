@@ -80,7 +80,7 @@ By the way, Cucumber Boy and Cucumber Girl live in the Wolf Town. Cucumber Boy a
 **the summation of **Q\[i1, j1, k\] \* Q\[i2, j2, k\]** over **1 ≤ k ≤ N****.
 Note that **j1** = **j2** is possible here.
 
-Now Cucumber Boy chooses two buildings **i1** and **i2** such that **1** ≤ **i1** < **i2** ≤ **B**. In each day Cucumber Boy and Cucumber Girl want to eat **N** collaborated pizzas. Here these **N** pizzas should satisfy the following conditions.
+Now Cucumber Boy chooses two buildings **i1** and **i2** such that **1** ≤ **i1** &lt; **i2** ≤ **B**. In each day Cucumber Boy and Cucumber Girl want to eat **N** collaborated pizzas. Here these **N** pizzas should satisfy the following conditions.
 
 - Each of **N** pizzas is a collaborated pizza between one shop in building **i1** and one shop in building **i2**.
 - Every shop in building **i1** collaborates for one of **N** pizzas.
@@ -103,7 +103,7 @@ The first line for each building **i** contains one string, which is **raw** or 
 
 ### Output
 
- For each test case, output a single line containing the number of pairs **(i1, i2)** of buildings with **1** ≤ **i1** < **i2** ≤ **B** for which Cucumber Boy's objective will be accomplished.
+ For each test case, output a single line containing the number of pairs **(i1, i2)** of buildings with **1** ≤ **i1** &lt; **i2** ≤ **B** for which Cucumber Boy's objective will be accomplished.
 
 ### Constraints
 

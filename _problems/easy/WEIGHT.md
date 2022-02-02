@@ -28,14 +28,14 @@ Given *n* and a weight *w*, find all the *n* digit numbers having a weight *w*. 
 ### Input Format:
 
 
-The first line contains one integer **t**, the number of testcases. (1 <= **t** <= 150) 
+The first line contains one integer **t**, the number of testcases. (1 &lt;= **t** &lt;= 150) 
 This will be followed by **t** lines each consisting of numbers **n** and **w**.
 
 ### Constraints:
 
 
-- 2 <= **n** <= 20
-- 0 <= **w** <= 200
+- 2 &lt;= **n** &lt;= 20
+- 0 &lt;= **w** &lt;= 200
 
 
 ### Output Format:

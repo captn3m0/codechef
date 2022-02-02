@@ -75,7 +75,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 You are given an **undirected graph**, you need to find the shortest walk in the graph from **source** to **sink** which satisfies the following property:
 
-Let the shortest walk from source to sink be through edges E1 -> E2 -> ... -> Ek, then Weight(E1) > Weight(E2) < Weight(E3) > Weight(E4) .....and so on.
+Let the shortest walk from source to sink be through edges E1 -&gt; E2 -&gt; ... -&gt; Ek, then Weight(E1) &gt; Weight(E2) &lt; Weight(E3) &gt; Weight(E4) .....and so on.
 
 Formally, the difference between adjacent edge weights in shortest walk should keep on switching from positive to negative and from negative to positive. And the first difference should be positive.
 

@@ -95,15 +95,15 @@ For each test case, output a single line containing the number of ways to buy se
 - **1** ≤ **Ai** ≤ **S**
 - **1** ≤ sum of **N** in a single test case ≤ **100**
 - Subtask 1 (17 points): 
-  - **1** ≤ **N, S** ≤ **10**
-  - **1** ≤ **Bi, Ci** ≤ **10**
+    - **1** ≤ **N, S** ≤ **10**
+    - **1** ≤ **Bi, Ci** ≤ **10**
 - Subtask 2 (35 points): 
-  - **1** ≤ **N, S** ≤ **50**
-  - **1** ≤ **Bi, Ci** ≤ **50**
+    - **1** ≤ **N, S** ≤ **50**
+    - **1** ≤ **Bi, Ci** ≤ **50**
 - Subtask 3 (48 points): 
-  - **1** ≤ **N, S** ≤ **100**
-  - **1** ≤ **Bi** ≤ **100**
-  - **1** ≤ **Ci** ≤ **107**
+    - **1** ≤ **N, S** ≤ **100**
+    - **1** ≤ **Bi** ≤ **100**
+    - **1** ≤ **Ci** ≤ **107**
 
 ### Example
 

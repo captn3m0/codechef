@@ -23,9 +23,9 @@ Every time a new chef joins the kitchen, output the absolute difference between 
 
 ### Constraints
 
-- 1 <= N <= 10^5
-- 1 <= Ai <= 10^9
-- 1 <= Ri <= 1000
+- 1 &lt;= N &lt;= 10^5
+- 1 &lt;= Ai &lt;= 10^9
+- 1 &lt;= Ri &lt;= 1000
 
 ### Example
 

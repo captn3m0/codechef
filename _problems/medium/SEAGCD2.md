@@ -71,7 +71,7 @@ layout: problem
 ---
 All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MAY16/mandarin/SEAGCD2.pdf), [Russian](http://www.codechef.com/download/translated/MAY16/russian/SEAGCD2.pdf) and [Vietnamese](http://www.codechef.com/download/translated/MAY16/vietnamese/SEAGCD2.pdf) as well.
 
-Sereja asks you to find out number of arrays **A** of size **N, i.e. A1, A2, ..., AN (1 ≤ Ai ≤ M)**, such that for each pair **i, j (1 ≤ i < j ≤ N) gcd(Ai, Aj) = 1.**
+Sereja asks you to find out number of arrays **A** of size **N, i.e. A1, A2, ..., AN (1 ≤ Ai ≤ M)**, such that for each pair **i, j (1 ≤ i &lt; j ≤ N) gcd(Ai, Aj) = 1.**
 
 As the answer could be large, print it modulo **109 + 7 (1000000007)**.
 

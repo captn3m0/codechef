@@ -127,6 +127,6 @@ He is
 in He
 Hn ie
 Hn ie
-Note that we use each word maximum number of times except **Hs** which was not used at all./>/>/>/>/>
+Note that we use each word maximum number of times except **Hs** which was not used at all.
 
 **Example case 2.** We have only 1 word **++** for the given alphabets **A** and **B** but Chef does not allow to use it. So the only possible article here is an empty article.

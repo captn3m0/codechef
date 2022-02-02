@@ -20,7 +20,7 @@ Po starts from the top-most cell (1,1) and from a cell (i,j) Po can move to any 
  *Exit*(4,2)(4,3)(4,4)
  *Mantis*### Input
 
-First line contains an integer T (number of test cases, around 10 ). T cases follow. Each case starts with a line having an integer N ( 2 <= N <= 500 ). N lines follow with ith line having i non-negative integers from range \[0 - 1,000,000\], number of chips in each cell as explained above.
+First line contains an integer T (number of test cases, around 10 ). T cases follow. Each case starts with a line having an integer N ( 2 &lt;= N &lt;= 500 ). N lines follow with ith line having i non-negative integers from range \[0 - 1,000,000\], number of chips in each cell as explained above.
 
 ### Output
 
@@ -44,6 +44,6 @@ For each case, output the maximum number of choco chips Po and Mantis can collec
 </pre>
 
  **Explanation:**
- Case 2 : Po can visit (1,1) -> (2,2) -> (3,1) and Mantis can visit (3,3) -> (3,2) -> (3,1). Note that if both step in to a same cell, we must count the choco chips in it only once in the final answer. The cell (3,1) is reached by both, but the 1 choco chip in it must be added only once ( of course :) ).
+ Case 2 : Po can visit (1,1) -&gt; (2,2) -&gt; (3,1) and Mantis can visit (3,3) -&gt; (3,2) -&gt; (3,1). Note that if both step in to a same cell, we must count the choco chips in it only once in the final answer. The cell (3,1) is reached by both, but the 1 choco chip in it must be added only once ( of course :) ).
 
 *Warning : Large input / output. You may have to use efficient input / output methods if you are using languages with heavy input / output overload. Eg: Prefer using scanf/printf to cin/cout for C/C++*

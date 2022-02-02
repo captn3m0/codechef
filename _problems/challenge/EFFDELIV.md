@@ -116,42 +116,42 @@ You can also get a *wrong answer* if your output doesn't satisfy the format abov
 There are **20** test cases in total. They are split into **5** groups, **4** tests in each.
 
 - In all the test cases: 
-  - **1** ≤ **Xi, Yi, Aj, Bj, S** ≤ **N**
-  - **1** ≤ **Vj** ≤ **W**
-  - **1** ≤ **Cj** ≤ **106**
-  - It is possible to reach **any** junction from the initial junction **S** via the streets.
-  - The streets are **bidirectional**.
-  - Each pair of junctions is connected with **no more that one** street.
+    - **1** ≤ **Xi, Yi, Aj, Bj, S** ≤ **N**
+    - **1** ≤ **Vj** ≤ **W**
+    - **1** ≤ **Cj** ≤ **106**
+    - It is possible to reach **any** junction from the initial junction **S** via the streets.
+    - The streets are **bidirectional**.
+    - Each pair of junctions is connected with **no more that one** street.
 - Group 1: 
-  - **1** ≤ **N** ≤ **100**
-  - **1** ≤ **M, K** ≤ **1000**
-  - **1** ≤ **D, W** ≤ **10000**
-  - **1** ≤ **Zi** ≤ **100**, for all the streets.
+    - **1** ≤ **N** ≤ **100**
+    - **1** ≤ **M, K** ≤ **1000**
+    - **1** ≤ **D, W** ≤ **10000**
+    - **1** ≤ **Zi** ≤ **100**, for all the streets.
 - Group 2: 
-  - **1** ≤ **N** ≤ **1000**
-  - **1** ≤ **M, K** ≤ **1000**
-  - **1** ≤ **D** ≤ **10000**
-  - **1** ≤ **W** ≤ **106**
-  - **Zi** = 1 for all the streets.
+    - **1** ≤ **N** ≤ **1000**
+    - **1** ≤ **M, K** ≤ **1000**
+    - **1** ≤ **D** ≤ **10000**
+    - **1** ≤ **W** ≤ **106**
+    - **Zi** = 1 for all the streets.
 - Group 3: 
-  - **1** ≤ **N** ≤ **10000**
-  - **M** = **N-1**
-  - **1** ≤ **K** ≤ **10000**
-  - **1** ≤ **D** ≤ **105**
-  - **1** ≤ **W** ≤ **10000**
-  - **1** ≤ **Zi** ≤ **100**, for all the streets
+    - **1** ≤ **N** ≤ **10000**
+    - **M** = **N-1**
+    - **1** ≤ **K** ≤ **10000**
+    - **1** ≤ **D** ≤ **105**
+    - **1** ≤ **W** ≤ **10000**
+    - **1** ≤ **Zi** ≤ **100**, for all the streets
 - Group 4: 
-  - **1** ≤ **N** ≤ **105**
-  - **1** ≤ **M, K** ≤ **105**
-  - **1** ≤ **D** ≤ **105**
-  - **1** ≤ **W** ≤ **105**
-  - **1** ≤ **Zi** ≤ **10**, for all the streets
+    - **1** ≤ **N** ≤ **105**
+    - **1** ≤ **M, K** ≤ **105**
+    - **1** ≤ **D** ≤ **105**
+    - **1** ≤ **W** ≤ **105**
+    - **1** ≤ **Zi** ≤ **10**, for all the streets
 - Group 5: 
-  - **1** ≤ **N** ≤ **105**
-  - **1** ≤ **M, K** ≤ **105**
-  - **1** ≤ **D** ≤ **105**
-  - **1** ≤ **W** ≤ **109**
-  - **1** ≤ **Zi** ≤ **10**, for all the streets
+    - **1** ≤ **N** ≤ **105**
+    - **1** ≤ **M, K** ≤ **105**
+    - **1** ≤ **D** ≤ **105**
+    - **1** ≤ **W** ≤ **109**
+    - **1** ≤ **Zi** ≤ **10**, for all the streets
 
 The score for a single test case equals the total profit of Sergey. The score for the whole task is the sum of the scores among all the test cases.
 

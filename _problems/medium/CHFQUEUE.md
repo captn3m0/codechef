@@ -109,10 +109,10 @@ Output description.
 
 ### Scoring
 
-**Subtask 1 : N <= 5000 ( 10 points)** 
+**Subtask 1 : N &lt;= 5000 ( 10 points)** 
 
  **Subtask 2 : K = 2 ( 10 points)**  
 
- **Subtask 3 : K <= 10 ( 20 points )**  
+ **Subtask 3 : K &lt;= 10 ( 20 points )**  
 
  **Subtask 4 : See Constraints ( 60 points )**

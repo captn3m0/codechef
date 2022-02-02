@@ -11,7 +11,7 @@ layout: problem
 ---
 ###  All submissions for this problem are available. 
 
-For the given string **S** of length **N** you need to find for each **L** from **1** to **N** the first non-palindrome substring of **S** that has length **L**. That is, for each **L** from **1** to **N** you need to find the smallest positive integer **K <= N - L + 1** such that the string **S\[K, K + L - 1\]** is not a palindrome. Denote this number by **K(L)**. Here **S\[i, j\]** stands for the substring of **S** composed of its characters in positions **i, i + 1, ..., j**. Characters of **S** are numbered from **1** to **N**. If for some **L** there is no such **K** set **K(L) = 0**. After you find all numbers **K(1), K(2), ..., K(N)** output the following sum
+For the given string **S** of length **N** you need to find for each **L** from **1** to **N** the first non-palindrome substring of **S** that has length **L**. That is, for each **L** from **1** to **N** you need to find the smallest positive integer **K &lt;= N - L + 1** such that the string **S\[K, K + L - 1\]** is not a palindrome. Denote this number by **K(L)**. Here **S\[i, j\]** stands for the substring of **S** composed of its characters in positions **i, i + 1, ..., j**. Characters of **S** are numbered from **1** to **N**. If for some **L** there is no such **K** set **K(L) = 0**. After you find all numbers **K(1), K(2), ..., K(N)** output the following sum
 
  **100007N - 1 \* K(1) + 100007N - 2 \* K(2) + ... + 100007 \* K(N - 1) + K(N)**  
  modulo **264**. 
@@ -26,8 +26,8 @@ For each test case, output a single line containing the corresponding sum constr
 
 ### Constraints
 
- **1 <= T <= 20 
- 1 <= length of S <= 100000**
+ **1 &lt;= T &lt;= 20 
+ 1 &lt;= length of S &lt;= 100000**
 
 ### Example
 

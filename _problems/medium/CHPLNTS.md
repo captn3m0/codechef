@@ -68,15 +68,14 @@ layout: problem
 ---
 All submissions for this problem are available.Chef is the richest person in his town Chefinia. Chef has a big garden along with greenhouse. 
 
-Garden has N plants, each with a height hi (0 ≤ i ≤ N-1). 
-/>/>
+Garden has N plants, each with a height hi (0 ≤ i ≤ N-1).
 
 Now chef wants to trim some of the plants to make all the plants of the same height.
 In one move, chef can select a range L,R (0 ≤ L ≤ R ≤ N-1) and reduce the height of all plants in the range by 1. 
 
 
 
-Chef is feeling lazy and wants to know what is the minimum number of moves needed for chef to make all plants of equal length. Please help him find the answer. />/>
+Chef is feeling lazy and wants to know what is the minimum number of moves needed for chef to make all plants of equal length. Please help him find the answer.
 
 ### Input
 
@@ -111,4 +110,4 @@ For each test case, output a single integer – the minimum no. of moves require
 In first case, we can first choose (2,2) and then (1,2)
 
 
-1 2 3 -> 1 2 2 -> 1 1 1 />
+1 2 3 -&gt; 1 2 2 -&gt; 1 1 1

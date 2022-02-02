@@ -81,7 +81,7 @@ Pishty is a little boy who lives in Khust, an ancient town with a castle and sma
 You are given a sequence **A1, A2, ..., AN** and **Q** queries. There are two types of queries:
 
 - 1 **pos** **val** — Set **Apos** = **val**.
-- 2 **l r** — Find the maximum possible perimeter of a triangle with non-zero area whose sides are elements of the subsequence **Al, Al+1, ..., Ar**. Note that each element of the subsequence can only be used as the length of at most one side, i.e. the sides of each valid triangle must be elements **Ax**, **Ay**, **Az**, where **l ≤ x < y < z ≤ r**.
+- 2 **l r** — Find the maximum possible perimeter of a triangle with non-zero area whose sides are elements of the subsequence **Al, Al+1, ..., Ar**. Note that each element of the subsequence can only be used as the length of at most one side, i.e. the sides of each valid triangle must be elements **Ax**, **Ay**, **Az**, where **l ≤ x &lt; y &lt; z ≤ r**.
 
 For each query of the second type, compute the maximum possible perimeter or determine that no valid triangle exists.
 
@@ -90,8 +90,8 @@ For each query of the second type, compute the maximum possible perimeter or det
 - The first line of the input contains two space-separated integers **N** and **Q**.
 - The second line contains **N** space-separated integers **A1, A2, ..., AN**.
 - **Q** lines follow. Each of these lines describes one query in the following format: 
-  - 1 **pos** **val** for a query of the first type
-  - 2 **l** **r** for a query of the second type
+    - 1 **pos** **val** for a query of the first type
+    - 2 **l** **r** for a query of the second type
 
 ### Output
 

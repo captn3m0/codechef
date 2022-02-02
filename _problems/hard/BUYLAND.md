@@ -23,10 +23,10 @@ Output exactly K lines containing the K best pieces of land chef can buy, ordere
 
 ### Constraints
 
-- 1 <= R, C <= 666
-- 1 <= H <= (R+1)/2
-- 1 <= W <= (C+1)/2
-- 1 <= K <= 1000
+- 1 &lt;= R, C &lt;= 666
+- 1 &lt;= H &lt;= (R+1)/2
+- 1 &lt;= W &lt;= (C+1)/2
+- 1 &lt;= K &lt;= 1000
 ### Example
 
 

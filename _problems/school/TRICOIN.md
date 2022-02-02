@@ -122,6 +122,6 @@ For each test case, output a single line containing an integer corresponding to 
 </pre>
 ### Explanation
 
-- **Test 1:** Chef can't form a triangle with height > 2 as it requires atleast 6 gold coins.
-- **Test 2:** Chef can't form a triangle with height > 2 as it requires atleast 6 gold coins.
-- **Test 3:** Chef can't form a triangle with height > 3 as it requires atleast 10 gold coins.
+- **Test 1:** Chef can't form a triangle with height &gt; 2 as it requires atleast 6 gold coins.
+- **Test 2:** Chef can't form a triangle with height &gt; 2 as it requires atleast 6 gold coins.
+- **Test 3:** Chef can't form a triangle with height &gt; 3 as it requires atleast 10 gold coins.

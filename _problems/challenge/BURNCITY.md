@@ -73,9 +73,9 @@ An example of the fire fighting process is presented below.
 
 ![An example of the fire fighting process](http://www.codechef.com/download/mima-burncity.png)### Input
 
-The first line of input contains a single integer *t*<=500, the number of test cases.
+The first line of input contains a single integer *t*&lt;=500, the number of test cases.
 
-The first line of every test case contains five integers *n c h sx sy*, respectively denoting: *n* - the length of one side of the city (measured in squares), *c* - the number of dynamite charges Johnny can use, *h* - the number of minutes after which the rain falls, *sx*, *sy* - the *x* and *y* coordinates of the square containing the fire-station from which Johnny starts, measured relative to the North-West corner of the city (1<=*sx*, *sy*<=*n*<=50, 0<=*c*<=*h*<=5\**n*; there are about 10 test cases for all possible values of *n*). Finally, the map of the city is given in the form of *n* lines of *n* characters each, each corresponding to the state of a square at the start of the fire fighting ('b' - building, 'g' - grassland, 'w' - water, 'f' - fire).
+The first line of every test case contains five integers *n c h sx sy*, respectively denoting: *n* - the length of one side of the city (measured in squares), *c* - the number of dynamite charges Johnny can use, *h* - the number of minutes after which the rain falls, *sx*, *sy* - the *x* and *y* coordinates of the square containing the fire-station from which Johnny starts, measured relative to the North-West corner of the city (1&lt;=*sx*, *sy*&lt;=*n*&lt;=50, 0&lt;=*c*&lt;=*h*&lt;=5\**n*; there are about 10 test cases for all possible values of *n*). Finally, the map of the city is given in the form of *n* lines of *n* characters each, each corresponding to the state of a square at the start of the fire fighting ('b' - building, 'g' - grassland, 'w' - water, 'f' - fire).
 
 ### Output
 

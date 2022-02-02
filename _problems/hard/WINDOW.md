@@ -17,13 +17,13 @@ The attic wall has the form of a right triangle. We can imagine it as a triangle
 
 As a modern guy Chef want to build a modern **(L, K)**-window on the attic wall. A modern **(L, K)**-window is made up of **L+1** vertical lines and **K+1** horizontal lines such that all their intersections lie on the attic wall. Here **L, K** are positive integers. 
 
-Formally he can choose **L+1** integers **0 <= x\[0\] < x\[1\] < ... < x\[L\] <= N** and **K+1** integers **0 <= y\[0\] < y\[1\] < ... < y\[K\] <= N\*A/B** such that all points **(x\[i\], y\[j\])** lie on the wall. Then, rectangular grid with all these points as nodes is required window. 
+Formally he can choose **L+1** integers **0 &lt;= x\[0\] &lt; x\[1\] &lt; ... &lt; x\[L\] &lt;= N** and **K+1** integers **0 &lt;= y\[0\] &lt; y\[1\] &lt; ... &lt; y\[K\] &lt;= N\*A/B** such that all points **(x\[i\], y\[j\])** lie on the wall. Then, rectangular grid with all these points as nodes is required window. 
 
 Chef is interested in knowing how many ways he can choose the window. But since this number can be very large he wants to find it modulo **900000011**. Help him.
 
 ### Input
 
- The first line contains a single positive integer **T <= 50**, the number of test cases. **T** test cases follow. The only line of each test case contains five positive integers **N, A, B, K, L**, where **N, A, B <= 10^18** and **K, L <= 10**.
+ The first line contains a single positive integer **T &lt;= 50**, the number of test cases. **T** test cases follow. The only line of each test case contains five positive integers **N, A, B, K, L**, where **N, A, B &lt;= 10^18** and **K, L &lt;= 10**.
 
 ### Output
 

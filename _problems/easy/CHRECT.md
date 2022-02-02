@@ -113,12 +113,12 @@ For each test case, output the smallest value possible for **S**, if the Chef ch
 
 **Test Case 2:** If Chef selects two paths that have a common cell, such as
 
-- **(1,1)->(1,2)->(2,2)->(3,2)->(3,3)**
-- **(1,1)->(2,1)->(2,2)->(3,2)->(3,3)**
+- **(1,1)-&gt;(1,2)-&gt;(2,2)-&gt;(3,2)-&gt;(3,3)**
+- **(1,1)-&gt;(2,1)-&gt;(2,2)-&gt;(3,2)-&gt;(3,3)**
 
 Then the value of **S** will be equal to **2**, since the number of stones in **(2,2)** and **(3,2)** is equal to 2. But, if Chef selects two paths which do not have any common cells, such as
 
-- **(1,1)->(1,2)->(1,3)->(2,3)->(3,3)**
-- **(1,1)->(2,1)->(3,1)->(3,2)->(3,3)**
+- **(1,1)-&gt;(1,2)-&gt;(1,3)-&gt;(2,3)-&gt;(3,3)**
+- **(1,1)-&gt;(2,1)-&gt;(3,1)-&gt;(3,2)-&gt;(3,3)**
 
 Then the value of **S** will be equal to **1**.

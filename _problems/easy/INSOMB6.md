@@ -15,21 +15,19 @@ A set of N dignitaries have arrived in close succession at Delhi and are awaitin
 
 **Input Format:**
 
-Line 1: N - The number of dignitaries. 1 <= N <= 100
+Line 1: N - The number of dignitaries. 1 &lt;= N &lt;= 100
 
 Line 2-N+1: The names of the dignitaries – 1 per line.
 
 Line N+2 to 2\*N+1: The names of the vehicles, 1 per line
 
-Line N+2 onwards: K – The size of the preference list for each dignitary, followed by K space separated names of acceptable transport means. K <= N
+Line N+2 onwards: K – The size of the preference list for each dignitary, followed by K space separated names of acceptable transport means. K &lt;= N
 
 
 
-Note: None of the names will have a length > 100. />/>/>/>/>
+Note: None of the names will have a length &gt; 100.
 
 **Output Format:**
-
-/>
 
 Line 1: Yes/No.
 
@@ -52,7 +50,7 @@ Chevrolet
 </pre>
 
 
-**Sample Output:**/>
+**Sample Output:**
 
 <pre>
 No

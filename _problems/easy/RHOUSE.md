@@ -26,9 +26,9 @@ For each test case output the minimal cost of any satisfactory subset of roads.
 
 ### Constraints
 
-2<=N<=100000
-1<=M<=400000
--20000<=Zi<=20000
+2&lt;=N&lt;=100000
+1&lt;=M&lt;=400000
+-20000&lt;=Zi&lt;=20000
 Sum over all N in a single input file will not exceed 200000.
 Sum over all M in a single input file will not exceed 400000.
 It is guaranteed that you can reach every building from any other building.

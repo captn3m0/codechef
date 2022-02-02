@@ -70,7 +70,7 @@ layout: problem
 ---
 All submissions for this problem are available.Today Tomya buys **N** retort pouches of food in Chef Ciel's restaurant. The **i**-th retort pouch contains **Vi** units of food, and its use-by date is the **Ui**-th day (1-origin). Moreover, food from the **i**-th retort pouch can be eaten only within **Li** days after it was opened. Namely, if Tomya will open the **i**-th retort pouch on the **xi**-th day, she can eat food units from it on the **k**-th day if and only if **xi** ≤ **k** ≤ **min(Ui, xi+Li−1)**.
 
-The retort pouches in Ciel's restaurant are designed in such a way that if **Vi < Vj**, then **Ui ≤ Uj**.
+The retort pouches in Ciel's restaurant are designed in such a way that if **Vi &lt; Vj**, then **Ui ≤ Uj**.
 
 Tomya will eat at most two units of food everyday. However after the **min(Ui, xi+Li−1)**-th day, uneaten food units in the **i**-th retort pouch must be discarded. Your task is to decide when to open each of the retort pouches and which food unit(s) to eat each day in such a way that the number of discarded units will be minimum.
 
@@ -94,7 +94,7 @@ For each test case, output a single line containing the minimum number of food u
 - **1** ≤ **T** ≤ **2013**
 - **1** ≤ **N** ≤ **2013**
 - **1** ≤ **Vi**, **Ui**, **Li** ≤ **20000000000000** (**2 \* 1013**)
-- If **Vi** < **Vj**, then **Ui** ≤ **Uj**
+- If **Vi** &lt; **Vj**, then **Ui** ≤ **Uj**
 - The sum of **N** in one test file does not exceed **20130**.
 
 ### Example

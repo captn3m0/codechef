@@ -87,7 +87,7 @@ A string **s** (of size **n**) is said to be constructed from string **t** (also
 
 - First line contain integer **T** - number of test cases.
 - For each of the next **T** lines: 
-  - Each line contains a string **A** as defined in the problem.
+    - Each line contains a string **A** as defined in the problem.
 
 ### Output
 

@@ -15,7 +15,7 @@ You are the King of Byteland. Your agents have just intercepted a batch of encry
 
 ### Input
 
-The first line of input contains a single positive integer t<=10, the number of test cases. t test cases follow. Each test case begins with integer n (n<=10), the number of messages. The next n lines contain the messages, consisting only of between 2 and 10000 characters 'a'-'z', possibly with some additional trailing white space which should be ignored.
+The first line of input contains a single positive integer t&lt;=10, the number of test cases. t test cases follow. Each test case begins with integer n (n&lt;=10), the number of messages. The next n lines contain the messages, consisting only of between 2 and 10000 characters 'a'-'z', possibly with some additional trailing white space which should be ignored.
 
 ### Output
 

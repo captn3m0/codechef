@@ -72,7 +72,7 @@ All submissions for this problem are available.###  Read problems statements in 
 
 Little chef has just been introduced to the world of numbers! While experimenting with addition and multiplication operations, the little chef came up with the following problem:
 
- Given an array **A** of non-negative integers, how many pairs of indices **i** and **j** exist such that  **A\[i\]\*A\[j\] > A\[i\]+A\[j\]**  where  **i < j** .
+ Given an array **A** of non-negative integers, how many pairs of indices **i** and **j** exist such that  **A\[i\]\*A\[j\] &gt; A\[i\]+A\[j\]**  where  **i &lt; j** .
 
  Now being a learner, little chef isn't able to solve this problem efficiently and hence turns to you for help.
 
@@ -92,9 +92,6 @@ For each test, print the required number of pairs in a single line.
 - **2** ≤ **N** ≤ **100000 (105)**
 - 0 ≤ **A\[i\]** ≤ **1000000 (106)**
 
-
-/>
-
 ### Example
 
 <pre><b>Input:</b>
@@ -110,10 +107,10 @@ For each test, print the required number of pairs in a single line.
 </pre>
 ### Explanation
 
-/> **Example case 1.**
+**Example case 1.**
 
-All pairs of numbers satisfy the criteria. Total number of pairs equals **3**. />
+All pairs of numbers satisfy the criteria. Total number of pairs equals **3**.
 
 **Example case 2.**
 
-No pair of numbers satisfy the criteria. />
+No pair of numbers satisfy the criteria.

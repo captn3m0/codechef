@@ -15,7 +15,7 @@ Chef develops his own computer program for playing chess. He is at the very begi
 
 ### Input
 
- The first line contains a single integer **T <= 50000**, the number of test cases. **T** test cases follow. The only line of each test case contains a non-empty string composed the characters with ASCII-codes from 32 to 126. The length of the string is not greater than **10**.
+ The first line contains a single integer **T &lt;= 50000**, the number of test cases. **T** test cases follow. The only line of each test case contains a non-empty string composed the characters with ASCII-codes from 32 to 126. The length of the string is not greater than **10**.
 
 ### Output
 

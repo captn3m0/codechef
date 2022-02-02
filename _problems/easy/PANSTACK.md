@@ -73,9 +73,9 @@ Chef needs to take care that when he places a pancake on the top of the stack th
 
 **Input**
 
-First line of the input contains **T (T <= 1000)** denoting the number of test cases.
+First line of the input contains **T (T &lt;= 1000)** denoting the number of test cases.
 
-**T** lines follow each containing a single integer **N (1 <= N <= 1000)** denoting the size of the required stack.
+**T** lines follow each containing a single integer **N (1 &lt;= N &lt;= 1000)** denoting the size of the required stack.
 
 **Output**
 

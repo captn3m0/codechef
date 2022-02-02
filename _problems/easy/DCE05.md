@@ -21,7 +21,7 @@ You want to board the ship as a crew member. Given the total number of applicant
 
 ### Input
 
-First line contains the number of test cases t (t<=10^6). The next t lines contain integer n, the number of applicants for that case. (n<=10^9)
+First line contains the number of test cases t (t&lt;=10^6). The next t lines contain integer n, the number of applicants for that case. (n&lt;=10^9)
 
 ### Output
 

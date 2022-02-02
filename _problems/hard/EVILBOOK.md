@@ -87,7 +87,7 @@ For each test case, print the minimum total effort (rounded to the nearest integ
 
 1 ≤ **T** ≤ 5
 1 ≤ **N** ≤ 10
-10 ≤ **X** < 666
+10 ≤ **X** &lt; 666
 0 ≤ **Ci** ≤ 1000000000 (109)
 0 ≤ **Mi** ≤ 1000000000 (109)
 

@@ -81,7 +81,7 @@ Let **L** be the minimum number of days in which he can reach city **N**.
 Chef knows the cost of overnight stay in each city. The cost of overnight stay in city **i** is **ci**.
 Chef will need to get all his hotel bills re-embersed, and his boss might get suspicious if cost for any single day exceeds a threshold.
 
-Chef knows that his boss wants him to reach as soon as possible. Thus, if it is possible for Chef to go from 0 to **N** in **L** days with no restriction on where Chef stays, then his boss will want him to reach in exactly **L** days. However, if the boss puts a threshold value **i** then we know that the Chef may not be able to reach in **L** days (since he may not be allowed to stay at some hotels). Help him him find the minimum threshold value **C** such that if he only stays in hotels of cost <= **C**, it is possible for him to reach the destination **N** in exactly **L** days (remember, here **L** is the minimum number of days needed by Chef if there were absolutely no restrictions on where he stays).
+Chef knows that his boss wants him to reach as soon as possible. Thus, if it is possible for Chef to go from 0 to **N** in **L** days with no restriction on where Chef stays, then his boss will want him to reach in exactly **L** days. However, if the boss puts a threshold value **i** then we know that the Chef may not be able to reach in **L** days (since he may not be allowed to stay at some hotels). Help him him find the minimum threshold value **C** such that if he only stays in hotels of cost &lt;= **C**, it is possible for him to reach the destination **N** in exactly **L** days (remember, here **L** is the minimum number of days needed by Chef if there were absolutely no restrictions on where he stays).
 
 Formally, let **L** be the minimal number of days it takes Chef to get from city 0 to city **N**. Let **F(i)** be the minimal number of days it takes Chef to get from city 0 to city **N** if it's not allowed to pay more than **i** for a single stay in hotel. Find the smallest **C** that will still allow Chef to get to city **N** without losing time. In other words **F(C)=L**. Find and output **L** as well.
 
@@ -143,18 +143,15 @@ Example:
 2 3
 
 4 5
-/>/>/>/>/>/>/>/>/>/>/>/>
 
 ### Sample output
 
 2 2
 
 3 2
-/>/>
 
 ### Explanation
 
 For test case# 1, the optimal trip is 0 → **2** → **4**
 
 For test case# 2, the optimal trip is 0 → **1** → **3** → **5**
-/>/>

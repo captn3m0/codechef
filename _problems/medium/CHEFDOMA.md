@@ -120,8 +120,8 @@ Output the answer to the query in a single line.
 
 Test #1:
 
-The dominating subarrays are A\[1..1\], A\[2..2\], A\[3..3\], A\[4..4\], A\[5..5\], A\[6..6\], A\[1..3\], A\[2..4\], A\[3..5\]./>
+The dominating subarrays are A\[1..1\], A\[2..2\], A\[3..3\], A\[4..4\], A\[5..5\], A\[6..6\], A\[1..3\], A\[2..4\], A\[3..5\].
 
 Test #2:
 
-The dominating subarrays are A\[1..1\], A\[2..2\], A\[3..3\], A\[4..4\], A\[5..5\], A\[6..6\], A\[7..7\], A\[3..4\], A\[2..4\], A\[3..5\], A\[3..7\]./>
+The dominating subarrays are A\[1..1\], A\[2..2\], A\[3..3\], A\[4..4\], A\[5..5\], A\[6..6\], A\[7..7\], A\[3..4\], A\[2..4\], A\[3..5\], A\[3..7\].

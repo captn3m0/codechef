@@ -87,19 +87,15 @@ A single camera can take a picture of a group of elephants if and only if all th
 
 ![elephant_1](http://www.codechef.com/download/elephant_1.png)
 
-/>
-
 In the following act, the elephant at position 15 dances to position 32. After this act, we need at least two cameras
  to take the snapshot.
 
-![elephant_2](http://www.codechef.com/download/elephant_2.png) 
-/>
+![elephant_2](http://www.codechef.com/download/elephant_2.png)
 
 In the next act, the elephant at position 10 moves to position 7. For the new arrangement of elephants, we need three
  cameras to photograph all of them.
 
 ![elephant_3](http://www.codechef.com/download/elephant_3.png)
-/>
 
 In this task, you have to determine the minimum number of cameras needed to take the pictures after each
  of the acts. Note that the number of cameras needed may increase, decrease, or stay the same between acts.
@@ -123,10 +119,8 @@ Output should consist of **M** integers in separate lines, denoting the **minimu
 ### Examples
 
 **Example 1:**
-/>
 
 **Input**
-/>
 
 <pre>
 4 10 5
@@ -141,7 +135,6 @@ Output should consist of **M** integers in separate lines, denoting the **minimu
 2 0
 </pre>
 **Output**
-/>
 
 <pre>
 1
@@ -151,10 +144,8 @@ Output should consist of **M** integers in separate lines, denoting the **minimu
 3
 </pre>
 **Example 2:**
-/>
 
 **Input**
-/>
 
 <pre>
 2 12321 3
@@ -165,7 +156,6 @@ Output should consist of **M** integers in separate lines, denoting the **minimu
 0 78754
 </pre>
 **Output**
-/>
 
 <pre>
 2
@@ -205,5 +195,3 @@ Output should consist of **M** integers in separate lines, denoting the **minimu
 
 - Courtesy: [IOI 2011](http://www.ioi2011.or.th/tasks)
 - This problem has been slightly modified to suit the online judge of CodeChef. testchange
-
-/>

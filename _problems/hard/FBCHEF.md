@@ -99,14 +99,14 @@ For each query of type **2** print the required value asked in the question.
 
 ### Constraints
 
-1 <= **N** <= 105 
-1 <= **Q** <= 105 
-1 <= **A** <= **N**
+1 &lt;= **N** &lt;= 105 
+1 &lt;= **Q** &lt;= 105 
+1 &lt;= **A** &lt;= **N**
 
-1 <= **U, V** <= **N**, **U** ≠ **V**
+1 &lt;= **U, V** &lt;= **N**, **U** ≠ **V**
 
-1 <= **X** <= 105
-1 <= **Wi** <= 109
+1 &lt;= **X** &lt;= 105
+1 &lt;= **Wi** &lt;= 109
 
 ### Example
 
@@ -133,11 +133,11 @@ For each query of type **2** print the required value asked in the question.
 
 Path from Capital to City 1 : 1
 
-Path from Capital to City 2 : 1 <--> 2
+Path from Capital to City 2 : 1 &lt;--&gt; 2
 
-Path from Capital to City 3 : 1 <--> 2 <--> 3
+Path from Capital to City 3 : 1 &lt;--&gt; 2 &lt;--&gt; 3
 
-Path from Capital to City 4 : 1 <--> 2 <--> 3 <--> 4
+Path from Capital to City 4 : 1 &lt;--&gt; 2 &lt;--&gt; 3 &lt;--&gt; 4
 
 Cities having 1 in the path connected to Capital City : (1,2,3,4)
 

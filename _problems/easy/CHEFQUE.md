@@ -42,7 +42,7 @@ Then, he needs to find the sum of all elements of the set after performing these
 
 The first line of input contains four integers — **Q**, **S1**, **A**, **B**. **S1** is the first number in the operations. **A** and **B** are special constants explained later. Every operation **Si** is represented by a single integer. If **Si** is odd, then it represents the first operation, otherwise the second type, and in both of them the integer you have to add/delete equals \[**Si** / 2\], where \[\] is the greatest integer (or floor) function.
 
- **Si** = (**A**\***Si-1** + **B**) mod **232** when **i** > 1.
+ **Si** = (**A**\***Si-1** + **B**) mod **232** when **i** &gt; 1.
 
 **Note:** In this problem, the time limit is very tight. Using built-in data structures, such as set/unordered\_set in C++ or TreeSet/HashSet in Java, may lead to a Time Limit Exceed verdict.
 

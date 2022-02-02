@@ -93,6 +93,6 @@ For each test case, output a single line containing probability as an irreducibl
 </pre>
 ### Constraints
 
-1<=**T**<=103
+1&lt;=**T**&lt;=103
 
-1<=**N**<=109
+1&lt;=**N**&lt;=109

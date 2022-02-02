@@ -84,7 +84,7 @@ Similarly, "aa", "abcabc" are double strings whereas "a", "abba", "abc" are not.
 
 - First line of the input contains an integer **D** denoting the number of dishes prepared by Chef on that day.
 - Each of the next **D** lines will contain description of a dish. 
-  - The i-th line contains the name of i-th dish **Si**.
+    - The i-th line contains the name of i-th dish **Si**.
 
 ### Output
 

@@ -56,7 +56,7 @@ layout: problem
 ---
 All submissions for this problem are available.Given **N** integers **A1, A2, …. AN**, Dexter wants to know how many ways he can choose three numbers such that they are three consecutive terms of an arithmetic progression.
 
-Meaning that, how many triplets **(i, j, k)** are there such that **1 ≤ i < j < k ≤ N** and **Aj - Ai = Ak - Aj**.
+Meaning that, how many triplets **(i, j, k)** are there such that **1 ≤ i &lt; j &lt; k ≤ N** and **Aj - Ai = Ak - Aj**.
 
 So the triplets (2, 5, 8), (10, 8, 6), (3, 3, 3) are valid as they are three consecutive terms of an arithmetic
 progression. But the triplets (2, 5, 7), (10, 6, 8) are not.

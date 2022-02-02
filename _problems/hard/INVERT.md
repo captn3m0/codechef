@@ -85,10 +85,9 @@ Devu is playing well during each of his moves but Churu is getting slower as the
 
 You are provided with Devu's array **A** and a sequence of all his moves. You have to report the inversion count in churu's array **B** after each of Devu's move.
 
-**Note :** 
-/>
+**Note :**
 
-In any arbitrary array **C**, a pair of indices **x** and **y** such that **x < y** and **C\[x\] > C\[y\]** is known as an inversion.
+In any arbitrary array **C**, a pair of indices **x** and **y** such that **x &lt; y** and **C\[x\] &gt; C\[y\]** is known as an inversion.
 
 ### Input
 

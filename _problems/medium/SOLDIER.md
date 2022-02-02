@@ -13,11 +13,11 @@ layout: problem
 
 Igor, a famous russian soldier, must go to war. His superiors allowed him to buy his own equipment. He must buy 6 items: a helmet, bulletproof vest, trousers, boots, tunic and firearm. This items are represented with numbers from 1 to 6.
 
- There are N (6 < N < 101) items of these 6 types. Each item is characterized by its price p\[i\] (in rublas) and is quality q\[i\]. Igor has a total of T (0 < T < 1001) rublas and he wants to maximize the total quality of his equipment. The total quality is the quality of the item with the lowest quality. Help him.
+ There are N (6 &lt; N &lt; 101) items of these 6 types. Each item is characterized by its price p\[i\] (in rublas) and is quality q\[i\]. Igor has a total of T (0 &lt; T &lt; 1001) rublas and he wants to maximize the total quality of his equipment. The total quality is the quality of the item with the lowest quality. Help him.
 
 ### Input
 
-On the first line there are two integers: number of items for sale (N) and total rublas Igor has (T). Subsequent lines contain 3 integers: type (t) (from 1 to 6) price (> 0) and quality.
+On the first line there are two integers: number of items for sale (N) and total rublas Igor has (T). Subsequent lines contain 3 integers: type (t) (from 1 to 6) price (&gt; 0) and quality.
 
 ### Output
 

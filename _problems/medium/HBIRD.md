@@ -103,9 +103,9 @@ For each of the chef's question, Print the maximum number of birds he can feed.
 ### Subtask
 
 - **Subtask 1 (20 pts):**
-  - **1 ≤ N, M, Q ≤ 50**
-  - 0 ≤ Hi,j ≤ 50
-  - 0 ≤ G ≤ 109
+    - **1 ≤ N, M, Q ≤ 50**
+    - 0 ≤ Hi,j ≤ 50
+    - 0 ≤ G ≤ 109
 - **Subtask 2 (80 pts):** Original Constraints
 
 ### Example

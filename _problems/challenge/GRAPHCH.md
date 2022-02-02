@@ -84,7 +84,7 @@ Now, there might be multiple ways to achieve this. So, you have to strive to kee
 
 ###  Input 
 
- First line contains t ( ≤ 100 ) equal to the number of test cases. For each test case, the first line contains 2 space separated integers ( N and M respectively ). Then M lines follow, each line containing 2 integers x and y ( 0 ≤ x,y < N , x ≠ y ) denoting an edge between vertex x and y. Then follow N lines, where line number i contains 2 integers a and b denoting the dimension of the ith vertex \[ Here, a denotes the length parallel to x-axis and b denotes the length parallel to y-axis \]
+ First line contains t ( ≤ 100 ) equal to the number of test cases. For each test case, the first line contains 2 space separated integers ( N and M respectively ). Then M lines follow, each line containing 2 integers x and y ( 0 ≤ x,y &lt; N , x ≠ y ) denoting an edge between vertex x and y. Then follow N lines, where line number i contains 2 integers a and b denoting the dimension of the ith vertex \[ Here, a denotes the length parallel to x-axis and b denotes the length parallel to y-axis \]
 
 (  **Note**  : If the same pair x,y appears multiple times, it denotes multiple edges and hence, each pair contributes to the cost ). 
 

@@ -87,7 +87,7 @@ In the only line of the output file print the maximal possible area of the conve
 
 **|Xi|**, **|Yi|** ≤ **1000000**
 
-All vectors are non-zero: **|Xi|** + **|Yi|** > 0
+All vectors are non-zero: **|Xi|** + **|Yi|** &gt; 0
 
 There exists at least one sequence of at most **6** vectors from this set that forms a convex polygon.
 

@@ -124,11 +124,11 @@ Dogs quickly found out that there can be lot of possible sequences of passes whi
 ### Explanation
 
 **Example case 1.**
-Possible sequence for dog **1** is **2->3->1**.
-Possible sequence for dog **3** is **2->1->3**.
+Possible sequence for dog **1** is **2-&gt;3-&gt;1**.
+Possible sequence for dog **3** is **2-&gt;1-&gt;3**.
 
 **Example case 2.**
-Possible sequences for dog **2** are **3->2->1->2** and **3->2->3->2**.
+Possible sequences for dog **2** are **3-&gt;2-&gt;1-&gt;2** and **3-&gt;2-&gt;3-&gt;2**.
 
 **Example case 3.**
 There are no valid sequences for such input.
