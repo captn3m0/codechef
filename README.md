@@ -5,7 +5,6 @@ Visit <https://captnemo.in/codechef/> for more details
 ## Todo List
 
 - Images do not work as of now
-- Complete problem download
 
 ## Tech
 
