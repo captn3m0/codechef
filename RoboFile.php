@@ -1,9 +1,6 @@
 <?php
 
 use voku\helper\HtmlDomParser;
-use KzykHys\FrontMatter\Document;
-use KzykHys\FrontMatter\FrontMatter;
-use League\HTMLToMarkdown\HtmlConverter;
 
 class RoboFile extends \Robo\Tasks
 {
@@ -28,19 +25,10 @@ class RoboFile extends \Robo\Tasks
         'todo',
         'problem_status',
         'body',
-        'status'
+        'status',
+        'user_zen_mode',
+        'is_user_verified_for_proctoring'
     ];
-
-    const MARKDOWN_OPTIONS = [
-        'strip_tags' => true,
-        'hard_break' => true,
-        'header_style' => 'atx'
-    ];
-
-
-    public function __construct() {
-        $this->converter = new HtmlConverter(self::MARKDOWN_OPTIONS);
-    }
 
     private function parseUrl($url) {
         $headers = "Accept-language: en\r\n" .
@@ -99,6 +87,9 @@ class RoboFile extends \Robo\Tasks
         return [$category];
     }
 
+    /**
+     * Generates _data/$category.json files for a collection
+     */
     public function updateProblemlist($category = self::ALL)
     {
         $this->_cleanDir('_data');
@@ -162,6 +153,9 @@ class RoboFile extends \Robo\Tasks
 
                 $json['languages_supported'] = explode(', ', $json['languages_supported']);
 
+                unset($json['time']['current']);
+                unset($json['problemComponents']['statement']);
+
                 if (isset($json['tags'])) {
                     preg_match_all('/\/tags\/problems\/(\w*)/', $json['tags'], $matches);
                     if (isset($matches[1]) and count($matches) >= 1) {
@@ -172,19 +166,14 @@ class RoboFile extends \Robo\Tasks
                     $json['tags'] = ['NA'];
                 }
 
-
                 $json['layout'] = 'problem';
 
                 $basename = basename($file, '.json');
                 $newFileName = "$dir/$basename.md";
 
-                $body = $this->converter->convert($body);
+                $fm = json_encode($json, JSON_UNESCAPED_SLASHES | JSON_FORCE_OBJECT | JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_NUMERIC_CHECK | JSON_UNESCAPED_UNICODE | JSON_PRESERVE_ZERO_FRACTION);
 
-                $body = $this->_fixPreTags($body);
-
-                $doc = new Document($body, $json);
-                $contents = FrontMatter::dump($doc);
-
+                $contents = "---\n$fm\n---\n$body";
                 file_put_contents($newFileName, $contents);
             }
         }
@@ -242,7 +231,11 @@ class RoboFile extends \Robo\Tasks
 
     }
 
-    public function statsRemaining($category) {
+    /**
+     * Provide a list of unavailable problems
+     * for a given category
+     */
+    public function statsRemaining($category = self::ALL) {
         $categories = $this->setCategories($category);
 
         foreach ($categories as $category)  {
@@ -255,13 +248,15 @@ class RoboFile extends \Robo\Tasks
         }
     }
 
+    /**
+     * Clear all downloaded problems
+     */
     public function downloadClean($category = self::ALL) {
         $categories = $this->setCategories($category);
 
         foreach ($categories as $category) {
             $this->_cleanFiles($category);
         }
-
     }
 
     public function downloadProblems($category = self::ALL) {
@@ -269,7 +264,10 @@ class RoboFile extends \Robo\Tasks
 
         foreach ($categories as $category) {
 
-            @mkdir("_problems/$category");
+            if (!file_exists("_problems/$category")) {
+                @mkdir("_problems/$category");
+            }
+
             $this->_cleanFiles($category);
 
             $problems = json_decode(file_get_contents("_data/$category.json"));
@@ -297,7 +295,6 @@ class RoboFile extends \Robo\Tasks
                     $filepath = "_problems/$category/$problemname.json";
                     if (! file_exists($filepath)) {
                         $task = $task->process("wget --output-document '$filepath' $url");
-                        $this->say("Added $url");
                     }
                 }
 

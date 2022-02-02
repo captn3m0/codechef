@@ -18,3 +18,5 @@ defaults:
       type: problems
     values:
       layout: problem
+plugins:
+  - jekyll-sitemap
