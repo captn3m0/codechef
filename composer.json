@@ -3,10 +3,9 @@
         "league/html-to-markdown": "^5.0",
         "consolidation/robo": "~3",
         "kzykhys/yaml-front-matter": "^1.0",
-        "kub-at/php-simple-html-dom-parser": "^1.8",
-        "voku/simple_html_dom": "^4.5"
+        "voku/simple_html_dom": "^4.8"
     },
     "scripts": {
-    	"run": "robo"
+    	"robo": "robo"
     }
 }
