@@ -1,65 +1,36 @@
 ---
-category_name: medium
-problem_code: VRTXCOVR
-problem_name: 'Vertex Cover'
-languages_supported:
-    - C
-    - CPP14
-    - JAVA
-    - PYTH
-    - 'PYTH 3.5'
-    - PYPY
-    - kotlin
-max_timelimit: '3'
-source_sizelimit: '50000'
-problem_author: triveni
-problem_tester: null
-date_added: 20-11-2017
-tags:
-    - '2'
-    - acm17chn
-    - chn17rol
-    - graphs
-    - medium
-    - triveni
-editorial_url: 'https://discuss.codechef.com/problems/VRTXCOVR'
-time:
-    view_start_date: 1515357000
-    submit_start_date: 1515357000
-    visible_start_date: 1515357000
-    end_date: 1735669800
-    current: 1525454403
-is_direct_submittable: false
-layout: problem
+{"category_name":"medium","problem_code":"VRTXCOVR","problem_name":"Vertex Cover","languages_supported":{"0":"C","1":"CPP14","2":"JAVA","3":"PYTH","4":"PYTH 3.5","5":"PYPY","6":"kotlin"},"max_timelimit":3,"source_sizelimit":50000,"problem_author":"triveni","problem_tester":null,"date_added":"20-11-2017","tags":{"0":2,"1":"acm17chn","2":"chn17rol","3":"graphs","4":"medium","5":"triveni"},"editorial_url":"https://discuss.codechef.com/problems/VRTXCOVR","time":{"view_start_date":1515357000,"submit_start_date":1515357000,"visible_start_date":1515357000,"end_date":1735669800},"is_direct_submittable":false,"layout":"problem"}
 ---
-All submissions for this problem are available.You are given an undirected graph **G = (V, E)** containing **N** nodes and **M** edges. The nodes are numbered from 1 to **N**. A subset **C** of **V** is a *vertex cover* if for every edge (**u**, **v**) ∈ **E**, at least one of **u** and **v** belong to **C**. Note that **C = V** is always a vertex cover.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><p>You are given an undirected graph <b>G = (V, E)</b> containing <b>N</b> nodes and <b>M</b> edges. The nodes are numbered from 1 to <b>N</b>. A subset <b>C</b> of <b>V</b> is a <i>vertex cover</i> if for every edge (<b>u</b>, <b>v</b>) ∈ <b>E</b>, at least one of <b>u</b> and <b>v</b> belong to <b>C</b>. Note that <b>C = V</b> is always a vertex cover.</p>
 
-Consider a partition of **V** into two sets **A** and **B**. It is said to be a *valid* partition, if the following two conditions are satisfied: **A** should be a vertex cover. And for each **i** such that 1 ≤ **i** ≤ **n/2**, nodes **2\*i** and **2\*i - 1** don't belong to the same set (i.e. one belongs to set **A** and the other to set **B**).
+<p>Consider a partition of <b>V</b> into two sets <b>A</b> and <b>B</b>. It is said to be a <i>valid</i> partition, if the following two conditions are satisfied: <b>A</b> should be a vertex cover. And for each <b>i</b> such that 1 ≤ <b>i</b> ≤ <b>n/2</b>, nodes <b>2*i</b> and <b>2*i - 1</b> don't belong to the same set (i.e. one belongs to set <b>A</b> and the other to set <b>B</b>).</p>
 
-Determine if a *valid* partition exists. If it exists, provide an example of one *valid* partition.
+<p>Determine if a <i>valid</i> partition exists. If it exists, provide an example of one <i>valid</i> partition.</p>
 
-### Input
+<h3>Input</h3>
+<p><ul>
+<li>The first line of the input contains a single integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</li>
+<li>The first line of each test case contains two space-separated integers <b>N</b> and <b>M</b> denoting the number of nodes and number of edges in the graph respectively.</li>
+<li>Each of the following <b>M</b> lines contains two space-separated integers <b>u</b> and <b>v</b> denoting an edge between nodes <b>u</b> and <b>v</b>.</li>
+</ul></p>
 
-- The first line of the input contains a single integer **T** denoting the number of test cases. The description of **T** test cases follows.
-- The first line of each test case contains two space-separated integers **N** and **M** denoting the number of nodes and number of edges in the graph respectively.
-- Each of the following **M** lines contains two space-separated integers **u** and **v** denoting an edge between nodes **u** and **v**.
+<h3>Output</h3>
+<p><ul>
+<li>For each test case, print a line containing the string <b>"possible"</b> (without quotes) if a solution exists or <b>"impossible"</b> otherwise. </li>
+<li>If a solution exists, print a second line containing a binary string. The <b>i</b>-th character of this string should be '0' if vertex <b>i</b> is in set <b>B</b> or '1' if it is in set <b>A</b>. </li>
+</ul></p>
 
-### Output
+<h3>Constraints</h3>
+<ul>
+<li>1 ≤ <b>T</b> ≤ 10<sup>5</sup></li>
+<li>1 ≤ <b>N</b> ≤ 2 · 10<sup>5</sup></li>
+<li>0 ≤ <b>M</b> ≤ 2 · 10<sup>5</sup></li>
+<li>1 ≤ <b>u</b>, <b>v</b> ≤ <b>N</b> </li>
+<li>1 ≤ sum of <b>N</b> over all test cases ≤ 10<sup>6</sup></li>
+<li>1 ≤ sum of <b>M</b> over all test cases ≤ 10<sup>6</sup></li>
+</ul>
 
-- For each test case, print a line containing the string **"possible"** (without quotes) if a solution exists or **"impossible"** otherwise.
-- If a solution exists, print a second line containing a binary string. The **i**-th character of this string should be '0' if vertex **i** is in set **B** or '1' if it is in set **A**.
-
-### Constraints
-
-- 1 ≤ **T** ≤ 105
-- 1 ≤ **N** ≤ 2 · 105
-- 0 ≤ **M** ≤ 2 · 105
-- 1 ≤ **u**, **v** ≤ **N**
-- 1 ≤ sum of **N** over all test cases ≤ 106
-- 1 ≤ sum of **M** over all test cases ≤ 106
-
-### Example
-
+<h3>Example</h3>
 <pre><b>Input:</b>
 
 2
@@ -79,8 +50,7 @@ possible
 011
 impossible
 </pre>
-### Explanation
 
-**Example case 1:** We can put nodes numbered 2 and 3 in set A and node 1 in set B. Note that this is a *valid* partition because set A is a vertex cover; also, nodes numbered 1 and 2 belong to different sets.
-
-**Example case 2:** There exists no partition which satisfies the conditions.
+<h3>Explanation</h3>
+<p><b>Example case 1:</b> We can put nodes numbered 2 and 3 in set A and node 1 in set B. Note that this is a <i>valid</i> partition because set A is a vertex cover; also, nodes numbered 1 and 2 belong to different sets.</p>
+<p><b>Example case 2:</b> There exists no partition which satisfies the conditions.</p>

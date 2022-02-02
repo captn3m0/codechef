@@ -1,55 +1,40 @@
 ---
-category_name: easy
-problem_code: ZUBAPCNT
-problem_name: 'A - Appearance Count'
-languages_supported:
-    - C
-    - CPP14
-    - JAVA
-    - PYTH
-    - 'PYTH 3.5'
-max_timelimit: '1'
-source_sizelimit: '50000'
-problem_author: zubaerkh
-problem_tester: null
-date_added: 13-11-2017
-tags:
-    - zubaerkh
-time:
-    view_start_date: 1517085000
-    submit_start_date: 1517085000
-    visible_start_date: 1517085000
-    end_date: 1735669800
-    current: 1525198943
-is_direct_submittable: false
-layout: problem
+{"category_name":"easy","problem_code":"ZUBAPCNT","problem_name":"A - Appearance Count","languages_supported":{"0":"C","1":"CPP14","2":"JAVA","3":"PYTH","4":"PYTH 3.5"},"max_timelimit":1,"source_sizelimit":50000,"problem_author":"zubaerkh","problem_tester":null,"date_added":"13-11-2017","tags":{"0":"zubaerkh"},"time":{"view_start_date":1517085000,"submit_start_date":1517085000,"visible_start_date":1517085000,"end_date":1735669800},"is_direct_submittable":false,"layout":"problem"}
 ---
-All submissions for this problem are available.You will be given **m** strings. For each of those strings, you need to count the total number of appearances of that string as substrings in all possible strings of length **n** containing only lower case English letters.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><p>You will be given <b>m</b> strings. For each of those strings, you need to count the total number of appearances of that string as substrings in all possible strings of length <b>n</b> containing only lower case English letters. 
+</p>
+<p>
+A string may appear in a string multiple times. Also, these appearances may overlap. All these must be counted separately. For example, <i>aa</i> appears thrice in the string <i>aaacaa</i>: <i><b>aa</b>acaa</i>, <i>a<b>aa</b>caa</i> and <i>aaac<b>aa</b></i>.
+</p>
 
-A string may appear in a string multiple times. Also, these appearances may overlap. All these must be counted separately. For example, *aa* appears thrice in the string *aaacaa*: ***aa**acaa*, *a**aa**caa* and *aaac**aa***.
 
-### Input
+<h3>Input</h3>
+<ul>
+<li>The first line contains one integer, <b>T</b>, the number of test cases. The description of each test case follows:</li>
 
-- The first line contains one integer, **T**, the number of test cases. The description of each test case follows:
-- The first line of each test case will contain two integers **n** and **m**.
-- The ith of the next **m** lines will have one string in each line. All the strings will consist only of lower case English letters.
+<li>The first line of each test case will contain two integers <b>n</b> and <b>m</b>.</li>
 
-### Output
+<li>The i<sup>th</sup> of the next <b>m</b> lines will have one string in each line. All the strings will consist only of lower case English letters.</li>
+</ul>
 
-- For each test case, print **"Case x:"** (without quotes. **x** is the test case number, 1-indexed) in the first line.
-- Then print **m** lines. The ith line should contain the number of appearances of the ith string in all possible strings of length **n**. As the numbers can be very large, print the answers modulo **109+7**
-. 
-### Constraints
+<h3>Output</h3>
+<ul>
+<li>For each test case, print <b>"Case x:"</b> (without quotes. <b>x</b> is the test case number, 1-indexed) in the first line.</li>
 
-- 1 ≤ **T** ≤ 100
-- 1 ≤ **n** ≤ 100000
-- 1 ≤ **m** ≤ 1000
-- 1 ≤ Length of every string in input
-- 1 ≤ Total length of all strings in one test case ≤ 5 \* 105
-- 1 ≤ Total length of all strings in one test file ≤ 5 \* 106
+<li>Then print <b>m</b> lines. The i<sup>th</sup> line should contain the number of appearances of the i<sup>th</sup> string in all possible strings of length <b>n</b>. As the numbers can be very large, print the answers modulo <b>10<sup>9</sup>+7</b></li>.
+</ul>
 
-### Example
+<h3>Constraints</h3>
+<ul>
+<li>1 ≤ <b>T</b> ≤ 100</li>
+<li>1 ≤ <b>n</b> ≤ 100000</li>
+<li>1 ≤ <b>m</b> ≤ 1000 </li>
+<li>1 ≤ Length of every string in input</li>
+<li>1 ≤ Total length of all strings in one test case ≤ 5 * 10<sup>5</sup></li>
+<li>1 ≤ Total length of all strings in one test file ≤ 5 * 10<sup>6</sup></li>
+</ul>
 
+<h3>Example</h3>
 <pre><b>Input:</b>
 3
 2 1
@@ -71,6 +56,6 @@ Case 3:
 71288256
 41317270
 </pre>
-### Explanation:
 
-**Testcase 1**: *aa* is the only string of length 2 which contains *aa* as a substring. And it occurs only once. Hence the answer is 1.
+<h3>Explanation:</h3>
+<p><b>Testcase 1</b>: <i>aa</i> is the only string of length 2 which contains <i>aa</i> as a substring. And it occurs only once. Hence the answer is 1.</p>

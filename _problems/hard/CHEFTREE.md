@@ -1,64 +1,42 @@
 ---
-category_name: hard
-problem_code: CHEFTREE
-problem_name: 'Chef and Tree'
-languages_supported:
-    - C
-    - CPP14
-    - JAVA
-    - PYTH
-    - 'PYTH 3.4'
-max_timelimit: '4'
-source_sizelimit: '50000'
-problem_author: mgch
-problem_tester: null
-date_added: 9-12-2015
-tags:
-    - cook65
-    - data
-    - hard
-    - heavy
-    - mgch
-    - segment
-editorial_url: 'http://discuss.codechef.com/problems/CHEFTREE'
-time:
-    view_start_date: 1450636200
-    submit_start_date: 1450636200
-    visible_start_date: 1450636200
-    end_date: 1735669800
-    current: 1493556640
-layout: problem
+{"category_name":"hard","problem_code":"CHEFTREE","problem_name":"Chef and Tree","languages_supported":{"0":"C","1":"CPP14","2":"JAVA","3":"PYTH","4":"PYTH 3.4"},"max_timelimit":4,"source_sizelimit":50000,"problem_author":"mgch","problem_tester":null,"date_added":"9-12-2015","tags":{"0":"cook65","1":"data","2":"hard","3":"heavy","4":"mgch","5":"segment"},"editorial_url":"http://discuss.codechef.com/problems/CHEFTREE","time":{"view_start_date":1450636200,"submit_start_date":1450636200,"visible_start_date":1450636200,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/COOK65/mandarin/CHEFTREE.pdf), [Russian](http://www.codechef.com/download/translated/COOK65/russian/CHEFTREE.pdf) and [Vietnamese](http://www.codechef.com/download/translated/COOK65/vietnamese/CHEFTREE.pdf) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3> Read problems statements in <a target="_blank" href="http://www.codechef.com/download/translated/COOK65/mandarin/CHEFTREE.pdf">Mandarin Chinese</a>, <a target="_blank" href="http://www.codechef.com/download/translated/COOK65/russian/CHEFTREE.pdf">Russian</a> and <a target="_blank" href="http://www.codechef.com/download/translated/COOK65/vietnamese/CHEFTREE.pdf">Vietnamese</a> as well.</h3>
 
-Chef has a tree on **N** nodes. Each node **v** has an integer label **Cv** attached to it. Chef also has two other integers, **A** and **B**. He needs to run **Q** queries on the tree, each of which can be one of the following two types:
 
-4. 1 **u** **v** **w** — add **w** to the labels of all vertices which lie on a simple path between nodes **u** and **v**.
-5. 2 **u** **v** — find the number of vertices **x** on a simple path between **u** and **v** for which **A**\***Cx** + **B** ≥ 0.
+<p>
+Chef has a tree on <b>N</b> nodes. Each node <b>v</b> has an integer label <b>C<sub>v</sup></b> attached to it. Chef also has two other integers, <b>A</b> and <b>B</b>. He needs to run <b>Q</b> queries on the tree, each of which can be one of the following two types:
+<li>1 <b>u</b> <b>v</b> <b>w</b> — add <b>w</b> to the labels of all vertices which lie on a simple path between nodes <b>u</b> and <b>v</b>.</li>
+<li>2 <b>u</b> <b>v</b> — find the number of vertices <b>x</b> on a simple path between <b>u</b> and <b>v</b> for which <b>A</b>*<b>C<sub>x</sub></b> + <b>B</b> ≥ 0.</li>
+</p>
+<p>
 Please help Chef run these queries.
+</p>
 
-### Input
+<h3>Input</h3>
+The first line of input contains an integer <b>T</b> denoting the number of test cases. 
+<li>The first line of each test case contains two positive numbers: <b>N</b> and <b>Q</b>.</li>
+<li>The second line of each test case contains two positive numbers <b>A</b> and <b>B</b>.</li>
+<li>The third line of each test case contains <b>N</b> integers — <b>C<sub>1</sub></b>, <b>C<sub>2</sub></b>, ... , <b>C<sub>N</sub></b> — labels of the nodes.</li>
+<li>The next <b>N - 1</b> lines contain two integers <b>u</b>, <b>v</b> each, denoting a pair vertices connected by an edge. </li>
+<li>The following <b>Q</b> lines contains queries.</li>
 
-The first line of input contains an integer **T** denoting the number of test cases. 11. The first line of each test case contains two positive numbers: **N** and **Q**.
-12. The second line of each test case contains two positive numbers **A** and **B**.
-13. The third line of each test case contains **N** integers — **C1**, **C2**, ... , **CN** — labels of the nodes.
-14. The next **N - 1** lines contain two integers **u**, **v** each, denoting a pair vertices connected by an edge.
-15. The following **Q** lines contains queries.
-### Output
+<h3>Output</h3>
+For each query of the second type, output a single line containing a single integer — its result.
 
-For each query of the second type, output a single line containing a single integer — its result. ### Constraints
+<h3>Constraints</h3>
+<ul>
+<li>1 ≤ <b>T</b> ≤ 10<sup>5</sup></li>
+<li>1 ≤ <b>N, Q</b> ≤ 10<sup>5</sup></li>
+<li>1 ≤ <b>u, v</b> ≤ <b>N</b></li>
+<li>0 ≤ <b>A</b>, |<b>B</b>|, |<b>C<sub>i</sub></b>| ≤ 10<sup>9</li>
+<li>1 ≤ <b>w</b> ≤ 10<sup>4</sup></li>
+<li>Sum of <b>N</b> over all test cases cannot be greater than 10<sup>5</sup>.</li>
+<li>Sum of <b>Q</b> over all test cases cannot be greater than 10<sup>5</sup>.</li>
+<li>All numbers in the input are integers.</li>
+</ul>
 
-- 1 ≤ **T** ≤ 105
-- 1 ≤ **N, Q** ≤ 105
-- 1 ≤ **u, v** ≤ **N**
-- 0 ≤ **A**, |**B**|, |**Ci**| ≤ 109
-- 1 ≤ **w** ≤ 104
-- Sum of **N** over all test cases cannot be greater than 105.
-- Sum of **Q** over all test cases cannot be greater than 105.
-- All numbers in the input are integers.
-
-### Example
-
+<h3>Example</h3>
 <pre>
 <b>Input:</b>
 <tt>1

@@ -1,99 +1,27 @@
 ---
-category_name: hard
-problem_code: TUZTRN
-problem_name: 'Puppy and Triangles'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYPY
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM chicken'
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '2'
-source_sizelimit: '50000'
-problem_author: pavel1996
-problem_tester: kostya_by
-date_added: 22-01-2016
-tags:
-    - cook67
-    - geometry
-    - implementation
-    - maths
-    - pavel1996
-editorial_url: 'http://discuss.codechef.com/problems/TUZTRN'
-time:
-    view_start_date: 1456081200
-    submit_start_date: 1456081200
-    visible_start_date: 1456081200
-    end_date: 1735669800
-    current: 1493557001
-layout: problem
+{"category_name":"hard","problem_code":"TUZTRN","problem_name":"Puppy and Triangles","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYPY","37":"PYTH","38":"PYTH 3.4","39":"RUBY","40":"SCALA","41":"SCM chicken","42":"SCM guile","43":"SCM qobi","44":"ST","45":"TCL","46":"TEXT","47":"WSPC"},"max_timelimit":2,"source_sizelimit":50000,"problem_author":"pavel1996","problem_tester":"kostya_by","date_added":"22-01-2016","tags":{"0":"cook67","1":"geometry","2":"implementation","3":"maths","4":"pavel1996"},"editorial_url":"http://discuss.codechef.com/problems/TUZTRN","time":{"view_start_date":1456081200,"submit_start_date":1456081200,"visible_start_date":1456081200,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/COOK67/mandarin/TUZTRN.pdf), [Russian](http://www.codechef.com/download/translated/COOK67/russian/TUZTRN.pdf) and [Vietnamese](http://www.codechef.com/download/translated/COOK67/vietnamese/TUZTRN.pdf) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3> Read problems statements in <a target="_blank" href="http://www.codechef.com/download/translated/COOK67/mandarin/TUZTRN.pdf">Mandarin Chinese</a>, <a target="_blank" href="http://www.codechef.com/download/translated/COOK67/russian/TUZTRN.pdf">Russian</a> and <a target="_blank" href="http://www.codechef.com/download/translated/COOK67/vietnamese/TUZTRN.pdf">Vietnamese</a> as well.</h3>
 
-Puppy Tuzik has recently found two triangles and a quadrilateral cut out from a large sheet of paper. Being a curious puppy, Tuzik started thinking of a game with these three geometric figures. All of a sudden, a thrilling idea crossed his mind! He wonders whether it's possible to combine these triangles by moving, flipping and/or rotating them, and cover exactly the quadrilateral with no overlap between the two triangles. Giving the coordinates of the triangles and the quadrilateral, your task is to answer the question: whether it's possible to combine the triangles to cover exactly the given quadrilateral?
 
-### Input
+<p>Puppy Tuzik has recently found two triangles and a quadrilateral cut out from a large sheet of paper. Being a curious puppy, Tuzik started thinking of a game with these three geometric figures. All of a sudden, a thrilling idea crossed his mind! He wonders whether it's possible to combine these triangles by moving, flipping and/or rotating them, and cover exactly the quadrilateral with no overlap between the two triangles. Giving the coordinates of the triangles and the quadrilateral, your task is to answer the question: whether it's possible to combine the triangles to cover exactly the given quadrilateral?</p>
 
-The first line contains one integer **T** denoting the number of test cases.
+<h3>Input</h3>
 
-The description of each test case consists of **ten** lines, each containing two integers denoting the coordinates of a point on the Cartesian plane. The first **three** lines of the test case description contain the points forming the first triangle. The next **three** lines describe the points forming the second triangle. The last **four** give the points forming the quadrilateral and are given in either a clockwise order, or a counterclockwise order.
+<p>The first line contains one integer <b>T</b> denoting the number of test cases.</p>
+<p>The description of each test case consists of <b>ten</b> lines, each containing two integers denoting the coordinates of a point on the Cartesian plane. The first <b>three</b> lines of the test case description contain the points forming the first triangle. The next <b>three</b> lines describe the points forming the second triangle. The last <b>four</b> give the points forming the quadrilateral and are given in either a clockwise order, or a counterclockwise order.</p>
+<p>It's guaranted that all the figures have a non-zero area and do not self-intersect or self-touch.</p>
 
-It's guaranted that all the figures have a non-zero area and do not self-intersect or self-touch.
+<h3>Output</h3>
+<p>For each test case, output a line with the string <b>Yes</b> or <b>No</b>, denoting the answer to the question.</p>
 
-### Output
+<h3>Constraints</h3>
+<ul>
+<li><b>1</b> ≤ <b>T</b> ≤ <b>600</b></li>
+<li><b>-20000</b> ≤ <b>x, y</b> ≤ <b>20000</b> for each point in the input</li>
+</ul>
 
-For each test case, output a line with the string **Yes** or **No**, denoting the answer to the question.
-
-### Constraints
-
-- **1** ≤ **T** ≤ **600**
-- **-20000** ≤ **x, y** ≤ **20000** for each point in the input
-
-### Example
-
+<h3>Example</h3>
 <pre><b>Input:</b>
 2
 0 0 
@@ -121,12 +49,9 @@ For each test case, output a line with the string **Yes** or **No**, denoting th
 Yes
 No
 </pre>
-### Explanation
 
-The figures from the first test case of the sample:
-
-![](https://s3.amazonaws.com/codechef_shared/download/COOK67/1.png)
-
-The figures from the second test case of the sample:
-
-![](https://s3.amazonaws.com/codechef_shared/download/COOK67/3.png)
+<h3>Explanation</h3>
+<p>The figures from the first test case of the sample:</p>
+<p><img src="https://s3.amazonaws.com/codechef_shared/download/COOK67/1.png" width="400"></p>
+<p>The figures from the second test case of the sample:</p>
+<p><img src="https://s3.amazonaws.com/codechef_shared/download/COOK67/3.png" width="400"></p>

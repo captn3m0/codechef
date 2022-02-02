@@ -1,52 +1,30 @@
 ---
-category_name: medium
-problem_code: CHEFKLCS
-problem_name: 'Chef and LCS'
-languages_supported:
-    - C
-    - CPP14
-    - JAVA
-    - PYTH
-    - 'PYTH 3.4'
-max_timelimit: '1'
-source_sizelimit: '50000'
-problem_author: mgch
-problem_tester: null
-date_added: 9-12-2015
-tags:
-    - cook65
-    - dp
-    - dynamic
-    - lcs
-    - medium
-    - mgch
-editorial_url: 'http://discuss.codechef.com/problems/CHEFKLCS'
-time:
-    view_start_date: 1450636200
-    submit_start_date: 1450636200
-    visible_start_date: 1450636200
-    end_date: 1735669800
-    current: 1493557535
-layout: problem
+{"category_name":"medium","problem_code":"CHEFKLCS","problem_name":"Chef and LCS","languages_supported":{"0":"C","1":"CPP14","2":"JAVA","3":"PYTH","4":"PYTH 3.4"},"max_timelimit":1,"source_sizelimit":50000,"problem_author":"mgch","problem_tester":null,"date_added":"9-12-2015","tags":{"0":"cook65","1":"dp","2":"dynamic","3":"lcs","4":"medium","5":"mgch"},"editorial_url":"http://discuss.codechef.com/problems/CHEFKLCS","time":{"view_start_date":1450636200,"submit_start_date":1450636200,"visible_start_date":1450636200,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/COOK65/mandarin/CHEFKLCS.pdf), [Russian](http://www.codechef.com/download/translated/COOK65/russian/CHEFKLCS.pdf) and [Vietnamese](http://www.codechef.com/download/translated/COOK65/vietnamese/CHEFKLCS.pdf) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3> Read problems statements in <a target="_blank" href="http://www.codechef.com/download/translated/COOK65/mandarin/CHEFKLCS.pdf">Mandarin Chinese</a>, <a target="_blank" href="http://www.codechef.com/download/translated/COOK65/russian/CHEFKLCS.pdf">Russian</a> and <a target="_blank" href="http://www.codechef.com/download/translated/COOK65/vietnamese/CHEFKLCS.pdf">Vietnamese</a> as well.</h3>
 
-Recently, Chef learned how to solve the [Longest common subsequence](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem) problem. Being a fan of [Ekta Kapoor](https://en.wikipedia.org/wiki/Ekta_Kapoor)1, he really likes problems which require finding something **k**th. Please help him solve one such problem he encountered.
 
-Chef wants to know the lexicographically **k**th longest common subsequence of any two given strings **A** and **B**. In other words, let **L** be the length of LCS(**A**, **B**), **S** be the sorted **set** of all common sequences of **A** and **B** with length **L**, you should find **Sk**. Keep in mind that all elements of a [set](https://en.wikipedia.org/wiki/Set_(mathematics)) are **distinct**.
+<p>
+Recently, Chef learned how to solve the <a href="https://en.wikipedia.org/wiki/Longest_common_subsequence_problem">Longest common subsequence</a> problem. Being a fan of <a href="https://en.wikipedia.org/wiki/Ekta_Kapoor">Ekta Kapoor</a><sup>1</sup>, he really likes problems which require finding something <b>k</b><sup>th</sup>. Please help him solve one such problem he encountered.
+</p>
+<p>
+Chef wants to know the lexicographically <b>k</b><sup>th</sup> longest common subsequence of any two given strings <b>A</b> and <b>B</b>. In other words, let <b>L</b> be the length of <tt>LCS</tt>(<b>A</b>, <b>B</b>), <b>S</b> be the sorted <b>set</b> of all common sequences of <b>A</b> and <b>B</b> with length <b>L</b>, you should find <b>S<sub>k</sub></b>. Keep in mind that all elements of a <a href="https://en.wikipedia.org/wiki/Set_(mathematics)">set</a> are <b>distinct</b>.
+</p>
 
-### Input
+<h3>Input</h3>
+The first line of input contains two integers <b>n</b> and <b>k</b>. The second line contains the string <b>A</b>, and the third contains the string <b>B</b>. Lengths of both <b>A</b> and <b>B</b> equal <b>n</b>. 
 
-The first line of input contains two integers **n** and **k**. The second line contains the string **A**, and the third contains the string **B**. Lengths of both **A** and **B** equal **n**. ### Output
+<h3>Output</h3>
+Output lexicographically <b>k</b><sup>th</sup> longest common subsequence. If such a sequence doesn't exist, output <b>-1</b>.
 
-Output lexicographically **k**th longest common subsequence. If such a sequence doesn't exist, output **-1**. ### Constraints
+<h3>Constraints</h3>
+<ul>
+<li>1 ≤ <b>n</b> ≤ 1000</li>
+<li>1 ≤ <b>k</b> ≤ 10<sup>9</sup></li>
+<li>Each character of <b>A</b> and <b>B</b> is a lowercase Latin letter.</li>
+</ul>
 
-- 1 ≤ **n** ≤ 1000
-- 1 ≤ **k** ≤ 109
-- Each character of **A** and **B** is a lowercase Latin letter.
-
-### Example
-
+<h3>Example</h3>
 <pre>
 <b>Input:</b>
 <tt>3 3
@@ -74,12 +52,19 @@ ab
 <b>Output:</b>
 <tt>-1</tt>
 </pre>
-### Explanation:
 
-**Example case 1.**L = LCS(**A**, **B**) = 1. There are three common sequences with length L, S = {"a", "b", "c"}. Answer is "c".
+<h3>Explanation:</h3>
+<p>
+<b>Example case 1.</b>
+L = LCS(<b>A</b>, <b>B</b>) = 1. There are three common sequences with length L, S = {"a", "b", "c"}. Answer is "c".
+</p>
+<p>
+<b>Example case 2.</b>
+L = LCS(<b>A</b>, <b>B</b>) = 3. There are four common sequences with length L, S = {"aca", "acb", "bca", "bcb"}. Answer is "-1".
+</p>
+<p>
+<b>Example case 3.</b>
+L = LCS(<b>A</b>, <b>B</b>) = 1. There is only one distinct common sequence with length L, S = {"a"}. Answer is "-1".
+</p>
 
-**Example case 2.**L = LCS(**A**, **B**) = 3. There are four common sequences with length L, S = {"aca", "acb", "bca", "bcb"}. Answer is "-1".
-
-**Example case 3.**L = LCS(**A**, **B**) = 1. There is only one distinct common sequence with length L, S = {"a"}. Answer is "-1".
-
-**Note:** 1Chef is not really a fan of Ekta Kapoor.
+<b>Note:</b> <sup>1</sup>Chef is not really a fan of Ekta Kapoor.

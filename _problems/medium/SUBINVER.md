@@ -1,105 +1,41 @@
 ---
-category_name: medium
-problem_code: SUBINVER
-problem_name: SubInversing
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYPY
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM chicken'
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '3'
-source_sizelimit: '50000'
-problem_author: gainullinildar
-problem_tester: melfice
-date_added: 26-05-2017
-tags:
-    - gainullinildar
-    - hashes
-    - ltime48
-    - medium
-    - persistence
-    - segment
-editorial_url: 'https://discuss.codechef.com/problems/SUBINVER'
-time:
-    view_start_date: 1495899840
-    submit_start_date: 1495899840
-    visible_start_date: 1495899840
-    end_date: 1735669800
-    current: 1497284442
-layout: problem
+{"category_name":"medium","problem_code":"SUBINVER","problem_name":"SubInversing","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYPY","37":"PYTH","38":"PYTH 3.4","39":"RUBY","40":"SCALA","41":"SCM chicken","42":"SCM guile","43":"SCM qobi","44":"ST","45":"TCL","46":"TEXT","47":"WSPC"},"max_timelimit":3,"source_sizelimit":50000,"problem_author":"gainullinildar","problem_tester":"melfice","date_added":"26-05-2017","tags":{"0":"gainullinildar","1":"hashes","2":"ltime48","3":"medium","4":"persistence","5":"segment"},"editorial_url":"https://discuss.codechef.com/problems/SUBINVER","time":{"view_start_date":1495899840,"submit_start_date":1495899840,"visible_start_date":1495899840,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME48/mandarin/SUBINVER.pdf), [Russian](http://www.codechef.com/download/translated/LTIME48/russian/SUBINVER.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME48/vietnamese/SUBINVER.pdf) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3> Read problems statements in <a target="_blank" href="http://www.codechef.com/download/translated/LTIME48/mandarin/SUBINVER.pdf">Mandarin Chinese</a>, <a target="_blank" href="http://www.codechef.com/download/translated/LTIME48/russian/SUBINVER.pdf">Russian</a> and <a target="_blank" href="http://www.codechef.com/download/translated/LTIME48/vietnamese/SUBINVER.pdf">Vietnamese</a> as well.</h3>
 
-You initially start with a binary string S0 which is of length **N** and has all 0s. You are then given **U** updates, which keep transforming the string. The i-th update transforms the string Si-1 into Si, and hence after all the **U** updates you will be left with SU.
+<p>You initially start with a binary string S<sub>0</sub> which is of length <b>N</b> and has all 0s. You are then given <b>U</b> updates, which keep transforming the string. The i-th update transforms the string S<sub>i-1</sub> into S<sub>i</sub>, and hence after all the <b>U</b> updates you will be left with S<sub>U</sub>.</p> 
 
-A single update is of the form (**Li**, **Ri**), which means that all the 1s in the range \[**Li**, **Ri**\] (both end points included) should be changed into 0s, and all the 0s in that range should be changed to 1s.
+<p>A single update is of the form (<b>L<sub>i</sub></b>, <b>R<sub>i</sub></b>), which means that all the 1s in the range [<b>L<sub>i</sub></b>, <b>R<sub>i</sub></b>] (both end points included) should be changed into 0s, and all the 0s in that range should be changed to 1s.</p>
 
-You need to find out which among the **U**+1 binary strings: S0, S1, .., SU, is lexicographically the largest, and print that string.
+<p>You need to find out which among the <b>U</b>+1 binary strings: S<sub>0</sub>, S<sub>1</sub>, .., S<sub>U</sub>, is lexicographically the largest, and print that string.</p>
 
-### Input
 
-- The first line of the input contains two integers, **N**, and **U**, denoting the length of the string and number of updates respectively.
-- The i-th of the next **U** lines contains two integers, **Li** and **Ri**, which denotes that the i-th update is to swap all the values in the string which fall between the indices **Li** and **Ri** (both inclusive).
-### Output
-
-Output a single line containing one binary string - the lexicographically largest string among the **U**+1 strings.
-
-### Constraints
-
-- 1 ≤ **N, U** ≤ 100,000
-- 1 ≤  **Li**  ≤  **Ri**  ≤ **N**
-
-### Subtasks
-
-- Subtask #1 (20 points): 1 ≤ **N** ≤ 2000
-- Subtask #2 (80 points): Original constraints.
-
-### Example
-
+<h3>Input</h3>
+<ul>
+<li>The first line of the input contains two integers, <b>N</b>, and <b>U</b>, denoting the length of the string and number of updates respectively. </li>
+<li>The i-th of the next <b>U</b> lines contains two integers, <b>L<sub>i</sub></b> and <b>R<sub>i</sub></b>, which denotes that the i-th update is to swap all the values in the string which fall between the indices <b>L<sub>i</sub></b> and <b>R<sub>i</sub></b> (both inclusive). </li>
+ 
+<h3>Output</h3>
+<p>Output a single line containing one binary string - the lexicographically largest string among the <b>U</b>+1 strings.</p>
+ 
+<h3>Constraints</h3>
+<ul>
+<li>1 ≤ <b>N, U</b> ≤ 100,000</li>
+<li>1 ≤ <b> L<sub>i</sub> </b> ≤ <b> R<sub>i</sub> </b> ≤ <b>N</b></li>
+</ul>
+ 
+ 
+ 
+<h3>Subtasks</h3>
+<ul>
+<li>Subtask #1 (20 points): 1 ≤ <b>N</b> ≤ 2000</li>
+<li>Subtask #2 (80 points): Original constraints.</li>
+</ul>
+ 
+ 
+ 
+ 
+<h3>Example</h3>
  
 <pre><b>Input:</b>
 10 10
@@ -117,21 +53,21 @@ Output a single line containing one binary string - the lexicographically larges
 <b>Output:</b>
 1111100011
 </pre>
-### Explanation
-
-Let us see what happens in each operation:
-
+ 
+<h3>Explanation</h3>
+<p>Let us see what happens in each operation:</p>
 <pre>
+<li>S<sub>0</sub> = 0000000000</li>
+<li>After the update, [9, 10], it becomes S<sub>1</sub> = 0000000011</li>
+<li>After the update, [6, 10], it becomes S<sub>2</sub> = 0000011100</li>
+<li>After the update, [9, 10], it becomes S<sub>3</sub> = 0000011111</li>
+<li>After the update, [1, 8], it becomes  S<sub>4</sub>  = 1111100011</li>
+<li>After the update, [3, 5], it becomes  S<sub>5</sub>  = 1100000011</li>
+<li>After the update, [3, 3], it becomes  S<sub>6</sub>  = 1110000011</li>
+<li>After the update, [3, 4], it becomes  S<sub>7</sub>  = 1101000011</li>
+<li>After the update, [3, 9], it becomes  S<sub>8</sub>  = 1110111101</li>
+<li>After the update, [4, 8], it becomes  S<sub>9</sub>  = 1111000001</li>
+<li>After the update, [7, 7], it becomes S<sub>10</sub> = 1111001001</li>
 </pre>
-12. S0 = 0000000000
-13. After the update, \[9, 10\], it becomes S1 = 0000000011
-14. After the update, \[6, 10\], it becomes S2 = 0000011100
-15. After the update, \[9, 10\], it becomes S3 = 0000011111
-16. After the update, \[1, 8\], it becomes S4 = 1111100011
-17. After the update, \[3, 5\], it becomes S5 = 1100000011
-18. After the update, \[3, 3\], it becomes S6 = 1110000011
-19. After the update, \[3, 4\], it becomes S7 = 1101000011
-20. After the update, \[3, 9\], it becomes S8 = 1110111101
-21. After the update, \[4, 8\], it becomes S9 = 1111000001
-22. After the update, \[7, 7\], it becomes S10 = 1111001001
-The lexicographically largest among these is 1111100011 and so, that is the answer.
+
+<p>The lexicographically largest among these is 1111100011 and so, that is the answer.</p>

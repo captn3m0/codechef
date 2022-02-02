@@ -1,117 +1,46 @@
 ---
-category_name: easy
-problem_code: CHEFBEST
-problem_name: 'Chef and his Best Friend'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYPY
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM chicken'
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '1'
-source_sizelimit: '50000'
-problem_author: admin2
-problem_tester: mgch
-date_added: 1-02-2017
-tags:
-    - admin2
-time:
-    view_start_date: 1487496600
-    submit_start_date: 1487496600
-    visible_start_date: 1487496600
-    end_date: 1735669800
-    current: 1493558116
-layout: problem
+{"category_name":"easy","problem_code":"CHEFBEST","problem_name":"Chef and his Best Friend","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYPY","37":"PYTH","38":"PYTH 3.4","39":"RUBY","40":"SCALA","41":"SCM chicken","42":"SCM guile","43":"SCM qobi","44":"ST","45":"TCL","46":"TEXT","47":"WSPC"},"max_timelimit":1,"source_sizelimit":50000,"problem_author":"admin2","problem_tester":"mgch","date_added":"1-02-2017","tags":{"0":"admin2"},"time":{"view_start_date":1487496600,"submit_start_date":1487496600,"visible_start_date":1487496600,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/FEB17/mandarin/CHEFBEST.pdf), [Russian](http://www.codechef.com/download/translated/FEB17/russian/CHEFBEST.pdf) and [Vietnamese](http://www.codechef.com/download/translated/FEB17/vietnamese/CHEFBEST.pdf) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3> Read problems statements in <a target="_blank" href="http://www.codechef.com/download/translated/FEB17/mandarin/CHEFBEST.pdf">Mandarin Chinese</a>, <a target="_blank" href="http://www.codechef.com/download/translated/FEB17/russian/CHEFBEST.pdf">Russian</a> and <a target="_blank" href="http://www.codechef.com/download/translated/FEB17/vietnamese/CHEFBEST.pdf">Vietnamese</a> as well.</h3>
 
-Chef and Chhotu are best friends. Chef knows that Chhotu is very intelligent. So, Chef gives Chhotu a simple problem and wants him to solve this problem by today. The problem is as follows.
+<p>Chef and Chhotu are best friends. Chef knows that Chhotu is very intelligent. So, Chef gives Chhotu a simple problem and wants him to solve this problem by today. The problem is as follows.</p>
 
-There are **N** students in a classroom. The students are sitting in a single row. Chef wants that all the girls should sit in left side of the row and all the boys should sit in right side of the row. You are provided the initial row of the students by **N** binary integers, where if **i**-th integer is zero, then it means that at the **i**-th position, there is a boy, where **1** will mean girl. For example, if the initial arrangement be **\[0 1 0 1 1\]**, then final arrangement should be **\[1 1 1 0 0\]**.
+<p>There are <b>N</b> students in a classroom. The students are sitting in a single row. Chef wants that all the girls should sit in left side of the row and all the boys should sit in right side of the row. You are provided the initial row of the students by <b>N</b> binary integers, where if <b>i</b>-th integer is zero, then it means that at the <b>i</b>-th position, there is a boy, where <b>1</b> will mean girl. For example, if the initial arrangement be <b>[0 1 0 1 1]</b>, then final arrangement should be <b>[1 1 1 0 0]</b>.</p>
 
-In a single second, if a boy finds that a girl is sitting to his immediate right i.e. if a boy is sitting at ith position and a girl is sitting at (i+1)th position then they swap their positions. For example, let the initial arrangement be **\[0 1 0 1 1\]**. Boys are sitting at positions **1, 3** (1-based indexing) and girls are sitting at positions **2, 4, 5**. In a single second, boy at position 1 swaps his seat with girl at position **2**, and similarly boy at position **3** swaps his seat with girl at position 4. So, after one second, the arrangement becomes **\[1 0 1 0 1\]**.
+<p>In a single second, if a boy finds that a girl is sitting to his immediate right i.e. if a boy is sitting at i<sup>th</sup> position and a girl is sitting at (i+1)<sup>th</sup> position then they swap their positions. For example, let the initial arrangement be <b>[0 1 0 1 1]</b>. Boys are sitting at positions <b>1, 3</b> (1-based indexing) and girls are sitting at positions <b>2, 4, 5</b>. In a single second, boy at position 1 swaps his seat with girl at position <b>2</b>, and similarly boy at position <b>3</b> swaps his seat with girl at position 4. So, after one second, the arrangement becomes <b>[1 0 1 0 1]</b>.</p> For detailed explanation, please see the explanation of the sample provided at the end of this statement.</
 
- For detailed explanation, please see the explanation of the sample provided at the end of this statement. Now Chef wants to determine the total time after which all the girls move to the left side of the row and all the boys towards the right side of the row.
+<p>Now Chef wants to determine the total time after which all the girls move to the left side of the row and all the boys towards the right side of the row.</p>
+<p>Chhotu can solve this problem very easily but today he is very busy. Please help Chhotu to solve this problem.</p>
 
-Chhotu can solve this problem very easily but today he is very busy. Please help Chhotu to solve this problem.
+<h3>Input</h3>
+<p>The first line of the input contains <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</p>
+<p>The first line of each test case contains an integer <b>N</b> denoting the number of students in the row.</p>
+<p>The second line contains <b>N</b> space-separated integers - <b>A<sub>1</sub></b>, <b>A<sub>2</sub></b>, ..., <b>A<sub>N </sub></b>denoting the initial arrangement of the students.</p>
 
-### Input
+<h3>Output</h3>
+<p>For each test case, output a single integer on a new line corresponding to the number of seconds required such that all girls are to the left of boys.</p>
 
-The first line of the input contains **T** denoting the number of test cases. The description of **T** test cases follows.
+<h3>Constraints</h3>
+<ul>
+<li><b>1 ≤ T ≤ 10</b>	</li>
+<li><b>1 ≤ N ≤ 10<sup>5</sup></b></li>
+<li><b>0 ≤ A<sub>i </sub> ≤ 1</b></li>
+</ul>
 
-The first line of each test case contains an integer **N** denoting the number of students in the row.
+<h3>Subtasks</h3>
+<p><b>Subtask #1 (30 points):</b></p>
+<ul>
+<li><b>1 ≤ T ≤ 10</b></li>
+<li><b>1 ≤ N ≤ 10<sup>3</sup></b></li>
+</ul>
+<p><b>Subtask #2 (70 points):</b></p>
+<ul>
+<li><b>1 ≤ T ≤ 10</b></li>
+<li><b>1 ≤ N ≤ 10<sup>5</sup></b></li>
+</ul>
 
-The second line contains **N** space-separated integers - **A1**, **A2**, ..., **AN** denoting the initial arrangement of the students.
-
-### Output
-
-For each test case, output a single integer on a new line corresponding to the number of seconds required such that all girls are to the left of boys.
-
-### Constraints
-
-- **1 ≤ T ≤ 10**
-- **1 ≤ N ≤ 105**
-- **0 ≤ Ai  ≤ 1**
-
-### Subtasks
-
-**Subtask #1 (30 points):**
-
-- **1 ≤ T ≤ 10**
-- **1 ≤ N ≤ 103**
-
-**Subtask #2 (70 points):**
-
-- **1 ≤ T ≤ 10**
-- **1 ≤ N ≤ 105**
-
-### Example
-
-**Input:**
-
+<h3>Example</h3>
+<p><b>Input:</b></p>
 <pre>
 2
 10
@@ -119,42 +48,28 @@ For each test case, output a single integer on a new line corresponding to the n
 5
 0 1 0 1 1
 </pre>
-**Output:**
 
+<p><b>Output:</b></p>
 <pre>
 7
 3
 </pre>
-### Explanation
 
-**Test case 1:**
+<h3>Explanation</h3>
+<p><b>Test case 1:</b></p>
+<p>Initially, student's arrangement is <b>[0 1 1 1 0 1 1 0 1 1]</b></p>
+<p>After1<sup>st</sup> second <b>[1 0 1 1 1 0 1 1 0 1]</b></p>
+<p>After 2<sup>nd</sup> second <b>[1 1 0 1 1 1 0 1 1 0]</b></p>
+<p>After 3<sup>rd</sup> second <b>[1 1 1 0 1 1 1 0 1 0]</b></p>
+<p>After 4<sup>th</sup> second <b>[1 1 1 1 0 1 1 1 0 0]</b></p>
+<p>After 5<sup>th</sup> second <b>[1 1 1 1 1 0 1 1 0 0]</b></p>
+<p>After 6<sup>th</sup> second <b>[1 1 1 1 1 1 0 1 0 0]</b></p>
+<p>After 7<sup>th</sup> second <b>[1 1 1 1 1 1 1 0 0 0]</b></p>
+<p>Total time taken = <b>7</b> seconds</p>
 
-Initially, student's arrangement is **\[0 1 1 1 0 1 1 0 1 1\]**
-
-After1st second **\[1 0 1 1 1 0 1 1 0 1\]**
-
-After 2nd second **\[1 1 0 1 1 1 0 1 1 0\]**
-
-After 3rd second **\[1 1 1 0 1 1 1 0 1 0\]**
-
-After 4th second **\[1 1 1 1 0 1 1 1 0 0\]**
-
-After 5th second **\[1 1 1 1 1 0 1 1 0 0\]**
-
-After 6th second **\[1 1 1 1 1 1 0 1 0 0\]**
-
-After 7th second **\[1 1 1 1 1 1 1 0 0 0\]**
-
-Total time taken = **7** seconds
-
-**Test case 2:**
-
-Initially, student's arrangement is **\[0 1 0 1 1\]**
-
-After 1st second **\[1 0 1 0 1\]**
-
-After 2nd second **\[1 1 0 1 0\]**
-
-After 3rd second **\[1 1 1 0 0\]**
-
-Total time taken = **3** seconds
+<p><b>Test case 2:</b></p>
+<p>Initially, student's arrangement is <b>[0 1 0 1 1]</b></p>
+<p>After 1<sup>st</sup> second <b>[1 0 1 0 1]</b></p>
+<p>After 2<sup>nd</sup> second <b>[1 1 0 1 0]</b></p>
+<p>After 3<sup>rd</sup> second <b>[1 1 1 0 0]</b></p>
+<p>Total time taken = <b>3</b> seconds</p>

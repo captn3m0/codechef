@@ -1,33 +1,28 @@
 ---
-languages_supported:
-    - NA
-title: PRPALIN
-category: NA
-old_version: true
-problem_code: PRPALIN
-tags:
-    - NA
-layout: problem
+{"languages_supported":{"0":"NA"},"title":"PRPALIN","category":"NA","old_version":true,"problem_code":"PRPALIN","tags":{"0":"NA"},"layout":"problem"}
 ---
-###  All submissions for this problem are available. 
 
- An integer is said to be a palindrome if it is equal to its reverse. For example, 79197 and 324423 are palindromes. In this task you will be given an integer N, 1 N 1000000. You must find the smallest integer M N such that M is a prime number and M is a palindrome.
+<h3> All submissions for this problem are available. </h3><p> An integer is said to be a palindrome if it is equal to its
+reverse.  For example, 79197 and 324423 are palindromes. In this task
+you will be given an integer N, 1     N     1000000.  You must find
+the smallest integer M     N such that M is a prime number and M is a
+palindrome.  </p>
 
-For example, if N is 31 then the answer is 101.
+<p>For example, if N is 31 then the answer is 101.</p>
 
-### Input
+<h3>Input</h3>
+<p>A single integer N, (1     N     1000000), on a single line.</p>
 
-A single integer N, (1 N 1000000), on a single line.
+<h3>Output</h3>
 
-### Output
+<p>Your output must consist of a single integer, the smallest prime
+palindrome greater than or equal to N.</p>
 
-Your output must consist of a single integer, the smallest prime palindrome greater than or equal to N.
-
-### Example
+<h3>Example</h3>
 
 <pre>
 <b>Input:</b>
 31
 <b>Output:</b>
 101
-</pre>
+</pre>    

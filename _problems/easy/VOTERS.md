@@ -1,51 +1,81 @@
 ---
-languages_supported:
-    - NA
-title: VOTERS
-category: NA
-old_version: true
-problem_code: VOTERS
-tags:
-    - NA
-layout: problem
+{"languages_supported":{"0":"NA"},"title":"VOTERS","category":"NA","old_version":true,"problem_code":"VOTERS","tags":{"0":"NA"},"layout":"problem"}
 ---
-###  All submissions for this problem are available. 
 
- As you might remember, the collector of Siruseri had ordered a complete revision of the Voters List. He knew that constructing the list of voters is a difficult task, prone to errors. Some voters may have been away on vacation, others may have moved during the enrollment and so on.
+<h3> All submissions for this problem are available. </h3><p> As you might remember, the collector of Siruseri had ordered
+a complete revision of the Voters List. He knew that constructing
+the list of voters is a difficult task, prone to errors. Some
+voters may have been away on vacation, others may have moved
+during the enrollment and so on. </p>
 
- To be as accurate as possible, he entrusted the task to three different officials. Each of them was to independently record the list of voters and send it to the collector. In Siruseri, every one has a ID number and the list would only list the ID numbers of the voters and not their names. The officials were expected to arrange the ID numbers in ascending order in their lists.
+<p> To be as accurate as possible, he entrusted the task to three different 
+officials. Each of them was to independently record the list of voters and 
+send it to the collector. In Siruseri, every one has a ID number and
+the list would only list the ID numbers of the voters and not their names.
+The officials were expected to arrange the ID numbers in ascending order
+in their lists. </p>
 
- On receiving the lists, the Collector realised that there were discrepancies - the three lists were not identical. He decided to go with the majority. That is, he decided to construct the final list including only those ID numbers that appeared in at least 2 out of the 3 lists. For example if the three lists were
+<p> On receiving the lists, the Collector realised that there were
+discrepancies - the three lists were not identical.  He decided
+to go with the majority. That is, he decided to construct the
+final list including only those ID numbers that appeared in at
+least 2 out of the 3 lists.  For example if the three lists
+were</p>
 
 <pre>
 23  30  42  57  90
 21  23  35  57  90  92
 21  23  30  57  90 
 </pre>
-then the final list compiled by the collector would be:
+
+<p>then the final list compiled by the collector would be:</p>
 
 <pre>
 21  23  30  57  90
 </pre>
- The ID numbers 35, 42 and 92 which appeared in only one list each do not figure in the final list.
 
- Your task is to help the collector by writing a program that produces the final list from the three given lists.
+<p> The ID numbers 35, 42 and 92 which appeared in only one list
+each do not figure in the final list.</p>
 
-Input format
+<p> Your task is to help the collector by writing a program that
+produces the final list from the three given lists.</p>
 
-The first line of the input contains 3 integers *N*1, *N*2 and *N*3. *N*1 is the number of voters in the first list, *N*2 is the number of voters in the second list and *N*3 is the number of voters in the third list. The next *N*1 lines (lines 2,...,*N*1+1) contain one positive integer each and describe the first list in ascending order. The following *N*2 lines (lines *N*1+2,...,*N*1+*N*2+1) describe the second list in ascending order and the final *N*3 lines (lines *N*1+*N*2+2,...,*N*1+*N*2+*N*3+1) describe the third list in ascending order.
+<p>Input format</p>
 
-Output format
+<p>The first line of the input contains 3 integers
+<em>N</em><sub>1</sub>, <em>N</em><sub>2</sub> and
+<em>N</em><sub>3</sub>.  <em>N</em><sub>1</sub> is the number of
+voters in the first list, <em>N</em><sub>2</sub> is the number of
+voters in the second list and <em>N</em><sub>3</sub> is the number of
+voters in the third list.  The next <em>N</em><sub>1</sub> lines
+(lines 2,...,<em>N</em><sub>1</sub>+1) contain one positive integer
+each and describe the first list in ascending order.  The following
 
-The first line of the output should contain a single integer *M* indicating the number voters in the final list. The next *M* lines (lines 2,...,*M*+1) should contain one positive integer each, describing the list of voters in the final list, in ascending order.
+<em>N</em><sub>2</sub> lines (lines
+<em>N</em><sub>1</sub>+2,...,<em>N</em><sub>1</sub>+<em>N</em><sub>2</sub>+1)
+describe the second list in ascending order and the final
+<em>N</em><sub>3</sub> lines (lines
 
-Test data
+<em>N</em><sub>1</sub>+<em>N</em><sub>2</sub>+2,...,<em>N</em><sub>1</sub>+<em>N</em><sub>2</sub>+<em>N</em><sub>3</sub>+1)
+describe the third list in ascending order.</p>
 
-You may assume that 1 *N*1,*N*2,*N*3 50000.
+<p>Output format</p>
 
-Example
+<p>The first line of the output should contain a single integer
+<em>M</em> indicating the number voters in the final list. The next
+<em>M</em> lines (lines 2,...,<em>M</em>+1) should contain one
+positive integer each, describing the list of voters in the final
+list, in ascending order.</p>
 
-Sample input:
+<p>Test data</p>
+
+<p>You may assume that 1    
+<em>N</em><sub>1</sub>,<em>N</em><sub>2</sub>,<em>N</em><sub>3</sub>
+    50000.
+</p>
+
+<p>Example</p>
+<p>Sample input:</p>
 
 <pre>
 5 6 5
@@ -66,7 +96,8 @@ Sample input:
 57 
 90 
 </pre>
-Sample output:
+
+<p>Sample output:</p>
 
 <pre>
 5
@@ -75,4 +106,4 @@ Sample output:
 30 
 57 
 90
-</pre>
+</pre>    

@@ -1,120 +1,48 @@
 ---
-category_name: medium
-problem_code: WEASELTX
-problem_name: 'Weasel does Xor on Tree'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 6.3'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - kotlin
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYPY
-    - PYTH
-    - 'PYTH 3.5'
-    - RUBY
-    - rust
-    - SCALA
-    - 'SCM chicken'
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - swift
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '1'
-source_sizelimit: '50000'
-problem_author: bciobanu
-problem_tester: jingbo_adm
-date_added: 9-08-2017
-tags:
-    - bciobanu
-    - binomial
-    - lucas
-    - medium
-    - sept17
-editorial_url: 'https://discuss.codechef.com/problems/WEASELTX'
-time:
-    view_start_date: 1505122200
-    submit_start_date: 1505122200
-    visible_start_date: 1505122200
-    end_date: 1735669800
-    current: 1514816840
-layout: problem
+{"category_name":"medium","problem_code":"WEASELTX","problem_name":"Weasel does Xor on Tree","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 6.3","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"kotlin","24":"LISP clisp","25":"LISP sbcl","26":"LUA","27":"NEM","28":"NICE","29":"NODEJS","30":"PAS fpc","31":"PAS gpc","32":"PERL","33":"PERL6","34":"PHP","35":"PIKE","36":"PRLG","37":"PYPY","38":"PYTH","39":"PYTH 3.5","40":"RUBY","41":"rust","42":"SCALA","43":"SCM chicken","44":"SCM guile","45":"SCM qobi","46":"ST","47":"swift","48":"TCL","49":"TEXT","50":"WSPC"},"max_timelimit":1,"source_sizelimit":50000,"problem_author":"bciobanu","problem_tester":"jingbo_adm","date_added":"9-08-2017","tags":{"0":"bciobanu","1":"binomial","2":"lucas","3":"medium","4":"sept17"},"editorial_url":"https://discuss.codechef.com/problems/WEASELTX","time":{"view_start_date":1505122200,"submit_start_date":1505122200,"visible_start_date":1505122200,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.### Read problems statements in [mandarin chinese](http://www.codechef.com/download/translated/SEPT17/mandarin/WEASELTX.pdf), [russian](http://www.codechef.com/download/translated/SEPT17/russian/WEASELTX.pdf) and [vietnamese](http://www.codechef.com/download/translated/SEPT17/vietnamese/WEASELTX.pdf) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3>Read problems statements in <a target="_blank" 
+href="http://www.codechef.com/download/translated/SEPT17/mandarin/WEASELTX.pdf">mandarin chinese</a>, <a target="_blank" 
+href="http://www.codechef.com/download/translated/SEPT17/russian/WEASELTX.pdf">russian</a> and <a target="_blank" 
+href="http://www.codechef.com/download/translated/SEPT17/vietnamese/WEASELTX.pdf">vietnamese</a> as well.</h3>
 
-A tree is an undirected graph in which each pair of vertices is connected to each other by exactly one path. Weasel has a tree with **N** nodes. The indexing of the nodes is 0-based and the tree is rooted at node 0. Every node **i** has an initial value **X0i**.
+<p>A tree is an undirected graph in which each pair of vertices is connected to each other by exactly one path. Weasel has a tree with <b>N</b> nodes. The indexing of the nodes is <b>0</b>-based and the tree is rooted at node <b>0</b>. Every node <b>i</b> has an initial value <b>X<sub>0<sub>i</sub></sub></b>.</p>
 
-Every day **d &gt; 0**, he performs the following operations, starting from the root:
+<p>Every day <b>d > 0</b>, he performs the following operations, starting from the root:</p>
+<ul>
+<li>Weasel computes <b>X<sub>d<sub>u</sub></sub></b> as the bitwise-xor sum of all the values <b>X<sub>d − 1<sub>v</sub></sub></b> for a node <b>v</b> in <b>u</b>'s subtree.</li>
+<li>He recursively proceeds to perform the operation for every child of <b>u</b>.
+</ul>
+</p>
 
-- Weasel computes **Xdu** as the bitwise-xor sum of all the values **Xd − 1v** for a node **v** in **u**'s subtree.
-- He recursively proceeds to perform the operation for every child of **u**.
+<p>For <b>Q</b> values of <b>Δ</b>, Weasel wants to compute <b>X<sub>Δ<sub>0</sub></sub></b>.</p>
 
-For **Q** values of **Δ**, Weasel wants to compute **XΔ0**.
+<h3>Input</h3>
+<p>The first line of the input contains two integers <b>N</b> and <b>Q</b>.</p>
+<p>Each of the following <b>N − 1</b> lines contains two integers, <b>u</b> and <b>v</b>, an edge in the tree.</p>
+<p>On the following line there are <b>N</b> integers, representing the <b>X<sub>0</sub></b> array.</p>
+<p>Each of the next <b>Q</b> lines contains values for <b>Δ</b> as noted in the statement.</p>
 
-### Input
+<h3>Output</h3>
+<p>You should print <b>Q</b> lines, each containing <b>X<sub>Δ<sub>0</sub></sub></b>.</p>
 
-The first line of the input contains two integers **N** and **Q**.
+<h3>Constraints</h3>
+<ul>
+<li><b>1</b> ≤ <b>N, Q</b> ≤ <b>2 * 10<sup>5</sup></b></li>
+<li><b>0</b> ≤ <b>X<sub>0<sub>i</sub></sub></b> ≤ <b>10<sup>18</sup></b> for every <b>0</b> ≤ <b>i</b> ≤ <b>N − 1</b>.</li>
+<li><b>0</b> ≤ <b>Δ</b> ≤ <b>10<sup>18</sup></b></li>
+<li><b>0</b> ≤ <b>u, v</b> ≤ <b>N − 1</b></li>
+</ul>
 
-Each of the following **N − 1** lines contains two integers, **u** and **v**, an edge in the tree.
+<h3>Subtasks</h3>
+<ul>
+<li><b>Subtask 1</b> (20 points): <b>1</b> ≤ <b>N</b> ≤ <b>500</b> and <b>Δ</b> ≤ <b>500</b></li>
+<li><b>Subtask 2</b> (20 points): <b>1</b> ≤ <b>N</b> ≤ <b>1000</b> and <b>1</b> ≤ <b>N × Q</b> ≤ <b>10<sup>6</sup></b></li>
+<li><b>Subtask 3</b> (10 points): <b>1</b> ≤ <b>N</b> ≤ <b>5000</b></li>
+<li><b>Subtask 4</b> (50 points): original constraints</li>
+</ul>
 
-On the following line there are **N** integers, representing the **X0** array.
-
-Each of the next **Q** lines contains values for **Δ** as noted in the statement.
-
-### Output
-
-You should print **Q** lines, each containing **XΔ0**.
-
-### Constraints
-
-- **1** ≤ **N, Q** ≤ **2 \* 105**
-- 0 ≤ **X0i** ≤ **1018** for every 0 ≤ **i** ≤ **N − 1**.
-- 0 ≤ **Δ** ≤ **1018**
-- 0 ≤ **u, v** ≤ **N − 1**
-
-### Subtasks
-
-- **Subtask 1** (20 points): **1** ≤ **N** ≤ **500** and **Δ** ≤ **500**
-- **Subtask 2** (20 points): **1** ≤ **N** ≤ **1000** and **1** ≤ **N × Q** ≤ **106**
-- **Subtask 3** (10 points): **1** ≤ **N** ≤ **5000**
-- **Subtask 4** (50 points): original constraints
-
-### Example
-
+<h3>Example</h3>
 <pre><b>Input:</b>
 4 3
 0 1
@@ -130,12 +58,12 @@ You should print **Q** lines, each containing **XΔ0**.
 9
 3
 </pre>
-### Explanation
 
-Initially **X0 = \[1, 5, 8, 7\]**.
-
-Weasel performs his operation on node 0: **X10** = **X00** xor **X01** xor **X02** xor **X03** = **1** xor **5** xor **8** xor **7** = **11**.
-
-**X11** = **X01** xor **X02** = **5** xor **8** = **13**.
-
-**X12** and **X13** remain equal to **X02**, respectively **X03**.
+<h3>Explanation</h3>
+<p>Initially <b>X<sub>0</sub> = [1, 5, 8, 7]</b>.</p>
+<p>Weasel performs his operation on node <b>0</b>:
+ <b>X<sub>1<sub>0</sub></sub></b> = <b>X<sub>0<sub>0</sub></sub></b> xor <b>X<sub>0<sub>1</sub></sub></b> xor <b>X<sub>0<sub>2</sub></sub></b> xor <b>X<sub>0<sub>3</sub></sub></b> = <b>1</b> xor <b>5</b> xor <b>8</b> xor <b>7</b> = <b>11</b>. </p>
+<p><b>X<sub>1<sub>1</sub></sub></b> = <b>X<sub>0<sub>1</sub></sub></b> xor <b>X<sub>0<sub>2</sub></sub></b>  = <b>5</b> xor <b>8</b> = <b>13</b>.</p>
+<p>
+<b>X<sub>1<sub>2</sub></sub></b> and <b>X<sub>1<sub>3</sub></sub></b> remain equal to <b>X<sub>0<sub>2</sub></sub></b>, respectively <b>X<sub>0<sub>3</sub></sub></b>.</p>
+</p>

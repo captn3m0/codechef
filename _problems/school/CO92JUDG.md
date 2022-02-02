@@ -1,107 +1,39 @@
 ---
-category_name: school
-problem_code: CO92JUDG
-problem_name: 'Chef Judges a Competition'
-languages_supported:
-    - C
-    - CPP14
-    - JAVA
-    - PYTH
-    - 'PYTH 3.5'
-    - PYPY
-    - CS2
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - RUBY
-    - PHP
-    - GO
-    - NODEJS
-    - HASK
-    - rust
-    - SCALA
-    - swift
-    - D
-    - PERL
-    - FORT
-    - WSPC
-    - ADA
-    - CAML
-    - ICK
-    - BF
-    - ASM
-    - CLPS
-    - PRLG
-    - ICON
-    - 'SCM qobi'
-    - PIKE
-    - ST
-    - NICE
-    - LUA
-    - BASH
-    - NEM
-    - 'LISP sbcl'
-    - 'LISP clisp'
-    - 'SCM guile'
-    - JS
-    - ERL
-    - TCL
-    - kotlin
-    - PERL6
-    - TEXT
-    - 'SCM chicken'
-    - CLOJ
-    - COB
-    - FS
-max_timelimit: '0.5'
-source_sizelimit: '50000'
-problem_author: kefaa
-problem_tester: null
-date_added: 15-03-2018
-tags:
-    - cakewalk
-    - cook92
-    - implementation
-    - kefaa
-editorial_url: 'https://discuss.codechef.com/problems/CO92JUDG'
-time:
-    view_start_date: 1521397801
-    submit_start_date: 1521397801
-    visible_start_date: 1521397801
-    end_date: 1735669800
-    current: 1525454387
-is_direct_submittable: false
-layout: problem
+{"category_name":"school","problem_code":"CO92JUDG","problem_name":"Chef Judges a Competition","languages_supported":{"0":"C","1":"CPP14","2":"JAVA","3":"PYTH","4":"PYTH 3.5","5":"PYPY","6":"CS2","7":"PAS fpc","8":"PAS gpc","9":"RUBY","10":"PHP","11":"GO","12":"NODEJS","13":"HASK","14":"rust","15":"SCALA","16":"swift","17":"D","18":"PERL","19":"FORT","20":"WSPC","21":"ADA","22":"CAML","23":"ICK","24":"BF","25":"ASM","26":"CLPS","27":"PRLG","28":"ICON","29":"SCM qobi","30":"PIKE","31":"ST","32":"NICE","33":"LUA","34":"BASH","35":"NEM","36":"LISP sbcl","37":"LISP clisp","38":"SCM guile","39":"JS","40":"ERL","41":"TCL","42":"kotlin","43":"PERL6","44":"TEXT","45":"SCM chicken","46":"CLOJ","47":"COB","48":"FS"},"max_timelimit":0.5,"source_sizelimit":50000,"problem_author":"kefaa","problem_tester":null,"date_added":"15-03-2018","tags":{"0":"cakewalk","1":"cook92","2":"implementation","3":"kefaa"},"editorial_url":"https://discuss.codechef.com/problems/CO92JUDG","time":{"view_start_date":1521397801,"submit_start_date":1521397801,"visible_start_date":1521397801,"end_date":1735669800},"is_direct_submittable":false,"layout":"problem"}
 ---
-All submissions for this problem are available.### Read problems statements in [Mandarin chinese](http://www.codechef.com/download/translated/COOK92/mandarin/CO92JUDG.pdf), [Russian](http://www.codechef.com/download/translated/COOK92/russian/CO92JUDG.pdf) and [Vietnamese](http://www.codechef.com/download/translated/COOK92/vietnamese/CO92JUDG.pdf) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3>Read problems statements in <a target="_blank" 
+href="http://www.codechef.com/download/translated/COOK92/mandarin/CO92JUDG.pdf">Mandarin chinese</a>, <a target="_blank" 
+href="http://www.codechef.com/download/translated/COOK92/russian/CO92JUDG.pdf">Russian</a> and <a target="_blank" 
+href="http://www.codechef.com/download/translated/COOK92/vietnamese/CO92JUDG.pdf">Vietnamese</a> as well.</h3>
 
-Chef is the judge of a competition. There are two players participating in this competition — Alice and Bob.
+<p>Chef is the judge of a competition. There are two players participating in this competition — Alice and Bob.</p>
 
-The competition consists of **N** races. For each **i** (1 ≤ **i** ≤ **N**), Alice finished the **i**-th race in **Ai** minutes, while Bob finished it in **Bi** minutes. The player with the smallest sum of finish times wins. If this total time is the same for Alice and for Bob, a draw is declared.
+<p>The competition consists of <b>N</b> races. For each <b>i</b> (1 ≤ <b>i</b> ≤ <b>N</b>), Alice finished the <b>i</b>-th race in <b>A<sub>i</sub></b> minutes, while Bob finished it in <b>B<sub>i</sub></b> minutes. The player with the smallest sum of finish times wins. If this total time is the same for Alice and for Bob, a draw is declared.</p>
 
-The rules of the competition allow each player to choose a race which will not be counted towards their total time. That is, Alice may choose an index **x** and her finish time in the race with this index will be considered zero; similarly, Bob may choose an index **y** and his finish time in the race with this index will be considered zero. Note that **x** can be different from **y**; the index chosen by Alice does not affect Bob's total time or vice versa.
+<p>The rules of the competition allow each player to choose a race which will not be counted towards their total time. That is, Alice may choose an index <b>x</b> and her finish time in the race with this index will be considered zero; similarly, Bob may choose an index <b>y</b> and his finish time in the race with this index will be considered zero. Note that <b>x</b> can be different from <b>y</b>; the index chosen by Alice does not affect Bob's total time or vice versa.</p>
 
-Chef, as the judge, needs to announce the result of the competition. He knows that both Alice and Bob play optimally and will always choose the best option. Please help Chef determine the result!
+<p>Chef, as the judge, needs to announce the result of the competition. He knows that both Alice and Bob play optimally and will always choose the best option. Please help Chef determine the result!</p>
 
-### Input
+<h3>Input</h3>
+<ul>
+<li>The first line of the input contains a single integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</li>
+<li>The first line of each test case contains a single integer <b>N</b>.</li>
+<li>The second line contains <b>N</b> space-separated integers <b>A<sub>1</sub>, A<sub>2</sub>, ..., A<sub>N</sub></b>.</li>
+<li>The third line contains <b>N</b> space-separated integers <b>B<sub>1</sub>, B<sub>2</sub>, ..., B<sub>N</sub></b>.</li>
+</ul>
 
-- The first line of the input contains a single integer **T** denoting the number of test cases. The description of **T** test cases follows.
-- The first line of each test case contains a single integer **N**.
-- The second line contains **N** space-separated integers **A1, A2, ..., AN**.
-- The third line contains **N** space-separated integers **B1, B2, ..., BN**.
+<h3>Output</h3>
+<p>For each test case, print a single line containing the string <tt>"Alice"</tt> if Alice wins, <tt>"Bob"</tt> if Bob wins or <tt>"Draw"</tt> if the result is a draw (without quotes).</p>
 
-### Output
+<h3>Constraints</h3>
+<ul>
+<li>1 ≤ <b>T</b> ≤ 100</li>
+<li>2 ≤ <b>N</b> ≤ 100</li>
+<li>1 ≤ <b>A<sub>i</sub></b> ≤ 1000 for each valid <b>i</b></li>
+<li>1 ≤ <b>B<sub>i</sub></b> ≤ 1000 for each valid <b>i</b></li>
+</ul>
 
-For each test case, print a single line containing the string "Alice" if Alice wins, "Bob" if Bob wins or "Draw" if the result is a draw (without quotes).
-
-### Constraints
-
-- 1 ≤ **T** ≤ 100
-- 2 ≤ **N** ≤ 100
-- 1 ≤ **Ai** ≤ 1000 for each valid **i**
-- 1 ≤ **Bi** ≤ 1000 for each valid **i**
-
-### Example
-
+<h3>Example</h3>
 <pre><b>Input:</b>
 
 3
@@ -121,10 +53,10 @@ Alice
 Bob
 Draw
 </pre>
-### Explanation
 
-**Example case 1:** Alice will choose the finish time in the last race to be considered zero, which means her sum of finish times is 3 + 1 + 3 + 3 + 0 = 10, while Bob will choose the finish time of his second race to be considered zero, so his total sum of finish times is 1 + 0 + 2 + 5 + 3 = 11. Since Alice's sum is smaller, she is considered the winner.
+<h3>Explanation</h3>
+<p><b>Example case 1:</b> Alice will choose the finish time in the last race to be considered zero, which means her sum of finish times is 3 + 1 + 3 + 3 + 0 = 10, while Bob will choose the finish time of his second race to be considered zero, so his total sum of finish times is 1 + 0 + 2 + 5 + 3 = 11. Since Alice's sum is smaller, she is considered the winner.</p>
 
-**Example case 2:** We're dealing with the same situation as in the previous case, but finish times for the players are swapped, so Bob wins this time.
+<p><b>Example case 2:</b> We're dealing with the same situation as in the previous case, but finish times for the players are swapped, so Bob wins this time.</p>
 
-**Example case 3:** Alice will choose the finish time of the first race to be considered zero, which means her total time is 0 + 1 + 3 = 4. Bob will choose the finish time of his last race to be considered zero, which makes his total time 2 + 2 + 0 = 4. The competition is considered **a draw** because both players have equal sums of finish times.
+<p><b>Example case 3:</b> Alice will choose the finish time of the first race to be considered zero, which means her total time is 0 + 1 + 3 = 4. Bob will choose the finish time of his last race to be considered zero, which makes his total time 2 + 2 + 0 = 4. The competition is considered <b>a draw</b> because both players have equal sums of finish times.</p>

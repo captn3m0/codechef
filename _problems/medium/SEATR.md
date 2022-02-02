@@ -1,101 +1,31 @@
 ---
-category_name: medium
-problem_code: SEATR
-problem_name: 'Sereja and Tree'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYPY
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM chicken'
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '10'
-source_sizelimit: '50000'
-problem_author: sereja
-problem_tester: iscsi
-date_added: 6-11-2015
-tags:
-    - cook64
-    - dynamic
-    - hard
-    - mathematics
-    - memoization
-    - sereja
-    - tree
-editorial_url: 'http://discuss.codechef.com/problems/SEATR'
-time:
-    view_start_date: 1448217000
-    submit_start_date: 1448217000
-    visible_start_date: 1448217000
-    end_date: 1735669800
-    current: 1493557974
-layout: problem
+{"category_name":"medium","problem_code":"SEATR","problem_name":"Sereja and Tree","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYPY","37":"PYTH","38":"PYTH 3.4","39":"RUBY","40":"SCALA","41":"SCM chicken","42":"SCM guile","43":"SCM qobi","44":"ST","45":"TCL","46":"TEXT","47":"WSPC"},"max_timelimit":10,"source_sizelimit":50000,"problem_author":"sereja","problem_tester":"iscsi","date_added":"6-11-2015","tags":{"0":"cook64","1":"dynamic","2":"hard","3":"mathematics","4":"memoization","5":"sereja","6":"tree"},"editorial_url":"http://discuss.codechef.com/problems/SEATR","time":{"view_start_date":1448217000,"submit_start_date":1448217000,"visible_start_date":1448217000,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/COOK64/mandarin/SEATR.pdf) and [Russian](http://www.codechef.com/download/translated/COOK64/russian/SEATR.pdf).
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3> Read problems statements in <a target="_blank" href="http://www.codechef.com/download/translated/COOK64/mandarin/SEATR.pdf">Mandarin Chinese</a> and <a target="_blank" href="http://www.codechef.com/download/translated/COOK64/russian/SEATR.pdf">Russian</a>.</h3>
 
-Sereja likes to hang around trees. A tree is an undirected graph on **N** vertices with **N-1** edges and no cycles. Sereja has his own peculiar way of comparing two trees. To describe it, let's start with the way Sereja stores a tree. For every tree, Sereja has a value **V** — the root of the tree, and for every vertex **i**, he has an ordered list **Q\[i\]** with **L\[i\]** elements — **Q\[i\]\[1\], Q\[i\]\[2\], ..., Q\[i\]\[L\[i\]\]** which are children of the vertex **i**. Sereja assumes two trees to be equal if their roots are the same and for every **i**, the ordered list **Q\[i\]** is the same in both the trees that Sereja compares.
 
-So if Sereja has tree#1 given as **\[V=1, Q\[1\]=\[2, 3\], Q\[2\]=\[\], Q\[3\]=\[\]\]** and tree#2 given as **\[V=1, Q\[1\]=\[3, 2\], Q\[2\]=\[\], Q\[3\]=\[\]\]**, they will be considered different because **Q\[1\]** in the first tree is not equal to **Q\[1\]** in the second tree.
+<p>Sereja likes to hang around trees. A tree is an undirected graph on <b>N</b> vertices with <b>N-1</b> edges and no cycles. Sereja has his own peculiar way of comparing two trees. To describe it, let's start with the way Sereja stores a tree. For every tree, Sereja has a value <b>V</b> — the root of the tree, and for every vertex <b>i</b>, he has an ordered list <b>Q[i]</b> with <b>L[i]</b> elements — <b>Q[i][1], Q[i][2], ..., Q[i][L[i]]</b> which are children of the vertex <b>i</b>. Sereja assumes two trees to be equal if their roots are the same and for every <b>i</b>, the ordered list <b>Q[i]</b> is the same in both the trees that Sereja compares.</p>
+<p>
+So if Sereja has tree#1 given as <b>[V=1, Q[1]=[2, 3], Q[2]=[], Q[3]=[]]</b> and tree#2 given as <b>[V=1, Q[1]=[3, 2], Q[2]=[], Q[3]=[]]</b>, they will be considered different because <b>Q[1]</b> in the first tree is not equal to <b>Q[1]</b> in the second tree.</p>
+<p>
+For any vertex <b>i</b>, Sereja calls number of vertices adjacent to it as <b>E[i]</b>.</p>
+<p>
+Given an array <b>C</b> of <b>N</b> elements, Let <b>f(C)</b> be the number of different trees (in Sereja's representation) such that there exists a permutation <b>P[1], P[2], ... , P[N]</b> so that <b>E[P[1]]=C[1], E[P[2]]= C[2], ... , E[P[N]]=C[N]</b>.</p>
+<p>
+Sereja gives you the array <b>C</b>. You have to compute the number <b>f(C)</b> modulo <b>1000000007 (10<sup>9</sup>+7)</b>.</p>
 
-For any vertex **i**, Sereja calls number of vertices adjacent to it as **E\[i\]**.
+<h3>Input</h3>
+The first line of input contains the integer <b>N</b>. Next line contains <b>N</b> integers <b>C[1], C[2], ..., C[N]</b>.
 
-Given an array **C** of **N** elements, Let **f(C)** be the number of different trees (in Sereja's representation) such that there exists a permutation **P\[1\], P\[2\], ... , P\[N\]** so that **E\[P\[1\]\]=C\[1\], E\[P\[2\]\]= C\[2\], ... , E\[P\[N\]\]=C\[N\]**.
+<h3>Output</h3>
+Output answer in single line. 
 
-Sereja gives you the array **C**. You have to compute the number **f(C)** modulo **1000000007 (109+7)**.
-
-### Input
-
-The first line of input contains the integer **N**. Next line contains **N** integers **C\[1\], C\[2\], ..., C\[N\]**. ### Output
-
-Output answer in single line. ### Constraints
-
-- **1** ≤ **N** ≤  **80**
-- 0 ≤ **C\[i\]** ≤  **80**
-
-### Example
-
+<h3>Constraints</h3>
+<ul>
+<li><b>1</b> ≤ <b>N</b> ≤ <b> 80 </b></li>
+<li><b>0</b> ≤ <b>C[i]</b> ≤ <b> 80 </b></li>
+</ul>
+<h3>Example</h3>
 <pre><b>Input:</b>
 4
 1 1 2 2

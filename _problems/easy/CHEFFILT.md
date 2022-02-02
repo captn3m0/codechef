@@ -1,123 +1,67 @@
 ---
-category_name: easy
-problem_code: CHEFFILT
-problem_name: 'Chef and Filters'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYPY
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM chicken'
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '1'
-source_sizelimit: '50000'
-problem_author: berezin
-problem_tester: xcwgf666
-date_added: 8-10-2015
-tags:
-    - berezin
-    - dec15
-    - dynamic
-    - easy
-editorial_url: 'http://discuss.codechef.com/problems/CHEFFILT'
-time:
-    view_start_date: 1450085400
-    submit_start_date: 1450085400
-    visible_start_date: 1450085400
-    end_date: 1735669800
-    current: 1493558118
-layout: problem
+{"category_name":"easy","problem_code":"CHEFFILT","problem_name":"Chef and Filters","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYPY","37":"PYTH","38":"PYTH 3.4","39":"RUBY","40":"SCALA","41":"SCM chicken","42":"SCM guile","43":"SCM qobi","44":"ST","45":"TCL","46":"TEXT","47":"WSPC"},"max_timelimit":1,"source_sizelimit":50000,"problem_author":"berezin","problem_tester":"xcwgf666","date_added":"8-10-2015","tags":{"0":"berezin","1":"dec15","2":"dynamic","3":"easy"},"editorial_url":"http://discuss.codechef.com/problems/CHEFFILT","time":{"view_start_date":1450085400,"submit_start_date":1450085400,"visible_start_date":1450085400,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/DEC15/mandarin/CHEFFILT.pdf), [Russian](http://www.codechef.com/download/translated/DEC15/russian/CHEFFILT.pdf) and [Vietnamese](http://www.codechef.com/download/translated/DEC15/vietnamese/CHEFFILT.pdf) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3> Read problems statements in <a target="_blank" href="http://www.codechef.com/download/translated/DEC15/mandarin/CHEFFILT.pdf">Mandarin Chinese</a>, <a target="_blank" href="http://www.codechef.com/download/translated/DEC15/russian/CHEFFILT.pdf">Russian</a> and <a target="_blank" href="http://www.codechef.com/download/translated/DEC15/vietnamese/CHEFFILT.pdf">Vietnamese</a> as well.</h3>
 
-Nobody outside the cooking community knows that Chef is a big fan of Chefgram™ — a social network where chefs and cooks upload their secret kitchen photos. Recently Chef clicked a *beautiful* photo, which is represented using **10** pixels in a single row. Respecting Chefgram™'s boolean roots, every pixel is either white or black.
 
-Chefgram™ has **N** filters. Every filter is a string containing **10** symbols. Every symbol is either **'+'** or **'-'**.
-
-- A **'+'** at the **ith** position in a filter means that if Chef applies this filter to his photo, the **ith** pixel will be **inverted**: it becomes black if it was originally white, and vice versa.
-- A **'-'** at the **ith** position in a filter string means that if Chef applies this filter to his photo, the **ith** pixel will remain **unchanged**.
-
+<p>Nobody outside the cooking community knows that Chef is a big fan of Chefgram™ — a social network where chefs and cooks upload their secret kitchen photos.
+Recently Chef clicked a <em>beautiful</em> photo, which is represented using <b>10</b> pixels in a single row. Respecting Chefgram™'s boolean roots, every pixel is either white or black.
+</p>
+<p>
+Chefgram™ has <b>N</b> filters. Every filter is a string containing <b>10</b> symbols. Every symbol is either <b>'+'</b> or <b>'-'</b>.
+<ul>
+<li>A <b>'+'</b> at the <b>i<sup>th</sup></b> position in a filter means that if Chef applies this filter to his photo, the <b>i<sup>th</sup></b> pixel will be <b>inverted</b>: it becomes black if it was originally white, and vice versa. </li>
+<li>A <b>'-'</b> at the <b>i<sup>th</sup></b> position in a filter string means that if Chef applies this filter to his photo, the <b>i<sup>th</sup></b> pixel will remain <b>unchanged</b>.</li>
+</ul>
+</p>
+<p>
 Chef can apply as many filters as he wants from a list. He can pick any subset of filters and consequently apply them to a photo.
-
+</p>
+<p>
 For example:
+<ul>
+<li>Imagine that Chef has a photo <b>"bbwwbbwwbb"</b> (where <b>'b'</b> stands for black and <b>'w'</b> stands for white).</li>
+<li>He applies filters <b>"++--++--++"</b>, <b>"-+-+-+-+-+"</b>.</li>
+<li>Applying the first filter will transform his picture to <b>"wwwwwwwwww"</b>. </li>
+<li>Applying the second filter on the transformed picture will give Chef the picture <b>"wbwbwbwbwb"</b>.</li>
+</ul>
+</p>
+<p>
+<b>Even if Chefgram™ has two or more identical filters, they are still considered different!</b>
+</p>
+<p>
+Chef is extremely interested in knowing how many <b>different subsets</b> of all the Chefgram™ filters can he apply to transform his photo into <b>10 black pixels</b>?
+</p>
 
-- Imagine that Chef has a photo **"bbwwbbwwbb"** (where **'b'** stands for black and **'w'** stands for white).
-- He applies filters **"++--++--++"**, **"-+-+-+-+-+"**.
-- Applying the first filter will transform his picture to **"wwwwwwwwww"**.
-- Applying the second filter on the transformed picture will give Chef the picture **"wbwbwbwbwb"**.
+<h3>Input</h3>
+<ul>
+<li>The first line of input contains a single integer <b>T</b> — the number of test cases.</li>
+<li>First line of each test case contains a string <b>S</b>. Each symbol is either <b>'b'</b> or <b>'w'</b>. This is Chef's photo.</li>
+<li>Second line of each test case contains a single integer <b>N</b> — the number of Chefgram™ filters.</li>
+<li>Each of the next <b>N</b> lines contains a single string <b>F<sub>i</sub></b>, each symbol of which is either <b>'+'</b> or <b>'-'</b>. This string is the <b>i<sub>th</sub></b> Chefgram™ filter.</li>
+</ul>
 
-**Even if Chefgram™ has two or more identical filters, they are still considered different!**
+<h3>Output</h3>
+<ul>
+<li>For each test case, output a single line containing a single integer — answer to Chef's question modulo <b>10<sup>9</sup>+7</b>.</li>
+</ul>
 
-Chef is extremely interested in knowing how many **different subsets** of all the Chefgram™ filters can he apply to transform his photo into **10 black pixels**?
+<h3>Constraints</h3>
+<ul>
+<li><b>1</b> ≤ <b>T</b> ≤ <b>5</b></li>
+<li><b>|S|</b> = <b>10</b></li>
+<li><b>1</b> ≤ <b>N</b> ≤ <b>10^5</b></li>
+<li><b>|F<sub>i</sub>|</b> = <b>10</b></li>
+</ul>
 
-### Input
+<h3>Subtasks</h3>
+<ul>
+<li>Subtask <b>1</b>: <b>T</b> ≤ <b>5</b>; <b>N</b> ≤ <b>20</b>; Points: <b>20</b></li>
+<li>Subtask <b>2</b>: <b>T</b> ≤ <b>5</b>; <b>N</b> ≤ <b>10^3</b>; Points: <b>30</b></li>
+<li>Subtask <b>3</b>: <b>T</b> ≤ <b>5</b>; <b>N</b> ≤ <b>10^5</b>; Points: <b>50</b></li>
+</ul>
 
-- The first line of input contains a single integer **T** — the number of test cases.
-- First line of each test case contains a string **S**. Each symbol is either **'b'** or **'w'**. This is Chef's photo.
-- Second line of each test case contains a single integer **N** — the number of Chefgram™ filters.
-- Each of the next **N** lines contains a single string **Fi**, each symbol of which is either **'+'** or **'-'**. This string is the **ith** Chefgram™ filter.
-
-### Output
-
-- For each test case, output a single line containing a single integer — answer to Chef's question modulo **109+7**.
-
-### Constraints
-
-- **1** ≤ **T** ≤ **5**
-- **|S|** = **10**
-- **1** ≤ **N** ≤ **10^5**
-- **|Fi|** = **10**
-
-### Subtasks
-
-- Subtask **1**: **T** ≤ **5**; **N** ≤ **20**; Points: **20**
-- Subtask **2**: **T** ≤ **5**; **N** ≤ **10^3**; Points: **30**
-- Subtask **3**: **T** ≤ **5**; **N** ≤ **10^5**; Points: **50**
-
-### Example
-
+<h3>Example</h3>
 <pre><b>Input:</b>
 3
 wwwwwwwwww
@@ -140,10 +84,8 @@ bbbbbbbbbb
 2
 4
 </pre>
-### Explanation
 
-**Example case 1.** There is no filter or combination of filters transforming the picture to whole black.
-
-**Example case 2.** Chef can either apply the first filter (and invert all whites) or apply the second and third filters in any order.
-
-**Example case 3.** Picture is already fully black, and we have two **different** identity filters. Chef can either apply the **empty** subset of filters, the first filter only, the second filter only, or both.
+<h3>Explanation</h3>
+<p><b>Example case 1.</b> There is no filter or combination of filters transforming the picture to whole black. </p>
+<p><b>Example case 2.</b> Chef can either apply the first filter (and invert all whites) or apply the second and third filters in any order.</p>
+<p><b>Example case 3.</b> Picture is already fully black, and we have two <b>different</b> identity filters. Chef can either apply the <b>empty</b> subset of filters, the first filter only, the second filter only, or both.</p>

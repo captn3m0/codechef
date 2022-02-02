@@ -1,0 +1,23 @@
+---
+{"category_name":"medium","problem_code":"ALTLG","problem_name":"Alternating LG Queries","problemComponents":{"constraints":"- $1 \\leq T \\leq 3$\n- $2 \\leq N \\leq 2 \\cdot 10^5$\n- $1 \\leq Q \\leq 2 \\cdot 10^5$\n- $1 \\leq A_i \\leq 10^9$\n- $1 \\leq Type_i \\leq 2$\n- $1 \\leq L_i \\lt R_i \\leq N$\n- The sum of $N$ over all test cases does not exceed $2 \\cdot 10^5$.\n- The sum of $Q$ over all test cases does not exceed $2 \\cdot 10^5$.\n","constraintsState":true,"subtasks":"**Subtask #1 (10 points):** \n- $2 \\le N \\le 630$\n- The sum of $N$ over all test cases does not exceed $630$.\n- Time limit: $1$ sec\n\n**Subtask #2 (90 points):** \n- Original constraints\n- Time limit: $1.5$ sec ","subtasksState":true,"inputFormat":"- The first line of the input contains a single integer $T$ denoting the number of test cases. The description of $T$ test cases follows.\n- Each testcase contains $Q + 2$ lines of input.\n- The first line of each test case contains two space-separated integers, $N$ and $Q$.\n- The second line of each test case contains $N$ space-separated integers $A_1, A_2, \\ldots, A_N$.\n- $Q$ lines follow. For each valid $i$, the $i^{th}$ of these lines contains three space-separated integers $Type_i, L_i, R_i$, denoting the type and parameters of the $i^{th}$ query.\n","inputFormatState":true,"outputFormat":"For each query, output in a single line answer to the problem.\n","outputFormatState":true,"sampleTestCases":{"0":{"id":1,"input":"1\n6 3\n2 4 8 16 32 64\n1 1 6\n2 1 5\n1 5 6","output":"2\n4\n32","explanation":"**Test case $1$:** The answer for the first query is  $= \\gcd(2, lcm(4, \\gcd(8, lcm(16, \\gcd(32, 64)))))$ $=$ $\\gcd(2, lcm(4, \\gcd(8, lcm(16, 32))))$ = $\\gcd(2, lcm(4, \\gcd(8, 32)))$ = $\\gcd(2, lcm(4, 8))$ = $\\gcd(2, 8)$ = $2$. \n\nThe answer for the second query is $= lcm(2, \\gcd(4, lcm(8, \\gcd(16, 32))))$ = $lcm(2, \\gcd(4, lcm(8, 16)))$ = $lcm(2, \\gcd(4, 16))$ = $lcm(2, 4)$ = $4$.","isDeleted":false}}},"video_editorial_url":"","languages_supported":{"0":"CPP14","1":"C","2":"JAVA","3":"PYTH 3.6","4":"CPP17","5":"PYTH","6":"PYP3","7":"CS2","8":"ADA","9":"PYPY","10":"TEXT","11":"PAS fpc","12":"NODEJS","13":"RUBY","14":"PHP","15":"GO","16":"HASK","17":"TCL","18":"PERL","19":"SCALA","20":"LUA","21":"kotlin","22":"BASH","23":"JS","24":"LISP sbcl","25":"rust","26":"PAS gpc","27":"BF","28":"CLOJ","29":"R","30":"D","31":"CAML","32":"FORT","33":"ASM","34":"swift","35":"FS","36":"WSPC","37":"LISP clisp","38":"SQL","39":"SCM guile","40":"PERL6","41":"ERL","42":"CLPS","43":"ICK","44":"NICE","45":"PRLG","46":"ICON","47":"COB","48":"SCM chicken","49":"PIKE","50":"SCM qobi","51":"ST","52":"SQLQ","53":"NEM"},"max_timelimit":"1 - 1.5","source_sizelimit":50000,"problem_author":"daanish_adm","problem_tester":"","date_added":"30-07-2021","tags":{"0":"aug21","1":"daanish_adm","2":"medium","3":"number","4":"segment"},"problem_difficulty_level":"Unavailable","best_tag":"Number Theory","editorial_url":"https://discuss.codechef.com/problems/ALTLG","time":{"view_start_date":1629117000,"submit_start_date":1629117000,"visible_start_date":1629117000,"end_date":1735669800},"is_direct_submittable":false,"problemDiscussURL":"https://discuss.codechef.com/search?q=ALTLG","is_proctored":false,"visitedContests":{},"layout":"problem"}
+---
+### Read problem statements in [Bengali](https://www.codechef.com/download/translated/AUG21/bengali/ALTLG.pdf), [Mandarin Chinese](https://www.codechef.com/download/translated/AUG21/mandarin/ALTLG.pdf), [Russian](https://www.codechef.com/download/translated/AUG21/russian/ALTLG.pdf), and [Vietnamese](https://www.codechef.com/download/translated/AUG21/vietnamese/ALTLG.pdf) as well.
+
+You are given an array $A$ consisting of $N$ integers. You have to answer $Q$ queries of the following two types:
+
+- $1$ $L$ $R$ $(R > L)$ which asks you to find $\gcd(A_L, lcm(A_{L + 1}, \gcd(A_{L + 2}, ... , ((R - L) \bmod 2 == 1 ? $ $\gcd(A_{R - 1}, A_{R}) : lcm(A_{R - 1}, A_{R}))\ldots)))$.
+
+- $2$ $L$ $R$ $(R > L)$ which asks you to find the same as above but $lcm$ swapped with $\gcd$ and vice-versa.
+
+Here $lcm(a, b)$ and $\gcd(a, b)$ denotes the least common multiple and greatest common divisor of two integers $a$ and $b$ respectively.
+
+**Example:** Consider the array $A$ = $[2, 4, 8, 16, 32, 64]$.
+
+- Suppose a query is of the form $1$ $1$ $6$, so it asks you to find:
+$\gcd(2, lcm(4, \gcd(8, lcm(16, \gcd(32, 64)))))$. 
+
+- Suppose a query is of the form $2$ $1$ $5$, so it asks you to find:
+$lcm(2, \gcd(4, lcm(8, \gcd(16, 32))))$. 
+
+**Note:** Since input-output is large, prefer using fast input-output methods.
+<aside style='background: #f8f8f8;padding: 10px 15px;'><div>All submissions for this problem are available.</div></aside>

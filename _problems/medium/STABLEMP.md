@@ -1,28 +1,14 @@
 ---
-languages_supported:
-    - NA
-title: STABLEMP
-category: NA
-old_version: true
-problem_code: STABLEMP
-tags:
-    - NA
-layout: problem
+{"languages_supported":{"0":"NA"},"title":"STABLEMP","category":"NA","old_version":true,"problem_code":"STABLEMP","tags":{"0":"NA"},"layout":"problem"}
 ---
-###  All submissions for this problem are available. 
 
-There are given *n* men and *n* women. Each woman ranks all men in order of her preference (her first choice, her second choice, and so on). Similarly, each man sorts all women according to his preference. The goal is to arrange *n* marriages in such a way that if a man *m* prefers some woman *w* more than his wife, and *w* prefers *m* more then her husband a new marriage occurs between *w* and *m*. If *w* prefers her husband more, then she stays married to him. This problem always has a solution and your task is to find one.
-
-### Input
-
-The first line contains a positive integer *t*&lt;=100 indicating the number of test cases. Each test case is an instance of the stable marriage problem defined above. The first line of each test case is a positive integer *n*&lt;=500 (the number of marriages to find). The next *n* lines are the woman's preferences: *i*th line contains the number *i* (which means that this is the list given by the *i*th woman) and the numbers of men (the first choice of *i*th woman, the second choice,...). Then, the men's preferences follow in the same format.
-
-### Output
-
-For each test case print *n* lines, where each line contains two numbers *m* and *w*, which means that the man number *m* and the woman number *w* should get married.
-
-### Example
-
+<h3> All submissions for this problem are available. </h3>
+<p>There are given <i>n</i> men and <i>n</i> women. Each woman ranks all men in order of her preference (her first choice, her second choice, and so on). Similarly, each man sorts all women according to his preference. The goal is to arrange <i>n</i> marriages in such a way that if a man <i>m</i> prefers some woman <i>w</i> more than his wife, and <i>w</i> prefers <i>m</i> more then her husband a new marriage occurs between <i>w</i> and <i>m</i>.  If <i>w</i> prefers her husband more, then she stays married to him.  This problem always has a solution and your task is to find one.</p>
+<h3>Input</h3>
+<p>The first line contains a positive integer <i>t</i>&lt;=100 indicating the number of test cases. Each test case is an instance of the stable marriage problem defined above. The first line of each test case is a positive integer <i>n</i>&lt;=500 (the number of marriages to find). The next <i>n</i> lines are the woman's preferences: <i>i</i>th line contains the number <i>i</i> (which means that this is the list given by the <i>i</i>th woman) and the numbers of men (the first choice of <i>i</i>th woman, the second choice,...). Then, the men's preferences follow in the same format.</p>
+<h3>Output</h3>
+<p>For each test case print <i>n</i> lines, where each line contains two numbers <i>m</i> and <i>w</i>, which means that the man number <i>m</i> and the woman number <i>w</i> should get married.</p>
+<h3>Example</h3>
 <pre><b>Input:</b>
 2
 4
@@ -65,5 +51,5 @@ For each test case print *n* lines, where each line contains two numbers *m* and
 6 6
 7 2
 
-</pre>
-**Warning: large Input/Output data, be careful with certain languages**
+</pre><p><b>Warning: large Input/Output data, be careful with certain languages</b></p>
+    

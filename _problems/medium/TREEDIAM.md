@@ -1,126 +1,54 @@
 ---
-category_name: medium
-problem_code: TREEDIAM
-problem_name: 'Product of Diameters'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYPY
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM chicken'
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '1'
-source_sizelimit: '50000'
-problem_author: xcwgf666
-problem_tester: harshil7924
-date_added: 6-08-2016
-tags:
-    - lca
-    - ltime39
-    - medium
-    - tree
-    - union
-    - xcwgf666
-editorial_url: 'http://discuss.codechef.com/problems/TREEDIAM'
-time:
-    view_start_date: 1472317200
-    submit_start_date: 1472317200
-    visible_start_date: 1472317200
-    end_date: 1735669800
-    current: 1493557949
-layout: problem
+{"category_name":"medium","problem_code":"TREEDIAM","problem_name":"Product of Diameters","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYPY","37":"PYTH","38":"PYTH 3.4","39":"RUBY","40":"SCALA","41":"SCM chicken","42":"SCM guile","43":"SCM qobi","44":"ST","45":"TCL","46":"TEXT","47":"WSPC"},"max_timelimit":1,"source_sizelimit":50000,"problem_author":"xcwgf666","problem_tester":"harshil7924","date_added":"6-08-2016","tags":{"0":"lca","1":"ltime39","2":"medium","3":"tree","4":"union","5":"xcwgf666"},"editorial_url":"http://discuss.codechef.com/problems/TREEDIAM","time":{"view_start_date":1472317200,"submit_start_date":1472317200,"visible_start_date":1472317200,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/LTIME39/mandarin/TREEDIAM.pdf), [Russian](http://www.codechef.com/download/translated/LTIME39/russian/TREEDIAM.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME39/vietnamese/TREEDIAM.pdf) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3> Read problems statements in <a target="_blank" href="http://www.codechef.com/download/translated/LTIME39/mandarin/TREEDIAM.pdf">Mandarin Chinese</a>, <a target="_blank" href="http://www.codechef.com/download/translated/LTIME39/russian/TREEDIAM.pdf">Russian</a> and <a target="_blank" href="http://www.codechef.com/download/translated/LTIME39/vietnamese/TREEDIAM.pdf">Vietnamese</a> as well.</h3>
 
-Chef had a tree **T** with weighted nodes.
 
-One day he decided that he wants to have two trees instead of one. So, he removed one of the edges of **T**.
+<p>Chef had a tree <b>T</b> with weighted nodes.</p>
 
-The next day, he decided to have three trees instead of two. So, he removed one more edge from some of the trees he had.
+<p>One day he decided that he wants to have two trees instead of one. So, he removed one of the edges of <b>T</b>.</p>
 
-And so on. Every day, Chef was removing one, not yet removed edge, util he once got a forest, consisting of **N** single-node trees.
+<p>The next day, he decided to have three trees instead of two. So, he removed one more edge from some of the trees he had.</p>
 
-Chef thinks that the main characteristic of a tree is its' diameter. So he asks you to calculate the product of the diameters in obtained set of trees.
+<p>And so on. Every day, Chef was removing one, not yet removed edge, util he once got a forest, consisting of <b>N</b> single-node trees.</p>
 
-Since the overall product might be quite large, output it modulo **109+7**.
+<p>Chef thinks that the main characteristic of a tree is its' diameter. So he asks you to calculate the product of the diameters in obtained set of trees.</p>
 
-### Note
+<p>Since the overall product might be quite large, output it modulo <b>10<sup>9</sup>+7</b>.</p>
 
-In this problem, we consider the diameter of the tree as the maximum sum of weights of the nodes over all simple paths in this tree.
+<h3>Note</h3>
 
-### Input
+<p>In this problem, we consider the diameter of the tree as the maximum sum of weights of the nodes over all simple paths in this tree.</p>
 
-The first line of the input contains an integer **N** denoting the number of nodes in the tree **T**.
+<h3>Input</h3>
+<p>The first line of the input contains an integer <b>N</b> denoting the number of nodes in the tree <b>T</b>.</p>
 
-The following line contains **N** space-separated integers **Wi**, denoting the weights of the nodes.
+<p>The following line contains <b>N</b> space-separated integers <b>W<sub>i</sub></b>, denoting the weights of the nodes.</p>
 
-Each of the following **(N-1)** lines contain two space-separated integers **Xi Yi**.
+<p>Each of the following <b>(N-1)</b> lines contain two space-separated integers <b>X<sub>i</sub> Y<sub>i</sub></b>.</p>
 
-Each of the following **(N-1)** lines contain a single integer **Kj**, denoting the number of the edge that will be deleted on the **j**th day.
+<p>Each of the following <b>(N-1)</b> lines contain a single integer <b>K<sub>j</sub></b>, denoting the number of the edge that will be deleted on the <b>j</b><sup>th</sup> day.</p>
 
-### Output
+<h3>Output</h3>
+<p>Output <b>N</b> lines.</p>
+<p>On the <b>i</b><sup>th</sup> line, output the product of the diameters of all the trees after <b>(i-1)</b> days modulo <b>10<sup>9</sup>+7</b>. Formally, if <b>i > 1</b>, output the product of the diameters of the obtained trees after deleting the edges <b>K<sub>1</sub></b>, <b>K<sub>2</sub></b>, ..., <b>K<sub>i - 1</sub></b>, modulo <b>10<sup>9</sup>+7</b>, otherwise output the diameter of the initial tree.</p>
 
-Output **N** lines.
+<h3>Constraints</h3>
+<ul>
+<li><b>1</b> ≤ <b>N</b> ≤ <b>10<sup>5</sup></b></li>
+<li><b>1</b> ≤ <b>W<sub>i</sub></b> ≤ <b>10<sup>4</sup></b></li>
+<li><b>1</b> ≤ <b>X<sub>i</sub>, Y<sub>i</sub></b> ≤ <b>N</b></li>
+<li><b>K</b> is a permutation of the integers from the range <b>[1; N-1]</b>.</li>
+</ul>
 
-On the **i**th line, output the product of the diameters of all the trees after **(i-1)** days modulo **109+7**. Formally, if **i &gt; 1**, output the product of the diameters of the obtained trees after deleting the edges **K1**, **K2**, ..., **Ki - 1**, modulo **109+7**, otherwise output the diameter of the initial tree.
+<h3>Subtasks</h3>
+<ul>
+<li><b>Subtask #1 (16 points)</b>: <b>1</b> ≤ <b>N</b> ≤ <b>100</b></li>
+<li><b>Subtask #2 (24 points)</b>: <b>1</b> ≤ <b>N</b> ≤ <b>5000</b></li>
+<li><b>Subtask #3 (60 points)</b>: no additional constraints</li>
+</ul>
 
-### Constraints
-
-- **1** ≤ **N** ≤ **105**
-- **1** ≤ **Wi** ≤ **104**
-- **1** ≤ **Xi, Yi** ≤ **N**
-- **K** is a permutation of the integers from the range **\[1; N-1\]**.
-
-### Subtasks
-
-- **Subtask #1 (16 points)**: **1** ≤ **N** ≤ **100**
-- **Subtask #2 (24 points)**: **1** ≤ **N** ≤ **5000**
-- **Subtask #3 (60 points)**: no additional constraints
-
-### Example
-
+<h3>Example</h3>
 <pre><b>Input:</b>
 <tt>3
 1 2 3
@@ -134,10 +62,10 @@ On the **i**th line, output the product of the diameters of all the trees after 
 9
 6</tt>
 </pre>
-### Explanation
 
-The diameter of the initial tree is **6** (node **2** to node **1** to node **3**).
+<h3>Explanation</h3>
+<p>The diameter of the initial tree is <b>6</b> (node <b>2</b> to node <b>1</b> to node <b>3</b>).</p>
 
-After the first day (the deletion of the **2**nd edge, i.e. **1 3**), we get two trees, both with diameters 3.
+<p>After the first day (the deletion of the <b>2</b><sup>nd</sup> edge, i.e. <b>1 3</b>), we get two trees, both with diameters 3.</p>
 
-After the second day (the deletion of the **1**st edge, i.e. **1 2**), we get three trees with diameters **1**, **2**, **3**, and their product equals to **6**.
+<p>After the second day (the deletion of the <b>1</b><sup>st</sup> edge, i.e. <b>1 2</b>), we get three trees with diameters <b>1</b>, <b>2</b>, <b>3</b>, and their product equals to <b>6</b>.</p>

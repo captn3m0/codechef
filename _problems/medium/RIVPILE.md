@@ -1,103 +1,56 @@
 ---
-category_name: medium
-problem_code: RIVPILE
-problem_name: 'Across the River'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '6'
-source_sizelimit: '50000'
-problem_author: laycurse
-problem_tester: gamabunta
-date_added: 19-09-2011
-tags:
-    - dijkstra
-    - july13
-    - laycurse
-    - medium
-    - shortest
-editorial_url: 'http://discuss.codechef.com/problems/RIVPILE'
-time:
-    view_start_date: 1373880600
-    submit_start_date: 1373880600
-    visible_start_date: 1373880600
-    end_date: 1735669800
-    current: 1493557974
-layout: problem
+{"category_name":"medium","problem_code":"RIVPILE","problem_name":"Across the River","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYTH","37":"PYTH 3.4","38":"RUBY","39":"SCALA","40":"SCM guile","41":"SCM qobi","42":"ST","43":"TCL","44":"TEXT","45":"WSPC"},"max_timelimit":6,"source_sizelimit":50000,"problem_author":"laycurse","problem_tester":"gamabunta","date_added":"19-09-2011","tags":{"0":"dijkstra","1":"july13","2":"laycurse","3":"medium","4":"shortest"},"editorial_url":"http://discuss.codechef.com/problems/RIVPILE","time":{"view_start_date":1373880600,"submit_start_date":1373880600,"visible_start_date":1373880600,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.Chef Ciel would like to make a bridge on the river in order to purchase cooking ingredients more easily. The river is an infinitely long straight line with width **W**. To be more specific, the river is a set of the all points on **0 ≤ y ≤ W** in **xy**-plane.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><p>
+Chef Ciel would like to make a bridge on the river in order to purchase cooking ingredients more easily. The river is an infinitely long straight line with width <b>W</b>. To be more specific, the river is a set of the all points on <b>0 ≤ y ≤ W</b> in <b>xy</b>-plane.
+</p>
 
-There are **N** piles on the river, and **M** types of wooden disks are available. The location of the **k**-th pile is **(Xk, Yk)**. The **k**-th type of wooden disks has radius **Rk**, and its price is **Ck** per disk.
+<p>
+There are <b>N</b> piles on the river, and <b>M</b> types of wooden disks are available.
+The location of the <b>k</b>-th pile is <b>(X<sub>k</sub>, Y<sub>k</sub>)</b>.
+The <b>k</b>-th type of wooden disks has radius <b>R<sub>k</sub></b>, and its price is <b>C<sub>k</sub></b> per disk.
+</p>
 
-Ciel can buy wooden disks as many as she likes, and Ciel can put them on the river. For each wooden disk, its center must be one of the locations **(Xk, Yk)** of piles. Note that some part of wooden disks may be on the ground (**y &lt; 0**, **W &lt; y**) or other piles.
+<p>
+Ciel can buy wooden disks as many as she likes, and Ciel can put them on the river.
+For each wooden disk, its center must be one of the locations <b>(X<sub>k</sub>, Y<sub>k</sub>)</b> of piles.
+Note that some part of wooden disks may be on the ground (<b>y &lt; 0</b>, <b>W &lt; y</b>) or other piles.
+</p>
 
-Ciel can move only on **y = 0**, on **y = W**, and on wooden disks. What is the minimum cost to make it possible to move from **y = 0** to **y = W**.
+<p>
+Ciel can move only on <b>y = 0</b>, on <b>y = W</b>, and on wooden disks.
+What is the minimum cost to make it possible to move from <b>y = 0</b> to <b>y = W</b>.
+</p>
 
-### Input
 
-The first line contains an integer **T**, the number of test cases. Then **T** test cases follow. The first line for each test case has **3** space-sparated integers **N**, **M** and **W**. Next **N** lines has **2** space-separated integers **Xk** and **Yk**. Then next **M** lines has **2** space-separated integers **Rk** and **Ck**.
+<h3>Input</h3>
+<p>
+The first line contains an integer <b>T</b>, the number of test cases.
+Then <b>T</b> test cases follow.
+The first line for each test case has <b>3</b> space-sparated integers <b>N</b>, <b>M</b> and <b>W</b>.
+Next <b>N</b> lines has <b>2</b> space-separated integers <b>X<sub>k</sub></b> and <b>Y<sub>k</sub></b>.
+Then next <b>M</b> lines has <b>2</b> space-separated integers <b>R<sub>k</sub></b> and <b>C<sub>k</sub></b>.
+</p>
 
-### Output
+<h3>Output</h3>
+<p>
+For each test case, print the minimum cost to make it possible to move from <b>y = 0</b> to <b>y = W</b>.
+If it is impossible, print "impossible" without quotes.
+</p>
 
-For each test case, print the minimum cost to make it possible to move from **y = 0** to **y = W**. If it is impossible, print "impossible" without quotes.
+<h3>Constraints</h3>
+<p>
+<b>1 ≤ T ≤ 10</b><br />
+<b>1 ≤ N ≤ 250</b><br />
+<b>1 ≤ M ≤ 250</b><br />
+<b>2 ≤ W ≤ 1000000000 (10<sup>9</sup>)</b><br />
+<b>0 ≤ X<sub>k</sub> ≤ 1000000000 (10<sup>9</sup>)</b><br />
+<b>1 ≤ Y<sub>k</sub> &lt; W</b><br />
+<b>1 ≤ R<sub>k</sub> ≤ 1000000000 (10<sup>9</sup>)</b><br />
+<b>1 ≤ C<sub>k</sub> ≤ 1000000 (10<sup>6</sup>)</b><br />
+</p>
 
-### Constraints
-
-**1 ≤ T ≤ 10**
-**1 ≤ N ≤ 250**
-**1 ≤ M ≤ 250**
-**2 ≤ W ≤ 1000000000 (109)**
-**0 ≤ Xk ≤ 1000000000 (109)**
-**1 ≤ Yk &lt; W**
-**1 ≤ Rk ≤ 1000000000 (109)**
-**1 ≤ Ck ≤ 1000000 (106)**
-
-### Sample
-
+<h3>Sample</h3>
 <pre>
 <b>Input</b>
 3
@@ -143,8 +96,9 @@ For each test case, print the minimum cost to make it possible to move from **y 
 impossible
 
 </pre>
-### Explanation
 
+<h3>Explanation</h3>
+<p>
 The following figure indicates the optimal way for the first case.
-
-![](//www.codechef.com/download/RIVPILE.png)
+</p>
+<img src="//www.codechef.com/download/RIVPILE.png" width="515" height="257" />

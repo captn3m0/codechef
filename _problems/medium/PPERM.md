@@ -1,88 +1,19 @@
 ---
-category_name: medium
-problem_code: PPERM
-problem_name: 'Prime Permutations'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '5'
-source_sizelimit: '50000'
-problem_author: yellow_agony
-problem_tester: gamabunta
-date_added: 7-06-2012
-tags:
-    - cook26
-    - easy
-    - sieve
-    - yellow_agony
-editorial_url: 'http://discuss.codechef.com/problems/PPERM'
-time:
-    view_start_date: 1348428109
-    submit_start_date: 1348428109
-    visible_start_date: 1348427700
-    end_date: 1735669800
-    current: 1493557860
-layout: problem
+{"category_name":"medium","problem_code":"PPERM","problem_name":"Prime Permutations","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYTH","37":"PYTH 3.4","38":"RUBY","39":"SCALA","40":"SCM guile","41":"SCM qobi","42":"ST","43":"TCL","44":"TEXT","45":"WSPC"},"max_timelimit":5,"source_sizelimit":50000,"problem_author":"yellow_agony","problem_tester":"gamabunta","date_added":"7-06-2012","tags":{"0":"cook26","1":"easy","2":"sieve","3":"yellow_agony"},"editorial_url":"http://discuss.codechef.com/problems/PPERM","time":{"view_start_date":1348428109,"submit_start_date":1348428109,"visible_start_date":1348427700,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.A permutation of N **distinct** integers between 1 and N, both inclusive, is called a prime permutation of size N iff - for all i between 1 and N, the following condition holds:
+<span class="solution-visible-txt">All submissions for this problem are available.</span><p>A permutation of N <b>distinct</b> integers between 1 and N, both inclusive, is called a prime permutation of size N iff - for all i between 1 and N, the following condition holds:</p>
 
-The ith integer is the Xth smallest integer in the first i integers, where X is either 1 or a prime number.
+<p>The i<sup>th</sup> integer is the X<sup>th</sup> smallest integer in the first i integers, where X is either 1 or a prime number.</p>
 
-Your task is to find out how many prime permutations are there of size N.
+<p>Your task is to find out how many prime permutations are there of size N.</p>
 
-### Input
+<h3>Input</h3>
+<p>The first line contains a single integer T, denoting the number of test cases. Then T lines follow, each containing a single integer N.</p>
 
-The first line contains a single integer T, denoting the number of test cases. Then T lines follow, each containing a single integer N.
+<h3>Output</h3>
+<p>For each test case, output a single line containing the number of prime permutations of size N. Since the answers can be very large, output each answer modulo 1,000,000,007.</p>
 
-### Output
-
-For each test case, output a single line containing the number of prime permutations of size N. Since the answers can be very large, output each answer modulo 1,000,000,007.
-
-### Example
+<h3>Example</h3>
 
 <pre>
 <b>Input:</b>
@@ -98,10 +29,12 @@ For each test case, output a single line containing the number of prime permutat
 6
 18
 </pre>
-### Constraints:
 
-1 ≤ T ≤ 500,000
-1 ≤ N ≤ 5,000,000
+<h3>Constraints:</h3>
+<p>
+1 ≤ T ≤ 500,000<br />
+1 ≤ N ≤ 5,000,000<br />
 Each input file will not be larger than 4 MB (4,000,000,000 bytes) in size.
+</p>
 
-**WARNING!** Large I/O files. Use fast I/O methods.
+<p><b>WARNING!</b> Large I/O files. Use fast I/O methods.</p>

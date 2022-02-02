@@ -1,106 +1,41 @@
 ---
-category_name: medium
-problem_code: XORPATH
-problem_name: 'Xortest Path'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYPY
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM chicken'
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '1'
-source_sizelimit: '50000'
-problem_author: kevinsogo
-problem_tester: null
-date_added: 7-06-2016
-tags:
-    - kevinsogo
-time:
-    view_start_date: 1468063200
-    submit_start_date: 1468063200
-    visible_start_date: 1468063200
-    end_date: 1735669800
-    current: 1493557977
-layout: problem
+{"category_name":"medium","problem_code":"XORPATH","problem_name":"Xortest Path","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYPY","37":"PYTH","38":"PYTH 3.4","39":"RUBY","40":"SCALA","41":"SCM chicken","42":"SCM guile","43":"SCM qobi","44":"ST","45":"TCL","46":"TEXT","47":"WSPC"},"max_timelimit":1,"source_sizelimit":50000,"problem_author":"kevinsogo","problem_tester":null,"date_added":"7-06-2016","tags":{"0":"kevinsogo"},"time":{"view_start_date":1468063200,"submit_start_date":1468063200,"visible_start_date":1468063200,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/SNCKFL16/mandarin/XORPATH.pdf), [Russian](http://www.codechef.com/download/translated/SNCKFL16/russian/XORPATH.pdf) and [Vietnamese](http://www.codechef.com/download/translated/SNCKFL16/vietnamese/XORPATH.pdf) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3> Read problems statements in <a target="_blank" href="http://www.codechef.com/download/translated/SNCKFL16/mandarin/XORPATH.pdf">Mandarin Chinese</a>, <a target="_blank" href="http://www.codechef.com/download/translated/SNCKFL16/russian/XORPATH.pdf">Russian</a> and <a target="_blank" href="http://www.codechef.com/download/translated/SNCKFL16/vietnamese/XORPATH.pdf">Vietnamese</a> as well.</h3>
 
-Chef was practicing with some graph theory problems in CodeChef. He was trying to solve a problem involving finding the **shortest path** in a weighted, undirected graph. He thought it was quite standard, so he coded the solution and submitted it. Unfortunately it was judged “Wrong Answer”.
 
-Wanting to debug, Chef downloaded Peter Xor's accepted solution. He also made a test case, illustrated by the following image:
+<p>Chef was practicing with some graph theory problems in CodeChef. He was trying to solve a problem involving finding the <b>shortest path</b> in a weighted, undirected graph. He thought it was quite standard, so he coded the solution and submitted it. Unfortunately it was judged “Wrong Answer”.</p>
 
-![](https://s3.amazonaws.com/codechef_shared/download/upload/JULY16/XORPath.png)Now, what is the cost of the shortest path from 1 to 5? Chef thought that the answer should be **36 + 16 + 18 = 70**, because the other candidate path has a higher total cost of **36 + 50 + 11 + 18 = 115**. But he was surprised when Peter Xor's accepted solution outputted **15**! Chef was confused because he can't see any path with a total cost of **15**.
+<p>Wanting to debug, Chef downloaded Peter Xor's accepted solution. He also made a test case, illustrated by the following image:</p>
 
-After rereading the problem, Chef found his mistake. The problem's title was actually **Xortest path**, not **Shortest path**, so the problem was actually asking for the path between two given nodes with **the least possible XOR**! So in the example above, the answer is indeed **15**, because the path **1 → 2 → 3 → 4 → 5** has an XOR cost of **36 ⊕ 50 ⊕ 11 ⊕ 18 = 15**, and no other path has a lower XOR cost than this. In other words, this is the “xortest path”.
+<img src="https://s3.amazonaws.com/codechef_shared/download/upload/JULY16/XORPath.png" width="100%">
 
-Now that Chef knows his mistake, he still has a problem; he doesn't know how to answer this problem! Your task as his sous-chef is to answer this problem for him. Specifically, you have to answer **Q** queries, where each query is a pair of nodes, and the answer is the weight of the “xortest path” between them.
+<p>Now, what is the cost of the shortest path from 1 to 5? Chef thought that the answer should be <b>36 + 16 + 18 = 70</b>, because the other candidate path has a higher total cost of <b>36 + 50 + 11 + 18 = 115</b>. But he was surprised when Peter Xor's accepted solution outputted <b>15</b>! Chef was confused because he can't see any path with a total cost of <b>15</b>.</p>
 
-Note that in this problem, a **path** may pass through an edge or node any number of times. (Some authors would call such a path a **walk**.) For instance, in the example above, the path **1 → 2 → 4 → 3 → 2 → 4 → 5** is also a “xortest path”, because its XOR cost is **36 ⊕ 16 ⊕ 11 ⊕ 50 ⊕ 16 ⊕ 18 = 15**.
+<p>After rereading the problem, Chef found his mistake. The problem's title was actually <b>Xortest path</b>, not <b>Shortest path</b>, so the problem was actually asking for the path between two given nodes with <b>the least possible XOR</b>! So in the example above, the answer is indeed <b>15</b>, because the path <b>1 → 2 → 3 → 4 → 5</b> has an XOR cost of <b>36 ⊕ 50 ⊕ 11 ⊕ 18 = 15</b>, and no other path has a lower XOR cost than this. In other words, this is the “xortest path”.</p>
 
-### Input
+<p>Now that Chef knows his mistake, he still has a problem; he doesn't know how to answer this problem! Your task as his sous-chef is to answer this problem for him. Specifically, you have to answer <b>Q</b> queries, where each query is a pair of nodes, and the answer is the weight of the “xortest path” between them.</p>
 
-The first line of input contains three integers, **N**, **E** and **Q**. Nodes are labelled **1** to **N**.
+<p>Note that in this problem, a <b>path</b> may pass through an edge or node any number of times. (Some authors would call such a path a <b>walk</b>.) For instance, in the example above, the path <b>1 → 2 → 4 → 3 → 2 → 4 → 5</b> is also a “xortest path”, because its XOR cost is <b>36 ⊕ 16 ⊕ 11 ⊕ 50 ⊕ 16 ⊕ 18 = 15</b>.</p>
 
-The following **E** lines describe the edges. The **ith** line contains three integers **ai**, **bi** and **ci**, which means that there is an undirected edge between nodes **ai** and **bi** with weight **ci**.
+<h3>Input</h3>
+<p>The first line of input contains three integers, <b>N</b>, <b>E</b> and <b>Q</b>. Nodes are labelled <b>1</b> to <b>N</b>.</p>
+<p>The following <b>E</b> lines describe the edges. The <b>i<sup>th</sup></b> line contains three integers <b>a<sub>i</sub></b>, <b>b<sub>i</sub></b> and <b>c<sub>i</sub></b>, which means that there is an undirected edge between nodes <b>a<sub>i</sub></b> and <b>b<sub>i</sub></b> with weight <b>c<sub>i</sub></b>.</p>
+<p>The following <b>Q</b> lines describe the queries. The <b>j<sup>th</sup></b> line contains two integers <b>x<sub>j</sub></b> and <b>y<sub>j</sub></b>, which means that you need to find the “xortest path” between nodes <b>x<sub>j</sub></b> and <b>y<sub>j</sub></b>.</p>
 
-The following **Q** lines describe the queries. The **jth** line contains two integers **xj** and **yj**, which means that you need to find the “xortest path” between nodes **xj** and **yj**.
 
-### Output
+<h3>Output</h3>
+<p>Output <b>Q</b> lines, one for each query. The <b>j<sup>th</sup></b> line must contain a single integer, the weight of the xortest path between <b>x<sub>j</sub></b> and <b>y<sub>j</sub></b>. If there does not exist a path between these nodes, output “<tt>XIT</tt>” (without quotes) instead.</p>
 
-Output **Q** lines, one for each query. The **jth** line must contain a single integer, the weight of the xortest path between **xj** and **yj**. If there does not exist a path between these nodes, output “XIT” (without quotes) instead.
+<h3>Constraints</h3>
+<ul>
+<li><b>1</b> ≤ <b>N</b>, <b>E</b>, <b>Q</b> ≤ <b>10<sup>5</sup></b></li>
+<li><b>1</b> ≤ <b>a<sub>i</sub></b>, <b>b<sub>i</sub></b>, <b>x<sub>j</sub></b>, <b>y<sub>j</sub></b> ≤ <b>N</b></li>
+<li><b>0</b> ≤ <b>c<sub>i</sub></b> ≤ <b>10<sup>9</sup></b></li>
+<li>Parallel edges or self-loops may appear.</li>
+</ul>
 
-### Constraints
-
-- **1** ≤ **N**, **E**, **Q** ≤ **105**
-- **1** ≤ **ai**, **bi**, **xj**, **yj** ≤ **N**
-- 0 ≤ **ci** ≤ **109**
-- Parallel edges or self-loops may appear.
-
-### Example
-
+<h3>Example</h3>
 <pre><b>Input:</b>
 <tt>7 7 5
 1 2 36
@@ -123,6 +58,6 @@ Output **Q** lines, one for each query. The **jth** line must contain a single i
 0
 XIT</tt>
 </pre>
-### Explanation
 
-The sample input is illustrated by the image above.
+<h3>Explanation</h3>
+<p>The sample input is illustrated by the image above.</p>

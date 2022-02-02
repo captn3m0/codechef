@@ -1,121 +1,48 @@
 ---
-category_name: medium
-problem_code: MOU2H
-problem_name: 'Mountain Holidays 2'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '0.5'
-source_sizelimit: '50000'
-problem_author: 'witalij_hq '
-problem_tester: null
-date_added: 30-03-2013
-tags:
-    - aug14
-    - dynamic
-    - medium
-    - witalij_hq
-editorial_url: 'http://discuss.codechef.com/problems/MOU2H'
-time:
-    view_start_date: 1407749400
-    submit_start_date: 1407749400
-    visible_start_date: 1407749400
-    end_date: 1735669800
-    current: 1493557807
-layout: problem
+{"category_name":"medium","problem_code":"MOU2H","problem_name":"Mountain Holidays 2","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYTH","37":"PYTH 3.4","38":"RUBY","39":"SCALA","40":"SCM guile","41":"SCM qobi","42":"ST","43":"TCL","44":"TEXT","45":"WSPC"},"max_timelimit":0.5,"source_sizelimit":50000,"problem_author":"witalij_hq ","problem_tester":null,"date_added":"30-03-2013","tags":{"0":"aug14","1":"dynamic","2":"medium","3":"witalij_hq"},"editorial_url":"http://discuss.codechef.com/problems/MOU2H","time":{"view_start_date":1407749400,"submit_start_date":1407749400,"visible_start_date":1407749400,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/AUG14/mandarin/MOU2H.pdf) and [Russian](http://www.codechef.com/download/translated/AUG14/russian/MOU2H.pdf).
-
-Let’s remember the problem *Mountain holidays* ([MOU1H](http://www.codechef.com/JULY13/problems/MOU1H)). The story of *Mountain holidays* is the following. Some time ago, Chef discovered that more and more people have started climbing mountains every day. So he decided to build a restaurant in the Ukrainian resort Bukovel (Carpathian Mountains). But there are many places to choose, so he wants to choose the best one.
-
-By your great helps, Chef could find to the best place to build a restaurant, now Chef becomes rich. Now he wants to build a restaurant in the next mountain. Similar to previous one, the next mountain is described by a sequence of **N** points. Here the points are numbered from **1** to **N**, and the height of point **k** is denoted by **Hk**. Every two adjacent points of the mountain are connected by a segment.
-
-For example, the mountain described by **N = 9, H = \[0, 2, 1, 2, 1, 3, 0, 1, 0\]**  is like a following:
-
-<pre>
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3> Read problems statements in <a target="_blank" href="http://www.codechef.com/download/translated/AUG14/mandarin/MOU2H.pdf">Mandarin Chinese </a> and <a target="_blank" href="http://www.codechef.com/download/translated/AUG14/russian/MOU2H.pdf">Russian</a>.</h3>
+<p>Let’s remember the problem <i>Mountain holidays</i> (<a href="http://www.codechef.com/JULY13/problems/MOU1H">MOU1H</a>). The story of <i>Mountain holidays</i> is the following. Some time ago, Chef discovered that more and more people have started climbing mountains every day. So he decided to build a restaurant in the Ukrainian resort Bukovel (Carpathian Mountains). But there are many places to choose, so he wants to choose the best one.</p>
+<p>By your great helps, Chef could find to the best place to build a restaurant, now Chef becomes rich. Now he wants to build a restaurant in the next mountain. Similar to previous one, the next mountain is described by a sequence of <b>N</b> points. Here the points are numbered from <b>1</b> to <b>N</b>, and the height of point <b>k</b> is denoted by <b>H<sub>k</sub></b>. Every two adjacent points of the mountain are connected by a segment.
+</p>
+<p>
+For example, the mountain described by <b>N = 9, H = [0, 2, 1, 2, 1, 3, 0, 1, 0] </b> is like a following:
+</p>
+<p><pre>
        /\
   /\/\/  \
  /        \/\
-</pre>
- In the mountain, all of the tourists will go from the point **1** to point **N**.
+</pre></p>
+<p> In the mountain, all of the tourists will go from the point <b>1</b> to point <b>N</b>.
+</p>
+<p>
+For comfort of the tourists, Chef has bought teleports too. Using a teleport, a tourist can be transferred from point <b>i</b> to point <b>j</b>, for all <b>i</b> &lt; <b>j</b>. Of course, tourists can also walk from point <b>i</b> to point <b>i+1</b> on foot.
+</p>
+<p>
+Now Chef  wants to calculate the attractiveness of the mountain, as the number of the different climbs. </p>
+<p>A climb is defined by the <i>nonempty</i> sequence <b>(p<sub>1</sub>, p<sub>1</sub>+1), (p<sub>2</sub>, p<sub>2</sub>+1), ..., (p<sub>s</sub>, p<sub>s</sub>+1)</b> of the moves <b> on foot </b>, where <b>p<sub>k</sub>+1 ≤ p<sub>k+1</sub></b> for <b>k = 1, 2, ..., s − 1</b>.
+</p>
+<p>Two climbs, say <b>(p<sub>1</sub>, p<sub>1</sub>+1), (p<sub>2</sub>, p<sub>2</sub>+1), ..., (p<sub>s</sub>, p<sub>s</sub>+1)</b> and <b>(q<sub>1</sub>, q<sub>1</sub>+1), (q<sub>2</sub>, q<sub>2</sub>+1), ..., (q<sub>t</sub>, q<sub>t</sub>+1)</b> are different if and only if</p>
+<ul>
+<li><b>s ≠ t</b> or</li>
+<li>There exists at least one <b>k</b> such that <b>1 ≤ k &lt; min(s, t)</b> and <b>H<sub>p<sub>k</sub>+1</sub> – H<sub>p<sub>k</sub></sub> ≠ H<sub>q<sub>k</sub>+1</sub> – H<sub>q<sub>k</sub></sub></b>.</li>
+</ul>
 
-For comfort of the tourists, Chef has bought teleports too. Using a teleport, a tourist can be transferred from point **i** to point **j**, for all **i** &lt; **j**. Of course, tourists can also walk from point **i** to point **i+1** on foot.
-
-Now Chef wants to calculate the attractiveness of the mountain, as the number of the different climbs.
-
-A climb is defined by the *nonempty* sequence **(p1, p1+1), (p2, p2+1), ..., (ps, ps+1)** of the moves  **on foot** , where **pk+1 ≤ pk+1** for **k = 1, 2, ..., s − 1**.
-
-Two climbs, say **(p1, p1+1), (p2, p2+1), ..., (ps, ps+1)** and **(q1, q1+1), (q2, q2+1), ..., (qt, qt+1)** are different if and only if
-
-- **s ≠ t** or
-- There exists at least one **k** such that **1 ≤ k &lt; min(s, t)** and **Hpk+1 – Hpk ≠ Hqk+1 – Hqk**.
-
-You are given the array **H**, find the number of the different climbs that exist on the mountain. Since the answer can be very large, output it modulo **109+9 = 1000000009**.
-
-### Input
-
-The first line of input contains **T**, denoting the number of test cases. Then **T** test cases follow.
-
-The first line of each test case contains an integer **N**, denoting the number of points on the mountain.
-On second line of each test case, there are **N** space-separated integers **H1, H2, ..., HN**, denoting the height of each point.
-
-### Output
-
-For each test case, output an integer denoting the number of the different climbs modulo **109+9 = 1000000009**.
-
-### Constraints
-
-- **1 ≤ T ≤ 100000**, that is, **1 ≤ T ≤ 105**
-- **2 ≤ N ≤ 1000000**, that is, **2 ≤ N ≤ 106**
-- Sum of **N** over all test cases in one file will be at most **1000000 = 106**
-- **-2000000 ≤ Hk ≤ 2000000**, that is, **−2 × 106 ≤ Hk ≤ 2 × 106**
-
-### Sample
-
+<p>You are given the array <b>H</b>, find the number of the different climbs that exist on the mountain. Since the answer can be very large, output it modulo <b>10<sup>9</sup>+9 = 1000000009</b>.</p>
+<h3>Input</h3>
+<p>The first line of input contains <b>T</b>, denoting the number of test cases. Then <b>T</b> test cases follow.</p>
+<p>The first line of each test case contains an integer <b>N</b>, denoting the number of points on the mountain.<br />
+On second line of each test case, there are <b>N</b> space-separated integers <b>H<sub>1</sub>, H<sub>2</sub>, ..., H<sub>N</sub></b>, denoting the height of each point.</p>
+<h3>Output</h3>
+<p>For each test case, output an integer denoting the number of the different climbs modulo <b>10<sup>9</sup>+9 = 1000000009</b>.</p>
+<h3>Constraints</h3>
+<ul>
+<li><b>1 ≤ T ≤ 100000</b>, that is, <b>1 ≤ T ≤ 10<sup>5</sup></b></li>
+<li><b>2 ≤ N ≤ 1000000</b>, that is, <b>2 ≤ N ≤ 10<sup>6</sup></b></li>
+<li>Sum of <b>N</b> over all test cases in one file will be at most <b>1000000 = 10<sup>6</sup></b></li>
+<li><b>-2000000 ≤ H<sub>k</sub> ≤ 2000000</b>, that is, <b>−2 × 10<sup>6</sup> ≤ H<sub>k</sub> ≤ 2 × 10<sup>6</sup></b></li>
+</ul>
+<h3>Sample</h3>
 <pre>
 <b>Input</b>
 3
@@ -130,19 +57,16 @@ For each test case, output an integer denoting the number of the different climb
 5
 199
 55
-</pre>
-### Explanation
+</pre><h3>Explanation</h3>
+<p>In the first test case, since height increases by one for each move on foot, there will be one unique climb for each length. So there are <b>5</b> climbs with length <b>1, 2, ..., 5</b>. Here length means the number of moves by foot.</p>
+<p>We can get  the following <b>5</b> distinct climbs. </p>
+<ul>
+<li><b>(1, 2)</b></li>
+<li><b>(1, 2), (2, 3)</b></li>
+<li><b>(1, 2), (2, 3), (3, 4)</b></li>
+<li><b>(1, 2), (2, 3), (3, 4), (4, 5)</b></li>
+<li><b>(1, 2), (2, 3), (3, 4), (4, 5), (5, 6)</b></li>
+</ul>
 
-In the first test case, since height increases by one for each move on foot, there will be one unique climb for each length. So there are **5** climbs with length **1, 2, ..., 5**. Here length means the number of moves by foot.
-
-We can get the following **5** distinct climbs.
-
-- **(1, 2)**
-- **(1, 2), (2, 3)**
-- **(1, 2), (2, 3), (3, 4)**
-- **(1, 2), (2, 3), (3, 4), (4, 5)**
-- **(1, 2), (2, 3), (3, 4), (4, 5), (5, 6)**
-
-The second test case is taken from the problem statement.
-
-*Warning*: The input and output can be large. Please don't use a slow input/output method.
+<p>The second test case is taken from the problem statement.</p>
+<p><i>Warning</i>: The input and output can be large. Please don't use a slow input/output method.</p>

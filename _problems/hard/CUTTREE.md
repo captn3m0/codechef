@@ -1,112 +1,49 @@
 ---
-category_name: hard
-problem_code: CUTTREE
-problem_name: 'Chef Cuts Tree'
-languages_supported:
-    - C
-    - CPP14
-    - JAVA
-    - PYTH
-    - 'PYTH 3.5'
-    - PYPY
-    - CS2
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - RUBY
-    - PHP
-    - GO
-    - NODEJS
-    - HASK
-    - rust
-    - SCALA
-    - swift
-    - D
-    - PERL
-    - FORT
-    - WSPC
-    - ADA
-    - CAML
-    - ICK
-    - BF
-    - ASM
-    - CLPS
-    - PRLG
-    - ICON
-    - 'SCM qobi'
-    - PIKE
-    - ST
-    - NICE
-    - LUA
-    - BASH
-    - NEM
-    - 'LISP sbcl'
-    - 'LISP clisp'
-    - 'SCM guile'
-    - JS
-    - ERL
-    - TCL
-    - kotlin
-    - PERL6
-    - TEXT
-    - 'SCM chicken'
-    - CLOJ
-    - COB
-    - FS
-max_timelimit: '2'
-source_sizelimit: '50000'
-problem_author: jtnydv25
-problem_tester: null
-date_added: 31-12-2017
-tags:
-    - centroid
-    - expected
-    - fft
-    - hard
-    - jtnydv25
-    - march18
-    - probability
-editorial_url: 'https://discuss.codechef.com/problems/CUTTREE'
-time:
-    view_start_date: 1520847000
-    submit_start_date: 1520847000
-    visible_start_date: 1520847000
-    end_date: 1735669800
-    current: 1525454451
-is_direct_submittable: false
-layout: problem
+{"category_name":"hard","problem_code":"CUTTREE","problem_name":"Chef Cuts Tree","languages_supported":{"0":"C","1":"CPP14","2":"JAVA","3":"PYTH","4":"PYTH 3.5","5":"PYPY","6":"CS2","7":"PAS fpc","8":"PAS gpc","9":"RUBY","10":"PHP","11":"GO","12":"NODEJS","13":"HASK","14":"rust","15":"SCALA","16":"swift","17":"D","18":"PERL","19":"FORT","20":"WSPC","21":"ADA","22":"CAML","23":"ICK","24":"BF","25":"ASM","26":"CLPS","27":"PRLG","28":"ICON","29":"SCM qobi","30":"PIKE","31":"ST","32":"NICE","33":"LUA","34":"BASH","35":"NEM","36":"LISP sbcl","37":"LISP clisp","38":"SCM guile","39":"JS","40":"ERL","41":"TCL","42":"kotlin","43":"PERL6","44":"TEXT","45":"SCM chicken","46":"CLOJ","47":"COB","48":"FS"},"max_timelimit":2,"source_sizelimit":50000,"problem_author":"jtnydv25","problem_tester":null,"date_added":"31-12-2017","tags":{"0":"centroid","1":"expected","2":"fft","3":"hard","4":"jtnydv25","5":"march18","6":"probability"},"editorial_url":"https://discuss.codechef.com/problems/CUTTREE","time":{"view_start_date":1520847000,"submit_start_date":1520847000,"visible_start_date":1520847000,"end_date":1735669800},"is_direct_submittable":false,"layout":"problem"}
 ---
-All submissions for this problem are available.### Read problems statements in [Mandarin chinese](http://www.codechef.com/download/translated/MARCH18/mandarin/CUTTREE.pdf), [Russian](http://www.codechef.com/download/translated/MARCH18/russian/CUTTREE.pdf) and [Vietnamese](http://www.codechef.com/download/translated/MARCH18/vietnamese/CUTTREE.pdf) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3>Read problems statements in <a target="_blank" 
+href="http://www.codechef.com/download/translated/MARCH18/mandarin/CUTTREE.pdf">Mandarin chinese</a>, <a target="_blank" 
+href="http://www.codechef.com/download/translated/MARCH18/russian/CUTTREE.pdf">Russian</a> and <a target="_blank" 
+href="http://www.codechef.com/download/translated/MARCH18/vietnamese/CUTTREE.pdf">Vietnamese</a> as well.</h3>
 
-A forest is an undirected acyclic graph. Let us define the *strength* of a forest as the sum of squares of sizes of its connected components. (Clearly, a tree with **n** nodes has strength **n2**.)
+<p>
+A forest is an undirected acyclic graph. Let us define the <i>strength</i> of a forest as the sum of squares of sizes of its connected components. (Clearly, a tree with <b>n</b> nodes has strength <b>n<sup>2</sup></b>.)</p> 
 
-Chef has found a tree with **N** nodes on day 0. On each of the next **N-1** days, he's going to remove one edge. Let's denote the forest that remains after **i** days by **Fi**, for each 1 ≤ **i** ≤ **N-1**; also, let's denote the original tree by **F0**. On day **i**, **Fi** is created by randomly uniformly choosing one edge from **Fi-1** and removing it.
+<p>
+Chef has found a tree with <b>N</b> nodes on day 0. On each of the next <b>N-1</b> days, he's going to remove one edge. Let's denote the forest that remains after <b>i</b> days by <b>F<sub>i</sub></b>, for each 1 ≤ <b>i</b> ≤ <b>N-1</b>; also, let's denote the original tree by <b>F<sub>0</sub></b>. On day <b>i</b>, <b>F<sub>i</sub></b> is created by randomly uniformly choosing one edge from <b>F<sub>i-1</sub></b> and removing it.
+</p>
 
-Let **Ei** be the expected value of strength of the forest **Fi**, for each 0 ≤ **i** ≤ **N-1**. It can be proven that this number can be written in the form **Pi** / **Qi**, where **gcd**(**Pi**, **Qi**) = 1 and **gcd**(**Qi**, 109 + 7) = 1. Let **Ri** = **Pi** · **Qi-1** mod 109 + 7, where **Qi-1** denotes the modular inverse of **Qi** modulo 109 + 7.
+<p>
+Let <b>E<sub>i</sub></b> be the expected value of strength of the forest <b>F<sub>i</sub></b>, for each 0 ≤ <b>i</b> ≤ <b>N-1</b>. It can be proven that this number can be written in the form <b>P<sub>i</sub></b> / <b>Q<sub>i</sub></b>, where <b>gcd</b>(<b>P<sub>i</sub></b>, <b>Q<sub>i</sub></b>)</b> = 1 and <b>gcd</b>(<b>Q<sub>i</sub></b>, 10<sup>9</sup> + 7) = 1. Let <b>R<sub>i</sub></b> = <b>P<sub>i</sub></b> · <b>Q<sub>i</sub><sup>-1</sup></b> mod 10<sup>9</sup> + 7, where <b>Q<sub>i</sub><sup>-1</sup></b> denotes the modular inverse of <b>Q<sub>i</sub></b> modulo 10<sup>9</sup> + 7.
+</p>
 
-Find the values of **R0, R1, ..., RN-1**.
+<p>
+Find the values of <b>R<sub>0</sub>, R<sub>1</sub>, ..., R<sub>N-1</sub></b>.
+</p>
 
-### Input
+<h3>Input</h3>
+<ul>
+<li>The first line of the input contains a single integer <b>N</b> — the number of nodes in the tree.</li>
+<li><b>N-1</b> lines follow. Each of these lines contains two space-separated integers <b>u</b> and <b>v</b> denoting an edge between nodes <b>u</b> and <b>v</b> in the tree.</li>
+</ul>
 
-- The first line of the input contains a single integer **N** — the number of nodes in the tree.
-- **N-1** lines follow. Each of these lines contains two space-separated integers **u** and **v** denoting an edge between nodes **u** and **v** in the tree.
+<h3>Output</h3>
+<p>
+Print a single line containing <b>N</b> space-separated integers <b>R<sub>0</sub>, R<sub>1</sub>, ..., R<sub>N-1</sub></b>.
+</p>
 
-### Output
+<h3>Constraints</h3>
+<ul>
+<li> 1 ≤ <b>N</b> ≤ 10<sup>5<sup> </li>
+<li> 1 ≤ <b>u</b>, <b>v</b> ≤ <b>N</b> </li>
+</ul>
 
-Print a single line containing **N** space-separated integers **R0, R1, ..., RN-1**.
+<h3>Subtasks</h3>
+<p><b>Subtask #1 (25 points):</b> 1 ≤ <b>N</b> ≤ 10<sup>3</sup></p>
 
-### Constraints
+<p><b>Subtask #2 (75 points):</b> original constraints</p>
 
-- 1 ≤ **N** ≤ 105
-- 1 ≤ **u**, **v** ≤ **N**
-
-### Subtasks
-
-**Subtask #1 (25 points):** 1 ≤ **N** ≤ 103
-
-**Subtask #2 (75 points):** original constraints
-
-### Example
-
+<h3>Example</h3>
 <pre><b>Input:</b>
 
 5

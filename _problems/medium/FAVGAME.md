@@ -1,128 +1,58 @@
 ---
-category_name: medium
-problem_code: FAVGAME
-problem_name: 'Completing favorite game'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYPY
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM chicken'
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '1'
-source_sizelimit: '50000'
-problem_author: alex_2oo8
-problem_tester: xcwgf666
-date_added: 26-08-2016
-tags:
-    - alex_2oo8
-    - dfs
-    - dp
-    - dynamic
-    - march17
-    - medium
-    - tree
-editorial_url: 'https://discuss.codechef.com/problems/FAVGAME'
-time:
-    view_start_date: 1489397400
-    submit_start_date: 1489397400
-    visible_start_date: 1489397400
-    end_date: 1735669800
-    current: 1493557649
-layout: problem
+{"category_name":"medium","problem_code":"FAVGAME","problem_name":"Completing favorite game","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYPY","37":"PYTH","38":"PYTH 3.4","39":"RUBY","40":"SCALA","41":"SCM chicken","42":"SCM guile","43":"SCM qobi","44":"ST","45":"TCL","46":"TEXT","47":"WSPC"},"max_timelimit":1,"source_sizelimit":50000,"problem_author":"alex_2oo8","problem_tester":"xcwgf666","date_added":"26-08-2016","tags":{"0":"alex_2oo8","1":"dfs","2":"dp","3":"dynamic","4":"march17","5":"medium","6":"tree"},"editorial_url":"https://discuss.codechef.com/problems/FAVGAME","time":{"view_start_date":1489397400,"submit_start_date":1489397400,"visible_start_date":1489397400,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MARCH17/mandarin/FAVGAME.pdf?v=1), [Russian](http://www.codechef.com/download/translated/MARCH17/russian/FAVGAME.pdf?v=1) and [Vietnamese](http://www.codechef.com/download/translated/MARCH17/vietnamese/FAVGAME.pdf?v=1) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3> Read problems statements in <a target="_blank" href="http://www.codechef.com/download/translated/MARCH17/mandarin/FAVGAME.pdf?v=1">Mandarin Chinese</a>, <a target="_blank" href="http://www.codechef.com/download/translated/MARCH17/russian/FAVGAME.pdf?v=1">Russian</a> and <a target="_blank" href="http://www.codechef.com/download/translated/MARCH17/vietnamese/FAVGAME.pdf?v=1">Vietnamese</a> as well.</h3>
 
-Chef has a nice job. Actually he doesn't even remember what he is supposed to do there, because he just plays video-games all the time, exactly **h** hours every working day!
+<p>Chef has a nice job. Actually he doesn't even remember what he is supposed to do there, because he just plays video-games all the time, exactly <b>h</b> hours every working day!</p>
 
-Recently he got bored of just randomly playing video-games and decided to complete all the levels of his favorite Game as fast as possible.
+<p>Recently he got bored of just randomly playing video-games and decided to complete all the levels of his favorite Game as fast as possible.</p>
 
-The Game consists of **n** levels numbered with integers from **1** to **n**. After completing every level, some **small** number of new levels is unlocked. The structure of the Game levels is a tree with the root in level **1**, i.e. every level (except for **1**) has a unique level that unlocks it and level **1** is the only level that is considered unlocked at the very beginning. Chef has completed his favorite Game lots of times, so he knows that he needs exactly **ti** hours to complete level **i**. Due to specifics of the Game every level should be completed entirely within one working day, i.e. Chef **cannot** start a level on Thursday, and finish it Friday morning.
+<p>The Game consists of <b>n</b> levels numbered with integers from <b>1</b> to <b>n</b>. After completing every level, some <b>small</b> number of new levels is unlocked. The structure of the Game levels is a tree with the root in level <b>1</b>, i.e. every level (except for <b>1</b>) has a unique level that unlocks it and level <b>1</b> is the only level that is considered unlocked at the very beginning. Chef has completed his favorite Game lots of times, so he knows that he needs exactly <b>t<sub>i</sub></b> hours to complete level <b>i</b>. Due to specifics of the Game every level should be completed entirely within one working day, i.e. Chef <b>cannot</b> start a level on Thursday, and finish it Friday morning.</p>
 
-Overall the game-play proceeds as follows:
+<p>Overall the game-play proceeds as follows:</p>
+<ol>
+    <li>There is a stack <b>S</b> that initially contains only the level <b>1</b></li>
+    <li>Chef pops the topmost level out of the stack. Let's call this level <b>x</b></li>
+    <li>Chef spends <b>t<sub>x</sub></b> hours to complete level <b>x</b>. Note that he doesn't want to stay at work longer than for <b>h</b> hours, so if there is not enough time left today Chef will complete level <b>x</b> the next working day morning.</li>
+    <li>After completing level <b>x</b> some <b>m<sub>x</sub></b> new levels get unlocked</li>
+    <li>Chef places all the <b>m<sub>x</sub></b> unlocked levels on the top of the stack <b>S</b> in an arbitrary order, i.e. he is free to choose any order he likes</li>
+    <li>If stack <b>S</b> is empty, the Game is considered completed, otherwise Chef goes back to the step <b>2</b></li>
+</ol>
 
-1. There is a stack **S** that initially contains only the level **1**
-2. Chef pops the topmost level out of the stack. Let's call this level **x**
-3. Chef spends **tx** hours to complete level **x**. Note that he doesn't want to stay at work longer than for **h** hours, so if there is not enough time left today Chef will complete level **x** the next working day morning.
-4. After completing level **x** some **mx** new levels get unlocked
-5. Chef places all the **mx** unlocked levels on the top of the stack **S** in an arbitrary order, i.e. he is free to choose any order he likes
-6. If stack **S** is empty, the Game is considered completed, otherwise Chef goes back to the step **2**
+<p>Can you help Chef figure out the minimum number of working days necessary to complete the Game?</p>
 
-Can you help Chef figure out the minimum number of working days necessary to complete the Game?
+<h3>Input</h3>
+<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. </p>
 
-### Input
+<p>For each test case, the first line of input contains two integers <b>n</b> and <b>h</b>. </p>
 
-The first line of the input contains an integer **T** denoting the number of test cases.
+<p>The next line contains <b>n</b> space-separated integers ― <b>t<sub>1</sub></b>, <b>t<sub>2</sub></b>, <b>...</b>, <b>t<sub>n</sub></b>.</p>
 
-For each test case, the first line of input contains two integers **n** and **h**.
+<p>The following <b>n</b> lines describe the structure of Game's levels: the <b>x</b>-th of them contains an integer <b>m<sub>x</sub></b> followed by <b>m<sub>x</sub></b> integers ― the levels that get unlocked after completing level <b>x</b>.</p>
 
-The next line contains **n** space-separated integers ― **t1**, **t2**, **...**, **tn**.
+<h3>Output</h3>
+<p>For each test case, output a single integer ― the minimum number of working days necessary to complete the Game.</p>
 
-The following **n** lines describe the structure of Game's levels: the **x**-th of them contains an integer **mx** followed by **mx** integers ― the levels that get unlocked after completing level **x**.
+<h3>Constraints</h3>
+<p>
+<ul>
+    <li><b>1</b> ≤ <b>T</b> ≤ <b>10</b></li>
+    <li><b>1</b> ≤ <b>n</b> ≤ <b>1000</b></li>
+    <li><b>1</b> ≤ <b>t<sub>i</sub></b> ≤ <b>h</b> ≤ <b>24</b></li>
+    <li><b>0</b> ≤ <b>m<sub>x</sub></b> ≤ <b>10</b></li>
+    <li> It is guaranteed that the structure of the Game levels is a tree, i.e. it is possible to unlock all <b>n</b> levels and every level (except for <b>1</b>) has exactly one other level that unlocks it.</li>
+</ul>
+</p>
 
-### Output
+<h3>Subtasks</h3>
+<ul>
+    <li>Subtask #1: <b>n ≤ 9</b> (7 points)</li>
+    <li>Subtask #2: <b>m<sub>x</sub> ≤ 2</b> (20 points)</li>
+    <li>Subtask #3: <b>n ≤ 100; h ≤ 8</b> (27 points)</li>
+    <li>Subtask #4: Original constraints (46 points)</li>
+</ul>
 
-For each test case, output a single integer ― the minimum number of working days necessary to complete the Game.
-
-### Constraints
-
-- **1** ≤ **T** ≤ **10**
-- **1** ≤ **n** ≤ **1000**
-- **1** ≤ **ti** ≤ **h** ≤ **24**
-- 0 ≤ **mx** ≤ **10**
-- It is guaranteed that the structure of the Game levels is a tree, i.e. it is possible to unlock all **n** levels and every level (except for **1**) has exactly one other level that unlocks it.
-
-### Subtasks
-
-- Subtask #1: **n ≤ 9** (7 points)
-- Subtask #2: **mx ≤ 2** (20 points)
-- Subtask #3: **n ≤ 100; h ≤ 8** (27 points)
-- Subtask #4: Original constraints (46 points)
-
-### Example
-
+<h3>Example</h3>
 <pre><b>Input:</b>
 <tt>2
 5 24
@@ -150,8 +80,9 @@ For each test case, output a single integer ― the minimum number of working da
 4</tt>
 
 </pre>
-### Explanation
-
-**Example case 1:** Chef has to complete every level during separate working days, and so to complete all **5** levels he needs **5** working days.
-
-**Example case 2:** Chef will complete the Game if he will always push unlocked levels into stack starting with the largest indexed one and ending with the smallest indexed one. That is, after Chef completes level **1** he first pushes level **10** (**S = \[10\]**), then level **5** (**S = \[10, 5\]**) and then level **2** (**S = \[10, 5, 2\]**). So the second level Chef will play is **2**.
+<h3>Explanation</h3>
+<p><b>Example case 1:</b> Chef has to complete every level during separate working days, and so to complete all <b>5</b> levels he needs <b>5</b> working days.
+</p>
+<p>
+<b>Example case 2:</b> Chef will complete the Game if he will always push unlocked levels into stack starting with the largest indexed one and ending with the smallest indexed one. That is, after Chef completes level <b>1</b> he first pushes level <b>10</b> (<b>S = [10]</b>), then level <b>5</b> (<b>S = [10, 5]</b>) and then level <b>2</b> (<b>S = [10, 5, 2]</b>). So the second level Chef will play is <b>2</b>.
+</p>

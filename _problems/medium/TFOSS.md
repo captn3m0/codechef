@@ -1,43 +1,26 @@
 ---
-languages_supported:
-    - NA
-title: TFOSS
-category: NA
-old_version: true
-problem_code: TFOSS
-tags:
-    - NA
-layout: problem
+{"languages_supported":{"0":"NA"},"title":"TFOSS","category":"NA","old_version":true,"problem_code":"TFOSS","tags":{"0":"NA"},"layout":"problem"}
 ---
-###  All submissions for this problem are available. 
 
-A small group of archaeologists is working in the Antarctic. Their sensors have detected a number of caves in which there are interesting fossils. However, a thick layer of ice blocks the entrance to each cave. The archaeologists possess the equipment needed to burn a tunnel in the layer of ice, but the fuel is extremely expensive. In order to determine the size of each fossil the group has launched a number of probes through small bore-holes.
-
-Each probe which hits a fossil emits a signal consisting of its x and y coordinates. Your task is to determine the smallest possible size of the tunnel, which is equal to the maximum distance between any two probes (so that the fossil won’t be damaged during extraction). The drilling equipment requiers the squared value of this distance.
-
-Given a list of coordinates of points containing probes, find the square of the maximum distance between any two probes.
-
-### Input
-
+<h3> All submissions for this problem are available. </h3>
+<p>A small group of archaeologists is working in the Antarctic. Their sensors have detected a number of caves in which there are interesting fossils. However, a thick layer of ice blocks the entrance to each cave. The archaeologists possess the equipment needed to burn a tunnel in the layer of ice, but the fuel is extremely expensive. In order to determine the size of each fossil the group has launched a number of probes through small bore-holes. </p>
+<p>Each probe which hits a fossil emits a signal consisting of its x and y coordinates. Your task is to determine the smallest possible size of the tunnel, which is equal to the maximum distance between any two probes (so that the fossil won&#8217;t be damaged during extraction). The drilling equipment requiers the squared value of this distance.</p>
+<p>Given a list of coordinates of points containing probes, find the square of the maximum distance between any two probes. </p>
+<h3>Input</h3>
 <pre>
-<p>t [the number of tests <= 20]
+<p>t [the number of tests &lt;= 20]
 [empty line]
-n [the number of active probes <= 100000]
+n [the number of active probes &lt;= 100000]
 x<sub>1</sub> y<sub>1</sub> [coordinates of the first probe]
 ...
 x<sub>n</sub> x<sub>n</sub>
 [integer coordinates from -50000000 to 50000000]
 [empty line]
 [input for the next test cases...]
-</p>
-</pre>
-### Output
-
+</p></pre><p><h3>Output</h3>
 <pre>o<sub>1</sub> [the square of the maximal distance in the first set]
 o<sub>n</sub> [output for the next test cases...]
-</pre>
-### Example
-
+</pre><h3>Example</h3>
 <pre>
 <b>Input:</b>
 5
@@ -89,4 +72,4 @@ o<sub>n</sub> [output for the next test cases...]
 101
 722
 98
-</pre>
+</pre></p>    

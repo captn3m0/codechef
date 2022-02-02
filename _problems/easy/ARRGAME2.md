@@ -1,106 +1,49 @@
 ---
-category_name: easy
-problem_code: ARRGAME2
-problem_name: 'Yet Another Nice Girl'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '2'
-source_sizelimit: '50000'
-problem_author: ballon_ziq
-problem_tester: shangjingbo
-date_added: 2-08-2013
-tags:
-    - ballon_ziq
-    - easy
-    - oct13
-    - probability
-    - sorting
-editorial_url: 'http://discuss.codechef.com/problems/ARRGAME2'
-time:
-    view_start_date: 1381743000
-    submit_start_date: 1381743000
-    visible_start_date: 1381743000
-    end_date: 1735669800
-    current: 1493558108
-layout: problem
+{"category_name":"easy","problem_code":"ARRGAME2","problem_name":"Yet Another Nice Girl","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYTH","37":"PYTH 3.4","38":"RUBY","39":"SCALA","40":"SCM guile","41":"SCM qobi","42":"ST","43":"TCL","44":"TEXT","45":"WSPC"},"max_timelimit":2,"source_sizelimit":50000,"problem_author":"ballon_ziq","problem_tester":"shangjingbo","date_added":"2-08-2013","tags":{"0":"ballon_ziq","1":"easy","2":"oct13","3":"probability","4":"sorting"},"editorial_url":"http://discuss.codechef.com/problems/ARRGAME2","time":{"view_start_date":1381743000,"submit_start_date":1381743000,"visible_start_date":1381743000,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.###  Read problems statements in Mandarin Chinese [here](http://www.codechef.com/download/translated/OCT13/mandarin/ARRGAME2.pdf)
-
-### Problem Statement
-
-Little Chef doesn't love math anymore. He loves Aleksandra.
-
- Sashen'ka is nice. They spend all the time together. Even their birthdays they are celebrating together, because they were born on the same day :)
-
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3> Read problems statements in Mandarin Chinese <a target="_blank" href="http://www.codechef.com/download/translated/OCT13/mandarin/ARRGAME2.pdf">here</a></h3>
+<h3>Problem Statement</h3>
+<p>Little Chef doesn't love math anymore. He loves Aleksandra.
+</p>
+<p> 
+Sashen'ka is nice. They spend all the time together. Even their birthdays they are celebrating together, because they were born on the same day :)
+</p>
+<p>
 And now, this day is coming...
+</p>
+<p>
+Chef know that most of all Sasha loves numbers, that's why he bought <b>N</b> positive numbers to a girl.
+From her side, Sasha as all girls, thought that if she likes something, then all people like that too. And bought to a boy <b>N</b> numbers too. xD
+After all greeting young people decide to play a game with their gifts. The game will be continued for <b>N </b>turns, in each turn the following will be done:
+<li>Chef randomly choose some number <b>x</b> from his gift.</li>
+<li>Sasha randomly choose some number <b>y</b> form her gift.</li>
+<li>If <b>x<sup>y</sup> > y<sup>x</sup></b> then girl will kiss fellow.</li>
+<li>Numbers <b>x,y</b> will be discarded from gifts.</li>
+Now chef is wondering what is the expected number of times he will be kissed by Sasha ?
+</p>
+<p> </p>
 
-Chef know that most of all Sasha loves numbers, that's why he bought **N** positive numbers to a girl. From her side, Sasha as all girls, thought that if she likes something, then all people like that too. And bought to a boy **N** numbers too. xD After all greeting young people decide to play a game with their gifts. The game will be continued for **N** turns, in each turn the following will be done:
 
-8. Chef randomly choose some number **x** from his gift.
-9. Sasha randomly choose some number **y** form her gift.
-10. If **xy &gt; yx** then girl will kiss fellow.
-11. Numbers **x,y** will be discarded from gifts.
-Now chef is wondering what is the expected number of times he will be kissed by Sasha ? ### Input
+<h3>Input</h3>
+<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</p>
+<p>The first line of each test case contains a single integer <b>N</b> denoting the number of numbers in each gift. The second line contains <b>N</b> space-separated integers <b>A<sub>1</sub></b>, <b>A<sub>2</sub></b>, ..., <b>A<sub>N</sub></b> denoting the numbers Sasha gave to Chef. Next line describe <b>B<sub>1</sub></b>, <b>B<sub>2</sub></b>, ..., <b>B<sub>N</sub></b> numbers boy gave to girl in the same way. </p>
 
-The first line of the input contains an integer **T** denoting the number of test cases. The description of **T** test cases follows.
+<p> </p>
 
-The first line of each test case contains a single integer **N** denoting the number of numbers in each gift. The second line contains **N** space-separated integers **A1**, **A2**, ..., **AN** denoting the numbers Sasha gave to Chef. Next line describe **B1**, **B2**, ..., **BN** numbers boy gave to girl in the same way.
+<h3>Output</h3>
+For each test case, output a single line containing answer for corresponding test. Your answer will be considered as correct if it will have absolute error not more then <b>10<sup>-6</sup></b>.
+<p> </p>
 
-### Output
+<h3>Constraints</h3>
 
-For each test case, output a single line containing answer for corresponding test. Your answer will be considered as correct if it will have absolute error not more then **10-6**. ### Constraints
+<li><b>1</b> ≤ <b>T</b> ≤ <b>5</b></li>
+<li><b>1</b> ≤ <b>N</b> ≤ <b>10<sup>5</sup></b></li>
+<li><b>1</b> ≤ <b>A<sub>i</sub></b> ≤ <b>10<sup>9</sup></b></li>
+<li><b>1</b> ≤ <b>B<sub>i</sub></b> ≤ <b>10<sup>9</sup></b></li>
 
-21. **1** ≤ **T** ≤ **5**
-22. **1** ≤ **N** ≤ **105**
-23. **1** ≤ **Ai** ≤ **109**
-24. **1** ≤ **Bi** ≤ **109**
-### Example
 
+<p> </p>
+<h3>Example</h3>
 <pre>
 <b>Input</b>
 3
@@ -121,6 +64,6 @@ For each test case, output a single line containing answer for corresponding tes
 
 
 </pre>
-### Explanation
-
-**Example case 1.** Game will have only 1 turn. Chef will choose 3, while Sasha will choose 4. Since 34&gt;43 girl will kiss boy. Hence answer is 1.
+<p> </p>
+<h3>Explanation</h3>
+<p><b>Example case 1.</b> Game will have only 1 turn. Chef will choose 3, while Sasha will choose 4. Since 3<sup>4</sup>>4<sup>3</sup> girl will kiss boy. Hence answer is 1. </p>

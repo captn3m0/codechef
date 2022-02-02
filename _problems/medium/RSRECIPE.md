@@ -1,37 +1,26 @@
 ---
-languages_supported:
-    - NA
-title: RSRECIPE
-category: NA
-old_version: true
-problem_code: RSRECIPE
-tags:
-    - NA
-layout: problem
+{"languages_supported":{"0":"NA"},"title":"RSRECIPE","category":"NA","old_version":true,"problem_code":"RSRECIPE","tags":{"0":"NA"},"layout":"problem"}
 ---
-###  All submissions for this problem are available. 
 
-Chef has had a recipe. He had written it as a sequence of **N** integer numbers **A\[1\], A\[2\], ..., A\[N\]**. To be on the safe side, he decided to write out **M** triples of numbers, where **i**-th triple is composed of three numbers **Xi**, **Yi** and **Zi**. It means that the sum of numbers in the recipe from **Xi**-th to **Yi**-th is equal to **Zi**. In other words, **A\[Xi\] + A\[Xi + 1\] + ... + A\[Yi\] = Zi**. Unfortunately, the recipe has been recently lost. So Chef needs to restore his recipe using these **M** triples. Your task is to help him.
+<h3> All submissions for this problem are available. </h3><p>Chef has had a recipe. He had written it as a sequence of <b>N</b> integer numbers <b>A[1], A[2], ..., A[N]</b>. To be on the safe side, he decided to write out <b>M</b> triples of numbers, where <b>i</b>-th triple is composed of three numbers <b>X<sub>i</sub></b>, <b>Y<sub>i</sub></b> and <b>Z<sub>i</sub></b>. It means that the sum of numbers in the recipe from <b>X<sub>i</sub></b>-th to <b>Y<sub>i</sub></b>-th is equal to <b>Z<sub>i</sub></b>. In other words, <b>A[X<sub>i</sub>] +  A[X<sub>i</sub> + 1] + ... + A[Y<sub>i</sub>] = Z<sub>i</sub></b>. Unfortunately, the recipe has been recently lost. So Chef needs to restore his recipe using these <b>M</b> triples. Your task is to help him.
 
-### Input
+<h3>Input</h3>
+</p><p>The first line contains two space separated integer numbers <b>N</b> and <b>M</b>.<br />
+Then <b>M</b> lines follow. Each line contains three space separated integer numbers <b>X<sub>i</sub></b>, <b>Y<sub>i</sub></b> and <b>Z<sub>i</sub></b>. It means that the sum of numbers in the recipe from <b>X<sub>i</sub></b>-th to <b>Y<sub>i</sub></b>-th is equal to <b>Z<sub>i</sub></b>.
 
-The first line contains two space separated integer numbers **N** and **M**.
-Then **M** lines follow. Each line contains three space separated integer numbers **Xi**, **Yi** and **Zi**. It means that the sum of numbers in the recipe from **Xi**-th to **Yi**-th is equal to **Zi**.
+<h3>Output</h3>
+</p><p>If there is a solution output <b>N</b> space separated integer numbers - the sequence that you have restored. If there are several solutions you can output any of them. However, any number in the output should be no more than 10<sup>14</sup> by its absolute value. If it is impossible to restore the sequence output "-1" without quotes.
 
-### Output
+<h3>Constraints</h3>
+<ul>
+<li>2 ≤ <b>N</b> ≤ 65536<br /></li>
+<li>1 ≤ <b>M</b> ≤ 200000<br /></li>
+<li>1 ≤ <b>X<sub>i</sub></b> ≤ <b>Y<sub>i</sub></b> ≤ <b>N</b><br /></li>
+<li>|<b>Z<sub>i</sub></b>| ≤ 1000000000 (10<sup>9</sup>)</li>
+<li>If It is possible to restore the sequence then there is way to do this such that every number in the restored sequence is in range [-10000; 10000]</li><br />
+</ul>
 
-If there is a solution output **N** space separated integer numbers - the sequence that you have restored. If there are several solutions you can output any of them. However, any number in the output should be no more than 1014 by its absolute value. If it is impossible to restore the sequence output "-1" without quotes.
-
-### Constraints
-
-- 2 ≤ **N** ≤ 65536
-- 1 ≤ **M** ≤ 200000
-- 1 ≤ **Xi** ≤ **Yi** ≤ **N**
-- |**Zi**| ≤ 1000000000 (109)
-- If It is possible to restore the sequence then there is way to do this such that every number in the restored sequence is in range \[-10000; 10000\]
-
-
-### Example
+<h3>Example</h3>
 
 <pre>
 <b>Input 1:</b>
@@ -53,8 +42,8 @@ If there is a solution output **N** space separated integer numbers - the sequen
 <b>Output 2:</b>
 -1
 </pre>
-### Explanation
 
-In the first test case the answer is not unique. Possible answers are also **{0, 3, -2, 0}**, **{2, 1, 0, -2}** and many others. 
-
-In the second test case first two conditions imply **A\[1\] + A\[2\] + A\[3\] = 4** and **A\[4\] + A\[5\] = 6** and hence **A\[1\] + A\[2\] + A\[3\] + A\[4\] + A\[5\] = (A\[1\] + A\[2\] + A\[3\]) + (A\[4\] + A\[5\]) = 4 + 6 = 10**. And it contradicts to the third condition. Hence it is impossible to restore the recipe.
+<h3>Explanation</h3>
+In the first test case the answer is not unique. Possible answers are also <b>{0, 3, -2, 0}</b>, <b>{2, 1, 0, -2}</b> and many others.
+<br /><br />
+In the second test case first two conditions imply <b>A[1] + A[2] + A[3] = 4</b> and <b>A[4] + A[5] = 6</b> and hence <b>A[1] + A[2] + A[3] + A[4] + A[5] = (A[1] + A[2] + A[3]) + (A[4] + A[5]) = 4 + 6 = 10</b>. And it contradicts to the third condition. Hence it is impossible to restore the recipe.</p>    

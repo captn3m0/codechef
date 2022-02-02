@@ -1,121 +1,72 @@
 ---
-category_name: medium
-problem_code: SMARKET
-problem_name: 'Stable market'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYPY
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM chicken'
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '2'
-source_sizelimit: '50000'
-problem_author: pkacprzak
-problem_tester: null
-date_added: 29-03-2017
-tags:
-    - april17
-    - pkacprzak
-editorial_url: 'https://discuss.codechef.com/problems/SMARKET'
-time:
-    view_start_date: 1492421400
-    submit_start_date: 1492421400
-    visible_start_date: 1492421400
-    end_date: 1735669800
-    current: 1497284443
-layout: problem
+{"category_name":"medium","problem_code":"SMARKET","problem_name":"Stable market","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYPY","37":"PYTH","38":"PYTH 3.4","39":"RUBY","40":"SCALA","41":"SCM chicken","42":"SCM guile","43":"SCM qobi","44":"ST","45":"TCL","46":"TEXT","47":"WSPC"},"max_timelimit":2,"source_sizelimit":50000,"problem_author":"pkacprzak","problem_tester":null,"date_added":"29-03-2017","tags":{"0":"april17","1":"pkacprzak"},"editorial_url":"https://discuss.codechef.com/problems/SMARKET","time":{"view_start_date":1492421400,"submit_start_date":1492421400,"visible_start_date":1492421400,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/APRIL17/mandarin/SMARKET.pdf), [Russian](http://www.codechef.com/download/translated/APRIL17/russian/SMARKET.pdf) and [Vietnamese](http://www.codechef.com/download/translated/APRIL17/vietnamese/SMARKET.pdf) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3> Read problems statements in <a target="_blank" href="http://www.codechef.com/download/translated/APRIL17/mandarin/SMARKET.pdf">Mandarin Chinese</a>, <a target="_blank" href="http://www.codechef.com/download/translated/APRIL17/russian/SMARKET.pdf">Russian</a> and <a target="_blank" href="http://www.codechef.com/download/translated/APRIL17/vietnamese/SMARKET.pdf">Vietnamese</a> as well.</h3>
 
-Sometimes, the stability of a stock market is at least as important as rapid price changes.
+<p>Sometimes, the stability of a stock market is at least as important as rapid price changes.</p>
 
-Let a **stable block** be a maximal consecutive block of days with same stock prices.
+<p>Let a <b>stable block</b> be a maximal consecutive block of days with same stock prices.</p>
 
-Moreover, let a **stable block of order K** be a stable block of length **at least K**.
+<p>Moreover, let a <b>stable block of order K</b> be a stable block of length <b>at least K</b>.</p>
 
-For example, if stock prices for 7 consecutive days are: 20, 10, 10, 7, 7, 7, 10, then there are 4 stable blocks there: \[20\], \[10, 10\], \[7, 7, 7\] and \[10\]. Moreover, there are: - 0 stable blocks of order 4 or higher
-- 1 stable block of order 3: \[7, 7, 7\]
-- 2 stable block of order 2: \[10, 10\], \[7, 7, 7\]
-- 4 stable block of order 1: \[20\], \[10, 10\], \[7, 7, 7\] and \[10\]
+For example, if stock prices for 7 consecutive days are: 20, 10, 10, 7, 7, 7, 10, then there are 4 stable blocks there: [20], [10, 10], [7, 7, 7] and [10]. Moreover, there are:
+<p></p>
+<ul>
+<li>0 stable blocks of order 4 or higher
+<li>1 stable block of order 3: [7, 7, 7]
+<li>2 stable block of order 2: [10, 10], [7, 7, 7]
+<li>4 stable block of order 1: [20], [10, 10], [7, 7, 7] and [10]
+</ul>
+<p></p>
 
-Given historical prices of a stock across **N** days, the goal is to answer **Q** customers' questions.
+<p>Given historical prices of a stock across <b>N</b> days, the goal is to answer <b>Q</b> customers' questions.</p>
 
-The **i**-th question contains three integers **Li, Ri** and **Ki**. It asks for the number of stable blocks of order **Ki**, if only the stock prices of the days in the range **Li, Ri** are considered.
+<p>The <b>i</b>-th question contains three integers <b>L<sub>i</sub>, R<sub>i</sub></b> and <b>K<sub>i</sub></b>. It asks for the number of stable blocks of order <b>K<sub>i</sub></b>, if only the stock prices of the days in the range <b>L<sub>i</sub>, R<sub>i</sub></b> are considered.
 
-### Input
+<h3>Input</h3>
+<ul>
+<li>In the first line there is a single integer <b>T</b>, denoting the number of test cases to handle. After that the description of <b>T</b> test cases follow.</li>
 
-- In the first line there is a single integer **T**, denoting the number of test cases to handle. After that the description of **T** test cases follow.
-- The first line of each test case contains two space-separated integers **N** and **Q**, denoting respectively, the number of days for which the stock prices are given, and the number of questions to answer.
-- The second line contains **N** space-separated integers **A1, A2, ..., AN**, where **Ai** denotes the price of the stock on the **i**-th day.
-- **Q** lines follow. In the **i**-th of them there are three space-separated integers **Li, Ri** and **Ki** denoting the **i**-th query.
+<li>The first line of each test case contains two space-separated integers <b>N</b> and <b>Q</b>, denoting respectively, the number of days for which the stock prices are given, and the number of questions to answer.</li>
 
-### Output
+<li>
+The second line contains <b>N</b> space-separated integers <b>A<sub>1</sub>, A<sub>2</sub>, ..., A<sub>N</sub></b>, where <b>A<sub>i</sub></b> denotes the price of the stock on the <b>i</b>-th day. 
+</li>
+<li>
+<b>Q</b> lines follow. In the <b>i</b>-th of them there are three space-separated integers <b>L<sub>i</sub>, R<sub>i</sub></b> and <b>K<sub>i</sub></b> denoting the <b>i</b>-th query.
+</li>
+</ul>
 
+<h3>Output</h3>
+<p>
 For each test case, print answers to all queries in the test case, one per line.
+</p>
 
-### Constraints
+<h3>Constraints</h3>
+<ul>
+<li>1 ≤ <b>T</b> ≤ 5</li> 
+<li>1 ≤ <b>N, Q</b> ≤ 10<sup>5</li> 
+<li>1 ≤ <b>A<sub>i</sub></b> ≤ 10<sup>6</li> 
+<li>1 ≤ <b>L<sub>i</sub></b> ≤ <b>R<sub>i</sub></b> ≤ <b>N</b></li> 
+<li>1 ≤ <b>K<sub>i</sub></b> ≤ <b>R<sub>i</sub> - L<sub>i</sub> + 1</b></li> 
+</ul>
 
-- 1 ≤ **T** ≤ 5
-- 1 ≤ **N, Q** ≤ 105
-- 1 ≤ **Ai** ≤ 106
-- 1 ≤ **Li** ≤ **Ri** ≤ **N**
-- 1 ≤ **Ki** ≤ **Ri - Li + 1**
- 
-### Subtasks
+<h3>Subtasks</h3>
+<p>
+<b>Subtask #1: (10 points)</b>
+<ul>
+<li>1 ≤ <b>N, Q</b> ≤ 3000</li> 
+</ul>
+</p>
 
-**Subtask #1: (10 points)**
+<p>
+<b>Subtask #2: (90 points)</b>
+<ul>
+<li>original constraints</li>
+</ul>
+</p>
 
-- 1 ≤ **N, Q** ≤ 3000
- 
-**Subtask #2: (90 points)**
-
-- original constraints
-
-### Example
-
+<h3>Example</h3>
 <pre><b>Input:</b>
 2
 8 5
@@ -140,28 +91,19 @@ For each test case, print answers to all queries in the test case, one per line.
 1
 1
 </pre>
-### Explanation
 
-There are two test cases to handle
+<h3>Explanation</h3>
+<p>There are two test cases to handle</p>
 
-**Test case #1:**
+<p><b>Test case #1:</b></p>
+<p>There are <b>8</b> days for which prices are given and <b>5</b> queries to handle.</p>
+<p>The first query asks for the number of stable blocks of order <b>2</b> in range <b>[2, 6]</b>, which corresponds to prices <b>10 10 10 7 7</b>. The answer is <b>2</b> because there are two such blocks: <b>10 10 10</b> and <b>7 7</b>.</p>
+<p>The second query asks for the number of stable blocks of order <b>2</b> in range <b>[3, 6]</b>, which corresponds to prices <b>10 10 7 7</b>. The answer is <b>2</b> because there are two such blocks: <b>10 10</b> and <b>7 7</b>.</p>
+<p>The third query asks for the number of stable blocks of order <b>3</b> in range <b>[3, 6]</b>, which corresponds to prices <b>10 10 7 7</b>. The answer is <b>0</b> because there is no stable block of order <b>3</b> there (maximum order of a stable block is <b>2</b>).</p>
+<p>The fourth query asks for the number of stable blocks of order <b>3</b> in range <b>[3, 8]</b>, which corresponds to prices <b>10 10 7 7 7 10</b>. The answer is <b>1</b> because the only stable block of order <b>3</b> here is <b>7 7 7</b>.</p>
+<p>The fifth query asks for the number of stable blocks of order <b>1</b> in range <b>[3, 8]</b>, which corresponds to prices <b>10 10 7 7 7 10</b>. The answer is <b>3</b> because there are <b>3</b> stable blocks of order <b>1</b> there: <b>10 10</b>, <b>7 7 7</b> and <b>10</b>.
 
-There are **8** days for which prices are given and **5** queries to handle.
-
-The first query asks for the number of stable blocks of order **2** in range **\[2, 6\]**, which corresponds to prices **10 10 10 7 7**. The answer is **2** because there are two such blocks: **10 10 10** and **7 7**.
-
-The second query asks for the number of stable blocks of order **2** in range **\[3, 6\]**, which corresponds to prices **10 10 7 7**. The answer is **2** because there are two such blocks: **10 10** and **7 7**.
-
-The third query asks for the number of stable blocks of order **3** in range **\[3, 6\]**, which corresponds to prices **10 10 7 7**. The answer is 0 because there is no stable block of order **3** there (maximum order of a stable block is **2**).
-
-The fourth query asks for the number of stable blocks of order **3** in range **\[3, 8\]**, which corresponds to prices **10 10 7 7 7 10**. The answer is **1** because the only stable block of order **3** here is **7 7 7**.
-
-The fifth query asks for the number of stable blocks of order **1** in range **\[3, 8\]**, which corresponds to prices **10 10 7 7 7 10**. The answer is **3** because there are **3** stable blocks of order **1** there: **10 10**, **7 7 7** and **10**.
-
-**Test case #2:**
-
-There are **3** days for which prices are given and **2** queries to handle.
-
-The first query asks for the number of stable blocks of order **1** in range **\[1, 3\]**, which corresponds to prices **27 27 27**. The answer is **1** because the only such block there is **27 27 27**.
-
-The second query asks for the number of stable blocks of order **1** in range **\[2, 2\]**, which corresponds to a single price **27**. The answer is **1** because the only such block there is **27**.
+<p><b>Test case #2:</b></p>
+<p>There are <b>3</b> days for which prices are given and <b>2</b> queries to handle.</p>
+<p>The first query asks for the number of stable blocks of order <b>1</b> in range <b>[1, 3]</b>, which corresponds to prices <b>27 27 27</b>. The answer is <b>1</b> because the only such block there is <b>27 27 27</b>.</p>
+<p>The second query asks for the number of stable blocks of order <b>1</b> in range <b>[2, 2]</b>, which corresponds to a single price <b>27</b>. The answer is <b>1</b> because the only such block there is <b>27</b>.</p>

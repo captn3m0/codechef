@@ -1,127 +1,51 @@
 ---
-category_name: easy
-problem_code: CHEFCCYL
-problem_name: 'Chef and Cycled Cycles'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - COB
-    - 'CPP 4.3.2'
-    - 'CPP 6.3'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - kotlin
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYPY
-    - PYTH
-    - 'PYTH 3.5'
-    - RUBY
-    - rust
-    - SCALA
-    - 'SCM chicken'
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - swift
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '2'
-source_sizelimit: '50000'
-problem_author: berezin
-problem_tester: alex_2oo8
-date_added: 24-11-2015
-tags:
-    - berezin
-    - medium
-    - oct17
-    - prefix
-editorial_url: 'https://discuss.codechef.com/problems/CHEFCCYL'
-time:
-    view_start_date: 1508146200
-    submit_start_date: 1508146200
-    visible_start_date: 1508146200
-    end_date: 1735669800
-    current: 1514816824
-layout: problem
+{"category_name":"easy","problem_code":"CHEFCCYL","problem_name":"Chef and Cycled Cycles","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"COB","10":"CPP 4.3.2","11":"CPP 6.3","12":"CPP14","13":"CS2","14":"D","15":"ERL","16":"FORT","17":"FS","18":"GO","19":"HASK","20":"ICK","21":"ICON","22":"JAVA","23":"JS","24":"kotlin","25":"LISP clisp","26":"LISP sbcl","27":"LUA","28":"NEM","29":"NICE","30":"NODEJS","31":"PAS fpc","32":"PAS gpc","33":"PERL","34":"PERL6","35":"PHP","36":"PIKE","37":"PRLG","38":"PYPY","39":"PYTH","40":"PYTH 3.5","41":"RUBY","42":"rust","43":"SCALA","44":"SCM chicken","45":"SCM guile","46":"SCM qobi","47":"ST","48":"swift","49":"TCL","50":"TEXT","51":"WSPC"},"max_timelimit":2,"source_sizelimit":50000,"problem_author":"berezin","problem_tester":"alex_2oo8","date_added":"24-11-2015","tags":{"0":"berezin","1":"medium","2":"oct17","3":"prefix"},"editorial_url":"https://discuss.codechef.com/problems/CHEFCCYL","time":{"view_start_date":1508146200,"submit_start_date":1508146200,"visible_start_date":1508146200,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.### Read problems statements in [mandarin chinese](http://www.codechef.com/download/translated/OCT17/mandarin/CHEFCCYL.pdf), [russian](http://www.codechef.com/download/translated/OCT17/russian/CHEFCCYL.pdf) and [vietnamese](http://www.codechef.com/download/translated/OCT17/vietnamese/CHEFCCYL.pdf) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3>Read problems statements in <a target="_blank" 
+href="http://www.codechef.com/download/translated/OCT17/mandarin/CHEFCCYL.pdf">mandarin chinese</a>, <a target="_blank" 
+href="http://www.codechef.com/download/translated/OCT17/russian/CHEFCCYL.pdf">russian</a> and <a target="_blank" 
+href="http://www.codechef.com/download/translated/OCT17/vietnamese/CHEFCCYL.pdf">vietnamese</a> as well.</h3>
 
-Chef recently learned about finding shortest paths in a bidirectional graph. He has following types of graphs with him and would like to find shortest paths between some given pair of vertices.
+<p>Chef recently learned about finding shortest paths in a bidirectional graph. He has following types of graphs with him and would like to find shortest paths between some given pair of vertices.</p>
 
-There are **N** cycles in the graph. Let us enumerate them cycle number **1** to **N**. The **i**-th cycle contains **Ai** nodes enumerated from **1** to **Ai**.
+<p>There are <b>N</b> cycles in the graph. Let us enumerate them cycle number <b>1</b> to <b>N</b>. The <b>i</b>-th cycle contains <b>A<sub>i</sub></b> nodes enumerated from <b>1</b> to <b>A<sub>i</sub></b>.</p>
 
-The nodes of a single cycle are connected to each other in cyclic fashion, i.e. the 1st node is connected to 2nd, 2nd to 3rd, and so on till the last node is connected to the 1st node. All of these edges are weighed.
+<p>The nodes of a single cycle are connected to each other in cyclic fashion, i.e. the 1st node is connected to 2nd, 2nd to 3rd, and so on till the last node is connected to the 1st node. All of these edges are weighed.</p>
 
-The cycles are also connected to each other via an edge in a similar cyclic order. The **i**-th cycle is connected to **i % N + 1**-th cycle via an edge. This edge is between some vertex **v1** of **i**-th cycle and vertex **v2** of **i % N + 1**-th cycle and is a weighted edge.
+<p>The cycles are also connected to each other via an edge in a similar cyclic order. The <b>i</b>-th cycle is connected to <b>i % N + 1</b>-th cycle via an edge. This edge is between some vertex <b>v<sub>1</sub></b> of <b>i</b>-th cycle and vertex <b>v<sub>2</sub></b> of <b>i % N + 1</b>-th cycle and is a weighted edge.</p>
 
-You are given **Q** queries, each containing four integers **v1**, **c1**, **v2**, **c2**. You have to find the weight of shortest path between the **v1**-th vertex of **c1**-th cycle, and **v2**-th vertex of **c2**-th cycle.
+<p>You are given <b>Q</b> queries, each containing four integers <b>v<sub>1</sub></b>, <b>c<sub>1</sub></b>, <b>v<sub>2</sub></b>, <b>c<sub>2</sub></b>. You have to find the weight of shortest path between the <b>v<sub>1</sub></b>-th vertex of <b>c<sub>1</sub></b>-th cycle, and <b>v<sub>2</sub></b>-th vertex of <b>c<sub>2</sub></b>-th cycle.</p>
 
-### Input
+<h3>Input</h3>
+<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases.</p>
+<p>First line of each test case contains two space separated integers <b>N, Q</b> denoting the number of cycles in the graph and the number of queries.</p>
+<p>Next <b>N</b> lines contain the description of the cycles.</p>
+<p>The <b>i</b>-th line describes <b>i</b>-th cycle. First it contains an integer <b>A<sub>i</sub></b> denoting the number nodes in the <b>i</b>-th cycle followed by <b>A<sub>i</sub></b> integers denoting the weight of edges of the cycle. First integer denotes the weight of edge from node <b>1</b> to node <b>2</b>, from <b>2</b> to <b>3</b> and so on. Last integer denotes the weight of the edge from node <b>A<sub>i</sub></b> to node <b>1</b>. </p>
+<p>Next <b>N</b> lines describe connections between adjacent cycles. The <b>i</b>-th line contains three space separated integers <b>v<sub>1</sub></b>, <b>v<sub>2</sub></b>, <b>w</b> denoting that there is an edge of weight <b>w</b> between the <b>v<sub>1</sub></b>-th node of <b>i</b>-th cycle and <b>v<sub>2</sub></b>-th node of the <b>i % N + 1</b>-th cycle.</p>
+<p>Next <b>Q</b> lines describe the queries. Each query is given by four space separated integers <b>v<sub>1</sub></b>, <b>c<sub>1</sub></b>, <b>v<sub>2</sub></b>, <b>c<sub>2</sub></b></p>
 
-The first line of the input contains an integer **T** denoting the number of test cases.
+<h3>Output</h3>
+<p>For each query, output a single integer corresponding to the total weight of the shortest path. </p>
 
-First line of each test case contains two space separated integers **N, Q** denoting the number of cycles in the graph and the number of queries.
+<h3>Constraints</h3>
+<ul>
+<li><b>1</b> ≤ <b>T</b> ≤ <b>5</b></li>
+<li><b>1</b> ≤ <b>N, Q</b> ≤ <b>10<sup>5</sup></b></li>
+<li><b>1</b> ≤ <b>A<sub>i</sub></b> ≤ <b>10<sup>5</sup></b></li>
+<li><b>1</b> ≤ <b>A<sub>1</sub></b> + <b>A<sub>2</sub></b> + ... + <b>A<sub>N</sub></b> ≤ <b>10<sup>5</sup></b></li>
+<li><b>1</b> ≤ <b>weight of edges</b> ≤ <b>10<sup>3</sup></b></li>
+<li>For each query,  <b>c<sub>1</sub></b> !=  <b>c<sub>2</sub></b></li>
+</ul>
 
-Next **N** lines contain the description of the cycles.
+<h3>Subtasks</h3>
+<ul>
+<li><b>Subtask #1 (10 points)</b>: 1 ≤ <b>A<sub>1</sub></b> + <b>A<sub>2</sub></b> + ... + <b>A<sub>N</sub></b> ≤ <b>10<sup>3</sup></b>, <b>1</b> ≤ <b>Q</b> ≤ <b>10<sup>3</sup></b>.</li>
+<li><b>Subtask #2 (15 points)</b>:  All the edges are of weight = 1.</li>
+<li><b>Subtask #3 (20 points)</b>: <b>c<sub>1</sub></b> = 1 for all the queries.</li>
+<li><b>Subtask #4 (55 points)</b>: <b>Original constraints</b></li>
+</ul>
 
-The **i**-th line describes **i**-th cycle. First it contains an integer **Ai** denoting the number nodes in the **i**-th cycle followed by **Ai** integers denoting the weight of edges of the cycle. First integer denotes the weight of edge from node **1** to node **2**, from **2** to **3** and so on. Last integer denotes the weight of the edge from node **Ai** to node **1**.
-
-Next **N** lines describe connections between adjacent cycles. The **i**-th line contains three space separated integers **v1**, **v2**, **w** denoting that there is an edge of weight **w** between the **v1**-th node of **i**-th cycle and **v2**-th node of the **i % N + 1**-th cycle.
-
-Next **Q** lines describe the queries. Each query is given by four space separated integers **v1**, **c1**, **v2**, **c2**
-
-### Output
-
-For each query, output a single integer corresponding to the total weight of the shortest path.
-
-### Constraints
-
-- **1** ≤ **T** ≤ **5**
-- **1** ≤ **N, Q** ≤ **105**
-- **1** ≤ **Ai** ≤ **105**
-- **1** ≤ **A1** + **A2** + ... + **AN** ≤ **105**
-- **1** ≤ **weight of edges** ≤ **103**
-- For each query, **c1** != **c2**
-
-### Subtasks
-
-- **Subtask #1 (10 points)**: 1 ≤ **A1** + **A2** + ... + **AN** ≤ **103**, **1** ≤ **Q** ≤ **103**.
-- **Subtask #2 (15 points)**: All the edges are of weight = 1.
-- **Subtask #3 (20 points)**: **c1** = 1 for all the queries.
-- **Subtask #4 (55 points)**: **Original constraints**
-
-### Example
-
+<h3>Example</h3>
 <pre><b>Input:</b>
 1
 3 3
@@ -140,30 +64,32 @@ For each query, output a single integer corresponding to the total weight of the
 3
 5
 </pre>
-### Explanation
 
-**Example case 1.**
+<h3>Explanation</h3>
+<p><b>Example case 1.</b></p>
+<p>Here is the description of the graph. </p>
 
-Here is the description of the graph.
-
-There are **3** cycles.
+<p>There are <b>3</b> cycles. 
 
 <pre>
-Cycle <b>1</b>: <b>3</b> nodes. Edges: <b>(1, 2) = 1</b>, <b>(2, 3) = 2</b>, (3, 1) = 2.
+Cycle <b>1</b>: <b>3</b> nodes. Edges: <b>(1, 2) = 1</b>, <b>(2, 3) = 2</b>, </b>(3, 1) = 2</b>.
 Cycle <b>2</b>: <b>2</b> nodes. Edges: <b>(1, 2) = 1</b>, <b>(2, 1) = 2</b>.
-Cycle <b>3</b>: <b>3</b> nodes. Edges: <b>(1, 2) = 1</b>, <b>(2, 3) = 4</b>, (3, 1) = 1.
+Cycle <b>3</b>: <b>3</b> nodes. Edges: <b>(1, 2) = 1</b>, <b>(2, 3) = 4</b>, </b>(3, 1) = 1</b>.
 </pre>
-Connections between adjacent cycles:
+</p>
 
+<p>Connections between adjacent cycles:</p>
+
+<p>
 <pre>
 Cycle <b>1</b> node <b>2</b> is connected to Cycle <b>2</b> node <b>1</b> with edge of weight <b>2</b>. 
 Cycle <b>2</b> node <b>2</b> is connected to Cycle <b>3</b> node <b>1</b> with edge of weight <b>5</b>.
 Cycle <b>3</b> node <b>3</b> is connected to Cycle <b>1</b> node <b>1</b> with edge of weight <b>3</b>.
 </pre>
-**Queries**
 
-Best path from node **2** cycle **1** to node **1** cycle **2** is of the cost 2.
-
-Best path from node **1** cycle **1** to node **1** cycle **2** is: edge **(1, 2)** of cycle **1** + edge **(2, 1)** between cycles **1** and **2**.
-
-Best path from node **3** cycle **1** to node **3** cycle **3** is: edge **(3,1)** of cycle **1** + edge **(3, 1)** between cycles **3** and **1**.
+<p><b>Queries</b></p>
+<p>Best path from node <b>2</b> cycle <b>1</b> to node <b>1</b> cycle <b>2</b> is of the cost 2. </p>
+<p>Best path from node <b>1</b> cycle <b>1</b> to node <b>1</b> cycle <b>2</b> is: 
+edge <b>(1, 2)</b> of cycle <b>1</b> + edge <b>(2, 1)</b> between cycles <b>1</b> and <b>2</b>.</p>
+<p>Best path from node <b>3</b> cycle <b>1</b> to node <b>3</b> cycle <b>3</b> is:
+edge <b>(3,1)</b> of cycle <b>1</b> + edge <b>(3, 1)</b> between cycles <b>3</b> and <b>1</b>.</p>

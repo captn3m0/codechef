@@ -1,113 +1,42 @@
 ---
-category_name: school
-problem_code: TRICOIN
-problem_name: 'Coins And Triangle'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYPY
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM chicken'
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '1'
-source_sizelimit: '50000'
-problem_author: ma5termind
-problem_tester: xcwgf666
-date_added: 19-04-2016
-tags:
-    - binary
-    - cakewalk
-    - implementation
-    - ltime35
-    - ma5termind
-    - mathematics
-    - sqrt
-editorial_url: 'http://discuss.codechef.com/problems/TRICOIN'
-time:
-    view_start_date: 1462036200
-    submit_start_date: 1462036200
-    visible_start_date: 1462036200
-    end_date: 1735669800
-    current: 1492506773
-layout: problem
+{"category_name":"school","problem_code":"TRICOIN","problem_name":"Coins And Triangle","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYPY","37":"PYTH","38":"PYTH 3.4","39":"RUBY","40":"SCALA","41":"SCM chicken","42":"SCM guile","43":"SCM qobi","44":"ST","45":"TCL","46":"TEXT","47":"WSPC"},"max_timelimit":1,"source_sizelimit":50000,"problem_author":"ma5termind","problem_tester":"xcwgf666","date_added":"19-04-2016","tags":{"0":"binary","1":"cakewalk","2":"implementation","3":"ltime35","4":"ma5termind","5":"mathematics","6":"sqrt"},"editorial_url":"http://discuss.codechef.com/problems/TRICOIN","time":{"view_start_date":1462036200,"submit_start_date":1462036200,"visible_start_date":1462036200,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/LTIME35/mandarin/TRICOIN.pdf), [Russian](http://www.codechef.com/download/translated/LTIME35/russian/TRICOIN.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME35/vietnamese/TRICOIN.pdf) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3> Read problems statements in <a target="_blank" href="http://www.codechef.com/download/translated/LTIME35/mandarin/TRICOIN.pdf">Mandarin Chinese </a>, <a target="_blank" href="http://www.codechef.com/download/translated/LTIME35/russian/TRICOIN.pdf">Russian</a> and <a target="_blank" href="http://www.codechef.com/download/translated/LTIME35/vietnamese/TRICOIN.pdf">Vietnamese</a> as well.</h3>
 
-Chef belongs to a very rich family which owns many gold mines. Today, he brought **N** gold coins and decided to form a triangle using these coins. Isn't it strange?
+<p>Chef belongs to a very rich family which owns many gold mines. Today, he brought <b>N</b> gold coins and decided to form a triangle using these coins. Isn't it strange?</p>
 
-Chef has a unusual way of forming a triangle using gold coins, which is described as follows:
+<p>Chef has a unusual way of forming a triangle using gold coins, which is described as follows:</p>
+<ul>
+<li>He puts <b>1</b> coin in the <b>1<sup>st</sup></b> row.</li>
+<li>then puts <b>2</b> coins in the <b>2<sup>nd</sup></b> row.</li>
+<li>then puts <b>3</b> coins in the <b>3<sup>rd</sup></b> row.</li>
+<li> and so on as shown in the given figure.</li>
+</ul>
 
-- He puts **1** coin in the **1st** row.
-- then puts **2** coins in the **2nd** row.
-- then puts **3** coins in the **3rd** row.
-- and so on as shown in the given figure.
+<img src="https://s3.amazonaws.com/hr-challenge-images/15909/1461147954-8b9f4b7d27-A.png" title="A.png" />
 
-![](https://s3.amazonaws.com/hr-challenge-images/15909/1461147954-8b9f4b7d27-A.png "A.png")Chef is interested in forming a triangle with maximum possible height using at most **N** coins. Can you tell him the maximum possible height of the triangle?
+<p>Chef is interested in forming a triangle with maximum possible height using at most <b>N</b> coins. Can you tell him the maximum possible height of the triangle?</p>
 
-### Input
+<h3>Input</h3>
+<p>The first line of input contains a single integer <b>T</b> denoting the number of test cases. </p>
+<p>The first and the only line of each test case contains an integer <b>N</b> denoting the number of gold coins Chef has.</p>
 
-The first line of input contains a single integer **T** denoting the number of test cases.
+<h3>Output</h3>
+<p>For each test case, output a single line containing an integer corresponding to the maximum possible height of the triangle that Chef can get.</p>
 
-The first and the only line of each test case contains an integer **N** denoting the number of gold coins Chef has.
+<h3>Constraints</h3>
+<ul>
+<li><b>1 ≤ T ≤ 100</b></li>
+<li><b>1 ≤ N ≤ 10<sup>9</sup></b></li>
+</ul>
 
-### Output
+<h3>Subtasks</h3>
+<ul>
+<li>Subtask 1 (48 points) : <b>1 ≤ N ≤ 10<sup>5</sup></li></b>
+<li>Subtask 2 (52 points) : <b>1 ≤ N ≤ 10<sup>9</sup></li></b>
+</ul>
 
-For each test case, output a single line containing an integer corresponding to the maximum possible height of the triangle that Chef can get.
-
-### Constraints
-
-- **1 ≤ T ≤ 100**
-- **1 ≤ N ≤ 109**
-
-### Subtasks
-
-- Subtask 1 (48 points) : **1 ≤ N ≤ 105**
-- Subtask 2 (52 points) : **1 ≤ N ≤ 109**
-
-### Example
-
+<h3>Example</h3>
 <pre>
 <b>Input</b>
 <tt>3
@@ -120,8 +49,10 @@ For each test case, output a single line containing an integer corresponding to 
 2
 3</tt>
 </pre>
-### Explanation
 
-- **Test 1:** Chef can't form a triangle with height &gt; 2 as it requires atleast 6 gold coins.
-- **Test 2:** Chef can't form a triangle with height &gt; 2 as it requires atleast 6 gold coins.
-- **Test 3:** Chef can't form a triangle with height &gt; 3 as it requires atleast 10 gold coins.
+<h3>Explanation</h3>
+<ul>
+<li><b>Test 1:</b> Chef can't form a triangle with height > 2 as it requires atleast 6 gold coins.</li>
+<li><b>Test 2:</b> Chef can't form a triangle with height > 2 as it requires atleast 6 gold coins.</li>
+<li><b>Test 3:</b> Chef can't form a triangle with height > 3 as it requires atleast 10 gold coins.</li>
+</ul>

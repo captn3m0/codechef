@@ -1,112 +1,42 @@
 ---
-category_name: school
-problem_code: LIKECS01
-problem_name: 'Subsequence Equality'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 6.3'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - kotlin
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYPY
-    - PYTH
-    - 'PYTH 3.5'
-    - RUBY
-    - rust
-    - SCALA
-    - 'SCM chicken'
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - swift
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '0.5'
-source_sizelimit: '50000'
-problem_author: likecs
-problem_tester: kingofnumbers
-date_added: 8-09-2017
-tags:
-    - cakewalk
-    - cook86
-    - likecs
-    - likecs
-editorial_url: 'https://discuss.codechef.com/problems/LIKECS01'
-time:
-    view_start_date: 1505673000
-    submit_start_date: 1505673000
-    visible_start_date: 1505673000
-    end_date: 1735669800
-    current: 1514816295
-layout: problem
+{"category_name":"school","problem_code":"LIKECS01","problem_name":"Subsequence Equality","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 6.3","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"kotlin","24":"LISP clisp","25":"LISP sbcl","26":"LUA","27":"NEM","28":"NICE","29":"NODEJS","30":"PAS fpc","31":"PAS gpc","32":"PERL","33":"PERL6","34":"PHP","35":"PIKE","36":"PRLG","37":"PYPY","38":"PYTH","39":"PYTH 3.5","40":"RUBY","41":"rust","42":"SCALA","43":"SCM chicken","44":"SCM guile","45":"SCM qobi","46":"ST","47":"swift","48":"TCL","49":"TEXT","50":"WSPC"},"max_timelimit":0.5,"source_sizelimit":50000,"problem_author":"likecs","problem_tester":"kingofnumbers","date_added":"8-09-2017","tags":{"0":"cakewalk","1":"cook86","2":"likecs","3":"likecs"},"editorial_url":"https://discuss.codechef.com/problems/LIKECS01","time":{"view_start_date":1505673000,"submit_start_date":1505673000,"visible_start_date":1505673000,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.### Read problems statements [Mandarin chinese](http://www.codechef.com/download/translated/COOK86/mandarin/LIKECS01.pdf), in [Russian](http://www.codechef.com/download/translated/COOK86/russian/LIKECS01.pdf) and [Vietnamese](http://www.codechef.com/download/translated/COOK86/vietnamese/LIKECS01.pdf) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3>Read problems statements <a target="_blank" 
+href="http://www.codechef.com/download/translated/COOK86/mandarin/LIKECS01.pdf">Mandarin chinese</a>, in <a target="_blank" 
+href="http://www.codechef.com/download/translated/COOK86/russian/LIKECS01.pdf">Russian</a> and <a target="_blank" 
+href="http://www.codechef.com/download/translated/COOK86/vietnamese/LIKECS01.pdf">Vietnamese</a> as well.</h3>
 
-Chef Tobby is playing a rapid fire with Bhuvan. He gives Bhuvan a string **S** and each time, Bhuvan has to guess whether there exists **2** equal [subsequences](https://en.wikipedia.org/wiki/Subsequence) in the string or not.
+<p>Chef Tobby is playing a rapid fire with Bhuvan. He gives Bhuvan a string <b>S</b> and each time, Bhuvan has to guess whether there exists <b>2</b> equal <a href="https://en.wikipedia.org/wiki/Subsequence">subsequences</a> in the string or not.</p>
 
-Bhuvan got a perfect score in the game with Chef Tobby. However, Chef Tobby has now asked Bhuvan to write a program that will do this automatically given a string **S**. Bhuvan is an intelligent man but he does not know how to write a code. Can you help him?
+<p>Bhuvan got a perfect score in the game with Chef Tobby. However, Chef Tobby has now asked Bhuvan to write a program that will do this automatically given a string <b>S</b>. Bhuvan is an intelligent man but he does not know how to write a code. Can you help him?</p>
 
-Find two different subsequences such that they are equal in their value, more formally, find two sequences of indices (a1, a2, ..., ak-1, ak) and (b1, b2, ..., bk-1, bk) such that:
+<p>Find two different subsequences such that they are equal in their value, more formally, find two sequences of indices (a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>k-1</sub>, a<sub>k</sub>) and (b<sub>1</sub>, b<sub>2</sub>, ..., b<sub>k-1</sub>, b<sub>k</sub>) such that:
 
-1. 1≤ ai, bi ≤ |S|
-2. ai i+1 for all valid i
-3. bi i+1 for all valid i
-4. Sai = Sbi for all valid i
-5. there exist at least one i such that ai is not equal to bi
+<ol>
+<li>1≤ a<sub>i</sub>, b<sub>i</sub> ≤ |S|</li>
+<li>a<sub>i</sub> < a<sub>i+1</sub> for all valid i</li>
+<li>b<sub>i</sub> < b<sub>i+1</sub> for all valid i</li>
+<li>S<sub>a<sub>i</sub></sub> = S<sub>b<sub>i</sub></sub> for all valid i</li>
+<li>there exist at least one i such that a<sub>i</sub> is not equal to b<sub>i</sub></li>
+</ol>
 
-### Input section
+<h3>Input section</h3>
+<p>The first line contains <b>T</b>, the number of test cases.</p>
 
-The first line contains **T**, the number of test cases.
+<p>Each of the next <b>T</b> lines contain one string <b>S</b> each.</p>
 
-Each of the next **T** lines contain one string **S** each.
+<p><b>Input will only consist of lowercase english characters</b><p>
 
-**Input will only consist of lowercase english characters**
+<h3>Output section</h3>
+<p>For each test case, output <b>"yes"</b> or <b>"no"</b> (without quotes) as the solution to the problem.</p>
 
-### Output section
-
-For each test case, output **"yes"** or **"no"** (without quotes) as the solution to the problem.
-
-### Input constraints
-
+<h3>Input constraints</h3>
 <pre>
 1 ≤ T ≤ 1000
 1 ≤ length of S ≤ 100
 </pre>
-### Sample Input
 
+<h3>Sample Input</h3>
 <pre>
 4
 likecs
@@ -114,16 +44,16 @@ venivedivici
 bhuvan
 codechef
 </pre>
-### Sample Output
 
+<h3>Sample Output</h3>
 <pre>
 no
 yes
 no
 yes
 </pre>
-### Explanation
 
-In test case **2**, one of the possible equal subsequence is **"vi"** and **"vi"**. (one at position **{0, 3}** and other at **{4, 7}**, assuming 0-based indexing).
+<h3>Explanation</h3>
+<p>In test case <b>2</b>, one of the possible equal subsequence is <b>"vi"</b> and <b>"vi"</b>. (one at position <b>{0, 3}</b> and other at <b>{4, 7}</b>, assuming 0-based indexing).</p>
 
-In test case **4**, one of the possible equal subsequence is **"ce"** and **"ce"**. (one at position **{0, 3}** and other at **{4, 6}**, assuming 0-based indexing).
+<p>In test case <b>4</b>, one of the possible equal subsequence is <b>"ce"</b> and <b>"ce"</b>. (one at position <b>{0, 3}</b> and other at <b>{4, 6}</b>, assuming 0-based indexing).</p>

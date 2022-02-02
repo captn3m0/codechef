@@ -1,31 +1,20 @@
 ---
-languages_supported:
-    - NA
-title: EQUATIO
-category: NA
-old_version: true
-problem_code: EQUATIO
-tags:
-    - NA
-layout: problem
+{"languages_supported":{"0":"NA"},"title":"EQUATIO","category":"NA","old_version":true,"problem_code":"EQUATIO","tags":{"0":"NA"},"layout":"problem"}
 ---
-###  All submissions for this problem are available. 
 
-**x\*y = a + b\*lcm(x,y) + c\*gcd(x,y)**
+<h3> All submissions for this problem are available. </h3><p><div align="center"><b>x*y = a + b*lcm(x,y) + c*gcd(x,y)</b></div>
 
-It's easy: you are to write a program which for given **a**, **b** and **c** finds the number of pairs of positive integers (**x**, **y**) satisfying this equation.
+</p><p></p><p>It's easy: you are to write a program which for given <b>a</b>, <b>b</b> and <b>c</b> finds the number of pairs of positive integers (<b>x</b>, <b>y</b>) satisfying this equation.
 
-Here **\*** stands for multiplication, **gcd(x,y)** stands for the greatest common divisor of **x** and **y**, while **lcm(x,y)** stands for the least common multiple of **x** and **y**.
+</p><p>Here <b>*</b> stands for multiplication, <b>gcd(x,y)</b> stands for the greatest common divisor of <b>x</b> and <b>y</b>, while <b>lcm(x,y)</b> stands for the least common multiple of <b>x</b> and <b>y</b>.
 
-### Input
+<h3>Input</h3>
+</p><p>The first line of the input file contains one integer <b>T</b> -- the number of test cases (no more than 10). Each of the next <b>T</b> lines contains exactly three space-separated integers <b>a</b>, <b>b</b> and <b>c</b> (0 ≤ <b>a</b>, <b>b</b>, <b>c</b> ≤ 10<sup>6</sup>).
 
-The first line of the input file contains one integer **T** -- the number of test cases (no more than 10). Each of the next **T** lines contains exactly three space-separated integers **a**, **b** and **c** (0 ≤ **a**, **b**, **c** ≤ 106).
+<h3>Output</h3>
+</p><p>For each test case output one line containing the sought number of solutions to the equation. If there is an infinite number of solutions, output <b>-1</b> instead.
 
-### Output
-
-For each test case output one line containing the sought number of solutions to the equation. If there is an infinite number of solutions, output **-1** instead.
-
-### Example
+<h3>Example</h3>
 
 <pre>
 <b>Input:</b>
@@ -41,4 +30,4 @@ For each test case output one line containing the sought number of solutions to 
 
 <b>Explanation:</b>
 </pre>
-In the first test case, the only pairs are (2,4) and (4,2).
+In the first test case, the only pairs are (2,4) and (4,2).</p>    

@@ -1,53 +1,38 @@
 ---
-category_name: hard
-problem_code: ZUBSPOIL
-problem_name: 'H - Unpredictable Array'
-languages_supported:
-    - C
-    - CPP14
-    - JAVA
-    - PYTH
-    - 'PYTH 3.5'
-max_timelimit: '2'
-source_sizelimit: '50000'
-problem_author: zubaerkh
-problem_tester: null
-date_added: 24-11-2017
-tags:
-    - zubaerkh
-time:
-    view_start_date: 1517085000
-    submit_start_date: 1517085000
-    visible_start_date: 1517085000
-    end_date: 1735669800
-    current: 1525454450
-is_direct_submittable: false
-layout: problem
+{"category_name":"hard","problem_code":"ZUBSPOIL","problem_name":"H - Unpredictable Array","languages_supported":{"0":"C","1":"CPP14","2":"JAVA","3":"PYTH","4":"PYTH 3.5"},"max_timelimit":2,"source_sizelimit":50000,"problem_author":"zubaerkh","problem_tester":null,"date_added":"24-11-2017","tags":{"0":"zubaerkh"},"time":{"view_start_date":1517085000,"submit_start_date":1517085000,"visible_start_date":1517085000,"end_date":1735669800},"is_direct_submittable":false,"layout":"problem"}
 ---
-All submissions for this problem are available.Value of an array is defined as the sum of the absolute differences between pairs of consecutive elements in the array. Formally, for a given array **A = {A1, A2, A3, ... , An}**, value(**A**) = **|A1 - A2|** + **|A2 - A3|** + **|A3 - A4|** + ... + **|An-1 - An|**, where |**x**| means the absolute value of **x**.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><p>
+Value of an array is defined as the sum of the absolute differences between pairs of consecutive elements in the array. Formally, for a given array <b>A = {A<sub>1</sub>, A<sub>2</sub>, A<sub>3</sub>, ... , A<sub>n</sub>}</b>,
+value(<b>A</b>) = <b>|A<sub>1</sub> - A<sub>2</sub>|</b> + <b>|A<sub>2</sub> - A<sub>3</sub>|</b> + <b>|A<sub>3</sub> - A<sub>4</sub>|</b> + ... + <b>|A<sub>n-1</sub> - A<sub>n</sub>|</b>, where |<b>x</b>| means the absolute value of <b>x</b>.
+</p>
 
-You will be given an array **A** of **n** integers and **q** updates. Each update will have two integers **x** and **y**. For this update, you should replace *all* the occurrences of element **x** in the array with **y** and output the value of the new array.
+<p>
+You will be given an array <b>A</b> of <b>n</b> integers and <b>q</b> updates. Each update will have two integers <b>x</b> and <b>y</b>. For this update, you should replace <i>all</i> the occurrences of element <b>x</b> in the array with <b>y</b> and output the value of the new array.
+</p>
 
-### Input
+<h3>Input</h3>
+<p>
+Input starts with an integer <b>T</b>, denoting the number of test cases.
+</p>
+<p>
+The first line of each case contains two integers <b>n</b> and <b>q</b>. The next line contains <b>n</b> space separated integers <b>A<sub>1</sub>, A<sub>2</sub>, A<sub>3</sub>, ... , A<sub>n</sub></b> forming the initial array.
+</p>
+<p>
+Each of next <b>q</b> lines contains two space-separated integers <b>x</b> and <b>y</b>.
+</p>
 
-Input starts with an integer **T**, denoting the number of test cases.
+<h3>Output</h3>
+<p>For each test case, print <b>"Case t:"</b> (without quotes. <b>t</b> is the test case number) in the first line. Then print <b>q</b> lines. The <b>i<sup>th</sup></b> line should contain the value of the array after the <b>i<sup>th</sup></b> update.
 
-The first line of each case contains two integers **n** and **q**. The next line contains **n** space separated integers **A1, A2, A3, ... , An** forming the initial array.
+<h3>Constraints</h3>
+<p>
+<ul>
+<li>1 ≤ <b>T</b> ≤ 10</li>
+<li>1 ≤ <b>n, q</b> ≤ 100000</li>
+<li>1 ≤ <b>A<sub>i</sub>, x, y</b> ≤ 100000</li>
+</ul>
 
-Each of next **q** lines contains two space-separated integers **x** and **y**.
-
-### Output
-
-For each test case, print **"Case t:"** (without quotes. **t** is the test case number) in the first line. Then print **q** lines. The **ith** line should contain the value of the array after the **ith** update.
-
-### Constraints
-
-- 1 ≤ **T** ≤ 10
-- 1 ≤ **n, q** ≤ 100000
-- 1 ≤ **Ai, x, y** ≤ 100000
-
-### Example
-
+<h3>Example</h3>
 <pre><b>Input:</b>
 1
 5 3
@@ -62,16 +47,16 @@ Case 1:
 5
 7
 </pre>
-### Explanation
 
-After the first update,
+<h3>Explanation</h3>
+<p>
+After the first update,</p>
+<p><b>A</b> ={3, 2, 3, 4, 5}, Value(<b>A</b>) = |3-2| + |2-3| + |3-4| + |4-5| = 4</p>
 
-**A** ={3, 2, 3, 4, 5}, Value(**A**) = |3-2| + |2-3| + |3-4| + |4-5| = 4
+<p>
+After the second update, </p>
+<p><b>A</b> ={4, 2, 4, 4, 5}, Value(<b>A</b>) = |4-2| + |2-4| + |4-4| + |4-5| = 5 </p>
 
-After the second update,
-
-**A** ={4, 2, 4, 4, 5}, Value(**A**) = |4-2| + |2-4| + |4-4| + |4-5| = 5
-
-After the third update,
-
-**A** ={4, 2, 4, 4, 1}, Value(**A**) = |4-2| + |2-4| + |4-4| + |4-1| = 7
+<p>
+After the third update, </p>
+<p><b>A</b> ={4, 2, 4, 4, 1}, Value(<b>A</b>) = |4-2| + |2-4| + |4-4| + |4-1| = 7</p>

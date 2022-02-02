@@ -1,95 +1,20 @@
 ---
-category_name: medium
-problem_code: AMBALLS
-problem_name: 'Andrew and the Balls'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '1'
-source_sizelimit: '50000'
-problem_author: witua
-problem_tester: laycurse
-date_added: 19-04-2013
-tags:
-    - cook33
-    - dynamic
-    - medium
-    - witua
-editorial_url: 'http://discuss.codechef.com/problems/AMBALLS'
-time:
-    view_start_date: 1366569000
-    submit_start_date: 1366569000
-    visible_start_date: 1728420664
-    end_date: 1735669800
-    current: 1493557447
-layout: problem
+{"category_name":"medium","problem_code":"AMBALLS","problem_name":"Andrew and the Balls","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYTH","37":"PYTH 3.4","38":"RUBY","39":"SCALA","40":"SCM guile","41":"SCM qobi","42":"ST","43":"TCL","44":"TEXT","45":"WSPC"},"max_timelimit":1,"source_sizelimit":50000,"problem_author":"witua","problem_tester":"laycurse","date_added":"19-04-2013","tags":{"0":"cook33","1":"dynamic","2":"medium","3":"witua"},"editorial_url":"http://discuss.codechef.com/problems/AMBALLS","time":{"view_start_date":1366569000,"submit_start_date":1366569000,"visible_start_date":1728420664,"end_date":1735669800},"layout":"problem"}
 ---
-Andrew likes colored balls very much.
-
-He has **N** different colors of balls, all colors are numbered from **1** to **N**, inclusive. There are **C1** balls of the first color, **C2** balls of the second color, ..., **CN** balls of the **N**th color. All balls of the same color are identical.
-
-Now he wants to arrange all the balls in a row in such a way that no two consecutive balls have the same color. But he wonders in how many ways can he arrange all the balls. Help him to find the number of ways of arranging all the balls. The number can be very large, so you must output this number modulo **1000000007** (**109+7**).
-
-### Input
-
-The first line of the input contains an integer **T**, denoting the number of test cases. The description of **T** test cases follows. The first line of each test case contains single integer **N**. The second line contains **N** space-separated integers **C1**, **C2**, ..., **CN**.
-
-### Output
-
-For each test case, output an integer, denoting the number of ways that he arranges all the balls modulo **1000000007** (**109+7**).
-
-### Constraints
-
-- **1** ≤ **T** ≤ **7**
-- **1** ≤ **N** ≤ **200**
-- **1** ≤ **C1 + C2 + ... + CN** ≤ **200**
-
-### Example
-
+<p>Andrew likes colored balls very much.</p>
+<p>He has <b>N</b> different colors of balls, all colors are numbered from <b>1</b> to <b>N</b>, inclusive. There are <b>C<sub>1</sub></b> balls of the first color, <b>C<sub>2</sub></b> balls of the second color, ..., <b>C<sub>N</sub></b> balls of the <b>N</b><sup>th</sup> color. All balls of the same color are identical.</p>
+<p>Now he wants to arrange all the balls in a row in such a way that no two consecutive balls have the same color. But he wonders in how many ways can he arrange all the balls. Help him to find the number of ways of arranging all the balls. The number can be very large, so you must output this number modulo <b>1000000007</b> (<b>10<sup>9</sup>+7</b>).</p>
+<h3>Input</h3>
+<p>The first line of the input contains an integer <b>T</b>, denoting the number of test cases. The description of <b>T</b> test cases follows. The first line of each test case contains single integer <b>N</b>. The second line contains <b>N</b> space-separated integers <b>C<sub>1</sub></b>, <b>C<sub>2</sub></b>, ..., <b>C<sub>N</sub></b>.</p>
+<h3>Output</h3>
+<p>For each test case, output an integer, denoting the number of ways that he arranges all the balls modulo <b>1000000007</b> (<b>10<sup>9</sup>+7</b>).</p>
+<h3>Constraints</h3>
+<ul>
+<li><b>1</b> ≤ <b>T</b> ≤ <b>7</b></li>
+<li><b>1</b> ≤ <b>N</b> ≤ <b>200</b></li>
+<li><b>1</b> ≤ <b>C<sub>1</sub> + C<sub>2</sub> + ... + C<sub>N</sub></b> ≤ <b>200</b></li>
+</ul>
+<h3>Example</h3>
 <pre>
 <b>Input:</b>
 2
@@ -101,20 +26,6 @@ For each test case, output an integer, denoting the number of ways that he arran
 <b>Output:</b>
 1
 10
-</pre>
-### Explanation
-
-**Example case 1**: There is only one way to arrange all balls as follows
-color-**2** color-**1** color-**2**
-
-**Example case 2**: There are **10** ways to arrange all balls as follows
-color-**1** color-**2** color-**1** color-**3** color-**1** color-**3**
-color-**1** color-**2** color-**3** color-**1** color-**3** color-**1**
-color-**1** color-**3** color-**1** color-**2** color-**1** color-**3**
-color-**1** color-**3** color-**1** color-**2** color-**3** color-**1**
-color-**1** color-**3** color-**1** color-**3** color-**1** color-**2**
-color-**1** color-**3** color-**1** color-**3** color-**2** color-**1**
-color-**1** color-**3** color-**2** color-**1** color-**3** color-**1**
-color-**2** color-**1** color-**3** color-**1** color-**3** color-**1**
-color-**3** color-**1** color-**2** color-**1** color-**3** color-**1**
-color-**3** color-**1** color-**3** color-**1** color-**2** color-**1**
+</pre><h3>Explanation</h3>
+<p><b>Example case 1</b>: There is only one way to arrange all balls as follows<br />color-<b>2</b> color-<b>1</b> color-<b>2</b></p>
+<p><b>Example case 2</b>: There are <b>10</b> ways to arrange all balls as follows<br />color-<b>1</b> color-<b>2</b> color-<b>1</b> color-<b>3</b> color-<b>1</b> color-<b>3</b><br />color-<b>1</b> color-<b>2</b> color-<b>3</b> color-<b>1</b> color-<b>3</b> color-<b>1</b><br />color-<b>1</b> color-<b>3</b> color-<b>1</b> color-<b>2</b> color-<b>1</b> color-<b>3</b><br />color-<b>1</b> color-<b>3</b> color-<b>1</b> color-<b>2</b> color-<b>3</b> color-<b>1</b><br />color-<b>1</b> color-<b>3</b> color-<b>1</b> color-<b>3</b> color-<b>1</b> color-<b>2</b><br />color-<b>1</b> color-<b>3</b> color-<b>1</b> color-<b>3</b> color-<b>2</b> color-<b>1</b><br />color-<b>1</b> color-<b>3</b> color-<b>2</b> color-<b>1</b> color-<b>3</b> color-<b>1</b><br />color-<b>2</b> color-<b>1</b> color-<b>3</b> color-<b>1</b> color-<b>3</b> color-<b>1</b><br />color-<b>3</b> color-<b>1</b> color-<b>2</b> color-<b>1</b> color-<b>3</b> color-<b>1</b><br />color-<b>3</b> color-<b>1</b> color-<b>3</b> color-<b>1</b> color-<b>2</b> color-<b>1</b><br /></p>

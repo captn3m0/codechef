@@ -1,30 +1,22 @@
 ---
-languages_supported:
-    - NA
-title: REPSTR
-category: NA
-old_version: true
-problem_code: REPSTR
-tags:
-    - NA
-layout: problem
+{"languages_supported":{"0":"NA"},"title":"REPSTR","category":"NA","old_version":true,"problem_code":"REPSTR","tags":{"0":"NA"},"layout":"problem"}
 ---
-###  All submissions for this problem are available. 
 
-Given a string S (containing at most 105 lowercase English letters). You are requested to find out from continuous substrings a string having length from L to H, which appears the most times; if there are more than one answer, find the most length.
+<h3> All submissions for this problem are available. </h3><p>Given a string S (containing at most 10<sup>5</sup> lowercase English letters). You are requested to find out from continuous substrings a string having length from L to H, which appears the most times; if there are more than one answer, find the most length.</p>
 
-### Input
+<h3>Input</h3>
+<p>There are several test cases (fifteen at most), each formed as follows:
+<ul>
+<li>The first line contains two positive integers L, H.</li>
+<li>The second line contains the string S.</li>
+</ul>
+The input is ended with L = H = 0.
+</p>
 
-There are several test cases (fifteen at most), each formed as follows:
+<h3>Output</h3>
+<p>For each test case, output on a line two integers which are the number of times appearing and the length of the found string, respectively.</p>
 
-- The first line contains two positive integers L, H.
-- The second line contains the string S.
-
-The input is ended with L = H = 0. ### Output
-
-For each test case, output on a line two integers which are the number of times appearing and the length of the found string, respectively.
-
-### Example
+<h3>Example</h3>
 
 <pre>
 <b>Input:</b>
@@ -42,8 +34,8 @@ abcd
 6 3
 1 4
 </pre>
-### Explanation
 
-Case #1: **bcbc** occurs twice - at position 3 and position 5 (occurrences may overlap).
-Case #2: **bab** occurs 6 times.
-Case #3: **abcd** occurs 1 time.
+<h3>Explanation</h3>
+Case #1: <b>bcbc</b> occurs twice - at position 3 and position 5 (occurrences may overlap).<br />
+Case #2: <b>bab</b> occurs 6 times.<br />
+Case #3: <b>abcd</b> occurs 1 time.<br />    

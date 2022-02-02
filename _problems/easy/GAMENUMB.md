@@ -1,120 +1,57 @@
 ---
-category_name: easy
-problem_code: GAMENUMB
-problem_name: 'Game with numbers'
-languages_supported:
-    - C
-    - CPP14
-    - JAVA
-    - PYTH
-    - 'PYTH 3.5'
-    - PYPY
-    - CS2
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - RUBY
-    - PHP
-    - GO
-    - NODEJS
-    - HASK
-    - rust
-    - SCALA
-    - swift
-    - D
-    - PERL
-    - FORT
-    - WSPC
-    - ADA
-    - CAML
-    - ICK
-    - BF
-    - ASM
-    - CLPS
-    - PRLG
-    - ICON
-    - 'SCM qobi'
-    - PIKE
-    - ST
-    - NICE
-    - LUA
-    - BASH
-    - NEM
-    - 'LISP sbcl'
-    - 'LISP clisp'
-    - 'SCM guile'
-    - JS
-    - ERL
-    - TCL
-    - kotlin
-    - PERL6
-    - TEXT
-    - 'SCM chicken'
-    - CLOJ
-    - COB
-    - FS
-max_timelimit: '1'
-source_sizelimit: '50000'
-problem_author: kingofnumbers
-problem_tester: mgch
-date_added: 21-02-2018
-tags:
-    - easy
-    - game
-    - kingofnumbers
-    - ltime57
-    - sorting
-editorial_url: 'https://discuss.codechef.com/problems/GAMENUMB'
-time:
-    view_start_date: 1519491600
-    submit_start_date: 1519491600
-    visible_start_date: 1519491600
-    end_date: 1735669800
-    current: 1525198885
-is_direct_submittable: false
-layout: problem
+{"category_name":"easy","problem_code":"GAMENUMB","problem_name":"Game with numbers","languages_supported":{"0":"C","1":"CPP14","2":"JAVA","3":"PYTH","4":"PYTH 3.5","5":"PYPY","6":"CS2","7":"PAS fpc","8":"PAS gpc","9":"RUBY","10":"PHP","11":"GO","12":"NODEJS","13":"HASK","14":"rust","15":"SCALA","16":"swift","17":"D","18":"PERL","19":"FORT","20":"WSPC","21":"ADA","22":"CAML","23":"ICK","24":"BF","25":"ASM","26":"CLPS","27":"PRLG","28":"ICON","29":"SCM qobi","30":"PIKE","31":"ST","32":"NICE","33":"LUA","34":"BASH","35":"NEM","36":"LISP sbcl","37":"LISP clisp","38":"SCM guile","39":"JS","40":"ERL","41":"TCL","42":"kotlin","43":"PERL6","44":"TEXT","45":"SCM chicken","46":"CLOJ","47":"COB","48":"FS"},"max_timelimit":1,"source_sizelimit":50000,"problem_author":"kingofnumbers","problem_tester":"mgch","date_added":"21-02-2018","tags":{"0":"easy","1":"game","2":"kingofnumbers","3":"ltime57","4":"sorting"},"editorial_url":"https://discuss.codechef.com/problems/GAMENUMB","time":{"view_start_date":1519491600,"submit_start_date":1519491600,"visible_start_date":1519491600,"end_date":1735669800},"is_direct_submittable":false,"layout":"problem"}
 ---
-All submissions for this problem are available.### Read problems statements in [Mandarin chinese](http://www.codechef.com/download/translated/LTIME57/mandarin/GAMENUMB.pdf), [Russian](http://www.codechef.com/download/translated/LTIME57/russian/GAMENUMB.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME57/vietnamese/GAMENUMB.pdf) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3>Read problems statements in <a target="_blank" 
+href="http://www.codechef.com/download/translated/LTIME57/mandarin/GAMENUMB.pdf">Mandarin chinese</a>, <a target="_blank" 
+href="http://www.codechef.com/download/translated/LTIME57/russian/GAMENUMB.pdf">Russian</a> and <a target="_blank" 
+href="http://www.codechef.com/download/translated/LTIME57/vietnamese/GAMENUMB.pdf">Vietnamese</a> as well.</h3>
 
-Chef is playing a game with his brother Chefu. Before the game begins, **C** cards are placed on a table. Each card has a number written on it; since **C** can be very large, these numbers are described by two sequences **A** and **D**. Each of these sequences has length **N**; for each **i** (1 ≤ **i** ≤ **N**), **Di** cards, each with number **Ai** written on it, are placed on the table. Therefore, **C** is equal to the sum of elements of **D**. Note that the elements of **A** don't have to be unique.
+<p>Chef is playing a game with his brother Chefu. Before the game begins, <b>C</b> cards are placed on a table. Each card has a number written on it; since <b>C</b> can be very large, these numbers are described by two sequences <b>A</b> and <b>D</b>. Each of these sequences has length <b>N</b>; for each <b>i</b> (1 ≤ <b>i</b> ≤ <b>N</b>), <b>D<sub>i</sub></b> cards, each with number <b>A<sub>i</sub></b> written on it, are placed on the table. Therefore, <b>C</b> is equal to the sum of elements of <b>D</b>. Note that the elements of <b>A</b> don't have to be unique.</p>
 
-You are also given a sequence **B** with length **K**. The game will last for exactly **K** rounds numbered 1 through **K**. The players alternate turns — Chef plays on odd-numbered turns and his brother on even-numbered turns. In the **i**-th round, the current player must select **Bi** cards currently lying on the table, keep these cards on the table and discard all other cards.
+<p>You are also given a sequence <b>B</b> with length <b>K</b>. The game will last for exactly <b>K</b> rounds numbered 1 through <b>K</b>. The players alternate turns — Chef plays on odd-numbered turns and his brother on even-numbered turns. In the <b>i</b>-th round, the current player must select <b>B<sub>i</sub></b> cards currently lying on the table, keep these cards on the table and discard all other cards.</p>
 
-Chef's goal is to maximize the sum of numbers written on cards that remain on the table after the last round, while Chefu's goal is minimize this sum. What will be the sum of numbers written on cards remaining on the table if both players play optimally?
+<p>Chef's goal is to maximize the sum of numbers written on cards that remain on the table after the last round, while Chefu's goal is minimize this sum. What will be the sum of numbers written on cards remaining on the table if both players play optimally?</p>
 
-### Input
+<h3>Input</h3>
+<ul>
+<li>The first line of the input contains a single integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</li>
+<li>The first line of each test case contains two space-separated integers <b>N</b> and <b>K</b>.</li>
+<li>The second line contains <b>N</b> space-separated integers <b>A<sub>1</sub>, A<sub>2</sub>, ..., A<sub>N</sub></b>.</li>
+<li>The third line contains <b>N</b> space-separated integers <b>D<sub>1</sub>, D<sub>2</sub>, ..., D<sub>N</sub></b>.</li>
+<li>The fourth line contains <b>K</b> space-separated integers <b>B<sub>1</sub>, B<sub>2</sub>, ..., B<sub>K</sub></b>.</li>
+</ul>
 
-- The first line of the input contains a single integer **T** denoting the number of test cases. The description of **T** test cases follows.
-- The first line of each test case contains two space-separated integers **N** and **K**.
-- The second line contains **N** space-separated integers **A1, A2, ..., AN**.
-- The third line contains **N** space-separated integers **D1, D2, ..., DN**.
-- The fourth line contains **K** space-separated integers **B1, B2, ..., BK**.
+<h3>Output</h3>
+<p>For each test case, print a single line containing one integer — the sum of numbers on cards that remain on the table at the end of the game.</p>
 
-### Output
+<h3>Constraints</h3>
+<ul>
+<li>1 ≤ <b>T</b> ≤ 100</li>
+<li>1 ≤ <b>N</b>, <b>K</b> ≤ 100,000</li>
+<li>1 ≤ sum of <b>N</b> over all test cases ≤ 100,000</li>
+<li>1 ≤ sum of <b>K</b> over all test cases ≤ 100,000</li>
+<li>1 ≤ <b>A<sub>i</sub></b>, <b>D<sub>i</sub></b> ≤ 1,000,000 for each valid <b>i</b></li>
+<li>1 ≤ <b>B<sub>i</sub></b> ≤ <b>C</b> for each valid <b>i</b></li>
+<li><b>B<sub>i+1</sub></b> < <b>B<sub>i</sub></b> for each valid <b>i</b></li>
 
-For each test case, print a single line containing one integer — the sum of numbers on cards that remain on the table at the end of the game.
+</ul>
 
-### Constraints
+<h3>Subtasks</h3>
 
-- 1 ≤ **T** ≤ 100
-- 1 ≤ **N**, **K** ≤ 100,000
-- 1 ≤ sum of **N** over all test cases ≤ 100,000
-- 1 ≤ sum of **K** over all test cases ≤ 100,000
-- 1 ≤ **Ai**, **Di** ≤ 1,000,000 for each valid **i**
-- 1 ≤ **Bi** ≤ **C** for each valid **i**
-- **Bi+1** Bi for each valid **i**
+<p>
+<b>Subtask #1 (20 points):</b> 
+<ul>
+<li><b>D<sub>i</sub></b> = 1 for each valid <b>i</b></li>
+<li>sum of <b>N</b> over all test cases ≤ 1,000</li>
+<li>sum of <b>K</b> over all test cases ≤ 1,000</lI>
+</ul>
+</p>
 
-### Subtasks
+<p>
+<b>Subtask #2 (80 points):</b> original constraints
+</p>
 
-**Subtask #1 (20 points):**
-
-- **Di** = 1 for each valid **i**
-- sum of **N** over all test cases ≤ 1,000
-- sum of **K** over all test cases ≤ 1,000
-
-**Subtask #2 (80 points):** original constraints
-
-### Example
-
+<h3>Example</h3>
 <pre><b>Input:</b>
 
 1
@@ -127,6 +64,8 @@ For each test case, print a single line containing one integer — the sum of nu
 
 7
 </pre>
-### Explanation
 
-**Example case 1:** The cards that are on table initially are 1, 1, 2, 2, 3, 3, 4, 4 Chef in his turn should select 6 cards to keep and discard the rest, so he will keep 2, 2, 3, 3, 4, 4 after that Chefu should keep 3 cards and discard the rest, so he will keep 2, 2, 3 after that the game ends and sum of cards remained on the table is 2 + 2 + 3 = 7
+<h3>Explanation</h3>
+<p><b>Example case 1:</b> The cards that are on table initially are 1, 1, 2, 2, 3, 3, 4, 4 Chef in his turn should select 6 cards to keep and discard the rest, so he will keep 2, 2,
+ 3, 3, 4, 4 after that Chefu should keep 3 cards and discard the rest, so he will keep 2, 2,
+ 3 after that the game ends and sum of cards remained on the table is 2 + 2 + 3 = 7</p>

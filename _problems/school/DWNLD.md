@@ -1,105 +1,33 @@
 ---
-category_name: school
-problem_code: DWNLD
-problem_name: 'Download file'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYPY
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM chicken'
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '1'
-source_sizelimit: '50000'
-problem_author: kingofnumbers
-problem_tester: errichto
-date_added: 20-10-2016
-tags:
-    - cakewalk
-    - cook79
-    - kingofnumbers
-editorial_url: 'https://discuss.codechef.com/problems/DWNLD'
-time:
-    view_start_date: 1487529000
-    submit_start_date: 1487529000
-    visible_start_date: 1487529000
-    end_date: 1735669800
-    current: 1492506713
-layout: problem
+{"category_name":"school","problem_code":"DWNLD","problem_name":"Download file","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYPY","37":"PYTH","38":"PYTH 3.4","39":"RUBY","40":"SCALA","41":"SCM chicken","42":"SCM guile","43":"SCM qobi","44":"ST","45":"TCL","46":"TEXT","47":"WSPC"},"max_timelimit":1,"source_sizelimit":50000,"problem_author":"kingofnumbers","problem_tester":"errichto","date_added":"20-10-2016","tags":{"0":"cakewalk","1":"cook79","2":"kingofnumbers"},"editorial_url":"https://discuss.codechef.com/problems/DWNLD","time":{"view_start_date":1487529000,"submit_start_date":1487529000,"visible_start_date":1487529000,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/COOK79/mandarin/DWNLD.pdf), [Russian](http://www.codechef.com/download/translated/COOK79/russian/DWNLD.pdf) and [Vietnamese](http://www.codechef.com/download/translated/COOK79/vietnamese/DWNLD.pdf) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3> Read problems statements in <a target="_blank" href="http://www.codechef.com/download/translated/COOK79/mandarin/DWNLD.pdf">Mandarin Chinese</a>, <a target="_blank" href="http://www.codechef.com/download/translated/COOK79/russian/DWNLD.pdf">Russian</a> and <a target="_blank" href="http://www.codechef.com/download/translated/COOK79/vietnamese/DWNLD.pdf">Vietnamese</a> as well.</h3>
 
-Chef has recently got a broadband internet connection. His history of internet data usage is provided as below.
+<p>Chef has recently got a broadband internet connection. His history of internet data usage is provided as below.</p>
 
-During the first **T1** minutes, the internet data used was **D1** MBs per minute, and during the next **T2** minutes, it was **D2** MBs per minute, and so on till during last **TN** minutes it was **DN** MBs per minute.
+<p>During the first <b>T<sub>1</sub></b> minutes, the internet data used was <b>D<sub>1</sub></b> MBs per minute, and during the next <b>T<sub>2</sub></b> minutes, it was <b>D<sub>2</sub></b> MBs per minute, and so on till during last <b>T<sub>N</b> minutes it was <b>D<sub>N</sub></b> MBs per minute.</p>
 
-The internet provider charges the Chef **1** dollar for every **1** MB data used, except for the first **K** minutes, when the internet data is free as part of the plan provided to Chef.
+<p>The internet provider charges the Chef <b>1</b> dollar for every <b>1</b> MB data used, except for the first <b>K</b> minutes, when the internet data is free as part of the plan provided to Chef.</p>
 
-Please find out the total amount that Chef has to pay the internet provider (in dollars).
+<p>Please find out the total amount that Chef has to pay the internet provider (in dollars).</p>
 
-### Input
+<h3>Input</h3>
+<p>First line of the input contains a single integer <b>TC</b> the number of test cases. Description of <b>TC</b> test cases follow.</p>
+<p>First line of each test case contains two space separated integers <b>N</b> and <b>K</b>.</p>
+<p>Next <b>N</b> lines of each test case contains information about the internet data usage. Specifically, in the <b>i</b>-th line, there will be two space separated integers: <b>T<sub>i</sub></b> and <b>D<sub>i</sub></b>.</p> 
 
-First line of the input contains a single integer **TC** the number of test cases. Description of **TC** test cases follow.
+<h3>Output</h3>
+<p>For each test case output a single integer in separate line, the amount that Chef has to pay in dollars.</p>
 
-First line of each test case contains two space separated integers **N** and **K**.
+<h3>Constraints</h3>
+<ul>
+<li><b>1</b> ≤ <b>TC</b> ≤ <b>1,000</b></li>
+<li><b>1</b> ≤ <b>N</b> ≤ <b>10</b></li>
+<li><b>0</b> ≤ <b>K</b> ≤ <b>T<sub>1</sub> + T<sub>2</sub> + ... + T<sub>N</sub> </b></li>
+<li><b>1</b> ≤ <b>T<sub>i</sub></b>, <b>D<sub>i</sub></b> ≤ <b>10</b></li>
+</ul>
 
-Next **N** lines of each test case contains information about the internet data usage. Specifically, in the **i**-th line, there will be two space separated integers: **Ti** and **Di**.
-
-### Output
-
-For each test case output a single integer in separate line, the amount that Chef has to pay in dollars.
-
-### Constraints
-
-- **1** ≤ **TC** ≤ **1,000**
-- **1** ≤ **N** ≤ **10**
-- 0 ≤ **K** ≤ **T1 + T2 + ... + TN**
-- **1** ≤ **Ti**, **Di** ≤ **10**
-
-### Example
-
+<h3>Example</h3>
 <pre><b>Input:</b>
 3
 2 2
@@ -117,10 +45,11 @@ For each test case output a single integer in separate line, the amount that Che
 3
 110
 </pre>
-### Explanation
 
-**Example case 1.** For the first two minutes, internet data of usage of Chef is free. He has to pay for last 2 minutes only, for which he will be charged at 3 dollars per minute, i.e. total 6 dollars.
+<h3>Explanation</h3>
+<p><b>Example case 1.</b> For the first two minutes, internet data of usage of Chef is free. He has to pay for last 2 minutes only, for which he will be charged at 3 dollars per minute, i.e. total 6 dollars.</p>
 
-**Example case 2.** For the first two minutes, internet data of usage of Chef is free. He has to pay for last 1 minute only, for which he is being charged at 3 dollars per minute. So, in total he has to pay 3 dollars.
+<p><b>Example case 2.</b> For the first two minutes, internet data of usage of Chef is free. He has to pay for last 1 minute only, for which he is being charged at 3 dollars per minute. So, in total he has to pay 3 dollars.</p>
 
-**Example case 3.** This time, Chef is not provided any free data usage. He has to pay for entire data usage, which comes out to be 1 \* 2 + 2 \* 4 + 10 \* 10 = 110 dollars.
+<p><b>Example case 3.</b> This time, Chef is not provided any free data usage. He has to pay 
+for entire data usage, which comes out to be 1 * 2 + 2 * 4 + 10 * 10 = 110 dollars.</p>

@@ -1,109 +1,44 @@
 ---
-category_name: school
-problem_code: L56GAME
-problem_name: 'Chef and Game with Sequence'
-languages_supported:
-    - C
-    - CPP14
-    - JAVA
-    - PYTH
-    - 'PYTH 3.5'
-    - PYPY
-    - CS2
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - RUBY
-    - PHP
-    - GO
-    - NODEJS
-    - HASK
-    - rust
-    - SCALA
-    - swift
-    - D
-    - PERL
-    - FORT
-    - WSPC
-    - ADA
-    - CAML
-    - ICK
-    - BF
-    - ASM
-    - CLPS
-    - PRLG
-    - ICON
-    - 'SCM qobi'
-    - PIKE
-    - ST
-    - NICE
-    - LUA
-    - BASH
-    - NEM
-    - 'LISP sbcl'
-    - 'LISP clisp'
-    - 'SCM guile'
-    - JS
-    - ERL
-    - TCL
-    - kotlin
-    - PERL6
-    - TEXT
-    - 'SCM chicken'
-    - CLOJ
-    - COB
-    - FS
-max_timelimit: '0.5'
-source_sizelimit: '50000'
-problem_author: kefaa
-problem_tester: mgch
-date_added: 16-01-2018
-tags:
-    - cakewalk
-    - kefaa
-    - ltime56
-    - taran_1407
-editorial_url: 'https://discuss.codechef.com/problems/L56GAME'
-time:
-    view_start_date: 1517073000
-    submit_start_date: 1517073000
-    visible_start_date: 1517073000
-    end_date: 1735669800
-    current: 1525454388
-is_direct_submittable: false
-layout: problem
+{"category_name":"school","problem_code":"L56GAME","problem_name":"Chef and Game with Sequence","languages_supported":{"0":"C","1":"CPP14","2":"JAVA","3":"PYTH","4":"PYTH 3.5","5":"PYPY","6":"CS2","7":"PAS fpc","8":"PAS gpc","9":"RUBY","10":"PHP","11":"GO","12":"NODEJS","13":"HASK","14":"rust","15":"SCALA","16":"swift","17":"D","18":"PERL","19":"FORT","20":"WSPC","21":"ADA","22":"CAML","23":"ICK","24":"BF","25":"ASM","26":"CLPS","27":"PRLG","28":"ICON","29":"SCM qobi","30":"PIKE","31":"ST","32":"NICE","33":"LUA","34":"BASH","35":"NEM","36":"LISP sbcl","37":"LISP clisp","38":"SCM guile","39":"JS","40":"ERL","41":"TCL","42":"kotlin","43":"PERL6","44":"TEXT","45":"SCM chicken","46":"CLOJ","47":"COB","48":"FS"},"max_timelimit":0.5,"source_sizelimit":50000,"problem_author":"kefaa","problem_tester":"mgch","date_added":"16-01-2018","tags":{"0":"cakewalk","1":"kefaa","2":"ltime56","3":"taran_1407"},"editorial_url":"https://discuss.codechef.com/problems/L56GAME","time":{"view_start_date":1517073000,"submit_start_date":1517073000,"visible_start_date":1517073000,"end_date":1735669800},"is_direct_submittable":false,"layout":"problem"}
 ---
-All submissions for this problem are available.### Read problems statements in [Mandarin chinese](http://www.codechef.com/download/translated/LTIME56/mandarin/L56GAME.pdf), [Russian](http://www.codechef.com/download/translated/LTIME56/russian/L56GAME.pdf) and [Vietnamese](http://www.codechef.com/download/translated/LTIME56/vietnamese/L56GAME.pdf) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3>Read problems statements in <a target="_blank" 
+href="http://www.codechef.com/download/translated/LTIME56/mandarin/L56GAME.pdf">Mandarin chinese</a>, <a target="_blank" 
+href="http://www.codechef.com/download/translated/LTIME56/russian/L56GAME.pdf">Russian</a> and <a target="_blank" 
+href="http://www.codechef.com/download/translated/LTIME56/vietnamese/L56GAME.pdf">Vietnamese</a> as well.</h3>
 
-Chef has a sequence **A** containing **N** integers **A1, A2, ..., AN**.
+<p>Chef has a sequence <b>A</b> containing <b>N</b> integers <b>A<sub>1</sub>, A<sub>2</sub>, ..., A<sub>N</sub></b>.</p>
 
-Chef is playing a game with this sequence. In this game, he may perform the following operation any number of times (including zero): Choose an arbitrary pair of elements from the sequence such that their sum is even, delete these two elements from the sequence and insert their sum into the sequence instead.
+<p>Chef is playing a game with this sequence. In this game, he may perform the following operation any number of times (including zero): Choose an arbitrary pair of elements from the sequence such that their sum is even, delete these two elements from the sequence and insert their sum into the sequence instead.</p>
 
-The goal of the game is to minimise the number of elements in the sequence.
+<p>The goal of the game is to minimise the number of elements in the sequence.</p>
 
-Help Chef to play the game and find the minimum possible size of the sequence at the end of the game!
+<p>Help Chef to play the game and find the minimum possible size of the sequence at the end of the game!</p>
 
-### Input
+<h3>Input</h3>
+<ul>
+<li>The first line of the input contains a single integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</li> 
+<li>The first line of each test case contains a single integer <b>N</b>.</li>
+<li>The second line contains <b>N</b> space-separated integers <b>A<sub>1</sub>, A<sub>2</sub>, ..., A<sub>N</sub></b>.</li>
+</ul>
 
-- The first line of the input contains a single integer **T** denoting the number of test cases. The description of **T** test cases follows.
-- The first line of each test case contains a single integer **N**.
-- The second line contains **N** space-separated integers **A1, A2, ..., AN**.
-
-### Output
-
+<h3>Output</h3>
+<p>
 For each test case, print a single line containing one integer — the minimum possible final size of the sequence.
+</p>
 
-### Constraints
+<h3>Constraints</h3>
+<ul>
+<li>1 ≤ <b>T</b> ≤ 100</li>
+<li>1 ≤ <b>N</b> ≤ 100</li>
+<li>1 ≤ <b>A<sub>i</sub></b> ≤ 1,000 for each valid <b>i</b></li>
+</ul>
 
-- 1 ≤ **T** ≤ 100
-- 1 ≤ **N** ≤ 100
-- 1 ≤ **Ai** ≤ 1,000 for each valid **i**
+<h3>Subtasks</h3>
+<p>
+<b>Subtask #1 (100 points):</b> original constraints
+</p>
 
-### Subtasks
-
-**Subtask #1 (100 points):** original constraints
-
-### Example
-
+<h3>Example</h3>
 <pre><b>Input:</b>
 
 2
@@ -117,8 +52,8 @@ For each test case, print a single line containing one integer — the minimum p
 2
 1
 </pre>
-### Example
 
-**Example case 1:** There is no pair of elements with an even sum. Thus, the sequence must remain the same and the answer is 2.
+<h3>Example</h3>
+<p><b>Example case 1:</b> There is no pair of elements with an even sum. Thus, the sequence must remain the same and the answer is 2.</p>
 
-**Example case 2:** Chef can choose elements 7 and 3 in the first step, delete them and insert 10 in the sequence. Now all its elements are even and Chef can choose any two elements on each of the following steps of the game until the sequence contains only one element.
+<p><b>Example case 2:</b> Chef can choose elements 7 and 3 in the first step, delete them and insert 10 in the sequence. Now all its elements are even and Chef can choose any two elements on each of the following steps of the game until the sequence contains only one element.</p>

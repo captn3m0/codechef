@@ -1,30 +1,19 @@
 ---
-languages_supported:
-    - NA
-title: DPOWPERM
-category: NA
-old_version: true
-problem_code: DPOWPERM
-tags:
-    - NA
-layout: problem
+{"languages_supported":{"0":"NA"},"title":"DPOWPERM","category":"NA","old_version":true,"problem_code":"DPOWPERM","tags":{"0":"NA"},"layout":"problem"}
 ---
-###  All submissions for this problem are available. 
 
-Let **N** be a positive integer and **S = {1, 2, 3, ..., N}**. For a given positive integer **d** the function **f : S --&gt; S** is called **d**-power permutation if there exists a bijection **g : S --&gt; S** such that **g ( g ( ... g ( x ) ... ) ) = f(x)** for each **x** from **S** , where **g** is repeated exactly **d** times.
+<h3> All submissions for this problem are available. </h3><p>
+Let <b>N</b> be a positive integer and <b>S = {1, 2, 3, ..., N}</b>. For a given positive integer <b>d</b> the function <b>f : S --&gt; S</b> is called <b>d</b>-power permutation if there exists a bijection <b>g : S --&gt; S</b> such that <b>g ( g ( ... g ( x ) ... ) ) = f(x)</b> for each <b>x</b> from <b>S</b> , where <b>g</b> is repeated exactly <b>d</b> times.
+</p><p></p><p>
+You are given some bijection <b>f : S --&gt; S</b> and a positive integer <b>D</b>. You need to find the number of those <b>d &lt;= D</b> such that <b>f</b> is <b>d</b>-power permutation.
 
-You are given some bijection **f : S --&gt; S** and a positive integer **D**. You need to find the number of those **d &lt;= D** such that **f** is **d**-power permutation.
+<h3>Input</h3>
+</p><p> The first line contains a single positive integer <b>T &lt;= 10</b>, the number of test cases. <b>T</b> test cases follow. The first line of each test case contains two positive integers <b>N</b> and <b>D</b>, where <b>N &lt;= 700</b> and <b>D &lt;= 10<sup>18</sup></b>. The second line contains <b>N</b> space-separated integers. <b>i</b><sup>th</sup> number in the second line is the value <b>f(i)</b>. It is guaranteed that <b>f</b> is bijection from <b>S</b> onto <b>S</b>.
 
-### Input
+<h3>Output</h3>
+</p><p> For each test case, output a single line containing the answer for the corresponding test case.
 
- The first line contains a single positive integer **T &lt;= 10**, the number of test cases. **T** test cases follow. The first line of each test case contains two positive integers **N** and **D**, where **N &lt;= 700** and **D &lt;= 1018**. The second line contains **N** space-separated integers. **i**th number in the second line is the value **f(i)**. It is guaranteed that **f** is bijection from **S** onto **S**.
-
-### Output
-
- For each test case, output a single line containing the answer for the corresponding test case.
-
-### Example
-
+<h3>Example</h3>
 <pre>
 <b>Input:</b>
 2
@@ -37,6 +26,6 @@ You are given some bijection **f : S --&gt; S** and a positive integer **D**. Yo
 6
 3
 </pre>
-### Explanation
 
-In the second case the appropriate values of **d** is 1, 5 and 7.
+<h3>Explanation</h3>
+In the second case the appropriate values of <b>d</b> is 1, 5 and 7.</p>    

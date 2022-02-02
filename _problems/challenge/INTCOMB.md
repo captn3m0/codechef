@@ -1,94 +1,30 @@
 ---
-category_name: challenge
-problem_code: INTCOMB
-problem_name: 'Integer Combinations Of Vectors'
-languages_supported:
-    - C
-    - CPP14
-    - JAVA
-    - PYTH
-    - 'PYTH 3.5'
-    - PYPY
-    - CS2
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - RUBY
-    - PHP
-    - GO
-    - NODEJS
-    - HASK
-    - rust
-    - SCALA
-    - swift
-    - D
-    - PERL
-    - FORT
-    - WSPC
-    - ADA
-    - CAML
-    - ICK
-    - BF
-    - ASM
-    - CLPS
-    - PRLG
-    - ICON
-    - 'SCM qobi'
-    - PIKE
-    - ST
-    - NICE
-    - LUA
-    - BASH
-    - NEM
-    - 'LISP sbcl'
-    - 'LISP clisp'
-    - 'SCM guile'
-    - JS
-    - ERL
-    - kotlin
-    - PERL6
-    - TEXT
-    - 'SCM chicken'
-    - CLOJ
-    - COB
-    - FS
-max_timelimit: '7.95992'
-source_sizelimit: '50000'
-problem_author: friggstad
-problem_tester: anshuman_singh
-date_added: 8-09-2010
-tags:
-    - challenge
-    - friggstad
-    - oct10
-editorial_url: 'http://discuss.codechef.com/problems/INTCOMB'
-time:
-    view_start_date: 1286793691
-    submit_start_date: 1286793691
-    visible_start_date: 1286793691
-    end_date: 1735669800
-    current: 1525199664
-is_direct_submittable: false
-layout: problem
+{"category_name":"challenge","problem_code":"INTCOMB","problem_name":"Integer Combinations Of Vectors","languages_supported":{"0":"C","1":"CPP14","2":"JAVA","3":"PYTH","4":"PYTH 3.5","5":"PYPY","6":"CS2","7":"PAS fpc","8":"PAS gpc","9":"RUBY","10":"PHP","11":"GO","12":"NODEJS","13":"HASK","14":"rust","15":"SCALA","16":"swift","17":"D","18":"PERL","19":"FORT","20":"WSPC","21":"ADA","22":"CAML","23":"ICK","24":"BF","25":"ASM","26":"CLPS","27":"PRLG","28":"ICON","29":"SCM qobi","30":"PIKE","31":"ST","32":"NICE","33":"LUA","34":"BASH","35":"NEM","36":"LISP sbcl","37":"LISP clisp","38":"SCM guile","39":"JS","40":"ERL","41":"kotlin","42":"PERL6","43":"TEXT","44":"SCM chicken","45":"CLOJ","46":"COB","47":"FS"},"max_timelimit":7.95992,"source_sizelimit":50000,"problem_author":"friggstad","problem_tester":"anshuman_singh","date_added":"8-09-2010","tags":{"0":"challenge","1":"friggstad","2":"oct10"},"editorial_url":"http://discuss.codechef.com/problems/INTCOMB","time":{"view_start_date":1286793691,"submit_start_date":1286793691,"visible_start_date":1286793691,"end_date":1735669800},"is_direct_submittable":false,"layout":"problem"}
 ---
-All submissions for this problem are available.You are given a collection of n integer-valued vectors **v**1, **v**2, ..., **v**n (i.e. integer arrays) of some fixed dimension. An integer combination of these vectors is a vector of the form **v** = c1**v**1 + ... + cn**v**n where each ci is an integer. Here, the j'th component **v**\[j\] is precisely c\[1\]**v**1\[j\] + ... + c\[n\]**v**n\[j\].
+<span class="solution-visible-txt">All submissions for this problem are available.</span><p>
+You are given a collection of n integer-valued vectors <b>v</b><sub>1</sub>, <b>v</b><sub>2</sub>, ..., <b>v</b><sub>n</sub> (i.e. integer arrays) of some fixed dimension. An integer combination of these vectors is a vector of the form <b>v</b> = c<sub>1</sub><b>v</b><sub>1</sub> + ... + c<sub>n</sub><b>v</b><sub>n</sub> where each c<sub>i</sub> is an integer. Here, the j'th component <b>v</b>[j] is precisely c[1]<b>v</b><sub>1</sub>[j] + ... + c[n]<b>v</b><sub>n</sub>[j].
 
-Define the length of a vector **x** = (x\[1\], x\[2\], ..., x\[n\]) to be the square root of x\[1\]\*x\[1\] + x\[2\]\*x\[2\] + ... + x\[n\]\*x\[n\]. Your task is to find a short integer combination of vectors **v**1, ..., **v**n whose length is non-zero.
+</p><p>
+Define the length of a vector <b>x</b> = (x[1], x[2], ..., x[n]) to be the square root of x[1]*x[1] + x[2]*x[2] + ... + x[n]*x[n]. Your task is to find a short integer combination of vectors <b>v</b><sub>1</sub>, ..., <b>v</b><sub>n</sub> whose length is non-zero.
 
-### Input
-
+<h3>Input</h3>
+</p><p>
 The first line contains a single integer T ≤ 30 indicating the number of test cases to follow. Each test case begins with two integers n and d, both between 1 and 100, where n is the number of vectors in the test case and d is their common dimension.
 
-Then n lines follow, each containing d integers. The j'th number on the i'th line is the j'th component of vector **v**i (i.e. **v**i\[j\]). Every such integer is between -100 and 100 (inclusive). None of the input vectors will be a zero vector. This means that for each i, at least one j is such that **v**i\[j\] ≠ 0.
+</p><p>
+Then n lines follow, each containing d integers. The j'th number on the i'th line is the j'th component of vector <b>v</b><sub>i</sub> (i.e. <b>v</b><sub>i</sub>[j]). Every such integer is between -100 and 100 (inclusive). None of the input vectors will be a zero vector. This means that for each i, at least one j is such that <b>v</b><sub>i</sub>[j] ≠ 0.
 
+</p><p>
 Test cases are separated by a single blank line including a blank line preceding the first test case.
 
-### Output
+<h3>Output</h3>
+</p><p>
+For each test case, you are to output a single line consisting of n integers where the i'th integer is the value of the coefficient c[i] in some integer combination of the input vectors. The value must satisfy -100 ≤ c[i] ≤ 100. 
 
-For each test case, you are to output a single line consisting of n integers where the i'th integer is the value of the coefficient c\[i\] in some integer combination of the input vectors. The value must satisfy -100 ≤ c\[i\] ≤ 100.
-
+</p><p>
 Furthermore, the integer combination of the input vectors using these coefficients must produce a non-zero vector. That is, the vector must have positive length.
 
-### Example
+<h3>Example</h3>
 
 <pre>
 <b>Input:</b>
@@ -108,18 +44,21 @@ Furthermore, the integer combination of the input vectors using these coefficien
 -3 1
 -1 0 1 0
 </pre>
-### Scoring
 
+<h3>Scoring</h3>
+</p><p>
 The score for a test case is the length of the integer combination as given by the output coefficients divided by the length of the shortest input vector. The total score for the entire data set is simply the sum of the scores of the individual test cases.
 
-### Example
+<h3>Example</h3>
+</p><p>
+The integer combination represented by the output in the first test case is -3*(14) + 1*(35) = (-7). The length of the vector (-7) is simply 7. The length of the shortest vector in the input is 14 so the score for this case is 0.5.
 
-The integer combination represented by the output in the first test case is -3\*(14) + 1\*(35) = (-7). The length of the vector (-7) is simply 7. The length of the shortest vector in the input is 14 so the score for this case is 0.5.
+</p><p>
+The integer combination represented by the output for the second test case is -1*(1,4,1,2,5) + 1*(0,1,2,3,7) = (-1,-3,1,1,2). The length of this is the square root of 1*1 + 3*3 + 1*1 + 1*1 + 2*2 = 16, so the length is 4. The shortest vector in the input is the first one having length equal to the square root of 1*1 + 4*4 + 1*1 + 2*2 + 5*5 = 47 which is roughly 6.855. Thus, the score for the second case is 4/6.855 = 0.5835.
 
-The integer combination represented by the output for the second test case is -1\*(1,4,1,2,5) + 1\*(0,1,2,3,7) = (-1,-3,1,1,2). The length of this is the square root of 1\*1 + 3\*3 + 1\*1 + 1\*1 + 2\*2 = 16, so the length is 4. The shortest vector in the input is the first one having length equal to the square root of 1\*1 + 4\*4 + 1\*1 + 2\*2 + 5\*5 = 47 which is roughly 6.855. Thus, the score for the second case is 4/6.855 = 0.5835.
+<h3>Input Distribution</h3>
+</p><p>
+Some of the test data is randomly generated by simply selecting values for the components of the vectors uniformly at random in the range -100 to 100 and keeping the vector if it is non-zero. 
 
-### Input Distribution
-
-Some of the test data is randomly generated by simply selecting values for the components of the vectors uniformly at random in the range -100 to 100 and keeping the vector if it is non-zero.
-
-Other test data is generated by generating n-1 of the vectors as above, computing a random integer combination of these vectors and then creating the final vector so that subtracting it from the random integer combination results in a very short vector. This final vector may be any of the n vectors in the input.
+</p><p>
+Other test data is generated by generating n-1 of the vectors as above, computing a random integer combination of these vectors and then creating the final vector so that subtracting it from the random integer combination results in a very short vector. This final vector may be any of the n vectors in the input.</p>

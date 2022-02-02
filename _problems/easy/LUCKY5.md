@@ -1,41 +1,32 @@
 ---
-languages_supported:
-    - NA
-title: LUCKY5
-category: NA
-old_version: true
-problem_code: LUCKY5
-tags:
-    - NA
-layout: problem
+{"languages_supported":{"0":"NA"},"title":"LUCKY5","category":"NA","old_version":true,"problem_code":"LUCKY5","tags":{"0":"NA"},"layout":"problem"}
 ---
-###  All submissions for this problem are available. 
 
- Chef loves lucky numbers. Everybody knows that lucky numbers are positive integers whose decimal representation contains only the lucky digits **4** and **7**. For example, numbers **47**, **744**, **4** are lucky and **5**, **17**, **467** are not.
+<h3> All submissions for this problem are available. </h3><p> Chef loves lucky numbers. Everybody knows that lucky numbers are positive integers whose decimal representation contains only the lucky digits <b>4</b> and <b>7</b>. For example, numbers <b>47</b>, <b>744</b>, <b>4</b> are lucky and <b>5</b>, <b>17</b>, <b>467</b> are not.
 
- Chef has a positive integer **N**. He can apply any of the following operations as many times as he want in any order:
+</p><p> Chef has a positive integer <b>N</b>. He can apply any of the following operations as many times as he want in any order:
 
-- Add **1** to the number **N**.
-- Take some digit of **N** and replace it by any non-zero digit.
-- Add any non-zero leading digit to **N**.
+<ul>
+<li> Add <b>1</b> to the number <b>N</b>.
+</li><li> Take some digit of <b>N</b> and replace it by any non-zero digit.
+</li><li> Add any non-zero leading digit to <b>N</b>.
+</li></ul>
 
- Find the minimum number of operations that is needed for changing **N** to the lucky number.
+</p><p> Find the minimum number of operations that is needed for changing <b>N</b> to the lucky number.
 
-### Input
+<h3>Input</h3>
+</p><p>The first line contains a single positive integer <b>T</b>, the number of test cases. <b>T</b> test cases follow. The only line of each test case contains a positive integer <b>N</b> without leading zeros. 
 
-The first line contains a single positive integer **T**, the number of test cases. **T** test cases follow. The only line of each test case contains a positive integer **N** without leading zeros.
+<h3>Output</h3>
+</p><p>For each <b>T</b> test cases print one integer, the minimum number of operations that is needed for changing <b>N</b> to the lucky number.
 
-### Output
+<h3>Constraints</h3>
+</p><p>
+1 ≤ <b>T</b> ≤ 10
+</p><p>
+1 ≤ <b>N</b> &lt; 10<sup>100000</sup>
 
-For each **T** test cases print one integer, the minimum number of operations that is needed for changing **N** to the lucky number.
-
-### Constraints
-
-1 ≤ **T** ≤ 10
-
-1 ≤ **N** &lt; 10100000
-
-### Example
+<h3>Example</h3>
 
 <pre>
 <b>Input:</b>
@@ -49,4 +40,4 @@ For each **T** test cases print one integer, the minimum number of operations th
 1
 2
 
-</pre>
+</pre></p>    

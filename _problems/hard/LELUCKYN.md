@@ -1,106 +1,62 @@
 ---
-category_name: hard
-problem_code: LELUCKYN
-problem_name: 'Little Elephant and Lucky Segment'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '5'
-source_sizelimit: '50000'
-problem_author: witua
-problem_tester: null
-date_added: 6-06-2012
-tags:
-    - binary
-    - cook28
-    - maths
-    - medium
-    - witua
-time:
-    view_start_date: 1353262903
-    submit_start_date: 1353262903
-    visible_start_date: 1353263400
-    end_date: 1735669800
-    current: 1493556752
-layout: problem
+{"category_name":"hard","problem_code":"LELUCKYN","problem_name":"Little Elephant and Lucky Segment","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYTH","37":"PYTH 3.4","38":"RUBY","39":"SCALA","40":"SCM guile","41":"SCM qobi","42":"ST","43":"TCL","44":"TEXT","45":"WSPC"},"max_timelimit":5,"source_sizelimit":50000,"problem_author":"witua","problem_tester":null,"date_added":"6-06-2012","tags":{"0":"binary","1":"cook28","2":"maths","3":"medium","4":"witua"},"time":{"view_start_date":1353262903,"submit_start_date":1353262903,"visible_start_date":1353263400,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.The Little Elephant from the Zoo of Lviv likes lucky digits. Everybody knows that the lucky digits are digits **4** and **7**.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><p>
+The Little Elephant from the Zoo of Lviv likes lucky digits. Everybody knows that the lucky digits are digits <b>4</b> and <b>7</b>.
+</p>
 
-This time he has an array **A** that consists of **N** integers: **A\[1\]**, **A\[2\]**, ..., **A\[N\]**. Let **F4(x)** be the number of digits **4** in the decimal representation of **x**, and **F7(x)** be the number of digits **7** in the decimal representation of **x**. For example, **F4(5) = 0**, **F4(4467) = 2** and **F7(457747) = 3**.
+<p>
+This time he has an array <b>A</b> that consists of <b>N</b> integers: <b>A[1]</b>, <b>A[2]</b>, ..., <b>A[N]</b>. Let <b>F4(x)</b> be the number of digits <b>4</b> in the decimal representation of <b>x</b>, and <b>F7(x)</b> be the number of digits <b>7</b> in the decimal representation of <b>x</b>. For example, <b>F4(5) = 0</b>, <b>F4(4467) = 2</b> and <b>F7(457747) = 3</b>.
+</p>
 
-Consider some pair of integers **L** and **R** such that **1** ≤ **L** ≤ **R** ≤ **N**. Let **C4** be the total number of digits **4** in decimal representation of integers **A\[L\], A\[L + 1\] ..., A\[R\]**, i. e.,
+<p>
+Consider some pair of integers <b>L</b> and <b>R</b> such that <b>1</b> ≤ <b>L</b> ≤ <b>R</b> ≤ <b>N</b>. Let <b>C4</b> be the total number of digits <b>4</b> in decimal representation of integers <b>A[L], A[L + 1] ..., A[R]</b>, i. e.,
+</p>
 
-**C4 = F4(A\[L\]) + F4(A\[L + 1\]) + ... + F4(A\[R\])**.
+<p>
+<b>C4 = F4(A[L]) + F4(A[L + 1]) + ... + F4(A[R])</b>.
+</p>
 
-Similarly, let **C7** be the the total number of digits **7** in decimal representation of integers **A\[L\], A\[L + 1\] ..., A\[R\]**, i. e.,
+<p>
+Similarly, let <b>C7</b> be the the total number of digits <b>7</b> in decimal representation of integers <b>A[L], A[L + 1] ..., A[R]</b>, i. e.,
+</p>
 
-**C7 = F7(A\[L\]) + F7(A\[L + 1\]) + ... + F7(A\[R\])**.
+<p>
+<b>C7 = F7(A[L]) + F7(A[L + 1]) + ... + F7(A[R])</b>.
+</p>
 
-The Little Elephant wants to know the number of such pairs **(L; R)** for which **C4C7 ≤ R − L + 1**. But he believes that the number **2** is unlucky. Hence he discards all pairs where **C4 = 2** or **C7 = 2**.
+<p>
+The Little Elephant wants to know the number of such pairs <b>(L; R)</b> for which <b>C4<sup>C7</sup> ≤ R − L + 1</b>. But he believes that the number <b>2</b> is unlucky. Hence he discards all pairs where <b>C4 = 2</b> or <b>C7 = 2</b>.
+</p>
 
+<p>
 Help the Little Elephant to find the answer for the problem.
+</p>
 
-**Remark.** **00 = 1**. It is a standard mathematical definition.
+<p>
+<b>Remark.</b> <b>0<sup>0</sup> = 1</b>. It is a standard mathematical definition.
+</p>
 
-### Input
+<h3>Input</h3>
 
-The first line of the input contains a single integer **T**, the number of test cases. Then **T** test cases follow. The first line of each test case contains a single integer **N**, the size of the array **A** for the corresponding test case. The second line contains **N** space separated integers **A\[1\]**, **A\[2\]**, ..., **A\[N\]**.
+<p>
+The first line of the input contains a single integer <b>T</b>, the number of test cases. Then <b>T</b> test cases follow. The first line of each test case contains a single integer <b>N</b>, the size of the array <b>A</b> for the corresponding test case. The second line contains <b>N</b> space separated integers <b>A[1]</b>, <b>A[2]</b>, ..., <b>A[N]</b>.
+</p>
 
-### Output
+<h3>Output</h3>
 
+<p>
 For each test case output a single line containing the answer for the corresponding test case.
+</p>
 
-### Constraints
+<h3>Constraints</h3>
+<p>
+<b>1</b> ≤ <b>T</b> ≤ <b>3</b> <br />
+<b>1</b> ≤ <b>N</b> ≤ <b>10<sup>5</sup></b> <br />
+<b>1</b> ≤ <b>A[i]</b> ≤ <b>10<sup>9</sup></b><br />
+</p>
 
-**1** ≤ **T** ≤ **3** 
-**1** ≤ **N** ≤ **105** 
-**1** ≤ **A\[i\]** ≤ **109**
-
-### Example
+<h3>Example</h3>
 
 <pre>
 <b>Input:</b>
@@ -118,23 +74,36 @@ For each test case output a single line containing the answer for the correspond
 5
 1
 </pre>
-### Explanation
 
-**Case 1.** Here **C4 = C7 = 0** for all pairs **(L; R)**. So **00 = 1 ≤ R − L + 1** for each pair. There are **6** pairs **(L; R)** in all: **(1; 1), (1; 2), (1; 3), (2; 2), (2; 3), (3; 3)**. So the answer is **6**.
+<h3>Explanation</h3>
 
-**Case 2.** Here we have 10 pairs of **(L; R)** in all. Consider them all.
+<p>
+<b>Case 1.</b> Here <b>C4 = C7 = 0</b> for all pairs <b>(L; R)</b>. So <b>0<sup>0</sup> = 1 ≤ R − L + 1</b> for each pair. There are <b>6</b> pairs <b>(L; R)</b> in all: <b>(1; 1), (1; 2), (1; 3), (2; 2), (2; 3), (3; 3)</b>. So the answer is <b>6</b>.
+</p>
 
-- **L = 1**, **R = 1**: **C4 = 1**, **C7 = 1**, **C4C7 = 11 = 1 ≤ 1 = R − L + 1**. **The pair is counted.**
-- **L = 1**, **R = 2**: **C4 = 1**, **C7 = 1**, **C4C7 = 11 = 1 ≤ 2 = R − L + 1**. **The pair is counted.**
-- **L = 1**, **R = 3**: **C4 = 2**, **C7 = 1**, **C4C7 = 21 = 2 ≤ 3 = R − L + 1**. But the pair is not counted since **C4 = 2**.
-- **L = 1**, **R = 4**: **C4 = 3**, **C7 = 3**, **C4C7 = 33 = 27 &gt; 4 = R − L + 1**. The pair is not counted.
-- **L = 2**, **R = 2**: **C4 = 0**, **C7 = 0**, **C4C7 = 00 = 1 ≤ 1 = R − L + 1**. **The pair is counted.**
-- **L = 2**, **R = 3**: **C4 = 1**, **C7 = 0**, **C4C7 = 10 = 1 ≤ 2 = R − L + 1**. **The pair is counted.**
-- **L = 2**, **R = 4**: **C4 = 2**, **C7 = 2**, **C4C7 = 22 = 4 &gt; 3 = R − L + 1**. The pair is not counted. It is also not counted since **C4 = 2**, and also since **C7 = 2**.
-- **L = 3**, **R = 3**: **C4 = 1**, **C7 = 0**, **C4C7 = 10 = 1 ≤ 1 = R − L + 1**. **The pair is counted.**
-- **L = 3**, **R = 4**: **C4 = 2**, **C7 = 2**, **C4C7 = 22 = 4 &gt; 2 = R − L + 1**. The pair is not counted. It is also not counted since **C4 = 2**, and also since **C7 = 2**.
-- **L = 4**, **R = 4**: **C4 = 1**, **C7 = 2**, **C4C7 = 12 = 1 ≤ 1 = R − L + 1**. But the pair is not counted since **C7 = 2**.
+<p>
+<b>Case 2.</b> Here we have 10 pairs of <b>(L; R)</b> in all. Consider them all.
+</p>
 
-As we see there are exactly **5** pairs **(L; R)** that satisfy required constraints.
+<p>
+<ul>
+<li> <b>L = 1</b>, <b>R = 1</b>: <b>C4 = 1</b>, <b>C7 = 1</b>, <b>C4<sup>C7</sup> = 1<sup>1</sup> = 1 ≤ 1 = R − L + 1</b>. <b>The pair is counted.</b></li>
+<li> <b>L = 1</b>, <b>R = 2</b>: <b>C4 = 1</b>, <b>C7 = 1</b>, <b>C4<sup>C7</sup> = 1<sup>1</sup> = 1 ≤ 2 = R − L + 1</b>. <b>The pair is counted.</b></li>
+<li> <b>L = 1</b>, <b>R = 3</b>: <b>C4 = 2</b>, <b>C7 = 1</b>, <b>C4<sup>C7</sup> = 2<sup>1</sup> = 2 ≤ 3 = R − L + 1</b>. But the pair is not counted since <b>C4 = 2</b>.</li>
+<li> <b>L = 1</b>, <b>R = 4</b>: <b>C4 = 3</b>, <b>C7 = 3</b>, <b>C4<sup>C7</sup> = 3<sup>3</sup> = 27 &gt; 4 = R − L + 1</b>. The pair is not counted.</li>
+<li> <b>L = 2</b>, <b>R = 2</b>: <b>C4 = 0</b>, <b>C7 = 0</b>, <b>C4<sup>C7</sup> = 0<sup>0</sup> = 1 ≤ 1 = R − L + 1</b>. <b>The pair is counted.</b></li>
+<li> <b>L = 2</b>, <b>R = 3</b>: <b>C4 = 1</b>, <b>C7 = 0</b>, <b>C4<sup>C7</sup> = 1<sup>0</sup> = 1 ≤ 2 = R − L + 1</b>. <b>The pair is counted.</b></li>
+<li> <b>L = 2</b>, <b>R = 4</b>: <b>C4 = 2</b>, <b>C7 = 2</b>, <b>C4<sup>C7</sup> = 2<sup>2</sup> = 4 &gt; 3 = R − L + 1</b>. The pair is not counted. It is also not counted since <b>C4 = 2</b>, and also since <b>C7 = 2</b>.</li>
+<li> <b>L = 3</b>, <b>R = 3</b>: <b>C4 = 1</b>, <b>C7 = 0</b>, <b>C4<sup>C7</sup> = 1<sup>0</sup> = 1 ≤ 1 = R − L + 1</b>. <b>The pair is counted.</b></li>
+<li> <b>L = 3</b>, <b>R = 4</b>: <b>C4 = 2</b>, <b>C7 = 2</b>, <b>C4<sup>C7</sup> = 2<sup>2</sup> = 4 &gt; 2 = R − L + 1</b>. The pair is not counted. It is also not counted since <b>C4 = 2</b>, and also since <b>C7 = 2</b>.</li>
+<li> <b>L = 4</b>, <b>R = 4</b>: <b>C4 = 1</b>, <b>C7 = 2</b>, <b>C4<sup>C7</sup> = 1<sup>2</sup> = 1 ≤ 1 = R − L + 1</b>. But the pair is not counted since <b>C7 = 2</b>.</li>
+</ul>
+</p>
 
-**Case 3.** Here we have the only pair **(L; R) = (1; 1)** for which **C4 = 0**, **C7 = 3** and **C4C7 = 03 = 0 ≤ 1 = R − L + 1**. So it is counted, and the answer is **1**.
+<p>
+As we see there are exactly <b>5</b> pairs <b>(L; R)</b> that satisfy required constraints.
+</p>
+
+<p>
+<b>Case 3.</b> Here we have the only pair <b>(L; R) = (1; 1)</b> for which <b>C4 = 0</b>, <b>C7 = 3</b> and <b>C4<sup>C7</sup> = 0<sup>3</sup> = 0 ≤ 1 = R − L + 1</b>. So it is counted, and the answer is <b>1</b>.
+</p>

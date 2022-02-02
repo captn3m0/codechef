@@ -1,89 +1,45 @@
 ---
-category_name: easy
-problem_code: DUMPLING
-problem_name: 'Greatest Dumpling Fight'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '1'
-source_sizelimit: '50000'
-problem_author: rosyish
-problem_tester: laycurse
-date_added: 3-03-2012
-tags:
-    - april12
-    - easy
-    - rosyish
-editorial_url: 'http://discuss.codechef.com/problems/DUMPLING'
-time:
-    view_start_date: 1334137590
-    submit_start_date: 1334137590
-    visible_start_date: 1334136600
-    end_date: 1735669800
-    current: 1493558141
-layout: problem
+{"category_name":"easy","problem_code":"DUMPLING","problem_name":"Greatest Dumpling Fight","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYTH","37":"PYTH 3.4","38":"RUBY","39":"SCALA","40":"SCM guile","41":"SCM qobi","42":"ST","43":"TCL","44":"TEXT","45":"WSPC"},"max_timelimit":1,"source_sizelimit":50000,"problem_author":"rosyish","problem_tester":"laycurse","date_added":"3-03-2012","tags":{"0":"april12","1":"easy","2":"rosyish"},"editorial_url":"http://discuss.codechef.com/problems/DUMPLING","time":{"view_start_date":1334137590,"submit_start_date":1334137590,"visible_start_date":1334136600,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.Chef Shifu and Chef Po are participating in the Greatest Dumpling Fight of 2012. Of course, Masterchef Oogway has formed the rules of the fight.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><p>
+Chef Shifu and Chef Po are participating in the Greatest Dumpling Fight of 2012.
+Of course, Masterchef Oogway has formed the rules of the fight.
+</p>
 
-There is a long horizontal rope of infinite length with a center point P. Initially both Chef Shifu and Chef Po will stand on the center P of the rope facing each other. Don't worry, the rope is thick enough to hold Chef Po and Chef Shifu at the same place and at the same time. Chef Shifu can jump either **A** or **B** units to the left or right in one move. Chef Po can jump either **C** or **D** units to the left or right in one move.
+<p>
+There is a long horizontal rope of infinite length with a center point P.
+Initially both Chef Shifu and Chef Po will stand on the center P of the rope facing each other.
+Don't worry, the rope is thick enough to hold Chef Po and Chef Shifu at the same place and at the same time.
+Chef Shifu can jump either <b>A</b> or <b>B</b> units to the left or right in one move.
+Chef Po can jump either <b>C</b> or <b>D</b> units to the left or right in one move.
+</p>
 
-Masterchef Oogway wants to place exactly one dumpling on the rope such that both Chef Shifu and Chef Po will be able to reach it independently in one or more moves. Also the dumpling can be placed at most **K** units away from the center of the rope. Masterchef Oogway will let you watch the fight if you can decide the number of possible positions on the rope to place the dumpling.
+<p>
+Masterchef Oogway wants to place exactly one dumpling on the rope such that
+both Chef Shifu and Chef Po will be able to reach it independently in one or more moves.
+Also the dumpling can be placed at most <b>K</b> units away from the center of the rope.
+Masterchef Oogway will let you watch the fight if you can decide the number of possible positions on the rope to place the dumpling. 
+</p>
 
-### Input
+<p>
 
-First line contains **T**, the number of test cases. Each of the next **T** lines contains five positive integers, **A B C D K**.
+</p><p>
 
-1&lt;=**T**&lt;=1000 1&lt;=**A**,**B**,**C**,**D**,**K**&lt;=10^18
+<h3>Input</h3>
+</p><p>
+First line contains <b>T</b>, the number of test cases. Each of the next <b>T</b> lines contains five positive integers, <b>A B C D K</b>.
+</p>
 
-### Output
+<p>
+1&lt;=<b>T</b>&lt;=1000  
+1&lt;=<b>A</b>,<b>B</b>,<b>C</b>,<b>D</b>,<b>K</b>&lt;=10^18 
+</p>
 
-For each test case, output on a newline, the number of possible positions to place the dumpling on the rope.
+<h3>Output</h3>
+<p>For each test case, output on a newline, the number of possible positions to place the dumpling on the rope. 
 
-### Example
+
+<h3>Example</h3>
 
 <pre>
 <b>Input:</b>
@@ -114,4 +70,4 @@ Thus, there are three different positions at most 1 unit away from the center
 that are reachable by both the chefs in one or more moves.
 
 
-</pre>
+</pre></p>

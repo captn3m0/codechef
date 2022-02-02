@@ -1,142 +1,84 @@
 ---
-category_name: easy
-problem_code: DCGAME
-problem_name: 'Devu And Churu '
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYPY
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM chicken'
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '1.5'
-source_sizelimit: '50000'
-problem_author: ma5termind
-problem_tester: laycurse
-date_added: 2-04-2015
-tags:
-    - aug15
-    - binary
-    - combinatorics
-    - ma5termind
-    - medium
-    - stack
-    - stock
-    - value
-editorial_url: 'http://discuss.codechef.com/problems/DCGAME'
-time:
-    view_start_date: 1439803800
-    submit_start_date: 1439803800
-    visible_start_date: 1439803800
-    end_date: 1735669800
-    current: 1493558135
-layout: problem
+{"category_name":"easy","problem_code":"DCGAME","problem_name":"Devu And Churu ","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYPY","37":"PYTH","38":"PYTH 3.4","39":"RUBY","40":"SCALA","41":"SCM chicken","42":"SCM guile","43":"SCM qobi","44":"ST","45":"TCL","46":"TEXT","47":"WSPC"},"max_timelimit":1.5,"source_sizelimit":50000,"problem_author":"ma5termind","problem_tester":"laycurse","date_added":"2-04-2015","tags":{"0":"aug15","1":"binary","2":"combinatorics","3":"ma5termind","4":"medium","5":"stack","6":"stock","7":"value"},"editorial_url":"http://discuss.codechef.com/problems/DCGAME","time":{"view_start_date":1439803800,"submit_start_date":1439803800,"visible_start_date":1439803800,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/AUG15/mandarin/DCGAME.pdf) and [Russian](http://www.codechef.com/download/translated/AUG15/russian/DCGAME.pdf).
-
-Devu and Churu love to play games a lot. Today, they have an array **A** consisting of **N** positive integers. First they listed all **N × (N+1) / 2** non-empty continuous subarrays of the array **A** on a piece of paper and then replaced all the subarrays on the paper with the maximum element present in the respective subarray.
-
-Devu and Churu decided to play a game with numbers on the paper. They both have decided to make moves turn by turn. In one turn, the player picks some number from the list and discards that number. The one who is not able to make a valid move will be the loser. To make the game more interesting, they decided to put some constraints on their moves.
-
-A constraint on a game can be any of following three types :
-
-- **&gt; K** : They are allowed to choose numbers having values strictly greater than **K** only.
-- **&lt; K** : They are allowed to choose numbers having values strictly less than **K** only.
-- **= K** : They are allowed to choose numbers having values equal to **K** only.
-
-Given **M** constraints and who goes first, you have to tell the outcome of each game. Print **'D'** if Devu wins otherwise print **'C'** without quotes.
-
-Note that **M** games are independent, that is, they'll rewrite numbers by using array **A** after each game. (This is the task for the loser of the previous game!)
-
-### Input 
-
-First line of input contains two space separated integers **N** and **M** denoting the size of array **A** and number of game played by them. Next line of input contains **N** space-separated integers denoting elements of array **A**. Each of the next **M** lines of input contains three space-separated parameters describing a game. First two parameter are a character **C ∈ {&lt;, &gt;, =}** and an integer **K** denoting the constraint for that game. The last parameter is a character **X ∈ {D, C}** denoting the player who will start the game.
-
-###  Output 
-
-Output consists of a single line containing a string of length **M** made up from characters **D** and **C** only, where **ith** character in the string denotes the outcome of the **ith** game.
-
-###  Constraints: 
-
-- **1 ≤ N, M ≤ 106**
-- **1 ≤ Ai, K ≤ 109**
-- **X ∈ {D, C}**
-- **C ∈ {&lt;, &gt;, =}**
-
-### Subtasks: 
-
-- **Subtask 1 : 1 ≤ N, M ≤ 104 : ( 20 pts )**
-- **Subtask 2 : 1 ≤ N, M ≤ 105 : ( 30 pts )**
-- **Subtask 3 : 1 ≤ N, M ≤ 106 : ( 50 pts )**
-
-### Example:
-
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3> Read problems statements in <a target="_blank" href="http://www.codechef.com/download/translated/AUG15/mandarin/DCGAME.pdf">Mandarin Chinese </a> and <a target="_blank" href="http://www.codechef.com/download/translated/AUG15/russian/DCGAME.pdf">Russian</a>.</h3>
+<p>Devu and Churu love to play games a lot. Today, they have an array <b>A</b> consisting of <b>N</b> positive integers. First they listed all <b>N × (N+1) / 2</b> non-empty continuous subarrays of the array <b>A</b> on a piece of paper and then replaced all the subarrays on the paper with the maximum element present in the respective subarray.</p>
+<p>Devu and Churu decided to play a game with numbers on the paper. They both have decided to make moves turn by turn. In one turn, the player picks some number from the list and discards that number. The one who is not able to make a valid move will be the loser. To make the game more interesting, they decided to put some constraints on their moves.</p>
+<p>A constraint on a game can be any of following three types :</p>
+<ul>
+<li><b> > K </b>: They are allowed to choose numbers having values strictly greater than <b>K</b> only.</li>
+<li><b> &lt; K </b>: They are allowed to choose numbers having values strictly less than <b>K</b> only.</li>
+<li><b> = K </b>: They are allowed to choose numbers having values equal to <b>K</b> only.</li>
+</ul>
+<p> </p>
+<p>Given <b>M</b> constraints and who goes first, you have to tell the outcome of each game. Print <b>'D'</b> if Devu wins otherwise print <b>'C'</b> without quotes.</p>
+<p>Note that <b>M</b> games are independent, that is, they'll rewrite numbers by using array <b>A</b> after each game. (This is the task for the loser of the previous game!)</p>
+<h3>Input </h3>
+<p>First line of input contains two space separated integers <b>N</b> and <b>M</b> denoting the size of array <b>A</b> and number of game played by them. Next line of input contains <b>N</b> space-separated integers denoting elements of array <b>A</b>. Each of the next <b>M</b> lines of input contains three space-separated parameters describing a game. First two parameter are a character <b>C ∈ {&lt;, >, =}</b> and an integer <b>K</b> denoting the constraint for that game. The last parameter is a character <b>X ∈ {D, C}</b> denoting the player who will start the game. </p>
+<h3> Output </h3>
+<p>Output consists of a single line containing a string of length <b>M</b> made up from characters <b>D</b> and <b>C</b> only, where <b>i<sup>th</sup></b> character in the string denotes the outcome of the <b>i<sup>th</sup></b> game.</p>
+<h3> Constraints: </h3>
+<ul>
+<li><b>1 ≤ N, M ≤ 10<sup>6</sup></b></li>
+<li><b>1 ≤ A<sub>i</sub>, K ≤ 10<sup>9</sup></b> </li>
+<li><b>X ∈ {D, C}</b></li>
+<li><b>C ∈ {&lt;, >, =}</b></li>
+</ul>
+<h3>Subtasks: </h3>
+<ul>
+<li><b>Subtask 1 : 1 ≤ N, M ≤ 10<sup>4</sup> : ( 20 pts )</b></li>
+<li><b>Subtask 2 : 1 ≤ N, M ≤ 10<sup>5</sup> : ( 30 pts )</b></li>
+<li><b>Subtask 3 : 1 ≤ N, M ≤ 10<sup>6</sup> : ( 50 pts )</b></li>
+</ul>
+<h3>Example:</h3>
 <pre>
 <b>Input:</b>
 3 5
 1 2 3
 > 1 D
-< 2 C
+&lt; 2 C
 = 3 D
 > 4 C
-< 5 D
+&lt; 5 D
 
 <b>Output:</b>
 DCDDC
-</pre>
-### Explanation: 
+</pre><h3>Explanation: </h3>
+<p>
+<b>Subarray List :</b></p>
+<ul>
+<b>
+<li>[1]</li>
+<p></p></b><b>
+<li>[2]</li>
+<p></p></b><b>
+<li>[3]</li>
+<p></p></b><b>
+<li>[1,2]</li>
+<p></p></b><b>
+<li>[2,3]</li>
+<p></p></b><b>
+<li>[1,2,3]</li>
+<p></p></b></ul>
+<p><br/><b>Numbers on the paper after replacement :</b></br/></p>
+<ul>
+<b>
+<li>[1]</li>
+<p></p></b><b>
+<li>[2]</li>
+<p></p></b><b>
+<li>[3]</li>
+<p></p></b><b>
+<li>[2]</li>
+<p></p></b><b>
+<li>[3]</li>
+<p></p></b><b>
+<li>[3]</li>
+<p></p></b>
+</ul>
 
-**Subarray List :**
-
-**1. \[1\]** **1. \[2\]** **1. \[3\]** **1. \[1,2\]** **1. \[2,3\]** **1. \[1,2,3\]** 
-
-**Numbers on the paper after replacement :**
-
-**1. \[1\]** **1. \[2\]** **1. \[3\]** **1. \[2\]** **1. \[3\]** **1. \[3\]** 
-**Game 1 :** There are only 5 numbers &gt; 1 in the list.
-**Game 2 :** There is only 1 number &lt; 2 in the list.
-**Game 3 :** There are only 3 numbers = 3 in the list.
-**Game 4 :** There are no numbers &gt; 4 in the list. So the first player cannot make his move.
-**Game 5 :** There are 6 numbers &lt; 5 in the list.
+<p><b>Game 1 :</b> There are only 5 numbers > 1 in the list.<br />
+<b>Game 2 :</b> There is only 1 number &lt; 2 in the list.<br />
+<b>Game 3 :</b> There are only 3 numbers = 3 in the list.<br />
+<b>Game 4 :</b> There are no numbers > 4 in the list. So the first player cannot make his move.<br />
+<b>Game 5 :</b> There are 6 numbers &lt; 5 in the list.</p>

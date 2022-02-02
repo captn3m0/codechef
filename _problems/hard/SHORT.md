@@ -1,28 +1,13 @@
 ---
-languages_supported:
-    - NA
-title: SHORT
-category: NA
-old_version: true
-problem_code: SHORT
-tags:
-    - NA
-layout: problem
+{"languages_supported":{"0":"NA"},"title":"SHORT","category":"NA","old_version":true,"problem_code":"SHORT","tags":{"0":"NA"},"layout":"problem"}
 ---
-###  All submissions for this problem are available. 
 
-Given **n** and **k**, find the number of pairs of integers (**a**, **b**) such that **n** &lt; **a** &lt; **k**, **n** &lt; **b** &lt; **k** and **ab-n** is divisible by **(a-n)(b-n)**.
-
-### Input
-
-The first line contains the number of test cases **t** (1 ≤ **t** ≤ 5). Then **t** test cases follow, each test case consists of a line containing two integers **n** and **k** (0 ≤ **n** ≤ 100000, **n** &lt; **k** ≤ 1018).
-
-### Output
-
-For each test case output one line containing the required number.
-
-### Example
-
+<h3> All submissions for this problem are available. </h3><p>Given <b>n</b> and <b>k</b>, find the number of pairs of integers (<b>a</b>, <b>b</b>) such that <b>n</b> &lt; <b>a</b> &lt; <b>k</b>, <b>n</b> &lt; <b>b</b> &lt; <b>k</b> and <b>ab-n</b> is divisible by <b>(a-n)(b-n)</b>.</p>
+<h3>Input</h3>
+<p>The first line contains the number of test cases <b>t</b> (1 ≤ <b>t</b> ≤ 5). Then <b>t</b> test cases follow, each test case consists of a line containing two integers <b>n</b> and <b>k</b> (0 ≤ <b>n</b> ≤ 100000, <b>n</b> &lt; <b>k</b> ≤ 10<sup>18</sup>).</p>
+<h3>Output</h3>
+<p>For each test case output one line containing the required number.</p>
+<h3>Example</h3>
 <pre><b>Input:</b>
 2
 1 5
@@ -34,4 +19,4 @@ For each test case output one line containing the required number.
 
 <b>Explanation:</b>
 </pre>
-In the first test case, the only sought pairs are (2,2) and (3,3). In the second one, they are (3,3), (3,4) and (4,3).
+<p>In the first test case, the only sought pairs are (2,2) and (3,3). In the second one, they are (3,3), (3,4) and (4,3).</p>    

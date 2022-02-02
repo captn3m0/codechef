@@ -1,0 +1,20 @@
+---
+{"category_name":"easy","problem_code":"MAXARXOR","problem_name":"Maximum Array Xor","problemComponents":{"constraints":"- $1 \\leq T \\leq 10^5$\n- $1 \\leq N \\leq 30$\n- $0 \\leq K \\leq 10^9$\n","constraintsState":true,"subtasks":"","subtasksState":false,"inputFormat":"- First line will contain $T$, number of testcases. Then the testcases follow.\n- Each testcase contains a single line of input, two integers $N, K$.\n","inputFormatState":true,"outputFormat":"For each testcase, output in a single line the maximum value of array after doing at most $K$ operations.\n","outputFormatState":true,"sampleTestCases":{"0":{"id":1,"input":"3\n2 0\n2 1\n10 100","output":"0\n6\n204600","explanation":"- In the first test case, for $N = 2$, you have the array $A = [0, 1, 2, 3]$. No swap operation is \nallowed hence value of array $A = (0 \\oplus 0) + (1 \\oplus 1) + (2 \\oplus 2) + (3 \\oplus 3) = 0 + 0 + 0 + 0 = 0$. \n- In the second test case, initially the array $A = [0, 1, 2, 3]$. If you swap $A_1$ and $A_2$, $A$ becomes $[0, 2, 1, 3]$. Now value of array $A = (0 \\oplus 0) + (2 \\oplus 1) + (1 \\oplus 2) + (3 \\oplus 3) = 0 + 3 + 3 + 0 = 6$. There is no possible way such that value of array $A$ becomes greater than $6$ using one swap operation.","isDeleted":false}}},"video_editorial_url":"https://youtu.be/SOcS-5zDPPY","languages_supported":{"0":"CPP14","1":"C","2":"JAVA","3":"PYTH 3.6","4":"CPP17","5":"PYTH","6":"PYP3","7":"CS2","8":"ADA","9":"PYPY","10":"TEXT","11":"PAS fpc","12":"NODEJS","13":"RUBY","14":"PHP","15":"GO","16":"HASK","17":"TCL","18":"PERL","19":"SCALA","20":"LUA","21":"kotlin","22":"BASH","23":"JS","24":"LISP sbcl","25":"rust","26":"PAS gpc","27":"BF","28":"CLOJ","29":"R","30":"D","31":"CAML","32":"FORT","33":"ASM","34":"swift","35":"FS","36":"WSPC","37":"LISP clisp","38":"SQL","39":"SCM guile","40":"PERL6","41":"ERL","42":"CLPS","43":"ICK","44":"NICE","45":"PRLG","46":"ICON","47":"COB","48":"SCM chicken","49":"PIKE","50":"SCM qobi","51":"ST","52":"SQLQ","53":"NEM"},"max_timelimit":1,"source_sizelimit":50000,"problem_author":"soumyadeep_21","problem_tester":"","date_added":"13-07-2021","tags":{"0":"bitwise","1":"simple","2":"soumyadeep_21","3":"start7","4":"vichitr"},"problem_difficulty_level":"Simple","best_tag":"Bitwise Operation","editorial_url":"https://discuss.codechef.com/problems/MAXARXOR","time":{"view_start_date":1627219800,"submit_start_date":1627219800,"visible_start_date":1627219800,"end_date":1735669800},"is_direct_submittable":false,"problemDiscussURL":"https://discuss.codechef.com/search?q=MAXARXOR","is_proctored":false,"visitedContests":{},"layout":"problem"}
+---
+### Read problem statements in [Russian](https://www.codechef.com/download/translated/START7/russian/MAXARXOR.pdf) and [Mandarin Chinese](https://www.codechef.com/download/translated/START7/mandarin/MAXARXOR.pdf).
+
+Value of an array $A$ of length $L$ is defined as the sum of $(A_i \oplus i)$ for all $0 \leq i \lt L$, where $\oplus$ denotes [bitwise xor operation](https://en.wikipedia.org/wiki/Bitwise_operation#XOR). **Note** that array indices start from zero.
+ 
+You are given an integer $N$ and an array $A$ consisting of $2^N$ integers where $A_i = i$ for all $0 \leq i \lt 2^N$.
+ 
+**Example :**
+- For $N = 1$, you have an array $A$ of length $2^1 = 2$ and $A = [0, 1]$.
+- For $N = 2$, you have an array $A$ of length $2^2 = 4$ and $A = [0, 1, 2, 3]$.
+
+You can do at most $K$ operations on this array. In one operation, you can choose two indices $i$ and $j$ ($0 \leq i, j \lt 2^N$) and swap $A_i$ and $A_j$ (i.e. $A_i$ becomes $A_j$ and vice versa). 
+
+What is the maximum value of array $A$ you can obtain after at most $K$ operations? 
+
+
+
+<aside style='background: #f8f8f8;padding: 10px 15px;'><div>All submissions for this problem are available.</div></aside>

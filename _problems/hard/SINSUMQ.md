@@ -1,27 +1,18 @@
 ---
-languages_supported:
-    - NA
-title: SINSUMQ
-category: NA
-old_version: true
-problem_code: SINSUMQ
-tags:
-    - NA
-layout: problem
+{"languages_supported":{"0":"NA"},"title":"SINSUMQ","category":"NA","old_version":true,"problem_code":"SINSUMQ","tags":{"0":"NA"},"layout":"problem"}
 ---
-###  All submissions for this problem are available. 
 
- You are given a sequence of integers **A0, A1, ..., AN-1**. Initially **Ai=i** for all **i**. You need to perform some strange queries with it. Each query has the form **"L R D"** where **0 &lt;= L &lt;= R &lt; N** and **D** is an integer. If **D=0** then you need to find the sum of sines of the numbers **AL, AL+1, ..., AR** that is **sin AL + ... + sin AR**. Otherwise you need to add **D** to the numbers **AL, AL+1, ..., AR**.
+<h3> All submissions for this problem are available. </h3><p> You are given a sequence of integers <b>A<sub>0</sub>, A<sub>1</sub>, ..., A<sub>N-1</sub></b>. Initially <b>A<sub>i</sub>=i</b> for all <b>i</b>. You need to perform some strange queries with it. Each query has the form <b>"L R D"</b> where <b>0 &lt;= L &lt;= R &lt; N</b> and <b>D</b> is an integer. If <b>D=0</b> then you need to find the sum of sines of the numbers <b>A<sub>L</sub>, A<sub>L+1</sub>, ..., A<sub>R</sub></b> that is <b>sin A<sub>L</sub> + ... + sin A<sub>R</sub></b>. Otherwise you need to add <b>D</b> to the numbers <b>A<sub>L</sub>, A<sub>L+1</sub>, ..., A<sub>R</sub></b>. </p> 
 
-### Input
+<h3>Input</h3>
 
- The first line contains two positive integers **N** and **Q**. Here, **N &lt;= 109** is the length of the initial sequence and **Q &lt;= 100000** is the number of queries you need to perform with it. The next **Q** lines describe queries, one per line. The **i**'th such line contains three integers **L**, **R** and **D**. Here **0 &lt;= L &lt;= R &lt; N** and **-10000 &lt;= D &lt;= 10000**.
+<p> The first line contains two positive integers <b>N</b> and <b>Q</b>. Here, <b>N &lt;= 10<sup>9</sup></b> is the length of the initial sequence and <b>Q &lt;= 100000</b> is the number of queries you need to perform with it. The next <b>Q</b> lines describe queries, one per line. The <b>i</b>'th such line contains three integers <b>L</b>, <b>R</b> and <b>D</b>. Here <b>0 &lt;= L &lt;= R &lt; N</b> and <b>-10000 &lt;= D &lt;= 10000</b>. </p>
 
-### Output
+<h3>Output</h3>
 
- The output consists of answers for all queries where **D=0**. For each such query you must produce a line with the corresponding sines sum. Answers within an absolute error of **10-6** will be accepted.
+<p> The output consists of answers for all queries where <b>D=0</b>. For each such query you must produce a line with the corresponding sines sum. Answers within an absolute error of  <b>10<sup>-6</sup></b> will be accepted. </p>
 
-### Example
+<h3>Example</h3>
 
 <pre>
 <b>Input:</b>
@@ -38,4 +29,4 @@ layout: problem
 0.65354865
 0.782376860
 
-</pre>
+</pre>    

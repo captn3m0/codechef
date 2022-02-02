@@ -1,0 +1,18 @@
+---
+{"category_name":"easy","problem_code":"CEILSUM","problem_name":"Ceiling Sum","problemComponents":{"constraints":"- $1 \\leq T \\leq 10^5$\n- $1 \\leq A, B \\leq 10^9$\n","constraintsState":true,"subtasks":"","subtasksState":false,"inputFormat":"- First line will contain $T$, number of testcases. Then the testcases follow.\n- Each testcase contains of a single line of input, two integers $A, B$.\n","inputFormatState":true,"outputFormat":"For each testcase, output the maximum sum of $\\lceil \\frac{B - X}{2} \\rceil + \\lceil \\frac{X - A}{2} \\rceil$.\n","outputFormatState":true,"sampleTestCases":{"0":{"id":1,"input":"3\n2 2\n1 11\n13 6\n","output":"0\n6\n-3","explanation":"- In the first test case, there is only one possible value of $X$ which is equal to $2$. So the sum is equal to $\\lceil \\frac{2 - 2}{2} \\rceil + \\lceil \\frac{2 - 2}{2} \\rceil$ = $\\lceil \\ 0 \\rceil + \\lceil \\ 0 \\rceil$  = $0 + 0 = 0$.\n   \n- In the second test case, we can choose $X$ to be $2$. So sum is equal to $\\lceil \\frac{11 - 2}{2} \\rceil + \\lceil \\frac{2 - 1}{2} \\rceil$ = $\\lceil \\ 4.5 \\rceil + \\lceil \\ 0.5 \\rceil$ = $5 + 1 = 6$. There is no possible way to choose an integer $X$ in the range $[1, 11]$ such that sum is greater than $6$.","isDeleted":false}}},"video_editorial_url":"https://youtu.be/W7DuXMG17fY","languages_supported":{"0":"CPP14","1":"C","2":"JAVA","3":"PYTH 3.6","4":"CPP17","5":"PYTH","6":"PYP3","7":"CS2","8":"ADA","9":"PYPY","10":"TEXT","11":"PAS fpc","12":"NODEJS","13":"RUBY","14":"PHP","15":"GO","16":"HASK","17":"TCL","18":"PERL","19":"SCALA","20":"LUA","21":"kotlin","22":"BASH","23":"JS","24":"LISP sbcl","25":"rust","26":"PAS gpc","27":"BF","28":"CLOJ","29":"R","30":"D","31":"CAML","32":"FORT","33":"ASM","34":"swift","35":"FS","36":"WSPC","37":"LISP clisp","38":"SQL","39":"SCM guile","40":"PERL6","41":"ERL","42":"CLPS","43":"ICK","44":"NICE","45":"PRLG","46":"ICON","47":"COB","48":"SCM chicken","49":"PIKE","50":"SCM qobi","51":"ST","52":"SQLQ","53":"NEM"},"max_timelimit":1,"source_sizelimit":50000,"problem_author":"soumyadeep_21","problem_tester":"","date_added":"13-07-2021","tags":{"0":"discrete","1":"simple","2":"soumyadeep_21","3":"start7","4":"vichitr"},"problem_difficulty_level":"Simple","best_tag":"","editorial_url":"https://discuss.codechef.com/problems/CEILSUM","time":{"view_start_date":1627219800,"submit_start_date":1627219800,"visible_start_date":1627219800,"end_date":1735669800},"is_direct_submittable":false,"problemDiscussURL":"https://discuss.codechef.com/search?q=CEILSUM","is_proctored":false,"visitedContests":{},"layout":"problem"}
+---
+### Read problem statements in [Russian](https://www.codechef.com/download/translated/START7/russian/CEILSUM.pdf) and [Mandarin Chinese](https://www.codechef.com/download/translated/START7/mandarin/CEILSUM.pdf).
+
+You are given two integers $A, B$. You have to choose an integer $X$ in the range [minimum($A, B$), maximum($A, B$)] such that: 
+
+$$\Big \lceil \frac{B - X}{2} \Big \rceil + \Big \lceil \frac{X - A}{2} \Big \rceil$$ is maximum. 
+
+What is the maximum sum you can obtain if you choose $X$ optimally?
+
+**Note:** $\lceil x \rceil$ : Returns the smallest integer that is greater than or equal to $x$ (i.e  rounds up to the nearest integer). For example, $\lceil 1.4 \rceil = 2$, $\lceil 5 \rceil = 5$, $\lceil -1.5 \rceil = -1$, $\lceil -3 \rceil = -3$ , $\lceil 0 \rceil = 0$.
+
+
+
+
+
+<aside style='background: #f8f8f8;padding: 10px 15px;'><div>All submissions for this problem are available.</div></aside>

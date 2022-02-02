@@ -1,64 +1,77 @@
 ---
-languages_supported:
-    - NA
-title: BBSYSTEM
-category: NA
-old_version: true
-problem_code: BBSYSTEM
-tags:
-    - NA
-layout: problem
+{"languages_supported":{"0":"NA"},"title":"BBSYSTEM","category":"NA","old_version":true,"problem_code":"BBSYSTEM","tags":{"0":"NA"},"layout":"problem"}
 ---
-###  All submissions for this problem are available. 
 
-Chef Ciel has forgotten the combination to the safe. It's a serious incident, because the safe contains this month's waitstaff salaries.
+<h3> All submissions for this problem are available. </h3><p>
+Chef Ciel has forgotten the combination to the safe.
+It's a serious incident, because the safe contains this month's waitstaff salaries.
+</p>
 
-To open the safe, **N** boxes and **N** balls are used. The safe has **N** boxes that numbered from 1 to **N** uniquely. Each box can contain only one ball. Now, the box **i** contains one ball that numbered **i**, and the safe is locked.
+<p>
+To open the safe, <strong>N</strong> boxes and <strong>N</strong> balls are used.
+The safe has <strong>N</strong> boxes that numbered from 1 to <strong>N</strong> uniquely.
+Each box can contain only one ball.
+Now, the box <strong>i</strong> contains one ball that numbered <strong>i</strong>, and the safe is locked.
+</p>
 
+<p>
 The only things which Ciel remember for unlocking the safe are the followings:
+</p>
 
-1. She must put every ball into some box.
-2. Let the box **i** contains the ball **Ai**. When the safe is opened the number of divisors of **i** equals to the number of divisors of **Ai** for all **i** from 1 to **N**.
+<ol>
+<li>
+She must put every ball into some box.
+</li>
+<li>
+Let the box <strong>i</strong> contains the ball <strong>A<sub>i</sub></strong>.
+When the safe is opened the number of divisors of <strong>i</strong> equals to the number of divisors of <strong>A<sub>i</sub></strong> for all <strong>i</strong> from 1 to <strong>N</strong>. </li>
+</ol>
 
-How many combinations which satisfy above conditions should she check? The number of combinations can be very large, so you should print this number modulo 500009 (5\*105+9).
+<p>
+How many combinations which satisfy above conditions should she check?
+The number of combinations can be very large, so you should print this number modulo 500009 (5*10<sup>5</sup>+9).
+</p>
 
-### Input
+<h3>Input</h3>
+<p>
+The first line contains an integer <strong>T</strong>, the number of test cases.
+Then <strong>T</strong> test cases follow.
+The only line of each test case contains an integer <strong>N</strong>.
+</p>
 
-The first line contains an integer **T**, the number of test cases. Then **T** test cases follow. The only line of each test case contains an integer **N**.
+<h3>Output</h3>
+<p>
+For each test case, print the number of combinations modulo 500009 (5*10<sup>5</sup>+9).
+</p>
 
-### Output
+<h3>Constraints</h3>
+<p>
+1 &le; <strong>T</strong> &le; 100000 (10<sup>5</sup>)<br />
+3 &le; <strong>N</strong> &le; 2000000000 (2*10<sup>9</sup>)<br />
+</p>
 
-For each test case, print the number of combinations modulo 500009 (5\*105+9).
-
-### Constraints
-
-1 ≤ **T** ≤ 100000 (105)
-3 ≤ **N** ≤ 2000000000 (2\*109)
-
-### Sample Input
-
+<h3>Sample Input</h3>
 <pre>3
 3
 5
-100
-</pre>
-### Sample Output
+100</pre>
 
+<h3>Sample Output</h3>
 <pre>1
 5
-43264
-</pre>
-### Output details
+43264</pre>
 
+<h3>Output details</h3>
+<p>
 In the first case, the valid combination is
-
+</p>
 <pre>Box: 123
-Ball: 132
-</pre>
+Ball: 132</pre>
+<p>
 since the number of divisors of 2 is equal to the number of divisors of 3.
-
+</p>
+<p>
 In the second case, the valid combinations are
-
+</p>
 <pre>Box: 12345 12345 12345 12345 12345
-Ball: 12543 13245 13542 15243 15342
-</pre>
+Ball: 12543 13245 13542 15243 15342</pre>    

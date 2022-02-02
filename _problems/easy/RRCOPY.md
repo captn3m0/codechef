@@ -1,88 +1,30 @@
 ---
-category_name: easy
-problem_code: RRCOPY
-problem_name: Copy-Paste
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '2'
-source_sizelimit: '50000'
-problem_author: Rubanenko
-problem_tester: shiplu
-date_added: 5-07-2014
-tags:
-    - Rubanenko
-    - cakewalk
-    - cook48
-editorial_url: 'http://discuss.codechef.com/problems/RRCOPY'
-time:
-    view_start_date: 1405884600
-    submit_start_date: 1405884600
-    visible_start_date: 1405884600
-    end_date: 1735669800
-    current: 1493558183
-layout: problem
+{"category_name":"easy","problem_code":"RRCOPY","problem_name":"Copy-Paste","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYTH","37":"PYTH 3.4","38":"RUBY","39":"SCALA","40":"SCM guile","41":"SCM qobi","42":"ST","43":"TCL","44":"TEXT","45":"WSPC"},"max_timelimit":2,"source_sizelimit":50000,"problem_author":"Rubanenko","problem_tester":"shiplu","date_added":"5-07-2014","tags":{"0":"Rubanenko","1":"cakewalk","2":"cook48"},"editorial_url":"http://discuss.codechef.com/problems/RRCOPY","time":{"view_start_date":1405884600,"submit_start_date":1405884600,"visible_start_date":1405884600,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/COOK48/mandarin2/RRCOPY.pdf) and [Russian](http://www.codechef.com/download/translated/COOK48/russian/RRCOPY.pdf) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3> Read problems statements in <a target="_blank" href="http://www.codechef.com/download/translated/COOK48/mandarin2/RRCOPY.pdf">Mandarin Chinese</a> and <a target="_blank" href="http://www.codechef.com/download/translated/COOK48/russian/RRCOPY.pdf">Russian</a> as well.</h3>
 
-You had an array of integer numbers. You also had a beautiful operations called "Copy-Paste" which allowed you to copy any contiguous subsequence of your array and paste it in any position of your array. For example, if you have array **\[1, 2, 3, 4, 5\]** and copy it's subsequence from the second to the fourth element and paste it after the third one, then you will get **\[1, 2, 3, 2, 3, 4, 4, 5\]** array. You remember that you have done a finite(probably zero) number of such operations over your initial array and got an array **A** as a result. Unfortunately you don't remember the initial array itself, so you would like to know what could it be. You are interested by the smallest such array. So the task is to find the minimal size(length) of the array that **A** can be obtained from by using "Copy-Paste" operations.
+<p> </p>
+<p>You had an array of integer numbers. You also had a beautiful operations called "Copy-Paste" which allowed you to copy any contiguous subsequence of your array and paste it in any position of your array. For example, if you have array <b>[1, 2, 3, 4, 5]</b> and copy it's subsequence from the second to the fourth element and paste it after the third one, then you will get <b>[1, 2, 3, 2, 3, 4, 4, 5]</b> array. You remember that you have done a finite(probably zero) number of such operations over your initial array and got an array <b>A</b> as a result. Unfortunately you don't remember the initial array itself, so you would like to know what could it be. You are interested by the smallest such array. So the task is to find the minimal size(length) of the array that <b>A</b> can be obtained from by using "Copy-Paste" operations. </p>
+<p> </p>
 
-### Input
 
-The first line of the input contains an integer **T** denoting the number of test cases. The description of **T** test cases follows. The first line of each test case contains a single integer **N** denoting the number of elements in obtained array **A**. The second line contains **N** space-separated integers **A1**, **A2**, ..., **AN** denoting the array. ### Output
+<h3>Input</h3>
+The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.
+The first line of each test case contains a single integer <b>N</b> denoting the number of elements in obtained array <b>A</b>. The second line contains <b>N</b> space-separated integers <b>A<sub>1</sub></b>, <b>A<sub>2</sub></b>, ..., <b>A<sub>N</sub></b> denoting the array.
+<p> </p>
 
-For each test case, output a single line containing the answer. ### Constraints
+<h3>Output</h3>
+For each test case, output a single line containing the answer.
+<p> </p>
 
-- **1** ≤ **T** ≤ **20**
-- **1** ≤ **N** ≤ **105**
-- **1** ≤ **Ai** ≤ **105**
-
-### Example
-
+<h3>Constraints</h3>
+<ul>
+<li><b>1</b> ≤ <b>T</b> ≤ <b>20</b></li>
+<li><b>1</b> ≤ <b>N</b> ≤ <b>10<sup>5</sup></b></li>
+<li><b>1</b> ≤ <b>A<sub>i</sub></b> ≤ <b>10<sup>5</sup></b></li>
+</ul>
+<p> </p>
+<h3>Example</h3>
 <pre><b>Input:</b>
 2
 5
@@ -94,6 +36,6 @@ For each test case, output a single line containing the answer. ### Constraints
 1
 3
 </pre>
-### Explanation
-
-In the first case we could have only array **\[1\]** in the beginning and then obtain **\[1, 1\]**, then **\[1, 1, 1, 1\]** and finally **\[1, 1, 1, 1, 1\]**. In the second one we could obtain **A** from **\[1, 2, 3\]** by copying it's first two elements to the end.
+<p> </p>
+<h3>Explanation</h3>
+<p>In the first case we could have only array <b>[1]</b> in the beginning and then obtain <b>[1, 1]</b>, then <b>[1, 1, 1, 1]</b> and finally <b>[1, 1, 1, 1, 1]</b>. In the second one we could obtain <b>A</b> from <b>[1, 2, 3]</b> by copying it's first two elements to the end. </p>

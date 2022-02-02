@@ -1,125 +1,57 @@
 ---
-category_name: hard
-problem_code: XORTREEH
-problem_name: 'Chef and Horcrux'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 6.3'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - kotlin
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYPY
-    - PYTH
-    - 'PYTH 3.5'
-    - RUBY
-    - rust
-    - SCALA
-    - 'SCM chicken'
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - swift
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '5'
-source_sizelimit: '50000'
-problem_author: adkroxx
-problem_tester: alex_2oo8
-date_added: 23-08-2017
-tags:
-    - adkroxx
-    - fast
-    - fastmodexp
-    - fft
-    - hard
-    - ntt
-    - oct17
-editorial_url: 'https://discuss.codechef.com/problems/XORTREEH'
-time:
-    view_start_date: 1508146200
-    submit_start_date: 1508146200
-    visible_start_date: 1508146200
-    end_date: 1735669800
-    current: 1514816847
-layout: problem
+{"category_name":"hard","problem_code":"XORTREEH","problem_name":"Chef and Horcrux","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 6.3","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"kotlin","24":"LISP clisp","25":"LISP sbcl","26":"LUA","27":"NEM","28":"NICE","29":"NODEJS","30":"PAS fpc","31":"PAS gpc","32":"PERL","33":"PERL6","34":"PHP","35":"PIKE","36":"PRLG","37":"PYPY","38":"PYTH","39":"PYTH 3.5","40":"RUBY","41":"rust","42":"SCALA","43":"SCM chicken","44":"SCM guile","45":"SCM qobi","46":"ST","47":"swift","48":"TCL","49":"TEXT","50":"WSPC"},"max_timelimit":5,"source_sizelimit":50000,"problem_author":"adkroxx","problem_tester":"alex_2oo8","date_added":"23-08-2017","tags":{"0":"adkroxx","1":"fast","2":"fastmodexp","3":"fft","4":"hard","5":"ntt","6":"oct17"},"editorial_url":"https://discuss.codechef.com/problems/XORTREEH","time":{"view_start_date":1508146200,"submit_start_date":1508146200,"visible_start_date":1508146200,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.### Read problems statements in [mandarin chinese](http://www.codechef.com/download/translated/OCT17/mandarin/XORTREEH.pdf), [russian](http://www.codechef.com/download/translated/OCT17/russian/XORTREEH.pdf) and [vietnamese](http://www.codechef.com/download/translated/OCT17/vietnamese/XORTREEH.pdf) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3>Read problems statements in <a target="_blank" 
+href="http://www.codechef.com/download/translated/OCT17/mandarin/XORTREEH.pdf">mandarin chinese</a>, <a target="_blank" 
+href="http://www.codechef.com/download/translated/OCT17/russian/XORTREEH.pdf">russian</a> and <a target="_blank" 
+href="http://www.codechef.com/download/translated/OCT17/vietnamese/XORTREEH.pdf">vietnamese</a> as well.</h3>
 
-Once again Harry is out there with his friends Ron and Hermione looking out for Horcruxes. They found out that one of the Horcrux is located at The Lestrange Vault. But You-Know-Who has locked the vault with a dark spell.
+<p>Once again Harry is out there with his friends Ron and Hermione looking out for Horcruxes. They found out that one of the Horcrux is located at The Lestrange Vault. But You-Know-Who has locked the vault with a dark spell.</p>
 
-Fortunately, the password to the vault can be found out by solving a problem. But they were not able to solve the problem and hence need help from Chef. Since Chef is quite busy, he has delegated this task to you.
+<p>Fortunately, the password to the vault can be found out by solving a problem. But they were not able to solve the problem and hence need help from Chef. Since Chef is quite busy, he has delegated this task to you.</p>
 
-You are given an array of **N** elements. [**MEX**](https://en.wikipedia.org/wiki/Mex_(mathematics)) of a set is defined as the minimum non-negative integer that doesn't exist in it. For example, the MEX of the set {0, 2, 4} is 1 and the MEX of the set {1, 2, 3} is 0. Note that the MEX of empty set will be 0.
+<p>You are given an array of <b>N</b> elements. <a href="https://en.wikipedia.org/wiki/Mex_(mathematics)"><b>MEX</b></a> of a set is defined as the minimum non-negative integer that doesn't exist in it. For example, the MEX of the set {0, 2, 4} is 1 and the MEX of the set {1, 2, 3} is 0. Note that the MEX of empty set will be 0.</p>
 
-Similar to [Expected value](https://en.wikipedia.org/wiki/Expected_value), let's define *Cheftated value*, **C\[Y\]** of a random variable **Y** as follows:
+<p>Similar to <a href="https://en.wikipedia.org/wiki/Expected_value">Expected value</a>, let's define <em>Cheftated value</em>, <b>C[Y]</b> of a random variable <b>Y</b> as follows:
+<center><img src ="https://discuss.codechef.com/upfiles/XORTREEH_img1.jpeg" height=48 width=184></img></center>
+where <b>Y</b> is a random variable with a finite number of outcomes <b>y<sub>1</sub>, y<sub>2</sub>, ..... , y<sub>a</sub></b> occurring with probabilities <b>p<sub>1</sub>, p<sub>2</sub>, ..... , p<sub>a</sub></b>. Take <b>0<sup>0</sup> = 1</b>.
+</p>
 
-![](https://discuss.codechef.com/upfiles/XORTREEH_img1.jpeg)where **Y** is a random variable with a finite number of outcomes **y1, y2, ..... , ya** occurring with probabilities **p1, p2, ..... , pa**. Take **00 = 1**. You are given an array **A** consisting of **N** non-negative integers. Your task is to calculate the cheftated value of base **K** xor sum of MEX values of **X** randomly selected subsequences( **repetitions allowed**) of A.
+<p>You are given an array <b>A</b> consisting of <b>N</b> non-negative integers. Your task is to calculate the cheftated value of base <b>K</b> xor sum of MEX values of <b>X</b> randomly selected subsequences( <b>repetitions allowed</b>) of A.</p>
 
-Cheftated value can always be represented as an irreducible fraction **P/Q** such that **gcd(Q, 330301441) = 1**, i.e. **Q-1** ([ multiplicative inverse](https://en.wikipedia.org/wiki/Modular_multiplicative_inverse)) modulo **330301441** exists. You have to print the value **P \* Q-1** modulo **330301441**. Please see the sample explanation for more details.
+<p>Cheftated value can always be represented as an irreducible fraction <b>P/Q</b> such that <b>gcd(Q, 330301441) = 1</b>, i.e. <b>Q<sup>-1</sup></b> (<a href="https://en.wikipedia.org/wiki/Modular_multiplicative_inverse"> multiplicative inverse</a>) modulo <b>330301441</b> exists. You have to print the value <b>P * Q<sup>-1</sup></b> modulo <b>330301441</b>. Please see the sample explanation for more details.</p>
 
-Also, xor-sum in base **K** (xork) can be perfomed by representing the numbers in base **K** and [adding each digit in base K](https://en.wikipedia.org/wiki/Addition#Addition_in_other_bases)( **without carrying forward**), e.g. xorsum of 6 and 9 in base 5 is equal to **115 xor5 145 = 205**, i.e. the number **10**.
+<p>Also, xor-sum in base <b>K</b> (xor<sub>k</sub>) can be perfomed by representing the numbers in base <b>K</b> and <a href="https://en.wikipedia.org/wiki/Addition#Addition_in_other_bases">adding each digit in base K</a>( <b>without carrying forward</b>), e.g. xorsum of 6 and 9 in base 5 is equal to <b>11<sub>5</sub> xor<sub>5</sub> 14<sub>5</sub> = 20<sub>5</sub></b>, i.e. the number <b>10</b>.
+</p>
 
-### Input
+<h3>Input</h3>
+<p>First line of the input contains an integer <b>T</b> denoting number of test cases. </p>
+<p>First line of each test case contains three space separated integers <b>N</b>, <b>K</b> and <b>X</b>.</p>
+<p>Second line of each test case contains <b>N</b> space separated integers, <b>i</b>-th of which is <b>A<sub>i</sub></b> denoting the i<sup>th</sup> element of the array.
+</p>
 
-First line of the input contains an integer **T** denoting number of test cases.
+<h3>Output</h3>
+<p>
+For each test case, output a line containing single integer representing the value of <b>P*Q<sup>-1</sup></b> modulo <b>330301441</b>.
+</p>
 
-First line of each test case contains three space separated integers **N**, **K** and **X**.
+<h3>Constraints</h3>
+<ul>
+<li><b>1</b> ≤ <b>T</b> ≤ <b>5</b>
+<li><b>1</b> ≤ <b>N</b> ≤ <b>10<sup>5</sup></b></li>
+<li><b>2</b> ≤ <b>K</b> ≤ <b>10</b></li>
+<li><b>2</b> ≤ <b>X</b> ≤ <b>10<sup>18</sup></b></li>
+<li><b>0</b> ≤ <b>A<sub>i</sub></b> ≤ <b>10<sup>5</sup></b></li>
+</ul>
 
-Second line of each test case contains **N** space separated integers, **i**-th of which is **Ai** denoting the ith element of the array.
+<h3>Subtasks</h3>
+<ul>
+<li><b>Subtask #1</b> (15 points) : <b>K</b> ≤ 3</li>
+<li><b>Subtask #2</b> (15 points) : <b>N</b> ≤ 10<sup>3</sup></li>
+<li><b>Subtask #3</b> (70 points) : Original constraints</li>
+</ul>
 
-### Output
-
-For each test case, output a line containing single integer representing the value of **P\*Q-1** modulo **330301441**.
-
-### Constraints
-
-- **1** ≤ **T** ≤ **5**
-- **1** ≤ **N** ≤ **105**
-- **2** ≤ **K** ≤ **10**
-- **2** ≤ **X** ≤ **1018**
-- 0 ≤ **Ai** ≤ **105**
-
-### Subtasks
-
-- **Subtask #1** (15 points) : **K** ≤ 3
-- **Subtask #2** (15 points) : **N** ≤ 103
-- **Subtask #3** (70 points) : Original constraints
-
-### Example
-
+<h3>Example</h3>
 <pre>
 <b>Input:</b>
 2
@@ -132,17 +64,19 @@ For each test case, output a line containing single integer representing the val
 87392358
 88861416
 </pre>
-### Explanation
 
-**Example case 1:** Let's name the sub-sequences as A = \[\], B = \[1\], C = \[0\], D = \[2\], E = \[1, 0\], F = \[1, 2\], G = \[0, 2\], H = \[1, 0, 2\].
+<h3>Explanation</h3>
+<p>
+<b>Example case 1:</b> 
+Let's name the sub-sequences  as A = [], B = [1], C = [0], D = [2], E = [1, 0], F = [1, 2], G = [0, 2], H = [1, 0, 2].</p>
+<p>Possible outcome of xor values after selecting two sub-sequences (repetitions allowed):</p>
+<ul>
+<li>0 when you select (two from (A, B, D, F)) or (two from (C, G)) or (two from (E)) or (two from (H)) making it 22 ways.</li>
+<li>1 when you select (one from (A, B, D, F) and one from (C, G)) or (one from (E) and one from (H)) making it 18 ways.</li>
+<li>2 when you select (one from (A, B, D, F) and one from (E)) or (one from (H) and one from (C, G)) making it 12 ways.</li>
+<li>3 when you select (one from (A, B, D, F) and one from (H)) or (one from (E) and one from (C, G)) making it 12 ways.</li>
+</ul>
 
-Possible outcome of xor values after selecting two sub-sequences (repetitions allowed):
-
-- 0 when you select (two from (A, B, D, F)) or (two from (C, G)) or (two from (E)) or (two from (H)) making it 22 ways.
-- 1 when you select (one from (A, B, D, F) and one from (C, G)) or (one from (E) and one from (H)) making it 18 ways.
-- 2 when you select (one from (A, B, D, F) and one from (E)) or (one from (H) and one from (C, G)) making it 12 ways.
-- 3 when you select (one from (A, B, D, F) and one from (H)) or (one from (E) and one from (C, G)) making it 12 ways.
-
-Cheftated value = 02\*0 \* (22/64)3\*0 + 12\*1 \* (18/64)3\*1 + 22\*2 \* (12/64)3\*2 + 32\*3 \* (12/64)3\*3 = 70310425195/68719476736.
-
-Answer to print = 70310425195 \* 68719476736-1 mod 330301441 = **87392358**
+<p>Cheftated value = 0<sup>2*0</sup> * (22/64)<sup>3*0</sup> + 1<sup>2*1</sup> * (18/64)<sup>3*1</sup> + 2<sup>2*2</sup> * (12/64)<sup>3*2</sup> + 3<sup>2*3</sup> * (12/64)<sup>3*3</sup> = 70310425195/68719476736.</p>
+<p>Answer to print = 70310425195 * 68719476736<sup>-1</sup> mod 330301441 = <b>87392358</b>
+</p>

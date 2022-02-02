@@ -1,34 +1,22 @@
 ---
-languages_supported:
-    - NA
-title: BYTEISLE
-category: NA
-old_version: true
-problem_code: BYTEISLE
-tags:
-    - NA
-layout: problem
+{"languages_supported":{"0":"NA"},"title":"BYTEISLE","category":"NA","old_version":true,"problem_code":"BYTEISLE","tags":{"0":"NA"},"layout":"problem"}
 ---
-###  All submissions for this problem are available. 
 
-A long school holiday has come, and you decided to visit the famous Byte Island. You know there are only two types of Bytelandians: Byteknights and Byteknaves. A Byteknight always tells the truth, whereas a Byteknave always lies.
+<h3> All submissions for this problem are available. </h3><p>A long school holiday has come, and you decided to visit the famous Byte Island. You know there are only two types of Bytelandians: Byteknights and Byteknaves. A Byteknight always tells the truth, whereas a Byteknave always lies.</p>
 
-It is known that there are *N* Bytelandians in the island, and now you meet all of them. You are curious about their types. Because you are a smart logician, you don't want to ask them questions that immediately reveal their types (that's too boring). Instead, to each Bytelandian you ask, "How many Byteknights are there here?"
+<p>It is known that there are <i>N</i> Bytelandians in the island, and now you meet all of them. You are curious about their types. Because you are a smart logician, you don't want to ask them questions that immediately reveal their types (that's too boring). Instead, to each Bytelandian you ask, "How many Byteknights are there here?"</p>
 
-To your surprise, they also don't answer your questions directly. Instead, the *i*-th Bytelandian answers of the form "The number of Byteknights here is between *ai* and *bi*, inclusive". You record all answers in your pocket note.
+<p>To your surprise, they also don't answer your questions directly. Instead, the <i>i</i>-th Bytelandian answers of the form "The number of Byteknights here is between <i>a<sub>i</sub></i> and <i>b<sub>i</sub></i>, inclusive". You record all answers in your pocket note.</p>
 
-Now that you have collected all information you need, determine the type of each Bytelandian.
+<p>Now that you have collected all information you need, determine the type of each Bytelandian.</p>
 
-### Input
+<h3>Input</h3>
+<p>The first line contains a single integer <i>T</i>, the number of test cases. <i>T</i> test cases follow. The first line of each test case contains a single integer <i>N</i>. <i>N</i> lines follow. The <i>i</i>-th line contains two integers <i>a<sub>i</sub></i> and <i>b<sub>i</sub></i>.</p>
 
-The first line contains a single integer *T*, the number of test cases. *T* test cases follow. The first line of each test case contains a single integer *N*. *N* lines follow. The *i*-th line contains two integers *ai* and *bi*.
+<h3>Output</h3>
+<p>For each test case, output two lines. In the first line, output a single integer indicating the number of different solutions, modulo 1000000007. In the next line, output the lexicographically smallest solution. A solution is a string consisting of <i>N</i> characters, where the <i>i</i>-th character of the string is '1' if the <i>i</i>-th Bytelandian is a Byteknight, or '0' in case of a Byteknave. It is guaranteed that there is at least one valid solution.</p>
 
-### Output
-
-For each test case, output two lines. In the first line, output a single integer indicating the number of different solutions, modulo 1000000007. In the next line, output the lexicographically smallest solution. A solution is a string consisting of *N* characters, where the *i*-th character of the string is '1' if the *i*-th Bytelandian is a Byteknight, or '0' in case of a Byteknave. It is guaranteed that there is at least one valid solution.
-
-### Example
-
+<h3>Example</h3>
 <pre>
 <b>Input:</b>
 3
@@ -52,8 +40,10 @@ For each test case, output two lines. In the first line, output a single integer
 1
 101
 </pre>
-### Constraints
 
-- 1 &lt;= *T* &lt;= 5
-- 1 &lt;= *N* &lt;= 50000
-- 0 &lt;= *ai* &lt;= *bi* &lt;= *N*
+<h3>Constraints</h3>
+<ul>
+<li>1 &lt;= <i>T</i> &lt;= 5</li>
+<li>1 &lt;= <i>N</i> &lt;= 50000</li>
+<li>0 &lt;= <i>a<sub>i</sub></i> &lt;= <i>b<sub>i</sub></i> &lt;= <i>N</i></li>
+</ul>    

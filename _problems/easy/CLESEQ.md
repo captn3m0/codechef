@@ -1,0 +1,18 @@
+---
+{"category_name":"easy","problem_code":"CLESEQ","problem_name":"Clean The Sequence","problemComponents":{"constraints":"- $1 \\leq T \\leq 1000$\n- $1 \\leq K \\leq N \\leq 10^5$\n- For each $i$, $1 \\leq A_{i} \\leq K$\n- Every number from $1$ to  $K$ appears atleast once\n- Sum of N over all cases doesn\u0027t exceed $10^5$\n","constraintsState":true,"subtasks":"","subtasksState":false,"inputFormat":"- First line will contain $T$, the number of test cases. Then the testcases follow.\n- Each testcase consist of two lines of input\n- First line contains two integers $N$, $K$ \n- Second line contains $N$ space-separated integers, where the $i^{th}$ integer denotes the $i^{th}$ element of the sequence $A$.\n","inputFormatState":true,"outputFormat":"- For each testcase print $K$ space-separated integers denoting the answer for that testcase.\n","outputFormatState":true,"sampleTestCases":{"0":{"id":1,"input":"2\n8 2\n1 2 1 2 2 2 1 2\n8 3\n1 2 2 1 1 1 2 3","output":"0 0\n1 1 3\n","explanation":"**Test case 1:**\n   - By removing 1, we get the sequence: $[2, 2, 2, 2, 2]$. Since all the elements are the same, ugliness is $0$\n   - By removing 2, we get the sequence: $[1, 1, 1]$. Since all the elements are the same, ugliness is $0$\n\n**Test case 2:**\n   - By removing 1, we get the sequence: $[2, 2, 2, 3]$. Since the 3rd and 4th elements are not equal, ugliness is $1$.\n   - By removing 2, we get the sequence: $[1, 1, 1, 1, 3]$. Since the 3rd and 4th elements are not equal, ugliness is $1$.\n   - By removing 3, we get the sequence: $[1, 2, 2, 1, 1, 1, 2]$. Since 1st and 2nd, 3rd and 4th, 6th and 7th are not equal, total ugliness is $3$.\n\n\n","isDeleted":false}}},"video_editorial_url":"","languages_supported":{"0":"CPP14","1":"C","2":"JAVA","3":"PYTH 3.6","4":"CPP17","5":"PYTH","6":"PYP3","7":"CS2","8":"ADA","9":"PYPY","10":"TEXT","11":"PAS fpc","12":"NODEJS","13":"RUBY","14":"PHP","15":"GO","16":"HASK","17":"TCL","18":"PERL","19":"SCALA","20":"LUA","21":"kotlin","22":"BASH","23":"JS","24":"LISP sbcl","25":"rust","26":"PAS gpc","27":"BF","28":"CLOJ","29":"R","30":"D","31":"CAML","32":"FORT","33":"ASM","34":"swift","35":"FS","36":"WSPC","37":"LISP clisp","38":"SQL","39":"SCM guile","40":"PERL6","41":"ERL","42":"CLPS","43":"ICK","44":"NICE","45":"PRLG","46":"ICON","47":"COB","48":"SCM chicken","49":"PIKE","50":"SCM qobi","51":"ST","52":"SQLQ","53":"NEM"},"max_timelimit":1,"source_sizelimit":50000,"problem_author":"arc_00","problem_tester":"","date_added":"8-10-2021","tags":{"0":"arc_00"},"problem_difficulty_level":"Unavailable","best_tag":"","editorial_url":"","time":{"view_start_date":1637951400,"submit_start_date":1637951400,"visible_start_date":1637951400,"end_date":1735669800},"is_direct_submittable":false,"problemDiscussURL":"https://discuss.codechef.com/search?q=CLESEQ","is_proctored":false,"visitedContests":{},"layout":"problem"}
+---
+The ugliness of a sequence of size $N$ , whose elements are numbered from $1$ to $N$ , is defined as the number of instances such that neighboring elements are not equal to each other, that is, the ugliness of a sequence increase by $1$ if $a[i] \neq a[i-1]$ for $i \gt 1$.
+
+Example: 
+- $[1, 2, 2, 3]$, ugliness is $2$.
+- $[2, 1, 2, 3,4]$, ugliness is $4$.
+
+You are given a sequence of length $N$ consisting of the first $K$ natural numbers with each of the numbers occurs at least once in the sequence. For each $K$, you have to remove all its occurrences from the original sequence and determine the ugliness of the resulting sequence.
+
+
+**Note**:  An empty sequence has ugliness of $0$.
+
+ 
+
+
+<aside style='background: #f8f8f8;padding: 10px 15px;'><div>All submissions for this problem are available.</div></aside>

@@ -1,122 +1,43 @@
 ---
-category_name: easy
-problem_code: CAPIMOVE
-problem_name: 'Capital Movement'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYPY
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM chicken'
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '1'
-source_sizelimit: '50000'
-problem_author: cenadar
-problem_tester: iscsi
-date_added: 8-08-2015
-tags:
-    - cenadar
-    - data
-    - heap
-    - jan17
-    - sets
-    - simple
-    - sorting
-    - tree
-editorial_url: 'https://discuss.codechef.com/problems/CAPIMOVE'
-time:
-    view_start_date: 1484731800
-    submit_start_date: 1484731800
-    visible_start_date: 1484731800
-    end_date: 1735669800
-    current: 1493558113
-layout: problem
+{"category_name":"easy","problem_code":"CAPIMOVE","problem_name":"Capital Movement","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYPY","37":"PYTH","38":"PYTH 3.4","39":"RUBY","40":"SCALA","41":"SCM chicken","42":"SCM guile","43":"SCM qobi","44":"ST","45":"TCL","46":"TEXT","47":"WSPC"},"max_timelimit":1,"source_sizelimit":50000,"problem_author":"cenadar","problem_tester":"iscsi","date_added":"8-08-2015","tags":{"0":"cenadar","1":"data","2":"heap","3":"jan17","4":"sets","5":"simple","6":"sorting","7":"tree"},"editorial_url":"https://discuss.codechef.com/problems/CAPIMOVE","time":{"view_start_date":1484731800,"submit_start_date":1484731800,"visible_start_date":1484731800,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/JAN17/mandarin/CAPIMOVE.pdf), [Russian](http://www.codechef.com/download/translated/JAN17/russian/CAPIMOVE.pdf) and [Vietnamese](http://www.codechef.com/download/translated/JAN17/vietnamese/CAPIMOVE.pdf) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3> Read problems statements in <a target="_blank" href="http://www.codechef.com/download/translated/JAN17/mandarin/CAPIMOVE.pdf">Mandarin Chinese</a>, <a target="_blank" href="http://www.codechef.com/download/translated/JAN17/russian/CAPIMOVE.pdf">Russian</a> and <a target="_blank" href="http://www.codechef.com/download/translated/JAN17/vietnamese/CAPIMOVE.pdf">Vietnamese</a> as well.</h3>
 
-Chef is playing a video game. In a video game, there's a advanced civilization that has a total of **N** planets under control. All of those planets are connected with **N-1** teleports in such a way, that it's possible to travel between any two planets using those teleports.
+<p>Chef is playing a video game. In a video game, there's a advanced civilization that has a total of <b>N</b> planets under control. All of those planets are connected with <b>N-1</b> teleports in such a way, that it's possible to travel between any two planets using those teleports.</p>
 
-There's a chance that some planet gets infected. In this case it takes 24 hours for civilization to find out infection and prevent it from spreading. During this time infection uses teleport one time and infect all the planets that can be achieved in one teleport jump. So, once infection is detected at planet **V**, scientists already know that all planets connected to **V** via teleport are also infected. All the neccessary teleports are disabled right away and medics start working on eliminating the infection.
+<p>There's a chance that some planet gets infected. In this case it takes 24 hours for civilization to find out infection and prevent it from spreading. During this time infection uses teleport one time and infect all the planets that can be achieved in one teleport jump. So, once infection is detected at planet <b>V</b>, scientists already know that all planets connected to <b>V</b> via teleport are also infected. All the neccessary teleports are disabled right away and medics start working on eliminating the infection.</p>
+<p>Each planet has population. Planets are numbered from <b>1</b> to <b>N</b> and their populations are <b>P<sub>1</sub></b>, <b>P<sub>2</sub></b>, ..., <b>P<sub>N</sub></b>. It is known that all the <b>P<sub>i</sub></b> are distinct.</p>
 
-Each planet has population. Planets are numbered from **1** to **N** and their populations are **P1**, **P2**, ..., **PN**. It is known that all the **Pi** are distinct.
+<p>There's a capital among all those planets. The capital is known to have the biggest population.</p>
+<p>Once infection is detected at planet <b>V</b>, after disabling teleports on planet <b>V</b> and all connected to them, government has to establish a new capital if needed in the remaining not-infected planets. So, they list all the planets that are not connected to <b>V</b> and are not <b>V</b>. Then they pick the planet with biggest population. Your task is to find the number of this planet for every possible <b>V</b>.</p>
 
-There's a capital among all those planets. The capital is known to have the biggest population.
+<h3>Input</h3>
+<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</p>
+<p>The first line of each test case contains one integer <b>N</b>.</p>
+<p>Next line contains <b>N</b> space-separated integers <b>P<sub>1</sub></b>, <b>P<sub>2</sub></b>, ..., <b>P<sub>N</sub></b> denoting the population of each planet.</p>
+<p>Next <b>N-1</b> lines contain two space-separated integers each <b>V</b> and <b>U</b> denoting that there's a teleport between planet <b>V</b> and <b>U</b>.</p>
 
-Once infection is detected at planet **V**, after disabling teleports on planet **V** and all connected to them, government has to establish a new capital if needed in the remaining not-infected planets. So, they list all the planets that are not connected to **V** and are not **V**. Then they pick the planet with biggest population. Your task is to find the number of this planet for every possible **V**.
+<h3>Output</h3>
+<p>For each test case, output a single line containing <b>N</b> integers <b>A<sub>1</sub></b>, <b>A<sub>2</sub></b>, ..., <b>A<sub>N</sub></b> separated by a space. Here <b>A<sub>i</sub></b> denotes the number of the planet picked to be new capital in case infection starts spreading from the planet <b>i</b>. In case infection affects all the planets output <b>0</b>.</p>
 
-### Input
+<h3>Constraints</h3>
+<ul>
+<li><b>1</b> ≤ <b>T</b> ≤ <b>5</b></li>
+<li><b>1</b> ≤ <b>N</b> ≤ <b>50000</b></li>
+<li><b>1</b> ≤ <b>P<sub>i</sub></b> ≤ <b>10<sup>9</sup></b></li>
+<li>All <b>P<sub>i</sub></b> are distinct</li>
+<li><b>1</b> ≤ <b>V</b> ≤ <b>N</b></li>
+<li><b>1</b> ≤ <b>U</b> ≤ <b>N</b></li>
+</ul>
 
-The first line of the input contains an integer **T** denoting the number of test cases. The description of **T** test cases follows.
+<h3>Subtasks</h3>
+<ul>
+<li><b>Subtask #1 (20 points): N ≤ 100</b></li>
+<li><b>Subtask #2 (30 points): N ≤ 10000</b></li>
+<li><b>Subtask #3 (50 points): No additional constraints</b></li>
+</ul>
 
-The first line of each test case contains one integer **N**.
-
-Next line contains **N** space-separated integers **P1**, **P2**, ..., **PN** denoting the population of each planet.
-
-Next **N-1** lines contain two space-separated integers each **V** and **U** denoting that there's a teleport between planet **V** and **U**.
-
-### Output
-
-For each test case, output a single line containing **N** integers **A1**, **A2**, ..., **AN** separated by a space. Here **Ai** denotes the number of the planet picked to be new capital in case infection starts spreading from the planet **i**. In case infection affects all the planets output 0.
-
-### Constraints
-
-- **1** ≤ **T** ≤ **5**
-- **1** ≤ **N** ≤ **50000**
-- **1** ≤ **Pi** ≤ **109**
-- All **Pi** are distinct
-- **1** ≤ **V** ≤ **N**
-- **1** ≤ **U** ≤ **N**
-
-### Subtasks
-
-- **Subtask #1 (20 points): N ≤ 100**
-- **Subtask #2 (30 points): N ≤ 10000**
-- **Subtask #3 (50 points): No additional constraints**
-
-### Example
-
+<h3>Example</h3>
 <pre><b>Input:</b>
 1
 6

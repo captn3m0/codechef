@@ -1,100 +1,24 @@
 ---
-category_name: medium
-problem_code: ORDERAAM
-problem_name: 'Chef and the Orders'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '1'
-source_sizelimit: '50000'
-problem_author: 'satej '
-problem_tester: gerald
-date_added: 6-01-2014
-tags:
-    - cook42
-    - greedy
-    - hard
-    - min
-    - satej
-editorial_url: 'http://discuss.codechef.com/problems/ORDERAAM'
-time:
-    view_start_date: 1390158900
-    submit_start_date: 1390158000
-    visible_start_date: 1390158900
-    end_date: 1735669800
-    current: 1493557830
-layout: problem
+{"category_name":"medium","problem_code":"ORDERAAM","problem_name":"Chef and the Orders","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYTH","37":"PYTH 3.4","38":"RUBY","39":"SCALA","40":"SCM guile","41":"SCM qobi","42":"ST","43":"TCL","44":"TEXT","45":"WSPC"},"max_timelimit":1,"source_sizelimit":50000,"problem_author":"satej ","problem_tester":"gerald","date_added":"6-01-2014","tags":{"0":"cook42","1":"greedy","2":"hard","3":"min","4":"satej"},"editorial_url":"http://discuss.codechef.com/problems/ORDERAAM","time":{"view_start_date":1390158900,"submit_start_date":1390158000,"visible_start_date":1390158900,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/COOK42/mandarin/ORDERAAM.pdf) and [Russian](http://www.codechef.com/download/translated/COOK42/russian/ORDERAAM.pdf) as well.
-
-Chef gets **N** orders. The orders are numbered from **1** to **N**. He gets order **i** at **Si** time, and this order contains **Xi** number of items. Chef needs to serve each of these **Xi** items before **Di** time and for each unit of items he cannot cook before this deadline he needs to pay **Pi** unit of money as penalty. Given all of the orders, help the Chef to minimize the penalty he will have to pay. 
-
- **Important Note**: Chef can cook at most one item at a unit time and for each item he needs exactly one unit of time to cook. Also Chef can serve an item instantly, when the item is cooked. If Chef wants to serve an item at time **t**, then the latest he can cook that item is at time time **t**. In another words, for order **i** Chef can cook the items at time units **Si**, **Si+1**, **Si+2**, ..., **Di-1**. Please note, that Chef can not cook items from order **i** exactly at time unit **Di**.
-
-### Input
-
-The first line of the input contains an integer **T** denoting the number of test cases. The description of **T** test cases follows. Each test case starts with a line containing **N** the number of orders. Each of the next **N** lines contains the description of an order. Order **i** is given as a four integers **Si**, **Xi**, **Di** and **Pi** in a single line separated by a single space.
-
-### Output
-
-For each test case, output a single line containing the minimum amount of penalty Chef has to pay.
-
-### Constraints
-
-- **1** ≤ **T** ≤ **50**
-- **1** ≤ **N** ≤ **200**
-- **1** ≤ **Si** ≤ **108**
-- **1** ≤ **Xi** ≤ **108**
-- **1** ≤ **Di** ≤ **108**
-- **1** ≤ **Pi** ≤ **108**
-- **Si**+**Xi** ≤ **Di**
-
-### Example
-
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3> Read problems statements in <a target="_blank" href="http://www.codechef.com/download/translated/COOK42/mandarin/ORDERAAM.pdf">Mandarin Chinese</a> and <a target="_blank" href="http://www.codechef.com/download/translated/COOK42/russian/ORDERAAM.pdf">Russian</a> as well.</h3>
+<p>Chef gets <b>N</b> orders. The orders are numbered from <b>1</b> to <b>N</b>. He gets order <b>i</b> at <b>S<sub>i</sub></b> time, and this order contains <b>X<sub>i</sub></b> number of items. Chef needs to serve each of these <b>X<sub>i</sub></b> items before <b>D<sub>i</sub></b> time and for each unit of items he cannot cook before this deadline he needs to pay <b>P<sub>i</sub></b> unit of money as penalty. Given all of the orders, help the Chef to minimize the penalty he will have to pay. <br /><br /> <b>Important Note</b>: Chef can cook at most one item at a unit time and for each item he needs exactly one unit of time to cook. Also Chef can serve an item instantly, when the item is cooked. If Chef wants to serve an item at time <b>t</b>, then the latest he can cook that item is at time time <b>t</b>. In another words, for order <b>i</b> Chef can cook the items at time units <b>S<sub>i</sub></b>, <b>S<sub>i</sub>+1</b>, <b>S<sub>i</sub>+2</b>, ..., <b>D<sub>i</sub>-1</b>. Please note, that Chef can not cook items from order <b>i</b> exactly at time unit <b>D<sub>i</sub></b>. </p>
+<h3>Input</h3>
+<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows. Each test case starts with a line containing <b>N</b> the number of orders. Each of the next <b>N</b> lines contains the description of an order. Order <b>i</b> is given as a four integers <b>S<sub>i</sub></b>, <b>X<sub>i</sub></b>, <b>D<sub>i</sub></b> and <b>P<sub>i</sub></b> in a single line separated by a single space. </p>
+<h3>Output</h3>
+<p>For each test case, output a single line containing the minimum amount of penalty Chef has to pay. </p>
+<h3>Constraints</h3>
+<ul>
+<li><b>1</b> ≤ <b>T</b> ≤ <b>50</b></li>
+<li><b>1</b> ≤ <b>N</b> ≤ <b>200</b></li>
+<li><b>1</b> ≤ <b>S<sub>i</sub></b> ≤ <b>10<sup>8</sup></b></li>
+<li><b>1</b> ≤ <b>X<sub>i</sub></b> ≤ <b>10<sup>8</sup></b></li>
+<li><b>1</b> ≤ <b>D<sub>i</sub></b> ≤ <b>10<sup>8</sup></b></li>
+<li><b>1</b> ≤ <b>P<sub>i</sub></b> ≤ <b>10<sup>8</sup></b></li>
+<li><b>S<sub>i</sub></b>+<b>X<sub>i</sub></b> ≤ <b>D<sub>i</sub></b></li>
+</ul>
+<p> </p>
+<h3>Example</h3>
 <pre><b>Input:</b>
 5
 1
@@ -121,11 +45,8 @@ For each test case, output a single line containing the minimum amount of penalt
 0
 147
 
-</pre>
-### Explanation
-
-**Example 1:** There is only 1 order and all of the items from this order can be served. So zero penalty
-
-**Example 2:** There are two orders and you cannot serve 5 items. You can select these 5 items from any order.
-
-**Example 3:** There are two orders and you cannot serve 5 items. But it is better not to serve these 5 items from the first order.
+</pre><p> </p>
+<h3>Explanation</h3>
+<p style="text-align:justify"><b>Example 1:</b> There is only 1 order and all of the items from this order can be served. So zero penalty</p>
+<p style="text-align:justify"><b>Example 2:</b> There are two orders and you cannot serve 5 items. You can select these 5 items from any order.</p>
+<p style="text-align:justify"><b>Example 3:</b> There are two orders and you cannot serve 5 items. But it is better not to serve these 5 items from the first order.</p>

@@ -1,109 +1,46 @@
 ---
-category_name: easy
-problem_code: UNIONSET
-problem_name: 'Pairwise union of sets'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYPY
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM chicken'
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '1'
-source_sizelimit: '50000'
-problem_author: admin2
-problem_tester: null
-date_added: 2-06-2017
-tags:
-    - admin2
-time:
-    view_start_date: 1497259800
-    submit_start_date: 1497259800
-    visible_start_date: 1497259800
-    end_date: 1735669800
-    current: 1497284415
-layout: problem
+{"category_name":"easy","problem_code":"UNIONSET","problem_name":"Pairwise union of sets","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYPY","37":"PYTH","38":"PYTH 3.4","39":"RUBY","40":"SCALA","41":"SCM chicken","42":"SCM guile","43":"SCM qobi","44":"ST","45":"TCL","46":"TEXT","47":"WSPC"},"max_timelimit":1,"source_sizelimit":50000,"problem_author":"admin2","problem_tester":null,"date_added":"2-06-2017","tags":{"0":"admin2"},"time":{"view_start_date":1497259800,"submit_start_date":1497259800,"visible_start_date":1497259800,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.### Read problems statements in [Mandarin](http://www.codechef.com/download/translated/JUNE17/mandarin/UNIONSET.pdf), [Russian](http://www.codechef.com/download/translated/JUNE17/russian/UNIONSET.pdf) and [Vietnamese](http://www.codechef.com/download/translated/JUNE17/vietnamese/UNIONSET.pdf) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3>Read problems statements in <a target="_blank" 
+href="http://www.codechef.com/download/translated/JUNE17/mandarin/UNIONSET.pdf">Mandarin</a>, <a target="_blank" 
+href="http://www.codechef.com/download/translated/JUNE17/russian/UNIONSET.pdf">Russian</a> and <a target="_blank" 
+href="http://www.codechef.com/download/translated/JUNE17/vietnamese/UNIONSET.pdf">Vietnamese</a> as well.</h3>
 
-There are **N** sets of integers from 1 to **K** both inclusive. Find out number of pairs of sets whose union contains all the **K** elements.
+<p>There are <b>N</b> sets of integers from 1 to <b>K</b> both inclusive. Find out number of pairs of sets whose union contains all the <b>K</b> elements.</p>
 
-### Input
+<h3>Input</h3>
+<p>The first line contains an integer <b>T</b> denotes number of test cases.</p>
+<p>The first line of each test case contains two space separated integers <b>N, K</b>.</p>
+<p>The each of the next line first contains an integer <b>len</b><sub>i</sub> denoting number of elements in the i-th set, followed by <b>len</b><sub>i</sub> space separated integers in the range [1, <b>K</b>] denoting the elements in the set.</p>
 
-The first line contains an integer **T** denotes number of test cases.
+<h3>Output</h3>
+<p>For each test case, output a single integer corresponding to the answer.</p>
 
-The first line of each test case contains two space separated integers **N, K**.
+<h3>Constraints</h3>
+<ul>
+<li>1 ≤ <b>T</b> ≤ 10</li>
+<li>1 ≤ <b>N, K</b> ≤ 2500</li>
+<li>1 ≤ <b>len</b><sub>i</sub> ≤ K</li>
+<li>Note that a set can't contain repeated elements.</li>
+<li>1 ≤ <b>len</b><sub>1</sub> + <b>len</b><sub>2</sub> + .. + <b>len</b><sub><b>N</b></sub> ≤ 10000</li>
+</ul>
 
-The each of the next line first contains an integer **len**i denoting number of elements in the i-th set, followed by **len**i space separated integers in the range \[1, **K**\] denoting the elements in the set.
+<h3>Subtasks</h3>
+<p><b>Subtask #1</b> (40 points)</p>
+<p>
+<ul>
+<li>1 ≤ <b>T</b> ≤ 10</li>
+<li>1 ≤ <b>N, K</b> ≤ 250</li>
+<li>1 ≤ <b>len</b><sub>1</sub> + <b>len</b><sub>2</sub> + .. + <b>len</b><sub><b>N</b></sub> ≤ 1000</li>
+</ul>
+</p>
 
-### Output
+<p><b>Subtask #2</b> (60 points)</p>
+<ul>
+<li>original constraints.</li>
+</ul>
 
-For each test case, output a single integer corresponding to the answer.
-
-### Constraints
-
-- 1 ≤ **T** ≤ 10
-- 1 ≤ **N, K** ≤ 2500
-- 1 ≤ **len**i ≤ K
-- Note that a set can't contain repeated elements.
-- 1 ≤ **len**1 + **len**2 + .. + **len****N** ≤ 10000
-
-### Subtasks
-
-**Subtask #1** (40 points)
-
-- 1 ≤ **T** ≤ 10
-- 1 ≤ **N, K** ≤ 250
-- 1 ≤ **len**1 + **len**2 + .. + **len****N** ≤ 1000
-
-**Subtask #2** (60 points)
-
-- original constraints.
-
-### Example
-
+<h3>Example</h3>
 <pre>
 <b>Input</b>
 3
@@ -124,8 +61,7 @@ For each test case, output a single integer corresponding to the answer.
 3
 3
 </pre>
-### Explanation
 
-**Example 1**. No pair of sets is there with its union = 2.
-
-For **example 2 and 3**, all the pairs are valid.
+<h3>Explanation</h3>
+<p><b>Example 1</b>. No pair of sets is there with its union = 2.</p>
+<p>For <b>example 2 and 3</b>, all the pairs are valid.</p>

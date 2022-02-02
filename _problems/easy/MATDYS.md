@@ -1,120 +1,62 @@
 ---
-category_name: easy
-problem_code: MATDYS
-problem_name: 'Mathison and the Dynamo shuffle'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 6.3'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - kotlin
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYPY
-    - PYTH
-    - 'PYTH 3.5'
-    - RUBY
-    - rust
-    - SCALA
-    - 'SCM chicken'
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - swift
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '0.5'
-source_sizelimit: '50000'
-problem_author: alexvaleanu
-problem_tester: kingofnumbers
-date_added: 15-08-2017
-tags:
-    - alexvaleanu
-    - easy
-    - ltime51
-    - observations
-editorial_url: 'https://discuss.codechef.com/problems/MATDYS'
-time:
-    view_start_date: 1503768600
-    submit_start_date: 1503768600
-    visible_start_date: 1503768600
-    end_date: 1735669800
-    current: 1514816310
-layout: problem
+{"category_name":"easy","problem_code":"MATDYS","problem_name":"Mathison and the Dynamo shuffle","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 6.3","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"kotlin","24":"LISP clisp","25":"LISP sbcl","26":"LUA","27":"NEM","28":"NICE","29":"NODEJS","30":"PAS fpc","31":"PAS gpc","32":"PERL","33":"PERL6","34":"PHP","35":"PIKE","36":"PRLG","37":"PYPY","38":"PYTH","39":"PYTH 3.5","40":"RUBY","41":"rust","42":"SCALA","43":"SCM chicken","44":"SCM guile","45":"SCM qobi","46":"ST","47":"swift","48":"TCL","49":"TEXT","50":"WSPC"},"max_timelimit":0.5,"source_sizelimit":50000,"problem_author":"alexvaleanu","problem_tester":"kingofnumbers","date_added":"15-08-2017","tags":{"0":"alexvaleanu","1":"easy","2":"ltime51","3":"observations"},"editorial_url":"https://discuss.codechef.com/problems/MATDYS","time":{"view_start_date":1503768600,"submit_start_date":1503768600,"visible_start_date":1503768600,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.### Read problems statements in [mandarin chinese](http://www.codechef.com/download/translated/LTIME51/mandarin/MATDYS.pdf), [russian](http://www.codechef.com/download/translated/LTIME51/russian/MATDYS.pdf) and [vietnamese](http://www.codechef.com/download/translated/LTIME51/vietnamese/MATDYS.pdf) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3>Read problems statements in <a target="_blank" 
+href="http://www.codechef.com/download/translated/LTIME51/mandarin/MATDYS.pdf">mandarin chinese</a>, <a target="_blank" 
+href="http://www.codechef.com/download/translated/LTIME51/russian/MATDYS.pdf">russian</a> and <a target="_blank" 
+href="http://www.codechef.com/download/translated/LTIME51/vietnamese/MATDYS.pdf">vietnamese</a> as well.</h3>
 
-Mathison has bought a new deck of cards that contains 2**N** cards, numbered and ordered from 0 to 2**N**-1.
+<p>Mathison has bought a new deck of cards that contains 2<sup><b>N</b></sup> cards, numbered and ordered from 0 to 2<sup><b>N</b></sup>-1.</p>
 
-Mathison is getting bored and decides to learn the [Dynamo shuffle](https://www.youtube.com/watch?v=8T9yeV9oT2o) (or Sybil cut) - a flashy manner to shuffle cards. Unfortunately, the Dynamo shuffle is a little too complicated so Mathison decides to create his own shuffle.
+<p>Mathison is getting bored and decides to learn the <a href="https://www.youtube.com/watch?v=8T9yeV9oT2o">Dynamo shuffle</a> (or Sybil cut) - a flashy manner to shuffle cards. Unfortunately, the Dynamo shuffle is a little too complicated so Mathison decides to create his own shuffle.
+</p>
 
- This newly invented shuffle is done in **N** steps. At step k (0 ≤ k &lt; **N**) the deck is divided into 2k equal-sized decks where each one contains cards that lie on consecutive positions. Each one of those decks is then reordered: all the cards that lie on even positions are placed first followed by all cards that lie on odd positions (the order is preserved in each one of the two subsequences and all positions are 0-based). Then all the decks are put back together (preserving the order of decks).
 
- Mathison has spent hours practising the shuffle and he now believes that he has perfected his technique. However, Chef doesn't believe him yet so he asks Mathison to answer **Q** questions that given a deck of size 2**N** where i-th card is labelled i, find the position of the card labelled **K** in the final, shuffled deck.
+<p>
+ This newly invented shuffle is done in <b>N</b> steps. At step k (0 ≤ k &lt; <b>N</b>) the deck is divided into 2<sup>k</sup> equal-sized decks
+ where each one contains cards that lie on consecutive positions.
+ Each one of those decks is then reordered: all the cards that lie on even positions are placed first followed by all cards that lie on odd positions
+  (the order is preserved in each one of the two subsequences and all positions are 0-based). Then all the decks are put back together (preserving the order of decks).
+</p>
 
-### Input
+<p>
+ Mathison has spent hours practising the shuffle and he now believes that he has perfected his technique. However, Chef doesn't believe him yet so he asks Mathison to answer <b>Q</b> questions that given a deck of size 2<sup><b>N</b></sup> where i-th card is labelled i, find the position of the card labelled <b>K</b> in the final, shuffled deck.
+</p>
 
-The first line of the input file will contain one integer, **Q**, representing the number of Chef's questions.
+<h3>Input</h3>
+<p>The first line of the input file will contain one integer, <b>Q</b>, representing the number of Chef's questions.</p>
+<p>Each of the next <b>Q</b> lines will contain a pair of integers, <b>N</b> and <b>K</b>.</p>
 
-Each of the next **Q** lines will contain a pair of integers, **N** and **K**.
+<h3>Output</h3>
+<p>The output file will contain <b>Q</b> lines, each one representing the answer to one of Chef's questions.</p>
 
-### Output
+<h3>Constraints</h3>
+<ul>
+<li>1 ≤ <b>Q</b> ≤ 1000</li>
+<li>1 ≤ <b>N</b> ≤ 64</li>
+<li>0 ≤ <b>K</b> &lt; 2<sup><b>N</b></sup></li>
+</ul>
 
-The output file will contain **Q** lines, each one representing the answer to one of Chef's questions.
+<h3>Subtaks</h3>
+<p><b>Subtask #1</b> (30 points):
+<ul>
+<li>1 ≤ <b>N</b> ≤ 10</li>
+</ul>
+</p>
 
-### Constraints
+<p><b>Subtask #2</b> (30 points):
+<ul>
+<li>1 ≤ <b>N</b> ≤ 32</li>
+</ul>
+</p>
 
-- 1 ≤ **Q** ≤ 1000
-- 1 ≤ **N** ≤ 64
-- 0 ≤ **K** &lt; 2**N**
+<p><b>Subtask #3</b> (40 points):
+<ul>
+<li>Original constraints</li>
+</ul>
+</p>
 
-### Subtaks
-
-**Subtask #1** (30 points):
-
-- 1 ≤ **N** ≤ 10
-
-**Subtask #2** (30 points):
-
-- 1 ≤ **N** ≤ 32
-
-**Subtask #3** (40 points):
-
-- Original constraints
-
-### Example
-
+<h3>Example</h3>
 <pre><b>Input:</b>
 3
 3 4
@@ -126,7 +68,7 @@ The output file will contain **Q** lines, each one representing the answer to on
 6
 2
 </pre>
-
+<br />
 <pre><b>Input:</b>
 1
 64 11047805202224836936
@@ -134,8 +76,8 @@ The output file will contain **Q** lines, each one representing the answer to on
 <b>Output:</b>
 1337369305470044825
 </pre>
-### Explanation
 
+<h3>Explanation</h3>
 <pre>
 In all questions, we have <b>N</b> = 3. Therefore, we have a deck with 8 cards.
 The shuffling is done in three steps:

@@ -1,116 +1,43 @@
 ---
-category_name: easy
-problem_code: BGQRS
-problem_name: 'Big Queries'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYPY
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM chicken'
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '1'
-source_sizelimit: '50000'
-problem_author: antoniuk1
-problem_tester: alex_2oo8
-date_added: 27-01-2015
-tags:
-    - antoniuk1
-    - chasethered
-editorial_url: 'https://discuss.codechef.com/problems/BGQRS'
-time:
-    view_start_date: 1476696600
-    submit_start_date: 1476696600
-    visible_start_date: 1476696600
-    end_date: 1735669800
-    current: 1493558109
-layout: problem
+{"category_name":"easy","problem_code":"BGQRS","problem_name":"Big Queries","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYPY","37":"PYTH","38":"PYTH 3.4","39":"RUBY","40":"SCALA","41":"SCM chicken","42":"SCM guile","43":"SCM qobi","44":"ST","45":"TCL","46":"TEXT","47":"WSPC"},"max_timelimit":1,"source_sizelimit":50000,"problem_author":"antoniuk1","problem_tester":"alex_2oo8","date_added":"27-01-2015","tags":{"0":"antoniuk1","1":"chasethered"},"editorial_url":"https://discuss.codechef.com/problems/BGQRS","time":{"view_start_date":1476696600,"submit_start_date":1476696600,"visible_start_date":1476696600,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/OCT16/mandarin/BGQRS.pdf), [Russian](http://www.codechef.com/download/translated/OCT16/russian/BGQRS.pdf) and [Vietnamese](http://www.codechef.com/download/translated/OCT16/vietnamese/BGQRS.pdf) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3> Read problems statements in <a target="_blank" href="http://www.codechef.com/download/translated/OCT16/mandarin/BGQRS.pdf">Mandarin Chinese</a>, <a target="_blank" href="http://www.codechef.com/download/translated/OCT16/russian/BGQRS.pdf">Russian</a> and <a target="_blank" href="http://www.codechef.com/download/translated/OCT16/vietnamese/BGQRS.pdf">Vietnamese</a> as well.</h3>
 
-**WARNING: This problem has large input / output files. Use of faster I/O methods is recommended.**
+<p><b>WARNING: This problem has large input / output files. Use of faster I/O methods is recommended.</b></p>
+<p>You are given an array <b>A</b> consisting of <b>N</b> integers. You have to answer <b>M</b> queries on it. Each query belongs to one of the following three types:</p>
+<ul>
+<li><b>1 L R X</b> : multiply each number in the range <b>A<sub>L</b>, <b>A<sub>L + 1</b>, ..., <b>A<sub>R</b></sub></b> by <b>X</b>.</li>
+<li><b>2 L R Y</b> : Replace the elements <b>A<sub>L</b>, <b>A<sub>L + 1</b>, ..., <b>A<sub>R</b></sub></b> by <b>Y, 2 * Y, ... (R - L + 1) * Y</b>. In other words, the number <b>A<sub>i</sub></b> will be equal to <b>(i - L + 1) * Y</b> for each <b>i</b> from <b>L</b> to <b>R</b>.</li>
+<li><b>3 L R</b> : Find the product of all numbers in the range <b>A<sub>L</b>, <b>A<sub>L + 1</b>, ..., <b>A<sub>R</b></sub></b>. As this number could be very large, you have to just find the number of trailing zeros of this number when represented in decimal notation.</li>
+</ul>
 
-You are given an array **A** consisting of **N** integers. You have to answer **M** queries on it. Each query belongs to one of the following three types:
+<h3>Input</h3>
+<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. <b>T</b> test cases follow.</p>
+<p>The first line of each test case contains two space-separated integers <b>N</b> and <b>M</b>.</p>
+<p>The second line contains <b>N</b> space-separated integers denoting <b>A<sub>1</sub></b>, <b>A<sub>2</sub></b>, ..., <b>A<sub>N</sub></b></p>
+<p>For next <b>M</b> lines, each line contains a query.<sub></sub></p>
+<p>Each query is given by three or four (please refer to the statement) space separated integers.<sub></sub></p>
+<p>The first integer denotes type of the query. For every type of query next two integers denote <b>L</b> and <b>R</b>. For each query of type 1, next integer denote <b>X</b>. For each query of type 2, next integer denote <b>Y</b>.</p>
 
-- **1 L R X** : multiply each number in the range **AL**, **AL + 1**, ..., **AR** by **X**.
-- **2 L R Y** : Replace the elements **AL**, **AL + 1**, ..., **AR** by **Y, 2 \* Y, ... (R - L + 1) \* Y**. In other words, the number **Ai** will be equal to **(i - L + 1) \* Y** for each **i** from **L** to **R**.
-- **3 L R** : Find the product of all numbers in the range **AL**, **AL + 1**, ..., **AR**. As this number could be very large, you have to just find the number of trailing zeros of this number when represented in decimal notation.
+<h3>Output</h3>
+<p>For each test case, output a single line containing the sum of answers of all the queries of type 3.</p>
 
-### Input
+<h3>Constraints</h3>
+<ul>
+<li><b>1</b> ≤ <b>T</b> ≤ <b>5</b></li>
+<li><b>1</b> ≤ <b>N, M, N + M </b> ≤ <b>10<sup>5</sup></b></li>
+<li><b>1</b> ≤ <b>L</b> ≤ <b>R</b> ≤ <b>N</b><sup></li>
+<li><b>1</b> ≤ <b>X, Y, A<sub>i</sub></b> ≤ <b>10<sup>9</sup></b></li>
+</ul>
 
-The first line of the input contains an integer **T** denoting the number of test cases. **T** test cases follow.
+<h3>Subtasks</h3>
+<ul>
+<li>Subtask #1 (18 points): <b>1 ≤ <b>N, M, X, Y, A<sub>i</sub></b> ≤ 10</b></li>
+<li>Subtask #2 (31 points): <b>1 ≤ <b>N, M</b> ≤ 1000</b></li>
+<li>Subtask #3 (51 points): <b>original constraints</b></li>
+</ul>
 
-The first line of each test case contains two space-separated integers **N** and **M**.
-
-The second line contains **N** space-separated integers denoting **A1**, **A2**, ..., **AN**
-
-For next **M** lines, each line contains a query.
-
-Each query is given by three or four (please refer to the statement) space separated integers.
-
-The first integer denotes type of the query. For every type of query next two integers denote **L** and **R**. For each query of type 1, next integer denote **X**. For each query of type 2, next integer denote **Y**.
-
-### Output
-
-For each test case, output a single line containing the sum of answers of all the queries of type 3.
-
-### Constraints
-
-- **1** ≤ **T** ≤ **5**
-- **1** ≤ **N, M, N + M**  ≤ **105**
-- **1** ≤ **L** ≤ **R** ≤ **N**
-- **1** ≤ **X, Y, Ai** ≤ **109**
-
-### Subtasks
-
-- Subtask #1 (18 points): **1 ≤ **N, M, X, Y, Ai** ≤ 10**
-- Subtask #2 (31 points): **1 ≤ **N, M** ≤ 1000**
-- Subtask #3 (51 points): **original constraints**
-
-### Example
-
+<h3>Example</h3>
 <pre><b>Input:</b>
 1
 5 5
@@ -124,14 +51,14 @@ For each test case, output a single line containing the sum of answers of all th
 <b>Output:</b>
 5
 </pre>
-### Explanation
 
-Array: **\[2, 4, 3, 5, 5\]**
-
-- 1st query: **\[4, 3, 5\]**, 4 \* 3 \* 5 = 60 : answer 1.
-- 2nd query: **\[4, 3, 5, 5\]**, 4 \* 3 \* 5 \* 5 = 300 : answer 2.
-- 3rd query: **\[2, 4, 3, 5, 5\] =&gt; \[2, 1, 2, 3, 5\]**.
-- 4th query: **\[2, 1, 2, 3, 5\] =&gt; \[2, 1, 20, 3, 5\]**.
-- 5th query: **\[2, 1, 20, 3, 5\]**, 2 \* 1 \* 20 \* 3 \* 5 = 600 - answer 2.
-
-Sum of all answers = 5.
+<h3>Explanation</h3>
+<p>Array: <b>[2, 4, 3, 5, 5]</b></p>
+<ul>
+<li>1st query: <b>[4, 3, 5]</b>, 4 * 3 * 5 = 60 : answer 1.</li>
+<li>2nd query: <b>[4, 3, 5, 5]</b>, 4 * 3 * 5 * 5 = 300 : answer 2.</li>
+<li>3rd query: <b>[2, 4, 3, 5, 5] => [2, 1, 2, 3, 5]</b>.</li>
+<li>4th query: <b>[2, 1, 2, 3, 5] => [2, 1, 20, 3, 5]</b>.</li>
+<li>5th query: <b>[2, 1, 20, 3, 5]</b>, 2 * 1 * 20 * 3 * 5 = 600 - answer 2.</li>
+</ul>
+<p>Sum of all answers = 5.</p>

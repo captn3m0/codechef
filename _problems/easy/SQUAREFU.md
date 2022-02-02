@@ -1,0 +1,20 @@
+---
+{"category_name":"easy","problem_code":"SQUAREFU","problem_name":"Square Function","problemComponents":{"constraints":"- $1 \\leq T \\leq 10^4$\n- $1 \\leq N \\leq 10^5$\n- $1 \\leq A_i \\leq 10^6$\n- The sum of $N$ over all test cases does not exceed $10^6$.\n","constraintsState":true,"subtasks":"- 30 points : $1 \\leq R \\leq 10000$\n- 70 points : $1 \\leq R \\leq 10^9$\n","subtasksState":false,"inputFormat":"- The first line of input contains a single integer $T$ denoting the number of test cases. The description of $T$ test cases follows.\n- The first line of each test case contains an integer $N$.\n- The second line of each testcase contains $N$ space-separated integers $A_1, A_2, \\dots , A_N$. \n","inputFormatState":true,"outputFormat":"For each test case, print a single line containing one integer - the number of *Good* pairs.\n","outputFormatState":true,"sampleTestCases":{"0":{"id":1,"input":"3\n3\n2 3 12\n4 \n1 2 3 4\n3\n2 3 7","output":"2\n5\n3","explanation":"**Test case $1$:** \n- $(i = 1, j = 2)$: $F(A_1 * A_2) = F(2 * 3) = F(6) = \\frac{6}{1} = 6 \\gt 1$. \n- $(i = 1, j = 3)$: $F(A_1 * A_3) = F(2 *12) = F(24) = \\frac{24}{4} = 6 \\gt 1$.\n- $(i = 2, j = 3)$: $F(A_2 * A_3) = F(3 *12) = F(36) = \\frac{36}{36} = 1 \\ngtr 1$.\n\n So there are 2 Good pairs.\n\n\n**Test case $2$:**  All pairs except ($1, 4$) are Good pairs as $F(A_1 * A_4) = F(1 * 4) = F(4) = \\frac{4}{4} = 1 \\ngtr 1$. \n\n**Test case $3$:**  All pairs are Good pairs.","isDeleted":false}}},"video_editorial_url":"https://youtu.be/6exGAuyjIbg","languages_supported":{"0":"CPP14","1":"C","2":"JAVA","3":"PYTH 3.6","4":"CPP17","5":"PYTH","6":"PYP3","7":"CS2","8":"ADA","9":"PYPY","10":"TEXT","11":"PAS fpc","12":"NODEJS","13":"RUBY","14":"PHP","15":"GO","16":"HASK","17":"TCL","18":"PERL","19":"SCALA","20":"LUA","21":"kotlin","22":"BASH","23":"JS","24":"LISP sbcl","25":"rust","26":"PAS gpc","27":"BF","28":"CLOJ","29":"R","30":"D","31":"CAML","32":"FORT","33":"ASM","34":"swift","35":"FS","36":"WSPC","37":"LISP clisp","38":"SQL","39":"SCM guile","40":"PERL6","41":"ERL","42":"CLPS","43":"ICK","44":"NICE","45":"PRLG","46":"ICON","47":"COB","48":"SCM chicken","49":"PIKE","50":"SCM qobi","51":"ST","52":"SQLQ","53":"NEM"},"max_timelimit":1,"source_sizelimit":50000,"problem_author":"soumyadeep_21","problem_tester":"","date_added":"18-07-2021","tags":{"0":"easy","1":"easy","2":"prime","3":"prime","4":"soumyadeep_21","5":"start8","6":"start8"},"problem_difficulty_level":"Unavailable","best_tag":"Prime Factorization","editorial_url":"https://discuss.codechef.com/problems/SQUAREFU","time":{"view_start_date":1629124200,"submit_start_date":1629124200,"visible_start_date":1629124200,"end_date":1735669800},"is_direct_submittable":false,"problemDiscussURL":"https://discuss.codechef.com/search?q=SQUAREFU","is_proctored":false,"visitedContests":{},"layout":"problem"}
+---
+### Read problem statements in [Russian](https://www.codechef.com/download/translated/START8/russian/SQUAREFU.pdf), [Mandarin Chinese](https://www.codechef.com/download/translated/START8/mandarin/SQUAREFU.pdf), [Bengali](https://www.codechef.com/download/translated/START8/bengali/SQUAREFU.pdf), and [Vietnamese](https://www.codechef.com/download/translated/START8/vietnamese/SQUAREFU.pdf) as well.
+
+Let's define a function $F(X)$ as follows: 
+
+$$F(X) = \frac{X}{Y}$$ 
+
+where $Y$ is the largest perfect square that divides $X$. 
+
+
+For example,
+- The largest perfect square that divides $12$ is $4$. Hence $F(12) =  \frac{12}{4} = 3$.
+- The largest perfect square that divides $36$ is $36$. Hence $F(36) =  \frac{36}{36} = 1$.
+- The largest perfect square that divides $7$ is $1$. Hence $F(7) =  \frac{7}{1} = 7$.
+
+
+You are given an array $A$ consisting of $N$ integers. A pair of integer ($i$, $j$) is called *Good* if $1 \leq i \lt j \leq N$ and  $F(A_i * A_j) \gt 1$. Find the number of *Good* pairs.
+<aside style='background: #f8f8f8;padding: 10px 15px;'><div>All submissions for this problem are available.</div></aside>

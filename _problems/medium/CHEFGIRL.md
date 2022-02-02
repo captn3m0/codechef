@@ -1,114 +1,44 @@
 ---
-category_name: medium
-problem_code: CHEFGIRL
-problem_name: 'Chef and Girls'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYPY
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM chicken'
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '1'
-source_sizelimit: '50000'
-problem_author: berezin
-problem_tester: xcwgf666
-date_added: 25-10-2015
-tags:
-    - berezin
-    - dec15
-    - directed
-    - dynamic
-    - graphs
-    - medium
-editorial_url: 'http://discuss.codechef.com/problems/CHEFGIRL'
-time:
-    view_start_date: 1450085400
-    submit_start_date: 1450085400
-    visible_start_date: 1450085400
-    end_date: 1735669800
-    current: 1493557528
-layout: problem
+{"category_name":"medium","problem_code":"CHEFGIRL","problem_name":"Chef and Girls","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYPY","37":"PYTH","38":"PYTH 3.4","39":"RUBY","40":"SCALA","41":"SCM chicken","42":"SCM guile","43":"SCM qobi","44":"ST","45":"TCL","46":"TEXT","47":"WSPC"},"max_timelimit":1,"source_sizelimit":50000,"problem_author":"berezin","problem_tester":"xcwgf666","date_added":"25-10-2015","tags":{"0":"berezin","1":"dec15","2":"directed","3":"dynamic","4":"graphs","5":"medium"},"editorial_url":"http://discuss.codechef.com/problems/CHEFGIRL","time":{"view_start_date":1450085400,"submit_start_date":1450085400,"visible_start_date":1450085400,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/DEC15/mandarin/CHEFGIRL.pdf), [Russian](http://www.codechef.com/download/translated/DEC15/russian/CHEFGIRL.pdf) and [Vietnamese](http://www.codechef.com/download/translated/DEC15/vietnamese/CHEFGIRL.pdf) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3> Read problems statements in <a target="_blank" href="http://www.codechef.com/download/translated/DEC15/mandarin/CHEFGIRL.pdf">Mandarin Chinese</a>, <a target="_blank" href="http://www.codechef.com/download/translated/DEC15/russian/CHEFGIRL.pdf">Russian</a> and <a target="_blank" href="http://www.codechef.com/download/translated/DEC15/vietnamese/CHEFGIRL.pdf">Vietnamese</a> as well.</h3>
 
-Chef has a problem - he likes a girl but she has **32** secrets and **N** friends (also girls).
 
-Chef has enumerated each girl from **1** to **N**, Chef's crush has the number **1**.
+<p>Chef has a problem - he likes a girl but she has <b>32</b> secrets and <b>N</b> friends (also girls).</p>
+<p>Chef has enumerated each girl from <b>1</b> to <b>N</b>, Chef's crush has the number <b>1</b>.</p>
+<p>Now he consider all girls as nodes of a directed graph. If one girl has an edge directed towards another girl, the former tells all the secrets she knows to the latter. Edges are oriented, so if one girl is sharing secrets with another, it doesn't imply the same relation in the reverse direction. Also, there are no cycles in the graph.
+</p>
+<p>
+Each girl (except Chef's crush) has only one edge emanating from her, or doesn't have any edges emanating from her at all. Each girl listens to at most one girl. In other words, for each girl, there is only one girl who reveals secrets to her, or there are no such girls at all. Each edge has two integers assigned to it, specifying the <b>range of interest</b>. If girl <b>A</b> knows secrets in the range <b>[10-20]</b> and an edge directed towards girl <b>B</b> with a range of interest <b>[2-15]</b> then girl <b>B</b> will know secrets in the range <b>[10-15]</b>, which is, evidently, an intersection of the range of secrets and the interest range.</p>
+<p>Chef's crush has all the <b>[1-32]</b> secrets, other girls just listen to her and then gossip around (share those secrets). If a girl doesn't have an edge emanating from her, she tells all the secrets she knows to Chef.</p>
+<p>Chef can perform operations of the following kind: take some edge, and extend its range of interest by one (to the left or the right). He wants to know the minimal number of operations he needs to perform in order to collect all the secrets.</p>
 
-Now he consider all girls as nodes of a directed graph. If one girl has an edge directed towards another girl, the former tells all the secrets she knows to the latter. Edges are oriented, so if one girl is sharing secrets with another, it doesn't imply the same relation in the reverse direction. Also, there are no cycles in the graph.
+<h3>Input</h3>
+<ul>
+<li>The first line contains two integers <b>N</b> and <b>M</b> denoting the number of girls and ribs appropriately. </li>
+<li>Each of next <b>M</b> lines describe an edge, and contains four integers — <b>i</b>, <b>j</b>, <b>l</b>, <b>r</b> — meaning that there is an oriented edge from <b>i</b> to <b>j</b> with a range of interest <b>[l-r]</b>. </li>
+</ul>
 
-Each girl (except Chef's crush) has only one edge emanating from her, or doesn't have any edges emanating from her at all. Each girl listens to at most one girl. In other words, for each girl, there is only one girl who reveals secrets to her, or there are no such girls at all. Each edge has two integers assigned to it, specifying the **range of interest**. If girl **A** knows secrets in the range **\[10-20\]** and an edge directed towards girl **B** with a range of interest **\[2-15\]** then girl **B** will know secrets in the range **\[10-15\]**, which is, evidently, an intersection of the range of secrets and the interest range.
+<h3>Output</h3>
+<ul>
+<li>In a single line, output a single integer: the answer. </li>
+</ul>
 
-Chef's crush has all the **\[1-32\]** secrets, other girls just listen to her and then gossip around (share those secrets). If a girl doesn't have an edge emanating from her, she tells all the secrets she knows to Chef.
+<h3>Constraints</h3>
+<ul>
+<li><b>1</b> ≤ <b>N, M</b> ≤ <b>10^5</b></li>
+<li><b>1</b> ≤ <b> i</b> < <b> j</b> ≤ <b>N</b></li>
+<li><b>1</b> ≤ <b> l</b> ≤ <b> r</b> ≤ <b>32</b></li>
+</ul>
 
-Chef can perform operations of the following kind: take some edge, and extend its range of interest by one (to the left or the right). He wants to know the minimal number of operations he needs to perform in order to collect all the secrets.
+<h3>Subtasks</h3>
+<ul>
+<li>Subtask <b>N, M</b> ≤ <b>10</b>. Points: <b>10</b> </li>
+<li>Subtask <b>N, M</b> ≤ <b>10^3</b>. Points: <b>20</b> </li>
+<li>Subtask <b>Original constraints</b>. Points: <b>70</b> </li>
+</ul>
 
-### Input
-
-- The first line contains two integers **N** and **M** denoting the number of girls and ribs appropriately.
-- Each of next **M** lines describe an edge, and contains four integers — **i**, **j**, **l**, **r** — meaning that there is an oriented edge from **i** to **j** with a range of interest **\[l-r\]**.
-
-### Output
-
-- In a single line, output a single integer: the answer.
-
-### Constraints
-
-- **1** ≤ **N, M** ≤ **10^5**
-- **1** ≤  **i** j ≤ **N**
-- **1** ≤  **l** ≤  **r** ≤ **32**
-
-### Subtasks
-
-- Subtask **N, M** ≤ **10**. Points: **10**
-- Subtask **N, M** ≤ **10^3**. Points: **20**
-- Subtask **Original constraints**. Points: **70**
-
-### Example
-
+<h3>Example</h3>
 <pre><b>Input:</b>
 5 4
 1 2 10 15
@@ -119,6 +49,7 @@ Chef can perform operations of the following kind: take some edge, and extend it
 <b>Output:</b>
 50
 </pre>
+
 <pre>
 <h3>Explanation</h3>
 <p><b>Example case 1.</b></p>

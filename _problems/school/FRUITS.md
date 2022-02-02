@@ -1,96 +1,28 @@
 ---
-category_name: school
-problem_code: FRUITS
-problem_name: 'Chef and Fruits'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYPY
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM chicken'
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '1'
-source_sizelimit: '50000'
-problem_author: ma5termind
-problem_tester: antoniuk1
-date_added: 6-01-2016
-tags:
-    - ad
-    - cakewalk
-    - cook66
-    - ma5termind
-editorial_url: 'http://discuss.codechef.com/problems/FRUITS'
-time:
-    view_start_date: 1453660200
-    submit_start_date: 1453660200
-    visible_start_date: 1453660200
-    end_date: 1735669800
-    current: 1492507579
-layout: problem
+{"category_name":"school","problem_code":"FRUITS","problem_name":"Chef and Fruits","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYPY","37":"PYTH","38":"PYTH 3.4","39":"RUBY","40":"SCALA","41":"SCM chicken","42":"SCM guile","43":"SCM qobi","44":"ST","45":"TCL","46":"TEXT","47":"WSPC"},"max_timelimit":1,"source_sizelimit":50000,"problem_author":"ma5termind","problem_tester":"antoniuk1","date_added":"6-01-2016","tags":{"0":"ad","1":"cakewalk","2":"cook66","3":"ma5termind"},"editorial_url":"http://discuss.codechef.com/problems/FRUITS","time":{"view_start_date":1453660200,"submit_start_date":1453660200,"visible_start_date":1453660200,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/COOK66/mandarin/FRUITS.pdf), [Russian](http://www.codechef.com/download/translated/COOK66/russian/FRUITS.pdf) and [Vietnamese](http://www.codechef.com/download/translated/COOK66/vietnamese/FRUITS.pdf) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3> Read problems statements in <a target="_blank" href="http://www.codechef.com/download/translated/COOK66/mandarin/FRUITS.pdf">Mandarin Chinese</a>, <a target="_blank" href="http://www.codechef.com/download/translated/COOK66/russian/FRUITS.pdf">Russian</a> and <a target="_blank" href="http://www.codechef.com/download/translated/COOK66/vietnamese/FRUITS.pdf">Vietnamese</a> as well.</h3>
 
-Today is Chef's birthday. His mom has surprised him with truly fruity gifts: **2 fruit baskets**. The first basket contains **N** apples, and the second one contains **M** oranges. Chef likes apples and oranges very much but he likes them equally, and therefore, wants to have the minimum possible difference between the number of apples and oranges he has. To do so, he can purchase **1** apple or **1** orange by paying exactly **1** gold coin (that's some expensive fruit, eh?). Chef can purchase fruits at most **K** times (as he has *only* **K** gold coins in his pocket) to make the difference the minimum possible.
 
-Our little Chef is busy in celebrating his birthday to the fullest, and therefore, he has handed this job to his best friend — **you**. Can you help him by finding the minimum possible difference he can achieve between the number of apples and orange he owns?
+<p>Today is Chef's birthday. His mom has surprised him with truly fruity gifts: <b>2 fruit baskets</b>. The first basket contains <b>N</b> apples, and the second one contains <b>M</b> oranges. Chef likes apples and oranges very much but he likes them equally, and therefore, wants to have the minimum possible difference between the number of apples and oranges he has. To do so, he can purchase <b>1</b> apple or <b>1</b> orange by paying exactly <b>1</b> gold coin (that's some expensive fruit, eh?). Chef can purchase fruits at most <b>K</b> times (as he has <em>only</em> <b>K</b> gold coins in his pocket) to make the difference the minimum possible.</p>
 
-### Input
+<p>Our little Chef is busy in celebrating his birthday to the fullest, and therefore, he has handed this job to his best friend — <b>you</b>. Can you help him by finding the minimum possible difference he can achieve between the number of apples and orange he owns?
 
-The first line of input contains a single integer **T** denoting the number of test cases. The first and only line of each test case contains **3** space separated integers — **N**, **M** and **K** — denoting the number of apples, number of oranges, and number of gold coins our little Chef has.
+<h3>Input</h3>
+<p>The first line of input contains a single integer <b>T</b> denoting the number of test cases. The first and only line of each test case contains <b>3</b> space separated integers — <b>N</b>, <b>M</b> and <b>K</b> — denoting the number of apples, number of oranges, and number of gold coins our little Chef has.</p>
 
-### Output
+<h3>Output</h3>
+<p>For each test case, output the minimum possible difference between the number of apples and oranges that Chef can achieve.</p>
 
-For each test case, output the minimum possible difference between the number of apples and oranges that Chef can achieve.
+<h3>Constraints</h3>
+<ul>
+<b><li>1 ≤ T ≤ 100</li></b>
+<b><li>1 ≤ N, M, K ≤ 100</li></b>
+</ul>
 
-### Constraints
-
-**1. 1 ≤ T ≤ 100** **1. 1 ≤ N, M, K ≤ 100** 
-### Example
-
-**Input**```
-
+<h3>Example</h3>
+<b>Input</b>
+<pre>
 3
 3 4 1
 5 2 1
@@ -100,8 +32,10 @@ For each test case, output the minimum possible difference between the number of
 0
 2
 0
-<pre>
-### Explanation
+</pre>
 
-- **Test 1:** Chef will buy 1 apple by paying 1 gold coin and will have equal number of apples and oranges.
-- **Test 2:** Chef will buy 1 orange by paying 1 gold coin and will have 5 apples and 3 oranges.
+<h3>Explanation</h3>
+<ul>
+<li><b>Test 1:</b> Chef will buy 1 apple by paying 1 gold coin and will have equal number of apples and oranges. </li>
+<li><b>Test 2:</b> Chef will buy 1 orange by paying 1 gold coin and will have 5 apples and 3 oranges.</li>
+</ul>

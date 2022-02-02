@@ -1,109 +1,48 @@
 ---
-category_name: medium
-problem_code: LUCKYCOM
-problem_name: 'Little Elephant and CNSes'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '3'
-source_sizelimit: '50000'
-problem_author: witua
-problem_tester: anton_lunyov
-date_added: 1-03-2012
-tags:
-    - cook22
-    - medium
-    - witua
-editorial_url: 'http://discuss.codechef.com/problems/LUCKYCOM'
-time:
-    view_start_date: 1337540997
-    submit_start_date: 1337540997
-    visible_start_date: 1337539200
-    end_date: 1735669800
-    current: 1493557770
-layout: problem
+{"category_name":"medium","problem_code":"LUCKYCOM","problem_name":"Little Elephant and CNSes","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYTH","37":"PYTH 3.4","38":"RUBY","39":"SCALA","40":"SCM guile","41":"SCM qobi","42":"ST","43":"TCL","44":"TEXT","45":"WSPC"},"max_timelimit":3,"source_sizelimit":50000,"problem_author":"witua","problem_tester":"anton_lunyov","date_added":"1-03-2012","tags":{"0":"cook22","1":"medium","2":"witua"},"editorial_url":"http://discuss.codechef.com/problems/LUCKYCOM","time":{"view_start_date":1337540997,"submit_start_date":1337540997,"visible_start_date":1337539200,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.A Little Elephant from the Zoo of Lviv likes *lucky strings*, i.e., the strings that consist only of the lucky digits **4** and **7**.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><p>A Little Elephant from the Zoo of Lviv likes <i>lucky strings</i>, i.e., the strings that consist only of the lucky digits <b>4</b> and <b>7</b>.</p>
 
- The Little Elephant has **N** favorite strings **S1, S2, ..., SN** and the favorite number **K**. Each character in **Si** (**1 ≤ i ≤ N**) is either the lucky digit (**4** or **7**) or the question mark **?**.
+<p> The Little Elephant has <b>N</b> favorite strings <b>S<sub>1</sub>, S<sub>2</sub>, ..., S<sub>N</sub></b> and the favorite number <b>K</b>. Each character in <b>S<sub>i</sub></b> (<b>1 ≤ i ≤ N</b>) is either the lucky digit (<b>4</b> or <b>7</b>) or the question mark <b>?</b>.</p>
 
-Consider some non-decreasing lucky string **S**. In other words, **S** has one of the following forms: **444...444**, **777...777**, **444...444777...777**. The string **S** is called a  *CNS* (plural form is CNSes) if we can replace some (possibly zero) number of question marks with the lucky digits in each of the string **S1, S2, ..., SN** in a such way that the total number of replacements for all strings does not exceed **K** and **S** is a subsequence of each of the strings derived after the replacement.
+<p>Consider some non-decreasing lucky string <b>S</b>. In other words, <b>S</b> has one of the following forms: <b>444...444</b>, <b>777...777</b>, <b>444...444777...777</b>. The string <b>S</b> is called a <i> CNS</i> (plural form is CNSes) if we can replace some (possibly zero) number of question marks with the lucky digits in each of the string <b>S<sub>1</sub>, S<sub>2</sub>, ..., S<sub>N</sub></b> in a such way that the total number of replacements for all strings does not exceed <b>K</b> and <b>S</b> is a subsequence of each of the strings derived after the replacement.</p>
 
-The Little Elephant wants to know the total number of all different non-empty CNSes. Help him to find this number.
+<p>The Little Elephant wants to know the total number of all different non-empty CNSes. Help him to find this number.
 
-**Notes.**
+</p><p><b>Notes.</b></p>
 
-Let **S** be some string (possibly not lucky). Then - **|S|** denotes the length of the string **S**;
-- **S\[i\]** (**1 ≤ i ≤ |S|**) denotes the **i**th character of **S** (the numeration of characters starts from **1**);
+Let <b>S</b> be some string (possibly not lucky). Then
 
+<ul>
 
-The string **T** is called a *subsequence* of the string **S** if **T** can be derived from **S** by deleting some (possibly zero) number of characters without changing the order of the remaining characters. For example, **T = 474** is a subsequence of **S = 74477747??** since after deleting characters at positions **1, 2, 5, 6, 8, 9, 10** from **S** we obtain **T**. Note that, the empty string and the string **S** itself are always the subsequences of **S**.
+<li><b>|S|</b> denotes the length of the string <b>S</b>;
 
-### Input
+</li><li><b>S[i]</b> (<b>1 ≤ i ≤ |S|</b>) denotes the <b>i</b><sup>th</sup> character of <b>S</b> (the numeration of characters starts from <b>1</b>);
 
-The first line of the input file contains two space separated integers **N** and **K**, the number of strings in the set and the favorite number of the Little Elephant. Each of the following **N** lines contains one favorite string of the Little Elephant. Namely, **i**th line among these **N** lines contains the string **Si**.
+</li></ul>
+<br />
 
-### Output
+<p>The string <b>T</b> is called a <i>subsequence</i> of the string <b>S</b> if <b>T</b> can be derived from <b>S</b> by deleting some (possibly zero) number of characters without changing the order of the remaining characters. For example, <b>T = 474</b> is a subsequence of <b>S = 74477747??</b> since after deleting characters at positions <b>1, 2, 5, 6, 8, 9, 10</b> from <b>S</b> we obtain <b>T</b>. Note that, the empty string and the string <b>S</b> itself are always the subsequences of <b>S</b>.</p>
 
- For each test case output a single line containing the answer for this test case.
+<h3>Input</h3>
+<p>The first line of the input file contains two space separated integers <b>N</b> and <b>K</b>, the number of strings in the set and the favorite number of the Little Elephant. Each of the following <b>N</b> lines contains one favorite string of the Little Elephant. Namely, <b>i</b><sup>th</sup> line among these <b>N</b> lines contains the string <b>S<sub>i</sub></b>.
 
-### Constraints
+<h3>Output</h3>
+</p><p> For each test case output a single line containing the answer for this test case.</p>
 
-1 ≤ **N** ≤ 7474
+<h3>Constraints</h3>
 
-0 ≤ **K** ≤ 109
+<p>1 ≤ <b>N</b> ≤ 7474</p>
 
-**Si** is non-empty for **1 ≤ i ≤ N**.
+<p>0 ≤ <b>K</b> ≤ 10<sup>9</sup></p>
 
-**|S1| + |S2| + ... + |SN|** ≤ 100000. In other words, the total length of all **N** strings does not exceed 100000.
+<p><b>S<sub>i</sub></b> is non-empty for <b>1 ≤ i ≤ N</b>.</p>
 
- Each character in **Si** (**1 ≤ i ≤ N**) is either the lucky digit (**4** or **7**) or the question mark **?**.
+<p><b>|S<sub>1</sub>| + |S<sub>2</sub>| + ... + |S<sub>N</sub>|</b> ≤ 100000. In other words, the total length of all <b>N</b> strings does not exceed 100000.</p>
 
-### Example
+<p> Each character in <b>S<sub>i</sub></b> (<b>1 ≤ i ≤ N</b>) is either the lucky digit (<b>4</b> or <b>7</b>) or the question mark <b>?</b>.</p>
+
+<h3>Example</h3>
 
 <pre>
 <b>Input:</b>
@@ -116,6 +55,6 @@ The first line of the input file contains two space separated integers **N** and
 5
 
 </pre>
-### Explanation
 
-For the sample input all different CNSes are **4**, **7**, **44**, **47** and **447**. Note, that **444** is not a CNS since it requires at least 3 replacements of the question marks.
+<h3>Explanation</h3>
+For the sample input all different CNSes are <b>4</b>, <b>7</b>, <b>44</b>, <b>47</b> and <b>447</b>. Note, that <b>444</b> is not a CNS since it requires at least 3 replacements of the question marks.

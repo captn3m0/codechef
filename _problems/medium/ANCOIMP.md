@@ -1,122 +1,45 @@
 ---
-category_name: medium
-problem_code: ANCOIMP
-problem_name: 'Anticommutative implication'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYPY
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM chicken'
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '0.5 - 1'
-source_sizelimit: '50000'
-problem_author: kaizer
-problem_tester: null
-date_added: 29-03-2015
-tags:
-    - kaizer
-editorial_url: 'http://discuss.codechef.com/problems/ANCOIMP'
-time:
-    view_start_date: 1434360600
-    submit_start_date: 1434360600
-    visible_start_date: 1434360600
-    end_date: 1735669800
-    current: 1493557455
-layout: problem
+{"category_name":"medium","problem_code":"ANCOIMP","problem_name":"Anticommutative implication","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYPY","37":"PYTH","38":"PYTH 3.4","39":"RUBY","40":"SCALA","41":"SCM chicken","42":"SCM guile","43":"SCM qobi","44":"ST","45":"TCL","46":"TEXT","47":"WSPC"},"max_timelimit":"0.5 - 1","source_sizelimit":50000,"problem_author":"kaizer","problem_tester":null,"date_added":"29-03-2015","tags":{"0":"kaizer"},"editorial_url":"http://discuss.codechef.com/problems/ANCOIMP","time":{"view_start_date":1434360600,"submit_start_date":1434360600,"visible_start_date":1434360600,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JUNE15/mandarin/ANCOIMP.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE15/russian/ANCOIMP.pdf).
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3> Read problems statements in <a target="_blank" href="http://www.codechef.com/download/translated/JUNE15/mandarin/ANCOIMP.pdf">Mandarin Chinese </a> and <a target="_blank" href="http://www.codechef.com/download/translated/JUNE15/russian/ANCOIMP.pdf">Russian</a>.</h3>
+<p>Chef is impressed by mathematical logic and linear algebra. He wants to combine his favorite subjects, so he introduced the concept of logical operations on boolean matrices.</p>
+<p>He defines <b>A → B</b> to be a matrix <b>C</b> such that <b>C<sub>ij</sub> = A<sub>ij</sub> → B<sub>ij</sub></b> and <b>¬ A</b> to be a matrix <b>B</b> such that <b>B<sub>ij</sub> = ¬ A<sub>ij</sub></b> </p>
+<p>Now Chef wants to study such system of equations: <b>A → X = ¬ O</b> and <b>X → A = O</b></p>
+<p> Where <b>O</b> is matrix such that all its entries is <b>0</b>.<br />
+However, Chef realized that such system has solution if and only if <b>A = O</b>. Since such solution is too trivial, Chef has decided to search for an approximate solution for arbitrary <b>A</b>. Thus, Chef is searching for such <b>X</b> that <b>A → X = ¬ O</b> and <b>X → A</b> has as much as possible entries which are equal to 0. </p>
+<p>But the solution space turned to be very large, so he reduced it to a matrices of a special form. Now he is looking for <b>X</b> such that <b>X<sub>ij</sub> = y<sub>i</sub> xor y<sub>j</sub></b> for some boolean vector <b>y</b>. Since now <b>X</b> is symmetric, Chef restricts <b>A</b> to also be symmetric.</p>
+<p> Help Chef to resolve this difficult problem, or say that there is no solution.</p>
+<p> Here → denotes the logical implication. p → q = !p || (p &amp;& q). Here ¬ denotes logical negation. ¬p = !p </p>
+<h3>Input</h3>
+<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</p>
+<p>The first line of each test case contains a single integer <b>N</b> denoting the size of <b>A</b>. The next <b>N</b> lines contain <b>N</b> space-separated integers <b>A[i]<sub>1</sub></b>, <b>A[i]<sub>2</sub></b>, ..., <b>A[i]<sub>N</sub></b> denoting the i-th row of matrix <b>A</b>.<br />
+It's guaranteed that <b>A</b> is symmetric.</p>
+<h3>Output</h3>
+<p> For each test case, output a single line containing <b>N</b> integers - vector <b>y</b>, described in the statement, if there is a solution, or <b>-1</b>, if there is not. In case there are several solutions, print any solution.</p>
+<h3>Constraints and Subtasks</h3>
+<ul>
+<li><b>0</b> ≤ <b>A<sub>ij</sub></b> ≤ <b>1</b></li>
+</ul>
 
-Chef is impressed by mathematical logic and linear algebra. He wants to combine his favorite subjects, so he introduced the concept of logical operations on boolean matrices.
+<p><b>Subtask 1: (15 points)</b></p>
+<ul>
+<li><b>1</b> ≤ <b>T</b> ≤ <b> 1000 </b></li>
+<li><b>1 ≤ N ≤ 10</b></li>
+</ul>
 
-He defines **A → B** to be a matrix **C** such that **Cij = Aij → Bij** and **¬ A** to be a matrix **B** such that **Bij = ¬ Aij**
+<p><b>Subtask 2: (25 points)</b></p>
+<ul>
+<li><b>1</b> ≤ <b>T</b> ≤ <b> 500 </b></li>
+<li><b>1 ≤ N ≤ 20</b></li>
+</ul>
 
-Now Chef wants to study such system of equations: **A → X = ¬ O** and **X → A = O**
-
- Where **O** is matrix such that all its entries is 0.
-However, Chef realized that such system has solution if and only if **A = O**. Since such solution is too trivial, Chef has decided to search for an approximate solution for arbitrary **A**. Thus, Chef is searching for such **X** that **A → X = ¬ O** and **X → A** has as much as possible entries which are equal to 0.
-
-But the solution space turned to be very large, so he reduced it to a matrices of a special form. Now he is looking for **X** such that **Xij = yi xor yj** for some boolean vector **y**. Since now **X** is symmetric, Chef restricts **A** to also be symmetric.
-
- Help Chef to resolve this difficult problem, or say that there is no solution.
-
- Here → denotes the logical implication. p → q = !p || (p &amp;&amp; q). Here ¬ denotes logical negation. ¬p = !p
-
-### Input
-
-The first line of the input contains an integer **T** denoting the number of test cases. The description of **T** test cases follows.
-
-The first line of each test case contains a single integer **N** denoting the size of **A**. The next **N** lines contain **N** space-separated integers **A\[i\]1**, **A\[i\]2**, ..., **A\[i\]N** denoting the i-th row of matrix **A**.
-It's guaranteed that **A** is symmetric.
-
-### Output
-
- For each test case, output a single line containing **N** integers - vector **y**, described in the statement, if there is a solution, or **-1**, if there is not. In case there are several solutions, print any solution.
-
-### Constraints and Subtasks
-
-- 0 ≤ **Aij** ≤ **1**
-
-**Subtask 1: (15 points)**
-
-- **1** ≤ **T** ≤  **1000**
-- **1 ≤ N ≤ 10**
-
-**Subtask 2: (25 points)**
-
-- **1** ≤ **T** ≤  **500**
-- **1 ≤ N ≤ 20**
-
-**Subtask 3: (60 points)**
-
-- **1** ≤ **T** ≤  **100**
-- **1** ≤ **N** ≤ **1000**
-- The sum of **N2** over all test cases in one test file does not exceed **106**
-
-### Example
-
+<p><b>Subtask 3: (60 points)</b></p>
+<ul>
+<li><b>1</b> ≤ <b>T</b> ≤ <b> 100 </b></li>
+<li><b>1</b> ≤ <b>N</b> ≤ <b>1000 </b></li>
+<li>The sum of <b>N<sup>2</sup></b> over all test cases in one test file does not exceed <b>10<sup>6</sup></b></li>
+</ul>
+<h3>Example</h3>
 <pre><b>Input:</b>
 3
 4
@@ -136,28 +59,24 @@ It's guaranteed that **A** is symmetric.
 0 0 1 1
 -1
 0 1
-</pre>
-### Explanation
-
-**Example case 1.**
-
-Matrix which is determined by vector y is
-
+</pre><h3>Explanation</h3>
+<p><b>Example case 1.</b></p>
+<p>
+Matrix which is determined by vector y is </p>
 <pre>
 0 0 1 1
 0 0 1 1
 1 1 0 0
 1 1 0 0
-</pre>
- 
-Then **A → X = ¬ O** and **X → A** is
-
+</pre><p> <br />
+Then <b>A → X = ¬ O</b> and <b>X → A</b> is</p>
 <pre>
 1 1 0 1
 1 1 0 1
 0 0 1 1
 1 1 1 1
 </pre>
-**Example case 2.**
-
-**A11 = 1** and **X11 = y1 xor y1 = 0**. So **A11 → X11 = 0** and condition **A → X = ¬ O** can not be satisfied.
+<p><b>Example case 2.</b></p>
+<p>
+<b>A<sub>11</sub> = 1</b> and <b>X<sub>11</sub> = y<sub>1</sub> xor y<sub>1</sub> = 0</b>. So <b>A<sub>11</sub> → X<sub>11</sub> = 0</b> and condition <b>A → X = ¬ O</b> can not be satisfied.
+</p>

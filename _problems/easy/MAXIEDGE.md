@@ -1,97 +1,31 @@
 ---
-category_name: easy
-problem_code: MAXIEDGE
-problem_name: 'Maximize Grid Score'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 6.3'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYPY
-    - PYTH
-    - 'PYTH 3.5'
-    - RUBY
-    - SCALA
-    - 'SCM chicken'
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '1'
-source_sizelimit: '50000'
-problem_author: admin2
-problem_tester: null
-date_added: 28-06-2017
-tags:
-    - admin2
-time:
-    view_start_date: 1498908900
-    submit_start_date: 1498908900
-    visible_start_date: 1498908900
-    end_date: 1735669800
-    current: 1514816310
-layout: problem
+{"category_name":"easy","problem_code":"MAXIEDGE","problem_name":"Maximize Grid Score","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 6.3","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYPY","37":"PYTH","38":"PYTH 3.5","39":"RUBY","40":"SCALA","41":"SCM chicken","42":"SCM guile","43":"SCM qobi","44":"ST","45":"TCL","46":"TEXT","47":"WSPC"},"max_timelimit":1,"source_sizelimit":50000,"problem_author":"admin2","problem_tester":null,"date_added":"28-06-2017","tags":{"0":"admin2"},"time":{"view_start_date":1498908900,"submit_start_date":1498908900,"visible_start_date":1498908900,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/SNCKFL17/mandarin/MAXIEDGE.pdf), [Russian](http://www.codechef.com/download/translated/SNCKFL17/russian/MAXIEDGE.pdf) and [Vietnamese](http://www.codechef.com/download/translated/SNCKFL17/vietnamese/MAXIEDGE.pdf) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3> Read problems statements in <a target="_blank" 
+href="http://www.codechef.com/download/translated/SNCKFL17/mandarin/MAXIEDGE.pdf">Mandarin Chinese</a>, <a target="_blank" href="http://www.codechef.com/download/translated/SNCKFL17/russian/MAXIEDGE.pdf">Russian</a> and <a target="_blank" href="http://www.codechef.com/download/translated/SNCKFL17/vietnamese/MAXIEDGE.pdf">Vietnamese</a> as well.</h3>
 
-You are given a 2 × **N** grid (2 rows, **N** columns) consisting of lower case English characters (i.e. from 'a' to 'z'). Two cells are said to be adjacent if they share a side with each other.
+<p>You are given a 2 × <b>N</b> grid (2 rows, <b>N</b> columns) consisting of lower case English characters (i.e. from 'a' to 'z'). Two cells are said to be adjacent if they share a side with each other.</p>
 
-The *score* of such a grid is defined to be the number of unordered pairs of adjacent cells, which have the same character in them.
+<p>The <i>score</i> of such a grid is defined to be the number of unordered pairs of adjacent cells, which have the same character in them.</p>
 
-You want to rearrange the letters of the grid in such a way that the score is maximized and print the new rearranged grid. If there are multiple solutions, you can print any.
+<p>You want to rearrange the letters of the grid in such a way that the score is maximized and print the new rearranged grid. If there are multiple solutions, you can print any.</p>
 
-### Input
+<h3>Input</h3>
+<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follow.</p>
 
-The first line of the input contains an integer **T** denoting the number of test cases. The description of **T** test cases follow.
+<p>The first line of each test case contains an integer <b>N</b>, denoting the number of columns in the grid.</p>
 
-The first line of each test case contains an integer **N**, denoting the number of columns in the grid.
+<p>Each of the next two lines contains a string consisting of <b>N</b> lowercase English characters, describing the first and the second rows of the grid respectively.</p>
 
-Each of the next two lines contains a string consisting of **N** lowercase English characters, describing the first and the second rows of the grid respectively.
+<h3>Output</h3>
+<p>For each test case, output two lines, each containing a string of length <b>N</b>. These should describe the first and the second rows of the rearranged grid.</p>
 
-### Output
+<h3>Constraints</h3>
+<ul>
+<li>1 ≤ <b>T</b>, <b>N</b> ≤ 500</li>
+</ul>
 
-For each test case, output two lines, each containing a string of length **N**. These should describe the first and the second rows of the rearranged grid.
-
-### Constraints
-
-- 1 ≤ **T**, **N** ≤ 500
-
-### Example
-
+<h3>Example</h3>
 <pre>
 <b>Input</b>
 2
@@ -108,8 +42,8 @@ bb
 bbac
 bbac
 </pre>
-### Explanation
 
-Let (r, c) denote the cell on the r-th row and c-th column.
+<h3>Explanation</h3>
+<p>Let (r, c) denote the cell on the r-th row and c-th column.</p>
 
-**Example case 1**: The score of the new grid is 2. The two unordered pairs of cells are {(1, 1), (1, 2)} (these two cells share a side, and have the same letter 'a' in them) and {(2, 1), (2, 2)} (these two cells share a side, and have the same letter 'b' in them). This is the maximum score that we can obtain.
+<p><b>Example case 1</b>: The score of the new grid is 2. The two unordered pairs of cells are {(1, 1), (1, 2)} (these two cells share a side, and have the same letter 'a' in them) and {(2, 1), (2, 2)} (these two cells share a side, and have the same letter 'b' in them). This is the maximum score that we can obtain.</p>

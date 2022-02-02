@@ -1,115 +1,49 @@
 ---
-category_name: medium
-problem_code: CSUBQ
-problem_name: 'Chef and Subarray Queries'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - CAML
-    - CLOJ
-    - CLPS
-    - COB
-    - 'CPP 4.3.2'
-    - 'CPP 6.3'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - kotlin
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYPY
-    - PYTH
-    - 'PYTH 3.5'
-    - RUBY
-    - rust
-    - SCALA
-    - 'SCM chicken'
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - swift
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '1'
-source_sizelimit: '50000'
-problem_author: code_hard123
-problem_tester: null
-date_added: 18-10-2017
-tags:
-    - code_hard123
-    - medium
-    - nov17
-    - segment
-editorial_url: 'https://discuss.codechef.com/problems/CSUBQ'
-time:
-    view_start_date: 1510579800
-    submit_start_date: 1510579800
-    visible_start_date: 1510579800
-    end_date: 1735669800
-    current: 1514816996
-layout: problem
+{"category_name":"medium","problem_code":"CSUBQ","problem_name":"Chef and Subarray Queries","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"CAML","6":"CLOJ","7":"CLPS","8":"COB","9":"CPP 4.3.2","10":"CPP 6.3","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"kotlin","24":"LISP clisp","25":"LISP sbcl","26":"LUA","27":"NEM","28":"NICE","29":"NODEJS","30":"PAS fpc","31":"PAS gpc","32":"PERL","33":"PERL6","34":"PHP","35":"PIKE","36":"PRLG","37":"PYPY","38":"PYTH","39":"PYTH 3.5","40":"RUBY","41":"rust","42":"SCALA","43":"SCM chicken","44":"SCM guile","45":"SCM qobi","46":"ST","47":"swift","48":"TCL","49":"TEXT","50":"WSPC"},"max_timelimit":1,"source_sizelimit":50000,"problem_author":"code_hard123","problem_tester":null,"date_added":"18-10-2017","tags":{"0":"code_hard123","1":"medium","2":"nov17","3":"segment"},"editorial_url":"https://discuss.codechef.com/problems/CSUBQ","time":{"view_start_date":1510579800,"submit_start_date":1510579800,"visible_start_date":1510579800,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.### Read problems statements in [Mandarin chinese](http://www.codechef.com/download/translated/NOV17/mandarin/CSUBQ.pdf), [Russian](http://www.codechef.com/download/translated/NOV17/russian/CSUBQ.pdf) and [Vietnamese](http://www.codechef.com/download/translated/NOV17/vietnamese/CSUBQ.pdf) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3>Read problems statements in <a target="_blank" 
+href="http://www.codechef.com/download/translated/NOV17/mandarin/CSUBQ.pdf">Mandarin chinese</a>, <a target="_blank" 
+href="http://www.codechef.com/download/translated/NOV17/russian/CSUBQ.pdf">Russian</a> and <a target="_blank" 
+href="http://www.codechef.com/download/translated/NOV17/vietnamese/CSUBQ.pdf">Vietnamese</a> as well.</h3>
 
- Chef has an array **A** consisting of **N** non-negative integers. Initially, all the elements are zero. Assume 1-based indexing. Chef is given two positive integers **L** and **R**. **(L Chef has to execute **Q** number of queries on the array **A**. These queries can be of the following two types: 
- **1 x y (1 ≤ x ≤ n)** - Replace the value of **xth** array element by **y**. 
- **2 l r (1 ≤ l ≤ r ≤ n)** - Return the number of subarrays **\[a , b\]** that lies in subarray **\[l , r\]** such that the value of the maximum array element in that subarray is atleast **L** and atmost **R**. 
- (A subarray **\[a , b\]** lies in a subarray **\[l , r\]** if and only if **a &gt;= l** and **b ) 
- Since, Chef couldn't solve this task, can you please help him solve this task?****
+<p> Chef has an array <b>A</b> consisting of <b>N</b> non-negative integers. Initially, all the elements are zero. Assume 1-based indexing. Chef is given two positive integers <b>L</b> and <b>R</b>. <b>(L <= R)</b> Chef has to execute <b>Q</b> number of queries on the array <b>A</b>. These queries can be of the following two types:
+<br></br> 
 
-### Input
+<b>1 x y (1 ≤ x ≤ n)</b> - Replace the value of <b>xth</b> array element by <b>y</b>.
+<br> </br>
+<b>2 l r (1 ≤ l ≤ r ≤ n)</b> - Return the number of subarrays <b>[a , b]</b> that lies in subarray <b>[l , r]</b> such that the value of the maximum array element in that subarray is atleast <b>L</b> and atmost <b>R</b>.
+<br> </br>
+         (A subarray <b>[a , b]</b> lies in a subarray <b>[l , r]</b> if and only if <b>a >= l</b> and <b>b <= r</b>)
+<br> </br>
+Since, Chef couldn't solve this task, can you please help him solve this task?
+</p>
 
-The first line contains four space separated positive integers **N, Q, L** and **R** denoting the total number of elements in an array, total number of queries, value of **L**, and value of **R** respectively. 
-Each of the next **Q** lines contains one of the two queries described above.
 
-### Output
 
-For each query of type 2, print the required answer in a new line.
+<h3>Input</h3>
+<p>The first line contains four space separated positive integers <b>N, Q, L</b> and <b>R</b> denoting the total number of elements in an array, total number of queries, value of <b>L</b>, and value of <b>R</b> respectively.  
+<br>Each of the next <b>Q</b> lines contains one of the two queries described above.</p>
 
-### Constraints
 
-1 ≤ N, Q ≤ 5 \* 10^5
+<h3>Output</h3>
+<p>For each query of type 2, print the required answer in a new line.</p>
 
-1 ≤ L ≤ R ≤ 10^9
 
-1 ≤ l ≤ r ≤ N
+<h3>Constraints</h3>
+<b><p>1 ≤ N, Q ≤ 5 * 10^5</p></b>
+<b><p>1 ≤ L ≤ R ≤ 10^9 </p></b>
+<b><p>1 ≤ l ≤ r ≤ N </p></b>
+<b><p>1 ≤ x ≤ N </p></b>
+<b><p>1 ≤ y ≤ 10^9</p></b>
 
-1 ≤ x ≤ N
+<h3>Subtasks</h3>
 
-1 ≤ y ≤ 10^9
+<b>Subtask #1</b> (10 points) : 1 ≤ N , Q ≤ 100 <br></br>
+<b>Subtask #2</b> (15 points) : 1 ≤ N , Q ≤ 5000 <br></br>
+<b>Subtask #3</b> (27 points) : 1 ≤ Q ≤ 10^4 <br></br> 
+<b>Subtask #4</b> (48 points) : Original Constraints <br></br>
 
-### Subtasks
-
-**Subtask #1** (10 points) : 1 ≤ N , Q ≤ 100 
-**Subtask #2** (15 points) : 1 ≤ N , Q ≤ 5000 
-**Subtask #3** (27 points) : 1 ≤ Q ≤ 10^4 
- **Subtask #4** (48 points) : Original Constraints 
-### Example
-
+<h3>Example</h3>
 <pre><b>Input:</b>
 
 5 6 1 10
@@ -126,35 +60,45 @@ For each query of type 2, print the required answer in a new line.
 2
 4
 </pre>
-
-### Explanation
-
-**Query 1.**
+<br>
+<h3>Explanation</h3>
+<p><b>Query 1.</b><br></br>
  A = {0, 0, 0, 0, 0} 
-After replacing value of 1st element by 2,
-A = {2, 0, 0, 0, 0}
+<br></br>
+After replacing value of 1st element by 2,<br></br>
+A = {2, 0, 0, 0, 0} </p>
 
-**Query 2.**
-A = {2, 0, 0, 0, 0} 
-All the subarrays that lies in a subarray \[1 , 5\] whose maximum value is atleast 1 and atmost 10 are -
- \[1 , 1\], \[1 , 2\], \[1 , 3\], \[1 , 4\] and \[1 , 5\]. Thus the answer is 5.
-
-**Query 3.**
+<p><b>Query 2.</b><br></br>
 A = {2, 0, 0, 0, 0}
-After replacing value of 3rd element by 11, 
+<br></br>
+All the subarrays that lies in a subarray [1 , 5] whose maximum value is atleast 1 and atmost 10 are -<br></br>
+ [1 , 1], [1 , 2], [1 , 3], [1 , 4] and [1 , 5]. Thus the answer is 5.
+</p>
+
+
+<p><b>Query 3.</b><br></br>
+A = {2, 0, 0, 0, 0}<br></br>
+After replacing value of 3rd element by 11, <br></br>
 A = {2, 0, 11, 0, 0}
+ </p>
 
-**Query 4.**
-A = {2, 0, 11, 0, 0} 
- After replacing value of 4th element by 3, 
+<p><b>Query 4.</b><br></br>
+A = {2, 0, 11, 0, 0} <br> </br>
+After replacing value of 4th element by 3, <br></br>
 A = {2, 0, 11, 3, 0}
+</p>
 
-**Query 5.**
-A = {2, 0, 11, 3, 0}
-All the subarrays that lies in a subarray \[3 , 5\] whose maximum value is atleast 1 and atmost 10 are -
- \[4 , 4\] and \[4 , 5\]. Thus the answer is 2.
+<p><b>Query 5.</b><br></br>
+A = {2, 0, 11, 3, 0}<br></br>
+All the subarrays that lies in a subarray [3 , 5] whose maximum value is atleast 1 and atmost 10 are -<br></br>
+ [4 , 4] and [4 , 5]. Thus the answer is 2.
 
-**Query 6.**
-A = {2, 0, 11, 3, 0}
-All the subarrays that lies in a subarray \[1 , 5\] whose maximum value is atleast 1 and atmost 10 are -
- \[1 , 1\], \[1 , 2\], \[4 , 4\] and \[4 , 5\]. Thus the answer is 4.
+</p>
+
+
+<p><b>Query 6.</b><br></br>
+A = {2, 0, 11, 3, 0}<br></br>
+All the subarrays that lies in a subarray [1 , 5] whose maximum value is atleast 1 and atmost 10 are -<br></br>
+ [1 , 1], [1 , 2], [4 , 4] and [4 , 5]. Thus the answer is 4.
+
+</p>

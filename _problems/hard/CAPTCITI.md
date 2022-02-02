@@ -1,109 +1,46 @@
 ---
-category_name: hard
-problem_code: CAPTCITI
-problem_name: 'Snakes capturing the Mongoose Cities'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYPY
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM chicken'
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '2'
-source_sizelimit: '50000'
-problem_author: admin3
-problem_tester: kingofnumbers
-date_added: 30-05-2017
-tags:
-    - admin3
-    - medium
-    - snckpb17
-    - sorting
-    - tree
-time:
-    view_start_date: 1496331000
-    submit_start_date: 1496331000
-    visible_start_date: 1496331000
-    end_date: 1735669800
-    current: 1497589508
-layout: problem
+{"category_name":"hard","problem_code":"CAPTCITI","problem_name":"Snakes capturing the Mongoose Cities","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYPY","37":"PYTH","38":"PYTH 3.4","39":"RUBY","40":"SCALA","41":"SCM chicken","42":"SCM guile","43":"SCM qobi","44":"ST","45":"TCL","46":"TEXT","47":"WSPC"},"max_timelimit":2,"source_sizelimit":50000,"problem_author":"admin3","problem_tester":"kingofnumbers","date_added":"30-05-2017","tags":{"0":"admin3","1":"medium","2":"snckpb17","3":"sorting","4":"tree"},"time":{"view_start_date":1496331000,"submit_start_date":1496331000,"visible_start_date":1496331000,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.### Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/SNCKPB17/mandarin/CAPTCITI.pdf), [Russian](http://www.codechef.com/download/translated/SNCKPB17/russian/CAPTCITI.pdf) and [Vietnamese](http://www.codechef.com/download/translated/SNCKPB17/vietnamese/CAPTCITI.pdf) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3>Read problems statements in <a target="_blank" 
+href="http://www.codechef.com/download/translated/SNCKPB17/mandarin/CAPTCITI.pdf">Mandarin Chinese</a>, <a target="_blank" 
+href="http://www.codechef.com/download/translated/SNCKPB17/russian/CAPTCITI.pdf">Russian</a> and <a target="_blank" 
+href="http://www.codechef.com/download/translated/SNCKPB17/vietnamese/CAPTCITI.pdf">Vietnamese</a> as well.</h3>
 
-The Mongoose Land consists of **N** cities and they are connected by **N** - 1 bidirectional roads in such a manner that you can travel from one city to another city in exactly one path. In other words, the map looks like a tree. The cities are numbered from 1 to **N**.
+<p>The Mongoose Land consists of <b>N</b> cities and they are connected by <b>N</b> - 1 bidirectional roads in such a manner that you can travel from one city to another city in exactly one path. In other words, the map looks like a tree. The cities are numbered from 1 to <b>N</b>.</p>
 
-King Cobra has decided that he wants to eliminate the mongooses, and is hence preparing to wage a war. The snakes have recently procured airplanes, and thus they can parachute their soldiers onto some of the Mongoose Land cities. Suppose on Day 0, these soldiers are parachuted. You know that to capture City i, you need to parachute in **Pi** soldiers. By end of Day 0, they would have captured their respective cities.
+<p>King Cobra has decided that he wants to eliminate the mongooses, and is hence preparing to wage a war. The snakes have recently procured airplanes, and thus they can parachute their soldiers onto some of the Mongoose Land cities. Suppose on Day 0, these soldiers are parachuted. You know that to capture City i, you need to parachute in <b>P<sub>i</sub></b> soldiers. By end  of Day 0, they would have captured their respective cities.</p>
 
-Each city depends on its neighbors for some of its supplies, and so, if a certain number of its neighbors are captured, then this city will fall as well. In particular, for every City i, you know that if City i was uncaptured on Day d, and at least **Ci** of its neighbors are captured on Day d, then this city will be captured on Day d+1, where d ≥ 0. A city which has been captured will forever remain captured.
+<p>Each city depends on its neighbors for some of its supplies, and so, if a certain number of its neighbors are captured, then this city will fall as well. In particular, for every City i, you know that if City i was uncaptured on Day d, and at least <b>C<sub>i</sub></b> of its neighbors are captured on Day d, then this city will be captured on Day d+1, where d ≥ 0. A city which has been captured will forever remain captured.</p>
 
-King Cobra doesn't mind waiting for however long it takes to capture the entire Mongoose kingdom, but he wants to do it with the least number of soldiers. Help him find the least number of soldiers he should send so that the entire Mongoose kingdom can be captured eventually.
+<p>King Cobra doesn't mind waiting for however long it takes to capture the entire Mongoose kingdom, but he wants to do it with the least number of soldiers. Help him find the least number of soldiers he should send so that the entire Mongoose kingdom can be captured eventually.</p>
 
-Formally, you need to find a subset of cities, S, such that the sum of **Pi** over these cities is minimized, and the entire kingdom will be captured eventually, if soldiers are parachuted into exactly these cities. You need to output this minimum sum.
+<p>Formally, you need to find a subset of cities, S, such that the sum of <b>P<sub>i</sub></b> over these cities is minimized, and the entire kingdom will be captured eventually, if soldiers are parachuted into exactly these cities. You need to output this minimum sum.</p>
 
-### Input
 
-- The first line contains a single integer, **T**, denoting the number of testcases. The description of each testcase follows.
-- The first line of each testcase contains a single integer, **N**, the number of cities in Mongoose Land,
-- The i-th of the next **N** - 1 lines contain two integers each, **ui** and **vi**, which denote that there is an edge between Cities **ui** and **vi**.
-- The next line contains **N** integers, **P1, P2**, ..., **PN**. **Pi** denotes the number of soldiers which have to parachuted in, so as to capture City i on Day 0.
-- The next line contains **N** integers, **C1, C2**, ..., **CN**. **Ci** denotes the number of neighbors of City i that have to be captured for City i to be captured on the next day.
+<h3>Input</h3>
+<ul>
+<li>The first line contains a single integer, <b>T</b>, denoting the number of testcases. The description of each testcase follows.</li>
+<li>The first line of each testcase contains a single integer, <b>N</b>, the number of cities in Mongoose Land,</li>
+<li>The i-th of the next <b>N</b> - 1 lines contain two integers each, <b>u<sub>i</sub></b> and <b>v<sub>i</sub></b>, which denote that there is an edge between Cities <b>u<sub>i</sub></b> and <b>v<sub>i</sub></b>.</li>
+<li>The next line contains <b>N</b> integers, <b>P<sub>1</sub>, P<sub>2</sub></b>, ..., <b>P<sub>N</sub></b>. <b>P<sub>i</sub></b> denotes the number of soldiers which have to parachuted in, so as to capture City i on Day 0.</li>
+<li>The next line contains <b>N</b> integers, <b>C<sub>1</sub>, C<sub>2</sub></b>, ..., <b>C<sub>N</sub></b>. <b>C<sub>i</sub></b> denotes the number of neighbors of City i that have to be captured for City i to be captured on the next day.</li>
+</ul>
 
-### Output
+<h3>Output</h3>
+<ul>
+<li>For each testcase, output a single integer which is the minimum total number of soldiers who have to be parachuted in, on Day 0.</li>
+</ul>
 
-- For each testcase, output a single integer which is the minimum total number of soldiers who have to be parachuted in, on Day 0.
+<h3>Constraints</h3>
+<ul>
+<li>1 ≤ <b>T</b> ≤ 5</li>
+<li>1 ≤ <b>N</b> ≤ 5 * 10<sup>4</sup></li>
+<li>1 ≤ <b>u<sub>i</sub>, v<sub>i</sub></b> ≤ <b>N</b></li>
+<li>1 ≤ <b>P<sub>i</sub></b> ≤ 10<sup>9</sup></li>
+<li>1 ≤ <b>C<sub>i</sub></b> ≤ degree of City i </li>
+</ul>
 
-### Constraints
-
-- 1 ≤ **T** ≤ 5
-- 1 ≤ **N** ≤ 5 \* 104
-- 1 ≤ **ui, vi** ≤ **N**
-- 1 ≤ **Pi** ≤ 109
-- 1 ≤ **Ci** ≤ degree of City i
-
-### Example
-
+<h3>Example</h3>
 <pre><b>Input:</b>
 1
 8
@@ -120,15 +57,16 @@ Formally, you need to find a subset of cities, S, such that the sum of **Pi** ov
 <b>Output:</b>
 7
 </pre>
-### Explanation
 
-One of the optimal solutions is to parachute into Cities 1, 6 and 8 on Day 0. So the total number of soldiers needed = **P1** + **P6** + **P8** = 2 + 4 + 1 = 7.
+<h3>Explanation</h3>
+<p>One of the optimal solutions is to parachute into Cities 1, 6 and 8 on Day 0. So the total number of soldiers needed = <b>P<sub>1</sub></b> + <b>P<sub>6</sub></b> + <b>P<sub>8</sub></b> = 2 + 4 + 1 = 7.</p>
 
-Now, we will show that this is indeed a valid solution. For that, we need to show that eventually all the cities will be captured. We will show the cities captured on every day in sequence:
-
-- **Day 0**: The cities captured are the ones parachuted into, and they are {1, 6, 8}.
-- **Day 1**: City 2 has one of its neighbors (City 1) captured. And since **C2** = 1, this is enough for City 2 to be captured. Similarly, since **C3** = 1, and City 1 is a neighbor of City 3, City 3 is also captured. So, cities captured on day 1 = {1, 2, 3, 6, 8}.
-- **Day 2**: City 4 has **C4** = 1, and one of its neighbors is captured (City 2). Hence it is captured now. City 5 has **C5** = 3, and three of its neighbors, Cities 2, 6 and 8, have been captured. Hence it is also captured. Therefore the cities captured at the end of Day 2 are {1, 2, 3, 4, 5, 6, 8}.
-- **Day 3**: City 7 has **C7** = 1 and since City 5 has been captured, it is also captured now. So, by the end of Day 3, all 8 cities have been captured.
-
-This cannot be achieved with fewer soldiers, and hence the answer is 7.
+<p>Now, we will show that this is indeed a valid solution. For that, we need to show that eventually all the cities will be captured. We will show the cities captured on every day in sequence:</p>
+<ul>
+<li><b>Day 0</b>: The cities captured are the ones parachuted into, and they are {1, 6, 8}.</li>
+<li><b>Day 1</b>: City 2 has one of its neighbors (City 1) captured. And since <b>C<sub>2</sub></b> = 1, this is enough for City 2 to be captured. Similarly, since <b>C<sub>3</sub></b> = 1, and City 1 is a neighbor of City 3, City 3 is also captured. So, cities captured on day 1 = {1, 2, 3, 6, 8}.</li>
+<li><b>Day 2</b>: City 4 has <b>C<sub>4</sub></b> = 1, and one of its neighbors is captured (City 2). Hence it is captured now. City 5 has <b>C<sub>5</sub></b> = 3, and three of its neighbors, Cities 2, 6 and 8, have been captured. Hence it is also captured. Therefore the cities captured at the end of Day 2 are {1, 2, 3, 4, 5, 6, 8}.</li>
+<li><b>Day 3</b>: City 7 has <b>C<sub>7</sub></b> = 1 and since City 5 has been captured, it is also captured now. So, by the end of Day 3, all 8 cities have been captured.</li>
+</ul>
+<p></p>
+<p>This cannot be achieved with fewer soldiers, and hence the answer is 7.</p>

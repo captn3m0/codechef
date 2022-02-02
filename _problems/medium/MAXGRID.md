@@ -1,105 +1,35 @@
 ---
-category_name: medium
-problem_code: MAXGRID
-problem_name: 'Maximum Grid'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYPY
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM chicken'
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '5'
-source_sizelimit: '50000'
-problem_author: kevind
-problem_tester: xcwgf666
-date_added: 28-06-2016
-tags:
-    - aug16
-    - kevind
-    - medium
-    - segment
-    - sweepline
-editorial_url: 'http://discuss.codechef.com/problems/MAXGRID'
-time:
-    view_start_date: 1471253400
-    submit_start_date: 1471253400
-    visible_start_date: 1471253400
-    end_date: 1735669800
-    current: 1493557785
-layout: problem
+{"category_name":"medium","problem_code":"MAXGRID","problem_name":"Maximum Grid","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYPY","37":"PYTH","38":"PYTH 3.4","39":"RUBY","40":"SCALA","41":"SCM chicken","42":"SCM guile","43":"SCM qobi","44":"ST","45":"TCL","46":"TEXT","47":"WSPC"},"max_timelimit":5,"source_sizelimit":50000,"problem_author":"kevind","problem_tester":"xcwgf666","date_added":"28-06-2016","tags":{"0":"aug16","1":"kevind","2":"medium","3":"segment","4":"sweepline"},"editorial_url":"http://discuss.codechef.com/problems/MAXGRID","time":{"view_start_date":1471253400,"submit_start_date":1471253400,"visible_start_date":1471253400,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/AUG16/mandarin/MAXGRID.pdf), [Russian](http://www.codechef.com/download/translated/AUG16/russian/MAXGRID.pdf) and [Vietnamese](http://www.codechef.com/download/translated/AUG16/vietnamese/MAXGRID.pdf) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3> Read problems statements in <a target="_blank" href="http://www.codechef.com/download/translated/AUG16/mandarin/MAXGRID.pdf">Mandarin Chinese</a>, <a target="_blank" href="http://www.codechef.com/download/translated/AUG16/russian/MAXGRID.pdf">Russian</a> and <a target="_blank" href="http://www.codechef.com/download/translated/AUG16/vietnamese/MAXGRID.pdf">Vietnamese</a> as well.</h3>
 
- There is an infinite grid given to you. Some of the cells in this infinite grid have gems in them. Each gem a parameter beauty associated with it which is given by a positive integer.
 
-You will be given an integer **L**. You have to find maximum sum of beauties inside any square sub-grid with its side length being less than or equal to **L**. Let **S** be that number, i.e. the maximum sum of beauties for some sub-grid with side length no greater than **L**. You also have to find minimum side length such that there exists some sqaure sub-grid with that given side length with sum of beauties of gems inside it being equal to **S**.
+<p> There is an infinite grid given to you. Some of the cells in this infinite grid have gems in them. Each gem a parameter beauty associated with it which is given by a positive integer.</p>
 
-### Input
+<p>You will be given an integer <b>L</b>. You have to find maximum sum of beauties inside any square sub-grid with its side length being less than or equal to <b>L</b>. Let <b>S</b> be that number, i.e. the maximum sum of beauties for some sub-grid with side length no greater than <b>L</b>. You also have to find minimum side length such that there exists some sqaure sub-grid with that given side length with sum of beauties of gems inside it being equal to <b>S</b>.</p>
 
-First line of the input contains two space separated **N** and **L**, denoting the number of gems and the maximum allowed size of the sub-grid, respectively.
+<h3>Input</h3>
+<p>First line of the input contains two space separated <b>N</b> and <b>L</b>, denoting the number of gems and the maximum allowed size of the sub-grid, respectively.</p>
+<p>Each of the next <b>N</b> lines contains three space separated integers - 
+<b>x<sub>i</sub></b>, <b>y<sub>i</sub></b> and <b>c<sub>i</sub></b> denoting the <b>x</b>-coordinate, <b>y</b>-coordinate and the value of the <b>i</b><sup>th</sup> gem respectively. </p>
 
-Each of the next **N** lines contains three space separated integers - **xi**, **yi** and **ci** denoting the **x**-coordinate, **y**-coordinate and the value of the **i**th gem respectively.
+<h3>Output</h3>
+<p>Output a single line containing two space separated integers: the maximum value of the sum of beauties of gem in some square sub-grid of the length not greater than <b>L</b> and the minimum side length of the square-grid which contains that much sum of beauties of gems inside it, respectively.</p>
 
-### Output
+<h3>Constraints</h3>
+<ul>
+<li><b>1</b> ≤ <b>L</b> ≤ <b>10<sup>5</sup></b></li>
+<li><b>1</b> ≤ <b>c<sub>i</sub></b> ≤ <b>10<sup>9</sup></b></li>
+</ul>
 
-Output a single line containing two space separated integers: the maximum value of the sum of beauties of gem in some square sub-grid of the length not greater than **L** and the minimum side length of the square-grid which contains that much sum of beauties of gems inside it, respectively.
+<h3>Subtasks</h3>
+<ul>
+<li><b>Subtask #1 (15 points):</b> <b>1</b> ≤ <b>N</b> ≤ <b>1000</b>, <b>1</b> ≤ <b>x<sub>i</sub>, y<sub>i</sub></b> ≤ <b>2000</b></li>
+<li><b>Subtask #2 (25 points):</b> <b>1</b> ≤ <b>N</b> ≤ <b>10<sup>5</sup></b>, <b>1</b> ≤ <b>x<sub>i</sub>, y<sub>i</sub></b> ≤ <b>2000</b></li>
+<li><b>Subtask #3 (60 points):</b> <b>1</b> ≤ <b>N</b> ≤ <b>10<sup>5</sup></b>, <b>1</b> ≤ <b>x<sub>i</sub>, y<sub>i</sub></b> ≤ <b>10<sup>5</sup></b></li>
+</ul>
 
-### Constraints
-
-- **1** ≤ **L** ≤ **105**
-- **1** ≤ **ci** ≤ **109**
-
-### Subtasks
-
-- **Subtask #1 (15 points):** **1** ≤ **N** ≤ **1000**, **1** ≤ **xi, yi** ≤ **2000**
-- **Subtask #2 (25 points):** **1** ≤ **N** ≤ **105**, **1** ≤ **xi, yi** ≤ **2000**
-- **Subtask #3 (60 points):** **1** ≤ **N** ≤ **105**, **1** ≤ **xi, yi** ≤ **105**
-
-### Example
-
+<h3>Example</h3>
 <pre><b>Input:</b>
 <tt>3 2
 1 1 1
@@ -109,6 +39,6 @@ Output a single line containing two space separated integers: the maximum value 
 <b>Output:</b>
 <tt>6 2</tt>
 </pre>
-### Explanation
 
-In the given example, you can create a 2X2 sub-grid with top-left corner as (2,1) and bottom right corner as (3,2) with value 6. All other sub-grids have value lower than or equal to this sub-grid.
+<h3>Explanation</h3>
+<p>In the given example, you can create a 2X2 sub-grid with top-left corner as (2,1) and bottom right corner as (3,2) with value 6. All other sub-grids have value lower than or equal to this sub-grid.</p>

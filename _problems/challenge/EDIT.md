@@ -1,129 +1,65 @@
 ---
-category_name: challenge
-problem_code: EDIT
-problem_name: 'Edit Distance Revisited'
-languages_supported:
-    - C
-    - CPP14
-    - JAVA
-    - PYTH
-    - 'PYTH 3.5'
-    - PYPY
-    - CS2
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - RUBY
-    - PHP
-    - GO
-    - NODEJS
-    - HASK
-    - SCALA
-    - D
-    - PERL
-    - FORT
-    - WSPC
-    - ADA
-    - CAML
-    - ICK
-    - BF
-    - ASM
-    - CLPS
-    - PRLG
-    - ICON
-    - 'SCM qobi'
-    - PIKE
-    - ST
-    - NICE
-    - LUA
-    - BASH
-    - NEM
-    - 'LISP sbcl'
-    - 'LISP clisp'
-    - 'SCM guile'
-    - JS
-    - ERL
-    - TCL
-    - PERL6
-    - TEXT
-    - 'SCM chicken'
-    - CLOJ
-    - FS
-max_timelimit: '2'
-source_sizelimit: '50000'
-problem_author: xcwgf666
-problem_tester: null
-date_added: 5-11-2016
-tags:
-    - xcwgf666
-time:
-    view_start_date: 1481535000
-    submit_start_date: 1481535000
-    visible_start_date: 1481535000
-    end_date: 1735669800
-    current: 1525199662
-is_direct_submittable: false
-layout: problem
+{"category_name":"challenge","problem_code":"EDIT","problem_name":"Edit Distance Revisited","languages_supported":{"0":"C","1":"CPP14","2":"JAVA","3":"PYTH","4":"PYTH 3.5","5":"PYPY","6":"CS2","7":"PAS fpc","8":"PAS gpc","9":"RUBY","10":"PHP","11":"GO","12":"NODEJS","13":"HASK","14":"SCALA","15":"D","16":"PERL","17":"FORT","18":"WSPC","19":"ADA","20":"CAML","21":"ICK","22":"BF","23":"ASM","24":"CLPS","25":"PRLG","26":"ICON","27":"SCM qobi","28":"PIKE","29":"ST","30":"NICE","31":"LUA","32":"BASH","33":"NEM","34":"LISP sbcl","35":"LISP clisp","36":"SCM guile","37":"JS","38":"ERL","39":"TCL","40":"PERL6","41":"TEXT","42":"SCM chicken","43":"CLOJ","44":"FS"},"max_timelimit":2,"source_sizelimit":50000,"problem_author":"xcwgf666","problem_tester":null,"date_added":"5-11-2016","tags":{"0":"xcwgf666"},"time":{"view_start_date":1481535000,"submit_start_date":1481535000,"visible_start_date":1481535000,"end_date":1735669800},"is_direct_submittable":false,"layout":"problem"}
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/DEC16/mandarin/EDIT.pdf), [Russian](http://www.codechef.com/download/translated/DEC16/russian/EDIT.pdf) and [Vietnamese](http://www.codechef.com/download/translated/DEC16/vietnamese/EDIT.pdf) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3> Read problems statements in <a target="_blank" href="http://www.codechef.com/download/translated/DEC16/mandarin/EDIT.pdf">Mandarin Chinese</a>, <a target="_blank" href="http://www.codechef.com/download/translated/DEC16/russian/EDIT.pdf">Russian</a> and <a target="_blank" href="http://www.codechef.com/download/translated/DEC16/vietnamese/EDIT.pdf">Vietnamese</a> as well.</h3>
 
-Sergey has an uppercase Latin letter string **S**, which he wants to make equal to another uppercase Latin letter string **T**.
+<p>Sergey has an uppercase Latin letter string <b>S</b>, which he wants to make equal to another uppercase Latin letter string <b>T</b>.</p>
 
-However, he is only allowed to do the following kinds of operations on the string **S**:
+<p>However, he is only allowed to do the following kinds of operations on the string <b>S</b>:
 
-- To insert a symbol everywhere in the string **S** at any position. The operation costs **I** rubles.
-- To delete a symbol from everywhere of the string **S**. The operation costs for **D** rubles.
-- To replace one symbol in **S** with another one. This operation costs **Ra, b** rubles, where **x** is the old symbol and **y** is the new one.
-- To swap any pair of symbols in the string **S**. This operation costs **W** rubles.
+<ul>
+	<li>To insert a symbol everywhere in the string <b>S</b> at any position. The operation costs <b>I</b> rubles.</li>
+	<li>To delete a symbol from everywhere of the string <b>S</b>. The operation costs for <b>D</b> rubles.</li>
+	<li>To replace one symbol in <b>S</b> with another one. This operation costs <b>R<sub>a, b</sub></b> rubles, where <b>x</b> is the old symbol and <b>y</b> is the new one.</li>
+	<li>To swap any pair of symbols in the string <b>S</b>. This operation costs <b>W</b> rubles.</li>
+</ul>
+</p>
 
-Sergey is a poor student, so he is looking for the cheapest way to obtain his target string **T**. Please help him! Note that in this problem, your solution doesn't have to be completely precise, but better approach will bring you more points.
+<p>Sergey is a poor student, so he is looking for the cheapest way to obtain his target string <b>T</b>. Please help him! Note that in this problem, your solution doesn't have to be completely precise, but better approach will bring you more points.</p>
 
-### Input
+<h3>Input</h3>
+<p>The first line of input contains a single integer <b>T<sub>n</sub></b>, denoting the number of test cases. Then, <b>T<sub>n</sub></b> description of test cases follow.</p>
+<p>The first line of every description contains a single uppercase Latin letter string <b>S</b>, denoting the string Sergey initially has.</p>
+<p>The next line contains a single uppercase Latin letter string <b>T</b>, denoting the string Sergey wants to obtain.</p>
+<p>The next line contains three space-separated integers <b>I</b>, <b>D</b>, <b>W</b>, denoting the cost of insertion, deletion and swap respectively.</p>
+<p>Each of the following <b>26</b> lines contains <b>26</b> integer numbers, denoting the matrix <b>R<sub>a, b</sub></b>. The <b>j</b><sup>th</sup> number in the <b>i</b><sup>th</sup> line denotes the cost of the replacement of the <b>i</b><sup>th</sup> Latin alphabet letter with the <b>j</b><sup>th</sup> Latin alphabet letter.</p>
 
-The first line of input contains a single integer **Tn**, denoting the number of test cases. Then, **Tn** description of test cases follow.
+<h3>Output</h3>
+<p>For each test case, output the sequence of operations in the following form.</p>
+<p>On the first line output an integer <b>Q</b>, denoting the number of operations you're going to make. It shouldn't exceed <b>|S|+|T|</b>.</p>
+<p>On the following <b>Q</b> lines output the operations in the following format:
 
-The first line of every description contains a single uppercase Latin letter string **S**, denoting the string Sergey initially has.
+<ul>
+	<li><b>I p c</b>: insert the character <b>c</b> right after the <b>p</b><sup>th</sup> character (1-indexed). Use <b>p=0</b>, when you want to insert the character before all existing characters.</li>
+	<li><b>D p</b>: delete the character on the <b>p</b><sup>th</sup> position (<b>1</b>-indexed) in the string.</li>
+	<li><b>R p c</b>: replace the character on the <b>p</b><sup>th</sup> position with a character <b>c</b>.</li>
+	<li><b>S i j</b>: swap the characters at the <b>i</b><sup>th</sup> and the <b>j</b><sup>th</sup> positions.</li>
+</ul>
 
-The next line contains a single uppercase Latin letter string **T**, denoting the string Sergey wants to obtain.
+</p>
 
-The next line contains three space-separated integers **I**, **D**, **W**, denoting the cost of insertion, deletion and swap respectively.
+<h3>Constraints</h3>
+<ul>
+	<li>DataSet #1 (5 test files): <b>T<sub>n</sub></b> = <b>100</b>, <b>900</b> ≤ <b>|S|, |T|</b> ≤ <b>1000</b></li>
+	<li>DataSet #2 (5 test files): <b>T<sub>n</sub></b> = <b>10</b>, <b>9000</b> ≤ <b>|S|, |T|</b> ≤ <b>10000</b></li>
+	<li>DataSet #3 (5 test files): <b>T<sub>n</sub></b> = <b>2</b>, <b>45000</b> ≤ <b>|S|, |T|</b> ≤ <b>50000</b></li>
+	<li>DataSet #4 (5 test files): <b>T<sub>n</sub></b> = <b>1</b>, <b>99000</b> ≤ <b>|S|, |T|</b> ≤ <b>100000</b></li>
+	
+	<li>Each character of <b>S</b> and <b>T</b> is chosen randomly from the set of uppercase Latin letters, independently of other characters.</li>
+	<li>In all datasets the values of <b>|S|, |T|</b> are chosen randomly and independently from the allowed ranges.</li>
+	<li><b>1000</b> ≤ <b>R<sub>i, j</sub></b> ≤ <b>10000</b>, <b>R<sub>i, i</sub></b> = <b>0</b>. Initially, the weights of <b>R<sub>i, j</sub></b> are picked from the specified range, and then the matrix <b>R</b> was replaced with its' transitive closure.</li>
+	<li>The triangle inequality holds on the matrix <b>R</b>.</li>
+		
+	<li><b>R<sub>min</sub> × 1.5</b> ≤ <b>I</b>, <b>D</b>, <b>W</b> ≤ <b>R<sub>max</sub></b>. The values of <b>I</b>, <b>D</b>, <b>W</b> are chosen randomly and independently from the specified range.</li>
+</ul>
 
-Each of the following **26** lines contains **26** integer numbers, denoting the matrix **Ra, b**. The **j**th number in the **i**th line denotes the cost of the replacement of the **i**th Latin alphabet letter with the **j**th Latin alphabet letter.
+<h3>Scoring</h3>
+<p>For every test case, your score will be equal to the sum of the costs of all the operations, divided by <b>|S| + |T|</b>.</p>
+<p>For every test file, your score will be equal to the average of the scores of all the test cases in this file.</p>
 
-### Output
+<p>Please note that during the contest, score of your program will be decided by only 20% of the files, i.e. by 4 files, each from one group. However the verdict of your program will be based on all the test files, i.e. in order to get an AC, your program should work correctly on all the test files.</p>
 
-For each test case, output the sequence of operations in the following form.
-
-On the first line output an integer **Q**, denoting the number of operations you're going to make. It shouldn't exceed **|S|+|T|**.
-
-On the following **Q** lines output the operations in the following format:
-
-- **I p c**: insert the character **c** right after the **p**th character (1-indexed). Use **p=0**, when you want to insert the character before all existing characters.
-- **D p**: delete the character on the **p**th position (**1**-indexed) in the string.
-- **R p c**: replace the character on the **p**th position with a character **c**.
-- **S i j**: swap the characters at the **i**th and the **j**th positions.
-
-### Constraints
-
-- DataSet #1 (5 test files): **Tn** = **100**, **900** ≤ **|S|, |T|** ≤ **1000**
-- DataSet #2 (5 test files): **Tn** = **10**, **9000** ≤ **|S|, |T|** ≤ **10000**
-- DataSet #3 (5 test files): **Tn** = **2**, **45000** ≤ **|S|, |T|** ≤ **50000**
-- DataSet #4 (5 test files): **Tn** = **1**, **99000** ≤ **|S|, |T|** ≤ **100000**
-- Each character of **S** and **T** is chosen randomly from the set of uppercase Latin letters, independently of other characters.
-- In all datasets the values of **|S|, |T|** are chosen randomly and independently from the allowed ranges.
-- **1000** ≤ **Ri, j** ≤ **10000**, **Ri, i** = 0. Initially, the weights of **Ri, j** are picked from the specified range, and then the matrix **R** was replaced with its' transitive closure.
-- The triangle inequality holds on the matrix **R**.
-- **Rmin × 1.5** ≤ **I**, **D**, **W** ≤ **Rmax**. The values of **I**, **D**, **W** are chosen randomly and independently from the specified range.
-
-### Scoring
-
-For every test case, your score will be equal to the sum of the costs of all the operations, divided by **|S| + |T|**.
-
-For every test file, your score will be equal to the average of the scores of all the test cases in this file.
-
-Please note that during the contest, score of your program will be decided by only 20% of the files, i.e. by 4 files, each from one group. However the verdict of your program will be based on all the test files, i.e. in order to get an AC, your program should work correctly on all the test files.
-
-### Example
-
+<h3>Example</h3>
 <pre><b>Input:</b>
 <tt>1
 JDCJPGROIE
@@ -172,6 +108,6 @@ I 10 M
 I 11 M
 I 12 A</tt>
 </pre>
-### Explanation
 
-In this test case we have **10** ≤ **Ri, j** ≤ **100 (i ≠ j)**. This is made only to fit the test case on the screen. In the actual test cases, the inequality **1000** ≤ **Ri, j** ≤ **10000** will hold.
+<h3>Explanation</h3>
+<p>In this test case we have <b>10</b> ≤ <b>R<sub>i, j</sub></b> ≤  <b>100 (i ≠ j)</b>. This is made only to fit the test case on the screen. In the actual test cases, the inequality <b>1000</b> ≤ <b>R<sub>i, j</sub></b> ≤ <b>10000</b> will hold.</p>

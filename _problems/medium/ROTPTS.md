@@ -1,116 +1,46 @@
 ---
-category_name: medium
-problem_code: ROTPTS
-problem_name: 'Rotate Point'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - CAML
-    - CLOJ
-    - CLPS
-    - COB
-    - 'CPP 4.3.2'
-    - 'CPP 6.3'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - kotlin
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYPY
-    - PYTH
-    - 'PYTH 3.5'
-    - RUBY
-    - rust
-    - SCALA
-    - 'SCM chicken'
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - swift
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '1.5'
-source_sizelimit: '50000'
-problem_author: chemthan
-problem_tester: kingofnumbers
-date_added: 29-11-2017
-tags:
-    - chemthan
-    - chemthan
-    - cook89
-    - likecs
-    - matrix
-    - medium
-    - sqrt
-editorial_url: 'https://discuss.codechef.com/problems/ROTPTS'
-time:
-    view_start_date: 1514140200
-    submit_start_date: 1514140200
-    visible_start_date: 1514140200
-    end_date: 1735669800
-    current: 1514816594
-layout: problem
+{"category_name":"medium","problem_code":"ROTPTS","problem_name":"Rotate Point","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"CAML","6":"CLOJ","7":"CLPS","8":"COB","9":"CPP 4.3.2","10":"CPP 6.3","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"kotlin","24":"LISP clisp","25":"LISP sbcl","26":"LUA","27":"NEM","28":"NICE","29":"NODEJS","30":"PAS fpc","31":"PAS gpc","32":"PERL","33":"PERL6","34":"PHP","35":"PIKE","36":"PRLG","37":"PYPY","38":"PYTH","39":"PYTH 3.5","40":"RUBY","41":"rust","42":"SCALA","43":"SCM chicken","44":"SCM guile","45":"SCM qobi","46":"ST","47":"swift","48":"TCL","49":"TEXT","50":"WSPC"},"max_timelimit":1.5,"source_sizelimit":50000,"problem_author":"chemthan","problem_tester":"kingofnumbers","date_added":"29-11-2017","tags":{"0":"chemthan","1":"chemthan","2":"cook89","3":"likecs","4":"matrix","5":"medium","6":"sqrt"},"editorial_url":"https://discuss.codechef.com/problems/ROTPTS","time":{"view_start_date":1514140200,"submit_start_date":1514140200,"visible_start_date":1514140200,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.### Read problems statements in [Mandarin chinese](http://www.codechef.com/download/translated/COOK89/mandarin/ROTPTS.pdf), [Russian](http://www.codechef.com/download/translated/COOK89/russian/ROTPTS.pdf) and [Vietnamese](http://www.codechef.com/download/translated/COOK89/vietnamese/ROTPTS.pdf) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3>Read problems statements in <a target="_blank" 
+href="http://www.codechef.com/download/translated/COOK89/mandarin/ROTPTS.pdf">Mandarin chinese</a>, <a target="_blank" 
+href="http://www.codechef.com/download/translated/COOK89/russian/ROTPTS.pdf">Russian</a> and <a target="_blank" 
+href="http://www.codechef.com/download/translated/COOK89/vietnamese/ROTPTS.pdf">Vietnamese</a> as well.</h3>
 
-You are given **n** points **p1, p2, ..., pn** in a plane and **n** integers **a1, a2, ..., an**.
+<p>You are given <b>n</b> points <b>p<sub>1</sub>, p<sub>2</sub>, ..., p<sub>n</sub></b> in a plane and <b>n</b> integers <b>a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub></b>.</p>
 
-For any index **i** (1 ≤ **i** ≤ **n**), it is possible to perform the following operation (let's call it ***i**-rotation*) on an arbitrary point **P**: Rotate **P** by **ai** degrees counter-clockwise around the point **pi**.
+<p>For any index <b>i</b> (1 ≤ <b>i</b> ≤ <b>n</b>), it is possible to perform the following operation (let's call it <i><b>i</b>-rotation</i>) on an arbitrary point <b>P</b>: Rotate <b>P</b> by <b>a<sub>i</sub></b> degrees counter-clockwise around the point <b>p<sub>i</sub></b>.
+</p>
 
-Note that **ai** will always be a multiple of 90. Also note that such an operation changes the point **P**.
+<p>Note that <b>a<sub>i</sub></b> will always be a multiple of 90. Also note that such an operation changes the point <b>P</b>.</p>
 
-You should process **q** queries. Each query is of one of the following types:
+<p>You should process <b>q</b> queries. Each query is of one of the following types:
+<ul>
+<li>1 <b>x y l r</b>: Initially, you are given <b>P</b> = (<b>x</b>, <b>y</b>). Perform each <b>i</b>-rotation for <b>i</b> = <b>l, l+1, ..., r</b> (in this order) on the point <b>P</b>. Compute the coordinates of <b>P</b> modulo 10<sup>9</sup> + 7 after performing all <b>i</b>-rotations.</li>
+<li>2 <b>u x y b</b>: Change the point <b>p<sub>u</sub></b> to (<b>x</b>, <b>y</b>) and the angle <b>a<sub>u</sub></b> to <b>b</b>.</li>
+</ul></p>
 
-- 1 **x y l r**: Initially, you are given **P** = (**x**, **y**). Perform each **i**-rotation for **i** = **l, l+1, ..., r** (in this order) on the point **P**. Compute the coordinates of **P** modulo 109 + 7 after performing all **i**-rotations.
-- 2 **u x y b**: Change the point **pu** to (**x**, **y**) and the angle **au** to **b**.
+<h3>Input</h3>
+<p><ul>
+<li>The first line of the input contains a single integer <b>n</b>.</li>
+<li>Then, <b>n</b> lines follow. The <b>i</b>-th of these lines contains three space-separated integers <b>x<sub>i</sub></b>, <b>y<sub>i</sub></b> and <b>a<sub>i</sub></b>. The <b>i</b>-th point is initially <b>p<sub>i</sub></b> = (<b>x<sub>i</sub></b>, <b>y<sub>i</sub></b>).</li>
+<li>The next line contains a single integer <b>q</b> denoting the number of queries.</li>
+<li>Each of the following <b>q</b> lines contains a query in the format described above.</li>
+</ul></p>
 
-### Input
+<h3>Output</h3>
+<p>For each query of type 1, print a single line containing two space-separated integers denoting the coordinates of the point <b>P</b> after performing all rotations, <b>modulo 10<sup>9</sup> + 7</b>.</p>
 
-- The first line of the input contains a single integer **n**.
-- Then, **n** lines follow. The **i**-th of these lines contains three space-separated integers **xi**, **yi** and **ai**. The **i**-th point is initially **pi** = (**xi**, **yi**).
-- The next line contains a single integer **q** denoting the number of queries.
-- Each of the following **q** lines contains a query in the format described above.
+<h3>Constraints</h3>
+<ul>
+<li>1 ≤ <b>n</b> ≤ 10<sup>5</sup></li>
+<li>0 ≤ <b>x<sub>i</sub></b>, <b>y<sub>i</sub></b>, <b>x</b>, <b>y</b> ≤ 10<sup>9</sup></li>
+<li>0 ≤ <b>a<sub>i</sub></b>, <b>b</b> &lt; 360</li>
+<li>1 ≤ <b>q</b> ≤ 2 · 10<sup>5</sup></li>
+<li>1 ≤ <b>l</b> ≤ <b>r</b> ≤ <b>n</b></li>
+<li>1 ≤ <b>u</b> ≤ <b>n</b></li>
+</ul>
 
-### Output
-
-For each query of type 1, print a single line containing two space-separated integers denoting the coordinates of the point **P** after performing all rotations, **modulo 109 + 7**.
-
-### Constraints
-
-- 1 ≤ **n** ≤ 105
-- 0 ≤ **xi**, **yi**, **x**, **y** ≤ 109
-- 0 ≤ **ai**, **b** &lt; 360
-- 1 ≤ **q** ≤ 2 · 105
-- 1 ≤ **l** ≤ **r** ≤ **n**
-- 1 ≤ **u** ≤ **n**
-
-### Example
-
+<h3>Example</h3>
 <pre><b>Input:</b>
 
 3

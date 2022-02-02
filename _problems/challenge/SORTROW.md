@@ -1,106 +1,59 @@
 ---
-category_name: challenge
-problem_code: SORTROW
-problem_name: '(CH) Bear and Sorted Rows'
-languages_supported:
-    - C
-    - CPP14
-    - JAVA
-    - PYTH
-    - 'PYTH 3.5'
-    - PYPY
-    - CS2
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - RUBY
-    - PHP
-    - GO
-    - NODEJS
-    - HASK
-    - SCALA
-    - D
-    - PERL
-    - FORT
-    - WSPC
-    - ADA
-    - CAML
-    - ICK
-    - BF
-    - ASM
-    - CLPS
-    - PRLG
-    - ICON
-    - 'SCM qobi'
-    - PIKE
-    - ST
-    - NICE
-    - LUA
-    - BASH
-    - NEM
-    - 'LISP sbcl'
-    - 'LISP clisp'
-    - 'SCM guile'
-    - JS
-    - ERL
-    - TCL
-    - PERL6
-    - TEXT
-    - 'SCM chicken'
-    - CLOJ
-    - FS
-max_timelimit: '2'
-source_sizelimit: '50000'
-problem_author: errichto
-problem_tester: xcwgf666
-date_added: 23-02-2017
-tags:
-    - challenge
-    - dynamic
-    - errichto
-    - march17
-    - optimization
-editorial_url: 'https://discuss.codechef.com/problems/SORTROW'
-time:
-    view_start_date: 1489397400
-    submit_start_date: 1489397400
-    visible_start_date: 1489397400
-    end_date: 1735669800
-    current: 1525199674
-is_direct_submittable: false
-layout: problem
+{"category_name":"challenge","problem_code":"SORTROW","problem_name":"(CH) Bear and Sorted Rows","languages_supported":{"0":"C","1":"CPP14","2":"JAVA","3":"PYTH","4":"PYTH 3.5","5":"PYPY","6":"CS2","7":"PAS fpc","8":"PAS gpc","9":"RUBY","10":"PHP","11":"GO","12":"NODEJS","13":"HASK","14":"SCALA","15":"D","16":"PERL","17":"FORT","18":"WSPC","19":"ADA","20":"CAML","21":"ICK","22":"BF","23":"ASM","24":"CLPS","25":"PRLG","26":"ICON","27":"SCM qobi","28":"PIKE","29":"ST","30":"NICE","31":"LUA","32":"BASH","33":"NEM","34":"LISP sbcl","35":"LISP clisp","36":"SCM guile","37":"JS","38":"ERL","39":"TCL","40":"PERL6","41":"TEXT","42":"SCM chicken","43":"CLOJ","44":"FS"},"max_timelimit":2,"source_sizelimit":50000,"problem_author":"errichto","problem_tester":"xcwgf666","date_added":"23-02-2017","tags":{"0":"challenge","1":"dynamic","2":"errichto","3":"march17","4":"optimization"},"editorial_url":"https://discuss.codechef.com/problems/SORTROW","time":{"view_start_date":1489397400,"submit_start_date":1489397400,"visible_start_date":1489397400,"end_date":1735669800},"is_direct_submittable":false,"layout":"problem"}
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/MARCH17/mandarin/SORTROW.pdf?v=1), [Russian](http://www.codechef.com/download/translated/MARCH17/russian/SORTROW.pdf?v=1) and [Vietnamese](http://www.codechef.com/download/translated/MARCH17/vietnamese/SORTROW.pdf?v=1) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3> Read problems statements in <a target="_blank" href="http://www.codechef.com/download/translated/MARCH17/mandarin/SORTROW.pdf?v=1">Mandarin Chinese</a>, <a target="_blank" href="http://www.codechef.com/download/translated/MARCH17/russian/SORTROW.pdf?v=1">Russian</a> and <a target="_blank" href="http://www.codechef.com/download/translated/MARCH17/vietnamese/SORTROW.pdf?v=1">Vietnamese</a> as well.</h3>
 
-Limak has a grid that consists of **N** rows and **N** columns. He randomly wrote all numbers **1** through **N**2 in the cells of the grid, one number in each cell. You can assume that each of (**N**2)! ways was equally likely.
+<p>Limak has a grid that consists of <b>N</b> rows and <b>N</b> columns.
+He randomly wrote all numbers <b>1</b> through <b>N</b><sup>2</sup> in the cells of the grid, one number in each cell.
+You can assume that each of (<b>N</b><sup>2</sup>)! ways was equally likely.</p>
 
-Limak asks you to rearrange the numbers in the grid, so that each row will be sorted either increasingly or decreasingly.
+<p>Limak asks you to rearrange the numbers in the grid, so that each row will be sorted either increasingly or decreasingly.</p>
 
-### Scoring
 
-Let (r, c) denote the cell at the intersection of the r-th row and the c-th column. If a number x was in (r1, c1) in the initial grid and it is in (r2, c2) in the new grid, the cost of moving x is (r1 - r2)2 + (c1 - c2)2. Your score for one test is the sum of costs of moving all numbers, divided by **N**3 for clarity. The final score is the sum of scores in all tests. The goal is to **minimize** that score.
 
-There are 20 tests. If your program works incorrectly (e.g. it exceeds the time limit or rows aren't sorted) on any of 20 tests, you will get a suitable verdict (e.g. TLE or WA). Otherwise, you will get AC and your score will be decided by only 20% of tests (first 4 tests). The final score will be revealed after the contest.
+<h3>Scoring</h3>
 
-### Input
+<p>Let (r, c) denote the cell at the intersection of the r-th row and the c-th column.
+If a number x was in (r1, c1) in the initial grid and it is in (r2, c2) in the new grid, the cost of moving x is (r1 - r2)<sup>2</sup> + (c1 - c2)<sup>2</sup>.
+Your score for one test is the sum of costs of moving all numbers, divided by <b>N</b><sup>3</sup> for clarity.
+The final score is the sum of scores in all tests. The goal is to <b>minimize</b> that score.</p>
 
-The first line of the input contains an integer **N** denoting the size of the grid.
+<p>There are 20 tests.
+If your program works incorrectly (e.g. it exceeds the time limit or rows aren't sorted) on any of 20 tests, you will get a suitable verdict (e.g. TLE or WA).
+Otherwise, you will get AC and your score will be decided by only 20% of tests (first 4 tests).
+The final score will be revealed after the contest.</p>
 
-Next **N** lines describe the grid. The i-th of those lines contains **N** integers **t** i,1, **t** i,2, ..., **t** i,**N**.
 
-### Output
 
-Output **N** lines, describing the new grid in the same format as in the input (do not print the value **N** though).
+<h3>Input</h3>
 
-The printed grid should contain all values 1 through **N**2. Each row should be sorted either increasingly or decreasingly.
+<p>The first line of the input contains an integer <b>N</b> denoting the size of the grid.</p>
 
-### Constraints
+<p>Next <b>N</b> lines describe the grid.
+The i-th of those lines contains <b>N</b> integers <b>t</b><sub> i,1</sub>, <b>t</b><sub> i,2</sub>, ..., <b>t</b><sub> i,<b>N</b></sub>.</p>
 
-- **N** = 300
-- 1 ≤ **t** i,j ≤ **N**2
-- Values **t** i,j are distinct.
-- The initial grid was generated by randomly shuffling all **N**2 values.
 
-### Example
+
+<h3>Output</h3>
+
+<p>Output <b>N</b> lines, describing the new grid in the same format as in the input (do not print the value <b>N</b> though).</p>
+
+<p>The printed grid should contain all values 1 through <b>N</b><sup>2</sup>. Each row should be sorted either increasingly or decreasingly.</p>
+
+
+
+<h3>Constraints</h3>
+
+<ul>
+<li><b>N</b> = 300</li>
+<li>1 ≤ <b>t</b><sub> i,j</sub> ≤ <b>N</b><sup>2</sup></li>
+<li>Values <b>t</b><sub> i,j</sub> are distinct.</li>
+<li>The initial grid was generated by randomly shuffling all <b>N</b><sup>2</sup> values.
+</ul>
+
+
+
+<h3>Example</h3>
 
 <pre><b>Input:</b>
 4
@@ -113,19 +66,24 @@ The printed grid should contain all values 1 through **N**2. Each row should be 
 2 8 12 14
 1 5 7 10
 16 13 6 4
-3 9 11 15
-</pre>
-### Explanation
+3 9 11 15</pre>
 
-In the provided output, each row is indeed sorted — the third row is sorted decreasingly, while other rows are sorted increasingly. Let's compute the score:
 
-1. A number 5 moved from (2,1) to (2,2) with the cost 12 + 02 = 1.
-2. A number 13 moved from (2,2) to (3,2) with the cost 12 + 02 = 1.
-3. A number 1 moved from (2,3) to (2,1) with the cost 22 + 02 = 4.
-4. A number 7 moved from (3,2) to (2,3) with the cost 12 + 12 = 2.
-5. A number 15 moved from (4,2) to (4,4) with the cost 22 + 02 = 4.
-6. A number 9 moved from (4,4) to (4,2) with the cost 22 + 02 = 4.
+<h3>Explanation</h3>
 
-The total cost is 1 + 1 + 4 + 2 + 4 + 4 = 16. Divided by **N**3 it gives the score 16 / 64 = 0.25.
+<p>In the provided output, each row is indeed sorted — the third row is sorted decreasingly, while other rows are sorted increasingly.
+Let's compute the score:</p>
 
-Note that this test has **N** = 4 only for reader's convenience. The actual tests, on which your solution will be scored, will have **N** = 300.
+<ol>
+<li>A number 5 moved from (2,1) to (2,2) with the cost 1<sup>2</sup> + 0<sup>2</sup> = 1.</li>
+<li>A number 13 moved from (2,2) to (3,2) with the cost 1<sup>2</sup> + 0<sup>2</sup> = 1.</li>
+<li>A number 1 moved from (2,3) to (2,1) with the cost 2<sup>2</sup> + 0<sup>2</sup> = 4.</li>
+<li>A number 7 moved from (3,2) to (2,3) with the cost 1<sup>2</sup> + 1<sup>2</sup> = 2.</li>
+<li>A number 15 moved from (4,2) to (4,4) with the cost 2<sup>2</sup> + 0<sup>2</sup> = 4.</li>
+<li>A number 9 moved from (4,4) to (4,2) with the cost 2<sup>2</sup> + 0<sup>2</sup> = 4.</li>
+</ol>
+
+<p>The total cost is 1 + 1 + 4 + 2 + 4 + 4 = 16.
+Divided by <b>N</b><sup>3</sup> it gives the score 16 / 64 = 0.25.</p>
+
+<p>Note that this test has <b>N</b> = 4 only for reader's convenience. The actual tests, on which your solution will be scored, will have <b>N</b> = 300.</p>

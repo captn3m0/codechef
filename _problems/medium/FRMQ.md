@@ -1,128 +1,50 @@
 ---
-category_name: medium
-problem_code: FRMQ
-problem_name: 'Chef and Array'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '1'
-source_sizelimit: '50000'
-problem_author: antoniuk1
-problem_tester: xcwgf666
-date_added: 17-07-2014
-tags:
-    - antoniuk1
-    - april15
-    - easy
-    - rmq
-    - sparse
-editorial_url: 'http://discuss.codechef.com/problems/FRMQ'
-time:
-    view_start_date: 1428917400
-    submit_start_date: 1428917400
-    visible_start_date: 1428917400
-    end_date: 1735669800
-    current: 1493557664
-layout: problem
+{"category_name":"medium","problem_code":"FRMQ","problem_name":"Chef and Array","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYTH","37":"PYTH 3.4","38":"RUBY","39":"SCALA","40":"SCM guile","41":"SCM qobi","42":"ST","43":"TCL","44":"TEXT","45":"WSPC"},"max_timelimit":1,"source_sizelimit":50000,"problem_author":"antoniuk1","problem_tester":"xcwgf666","date_added":"17-07-2014","tags":{"0":"antoniuk1","1":"april15","2":"easy","3":"rmq","4":"sparse"},"editorial_url":"http://discuss.codechef.com/problems/FRMQ","time":{"view_start_date":1428917400,"submit_start_date":1428917400,"visible_start_date":1428917400,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/APRIL15/mandarin/FRMQ.pdf) and [Russian](http://www.codechef.com/download/translated/APRIL15/russian/FRMQ.pdf).
-
-Chef has an array **A\[\]** of **N** elements denoted by **A0, A1, ..., AN-1**.
-
-He thinks about **M** questions of following kind: "What is the maximum element among **Ai** where **i** lies between **min{x, y}** and **max{x, y}** both inclusive?"
-
-You have to help Chef to find out sum of answers of all the **M** questions.
-
-***Method of generation of values **x** and **y** for all **M** questions:***
-
-You are given two integers **x1** and **y1** denoting values of **x** and **y** for the first question.
-
-For the next questions, values of **xi** and **yi** are generated in the following way:
-
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3> Read problems statements in <a target="_blank" href="http://www.codechef.com/download/translated/APRIL15/mandarin/FRMQ.pdf">Mandarin Chinese </a> and <a target="_blank" href="http://www.codechef.com/download/translated/APRIL15/russian/FRMQ.pdf">Russian</a>.</h3>
+<p>Chef has an array <b>A[]</b> of <b>N</b> elements denoted by <b>A<sub>0</sub>, A<sub>1</sub>, ..., A<sub>N-1</sub></b>.</p>
+<p>He thinks about <b>M</b> questions of following kind: <tt>"What is the maximum element among <b>A<sub>i</sub></b> where <b>i</b> lies between <b>min{x, y}</b> and <b>max{x, y}</b> both inclusive?"</tt></p>
+<p>You have to help Chef to find out sum of answers of all the <b>M</b> questions.</p>
+<p><i><b>Method of generation of values <b>x</b> and <b>y</b> for all <b>M</b> questions:</b></i> </p>
+<p>You are given two integers <b>x<sub>1</sub></b> and <b>y<sub>1</sub></b> denoting values of <b>x</b> and <b>y</b> for the first question. </p>
+<p>For the next questions, values of <b>x<sub>i</sub></b> and <b>y<sub>i</sub></b> are generated in the following way:</p>
 <pre>
 for <b>i = 2</b> to <b>M</b>:
 	<b>x<sub>i</sub></b> = <b>(x<sub>i-1</sub> + 7) mod (N - 1)</b>
 	<b>y<sub>i</sub></b> = <b>(y<sub>i-1</sub> + 11) mod N</b>
-</pre>
-Here **a mod b** denotes the remainder of division of **a** by **b**.
+</pre><p> </p>
+<p>Here <b>a mod b</b> denotes the remainder of division of <b>a</b> by <b>b</b>.</p>
+<h3>Input</h3>
+<p>The first line contains a single integer <b>N</b>, denoting the number of elements in the array.</p>
+<p>The second line contains <b>N</b> space-separated integers, denoting <b>A<sub>0</sub></b>, <b>A<sub>1</sub></b>, ..., <b>A<sub>N-1</sub></b>. </p>
+<p>The third line contains three space-separated integers <b>M</b>, <b>x<sub>1</sub></b> and <b>y<sub>1</sub></b>.</p>
+<h3>Output</h3>
+<p>Output a single integer denoting the <b>sum</b> of the answers to the questions.</p>
+<h3>Constraints and Subtasks</h3>
+<ul>
+<li><b>2</b> ≤ <b>N</b> ≤ <b>10<sup>5</sup></b></li>
+<li><b>1</b> ≤ <b>M</b> ≤ <b>10<sup>8</sup></b></li>
+<li><b>1</b> ≤ <b>A<sub>i</sub></b> ≤ <b>10<sup>9</sup></b></li>
+<li><b>0</b> ≤ <b>x<sub>1</sub>, y<sub>1</sub></b> ≤ <b>N-1</b></li>
+</ul>
 
-### Input
-
-The first line contains a single integer **N**, denoting the number of elements in the array.
-
-The second line contains **N** space-separated integers, denoting **A0**, **A1**, ..., **AN-1**.
-
-The third line contains three space-separated integers **M**, **x1** and **y1**.
-
-### Output
-
-Output a single integer denoting the **sum** of the answers to the questions.
-
-### Constraints and Subtasks
-
-- **2** ≤ **N** ≤ **105**
-- **1** ≤ **M** ≤ **108**
-- **1** ≤ **Ai** ≤ **109**
-- 0 ≤ **x1, y1** ≤ **N-1**
-
-**Subtask 1: (20 points)**
-
-- **N, M ≤ 103**; **1** ≤ **Ai** ≤ **105**
-
-**Subtask 2: (50 points)**
-
-- **N, M ≤ 105**
-
-**Subtask 3: (30 points)**
-
-- Original constraints
-
-### Example
-
+<p></p>
+<p><b>Subtask 1: (20 points)</b></p>
+<ul>
+<li><b>N, M ≤ 10<sup>3</sup></b>; <b>1</b> ≤ <b>A<sub>i</sub></b> ≤ <b>10<sup>5</sup></b></li>
+</ul>
+<p></p>
+<p><b>Subtask 2: (50 points)</b></p>
+<ul>
+<li><b>N, M ≤ 10<sup>5</sup></b></li>
+</ul>
+<p></p>
+<p><b>Subtask 3: (30 points)</b></p>
+<ul>
+<li>Original constraints</li>
+</ul>
+<p></p>
+<h3>Example</h3>
 <pre><b>Input:</b>
 3
 1 2 3
@@ -130,10 +52,9 @@ Output a single integer denoting the **sum** of the answers to the questions.
 
 <b>Output:</b>
 7
-</pre>
-### Explanation
-
-28. The first question: **x1** = 0, **y1** = 1 =&gt; **ans1** = 2
-29. The second question: **x2** = (0 + 7) mod 2 = 1, **y2** = (1 + 11) mod 3 = 0 =&gt; **ans2** = 2
-30. The third question: **x3** = (1 + 7) mod 2 = 0, **y3** = (0 + 11) mod 3 = 2 =&gt; **ans3** = 3
-As **ans1** + **ans2** + **ans3** = 2 + 2 + 3 = 7. So you have to print **7**.
+</pre><h3>Explanation</h3>
+<li>The first question: <b>x<sub>1</sub></b> = 0, <b>y<sub>1</sub></b> = 1      =>     <b>ans<sub>1</sub></b> = 2</li>
+<li>The second question: <b>x<sub>2</sub></b> = (0 + 7) mod 2 = 1, <b>y<sub>2</sub></b> = (1 + 11) mod 3 = 0       =>       <b>ans<sub>2</sub></b> = 2</li>
+<li>The third question: <b>x<sub>3</sub></b> = (1 + 7) mod 2 = 0, <b>y<sub>3</sub></b> = (0 + 11) mod 3 = 2      =>       <b>ans<sub>3</sub></b> = 3</li>
+<p> </p>
+<p>As <b>ans<sub>1</sub></b> + <b>ans<sub>2</sub></b> + <b>ans<sub>3</sub></b> = 2 + 2 + 3 = 7. So you have to print <b>7</b>.</p>

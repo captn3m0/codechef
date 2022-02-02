@@ -1,102 +1,26 @@
 ---
-category_name: easy
-problem_code: DIVGOLD
-problem_name: 'How to Minimize a String'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYPY
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM chicken'
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '1'
-source_sizelimit: '50000'
-problem_author: witua
-problem_tester: iscsi
-date_added: 3-03-2015
-tags:
-    - cakewalk
-    - cook56
-    - simulation
-    - sorting
-    - witua
-editorial_url: 'http://discuss.codechef.com/problems/DIVGOLD'
-time:
-    view_start_date: 1427049000
-    submit_start_date: 1427049000
-    visible_start_date: 1427049000
-    end_date: 1735669800
-    current: 1493558139
-layout: problem
+{"category_name":"easy","problem_code":"DIVGOLD","problem_name":"How to Minimize a String","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYPY","37":"PYTH","38":"PYTH 3.4","39":"RUBY","40":"SCALA","41":"SCM chicken","42":"SCM guile","43":"SCM qobi","44":"ST","45":"TCL","46":"TEXT","47":"WSPC"},"max_timelimit":1,"source_sizelimit":50000,"problem_author":"witua","problem_tester":"iscsi","date_added":"3-03-2015","tags":{"0":"cakewalk","1":"cook56","2":"simulation","3":"sorting","4":"witua"},"editorial_url":"http://discuss.codechef.com/problems/DIVGOLD","time":{"view_start_date":1427049000,"submit_start_date":1427049000,"visible_start_date":1427049000,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/COOK56/mandarin/DIVGOLD.pdf) and [Russian](http://www.codechef.com/download/translated/COOK56/russian/DIVGOLD.pdf) as well.
-
-You have a string **S** consisting of **N** uppercase English letters. You are allowed to perform at most one operation of following kind: Choose any position in the string, remove the character at that position and insert it back to any other place in the string.
-
-Find the [ lexicographically smallest ](http://en.wikipedia.org/wiki/Lexicographical_order) string you can achieve.
-
-### Input
-
-The first line of the input contains an integer **T** denoting the number of test cases. The description of **T** test cases follows.
-
-The first line of each test case contains the single integer **N** denoting length of string **S**.
-
-The second line contains the string **S**.
-
-### Output
-
-For each test case, output a single line containing the answer to the corresponding test case.
-
-### Constraints
-
-- **1** ≤ **T** ≤ **50**
-- **1** ≤ **N** ≤ **50**
-- **S** will consist of uppercase English letters.
-
-### Example
-
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3> Read problems statements in <a target="_blank" href="http://www.codechef.com/download/translated/COOK56/mandarin/DIVGOLD.pdf">Mandarin Chinese</a> and <a target="_blank" href="http://www.codechef.com/download/translated/COOK56/russian/DIVGOLD.pdf">Russian</a> as well.</h3>
+<p>
+You have a string <b>S</b> consisting of <b>N</b> uppercase English letters. You are allowed to perform at most one operation of following kind: Choose any position in the string, remove the character at that position and insert it back to any other place in the string.
+</p>
+<p>
+Find the <a href="http://en.wikipedia.org/wiki/Lexicographical_order" target ="_blank"> lexicographically smallest </a> string you can achieve.
+</p>
+<h3>Input</h3>
+<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</p>
+<p>The first line of each test case contains the single integer <b>N</b> denoting length of string <b>S</b>.</p>
+<p>The second line contains the string <b>S</b>.</p>
+<h3>Output</h3>
+<p>For each test case, output a single line containing the answer to the corresponding test case.</p>
+<h3>Constraints</h3>
+<ul>
+<li><b>1</b> ≤ <b>T</b> ≤ <b>50</b></li>
+<li><b>1</b> ≤ <b>N</b> ≤ <b>50</b></li>
+<li><b>S</b> will consist of uppercase English letters.</li>
+</ul>
+<h3>Example</h3>
 <pre><b>Input:</b>
 2
 4
@@ -107,9 +31,6 @@ XYZZYZZ
 <b>Output:</b>
 ADCB
 XYYZZZZ
-</pre>
-### Explanation
-
-**Example case 1.** The optimal solution here is to choose the last character and put it in the beginning of the string. So the answer will be **ADCB**
-
-**Example case 2.** The optimal solution here is to choose the 5-th character (1-based index) and put it between the 2-nd and the 3-rd characters. So the answer will be **XYYZZZZ**
+</pre><h3>Explanation</h3>
+<p><b>Example case 1.</b> The optimal solution here is to choose the last character and put it in the beginning of the string. So the answer will be <b>ADCB</b></p>
+<p><b>Example case 2.</b> The optimal solution here is to choose the 5-th character (1-based index) and put it between the 2-nd and the 3-rd characters. So the answer will be <b>XYYZZZZ</b></p>

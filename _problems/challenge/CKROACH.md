@@ -1,109 +1,87 @@
 ---
-category_name: challenge
-problem_code: CKROACH
-problem_name: 'Killing Gs'
-languages_supported:
-    - C
-    - CPP14
-    - JAVA
-    - PYTH
-    - 'PYTH 3.5'
-    - CS2
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - RUBY
-    - PHP
-    - GO
-    - NODEJS
-    - HASK
-    - SCALA
-    - D
-    - PERL
-    - FORT
-    - WSPC
-    - ADA
-    - CAML
-    - ICK
-    - BF
-    - ASM
-    - CLPS
-    - PRLG
-    - ICON
-    - 'SCM qobi'
-    - PIKE
-    - ST
-    - NICE
-    - LUA
-    - BASH
-    - NEM
-    - 'LISP sbcl'
-    - 'LISP clisp'
-    - 'SCM guile'
-    - JS
-    - ERL
-    - TCL
-    - PERL6
-    - TEXT
-    - CLOJ
-    - FS
-max_timelimit: '4.75'
-source_sizelimit: '50000'
-problem_author: laycurse
-problem_tester: subra
-date_added: 21-09-2011
-tags:
-    - challenge
-    - laycurse
-    - may12
-editorial_url: 'http://discuss.codechef.com/problems/CKROACH'
-time:
-    view_start_date: 1336722913
-    submit_start_date: 1336722913
-    visible_start_date: 1336728600
-    end_date: 1735669800
-    current: 1525454416
-is_direct_submittable: false
-layout: problem
+{"category_name":"challenge","problem_code":"CKROACH","problem_name":"Killing Gs","languages_supported":{"0":"C","1":"CPP14","2":"JAVA","3":"PYTH","4":"PYTH 3.5","5":"CS2","6":"PAS fpc","7":"PAS gpc","8":"RUBY","9":"PHP","10":"GO","11":"NODEJS","12":"HASK","13":"SCALA","14":"D","15":"PERL","16":"FORT","17":"WSPC","18":"ADA","19":"CAML","20":"ICK","21":"BF","22":"ASM","23":"CLPS","24":"PRLG","25":"ICON","26":"SCM qobi","27":"PIKE","28":"ST","29":"NICE","30":"LUA","31":"BASH","32":"NEM","33":"LISP sbcl","34":"LISP clisp","35":"SCM guile","36":"JS","37":"ERL","38":"TCL","39":"PERL6","40":"TEXT","41":"CLOJ","42":"FS"},"max_timelimit":4.75,"source_sizelimit":50000,"problem_author":"laycurse","problem_tester":"subra","date_added":"21-09-2011","tags":{"0":"challenge","1":"laycurse","2":"may12"},"editorial_url":"http://discuss.codechef.com/problems/CKROACH","time":{"view_start_date":1336722913,"submit_start_date":1336722913,"visible_start_date":1336728600,"end_date":1735669800},"is_direct_submittable":false,"layout":"problem"}
 ---
-All submissions for this problem are available.There are the big enemies for all chefs, that is, *G*s (the plural form of *G*). Chef Ciel find **N** Gs in her restaurant. Ciel is very scared, and she is going to kill the Gs by using insecticides. Here **M** insecticides are available, and the price of the **j**-th insecticide is **Cj**, and she can use the **j**-th insecticide for all **N** Gs if she buys it. Unfortunately Gs may have resistance to insecticides, so Gs may be still alive after using some insecticides. But we know that if Ciel use the **j**-th insecticide, the **i**-th G will be dead with the probability **P****i**,**j**%, and these are statistically independent.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><p>
+There are the big enemies for all chefs, that is, <i>G</i>s (the plural form of <i>G</i>).
+Chef Ciel find <strong>N</strong> Gs in her restaurant.
+Ciel is very scared, and she is going to kill the Gs by using insecticides.
+Here <strong>M</strong> insecticides are available,
+and the price of the <strong>j</strong>-th insecticide is <strong>C<sub>j</sub></strong>, and she can use the <strong>j</strong>-th insecticide for all <strong>N</strong> Gs if she buys it.
+Unfortunately Gs may have resistance to insecticides, so Gs may be still alive after using some insecticides.
+But we know that if Ciel use the <strong>j</strong>-th insecticide, the <strong>i</strong>-th G will be dead with the probability <strong>P</strong><sub><strong>i</strong>,<strong>j</strong></sub>%, and these are statistically independent.
+</p>
 
-Chef Ciel would like to buy some insecticides, and then, Ciel may use the insecticides one by one. Ciel hopes that the **i**-th G will be dead with a probability at least 90%, for all **i**, after using all insecticides which she buys.
+<p>
+Chef Ciel would like to buy some insecticides, and then, Ciel may use the insecticides one by one.
+Ciel hopes that the <strong>i</strong>-th G will be dead with a probability at least 90%, for all <strong>i</strong>, after using all insecticides which she buys.
+</p>
 
-Your work is selecting a cheaper (cheapest is not necessary) set of distinct insecticides which she buys. Don't forget that the set must kill the **i**-th G with a probability at least 90% for all **i**.
+<p>
+Your work is selecting a cheaper (cheapest is not necessary) set of distinct insecticides which she buys.
+Don't forget that the set must kill the <strong>i</strong>-th G with a probability at least 90% for all <strong>i</strong>.
+</p>
 
-### Input
 
-The first line contains an integer **T**, the number of test cases. Then **T** test cases follow. The first line for each test case has 2 integers **N** and **M**. The next line has **M** integers **C**1, **C**2, ..., **CM**. Then next **N** lines have **M** integers **P****i**,**j**, that is the **j**-th integer of the **i**-th line.
+<h3>Input</h3>
+<p>
+The first line contains an integer <strong>T</strong>, the number of test cases.
+Then <strong>T</strong> test cases follow.
+The first line for each test case has 2 integers <strong>N</strong> and <strong>M</strong>.
+The next line has <strong>M</strong> integers <strong>C</strong><sub>1</sub>, <strong>C</strong><sub>2</sub>, ..., <strong>C<sub>M</sub></strong>.
+Then next <strong>N</strong> lines have <strong>M</strong> integers <strong>P</strong><sub><strong>i</strong>,<strong>j</strong></sub>, that is the <strong>j</strong>-th integer of the <strong>i</strong>-th line.
+</p>
 
-### Output
+<h3>Output</h3>
+<p>
+For each test case, you should print two lines.
+The first line should have an integer <strong>K</strong>, the number of insecticides which Ciel buys.
+The second line should have <strong>K</strong> integers, the numbers of insecticides which Ciel buys, in ascending order.
+</p>
 
-For each test case, you should print two lines. The first line should have an integer **K**, the number of insecticides which Ciel buys. The second line should have **K** integers, the numbers of insecticides which Ciel buys, in ascending order.
+<h3>Constraints</h3>
+<p>
+<strong>T</strong> = 50 (except for Sample Input)<br />
+50 &le; <strong>N</strong> &le; 200 (except for Sample Input)<br />
+50 &le; <strong>M</strong> &le; 200 (except for Sample Input)<br />
+1 &le; <strong>C<sub>j</sub></strong> &le; 1000000 (10<sup>6</sup>)<br />
+0 &le; <strong>P</strong><sub><strong>i</strong>,<strong>j</strong></sub> &le; 90<br />
+The probability of killing the <strong>i</strong>-th G is at least 90% for all <strong>i</strong>, if Ciel buys all insecticides.<br />
+</p>
 
-### Constraints
+<h3>Scoring</h3>
+<p>
+For each test case, the score is defined as (<strong>basic</strong> - <strong>your</strong>) / <strong>basic</strong>, where <strong>your</strong> is the cost of your set and <strong>basic</strong> is the cost of the set given by <a href="http://www.codechef.com/download/CKROACH_simplesolution.c">CKROACH_simplesolution.c</a>.
+If the score is negative, it is treated as 0.
+Your objective is to maximize the total score.
+</p>
 
-**T** = 50 (except for Sample Input)
-50 ≤ **N** ≤ 200 (except for Sample Input)
-50 ≤ **M** ≤ 200 (except for Sample Input)
-1 ≤ **Cj** ≤ 1000000 (106)
-0 ≤ **P****i**,**j** ≤ 90
-The probability of killing the **i**-th G is at least 90% for all **i**, if Ciel buys all insecticides.
 
-### Scoring
-
-For each test case, the score is defined as (**basic** - **your**) / **basic**, where **your** is the cost of your set and **basic** is the cost of the set given by [CKROACH\_simplesolution.c](http://www.codechef.com/download/CKROACH_simplesolution.c). If the score is negative, it is treated as 0. Your objective is to maximize the total score.
-
-### Test Case Generation
-
+<h3>Test Case Generation</h3>
+<p>
 There is only one input file for this problem. Each test case generated by the below method.
+</p>
 
-**N**, **M** and **P****i**,**j** are chosen uniformly at random such that they satisfy constraints. After that, each **P****i**,**j** becomes 0 with the probability 0.75. Then an integer **x** is chosen from the set {1, 2, 5, 10, 100} uniformly at random. For each **j** (1 ≤ **j** ≤ **M**), a real number **y****j** is chosen from \[0, 1) uniformly at random, and **C****j** is set at (**x** + **y****j**) \* (**P**1,**j** + **P**2,**j** + ... + **P****N**,**j**) rounded to the nearest integer. If **Cj** is less than 1, then **Cj** becomes 1. If **Cj** is more than 1000000, then **Cj** becomes 1000000.
+<p>
+<strong>N</strong>, <strong>M</strong> and <strong>P</strong><sub><strong>i</strong>,<strong>j</strong></sub> are chosen uniformly at random such that they satisfy constraints.
+After that, each <strong>P</strong><sub><strong>i</strong>,<strong>j</strong></sub> becomes 0 with the probability 0.75.
+Then an integer <strong>x</strong> is chosen from the set {1, 2, 5, 10, 100} uniformly at random.
+For each <strong>j</strong> (1 &le; <strong>j</strong> &le; <strong>M</strong>), 
+a real number <strong>y</strong><sub><strong>j</strong></sub> is chosen from [0, 1) uniformly at random, 
+and <strong>C</strong><sub><strong>j</strong></sub> is set at (<strong>x</strong> + <strong>y</strong><sub><strong>j</strong></sub>) * (<strong>P</strong><sub>1,<strong>j</strong></sub> + <strong>P</strong><sub>2,<strong>j</strong></sub> + ... + <strong>P</strong><sub><strong>N</strong>,<strong>j</strong></sub>) rounded to the nearest integer.
+If <strong>C<sub>j</sub></strong> is less than 1, then <strong>C<sub>j</sub></strong> becomes 1.
+If <strong>C<sub>j</sub></strong> is more than 1000000, then <strong>C<sub>j</sub></strong> becomes 1000000.
+</p>
 
-Finally, if the generated case does not satisfy the constraint "The probability of killing the **i**-th G is at least 90% for all **i**, if Ciel buys all insecticides", this case is destroyed and do the above process once again.
+<p>
+Finally, if the generated case does not satisfy the constraint "The probability of killing the <strong>i</strong>-th G is at least 90% for all <strong>i</strong>, if Ciel buys all insecticides", this case is destroyed and do the above process once again.
+</p>
 
-A test case generator is available [here](http://www.codechef.com/download/CKROACH_generator.c).
+<p>
+A test case generator is available <a href="http://www.codechef.com/download/CKROACH_generator.c">here</a>.
+</p>
 
-### Sample Input
 
+<h3>Sample Input</h3>
 <pre>2
 2 3
 100 100 190
@@ -113,23 +91,26 @@ A test case generator is available [here](http://www.codechef.com/download/CKROA
 10 20 40 60 85
 10 20 40 60 85
 </pre>
-### Sample Output
 
+<h3>Sample Output</h3>
 <pre>1
 3
 2
-3 5
-</pre>
-### Output details
+3 5</pre>
 
-In the first case, the third insecticide will kill the **i**-th G with probability 90% for all **i**.
-
-In the second case, after using the third and fifth insecticides, G is still alive with the probability (1 - 40/100) \* (1 - 85/100) = 0.6 \* 0.15 = 0.09. Therefore the set of the third and fifth insecticides will kill the G with the probability 91%.
-
-The output for Sample Input of [CKROACH\_simplesolution.c](http://www.codechef.com/download/CKROACH_simplesolution.c) is the following. (which is far from the optimal)
-
+<h3>Output details</h3>
+<p>
+In the first case, the third insecticide will kill the <strong>i</strong>-th G with probability 90% for all <strong>i</strong>.
+</p>
+<p>
+In the second case, after using the third and fifth insecticides,
+G is still alive with the probability (1 - 40/100) * (1 - 85/100) = 0.6 * 0.15 = 0.09.
+Therefore the set of the third and fifth insecticides will kill the G with the probability 91%.
+</p>
+<p>
+The output for Sample Input of <a href="http://www.codechef.com/download/CKROACH_simplesolution.c">CKROACH_simplesolution.c</a> is the following. (which is far from the optimal)
+</p>
 <pre>2
 1 2
 5
-1 2 3 4 5
-</pre>
+1 2 3 4 5</pre>

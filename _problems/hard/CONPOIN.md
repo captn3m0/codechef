@@ -1,105 +1,32 @@
 ---
-category_name: hard
-problem_code: CONPOIN
-problem_name: 'Connect Points'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYPY
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM chicken'
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '5'
-source_sizelimit: '50000'
-problem_author: pavel1996
-problem_tester: null
-date_added: 9-05-2015
-tags:
-    - graph
-    - hard
-    - june15
-    - pavel1996
-editorial_url: 'http://discuss.codechef.com/problems/CONPOIN'
-time:
-    view_start_date: 1434360600
-    submit_start_date: 1434360600
-    visible_start_date: 1434360600
-    end_date: 1735669800
-    current: 1493556958
-layout: problem
+{"category_name":"hard","problem_code":"CONPOIN","problem_name":"Connect Points","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYPY","37":"PYTH","38":"PYTH 3.4","39":"RUBY","40":"SCALA","41":"SCM chicken","42":"SCM guile","43":"SCM qobi","44":"ST","45":"TCL","46":"TEXT","47":"WSPC"},"max_timelimit":5,"source_sizelimit":50000,"problem_author":"pavel1996","problem_tester":null,"date_added":"9-05-2015","tags":{"0":"graph","1":"hard","2":"june15","3":"pavel1996"},"editorial_url":"http://discuss.codechef.com/problems/CONPOIN","time":{"view_start_date":1434360600,"submit_start_date":1434360600,"visible_start_date":1434360600,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/JUNE15/mandarin/CONPOIN.pdf) and [Russian](http://www.codechef.com/download/translated/JUNE15/russian/CONPOIN.pdf).
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3> Read problems statements in <a target="_blank" href="http://www.codechef.com/download/translated/JUNE15/mandarin/CONPOIN.pdf">Mandarin Chinese </a> and <a target="_blank" href="http://www.codechef.com/download/translated/JUNE15/russian/CONPOIN.pdf">Russian</a>.</h3>
+<p> </p>
+<p>One day Leha got bored during his geometry class. But his teacher was very careful so the boy had to pretend that he was solving some geometry problem. At first glance he started drawing some senseless stuff. He marked <b>N</b> pairwise different points on the plane and then connected <b>M</b> pairs of these points by <b>straight-line</b> segments. <b>No 3 points lie on the same line.</b> None of these segments intersect(maybe except at the initial <b>N</b> points). Then Leha tried to draw the <b>M+1-th</b> segment but surprisingly it turned out that it was impossible to connect any pair of points by <b>straight-line</b> segment which wouldn't intersect with any of the previous segments. </p>
+<p>Let's enumerate points from <b>1</b> to <b>N</b>. You are given <b>M</b> pairs of integers - numbers of points which are connected by the each straight-line segment. The question is: whether it's possible to choose <b>N</b> points on the Euclidean plane <b>in any way</b> such that they will <b>always</b> fit the situation described above. That is, try to place the given <b>N</b> points and <b>M</b> non-intersecting segments that are given, you will never be able to place <b>M+1</b>th segment.</p>
+<p> </p>
+<h3>Input</h3>
+<p>The first line contains one integer <b>T</b> - the number of test cases. Each test case starts with a line containing two integers <b>N</b> and <b>M</b>. <b>M</b> lines containing a pair of integers each follow describing pairs of points connected by <b>straight-line</b> segments</p>
+<h3>Output</h3>
+<p>For each test case output a single line containing<b>1</b> if it's possible to find points which will satisfy the problem statement and <b>0</b> otherwise</p>
+<h3>Constraints</h3>
+<ul>
+<li><b>1</b> ≤ <b>T</b> ≤ <b>6000</b></li>
+<li><b>1</b> ≤ <b>N</b> ≤ <b>7*10<sup>4</sup></b></li>
+<li><b>1</b> ≤ <b>M</b> ≤ <b>3*10<sup>5</sup></b></li>
+<li>sum of all <b>N</b> in one test file doesn't exceed <b>7*10<sup>5</sup></b></li>
+<li>no segment connects a point with itself</li>
+<li>each pair of points is connected no more than by one segment</li>
+</ul>
 
-One day Leha got bored during his geometry class. But his teacher was very careful so the boy had to pretend that he was solving some geometry problem. At first glance he started drawing some senseless stuff. He marked **N** pairwise different points on the plane and then connected **M** pairs of these points by **straight-line** segments. **No 3 points lie on the same line.** None of these segments intersect(maybe except at the initial **N** points). Then Leha tried to draw the **M+1-th** segment but surprisingly it turned out that it was impossible to connect any pair of points by **straight-line** segment which wouldn't intersect with any of the previous segments.
-
-Let's enumerate points from **1** to **N**. You are given **M** pairs of integers - numbers of points which are connected by the each straight-line segment. The question is: whether it's possible to choose **N** points on the Euclidean plane **in any way** such that they will **always** fit the situation described above. That is, try to place the given **N** points and **M** non-intersecting segments that are given, you will never be able to place **M+1**th segment.
-
-### Input
-
-The first line contains one integer **T** - the number of test cases. Each test case starts with a line containing two integers **N** and **M**. **M** lines containing a pair of integers each follow describing pairs of points connected by **straight-line** segments
-
-### Output
-
-For each test case output a single line containing**1** if it's possible to find points which will satisfy the problem statement and 0 otherwise
-
-### Constraints
-
-- **1** ≤ **T** ≤ **6000**
-- **1** ≤ **N** ≤ **7\*104**
-- **1** ≤ **M** ≤ **3\*105**
-- sum of all **N** in one test file doesn't exceed **7\*105**
-- no segment connects a point with itself
-- each pair of points is connected no more than by one segment
-
-### Subtasks
-
-- **Subtask 1 : 1 ≤ N ≤ 5 : ( 20 pts )**
-- **Subtask 2 : no additional constraints: ( 80 pts )**
-
-### Example
-
+<h3>Subtasks</h3>
+<ul>
+<li><b>Subtask 1 : 1 ≤ N ≤ 5 : ( 20 pts )</b></li>
+<li><b>Subtask 2 : no additional constraints: ( 80 pts )</b></li>
+</ul>
+<p> </p>
+<h3>Example</h3>
 <pre><b>Input:</b>
 3
 3 3
@@ -121,11 +48,8 @@ For each test case output a single line containing**1** if it's possible to find
 1
 0
 1
-</pre>
-### Explanation
-
- In the first test case we can draw triangle on the plane. Obviously no pair of segments will intersect and we can't add any more straight-line segment(and even not straight-line) so the answer is **1**
-
-In the second test case we can draw 3 points and connect 1 and 3 and 2 and 3. But we can add one more(1 and 3) so the answer is 0
-
-In the last test case we can draw a triangle and a point inside it connected to 3 vertexes of the triangle. As in the first test case we can't connect some new pair so the answer is **1** too.
+</pre><p> </p>
+<h3>Explanation</h3>
+<p> In the first test case we can draw triangle on the plane. Obviously no pair of segments will intersect and we can't add any more straight-line segment(and even not straight-line) so the answer is <b>1</b> </p>
+<p>In the second test case we can draw 3 points and connect 1 and 3 and 2 and 3. But we can add one more(1 and 3) so the answer is <b>0</b></p>
+<p>In the last test case we can draw a triangle and a point inside it connected to 3 vertexes of the triangle. As in the first test case we can't connect some new pair so the answer is <b>1</b> too.</p>

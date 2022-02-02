@@ -1,0 +1,75 @@
+---
+{"category_name":"challenge","problem_code":"ANSLEAK","problem_name":"Leaked Answers (Challenge)","problemComponents":{"constraints":"","constraintsState":false,"subtasks":"","subtasksState":false,"inputFormat":"","inputFormatState":false,"outputFormat":"","outputFormatState":false,"sampleTestCases":{}},"video_editorial_url":"","languages_supported":{"0":"CPP14","1":"C","2":"JAVA","3":"PYTH 3.6","4":"CPP17","5":"PYTH","6":"PYP3","7":"CS2","8":"ADA","9":"PYPY","10":"TEXT","11":"PAS fpc","12":"NODEJS","13":"RUBY","14":"PHP","15":"GO","16":"HASK","17":"TCL","18":"PERL","19":"SCALA","20":"LUA","21":"kotlin","22":"BASH","23":"JS","24":"LISP sbcl","25":"rust","26":"PAS gpc","27":"BF","28":"CLOJ","29":"R","30":"D","31":"CAML","32":"FORT","33":"ASM","34":"swift","35":"FS","36":"WSPC","37":"LISP clisp","38":"SQL","39":"SCM guile","40":"PERL6","41":"ERL","42":"CLPS","43":"ICK","44":"NICE","45":"PRLG","46":"ICON","47":"COB","48":"SCM chicken","49":"PIKE","50":"SCM qobi","51":"ST","52":"NEM"},"max_timelimit":5,"source_sizelimit":50000,"problem_author":"admin3","problem_tester":null,"date_added":"30-03-2020","tags":{"0":"admin3"},"problem_difficulty_level":"Unavailable","best_tag":"","editorial_url":"","time":{"view_start_date":1586779202,"submit_start_date":1586779202,"visible_start_date":1586779202,"end_date":1735669800},"is_direct_submittable":false,"problemDiscussURL":"https://discuss.codechef.com/search?q=ANSLEAK","is_proctored":false,"visitedContests":{},"layout":"problem"}
+---
+### Read problem statements in [Hindi](https://www.codechef.com/download/translated/APRIL20/hindi/ANSLEAK.pdf), [Bengali](https://www.codechef.com/download/translated/APRIL20/bengali/ANSLEAK.pdf), [Mandarin Chinese](https://www.codechef.com/download/translated/APRIL20/mandarin/ANSLEAK.pdf), [Russian](https://www.codechef.com/download/translated/APRIL20/russian/ANSLEAK.pdf), and [Vietnamese](https://www.codechef.com/download/translated/APRIL20/vietnamese/ANSLEAK.pdf) as well.
+
+The final exam is tomorrow and Chef is one of the students who are going to take the exam.
+
+In the exam, there are $K$ question forms. Each form has $N$ multiple-choice questions (numbered $1$ through $N$). In each question, there are $M$ possible answers (numbered $1$ through $M$) and exactly one of those answers is correct. Chef will receive one of the $K$ forms.
+
+Unfortunately, Chef was busy cooking, so he did not study. Instead, he broke into the university's database and stole the sheets containing the correct answers to the questions for all $K$ forms. Let's number the answer sheets $1$ through $K$. For each valid $i$ and $j$, let's denote the correct answer to the $i$-th question in the $j$-th answer sheet by $C_{i,j}$. The problem is that Chef cannot know which answer sheet contains the correct answers for the form he receives during the exam. In addition, he can remember the answers to all questions in all answer sheets, but he cannot answer any questions based on his knowledge of the subjects in them.
+
+Help Chef choose the answers to his $N$ questions in such a way that the worst-case (smallest possible) number of correctly answered questions is maximised.
+
+### Input
+- The first line of the input contains a single integer $T$ denoting the number of test cases. The description of $T$ test cases follows.
+- The first line of each test case contains three space-separated integers $N$, $M$ and $K$.
+- $N$ lines follow. For each $i$ ($1 \le i \le N$), the $i$-th of these lines contains $K$ space-separated integers $C_{i, 1}, C_{i, 2}, \ldots, C_{i, K}$.
+
+### Output
+For each test case, print a single line containing $N$ space-separated integers ― the answers that Chef should choose for questions $1$ through $N$. Each of these integers should be between $1$ and $M$ inclusive.
+
+### Constraints
+- $T = 5$
+- $1 \le N \le 500$
+- $1 \le M \le 9$
+- $1 \le K \le 5,000$
+- $1 \le C_{i,j} \le M$ for each valid $i, j$
+
+### Example Input
+```
+1
+4 2 2
+1 2
+2 1
+1 1
+2 2
+```
+
+### Example Output
+```
+2 1 1 1
+```
+
+### Explanation
+**Example case 1:** If Chef receives the form corresponding to the first answer sheet, then he answers only the third question correctly, while if he receives the form corresponding to the second answer sheet, then he answers questions 1, 2 and 3 correctly. Since the worst case is that Chef only has one correct answer, your score for this test case is $1$.
+
+There are other valid outputs, which may receive a different score.
+
+(Note that $T = 1$ in this example for simplicity. In all test files, $T = 5$ holds.)
+
+### Test generation
+The generator receives five parameters $N$, $M$, $K$, $W_{\text{min}}$ and $W_{\text{max}}$. Then, for each $i, j$ ($1 \le i \le K$, $1 \le j \le M$), it generates an integer weight $V_{i, j}$ uniformly randomly and independently between $W_{\text{min}}$ and $W_{\text{max}}$ (inclusive).
+
+For each valid $i, j$, the value of $C_{i, j}$ is chosen randomly; for each valid $a$, the probability that $C_{i, j} = a$ is $V_{j,a} \left/ \sum_{k=1}^M V_{j,k} \right.$.
+
+There are five groups of test files and there are three input files in each group. The parameters for each group are as follows:
+- group 1: $N = 100$, $M = 2$, $K = 1,000$, $W_{\text{min}} = 1$, $W_{\text{max}} = 1$
+- group 2: $N = 100$, $M = 4$, $K = 1,000$, $W_{\text{min}} = 45$, $W_{\text{max}} = 55$
+- group 3: $N = 200$, $M = 2$, $K = 5,000$, $W_{\text{min}} = 1$, $W_{\text{max}} = 5$
+- group 4: $N = 300$, $M = 4$, $K = 3,000$, $W_{\text{min}} = 1$, $W_{\text{max}} = 100$
+- group 5: $N = 500$, $M = 9$, $K = 2,000$, $W_{\text{min}} = 20$, $W_{\text{max}} = 80$
+
+### Scoring
+For each valid $i$, let $A_i$ be the number of correctly answered questions if the form you received corresponded to the $i$-th answer sheet. The score of a test case is the minimum of $A_1, A_2, \ldots, A_K$. The score of a test file is the sum of scores of all test cases, multiplied by a weight coefficient $W$, which is set for each group as follows:
+- group 1: $W = 38$
+- group 2: $W = 100$
+- group 3: $W = 19$
+- group 4: $W = 29$
+- group 5: $W = 36$
+
+The score of a submission is the sum of scores of all test files. Your goal is to maximise the score of your submission.
+
+During the contest, the displayed score will account for exactly one test file from each group, i.e. your score reflects your submission's performance on 33% (5/15) of the test files. However, if your program gets a non-AC verdict on any test file, your submission's verdict will be non-AC. In other words, an AC verdict denotes that your program runs successfully on all the test files. After the end of the contest, your score will be changed to include the sum of your program's scores over the remaining ten test files.
+
+<aside style='background: #f8f8f8;padding: 10px 15px;'><div>All submissions for this problem are available.</div></aside>

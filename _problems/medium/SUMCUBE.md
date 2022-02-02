@@ -1,126 +1,63 @@
 ---
-category_name: medium
-problem_code: SUMCUBE
-problem_name: 'Sum of Cubes'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 6.3'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - kotlin
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYPY
-    - PYTH
-    - 'PYTH 3.5'
-    - RUBY
-    - rust
-    - SCALA
-    - 'SCM chicken'
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - swift
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '5'
-source_sizelimit: '50000'
-problem_author: r_64
-problem_tester: jingbo_adm
-date_added: 4-08-2017
-tags:
-    - hard
-    - maths
-    - r_64
-    - sept17
-    - sqrt
-editorial_url: 'https://discuss.codechef.com/problems/SUMCUBE'
-time:
-    view_start_date: 1505122200
-    submit_start_date: 1505122200
-    visible_start_date: 1505122200
-    end_date: 1735669800
-    current: 1514816839
-layout: problem
+{"category_name":"medium","problem_code":"SUMCUBE","problem_name":"Sum of Cubes","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 6.3","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"kotlin","24":"LISP clisp","25":"LISP sbcl","26":"LUA","27":"NEM","28":"NICE","29":"NODEJS","30":"PAS fpc","31":"PAS gpc","32":"PERL","33":"PERL6","34":"PHP","35":"PIKE","36":"PRLG","37":"PYPY","38":"PYTH","39":"PYTH 3.5","40":"RUBY","41":"rust","42":"SCALA","43":"SCM chicken","44":"SCM guile","45":"SCM qobi","46":"ST","47":"swift","48":"TCL","49":"TEXT","50":"WSPC"},"max_timelimit":5,"source_sizelimit":50000,"problem_author":"r_64","problem_tester":"jingbo_adm","date_added":"4-08-2017","tags":{"0":"hard","1":"maths","2":"r_64","3":"sept17","4":"sqrt"},"editorial_url":"https://discuss.codechef.com/problems/SUMCUBE","time":{"view_start_date":1505122200,"submit_start_date":1505122200,"visible_start_date":1505122200,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.### Read problems statements in [mandarin chinese](http://www.codechef.com/download/translated/SEPT17/mandarin/SUMCUBE.pdf), [russian](http://www.codechef.com/download/translated/SEPT17/russian/SUMCUBE.pdf) and [vietnamese](http://www.codechef.com/download/translated/SEPT17/vietnamese/SUMCUBE.pdf) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3>Read problems statements in <a target="_blank" 
+href="http://www.codechef.com/download/translated/SEPT17/mandarin/SUMCUBE.pdf">mandarin chinese</a>, <a target="_blank" 
+href="http://www.codechef.com/download/translated/SEPT17/russian/SUMCUBE.pdf">russian</a> and <a target="_blank" 
+href="http://www.codechef.com/download/translated/SEPT17/vietnamese/SUMCUBE.pdf">vietnamese</a> as well.</h3>
 
-You are given an undirected graph **G** = (**V**, **E**). We define a function **f**(**s**) for **s** ⊆ **V** to be the number of edges in the [induced subgraph](https://en.wikipedia.org/wiki/Induced_subgraph) of **s**.
+<p>You are given an undirected graph <b>G</b> = (<b>V</b>, <b>E</b>). We define a function <b>f</b>(<b>s</b>) for <b>s</b> ⊆ <b>V</b> to be the number of edges in the <a href="https://en.wikipedia.org/wiki/Induced_subgraph">induced subgraph</a> of <b>s</b>.</p>
 
-The problem asks you to calculate the sum of **f**(**s**)**k** over all **s** in **2|V|** subsets of **V**.
+<p>The problem asks you to calculate the sum of <b>f</b>(<b>s</b>)<b><sup>k</sup></b> over all <b>s</b> in <b>2<sup>|V|</sup></b> subsets of <b>V</b>.</p>
 
-As the answer could be very large, output it modulo (**109+7**).
+<p>As the answer could be very large, output it modulo (<b>10<sup>9</sup>+7</b>).</p>
 
-### Input
+<h3>Input</h3>
+<p>The first line of input contains an integer <b>T</b> denoting the number of test cases.</p>
+<p>For each test case, the first line contains three space-separated integers <b>n</b> = |<b>V</b>|, <b>m</b> = |<b>E</b>| and <b>k</b>.</p>
+<p>Then <b>m</b> lines follow, each line contains two space-separated integers <b>u</b>, <b>v</b> denoting an edge (<b>u</b>, <b>v</b>) is in <b>E</b>.</p>
 
-The first line of input contains an integer **T** denoting the number of test cases.
+<h3>Output</h3>
+<p>For each test case, output one line containing one integer, the answer modulo (<b>10<sup>9</sup>+7</b>).</p>
 
-For each test case, the first line contains three space-separated integers **n** = |**V**|, **m** = |**E**| and **k**.
+<h3>Constraints</h3>
+<ul>
+	<li>
+		<b>1</b> ≤ <b>T</b> ≤ <b>100</b></li>
+	<li>
+		<b>2</b> ≤ <b>n</b> ≤ <b>10<sup>5</sup></b></li>
+	<li>
+		<b>0</b> ≤ <b>m</b> ≤ <b>10<sup>5</sup></b></li>
+	<li>Sum of each of <b>n, m</b> over all test cases ≤ <b>3 * 10<sup>5</sup></b></li>
+	<li><b>1</b> ≤ <b>u, v</b> ≤ <b>n</b>.</li>
+	<li>
+		<b>1</b> ≤ <b>k</b> ≤ <b>3</b>.</li>
+	<li>The graph is simple, i.e., doesn't contain self loops and multiple edges.</li>
+</ul>
 
-Then **m** lines follow, each line contains two space-separated integers **u**, **v** denoting an edge (**u**, **v**) is in **E**.
+<h3>Subtasks</h3>
+<ul>
+<li><b>Subtask #1 (8 points)</b>: <b>T, n ≤ 15</b></li>
+<li><b>Subtask #2 (7 points)</b>: <b>k = 1</b></li>
+<li><b>Subtask #3 (9 points)</b>: <b>k = 2</b></li>
+<li><b>Subtask #4 (15 points)</b>: 
+	<ul>
+		<li><b>k = 3</b>.</li>
+		<li>Sum of <b>n</b> over all test cases ≤ <b>300</b></li>
+		<li>Sum of <b>m</b> over all test cases ≤ <b>300</b></li>
+	</ul>
+</li>
+<li><b>Subtask #5 (24 points)</b>: 
+	<ul>
+		<li><b>k = 3</b>.</li>
+		<li>Sum of <b>n</b> over all test cases ≤ <b>3000</b></li>
+		<li>Sum of <b>m</b> over all test cases ≤ <b>3000</b></li>
+	</ul>
+</li>
+<li><b>Subtask #6 (37 points)</b>: Original Constraints</li>
+</ul>
 
-### Output
-
-For each test case, output one line containing one integer, the answer modulo (**109+7**).
-
-### Constraints
-
-- **1** ≤ **T** ≤ **100**
-- **2** ≤ **n** ≤ **105**
-- 0 ≤ **m** ≤ **105**
-- Sum of each of **n, m** over all test cases ≤ **3 \* 105**
-- **1** ≤ **u, v** ≤ **n**.
-- **1** ≤ **k** ≤ **3**.
-- The graph is simple, i.e., doesn't contain self loops and multiple edges.
-
-### Subtasks
-
-- **Subtask #1 (8 points)**: **T, n ≤ 15**
-- **Subtask #2 (7 points)**: **k = 1**
-- **Subtask #3 (9 points)**: **k = 2**
-- **Subtask #4 (15 points)**: 
-    - **k = 3**.
-    - Sum of **n** over all test cases ≤ **300**
-    - Sum of **m** over all test cases ≤ **300**
-- **Subtask #5 (24 points)**: 
-    - **k = 3**.
-    - Sum of **n** over all test cases ≤ **3000**
-    - Sum of **m** over all test cases ≤ **3000**
-- **Subtask #6 (37 points)**: Original Constraints
-
-### Example
-
+<h3>Example</h3>
 <pre>
 <b>Input:</b>
 3
@@ -146,28 +83,19 @@ For each test case, output one line containing one integer, the answer modulo (*
 194
 
 </pre>
-### Explanation
+<h3>Explanation</h3>
 
-**Example case 1.**
+<p><b>Example case 1. </b></p>
+<p><b>f</b>(emptyset) = <b>f</b>({1}) = <b>f</b>({2}) = <b>f</b>({3}) = 0; </p>
+<p><b>f</b>({1, 2}) = <b>f</b>({2, 3}) = <b>f</b>({3, 1}) = 1</p>
+<p><b>f</b>({1, 2, 3}) = 3.</p>
+<p>So the answer is 1 + 1 + 1 + 3 = 6.</p>
 
-**f**(emptyset) = **f**({1}) = **f**({2}) = **f**({3}) = 0;
+<p><b>Example case 2.</b></p>
+<p>The nonzero <b>f</b>'s are as follows</p>
+<p><b>f</b>({1, 2}) = <b>f</b>({2, 3}) = <b>f</b>({3, 4}) = <b>f</b>({4, 1}) = <b>f</b>({2, 4}) = 1</p>
+<p><b>f</b>({1, 2, 3}) = <b>f</b>({1, 3, 4}) = 2</p>
+<p><b>f</b>({1, 2, 4}) = <b>f</b>({2, 3, 4}) = 3</p>
+<p><b>f</b>({1, 2, 3, 4}) = 5</p>
 
-**f**({1, 2}) = **f**({2, 3}) = **f**({3, 1}) = 1
-
-**f**({1, 2, 3}) = 3.
-
-So the answer is 1 + 1 + 1 + 3 = 6.
-
-**Example case 2.**
-
-The nonzero **f**'s are as follows
-
-**f**({1, 2}) = **f**({2, 3}) = **f**({3, 4}) = **f**({4, 1}) = **f**({2, 4}) = 1
-
-**f**({1, 2, 3}) = **f**({1, 3, 4}) = 2
-
-**f**({1, 2, 4}) = **f**({2, 3, 4}) = 3
-
-**f**({1, 2, 3, 4}) = 5
-
-So the answer is 5 \* 12 + 2 \* 22 + 2 \* 32 + 52 = 56.
+<p>So the answer is 5 * 1<sup>2</sup> + 2 * 2<sup>2</sup> + 2 * 3<sup>2</sup> + 5<sup>2</sup> = 56.</p>

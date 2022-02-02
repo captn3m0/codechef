@@ -1,124 +1,56 @@
 ---
-category_name: medium
-problem_code: LIKECS05
-problem_name: 'Mixing Colors'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 6.3'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - kotlin
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYPY
-    - PYTH
-    - 'PYTH 3.5'
-    - RUBY
-    - rust
-    - SCALA
-    - 'SCM chicken'
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - swift
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '2'
-source_sizelimit: '50000'
-problem_author: likecs
-problem_tester: kingofnumbers
-date_added: 8-09-2017
-tags:
-    - cook86
-    - fft
-    - inclusn
-    - likecs
-    - likecs
-    - medium
-editorial_url: 'https://discuss.codechef.com/problems/LIKECS05'
-time:
-    view_start_date: 1505673000
-    submit_start_date: 1505673000
-    visible_start_date: 1505673000
-    end_date: 1735669800
-    current: 1514816021
-layout: problem
+{"category_name":"medium","problem_code":"LIKECS05","problem_name":"Mixing Colors","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 6.3","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"kotlin","24":"LISP clisp","25":"LISP sbcl","26":"LUA","27":"NEM","28":"NICE","29":"NODEJS","30":"PAS fpc","31":"PAS gpc","32":"PERL","33":"PERL6","34":"PHP","35":"PIKE","36":"PRLG","37":"PYPY","38":"PYTH","39":"PYTH 3.5","40":"RUBY","41":"rust","42":"SCALA","43":"SCM chicken","44":"SCM guile","45":"SCM qobi","46":"ST","47":"swift","48":"TCL","49":"TEXT","50":"WSPC"},"max_timelimit":2,"source_sizelimit":50000,"problem_author":"likecs","problem_tester":"kingofnumbers","date_added":"8-09-2017","tags":{"0":"cook86","1":"fft","2":"inclusn","3":"likecs","4":"likecs","5":"medium"},"editorial_url":"https://discuss.codechef.com/problems/LIKECS05","time":{"view_start_date":1505673000,"submit_start_date":1505673000,"visible_start_date":1505673000,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.### Read problems statements in [Mandarin chinese](http://www.codechef.com/download/translated/COOK86/mandarin/LIKECS05.pdf), [Russian](http://www.codechef.com/download/translated/COOK86/russian/LIKECS05.pdf) and [Vietnamese](http://www.codechef.com/download/translated/COOK86/vietnamese/LIKECS05.pdf) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3>Read problems statements in <a target="_blank" 
+href="http://www.codechef.com/download/translated/COOK86/mandarin/LIKECS05.pdf">Mandarin chinese</a>, <a target="_blank" 
+href="http://www.codechef.com/download/translated/COOK86/russian/LIKECS05.pdf">Russian</a> and <a target="_blank" 
+href="http://www.codechef.com/download/translated/COOK86/vietnamese/LIKECS05.pdf">Vietnamese</a> as well.</h3>
 
-Chef Dobby had recently studied about [Primary](https://en.wikipedia.org/wiki/Primary_color) and [Secondary](https://en.wikipedia.org/wiki/Secondary_color) colors. He came to know that by mixing colors he can sometimes get a new colour. For this problem we consider only 3 colors : **Red, Green and Yellow**. The different ways of mixing them and the final colour we obtain is shown below.
+<p>Chef Dobby had recently studied about <a href="https://en.wikipedia.org/wiki/Primary_color">Primary</a> and <a href="https://en.wikipedia.org/wiki/Secondary_color">Secondary</a> colors. He came to know that by mixing colors he can sometimes get a new colour. For this problem we consider only 3 colors : <b>Red, Green and Yellow</b>. The different ways of mixing them and the final colour we obtain is shown below.</p>
 
-![Mixing Colors-1](https://cook86.discuss.codechef.com/upfiles/img-1.png)
+<p align="center"><img src="https://cook86.discuss.codechef.com/upfiles/img-1.png" alt="Mixing Colors-1"></p>
 
-Bhuvan, Chef Tobby friend, was playing another game on grid of size **N \* N** where rows are numbered from 1 to N from up to bottom and columns are numbered from 1 to N from left to right. Chef Dobby wasn't happy as the Bhuvan grid had no colors at all. So, he thought of coloring Bhuvan's grid. So Chef Tobby started his operation, but Bhuvan said that he could only colour the grid **M** times. Chef Tobby decided that each of his operation could be one of the following :
+<p>Bhuvan, Chef Tobby friend, was playing another game on grid of size <b>N * N</b> where rows are numbered from 1 to N from up to bottom and columns are numbered from 1 to N from left to right. Chef Dobby wasn't happy as the Bhuvan grid had no colors at all. So, he thought of coloring Bhuvan's grid. So Chef Tobby started his operation, but Bhuvan said that he could only colour the grid <b>M</b> times. Chef Tobby decided that each of his operation could be one of the following : </p>
 
-1. Color **row i** with red color.
-2. Color **row i** with green color.
-3. Color **col j** with red color.
-4. Color **col j** with green color.
-5. Color **diagonal x (= i + j)** with red color.
-6. Color **diagonal x (= i + j)** with green color.
+<ol>
+<li>Color <b>row i</b> with red color.</li>
+<li>Color <b>row i</b> with green color.</li>
+<li>Color <b>col j</b> with red color.</li>
+<li>Color <b>col j</b> with green color.</li>
+<li>Color <b>diagonal x (= i + j)</b> with red color.</li>
+<li>Color <b>diagonal x (= i + j)</b> with green color.</li>
+</ol>
 
+<p>
+<br><br>
+<b>Note:</b> diagonal x is the set of all cells that are in intersection of row i and column j such that i+j = x.
+</p>
 
+<b>Note2:</b> if a cell is already colored then we apply the mixture rules in the above picture between the new color and the existing color.</p>
+<br>
+<p>Bhuvan's asks you to determine the number of cells of each color after all the operations are performed.</p>
 
-**Note:** diagonal x is the set of all cells that are in intersection of row i and column j such that i+j = x.
+<h3>Input section</h3>
+<p>The first line contains 2 integers, <b>N</b> and <b>M</b>, denoting the size of the grid and number of opeartions performed by Chef Tobby.</p>
 
-**Note2:** if a cell is already colored then we apply the mixture rules in the above picture between the new color and the existing color. 
-Bhuvan's asks you to determine the number of cells of each color after all the operations are performed.
+<p>Each of the next <b>M</b> lines contains <b>3</b> space separated integers, <b>type, idx, color</b>, which mean the following : </p>
 
-### Input section
+<ol>
+<li>type = 1, operation performed on row</li>
+<li>type = 2, operation performed on column</li>
+<li>type = 3, operation performed on diagonal</li>
+<li>idx = index of corresponding row, column or diagonal</li>
+<li>color = 0, color the cells of grid Green</li>
+<li>color = 1, color the cells of grid Red</li>
+</ol>
 
-The first line contains 2 integers, **N** and **M**, denoting the size of the grid and number of opeartions performed by Chef Tobby.
+<br>
+<p><b>The input files are upto 1 MB. So prefer to use faster I/O methods, for example : scanf/printf in C++, Buffered-Reader in Java etc.</b></p>
 
-Each of the next **M** lines contains **3** space separated integers, **type, idx, color**, which mean the following :
+<h3>Output section</h3>
+<p>Output 4 integers, denoting the number of cells with no color, cells with red color, cells with green color and cells with yellow color in the grid after all the operations are performed.</p>
 
-1. type = 1, operation performed on row
-2. type = 2, operation performed on column
-3. type = 3, operation performed on diagonal
-4. idx = index of corresponding row, column or diagonal
-5. color = 0, color the cells of grid Green
-6. color = 1, color the cells of grid Red
-
-
-**The input files are upto 1 MB. So prefer to use faster I/O methods, for example : scanf/printf in C++, Buffered-Reader in Java etc.**
-
-### Output section
-
-Output 4 integers, denoting the number of cells with no color, cells with red color, cells with green color and cells with yellow color in the grid after all the operations are performed.
-
-### Input constraints
-
+<h3>Input constraints</h3>
 <pre>
 1 ≤ N ≤ 10<sup>5</sup>
 1 ≤ M ≤ 10<sup>5</sup>
@@ -127,8 +59,8 @@ Output 4 integers, denoting the number of cells with no color, cells with red co
 2 ≤ idx_diagonal ≤ 2 * N
 0 ≤ color ≤ 1
 </pre>
-### Sample Input
 
+<h3>Sample Input</h3>
 <pre>
 5 10
 2 4 1
@@ -142,13 +74,13 @@ Output 4 integers, denoting the number of cells with no color, cells with red co
 2 4 1
 2 2 0
 </pre>
-### Sample Output
 
+<h3>Sample Output</h3>
 <pre>
 4 6 7 8
 </pre>
-### Explanation
 
-You can refer to the below image which shows the colored grid after each step.
+<h3>Explanation</h3>
+<p>You can refer to the below image which shows the colored grid after each step.</p>
 
-![Mixing Colors-1](https://cook86.discuss.codechef.com/upfiles/img-2_Jh81yrs.png)
+<p align="center"><img src="https://cook86.discuss.codechef.com/upfiles/img-2_Jh81yrs.png" alt="Mixing Colors-1"></p>

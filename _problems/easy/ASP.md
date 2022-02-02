@@ -1,103 +1,31 @@
 ---
-category_name: easy
-problem_code: ASP
-problem_name: 'Almost Sorted Permutation'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYPY
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM chicken'
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '0.2'
-source_sizelimit: '50000'
-problem_author: shangjingbo
-problem_tester: null
-date_added: 10-10-2015
-tags:
-    - ad
-    - cook63
-    - shangjingbo
-    - simple
-editorial_url: 'http://discuss.codechef.com/problems/ASP'
-time:
-    view_start_date: 1445193000
-    submit_start_date: 1445193000
-    visible_start_date: 1445193000
-    end_date: 1735669800
-    current: 1493558107
-layout: problem
+{"category_name":"easy","problem_code":"ASP","problem_name":"Almost Sorted Permutation","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYPY","37":"PYTH","38":"PYTH 3.4","39":"RUBY","40":"SCALA","41":"SCM chicken","42":"SCM guile","43":"SCM qobi","44":"ST","45":"TCL","46":"TEXT","47":"WSPC"},"max_timelimit":0.2,"source_sizelimit":50000,"problem_author":"shangjingbo","problem_tester":null,"date_added":"10-10-2015","tags":{"0":"ad","1":"cook63","2":"shangjingbo","3":"simple"},"editorial_url":"http://discuss.codechef.com/problems/ASP","time":{"view_start_date":1445193000,"submit_start_date":1445193000,"visible_start_date":1445193000,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/COOK63/mandarin/ASP.pdf) and [Russian](http://www.codechef.com/download/translated/COOK63/russian/ASP.pdf) as well.
-
-Given a sequence of **n** **distinct** numbers **a**\[**1**..**n**\], we want to sort them in an ascending order.
-
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3> Read problems statements in <a target="_blank" href="http://www.codechef.com/download/translated/COOK63/mandarin/ASP.pdf">Mandarin Chinese</a> and <a target="_blank" href="http://www.codechef.com/download/translated/COOK63/russian/ASP.pdf">Russian</a> as well.</h3>
+<p>
+Given a sequence of <b>n</b> <b>distinct</b> numbers <b>a</b>[<b>1</b>..<b>n</b>], we want to sort them in an ascending order.
+</p>
+<p>
 An interesting property of some sequences is that all numbers are almost at their correct position! More formally, the distance between the current position of any value is at most 1 from its correct position in a sorted order.
-
+</p>
+<p>
 Now, you want to verify whether the input sequence has such a property.
-
+</p>
+<p>
 Note that the time limit for this problem is 0.2 seconds. Please try to write a very efficient algorithm and implementation.
-
-### Input
-
-The first line contains an integer **T** denoting the total number of test cases.
-
-For each test case, the first line contains a single integer **n**, and the second line contains **a**\[**1**..**n**\] as a single space-separated list.
-
-### Output
-
-For each test case, output "YES" or "NO" (without quotes) to indicate whether the input sequence has such a property.
-
-### Constraints
-
-- **1** &lt;= **T** &lt;= **10**
-- **1** &lt;= **n** &lt;= **10^6**
-- **1** &lt;= **a**\[**i**\] &lt;= **10^9**
-
-### Example
-
+</p>
+<h3>Input</h3>
+<p>The first line contains an integer <b>T</b> denoting the total number of test cases.</p>
+<p>For each test case, the first line contains a single integer <b>n</b>, and the second line contains <b>a</b>[<b>1</b>..<b>n</b>] as a single space-separated list.</p>
+<h3>Output</h3>
+<p>For each test case, output "YES" or "NO" (without quotes) to indicate whether the input sequence has such a property.</p>
+<h3>Constraints</h3>
+<ul>
+<li><b>1</b> &lt;= <b>T</b> &lt;= <b>10</b></li>
+<li><b>1</b> &lt;= <b>n</b> &lt;= <b>10^6</b></li>
+<li><b>1</b> &lt;= <b>a</b>[<b>i</b>] &lt;= <b>10^9</b></li>
+</ul>
+<h3>Example</h3>
 <pre><b>Input:</b>
 2
 3

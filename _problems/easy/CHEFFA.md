@@ -1,104 +1,43 @@
 ---
-category_name: easy
-problem_code: CHEFFA
-problem_name: 'Chef And Fibonacci Array'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 6.3'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYTH
-    - 'PYTH 3.5'
-    - RUBY
-    - SCALA
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '1'
-source_sizelimit: '50000'
-problem_author: berezin
-problem_tester: null
-date_added: 10-09-2014
-tags:
-    - aug17
-    - berezin
-    - dynamic
-    - easy
-editorial_url: 'https://discuss.codechef.com/problems/CHEFFA'
-time:
-    view_start_date: 1503048600
-    submit_start_date: 1503048600
-    visible_start_date: 1503048600
-    end_date: 1735669800
-    current: 1514815999
-layout: problem
+{"category_name":"easy","problem_code":"CHEFFA","problem_name":"Chef And Fibonacci Array","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 6.3","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYTH","37":"PYTH 3.5","38":"RUBY","39":"SCALA","40":"SCM guile","41":"SCM qobi","42":"ST","43":"TCL","44":"TEXT","45":"WSPC"},"max_timelimit":1,"source_sizelimit":50000,"problem_author":"berezin","problem_tester":null,"date_added":"10-09-2014","tags":{"0":"aug17","1":"berezin","2":"dynamic","3":"easy"},"editorial_url":"https://discuss.codechef.com/problems/CHEFFA","time":{"view_start_date":1503048600,"submit_start_date":1503048600,"visible_start_date":1503048600,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.### Read problems statements in [mandarin chinese](http://www.codechef.com/download/translated/AUG17/mandarin/CHEFFA.pdf), [russian](http://www.codechef.com/download/translated/AUG17/russian/CHEFFA.pdf) and [vietnamese](http://www.codechef.com/download/translated/AUG17/vietnamese/CHEFFA.pdf) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3>Read problems statements in <a target="_blank" 
+href="http://www.codechef.com/download/translated/AUG17/mandarin/CHEFFA.pdf">mandarin chinese</a>, <a target="_blank" 
+href="http://www.codechef.com/download/translated/AUG17/russian/CHEFFA.pdf">russian</a> and <a target="_blank" 
+href="http://www.codechef.com/download/translated/AUG17/vietnamese/CHEFFA.pdf">vietnamese</a> as well.</h3>
 
-Chef has an array **A** = (**A1**, **A2**, ..., **AN**), which has **N** integers in it initially. Chef found that for i ≥ 1, if **Ai** &gt; 0, **Ai+1** &gt; 0, and **Ai+2** exists, then he can decrease both **Ai**, and **Ai+1** by one and increase **Ai+2** by one. If **Ai+2** doesn't exist, but **Ai** &gt; 0, and **Ai+1** &gt; 0, then he can decrease both **Ai**, and **Ai+1** (which will be the currently last two elements of the array) by one and add a new element at the end, whose value is 1.
+<p>Chef has an array <b>A</b> = (<b>A<sub>1</sub></b>, <b>A<sub>2</sub></b>, ..., <b>A<sub>N</sub></b>), which has <b>N</b> integers in it initially. Chef found that for i ≥ 1, if <b>A<sub>i</sub></b> > 0, <b>A<sub>i+1</sub></b> > 0, and <b>A<sub>i+2</sub></b> exists, then he can decrease both <b>A<sub>i</sub></b>, and <b>A<sub>i+1</sub></b> by one and increase <b>A<sub>i+2</sub></b> by one. If <b>A<sub>i+2</sub></b> doesn't exist, but <b>A<sub>i</sub></b> > 0, and <b>A<sub>i+1</sub></b> > 0, then he can decrease both <b>A<sub>i</sub></b>, and <b>A<sub>i+1</sub></b> (which will be the currently last two elements of the array) by one and add a new element at the end, whose value is 1.</p>
 
-Now Chef wants to know the number of different arrays that he can make from **A** using this operation as many times as he wishes. Help him find this, and because the answer could be very large, he is fine with you reporting the answer modulo 109+7.
+<p>Now Chef wants to know the number of different arrays that he can make from <b>A</b> using this operation as many times as he wishes. Help him find this, and because the answer could be very large, he is fine with you reporting the answer modulo 10<sup>9</sup>+7.</p>
 
-Two arrays are same if they have the same number of elements and if each corresponding element is the same. For example arrays **(2,1,1)** and **(1,1,2)** are different.
+<p>Two arrays are same if they have the same number of elements and if each corresponding element is the same. For example arrays <b>(2,1,1)</b> and <b>(1,1,2)</b> are different. 
+</p>
 
-### Input
+<h3>Input</h3>
+<ul>
+<li>The first line of the input contains a single integer <b>T</b> denoting the number of test cases.</li>
+<li>The first line contains a single integer <b>N</b> denoting the initial number of elements in <b>A</b>.</li>
+<li>The second line contains <b>N</b> space-separated integers: <b>A<sub>1</sub></b>, <b>A<sub>2</sub></b>, ... , <b>A<sub>N</sub></b>. </li>
+</ul>
 
-- The first line of the input contains a single integer **T** denoting the number of test cases.
-- The first line contains a single integer **N** denoting the initial number of elements in **A**.
-- The second line contains **N** space-separated integers: **A1**, **A2**, ... , **AN**.
+<h3>Output</h3>
+<p>For each test case, output answer modulo 10<sup>9</sup>+7 in a single line. </p>
 
-### Output
 
-For each test case, output answer modulo 109+7 in a single line.
+<h3>Constraints</h3>
+<ul>
+<li>1 ≤ <b>T</b> ≤ 5</li>
+<li>1 ≤ <b>N</b> ≤ 50</li>
+<li>0 ≤ <b>A<sub>i</sub></b> ≤ 50</li>
+</ul>
 
-### Constraints
+<h3>Subtasks</h3>
+<ul>
+<li><b>Subtask 1</b> (20 points) : 1 ≤ <b>N</b> ≤ 8, 0 ≤ <b>A<sub>i</sub></b> ≤ 4</li>
+<li><b>Subtask 2</b> (80 points) : Original constraints</li>
+</ul>
 
-- 1 ≤ **T** ≤ 5
-- 1 ≤ **N** ≤ 50
-- 0 ≤ **Ai** ≤ 50
-
-### Subtasks
-
-- **Subtask 1** (20 points) : 1 ≤ **N** ≤ 8, 0 ≤ **Ai** ≤ 4
-- **Subtask 2** (80 points) : Original constraints
-
-### Example
-
+<h3>Example</h3>
 <pre><b>Input:</b>
 3
 3
@@ -113,23 +52,21 @@ For each test case, output answer modulo 109+7 in a single line.
 4
 9
 </pre>
-### Explanation
 
-**Example case 1.**
-
-We'll list the various single steps that you can take (ie. in one single usage of the operation):
-
-- (2, 3, 1) → (2, 2, 0, 1)
-- (2, 2, 0, 1) → (1, 1, 1, 1)
-- (1, 1, 1, 1) → (1, 1, 0, 0, 1)
-- (1, 1, 0, 0, 1) → (0, 0, 1, 0, 1)
-- (1, 1, 1, 1) → (1, 0, 0, 2)
-- (1, 1, 1, 1) → (0, 0, 2, 1)
-- (2, 3, 1) → (1, 2, 2)
-- (1, 2, 2) → (0, 1, 3)
-
-So all the arrays you can possibly get are:
-
-(2, 3, 1), (2, 2, 0, 1), (1, 1, 1, 1), (1, 1, 0, 0, 1), (0, 0, 1, 0, 1), (1, 0, 0, 2), (0, 0, 2, 1), (1, 2, 2), and (0, 1, 3)
-
-Since there are 9 different arrays that you can reach, the answer is 9.
+<h3>Explanation</h3>
+<p><b>Example case 1.</b></p>
+<p>We'll list the various single steps that you can take (ie. in one single usage of the operation):</p>
+<ul>
+<li>(2, 3, 1) → (2, 2, 0, 1)</li>
+<li>(2, 2, 0, 1) → (1, 1, 1, 1)</li>
+<li>(1, 1, 1, 1) → (1, 1, 0, 0, 1)</li>
+<li>(1, 1, 0, 0, 1) → (0, 0, 1, 0, 1)</li>
+<li>(1, 1, 1, 1) → (1, 0, 0, 2)</li>
+<li>(1, 1, 1, 1) → (0, 0, 2, 1)</li>
+<li>(2, 3, 1) → (1, 2, 2)</li>
+<li>(1, 2, 2) → (0, 1, 3)</li>
+</ul>
+<p></p>
+<p>So all the arrays you can possibly get are: </p>
+<p>(2, 3, 1), (2, 2, 0, 1), (1, 1, 1, 1), (1, 1, 0, 0, 1), (0, 0, 1, 0, 1), (1, 0, 0, 2), (0, 0, 2, 1), (1, 2, 2), and (0, 1, 3)</p>
+<p>Since there are 9 different arrays that you can reach, the answer is 9.</p>

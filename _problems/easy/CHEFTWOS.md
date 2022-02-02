@@ -1,114 +1,44 @@
 ---
-category_name: easy
-problem_code: CHEFTWOS
-problem_name: 'Chef and Two String'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYPY
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM chicken'
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '1'
-source_sizelimit: '50000'
-problem_author: berezin
-problem_tester: alex_2oo8
-date_added: 11-06-2016
-tags:
-    - berezin
-    - dynamic
-    - easy
-    - oct16
-editorial_url: 'http://discuss.codechef.com/problems/CHEFTWOS'
-time:
-    view_start_date: 1476696600
-    submit_start_date: 1476696600
-    visible_start_date: 1476696600
-    end_date: 1735669800
-    current: 1493558125
-layout: problem
+{"category_name":"easy","problem_code":"CHEFTWOS","problem_name":"Chef and Two String","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYPY","37":"PYTH","38":"PYTH 3.4","39":"RUBY","40":"SCALA","41":"SCM chicken","42":"SCM guile","43":"SCM qobi","44":"ST","45":"TCL","46":"TEXT","47":"WSPC"},"max_timelimit":1,"source_sizelimit":50000,"problem_author":"berezin","problem_tester":"alex_2oo8","date_added":"11-06-2016","tags":{"0":"berezin","1":"dynamic","2":"easy","3":"oct16"},"editorial_url":"http://discuss.codechef.com/problems/CHEFTWOS","time":{"view_start_date":1476696600,"submit_start_date":1476696600,"visible_start_date":1476696600,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/OCT16/mandarin/CHEFTWOS.pdf), [Russian](http://www.codechef.com/download/translated/OCT16/russian/CHEFTWOS.pdf) and [Vietnamese](http://www.codechef.com/download/translated/OCT16/vietnamese/CHEFTWOS.pdf) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3> Read problems statements in <a target="_blank" href="http://www.codechef.com/download/translated/OCT16/mandarin/CHEFTWOS.pdf">Mandarin Chinese</a>, <a target="_blank" href="http://www.codechef.com/download/translated/OCT16/russian/CHEFTWOS.pdf">Russian</a> and <a target="_blank" href="http://www.codechef.com/download/translated/OCT16/vietnamese/CHEFTWOS.pdf">Vietnamese</a> as well.</h3>
 
-Chef's loves his dog so much! Once his dog created two strings **a** and **b** each of length **n** consisting of digits **1** and **2**, and even a problem about them!
+<p>Chef's loves his dog so much! Once his dog created two strings <b>a</b> and <b>b</b> each of length <b>n</b> consisting of digits <b>1</b> and <b>2</b>, and even a problem about them!</p>
 
-Chef's Dog will tell by barking if a string **x** (also containing only digits **1** and **2** and with length **N**) is **good** or not by performing the following actions.
+<p>Chef's Dog will tell by barking if a string <b>x</b> (also containing only digits <b>1</b> and <b>2</b> and with length <b>N</b>) is <b>good</b> or not by performing the following actions.
+<ul>
+<li>It starts at first digit of the string, i.e. at <b>i = 1</b>. </li>
+<li>It can move from digit <b>i</b> to either <b>i - 1</b> or <b>i + 1</b> if <b>x<sub>i</sub></b> equals <b>1</b> and the corresponding digits exist. </li>
+<li>It can move from digit <b>i</b> to either <b>i - 2</b> or <b>i + 2</b> if <b>x<sub>i</sub></b> equals <b>2</b> and the corresponding digits exist. </li>
+<li>It <b>must</b> visit each digit <b>exactly</b> once. </li>
+<li>It <b>must</b> finish at the last digit (<b>X<sub>N</sub></b>). </li>
+</ul>
+</p>
 
-- It starts at first digit of the string, i.e. at **i = 1**.
-- It can move from digit **i** to either **i - 1** or **i + 1** if **xi** equals **1** and the corresponding digits exist.
-- It can move from digit **i** to either **i - 2** or **i + 2** if **xi** equals **2** and the corresponding digits exist.
-- It **must** visit each digit **exactly** once.
-- It **must** finish at the last digit (**XN**).
+<p>Chef's dog wants to make both the strings <b>a</b> and <b>b</b> <i>good</i> by choosing some subset <b>S</b> (possibly empty) of indices of set <b>{1, 2, ..., n}</b> and swapping each index <b>i ϵ S</b> between string <b>a</b> and <b>b</b>, i.e. swapping <b>a<sub>i</sub></b> and <b>b<sub>i</sub></b>. Can you find how many such subsets <b>S</b> exist out there? As the answer could be large, output it modulo <b>10<sup>9</sup> + 7</b>.</p>  
 
-Chef's dog wants to make both the strings **a** and **b** *good* by choosing some subset **S** (possibly empty) of indices of set **{1, 2, ..., n}** and swapping each index **i ϵ S** between string **a** and **b**, i.e. swapping **ai** and **bi**. Can you find how many such subsets **S** exist out there? As the answer could be large, output it modulo **109 + 7**.
+<h3>Input</h3>
+<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</p>
+<p>The first line contains string <b>a</b>.</p>
+<p>The second line contains string <b>b</b>.</p>
 
-### Input
+<h3>Output</h3>
+<p>For each test case, output a single line containing answer of the problem.</p>
 
-The first line of the input contains an integer **T** denoting the number of test cases. The description of **T** test cases follows.
+<h3>Constraints</h3>
+<ul>
+<li><b>1</b> ≤ <b>T</b> ≤ <b>20</b></li>
+<li><b>1</b> ≤ <b>|a| = |b|</b> ≤ <b>10<sup>5</sup></b></li>
+<li><b>'1'</b> ≤ <b>a<sub>i</sub>, b<sub>i</sub></b> ≤ <b>'2'</b></li>
+</ul>
 
-The first line contains string **a**.
+<h3>Subtasks</h3>
+<ul>
+<li>Subtask #1 (30 points) <b>|a|, |b|</b> ≤  </b>10</b></li> 
+<li>Subtask #2 (70 points) <b>original constraints</b></li>
+</ul>
 
-The second line contains string **b**.
-
-### Output
-
-For each test case, output a single line containing answer of the problem.
-
-### Constraints
-
-- **1** ≤ **T** ≤ **20**
-- **1** ≤ **|a| = |b|** ≤ **105**
-- **'1'** ≤ **ai, bi** ≤ **'2'**
-
-### Subtasks
-
-- Subtask #1 (30 points) **|a|, |b|** ≤ 10
-- Subtask #2 (70 points) **original constraints**
-
-### Example
-
+<h3>Example</h3>
 <pre><b>Input:</b>
 2
 1111
@@ -120,8 +50,11 @@ For each test case, output a single line containing answer of the problem.
 8
 0
 </pre>
-### Explanation
 
-**Test case 1.**Possible subsets are: **{}**, **{1, 2}**, **{1, 2, 3}**, **{1, 2, 4}**, **{1, 2, 3, 4}**, **{3}**, **{4}**, **{3, 4}**.
-
-**Test case 2.** There are no possible sets **S** which can make both the strings good.
+<h3>Explanation</h3>
+<p><b>Test case 1.</b>
+Possible subsets are: 
+<b>{}</b>, <b>{1, 2}</b>, <b>{1, 2, 3}</b>, <b>{1, 2, 4}</b>, <b>{1, 2, 3, 4}</b>, <b>{3}</b>, <b>{4}</b>, <b>{3, 4}</b>.
+</p>
+<p><b>Test case 2.</b> There are no possible sets <b>S</b> which can make both the strings good.
+</pre>

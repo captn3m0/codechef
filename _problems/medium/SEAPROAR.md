@@ -1,84 +1,11 @@
 ---
-category_name: medium
-problem_code: SEAPROAR
-problem_name: 'Sereja and Random Array'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '1'
-source_sizelimit: '50000'
-problem_author: sereja
-problem_tester: laycurse
-date_added: 29-11-2014
-tags:
-    - bitwise
-    - march15
-    - medium
-    - seapror
-    - sereja
-editorial_url: 'http://discuss.codechef.com/problems/SEAPROAR'
-time:
-    view_start_date: 1426498200
-    submit_start_date: 1426498200
-    visible_start_date: 1426498200
-    end_date: 1735669800
-    current: 1493557926
-layout: problem
+{"category_name":"medium","problem_code":"SEAPROAR","problem_name":"Sereja and Random Array","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYTH","37":"PYTH 3.4","38":"RUBY","39":"SCALA","40":"SCM guile","41":"SCM qobi","42":"ST","43":"TCL","44":"TEXT","45":"WSPC"},"max_timelimit":1,"source_sizelimit":50000,"problem_author":"sereja","problem_tester":"laycurse","date_added":"29-11-2014","tags":{"0":"bitwise","1":"march15","2":"medium","3":"seapror","4":"sereja"},"editorial_url":"http://discuss.codechef.com/problems/SEAPROAR","time":{"view_start_date":1426498200,"submit_start_date":1426498200,"visible_start_date":1426498200,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/MARCH15/mandarin/SEAPROAR.pdf) and [Russian](http://www.codechef.com/download/translated/MARCH15/russian/SEAPROAR.pdf).
-
-Sereja likes to generate pseudo random binary sequences. Now Sereja has two generators: one is a based on [linear congruential generators (LCGs)](http://en.wikipedia.org/wiki/Linear_congruential_generator) and another is based on [Xorshift](http://en.wikipedia.org/wiki/Xorshift).
-
-Sereja has some binary sequences generated in past times, and he wants to know which generator makes these sequences. You can know the details of Sereja's generators, then can you answer this problem?
-
-The following is the details. We may give the length **N** and a seed integer **S** to the generators, then they generate a binary sequence **A\[1\], A\[2\], ..., A\[N\]**.
-
-The 1st generator works as follows (C++ code. If you are not familiar with C++, please see the below section **Notes for C++**):
-
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3> Read problems statements in <a target="_blank" href="http://www.codechef.com/download/translated/MARCH15/mandarin/SEAPROAR.pdf">Mandarin Chinese </a> and <a target="_blank" href="http://www.codechef.com/download/translated/MARCH15/russian/SEAPROAR.pdf">Russian</a>.</h3>
+<p>Sereja likes to generate pseudo random binary sequences. Now Sereja has two generators: one is a based on <a href="http://en.wikipedia.org/wiki/Linear_congruential_generator">linear congruential generators (LCGs)</a> and another is based on <a href="http://en.wikipedia.org/wiki/Xorshift">Xorshift</a>.</p>
+<p>Sereja has some binary sequences generated in past times, and he wants to know which generator makes these sequences. You can know the details of Sereja's generators, then can you answer this problem?</p>
+<p>The following is the details. We may give the length <b>N</b> and a seed integer <b>S</b> to the generators, then they generate a binary sequence <b>A[1], A[2], ..., A[N]</b>.</p>
+<p>The 1st generator works as follows (C++ code. If you are not familiar with C++, please see the below section <b>Notes for C++</b>):</p>
 <pre>
 /* ------------------ start here ---------------------*/
 unsigned X; // we assume that unsigned is a 32bit integer type
@@ -94,15 +21,15 @@ unsigned nextInteger1(void){
 
 void generator1(int N, unsigned S, int A[]){
   srand1(S);
-  for(int i=1;i<=N;i++){
+  for(int i=1;i&lt;=N;i++){
     A[i] = nextInteger1() % 2; 
   }
 }
 /* ------------------ end here -----------------------*/
 
-</pre>
+</pre><p>
 The 2nd generator works as follows (C++ code):
-
+</p>
 <pre>
 /* ------------------ start here ---------------------*/
 unsigned x, y, z, w; // we assume that unsigned is a 32bit integer type
@@ -115,61 +42,64 @@ void srand2(unsigned S){
 }
 
 unsigned nextInteger2(void){
-  unsigned t = x ^ (x << 11);
+  unsigned t = x ^ (x &lt;&lt; 11);
   x = y; y = z; z = w;
   return w = (w ^ (w >> 19)) ^ (t ^ (t >> 8)); 
 }
 
 void generator2(int N, unsigned S, int A[]){
   srand2(S);
-  for(int i=1;i<=N;i++){
+  for(int i=1;i&lt;=N;i++){
     A[i] = nextInteger2() % 2; 
   }
 }
 /* ------------------ end here -----------------------*/
 
-</pre>
-Note that the LCG used in the 1st generator is the same one suggested in [ISO/IEC 9899 (pp. 346--347)](http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf), and Xorshift used in the 2nd generator is the same one in [the paper by Marsaglia (July 2003)](http://www.jstatsoft.org/v08/i14/paper).
-
-### Input
-
-The first line of input contains an integer **T**, denoting the number of test cases. Then **T** test cases follow.
-
-Each test case has only one line. The line contains the string of length **N**, denoting the array **A\[1\], A\[2\], ..., A\[N\]**, where the string consists of only characters '0' and '**1**', and the **i**th character denotes **A\[i\]**.
-
-Note that the integer **N** is not given in the input explicitly.
-
-### Output
-
-For each test case, print "LCG" if the given sequence generated by the 1st generator, or print "Xorshift" if the given sequence is generated by the 2nd generator.
-
-### Constraints and Subtasks
-
-- **1 ≤ T ≤ 30**
-- There is no pair of integers **(s, t)** such that **0 ≤ s, t ≤ 109** and both **generator1(N, s, A)** and **generator2(N, t, A)** generate the given sequence. (Thus the answer will be determined uniquely)
-
-**Subtask 1 (10 points)**
-
-- **50 ≤ N ≤ 500**
-- There is an integer **0 ≤ s ≤ 500** such that **generator1(N, s, A)** or **generator2(N, s, A)** generates the given sequence.
-
-**Subtask 2 (40 points)**
-
-- **500 ≤ N ≤ 100000**
-- There is an integer **0 ≤ s ≤ 31313** such that **generator1(N, s, A)** or **generator2(N, s, A)** generates the given sequence.
-
-**Subtask 3 (20 points)**
-
-- **100000 ≤ N ≤ 200000**
-- There is an integer **0 ≤ s ≤ 109** such that **generator1(N, s, A)** or **generator2(N, s, A)** generates the given sequence.
-
-**Subtask 4 (30 points)**
-
-- **500 ≤ N ≤ 200000**
-- There is an integer **0 ≤ s ≤ 109** such that **generator1(N, s, A)** or **generator2(N, s, A)** generates the given sequence.
-
-### Example
-
+</pre><p>Note that the LCG used in the 1st generator is the same one suggested in <a href="http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf">ISO/IEC 9899 (pp. 346--347)</a>, and Xorshift used in the 2nd generator is the same one in <a href="http://www.jstatsoft.org/v08/i14/paper">the paper by Marsaglia (July 2003)</a>.</p>
+<h3>Input</h3>
+<p>The first line of input contains an integer <b>T</b>, denoting the number of test cases. Then <b>T</b> test cases follow.</p>
+<p>Each test case has only one line. The line contains the string of length <b>N</b>, denoting the array <b>A[1], A[2], ..., A[N]</b>, where the string consists of only characters '<b>0</b>' and '<b>1</b>', and the <b>i</b><sup>th</sup> character denotes <b>A[i]</b>.</p>
+<p>Note that the integer <b>N</b> is not given in the input explicitly.</p>
+<h3>Output</h3>
+<p>For each test case, print "LCG" if the given sequence generated by the 1st generator, or print "Xorshift" if the given sequence is generated by the 2nd generator.</p>
+<h3>Constraints and Subtasks</h3>
+<ul>
+<li><b>1 ≤ T ≤ 30</b></li>
+<li>There is no pair of integers <b>(s, t)</b> such that <b>0 ≤ s, t ≤ 10<sup>9</sup></b> and both <b>generator1(N, s, A)</b> and <b>generator2(N, t, A)</b> generate the given sequence. (Thus the answer will be determined uniquely)</li>
+</ul>
+<p></p>
+<p>
+<b>Subtask 1 (10 points)</b>
+</p>
+<ul>
+<li><b>50 ≤ N ≤ 500</b></li>
+<li>There is an integer <b>0 ≤ s ≤ 500</b> such that <b>generator1(N, s, A)</b> or <b>generator2(N, s, A)</b> generates the given sequence.</li>
+</ul>
+<p></p>
+<p>
+<b>Subtask 2 (40 points)</b>
+</p>
+<ul>
+<li><b>500 ≤ N ≤ 100000</b></li>
+<li>There is an integer <b>0 ≤ s ≤ 31313</b> such that <b>generator1(N, s, A)</b> or <b>generator2(N, s, A)</b> generates the given sequence.</li>
+</ul>
+<p></p>
+<p>
+<b>Subtask 3 (20 points)</b>
+</p>
+<ul>
+<li><b>100000 ≤ N ≤ 200000</b></li>
+<li>There is an integer <b>0 ≤ s ≤ 10<sup>9</sup></b> such that <b>generator1(N, s, A)</b> or <b>generator2(N, s, A)</b> generates the given sequence.</li>
+</ul>
+<p></p>
+<p>
+<b>Subtask 4 (30 points)</b>
+</p>
+<ul>
+<li><b>500 ≤ N ≤ 200000</b></li>
+<li>There is an integer <b>0 ≤ s ≤ 10<sup>9</sup></b> such that <b>generator1(N, s, A)</b> or <b>generator2(N, s, A)</b> generates the given sequence.</li>
+</ul>
+<h3>Example</h3>
 <pre>
 <b>Input:</b>
 6
@@ -187,68 +117,53 @@ LCG
 Xorshift
 Xorshift
 Xorshift
-</pre>
-### Explanation
-
-**Example 1.** **generator1(67, 5, A)** generates the given sequence.
-
-**Example 2.** **generator1(51, 8, A)** generates the given sequence.
-
-**Example 3.** **generator1(77, 58, A)** generates the given sequence.
-
-**Example 4.** **generator2(50, 5, A)** generates the given sequence.
-
-**Example 5.** **generator2(55, 8, A)** generates the given sequence.
-
-**Example 6.** **generator2(62, 58, A)** generates the given sequence.
-
-### Notes for C++
-
-At first, in the codes, almost every operation will be done with unsigned.
-Thus operations will return the result modulo **232**.
+</pre><h3>Explanation</h3>
+<p><b>Example 1.</b> <b>generator1(67, 5, A)</b> generates the given sequence.</p>
+<p><b>Example 2.</b> <b>generator1(51, 8, A)</b> generates the given sequence.</p>
+<p><b>Example 3.</b> <b>generator1(77, 58, A)</b> generates the given sequence.</p>
+<p><b>Example 4.</b> <b>generator2(50, 5, A)</b> generates the given sequence.</p>
+<p><b>Example 5.</b> <b>generator2(55, 8, A)</b> generates the given sequence.</p>
+<p><b>Example 6.</b> <b>generator2(62, 58, A)</b> generates the given sequence.</p>
+<h3>Notes for C++</h3>
+<p>
+At first, in the codes, almost every operation will be done with unsigned.<br />
+Thus operations will return the result modulo <b>2<sup>32</sup></b>.<br />
 For example,
-
+</p>
 <pre>
     X * 1103515245 + 12345
 
-</pre>
-means that
-
-**(X × 1103515245 + 12345) mod 232**,
-
-
+</pre><p>means that</p>
+<div style="margin-left: 3em;"><b>(X × 1103515245 + 12345) mod 2<sup>32</sup></b>,</div>
+<p><br />
 and
-
+</p>
 <pre>
     (X / 65536) % 32768
-</pre>
-means that
-
-**(floor(X / 65536) mod 32768) mod 232**,
-
-
+</pre><p>
+means that</p>
+<div style="margin-left: 3em;"><b>(floor(X / 65536) mod 32768) mod 2<sup>32</sup></b>,</div>
+<p><br />
 in terms of mathematical notations.
-
-Then there are some bit operations in the 2nd generator.
-The operators **&lt;&lt;** and **&gt;&gt;** denote bit shifts.
+</p>
+<p>
+Then there are some bit operations in the 2nd generator.<br />
+The operators <b>&lt;&lt;</b> and <b>>></b> denote bit shifts.<br />
 For example,
-
+</p>
 <pre>
-    X << 15
-</pre>
-means that
-
-**(X × 215) mod 232**,
-
-
+    X &lt;&lt; 15
+</pre><p>
+means that</p>
+<div style="margin-left: 3em;"><b>(X × 2<sup>15</sup>) mod 2<sup>32</sup></b>,</div>
+<p><br />
 and
-
+</p>
 <pre>
     X >> 13
-</pre>
-means that
-
-**floor(X / 213)**.
-
-
-And the operator **^** denotes [bitwise XOR](http://en.wikipedia.org/wiki/Bitwise_operation#XOR).
+</pre><p>
+means that</p>
+<div style="margin-left: 3em;"><b>floor(X / 2<sup>13</sup>)</b>.</div>
+<p><br />
+And the operator <b>^</b> denotes <a href="http://en.wikipedia.org/wiki/Bitwise_operation#XOR">bitwise XOR</a>.
+</p>

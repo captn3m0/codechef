@@ -1,118 +1,46 @@
 ---
-category_name: challenge
-problem_code: CHEFPNT
-problem_name: 'Chef and Painting'
-languages_supported:
-    - C
-    - CPP14
-    - JAVA
-    - PYTH
-    - 'PYTH 3.5'
-    - CS2
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - RUBY
-    - PHP
-    - GO
-    - NODEJS
-    - HASK
-    - SCALA
-    - D
-    - PERL
-    - FORT
-    - WSPC
-    - ADA
-    - CAML
-    - ICK
-    - BF
-    - ASM
-    - CLPS
-    - PRLG
-    - ICON
-    - 'SCM qobi'
-    - PIKE
-    - ST
-    - NICE
-    - LUA
-    - BASH
-    - NEM
-    - 'LISP sbcl'
-    - 'LISP clisp'
-    - 'SCM guile'
-    - JS
-    - ERL
-    - TCL
-    - PERL6
-    - TEXT
-    - CLOJ
-    - FS
-max_timelimit: '3'
-source_sizelimit: '50000'
-problem_author: berezin
-problem_tester: shangjingbo
-date_added: 1-04-2014
-tags:
-    - berezin
-    - challenge
-    - oct14
-    - randomized
-time:
-    view_start_date: 1413192600
-    submit_start_date: 1413192600
-    visible_start_date: 1413192600
-    end_date: 1735669800
-    current: 1528985566
-is_direct_submittable: false
-layout: problem
+{"category_name":"challenge","problem_code":"CHEFPNT","problem_name":"Chef and Painting","languages_supported":{"0":"C","1":"CPP14","2":"JAVA","3":"PYTH","4":"PYTH 3.5","5":"CS2","6":"PAS fpc","7":"PAS gpc","8":"RUBY","9":"PHP","10":"GO","11":"NODEJS","12":"HASK","13":"SCALA","14":"D","15":"PERL","16":"FORT","17":"WSPC","18":"ADA","19":"CAML","20":"ICK","21":"BF","22":"ASM","23":"CLPS","24":"PRLG","25":"ICON","26":"SCM qobi","27":"PIKE","28":"ST","29":"NICE","30":"LUA","31":"BASH","32":"NEM","33":"LISP sbcl","34":"LISP clisp","35":"SCM guile","36":"JS","37":"ERL","38":"TCL","39":"PERL6","40":"TEXT","41":"CLOJ","42":"FS"},"max_timelimit":3,"source_sizelimit":50000,"problem_author":"berezin","problem_tester":"shangjingbo","date_added":"1-04-2014","tags":{"0":"berezin","1":"challenge","2":"oct14","3":"randomized"},"time":{"view_start_date":1413192600,"submit_start_date":1413192600,"visible_start_date":1413192600,"end_date":1735669800},"is_direct_submittable":false,"layout":"problem"}
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/OCT14/mandarin/CHEFPNT.pdf) and [Russian](http://www.codechef.com/download/translated/OCT14/russian/CHEFPNT.pdf).
-
-Chef wants to paint with you today:)
-
-- The field of the game is a matrix that has **N** rows and **M** columns.
-- The rows of the matrix are numbered from 1 to **N**.
-- The columns of the matrix are numbered from 1 to **M**.
-- Initially some cells are painted with black color. All other are painted with white.
-- On each step Chef can choose any white cell and the direction: Left-Right or Up-Down.
-- Left-Right direction means that Chef goes left from chosen cell and paint each cell on his way with red color until he reach the board or some already painted with red or black color cell. Then he do the same in right direction (goes right from the chosen cell) and then he paint chosen cell with red color.
-- Up-Down direction means the same for appropriate directions
-- The aim of game is to paint all white cells with red color in the minimal number of steps.
-
-### Input
-
-The first line of each test case contains three integers **N, M, K** denoting the size of matrix and the number of painted with black color cells.
-
-Each of next **K** lines contains two integers **i, j** denoting the painted with black color cells.
-
-### Output
-
-In the first line print integer **P** - the number of steps.
-
-Next **P** lines should describe steps. Each step in a single line.
-
-The description of each step contains two integers **i, j** denoting the cell you choose and string **"0"** or **"1"**, according to the directions you choose
-(**"0"** - Left-Right, **"1"** - Up-Down).
-
-### Scoring
-
-- For each test your score will be defined as number of steps.
-- The total score for a submission is the sum of the scores for all test cases.
-
-### Constraints
-
-- **1** ≤ **N, M** ≤ **100**
-- **1** ≤ **K** ≤ **min(N\*M - 1, 3000)**
-- **1** ≤ **i** ≤ **N**
-- **1** ≤ **j** ≤ **M**
-
-### Test generation
-
-- Initially we take **N**, **M**, and **K** with uniform random in the range under constraints
-- Then in a loop from **1** to **K** we take uniform random row number (from **1** to **N**) and uniform random column number (from **1** to **M**) and while the cell **aij** is already painted we take new uniform random **i** and **j**.
-- Test cases contains max tests, tests with big (close to **N\*M**) and small **K**.
-
-### Example
-
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3> Read problems statements in <a target="_blank" href="http://www.codechef.com/download/translated/OCT14/mandarin/CHEFPNT.pdf">Mandarin Chinese </a> and <a target="_blank" href="http://www.codechef.com/download/translated/OCT14/russian/CHEFPNT.pdf">Russian</a>.</h3>
+<p>Chef wants to paint with you today:)</p>
+<p><ul>
+<li>The field of the game is a matrix that has <b>N</b> rows and <b>M</b> columns.</li>
+<li>The rows of the matrix are numbered from 1 to <b>N</b>.</li>
+<li>The columns of the matrix are numbered from 1 to <b>M</b>.</li>
+<li>Initially some cells are painted with black color. All other are painted with white.</li>
+<li>On each step Chef can choose any white cell and the direction: Left-Right or Up-Down. </li>
+<li>Left-Right direction means that Chef goes left from chosen cell and paint each cell on his way with red color until he reach the board or some already painted with red or black color cell. Then he do the same in right direction (goes right from the chosen cell) and then he paint chosen cell with red color. </li>
+<li>Up-Down direction means the same for appropriate directions</li>
+<li>The aim of game is to paint all white cells with red color in the minimal number of steps. </li>
+</ul>
+</p>
+<h3>Input</h3>
+<p>The first line of each test case contains three integers <b>N, M, K</b> denoting the size of matrix and the number of painted with black color cells. </p>
+<p>Each of next <b>K</b> lines contains two integers <b>i, j</b> denoting the painted with black color cells. </p>
+<h3>Output</h3>
+<p>In the first line print integer <b>P</b> - the number of steps. </p>
+<p>Next <b>P</b> lines should describe steps. Each step in a single line. </p>
+<p>The description of each step contains two integers <b>i, j</b> denoting the cell you choose and string <b>"0"</b> or <b>"1"</b>, according to the directions you choose<br />
+(<b>"0"</b> - Left-Right, <b>"1"</b> - Up-Down).</p>
+<h3>Scoring</h3>
+<ul>
+<li>For each test your score will be defined as number of steps. </li>
+<li>The total score for a submission is the sum of the scores for all test cases. </li>
+</ul>
+<h3>Constraints</h3>
+<ul>
+<li><b>1</b> ≤ <b>N, M</b> ≤ <b>100</b></li>
+<li><b>1</b> ≤ <b>K</b> ≤ <b>min(N*M - 1, 3000)</b></li>
+<li><b>1</b> ≤ <b>i</b> ≤ <b>N</b></li>
+<li><b>1</b> ≤ <b>j</b> ≤ <b>M</b></li>
+</ul>
+<h3>Test generation</h3>
+<ul>
+<li>Initially we take <b>N</b>, <b>M</b>, and <b>K</b> with uniform random in the range under constraints </li>
+<li>Then in a loop from <b>1</b> to <b>K</b> we take uniform random row number (from <b>1</b> to <b>N</b>) and uniform random column number (from <b>1</b> to <b>M</b>) and while the cell <b>a<sub>ij</sub></b>  is already painted we take new uniform random <b>i</b> and <b>j</b>. </li>
+<li>Test cases contains max tests, tests with big (close to <b>N*M</b>) and small <b>K</b>. </li>
+</ul>
+<h3>Example</h3>
 <pre>
 <b>Input:</b>
 6 7 6

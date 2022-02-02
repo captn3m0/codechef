@@ -1,85 +1,18 @@
 ---
-category_name: hard
-problem_code: DGCD
-problem_name: 'Dynamic GCD'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '2'
-source_sizelimit: '50000'
-problem_author: yellow_agony
-problem_tester: laycurse
-date_added: 4-12-2011
-tags:
-    - hard
-    - heavy
-    - july12
-    - number
-    - yellow_agony
-editorial_url: 'http://discuss.codechef.com/problems/DGCD'
-time:
-    view_start_date: 1342000242
-    submit_start_date: 1342000242
-    visible_start_date: 1341999849
-    end_date: 1735669800
-    current: 1493556683
-layout: problem
+{"category_name":"hard","problem_code":"DGCD","problem_name":"Dynamic GCD","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYTH","37":"PYTH 3.4","38":"RUBY","39":"SCALA","40":"SCM guile","41":"SCM qobi","42":"ST","43":"TCL","44":"TEXT","45":"WSPC"},"max_timelimit":2,"source_sizelimit":50000,"problem_author":"yellow_agony","problem_tester":"laycurse","date_added":"4-12-2011","tags":{"0":"hard","1":"heavy","2":"july12","3":"number","4":"yellow_agony"},"editorial_url":"http://discuss.codechef.com/problems/DGCD","time":{"view_start_date":1342000242,"submit_start_date":1342000242,"visible_start_date":1341999849,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.You're given a [tree](http://en.wikipedia.org/wiki/Tree_%28graph_theory%29) on **N** vertices. Each vertex has a positive integer written on it, number on the ith vertex being **vi**. Your program must process two types of queries :
+<span class="solution-visible-txt">All submissions for this problem are available.</span><p>You're given a <a href="http://en.wikipedia.org/wiki/Tree_%28graph_theory%29">tree</a> on <b>N</b> vertices. Each vertex has a positive integer written on it, number on the i<sup>th</sup> vertex being <b>v<sub>i</sub></b>. Your program must process two types of queries :
 
-1\. Find query represented by **F u v** : Find out [gcd](http://en.wikipedia.org/wiki/Greatest_common_divisor) of all numbers on the unique path between vertices **u** and **v** in the tree (both inclusive). 2. Change query represented by **C u v d** : Add **d** to the number written on all vertices along the unique path between vertices **u** and **v** in the tree (both inclusive).
+<p>
+1. Find query represented by <b>F u v</b>   : Find out <a href="http://en.wikipedia.org/wiki/Greatest_common_divisor">gcd</a> of all numbers on the unique path between vertices <b>u</b> and <b>v</b> in the tree (both inclusive).</br></br/>
+2. Change query represented by <b>C u v d</b> : Add <b>d</b> to the number written on all vertices along the unique path between vertices <b>u</b> and <b>v</b> in the tree (both inclusive). 
 
-### Input
+<h3>Input</h3>
+<p>First line of input contains an integer <b>N</b> denoting the size of the vertex set of the tree. Then follow <b>N - 1</b> lines, i<sup>th</sup> of which contains two integers <b>a<sub>i</sub></b> and <b>b<sub>i</sub></b> denoting an edge between vertices <b>a<sub>i</sub></b> and <b>b<sub>i</sub></b> in the tree. After this follow <b>N</b> space separated integers in a single line denoting initial values <b>v<sub>i</sub></b> at each of these nodes. Then follows a single integer <b>Q</b> on a line by itself, denoting the number of queries to follow. Then follow <b>Q</b> queries, each one on a line by itself. Each query is either a find query or a change query with format as given in problem statement. Note that all vertices are 0-based.
 
-First line of input contains an integer **N** denoting the size of the vertex set of the tree. Then follow **N - 1** lines, ith of which contains two integers **ai** and **bi** denoting an edge between vertices **ai** and **bi** in the tree. After this follow **N** space separated integers in a single line denoting initial values **vi** at each of these nodes. Then follows a single integer **Q** on a line by itself, denoting the number of queries to follow. Then follow **Q** queries, each one on a line by itself. Each query is either a find query or a change query with format as given in problem statement. Note that all vertices are 0-based.
+<h3>Output</h3>For every find query, print the answer to that query in one line by itself.
 
-### Output
-
-For every find query, print the answer to that query in one line by itself. ### Example
+<h3>Example</h3>
 
 <pre>
 <b>Input:</b>
@@ -102,8 +35,10 @@ F 2 5
 7
 1
 </pre>
-
-### Constraints
-
-1 N 1 Q 0 u, **v** N-1 
-1 vi 0 d
+<br/>
+<h3>Constraints</h3>
+1 <= <b>N</b> <= 50000<br/>
+1 <= <b>Q</b> <= 50000<br/>
+0 <= <b>u</b>, <b>v</b> <= <b>N-1</b> <br/>
+1 <= <b>v<sub>i</sub></b> <= 10^4 <br/>
+0 <= <b>d</b> <= 10^4<br/>

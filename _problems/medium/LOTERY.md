@@ -1,136 +1,68 @@
 ---
-category_name: medium
-problem_code: LOTERY
-problem_name: 'LCM equation'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYPY
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM chicken'
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '1 - 4'
-source_sizelimit: '50000'
-problem_author: kaizer
-problem_tester: null
-date_added: 5-09-2015
-tags:
-    - kaizer
-    - lcm
-    - medium
-    - oct15
-    - segment
-editorial_url: 'http://discuss.codechef.com/problems/LOTERY'
-time:
-    view_start_date: 1444642200
-    submit_start_date: 1444642200
-    visible_start_date: 1444642200
-    end_date: 1735669800
-    current: 1493557755
-layout: problem
+{"category_name":"medium","problem_code":"LOTERY","problem_name":"LCM equation","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYPY","37":"PYTH","38":"PYTH 3.4","39":"RUBY","40":"SCALA","41":"SCM chicken","42":"SCM guile","43":"SCM qobi","44":"ST","45":"TCL","46":"TEXT","47":"WSPC"},"max_timelimit":"1 - 4","source_sizelimit":50000,"problem_author":"kaizer","problem_tester":null,"date_added":"5-09-2015","tags":{"0":"kaizer","1":"lcm","2":"medium","3":"oct15","4":"segment"},"editorial_url":"http://discuss.codechef.com/problems/LOTERY","time":{"view_start_date":1444642200,"submit_start_date":1444642200,"visible_start_date":1444642200,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/OCT15/mandarin/LOTERY.pdf) and [Russian](http://www.codechef.com/download/translated/OCT15/russian/LOTERY.pdf) 
-
-Chef is exploring a new mathematical problem, which can be stated as follows:
-
-![](http://mathurl.com/ok7rd4a.png)
-
-![](http://mathurl.com/nz4fycw.png)
-
-where **\[x\]** means greatest integer which doesn't exceed **x**.
-
-Chef wants you to answer some questions for a given pair of integers **N**, **K**:
-What is the [  **least common multiple**](https://en.wikipedia.org/wiki/Least_common_multiple) of **F(N, 1)**, **F(N, 2)**, ... , **F(N, K)** modulo **109 + 7**.
-
-Chef is not willing to give you all queries at once. Instead, he gives you the first query and suggests you generate all the following queries in this way:
-
-**Ni = 1 + (A \* Answeri-1 + Ci) mod M** ,
-**Ki = 1 + (B \* Answeri-1 + Di) mod Ni**, 
-where **Answeri** is the answer for the **i**th query.
-
-### Input
-
-The first line of input contains an integer **T** denoting the number of questions Chef wants to ask you. 
-Second line contains two space-separated integers **N1, K1**.
-Third line contains three space-separated integers **A**, **B**, and **M**, described in the statement.
-Next line contains **T-1** space-separated integers: **C2**, **C3**, ... , **CT**
-Next line contains **T-1** space-separated integers: **D2**, **D3**, ... , **DT**
-
-### Output
-
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3> Read problems statements in <a target="_blank" href="http://www.codechef.com/download/translated/OCT15/mandarin/LOTERY.pdf">Mandarin Chinese </a> and <a target="_blank" href="http://www.codechef.com/download/translated/OCT15/russian/LOTERY.pdf">Russian</a> </h3>
+<p>Chef is exploring a new mathematical problem, which can be stated as follows:</p>
+<p>
+<img src ="http://mathurl.com/ok7rd4a.png" /><br />
+<br />
+<img src="http://mathurl.com/nz4fycw.png" /> </p>
+<p>where <b>[x]</b> means greatest integer which doesn't exceed <b>x</b>.
+</p>
+<p>
+Chef wants you to answer some questions for a given pair of integers <b>N</b>, <b>K</b>:<br />
+What is the <a href = "https://en.wikipedia.org/wiki/Least_common_multiple"> <b> least common multiple</b></a> of <b>F(N, 1)</b>, <b>F(N, 2)</b>, ... , <b>F(N, K)</b> modulo <b>10<sup>9</sup> + 7</b>.
+</p>
+<p>Chef is not willing to give you all queries at once. Instead, he gives you the first query and suggests you generate all the following queries in this way:</p>
+<p>
+<b>N<sub>i</sub> = 1 + (A * Answer<sub>i-1</sub> + C<sub>i</sub>) mod M </b>,<br />
+<b>K<sub>i</sub> = 1 + (B * Answer<sub>i-1</sub> + D<sub>i</sub>) mod N<sub>i</sub></b>, <br />
+where <b>Answer<sub>i</sub></b> is the answer for the <b>i</b><sup>th</sup> query.
+</p>
+<h3>Input</h3>
+<p>
+The first line of input contains an integer <b>T</b> denoting the number of questions Chef wants to ask you. <br />
+Second line contains two space-separated integers <b>N<sub>1</sub>, K<sub>1</sub></b>.<br />
+Third line contains three space-separated integers <b>A</b>, <b>B</b>, and <b>M</b>, described in the statement.<br />
+Next line contains <b>T-1</b> space-separated integers: <b>C<sub>2</sub></b>, <b>C<sub>3</sub></b>, ... , <b>C<sub>T</sub></b><br />
+Next line contains <b>T-1</b> space-separated integers: <b>D<sub>2</sub></b>, <b>D<sub>3</sub></b>, ... , <b>D<sub>T</sub></b>
+</p>
+<h3>Output</h3>
+<p>
 For each test case, output a single integer — the answer for the given query.
-
-### Constraints and Subtasks
-
-- **1** ≤ **T** ≤ **106**
-- 0 ≤ **A**, **B**, **Ci**, **Di** &lt; **M** ≤ **105**
-- **1** ≤ **K1** ≤ **N1**&lt; **M**
-
-**Subtask1:(10 points)**
-
-- **1** ≤ **M** ≤ **10**
-- Time Limit is **1** second
-
-**Subtask2: (20 points)**
-
-- **1** ≤ **T** ≤ **102**
-- **1** ≤ **M** ≤ **103**
-- Time Limit is **1** second
-
-**Subtask3: (30 points)**
-
-- **A = B = 0**
-- Time Limit is **4** seconds
-
-**Subtask4: (40 points)**
-
-- No additional constraints
-- Time Limit is **4** seconds
-
-### Example
-
+</p>
+<h3>Constraints and Subtasks</h3>
+<ul>
+<li><b>1</b> ≤ <b>T</b> ≤ <b>10<sup>6</sup></b></li>
+<li><b>0</b> ≤ <b>A</b>, <b>B</b>, <b>C<sub>i</sub></b>, <b>D<sub>i</sub></b> &lt; <b>M</b> ≤  <b>10<sup>5</sup></b></li>
+<li><b>1</b> ≤ <b>K<sub>1</sub></b> ≤ <b>N<sub>1</sub></b>&lt; <b>M</b></li>
+</ul>
+<p></p>
+<p><b>Subtask1:(10 points) </b></p>
+<ul>
+<li><b>1</b> ≤ <b>M</b> ≤ <b>10</b></li>
+<li>Time Limit is <b>1</b> second</li>
+</ul>
+<p></p>
+<p><b>Subtask2: (20 points)</b></p>
+<ul>
+<li><b>1</b> ≤ <b>T</b> ≤ <b>10<sup>2</sup></b></li>
+<li><b>1</b> ≤ <b>M</b> ≤ <b>10<sup>3</sup></b></li>
+<li>Time Limit is <b>1</b> second</li>
+</ul>
+<p></p>
+<p><b>Subtask3: (30 points)</b></p>
+<ul>
+<li><b>A = B = 0</b></li>
+<li>Time Limit is <b>4</b> seconds</li>
+</ul>
+<p></p>
+<p><b>Subtask4: (40 points)</b></p>
+<ul>
+<li>No additional constraints</li>
+<li>Time Limit is <b>4</b> seconds</li>
+</ul>
+<h3>Example</h3>
 <pre><b>Input:</b>
 <tt>3
 2 1
@@ -141,7 +73,7 @@ For each test case, output a single integer — the answer for the given query.
 <tt>2
 3
 6</tt>
-</pre>
+</pre><p></p>
 <pre><b>Input:</b>
 <tt>4
 5 2
@@ -172,5 +104,4 @@ For each test case, output a single integer — the answer for the given query.
       <b>Answer</b> = lcm(F(3,1), F(3,2)) = 6
 <b>4th query</b> - (1 + (6*2 + 3) mod 6, 1 + (6*3 + 2) mod n) = (4,1).
       <b>Answer</b> = lcm(F(4,1)) = 4
-</p>
-</pre>
+</p></pre>

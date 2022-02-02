@@ -1,90 +1,20 @@
 ---
-category_name: easy
-problem_code: NEWSCH
-problem_name: 'The New Scheme'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '2'
-source_sizelimit: '50000'
-problem_author: 'witalij_hq '
-problem_tester: anton_lunyov
-date_added: 10-08-2012
-tags:
-    - matrix
-    - oct12
-    - simple
-    - witalij_hq
-editorial_url: 'http://discuss.codechef.com/problems/NEWSCH'
-time:
-    view_start_date: 1350293400
-    submit_start_date: 1350293400
-    visible_start_date: 1350293400
-    end_date: 1735669800
-    current: 1493558171
-layout: problem
+{"category_name":"easy","problem_code":"NEWSCH","problem_name":"The New Scheme","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYTH","37":"PYTH 3.4","38":"RUBY","39":"SCALA","40":"SCM guile","41":"SCM qobi","42":"ST","43":"TCL","44":"TEXT","45":"WSPC"},"max_timelimit":2,"source_sizelimit":50000,"problem_author":"witalij_hq ","problem_tester":"anton_lunyov","date_added":"10-08-2012","tags":{"0":"matrix","1":"oct12","2":"simple","3":"witalij_hq"},"editorial_url":"http://discuss.codechef.com/problems/NEWSCH","time":{"view_start_date":1350293400,"submit_start_date":1350293400,"visible_start_date":1350293400,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.Scheme? - Too loudly said. Just a new idea. Now Chef is expanding his business. He wants to make some new restaurants in the big city of Lviv. To make his business competitive he should interest customers. Now he knows how. But don't tell anyone - it is a secret plan. Chef knows four national Ukrainian dishes - **salo**, **borsch**, **varenyky** and **galushky**. It is too few, of course, but enough for the beginning. Every day in his restaurant will be a dish of the day among these four ones. And dishes of the consecutive days must be different. To make the scheme more refined the dish of the first day and the dish of the last day must be different too. Now he wants his assistant to make schedule for some period. Chef suspects that there is more than one possible schedule. Hence he wants his assistant to prepare all possible plans so that he can choose the best one among them. He asks you for help. At first tell him how many such schedules exist. Since the answer can be large output it modulo **109 + 7**, that is, you need to output the remainder of division of the actual answer by **109 + 7**.
-
-### Input
-
-The first line of the input contains an integer **T**, the number of test cases. Each of the following **T** lines contains a single integer **N** denoting the number of days for which the schedule should be made.
-
-### Output
-
-For each test case output a single integer in a separate line, the answer for the corresponding test case.
-
-### Constraints
-
-**1** ≤ **T** ≤ **100**
-**2** ≤ **N** ≤ **109**
-
-### Example
-
+<span class="solution-visible-txt">All submissions for this problem are available.</span><p style="text-align:justify">
+Scheme? - Too loudly said. Just a new idea. Now Chef is expanding his business. He wants to make some new restaurants in the big city of Lviv. To make his business competitive he should interest customers. Now he knows how. But don't tell anyone -  it is a secret plan. Chef knows four national Ukrainian dishes - <b>salo</b>, <b>borsch</b>, <b>varenyky</b> and <b>galushky</b>. It is too few, of course, but enough for the beginning. Every day in his restaurant will be a dish of the day among these four ones. And dishes of the consecutive days must be different. To make the scheme more refined the dish of the first day and the dish of the last day must be different too. Now he wants his assistant to make schedule for some period. Chef suspects that there is more than one possible schedule. Hence he wants his assistant to prepare all possible plans so that he can choose the best one among them. He asks you for help. At first tell him how many such schedules exist. Since the answer can be large output it modulo <b>10<sup>9</sup> + 7</b>, that is, you need to output the remainder of division of the actual answer by <b>10<sup>9</sup> + 7</b>.
+</p>
+<h3>Input</h3>
+<p style="text-align:justify">
+The first line of the input contains an integer <b>T</b>, the number of test cases. Each of the following <b>T</b> lines contains a single integer <b>N</b> denoting the number of days for which the schedule should be made.
+</p>
+<h3>Output</h3>
+<p>
+For each test case output a single integer in a separate line, the answer for the corresponding test case.</p>
+<h3>Constraints</h3>
+<p><b>1</b> &le; <b>T</b> &le; <b>100</b><br />
+<b>2</b> &le; <b>N</b> &le; <b>10<sup>9</sup></b></p>
+<h3>Example</h3>
 <pre>
 <b>Input:</b>
 3
@@ -96,11 +26,193 @@ For each test case output a single integer in a separate line, the answer for th
 12
 24
 240
-</pre>
-### Explanation
+</pre><h3>Explanation</h3>
+<p style="text-align:justify">
+<b>Case 1.</b> For <b>N = 2</b> days we have the following <b>12</b> schedules:</p>
+<table border = 1 width = 100%>
+<tr>
+<td align=center width = 50%>First day</td>
+<td align=center>Second day</td>
+</tr>
+<tr>
+<td> salo </td>
+<td> borsch </td>
+</tr>
+<tr>
+<td> salo </td>
+<td> varenyky </td>
+</tr>
+<tr>
+<td> salo </td>
+<td> galushky </td>
+</tr>
+<tr>
+<td> borsch </td>
+<td> salo </td>
+</tr>
+<tr>
+<td> borsch </td>
+<td> varenyky </td>
+</tr>
+<tr>
+<td> borsch </td>
+<td> galushky </td>
+</tr>
+<tr>
+<td> varenyky </td>
+<td> salo </td>
+</tr>
+<tr>
+<td> varenyky </td>
+<td> borsch </td>
+</tr>
+<tr>
+<td> varenyky </td>
+<td> galushky </td>
+</tr>
+<tr>
+<td> galushky </td>
+<td> salo </td>
+</tr>
+<tr>
+<td> galushky </td>
+<td> borsch </td>
+</tr>
+<tr>
+<td> galushky </td>
+<td> varenyky </td>
+</tr>
+</table>
 
-**Case 1.** For **N = 2** days we have the following **12** schedules:
-
-First daySecond day salo  borsch  salo  varenyky  salo  galushky  borsch  salo  borsch  varenyky  borsch  galushky  varenyky  salo  varenyky  borsch  varenyky  galushky  galushky  salo  galushky  borsch  galushky  varenyky **Case 2.** For **N = 3** we have the following **24** schedules:
-
-First daySecond dayThird day salo  borsch  varenyky  salo  borsch  galushky  salo  varenyky  borsch  salo  varenyky  galushky  salo  galushky  borsch  salo  galushky  varenyky  borsch  salo  varenyky  borsch  salo  galushky  borsch  varenyky  salo  borsch  varenyky  galushky  borsch  galushky  salo  borsch  galushky  varenyky  varenyky  salo  borsch  varenyky  salo  galushky  varenyky  borsch  salo  varenyky  borsch  galushky  varenyky  galushky  salo  varenyky  galushky  borsch  galushky  salo  borsch  galushky  salo  varenyky  galushky  borsch  salo  galushky  borsch  varenyky  galushky  varenyky  salo  galushky  varenyky  borsch **Case 3.** Don't be afraid. This time we will not provide you with a table of 240 schedules. The only thing we want to mention here is that apart from the previous two cases schedules for other values of **N** can have equal dishes (and even must have for **N &gt; 4**). For example the schedule **(salo, borsch, salo, borsch)** is a correct schedule for **N = 4** while the schedule **(varenyky, salo, galushky, verynky, salo)** is a correct schedule for **N = 5**.
+<p style="text-align:justify">
+<b>Case 2.</b> For <b>N = 3</b> we have the following <b>24</b> schedules:</p>
+<table border = 1 width = 100%>
+<tr>
+<td align=center width = 33.33%>First day</td>
+<td align=center width = 33.33%>Second day</td>
+<td align=center width = 33.33%>Third day</td>
+</tr>
+<tr>
+<td> salo </td>
+<td> borsch </td>
+<td> varenyky </td>
+</tr>
+<tr>
+<td> salo </td>
+<td> borsch </td>
+<td> galushky </td>
+</tr>
+<tr>
+<td> salo </td>
+<td> varenyky </td>
+<td> borsch </td>
+</tr>
+<tr>
+<td> salo </td>
+<td> varenyky </td>
+<td> galushky </td>
+</tr>
+<tr>
+<td> salo </td>
+<td> galushky </td>
+<td> borsch </td>
+</tr>
+<tr>
+<td> salo </td>
+<td> galushky </td>
+<td> varenyky </td>
+</tr>
+<tr>
+<td> borsch </td>
+<td> salo </td>
+<td> varenyky </td>
+</tr>
+<tr>
+<td> borsch </td>
+<td> salo </td>
+<td> galushky </td>
+</tr>
+<tr>
+<td> borsch </td>
+<td> varenyky </td>
+<td> salo </td>
+</tr>
+<tr>
+<td> borsch </td>
+<td> varenyky </td>
+<td> galushky </td>
+</tr>
+<tr>
+<td> borsch </td>
+<td> galushky </td>
+<td> salo </td>
+</tr>
+<tr>
+<td> borsch </td>
+<td> galushky </td>
+<td> varenyky </td>
+</tr>
+<tr>
+<td> varenyky </td>
+<td> salo </td>
+<td> borsch </td>
+</tr>
+<tr>
+<td> varenyky </td>
+<td> salo </td>
+<td> galushky </td>
+</tr>
+<tr>
+<td> varenyky </td>
+<td> borsch </td>
+<td> salo </td>
+</tr>
+<tr>
+<td> varenyky </td>
+<td> borsch </td>
+<td> galushky </td>
+</tr>
+<tr>
+<td> varenyky </td>
+<td> galushky </td>
+<td> salo </td>
+</tr>
+<tr>
+<td> varenyky </td>
+<td> galushky </td>
+<td> borsch </td>
+</tr>
+<tr>
+<td> galushky </td>
+<td> salo </td>
+<td> borsch </td>
+</tr>
+<tr>
+<td> galushky </td>
+<td> salo </td>
+<td> varenyky </td>
+</tr>
+<tr>
+<td> galushky </td>
+<td> borsch </td>
+<td> salo </td>
+</tr>
+<tr>
+<td> galushky </td>
+<td> borsch </td>
+<td> varenyky </td>
+</tr>
+<tr>
+<td> galushky </td>
+<td> varenyky </td>
+<td> salo </td>
+</tr>
+<tr>
+<td> galushky </td>
+<td> varenyky </td>
+<td> borsch </td>
+</tr>
+</table>
+<p></p><p style="text-align:justify">
+<b>Case 3.</b> Don't be afraid. This time we will not provide you with a table of 240 schedules. The only thing we want to mention here is that apart from the previous two cases schedules for other values of <b>N</b> can have equal dishes (and even must have for <b>N > 4</b>). For example the schedule <b>(salo, borsch, salo, borsch)</b> is a correct schedule for <b>N = 4</b> while the schedule <b>(varenyky, salo, galushky, verynky, salo)</b> is a correct schedule for <b>N = 5</b>.
+</p>

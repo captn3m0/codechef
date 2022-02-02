@@ -1,0 +1,25 @@
+---
+{"category_name":"medium","problem_code":"CDIGLNUM","problem_name":"Chef and Digits of Large Numbers","problemComponents":{"constraints":"- $1 \\leq T \\leq 10145$\n- $0 \\leq N \\leq 10^{100}$\n","constraintsState":true,"subtasks":"**Subtask #1 (10 points):**     \n - $1 \\leq T \\leq 200$   \n - $0 \\leq N \\leq 44000000$  \n\n**Subtask #2 (90 points):** Original constraints \n","subtasksState":true,"inputFormat":"- The first line of the input contains a single integer $T$ denoting the number of test cases. The description of $T$ test cases follows.\n- The first and only line of each test case contains a single integer $N$.\n","inputFormatState":true,"outputFormat":"For each test case, output in a single line the answer for given integer $N$\n","outputFormatState":true,"sampleTestCases":{"0":{"id":1,"input":"3\n13\n54\n198","output":"11\n48\n159","explanation":"**Test case $1$**: The only one-digit number that will not be included in the answer is $0$. The two-digit numbers that will not be included in the answer are $10, 11$ because their product of digits is less than $2! = 2$. So the answer is $= 14 - 1 - 2 = 11$. \n  \n**Test case $3$**:   \n- The one-digit number that will not be counted in the answer is $0$. \n- The two-digit digit numbers that will not be counted in the answer are $10, 11$, $20, 30$, $40, 50, 60,$ $70, 80, 90$ because their product of digits is less than $2! = 2$. \n- The three-digit numbers that will not be counted in the answer are $100$, $101, 102,$ $103, 104, 105$, $106, 107, 108$, $109, 110, 111,$ $112, 113, 114,$ $115, 120$,$ 121,$ $122, 130, 131,$ $140, 141,      \n150,$ $151, 160, 170$, $180, 190$ because their product of digits is less than $3! = 6$.  \nSo the answer is $= 199 - 1 - 10 - 29 = 159$.  ","isDeleted":false}}},"video_editorial_url":"","languages_supported":{"0":"CPP14","1":"C","2":"JAVA","3":"PYTH 3.6","4":"CPP17","5":"PYTH","6":"PYP3","7":"CS2","8":"ADA","9":"PYPY","10":"TEXT","11":"PAS fpc","12":"NODEJS","13":"RUBY","14":"PHP","15":"GO","16":"HASK","17":"TCL","18":"PERL","19":"SCALA","20":"LUA","21":"kotlin","22":"BASH","23":"JS","24":"LISP sbcl","25":"rust","26":"PAS gpc","27":"BF","28":"CLOJ","29":"R","30":"D","31":"CAML","32":"FORT","33":"ASM","34":"swift","35":"FS","36":"WSPC","37":"LISP clisp","38":"SQL","39":"SCM guile","40":"PERL6","41":"ERL","42":"CLPS","43":"ICK","44":"NICE","45":"PRLG","46":"ICON","47":"COB","48":"SCM chicken","49":"PIKE","50":"SCM qobi","51":"ST","52":"SQLQ","53":"NEM"},"max_timelimit":1,"source_sizelimit":50000,"problem_author":"abhisek_12345","problem_tester":"","date_added":"2-08-2021","tags":{"0":"abhisek_12345","1":"aug21","2":"digit","3":"math","4":"medium"},"problem_difficulty_level":"Unavailable","best_tag":"Digit Dp","editorial_url":"https://discuss.codechef.com/problems/CDIGLNUM","time":{"view_start_date":1629117000,"submit_start_date":1629117000,"visible_start_date":1629117000,"end_date":1735669800},"is_direct_submittable":false,"problemDiscussURL":"https://discuss.codechef.com/search?q=CDIGLNUM","is_proctored":false,"visitedContests":{},"layout":"problem"}
+---
+### Read problem statements in [Bengali](https://www.codechef.com/download/translated/AUG21/bengali/CDIGLNUM.pdf), [Mandarin Chinese](https://www.codechef.com/download/translated/AUG21/mandarin/CDIGLNUM.pdf), [Russian](https://www.codechef.com/download/translated/AUG21/russian/CDIGLNUM.pdf), and [Vietnamese](https://www.codechef.com/download/translated/AUG21/vietnamese/CDIGLNUM.pdf) as well.
+
+Chef and Abhishek are two friends. Abhishek really appreciates Chef's skills and wants to learn the secret formula behind Chef's tasty dishes. Chef will tell his secret formula only to a 
+competent person. So to check Abhishek's competency, Chef asked him to solve the following problem.  
+  
+
+Find the number of integers between $0$ and $N$ (inclusive) such that the product of digits of the integer is greater than or equal to $K!$, where $K$ is the number of digits present in the integer.  
+  
+**Example**: Consider $N = 1000$. 
+- The only digit present in the integer $0$ is $0$. So the product of digit is also $0$ and $1! = 1$. So $0$ will be not counted in the answer because $0 \ngtr 1$.
+- The digits present in the integer $25$ are $2, 5$. So the product of digits is $(2 \cdot 5) = 10$ and $2 ! = 2$. So $25$ will be counted in the answer because  $10 \geq 2$. 
+- The digits present in the integer $11$ are $1, 1$. So the product of digits is $(1 \cdot 1) = 1$ and $2 ! = 2$. So $11$ will be not counted in the answer because $1 \ngtr 2$.
+- The digits present in the integer $157$ are $1, 5, 7$. So the product of digits is $(1 \cdot 5 \cdot 7) = 35$ and  $3! = 6$. So $157$ will be counted in the answer because $35 \geq 6$. 
+
+
+Since Abhishek is a lazy person, he wants your help to solve the problem.  
+
+
+  
+**Note**: $K!$ represents the factorial of $K$ and $K! = 1 \cdot 2 \cdot 3 \cdot \ldots \cdot (K-1) \cdot K$ .  
+  
+<aside style='background: #f8f8f8;padding: 10px 15px;'><div>All submissions for this problem are available.</div></aside>

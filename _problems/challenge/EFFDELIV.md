@@ -1,164 +1,100 @@
 ---
-category_name: challenge
-problem_code: EFFDELIV
-problem_name: 'Efficient Delivery'
-languages_supported:
-    - C
-    - CPP14
-    - JAVA
-    - PYTH
-    - 'PYTH 3.5'
-    - PYPY
-    - CS2
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - RUBY
-    - PHP
-    - GO
-    - NODEJS
-    - HASK
-    - SCALA
-    - D
-    - PERL
-    - FORT
-    - WSPC
-    - ADA
-    - CAML
-    - ICK
-    - BF
-    - ASM
-    - CLPS
-    - PRLG
-    - ICON
-    - 'SCM qobi'
-    - PIKE
-    - ST
-    - NICE
-    - LUA
-    - BASH
-    - NEM
-    - 'LISP sbcl'
-    - 'LISP clisp'
-    - 'SCM guile'
-    - JS
-    - ERL
-    - TCL
-    - PERL6
-    - TEXT
-    - 'SCM chicken'
-    - CLOJ
-    - FS
-max_timelimit: '5'
-source_sizelimit: '50000'
-problem_author: xcwgf666
-problem_tester: null
-date_added: 12-09-2015
-tags:
-    - challenge
-    - dijkstra
-    - knapsack
-    - oct15
-    - xcwgf666
-editorial_url: 'http://discuss.codechef.com/problems/EFFDELIV'
-time:
-    view_start_date: 1444642200
-    submit_start_date: 1444642200
-    visible_start_date: 1444642200
-    end_date: 1735669800
-    current: 1525454418
-is_direct_submittable: false
-layout: problem
+{"category_name":"challenge","problem_code":"EFFDELIV","problem_name":"Efficient Delivery","languages_supported":{"0":"C","1":"CPP14","2":"JAVA","3":"PYTH","4":"PYTH 3.5","5":"PYPY","6":"CS2","7":"PAS fpc","8":"PAS gpc","9":"RUBY","10":"PHP","11":"GO","12":"NODEJS","13":"HASK","14":"SCALA","15":"D","16":"PERL","17":"FORT","18":"WSPC","19":"ADA","20":"CAML","21":"ICK","22":"BF","23":"ASM","24":"CLPS","25":"PRLG","26":"ICON","27":"SCM qobi","28":"PIKE","29":"ST","30":"NICE","31":"LUA","32":"BASH","33":"NEM","34":"LISP sbcl","35":"LISP clisp","36":"SCM guile","37":"JS","38":"ERL","39":"TCL","40":"PERL6","41":"TEXT","42":"SCM chicken","43":"CLOJ","44":"FS"},"max_timelimit":5,"source_sizelimit":50000,"problem_author":"xcwgf666","problem_tester":null,"date_added":"12-09-2015","tags":{"0":"challenge","1":"dijkstra","2":"knapsack","3":"oct15","4":"xcwgf666"},"editorial_url":"http://discuss.codechef.com/problems/EFFDELIV","time":{"view_start_date":1444642200,"submit_start_date":1444642200,"visible_start_date":1444642200,"end_date":1735669800},"is_direct_submittable":false,"layout":"problem"}
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese ](http://www.codechef.com/download/translated/OCT15/mandarin/EFFDELIV.pdf) and [Russian](http://www.codechef.com/download/translated/OCT15/russian/EFFDELIV.pdf) 
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3> Read problems statements in <a target="_blank" href="http://www.codechef.com/download/translated/OCT15/mandarin/EFFDELIV.pdf">Mandarin Chinese </a> and <a target="_blank" href="http://www.codechef.com/download/translated/OCT15/russian/EFFDELIV.pdf">Russian</a> </h3>
+<p>Sergey works as a delivery boy. Every day he has a number of deliveries to be completed.</p>
+<p>Sergey lives in Bytetown - a city, consisting of <b>N</b> junctions, and <b>M</b> roads connecting these junctions. More precisely, the <b>i</b><sup>th</sup> road connects the junctions with the numbers <b>X<sub>i</sub></b> and <b>Y<sub>i</sub></b>. Each of these roads has its own (positive) length <b>Z<sub>i</sub></b>, and no road connects a junction to itself.</p>
+<p>There are <b>K</b> delivery orders for Sergey. Each order is denoted with <b>four</b> integers: <b>A<sub>j</sub></b>, <b>B<sub>j</sub></b>, <b>V<sub>j</sub></b> and <b>C<sub>j</sub></b>. It means that for the <b>j</b><sup>th</sup> order Sergey has to pick a parcel of weight <b>V<sub>j</sub></b> at the junction numbered <b>A<sub>j</sub></b> and deliver it to the junction numbered <b>B<sub>j</sub></b>. After the parcel is delivered, Sergey gets <b>C<sub>j</sub></b> burles of reward. Sergey can't complete the same order twice or more times.</p>
+<p>So, the business day for Sergey looks as follows: he remembers the whole list of orders and starts at his initial junction numbered <b>S</b>. Then, he travel the streets of the city via his bike. If Sergey visits a junction, where there is one or more orders available he can either take some of the orders and load the corresponding parcels on his bike, or not take anything now but do it later, if he appears at the same junction again. When Sergey visits a junction which is the destination for some of the parcels that are currently with him, he can complete these orders and unload the corresponding parcels.</p>
+<p>Sadly, Sergey is not infinitely strong. Though he can carry any number of parcels at once, if the total weight of the parcels exceeds <b>W</b> Sergey won't be able to carry them on his bike. Sergey also can't take a parcel and not deliver it because there will be complains, hurting Sergey's reputation.</p>
+<p>The bike has enough fuel to travel only for <b>D</b> units of distance. It is not necessary for Sergey to get back to his initial junction because he has a lot of friends in Bytetown who will drop him back after the party (Sorry, you're not invited). It is clear that under the given constraints, Sergey might be not able to deliver all the parcels. So your task is to plan the delivery for Sergey in such a way that:</p>
+<ul>
+<li>He moves only by streets</li>
+<li>The total travelled distance doesn't exceed <b>D</b>.</li>
+<li>There are no undelivered parcels with Sergey by the end of the delivery. In other words, all the parcels that Sergey has picked up should be delivered.</li>
+<li>At any time, Sergey does not carry more than <b>W</b> units of weight.</li>
+<li>The most important: the profit Sergey gets by the end of the day is maximized. You don't have to find the optimal delivery, but the more profit there is, the more are the points you'll get.
+</li></ul>
 
-Sergey works as a delivery boy. Every day he has a number of deliveries to be completed.
+<h3>Input</h3>
+<p>The first line contains two space separated integers <b>N</b> and <b>M</b> denoting the number of junctions and the number of streets.</p>
+<p>Each of the following <b>M</b> lines contain three space separated integers <b>X<sub>i</sub></b>, <b>Y<sub>i</sub></b> and <b>Z<sub>i</sub></b>, denoting that the <b>i</b><sup>th</sup> street of length <b>Z<sub>i</sub></b> connects the <b>X<sub>i</sub></b><sup>th</sup> and the <b>Y<sub>i</sub></b><sup>th</sup> junctions. All the streets are <b>bidirectional</b>.</p>
+<p>The next line contains a single integer <b>K</b> denoting the number of orders.</p>
+<p>Each of the following <b>K</b> lines contain four space-separated integers <b>A<sub>j</sub></b>, <b>B<sub>j</sub></b>, <b>V<sub>j</sub></b> and <b>C<sub>j</sub></b>, denoting that for the <b>j</b><sup>th</sup> order, the parcel should be picked up at the <b>A<sub>j</sub></b><sup>th</sup> junction, left at the <b>B<sub>j</sub></b><sup>th</sup> junction, has the weight of <b>V<sub>j</sub></b>, and when delivered, gives <b>C<sub>j</sub></b> burles of profit.</p>
+<p>The following line contains three space-separated integers <b>S</b>, <b>D</b> and <b>W</b> denoting the starting junction, the maximal distance that Sergey can travel and the maximum weight he can carry at any time, respectively.</p>
+<h3>Output</h3>
+<p>The first line of output should contain a single integer <b>Op</b>, denoting the number of operations. Each of the following <b>Op</b> lines should contain the operation code and the parameter. The following are the descriptions of the operation codes and the meanings of the parameters:</p>
+<ul>
+<li>0 <b>P</b>. Here <b>0</b> is the operation code and <b>P</b> is the parameter. The meaning is that Sergey should move from his current junction to the adjacent junction <b>P</b>. In case there is no <b>direct one-street</b> connection between Sergey's current position and the junction <b>P</b>, you will receive a <em>wrong answer</em> verdict. In case Sergey is unable to reach the junction <b>P</b> because the amount of fuel is too low, you will also get <em>wrong answer</em> verdict.</li>
+<li>1 <b>P</b>. Here <b>1</b> is the operation code and <b>P</b> is the parameter. The meaning is that Sergey should takes the order numbered <b>P</b> in the orders' list. In case this order was already taken or Sergey is not in the junction which is the pick-up junction for the order, you will get a <em>wrong answer</em> verdict. In case the weight that Sergey will have to carry exceeds <b>W</b> after taking this order, you'll also get a <em>wrong answer</em> verdict.</li>
+<li>2 <b>P</b>. Here <b>2</b> is the operation code and <b>P</b> is the parameter. The meaning is that Sergey should deliver the parcel for the order number <b>P</b> in 1-based orders' list. In case Sergey doesn't carry the parcel from this order, you'll receive <em>wrong answer</em> verdict.
+</li></ul>
+<p>You can also get a <em>wrong answer</em> if your output doesn't satisfy the format above or some parcels picked up by Sergey are left undelivered. If all the requirements are satisfied, you'll receive an <em>accepted</em> verdict ;).</p>
 
-Sergey lives in Bytetown - a city, consisting of **N** junctions, and **M** roads connecting these junctions. More precisely, the **i**th road connects the junctions with the numbers **Xi** and **Yi**. Each of these roads has its own (positive) length **Zi**, and no road connects a junction to itself.
-
-There are **K** delivery orders for Sergey. Each order is denoted with **four** integers: **Aj**, **Bj**, **Vj** and **Cj**. It means that for the **j**th order Sergey has to pick a parcel of weight **Vj** at the junction numbered **Aj** and deliver it to the junction numbered **Bj**. After the parcel is delivered, Sergey gets **Cj** burles of reward. Sergey can't complete the same order twice or more times.
-
-So, the business day for Sergey looks as follows: he remembers the whole list of orders and starts at his initial junction numbered **S**. Then, he travel the streets of the city via his bike. If Sergey visits a junction, where there is one or more orders available he can either take some of the orders and load the corresponding parcels on his bike, or not take anything now but do it later, if he appears at the same junction again. When Sergey visits a junction which is the destination for some of the parcels that are currently with him, he can complete these orders and unload the corresponding parcels.
-
-Sadly, Sergey is not infinitely strong. Though he can carry any number of parcels at once, if the total weight of the parcels exceeds **W** Sergey won't be able to carry them on his bike. Sergey also can't take a parcel and not deliver it because there will be complains, hurting Sergey's reputation.
-
-The bike has enough fuel to travel only for **D** units of distance. It is not necessary for Sergey to get back to his initial junction because he has a lot of friends in Bytetown who will drop him back after the party (Sorry, you're not invited). It is clear that under the given constraints, Sergey might be not able to deliver all the parcels. So your task is to plan the delivery for Sergey in such a way that:
-
-- He moves only by streets
-- The total travelled distance doesn't exceed **D**.
-- There are no undelivered parcels with Sergey by the end of the delivery. In other words, all the parcels that Sergey has picked up should be delivered.
-- At any time, Sergey does not carry more than **W** units of weight.
-- The most important: the profit Sergey gets by the end of the day is maximized. You don't have to find the optimal delivery, but the more profit there is, the more are the points you'll get.
-
-### Input
-
-The first line contains two space separated integers **N** and **M** denoting the number of junctions and the number of streets.
-
-Each of the following **M** lines contain three space separated integers **Xi**, **Yi** and **Zi**, denoting that the **i**th street of length **Zi** connects the **Xi**th and the **Yi**th junctions. All the streets are **bidirectional**.
-
-The next line contains a single integer **K** denoting the number of orders.
-
-Each of the following **K** lines contain four space-separated integers **Aj**, **Bj**, **Vj** and **Cj**, denoting that for the **j**th order, the parcel should be picked up at the **Aj**th junction, left at the **Bj**th junction, has the weight of **Vj**, and when delivered, gives **Cj** burles of profit.
-
-The following line contains three space-separated integers **S**, **D** and **W** denoting the starting junction, the maximal distance that Sergey can travel and the maximum weight he can carry at any time, respectively.
-
-### Output
-
-The first line of output should contain a single integer **Op**, denoting the number of operations. Each of the following **Op** lines should contain the operation code and the parameter. The following are the descriptions of the operation codes and the meanings of the parameters:
-
-- 0 **P**. Here 0 is the operation code and **P** is the parameter. The meaning is that Sergey should move from his current junction to the adjacent junction **P**. In case there is no **direct one-street** connection between Sergey's current position and the junction **P**, you will receive a *wrong answer* verdict. In case Sergey is unable to reach the junction **P** because the amount of fuel is too low, you will also get *wrong answer* verdict.
-- 1 **P**. Here **1** is the operation code and **P** is the parameter. The meaning is that Sergey should takes the order numbered **P** in the orders' list. In case this order was already taken or Sergey is not in the junction which is the pick-up junction for the order, you will get a *wrong answer* verdict. In case the weight that Sergey will have to carry exceeds **W** after taking this order, you'll also get a *wrong answer* verdict.
-- 2 **P**. Here **2** is the operation code and **P** is the parameter. The meaning is that Sergey should deliver the parcel for the order number **P** in 1-based orders' list. In case Sergey doesn't carry the parcel from this order, you'll receive *wrong answer* verdict.
-
-You can also get a *wrong answer* if your output doesn't satisfy the format above or some parcels picked up by Sergey are left undelivered. If all the requirements are satisfied, you'll receive an *accepted* verdict ;).
-
-### Test data and scoring
-
-There are **20** test cases in total. They are split into **5** groups, **4** tests in each.
-
-- In all the test cases: 
-    - **1** ≤ **Xi, Yi, Aj, Bj, S** ≤ **N**
-    - **1** ≤ **Vj** ≤ **W**
-    - **1** ≤ **Cj** ≤ **106**
-    - It is possible to reach **any** junction from the initial junction **S** via the streets.
-    - The streets are **bidirectional**.
-    - Each pair of junctions is connected with **no more that one** street.
-- Group 1: 
-    - **1** ≤ **N** ≤ **100**
-    - **1** ≤ **M, K** ≤ **1000**
-    - **1** ≤ **D, W** ≤ **10000**
-    - **1** ≤ **Zi** ≤ **100**, for all the streets.
-- Group 2: 
-    - **1** ≤ **N** ≤ **1000**
-    - **1** ≤ **M, K** ≤ **1000**
-    - **1** ≤ **D** ≤ **10000**
-    - **1** ≤ **W** ≤ **106**
-    - **Zi** = 1 for all the streets.
-- Group 3: 
-    - **1** ≤ **N** ≤ **10000**
-    - **M** = **N-1**
-    - **1** ≤ **K** ≤ **10000**
-    - **1** ≤ **D** ≤ **105**
-    - **1** ≤ **W** ≤ **10000**
-    - **1** ≤ **Zi** ≤ **100**, for all the streets
-- Group 4: 
-    - **1** ≤ **N** ≤ **105**
-    - **1** ≤ **M, K** ≤ **105**
-    - **1** ≤ **D** ≤ **105**
-    - **1** ≤ **W** ≤ **105**
-    - **1** ≤ **Zi** ≤ **10**, for all the streets
-- Group 5: 
-    - **1** ≤ **N** ≤ **105**
-    - **1** ≤ **M, K** ≤ **105**
-    - **1** ≤ **D** ≤ **105**
-    - **1** ≤ **W** ≤ **109**
-    - **1** ≤ **Zi** ≤ **10**, for all the streets
-
-The score for a single test case equals the total profit of Sergey. The score for the whole task is the sum of the scores among all the test cases.
-
-During the contest, you won't see the score of your solution on the complete test set. Instead of this, you will see the score, based on **4** test cases: one test case for each of groups **1-4**. You will also see whether your program got **accepted** verdict on **all** the test cases (not only these 4), but time and memory stats will be reported based **only** on four premilinary test cases.
-
-### Example
-
+<h3>Test data and scoring</h3>
+<p>There are <b>20</b> test cases in total. They are split into <b>5</b> groups, <b>4</b> tests in each.
+</p>
+<p><ul>
+<li>In all the test cases:
+<ul>
+<li><b>1</b> ≤ <b>X<sub>i</sub>, Y<sub>i</sub>, A<sub>j</sub>, B<sub>j</sub>, S</b> ≤ <b>N</b></li>
+<li><b>1</b> ≤ <b>V<sub>j</sub></b> ≤ <b>W</b></li>
+<li><b>1</b> ≤ <b>C<sub>j</sub></b> ≤ <b>10<sup>6</sup></b></li>
+<li>It is possible to reach <b>any</b> junction from the initial junction <b>S</b> via the streets.</li>
+<li>The streets are <b>bidirectional</b>.</li>
+<li>Each pair of junctions is connected with <b>no more that one</b> street.</li>
+</ul>
+</li>
+<li>Group 1:
+<ul>
+<li><b>1</b> ≤ <b>N</b> ≤ <b>100</b></li>
+<li><b>1</b> ≤ <b>M, K</b> ≤ <b>1000</b></li>
+<li><b>1</b> ≤ <b>D, W</b> ≤ <b>10000</b></li>
+<li><b>1</b> ≤ <b>Z<sub>i</sub></b> ≤ <b>100</b>, for all the streets.</li>
+</ul>
+</li>
+<li>Group 2:
+<ul>
+<li><b>1</b> ≤ <b>N</b> ≤ <b>1000</b></li>
+<li><b>1</b> ≤ <b>M, K</b> ≤ <b>1000</b></li>
+<li><b>1</b> ≤ <b>D</b> ≤ <b>10000</b></li>
+<li><b>1</b> ≤ <b>W</b> ≤ <b>10<sup>6</sup></b></li>
+<li><b>Z<sub>i</sub></b> = 1 for all the streets.</li>
+</ul>
+</li>
+<li>Group 3:
+<ul>
+<li><b>1</b> ≤ <b>N</b> ≤ <b>10000</b></li>
+<li><b>M</b> = <b>N-1</b></li>
+<li><b>1</b> ≤ <b>K</b> ≤ <b>10000</b></li>
+<li><b>1</b> ≤ <b>D</b> ≤ <b>10<sup>5</sup></b></li>
+<li><b>1</b> ≤ <b>W</b> ≤ <b>10000</b></li>
+<li><b>1</b> ≤ <b>Z<sub>i</sub></b> ≤ <b>100</b>, for all the streets</li>
+</ul>
+</li>
+<li>Group 4:
+<ul>
+<li><b>1</b> ≤ <b>N</b> ≤ <b>10<sup>5</sup></b></li>
+<li><b>1</b> ≤ <b>M, K</b> ≤ <b>10<sup>5</sup></b></li>
+<li><b>1</b> ≤ <b>D</b> ≤ <b>10<sup>5</sup></b></li>
+<li><b>1</b> ≤ <b>W</b> ≤ <b>10<sup>5</sup></b></li>
+<li><b>1</b> ≤ <b>Z<sub>i</sub></b> ≤ <b>10</b>, for all the streets</li>
+</ul>
+</li>
+<li>Group 5:
+<ul>
+<li><b>1</b> ≤ <b>N</b> ≤ <b>10<sup>5</sup></b></li>
+<li><b>1</b> ≤ <b>M, K</b> ≤ <b>10<sup>5</sup></b></li>
+<li><b>1</b> ≤ <b>D</b> ≤ <b>10<sup>5</sup></b></li>
+<li><b>1</b> ≤ <b>W</b> ≤ <b>10<sup>9</sup></b></li>
+<li><b>1</b> ≤ <b>Z<sub>i</sub></b> ≤ <b>10</b>, for all the streets</li>
+</ul>
+</li>
+</ul>
+</p>
+<p>The score for a single test case equals the total profit of Sergey. The score for the whole task is the sum of the scores among all the test cases.</p>
+<p>During the contest, you won't see the score of your solution on the complete test set. Instead of this, you will see the score, based on <b>4</b> test cases: one test case for each of groups <b>1-4</b>. You will also see whether your program got <b>accepted</b> verdict on <b>all</b> the test cases (not only these 4), but time and memory stats will be reported based <b>only</b> on four premilinary test cases.</p>
+<h3>Example</h3>
 <pre><b>Input:</b>
 <tt>5 5
 1 2 1
@@ -183,8 +119,7 @@ During the contest, you won't see the score of your solution on the complete tes
 2 1</tt>
 
 </pre>
-### Explanation
-
-Sergey starts at the junction numbered the **1**st. Before moving on, he takes the order numbered the **1**st. Then he moves to the **2**nd junction and there he takes the **2**nd order. Then, Sergey moves to the **5**th junction, where he delivers the parcel from the **2**nd order. Finally, he moves to the **4**th junction, where he delivers the parcel from the **1**th order.
-
-The total profit that Sergey receives from this delivery is **(10 + 15) = 25** burles. Hence, this answer will get the score of **25**.
+<h3>Explanation</h3>
+<p>
+Sergey starts at the junction numbered the <b>1</b><sup>st</sup>. Before moving on, he takes the order numbered the <b>1</b><sup>st</sup>. Then he moves to the <b>2</b><sup>nd</sup> junction and there he takes the <b>2</b><sup>nd</sup> order. Then, Sergey moves to the <b>5</b><sup>th</sup> junction, where he delivers the parcel from the <b>2</b><sup>nd</sup> order. Finally, he moves to the <b>4</b><sup>th</sup> junction, where he delivers the parcel from the <b>1</b><sup>th</sup> order.</p>
+<p>The total profit that Sergey receives from this delivery is <b>(10 + 15) = 25</b> burles. Hence, this answer will get the score of <b>25</b>.</p>

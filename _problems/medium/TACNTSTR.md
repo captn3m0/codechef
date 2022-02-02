@@ -1,98 +1,38 @@
 ---
-category_name: medium
-problem_code: TACNTSTR
-problem_name: 'Counting Strings'
-languages_supported:
-    - ADA
-    - ASM
-    - BASH
-    - BF
-    - C
-    - 'C99 strict'
-    - CAML
-    - CLOJ
-    - CLPS
-    - 'CPP 4.3.2'
-    - 'CPP 4.9.2'
-    - CPP14
-    - CS2
-    - D
-    - ERL
-    - FORT
-    - FS
-    - GO
-    - HASK
-    - ICK
-    - ICON
-    - JAVA
-    - JS
-    - 'LISP clisp'
-    - 'LISP sbcl'
-    - LUA
-    - NEM
-    - NICE
-    - NODEJS
-    - 'PAS fpc'
-    - 'PAS gpc'
-    - PERL
-    - PERL6
-    - PHP
-    - PIKE
-    - PRLG
-    - PYPY
-    - PYTH
-    - 'PYTH 3.4'
-    - RUBY
-    - SCALA
-    - 'SCM chicken'
-    - 'SCM guile'
-    - 'SCM qobi'
-    - ST
-    - TCL
-    - TEXT
-    - WSPC
-max_timelimit: '1'
-source_sizelimit: '50000'
-problem_author: tuananh93
-problem_tester: errichto
-date_added: 9-09-2016
-tags:
-    - cook74
-    - dynamic
-    - medium
-    - tuananh93
-editorial_url: 'http://discuss.codechef.com/problems/TACNTSTR'
-time:
-    view_start_date: 1474223400
-    submit_start_date: 1474223400
-    visible_start_date: 1474223400
-    end_date: 1735669800
-    current: 1493557941
-layout: problem
+{"category_name":"medium","problem_code":"TACNTSTR","problem_name":"Counting Strings","languages_supported":{"0":"ADA","1":"ASM","2":"BASH","3":"BF","4":"C","5":"C99 strict","6":"CAML","7":"CLOJ","8":"CLPS","9":"CPP 4.3.2","10":"CPP 4.9.2","11":"CPP14","12":"CS2","13":"D","14":"ERL","15":"FORT","16":"FS","17":"GO","18":"HASK","19":"ICK","20":"ICON","21":"JAVA","22":"JS","23":"LISP clisp","24":"LISP sbcl","25":"LUA","26":"NEM","27":"NICE","28":"NODEJS","29":"PAS fpc","30":"PAS gpc","31":"PERL","32":"PERL6","33":"PHP","34":"PIKE","35":"PRLG","36":"PYPY","37":"PYTH","38":"PYTH 3.4","39":"RUBY","40":"SCALA","41":"SCM chicken","42":"SCM guile","43":"SCM qobi","44":"ST","45":"TCL","46":"TEXT","47":"WSPC"},"max_timelimit":1,"source_sizelimit":50000,"problem_author":"tuananh93","problem_tester":"errichto","date_added":"9-09-2016","tags":{"0":"cook74","1":"dynamic","2":"medium","3":"tuananh93"},"editorial_url":"http://discuss.codechef.com/problems/TACNTSTR","time":{"view_start_date":1474223400,"submit_start_date":1474223400,"visible_start_date":1474223400,"end_date":1735669800},"layout":"problem"}
 ---
-All submissions for this problem are available.###  Read problems statements in [Mandarin Chinese](http://www.codechef.com/download/translated/COOK74/mandarin/TACNTSTR.pdf), [Russian](http://www.codechef.com/download/translated/COOK74/russian/TACNTSTR.pdf) and [Vietnamese](http://www.codechef.com/download/translated/COOK74/vietnamese/TACNTSTR.pdf) as well.
+<span class="solution-visible-txt">All submissions for this problem are available.</span><h3> Read problems statements in <a target="_blank" href="http://www.codechef.com/download/translated/COOK74/mandarin/TACNTSTR.pdf">Mandarin Chinese</a>, <a target="_blank" href="http://www.codechef.com/download/translated/COOK74/russian/TACNTSTR.pdf">Russian</a> and <a target="_blank" href="http://www.codechef.com/download/translated/COOK74/vietnamese/TACNTSTR.pdf">Vietnamese</a> as well.</h3>
 
-You are given a string **s** consisting of upper case Latin alphabets, i.e. from 'A' to 'Z'. Your task is to find how many strings **t** with length equal to that of **S**, also consisting of upper case Latin alphabet are there satisfying the following conditions:
 
-- String **t** is lexicographical larger than **s**
-- When you write both **s** and **t** in the reverse order, **t** is still lexicographical larger than **s**.
 
-Find out number of such strings **t**. As the answer could be very large, output it modulo **109 + 7**
+<p>
+You are given a string <b>s</b> consisting of upper case Latin alphabets, i.e. from 'A' to 'Z'. Your task is to find how many strings <b>t</b> with length equal to that of <b>S</b>, also consisting of upper case Latin alphabet are there satisfying the following conditions:
+<ul>
+<li>String <b>t</b> is lexicographical larger than <b>s</b></li>
+<li>When you write both <b>s</b> and <b>t</b> in the reverse order, <b>t</b> is still lexicographical larger than <b>s</b>.</li>
+</ul>
+</p>
 
-### Input
+<p>
+Find out number of such strings <b>t</b>. As the answer could be very large, output it modulo <b>10<sup>9</sup> + 7</b>
+</p>
 
-The only line of input contains string **s**.
+<h3>Input</h3>
+<p>
+The only line of input contains string <b>s</b>.
+</p>
 
-### Output
+<h3>Output</h3>
+<p>
+Output a single line containing an integer corresponding to the result in modulo <b>10<sup>9</sup> + 7</b>.
+</p>
 
-Output a single line containing an integer corresponding to the result in modulo **109 + 7**.
+<h3>Constraints</h3>
+<ul>
+<li><b>1 ≤ |S| ≤ 10<sup>5</sup></b></li>
+</ul>
 
-### Constraints
-
-- **1 ≤ |S| ≤ 105**
-
-### Example
-
+<h3>Example</h3>
 <pre>
 <b>Input 1</b>:
 ZAZ
@@ -106,8 +46,13 @@ XYZ
 <b>Output 2</b>:
 5
 </pre>
-### Explanation
 
-**Test #1:** To make a valid string **t**, you can just replace the letter A in **S** by any other letter, e.g. by replacing 'A' by 'B', we get **t = ZBZ**. Note that ZBZ is lexicographically larger than ZAZ. Reverse of **t** (i.e. ZBZ) is also lexicographically larger than reverse of **s** (i.e. ZAZ).
+<h3>Explanation</h3>
 
-**Test #2:** there are 5 valid strings: YYZ, ZYZ, XZZ, YZZ, ZZZ
+<p>
+<b>Test #1:</b> To make a valid string <b>t</b>, you can just replace the letter A in <b>S</b> by any other letter, e.g. by replacing 'A' by 'B', we get <b>t = ZBZ</b>. Note that ZBZ is lexicographically larger than ZAZ. Reverse of <b>t</b> (i.e. ZBZ) is also lexicographically larger than reverse of <b>s</b> (i.e. ZAZ).
+</p>
+
+<p>
+<b>Test #2:</b> there are 5 valid strings: YYZ, ZYZ, XZZ, YZZ, ZZZ
+</p>

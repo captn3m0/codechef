@@ -1,36 +1,19 @@
 ---
-languages_supported:
-    - NA
-title: NONPALIN
-category: NA
-old_version: true
-problem_code: NONPALIN
-tags:
-    - NA
-layout: problem
+{"languages_supported":{"0":"NA"},"title":"NONPALIN","category":"NA","old_version":true,"problem_code":"NONPALIN","tags":{"0":"NA"},"layout":"problem"}
 ---
-###  All submissions for this problem are available. 
 
-For the given string **S** of length **N** you need to find for each **L** from **1** to **N** the first non-palindrome substring of **S** that has length **L**. That is, for each **L** from **1** to **N** you need to find the smallest positive integer **K &lt;= N - L + 1** such that the string **S\[K, K + L - 1\]** is not a palindrome. Denote this number by **K(L)**. Here **S\[i, j\]** stands for the substring of **S** composed of its characters in positions **i, i + 1, ..., j**. Characters of **S** are numbered from **1** to **N**. If for some **L** there is no such **K** set **K(L) = 0**. After you find all numbers **K(1), K(2), ..., K(N)** output the following sum
-
- **100007N - 1 \* K(1) + 100007N - 2 \* K(2) + ... + 100007 \* K(N - 1) + K(N)**  
- modulo **264**. 
-
- **Remark.** The string is called a palindrome if it coincides with its reverse. So **abacaba** and **abba** are palindromes but **codechef** and **abbc** are not. ### Input
-
-The first line contains a single integer **T**, the number of test cases. **T** test cases follow. The only line of each test case contains a non-empty string composed only of lowercase letters of the English alphabet.
-
-### Output
-
-For each test case, output a single line containing the corresponding sum constructed by numbers **K(1), K(2), ..., K(N)** as mentioned in the problem statement modulo **264**.
-
-### Constraints
-
- **1 &lt;= T &lt;= 20 
- 1 &lt;= length of S &lt;= 100000**
-
-### Example
-
+<h3> All submissions for this problem are available. </h3><div class="primary-colum-width-left">
+<div class="prob">
+<p>For the given string <b>S</b> of length <b>N</b> you need to find for each <b>L</b> from <b>1</b> to <b>N</b> the first non-palindrome substring of <b>S</b> that has length <b>L</b>. That is, for each <b>L</b> from <b>1</b> to <b>N</b> you need to find the smallest positive integer <b>K &lt;= N - L + 1</b> such that the string <b>S[K, K + L - 1]</b> is not a palindrome. Denote this number by <b>K(L)</b>. Here <b>S[i, j]</b> stands for the substring of <b>S</b> composed of its characters in positions <b>i, i + 1, ..., j</b>. Characters of <b>S</b> are numbered from <b>1</b> to <b>N</b>. If for some <b>L</b> there is no such <b>K</b> set <b>K(L) = 0</b>. After you find all numbers <b>K(1), K(2), ..., K(N)</b> output the following sum</p>
+<span class="anton-center"><b> 100007<sup>N - 1</sup> * K(1) + 100007<sup>N - 2</sup> * K(2) + ... + 100007 * K(N - 1) + K(N)</b> </span> <br /> modulo <b>2<sup>64</sup></b>. <br /><br /> <b>Remark.</b> The string is called a palindrome if it coincides with its reverse. So <b>abacaba</b> and <b>abba</b> are palindromes but <b>codechef</b> and <b>abbc</b> are not.
+<p> </p>
+<h3>Input</h3>
+<p>The first line contains a single integer <b>T</b>, the number of test cases. <b>T</b> test cases follow. The only line of each test case contains a non-empty  string composed only of lowercase letters of the English alphabet.</p>
+<h3>Output</h3>
+<p>For each test case, output a single line containing the corresponding sum constructed by numbers <b>K(1), K(2), ..., K(N)</b> as mentioned in the problem statement modulo <b>2<sup>64</sup></b>.</p>
+<h3>Constraints</h3>
+<p><b> 1 &lt;= T &lt;= 20 <br /> 1 &lt;= length of S &lt;= 100000 </b></p>
+<h3>Example</h3>
 <pre><b>Input:</b>
 4
 abacaba
@@ -44,13 +27,7 @@ aaaa
 18134494634143926857
 0
 </pre>
-### Explanation
-
-Actual values of **K(1), K(2), ..., K(N)** in the tests are: 
-abacaba: {0, 1, 2, 1, 1, 1, 0} 
-abba: {0, 1, 1, 0} 
-codechef: {0, 1, 1, 1, 1, 1, 1, 1}
-
-
-
-aaaa: {0, 0, 0, 0}
+<h3>Explanation</h3>
+Actual values of <b>K(1), K(2), ..., K(N)</b> in the tests are: <br />abacaba: {0, 1, 2, 1, 1, 1, 0} <br />abba: {0, 1, 1, 0} <br />codechef: {0, 1, 1, 1, 1, 1, 1, 1}</div>
+</div>
+<p>aaaa: {0, 0, 0, 0}</p>    
