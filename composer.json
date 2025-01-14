@@ -1,6 +1,6 @@
 {
     "require": {
-        "consolidation/robo": "~3",
+        "consolidation/robo": "~5",
         "voku/simple_html_dom": "^4.8"
     },
     "scripts": {
